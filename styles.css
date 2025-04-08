@@ -15,6 +15,8 @@
   --text-subtle: #4B5563;
 }
 
+
+
 body {
 	background-color: #FBFBFB;
 	margin: 0px;
@@ -79,8 +81,10 @@ input:focus, textarea:focus {
     width: 100%;
     height: 96px;
     padding: 0 24px;
-/*     border: 1px solid black; */
+    /* border: 1px solid; */
+    /* border: 1px solid blue; */
 }
+
 
 /* Nav Flex Layout */
 .NavBar {
@@ -120,6 +124,7 @@ input:focus, textarea:focus {
     justify-content: center;
     transition: all 0.2s ease;
     line-height: 1;
+    /* border: 1px solid; */
 }
 
 /* Login Button (border-only) */
@@ -147,9 +152,11 @@ input:focus, textarea:focus {
 /* ========== LOGO ========== */
 
 .LogoImage {
-  height: 140px;
-  margin-top: 5px;
+  height: 35px;
+  margin-top: 2px;
   width: auto;
+  margin-left: 16px;
+  /* border: 1px solid; */
   object-fit: contain;
   display: block;
 }
@@ -875,6 +882,8 @@ input:focus, textarea:focus {
   border-radius: 8px;
   font-weight: 600;
   cursor: pointer;
+  position: relative;
+  overflow: hidden;
   transition: background-color 0.2s var(--easing-snappy),
               box-shadow 0.2s ease, transform 0.15s ease;
 }
@@ -1042,7 +1051,7 @@ input:focus, textarea:focus {
 
 
 /* AI Chat Page Styling — Modern GPT-style Updated */
-
+/* ---------------- Layout & Containers ---------------- */
 .MainContainer.ChatLayout {
   max-width: none;
   padding: 0;
@@ -1054,27 +1063,101 @@ input:focus, textarea:focus {
   overflow: hidden;
 }
 
-.AIChatGreeting {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 24px;
-  padding-left: 8px;
-  animation: fadeInUpAIChat 0.5s var(--easing-snappy);
-}
-
 .AIChatPageBody {
   flex: 1;
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 96px); /* nav height */
+  height: 100vh; /* 🔁 Replace the old calc with full height */
   padding: 0 32px;
-  overflow: hidden; /* 🚫 no scroll here */
+  overflow: hidden;
   position: relative;
+  padding-top: 16px;
+  /* border: 1px solid; */
+}
+/* ---------------- Greeting Block ---------------- */
+.AIChatGreetingWrapper {
+  opacity: 0;
+  transform: translateY(12px);
+  animation: fadeSlideIn 0.7s ease-out forwards;
+  animation-delay: 0.15s;
+  max-height: 200px;
+  overflow: hidden;
+  transition:
+    max-height 0.7s linear,
+    opacity 0.7s linear,
+    margin-bottom 0.7s linear,
+    padding 0.7s linear;
+  will-change: opacity, transform, max-height, padding, margin-bottom;
 }
 
+/* Fade-in + slide-up entrance */
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.AIChatGreetingWrapper.dismissed {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease, max-height 0.6s ease, padding 0.4s ease, margin 0.4s ease;
+}
+
+.AIChatGreeting {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.AIChatGreetingRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.AIChatGreetingRow .wave {
+  font-size: 24px;
+  margin: 0;
+  animation: waveHand 1.4s ease-in-out;
+}
+
+.greeting-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #111827;
+  line-height: 1.3;
+}
+
+.greeting-subtext {
+  font-size: 15px;
+  font-weight: 500;
+  color: #6B7280;
+  line-height: 1.4;
+}
+
+/* 👋 hand wave */
+@keyframes waveHand {
+  0%, 100% { transform: rotate(0deg); }
+  20% { transform: rotate(15deg); }
+  40% { transform: rotate(-10deg); }
+  60% { transform: rotate(15deg); }
+  80% { transform: rotate(-5deg); }
+}
+
+/* Compact mode after greeting */
+.AIChatPageBody.compact-mode .ChatHistory {
+  padding-top: 16px;
+}
+
+/* ---------------- Chat History ---------------- */
 .ChatHistory {
   flex: 1;
-  overflow-y: auto; /* ✅ scrolls here only */
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -1082,20 +1165,144 @@ input:focus, textarea:focus {
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
-
+/* ---------------- Chat Input Section ---------------- */
 .ChatInputContainer.sticky-footer {
-  position: relative;
   padding: 16px 32px;
-  background: inherit;
-  display: flex;
-  align-items: center;
-  gap: 8px;
   border-top: 1px solid var(--neutral-200);
-  box-shadow: none;
+  background: inherit;
   z-index: 10;
 }
 
-/* Chat Bubbles - Scoped to Chat only */
+/* Wrapper that holds both textarea and icon */
+.ChatInputLayout {
+  display: flex;
+  align-items: flex-end;
+  background: white;
+  border: 2px solid var(--neutral-200);
+  border-radius: 12px;
+  padding: 8px 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Chat Textarea */
+.ChatInput {
+  flex: 1;
+  height: 24px;                  /* Start as a single-line input */
+  min-height: 24px;
+  max-height: 160px;
+  padding: 6px 12px 8px 12px;    /* Slightly more bottom padding for cursor balance */
+  font-size: 16px;
+  line-height: 1.5;
+  border: none;
+  outline: none;
+  resize: none;
+  background: transparent;
+  overflow-y: auto;
+  box-sizing: border-box;
+
+  scrollbar-width: none;         /* Firefox */
+  -ms-overflow-style: none;      /* Edge/IE */
+}
+
+.ChatInput::-webkit-scrollbar {
+  display: none;                 /* Chrome/Safari */
+}
+
+
+.ChatInput {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+/* Send Icon Button */
+.SendIconButton {
+  margin-left: 12px;
+  margin-bottom: 2px; /* ⬅️ Changed from 4px to 2px for a subtle lower shift */
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background-color 0.2s ease, opacity 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.SendIconButton:disabled {
+  opacity: 0.4;
+  cursor: default;
+  pointer-events: none;
+}
+
+.SendIconButton:hover:enabled {
+  opacity: 0.85;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.08);
+}
+
+.SendIconButton:active:enabled {
+  opacity: 0.75;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.12);
+}
+
+.SendIcon {
+  width: 40px;
+  height: 40px;
+  fill: white;
+  transform: rotate(0deg);
+  pointer-events: none;
+}
+
+
+/* ------------------- Greeting Fade ------------------- */
+
+/* AI Chat Greeting Wrapper */
+.AIChatGreetingWrapper {
+  max-height: 200px;
+  overflow: hidden;
+  transition: opacity 0.7s ease-out, max-height 0.7s ease-out, margin-bottom 0.7s ease-out, padding 0.7s ease-out;
+}
+
+.AIChatGreetingWrapper.dismissed {
+  opacity: 0;
+  pointer-events: none;
+  max-height: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+/* User Message Pulse Animation */
+@keyframes pulseUserMessage {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.03); /* Slightly smaller scale for a more subtle pulse */
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Apply pulse animation to user messages */
+.ChatMessageUser.pulse {
+  animation: pulseUserMessage 0.6s ease-in-out; /* Shortened duration for quicker pulse */
+}
+
+
+
+/* ------------------- Chat Bubbles ------------------- */
+
+/* Common bubble styles */
 .ChatMessageBubble {
   max-width: 680px;
   padding: 16px 20px;
@@ -1105,12 +1312,12 @@ input:focus, textarea:focus {
   line-height: 1.6;
   display: flex;
   flex-direction: column;
-  animation: fadeInUp 0.4s var(--easing-snappy);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
   word-break: break-word;
   margin: 6px 0;
 }
 
+/* ------------------- User Bubble Styles ------------------- */
 .ChatMessageUser {
   align-self: flex-end;
   background: #8DAC50;
@@ -1119,6 +1326,7 @@ input:focus, textarea:focus {
   text-align: left;
 }
 
+/* ------------------- AI Bubble Styles ------------------- */
 .ChatMessageAI {
   align-self: flex-start;
   background: #F1F3F5;
@@ -1126,6 +1334,43 @@ input:focus, textarea:focus {
   border-bottom-left-radius: 4px;
   text-align: left;
 }
+
+/* ------------------- AI Bubble Float Up ------------------- */
+
+/* AI Bubble Float Animation */
+@keyframes floatUpAI {
+  from {
+    opacity: 0;
+    transform: translateY(40px); /* Start from lower down */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* End at the final position */
+  }
+}
+
+/* Apply float-up to AI bubbles */
+.ChatMessageAI.floatUp {
+  animation: floatUpAI 1.2s ease-out;
+}
+
+/* ------------------- Optimized Global Styles ------------------- */
+
+/* Transition and timing adjustments for smooth effects */
+.ChatMessageUser, .ChatMessageAI {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* Minor cleanup */
+.AIChatGreetingWrapper {
+  overflow: hidden; /* Prevents overflow during transition */
+}
+
+/* Optimized spacing */
+.ChatHistory {
+  gap: 12px; /* Uniform gap between messages */
+}
+
 
 .ChatMessageLabel {
   font-size: 13px;
@@ -1147,112 +1392,7 @@ input:focus, textarea:focus {
   padding-right: 2px;
 }
 
-.ChatInputWrapper {
-  position: relative;
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.ChatInput {
-  flex: 1;
-  width: 100%;
-  padding: 14px 48px 14px 16px; /* make space for button */
-  font-size: 16px;
-  border-radius: 12px;
-  border: 2px solid var(--neutral-200); /* ⬅️ always 2px */
-  outline: none;
-  background: white;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
-}
-
-.ChatInput:focus {
-  border-color: var(--primary); /* just change color */
-  box-shadow: 0 0 0 2px rgba(141, 172, 80, 0.2); /* optional glow */
-}
-
-
-.SendIconButton {
-  position: absolute;
-  right: 8px;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 36px;
-  width: 36px;
-  border-radius: 50%;
-  background-color: var(--primary);
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition:
-    background-color 0.2s ease,
-    opacity 0.2s ease,
-    box-shadow 0.2s ease;
-}
-
-.SendIconButton:hover {
-  opacity: 0.85;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.08);
-}
-
-.SendIconButton:active {
-  opacity: 0.75;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.12);
-}
-
-.SendIcon {
-  width: 16px;
-  height: 16px;
-  fill: white;
-  transform: rotate(0deg); /* ensure it's pointing up */
-}
-
-/* Sidebar */
-.ChatSidebar {
-  width: 280px;
-  background-color: #F9FAFB;
-  padding: 32px 20px;
-  border-right: 1px solid var(--neutral-100);
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  animation: fadeInUp 0.5s var(--easing-snappy);
-}
-
-.ChatSidebarHeader {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 12px;
-  padding-left: 8px;
-  color: var(--text-main);
-}
-
-.ChatHistoryList {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.ChatHistoryItem {
-  padding: 12px 16px;
-  background: white;
-  border-radius: 12px;
-  cursor: pointer;
-  font-size: 14px;
-  transition: all 0.2s var(--easing-snappy);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
-  color: var(--text-main);
-}
-
-.ChatHistoryItem:hover {
-  background-color: var(--neutral-100);
-  transform: scale(var(--hover-scale));
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
-}
-
+/* ---------------- Footer ---------------- */
 .ChatDisclaimer {
   font-size: 13px;
   color: #6B7280;
@@ -1266,29 +1406,7 @@ input:focus, textarea:focus {
   align-items: center;
 }
 
-/* Animations */
-@keyframes fadeInUpAIChat {
-  from {
-    opacity: 0;
-    transform: translateY(12px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes scaleFadeIn {
-  from {
-    opacity: 0;
-    transform: scale(0.96);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
+/* ---------------- Animations ---------------- */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -1298,4 +1416,425 @@ input:focus, textarea:focus {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------- Sidebar Wrapper ---------------- */
+.SidebarWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 100vh;
+  background-color: #F3F4F6;
+  border-right: 1px solid var(--neutral-100);
+  box-sizing: border-box;
+  position: relative;
+  /* border: 1px solid; */
+  transition: width 0.3s ease;
+}
+
+/* ---------------- Header (Logo + Collapse Button) ---------------- */
+.SidebarHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 0px; /* Small consistent padding */
+  background-color: #F3F4F6;
+  box-sizing: border-box;
+  height: auto;
+  min-height: 80px; /* fallback height in case image is small */
+}
+
+/* Remove padding/margin from image and let it size itself cleanly */
+.LogoImageAISidebar {
+  height: 35px;
+  max-height: 100%;
+  width: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
+  object-position: center;
+  image-rendering: auto;
+  margin-left: 24px;
+  margin-right: 40px;
+  /* border: 1px solid; */
+}
+
+
+/* Optional hover interaction */
+.LogoImageAISidebar.clickable {
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.LogoImageAISidebar.clickable:hover {
+  opacity: 0.85;
+}
+
+/* Flush, clean toggle button */
+.NavCollapseButton {
+  background: transparent;
+  border: none;
+  padding: 6px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+  margin-top: 4px; /* visually align with center of logo */
+  margin-left: 4px;
+}
+
+.NavCollapseButton:hover {
+  background-color: #E5E7EB;
+}
+
+/* ---------------- Expanded Sidebar ---------------- */
+.ChatSidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #F3F4F6;
+  transition: all 0.3s ease;
+}
+
+/* ---------------- Chat History List ---------------- */
+.ChatHistoryListWrapper {
+  flex: 1;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 16px 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--neutral-200) transparent;
+}
+
+.ChatHistoryListWrapper::-webkit-scrollbar {
+  width: 6px;
+}
+.ChatHistoryListWrapper::-webkit-scrollbar-track {
+  background: transparent;
+}
+.ChatHistoryListWrapper::-webkit-scrollbar-thumb {
+  background-color: var(--neutral-200);
+  border-radius: 4px;
+}
+
+.ChatSidebarHeader {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-subtle);
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  opacity: 0.8;
+  margin-left: 10px;
+}
+
+/* ---------------- Chat History Item ---------------- */
+.ChatHistoryItem {
+  padding: 12px 16px;
+  background: transparent;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-main);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.ChatHistoryItem:hover {
+  background-color: var(--neutral-200);
+  transform: translateX(2px);
+}
+
+.ChatHistoryItem.active {
+  background-color: var(--primary-50);
+  font-weight: 600;
+  color: var(--primary-dark);
+  border-left: 4px solid var(--primary);
+  padding-left: 12px;
+}
+
+/* ---------------- Profile Footer ---------------- */
+.SidebarProfileWrapper {
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F3F4F6;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  /* border-top: 1px solid var(--neutral-100); */
+  border-top-left-radius: 0px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 0px;
+}
+
+.SidebarProfileWrapper:hover {
+  background-color: #D1D5DB;
+}
+
+.SidebarProfile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.SidebarProfileCircle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #E5E7EB;
+  color: #000000;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.2s ease;
+  justify-content: center;
+}
+
+.SidebarProfileWrapper:hover .SidebarProfileCircle {
+  background-color: #D1D5DB;
+}
+
+
+.SidebarProfileText {
+  font-size: 14px;
+  font-weight: 500;
+  color: #6B7280;
+}
+
+.SidebarProfileArrow {
+  width: 16px;
+  height: 16px;
+  stroke: #6B7280;
+  stroke-width: 2;
+  transition: transform 0.2s ease;
+}
+
+.SidebarProfileWrapper:hover .SidebarProfileArrow {
+  stroke: #111827;
+}
+
+/* ---------------- Collapsed Sidebar ---------------- */
+
+.ChatSidebar.collapsed {
+  transform: translateX(-100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 99;
+  background-color: #F3F4F6;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+}
+
+
+/* Scrollable content area within sidebar */
+.SidebarScrollArea {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 24px; /* Give room above profile section */
+}
+
+/* Sidebar base should still use column layout */
+.ChatSidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.ChatSidebar.collapsed {
+  transform: translateX(-100%);
+}
+
+
+/* 🔄 Unified Sidebar Toggle Button */
+.SidebarToggleButton {
+  background: transparent;
+  border: none;
+  padding: 6px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  box-shadow: none;
+  /* border: 1px solid; */
+  /* margin-left: 40px; */
+  margin-top: 8px;
+}
+
+/* Hover effect */
+.SidebarToggleButton:hover {
+  background-color: #E5E7EB;
+ } /* Light gray on hover */
+
+/* SVG Icon inside the button */
+.SidebarToggleButton svg {
+  width: 24px;
+  height: 24px;
+  display: block;
+  stroke: var(--text-main, #333);
+  stroke-width: 2;
+  stroke-linecap: round;
+  fill: none;
+}
+
+/* Hide toggle in nav bar when sidebar is collapsed */
+body.sidebar-collapsed .NavCollapseButton {
+  display: none !important;
+}
+
+/* ---------------- Logo Alignment (AICHAT only) ---------------- */
+.LogoAlignedWithSidebar {
+  width: 280px;
+  padding-left: 24px;
+  padding-right: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left: -25px;
+  background: blue;
+  background: #F3F4F6;
+}
+.LogoAlignedWithSidebar .LogoImage {
+  margin-left: -20px;
+}
+
+.sidebar-collapsed .SidebarWrapper {
+  width: 82px;
+}
+
+/* ---------------- Mini Sidebar (Collapsed) ---------------- */
+.MiniSidebar {
+  width: 80px;
+  background-color: #F3F4F6;
+  /* border-right: 1px solid var(--neutral-100); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 16px;
+  gap: 16px;
+  /* box-shadow: 2px 0 6px rgba(0, 0, 0, 0.03); */
+  z-index: 10;
+  /* border: 1px solid; */
+}
+
+
+.MiniSidebarLogo {
+  height: 8px;
+  width: auto;
+  margin-bottom: 8px;
+  transition: opacity 0.2s ease;
+  cursor: pointer;
+  /* border: 1px solid; */
+}
+
+.MiniSidebarLogo:hover {
+  opacity: 0.85;
+}
+
+.MiniSidebar button {
+  background: transparent;
+  border-radius: 8px;
+  padding: 6px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: -8px;
+  margin-bottom: 8px;
+}
+
+
+.MiniSidebar svg {
+  fill: var(--text-main);
+  width: 32px;
+  height: 32px;
+}
+
+/* Collapsed Profile Circle */
+.SidebarProfileMiniWrapper {
+  margin-top: auto;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: center;
+}
+.SidebarProfileMini {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MiniSidebar .SidebarProfileCircle {
+  width: 40px;
+  height: 40px;
+  background-color: #111827;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Only show main logo when expanded */
+body.sidebar-collapsed #SidebarLogo {
+  display: none !important;
+}
+
+/* Only show mini logo when collapsed */
+.MiniSidebarLogo {
+  display: none;
+}
+
+body.sidebar-collapsed .MiniSidebarLogo {
+  display: block;
+  height: 40px;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+
+
+
+/* Visibility */
+.ChatSidebar:not(.collapsed) + .MiniSidebar,
+.ChatSidebar:not(.collapsed) ~ .SidebarProfileMiniWrapper {
+  display: none;
+}
+
+.ChatSidebar.collapsed + .MiniSidebar,
+.ChatSidebar.collapsed ~ .SidebarProfileMiniWrapper {
+  display: flex;
+}
+
+body.sidebar-collapsed .SidebarHeader {
+  height: 0;
+  min-height: 0;
+  padding: 0;
+  overflow: hidden;
 }
