@@ -116,7 +116,7 @@ const Hero = () => {
     sPage += "<h1 class='HeroTitle'>Plan Your UC Transfer With AI</h1>";
     sPage += "<p class='HeroSubtitle'>Smart advice based on your community college courses</p>";
     sPage += "<div id='HeroCTAWrapper'>";
-    sPage += "<button class='HeroCTA'>Get My Plan</button>";
+    sPage += "<button class='HeroCTA' onClick='SignupPage()'>Get My Plan</button>";
     sPage += "</div>";
     sPage += "</div>";
     sPage += "</div>";
@@ -211,7 +211,7 @@ const StickyCTA = () => {
     sPage += "<div class='StickyCTA'>";
     sPage += "<div class='StickyCTAInner'>";
     sPage += "<p class='StickyCTAText'>🎯 Ready to plan your UC transfer?</p>";
-    sPage += "<button class='StickyCTAButton'>Get My Plan</button>";
+    sPage += "<button class='StickyCTAButton' onClick='SignupPage()'>Get My Plan</button>";
     sPage += "</div>";
     sPage += "</div>";
     return sPage;

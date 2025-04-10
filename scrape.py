@@ -1,5 +1,7 @@
 import json
 import time
+import re
+import hashlib
 import sys
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -11,7 +13,7 @@ from selenium.webdriver.support import expected_conditions as EC
 def setup_driver():
     options = Options()
     # Uncomment the next line to run headless if desired
-    # options.add_argument("--headless")
+    options.add_argument("--headless")
     driver = webdriver.Chrome(options=options)
     wait = WebDriverWait(driver, 25)
     print("🚀 Driver setup complete.")
@@ -71,6 +73,10 @@ def scroll_all_emphases(driver):
             print(f"  ↳ Scrolled to emphasis block {idx}")
         except Exception as e:
             print(f"  ⚠️ Could not scroll to block {idx}: {e}")
+        # Save the last section block's HTML for inspection
+    if section_blocks:
+        with open("debug_section_block.html", "w", encoding="utf-8") as f:
+            f.write(section_blocks[-1].get_attribute("outerHTML"))
     print("✅ Finished scrolling emphasis blocks")
 
 def parse_general_advice(driver):
@@ -85,13 +91,13 @@ def parse_general_advice(driver):
 def get_group_instructions(group):
     # Try multiple selectors until non-empty instruction text is found.
     try:
-        instr = group.find_element(By.CSS_SELECTOR, ".instructionsPreview awc-instruction-section").get_attribute("textContent").strip()
+        instr = group.find_element(By.CSS_SELECTOR, "awc-instruction-section").get_attribute("textContent").strip()
         if instr:
             return instr
     except Exception as e:
         print(f"⚠️ Could not extract from awc-instruction-section: {e}")
     try:
-        instr = group.find_element(By.CSS_SELECTOR, ".instructionsPreview awc-instruction-list").get_attribute("textContent").strip()
+        instr = group.find_element(By.CSS_SELECTOR, "awc-instruction-list").get_attribute("textContent").strip()
         if instr:
             return instr
     except Exception:
@@ -116,11 +122,82 @@ def get_group_instructions(group):
         pass
     return ""
 
+def parse_single_course(cl):
+    try:
+        prefix = cl.find_element(By.CLASS_NAME, "prefixCourseNumber").text.strip()
+        title = cl.find_element(By.CLASS_NAME, "courseTitle").text.strip()
+        return {
+            "name": f"{prefix} {title}",
+            "honors": "HONORS" in title.upper()
+        }
+    except Exception as e:
+        print(f"         ⚠️ Failed to parse courseLine: {e}")
+        return None
+
+def parse_and_group(and_block):
+    and_group = []
+    course_lines = and_block.find_elements(By.CLASS_NAME, "courseLine")
+    for cl in course_lines:
+        course = parse_single_course(cl)
+        if course:
+            and_group.append(course)
+    return and_group
+
+def parse_equivalent_sets_from_sending_block(ccc_block):
+    try:
+        content_div = ccc_block.find_element(By.CLASS_NAME, "view_sending__content")
+    except:
+        print("         ❌ No .view_sending__content found — defaulting to no articulation.")
+        return [[{"name": "No Course Articulated", "honors": False}]]
+
+    children = content_div.find_elements(By.XPATH, "./*")
+    print("         🧩 Children classes in sending block:")
+    for child in children:
+        print("            -", child.get_attribute("class"))
+
+    non_empty_children = [child for child in children if child.get_attribute("class") and child.get_attribute("class").strip()]
+    has_course_line = any("courseLine" in (child.get_attribute("class") or "") for child in non_empty_children)
+    has_bracket = any("bracketWrapper" in (child.get_attribute("class") or "") for child in non_empty_children)
+
+    if not has_course_line and not has_bracket:
+        print("         ❌ No relevant courseLines or bracketWrappers — No Articulation.")
+        return [[{"name": "No Course Articulated", "honors": False}]]
+
+    equivalent_sets = []
+
+    for child in non_empty_children:
+        try:
+            class_attr = child.get_attribute("class") or ""
+            if "conjunction" in class_attr:
+                continue
+            elif "bracketWrapper" in class_attr:
+                course_lines = child.find_elements(By.CLASS_NAME, "courseLine")
+                and_group = []
+                for cl in course_lines:
+                    course = parse_single_course(cl)
+                    if course:
+                        and_group.append(course)
+                if and_group:
+                    equivalent_sets.append(and_group)
+                    print(f"         ✅ Compound AND group: {' AND '.join(c['name'] for c in and_group)}")
+            elif "courseLine" in class_attr:
+                course = parse_single_course(child)
+                if course:
+                    equivalent_sets.append([course])
+                    print(f"         ✅ Single-course OR: {course['name']}")
+            else:
+                print(f"         ⚠️ Unrecognized block class: {class_attr}")
+        except Exception as e:
+            print(f"         ⚠️ Error parsing sending child: {e}")
+
+    return equivalent_sets
+
 def parse_course_sets(driver):
     output = {
-        "major": "",  # Set dynamically later
+        "major": "",
         "from": "De Anza College",
         "to": "University of California, San Diego",
+        "catalog_year": "2024–2025",
         "general_advice": parse_general_advice(driver),
         "groups": []
     }
@@ -129,7 +206,6 @@ def parse_course_sets(driver):
     print(f"\n📦 Found {len(group_divs)} group containers on the page.")
 
     for group_idx, group in enumerate(group_divs, 1):
-        group_number = ""
         try:
             group_number = group.find_element(By.CLASS_NAME, "groupNumber").text.strip()
         except:
@@ -147,22 +223,28 @@ def parse_course_sets(driver):
         print(f"   ↳ Found {len(section_blocks)} sections in Group {group_number}.")
 
         for sec_idx, section in enumerate(section_blocks, 1):
-            # Debugging Step 1: Clearly check and log section label/header
             section_label, section_header = "", ""
-
             try:
-                section_label = section.find_element(By.CLASS_NAME, "emphasis--label").text.strip()
-                print(f"    🔖 Section {sec_idx}: Found label '{section_label}'")
-            except Exception as e:
-                print(f"    ⚠️ Section {sec_idx}: Label not found ({e})")
+                section_label = section.find_element(By.CLASS_NAME, "letterContent").text.strip()
+            except:
+                try:
+                    label_elem = section.find_element(By.CLASS_NAME, "emphasis--label")
+                    section_label = label_elem.text.strip()
+                    if not section_label:
+                        nested_spans = label_elem.find_elements(By.TAG_NAME, "span")
+                        for span in nested_spans:
+                            txt = span.text.strip()
+                            if txt:
+                                section_label = txt
+                                break
+                except:
+                    section_label = f"NoLabel{sec_idx}"
 
             try:
                 section_header = section.find_element(By.CLASS_NAME, "emphasis--header").text.strip()
-                print(f"    📑 Section {sec_idx}: Found header '{section_header}'")
-            except Exception as e:
-                print(f"    ⚠️ Section {sec_idx}: Header not found ({e})")
+            except:
+                section_header = ""
 
-            # Use fallback if necessary
             section_id = section_label if section_label else f"NoLabel{sec_idx}"
             full_instr = f"{section_label} - {section_header}" if section_label and section_header else section_label or section_header
 
@@ -171,8 +253,6 @@ def parse_course_sets(driver):
                 "instructions": full_instr,
                 "courses": []
             }
-
-            print(f"    📝 Parsing section '{section_id}' with instructions '{full_instr}'")
 
             row_sets = section.find_elements(By.CLASS_NAME, "articRow")
             print(f"      ↳ Section '{section_id}': found {len(row_sets)} articRow mappings.")
@@ -191,25 +271,14 @@ def parse_course_sets(driver):
 
                     ccc_block = rowset.find_element(By.CLASS_NAME, "rowSending")
                     or_groups = ccc_block.find_elements(By.CLASS_NAME, "orGroup")
-                    if not or_groups:
-                        or_groups = [ccc_block]
 
-                    equivalent_sets = []
-                    for or_group in or_groups:
-                        and_courses = []
-                        course_lines = or_group.find_elements(By.CLASS_NAME, "courseLine")
-                        for cl in course_lines:
-                            prefix = cl.find_element(By.CLASS_NAME, "prefixCourseNumber").text.strip()
-                            title = cl.find_element(By.CLASS_NAME, "courseTitle").text.strip()
-                            course_name = f"{prefix} {title}"
-                            and_courses.append({
-                                "name": course_name,
-                                "honors": "HONORS" in course_name.upper()
-                            })
-                        if and_courses:
-                            equivalent_sets.append(and_courses)
-                    if not equivalent_sets:
-                        equivalent_sets = [[{"name": "No Course Articulated", "honors": False}]]
+                    if not or_groups:
+                        print("         ⚠️ No .orGroup found — falling back to .rowSending > .courseLine or brackets")
+
+                    equivalent_sets = parse_equivalent_sets_from_sending_block(ccc_block)
+
+                    if equivalent_sets == []:
+                        print(f"         ❌ EMPTY equivalent_sets for UC course: {uc_code}")
 
                     course_entry = {
                         "uc_course": f"{uc_code}: {uc_title}",
@@ -218,7 +287,7 @@ def parse_course_sets(driver):
                     }
 
                     section_data["courses"].append(course_entry)
-                    print(f"         ✅ Parsed UC course: {course_entry['uc_course']} with {len(equivalent_sets)} eq sets.")
+                    print(f"         ✅ Parsed UC course: {course_entry['uc_course']} with {len(equivalent_sets)} eq set(s).")
                 except Exception as e:
                     print(f"         ⚠️ Failed to parse rowSet: {e}")
 
@@ -227,68 +296,161 @@ def parse_course_sets(driver):
 
     return output
 
+def infer_group_logic_type(instruction: str) -> str:
+    """Infer logical type of course group requirement based on instruction text."""
+    instruction = instruction.lower()
+
+    if "complete" in instruction and "or" in instruction:
+        return "choose_one_section"  # e.g. Group 1: A or B
+
+    if "select" in instruction and "course" in instruction:
+        return "select_n_courses"  # e.g. Group 3: Select 2 courses
+
+    return "all_required"  # Default fallback
+
+def infer_required_course_count(instruction: str) -> int:
+    match = re.search(r"select\s+(\d+)\s+courses?", instruction.lower())
+    return int(match.group(1)) if match else 1
+
+def hash_id(text: str) -> str:
+    return hashlib.sha256(text.encode()).hexdigest()[:8]
+
+def extract_course_letters_and_title(full_name: str):
+    parts = full_name.strip().split(" ", 2)
+    if len(parts) >= 2:
+        return f"{parts[0]} {parts[1]}", parts[2] if len(parts) == 3 else ""
+    return full_name.strip(), ""
+
 def restructure_for_rag(parsed_data):
-    """
-    Flatten the nested structure into a list of document entries for RAG.
-    Each document includes a unique id, title, combined content text, and metadata.
-    The section field is included.
-    """
     rag = {
         "major": parsed_data.get("major", ""),
         "from": parsed_data.get("from", ""),
         "to": parsed_data.get("to", ""),
+        "catalog_year": parsed_data.get("catalog_year"),
         "general_advice": parsed_data.get("general_advice", ""),
         "documents": []
     }
+
+    rag["documents"].append({
+        "doc_id": "major_overview",
+        "title": f"{rag['major']} Transfer Overview ({rag['catalog_year']})",
+        "content": rag["general_advice"],
+        "metadata": {
+            "doc_type": "overview",
+            "institution_from": rag["from"],
+            "institution_to": rag["to"],
+            "major": rag["major"],
+            "catalog_year": rag["catalog_year"]
+        }
+    })
+
     for group in parsed_data.get("groups", []):
         group_num = group.get("group_number", "")
-        group_instructions = group.get("instructions", "")
+        group_instructions = group.get("instructions", "").strip() or "N/A"
+        group_logic_type = infer_group_logic_type(group_instructions)
+
         for section in group.get("sections", []):
             section_label = section.get("section", "")
             section_instructions = section.get("instructions", "")
+            section_courses = []  # ✅ Tracks all UC course codes for this section
+
             for course in section.get("courses", []):
-                uc_course = course.get("uc_course", "")
+                uc_course_raw = course.get("uc_course", "").strip()
                 units = course.get("units", "")
                 eq_sets = course.get("equivalent_sets", [])
-                option_texts = []
-                for option in eq_sets:
-                    # Join courses in each equivalent set with " AND "
-                    courses_text = " AND ".join([c.get("name", "") for c in option])
-                    option_texts.append(courses_text)
-                # Join multiple equivalent sets with " OR "
-                eq_text = " OR ".join(option_texts)
-                uc_code = uc_course.split(":")[0].strip() if ":" in uc_course else uc_course.strip()
-                # Create a document id using group, section, and course code
-                doc_id = f"group{group_num}_{section_label if section_label else 'NA'}_{uc_code.replace(' ', '')}"
+
+                uc_course = uc_course_raw.replace(":", "").strip()
+                uc_course_letters, uc_course_title = extract_course_letters_and_title(uc_course)
+                uc_course_id = hash_id(uc_course_letters)
+                section_courses.append(uc_course_letters)  # ✅ add to section_courses
+
+                is_no_articulation = (
+                    len(eq_sets) == 1 and
+                    len(eq_sets[0]) == 1 and
+                    eq_sets[0][0].get("name", "").strip().lower() == "no course articulated"
+                )
+
+                logic_structure = []
+                eq_text = ""
+                ccc_courses = set()  # ✅ flat list of all CCC course codes
+
+                if is_no_articulation:
+                    logic_structure = [[{
+                        "name": "No Course Articulated",
+                        "honors": False,
+                        "course_id": hash_id("No Course Articulated"),
+                        "course_letters": "N/A",
+                        "title": "No Course Articulated"
+                    }]]
+                    no_articulation = True
+                    eq_text = "- No course articulated."
+                else:
+                    no_articulation = False
+                    for option in eq_sets:
+                        option_set = []
+                        for course_entry in option:
+                            name = course_entry["name"]
+                            honors = course_entry.get("honors", False)
+                            course_letters, course_title = extract_course_letters_and_title(name)
+                            ccc_courses.add(course_letters)  # ✅ accumulate reverse map
+                            option_set.append({
+                                "name": name,
+                                "honors": honors,
+                                "course_id": hash_id(course_letters),
+                                "course_letters": course_letters,
+                                "title": course_title or "Unknown"
+                            })
+                        logic_structure.append(option_set)
+
+                    formatted_options = []
+                    for option in logic_structure:
+                        if len(option) > 1:
+                            formatted_options.append(
+                                "(" + " AND ".join(c["name"] for c in option) + ")"
+                            )
+                        else:
+                            formatted_options.append(option[0]["name"])
+                    eq_text = "\nOR\n".join(f"- {opt}" for opt in formatted_options)
+
+                doc_id = f"group{group_num}_{section_label or 'NA'}_{uc_course_letters.replace(' ', '')}"
                 title = f"{uc_course} Articulation Requirement"
-                content_lines = []
-                if group_instructions:
-                    content_lines.append(f"Group {group_num} Instruction: {group_instructions}")
-                else:
-                    content_lines.append(f"Group {group_num}")
-                if section_instructions:
-                    content_lines.append(f"Section Instruction ({section_label}): {section_instructions}")
-                if units:
-                    content_lines.append(f"UC Course: {uc_course} ({units} units)")
-                else:
-                    content_lines.append(f"UC Course: {uc_course}")
-                content_lines.append("Equivalent Options:")
-                content_lines.append(eq_text)
-                content = "\n".join(content_lines)
+
+                content = "\n".join([
+                    f"Group {group_num} Instruction: {group_instructions}",
+                    f"Section Instruction ({section_label}): {section_instructions}",
+                    f"UC Course: {uc_course} ({units} units)" if units else f"UC Course: {uc_course}",
+                    "Equivalent Options:",
+                    eq_text
+                ])
+
                 metadata = {
                     "group": group_num,
                     "section": section_label,
-                    "uc_course": uc_code,
+                    "section_courses": section_courses,  # ✅ added
+                    "uc_course": uc_course_letters,
+                    "uc_course_id": uc_course_id,
+                    "uc_title": uc_course_title or "Unknown",
                     "units": units,
-                    "institution_from": parsed_data.get("from", ""),
-                    "institution_to": parsed_data.get("to", "")
+                    "institution_from": rag["from"],
+                    "institution_to": rag["to"],
+                    "catalog_year": rag["catalog_year"],
+                    "logic_structure": logic_structure,
+                    "ccc_courses": sorted(ccc_courses),  # ✅ added
+                    "no_articulation": no_articulation,
+                    "group_logic": group_instructions,
+                    "group_logic_type": group_logic_type
                 }
+
+                if group_logic_type == "select_n_courses":
+                    metadata["n_courses"] = infer_required_course_count(group_instructions)
+
                 rag["documents"].append({
                     "doc_id": doc_id,
                     "title": title,
                     "content": content,
                     "metadata": metadata
                 })
+
     return rag
 
 def main():
