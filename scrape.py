@@ -13,7 +13,7 @@ from selenium.webdriver.support import expected_conditions as EC
 def setup_driver():
     options = Options()
     # Uncomment the next line to run headless if desired
-    options.add_argument("--headless")
+    # options.add_argument("--headless")
     driver = webdriver.Chrome(options=options)
     wait = WebDriverWait(driver, 25)
     print("🚀 Driver setup complete.")
@@ -312,14 +312,18 @@ def infer_required_course_count(instruction: str) -> int:
     match = re.search(r"select\s+(\d+)\s+courses?", instruction.lower())
     return int(match.group(1)) if match else 1
 
-def hash_id(text: str) -> str:
-    return hashlib.sha256(text.encode()).hexdigest()[:8]
-
 def extract_course_letters_and_title(full_name: str):
     parts = full_name.strip().split(" ", 2)
     if len(parts) >= 2:
         return f"{parts[0]} {parts[1]}", parts[2] if len(parts) == 3 else ""
     return full_name.strip(), ""
+
+def format_course_letters(course_name):
+    """Extract course letters from full course name (e.g. CIS 36B from CIS 36B Java)."""
+    return " ".join(course_name.split()[:2])
+
+def hash_id(s):
+    return hashlib.md5(s.encode("utf-8")).hexdigest()[:8]
 
 def restructure_for_rag(parsed_data):
     rag = {
@@ -331,6 +335,7 @@ def restructure_for_rag(parsed_data):
         "documents": []
     }
 
+    # Add the overview document
     rag["documents"].append({
         "doc_id": "major_overview",
         "title": f"{rag['major']} Transfer Overview ({rag['catalog_year']})",
@@ -346,33 +351,46 @@ def restructure_for_rag(parsed_data):
 
     for group in parsed_data.get("groups", []):
         group_num = group.get("group_number", "")
-        group_instructions = group.get("instructions", "").strip() or "N/A"
-        group_logic_type = infer_group_logic_type(group_instructions)
+        raw_group_instruction = group.get("instructions", "").strip()
+        group_logic_type = infer_group_logic_type(raw_group_instruction)
+
+        # Smart fallback for missing group instructions
+        if raw_group_instruction:
+            group_instruction = raw_group_instruction
+        else:
+            if group_logic_type == "choose_one_section":
+                group_instruction = "Complete one of the following options"
+            elif group_logic_type == "select_n_courses":
+                n = infer_required_course_count(raw_group_instruction)
+                group_instruction = f"Select {n} course(s) from the options below"
+            elif group_logic_type == "all_required":
+                group_instruction = "All of the following are required"
+            else:
+                group_instruction = "See section-specific instructions"
 
         for section in group.get("sections", []):
             section_label = section.get("section", "")
-            section_instructions = section.get("instructions", "")
-            section_courses = []  # ✅ Tracks all UC course codes for this section
+            section_instruction = section.get("instructions", "").strip()
+            section_courses = []
 
             for course in section.get("courses", []):
-                uc_course_raw = course.get("uc_course", "").strip()
+                uc_course_raw = course.get("uc_course", "")
                 units = course.get("units", "")
                 eq_sets = course.get("equivalent_sets", [])
-
-                uc_course = uc_course_raw.replace(":", "").strip()
-                uc_course_letters, uc_course_title = extract_course_letters_and_title(uc_course)
-                uc_course_id = hash_id(uc_course_letters)
-                section_courses.append(uc_course_letters)  # ✅ add to section_courses
+                uc_course = uc_course_raw.strip().replace(":", "")
+                uc_letters = format_course_letters(uc_course)
+                uc_title = uc_course.replace(uc_letters, "").strip(" -:")
+                section_courses.append(uc_letters)
+                course_id = hash_id(uc_letters)
 
                 is_no_articulation = (
                     len(eq_sets) == 1 and
                     len(eq_sets[0]) == 1 and
-                    eq_sets[0][0].get("name", "").strip().lower() == "no course articulated"
+                    eq_sets[0][0].get("name", "").lower().strip() == "no course articulated"
                 )
 
                 logic_structure = []
-                eq_text = ""
-                ccc_courses = set()  # ✅ flat list of all CCC course codes
+                ccc_courses = set()
 
                 if is_no_articulation:
                     logic_structure = [[{
@@ -383,73 +401,58 @@ def restructure_for_rag(parsed_data):
                         "title": "No Course Articulated"
                     }]]
                     no_articulation = True
-                    eq_text = "- No course articulated."
                 else:
                     no_articulation = False
-                    for option in eq_sets:
-                        option_set = []
-                        for course_entry in option:
-                            name = course_entry["name"]
-                            honors = course_entry.get("honors", False)
-                            course_letters, course_title = extract_course_letters_and_title(name)
-                            ccc_courses.add(course_letters)  # ✅ accumulate reverse map
-                            option_set.append({
+                    for eq_group in eq_sets:
+                        option = []
+                        for entry in eq_group:
+                            name = entry.get("name", "").strip()
+                            honors = entry.get("honors", False)
+                            letters = format_course_letters(name)
+                            title = name.replace(letters, "").strip(" -:")
+                            ccc_courses.add(letters)
+                            option.append({
                                 "name": name,
                                 "honors": honors,
-                                "course_id": hash_id(course_letters),
-                                "course_letters": course_letters,
-                                "title": course_title or "Unknown"
+                                "course_id": hash_id(letters),
+                                "course_letters": letters,
+                                "title": title
                             })
-                        logic_structure.append(option_set)
-
-                    formatted_options = []
-                    for option in logic_structure:
-                        if len(option) > 1:
-                            formatted_options.append(
-                                "(" + " AND ".join(c["name"] for c in option) + ")"
-                            )
-                        else:
-                            formatted_options.append(option[0]["name"])
-                    eq_text = "\nOR\n".join(f"- {opt}" for opt in formatted_options)
-
-                doc_id = f"group{group_num}_{section_label or 'NA'}_{uc_course_letters.replace(' ', '')}"
-                title = f"{uc_course} Articulation Requirement"
-
-                content = "\n".join([
-                    f"Group {group_num} Instruction: {group_instructions}",
-                    f"Section Instruction ({section_label}): {section_instructions}",
-                    f"UC Course: {uc_course} ({units} units)" if units else f"UC Course: {uc_course}",
-                    "Equivalent Options:",
-                    eq_text
-                ])
+                        logic_structure.append(option)
 
                 metadata = {
                     "group": group_num,
                     "section": section_label,
-                    "section_courses": section_courses,  # ✅ added
-                    "uc_course": uc_course_letters,
-                    "uc_course_id": uc_course_id,
-                    "uc_title": uc_course_title or "Unknown",
+                    "section_courses": section_courses,
+                    "section_title": section_instruction or section_label,
+                    "uc_course": uc_letters,
+                    "uc_course_id": course_id,
+                    "uc_title": uc_title,
                     "units": units,
                     "institution_from": rag["from"],
                     "institution_to": rag["to"],
                     "catalog_year": rag["catalog_year"],
                     "logic_structure": logic_structure,
-                    "ccc_courses": sorted(ccc_courses),  # ✅ added
+                    "ccc_courses": sorted(ccc_courses),
                     "no_articulation": no_articulation,
-                    "group_logic": group_instructions,
+                    "group_logic": group_instruction,
                     "group_logic_type": group_logic_type
                 }
 
                 if group_logic_type == "select_n_courses":
-                    metadata["n_courses"] = infer_required_course_count(group_instructions)
+                    metadata["n_courses"] = infer_required_course_count(group_instruction)
 
-                rag["documents"].append({
-                    "doc_id": doc_id,
-                    "title": title,
-                    "content": content,
+                doc = {
+                    "doc_id": f"group{group_num}_{section_label}_{uc_letters.replace(' ', '')}",
+                    "title": f"{uc_course} Articulation Requirement",
+                    "content": f"Group {group_num} Instruction: {group_instruction}\n"
+                               f"Section Instruction ({section_label}): {section_instruction}\n"
+                               f"UC Course: {uc_course} ({units} units)\n"
+                               f"Equivalent Options:\n{logic_structure}",
                     "metadata": metadata
-                })
+                }
+
+                rag["documents"].append(doc)
 
     return rag
 
