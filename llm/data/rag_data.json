@@ -4,1178 +4,900 @@
   "to": "University of California, San Diego",
   "catalog_year": "2024–2025",
   "general_advice": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION.\n\nEffective Fall 2018, major preparation will be required for this major. For details, visit: http://admissions.ucsd.edu/MajorPrep\n\nEffective Fall 2015, the B.S. and B.A. in Computer Science, the B.S. in Computer Engineering, and the B.S. in Computer Science with a specialization in Bioinformatics are impacted for transfer students. Visit cse.ucsd.edu for full information.\n\nGeneral advice: Transfer students are advised to complete the following courses for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation.\n\n- Calculus I-for Science and Engineering (Math. 20A)\n- Calculus II-for Science and Engineering (Math. 20B)\n- Calculus and Analytic Geometry (Math. 20C)\n- Linear Algebra (Math. 18)\n- Two courses chosen from: PHYS 2A or PHYS 4A, PHYS 2B or PHYS 4B, CHEM 6A or CHEM 6AH, CHEM 6B or CHEM 6BH, BILD 1, BILD 2, BILD 3\n- Highest level of introductory computer programming language course offered at the community college. For example, CSE 3, CSE 6R, and 8A may be used to fulfill the lower-division elective requirement; CSE 8B or 11 fulfill other lower-division requirements.\nBasic Data Structures and Object-Oriented Design (CSE 12)\nDiscrete Mathematics (CSE 20)\n\nCourse equivalency: For course equivalencies not listed below, visit the CSE Student Affairs Office, CSE Building (EBU3B, Room 1200) first floor, or email CSEStudent@eng.ucsd.edu.\n\nFor information not found here, please visit the CSE Undergraduate Program at: https://cse.ucsd.edu/undergraduate",
-  "documents": [
+  "groups": [
     {
-      "doc_id": "major_overview",
-      "title": "CSE: Computer Science B.S. Transfer Overview (2024–2025)",
-      "content": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION.\n\nEffective Fall 2018, major preparation will be required for this major. For details, visit: http://admissions.ucsd.edu/MajorPrep\n\nEffective Fall 2015, the B.S. and B.A. in Computer Science, the B.S. in Computer Engineering, and the B.S. in Computer Science with a specialization in Bioinformatics are impacted for transfer students. Visit cse.ucsd.edu for full information.\n\nGeneral advice: Transfer students are advised to complete the following courses for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation.\n\n- Calculus I-for Science and Engineering (Math. 20A)\n- Calculus II-for Science and Engineering (Math. 20B)\n- Calculus and Analytic Geometry (Math. 20C)\n- Linear Algebra (Math. 18)\n- Two courses chosen from: PHYS 2A or PHYS 4A, PHYS 2B or PHYS 4B, CHEM 6A or CHEM 6AH, CHEM 6B or CHEM 6BH, BILD 1, BILD 2, BILD 3\n- Highest level of introductory computer programming language course offered at the community college. For example, CSE 3, CSE 6R, and 8A may be used to fulfill the lower-division elective requirement; CSE 8B or 11 fulfill other lower-division requirements.\nBasic Data Structures and Object-Oriented Design (CSE 12)\nDiscrete Mathematics (CSE 20)\n\nCourse equivalency: For course equivalencies not listed below, visit the CSE Student Affairs Office, CSE Building (EBU3B, Room 1200) first floor, or email CSEStudent@eng.ucsd.edu.\n\nFor information not found here, please visit the CSE Undergraduate Program at: https://cse.ucsd.edu/undergraduate",
-      "metadata": {
-        "doc_type": "overview",
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "major": "CSE: Computer Science B.S.",
-        "catalog_year": "2024–2025"
-      }
-    },
-    {
-      "doc_id": "group1_A_CSE8A",
-      "title": "CSE 8A Introduction to Programming and Computational Problem Solving I Articulation Requirement",
-      "content": "Group 1 Instruction: Complete  A or B\nSection Instruction (A): A\nUC Course: CSE 8A Introduction to Programming and Computational Problem Solving I (4.0 units)\nEquivalent Options:\n- CIS 22A Beginning Programming Methodologies in C++\nOR\n- CIS 36A Introduction to Computer Programming Using Java\nOR\n- CIS 40 Introduction to Programming in Python",
-      "metadata": {
-        "group": "1",
-        "section": "A",
-        "section_courses": [
-          "CSE 8A",
-          "CSE 8B"
-        ],
-        "uc_course": "CSE 8A",
-        "uc_course_id": "ecdfdb8a",
-        "uc_title": "Introduction to Programming and Computational Problem Solving I",
-        "units": 4.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
+      "group_id": "1",
+      "group_title": "Complete  A or B",
+      "group_logic_type": "choose_one_section",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "A",
+          "uc_courses": [
             {
-              "name": "CIS 22A Beginning Programming Methodologies in C++",
-              "honors": false,
-              "course_id": "38712e15",
-              "course_letters": "CIS 22A",
-              "title": "Beginning Programming Methodologies in C++"
-            }
-          ],
-          [
-            {
-              "name": "CIS 36A Introduction to Computer Programming Using Java",
-              "honors": false,
-              "course_id": "9aa004fa",
-              "course_letters": "CIS 36A",
-              "title": "Introduction to Computer Programming Using Java"
-            }
-          ],
-          [
-            {
-              "name": "CIS 40 Introduction to Programming in Python",
-              "honors": false,
-              "course_id": "f6707d77",
-              "course_letters": "CIS 40",
-              "title": "Introduction to Programming in Python"
-            }
-          ]
-        ],
-        "ccc_courses": [
-          "CIS 22A",
-          "CIS 36A",
-          "CIS 40"
-        ],
-        "no_articulation": false,
-        "group_logic": "Complete  A or B",
-        "group_logic_type": "choose_one_section"
-      }
-    },
-    {
-      "doc_id": "group1_A_CSE8B",
-      "title": "CSE 8B Introduction to Programming and Computational Problem Solving II Articulation Requirement",
-      "content": "Group 1 Instruction: Complete  A or B\nSection Instruction (A): A\nUC Course: CSE 8B Introduction to Programming and Computational Problem Solving II (4.0 units)\nEquivalent Options:\n- CIS 36B Intermediate Problem Solving in Java",
-      "metadata": {
-        "group": "1",
-        "section": "A",
-        "section_courses": [
-          "CSE 8A",
-          "CSE 8B"
-        ],
-        "uc_course": "CSE 8B",
-        "uc_course_id": "e295e3b6",
-        "uc_title": "Introduction to Programming and Computational Problem Solving II",
-        "units": 4.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
-            {
-              "name": "CIS 36B Intermediate Problem Solving in Java",
-              "honors": false,
-              "course_id": "5ba06aa1",
-              "course_letters": "CIS 36B",
-              "title": "Intermediate Problem Solving in Java"
-            }
-          ]
-        ],
-        "ccc_courses": [
-          "CIS 36B"
-        ],
-        "no_articulation": false,
-        "group_logic": "Complete  A or B",
-        "group_logic_type": "choose_one_section"
-      }
-    },
-    {
-      "doc_id": "group1_B_CSE11",
-      "title": "CSE 11 Introduction to Programming and Computational Problem Solving - Accelerated Pace Articulation Requirement",
-      "content": "Group 1 Instruction: Complete  A or B\nSection Instruction (B): B\nUC Course: CSE 11 Introduction to Programming and Computational Problem Solving - Accelerated Pace (4.0 units)\nEquivalent Options:\n- CIS 35A Java Programming\nOR\n- (CIS 36A Introduction to Computer Programming Using Java AND CIS 36B Intermediate Problem Solving in Java)",
-      "metadata": {
-        "group": "1",
-        "section": "B",
-        "section_courses": [
-          "CSE 11"
-        ],
-        "uc_course": "CSE 11",
-        "uc_course_id": "552adebe",
-        "uc_title": "Introduction to Programming and Computational Problem Solving - Accelerated Pace",
-        "units": 4.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
-            {
-              "name": "CIS 35A Java Programming",
-              "honors": false,
-              "course_id": "de906a1c",
-              "course_letters": "CIS 35A",
-              "title": "Java Programming"
-            }
-          ],
-          [
-            {
-              "name": "CIS 36A Introduction to Computer Programming Using Java",
-              "honors": false,
-              "course_id": "9aa004fa",
-              "course_letters": "CIS 36A",
-              "title": "Introduction to Computer Programming Using Java"
+              "uc_course_id": "CSE 8A",
+              "uc_course_title": "Introduction to Programming and Computational Problem Solving I",
+              "units": 4.0,
+              "section_id": "A",
+              "section_title": "A",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CIS 22A Beginning Programming Methodologies in C++",
+                        "honors": false,
+                        "course_id": "a6d419c5",
+                        "course_letters": "CIS 22A",
+                        "title": "Beginning Programming Methodologies in C++"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CIS 36A Introduction to Computer Programming Using Java",
+                        "honors": false,
+                        "course_id": "a1733a15",
+                        "course_letters": "CIS 36A",
+                        "title": "Introduction to Computer Programming Using Java"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CIS 40 Introduction to Programming in Python",
+                        "honors": false,
+                        "course_id": "a1f64eec",
+                        "course_letters": "CIS 40",
+                        "title": "Introduction to Programming in Python"
+                      }
+                    ]
+                  }
+                ]
+              }
             },
             {
-              "name": "CIS 36B Intermediate Problem Solving in Java",
-              "honors": false,
-              "course_id": "5ba06aa1",
-              "course_letters": "CIS 36B",
-              "title": "Intermediate Problem Solving in Java"
+              "uc_course_id": "CSE 8B",
+              "uc_course_title": "Introduction to Programming and Computational Problem Solving II",
+              "units": 4.0,
+              "section_id": "A",
+              "section_title": "A",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CIS 36B Intermediate Problem Solving in Java",
+                        "honors": false,
+                        "course_id": "3673c29e",
+                        "course_letters": "CIS 36B",
+                        "title": "Intermediate Problem Solving in Java"
+                      }
+                    ]
+                  }
+                ]
+              }
             }
           ]
-        ],
-        "ccc_courses": [
-          "CIS 35A",
-          "CIS 36A",
-          "CIS 36B"
-        ],
-        "no_articulation": false,
-        "group_logic": "Complete  A or B",
-        "group_logic_type": "choose_one_section"
-      }
+        },
+        {
+          "section_id": "B",
+          "section_title": "B",
+          "uc_courses": [
+            {
+              "uc_course_id": "CSE 11",
+              "uc_course_title": "Introduction to Programming and Computational Problem Solving - Accelerated Pace",
+              "units": 4.0,
+              "section_id": "B",
+              "section_title": "B",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CIS 35A Java Programming",
+                        "honors": false,
+                        "course_id": "34bdd225",
+                        "course_letters": "CIS 35A",
+                        "title": "Java Programming"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CIS 36A Introduction to Computer Programming Using Java",
+                        "honors": false,
+                        "course_id": "a1733a15",
+                        "course_letters": "CIS 36A",
+                        "title": "Introduction to Computer Programming Using Java"
+                      },
+                      {
+                        "name": "CIS 36B Intermediate Problem Solving in Java",
+                        "honors": false,
+                        "course_id": "3673c29e",
+                        "course_letters": "CIS 36B",
+                        "title": "Intermediate Problem Solving in Java"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
     },
     {
-      "doc_id": "group2_A_CSE12",
-      "title": "CSE 12 Basic Data Structures and Object-Oriented Design Articulation Requirement",
-      "content": "Group 2 Instruction: N/A\nSection Instruction (A): A\nUC Course: CSE 12 Basic Data Structures and Object-Oriented Design (4.0 units)\nEquivalent Options:\n- CIS 22C Data Abstraction and Structures\nOR\n- CIS 22CH Data Abstraction and Structures - HONORS",
-      "metadata": {
-        "group": "2",
-        "section": "A",
-        "section_courses": [
-          "CSE 12",
-          "CSE 15L",
-          "CSE 20",
-          "CSE 21",
-          "CSE 30"
-        ],
-        "uc_course": "CSE 12",
-        "uc_course_id": "58b080b6",
-        "uc_title": "Basic Data Structures and Object-Oriented Design",
-        "units": 4.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
+      "group_id": "2",
+      "group_title": "All of the following UC courses are required",
+      "group_logic_type": "all_required",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "A",
+          "uc_courses": [
             {
-              "name": "CIS 22C Data Abstraction and Structures",
-              "honors": false,
-              "course_id": "42bf730d",
-              "course_letters": "CIS 22C",
-              "title": "Data Abstraction and Structures"
-            }
-          ],
-          [
+              "uc_course_id": "CSE 12",
+              "uc_course_title": "Basic Data Structures and Object-Oriented Design",
+              "units": 4.0,
+              "section_id": "A",
+              "section_title": "A",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CIS 22C Data Abstraction and Structures",
+                        "honors": false,
+                        "course_id": "f4e40d78",
+                        "course_letters": "CIS 22C",
+                        "title": "Data Abstraction and Structures"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CIS 22CH Data Abstraction and Structures - HONORS",
+                        "honors": true,
+                        "course_id": "89249368",
+                        "course_letters": "CIS 22CH",
+                        "title": "Data Abstraction and Structures - HONORS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
             {
-              "name": "CIS 22CH Data Abstraction and Structures - HONORS",
-              "honors": true,
-              "course_id": "6946eaa1",
-              "course_letters": "CIS 22CH",
-              "title": "Data Abstraction and Structures - HONORS"
+              "uc_course_id": "CSE 15L",
+              "uc_course_title": "Software Tools and Techniques Laboratory",
+              "units": 2.0,
+              "section_id": "A",
+              "section_title": "A",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "No Course Articulated",
+                        "honors": false,
+                        "course_letters": "N/A",
+                        "title": "No Course Articulated",
+                        "course_id": "f5f99326"
+                      }
+                    ]
+                  }
+                ],
+                "no_articulation": true
+              }
+            },
+            {
+              "uc_course_id": "CSE 20",
+              "uc_course_title": "Discrete Mathematics",
+              "units": 4.0,
+              "section_id": "A",
+              "section_title": "A",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 22 Discrete Mathematics",
+                        "honors": false,
+                        "course_id": "234282b7",
+                        "course_letters": "MATH 22",
+                        "title": "Discrete Mathematics"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 22H Discrete Mathematics - HONORS",
+                        "honors": true,
+                        "course_id": "12d5f8ca",
+                        "course_letters": "MATH 22H",
+                        "title": "Discrete Mathematics - HONORS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "uc_course_id": "CSE 21",
+              "uc_course_title": "Mathematics for Algorithms and Systems",
+              "units": 4.0,
+              "section_id": "A",
+              "section_title": "A",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "No Course Articulated",
+                        "honors": false,
+                        "course_letters": "N/A",
+                        "title": "No Course Articulated",
+                        "course_id": "f5f99326"
+                      }
+                    ]
+                  }
+                ],
+                "no_articulation": true
+              }
+            },
+            {
+              "uc_course_id": "CSE 30",
+              "uc_course_title": "Computer Organization and Systems Programming",
+              "units": 4.0,
+              "section_id": "A",
+              "section_title": "A",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CIS 21JA Introduction to x86 Processor Assembly Language and Computer Architecture",
+                        "honors": false,
+                        "course_id": "a2752457",
+                        "course_letters": "CIS 21JA",
+                        "title": "Introduction to x86 Processor Assembly Language and Computer Architecture"
+                      },
+                      {
+                        "name": "CIS 21JB Advanced x86 Processor Assembly Programming",
+                        "honors": false,
+                        "course_id": "7492905e",
+                        "course_letters": "CIS 21JB",
+                        "title": "Advanced x86 Processor Assembly Programming"
+                      },
+                      {
+                        "name": "CIS 26B Advanced C Programming",
+                        "honors": false,
+                        "course_id": "ddb86661",
+                        "course_letters": "CIS 26B",
+                        "title": "Advanced C Programming"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CIS 21JA Introduction to x86 Processor Assembly Language and Computer Architecture",
+                        "honors": false,
+                        "course_id": "a2752457",
+                        "course_letters": "CIS 21JA",
+                        "title": "Introduction to x86 Processor Assembly Language and Computer Architecture"
+                      },
+                      {
+                        "name": "CIS 21JB Advanced x86 Processor Assembly Programming",
+                        "honors": false,
+                        "course_id": "7492905e",
+                        "course_letters": "CIS 21JB",
+                        "title": "Advanced x86 Processor Assembly Programming"
+                      },
+                      {
+                        "name": "CIS 26BH Advanced C Programming - HONORS",
+                        "honors": true,
+                        "course_id": "cda00163",
+                        "course_letters": "CIS 26BH",
+                        "title": "Advanced C Programming - HONORS"
+                      }
+                    ]
+                  }
+                ]
+              }
             }
           ]
-        ],
-        "ccc_courses": [
-          "CIS 22C",
-          "CIS 22CH"
-        ],
-        "no_articulation": false,
-        "group_logic": "N/A",
-        "group_logic_type": "all_required"
-      }
+        },
+        {
+          "section_id": "B",
+          "section_title": "B",
+          "uc_courses": [
+            {
+              "uc_course_id": "MATH 18",
+              "uc_course_title": "Linear Algebra",
+              "units": 4.0,
+              "section_id": "B",
+              "section_title": "B",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 2B Linear Algebra",
+                        "honors": false,
+                        "course_id": "67ba64db",
+                        "course_letters": "MATH 2B",
+                        "title": "Linear Algebra"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 2BH Linear Algebra - HONORS",
+                        "honors": true,
+                        "course_id": "f833ae9e",
+                        "course_letters": "MATH 2BH",
+                        "title": "Linear Algebra - HONORS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "uc_course_id": "MATH 20A",
+              "uc_course_title": "Calculus for Science and Engineering",
+              "units": 4.0,
+              "section_id": "B",
+              "section_title": "B",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 1A Calculus I",
+                        "honors": false,
+                        "course_id": "0318724b",
+                        "course_letters": "MATH 1A",
+                        "title": "Calculus I"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 1AH Calculus I - HONORS",
+                        "honors": true,
+                        "course_id": "81897081",
+                        "course_letters": "MATH 1AH",
+                        "title": "Calculus I - HONORS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "uc_course_id": "MATH 20B",
+              "uc_course_title": "Calculus for Science and Engineering",
+              "units": 4.0,
+              "section_id": "B",
+              "section_title": "B",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 1B Calculus II",
+                        "honors": false,
+                        "course_id": "08bf9a15",
+                        "course_letters": "MATH 1B",
+                        "title": "Calculus II"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 1BH Calculus II - HONORS",
+                        "honors": true,
+                        "course_id": "9001a62b",
+                        "course_letters": "MATH 1BH",
+                        "title": "Calculus II - HONORS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "uc_course_id": "MATH 20C",
+              "uc_course_title": "Calculus and Analytic Geometry for Science and Engineering",
+              "units": 4.0,
+              "section_id": "B",
+              "section_title": "B",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 1C Calculus III",
+                        "honors": false,
+                        "course_id": "6b1e8bd3",
+                        "course_letters": "MATH 1C",
+                        "title": "Calculus III"
+                      },
+                      {
+                        "name": "MATH 1D Calculus IV",
+                        "honors": false,
+                        "course_id": "f2569ec7",
+                        "course_letters": "MATH 1D",
+                        "title": "Calculus IV"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 1CH Calculus III - HONORS",
+                        "honors": true,
+                        "course_id": "5a849746",
+                        "course_letters": "MATH 1CH",
+                        "title": "Calculus III - HONORS"
+                      },
+                      {
+                        "name": "MATH 1DH Calculus IV - HONORS",
+                        "honors": true,
+                        "course_id": "cd0a1bb7",
+                        "course_letters": "MATH 1DH",
+                        "title": "Calculus IV - HONORS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
     },
     {
-      "doc_id": "group2_A_CSE15L",
-      "title": "CSE 15L Software Tools and Techniques Laboratory Articulation Requirement",
-      "content": "Group 2 Instruction: N/A\nSection Instruction (A): A\nUC Course: CSE 15L Software Tools and Techniques Laboratory (2.0 units)\nEquivalent Options:\n- No course articulated.",
-      "metadata": {
-        "group": "2",
-        "section": "A",
-        "section_courses": [
-          "CSE 12",
-          "CSE 15L",
-          "CSE 20",
-          "CSE 21",
-          "CSE 30"
-        ],
-        "uc_course": "CSE 15L",
-        "uc_course_id": "5b946066",
-        "uc_title": "Software Tools and Techniques Laboratory",
-        "units": 2.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
+      "group_id": "3",
+      "group_title": "Select 2 courses from the following.",
+      "group_logic_type": "select_n_courses",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "A",
+          "uc_courses": [
             {
-              "name": "No Course Articulated",
-              "honors": false,
-              "course_id": "fa9dad90",
-              "course_letters": "N/A",
-              "title": "No Course Articulated"
+              "uc_course_id": "BILD 1",
+              "uc_course_title": "The Cell",
+              "units": 4.0,
+              "section_id": "A",
+              "section_title": "A",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 6A Form and Function in the Biological World",
+                        "honors": false,
+                        "course_id": "664dbd8d",
+                        "course_letters": "BIOL 6A",
+                        "title": "Form and Function in the Biological World"
+                      },
+                      {
+                        "name": "BIOL 6B Cell and Molecular Biology",
+                        "honors": false,
+                        "course_id": "d95a3a88",
+                        "course_letters": "BIOL 6B",
+                        "title": "Cell and Molecular Biology"
+                      },
+                      {
+                        "name": "BIOL 6C Ecology and Evolution",
+                        "honors": false,
+                        "course_id": "5d29ce8d",
+                        "course_letters": "BIOL 6C",
+                        "title": "Ecology and Evolution"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 6AH Form and Function in the Biological World - HONORS",
+                        "honors": true,
+                        "course_id": "2be2b120",
+                        "course_letters": "BIOL 6AH",
+                        "title": "Form and Function in the Biological World - HONORS"
+                      },
+                      {
+                        "name": "BIOL 6B Cell and Molecular Biology",
+                        "honors": false,
+                        "course_id": "d95a3a88",
+                        "course_letters": "BIOL 6B",
+                        "title": "Cell and Molecular Biology"
+                      },
+                      {
+                        "name": "BIOL 6CH Ecology and Evolution - HONORS",
+                        "honors": true,
+                        "course_id": "570bc2a3",
+                        "course_letters": "BIOL 6CH",
+                        "title": "Ecology and Evolution - HONORS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "uc_course_id": "BILD 2",
+              "uc_course_title": "Multicellular Life",
+              "units": 4.0,
+              "section_id": "A",
+              "section_title": "A",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 6A Form and Function in the Biological World",
+                        "honors": false,
+                        "course_id": "664dbd8d",
+                        "course_letters": "BIOL 6A",
+                        "title": "Form and Function in the Biological World"
+                      },
+                      {
+                        "name": "BIOL 6B Cell and Molecular Biology",
+                        "honors": false,
+                        "course_id": "d95a3a88",
+                        "course_letters": "BIOL 6B",
+                        "title": "Cell and Molecular Biology"
+                      },
+                      {
+                        "name": "BIOL 6C Ecology and Evolution",
+                        "honors": false,
+                        "course_id": "5d29ce8d",
+                        "course_letters": "BIOL 6C",
+                        "title": "Ecology and Evolution"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 6AH Form and Function in the Biological World - HONORS",
+                        "honors": true,
+                        "course_id": "2be2b120",
+                        "course_letters": "BIOL 6AH",
+                        "title": "Form and Function in the Biological World - HONORS"
+                      },
+                      {
+                        "name": "BIOL 6B Cell and Molecular Biology",
+                        "honors": false,
+                        "course_id": "d95a3a88",
+                        "course_letters": "BIOL 6B",
+                        "title": "Cell and Molecular Biology"
+                      },
+                      {
+                        "name": "BIOL 6CH Ecology and Evolution - HONORS",
+                        "honors": true,
+                        "course_id": "570bc2a3",
+                        "course_letters": "BIOL 6CH",
+                        "title": "Ecology and Evolution - HONORS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "uc_course_id": "BILD 3",
+              "uc_course_title": "Organismic and Evolutionary Biology",
+              "units": 4.0,
+              "section_id": "A",
+              "section_title": "A",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 6A Form and Function in the Biological World",
+                        "honors": false,
+                        "course_id": "664dbd8d",
+                        "course_letters": "BIOL 6A",
+                        "title": "Form and Function in the Biological World"
+                      },
+                      {
+                        "name": "BIOL 6B Cell and Molecular Biology",
+                        "honors": false,
+                        "course_id": "d95a3a88",
+                        "course_letters": "BIOL 6B",
+                        "title": "Cell and Molecular Biology"
+                      },
+                      {
+                        "name": "BIOL 6C Ecology and Evolution",
+                        "honors": false,
+                        "course_id": "5d29ce8d",
+                        "course_letters": "BIOL 6C",
+                        "title": "Ecology and Evolution"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 6AH Form and Function in the Biological World - HONORS",
+                        "honors": true,
+                        "course_id": "2be2b120",
+                        "course_letters": "BIOL 6AH",
+                        "title": "Form and Function in the Biological World - HONORS"
+                      },
+                      {
+                        "name": "BIOL 6B Cell and Molecular Biology",
+                        "honors": false,
+                        "course_id": "d95a3a88",
+                        "course_letters": "BIOL 6B",
+                        "title": "Cell and Molecular Biology"
+                      },
+                      {
+                        "name": "BIOL 6CH Ecology and Evolution - HONORS",
+                        "honors": true,
+                        "course_id": "570bc2a3",
+                        "course_letters": "BIOL 6CH",
+                        "title": "Ecology and Evolution - HONORS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "uc_course_id": "CHEM 6A",
+              "uc_course_title": "General Chemistry I",
+              "units": 4.0,
+              "section_id": "A",
+              "section_title": "A",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CHEM 1A General Chemistry I",
+                        "honors": false,
+                        "course_id": "73f2f0f5",
+                        "course_letters": "CHEM 1A",
+                        "title": "General Chemistry I"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CHEM 1AH General Chemistry I - HONORS",
+                        "honors": true,
+                        "course_id": "f58112cf",
+                        "course_letters": "CHEM 1AH",
+                        "title": "General Chemistry I - HONORS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "uc_course_id": "CHEM 6B",
+              "uc_course_title": "General Chemistry II",
+              "units": 4.0,
+              "section_id": "A",
+              "section_title": "A",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CHEM 1B General Chemistry II",
+                        "honors": false,
+                        "course_id": "6a6b78a1",
+                        "course_letters": "CHEM 1B",
+                        "title": "General Chemistry II"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CHEM 1BH General Chemistry II - HONORS",
+                        "honors": true,
+                        "course_id": "a2add2db",
+                        "course_letters": "CHEM 1BH",
+                        "title": "General Chemistry II - HONORS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "uc_course_id": "PHYS 2A",
+              "uc_course_title": "Physics - Mechanics",
+              "units": 4.0,
+              "section_id": "A",
+              "section_title": "A",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PHYS 4A Physics for Scientists and Engineers: Mechanics",
+                        "honors": false,
+                        "course_id": "2570938e",
+                        "course_letters": "PHYS 4A",
+                        "title": "Physics for Scientists and Engineers: Mechanics"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "uc_course_id": "PHYS 2B",
+              "uc_course_title": "Physics - Electricity and Magnetism",
+              "units": 4.0,
+              "section_id": "A",
+              "section_title": "A",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PHYS 4B Physics for Scientists and Engineers: Electricity and Magnetism",
+                        "honors": false,
+                        "course_id": "32b28e53",
+                        "course_letters": "PHYS 4B",
+                        "title": "Physics for Scientists and Engineers: Electricity and Magnetism"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "uc_course_id": "PHYS 4A",
+              "uc_course_title": "Physics for Physics Majors—Mechanics",
+              "units": 4.0,
+              "section_id": "A",
+              "section_title": "A",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "No Course Articulated",
+                        "honors": false,
+                        "course_letters": "N/A",
+                        "title": "No Course Articulated",
+                        "course_id": "f5f99326"
+                      }
+                    ]
+                  }
+                ],
+                "no_articulation": true
+              }
+            },
+            {
+              "uc_course_id": "PHYS 4B",
+              "uc_course_title": "Physics for Physics Majors—Fluids, Waves, Statistical and Thermal Physics",
+              "units": 4.0,
+              "section_id": "A",
+              "section_title": "A",
+              "source_url": "https://assist.org/",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "No Course Articulated",
+                        "honors": false,
+                        "course_letters": "N/A",
+                        "title": "No Course Articulated",
+                        "course_id": "f5f99326"
+                      }
+                    ]
+                  }
+                ],
+                "no_articulation": true
+              }
             }
           ]
-        ],
-        "ccc_courses": [],
-        "no_articulation": true,
-        "group_logic": "N/A",
-        "group_logic_type": "all_required"
-      }
-    },
-    {
-      "doc_id": "group2_A_CSE20",
-      "title": "CSE 20 Discrete Mathematics Articulation Requirement",
-      "content": "Group 2 Instruction: N/A\nSection Instruction (A): A\nUC Course: CSE 20 Discrete Mathematics (4.0 units)\nEquivalent Options:\n- MATH 22 Discrete Mathematics\nOR\n- MATH 22H Discrete Mathematics - HONORS",
-      "metadata": {
-        "group": "2",
-        "section": "A",
-        "section_courses": [
-          "CSE 12",
-          "CSE 15L",
-          "CSE 20",
-          "CSE 21",
-          "CSE 30"
-        ],
-        "uc_course": "CSE 20",
-        "uc_course_id": "edf0bff3",
-        "uc_title": "Discrete Mathematics",
-        "units": 4.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
-            {
-              "name": "MATH 22 Discrete Mathematics",
-              "honors": false,
-              "course_id": "146e5d8b",
-              "course_letters": "MATH 22",
-              "title": "Discrete Mathematics"
-            }
-          ],
-          [
-            {
-              "name": "MATH 22H Discrete Mathematics - HONORS",
-              "honors": true,
-              "course_id": "42a0aa34",
-              "course_letters": "MATH 22H",
-              "title": "Discrete Mathematics - HONORS"
-            }
-          ]
-        ],
-        "ccc_courses": [
-          "MATH 22",
-          "MATH 22H"
-        ],
-        "no_articulation": false,
-        "group_logic": "N/A",
-        "group_logic_type": "all_required"
-      }
-    },
-    {
-      "doc_id": "group2_A_CSE21",
-      "title": "CSE 21 Mathematics for Algorithms and Systems Articulation Requirement",
-      "content": "Group 2 Instruction: N/A\nSection Instruction (A): A\nUC Course: CSE 21 Mathematics for Algorithms and Systems (4.0 units)\nEquivalent Options:\n- No course articulated.",
-      "metadata": {
-        "group": "2",
-        "section": "A",
-        "section_courses": [
-          "CSE 12",
-          "CSE 15L",
-          "CSE 20",
-          "CSE 21",
-          "CSE 30"
-        ],
-        "uc_course": "CSE 21",
-        "uc_course_id": "abf38b91",
-        "uc_title": "Mathematics for Algorithms and Systems",
-        "units": 4.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
-            {
-              "name": "No Course Articulated",
-              "honors": false,
-              "course_id": "fa9dad90",
-              "course_letters": "N/A",
-              "title": "No Course Articulated"
-            }
-          ]
-        ],
-        "ccc_courses": [],
-        "no_articulation": true,
-        "group_logic": "N/A",
-        "group_logic_type": "all_required"
-      }
-    },
-    {
-      "doc_id": "group2_A_CSE30",
-      "title": "CSE 30 Computer Organization and Systems Programming Articulation Requirement",
-      "content": "Group 2 Instruction: N/A\nSection Instruction (A): A\nUC Course: CSE 30 Computer Organization and Systems Programming (4.0 units)\nEquivalent Options:\n- (CIS 21JA Introduction to x86 Processor Assembly Language and Computer Architecture AND CIS 21JB Advanced x86 Processor Assembly Programming AND CIS 26B Advanced C Programming)\nOR\n- (CIS 21JA Introduction to x86 Processor Assembly Language and Computer Architecture AND CIS 21JB Advanced x86 Processor Assembly Programming AND CIS 26BH Advanced C Programming - HONORS)",
-      "metadata": {
-        "group": "2",
-        "section": "A",
-        "section_courses": [
-          "CSE 12",
-          "CSE 15L",
-          "CSE 20",
-          "CSE 21",
-          "CSE 30"
-        ],
-        "uc_course": "CSE 30",
-        "uc_course_id": "915809cd",
-        "uc_title": "Computer Organization and Systems Programming",
-        "units": 4.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
-            {
-              "name": "CIS 21JA Introduction to x86 Processor Assembly Language and Computer Architecture",
-              "honors": false,
-              "course_id": "038d379d",
-              "course_letters": "CIS 21JA",
-              "title": "Introduction to x86 Processor Assembly Language and Computer Architecture"
-            },
-            {
-              "name": "CIS 21JB Advanced x86 Processor Assembly Programming",
-              "honors": false,
-              "course_id": "98e979a7",
-              "course_letters": "CIS 21JB",
-              "title": "Advanced x86 Processor Assembly Programming"
-            },
-            {
-              "name": "CIS 26B Advanced C Programming",
-              "honors": false,
-              "course_id": "b915aec0",
-              "course_letters": "CIS 26B",
-              "title": "Advanced C Programming"
-            }
-          ],
-          [
-            {
-              "name": "CIS 21JA Introduction to x86 Processor Assembly Language and Computer Architecture",
-              "honors": false,
-              "course_id": "038d379d",
-              "course_letters": "CIS 21JA",
-              "title": "Introduction to x86 Processor Assembly Language and Computer Architecture"
-            },
-            {
-              "name": "CIS 21JB Advanced x86 Processor Assembly Programming",
-              "honors": false,
-              "course_id": "98e979a7",
-              "course_letters": "CIS 21JB",
-              "title": "Advanced x86 Processor Assembly Programming"
-            },
-            {
-              "name": "CIS 26BH Advanced C Programming - HONORS",
-              "honors": true,
-              "course_id": "a0cf0b2b",
-              "course_letters": "CIS 26BH",
-              "title": "Advanced C Programming - HONORS"
-            }
-          ]
-        ],
-        "ccc_courses": [
-          "CIS 21JA",
-          "CIS 21JB",
-          "CIS 26B",
-          "CIS 26BH"
-        ],
-        "no_articulation": false,
-        "group_logic": "N/A",
-        "group_logic_type": "all_required"
-      }
-    },
-    {
-      "doc_id": "group2_B_MATH18",
-      "title": "MATH 18 Linear Algebra Articulation Requirement",
-      "content": "Group 2 Instruction: N/A\nSection Instruction (B): B\nUC Course: MATH 18 Linear Algebra (4.0 units)\nEquivalent Options:\n- MATH 2B Linear Algebra\nOR\n- MATH 2BH Linear Algebra - HONORS",
-      "metadata": {
-        "group": "2",
-        "section": "B",
-        "section_courses": [
-          "MATH 18",
-          "MATH 20A",
-          "MATH 20B",
-          "MATH 20C"
-        ],
-        "uc_course": "MATH 18",
-        "uc_course_id": "ff5de855",
-        "uc_title": "Linear Algebra",
-        "units": 4.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
-            {
-              "name": "MATH 2B Linear Algebra",
-              "honors": false,
-              "course_id": "899c33fc",
-              "course_letters": "MATH 2B",
-              "title": "Linear Algebra"
-            }
-          ],
-          [
-            {
-              "name": "MATH 2BH Linear Algebra - HONORS",
-              "honors": true,
-              "course_id": "91a77b20",
-              "course_letters": "MATH 2BH",
-              "title": "Linear Algebra - HONORS"
-            }
-          ]
-        ],
-        "ccc_courses": [
-          "MATH 2B",
-          "MATH 2BH"
-        ],
-        "no_articulation": false,
-        "group_logic": "N/A",
-        "group_logic_type": "all_required"
-      }
-    },
-    {
-      "doc_id": "group2_B_MATH20A",
-      "title": "MATH 20A Calculus for Science and Engineering Articulation Requirement",
-      "content": "Group 2 Instruction: N/A\nSection Instruction (B): B\nUC Course: MATH 20A Calculus for Science and Engineering (4.0 units)\nEquivalent Options:\n- MATH 1A Calculus I\nOR\n- MATH 1AH Calculus I - HONORS",
-      "metadata": {
-        "group": "2",
-        "section": "B",
-        "section_courses": [
-          "MATH 18",
-          "MATH 20A",
-          "MATH 20B",
-          "MATH 20C"
-        ],
-        "uc_course": "MATH 20A",
-        "uc_course_id": "6955c2d9",
-        "uc_title": "Calculus for Science and Engineering",
-        "units": 4.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
-            {
-              "name": "MATH 1A Calculus I",
-              "honors": false,
-              "course_id": "10d6cbf7",
-              "course_letters": "MATH 1A",
-              "title": "Calculus I"
-            }
-          ],
-          [
-            {
-              "name": "MATH 1AH Calculus I - HONORS",
-              "honors": true,
-              "course_id": "4f32623a",
-              "course_letters": "MATH 1AH",
-              "title": "Calculus I - HONORS"
-            }
-          ]
-        ],
-        "ccc_courses": [
-          "MATH 1A",
-          "MATH 1AH"
-        ],
-        "no_articulation": false,
-        "group_logic": "N/A",
-        "group_logic_type": "all_required"
-      }
-    },
-    {
-      "doc_id": "group2_B_MATH20B",
-      "title": "MATH 20B Calculus for Science and Engineering Articulation Requirement",
-      "content": "Group 2 Instruction: N/A\nSection Instruction (B): B\nUC Course: MATH 20B Calculus for Science and Engineering (4.0 units)\nEquivalent Options:\n- MATH 1B Calculus II\nOR\n- MATH 1BH Calculus II - HONORS",
-      "metadata": {
-        "group": "2",
-        "section": "B",
-        "section_courses": [
-          "MATH 18",
-          "MATH 20A",
-          "MATH 20B",
-          "MATH 20C"
-        ],
-        "uc_course": "MATH 20B",
-        "uc_course_id": "140f8b16",
-        "uc_title": "Calculus for Science and Engineering",
-        "units": 4.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
-            {
-              "name": "MATH 1B Calculus II",
-              "honors": false,
-              "course_id": "e5e10bf9",
-              "course_letters": "MATH 1B",
-              "title": "Calculus II"
-            }
-          ],
-          [
-            {
-              "name": "MATH 1BH Calculus II - HONORS",
-              "honors": true,
-              "course_id": "63292a54",
-              "course_letters": "MATH 1BH",
-              "title": "Calculus II - HONORS"
-            }
-          ]
-        ],
-        "ccc_courses": [
-          "MATH 1B",
-          "MATH 1BH"
-        ],
-        "no_articulation": false,
-        "group_logic": "N/A",
-        "group_logic_type": "all_required"
-      }
-    },
-    {
-      "doc_id": "group2_B_MATH20C",
-      "title": "MATH 20C Calculus and Analytic Geometry for Science and Engineering Articulation Requirement",
-      "content": "Group 2 Instruction: N/A\nSection Instruction (B): B\nUC Course: MATH 20C Calculus and Analytic Geometry for Science and Engineering (4.0 units)\nEquivalent Options:\n- (MATH 1C Calculus III AND MATH 1D Calculus IV)\nOR\n- (MATH 1CH Calculus III - HONORS AND MATH 1DH Calculus IV - HONORS)",
-      "metadata": {
-        "group": "2",
-        "section": "B",
-        "section_courses": [
-          "MATH 18",
-          "MATH 20A",
-          "MATH 20B",
-          "MATH 20C"
-        ],
-        "uc_course": "MATH 20C",
-        "uc_course_id": "f42c4c19",
-        "uc_title": "Calculus and Analytic Geometry for Science and Engineering",
-        "units": 4.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
-            {
-              "name": "MATH 1C Calculus III",
-              "honors": false,
-              "course_id": "8117446c",
-              "course_letters": "MATH 1C",
-              "title": "Calculus III"
-            },
-            {
-              "name": "MATH 1D Calculus IV",
-              "honors": false,
-              "course_id": "b7c26074",
-              "course_letters": "MATH 1D",
-              "title": "Calculus IV"
-            }
-          ],
-          [
-            {
-              "name": "MATH 1CH Calculus III - HONORS",
-              "honors": true,
-              "course_id": "9b87a75f",
-              "course_letters": "MATH 1CH",
-              "title": "Calculus III - HONORS"
-            },
-            {
-              "name": "MATH 1DH Calculus IV - HONORS",
-              "honors": true,
-              "course_id": "4e3f2009",
-              "course_letters": "MATH 1DH",
-              "title": "Calculus IV - HONORS"
-            }
-          ]
-        ],
-        "ccc_courses": [
-          "MATH 1C",
-          "MATH 1CH",
-          "MATH 1D",
-          "MATH 1DH"
-        ],
-        "no_articulation": false,
-        "group_logic": "N/A",
-        "group_logic_type": "all_required"
-      }
-    },
-    {
-      "doc_id": "group3_A_BILD1",
-      "title": "BILD 1 The Cell Articulation Requirement",
-      "content": "Group 3 Instruction: Select 2 courses from the following.\nSection Instruction (A): A\nUC Course: BILD 1 The Cell (4.0 units)\nEquivalent Options:\n- (BIOL 6A Form and Function in the Biological World AND BIOL 6B Cell and Molecular Biology AND BIOL 6C Ecology and Evolution)\nOR\n- (BIOL 6AH Form and Function in the Biological World - HONORS AND BIOL 6B Cell and Molecular Biology AND BIOL 6CH Ecology and Evolution - HONORS)",
-      "metadata": {
-        "group": "3",
-        "section": "A",
-        "section_courses": [
-          "BILD 1",
-          "BILD 2",
-          "BILD 3",
-          "CHEM 6A",
-          "CHEM 6B",
-          "PHYS 2A",
-          "PHYS 2B",
-          "PHYS 4A",
-          "PHYS 4B"
-        ],
-        "uc_course": "BILD 1",
-        "uc_course_id": "c6571819",
-        "uc_title": "The Cell",
-        "units": 4.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
-            {
-              "name": "BIOL 6A Form and Function in the Biological World",
-              "honors": false,
-              "course_id": "389977de",
-              "course_letters": "BIOL 6A",
-              "title": "Form and Function in the Biological World"
-            },
-            {
-              "name": "BIOL 6B Cell and Molecular Biology",
-              "honors": false,
-              "course_id": "4fc3c47b",
-              "course_letters": "BIOL 6B",
-              "title": "Cell and Molecular Biology"
-            },
-            {
-              "name": "BIOL 6C Ecology and Evolution",
-              "honors": false,
-              "course_id": "4229a685",
-              "course_letters": "BIOL 6C",
-              "title": "Ecology and Evolution"
-            }
-          ],
-          [
-            {
-              "name": "BIOL 6AH Form and Function in the Biological World - HONORS",
-              "honors": true,
-              "course_id": "326ff7b6",
-              "course_letters": "BIOL 6AH",
-              "title": "Form and Function in the Biological World - HONORS"
-            },
-            {
-              "name": "BIOL 6B Cell and Molecular Biology",
-              "honors": false,
-              "course_id": "4fc3c47b",
-              "course_letters": "BIOL 6B",
-              "title": "Cell and Molecular Biology"
-            },
-            {
-              "name": "BIOL 6CH Ecology and Evolution - HONORS",
-              "honors": true,
-              "course_id": "486ad242",
-              "course_letters": "BIOL 6CH",
-              "title": "Ecology and Evolution - HONORS"
-            }
-          ]
-        ],
-        "ccc_courses": [
-          "BIOL 6A",
-          "BIOL 6AH",
-          "BIOL 6B",
-          "BIOL 6C",
-          "BIOL 6CH"
-        ],
-        "no_articulation": false,
-        "group_logic": "Select 2 courses from the following.",
-        "group_logic_type": "select_n_courses",
-        "n_courses": 2
-      }
-    },
-    {
-      "doc_id": "group3_A_BILD2",
-      "title": "BILD 2 Multicellular Life Articulation Requirement",
-      "content": "Group 3 Instruction: Select 2 courses from the following.\nSection Instruction (A): A\nUC Course: BILD 2 Multicellular Life (4.0 units)\nEquivalent Options:\n- (BIOL 6A Form and Function in the Biological World AND BIOL 6B Cell and Molecular Biology AND BIOL 6C Ecology and Evolution)\nOR\n- (BIOL 6AH Form and Function in the Biological World - HONORS AND BIOL 6B Cell and Molecular Biology AND BIOL 6CH Ecology and Evolution - HONORS)",
-      "metadata": {
-        "group": "3",
-        "section": "A",
-        "section_courses": [
-          "BILD 1",
-          "BILD 2",
-          "BILD 3",
-          "CHEM 6A",
-          "CHEM 6B",
-          "PHYS 2A",
-          "PHYS 2B",
-          "PHYS 4A",
-          "PHYS 4B"
-        ],
-        "uc_course": "BILD 2",
-        "uc_course_id": "1f9cc700",
-        "uc_title": "Multicellular Life",
-        "units": 4.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
-            {
-              "name": "BIOL 6A Form and Function in the Biological World",
-              "honors": false,
-              "course_id": "389977de",
-              "course_letters": "BIOL 6A",
-              "title": "Form and Function in the Biological World"
-            },
-            {
-              "name": "BIOL 6B Cell and Molecular Biology",
-              "honors": false,
-              "course_id": "4fc3c47b",
-              "course_letters": "BIOL 6B",
-              "title": "Cell and Molecular Biology"
-            },
-            {
-              "name": "BIOL 6C Ecology and Evolution",
-              "honors": false,
-              "course_id": "4229a685",
-              "course_letters": "BIOL 6C",
-              "title": "Ecology and Evolution"
-            }
-          ],
-          [
-            {
-              "name": "BIOL 6AH Form and Function in the Biological World - HONORS",
-              "honors": true,
-              "course_id": "326ff7b6",
-              "course_letters": "BIOL 6AH",
-              "title": "Form and Function in the Biological World - HONORS"
-            },
-            {
-              "name": "BIOL 6B Cell and Molecular Biology",
-              "honors": false,
-              "course_id": "4fc3c47b",
-              "course_letters": "BIOL 6B",
-              "title": "Cell and Molecular Biology"
-            },
-            {
-              "name": "BIOL 6CH Ecology and Evolution - HONORS",
-              "honors": true,
-              "course_id": "486ad242",
-              "course_letters": "BIOL 6CH",
-              "title": "Ecology and Evolution - HONORS"
-            }
-          ]
-        ],
-        "ccc_courses": [
-          "BIOL 6A",
-          "BIOL 6AH",
-          "BIOL 6B",
-          "BIOL 6C",
-          "BIOL 6CH"
-        ],
-        "no_articulation": false,
-        "group_logic": "Select 2 courses from the following.",
-        "group_logic_type": "select_n_courses",
-        "n_courses": 2
-      }
-    },
-    {
-      "doc_id": "group3_A_BILD3",
-      "title": "BILD 3 Organismic and Evolutionary Biology Articulation Requirement",
-      "content": "Group 3 Instruction: Select 2 courses from the following.\nSection Instruction (A): A\nUC Course: BILD 3 Organismic and Evolutionary Biology (4.0 units)\nEquivalent Options:\n- (BIOL 6A Form and Function in the Biological World AND BIOL 6B Cell and Molecular Biology AND BIOL 6C Ecology and Evolution)\nOR\n- (BIOL 6AH Form and Function in the Biological World - HONORS AND BIOL 6B Cell and Molecular Biology AND BIOL 6CH Ecology and Evolution - HONORS)",
-      "metadata": {
-        "group": "3",
-        "section": "A",
-        "section_courses": [
-          "BILD 1",
-          "BILD 2",
-          "BILD 3",
-          "CHEM 6A",
-          "CHEM 6B",
-          "PHYS 2A",
-          "PHYS 2B",
-          "PHYS 4A",
-          "PHYS 4B"
-        ],
-        "uc_course": "BILD 3",
-        "uc_course_id": "6c838354",
-        "uc_title": "Organismic and Evolutionary Biology",
-        "units": 4.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
-            {
-              "name": "BIOL 6A Form and Function in the Biological World",
-              "honors": false,
-              "course_id": "389977de",
-              "course_letters": "BIOL 6A",
-              "title": "Form and Function in the Biological World"
-            },
-            {
-              "name": "BIOL 6B Cell and Molecular Biology",
-              "honors": false,
-              "course_id": "4fc3c47b",
-              "course_letters": "BIOL 6B",
-              "title": "Cell and Molecular Biology"
-            },
-            {
-              "name": "BIOL 6C Ecology and Evolution",
-              "honors": false,
-              "course_id": "4229a685",
-              "course_letters": "BIOL 6C",
-              "title": "Ecology and Evolution"
-            }
-          ],
-          [
-            {
-              "name": "BIOL 6AH Form and Function in the Biological World - HONORS",
-              "honors": true,
-              "course_id": "326ff7b6",
-              "course_letters": "BIOL 6AH",
-              "title": "Form and Function in the Biological World - HONORS"
-            },
-            {
-              "name": "BIOL 6B Cell and Molecular Biology",
-              "honors": false,
-              "course_id": "4fc3c47b",
-              "course_letters": "BIOL 6B",
-              "title": "Cell and Molecular Biology"
-            },
-            {
-              "name": "BIOL 6CH Ecology and Evolution - HONORS",
-              "honors": true,
-              "course_id": "486ad242",
-              "course_letters": "BIOL 6CH",
-              "title": "Ecology and Evolution - HONORS"
-            }
-          ]
-        ],
-        "ccc_courses": [
-          "BIOL 6A",
-          "BIOL 6AH",
-          "BIOL 6B",
-          "BIOL 6C",
-          "BIOL 6CH"
-        ],
-        "no_articulation": false,
-        "group_logic": "Select 2 courses from the following.",
-        "group_logic_type": "select_n_courses",
-        "n_courses": 2
-      }
-    },
-    {
-      "doc_id": "group3_A_CHEM6A",
-      "title": "CHEM 6A General Chemistry I Articulation Requirement",
-      "content": "Group 3 Instruction: Select 2 courses from the following.\nSection Instruction (A): A\nUC Course: CHEM 6A General Chemistry I (4.0 units)\nEquivalent Options:\n- CHEM 1A General Chemistry I\nOR\n- CHEM 1AH General Chemistry I - HONORS",
-      "metadata": {
-        "group": "3",
-        "section": "A",
-        "section_courses": [
-          "BILD 1",
-          "BILD 2",
-          "BILD 3",
-          "CHEM 6A",
-          "CHEM 6B",
-          "PHYS 2A",
-          "PHYS 2B",
-          "PHYS 4A",
-          "PHYS 4B"
-        ],
-        "uc_course": "CHEM 6A",
-        "uc_course_id": "ba5d512d",
-        "uc_title": "General Chemistry I",
-        "units": 4.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
-            {
-              "name": "CHEM 1A General Chemistry I",
-              "honors": false,
-              "course_id": "376f10e6",
-              "course_letters": "CHEM 1A",
-              "title": "General Chemistry I"
-            }
-          ],
-          [
-            {
-              "name": "CHEM 1AH General Chemistry I - HONORS",
-              "honors": true,
-              "course_id": "f437027d",
-              "course_letters": "CHEM 1AH",
-              "title": "General Chemistry I - HONORS"
-            }
-          ]
-        ],
-        "ccc_courses": [
-          "CHEM 1A",
-          "CHEM 1AH"
-        ],
-        "no_articulation": false,
-        "group_logic": "Select 2 courses from the following.",
-        "group_logic_type": "select_n_courses",
-        "n_courses": 2
-      }
-    },
-    {
-      "doc_id": "group3_A_CHEM6B",
-      "title": "CHEM 6B General Chemistry II Articulation Requirement",
-      "content": "Group 3 Instruction: Select 2 courses from the following.\nSection Instruction (A): A\nUC Course: CHEM 6B General Chemistry II (4.0 units)\nEquivalent Options:\n- CHEM 1B General Chemistry II\nOR\n- CHEM 1BH General Chemistry II - HONORS",
-      "metadata": {
-        "group": "3",
-        "section": "A",
-        "section_courses": [
-          "BILD 1",
-          "BILD 2",
-          "BILD 3",
-          "CHEM 6A",
-          "CHEM 6B",
-          "PHYS 2A",
-          "PHYS 2B",
-          "PHYS 4A",
-          "PHYS 4B"
-        ],
-        "uc_course": "CHEM 6B",
-        "uc_course_id": "2a45cc4d",
-        "uc_title": "General Chemistry II",
-        "units": 4.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
-            {
-              "name": "CHEM 1B General Chemistry II",
-              "honors": false,
-              "course_id": "08a4029a",
-              "course_letters": "CHEM 1B",
-              "title": "General Chemistry II"
-            }
-          ],
-          [
-            {
-              "name": "CHEM 1BH General Chemistry II - HONORS",
-              "honors": true,
-              "course_id": "a0ff9e58",
-              "course_letters": "CHEM 1BH",
-              "title": "General Chemistry II - HONORS"
-            }
-          ]
-        ],
-        "ccc_courses": [
-          "CHEM 1B",
-          "CHEM 1BH"
-        ],
-        "no_articulation": false,
-        "group_logic": "Select 2 courses from the following.",
-        "group_logic_type": "select_n_courses",
-        "n_courses": 2
-      }
-    },
-    {
-      "doc_id": "group3_A_PHYS2A",
-      "title": "PHYS 2A Physics - Mechanics Articulation Requirement",
-      "content": "Group 3 Instruction: Select 2 courses from the following.\nSection Instruction (A): A\nUC Course: PHYS 2A Physics - Mechanics (4.0 units)\nEquivalent Options:\n- PHYS 4A Physics for Scientists and Engineers: Mechanics",
-      "metadata": {
-        "group": "3",
-        "section": "A",
-        "section_courses": [
-          "BILD 1",
-          "BILD 2",
-          "BILD 3",
-          "CHEM 6A",
-          "CHEM 6B",
-          "PHYS 2A",
-          "PHYS 2B",
-          "PHYS 4A",
-          "PHYS 4B"
-        ],
-        "uc_course": "PHYS 2A",
-        "uc_course_id": "d87e0101",
-        "uc_title": "Physics - Mechanics",
-        "units": 4.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
-            {
-              "name": "PHYS 4A Physics for Scientists and Engineers: Mechanics",
-              "honors": false,
-              "course_id": "21ab7ea6",
-              "course_letters": "PHYS 4A",
-              "title": "Physics for Scientists and Engineers: Mechanics"
-            }
-          ]
-        ],
-        "ccc_courses": [
-          "PHYS 4A"
-        ],
-        "no_articulation": false,
-        "group_logic": "Select 2 courses from the following.",
-        "group_logic_type": "select_n_courses",
-        "n_courses": 2
-      }
-    },
-    {
-      "doc_id": "group3_A_PHYS2B",
-      "title": "PHYS 2B Physics - Electricity and Magnetism Articulation Requirement",
-      "content": "Group 3 Instruction: Select 2 courses from the following.\nSection Instruction (A): A\nUC Course: PHYS 2B Physics - Electricity and Magnetism (4.0 units)\nEquivalent Options:\n- PHYS 4B Physics for Scientists and Engineers: Electricity and Magnetism",
-      "metadata": {
-        "group": "3",
-        "section": "A",
-        "section_courses": [
-          "BILD 1",
-          "BILD 2",
-          "BILD 3",
-          "CHEM 6A",
-          "CHEM 6B",
-          "PHYS 2A",
-          "PHYS 2B",
-          "PHYS 4A",
-          "PHYS 4B"
-        ],
-        "uc_course": "PHYS 2B",
-        "uc_course_id": "138caa63",
-        "uc_title": "Physics - Electricity and Magnetism",
-        "units": 4.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
-            {
-              "name": "PHYS 4B Physics for Scientists and Engineers: Electricity and Magnetism",
-              "honors": false,
-              "course_id": "4fee7d9b",
-              "course_letters": "PHYS 4B",
-              "title": "Physics for Scientists and Engineers: Electricity and Magnetism"
-            }
-          ]
-        ],
-        "ccc_courses": [
-          "PHYS 4B"
-        ],
-        "no_articulation": false,
-        "group_logic": "Select 2 courses from the following.",
-        "group_logic_type": "select_n_courses",
-        "n_courses": 2
-      }
-    },
-    {
-      "doc_id": "group3_A_PHYS4A",
-      "title": "PHYS 4A Physics for Physics Majors—Mechanics Articulation Requirement",
-      "content": "Group 3 Instruction: Select 2 courses from the following.\nSection Instruction (A): A\nUC Course: PHYS 4A Physics for Physics Majors—Mechanics (4.0 units)\nEquivalent Options:\n- No course articulated.",
-      "metadata": {
-        "group": "3",
-        "section": "A",
-        "section_courses": [
-          "BILD 1",
-          "BILD 2",
-          "BILD 3",
-          "CHEM 6A",
-          "CHEM 6B",
-          "PHYS 2A",
-          "PHYS 2B",
-          "PHYS 4A",
-          "PHYS 4B"
-        ],
-        "uc_course": "PHYS 4A",
-        "uc_course_id": "21ab7ea6",
-        "uc_title": "Physics for Physics Majors—Mechanics",
-        "units": 4.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
-            {
-              "name": "No Course Articulated",
-              "honors": false,
-              "course_id": "fa9dad90",
-              "course_letters": "N/A",
-              "title": "No Course Articulated"
-            }
-          ]
-        ],
-        "ccc_courses": [],
-        "no_articulation": true,
-        "group_logic": "Select 2 courses from the following.",
-        "group_logic_type": "select_n_courses",
-        "n_courses": 2
-      }
-    },
-    {
-      "doc_id": "group3_A_PHYS4B",
-      "title": "PHYS 4B Physics for Physics Majors—Fluids, Waves, Statistical and Thermal Physics Articulation Requirement",
-      "content": "Group 3 Instruction: Select 2 courses from the following.\nSection Instruction (A): A\nUC Course: PHYS 4B Physics for Physics Majors—Fluids, Waves, Statistical and Thermal Physics (4.0 units)\nEquivalent Options:\n- No course articulated.",
-      "metadata": {
-        "group": "3",
-        "section": "A",
-        "section_courses": [
-          "BILD 1",
-          "BILD 2",
-          "BILD 3",
-          "CHEM 6A",
-          "CHEM 6B",
-          "PHYS 2A",
-          "PHYS 2B",
-          "PHYS 4A",
-          "PHYS 4B"
-        ],
-        "uc_course": "PHYS 4B",
-        "uc_course_id": "4fee7d9b",
-        "uc_title": "Physics for Physics Majors—Fluids, Waves, Statistical and Thermal Physics",
-        "units": 4.0,
-        "institution_from": "De Anza College",
-        "institution_to": "University of California, San Diego",
-        "catalog_year": "2024–2025",
-        "logic_structure": [
-          [
-            {
-              "name": "No Course Articulated",
-              "honors": false,
-              "course_id": "fa9dad90",
-              "course_letters": "N/A",
-              "title": "No Course Articulated"
-            }
-          ]
-        ],
-        "ccc_courses": [],
-        "no_articulation": true,
-        "group_logic": "Select 2 courses from the following.",
-        "group_logic_type": "select_n_courses",
-        "n_courses": 2
-      }
+        }
+      ],
+      "n_courses": 2
     }
   ]
 }
