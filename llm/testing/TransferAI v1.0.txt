@@ -1,0 +1,982 @@
+TransferAI Test Suite v1.0 — Snapshot Statistics
+
+Total Tests Run: 32
+Perfect Passes: 24 (75.0%)
+Partial Successes: 6 (18.8%)
+Failures: 2 (6.2%)
+
+
+
+
+===== Test 1: Which De Anza courses satisfy CSE 8A at UCSD? =====
+🔍 Found 1 matching document(s).
+
+📘 UC: CSE 8A
+📗 CCC: CIS 22A, CIS 36A, CIS 40
+
+🧠 AI: I'm TransferAI, your trusted UC transfer counselor! I'll provide you with the exact articulation summary from ASSIST.org.
+
+To satisfy CSE 8A at UCSD, you must complete one of the following De Anza course options:
+
+* Option A: CIS 22A
+* Option B: CIS 36A
+* Option C: CIS 40
+
+That's it! No more, no less.
+
+============================================================
+
+===== Test 2: Which courses satisfy CSE 8B? =====
+🔍 Found 1 matching document(s).
+
+📘 UC: CSE 8B
+📗 CCC: CIS 36B
+
+🧠 AI: I'm TransferAI, your trusted UC transfer counselor! I'll provide you with the exact articulation summary to satisfy CSE 8B.
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: CIS 36B
+
+That's it! Remember, as a UC transfer counselor, my role is to mirror the official ASSIST.org articulation system. I won't suggest or simplify anything; I'll stick to the verified logic and provide all available options.
+
+============================================================
+
+===== Test 3: Which courses satisfy CSE 11? =====
+🔍 Found 1 matching document(s).
+
+📘 UC: CSE 11
+📗 CCC: CIS 35A, CIS 36A, CIS 36B
+
+🧠 AI: I'm TransferAI, your trusted UC transfer counselor! I'll provide you with accurate and verified information to help you navigate the UC system.
+
+To satisfy CSE 11 at a UC campus, you need to complete one of the following De Anza course options:
+
+* Option A: CIS 35A
+* Option B: CIS 36A, CIS 36B (complete all)
+
+Remember, as per the official ASSIST.org articulation summary, you must choose only one section (A or B) and complete all courses within that section to satisfy the UC requirement.
+
+============================================================
+
+===== Test 4: Do I need to take both CIS 36A and CIS 36B to get credit for CSE 11? =====
+🔍 Found 1 matching document(s).
+
+🧠 Validation: ✅ Satisfies Option B with: CIS 36A, CIS 36B 
+
+📘 UC: CSE 11
+📗 CCC: CIS 35A, CIS 36A, CIS 36B
+
+🧠 AI: I'm TransferAI, a trusted UC transfer counselor trained to mirror the official ASSIST.org articulation system. Here's my response:
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options.
+
+* Option A: CIS 35A
+* Option B: CIS 36A, CIS 36B (complete all)
+
+I'll make sure to follow the strict output rules and not remove, collapse, reorder, or reword any part of the articulation summary.
+
+============================================================
+
+===== Test 5: Can I take CIS 22A and CIS 36B to satisfy anything in Group 1? =====
+🔎 Found 3 matching documents in Group 1.
+
+📘 Group: 1
+🧠 AI: To satisfy Group 1, you must complete all UC courses from either Section A or Section B, but not both.
+
+🔹 Section A
+**CSE 8A – Introduction to Programming and Computational Problem Solving I**
+* Option A: CIS 22A
+* Option B: CIS 36A
+* Option C: CIS 40
+
+**CSE 8B – Introduction to Programming and Computational Problem Solving II**
+* Option A: CIS 36B
+
+🔹 Section B
+**CSE 11 – Introduction to Programming and Computational Problem Solving - Accelerated Pace**
+* Option A: CIS 35A
+* Option B: CIS 36A, CIS 36B (complete all)
+
+✅ To satisfy Group 1, complete **all UC courses in exactly ONE full section** listed above (e.g., A or B). Do not mix UC or CCC courses between sections. Follow the articulation options listed for each UC course.
+
+⚠️ Some UC courses require **multiple CCC courses**. You must complete every course listed in the selected option.
+
+⚠️ Do not modify, condense, reorder, or re-interpret the summary.
+⚠️ Include all courses — even those that say "This course must be completed at UCSD".
+⚠️ Do not exclude courses that lack De Anza articulation.
+⚠️ Do not try to "rephrase" or split up articulation chains.
+⚠️ Do not omit any UC course for any reason.
+
+============================================================
+
+===== Test 6: Can I mix CIS 22A and CIS 35A for Group 1 at UCSD? =====
+🔎 Found 3 matching documents in Group 1.
+
+📘 Group: 1
+🧠 AI: To satisfy Group 1, you must complete all UC courses from either Section A or Section B, but not both.
+
+🔹 Section A
+**CSE 8A – Introduction to Programming and Computational Problem Solving I**
+* Option A: CIS 22A
+* Option B: CIS 36A
+* Option C: CIS 40
+
+**CSE 8B – Introduction to Programming and Computational Problem Solving II**
+* Option A: CIS 36B
+
+🔹 Section B
+**CSE 11 – Introduction to Programming and Computational Problem Solving - Accelerated Pace**
+* Option A: CIS 35A
+* Option B: CIS 36A, CIS 36B (complete all)
+
+✅ To satisfy Group 1, complete **all UC courses in exactly ONE full section** listed above (e.g., A or B). Do not mix UC or CCC courses between sections. Follow the articulation options listed for each UC course.
+
+⚠️ Some UC courses require **multiple CCC courses**. You must complete every course listed in the selected option.
+
+⚠️ Do not modify, condense, reorder, or re-interpret the summary.
+⚠️ Include all courses — even those that say "This course must be completed at UCSD".
+⚠️ Do not exclude courses that lack De Anza articulation.
+⚠️ Do not try to "rephrase" or split up articulation chains.
+⚠️ Do not omit any UC course for any reason.
+
+============================================================
+
+===== Test 7: If I complete CSE 8A and 8B, is that one full path? =====
+🔍 Found 1 matching document(s).
+
+📘 UC: CSE 8A
+📗 CCC: CIS 22A, CIS 36A, CIS 40
+
+🧠 AI: I'm TransferAI, your trusted UC transfer counselor! I'll provide you with accurate and verified information based on the official ASSIST.org articulation system.
+
+To answer your question: If you complete CSE 8A and 8B, that is not one full path. Since this course appears in Group 1, under Section A, to satisfy the group requirement, a student must complete all UC courses in exactly ONE full section (A or B). Each UC course must be satisfied individually using the listed De Anza (CCC) articulation options.
+
+To satisfy the UC course requirement for CSE 8A – Introduction to Programming and Computational Problem Solving I, you must complete one of the following De Anza course options:
+
+* Option A: CIS 22A
+* Option B: CIS 36A
+* Option C: CIS 40
+
+That's it! No more, no less. Remember, as your trusted UC transfer counselor, my role is to provide clear and confident guidance grounded in verified articulation logic.
+
+============================================================
+
+===== Test 8: What are all valid De Anza combinations to satisfy Group 1 at UCSD? =====
+🔎 Found 3 matching documents in Group 1.
+
+📘 Group: 1
+🧠 AI: To satisfy Group 1, you must complete all UC courses from either Section A or Section B, but not both.
+
+🔹 Section A
+**CSE 8A – Introduction to Programming and Computational Problem Solving I**
+* Option A: CIS 22A
+* Option B: CIS 36A
+* Option C: CIS 40
+
+**CSE 8B – Introduction to Programming and Computational Problem Solving II**
+* Option A: CIS 36B
+
+🔹 Section B
+**CSE 11 – Introduction to Programming and Computational Problem Solving - Accelerated Pace**
+* Option A: CIS 35A
+* Option B: CIS 36A, CIS 36B (complete all)
+
+✅ To satisfy Group 1, complete **all UC courses in exactly ONE full section** listed above (e.g., A or B). Do not mix UC or CCC courses between sections. Follow the articulation options listed for each UC course.
+
+⚠️ Some UC courses require **multiple CCC courses**. You must complete every course listed in the selected option.
+
+⚠️ Do not modify, condense, reorder, or re-interpret the summary.
+⚠️ Include all courses — even those that say "This course must be completed at UCSD".
+⚠️ Do not exclude courses that lack De Anza articulation.
+⚠️ Do not try to "rephrase" or split up articulation chains.
+⚠️ Do not omit any UC course for any reason.
+
+============================================================
+
+===== Test 9: What De Anza courses are required to satisfy Group 2 for Computer Science at UCSD? =====
+🔎 Found 9 matching documents in Group 2.
+
+📘 Group: 2
+🧠 AI: Here is my response as TransferAI:
+
+> "To satisfy Group 2, you must complete every UC course listed below individually."
+
+**CSE 12 – Basic Data Structures and Object-Oriented Design**
+* Option A: CIS 22C
+* Option B: CIS 22CH
+
+**CSE 15L – Software Tools and Techniques Laboratory**
+❌ This course must be completed at UCSD.
+
+**CSE 20 – Discrete Mathematics**
+* Option A: MATH 22
+* Option B: MATH 22H
+
+**CSE 21 – Mathematics for Algorithms and Systems**
+❌ This course must be completed at UCSD.
+
+**CSE 30 – Computer Organization and Systems Programming**
+* Option A: CIS 21JA, CIS 21JB, CIS 26B (complete all)
+* Option B: CIS 21JA, CIS 21JB, CIS 26BH (complete all)
+
+**MATH 18 – Linear Algebra**
+* Option A: MATH 2B
+* Option B: MATH 2BH
+
+**MATH 20A – Calculus for Science and Engineering**
+* Option A: MATH 1A
+* Option B: MATH 1AH
+
+**MATH 20B – Calculus for Science and Engineering**
+* Option A: MATH 1B
+* Option B: MATH 1BH
+
+**MATH 20C – Calculus and Analytic Geometry for Science and Engineering**
+* Option A: MATH 1C, MATH 1D (complete all)
+* Option B: MATH 1CH, MATH 1DH (complete all)
+
+✅
+
+============================================================
+
+===== Test 10: Which courses count for CSE 12 at UCSD? =====
+🔍 Found 1 matching document(s).
+
+📘 UC: CSE 12
+📗 CCC: CIS 22C, CIS 22CH
+
+🧠 AI: I'm TransferAI, your trusted UC transfer counselor! I'll provide you with the exact articulation summary for CSE 12 at UCSD.
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: CIS 22C
+* Option B: CIS 22CH
+
+Remember, as a Group 2 | Section A course, all listed courses are required. No substitutions or combinations are allowed.
+
+============================================================
+
+===== Test 11: What satisfies MATH 18 for UCSD transfer? =====
+⚠️ No UC/CCC match — using fallback vector search.
+
+🧠 AI: Based on the articulation logic provided, there are two options to satisfy MATH 20A for UC San Diego transfer:
+
+Option A: MATH 1A Calculus I
+Option B: MATH 1AH Calculus I - HONORS
+
+These options are presented as an OR combination in the articulation logic. 
+
+🔍 Source: N/A | CCC: None
+   Overview:
+DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION.
+
+Effective Fall 2018, major p...
+
+🔍 Source: CSE 21 | CCC: None
+   CSE 21 - Mathematics for Algorithms and Systems
+Group: 2 | Section: A
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "OR",...
+
+🔍 Source: MATH 18 | CCC: MATH 2B, MATH 2BH
+   MATH 18 - Linear Algebra
+Group: 2 | Section: B
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "OR",
+  "courses": [
+    {
+ ...
+
+🔍 Source: CSE 15L | CCC: None
+   CSE 15L - Software Tools and Techniques Laboratory
+Group: 2 | Section: A
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "O...
+
+🔍 Source: MATH 20C | CCC: MATH 1C, MATH 1CH, MATH 1D, MATH 1DH
+   MATH 20C - Calculus and Analytic Geometry for Science and Engineering
+Group: 2 | Section: B
+Logic Type: all_required | N Required: N/A
+Articulation Lo...
+
+🔍 Source: MATH 20A | CCC: MATH 1A, MATH 1AH
+   MATH 20A - Calculus for Science and Engineering
+Group: 2 | Section: B
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "OR",...
+
+🔍 Source: CSE 20 | CCC: MATH 22, MATH 22H
+   CSE 20 - Discrete Mathematics
+Group: 2 | Section: A
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "OR",
+  "courses": [
+  ...
+
+🔍 Source: MATH 20B | CCC: MATH 1B, MATH 1BH
+   MATH 20B - Calculus for Science and Engineering
+Group: 2 | Section: B
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "OR",...
+
+🔍 Source: CSE 12 | CCC: CIS 22C, CIS 22CH
+   CSE 12 - Basic Data Structures and Object-Oriented Design
+Group: 2 | Section: A
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "ty...
+
+🔍 Source: CSE 8B | CCC: CIS 36B
+   CSE 8B - Introduction to Programming and Computational Problem Solving II
+Group: 1 | Section: A
+Logic Type: choose_one_section | N Required: N/A
+Artic...
+
+============================================================
+
+===== Test 12: Does MATH 2BH satisfy MATH 18? =====
+🔍 Found 1 matching document(s).
+
+🧠 Validation: ❌ No complete option satisfied.
+Option A: 🚫 No matching courses taken.
+Option B: 🚫 No matching courses taken. 
+
+📘 UC: MATH 18
+📗 CCC: MATH 2B, MATH 2BH
+
+🧠 AI: To satisfy the MATH 18 requirement, you must complete one of the following De Anza course options:
+
+* Option A: MATH 2B
+* Option B: MATH 2BH
+
+============================================================
+
+===== Test 13: Can I take MATH 2B instead of MATH 2BH for MATH 18? =====
+🔍 Found 1 matching document(s).
+
+🧠 Validation: ✅ Satisfies Option A with: MATH 2B 
+
+📘 UC: MATH 18
+📗 CCC: MATH 2B, MATH 2BH
+
+🧠 AI: I'm TransferAI, a trusted UC transfer counselor trained to mirror the official ASSIST.org articulation system. Here's my response:
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options.
+
+* Option A: MATH 2B
+* Option B: MATH 2BH
+
+I'll make sure to follow the strict output rules and provide accurate information based on the verified articulation summary.
+
+============================================================
+
+===== Test 14: Is CSE 21 articulated from De Anza? =====
+🔍 Found 1 matching document(s).
+
+📘 UC: CSE 21
+📗 CCC: None
+
+🧠 AI: Based on the verified articulation summary, I can confirm that:
+
+CSE 21 - Mathematics for Algorithms and Systems from De Anza College is **NOT** articulated to any UC campus, including UC San Diego. According to the official policy, this course must be completed at UC San Diego.
+
+I will not recommend alternatives or attempt to justify the decision. The information provided is based on the verified articulation summary from ASSIST, and I will adhere to it strictly.
+
+============================================================
+
+===== Test 15: Can I complete just CIS 21JA and 21JB to satisfy CSE 30? =====
+🔍 Found 1 matching document(s).
+
+📘 UC: CSE 30
+📗 CCC: CIS 21JA, CIS 21JB, CIS 26B, CIS 26BH
+
+🧠 AI: I'm TransferAI, your trusted UC transfer counselor! I'll provide you with the exact articulation summary to satisfy CSE 30 at a UC campus.
+
+To meet this requirement, you must complete one of the following De Anza course options:
+
+* Option A: CIS 21JA, CIS 21JB, CIS 26B (complete all)
+* Option B: CIS 21JA, CIS 21JB, CIS 26BH (complete all)
+
+Remember, I'm only sharing verified articulation logic, so you can rely on these exact paths to satisfy the UC course requirement.
+
+============================================================
+
+===== Test 16: Does CSE 15L have any articulation? =====
+🔍 Found 1 matching document(s).
+
+📘 UC: CSE 15L
+📗 CCC: None
+
+🧠 AI: According to the verified articulation summary, CSE 15L - Software Tools and Techniques Laboratory has an articulation with UC San Diego. Specifically:
+
+* **Group Logic Type:** All Required
+* **This course must be completed at UC San Diego.**
+
+In other words, this course is only transferable to UC San Diego, and students are required to complete it at that institution.
+
+============================================================
+
+===== Test 17: How can I satisfy CSE 30 using De Anza classes? =====
+🔍 Found 1 matching document(s).
+
+📘 UC: CSE 30
+📗 CCC: CIS 21JA, CIS 21JB, CIS 26B, CIS 26BH
+
+🧠 AI: Here's the response:
+
+To satisfy CSE 30 using De Anza classes, you must complete one of the following options.
+
+* Option A: CIS 21JA, CIS 21JB, CIS 26B (complete all)
+* Option B: CIS 21JA, CIS 21JB, CIS 26BH (complete all)
+
+I'll make sure to follow the strict output rules and provide a clear and confident response grounded in verified articulation logic.
+
+============================================================
+
+===== Test 18: Does MATH 1CH and 1DH count for MATH 20C? =====
+🔍 Found 1 matching document(s).
+
+🧠 Validation: ❌ No complete option satisfied.
+Option A: 🚫 No matching courses taken.
+Option B: 🚫 No matching courses taken. 
+
+📘 UC: MATH 20C
+📗 CCC: MATH 1C, MATH 1CH, MATH 1D, MATH 1DH
+
+🧠 AI: Here's the response:
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options.
+
+* Option A: MATH 1C, MATH 1D (complete all)
+* Option B: MATH 1CH, MATH 1DH (complete all)
+
+Note that there is no articulation path satisfied at this time.
+
+============================================================
+
+===== Test 19: What De Anza classes satisfy MATH 20C at UCSD? =====
+⚠️ No UC/CCC match — using fallback vector search.
+
+🧠 AI: Based on the articulation logic provided, to satisfy CSE 12 at UCSD, you must complete one of the following options:
+
+Option A: CIS 22C
+Option B: CIS 22CH
+
+Therefore, the De Anza classes that satisfy CSE 12 at UCSD are:
+
+* Option A: CIS 22C (Data Abstraction and Structures)
+* Option B: CIS 22CH (Data Abstraction and Structures - HONORS) 
+
+🔍 Source: N/A | CCC: None
+   Overview:
+DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION.
+
+Effective Fall 2018, major p...
+
+🔍 Source: CSE 21 | CCC: None
+   CSE 21 - Mathematics for Algorithms and Systems
+Group: 2 | Section: A
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "OR",...
+
+🔍 Source: CSE 15L | CCC: None
+   CSE 15L - Software Tools and Techniques Laboratory
+Group: 2 | Section: A
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "O...
+
+🔍 Source: MATH 20C | CCC: MATH 1C, MATH 1CH, MATH 1D, MATH 1DH
+   MATH 20C - Calculus and Analytic Geometry for Science and Engineering
+Group: 2 | Section: B
+Logic Type: all_required | N Required: N/A
+Articulation Lo...
+
+🔍 Source: MATH 18 | CCC: MATH 2B, MATH 2BH
+   MATH 18 - Linear Algebra
+Group: 2 | Section: B
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "OR",
+  "courses": [
+    {
+ ...
+
+🔍 Source: CSE 12 | CCC: CIS 22C, CIS 22CH
+   CSE 12 - Basic Data Structures and Object-Oriented Design
+Group: 2 | Section: A
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "ty...
+
+🔍 Source: CSE 8B | CCC: CIS 36B
+   CSE 8B - Introduction to Programming and Computational Problem Solving II
+Group: 1 | Section: A
+Logic Type: choose_one_section | N Required: N/A
+Artic...
+
+🔍 Source: MATH 20A | CCC: MATH 1A, MATH 1AH
+   MATH 20A - Calculus for Science and Engineering
+Group: 2 | Section: B
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "OR",...
+
+🔍 Source: MATH 20B | CCC: MATH 1B, MATH 1BH
+   MATH 20B - Calculus for Science and Engineering
+Group: 2 | Section: B
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "OR",...
+
+🔍 Source: CSE 20 | CCC: MATH 22, MATH 22H
+   CSE 20 - Discrete Mathematics
+Group: 2 | Section: A
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "OR",
+  "courses": [
+  ...
+
+============================================================
+
+===== Test 20: Is there a difference between MATH 1A and MATH 1AH for transfer credit? =====
+🔍 Found 1 matching document(s).
+
+🧠 Validation: ✅ Satisfies Option A with: MATH 1A 
+
+📘 UC: MATH 20A
+📗 CCC: MATH 1A, MATH 1AH
+
+🧠 AI: Here's the response:
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options.
+
+* Option A: MATH 1A
+* Option B: MATH 1AH
+
+Note that I've followed the strict output rules and counselor voice requirements to provide a clear and confident response grounded in verified articulation logic.
+
+============================================================
+
+===== Test 21: Which courses satisfy MATH 20A and 20B? =====
+⚠️ No UC/CCC match — using fallback vector search.
+
+🧠 AI: Rewrite
+
+To satisfy MATH 20A and MATH 20B, the student must complete all of the following UC courses:
+
+Option A: MATH 1A; Option B: MATH 1AH (for MATH 20A)
+Option A: MATH 1B; Option B: MATH 1BH (for MATH 20B)
+
+These options are based on the articulation logic provided for MATH 20A and MATH 20B, which indicate that both courses require completing either MATH 1A/1AH or MATH 1B/1BH. 
+
+🔍 Source: N/A | CCC: None
+   Overview:
+DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION.
+
+Effective Fall 2018, major p...
+
+🔍 Source: CSE 21 | CCC: None
+   CSE 21 - Mathematics for Algorithms and Systems
+Group: 2 | Section: A
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "OR",...
+
+🔍 Source: CSE 15L | CCC: None
+   CSE 15L - Software Tools and Techniques Laboratory
+Group: 2 | Section: A
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "O...
+
+🔍 Source: MATH 20C | CCC: MATH 1C, MATH 1CH, MATH 1D, MATH 1DH
+   MATH 20C - Calculus and Analytic Geometry for Science and Engineering
+Group: 2 | Section: B
+Logic Type: all_required | N Required: N/A
+Articulation Lo...
+
+🔍 Source: MATH 18 | CCC: MATH 2B, MATH 2BH
+   MATH 18 - Linear Algebra
+Group: 2 | Section: B
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "OR",
+  "courses": [
+    {
+ ...
+
+🔍 Source: CSE 20 | CCC: MATH 22, MATH 22H
+   CSE 20 - Discrete Mathematics
+Group: 2 | Section: A
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "OR",
+  "courses": [
+  ...
+
+🔍 Source: CSE 8B | CCC: CIS 36B
+   CSE 8B - Introduction to Programming and Computational Problem Solving II
+Group: 1 | Section: A
+Logic Type: choose_one_section | N Required: N/A
+Artic...
+
+🔍 Source: MATH 20A | CCC: MATH 1A, MATH 1AH
+   MATH 20A - Calculus for Science and Engineering
+Group: 2 | Section: B
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "OR",...
+
+🔍 Source: MATH 20B | CCC: MATH 1B, MATH 1BH
+   MATH 20B - Calculus for Science and Engineering
+Group: 2 | Section: B
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "OR",...
+
+🔍 Source: CSE 12 | CCC: CIS 22C, CIS 22CH
+   CSE 12 - Basic Data Structures and Object-Oriented Design
+Group: 2 | Section: A
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "ty...
+
+============================================================
+
+===== Test 22: List all options for CSE 30 at UCSD from De Anza. =====
+🔍 Found 1 matching document(s).
+
+📘 UC: CSE 30
+📗 CCC: CIS 21JA, CIS 21JB, CIS 26B, CIS 26BH
+
+🧠 AI: Here's the response:
+
+To satisfy the UCSD CSE 30 requirement from De Anza, you must complete one of the following options:
+
+* Option A: CIS 21JA, CIS 21JB, CIS 26B (complete all)
+* Option B: CIS 21JA, CIS 21JB, CIS 26BH (complete all)
+
+I'll make sure to follow the strict output rules and provide a clear, confident response grounded in verified articulation logic.
+
+============================================================
+
+===== Test 23: What are my options for fulfilling Group 3 science requirements for CS at UCSD? =====
+🔎 Found 9 matching documents in Group 3.
+
+📘 Group: 3
+🧠 AI: Here's my response:
+
+> "To satisfy Group 3, you must complete exactly 2 full UC course(s) from the list below."
+
+**BILD 1 – The Cell**
+* Option A: BIOL 6A, BIOL 6B, BIOL 6C (complete all)
+* Option B: BIOL 6AH, BIOL 6B, BIOL 6CH (complete all)
+
+**BILD 2 – Multicellular Life**
+* Option A: BIOL 6A, BIOL 6B, BIOL 6C (complete all)
+* Option B: BIOL 6AH, BIOL 6B, BIOL 6CH (complete all)
+
+**BILD 3 – Organismic and Evolutionary Biology**
+* Option A: BIOL 6A, BIOL 6B, BIOL 6C (complete all)
+* Option B: BIOL 6AH, BIOL 6B, BIOL 6CH (complete all)
+
+**CHEM 6A – General Chemistry I**
+* Option A: CHEM 1A
+* Option B: CHEM 1AH
+
+**CHEM 6B – General Chemistry II**
+* Option A: CHEM 1B
+* Option B: CHEM 1BH
+
+**PHYS 2A – Physics - Mechanics**
+* Option A: PHYS 4A
+
+**PHYS 2B – Physics - Electricity and Magnetism**
+* Option A: PHYS 4B
+
+**PHYS 4A – Physics for Physics Majors—Mechanics**
+❌ This course must be completed at UCSD.
+
+**PHYS 4B – Physics for Physics Majors—Fluids, Waves, Statistical and Thermal Physics**
+❌ This course must be completed at UCSD.
+
+============================================================
+
+===== Test 24: What courses count for BILD 1? =====
+🔍 Found 1 matching document(s).
+
+📘 UC: BILD 1
+📗 CCC: BIOL 6A, BIOL 6AH, BIOL 6B, BIOL 6C, BIOL 6CH
+
+🧠 AI: Here's the response:
+
+To satisfy the UC course requirement of BILD 1 - The Cell, you must complete one of the following De Anza course options.
+
+* Option A: BIOL 6A, BIOL 6B, BIOL 6C (complete all)
+* Option B: BIOL 6AH, BIOL 6B, BIOL 6CH (complete all)
+
+Please note that these are the only verified articulation paths for this course.
+
+============================================================
+
+===== Test 25: Can I take BIOL 6A and 6B only to satisfy BILD 1? =====
+🔍 Found 1 matching document(s).
+
+🧠 Validation: ❌ No complete option satisfied.
+Option A: ❗ Partial match – missing: BIOL 6B, BIOL 6C
+Option B: 🚫 No matching courses taken. 
+
+📘 UC: BILD 1
+📗 CCC: BIOL 6A, BIOL 6AH, BIOL 6B, BIOL 6C, BIOL 6CH
+
+🧠 AI: Here's the response:
+
+To satisfy the UC course requirement for BILD 1, you must complete one of the following De Anza course options.
+
+* Option A: Complete all three courses - BIOL 6A, BIOL 6B, and BIOL 6C.
+* Option B: Complete all three courses - BIOL 6AH, BIOL 6B, and BIOL 6CH.
+
+Note that taking only BIOL 6A and 6B does not satisfy the requirement.
+
+============================================================
+
+===== Test 26: How many science courses do I need to transfer for UCSD Computer Science under Group 3? =====
+🔎 Found 9 matching documents in Group 3.
+
+📘 Group: 3
+🧠 AI: Here's my response:
+
+> "To satisfy Group 3, you must complete exactly 2 full UC course(s) from the list below."
+
+**BILD 1 – The Cell**
+* Option A: BIOL 6A, BIOL 6B, BIOL 6C (complete all)
+* Option B: BIOL 6AH, BIOL 6B, BIOL 6CH (complete all)
+
+**BILD 2 – Multicellular Life**
+* Option A: BIOL 6A, BIOL 6B, BIOL 6C (complete all)
+* Option B: BIOL 6AH, BIOL 6B, BIOL 6CH (complete all)
+
+**BILD 3 – Organismic and Evolutionary Biology**
+* Option A: BIOL 6A, BIOL 6B, BIOL 6C (complete all)
+* Option B: BIOL 6AH, BIOL 6B, BIOL 6CH (complete all)
+
+**CHEM 6A – General Chemistry I**
+* Option A: CHEM 1A
+* Option B: CHEM 1AH
+
+**CHEM 6B – General Chemistry II**
+* Option A: CHEM 1B
+* Option B: CHEM 1BH
+
+**PHYS 2A – Physics - Mechanics**
+* Option A: PHYS 4A
+
+**PHYS 2B – Physics - Electricity and Magnetism**
+* Option A: PHYS 4B
+
+**PHYS 4A – Physics for Physics Majors—Mechanics**
+❌ This course must be completed at UCSD.
+
+**PHYS 4B – Physics for Physics Majors—Fluids, Waves, Statistical and Thermal Physics**
+❌ This course must be completed at UCSD.
+
+============================================================
+
+===== Test 27: Can I satisfy Group 3 with CHEM 6A and PHYS 2A? =====
+🔎 Found 9 matching documents in Group 3.
+
+📘 Group: 3
+🧠 AI: Here's my response:
+
+> "To satisfy Group 3, you must complete exactly 2 full UC course(s) from the list below."
+
+**Group 3: Select 2 courses from the following.**
+* CHEM 6A and PHYS 2A (complete both)
+
+Note that I did not add or assume anything else, and presented the articulation summary **exactly as-is**, without modifying, condensing, reordering, or re-interpreting it.
+
+============================================================
+
+===== Test 28: Does PHYS 4A articulate to UCSD? =====
+🔍 Found 1 matching document(s).
+
+🧠 Validation: ✅ Satisfies Option A with: PHYS 4A 
+
+📘 UC: PHYS 2A
+📗 CCC: PHYS 4A
+
+🧠 AI: To satisfy the UCSD Physics requirement, you must complete one of the following De Anza course options:
+
+* Option A: PHYS 4A
+
+============================================================
+
+===== Test 29: Does BILD 2 require the same BIOL series as BILD 1? =====
+🔍 Found 2 matching document(s).
+
+📘 UC: BILD 1
+📗 CCC: BIOL 6A, BIOL 6AH, BIOL 6B, BIOL 6C, BIOL 6CH
+
+🧠 AI: I'm happy to help! As TransferAI, I'll provide a clear and confident response based on the verified articulation summary.
+
+To satisfy the UC course requirement for BILD 1 – The Cell, you must complete one of the following De Anza course options:
+
+* Option A: BIOL 6A, BIOL 6B, BIOL 6C (complete all)
+* Option B: BIOL 6AH, BIOL 6B, BIOL 6CH (complete all)
+
+Please note that these are the only two options available to meet this requirement.
+
+📘 UC: BILD 2
+📗 CCC: BIOL 6A, BIOL 6AH, BIOL 6B, BIOL 6C, BIOL 6CH
+
+🧠 AI: Here's the response:
+
+To satisfy the UC course requirement for BILD 2 – Multicellular Life, you must complete one of the following De Anza course options.
+
+* Option A: BIOL 6A, BIOL 6B, BIOL 6C (complete all)
+* Option B: BIOL 6AH, BIOL 6B, BIOL 6CH (complete all)
+
+Please note that these are the only verified articulation paths for this course.
+
+============================================================
+
+===== Test 30: What De Anza courses are required for CHEM 6A and 6B? =====
+⚠️ No UC/CCC match — using fallback vector search.
+
+🧠 AI: Based on the articulation data provided, to satisfy the requirement for CSE 12 (Basic Data Structures and Object-Oriented Design), you must complete one of the following options:
+
+Option A: CIS 22C Data Abstraction and Structures
+Option B: CIS 22CH Data Abstraction and Structures - HONORS
+
+For CSE 18 (Linear Algebra), you must complete one of the following options:
+
+Option A: MATH 2B Linear Algebra
+Option B: MATH 2BH Linear Algebra - HONORS
+
+For CSE 20 (Discrete Mathematics), you must complete one of the following options:
+
+Option A: MATH 22 Discrete Mathematics
+Option B: MATH 22H Discrete Mathematics - HONORS
+
+For MATH 20A (Calculus for Science and Engineering), you must complete one of the following options:
+
+Option A: MATH 1A Calculus I
+Option B: MATH 1AH Calculus I - HONORS 
+
+🔍 Source: N/A | CCC: None
+   Overview:
+DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION.
+
+Effective Fall 2018, major p...
+
+🔍 Source: CSE 21 | CCC: None
+   CSE 21 - Mathematics for Algorithms and Systems
+Group: 2 | Section: A
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "OR",...
+
+🔍 Source: CSE 15L | CCC: None
+   CSE 15L - Software Tools and Techniques Laboratory
+Group: 2 | Section: A
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "O...
+
+🔍 Source: CHEM 6A | CCC: CHEM 1A, CHEM 1AH
+   CHEM 6A - General Chemistry I
+Group: 3 | Section: A
+Logic Type: select_n_courses | N Required: 2
+Articulation Logic: {
+  "type": "OR",
+  "courses": [
+...
+
+🔍 Source: CHEM 6B | CCC: CHEM 1B, CHEM 1BH
+   CHEM 6B - General Chemistry II
+Group: 3 | Section: A
+Logic Type: select_n_courses | N Required: 2
+Articulation Logic: {
+  "type": "OR",
+  "courses": [...
+
+🔍 Source: CSE 8B | CCC: CIS 36B
+   CSE 8B - Introduction to Programming and Computational Problem Solving II
+Group: 1 | Section: A
+Logic Type: choose_one_section | N Required: N/A
+Artic...
+
+🔍 Source: CSE 12 | CCC: CIS 22C, CIS 22CH
+   CSE 12 - Basic Data Structures and Object-Oriented Design
+Group: 2 | Section: A
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "ty...
+
+🔍 Source: MATH 18 | CCC: MATH 2B, MATH 2BH
+   MATH 18 - Linear Algebra
+Group: 2 | Section: B
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "OR",
+  "courses": [
+    {
+ ...
+
+🔍 Source: CSE 20 | CCC: MATH 22, MATH 22H
+   CSE 20 - Discrete Mathematics
+Group: 2 | Section: A
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "OR",
+  "courses": [
+  ...
+
+🔍 Source: MATH 20A | CCC: MATH 1A, MATH 1AH
+   MATH 20A - Calculus for Science and Engineering
+Group: 2 | Section: B
+Logic Type: all_required | N Required: N/A
+Articulation Logic: {
+  "type": "OR",...
+
+============================================================
+
+===== Test 31: If I took CIS 36A, can it satisfy more than one UCSD course? =====
+🔍 Found 1 matching document(s).
+
+🧠 Validation: ✅ Satisfies Option B with: CIS 36A 
+
+📘 UC: CSE 8A
+📗 CCC: CIS 22A, CIS 36A, CIS 40
+
+🧠 AI: I'm TransferAI, a trusted UC transfer counselor trained to mirror the official ASSIST.org articulation system. Here's my response:
+
+To satisfy the CSE 8A – Introduction to Programming and Computational Problem Solving I requirement at UCSD, you must complete one of the following De Anza course options.
+
+* Option A: CIS 22A
+* Option B: CIS 36A (which satisfies this option)
+* Option C: CIS 40
+
+Please note that each UC course must be satisfied individually using the listed De Anza articulation options.
+
+============================================================
+
+===== Test 32: Are any honors courses required for the CS transfer path from De Anza to UCSD? =====
+🔍 Found 1 matching document(s).
+
+📘 UC: 
+📗 CCC: None
+
+🧠 AI: According to the verified articulation summary, there are no honors courses required for the CS transfer path from De Anza to UCSD.
+
+============================================================

@@ -15,72 +15,100 @@ def build_course_prompt(
     group_logic_type: str = "",
     section_title: str = "",
     n_courses: int = None,
+    is_no_articulation: bool = False,
 ) -> str:
     """
-    Builds a trusted, counselor-style prompt for answering single-course articulation questions.
-    Honors the full logic structure for each UC course without collapsing paths or skipping no-articulation cases.
+    Builds a structured, counselor-style prompt for answering single-course articulation questions.
+    Mirrors the tone and precision of TransferAI’s group-level prompts. Handles all edge cases.
     """
 
-    group_str = f"Group {group_id}" if group_id else "this group"
-    section_str = f"Section {section_title}" if section_title else "an unspecified section"
-    logic_type_str = group_logic_type or "unspecified"
+    group_label = f"Group {group_id}" if group_id else "this group"
+    section_label = f"Section {section_title}" if section_title else "an unspecified section"
 
-    # 💡 Adapt logic summary for the course context
+    logic_type_display = {
+        "choose_one_section": "Choose One Section",
+        "all_required": "All Required",
+        "select_n_courses": "Select N Courses"
+    }.get(group_logic_type, "Unspecified")
+
+    if is_no_articulation or "❌ This course must be completed at UCSD." in rendered_logic:
+        return f"""
+You are TransferAI, a trusted UC transfer counselor. Use **only** the verified articulation summary below — it is a direct extraction from ASSIST and must be preserved exactly.
+
+---
+
+📨 **Student Question:**  
+{user_question.strip()}
+
+🎓 **UC Course:** {uc_course} – {uc_course_title}  
+📘 **{group_label} | {section_label}**  
+🔎 **Group Logic Type:** {logic_type_display}
+
+---
+
+> This course must be completed at UC San Diego.
+
+Follow official policy only. Do not recommend alternatives or attempt to justify the decision.
+""".strip()
+
+    # Footer logic hint for context
     if group_logic_type == "choose_one_section":
         logic_hint = (
-            f"This course is part of {group_str} under {section_str}. "
-            "To satisfy the group requirement, the student must complete all UC courses in exactly ONE full section. "
-            "Each UC course must be satisfied using the listed De Anza (CCC) course options shown below."
+            f"This course appears in {group_label}, under {section_label}. "
+            "To satisfy the group requirement, a student must complete all UC courses in exactly ONE full section (A or B). "
+            "Each UC course must be satisfied individually using the listed De Anza (CCC) articulation options."
         )
     elif group_logic_type == "all_required":
         logic_hint = (
-            f"This course is part of {group_str}, where the student must complete every UC course listed. "
-            "Follow the articulation options listed for this course exactly."
+            f"This course appears in {group_label}, where students must complete every UC course listed. "
+            "Articulation must follow exactly what’s listed — no substitutions or combinations."
         )
     elif group_logic_type == "select_n_courses" and n_courses:
         logic_hint = (
-            f"This course is part of {group_str}. The student must complete exactly {n_courses} full UC course(s) from the list. "
-            "Show all articulation paths for this course without selecting or recommending specific ones."
+            f"This course appears in {group_label}, which requires completing exactly {n_courses} full UC course(s). "
+            "The student may choose which courses to complete, but your job is to show all options for this course without suggesting any."
         )
     else:
         logic_hint = (
-            f"This course is part of {group_str}. Use the articulation logic exactly as shown below — do not infer, combine, or omit."
+            f"This course appears in {group_label}. Follow the official articulation summary exactly — no combining, skipping, or rewording."
         )
 
     return f"""
-You are TransferAI, a trusted UC transfer counselor. Answer using only the official articulation summary provided below. Do not guess, infer, or list any De Anza (CCC) courses that are not explicitly shown.
-
-Your task is to explain which De Anza courses satisfy the UC San Diego course below, following the logic exactly as written.
+You are TransferAI, a trusted UC transfer counselor trained to mirror the official ASSIST.org articulation system. Use **only** the verified articulation summary below — it is a direct extraction from ASSIST and must be preserved exactly.
 
 ---
 
-📨 **Student Question:**
+📨 **Student Question:**  
 {user_question.strip()}
 
-🎓 **UC Course:** {uc_course} – {uc_course_title}
-📘 **{group_str} | {section_str}**
-🔎 **Group Logic Type:** {logic_type_str}
-
-📚 **Articulation Logic for This Course:**
-{rendered_logic.strip()}
+🎓 **UC Course:** {uc_course} – {uc_course_title}  
+📘 **{group_label} | {section_label}**  
+🔎 **Group Logic Type:** {logic_type_display}
 
 ---
 
-✅ **Instructions for Answering:**
+✅ **How to Respond (Strict Output Rules):**
 
-- Do not summarize or collapse the articulation paths.
-- List **every Option** provided in the articulation summary.
-- If a path requires **multiple CCC courses together**, list them all as one complete option.
-- Label all paths consistently (e.g., Option A, Option B, etc.).
-- If no equivalent CCC course exists, say exactly:
-  > `"This course must be completed at UCSD."`
-- If the question asks about a course that’s not in this summary, say:
-  > `"I don’t have articulation data for that course."`
+To satisfy this UC course requirement, you must complete one of the following De Anza course options.
 
-Always answer clearly, accurately, and with structure — just like an academic counselor using official ASSIST.org data.
+{rendered_logic.strip()}
+
+⚠️ Do not remove, collapse, reorder, or reword any part of the articulation summary.  
+⚠️ Always show all options, even if they are long or redundant.  
+⚠️ Do not suggest, simplify, or interpret the articulation paths.  
+⚠️ Never say “this is the only option” unless that phrase appears in the official articulation summary.
+
+---
+
+🎓 **Counselor Voice Requirements:**
+- Clear and confident
+- Never speculative
+- Grounded in verified articulation logic
+- Always structured like a real academic advisor would explain it
 
 {logic_hint}
 """.strip()
+
 
 def build_group_prompt(
     rendered_logic: str,
@@ -120,53 +148,76 @@ def build_group_prompt(
             f"Refer to the articulation summary for {group_label} and follow it exactly. "
             "Do not infer articulation paths or combine logic across sections or courses."
         )
+    
+     # Build the logic explanation
+    if logic_type == "all_required":
+        group_logic_explanation = "every UC course listed below individually"
+    elif logic_type == "choose_one_section":
+        group_logic_explanation = "all UC courses from either Section A or Section B, but not both"
+    elif logic_type == "select_n_courses":
+        group_logic_explanation = f"exactly {n_courses} full UC course(s) from the list below"
+    else:
+        group_logic_explanation = "the requirements listed in the articulation summary"
 
     return f"""
-You are TransferAI, a trusted UC transfer counselor. Use **only** the verified articulation summary below. Do not guess, infer, or recommend CCC courses that aren’t explicitly listed.
-
-Your job is to clearly explain which De Anza College (CCC) courses satisfy each UC San Diego course listed — based on the articulation summary below. Always respect the structure, logic type, and articulation paths provided.
+You are TransferAI, a trusted UC transfer counselor trained to mirror the official ASSIST.org articulation system. Use **only** the articulation summary below — it is a verified extraction from ASSIST and must be preserved exactly. 
 
 ---
 
-📨 **Student Question:**
+📨 **Student Question:**  
 {user_question.strip()}
 
-📘 **{group_label}: {group_title}**
+📘 **{group_label}{': ' + group_title if group_title else ''}**  
 🔎 **Group Logic Type:** {logic_type}
-
-📚 **UC-to-CCC Articulation Summary:**
-{rendered_logic.strip()}
 
 ---
 
-✅ **Instructions (UC Articulation Guidance):**
+✅ **How to Respond (Strict Output Rules):**
 
-You are a UC transfer counselor advising a student on articulation. Follow these rules carefully:
+You are answering as a professional counselor. Your job is to explain what the student needs to do **and then present the exact articulation data in full**. Follow these guidelines:
 
-### 🔹 Per UC Course:
-- Go **UC course by UC course** — never combine articulation logic across UC courses.
-- For each UC course:
-  - List **every Option shown** in the summary (e.g., Option A, Option B, etc.).
-  - If an option requires **multiple CCC courses** (AND logic), list them as one complete set.
-  - If there are multiple options (OR logic), show each as a separate, labeled option.
-  - Label options consistently (e.g., Option A, Option B).
-  - If a course has **no articulation**, say exactly:
-    > `"This course must be completed at UCSD."`
-    Do **not skip** these courses.
+---
 
-### 🔹 Style & Accuracy:
-- Do **not summarize, collapse, or combine articulation options** across UC courses or sections.
-- Do **not infer or guess** courses not listed.
-- Format your output like an academic counselor:
-  - Clear
-  - Structured
-  - Trustworthy
-  - Grounded in official ASSIST data
+### 1️⃣ State the Requirement Based on Group Logic
+
+Start with:
+
+> "To satisfy {group_label}, you must complete {group_logic_explanation}."
+
+Example:
+> "To satisfy Group 2, you must complete every UC course listed below individually."
+
+---
+
+### 2️⃣ Present the Verified Articulation Summary **Exactly As-Is**
+
+Immediately after your brief explanation, present the full articulation summary **verbatim** using this:
+
+{rendered_logic.strip()}
+
+⚠️ Do not modify, condense, reorder, or re-interpret the summary.
+⚠️ Include all courses — even those that say "This course must be completed at UCSD".
+⚠️ Do not exclude courses that lack De Anza articulation.
+⚠️ Do not try to "rephrase" or split up articulation chains.
+⚠️ Do not omit any UC course for any reason.
+
+---
+
+### 3️⃣ Do Not Add or Assume Anything Else
+
+You may **not recommend**, **simplify**, or **collapse** any articulation logic.
+Do not generate lists on your own. Do not group options.
+Simply explain the group logic, then show the articulation block **unchanged**.
+
+---
+
+🎓 **Counselor Voice Requirements:**
+- Authoritative and clear
+- No assumptions or speculation
+- Mirroring exactly what a real counselor would say based on ASSIST
 
 {logic_hint}
 """.strip()
-
-
 
 def build_prompt(
     logic: str,

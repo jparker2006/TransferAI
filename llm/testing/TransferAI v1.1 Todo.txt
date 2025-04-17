@@ -1,0 +1,43 @@
+Awesome — here's a focused action plan to fix all 13 roadmap issues (R1–R13) in a way that’s modular and testable. I’ve grouped them by system area so you can chip away cleanly:
+
+✅ Phase 1: Prompt & Tone Fixes (R1, R2, R6, R9, R12)
+📍 Edit LLM system prompt and output phrasing logic
+ID Fix Plan
+R1 “CSE 11 at a UC campus” → “at UCSD” 🔧 Update phrasing templates inside build_course_prompt() and build_group_prompt()
+R2 Fix yes/no answers being inverted or confusing 🔧 Add an optional include_binary_explanation() wrapper for “yes”/“no” phrasing
+R6 Avoid “has articulation” for ❌ cases 🔧 In render_logic_str() and build_course_prompt(), override this to always say: This course must be completed at UCSD.
+R9 Honors vs non-honors clarity 🔧 If a logic block includes honors courses, inject a line like: "You may choose the honors or non-honors version."
+R12 Show real examples in policy Qs (e.g. honors) 🔧 When asked about policy (e.g. “are honors required”), query the full doc set and extract sample CCC honors courses via extract_ccc_courses_from_logic()
+
+✅ Phase 2: Logic Validator Improvements (R3, R5, R7, R13)
+📍 Improve how TransferAI explains logic path outcomes
+ID Fix Plan
+R3 Stop leaking group-level phrasing into single-course responses 🔧 Move all group rules to build_group_prompt() only. Per-course prompts must not mention section rules or group logic types
+R5 Show why partial CCC path fails 🔧 In explain_if_satisfied(), return missing course codes and say: "You still need: [CIS 36B]"
+R7 Explain why AND chain failed 🔧 Enhance validation fail message to list exactly which required courses were missing
+R13 Handle combo queries like “Can I take CHEM 6A and PHYS 2A?” 🔧 Add a new validate_combo_against_group() method to:
+Check if input matches enough valid UC courses in the group
+
+Return: ✅ or ❌ with full explanation |
+
+✅ Phase 3: Core Retrieval & Match Fixes (R4, R8, R10, R11)
+📍 Make document routing smarter and safer before fallback
+ID Fix Plan
+R4 UC course not matched despite valid document 🔧 In handle_query(), force-match UC course codes to metadata["uc_course"] before vector fallback
+R8 Fallback should not run if exact UC match exists 🔧 Add prevent_fallback_if_exact_uc_match_found() logic
+R10 Multi-UC course queries fail (e.g. “MATH 20A and 20B”) 🔧 In handle_query(), detect multiple UC course codes and loop through each with full rendering
+R11 Reverse-matching CCC courses to all matching UC targets 🔧 Implement find_uc_courses_satisfied_by(ccc_course) — search doc set for any UC logic block containing that CCC code
+
+🧠 Implementation Strategy
+Suggested Order:
+Start with R4 + R8: These fix the worst hallucination triggers.
+Then knock out Phase 1 (prompt + tone): Quick wins with big clarity gains.
+Move to Phase 2: Logic clarity will massively improve validation.
+Finish with R10 + R11: These need slightly more rerouting and logic branching.
+
+✅ Output Plan
+Once complete, we’ll:
+✅ Re-run all 32 tests to validate fixes
+🧪 Generate a few combo/fallback/edge case extras
+🔒 Snapshot as TransferAI v1.1
+📦 Begin ingesting new CCC→UC articulation sets

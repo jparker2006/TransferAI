@@ -3,45 +3,51 @@ import json
 from textwrap import indent
 
 def render_logic_str(metadata: dict) -> str:
-    uc_course = metadata.get("uc_course", "Unknown").strip()
-    uc_title = metadata.get("uc_title", "")
-    group_type = metadata.get("group_logic_type", "").lower()
-
+    """
+    Renders articulation logic as a markdown list of options.
+    Handles recursive OR/AND blocks, strings, and single-course dicts.
+    """
     if metadata.get("no_articulation", False) or metadata.get("logic_block", {}).get("no_articulation", False):
-        # print(f"[DEBUG] {uc_course} marked as no articulation.")
         return "❌ This course must be completed at UCSD."
 
+    def resolve_logic_block(block) -> List[str]:
+        """Recursively resolve logic blocks and format course paths."""
+        logic_type = block.get("type")
+        raw_options = block.get("courses", [])
+
+        if logic_type == "OR":
+            rendered_options = []
+            for i, option in enumerate(raw_options):
+                label = f"Option {chr(65 + i)}"
+                if isinstance(option, dict) and option.get("type") == "AND":
+                    course_list = option.get("courses", [])
+                    codes = [c.get("course_letters", "UNKNOWN") for c in course_list if isinstance(c, dict)]
+                    if len(codes) > 1:
+                        rendered_options.append(f"* {label}: {', '.join(codes)} (complete all)")
+                    elif codes:
+                        rendered_options.append(f"* {label}: {codes[0]}")
+                elif isinstance(option, dict) and option.get("type") == "OR":
+                    # Recurse into nested OR
+                    nested_block = resolve_logic_block(option)
+                    rendered_options.extend([f"* {label}.{i+1}: {line[2:]}" for i, line in enumerate(nested_block)])
+                elif isinstance(option, dict) and option.get("course_letters"):
+                    rendered_options.append(f"* {label}: {option['course_letters']}")
+                elif isinstance(option, str):
+                    rendered_options.append(f"* {label}: {option.strip()}")
+            return rendered_options
+        elif logic_type == "AND":
+            course_list = raw_options
+            codes = [c.get("course_letters", "UNKNOWN") for c in course_list if isinstance(c, dict)]
+            if len(codes) > 1:
+                return [f"* {' + '.join(codes)} (complete all)"]
+            elif codes:
+                return [f"* {codes[0]}"]
+        return []
+
     block = metadata.get("logic_block", {})
-    options = block.get("courses", [])
+    rendered = resolve_logic_block(block)
 
-    # if not options:
-    #     print(f"[DEBUG] No articulation options found for {uc_course}")
-
-    rendered_paths = []
-
-    for i, option in enumerate(options):
-        label = f"Option {chr(65 + i)}"
-
-        if isinstance(option, str):
-            rendered_paths.append(f"* {label}: {option}")
-
-        elif isinstance(option, dict) and option.get("type") == "AND":
-            course_list = option.get("courses", [])
-            course_codes = [c.get("course_letters", "UNKNOWN") for c in course_list]
-            if len(course_codes) > 1:
-                rendered_paths.append(f"* {label}: " + ", ".join(course_codes) + " (complete all)")
-            elif course_codes:
-                rendered_paths.append(f"* {label}: {course_codes[0]}")
-            else:
-                rendered_paths.append(f"* {label}: No valid courses listed.")
-
-        else:
-            rendered_paths.append(f"* {label}: ⚠️ Invalid option format.")
-
-    # Final debug
-    # print(f"[DEBUG] Rendered logic for {uc_course}: {len(rendered_paths)} option(s)")
-    header = f"📘 {uc_course} – {uc_title}"
-    return f"{header}\n" + "\n".join(rendered_paths)
+    return "\n".join(rendered) if rendered else "❌ This course must be completed at UCSD."
 
 
 def render_group_summary(docs: List) -> str:
@@ -78,7 +84,7 @@ def render_group_summary(docs: List) -> str:
             if isinstance(option, dict) and option.get("type") == "AND" and len(option.get("courses", [])) > 1:
                 has_multi_course_uc = True
 
-        # Render logic
+        # Render logic (do NOT include course title inside render_logic_str)
         logic_str = render_logic_str(metadata).strip()
 
         # Format final output block per course
@@ -179,22 +185,32 @@ def get_course_summary(metadata: dict) -> str:
     Returns a short summary of UC course + equivalent CCC options.
     """
     uc = metadata.get("uc_course", "Unknown").strip(":")
-    ccc = metadata.get("ccc_courses")
-    if not ccc:
-        # Try extracting from logic_block
-        ccc = set()
+    ccc_set = set()
+
+    # First try the top-level "ccc_courses" list
+    top_level_cccs = metadata.get("ccc_courses", [])
+    if isinstance(top_level_cccs, list):
+        for c in top_level_cccs:
+            if isinstance(c, dict):
+                ccc_set.add(c.get("course_letters", "UNKNOWN"))
+            elif isinstance(c, str):
+                ccc_set.add(c)
+    else:
+        # fallback is logic_block
         block = metadata.get("logic_block", {})
         for option in block.get("courses", []):
-            if isinstance(option, list):
-                for c in option:
-                    ccc.add(c.get("course_letters", "UNKNOWN"))
-            else:
-                ccc.add(option.get("course_letters", "UNKNOWN"))
-        ccc = sorted(ccc)
+            if isinstance(option, dict) and option.get("type") == "AND":
+                for course in option.get("courses", []):
+                    ccc_set.add(course.get("course_letters", "UNKNOWN"))
+            elif isinstance(option, dict):
+                ccc_set.add(option.get("course_letters", "UNKNOWN"))
+            elif isinstance(option, str):
+                ccc_set.add(option)
 
+    ccc_list = sorted(ccc_set)
     logic_desc = render_logic_str(metadata)
-    return f"UC Course: {uc}\nCCC Equivalent(s): {', '.join(ccc) or 'None'}\nLogic:\n{logic_desc}"
 
+    return f"UC Course: {uc}\nCCC Equivalent(s): {', '.join(ccc_list) or 'None'}\nLogic:\n{logic_desc}"
 
 # Backward-compatible alias for default rendering
 render_logic = render_logic_str

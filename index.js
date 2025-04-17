@@ -11,8 +11,8 @@ const Page = {
 };
 
 onload = () => {
-    // AIChatPage();
-    LandingPage();
+    AIChatPage();
+    // LandingPage();
 //     DashboardPage();
 }
 
@@ -468,19 +468,18 @@ sPage += "  <div class='ChatSidebar fadeInUp'>";
 sPage += "    <div class='ChatHistoryListWrapper'>";
 sPage += "      <div class='ChatSidebarHeader'>History</div>";
 sPage += "      <div class='ChatHistoryList'>";
-sPage += "        <div class='ChatHistoryItem' onclick='loadChatSession(1)'>Transfer Plan Q&A</div>";
-sPage += "        <div class='ChatHistoryItem' onclick='loadChatSession(2)'>IGETC Planning</div>";
-sPage += "        <div class='ChatHistoryItem' onclick='loadChatSession(3)'>Class Equivalency</div>";
-sPage += "        <div class='ChatHistoryItem' onclick='loadChatSession(1)'>Transfer Plan Q&A</div>";
-sPage += "        <div class='ChatHistoryItem' onclick='loadChatSession(2)'>IGETC Planning</div>";
-sPage += "        <div class='ChatHistoryItem' onclick='loadChatSession(3)'>Class Equivalency</div>";
-sPage += "        <div class='ChatHistoryItem' onclick='loadChatSession(1)'>Transfer Plan Q&A</div>";
-sPage += "        <div class='ChatHistoryItem' onclick='loadChatSession(2)'>IGETC Planning</div>";
-sPage += "        <div class='ChatHistoryItem' onclick='loadChatSession(3)'>Class Equivalency</div>";
-sPage += "        <div class='ChatHistoryItem' onclick='loadChatSession(3)'>Class Equivalency</div>";
-sPage += "        <div class='ChatHistoryItem' onclick='loadChatSession(1)'>Transfer Plan Q&A</div>";
-sPage += "        <div class='ChatHistoryItem' onclick='loadChatSession(2)'>IGETC Planning</div>";
-sPage += "        <div class='ChatHistoryItem' onclick='loadChatSession(3)'>Class Equivalency</div>";
+sPage += renderChatItem(1, "Transfer Plan Q&A");
+sPage += renderChatItem(2, "IGETC Progress Overview");
+sPage += renderChatItem(3, "CS Major Prep - UCSD");
+sPage += renderChatItem(4, "TAG Eligibility Checker");
+sPage += renderChatItem(5, "UC GPA Planning");
+sPage += renderChatItem(6, "CIS 22A Articulation");
+sPage += renderChatItem(7, "Fall 2025 Schedule Draft");
+sPage += renderChatItem(8, "UC Berkeley Econ Prep");
+sPage += renderChatItem(9, "General Ed Audit");
+sPage += renderChatItem(10, "CSU vs UC Transfer Options");
+sPage += renderChatItem(11, "CSE 8A Transfer Paths");
+sPage += renderChatItem(12, "Final Transfer Checklist");
 sPage += "      </div>";
 sPage += "    </div>"; // end .ChatHistoryListWrapper
 
@@ -661,6 +660,82 @@ function toggleSidebar() {
       chevronPath.setAttribute('d', 'M14 8l-4 4 4 4'); // ◀
     }
   }
+}
+
+
+
+function renderChatItem(id, title) {
+  return `
+    <div class="ChatHistoryItemWrapper">
+      <div class="ChatHistoryItem" onclick="loadChatSession(${id})">
+        <span>${title}</span>
+        <div class="options-menu-trigger" onclick="event.stopPropagation(); toggleMenu(this)">
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+      </div>
+      <div class="ChatItemDropdown">
+        <div class="ChatItemDropdownOption" onclick="event.stopPropagation(); renameChat(${id})">Rename</div>
+        <div class="ChatItemDropdownOption" onclick="event.stopPropagation(); shareChat(${id})">Share</div>
+        <div class="ChatItemDropdownOption" style='color: #DB382D;' onclick="event.stopPropagation(); deleteChat(${id})">Delete</div>
+      </div>
+    </div>
+  `;
+}
+
+function toggleMenu(trigger) {
+  const wrapper = trigger.closest(".ChatHistoryItemWrapper");
+  const menu = wrapper.querySelector(".ChatItemDropdown");
+  const item = wrapper.querySelector(".ChatHistoryItem");
+
+  const isCurrentlyOpen = menu.style.display === "block";
+
+  // Close all other menus
+  document.querySelectorAll(".ChatHistoryItemWrapper").forEach(w => {
+    const m = w.querySelector(".ChatItemDropdown");
+    const i = w.querySelector(".ChatHistoryItem");
+    if (m && i) {
+      m.style.display = "none";
+      i.classList.remove("dropdown-open");
+    }
+  });
+
+  // Toggle current one
+  if (!isCurrentlyOpen) {
+    menu.style.display = "block";
+    item.classList.add("dropdown-open");
+  }
+}
+
+// Close dropdown on outside click
+document.addEventListener("click", function (e) {
+  document.querySelectorAll(".ChatHistoryItemWrapper").forEach(wrapper => {
+    const menu = wrapper.querySelector(".ChatItemDropdown");
+    const item = wrapper.querySelector(".ChatHistoryItem");
+
+    if (
+      menu &&
+      item &&
+      !menu.contains(e.target) &&
+      !item.contains(e.target)
+    ) {
+      menu.style.display = "none";
+      item.classList.remove("dropdown-open");
+    }
+  });
+});
+
+
+// Placeholder action functions
+function renameChat(id) {
+  alert("Rename chat: " + id);
+}
+
+function deleteChat(id) {
+  alert("Delete chat: " + id);
+}
+
+function shareChat(id) {
+  alert("Export chat: " + id);
 }
 
 
