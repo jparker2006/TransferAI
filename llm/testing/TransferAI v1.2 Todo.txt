@@ -1,29 +1,37 @@
-✅ Revised 🚀 Phase 4: Advanced Logic & Prompt Expansion
-📍 Focus: Multi-course reasoning (UC + CCC), policy prompts with real articulation, and polished yes/no logic.
+🚀 Phase 4: Advanced Logic & Prompt Expansion
+📍 Focus: Multi-course UC/CCC articulation, policy examples, and logic polishing
 
-🔁 Multi-Course Logic & Combo Matching
+🔁 Logic Combo & Matching
 
-ID	Fix Title	Description	Plan
-R10	Multi-UC Course Queries	Queries like “MATH 20A and 20B” or “CSE 8A, 8B, 12” should validate all UC courses	🔧 Parse compound UC filter → validate separately → aggregate summaries
-R13	Multi-CCC Input Combo Validation	Combo like “CHEM 6A and PHYS 2A” should be validated against group logic (e.g., Group 3)	🔧 Add validate_combo_against_group() to test if selected CCC set satisfies any UC group
+ID Fix Description Status Plan
+R10 Multi-UC course queries “MATH 20A and 20B” → parse + evaluate each UC course independently ✅ Done Fully implemented with original phrasing preservation + grouped output
+R13 Combo CCC path validation “CHEM 6A and PHYS 2A” → check if combo satisfies a section/group 🔲 Todo Build validate_combo_against_group() + apply to group logic filters
+R11.2 Reverse CCC match fix Fix CIS 36A matching multiple UC courses (logic block filtering) ✅ Done find_uc_courses_satisfied_by() now scans logic_block strictly
 🧠 Policy Prompt Expansion
 
-ID	Fix Title	Description	Plan
-R12	Show Real CCC Examples in Policy Answers	Policy-style answers should cite real CCC course examples (e.g., honors articulation)	🔧 Add extract_ccc_courses_from_logic() to policy prompt builder for authentic examples
-✅ Prompt Polishing / Binary Clarification
+ID Fix Description Status Plan
+R12 Real CCC honors examples Use real honors/non-honors CCC courses in LLM answers to policy questions 🔲 Todo Use extract_ccc_courses_from_logic() inside policy-aware prompt builder
+✅ Prompt Clarity / Binary Cleanup
 
-ID	Fix Title	Description	Plan
-R2	Clarify Yes/No Answers	Ensure binary answers (e.g., “Does X count for Y?”) include source logic	🔧 Post-wrap LLM output using include_binary_explanation() that injects source-aligned rationale
-💡 Stretch Goals (Optional Phase 4+)
+ID Fix Description Status Plan
+R2 Yes/No answer clarity Wrap model answer with binary summary ("Yes, because..." or "No, since...") 🔲 Todo Add include_binary_explanation() layer post-prompt for yes/no-style queries
+💡 Stretch Goals (Post-v1.1)
 
-ID	Feature	Description	Plan
-F1	Fuzzy UC/CCC Matching	Allow typo-tolerant matching (e.g., “CSE88” → “CSE 8B”)	🔧 Use fuzzywuzzy or difflib.get_close_matches() on course filters if no match found
-🧠 Execution Strategy
-Start with R10 — unlocks support for common student phrasing like “What satisfies MATH 20A and 20B?”
+ID Feature Description Plan
+F1 Fuzzy UC/CCC matching Tolerate typos like "MATH 20a" → "MATH 20A" Use difflib.get_close_matches() or rapidfuzz to expand fallback matching
+🧠 Strategy Summary
+✅ Current Status:
+R10 ✅ Multi-UC detection and prompt preservation working
 
-Then do R13 — allows validation for multi-CCC course bundles (needed for accurate Group 3, Group 2 combo validation)
+R11.2 ✅ CCC → UC logic is grounded, tested, and strict
 
-Follow with R12 and R2 — unlocks clean, real-world counselor tone in edge cases and yes/no Q&A formats
+Full test suite confirms stability
 
-Stretch: Implement F1 if needed for search recovery/fallback or user input tolerance
+🔜 Next Priorities:
+🔄 Build R13 to support multi-CCC articulation group validation (validate_combo_against_group())
 
+💬 Patch R2 to cleanly answer binary yes/no questions with grounded explanations
+
+🧠 Add R12 policy logic to show honors/non-honors articulation in real examples
+
+💡 Optionally scope fuzzy matching (F1) for expanded usability

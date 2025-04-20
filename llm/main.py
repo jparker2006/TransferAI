@@ -5,7 +5,8 @@ from query_parser import (
     extract_reverse_matches,
     extract_group_matches,
     extract_section_matches,
-    normalize_course_code
+    normalize_course_code,
+    find_uc_courses_satisfied_by
 )
 from logic_formatter import render_logic, render_group_summary, render_logic_str, explain_if_satisfied, find_uc_courses_satisfied_by
 from prompt_builder import build_prompt, PromptType
@@ -82,9 +83,13 @@ class TransferAIEngine:
             f"📗 CCC: {', '.join(doc.metadata.get('ccc_courses', [])) or 'None'}\n"
         )
 
+
     def handle_query(self, query: str):
         filters = extract_filters(query, self.uc_prefixes, self.ccc_prefixes)
         print("🎯 [DEBUG] Extracted filters:", filters)
+        if len(filters.get("uc_course", [])) > 1:
+            return self.handle_multi_uc_query(query, filters["uc_course"])
+
 
         # Step 1: Group/section match
         group_docs = extract_section_matches(query, self.docs) or extract_group_matches(query, self.docs)
@@ -154,6 +159,36 @@ class TransferAIEngine:
                 if reverse_docs:
                     print(f"🎯 [R11] {ccc} satisfies → {[doc.metadata.get('uc_course') for doc in reverse_docs]}")
                     matched_docs.extend(reverse_docs)
+
+            # ✅ Stop here and render the R11 results only
+            if matched_docs:
+                matched_docs = self.validate_same_section(matched_docs)[:3]
+                print(f"🔍 Found {len(matched_docs)} matching document(s).\n")
+
+                for doc in matched_docs:
+                    logic = render_logic(doc.metadata)
+                    rendered_logic = render_logic_str(doc.metadata)
+
+                    prompt = build_prompt(
+                        logic=logic,
+                        user_question=query.strip(),
+                        prompt_type=PromptType.COURSE_EQUIVALENCY,
+                        uc_course=doc.metadata.get("uc_course", ""),
+                        uc_course_title=doc.metadata.get("uc_title", ""),
+                        group_id=doc.metadata.get("group", ""),
+                        group_title=doc.metadata.get("group_title", ""),
+                        group_logic_type=doc.metadata.get("group_logic_type", ""),
+                        section_title=doc.metadata.get("section_title", ""),
+                        n_courses=doc.metadata.get("n_courses"),
+                        rendered_logic=rendered_logic
+                    )
+
+                    response = Settings.llm.complete(prompt=prompt, max_tokens=512).text
+                    print(f"🧠 AI: {self.strip_ai_meta(response.strip())}\n")
+
+                return  # ✅ Prevent further fallback
+
+
 
         # Step 4: Section filter
         matched_docs = self.validate_same_section(matched_docs)[:3]
@@ -240,6 +275,71 @@ class TransferAIEngine:
             else:
                 print("🧠 AI:", response.strip(), "\n")
 
+    def format_multi_uc_response(self, courses, answers):
+        return "\n\n".join([
+            f"**{course}**:\n{answer.strip()}" for course, answer in zip(courses, answers)
+        ])
+    
+    @staticmethod
+    def strip_ai_meta(response: str) -> str:
+        # Remove AI-style headers, meta explanations, and filler phrases
+        patterns = [
+            r"(?i)^here'?s my response.*?\n",                  # "Here's my response"
+            r"(?i)^I'?m TransferAI.*?\n",                      # "I'm TransferAI"
+            r"(?i)^📨 \*\*Student Question:\*\*.*?\n",         # Student Question section
+            r"(?i)^🎓 \*\*UC Course:\*\*.*?\n",                # UC Course header
+            r"(?i)^✅ \*\*How to Respond:\*\*.*?\n",           # Instructional headers
+            r"(?i)^That'?s it!.*?\n",                          # Casual wrap-up
+            r"(?i)I'?ll make sure to.*?(?:\n|$)",              # Self-referential filler
+            r"(?i)I'?m committed to.*?(?:\n|$)",               # More filler
+        ]
+
+        cleaned = response
+        for pattern in patterns:
+            cleaned = re.sub(pattern, "", cleaned, flags=re.MULTILINE)
+
+        return cleaned.strip()
+
+
+
+    def handle_multi_uc_query(self, query: str, uc_courses: list):
+        results = []
+
+        for uc in uc_courses:
+            print(f"📤 Evaluating course: {uc}")
+            doc = next(
+                (d for d in self.docs if normalize_course_code(d.metadata.get("uc_course", "")) == uc),
+                None
+            )
+
+            if not doc:
+                results.append(f"No articulation found for {uc}.")
+                continue
+
+            rendered_logic = render_logic_str(doc.metadata)
+            logic = render_logic(doc.metadata)
+
+            prompt = build_prompt(
+                logic=logic,
+                user_question=query.strip(),
+                prompt_type=PromptType.COURSE_EQUIVALENCY,
+                uc_course=doc.metadata.get("uc_course", ""),
+                uc_course_title=doc.metadata.get("uc_title", ""),
+                group_id=doc.metadata.get("group", ""),
+                group_title=doc.metadata.get("group_title", ""),
+                group_logic_type=doc.metadata.get("group_logic_type", ""),
+                section_title=doc.metadata.get("section_title", ""),
+                n_courses=doc.metadata.get("n_courses"),
+                rendered_logic=rendered_logic
+            )
+
+            response = Settings.llm.complete(prompt=prompt, max_tokens=512).text
+            results.append(self.strip_ai_meta(response.strip()))
+
+        return self.format_multi_uc_response(uc_courses, results)
+
+
+
     def run_cli_loop(self):
         print("\n🤖 TransferAI Chat (type 'exit' to quit)\n")
         print("🛠️ Debug Shortcuts: `!group N` or `!section A`\n")
@@ -249,10 +349,11 @@ class TransferAIEngine:
                 if query.lower() in ["exit", "quit"]:
                     break
                 print("AI is thinking...\n")
-                self.handle_query(query)
+                response = self.handle_query(query)
+                if response:
+                    print(response.strip())
             except Exception as e:
                 print(f"[Error] {e}")
-
 
 def main():
     engine = TransferAIEngine()

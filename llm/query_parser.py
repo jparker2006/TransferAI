@@ -34,20 +34,39 @@ def extract_prefixes_from_docs(docs, key):
 def extract_filters(query, uc_prefixes, ccc_prefixes):
     query_upper = query.upper()
     filters = {"uc_course": set(), "ccc_courses": set()}
-    
-    all_matches = re.findall(r"[A-Z]{2,5}\s?\d+[A-Z]{0,2}", query_upper)
-    for match in all_matches:
-        normalized = normalize_course_code(match)
-        prefix = normalized.split(" ")[0]
+
+    # Step 1: Extract full tokens first (e.g., "CSE 8A", "CIS 36A")
+    raw_matches = re.findall(r"[A-Z]{2,5}[- ]?\d+[A-Z]{0,2}", query_upper)
+    normalized_matches = []
+    last_uc_prefix = None
+
+    for match in raw_matches:
+        norm = normalize_course_code(match)
+        if not re.match(r"^[A-Z]{2,5} \d+[A-Z]{0,2}$", norm):
+            continue
+        prefix = norm.split(" ")[0]
         if prefix in uc_prefixes:
-            filters["uc_course"].add(normalized)
+            filters["uc_course"].add(norm)
+            last_uc_prefix = prefix
         elif prefix in ccc_prefixes:
-            filters["ccc_courses"].add(normalized)
+            filters["ccc_courses"].add(norm)
+
+        normalized_matches.append(norm)
+
+    # Step 2: Orphan suffixes (e.g. "8B") — attach last UC prefix
+    orphan_suffixes = re.findall(r"\b\d+[A-Z]?\b", query_upper)
+    for suffix in orphan_suffixes:
+        if last_uc_prefix:
+            candidate = normalize_course_code(f"{last_uc_prefix} {suffix}")
+            if candidate not in filters["uc_course"]:
+                filters["uc_course"].add(candidate)
 
     return {
         "uc_course": sorted(filters["uc_course"]),
         "ccc_courses": sorted(filters["ccc_courses"])
     }
+
+
 
 def extract_reverse_matches(query, docs):
     """
@@ -89,3 +108,66 @@ def extract_section_matches(query, docs):
         doc for doc in docs
         if str(doc.metadata.get("group", "")).strip() == group_num and str(doc.metadata.get("section", "")).strip().upper() == section_label.upper()
     ]
+
+
+
+# NEW IN 1.2
+def split_multi_uc_query(query, uc_courses):
+    return [f"{query.strip()} (focus on {uc})" for uc in uc_courses]
+
+def enrich_uc_courses_with_prefixes(matches, uc_prefixes):
+    enriched = []
+    last_prefix = None
+
+    for raw in matches:
+        normalized = normalize_course_code(raw)
+        parts = normalized.split()
+
+        # Skip junk like 'AND', 'OR', etc.
+        if len(parts) == 1 and not re.match(r"\d+[A-Z]{0,2}$", parts[0]):
+            continue
+
+        if len(parts) == 2:
+            prefix, number = parts
+            if prefix in uc_prefixes:
+                last_prefix = prefix
+                enriched.append(normalized)
+            else:
+                # '15L' with no known prefix → try last seen prefix
+                if last_prefix and re.match(r"\d+[A-Z]{0,2}$", number):
+                    enriched.append(f"{last_prefix} {prefix}")
+        elif len(parts) == 1:
+            # Pure number like '15L' → use last seen subject prefix
+            if last_prefix:
+                enriched.append(f"{last_prefix} {parts[0]}")
+        else:
+            # Unexpected format — skip
+            continue
+
+    return enriched
+
+
+def find_uc_courses_satisfied_by(ccc_code: str, docs: list):
+    matched_docs = []
+    for doc in docs:
+        logic_block = doc.metadata.get("logic_block", {})
+        if not logic_block or logic_block.get("no_articulation"):
+            continue
+
+        if logic_block_contains_ccc_course(logic_block, ccc_code):
+            matched_docs.append(doc)
+
+    return matched_docs
+
+def logic_block_contains_ccc_course(logic_block: dict, target_ccc: str) -> bool:
+    norm = lambda s: normalize_course_code(s)
+
+    for option in logic_block.get("options", []):
+        for course in option.get("courses", []):
+            if isinstance(course, list):  # AND group
+                if any(norm(c) == norm(target_ccc) for c in course):
+                    return True
+            elif isinstance(course, str):  # single course
+                if norm(course) == norm(target_ccc):
+                    return True
+    return False
