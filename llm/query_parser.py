@@ -32,42 +32,22 @@ def extract_prefixes_from_docs(docs, key):
     return sorted(prefixes)
 
 def extract_filters(query, uc_prefixes, ccc_prefixes):
-    """
-    Extract UC and CCC course codes, including implied repeated prefixes:
-    "CIS 21JA and 21JB" → ["CIS 21JA", "CIS 21JB"]
-    """
     query_upper = query.upper()
-    tokens = re.split(r"[,\s]+", query_upper)
-    filters = {"uc_course": [], "ccc_courses": []}
-    last_prefix = None
+    filters = {"uc_course": set(), "ccc_courses": set()}
+    
+    all_matches = re.findall(r"[A-Z]{2,5}\s?\d+[A-Z]{0,2}", query_upper)
+    for match in all_matches:
+        normalized = normalize_course_code(match)
+        prefix = normalized.split(" ")[0]
+        if prefix in uc_prefixes:
+            filters["uc_course"].add(normalized)
+        elif prefix in ccc_prefixes:
+            filters["ccc_courses"].add(normalized)
 
-    def is_course_token(token):
-        return re.match(r"\d+[A-Z]{0,2}$", token)
-
-    for i, token in enumerate(tokens):
-        if token in uc_prefixes + ccc_prefixes:
-            last_prefix = token
-        elif is_course_token(token) and last_prefix:
-            full = f"{last_prefix} {token}"
-            normalized = normalize_course_code(full)
-            if last_prefix in uc_prefixes:
-                filters["uc_course"].append(normalized)
-            elif last_prefix in ccc_prefixes:
-                filters["ccc_courses"].append(normalized)
-        elif re.match(r"^[A-Z]{2,5}\d+[A-Z]{0,2}$", token):
-            normalized = normalize_course_code(token)
-            for prefix_list, key in [(uc_prefixes, "uc_course"), (ccc_prefixes, "ccc_courses")]:
-                for p in prefix_list:
-                    if normalized.startswith(p):
-                        filters[key].append(normalized)
-
-    # Deduplicate
-    if not filters["uc_course"]:
-        del filters["uc_course"]
-    if not filters["ccc_courses"]:
-        del filters["ccc_courses"]
-
-    return filters
+    return {
+        "uc_course": sorted(filters["uc_course"]),
+        "ccc_courses": sorted(filters["ccc_courses"])
+    }
 
 def extract_reverse_matches(query, docs):
     """

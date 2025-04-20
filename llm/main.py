@@ -4,13 +4,15 @@ from query_parser import (
     extract_prefixes_from_docs,
     extract_reverse_matches,
     extract_group_matches,
-    extract_section_matches
+    extract_section_matches,
+    normalize_course_code
 )
-from logic_formatter import render_logic, render_group_summary, render_logic_str, explain_if_satisfied
+from logic_formatter import render_logic, render_group_summary, render_logic_str, explain_if_satisfied, find_uc_courses_satisfied_by
 from prompt_builder import build_prompt, PromptType
 from llama_index.core import VectorStoreIndex, Settings
 from llama_index.llms.ollama import Ollama
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+import json, re
 
 
 class TransferAIEngine:
@@ -59,7 +61,6 @@ class TransferAIEngine:
         Settings.embed_model = HuggingFaceEmbedding(
             model_name="all-mpnet-base-v2"
         )
-
 
     def load(self):
         self.docs = [doc for doc in load_documents() if doc.text.strip()]
@@ -111,43 +112,48 @@ class TransferAIEngine:
                 print(f"🧠 AI: {response.strip()}\n")
                 return
 
-            for doc in group_docs:
-                logic = render_logic(doc.metadata)
-                rendered_logic = render_logic_str(doc.metadata)
-                prompt = build_prompt(
-                    logic=logic,
-                    user_question=query.strip(),
-                    prompt_type=PromptType.COURSE_EQUIVALENCY,
-                    uc_course=doc.metadata.get("uc_course", ""),
-                    uc_course_title=doc.metadata.get("uc_title", ""),
-                    group_id=doc.metadata.get("group", ""),
-                    group_title=doc.metadata.get("group_title", ""),
-                    group_logic_type=doc.metadata.get("group_logic_type", ""),
-                    section_title=doc.metadata.get("section_title", ""),
-                    n_courses=doc.metadata.get("n_courses"),
-                    rendered_logic=rendered_logic
-                )
-                response = Settings.llm.complete(prompt=prompt, max_tokens=512).text
-                print(self.render_debug_meta(doc))
-                print(f"🧠 AI: {response.strip()}\n")
-            return
-
         # Step 2: Match by UC/CCC codes
         matched_docs = []
+        uc_filter = [uc.upper() for uc in filters.get("uc_course", [])]
+
         for doc in self.docs:
             doc_uc = doc.metadata.get("uc_course", "").strip().upper()
             doc_ccc = [c.strip().upper() for c in doc.metadata.get("ccc_courses", [])]
 
-            if filters.get("uc_course") and doc_uc not in map(str.upper, filters["uc_course"]):
+            if uc_filter and doc_uc not in uc_filter:
                 continue
             if filters.get("ccc_courses") and not all(cc in doc_ccc for cc in map(str.upper, filters["ccc_courses"])):
                 continue
 
             matched_docs.append(doc)
 
+        # 🔐 R4: Force-match UC course if normal matching fails
+        if not matched_docs and uc_filter:
+            force_matched_docs = [
+                doc for doc in self.docs
+                if doc.metadata.get("uc_course", "").strip().upper() in uc_filter
+            ]
+            if force_matched_docs:
+                print(f"🎯 [R4] UC force-match found: {', '.join(uc_filter)}")
+                matched_docs = force_matched_docs
+
+        matched_docs = [
+            doc for doc in matched_docs
+            if doc.metadata.get("uc_course") and doc.metadata.get("logic_block")
+        ]
+
         # Step 3: CCC reverse match fallback
         if not matched_docs and filters.get("ccc_courses"):
             matched_docs = extract_reverse_matches(query, self.docs)
+
+        # Step 3.5: R11 — Reverse-match CCC course → UC course(s)
+        if not matched_docs and filters.get("ccc_courses") and not filters.get("uc_course"):
+            print("🎯 [R11] Attempting reverse match from CCC → UC...")
+            for ccc in filters["ccc_courses"]:
+                reverse_docs = find_uc_courses_satisfied_by(ccc, self.docs)
+                if reverse_docs:
+                    print(f"🎯 [R11] {ccc} satisfies → {[doc.metadata.get('uc_course') for doc in reverse_docs]}")
+                    matched_docs.extend(reverse_docs)
 
         # Step 4: Section filter
         matched_docs = self.validate_same_section(matched_docs)[:3]
@@ -155,34 +161,47 @@ class TransferAIEngine:
         # Step 5: Final rendering
         if matched_docs:
             print(f"🔍 Found {len(matched_docs)} matching document(s).\n")
+
+            # R4 safeguard — enforce UC course filter if present
+            if filters.get("uc_course"):
+                matched_docs = [
+                    doc for doc in matched_docs
+                    if doc.metadata.get("uc_course", "").strip().upper() in map(str.upper, filters["uc_course"])
+                ]
+            elif len(matched_docs) > 1:
+                query_uc_matches = {
+                    normalize_course_code(token)
+                    for token in re.findall(r"[A-Z]{2,5}\s?\d+[A-Z]{0,2}", query.upper())
+                }
+                matched_docs = [
+                    doc for doc in matched_docs
+                    if normalize_course_code(doc.metadata.get("uc_course", "")) in query_uc_matches
+                ] or [matched_docs[0]]
+
             for doc in matched_docs:
                 logic = render_logic(doc.metadata)
                 rendered_logic = render_logic_str(doc.metadata)
 
+                question_override = query.strip()
+                if not filters.get("uc_course"):
+                    question_override = f"Which courses satisfy {doc.metadata.get('uc_course', 'this course')}?"
+
                 if filters.get("ccc_courses"):
                     selected = filters["ccc_courses"]
-                    print("🎯 [DEBUG] Detected selected CCC courses:", selected)
-
                     logic_block = doc.metadata.get("logic_block", {})
-                    print("🎯 [DEBUG] Running explain_if_satisfied...")
-
                     satisfied, validation_msg = explain_if_satisfied(selected, logic_block)
 
-                    print("🧠 [DEBUG] Validation satisfied:", satisfied)
-                    print("🧠 [DEBUG] Validation message:\n", validation_msg.strip(), "\n")
-
                     if not satisfied:
-                        print("🔁 [DEBUG] Using validator result instead of articulation.\n")
                         prompt = (
                             f"You are TransferAI, a trusted UC transfer counselor.\n\n"
-                            f"📨 **Student Question:**\n{query.strip()}\n\n"
+                            f"📨 **Student Question:**\n{question_override}\n\n"
                             f"🎓 **UC Course:** {doc.metadata.get('uc_course', '')} – {doc.metadata.get('uc_title', '')}\n\n"
                             f"🧠 **Validation Result:**\n{validation_msg.strip()}"
                         )
                     else:
                         prompt = build_prompt(
                             logic=logic,
-                            user_question=query.strip(),
+                            user_question=question_override,
                             prompt_type=PromptType.COURSE_EQUIVALENCY,
                             uc_course=doc.metadata.get("uc_course", ""),
                             uc_course_title=doc.metadata.get("uc_title", ""),
@@ -191,12 +210,12 @@ class TransferAIEngine:
                             group_logic_type=doc.metadata.get("group_logic_type", ""),
                             section_title=doc.metadata.get("section_title", ""),
                             n_courses=doc.metadata.get("n_courses"),
-                            rendered_logic=render_logic_str(doc.metadata)
+                            rendered_logic=rendered_logic
                         )
                 else:
                     prompt = build_prompt(
                         logic=logic,
-                        user_question=query.strip(),
+                        user_question=question_override,
                         prompt_type=PromptType.COURSE_EQUIVALENCY,
                         uc_course=doc.metadata.get("uc_course", ""),
                         uc_course_title=doc.metadata.get("uc_title", ""),
@@ -205,11 +224,10 @@ class TransferAIEngine:
                         group_logic_type=doc.metadata.get("group_logic_type", ""),
                         section_title=doc.metadata.get("section_title", ""),
                         n_courses=doc.metadata.get("n_courses"),
-                        rendered_logic=render_logic_str(doc.metadata)
+                        rendered_logic=rendered_logic
                     )
 
                 response = Settings.llm.complete(prompt=prompt, max_tokens=512).text
-                print(self.render_debug_meta(doc))
                 print(f"🧠 AI: {response.strip()}\n")
         else:
             print("⚠️ No UC/CCC match — using fallback vector search.\n")

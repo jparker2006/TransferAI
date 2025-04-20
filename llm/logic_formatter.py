@@ -1,6 +1,7 @@
 from typing import List, Dict, Tuple, Union
 import json
 from textwrap import indent
+from llama_index_client import Document
 
 def render_logic_str(metadata: dict) -> str:
     """
@@ -234,6 +235,37 @@ def get_course_summary(metadata: dict) -> str:
     logic_desc = render_logic_str(metadata)
 
     return f"UC Course: {uc}\nCCC Equivalent(s): {', '.join(ccc_list) or 'None'}\nLogic:\n{logic_desc}"
+
+def find_uc_courses_satisfied_by(ccc_course: str, all_docs: List[Document]) -> List[Document]:
+    """
+    Reverse-match: Find all UC courses whose logic includes the given CCC course.
+    Searches deeply inside all nested logic blocks.
+    """
+    matches = []
+
+    ccc_norm = ccc_course.strip().upper()
+
+    def logic_contains_course(block):
+        logic_type = block.get("type")
+        courses = block.get("courses", [])
+
+        if isinstance(courses, list):
+            for entry in courses:
+                if isinstance(entry, dict):
+                    if entry.get("type") in {"AND", "OR"}:
+                        if logic_contains_course(entry):  # recursive dive
+                            return True
+                    elif entry.get("course_letters", "").strip().upper() == ccc_norm:
+                        return True
+        return False
+
+    for doc in all_docs:
+        logic = doc.metadata.get("logic_block", {})
+        if logic_contains_course(logic):
+            matches.append(doc)
+
+    return matches
+
 
 # Backward-compatible alias for default rendering
 render_logic = render_logic_str

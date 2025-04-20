@@ -47,3 +47,5 @@ out/
 
 # OS-specific metadata
 Icon?
+
+*__pycache__**

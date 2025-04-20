@@ -1,0 +1,29 @@
+✅ Revised 🚀 Phase 4: Advanced Logic & Prompt Expansion
+📍 Focus: Multi-course reasoning (UC + CCC), policy prompts with real articulation, and polished yes/no logic.
+
+🔁 Multi-Course Logic & Combo Matching
+
+ID	Fix Title	Description	Plan
+R10	Multi-UC Course Queries	Queries like “MATH 20A and 20B” or “CSE 8A, 8B, 12” should validate all UC courses	🔧 Parse compound UC filter → validate separately → aggregate summaries
+R13	Multi-CCC Input Combo Validation	Combo like “CHEM 6A and PHYS 2A” should be validated against group logic (e.g., Group 3)	🔧 Add validate_combo_against_group() to test if selected CCC set satisfies any UC group
+🧠 Policy Prompt Expansion
+
+ID	Fix Title	Description	Plan
+R12	Show Real CCC Examples in Policy Answers	Policy-style answers should cite real CCC course examples (e.g., honors articulation)	🔧 Add extract_ccc_courses_from_logic() to policy prompt builder for authentic examples
+✅ Prompt Polishing / Binary Clarification
+
+ID	Fix Title	Description	Plan
+R2	Clarify Yes/No Answers	Ensure binary answers (e.g., “Does X count for Y?”) include source logic	🔧 Post-wrap LLM output using include_binary_explanation() that injects source-aligned rationale
+💡 Stretch Goals (Optional Phase 4+)
+
+ID	Feature	Description	Plan
+F1	Fuzzy UC/CCC Matching	Allow typo-tolerant matching (e.g., “CSE88” → “CSE 8B”)	🔧 Use fuzzywuzzy or difflib.get_close_matches() on course filters if no match found
+🧠 Execution Strategy
+Start with R10 — unlocks support for common student phrasing like “What satisfies MATH 20A and 20B?”
+
+Then do R13 — allows validation for multi-CCC course bundles (needed for accurate Group 3, Group 2 combo validation)
+
+Follow with R12 and R2 — unlocks clean, real-world counselor tone in edge cases and yes/no Q&A formats
+
+Stretch: Implement F1 if needed for search recovery/fallback or user input tolerance
+
