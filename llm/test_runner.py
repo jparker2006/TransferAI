@@ -56,13 +56,31 @@ test_prompts = [
     "Are any honors courses required for the CS transfer path from De Anza to UCSD?",
 ]
 
+Ltest_prompts = [
+    # ✅ R5: Validator — partial CCC path should trigger detailed explanation
+    "Can I complete just CIS 21JA and 21JB to satisfy CSE 30?",
+
+    # ✅ R6: No articulation → must be completed at UCSD
+    "Is CSE 21 articulated from De Anza?",
+
+    # ✅ R1 + R3: Phrasing fix and no group logic leakage
+    "Which courses count for CSE 12 at UCSD?",
+
+    # ✅ R9: Honors articulation included
+    "List all options for CSE 30 at UCSD from De Anza.",
+
+    # ✅ General regression: normal 1:1 articulation
+    "Does PHYS 4A articulate to UCSD?",
+]
+
+
 def run_test_suite():
     engine = TransferAIEngine()
     engine.configure()
     engine.load()
 
     print("🧪 Running TransferAI test suite...\n")
-    for i, prompt in enumerate(test_prompts, 1):
+    for i, prompt in enumerate(Ltest_prompts, 1):
         print(f"===== Test {i}: {prompt} =====")
         engine.handle_query(prompt)
         print("=" * 60 + "\n")

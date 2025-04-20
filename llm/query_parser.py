@@ -2,9 +2,21 @@ import re
 
 
 def normalize_course_code(code: str) -> str:
-    """Standardize course codes like 'CSE 8A:' → 'CSE 8A'"""
-    return re.sub(r"[^A-Z0-9 ]", "", code.upper()).strip()
+    """
+    Normalize codes like 'cis-21ja:' → 'CIS 21JA'
+    Handles patterns like 'CIS21JA', 'MATH 2BH', 'PHYS-4A', etc.
+    """
+    code = code.upper()
+    code = re.sub(r"[^A-Z0-9]", "", code)  # Remove all non-alphanumerics
 
+    # Match subject + number + up to 2 trailing letters (e.g. '21JA', '2BH')
+    match = re.match(r"([A-Z]{2,5})(\d+[A-Z]{0,2})", code)
+    if match:
+        subject = match.group(1)
+        number = match.group(2)
+        return f"{subject} {number}"
+
+    return code  # Fallback
 
 def extract_prefixes_from_docs(docs, key):
     prefixes = set()
@@ -19,32 +31,43 @@ def extract_prefixes_from_docs(docs, key):
                 prefixes.add(match.group(1))
     return sorted(prefixes)
 
-
 def extract_filters(query, uc_prefixes, ccc_prefixes):
     """
-    Extract all UC and CCC course codes found in the query.
-    Returns dict:
-        {"uc_course": ["CSE 11"], "ccc_courses": ["CIS 36A", "CIS 36B"]}
+    Extract UC and CCC course codes, including implied repeated prefixes:
+    "CIS 21JA and 21JB" → ["CIS 21JA", "CIS 21JB"]
     """
     query_upper = query.upper()
-    filters = {}
+    tokens = re.split(r"[,\s]+", query_upper)
+    filters = {"uc_course": [], "ccc_courses": []}
+    last_prefix = None
 
-    def find_matches(prefixes):
-        if not prefixes:
-            return []
-        pattern = r"\b(?:%s)\s\d+[A-Z]?\b" % "|".join(prefixes)
-        return [normalize_course_code(m) for m in re.findall(pattern, query_upper)]
+    def is_course_token(token):
+        return re.match(r"\d+[A-Z]{0,2}$", token)
 
-    uc_matches = find_matches(uc_prefixes)
-    ccc_matches = find_matches(ccc_prefixes)
+    for i, token in enumerate(tokens):
+        if token in uc_prefixes + ccc_prefixes:
+            last_prefix = token
+        elif is_course_token(token) and last_prefix:
+            full = f"{last_prefix} {token}"
+            normalized = normalize_course_code(full)
+            if last_prefix in uc_prefixes:
+                filters["uc_course"].append(normalized)
+            elif last_prefix in ccc_prefixes:
+                filters["ccc_courses"].append(normalized)
+        elif re.match(r"^[A-Z]{2,5}\d+[A-Z]{0,2}$", token):
+            normalized = normalize_course_code(token)
+            for prefix_list, key in [(uc_prefixes, "uc_course"), (ccc_prefixes, "ccc_courses")]:
+                for p in prefix_list:
+                    if normalized.startswith(p):
+                        filters[key].append(normalized)
 
-    if uc_matches:
-        filters["uc_course"] = list(set(uc_matches))
-    if ccc_matches:
-        filters["ccc_courses"] = list(set(ccc_matches))
+    # Deduplicate
+    if not filters["uc_course"]:
+        del filters["uc_course"]
+    if not filters["ccc_courses"]:
+        del filters["ccc_courses"]
 
     return filters
-
 
 def extract_reverse_matches(query, docs):
     """

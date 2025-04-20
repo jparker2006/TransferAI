@@ -5,6 +5,8 @@ class PromptType(Enum):
     COURSE_EQUIVALENCY = "course_equivalency"
     GROUP_LOGIC = "group_logic"
 
+
+
 def build_course_prompt(
     rendered_logic: str,
     user_question: str,
@@ -19,17 +21,8 @@ def build_course_prompt(
 ) -> str:
     """
     Builds a structured, counselor-style prompt for answering single-course articulation questions.
-    Mirrors the tone and precision of TransferAI’s group-level prompts. Handles all edge cases.
+    Group-level phrasing (e.g., section, group logic) is excluded per R3.
     """
-
-    group_label = f"Group {group_id}" if group_id else "this group"
-    section_label = f"Section {section_title}" if section_title else "an unspecified section"
-
-    logic_type_display = {
-        "choose_one_section": "Choose One Section",
-        "all_required": "All Required",
-        "select_n_courses": "Select N Courses"
-    }.get(group_logic_type, "Unspecified")
 
     if is_no_articulation or "❌ This course must be completed at UCSD." in rendered_logic:
         return f"""
@@ -41,8 +34,6 @@ You are TransferAI, a trusted UC transfer counselor. Use **only** the verified a
 {user_question.strip()}
 
 🎓 **UC Course:** {uc_course} – {uc_course_title}  
-📘 **{group_label} | {section_label}**  
-🔎 **Group Logic Type:** {logic_type_display}
 
 ---
 
@@ -50,28 +41,6 @@ You are TransferAI, a trusted UC transfer counselor. Use **only** the verified a
 
 Follow official policy only. Do not recommend alternatives or attempt to justify the decision.
 """.strip()
-
-    # Footer logic hint for context
-    if group_logic_type == "choose_one_section":
-        logic_hint = (
-            f"This course appears in {group_label}, under {section_label}. "
-            "To satisfy the group requirement, a student must complete all UC courses in exactly ONE full section (A or B). "
-            "Each UC course must be satisfied individually using the listed De Anza (CCC) articulation options."
-        )
-    elif group_logic_type == "all_required":
-        logic_hint = (
-            f"This course appears in {group_label}, where students must complete every UC course listed. "
-            "Articulation must follow exactly what’s listed — no substitutions or combinations."
-        )
-    elif group_logic_type == "select_n_courses" and n_courses:
-        logic_hint = (
-            f"This course appears in {group_label}, which requires completing exactly {n_courses} full UC course(s). "
-            "The student may choose which courses to complete, but your job is to show all options for this course without suggesting any."
-        )
-    else:
-        logic_hint = (
-            f"This course appears in {group_label}. Follow the official articulation summary exactly — no combining, skipping, or rewording."
-        )
 
     return f"""
 You are TransferAI, a trusted UC transfer counselor trained to mirror the official ASSIST.org articulation system. Use **only** the verified articulation summary below — it is a direct extraction from ASSIST and must be preserved exactly.
@@ -82,8 +51,6 @@ You are TransferAI, a trusted UC transfer counselor trained to mirror the offici
 {user_question.strip()}
 
 🎓 **UC Course:** {uc_course} – {uc_course_title}  
-📘 **{group_label} | {section_label}**  
-🔎 **Group Logic Type:** {logic_type_display}
 
 ---
 
@@ -105,8 +72,6 @@ To satisfy this UC course requirement, you must complete one of the following De
 - Never speculative
 - Grounded in verified articulation logic
 - Always structured like a real academic advisor would explain it
-
-{logic_hint}
 """.strip()
 
 
@@ -253,4 +218,3 @@ def build_prompt(
             section_title=section_title,
             n_courses=n_courses
         )
-

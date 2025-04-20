@@ -82,48 +82,12 @@ class TransferAIEngine:
         )
 
     def handle_query(self, query: str):
-        # # ✳️ Group inspection shortcut
-        # if query.startswith("!group "):
-        #     group_num = query.split("!group ")[-1].strip()
-        #     matches = [d for d in self.docs if d.metadata.get("group") == group_num]
-        #     print(f"\n🧪 Group {group_num} Test – {len(matches)} documents")
-        #     if matches:
-        #         for doc in matches[:1]:
-        #             print("🔍 Group-level debug:")
-        #             for k in ["group_logic_type", "n_courses", "section", "section_title"]:
-        #                 print(f"  {k}: {doc.metadata.get(k)}")
-        #             print("🧩 Course-level debug:")
-        #             for k in ["logic_type", "course_count", "multi_course_option", "must_complete_at_uc", "options_summary"]:
-        #                 print(f"  {k}: {doc.metadata.get(k)}")
-        #         summary = render_group_summary(matches)
-        #         print("\n📘 Group Summary:\n")
-        #         print(summary)
-        #     else:
-        #         print("⚠️ No documents found for that group.")
-        #     return
-
-        # # ✳️ Section inspection shortcut
-        # if query.startswith("!section "):
-        #     sec_id = query.split("!section ")[-1].strip()
-        #     matches = [d for d in self.docs if d.metadata.get("section") == sec_id]
-        #     print(f"\n🧪 Section {sec_id} – {len(matches)} documents")
-        #     for doc in matches:
-        #         print(f"📘 {doc.metadata['uc_course']} – {doc.metadata['uc_title']}")
-        #         print(f"  Logic: {doc.metadata.get('logic_type')}")
-        #         print(f"  Summary: {doc.metadata.get('options_summary')}")
-        #     return
-
         filters = extract_filters(query, self.uc_prefixes, self.ccc_prefixes)
+        print("🎯 [DEBUG] Extracted filters:", filters)
 
         # Step 1: Group/section match
         group_docs = extract_section_matches(query, self.docs) or extract_group_matches(query, self.docs)
         if group_docs:
-            # print("🧩 DEBUG: Group-level metadata check:")
-            # for doc in group_docs[:1]:
-            #     for k in ["group_logic_type", "n_courses", "section", "section_title"]:
-            #         print(f"  {k}: {doc.metadata.get(k)}")
-            #     for k in ["logic_type", "course_count", "multi_course_option", "must_complete_at_uc", "options_summary"]:
-            #         print(f"  {k}: {doc.metadata.get(k)}")
             group_id = group_docs[0].metadata.get("group", "Unknown")
             group_title = group_docs[0].metadata.get("group_title", "")
             group_type = group_docs[0].metadata.get("group_logic_type", "")
@@ -190,39 +154,59 @@ class TransferAIEngine:
 
         # Step 5: Final rendering
         if matched_docs:
-            # print("🧩 DEBUG: UC/CCC match metadata check:")
-            # for doc in matched_docs[:1]:
-            #     for k in ["logic_type", "course_count", "multi_course_option", "must_complete_at_uc", "options_summary"]:
-            #         print(f"  {k}: {doc.metadata.get(k)}")
-
             print(f"🔍 Found {len(matched_docs)} matching document(s).\n")
             for doc in matched_docs:
                 logic = render_logic(doc.metadata)
                 rendered_logic = render_logic_str(doc.metadata)
 
-                validation_msg = ""
                 if filters.get("ccc_courses"):
                     selected = filters["ccc_courses"]
+                    print("🎯 [DEBUG] Detected selected CCC courses:", selected)
+
                     logic_block = doc.metadata.get("logic_block", {})
+                    print("🎯 [DEBUG] Running explain_if_satisfied...")
+
                     satisfied, validation_msg = explain_if_satisfied(selected, logic_block)
-                    print("🧠 Validation:", validation_msg.strip(), "\n")
 
-                prompt = build_prompt(
-                    logic=logic,
-                    user_question=query.strip(),
-                    prompt_type=PromptType.COURSE_EQUIVALENCY,
-                    uc_course=doc.metadata.get("uc_course", ""),
-                    uc_course_title=doc.metadata.get("uc_title", ""),
-                    group_id=doc.metadata.get("group", ""),
-                    group_title=doc.metadata.get("group_title", ""),
-                    group_logic_type=doc.metadata.get("group_logic_type", ""),
-                    section_title=doc.metadata.get("section_title", ""),
-                    n_courses=doc.metadata.get("n_courses"),
-                    rendered_logic=rendered_logic
-                )
+                    print("🧠 [DEBUG] Validation satisfied:", satisfied)
+                    print("🧠 [DEBUG] Validation message:\n", validation_msg.strip(), "\n")
 
-                if validation_msg:
-                    prompt += f"\n\n🧠 Validation Check:\n{validation_msg.strip()}"
+                    if not satisfied:
+                        print("🔁 [DEBUG] Using validator result instead of articulation.\n")
+                        prompt = (
+                            f"You are TransferAI, a trusted UC transfer counselor.\n\n"
+                            f"📨 **Student Question:**\n{query.strip()}\n\n"
+                            f"🎓 **UC Course:** {doc.metadata.get('uc_course', '')} – {doc.metadata.get('uc_title', '')}\n\n"
+                            f"🧠 **Validation Result:**\n{validation_msg.strip()}"
+                        )
+                    else:
+                        prompt = build_prompt(
+                            logic=logic,
+                            user_question=query.strip(),
+                            prompt_type=PromptType.COURSE_EQUIVALENCY,
+                            uc_course=doc.metadata.get("uc_course", ""),
+                            uc_course_title=doc.metadata.get("uc_title", ""),
+                            group_id=doc.metadata.get("group", ""),
+                            group_title=doc.metadata.get("group_title", ""),
+                            group_logic_type=doc.metadata.get("group_logic_type", ""),
+                            section_title=doc.metadata.get("section_title", ""),
+                            n_courses=doc.metadata.get("n_courses"),
+                            rendered_logic=render_logic_str(doc.metadata)
+                        )
+                else:
+                    prompt = build_prompt(
+                        logic=logic,
+                        user_question=query.strip(),
+                        prompt_type=PromptType.COURSE_EQUIVALENCY,
+                        uc_course=doc.metadata.get("uc_course", ""),
+                        uc_course_title=doc.metadata.get("uc_title", ""),
+                        group_id=doc.metadata.get("group", ""),
+                        group_title=doc.metadata.get("group_title", ""),
+                        group_logic_type=doc.metadata.get("group_logic_type", ""),
+                        section_title=doc.metadata.get("section_title", ""),
+                        n_courses=doc.metadata.get("n_courses"),
+                        rendered_logic=render_logic_str(doc.metadata)
+                    )
 
                 response = Settings.llm.complete(prompt=prompt, max_tokens=512).text
                 print(self.render_debug_meta(doc))

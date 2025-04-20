@@ -6,12 +6,16 @@ def render_logic_str(metadata: dict) -> str:
     """
     Renders articulation logic as a markdown list of options.
     Handles recursive OR/AND blocks, strings, and single-course dicts.
+    Adds honors note if any honors course appears.
     """
     if metadata.get("no_articulation", False) or metadata.get("logic_block", {}).get("no_articulation", False):
         return "❌ This course must be completed at UCSD."
 
+    honors_found = False
+
     def resolve_logic_block(block) -> List[str]:
         """Recursively resolve logic blocks and format course paths."""
+        nonlocal honors_found
         logic_type = block.get("type")
         raw_options = block.get("courses", [])
 
@@ -21,23 +25,33 @@ def render_logic_str(metadata: dict) -> str:
                 label = f"Option {chr(65 + i)}"
                 if isinstance(option, dict) and option.get("type") == "AND":
                     course_list = option.get("courses", [])
-                    codes = [c.get("course_letters", "UNKNOWN") for c in course_list if isinstance(c, dict)]
+                    codes = []
+                    for c in course_list:
+                        if isinstance(c, dict):
+                            if c.get("honors", False):
+                                honors_found = True
+                            codes.append(c.get("course_letters", "UNKNOWN"))
                     if len(codes) > 1:
                         rendered_options.append(f"* {label}: {', '.join(codes)} (complete all)")
                     elif codes:
                         rendered_options.append(f"* {label}: {codes[0]}")
                 elif isinstance(option, dict) and option.get("type") == "OR":
-                    # Recurse into nested OR
                     nested_block = resolve_logic_block(option)
                     rendered_options.extend([f"* {label}.{i+1}: {line[2:]}" for i, line in enumerate(nested_block)])
                 elif isinstance(option, dict) and option.get("course_letters"):
+                    if option.get("honors", False):
+                        honors_found = True
                     rendered_options.append(f"* {label}: {option['course_letters']}")
                 elif isinstance(option, str):
                     rendered_options.append(f"* {label}: {option.strip()}")
             return rendered_options
         elif logic_type == "AND":
-            course_list = raw_options
-            codes = [c.get("course_letters", "UNKNOWN") for c in course_list if isinstance(c, dict)]
+            codes = []
+            for c in raw_options:
+                if isinstance(c, dict):
+                    if c.get("honors", False):
+                        honors_found = True
+                    codes.append(c.get("course_letters", "UNKNOWN"))
             if len(codes) > 1:
                 return [f"* {' + '.join(codes)} (complete all)"]
             elif codes:
@@ -47,7 +61,11 @@ def render_logic_str(metadata: dict) -> str:
     block = metadata.get("logic_block", {})
     rendered = resolve_logic_block(block)
 
-    return "\n".join(rendered) if rendered else "❌ This course must be completed at UCSD."
+    if not rendered:
+        return "❌ This course must be completed at UCSD."
+
+    honors_note = "\n\n🔹 You may choose the honors or non-honors version." if honors_found else ""
+    return "\n".join(rendered) + honors_note
 
 
 def render_group_summary(docs: List) -> str:
@@ -135,15 +153,10 @@ def render_group_summary(docs: List) -> str:
 
     return "\n\n".join(rendered_sections + footer)
 
-
 def explain_if_satisfied(selected_courses: List[str], logic_block: dict) -> Tuple[bool, str]:
     """
     Determine if the selected CCC courses satisfy any full articulation path
-    in the logic_block. Provides detailed option-level feedback.
-    
-    Returns:
-        (True, message)  — if a full Option is satisfied
-        (False, message) — with structured explanation of partial/missing courses
+    in the logic_block. Returns True if satisfied, or False with clear breakdown of missing courses.
     """
     if not logic_block or not isinstance(logic_block, dict):
         return False, "⚠️ No articulation logic available."
@@ -155,30 +168,40 @@ def explain_if_satisfied(selected_courses: List[str], logic_block: dict) -> Tupl
     if block_type != "OR" or not isinstance(options, list) or not options:
         return False, "⚠️ Invalid or empty articulation structure."
 
-    feedback = []
+    all_missing_courses = set()
+    feedback_lines = []
 
     for i, option in enumerate(options):
         label = f"Option {chr(65 + i)}"
 
-        # Validate that this is a standard AND bundle
+        # Ensure valid AND path
         if not isinstance(option, dict) or option.get("type") != "AND":
-            feedback.append(f"{label}: ⚠️ Skipped (invalid format).")
+            feedback_lines.append(f"{label}: ⚠️ Skipped (invalid format).")
             continue
 
-        course_entries = option.get("courses", [])
-        required_courses = {c.get("course_letters", "").upper() for c in course_entries if "course_letters" in c}
-        missing = required_courses - selected_set
-        matched = required_courses & selected_set
+        required = {c.get("course_letters", "").upper() for c in option.get("courses", []) if "course_letters" in c}
+        missing = required - selected_set
+        matched = required & selected_set
 
-        if required_courses.issubset(selected_set):
+        if not required:
+            feedback_lines.append(f"{label}: ⚠️ Empty option — no courses required?")
+            continue
+
+        if required.issubset(selected_set):
             return True, f"✅ Satisfies {label} with: {', '.join(sorted(matched))}"
-        elif matched:
-            feedback.append(f"{label}: ❗ Partial match – missing: {', '.join(sorted(missing))}")
+
+        all_missing_courses.update(missing)
+
+        if matched:
+            feedback_lines.append(f"{label}: ❗ Partial match — missing: {', '.join(sorted(missing))}")
         else:
-            feedback.append(f"{label}: 🚫 No matching courses taken.")
+            feedback_lines.append(f"{label}: 🚫 No matching courses taken — requires: {', '.join(sorted(required))}")
 
-    return False, "❌ No complete option satisfied.\n" + "\n".join(feedback)
+    summary = "❌ No complete option satisfied."
+    if all_missing_courses:
+        summary += f"\nYou are missing: {', '.join(sorted(all_missing_courses))}"
 
+    return False, summary + "\n\n" + "\n".join(feedback_lines)
 
 def get_course_summary(metadata: dict) -> str:
     """

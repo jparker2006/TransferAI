@@ -11,8 +11,8 @@ const Page = {
 };
 
 onload = () => {
-    AIChatPage();
-    // LandingPage();
+    // AIChatPage();
+    LandingPage();
 //     DashboardPage();
 }
 
@@ -737,8 +737,6 @@ function deleteChat(id) {
 function shareChat(id) {
   alert("Export chat: " + id);
 }
-
-
 
 
 
