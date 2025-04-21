@@ -402,6 +402,136 @@ def include_binary_explanation(response_text: str, satisfied: bool, validation_s
     header = f"{'✅ Yes' if satisfied else '❌ No'}, based on the official articulation logic.\n"
     return header + "\n" + validation_summary.strip() + "\n\n" + response_text.strip()
 
+# New in v1.3
+
+def validate_uc_courses_against_group_sections(user_uc_courses, group_data):
+    """
+    Given a list of UC course names and a group_data object (from ASSIST),
+    validate whether all UC courses are satisfied together under one section.
+
+    Returns a dictionary summarizing:
+    - is_fully_satisfied: bool
+    - satisfied_section_id: section where match was found
+    - missing_uc_courses: list
+    - matched_ccc_courses: dict mapping UC course → CCC match list
+    """
+    import json
+
+    user_uc_courses = set(c.upper().strip() for c in user_uc_courses)
+    sections = group_data.get("sections", [])
+
+    for section in sections:
+        section_id = section.get("section_id", "default")
+        uc_courses_in_section = {
+            uc["name"].upper().strip(): uc.get("logic_blocks", [])
+            for uc in section.get("uc_courses", [])
+            if uc.get("name", "").upper().strip() in user_uc_courses
+        }
+
+        if len(uc_courses_in_section) != len(user_uc_courses):
+            continue  # This section doesn't contain all requested UC courses
+
+        matched_ccc_courses = {}
+        missing_uc_courses = []
+        is_fully_satisfied = True
+
+        for uc_name, logic_blocks in uc_courses_in_section.items():
+            # ✅ Normalize logic_blocks into a list of dicts
+            if isinstance(logic_blocks, str):
+                try:
+                    logic_blocks = json.loads(logic_blocks)
+                except json.JSONDecodeError:
+                    logic_blocks = []
+
+            elif isinstance(logic_blocks, dict):
+                logic_blocks = [logic_blocks]
+
+            elif not isinstance(logic_blocks, list):
+                logic_blocks = []
+
+            satisfied = False
+            ccc_options = []
+
+
+            for block in logic_blocks:
+                if not isinstance(block, dict):
+                    continue
+
+                if block.get("type") == "AND":
+                    ccc_list = [
+                        course.get("course_letters", course["name"]).upper().strip()
+                        for course in block.get("courses", [])
+                    ]
+                    satisfied = True
+                    ccc_options.append(ccc_list)
+                    break
+
+                elif block.get("type") == "OR":
+                    for subblock in block.get("courses", []):
+                        if subblock.get("type") == "AND":
+                            ccc_list = [
+                                course.get("course_letters", course["name"]).upper().strip()
+                                for course in subblock.get("courses", [])
+                            ]
+                            satisfied = True
+                            ccc_options.append(ccc_list)
+                            break
+                    if satisfied:
+                        break
+
+            if satisfied:
+                matched_ccc_courses[uc_name] = ccc_options[0] if ccc_options else []
+            else:
+                missing_uc_courses.append(uc_name)
+                is_fully_satisfied = False
+
+        if is_fully_satisfied:
+            return {
+                "is_fully_satisfied": True,
+                "satisfied_section_id": section_id,
+                "missing_uc_courses": [],
+                "matched_ccc_courses": matched_ccc_courses
+            }
+
+    # No single section satisfies all requested UC courses
+    return {
+        "is_fully_satisfied": False,
+        "satisfied_section_id": None,
+        "missing_uc_courses": list(user_uc_courses),
+        "matched_ccc_courses": {}
+    }
+
+
+def is_honors_pair_equivalent(or_block, course1, course2):
+    """
+    Returns True if course1 and course2 are an honors/non-honors pair that
+    are the ONLY two articulation options in a single OR block.
+    This prevents over-triggering and limits scope to Test 20-style questions.
+    """
+    def normalize(c):
+        return c.strip().lower()
+
+    c1 = normalize(course1)
+    c2 = normalize(course2)
+
+    if not or_block or or_block.get("type") != "OR":
+        return False
+
+    # Must only have two AND options in OR block
+    if len(or_block.get("courses", [])) != 2:
+        return False
+
+    found = set()
+    for and_block in or_block.get("courses", []):
+        if and_block.get("type") != "AND" or len(and_block.get("courses", [])) != 1:
+            return False
+        course = and_block["courses"][0]
+        found.add(normalize(course.get("course_letters", "")))
+
+    return c1 in found and c2 in found
+
+
+
 
 # Backward-compatible alias for default rendering
 render_logic = render_logic_str

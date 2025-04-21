@@ -1,5 +1,7 @@
 import re
+import spacy
 
+nlp = spacy.load("en_core_web_sm")
 
 def normalize_course_code(code: str) -> str:
     """
@@ -31,39 +33,58 @@ def extract_prefixes_from_docs(docs, key):
                 prefixes.add(match.group(1))
     return sorted(prefixes)
 
+
 def extract_filters(query, uc_course_catalog, ccc_course_catalog):
-    query_upper = query.upper()
     filters = {"uc_course": set(), "ccc_courses": set()}
+    doc = nlp(query.upper())
+    last_prefix = None
 
-    # Step 1: Extract full course-like tokens (e.g., "CSE 8A", "CIS 36A", "PHYS-2A")
-    raw_matches = re.findall(r"[A-Z]{2,5}[- ]?\d+[A-Z]{0,2}", query_upper)
-    normalized_matches = []
-    last_uc_prefix = None
+    # print("🔍 [spaCy] Tokenized words:", [token.text for token in doc])
 
-    for match in raw_matches:
-        norm = normalize_course_code(match)
-        if not re.match(r"^[A-Z]{2,5} \d+[A-Z]{0,2}$", norm):
+    for i, token in enumerate(doc):
+        text = token.text.strip(",.?!")
+        next_token = doc[i + 1].text.strip(",.?!") if i + 1 < len(doc) else None
+
+        # print(f"🔎 [Token {i}] '{text}' (next: '{next_token}')")
+
+        # Skip coordination words — preserve last prefix
+        if text in {"AND", "OR", "WITH", "TO", "FOR"}:
+            # print(f"⏭️ Skipping connector: {text}")
             continue
 
-        in_uc = norm in uc_course_catalog
-        in_ccc = norm in ccc_course_catalog
+        course = None
+
+        # Full course (e.g., CSE 8A)
+        if re.fullmatch(r"[A-Z]{2,5}", text) and next_token and re.fullmatch(r"\d+[A-Z]{0,2}", next_token):
+            course = f"{text} {next_token}"
+            last_prefix = text
+            # print(f"🧩 Full course match → {course}")
+
+        # Suffix only (e.g., '8B' after 'CSE')
+        elif re.fullmatch(r"\d+[A-Z]{0,2}", text) and last_prefix:
+            course = f"{last_prefix} {text}"
+            # print(f"🧩 Suffix course match → {course}")
+
+        else:
+            # print(f"⛔ Skipping token: {text}")
+            continue
+
+        in_uc = course in uc_course_catalog
+        in_ccc = course in ccc_course_catalog
+        # print(f"📘 {course} → in_uc: {in_uc}, in_ccc: {in_ccc}")
 
         if in_uc and not in_ccc:
-            filters["uc_course"].add(norm)
-            last_uc_prefix = norm.split(" ")[0]
+            filters["uc_course"].add(course)
         elif in_ccc and not in_uc:
-            filters["ccc_courses"].add(norm)
+            filters["ccc_courses"].add(course)
         elif in_uc and in_ccc:
-            # Ambiguous — default to CCC for group/articulation queries
-            filters["ccc_courses"].add(norm)
+            filters["ccc_courses"].add(course)
 
-        normalized_matches.append(norm)
-
+    # print("🎯 [DEBUG] Extracted filters:", filters)
     return {
         "uc_course": sorted(filters["uc_course"]),
         "ccc_courses": sorted(filters["ccc_courses"])
     }
-
 
 def extract_reverse_matches(query, docs):
     """

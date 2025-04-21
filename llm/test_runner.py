@@ -49,20 +49,18 @@ test_prompts = [
     "Are any honors courses required for the CS transfer path from De Anza to UCSD?",
 ]
 
-test_prompts_r2 = [
-    "Does MATH 2BH satisfy MATH 18?",                         # ✅ Single-course, honors version
-    "Can I take MATH 2B instead of MATH 2BH for MATH 18?",    # ✅ Both versions supplied
-    "Does MATH 1CH and 1DH count for MATH 20C?",              # ❌ Partial match – missing one
-    "Can I take CIS 22A and CIS 36B to satisfy anything in Group 1?",  # ✅ Combo CCC → Group logic
-    "Can I mix CIS 22A and CIS 35A for Group 1 at UCSD?",     # ❌ Invalid mix (cross-section)
-    "Can I satisfy Group 3 with CHEM 1A and PHYS 4A?",        # ✅ Group combo logic test
+
+
+regression_tests = [
+    # "Can I take CIS 22A and CIS 36B to satisfy anything in Group 1?",            # Test 5
+    # "Can I mix CIS 22A and CIS 35A for Group 1 at UCSD?",                        # Test 6
+    # "Which courses satisfy MATH 20A and 20B?",                                   # Test 21
+    # "Is there a difference between MATH 1A and MATH 1AH for transfer credit?",   # Test 20
+    # "Can I take BIOL 6A and 6B only to satisfy BILD 1?",                          # Test 25
+    "What are my options for fulfilling Group 3 science requirements for CS at UCSD?",  # Test 23
+    "Can I satisfy Group 3 with CHEM 1A and PHYS 4A?",                            # Test 27
 ]
 
-
-
-
-
-# ]
 
 
 
@@ -70,9 +68,9 @@ def run_test_suite():
     engine = TransferAIEngine()
     engine.configure()
     engine.load()
-    offset = 25
+    offset = 0
     print("🧪 Running TransferAI test suite...\n")
-    for i, prompt in enumerate(test_prompts, 1 + offset):
+    for i, prompt in enumerate(regression_tests, 1 + offset):
         print(f"===== Test {i}: {prompt} =====")
         response = engine.handle_query(prompt)
         if response:

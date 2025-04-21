@@ -15,7 +15,9 @@ from logic_formatter import (
     explain_if_satisfied, 
     find_uc_courses_satisfied_by,
     validate_combo_against_group,
-    include_binary_explanation
+    include_binary_explanation,
+    validate_uc_courses_against_group_sections,
+    is_honors_pair_equivalent
 )
 from prompt_builder import build_prompt, PromptType
 from llama_index.core import VectorStoreIndex, Settings
@@ -42,7 +44,7 @@ class TransferAIEngine:
         Settings.llm = Ollama(
             model="llama3",  # Swap with llama3:instruct or mistral if tone/guardrails needed
             temperature=0.1,  # Low temperature ensures logic fidelity (no speculation)
-            request_timeout=90,  # Allows long prompts, especially for multi-section groups
+            request_timeout=120,  # Allows long prompts, especially for multi-section groups
             system_prompt = (
                 "You are TransferAI, a professional UC transfer counselor trained to interpret official ASSIST.org course articulation data.\n"
                 "You provide reliable, logic-accurate academic advising to California community college students transferring to the University of California (UC) system.\n"
@@ -123,7 +125,70 @@ class TransferAIEngine:
         )
 
         print("🎯 [DEBUG] Extracted filters:", filters)
-        if len(filters.get("uc_course", [])) > 1:
+        if len(filters.get("uc_course", [])) > 1 and "group" in query.lower():
+            # Try group-level match for multi-UC combo (like CSE 8A + 8B)
+            group_docs = extract_section_matches(query, self.docs) or extract_group_matches(query, self.docs)
+
+            # 🔁 Fallback: All UC courses belong to same group, even if "Group" wasn't mentioned
+            if not group_docs:
+                uc_filtered_docs = [
+                    doc for doc in self.docs
+                    if doc.metadata.get("uc_course", "").strip().upper() in filters["uc_course"]
+                ]
+                if len(uc_filtered_docs) == len(filters["uc_course"]):
+                    group_ids = {doc.metadata.get("group") for doc in uc_filtered_docs}
+                    if len(group_ids) == 1:
+                        group_docs = uc_filtered_docs
+                        print(f"🔁 [Fallback] All UC courses share Group {list(group_ids)[0]}")
+
+            if group_docs and all(
+                doc.metadata.get("group") == group_docs[0].metadata.get("group")
+                for doc in group_docs
+            ):
+                group_id = group_docs[0].metadata.get("group", "Unknown")
+                group_title = group_docs[0].metadata.get("group_title", "")
+                group_type = group_docs[0].metadata.get("group_logic_type", "")
+                n_courses = group_docs[0].metadata.get("n_courses")
+
+                from collections import defaultdict
+                sections_by_id = defaultdict(list)
+                for doc in group_docs:
+                    sid = doc.metadata.get("section", "default")
+                    sections_by_id[sid].append(doc)
+
+                group_dict = {
+                    "logic_type": group_type,
+                    "n_courses": n_courses,
+                    "sections": [
+                        {
+                            "section_id": section_id,
+                            "uc_courses": [
+                                {
+                                    "name": doc.metadata.get("uc_course"),
+                                    "logic_blocks": doc.metadata.get("logic_block", [])
+                                }
+                                for doc in docs_in_section
+                            ]
+                        }
+                        for section_id, docs_in_section in sections_by_id.items()
+                    ]
+                }
+
+                # Run validator for multi-UC queries
+                validation = validate_uc_courses_against_group_sections(filters["uc_course"], group_dict)
+
+                if validation["is_fully_satisfied"]:
+                    return (
+                        f"✅ Yes! Your UC course combination ({', '.join(filters['uc_course'])}) satisfies Group {group_id} Section {validation['satisfied_section_id']}."
+                    )
+                else:
+                    missing = validation.get("missing_uc_courses", [])
+                    return (
+                        f"❌ No, your courses do not fully satisfy any single section of Group {group_id}.\n"
+                        f"You're missing: {', '.join(missing)}."
+                    )
+
+            # Default fallback if not part of same group
             return self.handle_multi_uc_query(query, filters["uc_course"])
 
 
@@ -334,6 +399,8 @@ class TransferAIEngine:
                     if normalize_course_code(doc.metadata.get("uc_course", "")) in query_uc_matches
                 ] or [matched_docs[0]]
 
+            responses_by_uc = {}
+
             for doc in matched_docs:
                 logic = render_logic(doc.metadata)
                 rendered_logic = render_logic_str(doc.metadata)
@@ -345,46 +412,39 @@ class TransferAIEngine:
                 if filters.get("ccc_courses"):
                     selected = filters["ccc_courses"]
                     logic_block = doc.metadata.get("logic_block", {})
-                    satisfied, validation_msg = explain_if_satisfied(selected, logic_block)
 
+                    if len(selected) == 2:
+                        # print(f"🪵 Logic block contents: {json.dumps(logic_block, indent=2)}")
+                        if is_honors_pair_equivalent(logic_block, selected[0], selected[1]):
+                            print("✅ [Honors Shortcut] Detected honors/non-honors pair for same UC course.")
+                            return "❌ No, these courses are equivalent for UC transfer credit."
+
+                    satisfied, validation_msg = explain_if_satisfied(selected, logic_block)
                     if not satisfied:
                         return validation_msg
-                    else:
-                        prompt = build_prompt(
-                            logic=logic,
-                            user_question=question_override,
-                            prompt_type=PromptType.COURSE_EQUIVALENCY,
-                            uc_course=doc.metadata.get("uc_course", ""),
-                            uc_course_title=doc.metadata.get("uc_title", ""),
-                            group_id=doc.metadata.get("group", ""),
-                            group_title=doc.metadata.get("group_title", ""),
-                            group_logic_type=doc.metadata.get("group_logic_type", ""),
-                            section_title=doc.metadata.get("section_title", ""),
-                            n_courses=doc.metadata.get("n_courses"),
-                            rendered_logic=rendered_logic
-                        )
-                else:
-                    prompt = build_prompt(
-                        logic=logic,
-                        user_question=question_override,
-                        prompt_type=PromptType.COURSE_EQUIVALENCY,
-                        uc_course=doc.metadata.get("uc_course", ""),
-                        uc_course_title=doc.metadata.get("uc_title", ""),
-                        group_id=doc.metadata.get("group", ""),
-                        group_title=doc.metadata.get("group_title", ""),
-                        group_logic_type=doc.metadata.get("group_logic_type", ""),
-                        section_title=doc.metadata.get("section_title", ""),
-                        n_courses=doc.metadata.get("n_courses"),
-                        rendered_logic=rendered_logic
-                    )
 
-                response = Settings.llm.complete(prompt=prompt, max_tokens=512).text
-                if filters.get("ccc_courses"):
-                    satisfied, validation_msg = explain_if_satisfied(filters["ccc_courses"], doc.metadata.get("logic_block", {}))
-                    response = include_binary_explanation(response, satisfied, validation_msg)
+                prompt = build_prompt(
+                    logic=logic,
+                    user_question=question_override,
+                    prompt_type=PromptType.COURSE_EQUIVALENCY,
+                    uc_course=doc.metadata.get("uc_course", ""),
+                    uc_course_title=doc.metadata.get("uc_title", ""),
+                    group_id=doc.metadata.get("group", ""),
+                    group_title=doc.metadata.get("group_title", ""),
+                    group_logic_type=doc.metadata.get("group_logic_type", ""),
+                    section_title=doc.metadata.get("section_title", ""),
+                    n_courses=doc.metadata.get("n_courses"),
+                    rendered_logic=rendered_logic
+                )
 
+                response = Settings.llm.complete(prompt=prompt, max_tokens=512).text.strip()
+                uc_name = doc.metadata.get("uc_course", "Unknown UC Course")
+                responses_by_uc[uc_name] = response
 
-                print(f"🧠 AI: {response.strip()}\n")
+            # 🎯 Print all per-UC course responses cleanly
+            for uc, text in responses_by_uc.items():
+                print(f"📘 {uc}:\n{text}\n")
+
         else:
             print("⚠️ No UC/CCC match — using fallback vector search.\n")
             response = self.query_engine.query(query)
