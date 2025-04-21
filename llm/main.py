@@ -17,7 +17,8 @@ from logic_formatter import (
     validate_combo_against_group,
     include_binary_explanation,
     validate_uc_courses_against_group_sections,
-    is_honors_pair_equivalent
+    is_honors_pair_equivalent,
+    get_uc_courses_satisfied_by_ccc
 )
 from prompt_builder import build_prompt, PromptType
 from llama_index.core import VectorStoreIndex, Settings
@@ -383,7 +384,22 @@ class TransferAIEngine:
         if matched_docs:
             print(f"🔍 Found {len(matched_docs)} matching document(s).\n")
 
-            # R4 safeguard — enforce UC course filter if present
+            # ✅ R31 — Single CCC → exactly 1 UC course match
+            if filters.get("ccc_courses") and len(filters["ccc_courses"]) == 1:
+                ccc = filters["ccc_courses"][0]
+                uc_matches = get_uc_courses_satisfied_by_ccc(ccc, self.docs)
+                if len(uc_matches) == 1:
+                    from logic_formatter import get_uc_courses_requiring_ccc_combo
+                    also_contributes = get_uc_courses_requiring_ccc_combo(ccc, self.docs)
+                    extra_note = ""
+                    if also_contributes:
+                        extra_note = (
+                            f"\n\nHowever, it may contribute to satisfying "
+                            f"{' and '.join(also_contributes)} if taken with additional courses."
+                        )
+                    return f"❌ No, {ccc} alone only satisfies {uc_matches[0]}." + extra_note
+
+            # ✅ R4 safeguard — enforce UC course filter if present
             if filters.get("uc_course"):
                 matched_docs = [
                     doc for doc in matched_docs
@@ -409,20 +425,21 @@ class TransferAIEngine:
                 if not filters.get("uc_course"):
                     question_override = f"Which courses satisfy {doc.metadata.get('uc_course', 'this course')}?"
 
+                # ✅ CCC-based validation (ex: user asks “does XYZ course satisfy…”)
                 if filters.get("ccc_courses"):
                     selected = filters["ccc_courses"]
                     logic_block = doc.metadata.get("logic_block", {})
 
-                    if len(selected) == 2:
-                        # print(f"🪵 Logic block contents: {json.dumps(logic_block, indent=2)}")
-                        if is_honors_pair_equivalent(logic_block, selected[0], selected[1]):
-                            print("✅ [Honors Shortcut] Detected honors/non-honors pair for same UC course.")
-                            return "❌ No, these courses are equivalent for UC transfer credit."
+                    # ✅ Test 20 — Honors/non-honors equivalence
+                    if len(selected) == 2 and is_honors_pair_equivalent(logic_block, selected[0], selected[1]):
+                        print("✅ [Honors Shortcut] Detected honors/non-honors pair for same UC course.")
+                        return "❌ No, these courses are equivalent for UC transfer credit."
 
                     satisfied, validation_msg = explain_if_satisfied(selected, logic_block)
                     if not satisfied:
                         return validation_msg
 
+                # 🧠 Prompt still runs for all non-short-circuited logic
                 prompt = build_prompt(
                     logic=logic,
                     user_question=question_override,
@@ -441,7 +458,7 @@ class TransferAIEngine:
                 uc_name = doc.metadata.get("uc_course", "Unknown UC Course")
                 responses_by_uc[uc_name] = response
 
-            # 🎯 Print all per-UC course responses cleanly
+            # 🎯 Print all UC-course-specific responses
             for uc, text in responses_by_uc.items():
                 print(f"📘 {uc}:\n{text}\n")
 
@@ -455,6 +472,9 @@ class TransferAIEngine:
                     print(f"   {node.text[:150]}...\n")
             else:
                 print("🧠 AI:", response.strip(), "\n")
+
+
+
 
     def format_multi_uc_response(self, courses, answers):
         return "\n\n".join([

@@ -530,7 +530,84 @@ def is_honors_pair_equivalent(or_block, course1, course2):
 
     return c1 in found and c2 in found
 
+def get_uc_courses_satisfied_by_ccc(ccc_course, all_docs):
+    """
+    Return UC courses that are satisfied by this CCC course **alone**.
+    Only includes options where this course appears alone in an AND block.
+    """
+    matched_uc_courses = set()
 
+    for doc in all_docs:
+        logic_blocks = doc.metadata.get("logic_block", [])
+        if isinstance(logic_blocks, dict):
+            logic_blocks = [logic_blocks]
+
+        for block in logic_blocks:
+            if block.get("type") != "OR":
+                continue
+
+            for and_option in block.get("courses", []):
+                if and_option.get("type") != "AND":
+                    continue
+
+                course_list = and_option.get("courses", [])
+                if (
+                    len(course_list) == 1 and
+                    course_list[0].get("course_letters", "").strip().upper() == ccc_course.strip().upper()
+                ):
+                    matched_uc_courses.add(doc.metadata.get("uc_course", ""))
+
+    return sorted(matched_uc_courses)
+
+def get_uc_courses_requiring_ccc_combo(ccc_course, all_docs):
+    contributing_uc_courses = set()
+
+    for doc in all_docs:
+        logic_blocks = doc.metadata.get("logic_block", [])
+        if isinstance(logic_blocks, dict):
+            logic_blocks = [logic_blocks]
+
+        for block in logic_blocks:
+            if block.get("type") != "OR":
+                continue
+
+            for and_option in block.get("courses", []):
+                if and_option.get("type") != "AND":
+                    continue
+
+                course_list = and_option.get("courses", [])
+                if any(
+                    course.get("course_letters", "").strip().upper() == ccc_course.strip().upper()
+                    for course in course_list
+                ) and len(course_list) > 1:
+                    contributing_uc_courses.add(doc.metadata.get("uc_course", ""))
+
+    return sorted(contributing_uc_courses)
+
+# def is_honors_required(logic_blocks):
+#     """
+#     Returns True if only honors options exist in articulation logic.
+#     If any non-honors option is available, honors are not required.
+#     """
+#     found_non_honors = False
+#     found_honors = False
+
+#     if isinstance(logic_blocks, dict):
+#         logic_blocks = [logic_blocks]
+
+#     for block in logic_blocks:
+#         if block.get("type") != "OR":
+#             continue
+#         for and_option in block.get("courses", []):
+#             if and_option.get("type") != "AND":
+#                 continue
+#             for course in and_option.get("courses", []):
+#                 if course.get("honors") is True:
+#                     found_honors = True
+#                 else:
+#                     found_non_honors = True
+
+#     return found_honors and not found_non_honors
 
 
 # Backward-compatible alias for default rendering

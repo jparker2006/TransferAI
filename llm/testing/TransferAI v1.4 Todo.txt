@@ -1,0 +1,45 @@
+🔧 TransferAI v1.4 Roadmap
+🎯 Goal: Achieve full logical coverage, validation robustness, and prompt clarity across all articulation types before scaling.
+
+✅ Final Bug Fixes (Logic, Coverage, and Interpretation)
+
+Test	Issue	Fix Strategy
+Test 32	❌ Fails to say whether honors are required	✅ Add honors_required() check — iterate logic_blocks, return True only if all options contain only honors courses
+—	Redundant courses not flagged (e.g. both CIS 22A and 36A)	✅ Add redundant CCC input detection and structured response: “Only one is needed”
+—	Honors/non-honors equivalence sometimes confusing	✅ Standardize phrasing: “These are equivalent for UC transfer credit. You may choose either.”
+—	UC course articulation counts still unclear in edge cases	✅ Add count_uc_matches() helper — explain if course contributes to >1 articulation or only 1
+🧠 Prompt & Tone Enhancements
+
+Problem	Fix
+✅ Yes/❌ No formatting inconsistent in binary queries	Use render_binary_response() with consistent preamble: ✅ Yes, based on official articulation. / ❌ No, based on verified articulation logic.
+Overwordy UC → CCC course maps	Rewrite to bold UC course and nest CCCs underneath
+Missing distinction between complete and partial options	Explicitly label: ✅ Complete option: / ⚠️ Partial match: with missing courses listed
+LLM sometimes passive in group-level prompts	Add “To satisfy this group, you must complete…” language before listing
+🛠️ Validation & Structure Upgrades
+
+Enhancement	Why It Matters	Status
+is_articulation_satisfied() w/ structured output: ✅/❌, missing_courses, satisfied_paths	Required for QA dashboard + user logic validation	🔲 In Progress
+Add render_combo_validation() with table of UC → CCC mapping + ✅/❌ per row	Clarifies grouped multi-course combos (like Group 1 or Group 3)	🔲 New
+summarize_logic_blocks() for flattened metadata summary	Supports feedback, API output, and trust score logic	🔲 Planned
+Improve “no articulation” cases to list no_articulation: true and reason	Ensures clarity for courses like CSE 15L, CSE 21	✅ Done
+🔗 Python Tooling / API Recommendations
+
+Tool	Use Case	Benefit
+pydantic	Enforce schema validation on logic blocks, outputs	Prevents invalid JSON in future ingest/export pipelines
+jsonschema	Use for batch test validation across new CCC → UC data	Run structured tests across all articulation responses
+fastapi (if backend serves data)	Add /validate_articulation/ route to programmatically check ✅/❌ per CCC combo	Allows integration with dashboard or RAG filters
+rich (for dev logs)	Add colored console output for ✔️/❌/⚠️ per test case	Speeds debugging, human parsing
+Custom CLI: run_tests()	Re-run logic with snapshot + diff highlight	Automates regression detection during model dev
+Highlight Utility: diff_uc_course_summary(prev, new)	Isolate where course-level output changes across versions	Supports v1.5+ snapshot QA
+📦 Pre-Expansion QA Checklist
+
+Requirement	Status
+✅ Every UC course matched with clear CCC logic	✅ Confirmed (v1.3)
+✅ Binary yes/no phrasing standardized	✅ Confirmed
+✅ Honors clearly marked required vs optional	🔲 Pending Test 32 fix
+✅ Group-level “choose-one-section”, “all-required”, “select-n” logic fully supported	✅ Confirmed
+✅ Redundant/mixed CCC courses flagged clearly	🔲 Planned
+✅ Structured JSON output includes: satisfied, missing, paths, honors_required, no_articulation	🔲 Partial
+✅ Multi-UC queries yield independent, per-course results	✅ Confirmed
+❌ No dropped or speculative logic	✅ Confirmed
+❌ No hallucinated CCC–UC matches	✅ Confirmed
