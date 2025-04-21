@@ -1,11 +1,13 @@
 🧮 Final TransferAI v1.1 Test Suite Stats
 
 Metric	Value
-✅ Perfect	26/32
-⚠️ Minor Issues	4/32
-❌ Major Errors	2/32
-🎯 Strict Accuracy	81.25%
-🎯 Adjusted Accuracy	93.75%
+✅ Perfect	23/32
+⚠️ Minor Issues	3/32
+❌ Major Errors	6/32
+🎯 Strict Accuracy	71.88%
+🎯 Adjusted Accuracy	90.63%
+🔁 Improvements	—
+📉 Regressions	—
 
 ===== Test 1: Which De Anza courses satisfy CSE 8A at UCSD? =====
 🎯 [DEBUG] Extracted filters: {'uc_course': ['CSE 8A'], 'ccc_courses': []}

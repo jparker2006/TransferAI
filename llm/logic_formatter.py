@@ -7,7 +7,7 @@ def render_logic_str(metadata: dict) -> str:
     """
     Renders articulation logic as a markdown list of options.
     Handles recursive OR/AND blocks, strings, and single-course dicts.
-    Adds honors note if any honors course appears.
+    Adds honors note with real CCC course examples.
     """
     if metadata.get("no_articulation", False) or metadata.get("logic_block", {}).get("no_articulation", False):
         return "❌ This course must be completed at UCSD."
@@ -59,13 +59,50 @@ def render_logic_str(metadata: dict) -> str:
                 return [f"* {codes[0]}"]
         return []
 
+    def extract_honors_info_from_logic(logic_block):
+        all_courses = set()
+        honors_courses = set()
+        non_honors_courses = set()
+
+        def recurse(block):
+            if isinstance(block, dict):
+                if block.get("type") in {"AND", "OR"} and isinstance(block.get("courses"), list):
+                    for course in block["courses"]:
+                        recurse(course)
+                elif "course_letters" in block:
+                    code = block.get("course_letters", "").strip()
+                    if code:
+                        all_courses.add(code)
+                        if block.get("honors"):
+                            honors_courses.add(code)
+                        else:
+                            non_honors_courses.add(code)
+            elif isinstance(block, list):
+                for item in block:
+                    recurse(item)
+
+        recurse(logic_block)
+        return {
+            "honors_courses": sorted(honors_courses),
+            "non_honors_courses": sorted(non_honors_courses),
+        }
+
     block = metadata.get("logic_block", {})
     rendered = resolve_logic_block(block)
 
     if not rendered:
         return "❌ This course must be completed at UCSD."
 
-    honors_note = "\n\n🔹 You may choose the honors or non-honors version." if honors_found else ""
+    honors_info = extract_honors_info_from_logic(block)
+    honors_list = honors_info["honors_courses"]
+    non_honors_list = honors_info["non_honors_courses"]
+
+    honors_note = ""
+    if honors_list:
+        honors_note += f"\n\n🔹 Honors courses accepted: {', '.join(honors_list)}."
+    if non_honors_list:
+        honors_note += f"\n🔹 Non-honors courses also accepted: {', '.join(non_honors_list)}."
+
     return "\n".join(rendered) + honors_note
 
 
@@ -265,6 +302,105 @@ def find_uc_courses_satisfied_by(ccc_course: str, all_docs: List[Document]) -> L
             matches.append(doc)
 
     return matches
+
+
+# New in v1.2
+def validate_combo_against_group(ccc_courses, group_data):
+    """
+    Given a list of CCC course names and a group_data object (from ASSIST), 
+    check whether the combo satisfies the group's UC course articulation logic.
+    
+    Returns a dictionary with validation results.
+    """
+    user_courses = set(c.upper().strip() for c in ccc_courses)
+    logic_type = group_data.get("logic_type")
+    n_required = group_data.get("n_courses", 1) if logic_type == "select_n_courses" else None
+
+    satisfied_uc_courses = []
+    unsatisfied_uc_courses = []
+    section_matches = {}  # section_id → list of matched UC courses
+
+    for section in group_data.get("sections", []):
+        section_id = section.get("section_id", "default")
+
+        for uc_course in section.get("uc_courses", []):
+            uc_name = uc_course.get("name")
+
+            # ✅ Safely parse logic_blocks (may be JSON string)
+            logic_blocks = uc_course.get("logic_blocks", [])
+            if isinstance(logic_blocks, str):
+                try:
+                    logic_blocks = json.loads(logic_blocks)
+                except json.JSONDecodeError:
+                    logic_blocks = []
+
+            matched = False
+            for block in logic_blocks:
+                if not isinstance(block, dict):
+                    continue
+
+                if block.get("type") == "AND":
+                    required_courses = set(
+                        course.get("course_letters", course["name"]).upper().strip()
+                        for course in block.get("courses", [])
+                    )
+                    if required_courses.issubset(user_courses):
+                        matched = True
+                        break
+
+                elif block.get("type") == "OR":
+                    for subblock in block.get("courses", []):
+                        if subblock.get("type") == "AND":
+                            required = set(
+                                course.get("course_letters", course["name"]).upper().strip()
+                                for course in subblock.get("courses", [])
+                            )
+                            if required.issubset(user_courses):
+                                matched = True
+                                break
+                    if matched:
+                        break
+
+            if matched:
+                satisfied_uc_courses.append(uc_name)
+                section_matches.setdefault(section_id, []).append(uc_name)
+            else:
+                unsatisfied_uc_courses.append(uc_name)
+
+    satisfied_count = len(satisfied_uc_courses)
+    fully_satisfied = False
+
+    if logic_type == "all_required":
+        fully_satisfied = (len(unsatisfied_uc_courses) == 0)
+    elif logic_type == "select_n_courses":
+        fully_satisfied = (satisfied_count >= n_required)
+    elif logic_type == "choose_one_section":
+        # ✅ Must match ALL UC courses from ONE section only
+        sections_with_all_courses = [
+            sid for sid, matched_courses in section_matches.items()
+            if len(matched_courses) == len([
+                uc for sec in group_data.get("sections", []) if sec.get("section_id") == sid
+                for uc in sec.get("uc_courses", [])
+            ])
+        ]
+        fully_satisfied = len(sections_with_all_courses) == 1
+
+    return {
+        "is_fully_satisfied": fully_satisfied,
+        "partially_satisfied": satisfied_count > 0 and not fully_satisfied,
+        "satisfied_uc_courses": satisfied_uc_courses,
+        "unsatisfied_uc_courses": unsatisfied_uc_courses,
+        "required_count": n_required,
+        "satisfied_count": satisfied_count
+    }
+
+
+def include_binary_explanation(response_text: str, satisfied: bool, validation_summary: str) -> str:
+    """
+    Prepends a binary summary to the LLM's full response.
+    """
+    header = f"{'✅ Yes' if satisfied else '❌ No'}, based on the official articulation logic.\n"
+    return header + "\n" + validation_summary.strip() + "\n\n" + response_text.strip()
 
 
 # Backward-compatible alias for default rendering

@@ -31,11 +31,11 @@ def extract_prefixes_from_docs(docs, key):
                 prefixes.add(match.group(1))
     return sorted(prefixes)
 
-def extract_filters(query, uc_prefixes, ccc_prefixes):
+def extract_filters(query, uc_course_catalog, ccc_course_catalog):
     query_upper = query.upper()
     filters = {"uc_course": set(), "ccc_courses": set()}
 
-    # Step 1: Extract full tokens first (e.g., "CSE 8A", "CIS 36A")
+    # Step 1: Extract full course-like tokens (e.g., "CSE 8A", "CIS 36A", "PHYS-2A")
     raw_matches = re.findall(r"[A-Z]{2,5}[- ]?\d+[A-Z]{0,2}", query_upper)
     normalized_matches = []
     last_uc_prefix = None
@@ -44,28 +44,25 @@ def extract_filters(query, uc_prefixes, ccc_prefixes):
         norm = normalize_course_code(match)
         if not re.match(r"^[A-Z]{2,5} \d+[A-Z]{0,2}$", norm):
             continue
-        prefix = norm.split(" ")[0]
-        if prefix in uc_prefixes:
+
+        in_uc = norm in uc_course_catalog
+        in_ccc = norm in ccc_course_catalog
+
+        if in_uc and not in_ccc:
             filters["uc_course"].add(norm)
-            last_uc_prefix = prefix
-        elif prefix in ccc_prefixes:
+            last_uc_prefix = norm.split(" ")[0]
+        elif in_ccc and not in_uc:
+            filters["ccc_courses"].add(norm)
+        elif in_uc and in_ccc:
+            # Ambiguous — default to CCC for group/articulation queries
             filters["ccc_courses"].add(norm)
 
         normalized_matches.append(norm)
-
-    # Step 2: Orphan suffixes (e.g. "8B") — attach last UC prefix
-    orphan_suffixes = re.findall(r"\b\d+[A-Z]?\b", query_upper)
-    for suffix in orphan_suffixes:
-        if last_uc_prefix:
-            candidate = normalize_course_code(f"{last_uc_prefix} {suffix}")
-            if candidate not in filters["uc_course"]:
-                filters["uc_course"].add(candidate)
 
     return {
         "uc_course": sorted(filters["uc_course"]),
         "ccc_courses": sorted(filters["ccc_courses"])
     }
-
 
 
 def extract_reverse_matches(query, docs):
