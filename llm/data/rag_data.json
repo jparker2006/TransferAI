@@ -2,6 +2,7 @@
   "major": "CSE: Computer Science B.S.",
   "from": "De Anza College",
   "to": "University of California, San Diego",
+  "source_url": "https://assist.org/transfer/results?year=75&institution=113&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F113%2Fto%2F7%2FMajor%2F0a3e674e-b9e8-4340-6726-08dca807bc66",
   "catalog_year": "2024–2025",
   "general_advice": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION.\n\nEffective Fall 2018, major preparation will be required for this major. For details, visit: http://admissions.ucsd.edu/MajorPrep\n\nEffective Fall 2015, the B.S. and B.A. in Computer Science, the B.S. in Computer Engineering, and the B.S. in Computer Science with a specialization in Bioinformatics are impacted for transfer students. Visit cse.ucsd.edu for full information.\n\nGeneral advice: Transfer students are advised to complete the following courses for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation.\n\n- Calculus I-for Science and Engineering (Math. 20A)\n- Calculus II-for Science and Engineering (Math. 20B)\n- Calculus and Analytic Geometry (Math. 20C)\n- Linear Algebra (Math. 18)\n- Two courses chosen from: PHYS 2A or PHYS 4A, PHYS 2B or PHYS 4B, CHEM 6A or CHEM 6AH, CHEM 6B or CHEM 6BH, BILD 1, BILD 2, BILD 3\n- Highest level of introductory computer programming language course offered at the community college. For example, CSE 3, CSE 6R, and 8A may be used to fulfill the lower-division elective requirement; CSE 8B or 11 fulfill other lower-division requirements.\nBasic Data Structures and Object-Oriented Design (CSE 12)\nDiscrete Mathematics (CSE 20)\n\nCourse equivalency: For course equivalencies not listed below, visit the CSE Student Affairs Office, CSE Building (EBU3B, Room 1200) first floor, or email CSEStudent@eng.ucsd.edu.\n\nFor information not found here, please visit the CSE Undergraduate Program at: https://cse.ucsd.edu/undergraduate",
   "groups": [
@@ -20,7 +21,6 @@
               "units": 4.0,
               "section_id": "A",
               "section_title": "A",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -69,7 +69,6 @@
               "units": 4.0,
               "section_id": "A",
               "section_title": "A",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -100,7 +99,6 @@
               "units": 4.0,
               "section_id": "B",
               "section_title": "B",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -157,7 +155,6 @@
               "units": 4.0,
               "section_id": "A",
               "section_title": "A",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -194,7 +191,6 @@
               "units": 2.0,
               "section_id": "A",
               "section_title": "A",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -220,7 +216,6 @@
               "units": 4.0,
               "section_id": "A",
               "section_title": "A",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -257,7 +252,6 @@
               "units": 4.0,
               "section_id": "A",
               "section_title": "A",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -283,7 +277,6 @@
               "units": 4.0,
               "section_id": "A",
               "section_title": "A",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -354,7 +347,6 @@
               "units": 4.0,
               "section_id": "B",
               "section_title": "B",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -391,7 +383,6 @@
               "units": 4.0,
               "section_id": "B",
               "section_title": "B",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -428,7 +419,6 @@
               "units": 4.0,
               "section_id": "B",
               "section_title": "B",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -465,7 +455,6 @@
               "units": 4.0,
               "section_id": "B",
               "section_title": "B",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -529,7 +518,6 @@
               "units": 4.0,
               "section_id": "A",
               "section_title": "A",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -594,7 +582,6 @@
               "units": 4.0,
               "section_id": "A",
               "section_title": "A",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -659,7 +646,6 @@
               "units": 4.0,
               "section_id": "A",
               "section_title": "A",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -724,7 +710,6 @@
               "units": 4.0,
               "section_id": "A",
               "section_title": "A",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -761,7 +746,6 @@
               "units": 4.0,
               "section_id": "A",
               "section_title": "A",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -798,7 +782,6 @@
               "units": 4.0,
               "section_id": "A",
               "section_title": "A",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -823,7 +806,6 @@
               "units": 4.0,
               "section_id": "A",
               "section_title": "A",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -848,7 +830,6 @@
               "units": 4.0,
               "section_id": "A",
               "section_title": "A",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -874,7 +855,6 @@
               "units": 4.0,
               "section_id": "A",
               "section_title": "A",
-              "source_url": "https://assist.org/",
               "logic_block": {
                 "type": "OR",
                 "courses": [

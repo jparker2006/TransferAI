@@ -1,4 +1,5 @@
 import json
+import os
 import time
 import re
 import hashlib
@@ -14,6 +15,12 @@ def setup_driver():
     options = Options()
     # Uncomment the next line to run headless if desired
     options.add_argument("--headless")
+    options.add_argument("--disable-blink-features=AutomationControlled")
+    options.add_argument("--disable-infobars")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+
     driver = webdriver.Chrome(options=options)
     wait = WebDriverWait(driver, 25)
     print("🚀 Driver setup complete.")
@@ -24,20 +31,18 @@ def select_schools(driver, wait, cc_name, uni_name):
     print("🌐 Navigated to assist.org")
 
     # Select community college
-    print(f"🔎 Searching for CCC: {cc_name}")
+    # print(f"🔎 Searching for CCC: {cc_name}")
     ccc_input = wait.until(EC.element_to_be_clickable((By.XPATH, "//input[@placeholder='Select an institution']")))
     ccc_input.click()
     ccc_input.send_keys(cc_name)
-    time.sleep(1)
     ccc_input.send_keys(Keys.RETURN)
     print(f"✅ Selected CCC: {cc_name}")
 
     # Select university
-    print(f"🔎 Searching for UC: {uni_name}")
+    # print(f"🔎 Searching for UC: {uni_name}")
     uc_input = wait.until(EC.element_to_be_clickable((By.XPATH, "(//input[@placeholder='Select an institution'])[2]")))
     uc_input.click()
     uc_input.send_keys(uni_name)
-    time.sleep(1)
     uc_input.send_keys(Keys.RETURN)
     print(f"✅ Selected UC: {uni_name}")
 
@@ -46,14 +51,13 @@ def select_major(driver, wait, major_filter):
         EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'View Agreements') and not(@disabled)]"))
     )
     view_button.click()
-    print("🔎 Clicked 'View Agreements'")
+    # print("🔎 Clicked 'View Agreements'")
 
     major_input = wait.until(EC.element_to_be_clickable((By.XPATH, "//input[@placeholder='Filter Major List']")))
     major_input.click()
     major_input.clear()
-    print(f"🔎 Filtering major list for: {major_filter}")
+    # print(f"🔎 Filtering major list for: {major_filter}")
     major_input.send_keys(major_filter)
-    time.sleep(1.5)
 
     cs_major = wait.until(
         EC.element_to_be_clickable(
@@ -63,22 +67,35 @@ def select_major(driver, wait, major_filter):
     driver.execute_script("arguments[0].click();", cs_major)
     print(f"🎯 Clicked major: {major_filter}")
 
-def scroll_all_emphases(driver):
+
+def scroll_all_emphases(driver, wait=None):
+    if wait is None:
+        wait = WebDriverWait(driver, 10)
+
     section_blocks = driver.find_elements(By.CLASS_NAME, "emphasis--section")
     print(f"🔎 Found {len(section_blocks)} emphasis--section blocks. Scrolling...")
+
+    seen_ids = set()
+
     for idx, section in enumerate(section_blocks, 1):
         try:
-            driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", section)
-            time.sleep(1.5)
-            print(f"  ↳ Scrolled to emphasis block {idx}")
+            section_id = section.get_attribute("id") or f"idx_{idx}"
+            if section_id in seen_ids:
+                continue
+
+            driver.execute_script("arguments[0].scrollIntoView({behavior: 'auto', block: 'center'});", section)
+            wait.until(EC.visibility_of(section))
+            seen_ids.add(section_id)
+
         except Exception as e:
             print(f"  ⚠️ Could not scroll to block {idx}: {e}")
-    print("✅ Finished scrolling emphasis blocks")
+
+    print(f"✅ Finished scrolling {len(seen_ids)} emphasis blocks")
 
 def parse_general_advice(driver):
     try:
         advice = driver.find_element(By.CLASS_NAME, "generalInformation").text.strip()
-        print("📝 Found general advice text.")
+        # print("📝 Found general advice text.")
         return advice
     except Exception as e:
         print(f"⚠️ General advice not found: {e}")
@@ -219,7 +236,7 @@ def parse_course_sets(driver):
     }
 
     group_divs = driver.find_elements(By.CLASS_NAME, "groupContainer")
-    print(f"\n📦 Found {len(group_divs)} group containers on the page.")
+    print(f"📦 Found {len(group_divs)} group containers on the page.")
 
     for group_idx, group in enumerate(group_divs, 1):
         try:
@@ -235,11 +252,12 @@ def parse_course_sets(driver):
         }
 
         section_blocks = group.find_elements(By.CLASS_NAME, "emphasis--section")
-        # print(f"🗂  Group {group_number} instructions: '{group_instructions}'")
-        # print(f"   ↳ Found {len(section_blocks)} sections in Group {group_number}.")
+        parsed_sections = []
 
         for sec_idx, section in enumerate(section_blocks, 1):
             section_label, section_header = "", ""
+
+            # 🏷️ Try to extract section label (e.g., "A", "B")
             try:
                 section_label = section.find_element(By.CLASS_NAME, "letterContent").text.strip()
             except:
@@ -247,8 +265,7 @@ def parse_course_sets(driver):
                     label_elem = section.find_element(By.CLASS_NAME, "emphasis--label")
                     section_label = label_elem.text.strip()
                     if not section_label:
-                        nested_spans = label_elem.find_elements(By.TAG_NAME, "span")
-                        for span in nested_spans:
+                        for span in label_elem.find_elements(By.TAG_NAME, "span"):
                             txt = span.text.strip()
                             if txt:
                                 section_label = txt
@@ -256,6 +273,7 @@ def parse_course_sets(driver):
                 except:
                     section_label = f"NoLabel{sec_idx}"
 
+            # 📘 Try to extract section instruction/header
             try:
                 section_header = section.find_element(By.CLASS_NAME, "emphasis--header").text.strip()
             except:
@@ -264,20 +282,35 @@ def parse_course_sets(driver):
             section_id = section_label if section_label else f"NoLabel{sec_idx}"
             full_instr = f"{section_label} - {section_header}" if section_label and section_header else section_label or section_header
 
+            # 🔍 Determine section logic
+            section_logic_type = "all_required"
+            n_courses = None
+            try:
+                match = re.search(r"select\s+(\d+)\s+course", full_instr.lower())
+                if match:
+                    section_logic_type = "select_n_courses"
+                    n_courses = int(match.group(1))
+            except:
+                pass
+
+            # 📦 Build section data structure
             section_data = {
-                "section": section_id,
-                "instructions": full_instr,
-                "courses": []
+                "section_id": section_id,
+                "section_title": full_instr,
+                "section_logic_type": section_logic_type,
+                "uc_courses": []
             }
+            if n_courses:
+                section_data["n_courses"] = n_courses
 
             row_sets = section.find_elements(By.CLASS_NAME, "articRow")
-            # print(f"      ↳ Section '{section_id}': found {len(row_sets)} articRow mappings.")
-
             for rowset in row_sets:
                 try:
+                    # 🔽 UC course block
                     uc_block = rowset.find_element(By.CLASS_NAME, "rowReceiving")
                     uc_code = uc_block.find_element(By.CLASS_NAME, "prefixCourseNumber").text.strip()
                     uc_title = uc_block.find_element(By.CLASS_NAME, "courseTitle").text.strip()
+
                     units = None
                     try:
                         units_text = uc_block.find_element(By.CLASS_NAME, "courseUnits").text.strip()
@@ -285,15 +318,11 @@ def parse_course_sets(driver):
                     except:
                         pass
 
+                    # 🔁 CCC articulation logic
                     ccc_block = rowset.find_element(By.CLASS_NAME, "rowSending")
-                    or_groups = ccc_block.find_elements(By.CLASS_NAME, "orGroup")
-
-                    # if not or_groups:
-                    #     print("         ⚠️ No .orGroup found — falling back to .rowSending > .courseLine or brackets")
-
                     equivalent_sets = parse_equivalent_sets_from_sending_block(ccc_block)
 
-                    if equivalent_sets == []:
+                    if not equivalent_sets:
                         print(f"         ❌ EMPTY equivalent_sets for UC course: {uc_code}")
 
                     course_entry = {
@@ -302,10 +331,11 @@ def parse_course_sets(driver):
                         "equivalent_sets": equivalent_sets
                     }
 
-                    section_data["courses"].append(course_entry)
-                    print(f"         ✅ Parsed UC course: {course_entry['uc_course']} with {len(equivalent_sets)} eq set(s).")
+                    section_data["uc_courses"].append(course_entry)
                 except Exception as e:
                     print(f"         ⚠️ Failed to parse rowSet: {e}")
+
+            parsed_sections.append(section_data)
 
             group_data["sections"].append(section_data)
         output["groups"].append(group_data)
@@ -359,11 +389,13 @@ def normalize(entry):
         "title": title
     }
 
+
 def restructure_for_rag(parsed_data):
     rag = {
         "major": parsed_data.get("major", ""),
         "from": parsed_data.get("from", ""),
         "to": parsed_data.get("to", ""),
+        "source_url": parsed_data.get("source_url", ""),
         "catalog_year": parsed_data.get("catalog_year"),
         "general_advice": parsed_data.get("general_advice", ""),
         "groups": []
@@ -385,11 +417,13 @@ def restructure_for_rag(parsed_data):
         section_list = []
 
         for section in group.get("sections", []):
-            section_id = section.get("section", "")
-            section_title = section.get("instructions", "").strip() or f"Section {section_id}"
-            uc_courses = []
+            section_id = section.get("section_id", "")
+            section_title = section.get("section_title", "").strip() or f"Section {section_id}"
+            section_logic_type = section.get("section_logic_type", "all_required")
+            n_courses = section.get("n_courses", None)
 
-            for course in section.get("courses", []):
+            uc_courses = []
+            for course in section.get("uc_courses", []):
                 uc_course_raw = course.get("uc_course", "")
                 units = course.get("units", "")
                 logic_block = course.get("equivalent_sets", {})
@@ -433,15 +467,20 @@ def restructure_for_rag(parsed_data):
                     "units": units,
                     "section_id": section_id,
                     "section_title": section_title,
-                    "source_url": "https://assist.org/",  # Placeholder
                     "logic_block": logic_block
                 })
 
-            section_list.append({
+            section_obj = {
                 "section_id": section_id,
                 "section_title": section_title,
+                "section_logic_type": section_logic_type,
                 "uc_courses": uc_courses
-            })
+            }
+            if section_logic_type == "select_n_courses" and n_courses:
+                section_obj["n_courses"] = n_courses
+
+            section_list.append(section_obj)
+
 
         group_obj = {
             "group_id": group_id,
@@ -457,37 +496,150 @@ def restructure_for_rag(parsed_data):
 
     return rag
 
-def main():
-    # Accept dynamic parameters from command line arguments if provided.
-    cc_name = "De Anza College"
-    uni_name = "University of California, San Diego"
-    major_filter = "CSE: Computer Science B.S."
-    if len(sys.argv) >= 4:
-        cc_name = sys.argv[1]
-        uni_name = sys.argv[2]
-        major_filter = sys.argv[3]
+# import re
+def slugify(name: str) -> str:
+    name = name.lower().replace('&', 'and')
+    name = name.replace('.', '')  # Remove periods like in "B.S."
+    name = re.sub(r'[^a-z0-9]+', '_', name)
+    return re.sub(r'_+', '_', name).strip('_')
 
-    driver, wait = setup_driver()
-    select_schools(driver, wait, cc_name, uni_name)
+
+
+def scrape_articulation(driver, wait, cc_name, uni_name, major_filter):
     select_major(driver, wait, major_filter)
 
-    print("⏳ Waiting for articulation groups to load...")
-    wait.until(EC.presence_of_element_located((By.CLASS_NAME, "groupContainer")))
-    print("✅ groupContainer(s) loaded.")
 
-    print("🔎 Scrolling to ensure lazy-loaded content is visible...")
+    # print("⏳ Waiting for articulation groups to load...")
+    wait.until(EC.presence_of_element_located((By.CLASS_NAME, "groupContainer")))
+    # print("✅ groupContainer(s) loaded.")
+
+    source_url = driver.current_url
+    print("Source URL: ", source_url)
+
+    # print("🔎 Scrolling to ensure lazy-loaded content is visible...")
     scroll_all_emphases(driver)
-    time.sleep(2)  # Extra wait for dynamic content
+    # time.sleep(2)  # Extra wait for dynamic content
 
     parsed_data = parse_course_sets(driver)
     parsed_data["major"] = major_filter  # Update major from parameter
+    parsed_data["source_url"] = source_url
     rag_data = restructure_for_rag(parsed_data)
 
-    with open("rag_data.json", "w", encoding="utf-8") as f:
+
+    # Saving the file
+    ccc_slug = slugify(cc_name)
+    uc_slug = slugify(uni_name)
+    major_slug = slugify(major_filter)
+    catalog_year = "2024_2025"
+
+    output_dir = os.path.join("data", "assist_data", ccc_slug, uc_slug)
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Final filename
+    filename = f"{major_slug}__{catalog_year}.json"
+    file_path = os.path.join(output_dir, filename)
+
+    # Save
+    with open(file_path, "w", encoding="utf-8") as f:
         json.dump(rag_data, f, indent=2, ensure_ascii=False)
-    print("✅ RAG JSON written to rag_data.json")
+
+
+    print("✅ RAG JSON written to " + file_path)
+
+
+
+
+def scrape_majors_only(driver, wait, cc_name, uc_name):
+    print(f"🎯 Scraping major list for {cc_name} → {uc_name}")
+    select_schools(driver, wait, cc_name, uc_name)
+
+    view_button = wait.until(
+        EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'View Agreements') and not(@disabled)]"))
+    )
+    view_button.click()
+
+    # Get source URL after transition
+    wait.until(EC.presence_of_element_located((By.ID, "autocomplete-options--destination")))
+    source_url = driver.current_url
+
+    time.sleep(1)  # Allow full load of majors
+    major_links = driver.find_elements(By.CSS_SELECTOR, "#autocomplete-options--destination a")
+
+    majors = []
+    for m in major_links:
+        text = m.text.strip()
+        if not text:
+            continue
+        if len(text) == 1 and text.isalpha():
+            continue  # Skip headings like "A", "B", etc.
+        if re.match(r"^[A-Z]\n", text):
+            text = text[2:]
+        if text == "All Majors":
+            continue
+        majors.append(text)
+
+    print(f"✅ Found {len(majors)} cleaned majors.")
+
+    result = {
+        "from": cc_name,
+        "to": uc_name,
+        "source_url": source_url,
+        "majors": majors
+    }
+
+    # Save to file
+    os.makedirs("data/majors", exist_ok=True)
+    ccc_slug = slugify(cc_name)
+    uc_slug = slugify(uc_name)
+    file_path = f"data/majors/{ccc_slug}__{uc_slug}__majors.json"
+
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump(result, f, indent=2, ensure_ascii=False)
+
+    print(f"📁 Saved major list to {file_path}")
+
+
+
+
+
+def main():
+    start = time.time()
+    cc_name = "De Anza College"
+    uc_name = "University of California, San Diego"
+
+    majors = [
+        "CSE: Computer Science B.S.",
+        "Sociology/Economy and Society B.A.",
+        "ECE: Electrical Engineering B.S.",
+        "Accounting Minor: Rady School of Management",
+        "Anthropology B.A. with Concentration in Archaeology",
+        "Anthropology B.A. with Concentration in Biological Anthropology",
+        "Anthropology B.A. with Concentration in Climate Change and Human Solutions",
+        "Anthropology B.A. with Concentration in Sociocultural Anthropology",
+        "Anthropology: Biological Anthropology B.S.",
+        "Art: Art History/Criticism B.A. (Visual Arts)",
+        "Art: Interdisciplinary Computing in the Arts Major (ICAM) B.A. (Visual Arts)",
+        "Art: Media B.A. ( Visual Arts)",
+        "Art: Speculative Design B.A. (Visual Arts)",
+        "Art: Studio B.A. (Visual Arts)",
+        "Astronomy and Astrophysics B.A.",
+    ]
+
+    driver, wait = setup_driver()
+
+    for major in majors:
+        try:
+            print(f"\n🔁 Scraping {major}...")
+            select_schools(driver, wait, cc_name, uc_name)  # Re-navigate per major
+            scrape_articulation(driver, wait, cc_name, uc_name, major)
+        except Exception as e:
+            print(f"❌ Failed to scrape {major}: {e}")
+
     driver.quit()
     print("🔒 Driver closed.")
+    end = time.time()
+    print(f"⏱️ Elapsed time: {end - start:.2f} seconds")
+
 
 if __name__ == "__main__":
     main()
