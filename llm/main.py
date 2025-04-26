@@ -18,7 +18,13 @@ from logic_formatter import (
     include_binary_explanation,
     validate_uc_courses_against_group_sections,
     is_honors_pair_equivalent,
-    get_uc_courses_satisfied_by_ccc
+    get_uc_courses_satisfied_by_ccc,
+    count_uc_matches,
+    render_binary_response,
+    is_articulation_satisfied,
+    render_combo_validation,
+    explain_honors_equivalence,
+    is_honors_required
 )
 from prompt_builder import build_prompt, PromptType
 from llama_index.core import VectorStoreIndex, Settings
@@ -41,11 +47,11 @@ class TransferAIEngine:
 
 
     def configure(self):
-        # 🔧 LLM Setup: TransferAI uses Ollama + LLaMA3 for safe, deterministic answers
+        # 🔧 LLM Setup: TransferAI uses Ollama + smaller model for more accurate responses
         Settings.llm = Ollama(
-            model="llama3",  # Swap with llama3:instruct or mistral if tone/guardrails needed
-            temperature=0.1,  # Low temperature ensures logic fidelity (no speculation)
-            request_timeout=120,  # Allows long prompts, especially for multi-section groups
+            model="deepseek-r1:1.5b",  # Small 1.1GB model that's already available
+            temperature=0,  # Zero temperature for deterministic responses with no speculation
+            request_timeout=120,  # Reduced timeout for faster responses
             system_prompt = (
                 "You are TransferAI, a professional UC transfer counselor trained to interpret official ASSIST.org course articulation data.\n"
                 "You provide reliable, logic-accurate academic advising to California community college students transferring to the University of California (UC) system.\n"
@@ -63,6 +69,8 @@ class TransferAIEngine:
                 "Use correct UC and CCC course codes and full course titles (e.g., 'CSE 11 – Introduction to Programming and Computational Problem Solving', 'CIS 36B – Intermediate Problem Solving in Java').\n"
                 "\n"
                 "Your tone must be confident, professional, and counselor-grade — never casual, speculative, emotional, or vague. Avoid chatbot-style phrasing.\n"
+                "\n"
+                "For yes/no questions, always start with a clear 'Yes' or 'No' based on the articulation data, not your own reasoning.\n"
                 "\n"
                 "Format every response in a clean, logically structured way:\n"
                 "- Use 'Option A', 'Option B', etc., to label articulation paths\n"
@@ -179,15 +187,12 @@ class TransferAIEngine:
                 validation = validate_uc_courses_against_group_sections(filters["uc_course"], group_dict)
 
                 if validation["is_fully_satisfied"]:
-                    return (
-                        f"✅ Yes! Your UC course combination ({', '.join(filters['uc_course'])}) satisfies Group {group_id} Section {validation['satisfied_section_id']}."
-                    )
+                    explanation = f"Your UC course combination ({', '.join(filters['uc_course'])}) satisfies Group {group_id} Section {validation['satisfied_section_id']}."
+                    return render_binary_response(True, explanation)
                 else:
                     missing = validation.get("missing_uc_courses", [])
-                    return (
-                        f"❌ No, your courses do not fully satisfy any single section of Group {group_id}.\n"
-                        f"You're missing: {', '.join(missing)}."
-                    )
+                    explanation = f"Your courses do not fully satisfy any single section of Group {group_id}.\nYou're missing: {', '.join(missing)}."
+                    return render_binary_response(False, explanation)
 
             # Default fallback if not part of same group
             return self.handle_multi_uc_query(query, filters["uc_course"])
@@ -262,31 +267,27 @@ class TransferAIEngine:
                     validation = validate_combo_against_group(filters["ccc_courses"], group_dict)
 
                     if validation["is_fully_satisfied"]:
-                        return (
-                            f"✅ Yes! Your courses ({', '.join(filters['ccc_courses'])}) fully satisfy Group {group_id}.\n\n"
-                            f"Matched UC courses: {', '.join(validation['satisfied_uc_courses'])}."
-                        )
+                        explanation = f"Your courses ({', '.join(filters['ccc_courses'])}) fully satisfy Group {group_id}.\n\nMatched UC courses: {', '.join(validation['satisfied_uc_courses'])}."
+                        return render_binary_response(True, explanation)
                     elif validation["partially_satisfied"]:
                         missing = (
                             validation["required_count"] - validation["satisfied_count"]
                             if validation["required_count"] is not None
                             else "some required courses"
                         )
-                        return (
-                            f"⚠️ Your courses partially satisfy Group {group_id}.\n"
-                            f"You’ve matched: {', '.join(validation['satisfied_uc_courses'])}, "
+                        explanation = (
+                            f"Your courses partially satisfy Group {group_id}.\n"
+                            f"You've matched: {', '.join(validation['satisfied_uc_courses'])}, "
                             + (
                                 f"but you still need {missing} more UC course(s)."
                                 if isinstance(missing, int)
                                 else "but they span across multiple sections. To satisfy Group 1, all UC courses must come from the same section."
                             )
                         )
-
+                        return render_binary_response(False, explanation)
                     else:
-                        return (
-                            f"❌ Your courses do not satisfy Group {group_id}.\n"
-                            f"No UC course articulation paths were matched."
-                        )
+                        explanation = f"Your courses do not satisfy Group {group_id}.\nNo UC course articulation paths were matched."
+                        return render_binary_response(False, explanation)
 
                 rendered_logic = render_group_summary(group_docs)
                 prompt = build_prompt(
@@ -387,17 +388,20 @@ class TransferAIEngine:
             # ✅ R31 — Single CCC → exactly 1 UC course match
             if filters.get("ccc_courses") and len(filters["ccc_courses"]) == 1:
                 ccc = filters["ccc_courses"][0]
-                uc_matches = get_uc_courses_satisfied_by_ccc(ccc, self.docs)
-                if len(uc_matches) == 1:
-                    from logic_formatter import get_uc_courses_requiring_ccc_combo
-                    also_contributes = get_uc_courses_requiring_ccc_combo(ccc, self.docs)
-                    extra_note = ""
-                    if also_contributes:
-                        extra_note = (
-                            f"\n\nHowever, it may contribute to satisfying "
-                            f"{' and '.join(also_contributes)} if taken with additional courses."
-                        )
-                    return f"❌ No, {ccc} alone only satisfies {uc_matches[0]}." + extra_note
+                match_count, direct_matches, contribution_matches = count_uc_matches(ccc, self.docs)
+                
+                if match_count == 0 and not contribution_matches:
+                    return f"❌ No, {ccc} does not satisfy any UC course requirements."
+                elif match_count == 1:
+                    message = f"❌ No, {ccc} alone only satisfies {direct_matches[0]}."
+                    if contribution_matches:
+                        message += f"\n\nHowever, {ccc} can contribute to satisfying {', '.join(contribution_matches)} when combined with additional courses."
+                    return message
+                elif match_count > 1:
+                    message = f"✅ Yes, {ccc} can satisfy multiple UC courses: {', '.join(direct_matches)}."
+                    if contribution_matches:
+                        message += f"\n\nAdditionally, it can contribute to satisfying {', '.join(contribution_matches)} when combined with other courses."
+                    return message
 
             # ✅ R4 safeguard — enforce UC course filter if present
             if filters.get("uc_course"):
@@ -425,7 +429,7 @@ class TransferAIEngine:
                 if not filters.get("uc_course"):
                     question_override = f"Which courses satisfy {doc.metadata.get('uc_course', 'this course')}?"
 
-                # ✅ CCC-based validation (ex: user asks “does XYZ course satisfy…”)
+                # ✅ CCC-based validation (ex: user asks "does XYZ course satisfy…")
                 if filters.get("ccc_courses"):
                     selected = filters["ccc_courses"]
                     logic_block = doc.metadata.get("logic_block", {})
@@ -433,11 +437,16 @@ class TransferAIEngine:
                     # ✅ Test 20 — Honors/non-honors equivalence
                     if len(selected) == 2 and is_honors_pair_equivalent(logic_block, selected[0], selected[1]):
                         print("✅ [Honors Shortcut] Detected honors/non-honors pair for same UC course.")
-                        return "❌ No, these courses are equivalent for UC transfer credit."
+                        return f"✅ Yes, {explain_honors_equivalence(selected[0], selected[1])}"
 
-                    satisfied, validation_msg = explain_if_satisfied(selected, logic_block)
-                    if not satisfied:
-                        return validation_msg
+                    # Use structured validation instead of direct explain_if_satisfied
+                    validation = is_articulation_satisfied(logic_block, selected)
+                    if not validation["is_satisfied"]:
+                        explanation = validation["explanation"]
+                        return render_binary_response(False, explanation, doc.metadata.get("uc_course", ""))
+                    else:
+                        # For satisfied cases, continue with normal prompt generation
+                        print(f"✅ [Validation] {selected} satisfies {doc.metadata.get('uc_course', '')}") 
 
                 # 🧠 Prompt still runs for all non-short-circuited logic
                 prompt = build_prompt(
@@ -473,8 +482,34 @@ class TransferAIEngine:
             else:
                 print("🧠 AI:", response.strip(), "\n")
 
-
-
+        # Check for specific question patterns
+        if "require honors" in query.lower() and filters.get("uc_course"):
+            for uc_course in filters["uc_course"]:
+                doc = next((d for d in self.docs if normalize_course_code(d.metadata.get("uc_course", "")) == normalize_course_code(uc_course)), None)
+                if doc:
+                    logic_block = doc.metadata.get("logic_block", {})
+                    honors_required = is_honors_required(logic_block)
+                    if honors_required:
+                        return f"# ✅ Yes, {uc_course} requires honors courses.\n\nBased on the official articulation data, only honors courses will satisfy {uc_course}. Non-honors options are not available."
+                    else:
+                        return f"# ❌ No, {uc_course} does not require honors courses.\n\nBased on the official articulation data, you can satisfy {uc_course} with either honors or non-honors courses."
+                        
+            # Default response if no specific UC course found
+            return "Cannot determine honors requirements without a valid UC course."
+            
+        # Check for articulation availability questions
+        if any(term in query.lower() for term in ["articulated", "equivalent", "satisfy", "transfer to"]) and filters.get("uc_course"):
+            for uc_course in filters["uc_course"]:
+                doc = next((d for d in self.docs if normalize_course_code(d.metadata.get("uc_course", "")) == normalize_course_code(uc_course)), None)
+                if doc:
+                    logic_block = doc.metadata.get("logic_block", {})
+                    if isinstance(logic_block, dict) and logic_block.get("no_articulation", False):
+                        return f"# ❌ No, {uc_course} has no articulation at De Anza.\n\nThis course must be completed at UCSD. There are no De Anza courses that satisfy this requirement."
+                    else:
+                        # This has articulation options, let the normal flow handle it
+                        pass
+                        
+            # Default case will continue to normal flow
 
     def format_multi_uc_response(self, courses, answers):
         return "\n\n".join([

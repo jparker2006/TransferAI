@@ -1,6 +1,4 @@
-import os
-import time
-from main import TransferAIEngine
+from llm.main import TransferAIEngine
 
 # 🔍 High-coverage prompt-based articulation test suite (De Anza → UCSD)
 # Includes edge cases, multi-course logic, honors variants, and validation-style prompts
@@ -73,100 +71,19 @@ regression_tests = [
 
 
 
-def run_batch_tests(start_idx=0, batch_size=5, output_file=None):
+def run_test_suite():
     engine = TransferAIEngine()
     engine.configure()
     engine.load()
-    
-    print(f"🧪 Running TransferAI test batch {start_idx//batch_size + 1}...\n")
-    all_results = []
-    
-    end_idx = min(start_idx + batch_size, len(test_prompts))
-    for i in range(start_idx, end_idx):
-        prompt = test_prompts[i]
-        print(f"===== Test {i+1}: {prompt} =====")
-        
-        # Store result in a dictionary
-        result = {
-            "test_num": i+1,
-            "prompt": prompt,
-            "response": "",
-            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
-        }
-        
+    offset = 7
+    print("🧪 Running TransferAI test suite...\n")
+    for i, prompt in enumerate(test_prompts, 1 + offset):
+        print(f"===== Test {i}: {prompt} =====")
         response = engine.handle_query(prompt)
         if response:
             print(response.strip())
-            result["response"] = response.strip()
         print("=" * 60 + "\n")
-        all_results.append(result)
-    
-    # If output file is provided, append results
-    if output_file:
-        with open(output_file, 'a') as f:
-            f.write(f"🧪 Running TransferAI test batch {start_idx//batch_size + 1}...\n\n")
-            for result in all_results:
-                f.write(f"===== Test {result['test_num']}: {result['prompt']} =====\n")
-                f.write(result['response'] + "\n")
-                f.write("=" * 60 + "\n\n")
-    
-    return end_idx, all_results
 
-def run_all_tests_and_save(output_file="llm/testing/TransferAI v1.4.txt"):
-    """Run all tests and save the results to a file for regression testing"""
-    # Create/clear the output file
-    with open(output_file, 'w') as f:
-        f.write(f"🧮 TransferAI v1.4 Test Suite Results - {time.strftime('%Y-%m-%d %H:%M:%S')}\n\n")
-    
-    # Run tests in batches of 5
-    start_idx = 0
-    all_results = []
-    
-    while start_idx < len(test_prompts):
-        end_idx, batch_results = run_batch_tests(start_idx, 5, output_file)
-        start_idx = end_idx
-        all_results.extend(batch_results)
-        
-        # Small delay to avoid overwhelming the model
-        time.sleep(2)
-    
-    # Add summary metrics at the end
-    with open(output_file, 'a') as f:
-        f.write("\n\n🧮 Final TransferAI v1.4 Test Suite Stats\n\n")
-        f.write(f"Total Tests: {len(all_results)}\n")
-        f.write(f"Completed: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
-    
-    print(f"✅ All test results saved to {output_file}")
-    return all_results
-
-def run_specific_test(test_prompt, output_file=None):
-    engine = TransferAIEngine()
-    engine.configure()
-    engine.load()
-    print(f"🧪 Running specific test...\n")
-    
-    print(f"===== Test: {test_prompt} =====")
-    response = engine.handle_query(test_prompt)
-    
-    if response:
-        print(response.strip())
-        
-        # If output file is provided, append result
-        if output_file:
-            with open(output_file, 'a') as f:
-                f.write(f"===== Specific Test: {test_prompt} =====\n")
-                f.write(response.strip() + "\n")
-                f.write("=" * 60 + "\n\n")
-    
-    print("=" * 60 + "\n")
 
 if __name__ == "__main__":
-    # Create the testing directory if it doesn't exist
-    os.makedirs("llm/testing", exist_ok=True)
-    
-    # Run tests in smaller batches and save results
-    output_file = "llm/testing/TransferAI v1.4.txt"
-    run_all_tests_and_save(output_file)
-    
-    # You can also run specific tests like this:
-    # run_specific_test("Does CSE 12 require honors courses at De Anza?", output_file)
+    run_test_suite()
