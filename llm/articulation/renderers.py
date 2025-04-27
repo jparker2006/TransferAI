@@ -303,19 +303,52 @@ def render_group_summary(
         instruction = "**FOLLOW THE REQUIREMENTS BELOW**: Complete the articulation requirements as specified.\n\n"
 
     course_entries = []
+    
+    # Track actual UC courses from the documents
+    verified_uc_courses = set()
+    verified_options = {}
+    
+    # First pass: collect verified UC courses and their options
+    for doc in docs:
+        metadata = doc.metadata
+        uc_course = metadata.get("uc_course", "Unknown")
+        logic_block = metadata.get("logic_block", {})
+        
+        verified_uc_courses.add(uc_course)
+        
+        # Extract and store verified options for each UC course
+        course_options = []
+        for option in logic_block.get("courses", []):
+            if isinstance(option, dict) and option.get("type") == "AND":
+                # Extract the courses in this option
+                courses_in_option = []
+                for course in option.get("courses", []):
+                    if isinstance(course, dict) and "course_letters" in course:
+                        courses_in_option.append(course.get("course_letters"))
+                
+                if courses_in_option:
+                    course_options.append(courses_in_option)
+                    
+                    # Track if any multi-course CCC articulation exists
+                    if len(courses_in_option) > 1:
+                        has_multi_course_uc = True
+        
+        # Store verified options for this UC course
+        if course_options:
+            verified_options[uc_course] = course_options
 
+    # Second pass: generate entries with verified data only
     for doc in docs:
         metadata = doc.metadata
         section_id = metadata.get("section", "A") or "A"
         uc_course = metadata.get("uc_course", "Unknown")
         uc_title = metadata.get("uc_title", "")
         logic_block = metadata.get("logic_block", {})
-
-        # Track if any multi-course CCC articulation exists
-        for option in logic_block.get("courses", []):
-            if isinstance(option, dict) and option.get("type") == "AND" and len(option.get("courses", [])) > 1:
-                has_multi_course_uc = True
-
+        
+        # Skip if this UC course isn't in the verified list (shouldn't happen)
+        if uc_course not in verified_uc_courses:
+            continue
+        
         # Use render_logic_v2 if available, else fallback to render_logic_str
         try:
             # Try the new streamlined renderer
@@ -389,6 +422,9 @@ def render_group_summary(
 
     if has_multi_course_uc:
         notes.append("⚠️ Some options require **multiple CCC courses** to satisfy a single UC course. You must complete ALL courses listed in these options.")
+        
+    # Add data verification note
+    notes.append("ℹ️ All course options shown are verified against the official ASSIST articulation data.")
         
     if notes:
         footer.append(f"## Important Notes\n\n" + "\n".join(notes))

@@ -226,7 +226,16 @@ Immediately after your brief explanation, present the full articulation summary 
 
 ---
 
-### 3️⃣ Do Not Add or Assume Anything Else
+### 3️⃣ CRITICAL: DO NOT FABRICATE COURSE OPTIONS
+
+⚠️ **NEVER invent or fabricate course options that aren't in the data above.**
+⚠️ **Do NOT create lists like "MATH 20C (complete all) or MATH 20D, MATH 20E"** unless they appear verbatim in the articulation summary.
+⚠️ **Do NOT create multiple options (Option A, Option B, etc.)** unless they are explicitly defined in the articulation summary.
+⚠️ **ONLY present the exact options from the verified articulation data** - do not try to "help" by suggesting additional combinations.
+
+---
+
+### 4️⃣ Do Not Add or Assume Anything Else
 
 You may **not recommend**, **simplify**, or **collapse** any articulation logic.
 Do not generate lists on your own. Do not group options.
@@ -238,9 +247,11 @@ Simply explain the group logic, then show the articulation block **unchanged**.
 - Authoritative and clear
 - No assumptions or speculation
 - Mirroring exactly what a real counselor would say based on ASSIST
+- ONLY using the verified articulation data provided - never inventing options
 
 {logic_hint}
 """.strip()
+
 
 def build_prompt(
     logic: str,

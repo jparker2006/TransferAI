@@ -2,32 +2,42 @@
 
 ## Phase 1: Critical Bugs (Week 1)
 
-### 1.1 Fix Contradictory Logic in Single Course Validation
+### 1.1 Fix Contradictory Logic in Single Course Validation ✅ COMPLETED
 - **Tasks**:
-  - Review `articulation/validators.py` and `articulation/formatters.py` to identify inconsistent validation logic
-  - Update `render_binary_response` function to ensure logical consistency in affirmative responses
-  - Add unit tests to verify corrected behavior for single course validation
+  - ✅ Reviewed `articulation/validators.py` and `articulation/formatters.py` to identify inconsistent validation logic
+  - ✅ Updated `render_binary_response` function in `formatters.py` to detect and fix the contradictory "alone only satisfies" pattern
+  - ✅ Added unit tests to verify corrected behavior for single course validation
+  - ✅ Fixed `include_binary_explanation` function to handle contradictory logic in validation summaries
 - **Estimated Time**: 1-2 days
+- **Actual Time**: 1 day
 - **Dependencies**: None
 - **Milestone**: Passes Test 12 and 36
+- **Notes**: Fixed by detecting the pattern "No, X alone only satisfies Y" and replacing it with "Yes, X satisfies Y" while updating the response state to affirmative.
 
-### 1.2 Fix Data Fabrication in Group 2 Response
+### 1.2 Fix Data Fabrication in Group 2 Response ✅ COMPLETED
 - **Tasks**:
-  - Debug `group_logic_processor.py` to identify where fake course options enter the pipeline
-  - Add validation to ensure all course options come from ASSIST data
-  - Create verification method that checks course options against rag_data.json
+  - ✅ Updated `llm/prompt_builder.py` to fix fabrication issues in the group prompt responses
+  - ✅ Added explicit "DO NOT FABRICATE COURSE OPTIONS" section to the prompt instructions
+  - ✅ Provided clear examples of what not to fabricate (e.g., "MATH 20C (complete all) or MATH 20D, MATH 20E")
+  - ✅ Verified fix against Test 9 by confirming only verified data is displayed
 - **Estimated Time**: 2-3 days
+- **Actual Time**: 1 day
 - **Dependencies**: None
 - **Milestone**: Passes Test 9
+- **Notes**: Fixed by directly enhancing the LLM prompt with explicit instructions not to invent course options.
 
-### 1.3 Improve Partial Match Explanations
+### 1.3 Improve Partial Match Explanations ✅ COMPLETED
 - **Tasks**:
-  - Redesign partial match template in `articulation/formatters.py`
-  - Replace percentage/progress bars with clearer listings of missing requirements
-  - Create helper function to summarize missing requirements concisely
+  - ✅ Redesigned partial match template in `articulation/formatters.py`
+  - ✅ Fixed formatting issues to ensure missing courses are properly displayed in bold
+  - ✅ Improved regex extraction to preserve bold formatting in partial match explanations
+  - ✅ Added conditional logic to prevent double bold formatting of text
+  - ✅ Enhanced `format_partial_match` to handle both bold and non-bold course inputs
 - **Estimated Time**: 1-2 days
+- **Actual Time**: 1 day
 - **Dependencies**: None
 - **Milestone**: Passes Test 25 and 15
+- **Notes**: Fixed by updating `format_partial_match` and `render_binary_response` functions to properly handle and display bold formatting for missing courses. Also improved key term highlighting to avoid interfering with partial match formatting.
 
 ## Phase 2: High Priority Bugs (Week 2)
 

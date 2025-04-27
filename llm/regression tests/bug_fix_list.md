@@ -2,23 +2,26 @@
 
 ## Critical Bugs (Must Fix)
 
-1. **[Test 12, 36] Contradictory Logic in Single Course Validation**
+1. **[Test 12, 36] Contradictory Logic in Single Course Validation** ✅ FIXED
    - **Issue**: System responds "No, X alone only satisfies Y" which is logically contradictory
    - **File**: `articulation/validators.py` and/or `articulation/formatters.py`
-   - **Fix**: Update validation logic to correctly handle single course validations with proper affirmative responses
+   - **Fix**: Updated `render_binary_response` and `include_binary_explanation` functions in `formatters.py` to detect and correct the contradictory "alone only satisfies" pattern
    - **Acceptance Criteria**: Response should clearly state "Yes, X satisfies Y" without contradictions
+   - **Verification**: Added test cases in `test_articulation_formatters.py` to verify the fix
 
-2. **[Test 9] Data Fabrication in Group 2 Response**
+2. **[Test 9] Data Fabrication in Group 2 Response** ✅ FIXED
    - **Issue**: System is generating course options that don't exist in ASSIST data
-   - **File**: `articulation/group_logic_processor.py`
-   - **Fix**: Ensure that only options from actual ASSIST data are presented
+   - **File**: `llm/prompt_builder.py`
+   - **Fix**: Enhanced the `build_group_prompt` function with explicit instructions to prevent fabrication of course options
    - **Acceptance Criteria**: All course options shown must be verifiable against rag_data.json
+   - **Verification**: Test case 9 now shows only verified information, no fabricated options
 
-3. **[Test 25, 15] Confusing Partial Match Explanations**
+3. **[Test 25, 15] Confusing Partial Match Explanations** ✅ FIXED
    - **Issue**: Progress bars and percentages don't clearly explain what's missing
    - **File**: `articulation/formatters.py`
-   - **Fix**: Redesign partial match template to clearly highlight missing requirements
+   - **Fix**: Redesigned partial match template in `format_partial_match` function to clearly highlight missing requirements with proper bold formatting. Fixed extraction and preservation of bold text in `render_binary_response` function and prevented double formatting of already bold text.
    - **Acceptance Criteria**: Users should immediately understand what's missing and what to do next
+   - **Verification**: Updated tests pass in `test_articulation_formatters.py`, particularly in `TestImprovedPartialMatchRendering` class
 
 ## High Priority Bugs
 
