@@ -5,7 +5,7 @@ import os
 # Add the parent directory to sys.path to allow imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from logic_formatter import explain_honors_equivalence
+from articulation import explain_honors_equivalence
 
 class TestHonorsEquivalence(unittest.TestCase):
     def test_basic_equivalence_message(self):

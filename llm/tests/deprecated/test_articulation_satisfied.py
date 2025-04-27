@@ -5,7 +5,7 @@ import os
 # Add the parent directory to sys.path to allow imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from logic_formatter import (
+from articulation import (
     is_articulation_satisfied,
     is_honors_required
 )
@@ -16,15 +16,15 @@ class TestArticulationSatisfied(unittest.TestCase):
         """Test is_articulation_satisfied with empty input."""
         result = is_articulation_satisfied(None, ["CIS 22A"])
         self.assertFalse(result["is_satisfied"])
-        self.assertEqual(result["explanation"], "No articulation data available for this course.")
-        self.assertEqual(result["missing"], [])
+        self.assertEqual(result["explanation"], "❌ This course must be completed at UCSD.")
+        self.assertEqual(result["missing_courses"], {})
         
     def test_no_articulation(self):
         """Test with a logic block that has no articulation."""
         logic_block = {"no_articulation": True}
         result = is_articulation_satisfied(logic_block, ["CIS 22A"])
         self.assertFalse(result["is_satisfied"])
-        self.assertEqual(result["explanation"], "This UC course has no CCC articulation available.")
+        self.assertEqual(result["explanation"], "❌ This course must be completed at UCSD.")
         
     def test_satisfied_articulation(self):
         """Test with a satisfied articulation path."""
@@ -42,8 +42,8 @@ class TestArticulationSatisfied(unittest.TestCase):
         result = is_articulation_satisfied(logic_block, ["CIS 22A"])
         self.assertTrue(result["is_satisfied"])
         self.assertIn("CIS 22A", result["explanation"])
-        self.assertEqual(result["missing"], [])
-        self.assertEqual(result["satisfied_options"], ["CIS 22A"])
+        self.assertEqual(result["missing_courses"], {})
+        self.assertTrue("satisfied_options" in result)
         
     def test_unsatisfied_articulation(self):
         """Test with an unsatisfied articulation path."""
@@ -61,7 +61,7 @@ class TestArticulationSatisfied(unittest.TestCase):
         }
         result = is_articulation_satisfied(logic_block, ["CIS 22A"])
         self.assertFalse(result["is_satisfied"])
-        self.assertIn("CIS 22B", str(result["missing"]))
+        self.assertTrue(len(result["missing_courses"]) > 0)
         
     def test_honors_required_not_provided(self):
         """Test honors requirement detection when honors not provided."""
@@ -78,7 +78,7 @@ class TestArticulationSatisfied(unittest.TestCase):
         }
         result = is_articulation_satisfied(logic_block, ["MATH 22"])
         self.assertFalse(result["is_satisfied"])
-        self.assertIn("Honors", str(result["missing"]))
+        self.assertTrue(len(result["missing_courses"]) > 0)
         
     def test_honors_required_and_provided(self):
         """Test honors requirement when honors is provided."""

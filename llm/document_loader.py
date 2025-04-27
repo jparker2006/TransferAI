@@ -1,17 +1,49 @@
+"""
+Document Loader Module for TransferAI
+
+This module handles the loading and transformation of articulation data from JSON format
+into LlamaIndex Document objects suitable for RAG. It's responsible for:
+
+1. Loading JSON data from the articulation source file
+2. Transforming nested articulation data into flat, searchable documents
+3. Extracting and organizing metadata for retrieval and presentation
+4. Creating LlamaIndex Document objects with appropriate text and metadata
+
+The module provides functions to extract course information, flatten complex logic structures,
+and prepare documents for vector indexing.
+"""
+
 import json
 import os
+from typing import Dict, List, Set, Union, Optional, Any
 from llama_index.core import Document
 
 
-def extract_ccc_courses_from_logic(logic_block):
-    """Extract all CCC course codes (course_letters) from a logic_block, recursively."""
+def extract_ccc_courses_from_logic(logic_block: Dict[str, Any]) -> List[str]:
+    """
+    Extract all CCC course codes from a logic block recursively.
+    
+    This function traverses the nested structure of a logic block to find all course codes
+    mentioned in any part of the articulation logic, handling both AND and OR blocks.
+    
+    Args:
+        logic_block: A dictionary containing the articulation logic structure with 
+                    nested AND/OR blocks and course information.
+    
+    Returns:
+        A sorted list of unique CCC course codes found in the logic block.
+        
+    Example:
+        >>> logic = {"type": "OR", "courses": [{"type": "AND", "courses": [{"course_letters": "CIS 22A"}]}]}
+        >>> extract_ccc_courses_from_logic(logic)
+        ['CIS 22A']
+    """
     course_codes = set()
 
     def recurse(node):
         if isinstance(node, list):
             for item in node:
                 recurse(item)
-
         elif isinstance(node, dict):
             if "type" in node and "courses" in node:
                 # This is an AND/OR logic wrapper
@@ -26,11 +58,30 @@ def extract_ccc_courses_from_logic(logic_block):
     return sorted(course_codes)
 
 
-def flatten_courses_from_json(json_data):
-    """Convert nested articulation JSON into flat document objects for LLM ingestion, with enriched metadata."""
+def flatten_courses_from_json(json_data: Dict[str, Any]) -> List[Dict[str, Union[str, Dict]]]:
+    """
+    Convert nested articulation JSON into flat document objects for LLM ingestion.
+    
+    This function transforms the hierarchical ASSIST.org data structure into flat documents,
+    each representing a single UC course with its articulation options. It extracts metadata
+    and creates a text representation suitable for vector indexing.
+    
+    Args:
+        json_data: The parsed JSON data containing articulation information, including
+                  groups, sections, and UC courses with their logic blocks.
+    
+    Returns:
+        A list of dictionaries, each containing 'text' and 'metadata' keys, ready to be
+        converted to LlamaIndex Document objects.
+        
+    Note:
+        The resulting documents preserve the hierarchical relationship through metadata
+        while flattening the structure for easier retrieval.
+    """
     flattened_docs = []
 
-    def summarize_options(logic_block):
+    def summarize_options(logic_block: Dict[str, Any]) -> str:
+        """Create a human-readable summary of the options in a logic block."""
         summaries = []
         options = logic_block.get("courses", [])
         for i, option in enumerate(options):
@@ -42,14 +93,16 @@ def flatten_courses_from_json(json_data):
                 summaries.append(f"{label}: UNKNOWN FORMAT")
         return "; ".join(summaries)
 
-    def get_course_count(logic_block):
+    def get_course_count(logic_block: Dict[str, Any]) -> int:
+        """Get the maximum number of courses required in any single option."""
         options = logic_block.get("courses", [])
         return max(
             len(opt.get("courses", [])) if isinstance(opt, dict) and opt.get("type") == "AND" else 1
             for opt in options
         ) if options else 0
 
-    def has_multi_course_option(logic_block):
+    def has_multi_course_option(logic_block: Dict[str, Any]) -> bool:
+        """Check if any option requires multiple courses (AND logic)."""
         for opt in logic_block.get("courses", []):
             if isinstance(opt, dict) and opt.get("type") == "AND" and len(opt.get("courses", [])) > 1:
                 return True
@@ -111,8 +164,27 @@ def flatten_courses_from_json(json_data):
     return flattened_docs
 
 
-
-def load_documents(path=None):
+def load_documents(path: Optional[str] = None) -> List[Document]:
+    """
+    Load articulation data from JSON and convert to LlamaIndex Document objects.
+    
+    This is the main entry point for loading articulation data. It reads the JSON file,
+    creates an overview document, and converts all articulation data into searchable
+    Document objects with appropriate metadata.
+    
+    Args:
+        path: Optional path to the JSON data file. If None, defaults to "data/rag_data.json"
+              relative to the current module.
+    
+    Returns:
+        A list of LlamaIndex Document objects, including an overview document and
+        individual documents for each UC course articulation.
+        
+    Example:
+        >>> docs = load_documents()
+        >>> len(docs)  # Number of documents created
+        95  # (varies based on data size)
+    """
     if path is None:
         current_dir = os.path.dirname(__file__)
         path = os.path.join(current_dir, "data/rag_data.json")

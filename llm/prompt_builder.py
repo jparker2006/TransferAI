@@ -1,7 +1,27 @@
+"""
+Prompt Builder Module for TransferAI
+
+This module is responsible for constructing prompts for the LLM based on articulation data.
+It provides functions to create tailored prompts for different query types:
+
+1. Course-specific articulation queries
+2. Group-level articulation queries
+
+The module ensures that prompts maintain a consistent professional tone, include all
+necessary context, and provide clear instructions to the LLM about how to format responses.
+"""
+
 from enum import Enum
+from typing import Optional, Union, Dict, List, Any
 
 
 class PromptType(Enum):
+    """
+    Enumeration of prompt types supported by the prompt builder.
+    
+    COURSE_EQUIVALENCY: For queries about specific UC courses and their equivalents
+    GROUP_LOGIC: For queries about groups of courses and their requirements
+    """
     COURSE_EQUIVALENCY = "course_equivalency"
     GROUP_LOGIC = "group_logic"
 
@@ -16,12 +36,33 @@ def build_course_prompt(
     group_title: str = "",
     group_logic_type: str = "",
     section_title: str = "",
-    n_courses: int = None,
+    n_courses: Optional[int] = None,
     is_no_articulation: bool = False,
 ) -> str:
     """
-    Builds a structured, counselor-style prompt for answering single-course articulation questions.
-    Group-level phrasing (e.g., section, group logic) is excluded per R3.
+    Build a prompt for answering single-course articulation queries.
+    
+    Creates a structured prompt that includes the user's question, course information,
+    and articulation logic in a format optimized for the LLM to produce a clear,
+    counselor-like response.
+    
+    Args:
+        rendered_logic: String representation of the articulation logic.
+        user_question: The original user query.
+        uc_course: UC course code (e.g., "CSE 8A").
+        uc_course_title: Title of the UC course.
+        group_id: Group identifier if applicable.
+        group_title: Group title if applicable.
+        group_logic_type: Type of logic for the group.
+        section_title: Section title if applicable.
+        n_courses: Number of courses required (for select_n_courses type).
+        is_no_articulation: Flag indicating if the course has no articulation.
+        
+    Returns:
+        A formatted prompt string for the LLM.
+        
+    Note:
+        Group-level phrasing is excluded per design requirement R3.
     """
 
     if is_no_articulation or "❌ This course must be completed at UCSD." in rendered_logic:
@@ -63,7 +104,7 @@ To satisfy this UC course requirement, you must complete one of the following De
 ⚠️ Do not remove, collapse, reorder, or reword any part of the articulation summary.  
 ⚠️ Always show all options, even if they are long or redundant.  
 ⚠️ Do not suggest, simplify, or interpret the articulation paths.  
-⚠️ Never say “this is the only option” unless that phrase appears in the official articulation summary.
+⚠️ Never say "this is the only option" unless that phrase appears in the official articulation summary.
 
 ---
 
@@ -81,12 +122,29 @@ def build_group_prompt(
     group_id: str = "Unknown",
     group_title: str = "",
     group_logic_type: str = "",
-    n_courses: int = None,
+    n_courses: Optional[int] = None,
 ) -> str:
     """
-    Builds a structured, counselor-style prompt for answering articulation questions based on ASSIST.org data.
-    Supports choose_one_section, all_required, and select_n_courses group logic types.
-    Ensures clarity, accuracy, and non-speculative output per UC-to-CCC mappings.
+    Build a prompt for answering group-level articulation queries.
+    
+    Creates a structured prompt for queries about groups of courses, including specific
+    instructions based on the group logic type (choose_one_section, all_required, 
+    or select_n_courses).
+    
+    Args:
+        rendered_logic: String representation of the group articulation logic.
+        user_question: The original user query.
+        group_id: Group identifier (e.g., "1", "2").
+        group_title: Title of the group.
+        group_logic_type: Type of logic for the group (e.g., "choose_one_section").
+        n_courses: Number of courses required (for select_n_courses type).
+        
+    Returns:
+        A formatted prompt string for the LLM.
+        
+    Note:
+        The prompt includes specific instructions based on the group logic type to
+        ensure the LLM understands how to interpret and explain the requirements.
     """
 
     group_label = f"Group {group_id}" if group_id else "this group"
@@ -96,7 +154,7 @@ def build_group_prompt(
         logic_hint = (
             f"To satisfy {group_label}, the student must complete **all UC courses in exactly ONE full section** (such as A or B). "
             "Do not mix UC courses or CCC courses across sections. Each UC course in the section must be satisfied individually using the listed De Anza options. "
-            "Respect each course’s logic independently — do not combine articulation options across UC courses."
+            "Respect each course's logic independently — do not combine articulation options across UC courses."
         )
     elif group_logic_type == "all_required":
         logic_hint = (
@@ -194,9 +252,39 @@ def build_prompt(
     group_title: str = "",
     group_logic_type: str = "",
     section_title: str = "",
-    n_courses: int = None,
+    n_courses: Optional[int] = None,
     rendered_logic: str = ""
 ) -> str:
+    """
+    Main entry point for building prompts based on query type.
+    
+    This function routes to the appropriate prompt builder based on the prompt_type
+    and forwards all relevant parameters.
+    
+    Args:
+        logic: String representation of the articulation logic.
+        user_question: The original user query.
+        uc_course: UC course code.
+        prompt_type: Type of prompt to build (COURSE_EQUIVALENCY or GROUP_LOGIC).
+        uc_course_title: Title of the UC course.
+        group_id: Group identifier if applicable.
+        group_title: Group title if applicable.
+        group_logic_type: Type of logic for the group.
+        section_title: Section title if applicable.
+        n_courses: Number of courses required (for select_n_courses type).
+        rendered_logic: Alternative rendered logic string (used for group prompts).
+        
+    Returns:
+        A formatted prompt string for the LLM.
+        
+    Example:
+        >>> prompt = build_prompt(
+        ...     logic="* Option A: CIS 22A",
+        ...     user_question="What satisfies CSE 8A?",
+        ...     uc_course="CSE 8A",
+        ...     prompt_type=PromptType.COURSE_EQUIVALENCY
+        ... )
+    """
     if prompt_type == PromptType.GROUP_LOGIC:
         return build_group_prompt(
             rendered_logic=rendered_logic,

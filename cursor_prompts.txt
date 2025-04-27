@@ -1,0 +1,14 @@
+Before we proceed, I need you to give me a summary of the current state. Summarize what we just did, which files were updated, and what didn’t work. Do not include assumptions or theories—only the facts.
+
+The fewer lines of code, the better.
+
+Proceed like a senior developer. 
+
+Do not stop working on this until you've implemented this feature fully and completely.
+
+Do not delete comments.
+
+Start by writing three reasoning paragraphs analyzing what the error might be. Do not jump to conclusions.
+
+Before you answer, I want you to write two detailed paragraphs, one for each solution. Do not jump to conclusions or commit to either solution until you have fully considered both. Then tell me which solution is obviously better and why.
+

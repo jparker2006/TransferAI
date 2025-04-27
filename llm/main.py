@@ -1,5 +1,21 @@
-from document_loader import load_documents
-from query_parser import (
+"""
+Main Engine Module for TransferAI
+
+This module provides the core TransferAIEngine class that coordinates the entire system.
+It handles:
+
+1. Configuration of LLM and embedding models
+2. Loading and indexing of articulation data
+3. Processing user queries and routing to appropriate handlers
+4. Generating responses based on retrieved articulation information
+5. Handling various query types including course equivalency, validation, and group requirements
+
+The TransferAIEngine integrates all components (document loader, query parser, logic formatter,
+and prompt builder) to provide a seamless interface for answering articulation questions.
+"""
+
+from llm.document_loader import load_documents
+from llm.query_parser import (
     extract_filters,
     extract_prefixes_from_docs,
     extract_reverse_matches,
@@ -8,33 +24,59 @@ from query_parser import (
     normalize_course_code,
     find_uc_courses_satisfied_by
 )
-from logic_formatter import (
-    render_logic, 
-    render_group_summary, 
+from articulation import (
     render_logic_str, 
+    render_logic_v2,
+    render_group_summary, 
     explain_if_satisfied, 
-    find_uc_courses_satisfied_by,
     validate_combo_against_group,
     include_binary_explanation,
     validate_uc_courses_against_group_sections,
     is_honors_pair_equivalent,
-    get_uc_courses_satisfied_by_ccc,
-    count_uc_matches,
     render_binary_response,
     is_articulation_satisfied,
     render_combo_validation,
     explain_honors_equivalence,
     is_honors_required
 )
-from prompt_builder import build_prompt, PromptType
+from articulation.analyzers import (
+    find_uc_courses_satisfied_by,
+    get_uc_courses_satisfied_by_ccc,
+    count_uc_matches
+)
+from llm.prompt_builder import build_prompt, PromptType
 from llama_index.core import VectorStoreIndex, Settings
 from llama_index.llms.ollama import Ollama
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 import json, re
+from typing import List, Any, Optional
 
 
 class TransferAIEngine:
+    """
+    Core engine that coordinates the TransferAI articulation system.
+    
+    This class integrates all components of the TransferAI system including document loading,
+    query parsing, and response generation. It manages both vector search and rule-based matching
+    for articulation queries, handling various query types like course equivalency, group requirements,
+    and validation of course combinations.
+    
+    Attributes:
+        docs: List of loaded articulation documents.
+        index: Vector store index for semantic search.
+        query_engine: LlamaIndex query engine for fallback searches.
+        uc_prefixes: List of UC department prefixes (e.g., "CSE", "MATH").
+        ccc_prefixes: List of CCC department prefixes.
+        uc_course_catalog: Set of known UC courses.
+        ccc_course_catalog: Set of known CCC courses.
+    """
     def __init__(self):
+        """
+        Initialize the TransferAI engine with empty state.
+        
+        The engine starts with empty collections that will be populated during the
+        configure and load steps.
+        """
         self.docs = []
         self.index = None
         self.query_engine = None
@@ -46,7 +88,14 @@ class TransferAIEngine:
         self.ccc_course_catalog = set()
 
 
-    def configure(self):
+    def configure(self) -> None:
+        """
+        Configure LLM and embedding models for the TransferAI system.
+        
+        Sets up:
+        1. A small, efficient LLM model with a specialized system prompt for articulation queries
+        2. An embedding model optimized for semantic search in articulation documents
+        """
         # 🔧 LLM Setup: TransferAI uses Ollama + smaller model for more accurate responses
         Settings.llm = Ollama(
             model="deepseek-r1:1.5b",  # Small 1.1GB model that's already available
@@ -87,7 +136,15 @@ class TransferAIEngine:
             model_name="all-mpnet-base-v2"
         )
 
-    def load(self):
+    def load(self) -> None:
+        """
+        Load and index articulation documents for querying.
+        
+        This method:
+        1. Loads articulation documents from the data source
+        2. Creates a vector index for semantic search
+        3. Extracts course prefixes and builds course catalogs for lookup
+        """
         self.docs = [doc for doc in load_documents() if doc.text.strip()]
         self.index = VectorStoreIndex.from_documents(self.docs)
         self.query_engine = self.index.as_query_engine(similarity_top_k=10)
@@ -97,13 +154,31 @@ class TransferAIEngine:
 
         self.build_course_catalogs()
 
-    def validate_same_section(self, docs):
+    def validate_same_section(self, docs: List[Any]) -> List[Any]:
+        """
+        Filter documents to keep only those in the same section as the first document.
+        
+        This is used for ensuring consistency when responding to section-specific queries,
+        as articulation rules can vary between sections.
+        
+        Args:
+            docs: List of articulation documents to filter.
+            
+        Returns:
+            A filtered list of documents all belonging to the same section.
+        """
         if not docs:
             return []
         section = docs[0].metadata.get("section")
         return [d for d in docs if d.metadata.get("section") == section]
 
-    def build_course_catalogs(self):
+    def build_course_catalogs(self) -> None:
+        """
+        Build comprehensive catalogs of all UC and CCC courses in the data.
+        
+        These catalogs are used for improving query parsing and course code recognition,
+        allowing the system to identify course mentions in user queries.
+        """
         self.uc_course_catalog = set()
         self.ccc_course_catalog = set()
 
@@ -117,16 +192,42 @@ class TransferAIEngine:
             if uc:
                 self.uc_course_catalog.add(normalize_course_code(uc))
 
-
-
-
-    def render_debug_meta(self, doc):
+    def render_debug_meta(self, doc: Any) -> str:
+        """
+        Generate a debug string for document metadata.
+        
+        Args:
+            doc: The document to extract metadata from.
+            
+        Returns:
+            A formatted string with UC course and CCC course information.
+        """
         return (
             f"📘 UC: {doc.metadata.get('uc_course', '')}\n"
             f"📗 CCC: {', '.join(doc.metadata.get('ccc_courses', [])) or 'None'}\n"
         )
 
-    def handle_query(self, query: str):
+    def handle_query(self, query: str) -> Optional[str]:
+        """
+        Process a user query and generate an articulation response.
+        
+        This core method handles the full query processing pipeline:
+        1. Extract UC/CCC course references and filters from the query
+        2. Match to appropriate documents based on query type (group, course, validation)
+        3. Apply specialized logic for different query cases
+        4. Generate a formatted response with articulation information
+        
+        Args:
+            query: The user's natural language query about course articulation.
+            
+        Returns:
+            A formatted response string with articulation information, or None if
+            a direct response is not needed (e.g., for group queries handled by the LLM).
+            
+        Note:
+            This method contains multiple specialized handlers for different query patterns
+            and fallback mechanisms to ensure reliable responses.
+        """
         filters = extract_filters(
             query,
             uc_course_catalog=self.uc_course_catalog,
@@ -354,7 +455,7 @@ class TransferAIEngine:
                 print(f"🔍 Found {len(matched_docs)} matching document(s).\n")
 
                 for doc in matched_docs:
-                    logic = render_logic(doc.metadata)
+                    logic = render_logic_str(doc.metadata)
                     rendered_logic = render_logic_str(doc.metadata)
 
                     prompt = build_prompt(
@@ -422,7 +523,7 @@ class TransferAIEngine:
             responses_by_uc = {}
 
             for doc in matched_docs:
-                logic = render_logic(doc.metadata)
+                logic = render_logic_str(doc.metadata)
                 rendered_logic = render_logic_str(doc.metadata)
 
                 question_override = query.strip()
@@ -511,34 +612,21 @@ class TransferAIEngine:
                         
             # Default case will continue to normal flow
 
-    def format_multi_uc_response(self, courses, answers):
-        return "\n\n".join([
-            f"**{course}**:\n{answer.strip()}" for course, answer in zip(courses, answers)
-        ])
-    
-    @staticmethod
-    def strip_ai_meta(response: str) -> str:
-        # Remove AI-style headers, meta explanations, and filler phrases
-        patterns = [
-            r"(?i)^here'?s my response.*?\n",                  # "Here's my response"
-            r"(?i)^I'?m TransferAI.*?\n",                      # "I'm TransferAI"
-            r"(?i)^📨 \*\*Student Question:\*\*.*?\n",         # Student Question section
-            r"(?i)^🎓 \*\*UC Course:\*\*.*?\n",                # UC Course header
-            r"(?i)^✅ \*\*How to Respond:\*\*.*?\n",           # Instructional headers
-            r"(?i)^That'?s it!.*?\n",                          # Casual wrap-up
-            r"(?i)I'?ll make sure to.*?(?:\n|$)",              # Self-referential filler
-            r"(?i)I'?m committed to.*?(?:\n|$)",               # More filler
-        ]
-
-        cleaned = response
-        for pattern in patterns:
-            cleaned = re.sub(pattern, "", cleaned, flags=re.MULTILINE)
-
-        return cleaned.strip()
-
-
-
-    def handle_multi_uc_query(self, query: str, uc_courses: list):
+    def handle_multi_uc_query(self, query: str, uc_courses: list) -> str:
+        """
+        Handle queries involving multiple UC courses.
+        
+        Processes each UC course separately and combines the results into a
+        single comprehensive response.
+        
+        Args:
+            query: The original user query.
+            uc_courses: List of UC course codes mentioned in the query.
+            
+        Returns:
+            A formatted response string containing articulation information
+            for each UC course.
+        """
         results = []
 
         for uc in uc_courses:
@@ -553,7 +641,7 @@ class TransferAIEngine:
                 continue
 
             rendered_logic = render_logic_str(doc.metadata)
-            logic = render_logic(doc.metadata)
+            logic = render_logic_str(doc.metadata)
 
             prompt = build_prompt(
                 logic=logic,
@@ -574,9 +662,60 @@ class TransferAIEngine:
 
         return self.format_multi_uc_response(uc_courses, results)
 
+    def format_multi_uc_response(self, courses: List[str], answers: List[str]) -> str:
+        """
+        Format multiple UC course responses into a single coherent response.
+        
+        Args:
+            courses: List of UC course codes.
+            answers: List of corresponding response texts.
+            
+        Returns:
+            A formatted string with each course and its answer clearly separated.
+        """
+        return "\n\n".join([
+            f"**{course}**:\n{answer.strip()}" for course, answer in zip(courses, answers)
+        ])
+    
+    @staticmethod
+    def strip_ai_meta(response: str) -> str:
+        """
+        Remove AI-style headers and meta explanations from responses.
+        
+        This cleans up LLM-generated responses by removing various boilerplate phrases,
+        headers, and self-references to produce more professional, concise answers.
+        
+        Args:
+            response: The raw response from the LLM.
+            
+        Returns:
+            A cleaned string with boilerplate and meta-text removed.
+        """
+        # Remove AI-style headers, meta explanations, and filler phrases
+        patterns = [
+            r"(?i)^here'?s my response.*?\n",                  # "Here's my response"
+            r"(?i)^I'?m TransferAI.*?\n",                      # "I'm TransferAI"
+            r"(?i)^📨 \*\*Student Question:\*\*.*?\n",         # Student Question section
+            r"(?i)^🎓 \*\*UC Course:\*\*.*?\n",                # UC Course header
+            r"(?i)^✅ \*\*How to Respond:\*\*.*?\n",           # Instructional headers
+            r"(?i)^That'?s it!.*?\n",                          # Casual wrap-up
+            r"(?i)I'?ll make sure to.*?(?:\n|$)",              # Self-referential filler
+            r"(?i)I'?m committed to.*?(?:\n|$)",               # More filler
+        ]
 
+        cleaned = response
+        for pattern in patterns:
+            cleaned = re.sub(pattern, "", cleaned, flags=re.MULTILINE)
 
-    def run_cli_loop(self):
+        return cleaned.strip()
+
+    def run_cli_loop(self) -> None:
+        """
+        Run an interactive command-line interface for the TransferAI system.
+        
+        Processes user queries continually until the user exits, handling exceptions
+        gracefully and providing debug shortcuts.
+        """
         print("\n🤖 TransferAI Chat (type 'exit' to quit)\n")
         print("🛠️ Debug Shortcuts: `!group N` or `!section A`\n")
         while True:
@@ -592,6 +731,12 @@ class TransferAIEngine:
                 print(f"[Error] {e}")
 
 def main():
+    """
+    Entry point for the TransferAI system.
+    
+    Initializes the TransferAIEngine, configures models, loads articulation data,
+    and starts the interactive CLI loop.
+    """
     engine = TransferAIEngine()
     engine.configure()
     engine.load()

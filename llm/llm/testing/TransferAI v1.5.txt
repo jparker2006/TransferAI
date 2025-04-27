@@ -1,0 +1,204 @@
+🧮 TransferAI v1.4 Test Suite Results - 2025-04-26 21:15:08
+
+🧪 Running TransferAI test batch 1...
+
+===== Test 1: Which De Anza courses satisfy CSE 8A at UCSD? =====
+
+============================================================
+
+===== Test 2: Which courses satisfy CSE 8B? =====
+
+============================================================
+
+===== Test 3: Which courses satisfy CSE 11? =====
+
+============================================================
+
+===== Test 4: Do I need to take both CIS 36A and CIS 36B to get credit for CSE 11? =====
+
+============================================================
+
+===== Test 5: Can I take CIS 22A and CIS 36B to satisfy anything in Group 1? =====
+# ❌ No, based on verified articulation logic
+
+Your courses partially satisfy **Group** 1.
+You've matched: CSE 8A, CSE 8B, but they span across multiple sections. To satisfy **Group** 1, all UC courses must come from the same section.
+============================================================
+
+🧪 Running TransferAI test batch 2...
+
+===== Test 6: Can I mix CIS 22A and CIS 35A for Group 1 at UCSD? =====
+# ❌ No, based on verified articulation logic
+
+Your courses partially satisfy **Group** 1.
+You've matched: CSE 8A, CSE 11, but they span across multiple sections. To satisfy **Group** 1, all UC courses must come from the same section.
+============================================================
+
+===== Test 7: If I complete CSE 8A and 8B, is that one full path? =====
+
+============================================================
+
+===== Test 8: What are all valid De Anza combinations to satisfy Group 1 at UCSD? =====
+
+============================================================
+
+===== Test 9: What De Anza courses are required to satisfy Group 2 for Computer Science at UCSD? =====
+
+============================================================
+
+===== Test 10: Which courses count for CSE 12 at UCSD? =====
+
+============================================================
+
+🧪 Running TransferAI test batch 3...
+
+===== Test 11: What satisfies MATH 18 for UCSD transfer? =====
+
+============================================================
+
+===== Test 12: Does MATH 2BH satisfy MATH 18? =====
+❌ No, MATH 2BH alone only satisfies MATH 18.
+============================================================
+
+===== Test 13: Can I take MATH 2B instead of MATH 2BH for MATH 18? =====
+✅ Yes, MATH 2B and MATH 2BH are equivalent (non-honors and honors versions of the same course)
+============================================================
+
+===== Test 14: Is CSE 21 articulated from De Anza? =====
+# ❌ No, CSE 21 has no articulation at De Anza.
+
+This course must be completed at UCSD. There are no De Anza courses that satisfy this requirement.
+============================================================
+
+===== Test 15: Can I complete just CIS 21JA and 21JB to satisfy CSE 30? =====
+# ❌ No, based on verified articulation logic - CSE 30
+
+⚠️ **Partial match (66%)** [██████░░░░]
+
+**Best option: Option A**
+✓ Matched: CIS 21JA, CIS 21JB
+✗ Missing: **CIS 26B**
+
+Other partial matches:
+- Option B (66%): Missing CIS 26BH
+============================================================
+
+🧪 Running TransferAI test batch 4...
+
+===== Test 16: Does CSE 15L have any articulation? =====
+
+============================================================
+
+===== Test 17: How can I satisfy CSE 30 using De Anza classes? =====
+
+============================================================
+
+===== Test 18: Does MATH 1CH and 1DH count for MATH 20C? =====
+
+============================================================
+
+===== Test 19: What De Anza classes satisfy MATH 20C at UCSD? =====
+
+============================================================
+
+===== Test 20: Is there a difference between MATH 1A and MATH 1AH for transfer credit? =====
+✅ Yes, MATH 1A and MATH 1AH are equivalent (non-honors and honors versions of the same course)
+============================================================
+
+🧪 Running TransferAI test batch 5...
+
+===== Test 21: Which courses satisfy MATH 20A and 20B? =====
+
+============================================================
+
+===== Test 22: List all options for CSE 30 at UCSD from De Anza. =====
+
+============================================================
+
+===== Test 23: What are my options for fulfilling Group 3 science requirements for CS at UCSD? =====
+
+============================================================
+
+===== Test 24: What courses count for BILD 1? =====
+
+============================================================
+
+===== Test 25: Can I take BIOL 6A and 6B only to satisfy BILD 1? =====
+# ❌ No, based on verified articulation logic - BILD 1
+
+⚠️ **Partial match (66%)** [██████░░░░]
+
+**Best option: Option A**
+✓ Matched: BIOL 6A, BIOL 6B
+✗ Missing: **BIOL 6C**
+
+Other partial matches:
+- Option B (33%): Missing BIOL 6AH, BIOL 6CH
+============================================================
+
+🧪 Running TransferAI test batch 6...
+
+===== Test 26: How many science courses do I need to transfer for UCSD Computer Science under Group 3? =====
+
+============================================================
+
+===== Test 27: Can I satisfy Group 3 with CHEM 1A and PHYS 4A? =====
+# ✅ Yes, based on official articulation
+
+Your courses (CHEM 1A, PHYS 4A) fully satisfy **Group** 3.
+
+Matched UC courses: CHEM 6A, PHYS 2A.
+============================================================
+
+===== Test 28: Does PHYS 4A articulate to UCSD? =====
+❌ No, PHYS 4A alone only satisfies PHYS 2A.
+============================================================
+
+===== Test 29: Does BILD 2 require the same BIOL series as BILD 1? =====
+
+============================================================
+
+===== Test 30: What De Anza courses are required for CHEM 6A and 6B? =====
+
+============================================================
+
+🧪 Running TransferAI test batch 7...
+
+===== Test 31: If I took CIS 36A, can it satisfy more than one UCSD course? =====
+❌ No, CIS 36A alone only satisfies CSE 8A.
+
+However, CIS 36A can contribute to satisfying CSE 11 when combined with additional courses.
+============================================================
+
+===== Test 32: Are any honors courses required for the CS transfer path from De Anza to UCSD? =====
+
+============================================================
+
+===== Test 33: Does CSE 12 require honors courses at De Anza? =====
+# ❌ No, CSE 12 does not require honors courses.
+
+Based on the official articulation data, you can satisfy CSE 12 with either honors or non-honors courses.
+============================================================
+
+===== Test 34: Can I take both MATH 1A and MATH 1AH for MATH 20A? =====
+✅ Yes, MATH 1A and MATH 1AH are equivalent (non-honors and honors versions of the same course)
+============================================================
+
+===== Test 35: Which UC courses can I satisfy with CIS 36A? =====
+❌ No, CIS 36A alone only satisfies CSE 8A.
+
+However, CIS 36A can contribute to satisfying CSE 11 when combined with additional courses.
+============================================================
+
+🧪 Running TransferAI test batch 8...
+
+===== Test 36: Does CIS 22C satisfy CSE 12? =====
+❌ No, CIS 22C alone only satisfies CSE 12.
+============================================================
+
+
+
+🧮 Final TransferAI v1.4 Test Suite Stats
+
+Total Tests: 36
+Completed: 2025-04-26 21:25:46

@@ -6,7 +6,7 @@ from unittest.mock import patch, MagicMock
 # Add the parent directory to sys.path to allow imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from logic_formatter import count_uc_matches
+from articulation.analyzers import count_uc_matches
 
 class TestCountUCMatches(unittest.TestCase):
     def setUp(self):
@@ -67,8 +67,8 @@ class TestCountUCMatches(unittest.TestCase):
         
         self.mock_docs = [doc1, doc2, doc3]
     
-    @patch('logic_formatter.get_uc_courses_satisfied_by_ccc')
-    @patch('logic_formatter.get_uc_courses_requiring_ccc_combo')
+    @patch('articulation.analyzers.get_uc_courses_satisfied_by_ccc')
+    @patch('articulation.analyzers.get_uc_courses_requiring_ccc_combo')
     def test_direct_matches_only(self, mock_combo, mock_direct):
         """Test when a CCC course only has direct matches."""
         mock_direct.return_value = ["CSE 8A"]
@@ -83,8 +83,8 @@ class TestCountUCMatches(unittest.TestCase):
         mock_direct.assert_called_once_with("CIS 36A", self.mock_docs)
         mock_combo.assert_called_once_with("CIS 36A", self.mock_docs)
     
-    @patch('logic_formatter.get_uc_courses_satisfied_by_ccc')
-    @patch('logic_formatter.get_uc_courses_requiring_ccc_combo')
+    @patch('articulation.analyzers.get_uc_courses_satisfied_by_ccc')
+    @patch('articulation.analyzers.get_uc_courses_requiring_ccc_combo')
     def test_combination_matches_only(self, mock_combo, mock_direct):
         """Test when a CCC course only contributes to combos."""
         mock_direct.return_value = []
@@ -96,8 +96,8 @@ class TestCountUCMatches(unittest.TestCase):
         self.assertEqual(direct, [])
         self.assertEqual(combo, ["CSE 11"])
     
-    @patch('logic_formatter.get_uc_courses_satisfied_by_ccc')
-    @patch('logic_formatter.get_uc_courses_requiring_ccc_combo')
+    @patch('articulation.analyzers.get_uc_courses_satisfied_by_ccc')
+    @patch('articulation.analyzers.get_uc_courses_requiring_ccc_combo')
     def test_both_direct_and_combo(self, mock_combo, mock_direct):
         """Test when a CCC course has both direct matches and contributes to combos."""
         mock_direct.return_value = ["CSE 8A"]
@@ -110,8 +110,8 @@ class TestCountUCMatches(unittest.TestCase):
         # CSE 8A should be filtered out from combo because it's already a direct match
         self.assertEqual(combo, ["CSE 11"])
     
-    @patch('logic_formatter.get_uc_courses_satisfied_by_ccc')
-    @patch('logic_formatter.get_uc_courses_requiring_ccc_combo')
+    @patch('articulation.analyzers.get_uc_courses_satisfied_by_ccc')
+    @patch('articulation.analyzers.get_uc_courses_requiring_ccc_combo')
     def test_no_matches(self, mock_combo, mock_direct):
         """Test when a CCC course has no matches at all."""
         mock_direct.return_value = []
@@ -123,8 +123,8 @@ class TestCountUCMatches(unittest.TestCase):
         self.assertEqual(direct, [])
         self.assertEqual(combo, [])
     
-    @patch('logic_formatter.get_uc_courses_satisfied_by_ccc')
-    @patch('logic_formatter.get_uc_courses_requiring_ccc_combo')
+    @patch('articulation.analyzers.get_uc_courses_satisfied_by_ccc')
+    @patch('articulation.analyzers.get_uc_courses_requiring_ccc_combo')
     def test_normalization(self, mock_combo, mock_direct):
         """Test that course codes are properly normalized."""
         mock_direct.return_value = ["CSE 8A"]

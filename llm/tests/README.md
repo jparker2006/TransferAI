@@ -1,28 +1,56 @@
-# TransferAI LLM Unit Tests
+# TransferAI Test Suite
 
-This directory contains unit tests for the TransferAI LLM implementation. These tests verify the correctness of individual components without running the full model.
+This directory contains the test suite for the TransferAI system.
 
 ## Test Organization
 
-The tests are organized by module:
+The tests are organized into module-specific test files that align with the articulation package structure:
 
-- `test_logic_formatter.py`: Tests for the logic_formatter module functions
-- `test_render_logic.py`: Tests for the rendering of articulation logic
+### Primary Test Files
+- `test_articulation_models.py` - Tests for Pydantic data models
+- `test_articulation_validators.py` - Tests for validation logic
+- `test_articulation_renderers.py` - Tests for rendering functions
+- `test_articulation_formatters.py` - Tests for formatting functions
+- `test_articulation_analyzers.py` - Tests for analyzer functions
+- `test_articulation_detectors.py` - Tests for detector functions
+
+### Migration Validation
+- `test_migration.py` - Tests to ensure output equivalence between legacy code and new articulation package
+
+### Deprecated Tests
+All legacy test files that have been replaced by the module-specific tests have been moved to the `deprecated/` directory:
+
+- `test_articulation_satisfied.py` → `test_articulation_validators.py`
+- `test_binary_response.py` → `test_articulation_formatters.py`
+- `test_combo_validation.py` → `test_articulation_renderers.py`
+- `test_count_uc_matches.py` → `test_articulation_analyzers.py`
+- `test_logic_formatter.py` → Various module-specific tests
+- `test_render_logic.py` → `test_articulation_renderers.py`
+- `test_render_logic_v2.py` → `test_articulation_renderers.py`
+- `test_honors_equivalence.py` → `test_articulation_detectors.py`
 
 ## Running Tests
 
-Run all tests from the project root directory:
+To run all tests:
 
-```bash
-python3 llm/run_unit_tests.py
+```
+python -m unittest discover -s tests
 ```
 
-Run individual test files:
+To run a specific test file:
 
-```bash
-python3 -m llm.tests.test_logic_formatter
-python3 -m llm.tests.test_render_logic
 ```
+python -m unittest tests/test_articulation_validators.py
+```
+
+## Test Coverage
+
+The current test coverage focuses on:
+1. Core validation logic for articulation requirements
+2. Rendering of articulation options in different formats
+3. Detection of special cases (honors requirements, redundant courses)
+4. Response formatting for different query types
+5. Migration validation to ensure backward compatibility
 
 ## Feature Coverage
 

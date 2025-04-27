@@ -1,0 +1,162 @@
+{
+  "editor": {
+    "tabSize": 4,
+    "insertSpaces": true,
+    "rulers": [100],
+    "formatOnSave": true,
+    "trimTrailingWhitespace": true,
+    "insertFinalNewline": true,
+    "wordWrap": "off"
+  },
+  "linter": {
+    "enabled": true,
+    "pylint": true,
+    "flake8": true,
+    "mypy": true
+  },
+  "autocompletion": {
+    "includeDocs": true,
+    "maxLines": 3,
+    "showFullSymbolPath": true
+  },
+  "files": {
+    "exclude": [
+      "**/__pycache__/**",
+      "**/.git/**",
+      "**/venv/**",
+      "**/.pytest_cache/**",
+      "**/node_modules/**"
+    ],
+    "associations": {
+      "*.py": "python",
+      "*.md": "markdown",
+      "*.json": "json"
+    },
+    "watcherExclude": {
+      "**/build/**": true,
+      "**/dist/**": true
+    }
+  },
+  "search": {
+    "quickSearchExclude": [
+      "**/*.pyc",
+      "**/regression tests/*.txt"
+    ],
+    "ripgrepArgs": "--max-columns=10000"
+  },
+  "cursor": {
+    "inlineSuggestions": true,
+    "selectionBasedSuggestions": true,
+    "showCompletionDocs": true,
+    "preferredModel": "claude-3.5-sonnet"
+  },
+  "python": {
+    "analysis": {
+      "autoSearchPaths": true,
+      "useLibraryCodeForTypes": true,
+      "diagnosticMode": "workspace"
+    },
+    "formatting": {
+      "provider": "black",
+      "blackArgs": ["--line-length", "100"]
+    },
+    "linting": {
+      "enabledWithoutWorkspace": true,
+      "mypyEnabled": true,
+      "pylintEnabled": true,
+      "flake8Enabled": true
+    }
+  },
+  "terminal": {
+    "shellArgs": ["-l"],
+    "profiles": {
+      "bash": {
+        "path": "bash",
+        "args": ["-l"]
+      },
+      "zsh": {
+        "path": "zsh",
+        "args": ["-l"]
+      }
+    },
+    "env": {
+      "PYTHONPATH": "${workspaceFolder}"
+    }
+  },
+  "filePatterns": {
+    "articulation_*.py": {
+      "suggestions": {
+        "context": "You are editing code in the TransferAI articulation module. This is a core component that handles the complex logic of course articulation between community colleges and universities. Important guidelines:\n1. Always validate logic blocks before processing\n2. Handle edge cases (empty blocks, single items, etc.)\n3. Support both dictionary and Pydantic model formats\n4. Normalize course codes before comparison\n5. Handle case insensitivity properly\n6. Use clear, consistent error messages\n7. Document complex logic thoroughly\n8. Make sure all responses have logically consistent phrasing (avoid saying 'No, X alone only satisfies Y')"
+      }
+    },
+    "test_*.py": {
+      "suggestions": {
+        "context": "You are writing tests for the TransferAI project. The project is currently undergoing a major refactoring from v1.4 to v1.5, with focus on modularity and correctness. Guidelines:\n1. Test both valid and edge cases\n2. Use descriptive test names that indicate what's being tested\n3. Arrange-Act-Assert pattern in test methods\n4. Document test purpose in docstrings\n5. Use fixtures for common test data\n6. Mock external dependencies consistently\n7. Ensure tests verify logical consistency in responses\n8. Add tests for known failure cases from regression tests"
+      }
+    },
+    "*.md": {
+      "suggestions": {
+        "context": "You are writing documentation for the TransferAI project. This system helps students understand how courses transfer between California Community Colleges and University of California campuses. Follow these guidelines:\n1. Use clear, concise language\n2. Follow Markdown best practices\n3. Include code examples where appropriate\n4. Explain complex articulation concepts in simple terms\n5. Document any known limitations or edge cases"
+      }
+    },
+    "renderers.py": {
+      "suggestions": {
+        "context": "This module handles the presentation logic for articulation information. Focus on clear, consistent output formats that avoid redundancy and logical contradictions. Ensure honors course notation is standardized, and partial match explanations provide actionable information."
+      }
+    },
+    "formatters.py": {
+      "suggestions": {
+        "context": "This module is responsible for formatting responses for users. Current priorities include fixing contradictory logic in course validation responses, standardizing honors course notation, and improving partial match explanations to clearly show missing requirements."
+      }
+    },
+    "validators.py": {
+      "suggestions": {
+        "context": "This module contains core validation logic for determining if courses satisfy articulation requirements. The logic must handle complex nested structures, properly detect honors course requirements, and provide accurate validation results."
+      }
+    },
+    "analyzers.py": {
+      "suggestions": {
+        "context": "This module provides analysis utilities for course articulation data. Focus on correctly identifying course matches, extracting honors information, and analyzing logic structures to help users understand transfer requirements."
+      }
+    },
+    "main.py": {
+      "suggestions": {
+        "context": "This is the main entry point for the TransferAI system. It coordinates the various components including document loading, query parsing, and articulation processing. When modifying this file, ensure backward compatibility with existing interfaces while leveraging the new modular articulation package."
+      }
+    },
+    "test_runner.py": {
+      "suggestions": {
+        "context": "This file runs tests for the TransferAI system. Current priorities include improving test progress indicators, enhancing error visualization, and ensuring consistent version references."
+      }
+    }
+  },
+  "projectVision": {
+    "name": "TransferAI",
+    "description": "TransferAI helps California students understand how their community college courses transfer to UC campuses, using AI to interpret complex articulation rules and provide clear, accurate guidance.",
+    "version": "1.5",
+    "priorities": [
+      "Improve logical consistency in validation responses",
+      "Standardize formatting across all response types",
+      "Ensure data accuracy with the ASSIST articulation database",
+      "Complete migration from monolithic logic_formatter.py to modular articulation package",
+      "Fix identified bugs and issues from regression tests"
+    ],
+    "architecture": {
+      "core_modules": [
+        {"name": "articulation", "purpose": "Core logic for course requirement validation"},
+        {"name": "document_loader", "purpose": "Loads and processes articulation data"},
+        {"name": "query_parser", "purpose": "Interprets user queries about course transfers"},
+        {"name": "prompt_builder", "purpose": "Constructs AI prompts for articulation analysis"}
+      ],
+      "key_interfaces": [
+        {"name": "TransferAIEngine", "located_in": "main.py", "purpose": "Main interface to the system"}
+      ],
+      "data_flow": "User query → query_parser → articulation validators → formatting → response"
+    }
+  },
+  "codeGeneration": {
+    "includeDocs": true,
+    "addTypeHints": true,
+    "generateComments": true
+  }
+}

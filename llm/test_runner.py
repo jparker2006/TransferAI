@@ -1,6 +1,27 @@
+"""
+Test Runner Module for TransferAI
+
+This module provides functionality for automated testing of the TransferAI system.
+It includes:
+
+1. Predefined test prompts covering a variety of articulation cases
+2. Functions to run tests in batches or individually
+3. Result saving and reporting capabilities
+4. Regression test cases to ensure system stability across versions
+
+The test suite covers basic course equivalency, multi-course logic, honors variants,
+validation-style prompts, and edge cases to ensure TransferAI provides accurate
+articulation information.
+"""
+
 import os
 import time
-from main import TransferAIEngine
+import sys
+from typing import List, Dict, Any, Tuple
+
+# Fix the import path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from llm.main import TransferAIEngine
 
 # 🔍 High-coverage prompt-based articulation test suite (De Anza → UCSD)
 # Includes edge cases, multi-course logic, honors variants, and validation-style prompts
@@ -73,7 +94,29 @@ regression_tests = [
 
 
 
-def run_batch_tests(start_idx=0, batch_size=5, output_file=None):
+def run_batch_tests(start_idx: int = 0, batch_size: int = 5, output_file: str = None) -> Tuple[int, List[Dict[str, Any]]]:
+    """
+    Run a batch of test prompts and collect the results.
+    
+    This function initializes the TransferAI engine, processes a subset of test_prompts
+    from start_idx to start_idx+batch_size, and captures the responses.
+    
+    Args:
+        start_idx: Starting index in the test_prompts list.
+        batch_size: Number of tests to run in this batch.
+        output_file: Optional file path to save results to. If provided, results are appended.
+        
+    Returns:
+        A tuple containing the ending index and a list of result dictionaries with:
+        - test_num: Test number
+        - prompt: The test prompt
+        - response: TransferAI's response
+        - timestamp: When the test was run
+        
+    Example:
+        >>> end_idx, results = run_batch_tests(0, 5, "results.txt")
+        >>> print(f"Ran tests 1-{end_idx} with {len(results)} results")
+    """
     engine = TransferAIEngine()
     engine.configure()
     engine.load()
@@ -112,8 +155,23 @@ def run_batch_tests(start_idx=0, batch_size=5, output_file=None):
     
     return end_idx, all_results
 
-def run_all_tests_and_save(output_file="llm/testing/TransferAI v1.4.txt"):
-    """Run all tests and save the results to a file for regression testing"""
+def run_all_tests_and_save(output_file: str = "llm/testing/TransferAI v1.5.txt") -> List[Dict[str, Any]]:
+    """
+    Run all tests and save the results to a file for regression testing.
+    
+    This function runs all test prompts in batches, saves the results to the specified
+    output file, and adds summary statistics.
+    
+    Args:
+        output_file: Path where test results should be saved.
+        
+    Returns:
+        A list of all test result dictionaries.
+        
+    Example:
+        >>> results = run_all_tests_and_save("test_results.txt")
+        >>> print(f"Completed {len(results)} tests")
+    """
     # Create/clear the output file
     with open(output_file, 'w') as f:
         f.write(f"🧮 TransferAI v1.4 Test Suite Results - {time.strftime('%Y-%m-%d %H:%M:%S')}\n\n")
@@ -139,7 +197,24 @@ def run_all_tests_and_save(output_file="llm/testing/TransferAI v1.4.txt"):
     print(f"✅ All test results saved to {output_file}")
     return all_results
 
-def run_specific_test(test_prompt, output_file=None):
+def run_specific_test(test_prompt: str, output_file: str = None) -> str:
+    """
+    Run a single specific test prompt and optionally save the result.
+    
+    This function initializes the TransferAI engine, processes a single test prompt,
+    and returns the response.
+    
+    Args:
+        test_prompt: The specific prompt to test with TransferAI.
+        output_file: Optional file path to append the result to.
+        
+    Returns:
+        The response from TransferAI for the given prompt.
+        
+    Example:
+        >>> response = run_specific_test("Does CSE 12 require honors courses?")
+        >>> print(response)
+    """
     engine = TransferAIEngine()
     engine.configure()
     engine.load()
@@ -159,13 +234,14 @@ def run_specific_test(test_prompt, output_file=None):
                 f.write("=" * 60 + "\n\n")
     
     print("=" * 60 + "\n")
+    return response if response else ""
 
 if __name__ == "__main__":
     # Create the testing directory if it doesn't exist
     os.makedirs("llm/testing", exist_ok=True)
     
     # Run tests in smaller batches and save results
-    output_file = "llm/testing/TransferAI v1.4.txt"
+    output_file = "llm/testing/TransferAI v1.5.txt"
     run_all_tests_and_save(output_file)
     
     # You can also run specific tests like this:

@@ -1,14 +1,26 @@
 import unittest
 import sys
 import os
+import warnings
 
 # Add the parent directory to sys.path to allow imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from logic_formatter import (
+# Import from articulation package instead of logic_formatter
+from articulation import (
     is_honors_required,
     detect_redundant_courses,
     explain_if_satisfied,
+)
+
+# Display deprecation warning
+warnings.warn(
+    "This test file is deprecated and will be removed in a future version. "
+    "Please use the module-specific test files instead:\n"
+    "- test_articulation_detectors.py for is_honors_required and detect_redundant_courses\n"
+    "- test_articulation_validators.py for explain_if_satisfied",
+    DeprecationWarning,
+    stacklevel=2
 )
 
 
