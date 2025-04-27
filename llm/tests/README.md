@@ -12,35 +12,40 @@ The tests are organized into module-specific test files that align with the arti
 - `test_articulation_renderers.py` - Tests for rendering functions
 - `test_articulation_formatters.py` - Tests for formatting functions
 - `test_articulation_analyzers.py` - Tests for analyzer functions
-- `test_articulation_detectors.py` - Tests for detector functions
-
-### Migration Validation
+- `test_articulation_detectors.py` - Tests for detection functions
+- `test_document_loader.py` - Tests for document loading functionality
+- `test_main.py` - Tests for the main TransferAI engine
+- `test_prompt_builder.py` - Tests for prompt building functionality
 - `test_migration.py` - Tests to ensure output equivalence between legacy code and new articulation package
 
-### Deprecated Tests
-All legacy test files that have been replaced by the module-specific tests have been moved to the `deprecated/` directory:
+### Prompt Testing Suite
+The `prompt_tests/` directory contains specialized tests for prompt construction and LLM interaction:
 
-- `test_articulation_satisfied.py` → `test_articulation_validators.py`
-- `test_binary_response.py` → `test_articulation_formatters.py`
-- `test_combo_validation.py` → `test_articulation_renderers.py`
-- `test_count_uc_matches.py` → `test_articulation_analyzers.py`
-- `test_logic_formatter.py` → Various module-specific tests
-- `test_render_logic.py` → `test_articulation_renderers.py`
-- `test_render_logic_v2.py` → `test_articulation_renderers.py`
-- `test_honors_equivalence.py` → `test_articulation_detectors.py`
+- `test_builder_prompt.py` - Tests for prompt builder templates
+- `test_local_embeddings.py` - Tests for local embedding functionality
+- `test_prompt.py` - Tests for prompt generation
+- `test_enrichment.py` - Tests for course description enrichment
+- `test_verbosity.py` - Tests for response verbosity control
+- `verbosity_test.py` - Alternative verbosity testing
 
 ## Running Tests
 
 To run all tests:
 
 ```
-python -m unittest discover -s tests
+python -m unittest discover -s llm/tests
 ```
 
 To run a specific test file:
 
 ```
-python -m unittest tests/test_articulation_validators.py
+python -m unittest llm/tests/test_articulation_validators.py
+```
+
+To run prompt-specific tests:
+
+```
+python -m unittest llm/tests/prompt_tests/test_prompt.py
 ```
 
 ## Test Coverage
@@ -51,19 +56,27 @@ The current test coverage focuses on:
 3. Detection of special cases (honors requirements, redundant courses)
 4. Response formatting for different query types
 5. Migration validation to ensure backward compatibility
+6. Prompt construction and LLM interaction
+7. Document loading and processing
+8. Verbosity control and course enrichment
 
 ## Feature Coverage
 
-### Logic Formatter Tests
+### Core Articulation Tests
 
-- `is_honors_required`: Verifies that honors course requirements are correctly detected
-- `detect_redundant_courses`: Tests the detection of redundant courses (e.g., honors/non-honors pairs)
-- `explain_if_satisfied`: Tests the articulation logic satisfaction checking with redundancy reporting
+- **Validators**: Tests articulation logic satisfaction checking
+- **Renderers**: Tests display of articulation options
+- **Formatters**: Tests response formatting
+- **Analyzers**: Tests analysis of articulation data
+- **Detectors**: Tests detection of special cases (honors requirements)
+- **Models**: Tests Pydantic data models
 
-### Render Logic Tests
+### Prompt and LLM Tests
 
-- Honor requirements rendering: Tests that honor requirements are correctly displayed in articulation logic
-- Various rendering scenarios: Tests different articulation scenarios (no articulation, empty logic blocks, etc.)
+- **Prompt Building**: Tests generation of prompts for different query types
+- **Course Enrichment**: Verifies that course descriptions are properly added
+- **Verbosity Control**: Tests different levels of response verbosity
+- **Local Embeddings**: Tests embedding functionality without API dependency
 
 ## Test Data
 
@@ -76,7 +89,7 @@ The tests use synthetic logic blocks that mirror the structure found in the actu
 
 ## Adding New Tests
 
-When adding new features to the LLM implementation, extend the existing test files or create new ones following the same pattern. Ensure that:
+When adding new features to the TransferAI implementation, extend the existing test files or create new ones following the same pattern. Ensure that:
 
 1. All new functions have dedicated test cases
 2. Edge cases are covered

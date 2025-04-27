@@ -8,15 +8,246 @@ into LlamaIndex Document objects suitable for RAG. It's responsible for:
 2. Transforming nested articulation data into flat, searchable documents
 3. Extracting and organizing metadata for retrieval and presentation
 4. Creating LlamaIndex Document objects with appropriate text and metadata
+5. Providing accurate course information through utility functions
 
 The module provides functions to extract course information, flatten complex logic structures,
-and prepare documents for vector indexing.
+and prepare documents for vector indexing, as well as retrieve accurate course titles
+and descriptions to ensure consistent course information throughout the application.
 """
 
 import json
 import os
+import re
 from typing import Dict, List, Set, Union, Optional, Any
 from llama_index.core import Document
+
+# Cache for course data to avoid repeated file reads
+_course_cache: Dict[str, Dict[str, Any]] = {}
+_json_data: Optional[Dict[str, Any]] = None
+
+
+def _load_json_data(path: Optional[str] = None) -> Dict[str, Any]:
+    """
+    Load and cache the articulation JSON data.
+    
+    Args:
+        path: Optional path to the JSON data file. If None, defaults to "data/rag_data.json"
+              relative to the current module.
+              
+    Returns:
+        The parsed JSON data containing articulation information.
+    """
+    global _json_data
+    
+    if _json_data is not None:
+        return _json_data
+        
+    if path is None:
+        current_dir = os.path.dirname(__file__)
+        path = os.path.join(current_dir, "data/rag_data.json")
+
+    with open(path, "r") as f:
+        _json_data = json.load(f)
+        
+    return _json_data
+
+
+def _build_course_cache() -> None:
+    """
+    Build a cache of course data from the articulation data.
+    
+    This function extracts all course information from the articulation database and
+    organizes it for quick lookup by course code.
+    """
+    global _course_cache
+    
+    if _course_cache:
+        return  # Cache already built
+        
+    data = _load_json_data()
+    
+    try:
+        # Extract all course information from the groups data
+        for group in data.get('groups', []):
+            for section in group.get('sections', []):
+                for uc_course in section.get('uc_courses', []):
+                    # Process UC course
+                    uc_code = uc_course.get('uc_course_id', '')
+                    if uc_code:
+                        # Store with uppercase course code for consistent lookups
+                        _course_cache[uc_code.upper()] = {
+                            'title': uc_course.get('uc_course_title', ''),
+                            'units': uc_course.get('units', 0.0),
+                            'type': 'UC',
+                            'original_code': uc_code  # Keep original code for display
+                        }
+                    
+                    # Process associated CCC courses
+                    logic_block = uc_course.get('logic_block', {})
+                    for option in logic_block.get('courses', []):
+                        if option.get('type') == 'AND':
+                            for course in option.get('courses', []):
+                                course_code = course.get('course_letters', '')
+                                if course_code and course_code != 'N/A':
+                                    # Store with uppercase course code for consistent lookups
+                                    _course_cache[course_code.upper()] = {
+                                        'title': course.get('title', ''),
+                                        'honors': course.get('honors', False),
+                                        'name': course.get('name', ''),
+                                        'type': 'CCC',
+                                        'original_code': course_code  # Keep original code for display
+                                    }
+    except Exception as e:
+        print(f"Error building course cache: {e}")
+        # Initialize with empty data rather than failing
+        _course_cache = {}
+
+
+def get_course_title(course_code: str) -> str:
+    """
+    Get the official title for a course code.
+    
+    Args:
+        course_code: The course code to look up (e.g., "CIS 21JB")
+        
+    Returns:
+        The official course title or an empty string if not found
+        
+    Example:
+        >>> get_course_title("CIS 21JB")
+        "Advanced x86 Processor Assembly Programming"
+    """
+    if not _course_cache:
+        _build_course_cache()
+    
+    # Normalize the course code by removing extra spaces and converting to uppercase
+    normalized_code = re.sub(r'\s+', ' ', course_code.strip()).upper()
+    
+    # Try direct lookup first
+    course_data = _course_cache.get(normalized_code, {})
+    if course_data:
+        return course_data.get('title', '')
+    
+    # If not found, try case-insensitive lookup
+    for cached_code, cached_data in _course_cache.items():
+        if cached_code.upper() == normalized_code:
+            return cached_data.get('title', '')
+    
+    return ""
+
+
+def get_course_description(course_code: str) -> str:
+    """
+    Get a formatted description with course code and title.
+    
+    Args:
+        course_code: The course code to look up (e.g., "CIS 21JB")
+        
+    Returns:
+        A formatted string with the course code and title, or just the code if not found
+        
+    Example:
+        >>> get_course_description("CIS 21JB")
+        "CIS 21JB: Advanced x86 Processor Assembly Programming"
+    """
+    if not _course_cache:
+        _build_course_cache()
+    
+    # Normalize the course code by removing extra spaces and converting to uppercase
+    normalized_code = re.sub(r'\s+', ' ', course_code.strip()).upper()
+    fallback_code = course_code.strip()  # Use as fallback if not found
+    
+    # Try direct lookup first
+    course_data = _course_cache.get(normalized_code, {})
+    if not course_data:
+        # If not found, try case-insensitive lookup (shouldn't be needed with uppercase keys)
+        for cached_code, cached_data in _course_cache.items():
+            if cached_code.upper() == normalized_code:
+                course_data = cached_data
+                break
+    
+    title = course_data.get('title', '')
+    
+    if title:
+        is_honors = course_data.get('honors', False)
+        honors_suffix = " (Honors)" if is_honors else ""
+        # Use original code from cache if available, otherwise use the provided code
+        display_code = course_data.get('original_code', fallback_code)
+        return f"{display_code}{honors_suffix}: {title}"
+    
+    return fallback_code
+
+
+def get_course_data(course_code: str) -> Dict[str, Any]:
+    """
+    Get all available data for a course code.
+    
+    Args:
+        course_code: The course code to look up (e.g., "CIS 21JB")
+        
+    Returns:
+        A dictionary with all available course data
+        
+    Example:
+        >>> get_course_data("CIS 21JB")
+        {'title': 'Advanced x86 Processor Assembly Programming', 'honors': False, ...}
+    """
+    if not _course_cache:
+        _build_course_cache()
+    
+    # Normalize the course code by removing extra spaces and converting to uppercase
+    normalized_code = re.sub(r'\s+', ' ', course_code.strip()).upper()
+    
+    # Try direct lookup first
+    course_data = _course_cache.get(normalized_code, {})
+    if course_data:
+        return course_data.copy()
+    
+    # If not found, try case-insensitive lookup
+    for cached_code, cached_data in _course_cache.items():
+        if cached_code.upper() == normalized_code:
+            return cached_data.copy()
+    
+    return {}
+
+
+def get_all_course_codes() -> List[str]:
+    """
+    Get a list of all available course codes.
+    
+    Returns:
+        A list of all course codes in the database
+        
+    Example:
+        >>> get_all_course_codes()
+        ['CIS 21JA', 'CIS 21JB', 'CIS 22A', ...]
+    """
+    if not _course_cache:
+        _build_course_cache()
+    
+    return list(_course_cache.keys())
+
+
+def verify_course_description(course_code: str, expected_description: str) -> bool:
+    """
+    Verify if a course description matches the expected value.
+    
+    This function is useful for validating that course descriptions in 
+    responses match the official data.
+    
+    Args:
+        course_code: The course code to check
+        expected_description: The description to verify
+        
+    Returns:
+        True if the description matches, False otherwise
+        
+    Example:
+        >>> verify_course_description("CIS 21JB", "Introduction to Database Systems")
+        False
+    """
+    actual_title = get_course_title(course_code)
+    return actual_title.lower() in expected_description.lower()
 
 
 def extract_ccc_courses_from_logic(logic_block: Dict[str, Any]) -> List[str]:
@@ -185,24 +416,22 @@ def load_documents(path: Optional[str] = None) -> List[Document]:
         >>> len(docs)  # Number of documents created
         95  # (varies based on data size)
     """
-    if path is None:
-        current_dir = os.path.dirname(__file__)
-        path = os.path.join(current_dir, "data/rag_data.json")
+    json_data = _load_json_data(path)
 
-    with open(path, "r") as f:
-        parsed_json = json.load(f)
+    # Build the course cache while we're at it
+    _build_course_cache()
 
     # Overview doc
     overview = {
-        "text": f"Overview:\n{parsed_json.get('general_advice', '')}",
+        "text": f"Overview:\n{json_data.get('general_advice', '')}",
         "metadata": {
             "doc_type": "overview",
-            "title": f"{parsed_json.get('major', '')} Transfer Overview",
-            "source": parsed_json.get("from", "")
+            "title": f"{json_data.get('major', '')} Transfer Overview",
+            "source": json_data.get("from", "")
         }
     }
 
-    flat_docs = flatten_courses_from_json(parsed_json)
+    flat_docs = flatten_courses_from_json(json_data)
     all_docs = [overview] + flat_docs
 
     return [Document(text=d["text"], metadata=d["metadata"]) for d in all_docs]

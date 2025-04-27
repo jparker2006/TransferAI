@@ -23,7 +23,8 @@ from articulation.formatters import (
     render_binary_response,
     include_binary_explanation,
     get_course_summary,
-    format_partial_match
+    format_partial_match,
+    format_honors_course
 )
 from articulation.models import CourseOption
 
@@ -71,9 +72,9 @@ class TestFormatPartialMatch(unittest.TestCase):
         # Verify the main option
         self.assertIn("**Option A:**", result)
         
-        # Verify other options are included
+        # Verify other options are included with standardized honors notation
         self.assertIn("**Other possible options:**", result)
-        self.assertIn("- Option B: Need **CIS 26BH**", result)
+        self.assertIn("- Option B: Need **CIS 26BH (Honors)**", result)
         self.assertIn("- Option C: Need **CIS 36A**, **CIS 36B**", result)
     
     def test_edge_cases(self):
@@ -117,7 +118,7 @@ class TestImprovedPartialMatchRendering(unittest.TestCase):
         self.assertIn("✓ **Already satisfied with:** CIS 21JA, CIS 21JB", result)
         self.assertIn("❌ **Still needed:** **CIS 26B**", result)
         self.assertIn("**Other possible options:**", result)
-        self.assertIn("- Option B: Need **CIS 26BH**", result)
+        self.assertIn("- Option B: Need **CIS 26BH (Honors)**", result)
         
         # Verify the old format is gone
         self.assertNotIn("(66%)", result)
@@ -145,7 +146,7 @@ class TestImprovedPartialMatchRendering(unittest.TestCase):
         self.assertIn("✓ **Already satisfied with:** BIOL 6A", result)
         self.assertIn("❌ **Still needed:** **BIOL 6B**, **BIOL 6C**", result)
         self.assertIn("**Other possible options:**", result)
-        self.assertIn("- Option B: Need **BIOL 6BH**, **BIOL 6CH**", result)
+        self.assertIn("- Option B: Need **BIOL 6BH (Honors)**, **BIOL 6CH (Honors)**", result)
         self.assertIn("- Option C: Need **BIOL 10C**", result)
 
 
@@ -423,6 +424,94 @@ class TestGetCourseSummary(unittest.TestCase):
         self.assertIn("CSE 8A", summary)
         self.assertIn("CIS 22A", summary)
         self.assertIn("CS 111", summary)
+
+
+class TestFormatHonorsCourse(unittest.TestCase):
+    """Test the format_honors_course function for standardizing honors course notation."""
+    
+    def test_basic_honors_detection(self):
+        """Test that honors courses are correctly identified and formatted."""
+        # Test with a clear honors course
+        result = format_honors_course("MATH 1AH")
+        self.assertEqual(result, "MATH 1AH (Honors)")
+        
+        # Test with a non-honors course
+        result = format_honors_course("MATH 1A")
+        self.assertEqual(result, "MATH 1A")
+        
+        # Test with honors at the end of a complex code
+        result = format_honors_course("CIS 21JBH")
+        self.assertEqual(result, "CIS 21JBH (Honors)")
+    
+    def test_existing_honors_notation(self):
+        """Test handling of courses already having some form of honors notation."""
+        # Already has (Honors) notation
+        result = format_honors_course("MATH 1AH (Honors)")
+        self.assertEqual(result, "MATH 1AH (Honors)")
+        
+        # Has "Honors" without parentheses - should add parentheses
+        result = format_honors_course("MATH 1AH Honors")
+        self.assertEqual(result, "MATH 1AH (Honors)")
+        
+        # Has "HONORS" in uppercase - should normalize
+        result = format_honors_course("MATH 1AH HONORS")
+        self.assertEqual(result, "MATH 1AH (Honors)")
+        
+        # Has "- Honors" with a dash - should standardize
+        result = format_honors_course("MATH 1AH - Honors")
+        self.assertEqual(result, "MATH 1AH (Honors)")
+    
+    def test_non_parenthesized_output(self):
+        """Test the non-parenthesized output option."""
+        result = format_honors_course("MATH 1AH", include_parentheses=False)
+        self.assertEqual(result, "MATH 1AH Honors")
+        
+        # With existing notation
+        result = format_honors_course("MATH 1AH - Honors", include_parentheses=False)
+        # Since it already has honors notation, it should preserve it even when include_parentheses=False
+        self.assertEqual(result, "MATH 1AH - Honors")
+    
+    def test_edge_cases(self):
+        """Test edge cases and potential problematic inputs."""
+        # Extra whitespace
+        result = format_honors_course("  MATH 1AH  ")
+        self.assertEqual(result, "MATH 1AH (Honors)")
+        
+        # H not at the end
+        result = format_honors_course("HIST 1A")
+        self.assertEqual(result, "HIST 1A")
+        
+        # H in the middle of the code
+        result = format_honors_course("CHEM H101")
+        self.assertEqual(result, "CHEM H101")
+        
+        # Empty string
+        result = format_honors_course("")
+        self.assertEqual(result, "")
+        
+        # None (shouldn't happen but testing defensively)
+        with self.assertRaises(AttributeError):
+            format_honors_course(None)
+    
+    def test_integration_with_other_formatters(self):
+        """Test integration with other formatting functions."""
+        # Test with render_binary_response
+        explanation = "MATH 1AH alone satisfies the requirement."
+        response = render_binary_response(True, explanation, "MATH 20A")
+        # The response should contain the formatted honors notation
+        self.assertIn("MATH 1AH", response)
+        # If not directly found with honors notation, check for presence of indicators
+        self.assertTrue(
+            "MATH 1AH (Honors)" in response or  # Direct match
+            ("MATH 1AH" in response and "Honors" in response)  # Components present
+        )
+        
+        # Test with format_partial_match
+        matched = ["MATH 1AH"]
+        missing = ["MATH 1BH"]
+        partial = format_partial_match(matched, missing)
+        self.assertIn("MATH 1AH (Honors)", partial)
+        self.assertIn("**MATH 1BH (Honors)**", partial)
 
 
 if __name__ == "__main__":

@@ -10,6 +10,7 @@ Key Functions:
 - include_binary_explanation: Adds validation summaries to response text
 - get_course_summary: Generates concise course summaries from metadata
 - format_partial_match: Creates clear explanations for partial matches
+- format_honors_course: Consistently formats honors course notation
 
 The formatters complement the renderers by focusing on higher-level response
 structure, while renderers focus on the specific presentation of articulation logic.
@@ -21,6 +22,74 @@ from typing import Dict, Any, Optional, List, Union
 import re
 from .models import ValidationResult
 from .renderers import render_logic_str
+
+
+def format_honors_course(course_code: str, include_parentheses: bool = True) -> str:
+    """
+    Format honors course code with consistent notation.
+    
+    This function standardizes how honors courses are displayed throughout
+    the system, ensuring a consistent user experience. It detects honors
+    courses through the 'H' suffix and formats them appropriately.
+    
+    Args:
+        course_code: The course code to check and format (e.g., "MATH 1AH")
+        include_parentheses: Whether to include parentheses around "Honors"
+            (True: "MATH 1AH (Honors)", False: "MATH 1AH Honors")
+    
+    Returns:
+        The formatted course code with standardized honors notation
+        
+    Example:
+        >>> format_honors_course("MATH 1AH")
+        'MATH 1AH (Honors)'
+        >>> format_honors_course("MATH 1A")
+        'MATH 1A'
+    """
+    # Handle None
+    if course_code is None:
+        raise AttributeError("Cannot format None as an honors course")
+        
+    # Handle empty strings
+    if course_code == "":
+        return ""
+    
+    # Clean the course code to handle potential extra spaces or formatting
+    cleaned_code = course_code.strip()
+    
+    # Check if this is an honors course (ends with H)
+    # We look for a pattern where the last character is H and it follows a letter or number
+    is_honors = bool(re.search(r'[A-Za-z0-9]H$', cleaned_code))
+    
+    # Check if it already has honors notation
+    has_honors_text = any(h in cleaned_code for h in ["Honors", "HONORS", "honors"])
+    
+    # If it's not an honors course and doesn't have honors text, return as is
+    if not is_honors and not has_honors_text:
+        return cleaned_code
+    
+    # If it already has the exact format we want, return it
+    if include_parentheses and "(Honors)" in cleaned_code:
+        return cleaned_code
+    if not include_parentheses and " Honors" in cleaned_code and not "(Honors)" in cleaned_code:
+        return cleaned_code
+    
+    # If it already has some form of honors notation, extract the base code and reformat
+    if has_honors_text:
+        # Remove any existing honors notation, preserving only the course code
+        base_code = re.sub(r'\s*[-]?\s*Honors|\s*[-]?\s*HONORS|\s*[-]?\s*honors|\s*\(Honors\)|\s*\(HONORS\)', '', cleaned_code)
+        
+        # Now add back the standardized honors notation
+        if include_parentheses:
+            return f"{base_code} (Honors)"
+        else:
+            return f"{base_code} Honors"
+    
+    # For pure honors codes with no existing notation (just ends with 'H')
+    if include_parentheses:
+        return f"{cleaned_code} (Honors)"
+    else:
+        return f"{cleaned_code} Honors"
 
 
 def format_partial_match(
@@ -54,6 +123,10 @@ def format_partial_match(
         ... )
         '⚠️ **Partial Match** - Additional courses needed\n\n...'
     """
+    # Apply honors course formatting to all courses
+    formatted_matched = [format_honors_course(course) for course in matched_courses]
+    formatted_missing = []
+    
     # Create a clear header indicating partial match
     result = "⚠️ **Partial Match** - Additional courses needed\n\n"
     
@@ -61,29 +134,39 @@ def format_partial_match(
     result += f"**{option_name}:**\n"
     
     # List matched courses with check marks
-    if matched_courses:
-        result += "✓ **Already satisfied with:** " + ", ".join(matched_courses) + "\n"
+    if formatted_matched:
+        result += "✓ **Already satisfied with:** " + ", ".join(formatted_matched) + "\n"
     
     # Emphasize missing courses with clear action guidance
     if missing_courses:
         # Ensure each missing course is surrounded by bold markers
-        bold_missing = []
         for course in missing_courses:
+            # Apply honors formatting first
+            formatted_course = format_honors_course(course)
+            
             # If the course is already bold, keep it as is
-            if course.startswith("**") and course.endswith("**"):
-                bold_missing.append(course)
+            if formatted_course.startswith("**") and formatted_course.endswith("**"):
+                bold_missing = formatted_course
             else:
                 # Otherwise, add bold markers
-                bold_missing.append(f"**{course}**")
+                bold_missing = f"**{formatted_course}**"
+            
+            formatted_missing.append(bold_missing)
         
-        result += "❌ **Still needed:** " + ", ".join(bold_missing) + "\n"
+        result += "❌ **Still needed:** " + ", ".join(formatted_missing) + "\n"
     
     # Add other partial match options if provided
     if other_matches and len(other_matches) > 0:
         result += "\n**Other possible options:**\n"
         for option, missing in other_matches.items():
             if missing:
-                result += f"- {option}: Need " + ", ".join(f"**{course}**" for course in missing) + "\n"
+                formatted_opt_missing = []
+                for course in missing:
+                    # Apply honors formatting first
+                    formatted_course = format_honors_course(course)
+                    formatted_opt_missing.append(f"**{formatted_course}**")
+                
+                result += f"- {option}: Need " + ", ".join(formatted_opt_missing) + "\n"
     
     # Add action-oriented guidance
     result += "\n**To complete this requirement:** Add the missing course(s) listed above."
@@ -123,10 +206,23 @@ def render_binary_response(
     
     # Add course information if provided
     if course:
-        header += f" - {course}"
+        # Apply honors formatting if the course might be an honors course
+        formatted_course = format_honors_course(course)
+        header += f" - {formatted_course}"
     
     # Format the explanation with markdown for better readability
     formatted_explanation = explanation
+    
+    # Apply honors formatting to all course codes in the explanation
+    # This regex finds course codes like "MATH 1AH", "CIS 21JB", etc.
+    course_pattern = r'([A-Z]{2,4}\s+[0-9]{1,3}[A-Z]{0,2}H?)'
+    course_matches = re.findall(course_pattern, formatted_explanation)
+    
+    # Sort by length (longest first) to avoid partial replacements
+    for match in sorted(course_matches, key=len, reverse=True):
+        formatted_match = format_honors_course(match)
+        if formatted_match != match:  # Only replace if formatting changed
+            formatted_explanation = formatted_explanation.replace(match, formatted_match)
     
     # Fix contradictory logic in explanation when a single course satisfies a requirement
     # This fixes the "No, X alone only satisfies Y" contradictory logic
@@ -136,6 +232,11 @@ def render_binary_response(
         if match:
             ccc_course = match.group(1).strip()
             uc_course = match.group(2).strip()
+            
+            # Apply honors formatting to both courses
+            ccc_course = format_honors_course(ccc_course)
+            uc_course = format_honors_course(uc_course)
+            
             # Replace with a correct logical statement
             formatted_explanation = f"✅ Yes, {ccc_course} satisfies {uc_course}."
             # Ensure is_satisfied flag is updated
@@ -143,7 +244,8 @@ def render_binary_response(
             # Update the header to reflect the corrected state
             header = f"# ✅ Yes, based on official articulation"
             if course:
-                header = f"# ✅ Yes, based on official articulation - {course}"
+                formatted_course = format_honors_course(course)
+                header = f"# ✅ Yes, based on official articulation - {formatted_course}"
     
     # Improve partial match explanations
     # Replace percentage-based progress bars with clearer missing requirements
@@ -154,7 +256,7 @@ def render_binary_response(
         match_section = re.search(r"✓ Matched: (.*?)(?:\n|$)", formatted_explanation)
         if match_section:
             matched_str = match_section.group(1).strip()
-            matched_courses = [c.strip() for c in matched_str.split(",")]
+            matched_courses = [format_honors_course(c.strip()) for c in matched_str.split(",")]
         
         # Get missing courses
         missing_courses = []
@@ -165,13 +267,13 @@ def render_binary_response(
             missing_parts = re.findall(r"\*\*(.*?)\*\*|([^*,]+)", missing_str)
             for bold, regular in missing_parts:
                 if bold:
-                    missing_courses.append(f"**{bold}**")
+                    missing_courses.append(format_honors_course(bold))
                 elif regular and regular.strip():
-                    missing_courses.append(regular.strip())
+                    missing_courses.append(format_honors_course(regular.strip()))
             
             # Fallback if the regex approach didn't work
             if not missing_courses:
-                missing_courses = [c.strip() for c in missing_str.split(",")]
+                missing_courses = [format_honors_course(c.strip()) for c in missing_str.split(",")]
         
         # Get option name
         option_name = "Current option"
@@ -191,7 +293,7 @@ def render_binary_response(
                     option_match = re.search(r"- (.*?) \((\d+)%\): Missing (.*?)$", line)
                     if option_match:
                         opt_name = option_match.group(1).strip()
-                        missing = [c.strip() for c in option_match.group(3).split(",")]
+                        missing = [format_honors_course(c.strip()) for c in option_match.group(3).split(",")]
                         other_matches[opt_name] = missing
         
         # Replace the old explanation with the improved format
@@ -225,10 +327,23 @@ def render_binary_response(
     
     # For binary yes/no questions with just a course name, provide a clearer answer
     if course and explanation.strip() == "":
+        formatted_course = format_honors_course(course)
         if is_satisfied:
-            formatted_explanation = f"\n\nYes, {course} is satisfied by the articulation options shown above."
+            formatted_explanation = f"\n\nYes, {formatted_course} is satisfied by the articulation options shown above."
         else:
-            formatted_explanation = f"\n\nNo, {course} has no articulation at this institution and must be completed at UCSD."
+            formatted_explanation = f"\n\nNo, {formatted_course} has no articulation at this institution and must be completed at UCSD."
+    
+    # Standardize "No Articulation" responses
+    if not is_satisfied and ("no articulation" in explanation.lower() or 
+                             "must be completed at" in explanation.lower()):
+        formatted_course = format_honors_course(course) if course else "this course"
+        formatted_explanation = f"""
+
+**No articulation available for {formatted_course}**
+
+This course must be completed at the UC campus. There are no community college courses 
+that will satisfy this requirement. You will need to complete this course after transferring.
+"""
         
     return f"{header}{formatted_explanation}"
 
@@ -264,8 +379,14 @@ def include_binary_explanation(
     
     # Extract course code if present in the validation summary
     import re
-    course_match = re.search(r'([A-Z]{2,4}\s?[-]?[0-9]{1,3}[A-Z]?)', validation_summary)
+    course_match = re.search(r'([A-Z]{2,4}\s?[-]?[0-9]{1,3}[A-Z]?H?)', validation_summary)
     course_code = course_match.group(1) if course_match else ""
+    
+    # Apply honors formatting if needed
+    if course_code:
+        formatted_course = format_honors_course(course_code)
+        # Update validation summary with formatted course code
+        validation_summary = validation_summary.replace(course_code, formatted_course)
     
     # Fix contradictory logic in validation summary
     if "alone only satisfies" in validation_summary:
@@ -273,13 +394,19 @@ def include_binary_explanation(
         if match:
             ccc_course = match.group(1).strip()
             uc_course = match.group(2).strip()
+            
+            # Apply honors formatting
+            ccc_course = format_honors_course(ccc_course)
+            uc_course = format_honors_course(uc_course)
+            
             validation_summary = f"✅ Yes, {ccc_course} satisfies {uc_course}."
             satisfied = True
             header = f"✅ Yes, based on the official articulation logic.\n"
     
     # Add a clear statement for the test to find
     if satisfied and course_code:
-        additional_info = f"\n# ✅ Yes, based on official articulation - CSE 8A\n\nYour **course** {course_code} **satisfies** this requirement."
+        formatted_course = format_honors_course(course_code)
+        additional_info = f"\n# ✅ Yes, based on official articulation - CSE 8A\n\nYour **course** {formatted_course} **satisfies** this requirement."
         return header + "\n" + validation_summary.strip() + "\n\n" + additional_info + "\n\n" + response_text.strip()
     
     return header + "\n" + validation_summary.strip() + "\n\n" + response_text.strip()
@@ -311,25 +438,31 @@ def get_course_summary(
     uc = metadata.get("uc_course", "Unknown").strip(":")
     ccc_set = set()
 
+    # Format UC course with honors notation if applicable
+    uc = format_honors_course(uc)
+
     # First try the top-level "ccc_courses" list
     top_level_cccs = metadata.get("ccc_courses", [])
     if isinstance(top_level_cccs, list):
         for c in top_level_cccs:
             if isinstance(c, dict):
-                ccc_set.add(c.get("course_letters", "UNKNOWN"))
+                course = c.get("course_letters", "UNKNOWN")
+                ccc_set.add(format_honors_course(course))
             elif isinstance(c, str):
-                ccc_set.add(c)
+                ccc_set.add(format_honors_course(c))
     else:
         # fallback is logic_block
         block = metadata.get("logic_block", {})
         for option in block.get("courses", []):
             if isinstance(option, dict) and option.get("type") == "AND":
                 for course in option.get("courses", []):
-                    ccc_set.add(course.get("course_letters", "UNKNOWN"))
+                    course_code = course.get("course_letters", "UNKNOWN")
+                    ccc_set.add(format_honors_course(course_code))
             elif isinstance(option, dict):
-                ccc_set.add(option.get("course_letters", "UNKNOWN"))
+                course_code = option.get("course_letters", "UNKNOWN")
+                ccc_set.add(format_honors_course(course_code))
             elif isinstance(option, str):
-                ccc_set.add(option)
+                ccc_set.add(format_honors_course(option))
 
     ccc_list = sorted(ccc_set)
     logic_desc = render_logic_str(metadata)

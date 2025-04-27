@@ -48,4 +48,28 @@ out/
 # OS-specific metadata
 Icon?
 
-*__pycache__**
+*__pycache__**# Additional files to ignore
+__pycache__/
+*.py[cod]
+*.class
+.pytest_cache/
+.coverage
+htmlcov/
+.hypothesis/
+.tox/
+.nox/
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo

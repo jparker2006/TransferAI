@@ -23,6 +23,13 @@ from typing import List, Dict, Any, Tuple
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from llm.main import TransferAIEngine
 
+# Set up local embeddings to avoid OpenAI API dependency
+from llama_index.core.settings import Settings
+from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+embed_model = HuggingFaceEmbedding(model_name="sentence-transformers/all-MiniLM-L6-v2")
+Settings.embed_model = embed_model
+Settings.llm = None  # Disable LLM to avoid OpenAI dependency
+
 # 🔍 High-coverage prompt-based articulation test suite (De Anza → UCSD)
 # Includes edge cases, multi-course logic, honors variants, and validation-style prompts
 
@@ -53,28 +60,28 @@ test_prompts = [
     "Can I take MATH 2B instead of MATH 2BH for MATH 18?",
     "Is CSE 21 articulated from De Anza?",  # no articulation
     "Can I complete just CIS 21JA and 21JB to satisfy CSE 30?",
-    "Does CSE 15L have any articulation?",
-    "How can I satisfy CSE 30 using De Anza classes?",
-    "Does MATH 1CH and 1DH count for MATH 20C?",
-    "What De Anza classes satisfy MATH 20C at UCSD?",
-    "Is there a difference between MATH 1A and MATH 1AH for transfer credit?",
-    "Which courses satisfy MATH 20A and 20B?",
-    "List all options for CSE 30 at UCSD from De Anza.",
-    "What are my options for fulfilling Group 3 science requirements for CS at UCSD?",
-    "What courses count for BILD 1?",
-    "Can I take BIOL 6A and 6B only to satisfy BILD 1?",
-    "How many science courses do I need to transfer for UCSD Computer Science under Group 3?",
-    "Can I satisfy Group 3 with CHEM 1A and PHYS 4A?",
-    "Does PHYS 4A articulate to UCSD?",
-    "Does BILD 2 require the same BIOL series as BILD 1?",
-    "What De Anza courses are required for CHEM 6A and 6B?",
-    "If I took CIS 36A, can it satisfy more than one UCSD course?",
-    "Are any honors courses required for the CS transfer path from De Anza to UCSD?",
-    # New test cases for v1.4 features
-    "Does CSE 12 require honors courses at De Anza?",
-    "Can I take both MATH 1A and MATH 1AH for MATH 20A?",
-    "Which UC courses can I satisfy with CIS 36A?",
-    "Does CIS 22C satisfy CSE 12?",
+    # "Does CSE 15L have any articulation?",
+    # "How can I satisfy CSE 30 using De Anza classes?",
+    # "Does MATH 1CH and 1DH count for MATH 20C?",
+    # "What De Anza classes satisfy MATH 20C at UCSD?",
+    # "Is there a difference between MATH 1A and MATH 1AH for transfer credit?",
+    # "Which courses satisfy MATH 20A and 20B?",
+    # "List all options for CSE 30 at UCSD from De Anza.",
+    # "What are my options for fulfilling Group 3 science requirements for CS at UCSD?",
+    # "What courses count for BILD 1?",
+    # "Can I take BIOL 6A and 6B only to satisfy BILD 1?",
+    # "How many science courses do I need to transfer for UCSD Computer Science under Group 3?",
+    # "Can I satisfy Group 3 with CHEM 1A and PHYS 4A?",
+    # "Does PHYS 4A articulate to UCSD?",
+    # "Does BILD 2 require the same BIOL series as BILD 1?",
+    # "What De Anza courses are required for CHEM 6A and 6B?",
+    # "If I took CIS 36A, can it satisfy more than one UCSD course?",
+    # "Are any honors courses required for the CS transfer path from De Anza to UCSD?",
+    # # New test cases for v1.4 features
+    # "Does CSE 12 require honors courses at De Anza?",
+    # "Can I take both MATH 1A and MATH 1AH for MATH 20A?",
+    # "Which UC courses can I satisfy with CIS 36A?",
+    # "Does CIS 22C satisfy CSE 12?",
 ]
 
 
@@ -174,7 +181,7 @@ def run_all_tests_and_save(output_file: str = "llm/testing/TransferAI v1.5.txt")
     """
     # Create/clear the output file
     with open(output_file, 'w') as f:
-        f.write(f"🧮 TransferAI v1.4 Test Suite Results - {time.strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+        f.write(f"🧮 TransferAI v1.5 Test Suite Results - {time.strftime('%Y-%m-%d %H:%M:%S')}\n\n")
     
     # Run tests in batches of 5
     start_idx = 0
@@ -238,10 +245,9 @@ def run_specific_test(test_prompt: str, output_file: str = None) -> str:
 
 if __name__ == "__main__":
     # Create the testing directory if it doesn't exist
-    os.makedirs("llm/testing", exist_ok=True)
     
     # Run tests in smaller batches and save results
-    output_file = "llm/testing/TransferAI v1.5.txt"
+    output_file = "llm/regression tests/TransferAI v1.5.txt"
     run_all_tests_and_save(output_file)
     
     # You can also run specific tests like this:

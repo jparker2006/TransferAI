@@ -11,7 +11,7 @@ The module ensures that prompts maintain a consistent professional tone, include
 necessary context, and provide clear instructions to the LLM about how to format responses.
 """
 
-from enum import Enum, auto
+from enum import Enum
 from typing import Optional, Union, Dict, List, Any
 import re
 import sys
@@ -21,17 +21,11 @@ import yaml
 # import langchain
 from pydantic import BaseModel
 from collections import defaultdict
-import logging
-from textwrap import dedent
-from pathlib import Path
 
 # Add the parent directory to sys.path to allow absolute imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from llm.document_loader import get_course_title, get_course_description
 
-# Configure logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
 
 class PromptType(Enum):
     """
@@ -46,15 +40,15 @@ class PromptType(Enum):
 
 class VerbosityLevel(Enum):
     """
-    Enumeration of verbosity levels for controlling response length and detail.
+    Enumeration of verbosity levels for prompts.
     
-    MINIMAL: Brief, direct responses with minimal explanation
-    STANDARD: Balanced responses with moderate explanation
-    DETAILED: Thorough responses with extensive explanation
+    MINIMAL: Brief, concise responses with minimal explanations
+    STANDARD: Balanced level of detail (default)
+    DETAILED: Comprehensive responses with detailed explanations
     """
-    MINIMAL = auto()
-    STANDARD = auto()
-    DETAILED = auto()
+    MINIMAL = "minimal"
+    STANDARD = "standard"
+    DETAILED = "detailed"
 
 
 def _extract_course_codes(rendered_logic: str) -> List[str]:
@@ -182,7 +176,7 @@ def build_course_prompt(
         section_title: Section title if applicable.
         n_courses: Number of courses required (for select_n_courses type).
         is_no_articulation: Flag indicating if the course has no articulation.
-        verbosity: The desired level of detail in responses.
+        verbosity: Controls the level of detail in the response.
         
     Returns:
         A formatted prompt string for the LLM.
@@ -194,68 +188,63 @@ def build_course_prompt(
     enriched_logic = _enrich_with_descriptions(rendered_logic)
 
     if is_no_articulation or "❌ This course must be completed at UCSD." in rendered_logic:
-        # Simplified prompt for no articulation case
-        if verbosity == VerbosityLevel.MINIMAL:
-            return f"""
-TransferAI advisor data:
-Question: {user_question.strip()}
-UC Course: {uc_course} – {uc_course_title}  
-> This course must be completed at UC San Diego.
-Be extremely brief.
-""".strip()
-        else:
-            return f"""
-You are TransferAI, a UC transfer advisor. Use only the verified articulation data below.
+        return f"""
+You are TransferAI, a trusted UC transfer counselor. Use **only** the verified articulation summary below.
 
-📨 **Question:** {user_question.strip()}
+📨 **Student Question:**  
+{user_question.strip()}
 
 🎓 **UC Course:** {uc_course} – {uc_course_title}  
 
 > This course must be completed at UC San Diego.
 
-Follow official policy only. Be concise.
+Follow official policy only. Do not recommend alternatives.
 """.strip()
 
-    # Base prompt with course info and question - simplified for all verbosity levels
+    # Base prompt with essential information
+    base_prompt = f"""
+You are TransferAI, a trusted UC transfer counselor. Use **only** the verified articulation data below.
+
+📨 **Student Question:**  
+{user_question.strip()}
+
+🎓 **UC Course:** {uc_course} – {uc_course_title}  
+
+{enriched_logic.strip()}
+""".strip()
+
+    # Add instructions based on verbosity level
     if verbosity == VerbosityLevel.MINIMAL:
-        # Ultra-concise version for MINIMAL verbosity
-        base_prompt = f"""
-TransferAI advisor data:
-Question: {user_question.strip()}
-UC Course: {uc_course} – {uc_course_title}  
-Options:
-{enriched_logic.strip()}
-""".strip()
-        
-        return f"{base_prompt}\nBe extremely brief."
+        # Minimal instructions for concise responses
+        instructions = """
+Be concise. Present only essential information in a clear, direct manner.
+Do not add explanations beyond what's necessary to understand the options.
+"""
     elif verbosity == VerbosityLevel.STANDARD:
-        base_prompt = f"""
-You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
-
-📨 **Question:** {user_question.strip()}
-
-🎓 **UC Course:** {uc_course} – {uc_course_title}  
-
-To satisfy this UC course requirement, you must complete one of the following De Anza course options:
-
-{enriched_logic.strip()}
-""".strip()
-        
-        return f"{base_prompt}\nBe clear but concise."
+        # Standard instructions for balanced responses
+        instructions = """
+✅ **Response Guidelines:**
+- Present articulation options clearly and directly
+- Show all options exactly as they appear in the data
+- Do not simplify or interpret the articulation paths
+"""
     else:  # DETAILED
-        base_prompt = f"""
-You are TransferAI, a UC transfer advisor. Use only the verified articulation data below.
+        # Detailed instructions (similar to original but still reduced)
+        instructions = """
+✅ **How to Respond (Strict Output Rules):**
 
-📨 **Question:** {user_question.strip()}
+To satisfy this UC course requirement, you must complete one of the following De Anza course options.
 
-🎓 **UC Course:** {uc_course} – {uc_course_title}  
+⚠️ Do not remove, collapse, reorder, or reword any part of the articulation summary.  
+⚠️ Always show all options, even if they are long or redundant.  
+⚠️ Do not suggest, simplify, or interpret the articulation paths.
 
-To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+🎓 **Counselor Voice Requirements:**
+- Clear and confident
+- Grounded in verified articulation logic
+"""
 
-{enriched_logic.strip()}
-""".strip()
-        
-        return f"{base_prompt}\nProvide a complete explanation of the requirements and options."
+    return f"{base_prompt}\n\n{instructions.strip()}"
 
 
 def build_group_prompt(
@@ -281,7 +270,7 @@ def build_group_prompt(
         group_title: Title of the group.
         group_logic_type: Type of logic for the group (e.g., "choose_one_section").
         n_courses: Number of courses required (for select_n_courses type).
-        verbosity: The desired level of detail in responses.
+        verbosity: Controls the level of detail in the response.
         
     Returns:
         A formatted prompt string for the LLM.
@@ -296,6 +285,17 @@ def build_group_prompt(
     group_label = f"Group {group_id}" if group_id else "this group"
     logic_type = group_logic_type or "unspecified"
 
+    # Create appropriate logic hint based on group logic type
+    if group_logic_type == "choose_one_section":
+        logic_hint = f"To satisfy {group_label}, complete all UC courses in exactly ONE section (A or B). Each course must be satisfied individually."
+    elif group_logic_type == "all_required":
+        logic_hint = f"To satisfy {group_label}, complete every UC course listed. Each course may have multiple options."
+    elif group_logic_type == "select_n_courses" and n_courses:
+        logic_hint = f"To satisfy {group_label}, complete exactly {n_courses} UC course(s) from the list."
+    else:
+        logic_hint = f"Refer to the articulation summary for {group_label} and follow it exactly."
+    
+    # Build the logic explanation
     if logic_type == "all_required":
         group_logic_explanation = "every UC course listed below individually"
     elif logic_type == "choose_one_section":
@@ -305,59 +305,60 @@ def build_group_prompt(
     else:
         group_logic_explanation = "the requirements listed in the articulation summary"
 
-    # Simplified logic hint based on group logic type
-    logic_hint = f"To satisfy {group_label}, you must complete {group_logic_explanation}."
+    # Base prompt with essential information
+    base_prompt = f"""
+You are TransferAI, a trusted UC transfer counselor. Use **only** the verified articulation data below.
 
-    # Base prompt with group info and question - significantly simplified
+📨 **Student Question:**  
+{user_question.strip()}
+
+📘 **{group_label}{': ' + group_title if group_title else ''}**  
+🔎 **Group Logic Type:** {logic_type}
+
+To satisfy {group_label}, you must complete {group_logic_explanation}.
+
+{enriched_logic.strip()}
+""".strip()
+
+    # Add instructions based on verbosity level
     if verbosity == VerbosityLevel.MINIMAL:
-        # Ultra-concise version for MINIMAL verbosity
-        base_prompt = f"""
-TransferAI advisor data:
-Question: {user_question.strip()}
-Group: {group_id}{': ' + group_title if group_title else ''}
-Logic Type: {logic_type}
-Rule: {logic_hint}
-Data:
-{enriched_logic.strip()}
-""".strip()
-        
-        return f"{base_prompt}\nBe extremely brief. No fabrication."
+        # Minimal instructions for concise responses
+        instructions = f"""
+{logic_hint}
+Present only essential information clearly and directly.
+Do not fabricate course options or add unnecessary explanations.
+"""
     elif verbosity == VerbosityLevel.STANDARD:
-        base_prompt = f"""
-You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
-
-📨 **Question:** {user_question.strip()}
-
-📘 **{group_label}{': ' + group_title if group_title else ''}**  
-🔎 **Logic Type:** {logic_type}
-
+        # Standard instructions for balanced responses
+        instructions = f"""
 {logic_hint}
 
-Here is the verified articulation summary:
-
-{enriched_logic.strip()}
-""".strip()
-        
-        return f"{base_prompt}\nBe clear but concise. No fabrication."
+✅ **Response Guidelines:**
+- Present articulation options clearly and directly
+- Do not modify, condense, or reinterpret the summary
+- Include all courses as listed in the articulation data
+- Never invent or fabricate course options
+"""
     else:  # DETAILED
-        base_prompt = f"""
-You are TransferAI, a UC transfer advisor. Use only the verified articulation data below.
-
-📨 **Question:** {user_question.strip()}
-
-📘 **{group_label}{': ' + group_title if group_title else ''}**  
-🔎 **Logic Type:** {logic_type}
-
+        # Detailed instructions (similar to original but reduced)
+        instructions = f"""
 {logic_hint}
 
-Here is the verified articulation summary:
+✅ **Response Guidelines:**
 
-{enriched_logic.strip()}
+1️⃣ State the requirement: To satisfy {group_label}, you must complete {group_logic_explanation}.
 
-NEVER fabricate course options. ONLY use options that appear explicitly in the data above.
-""".strip()
-        
-        return f"{base_prompt}\nProvide a thorough explanation of all requirements and options."
+2️⃣ Present the articulation summary exactly as-is.
+
+3️⃣ CRITICAL: DO NOT FABRICATE COURSE OPTIONS
+- Never invent course options that aren't in the data
+- Only present the exact options from the verified articulation data
+- Always use the exact course titles provided in the summary
+
+4️⃣ Do not recommend, simplify, or collapse any articulation logic
+"""
+
+    return f"{base_prompt}\n\n{instructions.strip()}"
 
 
 def build_prompt(
@@ -392,7 +393,7 @@ def build_prompt(
         section_title: Section title if applicable.
         n_courses: Number of courses required (for select_n_courses type).
         rendered_logic: Alternative rendered logic string (used for group prompts).
-        verbosity: The desired level of detail in responses.
+        verbosity: Controls the level of detail in the response (MINIMAL, STANDARD, DETAILED).
         
     Returns:
         A formatted prompt string for the LLM.
@@ -406,8 +407,6 @@ def build_prompt(
         ...     verbosity=VerbosityLevel.MINIMAL
         ... )
     """
-    logger.info(f"Building prompt with verbosity level: {verbosity.value}")
-    
     if prompt_type == PromptType.GROUP_LOGIC:
         return build_group_prompt(
             rendered_logic=rendered_logic,
@@ -431,143 +430,3 @@ def build_prompt(
             n_courses=n_courses,
             verbosity=verbosity
         )
-
-def _get_system_instructions(verbosity: VerbosityLevel) -> str:
-    """Get system instructions based on verbosity level."""
-    base_instructions = """
-    You are TransferAI, an expert on course articulation between California community colleges and 
-    University of California campuses.
-    """
-    
-    if verbosity == VerbosityLevel.MINIMAL:
-        return dedent(base_instructions + """
-        Provide extremely concise answers focused only on essential information.
-        """).strip()
-    
-    elif verbosity == VerbosityLevel.DETAILED:
-        return dedent(base_instructions + """
-        Provide comprehensive answers with detailed explanations.
-        """).strip()
-    
-    # Default STANDARD verbosity
-    return dedent(base_instructions + """
-    Provide clear and helpful answers with appropriate level of detail.
-    """).strip()
-
-def _get_formatting_instructions(verbosity: VerbosityLevel) -> str:
-    """Get formatting instructions based on verbosity level."""
-    base_formatting = """
-    RESPONSE FORMATTING:
-    - Use clear yes/no answers when appropriate
-    - Format lists consistently
-    """
-    
-    if verbosity == VerbosityLevel.MINIMAL:
-        return dedent(base_formatting + """
-        - Be exceptionally brief
-        - Omit introductions and conclusions
-        - Use bullet points for lists
-        """).strip()
-    
-    elif verbosity == VerbosityLevel.DETAILED:
-        return dedent(base_formatting + """
-        - Provide thorough explanations
-        - Explain any nuances
-        - Use structured sections when appropriate
-        """).strip()
-    
-    # Default STANDARD verbosity
-    return dedent(base_formatting + """
-    - Balance brevity with clarity
-    - Include just enough context
-    """).strip()
-
-class PromptBuilder:
-    def __init__(self, verbosity: Union[VerbosityLevel, str] = VerbosityLevel.STANDARD):
-        self.verbosity = self._normalize_verbosity(verbosity)
-        # Initialize other attributes as needed
-        
-    def _normalize_verbosity(self, verbosity: Union[VerbosityLevel, str]) -> VerbosityLevel:
-        """Convert string verbosity to enum if needed and validate"""
-        if isinstance(verbosity, str):
-            try:
-                return VerbosityLevel[verbosity.upper()]
-            except KeyError:
-                logger.warning(f"Invalid verbosity level: {verbosity}. Using STANDARD.")
-                return VerbosityLevel.STANDARD
-        elif isinstance(verbosity, VerbosityLevel):
-            return verbosity
-        else:
-            logger.warning(f"Invalid verbosity type: {type(verbosity)}. Using STANDARD.")
-            return VerbosityLevel.STANDARD
-    
-    def set_verbosity(self, verbosity: Union[VerbosityLevel, str]) -> None:
-        """Update the verbosity level"""
-        self.verbosity = self._normalize_verbosity(verbosity)
-        
-    def build_prompt(self, query: str, documents: List[Dict[str, Any]], **kwargs) -> str:
-        """
-        Build a prompt based on the query, documents, and verbosity level
-        """
-        # Base structure common to all verbosity levels
-        prompt = self._build_base_prompt(query, documents)
-        
-        # Add additional context based on verbosity
-        if self.verbosity == VerbosityLevel.MINIMAL:
-            prompt = self._add_minimal_context(prompt)
-        elif self.verbosity == VerbosityLevel.STANDARD:
-            prompt = self._add_standard_context(prompt)
-        elif self.verbosity == VerbosityLevel.DETAILED:
-            prompt = self._add_detailed_context(prompt)
-            
-        return prompt
-    
-    def _build_base_prompt(self, query: str, documents: List[Dict[str, Any]]) -> str:
-        """
-        Build the base prompt structure needed for all verbosity levels
-        """
-        # Base prompt logic here
-        # This should include the essential information needed regardless of verbosity
-        prompt = f"Query: {query}\n\n"
-        prompt += "Context Documents:\n"
-        
-        for i, doc in enumerate(documents):
-            prompt += f"Document {i+1}: {doc.get('title', 'Untitled')}\n"
-            # Add minimal document content
-            
-        return prompt
-    
-    def _add_minimal_context(self, prompt: str) -> str:
-        """
-        Add minimal context to the prompt - just enough for basic functionality
-        """
-        prompt += "\nInstructions for Minimal Response:\n"
-        prompt += "- Provide direct answers without elaboration\n"
-        
-        return prompt
-    
-    def _add_standard_context(self, prompt: str) -> str:
-        """
-        Add standard context to the prompt - balanced verbosity
-        """
-        prompt += "\nInstructions for Standard Response:\n"
-        prompt += "- Balance conciseness with necessary explanation\n"
-        
-        return prompt
-    
-    def _add_detailed_context(self, prompt: str) -> str:
-        """
-        Add detailed context to the prompt - comprehensive explanation
-        """
-        prompt += "\nInstructions for Detailed Response:\n"
-        prompt += "- Provide comprehensive explanations\n"
-        
-        return prompt
-    
-    # Additional methods can be implemented as needed
-
-# Example usage
-if __name__ == "__main__":
-    builder = PromptBuilder(verbosity=VerbosityLevel.STANDARD)
-    prompt = builder.build_prompt("Sample query", [{"title": "Sample document"}])
-    print(prompt)
