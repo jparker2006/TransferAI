@@ -9,8 +9,25 @@ It provides functions to create tailored prompts for different query types:
 
 The module ensures that prompts maintain a consistent professional tone, include all
 necessary context, and provide clear instructions to the LLM about how to format responses.
+
+DEPRECATED: This module is being replaced by the new llm.services.prompt_service module.
+Use that module instead for new code.
 """
 
+import warnings
+
+# Display a deprecation warning
+warnings.warn(
+    "The prompt_builder module is deprecated and will be removed in future versions. "
+    "Use llm.services.prompt_service instead.",
+    DeprecationWarning,
+    stacklevel=2
+)
+
+# Import the replacement implementation for backward compatibility
+from llm.services.prompt_service import build_prompt, PromptType, VerbosityLevel, PromptService
+
+# Keep the original implementation for backward compatibility
 from enum import Enum, auto
 from typing import Optional, Union, Dict, List, Any
 import re

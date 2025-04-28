@@ -1,0 +1,479 @@
+🧮 TransferAI v1.5 Test Suite Results - 2025-04-27 22:42:15
+
+🧪 Running TransferAI test batch 1...
+
+===== Test 1: Which De Anza courses satisfy CSE 8A at UCSD? =====
+**CSE 8A**:
+You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
+
+📨 **Question:** Which De Anza courses satisfy CSE 8A at UCSD?
+
+🎓 **UC Course:** CSE 8A – Introduction to Programming and Computational Problem Solving I  
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: CIS 22A (Beginning Programming Methodologies in C++)
+* Option B: CIS 36A (Introduction to Computer Programming Using Java)
+* Option C: CIS 40 (Introduction to Programming in Python)
+🔹 Non-honors courses also accepted: CIS 22A (Beginning Programming Methodologies in C++), CIS 36A (Introduction to Computer Programming Using Java), CIS 40 (Introduction to Programming in Python).
+Be clear but concise.
+============================================================
+
+===== Test 2: Which courses satisfy CSE 8B? =====
+**CSE 8B**:
+You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
+
+📨 **Question:** Which courses satisfy CSE 8B?
+
+🎓 **UC Course:** CSE 8B – Introduction to Programming and Computational Problem Solving II  
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: CIS 36B (Intermediate Problem Solving in Java)
+🔹 Non-honors courses also accepted: CIS 36B (Intermediate Problem Solving in Java).
+Be clear but concise.
+============================================================
+
+===== Test 3: Which courses satisfy CSE 11? =====
+**CSE 11**:
+You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
+
+📨 **Question:** Which courses satisfy CSE 11?
+
+🎓 **UC Course:** CSE 11 – Introduction to Programming and Computational Problem Solving - Accelerated Pace  
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: CIS 35A (Java Programming)
+* Option B: CIS 36A (Introduction to Computer Programming Using Java) AND CIS 36B (Intermediate Problem Solving in Java)
+🔹 Non-honors courses also accepted: CIS 35A (Java Programming), CIS 36A (Introduction to Computer Programming Using Java), CIS 36B (Intermediate Problem Solving in Java).
+Be clear but concise.
+============================================================
+
+===== Test 4: Do I need to take both CIS 36A and CIS 36B to get credit for CSE 11? =====
+**CSE 11**:
+You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
+
+📨 **Question:** Do I need to take both CIS 36A and CIS 36B to get credit for CSE 11?
+
+🎓 **UC Course:** CSE 11 – Introduction to Programming and Computational Problem Solving - Accelerated Pace  
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: CIS 35A (Java Programming)
+* Option B: CIS 36A (Introduction to Computer Programming Using Java) AND CIS 36B (Intermediate Problem Solving in Java)
+🔹 Non-honors courses also accepted: CIS 35A (Java Programming), CIS 36A (Introduction to Computer Programming Using Java), CIS 36B (Intermediate Problem Solving in Java).
+Be clear but concise.
+============================================================
+
+===== Test 5: Can I take CIS 22A and CIS 36B to satisfy anything in Group 1? =====
+# ❌ No, based on verified articulation logic
+
+Your courses partially satisfy **Group** 1.
+You've matched: CSE 8A, CSE 8B, but they span across multiple sections. To satisfy **Group** 1, all UC courses must come from the same section.
+============================================================
+
+🧪 Running TransferAI test batch 2...
+
+===== Test 6: Can I mix CIS 22A and CIS 35A for Group 1 at UCSD? =====
+# ❌ No, based on verified articulation logic
+
+Your courses partially satisfy **Group** 1.
+You've matched: CSE 8A, CSE 11, but they span across multiple sections. To satisfy **Group** 1, all UC courses must come from the same section.
+============================================================
+
+===== Test 7: If I complete CSE 8A and 8B, is that one full path? =====
+**CSE 8A**:
+You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
+
+📨 **Question:** If I complete CSE 8A and 8B, is that one full path?
+
+🎓 **UC Course:** CSE 8A – Introduction to Programming and Computational Problem Solving I  
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: CIS 22A (Beginning Programming Methodologies in C++)
+* Option B: CIS 36A (Introduction to Computer Programming Using Java)
+* Option C: CIS 40 (Introduction to Programming in Python)
+🔹 Non-honors courses also accepted: CIS 22A (Beginning Programming Methodologies in C++), CIS 36A (Introduction to Computer Programming Using Java), CIS 40 (Introduction to Programming in Python).
+Be clear but concise.
+
+**CSE 8B**:
+You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
+
+📨 **Question:** If I complete CSE 8A and 8B, is that one full path?
+
+🎓 **UC Course:** CSE 8B – Introduction to Programming and Computational Problem Solving II  
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: CIS 36B (Intermediate Problem Solving in Java)
+🔹 Non-honors courses also accepted: CIS 36B (Intermediate Problem Solving in Java).
+Be clear but concise.
+============================================================
+
+===== Test 8: What are all valid De Anza combinations to satisfy Group 1 at UCSD? =====
+
+============================================================
+
+===== Test 9: What De Anza courses are required to satisfy Group 2 for Computer Science at UCSD? =====
+
+============================================================
+
+===== Test 10: Which courses count for CSE 12 at UCSD? =====
+**CSE 12**:
+You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
+
+📨 **Question:** Which courses count for CSE 12 at UCSD?
+
+🎓 **UC Course:** CSE 12 – Basic Data Structures and Object-Oriented Design  
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: CIS 22C (Data Abstraction and Structures)
+* Option B: CIS 22CH (Honors)
+
+🔹 Honors courses accepted: CIS 22CH (Data Abstraction and Structures - HONORS).
+🔹 Non-honors courses also accepted: CIS 22C (Data Abstraction and Structures).
+Be clear but concise.
+============================================================
+
+🧪 Running TransferAI test batch 3...
+
+===== Test 11: What satisfies MATH 18 for UCSD transfer? =====
+**MATH 18**:
+You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
+
+📨 **Question:** What satisfies MATH 18 for UCSD transfer?
+
+🎓 **UC Course:** MATH 18 – Linear Algebra  
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: MATH 2B (Linear Algebra)
+* Option B: MATH 2BH (Honors)
+
+🔹 Honors courses accepted: MATH 2BH (Linear Algebra - HONORS).
+🔹 Non-honors courses also accepted: MATH 2B (Linear Algebra).
+Be clear but concise.
+============================================================
+
+===== Test 12: Does MATH 2BH satisfy MATH 18? =====
+❌ No, MATH 2BH alone only satisfies MATH 18.
+============================================================
+
+===== Test 13: Can I take MATH 2B instead of MATH 2BH for MATH 18? =====
+✅ Yes, MATH 2B and MATH 2BH are equivalent (non-honors and honors versions of the same course)
+============================================================
+
+===== Test 14: Is CSE 21 articulated from De Anza? =====
+# ❌ No, CSE 21 has no articulation at De Anza.
+
+This course must be completed at UCSD. There are no De Anza courses that satisfy this requirement.
+============================================================
+
+===== Test 15: Can I complete just CIS 21JA and 21JB to satisfy CSE 30? =====
+# ❌ No, based on verified articulation logic - CSE 30
+
+⚠️ **Partial Match** - Additional courses needed
+
+**Option A:**
+✓ **Already satisfied with:** CIS 21JA, CIS 21JB
+❌ **Still needed:** **CIS 26B**
+
+**Other possible options:**
+- Option B: Need **CIS 26BH (Honors)**
+
+**To complete this requirement:** Add the missing course(s) listed above.
+============================================================
+
+🧪 Running TransferAI test batch 4...
+
+===== Test 16: Does CSE 15L have any articulation? =====
+**CSE 15L**:
+You are TransferAI, a UC transfer advisor. Use only the verified articulation data below.
+
+📨 **Question:** Does CSE 15L have any articulation?
+
+🎓 **UC Course:** CSE 15L – Software Tools and Techniques Laboratory  
+
+> This course must be completed at UC San Diego.
+
+Follow official policy only. Be concise.
+============================================================
+
+===== Test 17: How can I satisfy CSE 30 using De Anza classes? =====
+**CSE 30**:
+You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
+
+📨 **Question:** How can I satisfy CSE 30 using De Anza classes?
+
+🎓 **UC Course:** CSE 30 – Computer Organization and Systems Programming  
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: CIS 21JA (Introduction to x86 Processor Assembly Language and Computer Architecture) AND CIS 21JB (Advanced x86 Processor Assembly Programming) AND CIS 26B (Advanced C Programming)
+* Option B: CIS 21JA (Introduction to x86 Processor Assembly Language and Computer Architecture) AND CIS 21JB (Advanced x86 Processor Assembly Programming) AND CIS 26BH (Honors)
+
+🔹 Honors courses accepted: CIS 26BH (Advanced C Programming - HONORS).
+🔹 Non-honors courses also accepted: CIS 21JA (Introduction to x86 Processor Assembly Language and Computer Architecture), CIS 21JB (Advanced x86 Processor Assembly Programming), CIS 26B (Advanced C Programming).
+Be clear but concise.
+============================================================
+
+===== Test 18: Does MATH 1CH and 1DH count for MATH 20C? =====
+**MATH 20C**:
+You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
+
+📨 **Question:** Does MATH 1CH and 1DH count for MATH 20C?
+
+🎓 **UC Course:** MATH 20C – Calculus and Analytic Geometry for Science and Engineering  
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: MATH 1C (Calculus III) AND MATH 1D (Calculus IV)
+* Option B: MATH 1CH (Honors) AND MATH 1DH (Honors)
+
+🔹 Honors courses accepted: MATH 1CH (Calculus III - HONORS), MATH 1DH (Calculus IV - HONORS).
+🔹 Non-honors courses also accepted: MATH 1C (Calculus III), MATH 1D (Calculus IV).
+Be clear but concise.
+============================================================
+
+===== Test 19: What De Anza classes satisfy MATH 20C at UCSD? =====
+**MATH 20C**:
+You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
+
+📨 **Question:** What De Anza classes satisfy MATH 20C at UCSD?
+
+🎓 **UC Course:** MATH 20C – Calculus and Analytic Geometry for Science and Engineering  
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: MATH 1C (Calculus III) AND MATH 1D (Calculus IV)
+* Option B: MATH 1CH (Honors) AND MATH 1DH (Honors)
+
+🔹 Honors courses accepted: MATH 1CH (Calculus III - HONORS), MATH 1DH (Calculus IV - HONORS).
+🔹 Non-honors courses also accepted: MATH 1C (Calculus III), MATH 1D (Calculus IV).
+Be clear but concise.
+============================================================
+
+===== Test 20: Is there a difference between MATH 1A and MATH 1AH for transfer credit? =====
+✅ Yes, MATH 1A and MATH 1AH are equivalent (non-honors and honors versions of the same course)
+============================================================
+
+🧪 Running TransferAI test batch 5...
+
+===== Test 21: Which courses satisfy MATH 20A and 20B? =====
+**MATH 20A**:
+You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
+
+📨 **Question:** Which courses satisfy MATH 20A and 20B?
+
+🎓 **UC Course:** MATH 20A – Calculus for Science and Engineering  
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: MATH 1A (Calculus I)
+* Option B: MATH 1AH (Honors)
+
+🔹 Honors courses accepted: MATH 1AH (Calculus I - HONORS).
+🔹 Non-honors courses also accepted: MATH 1A (Calculus I).
+Be clear but concise.
+
+**MATH 20B**:
+You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
+
+📨 **Question:** Which courses satisfy MATH 20A and 20B?
+
+🎓 **UC Course:** MATH 20B – Calculus for Science and Engineering  
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: MATH 1B (Calculus II)
+* Option B: MATH 1BH (Honors)
+
+🔹 Honors courses accepted: MATH 1BH (Calculus II - HONORS).
+🔹 Non-honors courses also accepted: MATH 1B (Calculus II).
+Be clear but concise.
+============================================================
+
+===== Test 22: List all options for CSE 30 at UCSD from De Anza. =====
+**CSE 30**:
+You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
+
+📨 **Question:** List all options for CSE 30 at UCSD from De Anza.
+
+🎓 **UC Course:** CSE 30 – Computer Organization and Systems Programming  
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: CIS 21JA (Introduction to x86 Processor Assembly Language and Computer Architecture) AND CIS 21JB (Advanced x86 Processor Assembly Programming) AND CIS 26B (Advanced C Programming)
+* Option B: CIS 21JA (Introduction to x86 Processor Assembly Language and Computer Architecture) AND CIS 21JB (Advanced x86 Processor Assembly Programming) AND CIS 26BH (Honors)
+
+🔹 Honors courses accepted: CIS 26BH (Advanced C Programming - HONORS).
+🔹 Non-honors courses also accepted: CIS 21JA (Introduction to x86 Processor Assembly Language and Computer Architecture), CIS 21JB (Advanced x86 Processor Assembly Programming), CIS 26B (Advanced C Programming).
+Be clear but concise.
+============================================================
+
+===== Test 23: What are my options for fulfilling Group 3 science requirements for CS at UCSD? =====
+
+============================================================
+
+===== Test 24: What courses count for BILD 1? =====
+**BILD 1**:
+You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
+
+📨 **Question:** What courses count for BILD 1?
+
+🎓 **UC Course:** BILD 1 – The Cell  
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: BIOL 6A (Form and Function in the Biological World) AND BIOL 6B (Cell and Molecular Biology) AND BIOL 6C (Ecology and Evolution)
+* Option B: BIOL 6AH (Honors) AND BIOL 6B (Cell and Molecular Biology) AND BIOL 6CH (Honors)
+
+🔹 Honors courses accepted: BIOL 6AH (Form and Function in the Biological World - HONORS), BIOL 6CH (Ecology and Evolution - HONORS).
+🔹 Non-honors courses also accepted: BIOL 6A (Form and Function in the Biological World), BIOL 6B (Cell and Molecular Biology), BIOL 6C (Ecology and Evolution).
+Be clear but concise.
+============================================================
+
+===== Test 25: Can I take BIOL 6A and 6B only to satisfy BILD 1? =====
+# ❌ No, based on verified articulation logic - BILD 1
+
+⚠️ **Partial Match** - Additional courses needed
+
+**Option A:**
+✓ **Already satisfied with:** BIOL 6A, BIOL 6B
+❌ **Still needed:** **BIOL 6C**
+
+**Other possible options:**
+- Option B: Need **BIOL 6AH (Honors)**, **BIOL 6CH (Honors)**
+
+**To complete this requirement:** Add the missing course(s) listed above.
+============================================================
+
+🧪 Running TransferAI test batch 6...
+
+===== Test 26: How many science courses do I need to transfer for UCSD Computer Science under Group 3? =====
+
+============================================================
+
+===== Test 27: Can I satisfy Group 3 with CHEM 1A and PHYS 4A? =====
+# ✅ Yes, based on official articulation
+
+Your courses (CHEM 1A, PHYS 4A) fully satisfy **Group** 3.
+
+Matched UC courses: CHEM 6A, PHYS 2A.
+============================================================
+
+===== Test 28: Does PHYS 4A articulate to UCSD? =====
+❌ No, PHYS 4A alone only satisfies PHYS 2A.
+============================================================
+
+===== Test 29: Does BILD 2 require the same BIOL series as BILD 1? =====
+**BILD 1**:
+You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
+
+📨 **Question:** Does BILD 2 require the same BIOL series as BILD 1?
+
+🎓 **UC Course:** BILD 1 – The Cell  
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: BIOL 6A (Form and Function in the Biological World) AND BIOL 6B (Cell and Molecular Biology) AND BIOL 6C (Ecology and Evolution)
+* Option B: BIOL 6AH (Honors) AND BIOL 6B (Cell and Molecular Biology) AND BIOL 6CH (Honors)
+
+🔹 Honors courses accepted: BIOL 6AH (Form and Function in the Biological World - HONORS), BIOL 6CH (Ecology and Evolution - HONORS).
+🔹 Non-honors courses also accepted: BIOL 6A (Form and Function in the Biological World), BIOL 6B (Cell and Molecular Biology), BIOL 6C (Ecology and Evolution).
+Be clear but concise.
+
+**BILD 2**:
+You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
+
+📨 **Question:** Does BILD 2 require the same BIOL series as BILD 1?
+
+🎓 **UC Course:** BILD 2 – Multicellular Life  
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: BIOL 6A (Form and Function in the Biological World) AND BIOL 6B (Cell and Molecular Biology) AND BIOL 6C (Ecology and Evolution)
+* Option B: BIOL 6AH (Honors) AND BIOL 6B (Cell and Molecular Biology) AND BIOL 6CH (Honors)
+
+🔹 Honors courses accepted: BIOL 6AH (Form and Function in the Biological World - HONORS), BIOL 6CH (Ecology and Evolution - HONORS).
+🔹 Non-honors courses also accepted: BIOL 6A (Form and Function in the Biological World), BIOL 6B (Cell and Molecular Biology), BIOL 6C (Ecology and Evolution).
+Be clear but concise.
+============================================================
+
+===== Test 30: What De Anza courses are required for CHEM 6A and 6B? =====
+**CHEM 6A**:
+You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
+
+📨 **Question:** What De Anza courses are required for CHEM 6A and 6B?
+
+🎓 **UC Course:** CHEM 6A – General Chemistry I  
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: CHEM 1A (General Chemistry I)
+* Option B: CHEM 1AH (Honors)
+
+🔹 Honors courses accepted: CHEM 1AH (General Chemistry I - HONORS).
+🔹 Non-honors courses also accepted: CHEM 1A (General Chemistry I).
+Be clear but concise.
+
+**CHEM 6B**:
+You are TransferAI, a UC transfer advisor. Use only the verified articulation data.
+
+📨 **Question:** What De Anza courses are required for CHEM 6A and 6B?
+
+🎓 **UC Course:** CHEM 6B – General Chemistry II  
+
+To satisfy this UC course requirement, you must complete one of the following De Anza course options:
+
+* Option A: CHEM 1B (General Chemistry II)
+* Option B: CHEM 1BH (Honors)
+
+🔹 Honors courses accepted: CHEM 1BH (General Chemistry II - HONORS).
+🔹 Non-honors courses also accepted: CHEM 1B (General Chemistry II).
+Be clear but concise.
+============================================================
+
+🧪 Running TransferAI test batch 7...
+
+===== Test 31: If I took CIS 36A, can it satisfy more than one UCSD course? =====
+❌ No, CIS 36A alone only satisfies CSE 8A.
+
+However, CIS 36A can contribute to satisfying CSE 11 when combined with additional courses.
+============================================================
+
+===== Test 32: Are any honors courses required for the CS transfer path from De Anza to UCSD? =====
+
+============================================================
+
+===== Test 33: Does CSE 12 require honors courses at De Anza? =====
+# ❌ No, CSE 12 does not require honors courses.
+
+Based on the official articulation data, you can satisfy CSE 12 with either honors or non-honors courses.
+============================================================
+
+===== Test 34: Can I take both MATH 1A and MATH 1AH for MATH 20A? =====
+✅ Yes, MATH 1A and MATH 1AH are equivalent (non-honors and honors versions of the same course)
+============================================================
+
+===== Test 35: Which UC courses can I satisfy with CIS 36A? =====
+❌ No, CIS 36A alone only satisfies CSE 8A.
+
+However, CIS 36A can contribute to satisfying CSE 11 when combined with additional courses.
+============================================================
+
+🧪 Running TransferAI test batch 8...
+
+===== Test 36: Does CIS 22C satisfy CSE 12? =====
+❌ No, CIS 22C alone only satisfies CSE 12.
+============================================================
+
+
+
+🧮 Final TransferAI v1.4 Test Suite Stats
+
+Total Tests: 36
+Completed: 2025-04-27 22:42:36

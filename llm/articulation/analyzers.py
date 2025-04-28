@@ -141,6 +141,7 @@ def count_uc_matches(
     # We only want to show unique contribution matches
     contributing_only = [uc for uc in contributing_matches if uc not in direct_matches]
     
+    # Return the count of direct matches (not total matches), the direct matches list, and contributing matches list
     return (len(direct_matches), direct_matches, contributing_only)
 
 

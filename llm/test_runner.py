@@ -6,8 +6,8 @@ It includes:
 
 1. Predefined test prompts covering a variety of articulation cases
 2. Functions to run tests in batches or individually
-3. Result saving and reporting capabilities
-4. Regression test cases to ensure system stability across versions
+3. Support for running specific tests by number or prompt text
+4. Simple command-line interface for test selection
 
 The test suite covers basic course equivalency, multi-course logic, honors variants,
 validation-style prompts, and edge cases to ensure TransferAI provides accurate
@@ -17,32 +17,30 @@ articulation information.
 import os
 import time
 import sys
-from typing import List, Dict, Any, Tuple
+import argparse
+from typing import List, Dict, Any, Tuple, Optional, Union
 
 # Fix the import path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from llm.main import TransferAIEngine
+# Import the new TransferAIEngine from the refactored architecture
+from llm.engine.transfer_engine import TransferAIEngine
+from llm.engine.config import Config
 
-# Set up local embeddings to avoid OpenAI API dependency
+# Set up models for testing
 from llama_index.core.settings import Settings
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+from llama_index.llms.ollama import Ollama
+
+# Configure embeddings and LLM model
 embed_model = HuggingFaceEmbedding(model_name="sentence-transformers/all-MiniLM-L6-v2")
 Settings.embed_model = embed_model
-Settings.llm = None  # Disable LLM to avoid OpenAI dependency
+
+# Create the Ollama LLM instance for deepseekr1:1.5b
+llm_model = Ollama(model="deepseek-r1:1.5b", request_timeout=30.0)
+Settings.llm = llm_model  # Set default LLM for LlamaIndex
 
 # 🔍 High-coverage prompt-based articulation test suite (De Anza → UCSD)
 # Includes edge cases, multi-course logic, honors variants, and validation-style prompts
-
-OG_test_prompts = [
-    "Which De Anza courses satisfy CSE 8A at UCSD?",
-    "Do I need to take both CIS 36A and CIS 36B to get credit for CSE 11?",
-    "What De Anza courses are required to satisfy Group 2 for Computer Science at UCSD?",
-    "How many science courses do I need to transfer for UCSD Computer Science under Group 3?",
-    "Does De Anza have an equivalent for CSE 21 at UCSD?",
-    "What De Anza courses count for CSE 30 at UC San Diego?",
-    "What De Anza classes satisfy BILD 1 for UCSD transfer?",
-]
-
 
 test_prompts = [
     "Which De Anza courses satisfy CSE 8A at UCSD?",
@@ -60,195 +58,201 @@ test_prompts = [
     "Can I take MATH 2B instead of MATH 2BH for MATH 18?",
     "Is CSE 21 articulated from De Anza?",  # no articulation
     "Can I complete just CIS 21JA and 21JB to satisfy CSE 30?",
-    # "Does CSE 15L have any articulation?",
-    # "How can I satisfy CSE 30 using De Anza classes?",
-    # "Does MATH 1CH and 1DH count for MATH 20C?",
-    # "What De Anza classes satisfy MATH 20C at UCSD?",
-    # "Is there a difference between MATH 1A and MATH 1AH for transfer credit?",
-    # "Which courses satisfy MATH 20A and 20B?",
-    # "List all options for CSE 30 at UCSD from De Anza.",
-    # "What are my options for fulfilling Group 3 science requirements for CS at UCSD?",
-    # "What courses count for BILD 1?",
-    # "Can I take BIOL 6A and 6B only to satisfy BILD 1?",
-    # "How many science courses do I need to transfer for UCSD Computer Science under Group 3?",
-    # "Can I satisfy Group 3 with CHEM 1A and PHYS 4A?",
-    # "Does PHYS 4A articulate to UCSD?",
-    # "Does BILD 2 require the same BIOL series as BILD 1?",
-    # "What De Anza courses are required for CHEM 6A and 6B?",
-    # "If I took CIS 36A, can it satisfy more than one UCSD course?",
-    # "Are any honors courses required for the CS transfer path from De Anza to UCSD?",
-    # # New test cases for v1.4 features
-    # "Does CSE 12 require honors courses at De Anza?",
-    # "Can I take both MATH 1A and MATH 1AH for MATH 20A?",
-    # "Which UC courses can I satisfy with CIS 36A?",
-    # "Does CIS 22C satisfy CSE 12?",
+    "Does CSE 15L have any articulation?",
+    "How can I satisfy CSE 30 using De Anza classes?",
+    "Does MATH 1CH and 1DH count for MATH 20C?",
+    "What De Anza classes satisfy MATH 20C at UCSD?",
+    "Is there a difference between MATH 1A and MATH 1AH for transfer credit?",
+    "Which courses satisfy MATH 20A and 20B?",
+    "List all options for CSE 30 at UCSD from De Anza.",
+    "What are my options for fulfilling Group 3 science requirements for CS at UCSD?",
+    "What courses count for BILD 1?",
+    "Can I take BIOL 6A and 6B only to satisfy BILD 1?",
+    "How many science courses do I need to transfer for UCSD Computer Science under Group 3?",
+    "Can I satisfy Group 3 with CHEM 1A and PHYS 4A?",
+    "Does PHYS 4A articulate to UCSD?",
+    "Does BILD 2 require the same BIOL series as BILD 1?",
+    "What De Anza courses are required for CHEM 6A and 6B?",
+    "If I took CIS 36A, can it satisfy more than one UCSD course?",
+    "Are any honors courses required for the CS transfer path from De Anza to UCSD?",
+    # New test cases for v1.4 features
+    "Does CSE 12 require honors courses at De Anza?",
+    "Can I take both MATH 1A and MATH 1AH for MATH 20A?",
+    "Which UC courses can I satisfy with CIS 36A?",
+    "Does CIS 22C satisfy CSE 12?",
 ]
 
-
-
-regression_tests = [
-    "Which De Anza courses satisfy CSE 8A at UCSD?",              # CIS 36A alone is valid
-    "Which courses satisfy CSE 11?",                              # Needs CIS 36A + CIS 36B (make sure prompt still builds!)
-    "Do I need to take both CIS 36A and CIS 36B to get credit for CSE 11?",  # LLM required
-    "If I complete CSE 8A and 8B, is that one full path?",        # Should NOT trigger R31 logic
-    "Can I take CIS 22A and CIS 36B to satisfy anything in Group 1?",  # Group logic, unrelated
-    "If I took CIS 36A, can it satisfy more than one UCSD course?",  # ✅ We just fixed this!
-    # New v1.4 regression tests
-    "Does CSE 12 require honors courses at De Anza?", # Should say no, honors not required for CSE 12
-    "Can I take both MATH 1A and MATH 1AH for MATH 20A?", # Should detect redundant courses
-]
-
-
-
-
-def run_batch_tests(start_idx: int = 0, batch_size: int = 5, output_file: str = None) -> Tuple[int, List[Dict[str, Any]]]:
-    """
-    Run a batch of test prompts and collect the results.
+def initialize_engine() -> TransferAIEngine:
+    """Initialize and configure a TransferAIEngine instance with the LLM model."""
+    # Create a configuration with the LLM model
+    config = Config()
+    config.update(
+        llm_model="deepseek-r1:1.5b",
+        verbosity="STANDARD",
+        debug_mode=True
+    )
     
-    This function initializes the TransferAI engine, processes a subset of test_prompts
-    from start_idx to start_idx+batch_size, and captures the responses.
+    # Create engine with the configuration
+    engine = TransferAIEngine(config=config)
+    
+    # Load documents and initialize handlers
+    engine.load()
+    print("Engine initialized with deepseek-r1:1.5b model")
+    return engine
+
+def run_test_by_index(index: int) -> str:
+    """
+    Run a specific test by its index in the test_prompts list.
     
     Args:
-        start_idx: Starting index in the test_prompts list.
-        batch_size: Number of tests to run in this batch.
-        output_file: Optional file path to save results to. If provided, results are appended.
+        index: The 1-based index of the test to run
         
     Returns:
-        A tuple containing the ending index and a list of result dictionaries with:
-        - test_num: Test number
-        - prompt: The test prompt
-        - response: TransferAI's response
-        - timestamp: When the test was run
-        
-    Example:
-        >>> end_idx, results = run_batch_tests(0, 5, "results.txt")
-        >>> print(f"Ran tests 1-{end_idx} with {len(results)} results")
+        The response from TransferAI
     """
-    engine = TransferAIEngine()
-    engine.configure()
-    engine.load()
+    if index < 1 or index > len(test_prompts):
+        return f"Error: Test index must be between 1 and {len(test_prompts)}"
+        
+    prompt = test_prompts[index-1]
+    print(f"\n===== Test {index}: {prompt} =====")
     
-    print(f"🧪 Running TransferAI test batch {start_idx//batch_size + 1}...\n")
-    all_results = []
+    engine = initialize_engine()
+    response = engine.handle_query(prompt)
     
-    end_idx = min(start_idx + batch_size, len(test_prompts))
+    if response:
+        print(response.strip())
+    else:
+        print("No response received")
+        
+    print("=" * 60 + "\n")
+    return response if response else ""
+
+def run_test_by_prompt(prompt: str) -> str:
+    """
+    Run a test with a custom prompt.
+    
+    Args:
+        prompt: The prompt text to test
+        
+    Returns:
+        The response from TransferAI
+    """
+    print(f"\n===== Custom Test: {prompt} =====")
+    
+    engine = initialize_engine()
+    response = engine.handle_query(prompt)
+    
+    if response:
+        print(response.strip())
+    else:
+        print("No response received")
+        
+    print("=" * 60 + "\n")
+    return response if response else ""
+
+def run_batch_tests(start_idx: int = 0, count: int = 5) -> List[Dict[str, Any]]:
+    """
+    Run a batch of test prompts and return the results.
+    
+    Args:
+        start_idx: Starting index in the test_prompts list (0-based)
+        count: Number of tests to run
+        
+    Returns:
+        A list of result dictionaries
+    """
+    engine = initialize_engine()
+    print(f"\n🧪 Running test batch ({start_idx+1}-{min(start_idx+count, len(test_prompts))})...\n")
+    results = []
+    
+    end_idx = min(start_idx + count, len(test_prompts))
     for i in range(start_idx, end_idx):
         prompt = test_prompts[i]
         print(f"===== Test {i+1}: {prompt} =====")
         
-        # Store result in a dictionary
-        result = {
-            "test_num": i+1,
-            "prompt": prompt,
-            "response": "",
-            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
-        }
-        
         response = engine.handle_query(prompt)
         if response:
             print(response.strip())
-            result["response"] = response.strip()
+            results.append({
+                "test_num": i+1,
+                "prompt": prompt,
+                "response": response.strip()
+            })
+        else:
+            print("No response received")
+            results.append({
+                "test_num": i+1,
+                "prompt": prompt,
+                "response": "No response"
+            })
+            
         print("=" * 60 + "\n")
-        all_results.append(result)
     
-    # If output file is provided, append results
-    if output_file:
-        with open(output_file, 'a') as f:
-            f.write(f"🧪 Running TransferAI test batch {start_idx//batch_size + 1}...\n\n")
-            for result in all_results:
-                f.write(f"===== Test {result['test_num']}: {result['prompt']} =====\n")
-                f.write(result['response'] + "\n")
-                f.write("=" * 60 + "\n\n")
-    
-    return end_idx, all_results
+    return results
 
-def run_all_tests_and_save(output_file: str = "llm/testing/TransferAI v1.5.txt") -> List[Dict[str, Any]]:
-    """
-    Run all tests and save the results to a file for regression testing.
-    
-    This function runs all test prompts in batches, saves the results to the specified
-    output file, and adds summary statistics.
-    
-    Args:
-        output_file: Path where test results should be saved.
-        
-    Returns:
-        A list of all test result dictionaries.
-        
-    Example:
-        >>> results = run_all_tests_and_save("test_results.txt")
-        >>> print(f"Completed {len(results)} tests")
-    """
-    # Create/clear the output file
-    with open(output_file, 'w') as f:
-        f.write(f"🧮 TransferAI v1.5 Test Suite Results - {time.strftime('%Y-%m-%d %H:%M:%S')}\n\n")
-    
-    # Run tests in batches of 5
-    start_idx = 0
-    all_results = []
-    
-    while start_idx < len(test_prompts):
-        end_idx, batch_results = run_batch_tests(start_idx, 5, output_file)
-        start_idx = end_idx
-        all_results.extend(batch_results)
-        
-        # Small delay to avoid overwhelming the model
-        time.sleep(2)
-    
-    # Add summary metrics at the end
-    with open(output_file, 'a') as f:
-        f.write("\n\n🧮 Final TransferAI v1.4 Test Suite Stats\n\n")
-        f.write(f"Total Tests: {len(all_results)}\n")
-        f.write(f"Completed: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
-    
-    print(f"✅ All test results saved to {output_file}")
-    return all_results
+def list_available_tests() -> None:
+    """Print all available tests with their indices."""
+    print("\nAvailable Tests:")
+    print("-" * 80)
+    for i, prompt in enumerate(test_prompts, 1):
+        print(f"{i:2d}. {prompt}")
+    print("-" * 80)
 
-def run_specific_test(test_prompt: str, output_file: str = None) -> str:
-    """
-    Run a single specific test prompt and optionally save the result.
+def check_ollama_service():
+    """Check if Ollama service is running and deepseek-r1:1.5b is available."""
+    import subprocess
+    import json
     
-    This function initializes the TransferAI engine, processes a single test prompt,
-    and returns the response.
+    try:
+        # Check if Ollama service is running
+        process = subprocess.run(["ollama", "list"], capture_output=True, text=True)
+        if process.returncode != 0:
+            print("⚠️ WARNING: Ollama service may not be running")
+            print("Start Ollama with: ollama serve")
+            return False
+            
+        # Check if the deepseek-r1:1.5b model is available
+        if "deepseek-r1:1.5b" not in process.stdout:
+            print("⚠️ WARNING: deepseek-r1:1.5b model not found in Ollama")
+            print("Please install the model with: ollama pull deepseek-r1:1.5b")
+            return False
+            
+        return True
+    except Exception as e:
+        print(f"⚠️ WARNING: Error checking Ollama service: {str(e)}")
+        return False
+
+def main() -> None:
+    """Command-line interface for running tests."""
+    # First check if Ollama service is running with the right model
+    check_ollama_service()
     
-    Args:
-        test_prompt: The specific prompt to test with TransferAI.
-        output_file: Optional file path to append the result to.
-        
-    Returns:
-        The response from TransferAI for the given prompt.
-        
-    Example:
-        >>> response = run_specific_test("Does CSE 12 require honors courses?")
-        >>> print(response)
-    """
-    engine = TransferAIEngine()
-    engine.configure()
-    engine.load()
-    print(f"🧪 Running specific test...\n")
+    parser = argparse.ArgumentParser(description="TransferAI Test Runner")
     
-    print(f"===== Test: {test_prompt} =====")
-    response = engine.handle_query(test_prompt)
+    # Create mutually exclusive group for test selection
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument("-t", "--test", type=int, help="Run a specific test by number")
+    group.add_argument("-p", "--prompt", type=str, help="Run a custom test prompt")
+    group.add_argument("-b", "--batch", type=int, nargs=2, metavar=("START", "COUNT"),
+                      help="Run a batch of tests starting at START and running COUNT tests")
+    group.add_argument("-l", "--list", action="store_true", help="List all available tests")
     
-    if response:
-        print(response.strip())
-        
-        # If output file is provided, append result
-        if output_file:
-            with open(output_file, 'a') as f:
-                f.write(f"===== Specific Test: {test_prompt} =====\n")
-                f.write(response.strip() + "\n")
-                f.write("=" * 60 + "\n\n")
+    args = parser.parse_args()
     
-    print("=" * 60 + "\n")
-    return response if response else ""
+    if args.list:
+        list_available_tests()
+    elif args.test:
+        run_test_by_index(args.test)
+    elif args.prompt:
+        run_test_by_prompt(args.prompt)
+    elif args.batch:
+        run_batch_tests(args.batch[0]-1, args.batch[1])  # Convert to 0-based index
+    else:
+        # No arguments provided, show help
+        list_available_tests()
+        print("\nRun a specific test with: python test_runner.py -t <test_number>")
+        print("Run a custom prompt with: python test_runner.py -p \"Your prompt here\"")
+        print("Run a batch of tests with: python test_runner.py -b <start> <count>")
 
 if __name__ == "__main__":
-    # Create the testing directory if it doesn't exist
-    
-    # Run tests in smaller batches and save results
-    output_file = "llm/regression tests/TransferAI v1.5.txt"
-    run_all_tests_and_save(output_file)
-    
-    # You can also run specific tests like this:
-    # run_specific_test("Does CSE 12 require honors courses at De Anza?", output_file)
+    main()

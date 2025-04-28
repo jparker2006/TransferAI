@@ -1,106 +1,127 @@
 """
-Tests for the main TransferAI engine functionality.
+Unit tests for the main entry point of TransferAI.
+
+Tests the command-line interface, configuration handling, and error cases.
 """
 
-import os
-import sys
 import unittest
 from unittest.mock import patch, MagicMock
+import argparse
+import logging
+from llm.main import TransferAIEngine, VerbosityLevel, ConfigurationError, DocumentLoadError, QueryProcessingError
 
-# Add the parent directory to sys.path to allow absolute imports
-sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-
-from llm.main import TransferAIEngine
-from llm.prompt_builder import VerbosityLevel
-
-
-class TestTransferAIEngine(unittest.TestCase):
-    """Test cases for the TransferAIEngine class."""
-
+class TestMainEntryPoint(unittest.TestCase):
+    """Test cases for the main entry point."""
+    
     def setUp(self):
         """Set up test fixtures."""
         self.engine = TransferAIEngine()
-
-    def test_initialization(self):
-        """Test that the engine initializes correctly."""
-        self.assertIsNotNone(self.engine)
-        self.assertEqual(len(self.engine.documents), 0)
-        self.assertIsNone(self.engine.llm)
+        
+    def test_init_default_config(self):
+        """Test initialization with default configuration."""
         self.assertEqual(self.engine.config["verbosity"], VerbosityLevel.STANDARD)
         self.assertFalse(self.engine.config["debug_mode"])
-
-    def test_configure(self):
-        """Test the configuration method."""
-        # Test setting known configuration options
-        self.engine.configure(debug_mode=True, temperature=0.5)
-        self.assertTrue(self.engine.config["debug_mode"])
-        self.assertEqual(self.engine.config["temperature"], 0.5)
+        self.assertEqual(self.engine.config["timeout"], 30)
+        self.assertEqual(self.engine.config["temperature"], 0.2)
+        self.assertEqual(self.engine.config["max_tokens"], 1000)
         
-        # Test setting unknown configuration option (should be ignored)
-        self.engine.configure(unknown_option="value")
-        self.assertNotIn("unknown_option", self.engine.config)
-
-    def test_verbosity_configuration(self):
-        """Test setting verbosity levels."""
-        # Test setting verbosity with enum
-        self.engine.configure(verbosity=VerbosityLevel.MINIMAL)
-        self.assertEqual(self.engine.config["verbosity"], VerbosityLevel.MINIMAL)
-        
-        # Test setting verbosity with string
+    def test_configure_verbosity(self):
+        """Test configuring verbosity level."""
         self.engine.configure(verbosity="DETAILED")
         self.assertEqual(self.engine.config["verbosity"], VerbosityLevel.DETAILED)
         
-        # Test invalid verbosity string (should default to STANDARD)
-        self.engine.configure(verbosity="INVALID")
-        self.assertEqual(self.engine.config["verbosity"], VerbosityLevel.STANDARD)
-
+        # Test invalid verbosity
+        with self.assertLogs(level='WARNING'):
+            self.engine.configure(verbosity="INVALID")
+            self.assertEqual(self.engine.config["verbosity"], VerbosityLevel.STANDARD)
+            
+    def test_configure_debug_mode(self):
+        """Test configuring debug mode."""
+        self.engine.configure(debug_mode=True)
+        self.assertTrue(self.engine.config["debug_mode"])
+        
+    def test_configure_multiple_options(self):
+        """Test configuring multiple options at once."""
+        self.engine.configure(
+            verbosity="DETAILED",
+            debug_mode=True,
+            timeout=60,
+            temperature=0.5
+        )
+        self.assertEqual(self.engine.config["verbosity"], VerbosityLevel.DETAILED)
+        self.assertTrue(self.engine.config["debug_mode"])
+        self.assertEqual(self.engine.config["timeout"], 60)
+        self.assertEqual(self.engine.config["temperature"], 0.5)
+        
     @patch('llm.document_loader.load_documents')
-    def test_load(self, mock_load_documents):
-        """Test loading documents."""
-        mock_docs = [MagicMock(), MagicMock()]
-        mock_load_documents.return_value = mock_docs
+    def test_load_error_handling(self, mock_load):
+        """Test error handling during document loading."""
+        mock_load.return_value = None  # Simulate no documents loaded
         
-        self.engine.load()
+        with self.assertRaises(DocumentLoadError):
+            self.engine.load()
+            
+    def test_handle_query_error_handling(self):
+        """Test error handling in query processing."""
+        # Test empty query
+        result = self.engine.handle_query("")
+        self.assertIsNone(result)
         
-        mock_load_documents.assert_called_once()
-        self.assertEqual(self.engine.documents, mock_docs)
-
-    @patch('llm.main.TransferAIEngine._call_llm')
-    @patch('llm.main.build_prompt')
-    def test_verbosity_in_handle_query(self, mock_build_prompt, mock_call_llm):
-        """Test that verbosity level is passed to build_prompt."""
-        # Setup
-        self.engine.documents = [MagicMock()]
-        self.engine.documents[0].metadata = {
-            "uc_course": "CSE 11",
-            "uc_title": "Introduction to Programming",
-            "logic_block": {}
-        }
+        # Test query with no documents loaded
+        with self.assertRaises(QueryProcessingError) as context:
+            self.engine.handle_query("test query")
+        self.assertEqual(str(context.exception), "No documents loaded. Unable to process query.")
         
-        mock_call_llm.return_value = "Response"
+        # Test query processing error
+        with patch.object(self.engine, '_process_query_with_handler') as mock_process:
+            mock_process.side_effect = Exception("Test error")
+            with self.assertRaises(QueryProcessingError):
+                self.engine.handle_query("test query")
         
-        # Test with MINIMAL verbosity
-        self.engine.configure(verbosity=VerbosityLevel.MINIMAL)
-        self.engine._find_matching_documents = MagicMock(return_value=[self.engine.documents[0]])
-        self.engine._generate_response = MagicMock()
+    @patch('builtins.print')
+    def test_cli_interface(self, mock_print):
+        """Test command-line interface functionality."""
+        with patch('argparse.ArgumentParser.parse_args') as mock_args:
+            mock_args.return_value = argparse.Namespace(
+                query="test query",
+                verbosity="STANDARD",
+                debug=False,
+                use_new_architecture=False,
+                log_level="INFO",
+                config=None
+            )
+            
+            # Import here to avoid circular import
+            from llm.main import main
+            
+            # Mock sys.exit to prevent test from exiting
+            with patch('sys.exit'):
+                # Mock load_documents to return some data
+                with patch('llm.document_loader.load_documents') as mock_load:
+                    mock_load.return_value = [MagicMock(text="test")]
+                    
+                    # Mock query_engine to avoid actual LLM calls
+                    with patch('llama_index.core.VectorStoreIndex.as_query_engine') as mock_engine:
+                        mock_engine.return_value.query.return_value = "Test response"
+                        
+                        main()
+                        
+                        # Verify output
+                        mock_print.assert_called()
+            
+    def test_backward_compatibility(self):
+        """Test backward compatibility with old architecture."""
+        # Test that old-style configuration still works
+        old_engine = TransferAIEngine(verbosity=VerbosityLevel.STANDARD, debug_mode=False)
+        self.assertEqual(old_engine.config["verbosity"], VerbosityLevel.STANDARD)
         
-        self.engine.handle_query("What courses satisfy CSE 11?")
+        # Test string-based verbosity
+        old_engine = TransferAIEngine(verbosity="STANDARD", debug_mode=False)
+        self.assertEqual(old_engine.config["verbosity"], VerbosityLevel.STANDARD)
         
-        # Verify verbosity was passed correctly
-        calls = mock_build_prompt.call_args_list
-        for call in calls:
-            if 'verbosity' in call.kwargs:
-                self.assertEqual(call.kwargs['verbosity'], VerbosityLevel.MINIMAL)
+        # Test that old-style method calls still work
+        self.assertIsNotNone(old_engine.set_verbosity)
+        self.assertIsNotNone(old_engine.configure)
         
-        # Test with DETAILED verbosity
-        self.engine.configure(verbosity=VerbosityLevel.DETAILED)
-        self.engine.handle_query("What courses satisfy CSE 11?")
-        
-        calls = mock_build_prompt.call_args_list
-        for call in calls:
-            if 'verbosity' in call.kwargs:
-                self.assertEqual(call.kwargs['verbosity'], VerbosityLevel.DETAILED)
-
-
 if __name__ == '__main__':
     unittest.main() 
