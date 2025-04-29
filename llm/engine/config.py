@@ -15,6 +15,19 @@ from pathlib import Path
 
 logger = logging.getLogger(__name__)
 
+# Exception classes for TransferAI
+class ConfigurationError(Exception):
+    """Exception raised for configuration errors."""
+    pass
+
+class DocumentLoadError(Exception):
+    """Exception raised when document loading fails."""
+    pass
+
+class QueryProcessingError(Exception):
+    """Exception raised when query processing fails."""
+    pass
+
 class Environment(Enum):
     """Supported environment types."""
     DEVELOPMENT = "development"

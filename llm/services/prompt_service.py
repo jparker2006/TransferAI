@@ -13,8 +13,8 @@ It provides:
 from enum import Enum, auto
 from typing import Dict, Any, Optional, Union, List
 
-from ..models.query import Query, QueryType
-from ..templates import (
+from llm.models.query import Query, QueryType
+from llm.templates import (
     COURSE_TEMPLATES,
     NO_ARTICULATION_TEMPLATES,
     GROUP_TEMPLATES,

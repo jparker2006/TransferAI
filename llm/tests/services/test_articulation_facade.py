@@ -8,6 +8,7 @@ a unified interface to the articulation package functionality.
 import unittest
 from unittest.mock import patch, MagicMock
 import json
+import os
 from typing import Dict, List, Any
 
 from llm.services.articulation_facade import ArticulationFacade
@@ -104,6 +105,70 @@ class TestArticulationFacade(unittest.TestCase):
                             "name": "MATH 20A",
                             "logic_blocks": [self.simple_logic_block]
                         }
+                    ]
+                }
+            ]
+        }
+        
+        # Direct format from rag_data.json for CSE 8A (for articulation options tests)
+        self.cse8a_logic_block = {
+            "type": "OR",
+            "courses": [
+                {
+                    "type": "AND",
+                    "courses": [
+                        {
+                            "name": "CIS 22A Beginning Programming Methodologies in C++",
+                            "honors": False,
+                            "course_id": "a6d419c5",
+                            "course_letters": "CIS 22A",
+                            "title": "Beginning Programming Methodologies in C++"
+                        }
+                    ]
+                },
+                {
+                    "type": "AND",
+                    "courses": [
+                        {
+                            "name": "CIS 36A Introduction to Computer Programming Using Java",
+                            "honors": False,
+                            "course_id": "a1733a15",
+                            "course_letters": "CIS 36A",
+                            "title": "Introduction to Computer Programming Using Java"
+                        }
+                    ]
+                },
+                {
+                    "type": "AND",
+                    "courses": [
+                        {
+                            "name": "CIS 40 Introduction to Programming in Python",
+                            "honors": False,
+                            "course_id": "a1f64eec",
+                            "course_letters": "CIS 40",
+                            "title": "Introduction to Programming in Python"
+                        }
+                    ]
+                }
+            ]
+        }
+        
+        # Format used in test_course_lookup_handler.py (for articulation options tests)
+        self.test_cse8a_logic_block = {
+            "options": [
+                {
+                    "courses": [
+                        {"name": "CIS 22A Introduction to Programming", "is_honors": False}
+                    ]
+                },
+                {
+                    "courses": [
+                        {"name": "CIS 36A Python Programming", "is_honors": False}
+                    ]
+                },
+                {
+                    "courses": [
+                        {"name": "CIS 40 C++ Programming", "is_honors": False}
                     ]
                 }
             ]
@@ -257,6 +322,78 @@ class TestArticulationFacade(unittest.TestCase):
         # Verify
         mock_explain_honors_equivalence.assert_called_once_with("MATH 1A", "MATH 1AH")
         self.assertEqual(result, mock_explanation)
+    
+    # Tests from test_articulation_options.py
+    
+    def test_get_articulation_options_with_standard_format(self):
+        """Test get_articulation_options with the standard OR/AND nested format."""
+        options = self.facade.get_articulation_options(self.cse8a_logic_block)
+        
+        # Assert the result has options
+        self.assertIn("options", options)
+        self.assertTrue(len(options["options"]) > 0)
+        
+        # Print for debugging
+        print(f"Standard format result: {json.dumps(options, indent=2)}")
+        
+        # Verify structure
+        for option in options["options"]:
+            self.assertIn("courses", option)
+            self.assertTrue(len(option["courses"]) > 0)
+
+    def test_get_articulation_options_with_test_format(self):
+        """Test get_articulation_options with the format used in tests."""
+        options = self.facade.get_articulation_options(self.test_cse8a_logic_block)
+        
+        # Assert the result has options
+        self.assertIn("options", options)
+        self.assertTrue(len(options["options"]) > 0)
+        
+        # Print for debugging
+        print(f"Test format result: {json.dumps(options, indent=2)}")
+        
+        # Verify structure
+        for option in options["options"]:
+            self.assertIn("courses", option)
+            self.assertTrue(len(option["courses"]) > 0)
+            
+    def test_get_articulation_options_with_real_data(self):
+        """Test get_articulation_options with real data from the rag_data.json file."""
+        # Load the actual data from rag_data.json
+        rag_data_path = os.path.join(os.path.dirname(__file__), '..', '..', 'data', 'rag_data.json')
+        
+        if not os.path.exists(rag_data_path):
+            self.skipTest(f"Skipping test because {rag_data_path} not found")
+            
+        with open(rag_data_path, 'r') as f:
+            data = json.load(f)
+            
+        # Find CSE 8A logic block
+        cse8a_block = None
+        for group in data.get('groups', []):
+            for section in group.get('sections', []):
+                for uc_course in section.get('uc_courses', []):
+                    if uc_course.get('uc_course_id') == 'CSE 8A':
+                        cse8a_block = uc_course.get('logic_block')
+                        break
+                if cse8a_block:
+                    break
+            if cse8a_block:
+                break
+                
+        if not cse8a_block:
+            self.skipTest("Skipping test because CSE 8A not found in rag_data.json")
+            
+        # Test with the real data
+        options = self.facade.get_articulation_options(cse8a_block)
+        
+        # Print for debugging
+        print(f"Real data result: {json.dumps(options, indent=2)}")
+        print(f"Original data: {json.dumps(cse8a_block, indent=2)}")
+        
+        # Assert the result has options
+        self.assertIn("options", options)
+        self.assertTrue(len(options["options"]) > 0)
 
 
 if __name__ == '__main__':

@@ -24,7 +24,7 @@ from pydantic import ValidationError
 # Add the parent directory to sys.path to allow imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from articulation.models import (
+from llm.articulation.models import (
     CourseOption,
     LogicBlock,
     ValidationResult,

@@ -2,127 +2,223 @@
 """
 TransferAI Unit Test Runner
 
-This script runs the unit test suite for the TransferAI articulation package.
-It prioritizes the module-specific tests for the new architecture and includes
-tests for both articulation modules and services.
+This script runs all unit tests for the TransferAI system,
+or specific test modules if specified.
 """
 
-import unittest
 import os
 import sys
-import warnings
+import unittest
 import argparse
+import logging
+import importlib.util
+from typing import List, Optional
 
-# Improve path setup for imports
-current_dir = os.path.dirname(os.path.abspath(__file__))
-parent_dir = os.path.dirname(current_dir)
+# Add the project root and llm directory to Python path for proper imports
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+llm_dir = os.path.join(project_root, "llm")
+sys.path.insert(0, project_root)
+sys.path.insert(0, llm_dir)
 
-# Add both the current directory and parent directory to sys.path
-# This ensures both direct imports and llm.* imports will work
-if current_dir not in sys.path:
-    sys.path.insert(0, current_dir)  # For imports like "from articulation import X"
-if parent_dir not in sys.path:
-    sys.path.insert(0, parent_dir)   # For imports like "from llm.articulation import X"
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(message)s')
+logger = logging.getLogger(__name__)
 
-# Filter out deprecation warnings from legacy tests
-warnings.filterwarnings("ignore", category=DeprecationWarning)
 
-# Define the test directory
-TEST_DIR = os.path.join(current_dir, "tests")
-
-def discover_tests(directory, pattern=None):
-    """Discover tests in the specified directory with optional pattern filtering."""
-    loader = unittest.TestLoader()
-    if pattern:
-        return loader.discover(directory, pattern=pattern)
-    else:
-        return loader.discover(directory)
-
-def run_tests(test_modules=None, verbosity=2):
+def discover_tests(test_dir: str, pattern: str = "test_*.py") -> unittest.TestSuite:
     """
-    Run unit tests with optional filtering by module.
+    Discover tests in the specified directory.
     
     Args:
-        test_modules: List of module names to run (articulation, services, repositories, or None for all)
-        verbosity: Test runner verbosity level
-    
+        test_dir: Directory to discover tests in
+        pattern: Pattern to match test files
+        
     Returns:
-        Exit code (0 for success, 1 for failures)
+        Test suite containing all discovered tests
     """
-    print(f"\n=== TransferAI Unit Tests ===")
-    print(f"Python path: {sys.path[:2]}")  # Show first two paths for debugging
+    logger.info(f"Discovering all tests in {test_dir}...")
     
-    # Create a test suite
+    if not os.path.exists(test_dir):
+        logger.warning(f"Test directory not found: {test_dir}")
+        return unittest.TestSuite()
+    
+    loader = unittest.defaultTestLoader
+    suite = loader.discover(test_dir, pattern=pattern)
+    
+    # Explicitly discover tests in services directory with proper naming
+    services_dir = os.path.join(test_dir, "services")
+    if os.path.exists(services_dir):
+        for file in os.listdir(services_dir):
+            if file.startswith("test_") and file.endswith(".py"):
+                module_name = f"llm.tests.services.{os.path.splitext(file)[0]}"
+                try:
+                    module = importlib.import_module(module_name)
+                    test_suite = loader.loadTestsFromModule(module)
+                    suite.addTests(test_suite)
+                    logger.debug(f"Loaded tests from {module_name}")
+                except Exception as e:
+                    logger.error(f"Error loading module {module_name}: {str(e)}")
+    
+    return suite
+
+
+def load_test_module(module_path: str) -> Optional[unittest.TestSuite]:
+    """
+    Load a test module from the specified path.
+    
+    Args:
+        module_path: Dotted path to the test module
+        
+    Returns:
+        Test suite for the module, or None if the module is not found
+    """
+    try:
+        # Skip direct 'services.test_*' module imports - these are handled by our custom discovery
+        if module_path.startswith("services.test_"):
+            # Convert 'services.test_x' to 'llm.tests.services.test_x'
+            module_name = f"llm.tests.{module_path}"
+            logger.debug(f"Redirecting {module_path} to {module_name}")
+        # Handle llm.tests prefix and direct module names
+        elif module_path.startswith("llm.tests."):
+            module_name = module_path
+        elif module_path.startswith("tests."):
+            module_name = f"llm.{module_path}"
+        else:
+            module_name = f"llm.tests.{module_path}"
+        
+        logger.debug(f"Trying to load module: {module_name}")
+        
+        # Try direct import first
+        try:
+            module = importlib.import_module(module_name)
+            return unittest.defaultTestLoader.loadTestsFromModule(module)
+        except ModuleNotFoundError:
+            # Fall back to file-based loading if needed
+            module_parts = module_name.split(".")
+            if len(module_parts) > 1:
+                rel_path = os.path.join(*module_parts[1:]) + ".py"
+                abs_path = os.path.join(llm_dir, rel_path)
+                
+                if os.path.exists(abs_path):
+                    spec = importlib.util.spec_from_file_location(module_name, abs_path)
+                    module = importlib.util.module_from_spec(spec)
+                    spec.loader.exec_module(module)
+                    return unittest.defaultTestLoader.loadTestsFromModule(module)
+            
+            logger.warning(f"Test module not found: {module_name}")
+            return None
+            
+    except Exception as e:
+        logger.error(f"Error loading test module {module_path}: {str(e)}")
+        return None
+
+
+def run_tests(tests: List[str] = None, test_dir: str = None, verbosity: int = 1) -> bool:
+    """
+    Run the specified tests or discover and run all tests.
+    
+    Args:
+        tests: List of test module paths to run
+        test_dir: Directory to discover tests in, if tests is None
+        verbosity: Verbosity level for test output
+        
+    Returns:
+        True if all tests passed, False otherwise
+    """
+    logger.info("=== TransferAI Unit Tests ===")
+    logger.info(f"Python path: {sys.path[:2]}")
+    
     suite = unittest.TestSuite()
     
-    # Define module directories and their test patterns
-    module_specs = {
-        "articulation": {
-            "dir": os.path.join(TEST_DIR, "articulation"),
-            "pattern": "test_articulation_*.py"
-        },
-        "services": {
-            "dir": os.path.join(TEST_DIR, "services"),
-            "pattern": "test_*.py"
-        },
-        "repositories": {
-            "dir": os.path.join(TEST_DIR, "repositories"),
-            "pattern": "test_*.py"
-        }
-    }
+    # Determine test directory
+    test_dir = test_dir or os.path.join(llm_dir, "tests")
+    services_dir = os.path.join(test_dir, "services")
     
-    # Determine which modules to test
-    modules_to_test = test_modules or list(module_specs.keys())
+    # Flag to track if we need to add services tests manually
+    include_services = True
     
-    # Add tests for selected modules
-    for module in modules_to_test:
-        if module in module_specs:
-            spec = module_specs[module]
-            module_dir = spec["dir"]
-            pattern = spec["pattern"]
-            
-            if os.path.exists(module_dir):
-                print(f"\nDiscovering tests in {module} module...")
+    if tests:
+        # Skip any service test direct references
+        non_service_tests = [t for t in tests if not t.startswith("services.test_")]
+        service_tests = [t for t in tests if t.startswith("services.test_")]
+        
+        if service_tests and not non_service_tests:
+            # Only service tests were requested
+            # Only load service tests
+            include_services = True
+            tests = []
+        else:
+            # Mixed or non-service tests
+            tests = non_service_tests
+            # Only include service tests if they were explicitly requested
+            include_services = len(service_tests) > 0
+        
+        # Run specific non-service test modules
+        for test_path in tests:
+            test_suite = load_test_module(test_path)
+            if test_suite:
+                suite.addTests(test_suite)
+    else:
+        # Discover and run all non-service tests
+        # We'll add services tests separately to avoid duplicates
+        for root, dirs, files in os.walk(test_dir):
+            # Skip the services directory - we'll handle it separately
+            if "services" in dirs:
+                dirs.remove("services")
+                
+            # Only process Python test files
+            for file in files:
+                if file.startswith("test_") and file.endswith(".py"):
+                    rel_path = os.path.relpath(os.path.join(root, file), llm_dir)
+                    module_name = os.path.splitext(rel_path)[0].replace(os.path.sep, ".")
+                    try:
+                        module = importlib.import_module(module_name)
+                        suite.addTests(unittest.defaultTestLoader.loadTestsFromModule(module))
+                        logger.debug(f"Loaded tests from {module_name}")
+                    except Exception as e:
+                        logger.error(f"Error loading module {module_name}: {str(e)}")
+    
+    # Add service tests if requested or if running all tests
+    if include_services and os.path.exists(services_dir):
+        logger.info(f"Discovering service tests in {services_dir}...")
+        for file in os.listdir(services_dir):
+            if file.startswith("test_") and file.endswith(".py"):
+                module_name = f"llm.tests.services.{os.path.splitext(file)[0]}"
                 try:
-                    module_tests = discover_tests(module_dir, pattern)
-                    suite.addTest(module_tests)
-                    print(f"Added tests from {module} module")
+                    module = importlib.import_module(module_name)
+                    suite.addTests(unittest.defaultTestLoader.loadTestsFromModule(module))
+                    logger.debug(f"Loaded tests from {module_name}")
                 except Exception as e:
-                    print(f"Error loading tests from {module}: {e}")
-            else:
-                print(f"Warning: Test directory {module_dir} does not exist")
-    
-    # Create a test runner
-    runner = unittest.TextTestRunner(verbosity=verbosity)
+                    logger.error(f"Error loading module {module_name}: {str(e)}")
     
     # Run the tests
+    runner = unittest.TextTestRunner(verbosity=verbosity)
     result = runner.run(suite)
     
-    # Return a failure code if any test failed
-    return 0 if result.wasSuccessful() else 1
+    return result.wasSuccessful()
+
 
 def main():
-    """Parse command-line arguments and run tests."""
+    """Main entry point for the test runner."""
     parser = argparse.ArgumentParser(description="Run TransferAI unit tests")
-    parser.add_argument('--modules', nargs='+', 
-                      choices=['articulation', 'services', 'repositories', 'all'],
-                      help='Specify which modules to test')
-    parser.add_argument('--verbose', '-v', action='count', default=1,
-                      help='Increase verbosity (can be used multiple times)')
+    parser.add_argument("tests", nargs="*", help="Specific test modules to run")
+    parser.add_argument("--test_dir", help="Directory to discover tests in")
+    parser.add_argument("--verbose", "-v", action="store_true", help="Verbose output")
+    parser.add_argument("--debug", action="store_true", help="Debug mode")
     
     args = parser.parse_args()
     
-    # Handle module selection
-    if args.modules:
-        if 'all' in args.modules:
-            modules = None  # Run all modules
-        else:
-            modules = args.modules
-    else:
-        modules = None  # Default: run all modules
+    if args.debug:
+        logger.setLevel(logging.DEBUG)
     
-    # Run tests with selected modules and verbosity
-    return run_tests(modules, args.verbose + 1)
+    success = run_tests(
+        tests=args.tests,
+        test_dir=args.test_dir,
+        verbosity=2 if args.verbose else 1
+    )
+    
+    sys.exit(0 if success else 1)
+
 
 if __name__ == "__main__":
-    sys.exit(main()) 
+    main() 

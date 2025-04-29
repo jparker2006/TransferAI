@@ -11,7 +11,7 @@ import sys
 from pathlib import Path
 
 from llm.engine.transfer_engine import TransferAIEngine
-from llm.engine.config import Config, load_config
+from llm.engine.config import Config, load_config, ConfigurationError, DocumentLoadError, QueryProcessingError
 from llm.services.prompt_service import VerbosityLevel
 
 def main():

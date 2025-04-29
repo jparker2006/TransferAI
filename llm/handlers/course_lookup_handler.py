@@ -5,6 +5,7 @@ This module implements the handler for course lookup queries. These queries
 ask which CCC courses satisfy a specific UC course requirement.
 """
 
+import logging
 from typing import Optional, Dict, Any, List
 
 from llm.models.query import Query, QueryResult, QueryType
@@ -14,6 +15,8 @@ from llm.services.matching_service import MatchingService
 from llm.services.articulation_facade import ArticulationFacade
 from llm.services.query_service import QueryService
 
+# Set up logger
+logger = logging.getLogger(__name__)
 
 class CourseLookupHandler(QueryHandler):
     """
@@ -86,77 +89,81 @@ class CourseLookupHandler(QueryHandler):
             QueryResult containing the list of CCC courses that satisfy the UC course
         """
         if not query.uc_courses:
+            logger.warning("Course lookup query missing UC course specification")
             return QueryResult(
                 raw_response="Could not process lookup query - no UC course specified.",
                 formatted_response="Please specify which UC course you want to look up. For example, 'Which courses satisfy CSE 8A?'"
             )
         
         uc_course = query.uc_courses[0]  # Process the first UC course mentioned
-        all_documents = self.document_repository.get_all_documents()
+        logger.info(f"Processing course lookup query for UC course: {uc_course}")
         
-        # Find the document for this UC course
-        matching_docs = []
-        for doc in all_documents:
-            doc_uc_course = doc.metadata.get("uc_course", "")
-            if self.query_service.normalize_course_code(doc_uc_course) == self.query_service.normalize_course_code(uc_course):
-                matching_docs.append(doc)
+        # Use MatchingService to find documents - same approach as ValidationQueryHandler
+        matching_docs = self.matching_service.match_documents(
+            documents=self.document_repository.get_all_documents(),
+            uc_courses=[uc_course],
+            ccc_courses=[],  # No CCC courses for lookup queries
+            query_text=query.text
+        )
+        
+        # Filter to documents for this specific UC course
+        matching_docs = [
+            doc for doc in matching_docs
+            if self.query_service.normalize_course_code(doc.metadata.get("uc_course", "")) == 
+               self.query_service.normalize_course_code(uc_course)
+        ]
         
         if not matching_docs:
+            logger.warning(f"No documents found for UC course: {uc_course}")
             return QueryResult(
                 raw_response=f"No information found for {uc_course}.",
-                formatted_response=f"I couldn't find any articulation information for {uc_course}."
+                formatted_response=f"I couldn't find any articulation information for {uc_course}. This may mean the course isn't included in the current dataset."
             )
         
-        doc = matching_docs[0]  # Use the first matching document
+        # Get the primary document for this course
+        doc = matching_docs[0]
+        logger.debug(f"Found document for {uc_course}: {doc.metadata.get('id', 'unknown')}")
         
-        # Check if the course has no articulation
+        # Extract the logic block
         logic_block = doc.metadata.get("logic_block", {})
-        if not logic_block or logic_block.get("no_articulation", False):
+        
+        # Check if the course has been explicitly marked as having no articulation
+        if isinstance(logic_block, dict) and logic_block.get("no_articulation", False):
+            logger.info(f"Course {uc_course} explicitly marked as having no articulation")
             return QueryResult(
                 raw_response=f"No articulation for {uc_course}.",
-                formatted_response=f"# No articulation for {uc_course}\n\nAccording to the articulation agreement, there are no De Anza courses that satisfy {uc_course}."
+                formatted_response=f"# No articulation for {uc_course}\n\nAccording to the articulation agreement, there are no courses that satisfy {uc_course}."
             )
         
-        # Extract and format the articulation options
-        options = logic_block.get("options", [])
-        
-        # Convert the logic block to a more readable format
-        option_descriptions = []
-        for i, option in enumerate(options):
-            courses = option.get("courses", [])
+        # Extract articulation options using the ArticulationFacade
+        try:
+            articulation_info = self.articulation_facade.get_articulation_options(logic_block)
             
-            # Format courses based on whether they're an AND group or single course
-            course_descriptions = []
-            for course in courses:
-                if isinstance(course, list):  # AND group
-                    course_names = [c.get("name").split(" ", 1)[0] for c in course]
-                    course_descriptions.append(", ".join(course_names))
-                elif isinstance(course, dict):  # Single course
-                    course_name = course.get("name").split(" ", 1)[0]  # Extract just the course code
-                    course_descriptions.append(course_name)
+            if not articulation_info or not articulation_info.get("options"):
+                logger.warning(f"No valid articulation options found for {uc_course}")
+                return QueryResult(
+                    raw_response=f"No valid articulation options for {uc_course}.",
+                    formatted_response=f"# No articulation for {uc_course}\n\nAccording to the articulation agreement, there are no courses that satisfy {uc_course}."
+                )
             
-            # If this is an AND group, join with "AND", otherwise list them as separate options
-            if len(course_descriptions) > 1:
-                option_descriptions.append(f"Option {chr(65+i)}: {' AND '.join(course_descriptions)}")
-            else:
-                option_descriptions.append(f"Option {chr(65+i)}: {course_descriptions[0]}")
-        
-        # Check if any courses satisfy the UC course
-        if not option_descriptions:
+            # Use the ArticulationFacade to format the response
+            formatted_response = self.articulation_facade.format_course_options(
+                uc_course, articulation_info
+            )
+            
             return QueryResult(
-                raw_response=f"No articulation for {uc_course}.",
-                formatted_response=f"# No articulation for {uc_course}\n\nAccording to the articulation agreement, there are no De Anza courses that satisfy {uc_course}."
+                raw_response=f"Found articulation options for {uc_course}",
+                formatted_response=formatted_response,
+                matched_docs=matching_docs,
+                metadata={
+                    "uc_course": uc_course,
+                    "articulation_info": articulation_info
+                }
             )
-        
-        # Format the response
-        if len(option_descriptions) == 1:
-            formatted_response = f"# {uc_course} can be satisfied by:\n\n{option_descriptions[0]}"
-        else:
-            options_text = "\n".join(option_descriptions)
-            formatted_response = f"# {uc_course} can be satisfied by any of these options:\n\n{options_text}"
             
-        return QueryResult(
-            raw_response=f"Courses that satisfy {uc_course}: {', '.join(option_descriptions)}",
-            formatted_response=formatted_response,
-            matched_docs=matching_docs
-        ) 
+        except Exception as e:
+            logger.error(f"Error processing articulation data for {uc_course}: {str(e)}")
+            return QueryResult(
+                raw_response=f"Error processing articulation data: {str(e)}",
+                formatted_response=f"I encountered an error while processing the articulation information for {uc_course}. Please try again or contact support if the issue persists."
+            ) 

@@ -76,7 +76,13 @@ class TransferAIEngine:
         self.matching_service = matching_service or MatchingService()
         
         # Initialize prompt service with verbosity from config
-        verbosity = VerbosityLevel[self.config.get("verbosity", "STANDARD").upper()]
+        verbosity_str = self.config.get("verbosity", "STANDARD").upper()
+        try:
+            verbosity = VerbosityLevel[verbosity_str]
+        except KeyError:
+            # Fall back to default if invalid
+            verbosity = VerbosityLevel.STANDARD
+            
         self.prompt_service = prompt_service or PromptService(verbosity=verbosity)
         
         # Initialize handler registry
@@ -118,8 +124,13 @@ class TransferAIEngine:
         
         # Update component configurations as needed
         if "verbosity" in kwargs:
-            verbosity = VerbosityLevel[kwargs["verbosity"].upper()]
-            self.prompt_service.set_verbosity(verbosity)
+            try:
+                verbosity_str = kwargs["verbosity"].upper()
+                verbosity = VerbosityLevel[verbosity_str]
+                self.prompt_service.set_verbosity(verbosity)
+            except KeyError:
+                # Just log a warning and continue with current verbosity
+                self.logger.warning(f"Invalid verbosity level: {kwargs['verbosity']}. Using current setting.")
         
         # Update LLM if model changed
         if "llm_model" in kwargs:

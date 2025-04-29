@@ -156,3 +156,176 @@ class ArticulationFacade:
         """
         from llm.articulation import explain_honors_equivalence
         return explain_honors_equivalence(course1, course2)
+
+    def get_articulation_options(self, logic_block: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Extract articulation options from a logic block.
+        
+        Args:
+            logic_block: The logic block containing articulation data
+            
+        Returns:
+            Dictionary with articulation options information
+        """
+        if not logic_block or not isinstance(logic_block, dict):
+            return {"options": []}
+        
+        # Check if the logic block is marked as having no articulation
+        if logic_block.get("no_articulation", False):
+            return {"options": []}
+            
+        result = {"options": []}
+        
+        # Handle two different format types:
+        # 1. If logic_block has "options" key directly, use that format
+        # 2. If logic_block has "type"/"courses" keys (standard OR/AND structure), convert it
+        
+        if "options" in logic_block:
+            # Format 1: Direct options format
+            options = logic_block.get("options", [])
+            
+            for option in options:
+                option_data = {"courses": []}
+                courses = option.get("courses", [])
+                
+                for course in courses:
+                    if isinstance(course, list):  # AND group
+                        and_group = []
+                        for c in course:
+                            # Get the full course name without description
+                            full_name = c.get("name", "")
+                            course_name = full_name.split(" ", 1)[0] if " " in full_name else full_name
+                            is_honors = c.get("is_honors", False)
+                            and_group.append({
+                                "name": course_name,
+                                "is_honors": is_honors
+                            })
+                        option_data["courses"].append({
+                            "type": "AND",
+                            "courses": and_group
+                        })
+                    elif isinstance(course, dict):  # Single course
+                        # Get the full course name without description
+                        full_name = course.get("name", "")
+                        course_name = full_name.split(" ", 1)[0] if " " in full_name else full_name
+                        is_honors = course.get("is_honors", False)
+                        option_data["courses"].append({
+                            "name": course_name,
+                            "is_honors": is_honors
+                        })
+                
+                result["options"].append(option_data)
+                
+        elif "type" in logic_block and logic_block["type"] == "OR":
+            # Format 2: Standard OR/AND nested format
+            
+            # Each AND block in the OR block becomes an option
+            for and_block in logic_block.get("courses", []):
+                if isinstance(and_block, dict) and and_block.get("type") == "AND":
+                    option_data = {"courses": []}
+                    
+                    # Process courses in the AND block
+                    course_list = and_block.get("courses", [])
+                    
+                    if len(course_list) > 1:
+                        # Multiple courses in AND relationship
+                        and_group = []
+                        for course in course_list:
+                            # Extract course details
+                            if isinstance(course, dict):
+                                # First try to get the course_letters field (this is the correct code)
+                                course_name = course.get("course_letters", "")
+                                if not course_name:
+                                    # If not available, fall back to the name field
+                                    full_name = course.get("name", "")
+                                    course_name = full_name.split(" ", 1)[0] if " " in full_name else full_name
+                                
+                                is_honors = course.get("honors", False)
+                                and_group.append({
+                                    "name": course_name,
+                                    "is_honors": is_honors
+                                })
+                        
+                        if and_group:
+                            option_data["courses"].append({
+                                "type": "AND",
+                                "courses": and_group
+                            })
+                    else:
+                        # Single course in AND block
+                        for course in course_list:
+                            if isinstance(course, dict):
+                                # First try to get the course_letters field (this is the correct code)
+                                course_name = course.get("course_letters", "")
+                                if not course_name:
+                                    # If not available, fall back to the name field
+                                    full_name = course.get("name", "")
+                                    course_name = full_name.split(" ", 1)[0] if " " in full_name else full_name
+                                
+                                is_honors = course.get("honors", False)
+                                option_data["courses"].append({
+                                    "name": course_name,
+                                    "is_honors": is_honors
+                                })
+                    
+                    # Add the option only if it has courses
+                    if option_data["courses"]:
+                        result["options"].append(option_data)
+        
+        return result
+
+    def format_course_options(self, uc_course: str, articulation_info: Dict[str, Any]) -> str:
+        """
+        Format articulation options into a human-readable response.
+        
+        Args:
+            uc_course: The UC course code
+            articulation_info: Articulation information from get_articulation_options
+            
+        Returns:
+            Formatted response string
+        """
+        options = articulation_info.get("options", [])
+        
+        if not options:
+            return f"# No articulation for {uc_course}\n\nAccording to the articulation agreement, there are no courses that satisfy {uc_course}."
+        
+        # Format each option
+        option_texts = []
+        for i, option in enumerate(options):
+            option_letter = chr(65 + i)  # A, B, C, etc.
+            
+            # Process the courses in this option
+            course_descriptions = []
+            courses = option.get("courses", [])
+            
+            for course_item in courses:
+                if isinstance(course_item, dict) and course_item.get("type") == "AND":
+                    # Handle AND group
+                    and_courses = course_item.get("courses", [])
+                    course_names = []
+                    for course in and_courses:
+                        name = course.get("name", "")
+                        is_honors = course.get("is_honors", False)
+                        if is_honors:
+                            name += " (Honors)"
+                        course_names.append(name)
+                    course_descriptions.append(f"{', '.join(course_names)} (complete all)")
+                else:
+                    # Handle single course
+                    name = course_item.get("name", "")
+                    is_honors = course_item.get("is_honors", False)
+                    if is_honors:
+                        name += " (Honors)"
+                    course_descriptions.append(name)
+            
+            if len(course_descriptions) == 1:
+                option_texts.append(f"**Option {option_letter}**: {course_descriptions[0]}")
+            else:
+                option_texts.append(f"**Option {option_letter}**: {'; '.join(course_descriptions)}")
+        
+        options_text = "\n".join(option_texts)
+        if len(options) == 1:
+            return f"# {uc_course} can be satisfied by:\n\n{options_text}"
+        else:
+            return f"# {uc_course} can be satisfied by any of these options:\n\n{options_text}"

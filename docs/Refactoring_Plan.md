@@ -611,3 +611,133 @@ Initial testing of the refactored architecture has revealed that certain query p
 | 4    | Validation & Selection | Enhanced validation, better handler selection |
 | 5    | Templates & Context | Updated templates, better context building |
 | 6    | Testing & Documentation | Final validation, comprehensive documentation | 
+
+## 11. Regression Test Bugs Analysis
+
+After running the v1.6 regression test suite, several critical bugs have been identified that need to be fixed to ensure the refactored system provides accurate articulation information.
+
+### 11.1 Summary of Key Issues
+
+| Bug ID | Description | Test Examples | Severity |
+|--------|-------------|--------------|----------|
+| B-01   | CourseLookupHandler fails to access articulation data correctly | Tests 1-3, 10-11, 17, 19, 21-22, 24, 30, 33 | HIGH |
+| B-02   | Inconsistent query type classification | Tests 24, 29, 32 | MEDIUM |
+| B-03   | Group query detection not identifying all relevant cases | Test 7 | MEDIUM |
+| B-04   | FallbackQueryHandler not providing useful information | Tests 16, 29 | LOW |
+| B-05   | HonorsQueryHandler providing incomplete responses | Test 32 | LOW |
+
+### 11.2 Detailed Bug Analysis
+
+#### B-01: CourseLookupHandler Missing Articulation Data
+
+The CourseLookupHandler consistently returns "No articulation for [COURSE]" for courses that demonstrably have articulation options. For example:
+
+- Tests 1-3: Incorrectly reports no articulation for CSE 8A, 8B, and 11 even though tests 4-6 successfully validate these same courses
+- Tests 10-11: Reports no articulation for CSE 12 and MATH 18 but test 12 successfully validates MATH 2BH for MATH 18
+- Test 17: Reports no articulation for CSE 30 but test 15 correctly validates CIS 21JA and 21JB as partial match for CSE 30
+- Test 19: Reports no articulation for MATH 20C but test 18 validates MATH 1CH and 1DH for MATH 20C
+- Tests 21-22: Reports no articulation for MATH 20A, MATH 20B, and CSE 30 yet other tests show these have articulation options
+
+**Root Cause Analysis**: 
+The CourseLookupHandler is likely not accessing the articulation data correctly. It appears to be using a different data source or query method than the ValidationQueryHandler. Looking at the logs, the same courses return completely different responses depending on which handler processes them, indicating a data access inconsistency.
+
+**Fix Plan**:
+1. Audit CourseLookupHandler's data access methods
+2. Ensure CourseLookupHandler and ValidationQueryHandler access the same articulation data
+3. Implement consistent lookup logic between handlers
+4. Add debug logging to verify data access sources
+5. Create specific unit tests for course lookup data consistency
+
+#### B-02: Inconsistent Query Type Classification
+
+The query service is inconsistently classifying similar query types:
+
+- Test 24: "What courses count for BILD 1?" is classified as QueryType.UNKNOWN instead of QueryType.COURSE_LOOKUP
+- Test 29: "Does BILD 2 require the same BIOL series as BILD 1?" is incorrectly sent to FallbackQueryHandler
+- Test 32: Generic honors query routed to HonorsQueryHandler but returns unhelpful response
+
+**Root Cause Analysis**:
+The query classification system appears to have too strict pattern matching for certain query types. The heuristics for determining query type don't consistently handle variations in phrasing, leading to inappropriate handler selection.
+
+**Fix Plan**:
+1. Review and expand pattern matching in QueryService.determine_query_type()
+2. Implement more flexible semantic classification for similar query patterns
+3. Add fallback classification that prioritizes COURSE_LOOKUP for course-specific queries
+4. Improve confidence scoring to better disambiguate between query types
+5. Create comprehensive test suite for query classification
+
+#### B-03: Missing Group Query Detection
+
+Test 7: "If I complete CSE 8A and 8B, is that one full path?" is a group-related query incorrectly routed to CourseLookupHandler, which then fails to provide relevant information.
+
+**Root Cause Analysis**:
+The system is not correctly identifying queries that relate to completion paths or groups when they're phrased in certain ways. The term "path" should trigger group-related handling.
+
+**Fix Plan**:
+1. Enhance GroupQueryHandler to recognize terms like "path", "track", "sequence", etc.
+2. Add detection for queries mentioning multiple related courses
+3. Improve handling of completion-oriented questions
+4. Create specific test cases for group path identification
+
+#### B-04: FallbackQueryHandler Insufficient Helpfulness
+
+For queries it doesn't understand, the FallbackQueryHandler provides a generic message without attempting to extract useful information:
+
+- Test 16: "Does CSE 15L have any articulation?" gets a generic response
+- Test 29: "Does BILD 2 require the same BIOL series as BILD 1?" gets a generic response
+
+**Root Cause Analysis**:
+The FallbackQueryHandler isn't attempting to extract partial information or provide context-sensitive guidance.
+
+**Fix Plan**:
+1. Implement partial information extraction in FallbackQueryHandler
+2. Add course existence verification to provide more helpful responses
+3. Create smarter fallback responses based on recognized entities
+4. Provide more specific guidance based on query content
+
+#### B-05: HonorsQueryHandler Limited Functionality
+
+Test 32: "Are any honors courses required for the CS transfer path from De Anza to UCSD?" is correctly routed to HonorsQueryHandler but gets an unhelpful response asking for a specific course.
+
+**Root Cause Analysis**:
+The HonorsQueryHandler is designed only to answer questions about specific courses, not to provide general information about honors requirements across all courses.
+
+**Fix Plan**:
+1. Expand HonorsQueryHandler to support general honors queries
+2. Implement aggregation of honors information across course requirements
+3. Add specific handling for transfer path queries
+4. Create more comprehensive honors requirement reporting
+
+### 11.3 Code Cleanup Recommendations
+
+Based on the regression test findings, several components could be removed or simplified:
+
+1. **query_parser.py**: This component seems to be causing inconsistent classification. Consider replacing with a more robust classifier.
+
+2. **_auto_register_handlers method in transfer_engine.py**: Not properly routing queries to appropriate handlers. Consider implementing explicit handler registration with proper precedence rules.
+
+3. **Redundant matching code**: There appear to be multiple implementations of articulation matching logic causing inconsistent results. Consolidate to a single source of truth.
+
+### 11.4 Fix Implementation Plan
+
+#### Week 1: Critical Data Access Fixes
+- Fix B-01: CourseLookupHandler articulation data access
+- Document all articulation data access patterns
+- Create unit tests for each use case
+- Verify all lookup scenarios against test suite
+
+#### Week 2: Query Classification and Routing
+- Fix B-02: Improve query classification
+- Fix B-03: Enhance group query detection
+- Update handler selection logic
+- Implement comprehensive test suite for query typing
+
+#### Week 3: Handler Enhancements
+- Fix B-04: Improve FallbackQueryHandler
+- Fix B-05: Expand HonorsQueryHandler
+- Clean up redundant code
+- Final integration testing
+
+### 11.5 Conclusion
+
+The regression testing has revealed important issues that need to be addressed to ensure the new architecture provides consistent, accurate responses. Most critically, the data access inconsistency in the CourseLookupHandler needs immediate attention as it affects a large percentage of queries. By systematically addressing these issues, we can preserve the benefits of the refactored architecture while restoring all the functionality present in the original system. 

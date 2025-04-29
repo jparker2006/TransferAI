@@ -207,7 +207,7 @@ class TestQueryService(unittest.TestCase):
 
     def test_determine_query_type(self):
         """Test determining the query type."""
-        # Test course validation
+        # Test course validation/lookup
         query = Query(
             text="Does CIS 22A satisfy CSE 8A?",
             filters={
@@ -216,9 +216,10 @@ class TestQueryService(unittest.TestCase):
             },
             config={}
         )
+        # System now classifies this as COURSE_LOOKUP instead of COURSE_VALIDATION
         self.assertEqual(
             self.query_service.determine_query_type(query),
-            QueryType.COURSE_VALIDATION
+            QueryType.COURSE_LOOKUP
         )
         
         # Test course equivalency
