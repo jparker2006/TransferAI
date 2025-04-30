@@ -132,9 +132,26 @@ class TestHonorsQueryHandler(unittest.TestCase):
             )
             self.assertTrue(self.handler.can_handle(query))
         
-        # Should not handle query with no UC course
+        # Should handle general transfer path honors queries
+        transfer_honors_queries = [
+            "Are honors courses required for CS transfer?",
+            "Does the computer science major require honors courses?",
+            "Do I need to take honors classes for my CS transfer pathway?",
+            "Which courses in the CS transfer path require honors?"
+        ]
+        
+        for text in transfer_honors_queries:
+            query = Query(
+                text=text,
+                filters={},
+                config=self.config,
+                query_type=QueryType.UNKNOWN
+            )
+            self.assertTrue(self.handler.can_handle(query), f"Failed to handle: {text}")
+        
+        # Should not handle query with no UC course and no transfer/honors keywords
         query = Query(
-            text="Which classes require honors courses?",
+            text="What classes should I take?",
             filters={},
             config=self.config,
             query_type=QueryType.UNKNOWN
@@ -150,22 +167,156 @@ class TestHonorsQueryHandler(unittest.TestCase):
         )
         self.assertFalse(self.handler.can_handle(query))
         
-    def test_handle_no_uc_course_specified(self):
-        """Test handle method with no UC course specified."""
-        # Create query
-        query = Query(
-            text="Do I need honors courses?",
-            filters={},
-            config=self.config,
-            query_type=QueryType.HONORS_REQUIREMENT
-        )
+    def test_handle_transfer_path_with_honors_requirements(self):
+        """Test handle method for transfer path query when some courses require honors."""
+        # Mock _get_all_honors_requirements to return some courses requiring honors
+        with patch.object(self.handler, '_get_all_honors_requirements') as mock_get_requirements:
+            mock_get_requirements.return_value = {
+                "MATH 20A": True,  # This course requires honors
+                "CSE 8A": False,   # This course doesn't require honors
+                "CHEM 6A": False   # This course doesn't require honors
+            }
+            
+            # Create query about transfer path
+            query = Query(
+                text="Are any honors courses required for the CS transfer path?",
+                filters={},
+                config=self.config,
+                query_type=QueryType.HONORS_REQUIREMENT
+            )
+            
+            # Set up document repository mock
+            self.document_repository.get_all_documents.return_value = [
+                self.mock_doc_honors_required,
+                self.mock_doc_honors_optional,
+                self.mock_doc_no_articulation
+            ]
+            
+            # Process query
+            result = self.handler.handle(query)
+            
+            # Verify result
+            self.assertIsNotNone(result)
+            self.assertIn("Honors Requirements for Computer Science Transfer", result.formatted_response)
+            self.assertIn("MATH 20A", result.formatted_response)
+            self.assertIn("**require** honors versions", result.formatted_response)
+            self.assertEqual(result.metadata["honors_required_courses"], ["MATH 20A"])
+            self.assertEqual(result.metadata["major"], "Computer Science")
+            
+            # Verify _get_all_honors_requirements was called
+            mock_get_requirements.assert_called_once()
+            
+    def test_handle_transfer_path_without_honors_requirements(self):
+        """Test handle method for transfer path query when no courses require honors."""
+        # Mock _get_all_honors_requirements to return no courses requiring honors
+        with patch.object(self.handler, '_get_all_honors_requirements') as mock_get_requirements:
+            mock_get_requirements.return_value = {
+                "MATH 20A": False,
+                "CSE 8A": False,
+                "CHEM 6A": False
+            }
+            
+            # Create query about transfer path
+            query = Query(
+                text="Does the CS major require honors courses?",
+                filters={},
+                config=self.config,
+                query_type=QueryType.HONORS_REQUIREMENT
+            )
+            
+            # Set up document repository mock
+            self.document_repository.get_all_documents.return_value = [
+                self.mock_doc_honors_optional,
+                self.mock_doc_no_articulation
+            ]
+            
+            # Process query
+            result = self.handler.handle(query)
+            
+            # Verify result
+            self.assertIsNotNone(result)
+            self.assertIn("no courses require honors versions", result.formatted_response)
+            self.assertEqual(result.metadata["honors_required_courses"], [])
+            self.assertEqual(result.metadata["major"], "Computer Science")
+            
+            # Verify _get_all_honors_requirements was called
+            mock_get_requirements.assert_called_once()
+            
+    def test_handle_no_honors_data_available(self):
+        """Test handle method when no honors data is available."""
+        # Mock _get_all_honors_requirements to return empty dictionary
+        with patch.object(self.handler, '_get_all_honors_requirements') as mock_get_requirements:
+            mock_get_requirements.return_value = {}
+            
+            # Create query about transfer path
+            query = Query(
+                text="Are honors courses required for transfer?",
+                filters={},
+                config=self.config,
+                query_type=QueryType.HONORS_REQUIREMENT
+            )
+            
+            # Set up document repository mock
+            self.document_repository.get_all_documents.return_value = []
+            
+            # Process query
+            result = self.handler.handle(query)
+            
+            # Verify result
+            self.assertIsNotNone(result)
+            self.assertIn("I couldn't find any information", result.formatted_response)
+            
+            # Verify _get_all_honors_requirements was called
+            mock_get_requirements.assert_called_once()
+    
+    def test_get_all_honors_requirements(self):
+        """Test _get_all_honors_requirements method."""
+        # Set up mocks
+        docs = [
+            self.mock_doc_honors_required,  # MATH 20A requires honors
+            self.mock_doc_honors_optional,  # CSE 8A doesn't require honors
+            self.mock_doc_no_articulation   # CHEM 40A has no articulation
+        ]
         
-        # Process query
-        result = self.handler.handle(query)
+        # Configure articulation_facade.is_honors_required to return True for MATH 20A, False for others
+        def mock_is_honors_required(logic_block):
+            if logic_block == self.mock_doc_honors_required.metadata["logic_block"]:
+                return True
+            return False
+            
+        self.handler.articulation_facade.is_honors_required.side_effect = mock_is_honors_required
+        
+        # Call method
+        result = self.handler._get_all_honors_requirements(docs)
         
         # Verify result
-        self.assertIsNotNone(result)
-        self.assertIn("Please specify which UC course", result.formatted_response)
+        self.assertEqual(result["MATH 20A"], True)
+        self.assertEqual(result["CSE 8A"], False)
+        self.assertNotIn("CHEM 40A", result)  # Should skip no articulation courses
+        
+    def test_handle_no_uc_course_specified(self):
+        """Test handle method with no UC course specified."""
+        # Mock _get_all_honors_requirements to handle the general query
+        with patch.object(self.handler, '_get_all_honors_requirements') as mock_get_requirements:
+            mock_get_requirements.return_value = {
+                "MATH 20A": False,
+                "CSE 8A": False
+            }
+            
+            # Create query
+            query = Query(
+                text="Do I need honors courses?",
+                filters={},
+                config=self.config,
+                query_type=QueryType.HONORS_REQUIREMENT
+            )
+            
+            # Process query
+            result = self.handler.handle(query)
+            
+            # Verify result is a general response about honors requirements
+            self.assertIsNotNone(result)
+            self.assertIn("Honors Requirements", result.formatted_response)
         
     def test_handle_course_not_found(self):
         """Test handle method with a UC course that doesn't exist."""

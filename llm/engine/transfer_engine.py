@@ -232,7 +232,14 @@ class TransferAIEngine:
             if not result:
                 self.logger.warning("Handler returned no result")
                 return "No relevant information found."
-                
+
+            # In a production implementation, after the handler processes the query and returns the result, you would integrate the LLM (deepseek) in the transfer_engine.py file. Instead of directly returning result.formatted_response, you would:
+            #    1 Take the structured data from the handler's result
+            #    2 Send it to a prompt service that constructs an appropriate prompt
+            #    3 Pass that prompt to the LLM
+            #    4 Get the LLM's response (which would use the structured data to generate a natural language answer)
+            #    5 Return the LLM-generated response to the user
+                                
             elapsed = time.time() - start_time
             self.logger.info(f"Query processed in {elapsed:.2f} seconds")
             
@@ -257,6 +264,8 @@ class TransferAIEngine:
         from llm.handlers.course_handler import CourseEquivalencyHandler
         from llm.handlers.course_lookup_handler import CourseLookupHandler
         from llm.handlers.group_handler import GroupQueryHandler
+        from llm.handlers.course_comparison_handler import CourseComparisonHandler
+        from llm.handlers.path_completion_handler import PathCompletionHandler
         from llm.handlers.honors_handler import HonorsQueryHandler
         from llm.handlers.fallback_handler import FallbackQueryHandler
         
@@ -264,8 +273,10 @@ class TransferAIEngine:
         handler_classes = [
             ValidationQueryHandler,  # Most specific handler first
             CourseEquivalencyHandler,
-            CourseLookupHandler,     # Add our new handler with appropriate precedence
+            CourseLookupHandler,
             GroupQueryHandler,
+            CourseComparisonHandler,
+            PathCompletionHandler,
             HonorsQueryHandler,
             FallbackQueryHandler,    # Fallback handler last
         ]

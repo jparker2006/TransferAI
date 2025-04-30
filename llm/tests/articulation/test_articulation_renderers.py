@@ -384,19 +384,73 @@ class TestRenderLogicV2(unittest.TestCase):
     
     def test_no_articulation_handling(self):
         """Test handling of no articulation cases."""
-        # Create metadata with no_articulation flag and reason
         metadata = {
+            "uc_course": "CHEM 6A",
             "no_articulation": True,
-            "no_articulation_reason": "Course has lab component",
-            "uc_course": "CHEM 6A"
+            "no_articulation_reason": "Course has lab component"
         }
         
-        # Render with no articulation
         result = render_logic_v2(metadata)
         
-        # Verify correct message and reason
-        self.assertIn("This course must be completed at UCSD", result)
+        # Updated assertion to check for the course name in the message
+        self.assertIn("CHEM 6A must be completed at UCSD", result)
         self.assertIn("Reason: Course has lab component", result)
+
+    def test_no_contradictory_no_articulation_message(self):
+        """Test that render_logic_v2 doesn't show contradictory 'no articulation' messages when options exist."""
+        # Create a document with articulation options and a contradictory no_articulation flag
+        metadata = {
+            "uc_course": "CSE 12",
+            "uc_title": "Basic Data Structures",
+            "no_articulation": True,  # Contradictory flag
+            "no_articulation_reason": "No articulation available",
+            "logic_block": {
+                "type": "OR",
+                "courses": [
+                    {
+                        "type": "AND",
+                        "courses": [
+                            {"course_letters": "CIS 22C"}
+                        ]
+                    },
+                    {
+                        "type": "AND",
+                        "courses": [
+                            {"course_letters": "CIS 22CH", "honors": True}
+                        ]
+                    }
+                ]
+            }
+        }
+        
+        # Render the logic block
+        result = render_logic_v2(metadata)
+        
+        # Verify that the result includes the articulation options
+        self.assertIn("CIS 22C", result)
+        self.assertIn("CIS 22CH", result)
+        
+        # Verify that the result does NOT include the no articulation message
+        self.assertNotIn("must be completed at UCSD", result)
+        self.assertNotIn("No articulation available", result)
+        
+    def test_correct_course_name_in_no_articulation_message(self):
+        """Test that render_logic_v2 includes the correct course name in no articulation messages."""
+        # Create a document with no articulation options
+        metadata = {
+            "uc_course": "CSE 21",
+            "uc_title": "Mathematics for Algorithms and Systems",
+            "no_articulation": True,
+            "no_articulation_reason": "No articulation available",
+            "logic_block": {}
+        }
+        
+        # Render the logic block
+        result = render_logic_v2(metadata)
+        
+        # Verify that the result includes the no articulation message with the course name
+        self.assertIn("CSE 21 must be completed at UCSD", result)
+        self.assertIn("Reason: No articulation available", result)
 
 
 class TestRenderGroupSummary(unittest.TestCase):

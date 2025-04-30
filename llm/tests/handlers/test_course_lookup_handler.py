@@ -83,7 +83,9 @@ class TestCourseLookupHandler(unittest.TestCase):
         result = self.handler.handle(query)
         
         self.assertIsNotNone(result)
-        self.assertIn("No articulation for CSE 8A", result.formatted_response)
+        self.assertIn("No, CSE 8A", result.formatted_response)
+        self.assertIn("does not have any articulation", result.formatted_response)
+        self.assertFalse(result.metadata.get("has_articulation", True))
     
     def test_handle_successful_articulation(self):
         """Test successful articulation lookup with valid options."""
@@ -210,7 +212,7 @@ class TestCourseLookupHandler(unittest.TestCase):
         self.assertEqual(result.matched_docs, [doc])
         
     def test_handle_error_in_articulation_processing(self):
-        """Test error handling when processing articulation data."""
+        """Test handling errors that occur during articulation processing."""
         query = MagicMock(spec=Query)
         query.uc_courses = ["CSE 8A"]
         query.text = "What courses satisfy CSE 8A?"
@@ -219,7 +221,7 @@ class TestCourseLookupHandler(unittest.TestCase):
         doc = MagicMock(spec=Document)
         doc.metadata = {
             "uc_course": "CSE 8A",
-            "logic_block": {}  # Empty logic block to trigger error
+            "logic_block": {"options": [{"courses": []}]}
         }
         
         # Mock matching_service to return this document
@@ -228,7 +230,7 @@ class TestCourseLookupHandler(unittest.TestCase):
         # Mock query_service for normalization
         self.handler.query_service.normalize_course_code.return_value = "CSE 8A"
         
-        # Mock articulation_facade to raise an exception
+        # Mock articulation_facade.get_articulation_options to raise an exception
         self.handler.articulation_facade.get_articulation_options.side_effect = Exception("Test error")
         
         result = self.handler.handle(query)
@@ -237,8 +239,136 @@ class TestCourseLookupHandler(unittest.TestCase):
         self.assertIn("error", result.formatted_response.lower())
         self.assertIn("CSE 8A", result.formatted_response)
     
+    def test_handle_multiple_courses(self):
+        """Test handling a query with multiple UC courses."""
+        # Create a query with multiple UC courses
+        query = MagicMock(spec=Query)
+        query.uc_courses = ["MATH 20A", "MATH 20B"]
+        query.text = "Which courses satisfy MATH 20A and 20B?"
+        
+        # Create mock documents for each course
+        doc_math20a = MagicMock(spec=Document)
+        doc_math20a.metadata = {
+            "uc_course": "MATH 20A",
+            "logic_block": {
+                "options": [
+                    {
+                        "courses": [
+                            {"name": "MATH 1A", "is_honors": False}
+                        ]
+                    },
+                    {
+                        "courses": [
+                            {"name": "MATH 1AH", "is_honors": True}
+                        ]
+                    }
+                ]
+            }
+        }
+        
+        doc_math20b = MagicMock(spec=Document)
+        doc_math20b.metadata = {
+            "uc_course": "MATH 20B",
+            "logic_block": {
+                "options": [
+                    {
+                        "courses": [
+                            {"name": "MATH 1B", "is_honors": False}
+                        ]
+                    },
+                    {
+                        "courses": [
+                            {"name": "MATH 1BH", "is_honors": True}
+                        ]
+                    }
+                ]
+            }
+        }
+        
+        # Set up side effects for mock calls to handle multiple courses
+        def mock_match_documents(documents, uc_courses, ccc_courses, query_text):
+            if uc_courses == ["MATH 20A"]:
+                return [doc_math20a]
+            elif uc_courses == ["MATH 20B"]:
+                return [doc_math20b]
+            return []
+        
+        self.handler.matching_service.match_documents.side_effect = mock_match_documents
+        
+        # Mock normalize_course_code to return the input value
+        def mock_normalize(course_code):
+            return course_code
+        
+        self.handler.query_service.normalize_course_code.side_effect = mock_normalize
+        
+        # Reset get_articulation_options mock to return specific values instead of using side_effect
+        self.handler.articulation_facade.get_articulation_options = MagicMock()
+        
+        # Set up return values for each logic block
+        math20a_options = {
+            "options": [
+                {
+                    "courses": [{"name": "MATH 1A", "is_honors": False}]
+                },
+                {
+                    "courses": [{"name": "MATH 1AH", "is_honors": True}]
+                }
+            ]
+        }
+        
+        math20b_options = {
+            "options": [
+                {
+                    "courses": [{"name": "MATH 1B", "is_honors": False}]
+                },
+                {
+                    "courses": [{"name": "MATH 1BH", "is_honors": True}]
+                }
+            ]
+        }
+        
+        # Set up the return value map for get_articulation_options
+        self.handler.articulation_facade.get_articulation_options.side_effect = [
+            math20a_options,
+            math20b_options
+        ]
+        
+        # Reset format_course_options mock
+        self.handler.articulation_facade.format_course_options = MagicMock()
+        
+        # Set up return values for format_course_options
+        math20a_response = "# MATH 20A can be satisfied by any of these options:\n\n**Option A**: MATH 1A\n**Option B**: MATH 1AH (Honors)"
+        math20b_response = "# MATH 20B can be satisfied by any of these options:\n\n**Option A**: MATH 1B\n**Option B**: MATH 1BH (Honors)"
+        
+        self.handler.articulation_facade.format_course_options.side_effect = [
+            math20a_response,
+            math20b_response
+        ]
+        
+        # Process the query
+        result = self.handler.handle(query)
+        
+        # Verify the result
+        self.assertIsNotNone(result)
+        self.assertIn("MATH 20A", result.formatted_response)
+        self.assertIn("MATH 20B", result.formatted_response)
+        self.assertIn("MATH 1A", result.formatted_response)
+        self.assertIn("MATH 1AH", result.formatted_response)
+        self.assertIn("MATH 1B", result.formatted_response)
+        self.assertIn("MATH 1BH", result.formatted_response)
+        self.assertIn("Articulation options for MATH 20A, MATH 20B", result.formatted_response)
+        
+        # Verify that the handler made the expected calls
+        self.assertEqual(self.handler.matching_service.match_documents.call_count, 2)
+        self.assertEqual(self.handler.articulation_facade.get_articulation_options.call_count, 2)
+        self.assertEqual(self.handler.articulation_facade.format_course_options.call_count, 2)
+        
+        # Check the metadata
+        self.assertEqual(result.metadata["uc_courses"], ["MATH 20A", "MATH 20B"])
+        self.assertTrue(result.metadata["multi_course_query"])
+    
     def test_integration_with_real_structure(self):
-        """Test against a real document structure to ensure format compatibility."""
+        """Test against real document structure for better coverage."""
         query = MagicMock(spec=Query)
         query.uc_courses = ["CSE 11"]
         query.text = "What courses satisfy CSE 11?"
@@ -352,5 +482,38 @@ class TestCourseLookupHandler(unittest.TestCase):
         self.assertEqual(result.formatted_response, expected_response)
         self.assertNotIn("No articulation", result.formatted_response)
         
+    def test_articulation_existence_query(self):
+        """Test handling of queries asking if a course has any articulation (Test 16)."""
+        query = MagicMock(spec=Query)
+        query.uc_courses = ["CSE 15L"]
+        query.text = "Does CSE 15L have any articulation?"
+        query.query_type = QueryType.COURSE_LOOKUP  # Simulate query_service marking this as COURSE_LOOKUP
+        
+        # Create a mock document with no_articulation=True
+        doc = MagicMock(spec=Document)
+        doc.metadata = {
+            "uc_course": "CSE 15L",
+            "title": "Software Tools and Techniques Laboratory",
+            "logic_block": {"no_articulation": True}
+        }
+        
+        # Mock matching_service to return this document
+        self.handler.matching_service.match_documents.return_value = [doc]
+        
+        # Mock query_service for normalization
+        self.handler.query_service.normalize_course_code.return_value = "CSE 15L"
+        
+        result = self.handler.handle(query)
+        
+        self.assertIsNotNone(result)
+        self.assertIn("❌ No, CSE 15L", result.formatted_response)
+        self.assertIn("does not have any articulation", result.formatted_response)
+        self.assertIn("De Anza College", result.formatted_response)
+        self.assertIn("after transferring", result.formatted_response)
+        
+        # Verify metadata
+        self.assertEqual(result.metadata["uc_course"], "CSE 15L")
+        self.assertFalse(result.metadata["has_articulation"])
+
 if __name__ == "__main__":
     unittest.main() 

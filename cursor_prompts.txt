@@ -12,3 +12,4 @@ Start by writing three reasoning paragraphs analyzing what the error might be. D
 
 Before you answer, I want you to write two detailed paragraphs, one for each solution. Do not jump to conclusions or commit to either solution until you have fully considered both. Then tell me which solution is obviously better and why.
 
+Please run all 36 test runner tests in 6 batches of 6, then analyze them all against the real assist data i provided, then analyze your results and add the remaining bugs we have to fix to the analysis roadmap. Proceed like a senior engineer. Write 3 reasoning paragraphs, one for each step, before you begin.

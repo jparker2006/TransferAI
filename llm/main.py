@@ -10,9 +10,9 @@ import logging
 import sys
 from pathlib import Path
 
-from llm.engine.transfer_engine import TransferAIEngine
-from llm.engine.config import Config, load_config, ConfigurationError, DocumentLoadError, QueryProcessingError
-from llm.services.prompt_service import VerbosityLevel
+from engine.transfer_engine import TransferAIEngine
+from engine.config import Config, load_config, ConfigurationError, DocumentLoadError, QueryProcessingError
+from services.prompt_service import VerbosityLevel
 
 def main():
     """Main entry point for the CLI interface."""

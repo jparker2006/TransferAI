@@ -95,15 +95,33 @@ class CourseLookupHandler(QueryHandler):
                 formatted_response="Please specify which UC course you want to look up. For example, 'Which courses satisfy CSE 8A?'"
             )
         
-        uc_course = query.uc_courses[0]  # Process the first UC course mentioned
+        # Check if we need to process multiple UC courses
+        if len(query.uc_courses) == 1:
+            # Single course case - use the original implementation
+            return self._process_single_course(query.uc_courses[0], query.text)
+        else:
+            # Multiple courses case - process each course and combine results
+            return self._process_multiple_courses(query.uc_courses, query.text)
+    
+    def _process_single_course(self, uc_course: str, query_text: str) -> QueryResult:
+        """
+        Process a single UC course lookup query.
+        
+        Args:
+            uc_course: The UC course to look up
+            query_text: The original query text
+            
+        Returns:
+            QueryResult containing the articulation options for the UC course
+        """
         logger.info(f"Processing course lookup query for UC course: {uc_course}")
         
-        # Use MatchingService to find documents - same approach as ValidationQueryHandler
+        # Use MatchingService to find documents
         matching_docs = self.matching_service.match_documents(
             documents=self.document_repository.get_all_documents(),
             uc_courses=[uc_course],
             ccc_courses=[],  # No CCC courses for lookup queries
-            query_text=query.text
+            query_text=query_text
         )
         
         # Filter to documents for this specific UC course
@@ -130,9 +148,23 @@ class CourseLookupHandler(QueryHandler):
         # Check if the course has been explicitly marked as having no articulation
         if isinstance(logic_block, dict) and logic_block.get("no_articulation", False):
             logger.info(f"Course {uc_course} explicitly marked as having no articulation")
+            
+            # Get course description if available
+            course_title = doc.metadata.get("title", "")
+            course_description = f" ({course_title})" if course_title else ""
+            
             return QueryResult(
                 raw_response=f"No articulation for {uc_course}.",
-                formatted_response=f"# No articulation for {uc_course}\n\nAccording to the articulation agreement, there are no courses that satisfy {uc_course}."
+                formatted_response=(
+                    f"# ❌ No, {uc_course}{course_description} does not have any articulation.\n\n"
+                    f"According to the official articulation agreement, there are no courses at De Anza College "
+                    f"that satisfy {uc_course}. This means you will need to complete this course at UCSD after transferring.\n\n"
+                    f"You might want to check if this course is part of a sequence or if there are alternatives in your major requirements."
+                ),
+                metadata={
+                    'uc_course': uc_course,
+                    'has_articulation': False
+                }
             )
         
         # Extract articulation options using the ArticulationFacade
@@ -141,9 +173,23 @@ class CourseLookupHandler(QueryHandler):
             
             if not articulation_info or not articulation_info.get("options"):
                 logger.warning(f"No valid articulation options found for {uc_course}")
+                
+                # Get course description if available
+                course_title = doc.metadata.get("title", "")
+                course_description = f" ({course_title})" if course_title else ""
+                
                 return QueryResult(
                     raw_response=f"No valid articulation options for {uc_course}.",
-                    formatted_response=f"# No articulation for {uc_course}\n\nAccording to the articulation agreement, there are no courses that satisfy {uc_course}."
+                    formatted_response=(
+                        f"# ❌ No, {uc_course}{course_description} does not have any articulation.\n\n"
+                        f"According to the official articulation agreement, there are no courses at De Anza College "
+                        f"that satisfy {uc_course}. This means you will need to complete this course at UCSD after transferring.\n\n"
+                        f"You might want to check if this course is part of a sequence or if there are alternatives in your major requirements."
+                    ),
+                    metadata={
+                        'uc_course': uc_course,
+                        'has_articulation': False
+                    }
                 )
             
             # Use the ArticulationFacade to format the response
@@ -157,7 +203,8 @@ class CourseLookupHandler(QueryHandler):
                 matched_docs=matching_docs,
                 metadata={
                     "uc_course": uc_course,
-                    "articulation_info": articulation_info
+                    "articulation_info": articulation_info,
+                    "has_articulation": True
                 }
             )
             
@@ -166,4 +213,75 @@ class CourseLookupHandler(QueryHandler):
             return QueryResult(
                 raw_response=f"Error processing articulation data: {str(e)}",
                 formatted_response=f"I encountered an error while processing the articulation information for {uc_course}. Please try again or contact support if the issue persists."
-            ) 
+            )
+    
+    def _process_multiple_courses(self, uc_courses: List[str], query_text: str) -> QueryResult:
+        """
+        Process a lookup query with multiple UC courses.
+        
+        Args:
+            uc_courses: List of UC courses to look up
+            query_text: The original query text
+            
+        Returns:
+            QueryResult containing articulation options for all requested UC courses
+        """
+        logger.info(f"Processing multi-course lookup query for UC courses: {', '.join(uc_courses)}")
+        
+        # Process each course individually and collect results
+        course_results = []
+        matched_docs = []
+        
+        for uc_course in uc_courses:
+            result = self._process_single_course(uc_course, query_text)
+            
+            if result:
+                course_results.append(result)
+                if result.matched_docs:
+                    matched_docs.extend(result.matched_docs)
+        
+        # If no results were found for any course, return a general message
+        if not course_results:
+            return QueryResult(
+                raw_response=f"No information found for UC courses: {', '.join(uc_courses)}.",
+                formatted_response=f"I couldn't find any articulation information for the requested UC courses. They may not be included in the current dataset."
+            )
+        
+        # Combine the formatted responses
+        combined_response = self._combine_formatted_responses(uc_courses, course_results)
+        
+        return QueryResult(
+            raw_response=f"Found articulation options for multiple UC courses",
+            formatted_response=combined_response,
+            matched_docs=matched_docs,
+            metadata={
+                "uc_courses": uc_courses,
+                "multi_course_query": True
+            }
+        )
+    
+    def _combine_formatted_responses(self, uc_courses: List[str], results: List[QueryResult]) -> str:
+        """
+        Combine multiple formatted responses into a single coherent response.
+        
+        Args:
+            uc_courses: The UC courses in the query
+            results: Individual QueryResults for each course
+            
+        Returns:
+            A combined formatted response string
+        """
+        if not results:
+            return f"No articulation information found for {', '.join(uc_courses)}."
+        
+        # Extract the formatted responses
+        formatted_responses = [result.formatted_response for result in results if result.formatted_response]
+        
+        # Combine responses with separators
+        combined = "\n\n---\n\n".join(formatted_responses)
+        
+        if len(uc_courses) > 1:
+            intro = f"# Articulation options for {', '.join(uc_courses)}\n\n"
+            return intro + combined
+        else:
+            return combined 

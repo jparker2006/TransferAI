@@ -352,6 +352,7 @@ class QueryService:
                         return True
         return False
     
+    # In V2, we will use a model to determine the query type
     def determine_query_type(self, query: Query) -> QueryType:
         """
         Determine the type of a query.
@@ -371,6 +372,77 @@ class QueryService:
         # First check if we can determine the type from the filters
         if 'group' in query.filters and query.filters['group']:
             return QueryType.GROUP_REQUIREMENT
+            
+        # Check for course comparison queries - look for comparative patterns
+        if 'uc_course' in query.filters and len(query.filters['uc_course']) >= 2:
+            # Keywords indicating comparison
+            comparison_keywords = [
+                'same', 'similar', 'different', 'alike', 'equivalent',
+                'compare', 'comparison', 'versus', 'vs', 'like', 'match',
+                'require the same', 'both require', 'both need',
+                'both accept', 'both satisfy'
+            ]
+            
+            # Patterns for comparison queries
+            comparison_patterns = [
+                r'(?:same|similar|different)(?:\s+\w+)*\s+(?:as|to|from|than)',
+                r'(?:compare|compared|comparing)(?:\s+\w+)*\s+(?:to|with)',
+                r'(?:both|either|neither)(?:\s+\w+)*\s+(?:require|need|accept)',
+                r'(?:match|matches|matching)(?:\s+\w+)*\s+(?:with|to)',
+                r'(?:do|does)(?:\s+\w+)*\s+(?:require|need|accept)(?:\s+\w+)*\s+(?:same|similar|different)'
+            ]
+            
+            # Check for comparison keywords
+            if any(keyword in query_lower for keyword in comparison_keywords) or \
+               any(re.search(pattern, query_lower) for pattern in comparison_patterns):
+                return QueryType.COURSE_COMPARISON
+                
+        # Check for path completion queries - look for full path, complete requirement patterns
+        if 'uc_course' in query.filters and query.filters['uc_course']:
+            path_keywords = [
+                'full path', 'complete path', 'complete requirement', 'finish requirement',
+                'satisfy requirement', 'satisfy section', 'complete section',
+                'entire path', 'one path', 'enough for', 'sufficient for'
+            ]
+            
+            path_patterns = [
+                r'(?:is|are|do|does)\s+.+\s+(?:one|a|the)\s+(?:full|complete|entire)\s+path',
+                r'(?:is|are|do|does)\s+.+\s+(?:complete|satisfy|finish)\s+(?:the|a|one)\s+(?:requirement|section|path)',
+                r'(?:is|are|do|does)\s+.+\s+(?:enough|sufficient)\s+(?:to|for|in)\s+(?:complete|satisfy)'
+            ]
+            
+            if any(keyword in query_lower for keyword in path_keywords) or any(re.search(pattern, query_lower) for pattern in path_patterns):
+                return QueryType.PATH_COMPLETION
+            
+        # Check for honors query - do this early to prioritize it over course lookup
+        honors_keywords = ['honors', 'honour', 'honor', 'h course', 'h version', 'h class', 'h-designated', 'require honors']
+        if any(keyword in query_lower for keyword in honors_keywords):
+            # Look for specific honors question patterns
+            honors_patterns = [
+                r"(?:does|do|is|are).*(?:require|requires|need|needs).*honors",
+                r"honors.*(?:require|required|necessity|needed)",
+                r"(?:need|needs).*honors"
+            ]
+            if any(re.search(pattern, query_lower) for pattern in honors_patterns):
+                return QueryType.HONORS_REQUIREMENT
+                
+            # Check if this is a general honors question that mentions courses
+            if 'course' in query_lower and any(kw in query_lower for kw in ['any', 'which', 'what']):
+                return QueryType.HONORS_REQUIREMENT
+        
+        # Check for "has articulation" queries
+        if 'uc_course' in query.filters and query.filters['uc_course'] and len(query.filters['uc_course']) == 1:
+            articulation_keywords = ['articulation', 'has articulation', 'articulated', 'have articulation', 'any articulation']
+            articulation_patterns = [
+                r"(?:does|do|is|are|has|have)\s+\w+\s+(?:any|have|has)\s+articulation",
+                r"(?:is|are)\s+\w+\s+articulated",
+                r"(?:can|could)\s+\w+\s+(?:be|get)\s+articulated",
+                r"(?:does|is)\s+there\s+(?:a|any)\s+(?:course|articulation)\s+for\s+\w+"
+            ]
+            
+            if any(keyword in query_lower for keyword in articulation_keywords) or \
+               any(re.search(pattern, query_lower) for pattern in articulation_patterns):
+                return QueryType.COURSE_LOOKUP
         
         # Check for course lookup queries (which courses satisfy X?)
         # This pattern checks for various ways users ask about what courses satisfy a requirement
@@ -414,10 +486,5 @@ class QueryService:
             if 'uc_course' not in query.filters or not query.filters['uc_course']:
                 return QueryType.COURSE_EQUIVALENCY
         
-        # Check for honors query
-        honors_keywords = ['honors', 'honour', 'honor', 'h course', 'h version', 'h class', 'h-designated']
-        if any(keyword in query_lower for keyword in honors_keywords):
-            return QueryType.HONORS_REQUIREMENT
-            
         # If we can't determine the type, fall back to UNKNOWN
         return QueryType.UNKNOWN

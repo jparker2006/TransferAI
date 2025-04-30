@@ -10,7 +10,9 @@ from llm.handlers.validation_handler import ValidationQueryHandler
 from llm.handlers.course_handler import CourseEquivalencyHandler
 from llm.handlers.course_lookup_handler import CourseLookupHandler
 from llm.handlers.group_handler import GroupQueryHandler
+from llm.handlers.path_completion_handler import PathCompletionHandler
 from llm.handlers.honors_handler import HonorsQueryHandler
+from llm.handlers.course_comparison_handler import CourseComparisonHandler
 
 __all__ = [
     'QueryHandler',
@@ -20,5 +22,7 @@ __all__ = [
     'CourseEquivalencyHandler',
     'CourseLookupHandler',
     'GroupQueryHandler',
-    'HonorsQueryHandler'
+    'HonorsQueryHandler',
+    'PathCompletionHandler',
+    'CourseComparisonHandler'
 ]

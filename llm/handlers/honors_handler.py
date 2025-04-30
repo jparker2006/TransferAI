@@ -26,6 +26,7 @@ class HonorsQueryHandler(QueryHandler):
     - "Does MATH 20A require honors courses?"
     - "Can I satisfy CSE 8A with a non-honors course?"
     - "Which UC courses require honors versions?"
+    - "Are any honors courses required for the CS transfer path?"
     """
     
     def __init__(self, document_repository: DocumentRepository, config: Dict[str, Any]):
@@ -48,6 +49,7 @@ class HonorsQueryHandler(QueryHandler):
         This handler can process queries that:
         1. Have an explicit HONORS_REQUIREMENT query type
         2. Contain honors-related keywords and UC course references
+        3. Ask about honors requirements for a transfer path or major
         
         Args:
             query: The query to check
@@ -58,10 +60,6 @@ class HonorsQueryHandler(QueryHandler):
         # Check if query type has been explicitly set
         if query.query_type == QueryType.HONORS_REQUIREMENT:
             return True
-            
-        # Must have a UC course and honors-related keywords
-        if not query.uc_courses:
-            return False
             
         # Check for honors keywords
         honors_keywords = [
@@ -79,14 +77,26 @@ class HonorsQueryHandler(QueryHandler):
         # Use regex to find course codes ending with H
         has_honors_course_code = bool(re.search(r'\d+[a-z]*h\b', text_lower))
         
-        return has_honors_keyword or has_honors_course_code
+        # Check for transfer path or major references
+        transfer_keywords = ["transfer", "pathway", "path", "major", "cs major", "computer science"]
+        has_transfer_keyword = any(keyword in text_lower for keyword in transfer_keywords)
+        
+        # Handle general honors requirements for transfer paths
+        if has_honors_keyword and has_transfer_keyword:
+            return True
+            
+        # Must have a UC course for specific course queries
+        if (has_honors_keyword or has_honors_course_code) and query.uc_courses:
+            return True
+            
+        return False
     
     def handle(self, query: Query) -> Optional[QueryResult]:
         """
         Process an honors requirement query and return results.
         
         This handler determines if honors courses are required for specific UC courses
-        by analyzing the logic blocks in the articulation documents.
+        or across a transfer path by analyzing the logic blocks in the articulation documents.
         
         Args:
             query: The query to process
@@ -94,14 +104,72 @@ class HonorsQueryHandler(QueryHandler):
         Returns:
             QueryResult containing honors requirement information
         """
-        if not query.uc_courses:
-            return QueryResult(
-                raw_response="Could not process honors query - no UC course specified.",
-                formatted_response="Please specify which UC course you want to check for honors requirements. For example, 'Does MATH 20A require honors courses?'"
-            )
-        
-        uc_course = query.uc_courses[0]  # Process the first UC course mentioned
+        # Get all documents for analysis
         all_documents = self.document_repository.get_all_documents()
+        
+        # Check if this is a general query about honors courses in a transfer path
+        text_lower = query.text.lower()
+        transfer_keywords = ["transfer", "pathway", "path", "major", "cs major", "computer science"]
+        is_transfer_path_query = any(keyword in text_lower for keyword in transfer_keywords)
+        
+        # Handle transfer path honors requirement queries
+        if is_transfer_path_query or not query.uc_courses:
+            # Extract major information if available (currently assuming CS if mentioned)
+            major = "Computer Science"
+            if "cs" in text_lower or "computer science" in text_lower:
+                major = "Computer Science"
+                
+            # Get honors requirements for all courses
+            honors_requirements = self._get_all_honors_requirements(all_documents)
+            
+            # If no honors requirements found at all
+            if not honors_requirements:
+                return QueryResult(
+                    raw_response="No honors requirement information available.",
+                    formatted_response="I couldn't find any information about honors requirements in the articulation data."
+                )
+                
+            # Check if any courses require honors
+            honors_required_courses = [uc for uc, required in honors_requirements.items() if required]
+            
+            # Format response
+            if honors_required_courses:
+                formatted_response = (
+                    f"# Honors Requirements for {major} Transfer\n\n"
+                    f"Based on the articulation data, the following courses **require** honors versions:\n\n"
+                )
+                for uc in sorted(honors_required_courses):
+                    formatted_response += f"- {uc}\n"
+                    
+                formatted_response += "\n\nFor all other courses, both honors and non-honors versions are accepted if available."
+                
+                return QueryResult(
+                    raw_response=f"Honors required for: {', '.join(honors_required_courses)}",
+                    formatted_response=formatted_response,
+                    metadata={
+                        "honors_required_courses": honors_required_courses,
+                        "major": major
+                    }
+                )
+            else:
+                formatted_response = (
+                    f"# Honors Requirements for {major} Transfer\n\n"
+                    f"Based on the articulation data, **no courses require honors versions**. "
+                    f"While honors courses are accepted, you can satisfy all requirements with non-honors courses.\n\n"
+                    f"Taking honors courses may still provide other benefits, but they are not required for articulation."
+                )
+                
+                return QueryResult(
+                    raw_response="No courses require honors versions",
+                    formatted_response=formatted_response,
+                    metadata={
+                        "honors_required_courses": [],
+                        "major": major
+                    }
+                )
+        
+        # Handle specific UC course query
+        uc_course = query.uc_courses[0]  # Process the first UC course mentioned
         
         # Find the document for this UC course
         matching_docs = []

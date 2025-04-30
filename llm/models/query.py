@@ -17,6 +17,8 @@ class QueryType(Enum):
     GROUP_REQUIREMENT = auto()   # What courses satisfy requirement group Z?
     HONORS_REQUIREMENT = auto()  # Is an honors course required?
     COURSE_LOOKUP = auto()       # Which courses satisfy UC course Y?
+    COURSE_COMPARISON = auto()   # Does course X require the same as course Y?
+    PATH_COMPLETION = auto()     # Does X and Y complete a requirement path?
     UNKNOWN = auto()             # Fallback for unclassified queries
 
 

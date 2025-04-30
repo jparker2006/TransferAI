@@ -147,10 +147,18 @@ def render_logic_v2(
         >>> render_logic_v2(metadata)
         'To satisfy this requirement, you can complete one of these options:\n\n...'
     """
-    # Handle no articulation case
-    if metadata.get("no_articulation", False) or metadata.get("logic_block", {}).get("no_articulation", False):
+    logic_block = metadata.get("logic_block", {})
+    
+    # Check if there are actual articulation options in the logic block
+    has_articulation_options = False
+    if logic_block.get("type") == "OR" and logic_block.get("courses"):
+        has_articulation_options = True
+    
+    # Handle no articulation case - only if there are truly no options
+    if not has_articulation_options and (metadata.get("no_articulation", False) or logic_block.get("no_articulation", False)):
+        uc_course = metadata.get("uc_course", "This course")
         reason = metadata.get("no_articulation_reason", "No articulation available")
-        return f"❌ This course must be completed at UCSD.\n\nReason: {reason}"
+        return f"❌ {uc_course} must be completed at UCSD.\n\nReason: {reason}"
     
     # Get UC course info for header
     uc_course = metadata.get("uc_course", "")
