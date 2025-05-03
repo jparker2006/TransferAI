@@ -159,7 +159,7 @@ class HonorsQueryHandler(QueryHandler):
                     f"Taking honors courses may still provide other benefits, but they are not required for articulation."
                 )
                 
-                return QueryResult(
+            return QueryResult(
                     raw_response="No courses require honors versions",
                     formatted_response=formatted_response,
                     metadata={

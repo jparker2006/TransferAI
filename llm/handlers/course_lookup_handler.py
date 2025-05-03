@@ -213,7 +213,7 @@ class CourseLookupHandler(QueryHandler):
             return QueryResult(
                 raw_response=f"Error processing articulation data: {str(e)}",
                 formatted_response=f"I encountered an error while processing the articulation information for {uc_course}. Please try again or contact support if the issue persists."
-            )
+            ) 
     
     def _process_multiple_courses(self, uc_courses: List[str], query_text: str) -> QueryResult:
         """

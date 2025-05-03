@@ -216,10 +216,9 @@ class TestQueryService(unittest.TestCase):
             },
             config={}
         )
-        # System now classifies this as COURSE_LOOKUP instead of COURSE_VALIDATION
         self.assertEqual(
             self.query_service.determine_query_type(query),
-            QueryType.COURSE_LOOKUP
+            QueryType.COURSE_VALIDATION
         )
         
         # Test course equivalency
@@ -270,6 +269,126 @@ class TestQueryService(unittest.TestCase):
         self.assertEqual(
             self.query_service.determine_query_type(query),
             QueryType.UNKNOWN
+        )
+
+    def test_course_lookup_query_detection(self):
+        """Test course lookup query detection (Test 2 & 3 in regression tests)."""
+        # Test Case 2: "Which courses satisfy CSE 8B?"
+        query = Query(
+            text="Which courses satisfy CSE 8B?",
+            filters={
+                "uc_course": ["CSE 8B"],
+                "ccc_courses": []
+            },
+            config={}
+        )
+        self.assertEqual(
+            self.query_service.determine_query_type(query),
+            QueryType.COURSE_LOOKUP
+        )
+        
+        # Test Case 3: "Which courses satisfy CSE 11?"
+        query = Query(
+            text="Which courses satisfy CSE 11?",
+            filters={
+                "uc_course": ["CSE 11"],
+                "ccc_courses": []
+            },
+            config={}
+        )
+        self.assertEqual(
+            self.query_service.determine_query_type(query),
+            QueryType.COURSE_LOOKUP
+        )
+        
+        # Simple course lookup query
+        query = Query(
+            text="What satisfies MATH 20A?",
+            filters={
+                "uc_course": ["MATH 20A"],
+                "ccc_courses": []
+            },
+            config={}
+        )
+        self.assertEqual(
+            self.query_service.determine_query_type(query),
+            QueryType.COURSE_LOOKUP
+        )
+
+    def test_course_validation_query_detection(self):
+        """Test course validation query detection (Test 12 in regression tests)."""
+        # Test Case 12: "Does MATH 2BH satisfy MATH 18?"
+        query = Query(
+            text="Does MATH 2BH satisfy MATH 18?",
+            filters={
+                "uc_course": ["MATH 18"],
+                "ccc_courses": ["MATH 2BH"]
+            },
+            config={}
+        )
+        self.assertEqual(
+            self.query_service.determine_query_type(query),
+            QueryType.COURSE_VALIDATION
+        )
+        
+        # Another validation query
+        query = Query(
+            text="Will CIS 22A fulfill the CSE 8A requirement?",
+            filters={
+                "uc_course": ["CSE 8A"],
+                "ccc_courses": ["CIS 22A"]
+            },
+            config={}
+        )
+        self.assertEqual(
+            self.query_service.determine_query_type(query),
+            QueryType.COURSE_VALIDATION
+        )
+        
+    def test_honors_query_detection(self):
+        """Test honors requirement query detection."""
+        # Only true honors requirement query - asking if honors is required
+        query = Query(
+            text="Does MATH 20A require honors courses?",
+            filters={
+                "uc_course": ["MATH 20A"],
+                "ccc_courses": []
+            },
+            config={}
+        )
+        self.assertEqual(
+            self.query_service.determine_query_type(query),
+            QueryType.HONORS_REQUIREMENT
+        )
+        
+        # Test that course with H suffix isn't automatically classified as honors requirement
+        query = Query(
+            text="Does MATH 2BH satisfy MATH 18?",
+            filters={
+                "uc_course": ["MATH 18"],
+                "ccc_courses": ["MATH 2BH"]
+            },
+            config={}
+        )
+        self.assertEqual(
+            self.query_service.determine_query_type(query),
+            QueryType.COURSE_VALIDATION
+        )
+        
+    def test_multiple_uc_courses_query_detection(self):
+        """Test query detection with multiple UC courses (Test 21 in regression tests)."""
+        # Test with multiple UC courses asking for lookup
+        query = Query(
+            text="What satisfies CSE 8A and CSE 8B?",
+            filters={
+                "uc_course": ["CSE 8A", "CSE 8B"],
+                "ccc_courses": []
+            },
+            config={}
+        )
+        self.assertEqual(
+            self.query_service.determine_query_type(query),
+            QueryType.COURSE_LOOKUP
         )
 
 

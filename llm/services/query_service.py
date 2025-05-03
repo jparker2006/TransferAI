@@ -352,7 +352,6 @@ class QueryService:
                         return True
         return False
     
-    # In V2, we will use a model to determine the query type
     def determine_query_type(self, query: Query) -> QueryType:
         """
         Determine the type of a query.
@@ -413,21 +412,28 @@ class QueryService:
             
             if any(keyword in query_lower for keyword in path_keywords) or any(re.search(pattern, query_lower) for pattern in path_patterns):
                 return QueryType.PATH_COMPLETION
+
+        # COURSE VALIDATION CHECK (does X satisfy Y?)
+        # Do this check before honors to ensure proper precedence
+        if 'uc_course' in query.filters and 'ccc_courses' in query.filters:
+            if len(query.filters['uc_course']) == 1 and len(query.filters['ccc_courses']) >= 1:
+                validation_keywords = ['does', 'do', 'can', 'will', 'satisfy', 'meet', 'fulfill', 'equivalent']
+                # If query contains both course types and any validation keyword, prioritize this as validation
+                if any(keyword in query_lower for keyword in validation_keywords):
+                    return QueryType.COURSE_VALIDATION
             
-        # Check for honors query - do this early to prioritize it over course lookup
-        honors_keywords = ['honors', 'honour', 'honor', 'h course', 'h version', 'h class', 'h-designated', 'require honors']
+        # Check for honors query - specific honors requirement questions only
+        honors_keywords = ['honors', 'honour', 'honor', 'h course', 'h version', 'h class', 'h-designated']
         if any(keyword in query_lower for keyword in honors_keywords):
-            # Look for specific honors question patterns
+            # Look for specific honors requirement question patterns
             honors_patterns = [
                 r"(?:does|do|is|are).*(?:require|requires|need|needs).*honors",
                 r"honors.*(?:require|required|necessity|needed)",
                 r"(?:need|needs).*honors"
             ]
+            
+            # Only classify as HONORS_REQUIREMENT if it's specifically asking if honors is required
             if any(re.search(pattern, query_lower) for pattern in honors_patterns):
-                return QueryType.HONORS_REQUIREMENT
-                
-            # Check if this is a general honors question that mentions courses
-            if 'course' in query_lower and any(kw in query_lower for kw in ['any', 'which', 'what']):
                 return QueryType.HONORS_REQUIREMENT
         
         # Check for "has articulation" queries
@@ -458,15 +464,16 @@ class QueryService:
             if re.search(pattern, query_lower) and 'uc_course' in query.filters and query.filters['uc_course']:
                 return QueryType.COURSE_LOOKUP
         
-        # Check if query is asking about satisfying a specific UC course without mentioning other courses
-        # This handles cases like "What satisfies CSE 8A?" or "Which classes satisfy CSE 8A?"
+        # IMPROVED: Course lookup detection - prioritize "which courses satisfy X" type queries
+        # This handles simple queries like "Which courses satisfy CSE 8B?" or "What satisfies CSE 11?"
         if ('uc_course' in query.filters and query.filters['uc_course'] and 
             ('ccc_courses' not in query.filters or not query.filters['ccc_courses'])):
             
             satisfy_keywords = ['satisfy', 'fulfil', 'fulfill', 'meet', 'complete', 'articulate', 'transfer', 'equivalent']
             question_starters = ['what', 'which', 'how', 'tell me', 'show me', 'list', 'find']
             
-            if any(keyword in query_lower for keyword in satisfy_keywords) and any(starter in query_lower for starter in question_starters):
+            # For general queries about satisfying a UC course, classify as COURSE_LOOKUP
+            if any(keyword in query_lower for keyword in satisfy_keywords) or any(starter in query_lower for starter in question_starters):
                 return QueryType.COURSE_LOOKUP
         
         # Check if query mentions a school and UC course, likely asking for articulation
@@ -475,16 +482,11 @@ class QueryService:
             any(school in query_lower for school in school_keywords)):
             
             return QueryType.COURSE_LOOKUP
-            
-        # Check for course validation query (does X satisfy Y?)
-        if 'uc_course' in query.filters and 'ccc_courses' in query.filters:
-            if len(query.filters['uc_course']) == 1 and len(query.filters['ccc_courses']) >= 1:
-                return QueryType.COURSE_VALIDATION
         
         # Check for course equivalency query (what does X satisfy?)
         if 'ccc_courses' in query.filters and len(query.filters['ccc_courses']) >= 1:
             if 'uc_course' not in query.filters or not query.filters['uc_course']:
                 return QueryType.COURSE_EQUIVALENCY
-        
+            
         # If we can't determine the type, fall back to UNKNOWN
         return QueryType.UNKNOWN

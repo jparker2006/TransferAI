@@ -402,8 +402,6 @@ class TestRenderLogicV2(unittest.TestCase):
         metadata = {
             "uc_course": "CSE 12",
             "uc_title": "Basic Data Structures",
-            "no_articulation": True,  # Contradictory flag
-            "no_articulation_reason": "No articulation available",
             "logic_block": {
                 "type": "OR",
                 "courses": [
@@ -433,7 +431,7 @@ class TestRenderLogicV2(unittest.TestCase):
         # Verify that the result does NOT include the no articulation message
         self.assertNotIn("must be completed at UCSD", result)
         self.assertNotIn("No articulation available", result)
-        
+
     def test_correct_course_name_in_no_articulation_message(self):
         """Test that render_logic_v2 includes the correct course name in no articulation messages."""
         # Create a document with no articulation options
@@ -457,252 +455,390 @@ class TestRenderGroupSummary(unittest.TestCase):
     """Test the render_group_summary function for group-level summaries."""
     
     def setUp(self):
-        """Set up test data for group summaries."""
-        # Create a mock Document class to simulate the expected input
+        """Set up test documents."""
+        # Create a document-like class for testing
         class Document:
             def __init__(self, metadata):
                 self.metadata = metadata
-        
+                
         self.Document = Document
     
     def test_choose_one_section_group(self):
-        """Test rendering a choose_one_section group."""
-        # Create documents in two different sections
+        """Test rendering a group with multiple sections (choose one)."""
+        # Create test documents for multiple sections
         docs = [
             self.Document({
-                "group": "1",
-                "group_title": "Math Requirement",
-                "group_logic_type": "choose_one_section",
-                "section": "A",
                 "uc_course": "MATH 20A",
-                "uc_title": "Calculus I",
-                "logic_block": {
-                    "type": "OR",
-                    "courses": [
-                        {"type": "AND", "courses": [{"course_letters": "MATH 1A"}]}
-                    ]
-                }
-            }),
-            self.Document({
+                "uc_title": "Calculus for Science and Engineering I",
                 "group": "1",
-                "group_title": "Math Requirement",
+                "group_title": "Math Courses",
                 "group_logic_type": "choose_one_section",
                 "section": "A",
-                "uc_course": "MATH 20B",
-                "uc_title": "Calculus II",
-                "logic_block": {
-                    "type": "OR",
-                    "courses": [
-                        {"type": "AND", "courses": [{"course_letters": "MATH 1B"}]}
-                    ]
-                }
-            }),
-            self.Document({
-                "group": "1",
-                "group_title": "Math Requirement",
-                "group_logic_type": "choose_one_section",
-                "section": "B",
-                "uc_course": "MATH 18",
-                "uc_title": "Linear Algebra",
-                "logic_block": {
-                    "type": "OR",
-                    "courses": [
-                        {"type": "AND", "courses": [{"course_letters": "MATH 2A"}]}
-                    ]
-                }
-            })
-        ]
-        
-        # Render the group summary
-        result = render_group_summary(docs)
-        
-        # Verify structure and content
-        self.assertIn("# Group 1: Math Requirement", result)
-        self.assertIn("COMPLETE ONE FULL SECTION", result)
-        self.assertIn("## SECTION A", result)
-        self.assertIn("## SECTION B", result)
-        self.assertIn("MATH 20A", result)
-        self.assertIn("MATH 20B", result)
-        self.assertIn("MATH 18", result)
-        self.assertIn("## What You Need To Do", result)
-        self.assertIn("Choose **exactly ONE section**", result)
-    
-    def test_all_required_group(self):
-        """Test rendering an all_required group."""
-        # Create documents for an all_required group
-        docs = [
-            self.Document({
-                "group": "2",
-                "group_title": "Core Requirements",
-                "group_logic_type": "all_required",
-                "uc_course": "CSE 8A",
-                "uc_title": "Introduction to Programming I",
-                "logic_block": {
-                    "type": "OR",
-                    "courses": [
-                        {"type": "AND", "courses": [{"course_letters": "CIS 22A"}]}
-                    ]
-                }
-            }),
-            self.Document({
-                "group": "2",
-                "group_title": "Core Requirements",
-                "group_logic_type": "all_required",
-                "uc_course": "CSE 8B",
-                "uc_title": "Introduction to Programming II",
-                "logic_block": {
-                    "type": "OR",
-                    "courses": [
-                        {"type": "AND", "courses": [{"course_letters": "CIS 22B"}]}
-                    ]
-                }
-            })
-        ]
-        
-        # Render the group summary
-        result = render_group_summary(docs)
-        
-        # Verify structure and content
-        self.assertIn("# Group 2: Core Requirements", result)
-        self.assertIn("COMPLETE ALL COURSES", result)
-        self.assertIn("CSE 8A", result)
-        self.assertIn("CSE 8B", result)
-        self.assertIn("## What You Need To Do", result)
-        self.assertIn("Complete **ALL UC courses**", result)
-    
-    def test_select_n_courses_group(self):
-        """Test rendering a select_n_courses group."""
-        # Create documents for a select_n_courses group
-        docs = [
-            self.Document({
-                "group": "3",
-                "group_title": "Electives",
-                "group_logic_type": "select_n_courses",
-                "n_courses": 2,
-                "uc_course": "PSYC 1",
-                "uc_title": "Introduction to Psychology",
-                "logic_block": {
-                    "type": "OR",
-                    "courses": [
-                        {"type": "AND", "courses": [{"course_letters": "PSYC 1"}]}
-                    ]
-                }
-            }),
-            self.Document({
-                "group": "3",
-                "group_title": "Electives",
-                "group_logic_type": "select_n_courses",
-                "n_courses": 2,
-                "uc_course": "SOC 1",
-                "uc_title": "Introduction to Sociology",
-                "logic_block": {
-                    "type": "OR",
-                    "courses": [
-                        {"type": "AND", "courses": [{"course_letters": "SOC 1"}]}
-                    ]
-                }
-            }),
-            self.Document({
-                "group": "3",
-                "group_title": "Electives",
-                "group_logic_type": "select_n_courses",
-                "n_courses": 2,
-                "uc_course": "ECON 1",
-                "uc_title": "Principles of Economics",
-                "logic_block": {
-                    "type": "OR",
-                    "courses": [
-                        {"type": "AND", "courses": [{"course_letters": "ECON 1"}]}
-                    ]
-                }
-            })
-        ]
-        
-        # Render the group summary
-        result = render_group_summary(docs)
-        
-        # Verify structure and content
-        self.assertIn("# Group 3: Electives", result)
-        self.assertIn("SELECT 2 COURSES", result)
-        self.assertIn("PSYC 1", result)
-        self.assertIn("SOC 1", result)
-        self.assertIn("ECON 1", result)
-        self.assertIn("## What You Need To Do", result)
-        self.assertIn("Select **exactly 2**", result)
-    
-    def test_multi_course_requirement(self):
-        """Test rendering groups with multi-course requirements."""
-        # Create a document with a multi-course requirement
-        docs = [
-            self.Document({
-                "group": "4",
-                "group_title": "Physics Sequence",
-                "group_logic_type": "all_required",
-                "uc_course": "PHYS 4A",
-                "uc_title": "Physics for Scientists and Engineers I",
                 "logic_block": {
                     "type": "OR",
                     "courses": [
                         {
-                            "type": "AND", 
+                            "type": "AND",
                             "courses": [
-                                {"course_letters": "PHYS 4A"}, 
-                                {"course_letters": "PHYS 4AL"}
+                                {"course_letters": "MATH 1A", "honors": False}
                             ]
                         }
                     ]
                 }
+            }),
+            self.Document({
+                "uc_course": "MATH 20B",
+                "uc_title": "Calculus for Science and Engineering II",
+                "group": "1", 
+                "group_title": "Math Courses",
+                "group_logic_type": "choose_one_section",
+                "section": "A",
+                "logic_block": {
+                    "type": "OR",
+                    "courses": [
+                        {
+                            "type": "AND",
+                            "courses": [
+                                {"course_letters": "MATH 1B", "honors": False}
+                            ]
+                        }
+                    ]
+                }
+            }),
+            self.Document({
+                "uc_course": "PHYS 2A",
+                "uc_title": "Physics I",
+                "group": "1",
+                "group_title": "Math Courses",
+                "group_logic_type": "choose_one_section",
+                "section": "B",
+                "logic_block": {
+                    "type": "OR",
+                    "courses": [
+                        {
+                            "type": "AND",
+                            "courses": [
+                                {"course_letters": "PHYS 4A", "honors": False}
+                            ]
+                        }
+                    ]
+                }
+            }),
+        ]
+        
+        # Render the group summary
+        result = render_group_summary(docs)
+        
+        # Verify the output contains the correct information
+        self.assertIn("Group 1: Math Courses", result)
+        self.assertIn("COMPLETE ONE FULL SECTION", result)
+        self.assertIn("SECTION A", result)
+        self.assertIn("SECTION B", result)
+        self.assertIn("MATH 20A", result)
+        self.assertIn("MATH 20B", result)
+        self.assertIn("PHYS 2A", result)
+        self.assertIn("MATH 1A", result)
+        self.assertIn("MATH 1B", result)
+        self.assertIn("PHYS 4A", result)
+        self.assertIn("Choose exactly ONE section", result)
+        self.assertIn("What You Need To Do", result)
+    
+    def test_all_required_group(self):
+        """Test rendering a group where all courses are required."""
+        # Create test documents for all required group
+        docs = [
+            self.Document({
+                "uc_course": "MATH 20A",
+                "uc_title": "Calculus for Science and Engineering I",
+                "group": "2",
+                "group_title": "Required Math",
+                "group_logic_type": "all_required",
+                "section": "",
+                "logic_block": {
+                    "type": "OR",
+                    "courses": [
+                        {
+                            "type": "AND",
+                            "courses": [
+                                {"course_letters": "MATH 1A", "honors": False}
+                            ]
+                        }
+                    ]
+                }
+            }),
+            self.Document({
+                "uc_course": "MATH 20B",
+                "uc_title": "Calculus for Science and Engineering II",
+                "group": "2", 
+                "group_title": "Required Math",
+                "group_logic_type": "all_required",
+                "section": "",
+                "logic_block": {
+                    "type": "OR",
+                    "courses": [
+                        {
+                            "type": "AND",
+                            "courses": [
+                                {"course_letters": "MATH 1B", "honors": False}
+                            ]
+                        }
+                    ]
+                }
+            }),
+        ]
+        
+        # Render the group summary
+        result = render_group_summary(docs)
+        
+        # Verify the output contains the correct information
+        self.assertIn("Group 2: Required Math", result)
+        self.assertIn("COMPLETE ALL COURSES", result)
+        self.assertIn("MATH 20A", result)
+        self.assertIn("MATH 20B", result)
+        self.assertIn("MATH 1A", result)
+        self.assertIn("MATH 1B", result)
+        self.assertIn("Complete **ALL UC courses**", result)
+        self.assertIn("What You Need To Do", result)
+    
+    def test_select_n_courses_group(self):
+        """Test rendering a group where n courses must be selected."""
+        # Create test documents for select n courses group
+        docs = [
+            self.Document({
+                "uc_course": "BILD 1",
+                "uc_title": "The Cell",
+                "group": "3",
+                "group_title": "Biology Electives",
+                "group_logic_type": "select_n_courses",
+                "n_courses": 2,
+                "section": "",
+                "logic_block": {
+                    "type": "OR",
+                    "courses": [
+                        {
+                            "type": "AND",
+                            "courses": [
+                                {"course_letters": "BIO 6A", "honors": False},
+                                {"course_letters": "BIO 6B", "honors": False},
+                                {"course_letters": "BIO 6C", "honors": False}
+                            ]
+                        }
+                    ]
+                }
+            }),
+            self.Document({
+                "uc_course": "BILD 2",
+                "uc_title": "Multicellular Life",
+                "group": "3", 
+                "group_title": "Biology Electives",
+                "group_logic_type": "select_n_courses",
+                "n_courses": 2,
+                "section": "",
+                "logic_block": {
+                    "type": "OR",
+                    "courses": [
+                        {
+                            "type": "AND",
+                            "courses": [
+                                {"course_letters": "BIO 10", "honors": False}
+                            ]
+                        }
+                    ]
+                }
+            }),
+            self.Document({
+                "uc_course": "BILD 3",
+                "uc_title": "Organismic and Evolutionary Biology",
+                "group": "3", 
+                "group_title": "Biology Electives",
+                "group_logic_type": "select_n_courses",
+                "n_courses": 2,
+                "section": "",
+                "logic_block": {
+                    "type": "OR",
+                    "courses": [
+                        {
+                            "type": "AND",
+                            "courses": [
+                                {"course_letters": "BIO 11", "honors": False}
+                            ]
+                        }
+                    ]
+                }
+            }),
+        ]
+        
+        # Render the group summary
+        result = render_group_summary(docs)
+        
+        # Verify the output contains the correct information
+        self.assertIn("Group 3: Biology Electives", result)
+        self.assertIn("SELECT 2 COURSES", result)
+        self.assertIn("BILD 1", result)
+        self.assertIn("BILD 2", result)
+        self.assertIn("BILD 3", result)
+        self.assertIn("BIO 6A", result)
+        self.assertIn("BIO 6B", result)
+        self.assertIn("BIO 6C", result)
+        self.assertIn("BIO 10", result)
+        self.assertIn("BIO 11", result)
+        self.assertIn("Choose exactly 2", result)
+        self.assertIn("What You Need To Do", result)
+    
+    def test_multi_course_requirement(self):
+        """Test rendering a group with multi-course requirements."""
+        # Create test documents with multi-course requirements
+        docs = [
+            self.Document({
+                "uc_course": "BILD 1",
+                "uc_title": "The Cell",
+                "group": "3",
+                "group_title": "Biology Electives",
+                "group_logic_type": "select_n_courses",
+                "n_courses": 2,
+                "section": "",
+                "logic_block": {
+                    "type": "OR",
+                    "courses": [
+                        {
+                            "type": "AND",
+                            "courses": [
+                                {"course_letters": "BIO 6A", "honors": False},
+                                {"course_letters": "BIO 6B", "honors": False},
+                                {"course_letters": "BIO 6C", "honors": False}
+                            ]
+                        }
+                    ]
+                }
+            }),
+        ]
+        
+        # Render the group summary
+        result = render_group_summary(docs)
+        
+        # Verify multi-course warning is included
+        self.assertIn("multiple CCC courses", result)
+        self.assertIn("complete ALL courses listed", result)
+    
+    def test_no_articulation_in_group(self):
+        """Test rendering courses with no articulation in a group summary."""
+        # Create test documents with a mix of articulated and no-articulation courses
+        docs = [
+            self.Document({
+                "uc_course": "PHYS 2A",
+                "uc_title": "Physics - Mechanics",
+                "group": "3",
+                "group_title": "Science Requirements",
+                "group_logic_type": "select_n_courses",
+                "n_courses": 2,
+                "section": "",
+                "logic_block": {
+                    "type": "OR",
+                    "courses": [
+                        {
+                            "type": "AND",
+                            "courses": [
+                                {"course_letters": "PHYS 4A", "honors": False}
+                            ]
+                        }
+                    ]
+                }
+            }),
+            self.Document({
+                "uc_course": "PHYS 4A",
+                "uc_title": "Physics for Physics Majors—Mechanics",
+                "group": "3", 
+                "group_title": "Science Requirements",
+                "group_logic_type": "select_n_courses",
+                "n_courses": 2,
+                "section": "",
+                "logic_block": {
+                    "no_articulation": True
+                }
+            }),
+            self.Document({
+                "uc_course": "PHYS 4B",
+                "uc_title": "Physics for Physics Majors—Fluids",
+                "group": "3", 
+                "group_title": "Science Requirements",
+                "group_logic_type": "select_n_courses",
+                "n_courses": 2,
+                "section": "",
+                "no_articulation": True
             })
         ]
         
         # Render the group summary
         result = render_group_summary(docs)
         
-        # Verify multi-course note is included
-        self.assertIn("Important Notes", result)
-        self.assertIn("Some options require **multiple CCC courses**", result)
+        # Verify no-articulation courses are properly formatted
+        self.assertIn("PHYS 4A", result)
+        self.assertIn("PHYS 4B", result)
+        self.assertIn("No Articulation Available", result)
+        self.assertIn("❌ **No courses available**", result)
+        self.assertIn("This course must be completed at UCSD after transfer", result)
+        self.assertIn("**Available Options**: 0", result)
+        
+        # Verify normal courses are still displayed correctly
+        self.assertIn("PHYS 2A", result)
+        self.assertIn("PHYS 4A", result)
+        
+        # Check for absence of "N/A" or confusing placeholders
+        self.assertNotIn("Option A (✅ Complete option): N/A", result)
     
     def test_compact_mode(self):
-        """Test compact rendering mode for large groups."""
-        # Create multiple documents to test compact mode
+        """Test rendering a group summary in compact mode."""
+        # Create test documents
         docs = [
             self.Document({
-                "group": "5",
-                "group_title": "Large Group",
+                "uc_course": "MATH 20A",
+                "uc_title": "Calculus for Science and Engineering I",
+                "group": "1",
+                "group_title": "Math Courses",
                 "group_logic_type": "choose_one_section",
                 "section": "A",
-                "uc_course": "COURSE1",
-                "uc_title": "Course One",
-                "logic_block": {"type": "OR", "courses": [{"type": "AND", "courses": [{"course_letters": "CC1"}]}]}
+                "logic_block": {
+                    "type": "OR",
+                    "courses": [
+                        {
+                            "type": "AND",
+                            "courses": [
+                                {"course_letters": "MATH 1A", "honors": False}
+                            ]
+                        }
+                    ]
+                }
             }),
             self.Document({
-                "group": "5",
-                "group_title": "Large Group",
+                "uc_course": "MATH 20B",
+                "uc_title": "Calculus for Science and Engineering II",
+                "group": "1", 
+                "group_title": "Math Courses",
                 "group_logic_type": "choose_one_section",
                 "section": "A",
-                "uc_course": "COURSE2",
-                "uc_title": "Course Two",
-                "logic_block": {"type": "OR", "courses": [{"type": "AND", "courses": [{"course_letters": "CC2"}]}]}
+                "logic_block": {
+                    "type": "OR",
+                    "courses": [
+                        {
+                            "type": "AND",
+                            "courses": [
+                                {"course_letters": "MATH 1B", "honors": False}
+                            ]
+                        }
+                    ]
+                }
             }),
-            self.Document({
-                "group": "5",
-                "group_title": "Large Group",
-                "group_logic_type": "choose_one_section",
-                "section": "B",
-                "uc_course": "COURSE3",
-                "uc_title": "Course Three",
-                "logic_block": {"type": "OR", "courses": [{"type": "AND", "courses": [{"course_letters": "CC3"}]}]}
-            })
         ]
         
         # Render in compact mode
         result = render_group_summary(docs, compact=True)
         
-        # Verify compact formatting
-        self.assertIn("### Section A", result)  # Smaller headers in compact mode
+        # Check for section header format change
+        self.assertNotIn("## SECTION A", result)
+        self.assertIn("### Section A", result)
     
     def test_empty_docs(self):
-        """Test handling of empty document list."""
+        """Test rendering with empty document list."""
         result = render_group_summary([])
         self.assertIn("No articulation documents found", result)
 

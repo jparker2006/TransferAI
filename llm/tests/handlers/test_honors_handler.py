@@ -303,19 +303,19 @@ class TestHonorsQueryHandler(unittest.TestCase):
                 "CSE 8A": False
             }
             
-            # Create query
-            query = Query(
-                text="Do I need honors courses?",
-                filters={},
-                config=self.config,
-                query_type=QueryType.HONORS_REQUIREMENT
-            )
-            
-            # Process query
-            result = self.handler.handle(query)
-            
+        # Create query
+        query = Query(
+            text="Do I need honors courses?",
+            filters={},
+            config=self.config,
+            query_type=QueryType.HONORS_REQUIREMENT
+        )
+        
+        # Process query
+        result = self.handler.handle(query)
+        
             # Verify result is a general response about honors requirements
-            self.assertIsNotNone(result)
+        self.assertIsNotNone(result)
             self.assertIn("Honors Requirements", result.formatted_response)
         
     def test_handle_course_not_found(self):

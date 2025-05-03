@@ -155,7 +155,7 @@ def render_logic_v2(
         has_articulation_options = True
     
     # Handle no articulation case - only if there are truly no options
-    if not has_articulation_options and (metadata.get("no_articulation", False) or logic_block.get("no_articulation", False)):
+    if not has_articulation_options or metadata.get("no_articulation", False) or logic_block.get("no_articulation", False):
         uc_course = metadata.get("uc_course", "This course")
         reason = metadata.get("no_articulation_reason", "No articulation available")
         return f"❌ {uc_course} must be completed at UCSD.\n\nReason: {reason}"
@@ -357,23 +357,43 @@ def render_group_summary(
         if uc_course not in verified_uc_courses:
             continue
         
-        # Use render_logic_v2 if available, else fallback to render_logic_str
-        try:
-            # Try the new streamlined renderer
-            logic_str = render_logic_v2(metadata).strip()
-        except:
-            # Fallback to the older renderer
-            logic_str = render_logic_str(metadata).strip()
-
-        # Format final output block per course - don't duplicate UC course title since render_logic_v2 includes it
-        if "❌" in logic_str and "must be completed at UCSD" in logic_str:
-            full_entry = logic_str
+        # Check if this course has no articulation
+        no_articulation = metadata.get("no_articulation", False) or logic_block.get("no_articulation", False)
+        
+        # For courses with no articulation, create a clear no-articulation entry
+        if no_articulation:
+            full_entry = f"## {uc_course}{f' – {uc_title}' if uc_title else ''}\n\n"
+            full_entry += f"**Available Options**: 0 (0 requiring multiple courses)\n\n"
+            full_entry += f"### No Articulation Available\n"
+            full_entry += f"❌ **No courses available**: This course has no articulation at community colleges.\n\n"
+            full_entry += f"### Notes:\n🔹 This course must be completed at UCSD after transfer."
         else:
-            # For normal articulation courses
-            if not "##" in logic_str:  # If render_logic_v2 didn't add a header
-                full_entry = f"## {uc_course}{f' – {uc_title}' if uc_title else ''}\n\n{logic_str}"
+            # Use render_logic_v2 if available, else fallback to render_logic_str
+            try:
+                # Try the new streamlined renderer
+                logic_str = render_logic_v2(metadata).strip()
+            except:
+                # Fallback to the older renderer
+                logic_str = render_logic_str(metadata).strip()
+    
+            # Format final output block per course
+            if "❌" in logic_str and "must be completed at UCSD" in logic_str:
+                # Format for no articulation case
+                full_entry = f"## {uc_course}{f' – {uc_title}' if uc_title else ''}\n\n"
+                full_entry += f"**Available Options**: 0 (0 requiring multiple courses)\n\n"
+                full_entry += f"### No Articulation Available\n"
+                
+                # Extract the reason part safely without using backslash in f-string
+                reason_text = logic_str.split('❌ ')[1].split('\n')[0] if '❌ ' in logic_str else "This course has no articulation at community colleges."
+                full_entry += f"❌ **No courses available**: {reason_text}\n\n"
+                
+                full_entry += f"### Notes:\n🔹 This course must be completed at UCSD after transfer."
             else:
-                full_entry = logic_str
+                # Format for normal articulation courses
+                if not "##" in logic_str:  # If render_logic_v2 didn't add a header
+                    full_entry = f"## {uc_course}{f' – {uc_title}' if uc_title else ''}\n\n{logic_str}"
+                else:
+                    full_entry = logic_str
 
         # Append to section or flat list
         if group_type == "choose_one_section":

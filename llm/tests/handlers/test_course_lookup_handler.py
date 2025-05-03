@@ -514,6 +514,6 @@ class TestCourseLookupHandler(unittest.TestCase):
         # Verify metadata
         self.assertEqual(result.metadata["uc_course"], "CSE 15L")
         self.assertFalse(result.metadata["has_articulation"])
-
+        
 if __name__ == "__main__":
     unittest.main() 
