@@ -4,6 +4,7 @@ import time
 import re
 import hashlib
 import sys
+import math
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -25,6 +26,52 @@ def setup_driver():
     wait = WebDriverWait(driver, 25)
     print("🚀 Driver setup complete.")
     return driver, wait
+
+def take_sequential_screenshots(driver, screenshot_dir, prefix="screen"):
+    """
+    Takes a series of full page screenshots as we scroll through the page.
+    Each screenshot is saved with a sequential number.
+    
+    Args:
+        driver: WebDriver instance
+        screenshot_dir: Directory to save screenshots
+        prefix: Prefix for screenshot filenames
+    """
+    # Ensure the directory exists
+    os.makedirs(screenshot_dir, exist_ok=True)
+    
+    # Get page dimensions
+    total_height = driver.execute_script("return document.body.scrollHeight")
+    viewport_height = driver.execute_script("return window.innerHeight")
+    
+    # Calculate how many screenshots we need
+    # Use 90% of viewport height as the step to ensure overlap
+    scroll_step = int(viewport_height * 0.8)
+    num_screenshots = math.ceil(total_height / scroll_step)
+    
+    print(f"📏 Page height: {total_height}px, viewport: {viewport_height}px")
+    print(f"📸 Taking {num_screenshots} sequential screenshots with {scroll_step}px steps")
+    
+    # Reset scroll position
+    driver.execute_script("window.scrollTo(0, 0);")
+    time.sleep(0.5)  # Allow rendering
+    
+    # Take screenshots
+    for i in range(num_screenshots):
+        # Calculate scroll position
+        scroll_pos = i * scroll_step
+        
+        # Scroll to position
+        driver.execute_script(f"window.scrollTo(0, {scroll_pos});")
+        time.sleep(0.8)  # Allow time for any lazy loading and rendering
+        
+        # Take screenshot
+        filename = os.path.join(screenshot_dir, f"{prefix}_{i+1:03d}_of_{num_screenshots:03d}.png")
+        driver.save_screenshot(filename)
+        print(f"📸 Screenshot {i+1}/{num_screenshots} saved to {filename}")
+    
+    # Return to the top
+    driver.execute_script("window.scrollTo(0, 0);")
 
 def select_schools(driver, wait, cc_name, uni_name):
     driver.get("https://assist.org")
@@ -68,29 +115,132 @@ def select_major(driver, wait, major_filter):
     print(f"🎯 Clicked major: {major_filter}")
 
 
-def scroll_all_emphases(driver, wait=None):
+def scroll_all_emphases(driver, wait=None, take_screenshots=False, screenshot_dir=None, ccc_slug=None, uc_slug=None, major_slug=None):
     if wait is None:
         wait = WebDriverWait(driver, 10)
-
-    section_blocks = driver.find_elements(By.CLASS_NAME, "emphasis--section")
-    print(f"🔎 Found {len(section_blocks)} emphasis--section blocks. Scrolling...")
-
-    seen_ids = set()
-
-    for idx, section in enumerate(section_blocks, 1):
+    
+    # Ensure the page has loaded all dynamic content first
+    try:
+        # Wait for articulation data to load completely
+        wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "emphasis--section")))
+        
+        # Force expand any collapsed sections first if the site has those
         try:
-            section_id = section.get_attribute("id") or f"idx_{idx}"
-            if section_id in seen_ids:
-                continue
+            collapsed_elements = driver.find_elements(By.CSS_SELECTOR, ".collapsible:not(.expanded)")
+            for collapsed in collapsed_elements:
+                driver.execute_script("arguments[0].click();", collapsed)
+                time.sleep(0.2)  # Short wait between each expansion
+        except:
+            pass  # Not critical if this fails
+    except Exception as e:
+        print(f"⚠️ Warning while preparing page: {e}")
 
-            driver.execute_script("arguments[0].scrollIntoView({behavior: 'auto', block: 'center'});", section)
-            wait.until(EC.visibility_of(section))
-            seen_ids.add(section_id)
-
-        except Exception as e:
-            print(f"  ⚠️ Could not scroll to block {idx}: {e}")
-
-    print(f"✅ Finished scrolling {len(seen_ids)} emphasis blocks")
+    # Find all group containers to understand the structure
+    group_containers = driver.find_elements(By.CLASS_NAME, "groupContainer")
+    print(f"🔎 Found {len(group_containers)} group containers for reference")
+    
+    # If we're taking screenshots, do that instead of per-element processing
+    if take_screenshots and screenshot_dir:
+        # Process major name and create directory for screenshots
+        if not ccc_slug or not uc_slug or not major_slug:
+            print("⚠️ Warning: Missing slugs for screenshot naming, using generic names")
+            ccc_slug = ccc_slug or "unknown_college"
+            uc_slug = uc_slug or "unknown_university"
+            major_slug = major_slug or "unknown_major"
+        
+        catalog_year = "2024_2025"
+        major_screenshot_dir = os.path.join(screenshot_dir, ccc_slug, uc_slug, major_slug, catalog_year)
+        os.makedirs(major_screenshot_dir, exist_ok=True)
+        
+        # Take sequential screenshots of the entire page
+        screenshot_prefix = f"{major_slug}"
+        take_sequential_screenshots(driver, major_screenshot_dir, screenshot_prefix)
+        
+        # Also capture the group headers to help identify where each group starts
+        print("📋 Creating group index file...")
+        index_data = []
+        
+        for idx, group in enumerate(group_containers, 1):
+            try:
+                # Get group details
+                try:
+                    group_number = group.find_element(By.CLASS_NAME, "groupNumber").text.strip()
+                except:
+                    group_number = f"Group {idx}"
+                
+                try:
+                    group_header = group.find_element(By.CLASS_NAME, "instructionsHeader").text.strip()
+                except:
+                    group_header = ""
+                
+                # Scroll to the group so we can get its position
+                driver.execute_script("arguments[0].scrollIntoView({block: 'start'});", group)
+                time.sleep(0.3)
+                
+                # Get the group's position on the page
+                group_position = driver.execute_script("""
+                    var rect = arguments[0].getBoundingClientRect();
+                    return rect.top + window.pageYOffset;
+                """, group)
+                
+                # Store group info
+                index_data.append({
+                    "group_number": group_number,
+                    "header": group_header,
+                    "y_position": group_position,
+                    "approximate_screenshot": f"Approx. screenshot {math.floor(group_position / (driver.execute_script('return window.innerHeight') * 0.8)) + 1}"
+                })
+                
+            except Exception as e:
+                print(f"⚠️ Error recording group {idx} position: {e}")
+        
+        # Save the group index as JSON
+        index_file = os.path.join(major_screenshot_dir, f"{major_slug}_group_index.json")
+        with open(index_file, "w", encoding="utf-8") as f:
+            json.dump(index_data, f, indent=2, ensure_ascii=False)
+        
+        print(f"✅ Group index saved to {index_file}")
+    
+    # Otherwise just scroll through to ensure content loads for data extraction
+    else:
+        # First pass: scroll through all groups to ensure they're loaded
+        print("🔄 Scrolling through content to ensure it's loaded...")
+        
+        # Start with a full-page scroll to load most content
+        driver.execute_script("""
+            // Scroll to bottom and back up to load all content
+            var scrollStep = Math.floor(window.innerHeight / 2);
+            var totalHeight = document.body.scrollHeight;
+            
+            // Get to bottom of page in steps
+            for (var i = 0; i < totalHeight; i += scrollStep) {
+                window.scrollTo(0, i);
+            }
+            
+            // Go all the way to the bottom
+            window.scrollTo(0, totalHeight);
+            
+            // Back to top
+            window.scrollTo(0, 0);
+        """)
+        time.sleep(1.0)
+        
+        # Then focus on individual groups
+        for group_idx, group in enumerate(group_containers, 1):
+            try:
+                # Scroll to the group
+                driver.execute_script("arguments[0].scrollIntoView({behavior: 'auto', block: 'center'});", group)
+                time.sleep(0.5)  # Brief pause to allow loading
+                
+                # Get all sections in this group
+                section_blocks = group.find_elements(By.CLASS_NAME, "emphasis--section")
+                for section in section_blocks:
+                    driver.execute_script("arguments[0].scrollIntoView({behavior: 'auto', block: 'center'});", section)
+                    time.sleep(0.2)  # Quick pause for any lazy-loaded content
+            except Exception as e:
+                print(f"⚠️ Error scrolling through group {group_idx}: {e}")
+    
+    print(f"✅ Finished processing all groups")
 
 def parse_general_advice(driver):
     try:
@@ -146,6 +296,69 @@ def parse_single_course(cl):
     except Exception as e:
         # print(f"         ⚠️ Failed to parse courseLine: {e}")
         return None
+
+def extract_notes(element):
+    """Extract any notes from the element, especially 'Same as' information."""
+    notes = []
+    try:
+        # First look for attribute elements directly - this is the most accurate approach
+        attribute_elements = element.find_elements(By.CSS_SELECTOR, ".attribute.course, .attributeContent")
+        for attr_elem in attribute_elements:
+            attr_text = attr_elem.text.strip()
+            if attr_text:
+                # Clean up the text - normalize spaces and remove any non-printable chars
+                clean_text = " ".join(attr_text.split())
+                notes.append(clean_text)
+        
+        # If no attribute elements found, look more broadly
+        if not notes:
+            # Try using additional note selectors
+            note_selectors = [
+                ".courseNote", 
+                ".courseAttribute", 
+                ".sectionAdvisements",
+                ".courseNotes",
+                ".notes",
+                ".noteContainer",
+                ".info",
+                "span.note",
+                "div[class*='note']",
+                "span[class*='note']"
+            ]
+            
+            selector_string = ", ".join(note_selectors)
+            note_elements = element.find_elements(By.CSS_SELECTOR, selector_string)
+            
+            for note_elem in note_elements:
+                note_text = note_elem.text.strip()
+                if note_text:
+                    clean_text = " ".join(note_text.split())
+                    notes.append(clean_text)
+
+        # If we still don't have any "Same as" notes, look for them in the text content
+        has_same_as = any("same as" in note.lower() for note in notes)
+        if not has_same_as:
+            full_text = element.text
+            same_as_match = re.search(r'Same as\s+([A-Z]+\s+\d+[A-Z]*)', full_text, re.IGNORECASE)
+            if same_as_match:
+                clean_text = " ".join(same_as_match.group(0).split())
+                notes.append(clean_text)
+
+    except Exception as e:
+        print(f"Error extracting notes: {e}")
+        pass
+    
+    # Remove duplicates while preserving order
+    if notes:
+        seen = set()
+        unique_notes = []
+        for note in notes:
+            if note not in seen:
+                seen.add(note)
+                unique_notes.append(note)
+        return unique_notes
+    
+    return None
 
 def parse_and_group(and_block):
     and_group = []
@@ -310,7 +523,13 @@ def parse_course_sets(driver):
                     uc_block = rowset.find_element(By.CLASS_NAME, "rowReceiving")
                     uc_code = uc_block.find_element(By.CLASS_NAME, "prefixCourseNumber").text.strip()
                     uc_title = uc_block.find_element(By.CLASS_NAME, "courseTitle").text.strip()
-
+                    
+                    # Add debug output for the HTML structure
+                    print(f"🔍 Processing course {uc_code} - HTML: {uc_block.get_attribute('outerHTML')}")
+                    
+                    # Extract UC notes - directly targeting the attribute elements
+                    uc_notes = extract_notes(uc_block)
+                    
                     units = None
                     try:
                         units_text = uc_block.find_element(By.CLASS_NAME, "courseUnits").text.strip()
@@ -320,6 +539,13 @@ def parse_course_sets(driver):
 
                     # 🔁 CCC articulation logic
                     ccc_block = rowset.find_element(By.CLASS_NAME, "rowSending")
+                    
+                    # Extract CCC notes
+                    ccc_notes = extract_notes(ccc_block)
+                    
+                    # Debug CCC block if necessary
+                    print(f"🔍 Processing CCC equivalents for {uc_code} - HTML: {ccc_block.get_attribute('outerHTML')}")
+                    
                     equivalent_sets = parse_equivalent_sets_from_sending_block(ccc_block)
 
                     if not equivalent_sets:
@@ -330,6 +556,12 @@ def parse_course_sets(driver):
                         "units": units,
                         "equivalent_sets": equivalent_sets
                     }
+                    
+                    # Add notes if present
+                    if uc_notes:
+                        course_entry["uc_notes"] = uc_notes
+                    if ccc_notes:
+                        course_entry["ccc_notes"] = ccc_notes
 
                     section_data["uc_courses"].append(course_entry)
                 except Exception as e:
@@ -428,6 +660,10 @@ def restructure_for_rag(parsed_data):
                 units = course.get("units", "")
                 logic_block = course.get("equivalent_sets", {})
                 uc_letters, uc_title = extract_course_letters_and_title(uc_course_raw)
+                
+                # Get notes
+                uc_notes = course.get("uc_notes", None)
+                ccc_notes = course.get("ccc_notes", None)
 
                 # Ensure proper structure
                 if not isinstance(logic_block, dict) or "courses" not in logic_block:
@@ -461,14 +697,22 @@ def restructure_for_rag(parsed_data):
                             })
                     logic_block["courses"] = new_courses
 
-                uc_courses.append({
+                course_obj = {
                     "uc_course_id": uc_letters,
                     "uc_course_title": uc_title,
                     "units": units,
                     "section_id": section_id,
                     "section_title": section_title,
                     "logic_block": logic_block
-                })
+                }
+                
+                # Add notes if present
+                if uc_notes:
+                    course_obj["uc_notes"] = uc_notes
+                if ccc_notes:
+                    course_obj["ccc_notes"] = ccc_notes
+
+                uc_courses.append(course_obj)
 
             section_obj = {
                 "section_id": section_id,
@@ -480,7 +724,6 @@ def restructure_for_rag(parsed_data):
                 section_obj["n_courses"] = n_courses
 
             section_list.append(section_obj)
-
 
         group_obj = {
             "group_id": group_id,
@@ -505,31 +748,48 @@ def slugify(name: str) -> str:
 
 
 
-def scrape_articulation(driver, wait, cc_name, uni_name, major_filter):
+def scrape_articulation(driver, wait, cc_name, uni_name, major_filter, take_screenshots=True):
     select_major(driver, wait, major_filter)
 
-
-    # print("⏳ Waiting for articulation groups to load...")
+    # Wait for articulation groups to load
     wait.until(EC.presence_of_element_located((By.CLASS_NAME, "groupContainer")))
-    # print("✅ groupContainer(s) loaded.")
 
     source_url = driver.current_url
     print("Source URL: ", source_url)
 
-    # print("🔎 Scrolling to ensure lazy-loaded content is visible...")
-    scroll_all_emphases(driver)
-    # time.sleep(2)  # Extra wait for dynamic content
+    # Create slugs for file naming
+    ccc_slug = slugify(cc_name)
+    uc_slug = slugify(uni_name)
+    major_slug = slugify(major_filter)
+    
+    # Set proper browser size for better screenshots
+    if take_screenshots:
+        # Set a consistent viewport size for screenshots
+        driver.set_window_size(1440, 900)
+        print("🖥️ Set browser window to 1440x900 for consistent screenshots")
+    
+    # Prepare for screenshots and parse the data
+    screenshot_dir = "data/screenshots" if take_screenshots else None
+    
+    # First ensure everything is loaded properly
+    print("🔍 Processing articulation data...")
+    scroll_all_emphases(
+        driver, 
+        wait=wait, 
+        take_screenshots=take_screenshots, 
+        screenshot_dir=screenshot_dir,
+        ccc_slug=ccc_slug,
+        uc_slug=uc_slug,
+        major_slug=major_slug
+    )
 
+    # Now parse the data
     parsed_data = parse_course_sets(driver)
     parsed_data["major"] = major_filter  # Update major from parameter
     parsed_data["source_url"] = source_url
     rag_data = restructure_for_rag(parsed_data)
 
-
     # Saving the file
-    ccc_slug = slugify(cc_name)
-    uc_slug = slugify(uni_name)
-    major_slug = slugify(major_filter)
     catalog_year = "2024_2025"
 
     output_dir = os.path.join("data", "assist_data", ccc_slug, uc_slug)
@@ -542,7 +802,6 @@ def scrape_articulation(driver, wait, cc_name, uni_name, major_filter):
     # Save
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(rag_data, f, indent=2, ensure_ascii=False)
-
 
     print("✅ RAG JSON written to " + file_path)
 
@@ -608,21 +867,18 @@ def main():
     uc_name = "University of California, San Diego"
 
     majors = [
-        "CSE: Computer Science B.S.",
-        "Sociology/Economy and Society B.A.",
-        "ECE: Electrical Engineering B.S.",
-        "Accounting Minor: Rady School of Management",
-        "Anthropology B.A. with Concentration in Archaeology",
-        "Anthropology B.A. with Concentration in Biological Anthropology",
-        "Anthropology B.A. with Concentration in Climate Change and Human Solutions",
-        "Anthropology B.A. with Concentration in Sociocultural Anthropology",
-        "Anthropology: Biological Anthropology B.S.",
-        "Art: Art History/Criticism B.A. (Visual Arts)",
-        "Art: Interdisciplinary Computing in the Arts Major (ICAM) B.A. (Visual Arts)",
-        "Art: Media B.A. ( Visual Arts)",
-        "Art: Speculative Design B.A. (Visual Arts)",
-        "Art: Studio B.A. (Visual Arts)",
-        "Astronomy and Astrophysics B.A.",
+        # "CSE: Computer Science B.S.",
+        # "Economics B.S.",
+        # "Biology: Molecular and Cell Biology B.S.",
+        # "Psychology B.A.",
+        # "Data Science B.S.",
+        # "Cognitive Science B.S. with Specialization in Machine Learning and Neural Computation",
+        # "Cinematic Arts and Film Studies: Cinematic Arts B.A.",
+        # "History B.A.",
+        # "Structural Engineering B.S.",
+        # "Political Science/Data Analytics B.S.",
+        # "Public Health with Concentration in Community Health Sciences B.S."
+        "Mathematics/Computer Science B.S."
     ]
 
     driver, wait = setup_driver()
@@ -631,7 +887,7 @@ def main():
         try:
             print(f"\n🔁 Scraping {major}...")
             select_schools(driver, wait, cc_name, uc_name)  # Re-navigate per major
-            scrape_articulation(driver, wait, cc_name, uc_name, major)
+            scrape_articulation(driver, wait, cc_name, uc_name, major, take_screenshots=False)
         except Exception as e:
             print(f"❌ Failed to scrape {major}: {e}")
 
