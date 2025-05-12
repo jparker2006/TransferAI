@@ -28,6 +28,18 @@
                     "type": "AND",
                     "courses": [
                       {
+                        "name": "CIS 22A Beginning Programming Methodologies in C++",
+                        "honors": false,
+                        "course_id": "a6d419c5",
+                        "course_letters": "CIS 22A",
+                        "title": "Beginning Programming Methodologies in C++"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
                         "name": "CIS 36A Introduction to Computer Programming Using Java",
                         "honors": false,
                         "course_id": "a1733a15",
@@ -45,18 +57,6 @@
                         "course_id": "a1f64eec",
                         "course_letters": "CIS 40",
                         "title": "Introduction to Programming in Python"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "AND",
-                    "courses": [
-                      {
-                        "name": "CIS 22A Beginning Programming Methodologies in C++",
-                        "honors": false,
-                        "course_id": "a6d419c5",
-                        "course_letters": "CIS 22A",
-                        "title": "Beginning Programming Methodologies in C++"
                       }
                     ]
                   }
@@ -107,6 +107,18 @@
                     "type": "AND",
                     "courses": [
                       {
+                        "name": "CIS 35A Java Programming",
+                        "honors": false,
+                        "course_id": "34bdd225",
+                        "course_letters": "CIS 35A",
+                        "title": "Java Programming"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
                         "name": "CIS 36A Introduction to Computer Programming Using Java",
                         "honors": false,
                         "course_id": "a1733a15",
@@ -119,18 +131,6 @@
                         "course_id": "3673c29e",
                         "course_letters": "CIS 36B",
                         "title": "Intermediate Problem Solving in Java"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "AND",
-                    "courses": [
-                      {
-                        "name": "CIS 35A Java Programming",
-                        "honors": false,
-                        "course_id": "34bdd225",
-                        "course_letters": "CIS 35A",
-                        "title": "Java Programming"
                       }
                     ]
                   }
@@ -153,8 +153,8 @@
           "section_logic_type": "all_required",
           "uc_courses": [
             {
-              "uc_course_id": "CSE 30",
-              "uc_course_title": "Computer Organization and Systems Programming",
+              "uc_course_id": "CSE 12",
+              "uc_course_title": "Basic Data Structures and Object-Oriented Design",
               "section_id": "A",
               "section_title": "Section A",
               "logic_block": {
@@ -164,25 +164,11 @@
                     "type": "AND",
                     "courses": [
                       {
-                        "name": "CIS 21JA Introduction to x86 Processor Assembly Language and Computer Architecture",
+                        "name": "CIS 22C Data Abstraction and Structures",
                         "honors": false,
-                        "course_id": "a2752457",
-                        "course_letters": "CIS 21JA",
-                        "title": "Introduction to x86 Processor Assembly Language and Computer Architecture"
-                      },
-                      {
-                        "name": "CIS 21JB Advanced x86 Processor Assembly Programming",
-                        "honors": false,
-                        "course_id": "7492905e",
-                        "course_letters": "CIS 21JB",
-                        "title": "Advanced x86 Processor Assembly Programming"
-                      },
-                      {
-                        "name": "CIS 26BH Advanced C Programming - HONORS",
-                        "honors": true,
-                        "course_id": "cda00163",
-                        "course_letters": "CIS 26BH",
-                        "title": "Advanced C Programming - HONORS"
+                        "course_id": "f4e40d78",
+                        "course_letters": "CIS 22C",
+                        "title": "Data Abstraction and Structures"
                       }
                     ]
                   },
@@ -190,25 +176,11 @@
                     "type": "AND",
                     "courses": [
                       {
-                        "name": "CIS 21JA Introduction to x86 Processor Assembly Language and Computer Architecture",
-                        "honors": false,
-                        "course_id": "a2752457",
-                        "course_letters": "CIS 21JA",
-                        "title": "Introduction to x86 Processor Assembly Language and Computer Architecture"
-                      },
-                      {
-                        "name": "CIS 21JB Advanced x86 Processor Assembly Programming",
-                        "honors": false,
-                        "course_id": "7492905e",
-                        "course_letters": "CIS 21JB",
-                        "title": "Advanced x86 Processor Assembly Programming"
-                      },
-                      {
-                        "name": "CIS 26B Advanced C Programming",
-                        "honors": false,
-                        "course_id": "ddb86661",
-                        "course_letters": "CIS 26B",
-                        "title": "Advanced C Programming"
+                        "name": "CIS 22CH Data Abstraction and Structures - HONORS",
+                        "honors": true,
+                        "course_id": "89249368",
+                        "course_letters": "CIS 22CH",
+                        "title": "Data Abstraction and Structures - HONORS"
                       }
                     ]
                   }
@@ -235,62 +207,6 @@
                 "no_articulation": true
               },
               "units": 2.0
-            },
-            {
-              "uc_course_id": "CSE 12",
-              "uc_course_title": "Basic Data Structures and Object-Oriented Design",
-              "section_id": "A",
-              "section_title": "Section A",
-              "logic_block": {
-                "type": "OR",
-                "courses": [
-                  {
-                    "type": "AND",
-                    "courses": [
-                      {
-                        "name": "CIS 22CH Data Abstraction and Structures - HONORS",
-                        "honors": true,
-                        "course_id": "89249368",
-                        "course_letters": "CIS 22CH",
-                        "title": "Data Abstraction and Structures - HONORS"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "AND",
-                    "courses": [
-                      {
-                        "name": "CIS 22C Data Abstraction and Structures",
-                        "honors": false,
-                        "course_id": "f4e40d78",
-                        "course_letters": "CIS 22C",
-                        "title": "Data Abstraction and Structures"
-                      }
-                    ]
-                  }
-                ]
-              },
-              "units": 4.0
-            },
-            {
-              "uc_course_id": "CSE 21",
-              "uc_course_title": "Mathematics for Algorithms and Systems",
-              "section_id": "A",
-              "section_title": "Section A",
-              "logic_block": {
-                "type": "OR",
-                "courses": [
-                  {
-                    "name": "No Course Articulated",
-                    "honors": false,
-                    "course_id": "f5f99326",
-                    "course_letters": "N/A",
-                    "title": "No Course Articulated"
-                  }
-                ],
-                "no_articulation": true
-              },
-              "units": 4.0
             },
             {
               "uc_course_id": "CSE 20",
@@ -327,6 +243,90 @@
                 ]
               },
               "units": 4.0
+            },
+            {
+              "uc_course_id": "CSE 21",
+              "uc_course_title": "Mathematics for Algorithms and Systems",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "CSE 30",
+              "uc_course_title": "Computer Organization and Systems Programming",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CIS 21JA Introduction to x86 Processor Assembly Language and Computer Architecture",
+                        "honors": false,
+                        "course_id": "a2752457",
+                        "course_letters": "CIS 21JA",
+                        "title": "Introduction to x86 Processor Assembly Language and Computer Architecture"
+                      },
+                      {
+                        "name": "CIS 21JB Advanced x86 Processor Assembly Programming",
+                        "honors": false,
+                        "course_id": "7492905e",
+                        "course_letters": "CIS 21JB",
+                        "title": "Advanced x86 Processor Assembly Programming"
+                      },
+                      {
+                        "name": "CIS 26B Advanced C Programming",
+                        "honors": false,
+                        "course_id": "ddb86661",
+                        "course_letters": "CIS 26B",
+                        "title": "Advanced C Programming"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CIS 21JA Introduction to x86 Processor Assembly Language and Computer Architecture",
+                        "honors": false,
+                        "course_id": "a2752457",
+                        "course_letters": "CIS 21JA",
+                        "title": "Introduction to x86 Processor Assembly Language and Computer Architecture"
+                      },
+                      {
+                        "name": "CIS 21JB Advanced x86 Processor Assembly Programming",
+                        "honors": false,
+                        "course_id": "7492905e",
+                        "course_letters": "CIS 21JB",
+                        "title": "Advanced x86 Processor Assembly Programming"
+                      },
+                      {
+                        "name": "CIS 26BH Advanced C Programming - HONORS",
+                        "honors": true,
+                        "course_id": "cda00163",
+                        "course_letters": "CIS 26BH",
+                        "title": "Advanced C Programming - HONORS"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
             }
           ]
         },
@@ -335,42 +335,6 @@
           "section_title": "Section B",
           "section_logic_type": "all_required",
           "uc_courses": [
-            {
-              "uc_course_id": "MATH 20B",
-              "uc_course_title": "Calculus for Science and Engineering",
-              "section_id": "B",
-              "section_title": "Section B",
-              "logic_block": {
-                "type": "OR",
-                "courses": [
-                  {
-                    "type": "AND",
-                    "courses": [
-                      {
-                        "name": "MATH 1BH Calculus II - HONORS",
-                        "honors": true,
-                        "course_id": "9001a62b",
-                        "course_letters": "MATH 1BH",
-                        "title": "Calculus II - HONORS"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "AND",
-                    "courses": [
-                      {
-                        "name": "MATH 1B Calculus II",
-                        "honors": false,
-                        "course_id": "08bf9a15",
-                        "course_letters": "MATH 1B",
-                        "title": "Calculus II"
-                      }
-                    ]
-                  }
-                ]
-              },
-              "units": 4.0
-            },
             {
               "uc_course_id": "MATH 18",
               "uc_course_title": "Linear Algebra",
@@ -383,11 +347,11 @@
                     "type": "AND",
                     "courses": [
                       {
-                        "name": "MATH 2BH Linear Algebra - HONORS",
-                        "honors": true,
-                        "course_id": "f833ae9e",
-                        "course_letters": "MATH 2BH",
-                        "title": "Linear Algebra - HONORS"
+                        "name": "MATH 2B Linear Algebra",
+                        "honors": false,
+                        "course_id": "67ba64db",
+                        "course_letters": "MATH 2B",
+                        "title": "Linear Algebra"
                       }
                     ]
                   },
@@ -395,11 +359,83 @@
                     "type": "AND",
                     "courses": [
                       {
-                        "name": "MATH 2B Linear Algebra",
+                        "name": "MATH 2BH Linear Algebra - HONORS",
+                        "honors": true,
+                        "course_id": "f833ae9e",
+                        "course_letters": "MATH 2BH",
+                        "title": "Linear Algebra - HONORS"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20A",
+              "uc_course_title": "Calculus for Science and Engineering",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 1A Calculus I",
                         "honors": false,
-                        "course_id": "67ba64db",
-                        "course_letters": "MATH 2B",
-                        "title": "Linear Algebra"
+                        "course_id": "0318724b",
+                        "course_letters": "MATH 1A",
+                        "title": "Calculus I"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 1AH Calculus I - HONORS",
+                        "honors": true,
+                        "course_id": "81897081",
+                        "course_letters": "MATH 1AH",
+                        "title": "Calculus I - HONORS"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20B",
+              "uc_course_title": "Calculus for Science and Engineering",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 1B Calculus II",
+                        "honors": false,
+                        "course_id": "08bf9a15",
+                        "course_letters": "MATH 1B",
+                        "title": "Calculus II"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 1BH Calculus II - HONORS",
+                        "honors": true,
+                        "course_id": "9001a62b",
+                        "course_letters": "MATH 1BH",
+                        "title": "Calculus II - HONORS"
                       }
                     ]
                   }
@@ -456,42 +492,6 @@
                 ]
               },
               "units": 4.0
-            },
-            {
-              "uc_course_id": "MATH 20A",
-              "uc_course_title": "Calculus for Science and Engineering",
-              "section_id": "B",
-              "section_title": "Section B",
-              "logic_block": {
-                "type": "OR",
-                "courses": [
-                  {
-                    "type": "AND",
-                    "courses": [
-                      {
-                        "name": "MATH 1A Calculus I",
-                        "honors": false,
-                        "course_id": "0318724b",
-                        "course_letters": "MATH 1A",
-                        "title": "Calculus I"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "AND",
-                    "courses": [
-                      {
-                        "name": "MATH 1AH Calculus I - HONORS",
-                        "honors": true,
-                        "course_id": "81897081",
-                        "course_letters": "MATH 1AH",
-                        "title": "Calculus I - HONORS"
-                      }
-                    ]
-                  }
-                ]
-              },
-              "units": 4.0
             }
           ]
         }
@@ -508,8 +508,136 @@
           "section_logic_type": "select_n_courses",
           "uc_courses": [
             {
+              "uc_course_id": "BILD 1",
+              "uc_course_title": "The Cell",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 6A Form and Function in the Biological World",
+                        "honors": false,
+                        "course_id": "664dbd8d",
+                        "course_letters": "BIOL 6A",
+                        "title": "Form and Function in the Biological World"
+                      },
+                      {
+                        "name": "BIOL 6B Cell and Molecular Biology",
+                        "honors": false,
+                        "course_id": "d95a3a88",
+                        "course_letters": "BIOL 6B",
+                        "title": "Cell and Molecular Biology"
+                      },
+                      {
+                        "name": "BIOL 6C Ecology and Evolution",
+                        "honors": false,
+                        "course_id": "5d29ce8d",
+                        "course_letters": "BIOL 6C",
+                        "title": "Ecology and Evolution"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 6AH Form and Function in the Biological World - HONORS",
+                        "honors": true,
+                        "course_id": "2be2b120",
+                        "course_letters": "BIOL 6AH",
+                        "title": "Form and Function in the Biological World - HONORS"
+                      },
+                      {
+                        "name": "BIOL 6B Cell and Molecular Biology",
+                        "honors": false,
+                        "course_id": "d95a3a88",
+                        "course_letters": "BIOL 6B",
+                        "title": "Cell and Molecular Biology"
+                      },
+                      {
+                        "name": "BIOL 6CH Ecology and Evolution - HONORS",
+                        "honors": true,
+                        "course_id": "570bc2a3",
+                        "course_letters": "BIOL 6CH",
+                        "title": "Ecology and Evolution - HONORS"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
               "uc_course_id": "BILD 2",
               "uc_course_title": "Multicellular Life",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 6A Form and Function in the Biological World",
+                        "honors": false,
+                        "course_id": "664dbd8d",
+                        "course_letters": "BIOL 6A",
+                        "title": "Form and Function in the Biological World"
+                      },
+                      {
+                        "name": "BIOL 6B Cell and Molecular Biology",
+                        "honors": false,
+                        "course_id": "d95a3a88",
+                        "course_letters": "BIOL 6B",
+                        "title": "Cell and Molecular Biology"
+                      },
+                      {
+                        "name": "BIOL 6C Ecology and Evolution",
+                        "honors": false,
+                        "course_id": "5d29ce8d",
+                        "course_letters": "BIOL 6C",
+                        "title": "Ecology and Evolution"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 6AH Form and Function in the Biological World - HONORS",
+                        "honors": true,
+                        "course_id": "2be2b120",
+                        "course_letters": "BIOL 6AH",
+                        "title": "Form and Function in the Biological World - HONORS"
+                      },
+                      {
+                        "name": "BIOL 6B Cell and Molecular Biology",
+                        "honors": false,
+                        "course_id": "d95a3a88",
+                        "course_letters": "BIOL 6B",
+                        "title": "Cell and Molecular Biology"
+                      },
+                      {
+                        "name": "BIOL 6CH Ecology and Evolution - HONORS",
+                        "honors": true,
+                        "course_id": "570bc2a3",
+                        "course_letters": "BIOL 6CH",
+                        "title": "Ecology and Evolution - HONORS"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "BILD 3",
+              "uc_course_title": "Organismic and Evolutionary Biology",
               "section_id": "A",
               "section_title": "Section A",
               "logic_block": {
@@ -583,11 +711,11 @@
                     "type": "AND",
                     "courses": [
                       {
-                        "name": "CHEM 1AH General Chemistry I - HONORS",
-                        "honors": true,
-                        "course_id": "f58112cf",
-                        "course_letters": "CHEM 1AH",
-                        "title": "General Chemistry I - HONORS"
+                        "name": "CHEM 1A General Chemistry I",
+                        "honors": false,
+                        "course_id": "73f2f0f5",
+                        "course_letters": "CHEM 1A",
+                        "title": "General Chemistry I"
                       }
                     ]
                   },
@@ -595,11 +723,11 @@
                     "type": "AND",
                     "courses": [
                       {
-                        "name": "CHEM 1A General Chemistry I",
-                        "honors": false,
-                        "course_id": "73f2f0f5",
-                        "course_letters": "CHEM 1A",
-                        "title": "General Chemistry I"
+                        "name": "CHEM 1AH General Chemistry I - HONORS",
+                        "honors": true,
+                        "course_id": "f58112cf",
+                        "course_letters": "CHEM 1AH",
+                        "title": "General Chemistry I - HONORS"
                       }
                     ]
                   }
@@ -619,11 +747,11 @@
                     "type": "AND",
                     "courses": [
                       {
-                        "name": "CHEM 1BH General Chemistry II - HONORS",
-                        "honors": true,
-                        "course_id": "a2add2db",
-                        "course_letters": "CHEM 1BH",
-                        "title": "General Chemistry II - HONORS"
+                        "name": "CHEM 1B General Chemistry II",
+                        "honors": false,
+                        "course_id": "6a6b78a1",
+                        "course_letters": "CHEM 1B",
+                        "title": "General Chemistry II"
                       }
                     ]
                   },
@@ -631,11 +759,11 @@
                     "type": "AND",
                     "courses": [
                       {
-                        "name": "CHEM 1B General Chemistry II",
-                        "honors": false,
-                        "course_id": "6a6b78a1",
-                        "course_letters": "CHEM 1B",
-                        "title": "General Chemistry II"
+                        "name": "CHEM 1BH General Chemistry II - HONORS",
+                        "honors": true,
+                        "course_id": "a2add2db",
+                        "course_letters": "CHEM 1BH",
+                        "title": "General Chemistry II - HONORS"
                       }
                     ]
                   }
@@ -684,134 +812,6 @@
                         "course_id": "32b28e53",
                         "course_letters": "PHYS 4B",
                         "title": "Physics for Scientists and Engineers: Electricity and Magnetism"
-                      }
-                    ]
-                  }
-                ]
-              },
-              "units": 4.0
-            },
-            {
-              "uc_course_id": "BILD 3",
-              "uc_course_title": "Organismic and Evolutionary Biology",
-              "section_id": "A",
-              "section_title": "Section A",
-              "logic_block": {
-                "type": "OR",
-                "courses": [
-                  {
-                    "type": "AND",
-                    "courses": [
-                      {
-                        "name": "BIOL 6AH Form and Function in the Biological World - HONORS",
-                        "honors": true,
-                        "course_id": "2be2b120",
-                        "course_letters": "BIOL 6AH",
-                        "title": "Form and Function in the Biological World - HONORS"
-                      },
-                      {
-                        "name": "BIOL 6B Cell and Molecular Biology",
-                        "honors": false,
-                        "course_id": "d95a3a88",
-                        "course_letters": "BIOL 6B",
-                        "title": "Cell and Molecular Biology"
-                      },
-                      {
-                        "name": "BIOL 6CH Ecology and Evolution - HONORS",
-                        "honors": true,
-                        "course_id": "570bc2a3",
-                        "course_letters": "BIOL 6CH",
-                        "title": "Ecology and Evolution - HONORS"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "AND",
-                    "courses": [
-                      {
-                        "name": "BIOL 6A Form and Function in the Biological World",
-                        "honors": false,
-                        "course_id": "664dbd8d",
-                        "course_letters": "BIOL 6A",
-                        "title": "Form and Function in the Biological World"
-                      },
-                      {
-                        "name": "BIOL 6B Cell and Molecular Biology",
-                        "honors": false,
-                        "course_id": "d95a3a88",
-                        "course_letters": "BIOL 6B",
-                        "title": "Cell and Molecular Biology"
-                      },
-                      {
-                        "name": "BIOL 6C Ecology and Evolution",
-                        "honors": false,
-                        "course_id": "5d29ce8d",
-                        "course_letters": "BIOL 6C",
-                        "title": "Ecology and Evolution"
-                      }
-                    ]
-                  }
-                ]
-              },
-              "units": 4.0
-            },
-            {
-              "uc_course_id": "BILD 1",
-              "uc_course_title": "The Cell",
-              "section_id": "A",
-              "section_title": "Section A",
-              "logic_block": {
-                "type": "OR",
-                "courses": [
-                  {
-                    "type": "AND",
-                    "courses": [
-                      {
-                        "name": "BIOL 6AH Form and Function in the Biological World - HONORS",
-                        "honors": true,
-                        "course_id": "2be2b120",
-                        "course_letters": "BIOL 6AH",
-                        "title": "Form and Function in the Biological World - HONORS"
-                      },
-                      {
-                        "name": "BIOL 6B Cell and Molecular Biology",
-                        "honors": false,
-                        "course_id": "d95a3a88",
-                        "course_letters": "BIOL 6B",
-                        "title": "Cell and Molecular Biology"
-                      },
-                      {
-                        "name": "BIOL 6CH Ecology and Evolution - HONORS",
-                        "honors": true,
-                        "course_id": "570bc2a3",
-                        "course_letters": "BIOL 6CH",
-                        "title": "Ecology and Evolution - HONORS"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "AND",
-                    "courses": [
-                      {
-                        "name": "BIOL 6A Form and Function in the Biological World",
-                        "honors": false,
-                        "course_id": "664dbd8d",
-                        "course_letters": "BIOL 6A",
-                        "title": "Form and Function in the Biological World"
-                      },
-                      {
-                        "name": "BIOL 6B Cell and Molecular Biology",
-                        "honors": false,
-                        "course_id": "d95a3a88",
-                        "course_letters": "BIOL 6B",
-                        "title": "Cell and Molecular Biology"
-                      },
-                      {
-                        "name": "BIOL 6C Ecology and Evolution",
-                        "honors": false,
-                        "course_id": "5d29ce8d",
-                        "course_letters": "BIOL 6C",
-                        "title": "Ecology and Evolution"
                       }
                     ]
                   }

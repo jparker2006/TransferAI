@@ -1,0 +1,914 @@
+===== Test 1: Which De Anza courses satisfy CSE 8A at UCSD? =====
+2025-05-11 20:23:23,852 - llm.engine.transfer_engine - INFO - Processing query: Which De Anza courses satisfy CSE 8A at UCSD?
+2025-05-11 20:23:23,888 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['CSE 8A'], 'ccc_courses': []}
+2025-05-11 20:23:23,889 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_LOOKUP
+2025-05-11 20:23:23,890 - llm.engine.transfer_engine - INFO - Using handler: CourseLookupHandler
+2025-05-11 20:23:23,890 - llm.handlers.course_lookup_handler - INFO - Processing course lookup query for UC course: CSE 8A
+2025-05-11 20:23:23,890 - llm.handlers.course_lookup_handler - DEBUG - Found document for CSE 8A: unknown
+2025-05-11 20:23:23,890 - llm.engine.transfer_engine - INFO - Query processed in 0.04 seconds
+# CSE 8A can be satisfied by any of these options:
+
+**Option A**: CIS 22A
+**Option B**: CIS 36A
+**Option C**: CIS 40
+============================================================
+
+===== Test 2: Which courses satisfy CSE 8B? =====
+2025-05-11 20:23:23,890 - llm.engine.transfer_engine - INFO - Processing query: Which courses satisfy CSE 8B?
+2025-05-11 20:23:23,894 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['CSE 8B'], 'ccc_courses': []}
+2025-05-11 20:23:23,894 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_LOOKUP
+2025-05-11 20:23:23,894 - llm.engine.transfer_engine - INFO - Using handler: CourseLookupHandler
+2025-05-11 20:23:23,894 - llm.handlers.course_lookup_handler - INFO - Processing course lookup query for UC course: CSE 8B
+2025-05-11 20:23:23,894 - llm.handlers.course_lookup_handler - DEBUG - Found document for CSE 8B: unknown
+2025-05-11 20:23:23,894 - llm.engine.transfer_engine - INFO - Query processed in 0.00 seconds
+# CSE 8B can be satisfied by:
+
+**Option A**: CIS 36B
+============================================================
+
+===== Test 3: Which courses satisfy CSE 11? =====
+2025-05-11 20:23:23,894 - llm.engine.transfer_engine - INFO - Processing query: Which courses satisfy CSE 11?
+2025-05-11 20:23:23,898 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['CSE 11'], 'ccc_courses': []}
+2025-05-11 20:23:23,898 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_LOOKUP
+2025-05-11 20:23:23,898 - llm.engine.transfer_engine - INFO - Using handler: CourseLookupHandler
+2025-05-11 20:23:23,898 - llm.handlers.course_lookup_handler - INFO - Processing course lookup query for UC course: CSE 11
+2025-05-11 20:23:23,898 - llm.handlers.course_lookup_handler - DEBUG - Found document for CSE 11: unknown
+2025-05-11 20:23:23,898 - llm.engine.transfer_engine - INFO - Query processed in 0.00 seconds
+# CSE 11 can be satisfied by any of these options:
+
+**Option A**: CIS 35A
+**Option B**: CIS 36A, CIS 36B (complete all)
+============================================================
+
+===== Test 4: Do I need to take both CIS 36A and CIS 36B to get credit for CSE 11? =====
+2025-05-11 20:23:23,898 - llm.engine.transfer_engine - INFO - Processing query: Do I need to take both CIS 36A and CIS 36B to get credit for CSE 11?
+2025-05-11 20:23:23,905 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['CSE 11'], 'ccc_courses': ['CIS 36A', 'CIS 36B']}
+2025-05-11 20:23:23,905 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_VALIDATION
+2025-05-11 20:23:23,905 - llm.engine.transfer_engine - INFO - Using handler: ValidationQueryHandler
+2025-05-11 20:23:23,930 - llm.engine.transfer_engine - INFO - Query processed in 0.03 seconds
+# ✅ Yes, based on official articulation - CSE 11
+
+✅ **Complete match!** Satisfies Option B with: CIS 36A, CIS 36B
+============================================================
+
+===== Test 5: Can I take CIS 22A and CIS 36B to satisfy anything in Group 1? =====
+2025-05-11 20:23:23,930 - llm.engine.transfer_engine - INFO - Processing query: Can I take CIS 22A and CIS 36B to satisfy anything in Group 1?
+2025-05-11 20:23:23,937 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': [], 'ccc_courses': ['CIS 22A', 'CIS 36B']}
+2025-05-11 20:23:23,937 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_EQUIVALENCY
+2025-05-11 20:23:23,937 - llm.engine.transfer_engine - INFO - Using handler: CourseEquivalencyHandler
+Validating CSE 8A with ['CIS 22A', 'CIS 36B']: {'is_satisfied': True, 'explanation': '✅ **Complete match!** Satisfies Option A with: CIS 22A', 'satisfied_options': ['CIS 22A'], 'missing_courses': {}, 'redundant_courses': [], 'match_percentage': 100}
+Validating CSE 8B with ['CIS 22A', 'CIS 36B']: {'is_satisfied': True, 'explanation': '✅ **Complete match!** Satisfies Option A with: CIS 36B', 'satisfied_options': ['CIS 36B'], 'missing_courses': {}, 'redundant_courses': [], 'match_percentage': 100}
+Validating CSE 11 with ['CIS 22A', 'CIS 36B']: {'is_satisfied': False, 'explanation': '⚠️ **Partial match (50%)** [█████░░░░░]\n\n**Best option: Option B**\n✓ Matched: CIS 36B\n✗ Missing: **CIS 36A**\n\n', 'satisfied_options': [], 'missing_courses': {'CIS 36A': []}, 'redundant_courses': [], 'match_percentage': 50}
+2025-05-11 20:23:23,938 - llm.engine.transfer_engine - INFO - Query processed in 0.01 seconds
+With CIS 22A, CIS 36B, you can fully satisfy: CSE 8A, CSE 8B
+
+You can partially satisfy: CSE 11
+============================================================
+
+===== Test 6: Can I mix CIS 22A and CIS 35A for Group 1 at UCSD? =====
+2025-05-11 20:23:23,938 - llm.engine.transfer_engine - INFO - Processing query: Can I mix CIS 22A and CIS 35A for Group 1 at UCSD?
+2025-05-11 20:23:23,944 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': [], 'ccc_courses': ['CIS 22A', 'CIS 35A']}
+2025-05-11 20:23:23,944 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_EQUIVALENCY
+2025-05-11 20:23:23,944 - llm.engine.transfer_engine - INFO - Using handler: CourseEquivalencyHandler
+Validating CSE 8A with ['CIS 22A', 'CIS 35A']: {'is_satisfied': True, 'explanation': '✅ **Complete match!** Satisfies Option A with: CIS 22A', 'satisfied_options': ['CIS 22A'], 'missing_courses': {}, 'redundant_courses': [], 'match_percentage': 100}
+Validating CSE 11 with ['CIS 22A', 'CIS 35A']: {'is_satisfied': True, 'explanation': '✅ **Complete match!** Satisfies Option A with: CIS 35A', 'satisfied_options': ['CIS 35A'], 'missing_courses': {}, 'redundant_courses': [], 'match_percentage': 100}
+2025-05-11 20:23:23,944 - llm.engine.transfer_engine - INFO - Query processed in 0.01 seconds
+✅ CIS 22A, CIS 35A can satisfy: CSE 8A, CSE 11
+============================================================
+
+===== Test 7: If I complete CSE 8A and 8B, is that one full path? =====
+2025-05-11 20:23:23,944 - llm.engine.transfer_engine - INFO - Processing query: If I complete CSE 8A and 8B, is that one full path?
+2025-05-11 20:23:23,949 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['CSE 8A', 'CSE 8B'], 'ccc_courses': []}
+2025-05-11 20:23:23,950 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.PATH_COMPLETION
+2025-05-11 20:23:23,950 - llm.engine.transfer_engine - INFO - Using handler: PathCompletionHandler
+2025-05-11 20:23:23,950 - llm.engine.transfer_engine - INFO - Query processed in 0.01 seconds
+# ✅ Yes, CSE 8A, CSE 8B completes a full requirement path.
+
+These courses fully satisfy **Group 1 Section A** in the CS transfer requirements.
+
+This is a complete requirement path, which means these courses together fulfill all necessary requirements for this section.
+============================================================
+
+===== Test 8: What are all valid De Anza combinations to satisfy Group 1 at UCSD? =====
+2025-05-11 20:23:23,950 - llm.engine.transfer_engine - INFO - Processing query: What are all valid De Anza combinations to satisfy Group 1 at UCSD?
+2025-05-11 20:23:23,955 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': [], 'ccc_courses': []}
+2025-05-11 20:23:23,955 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.UNKNOWN
+2025-05-11 20:23:23,956 - llm.engine.transfer_engine - INFO - Using handler: GroupQueryHandler
+2025-05-11 20:23:23,956 - llm.engine.transfer_engine - INFO - Query processed in 0.01 seconds
+# Complete one of the following sections (Group 1)
+
+
+
+# Group 1: Complete one of the following sections
+
+**COMPLETE ONE FULL SECTION**: Choose exactly ONE section (A, B, etc.) and complete ALL UC courses within that section only. Do not mix courses between sections.
+
+
+
+## SECTION A
+
+**Complete ALL of these UC courses using the articulation options listed:**
+
+## CSE 8A – Introduction to Programming and Computational Problem Solving I
+
+**Available Options**: 3 (0 requiring multiple courses)
+
+### Single Course Options:
+**Option A (✅ Complete option)**: CIS 22A
+**Option B (✅ Complete option)**: CIS 36A
+**Option C (✅ Complete option)**: CIS 40
+
+### Notes:
+🔹 Non-honors courses also accepted: CIS 22A, CIS 36A, CIS 40
+
+## CSE 8B – Introduction to Programming and Computational Problem Solving II
+
+**Available Options**: 1 (0 requiring multiple courses)
+
+### Single Course Options:
+**Option A (✅ Complete option)**: CIS 36B
+
+### Notes:
+🔹 Non-honors courses also accepted: CIS 36B
+
+## SECTION B
+
+**Complete ALL of these UC courses using the articulation options listed:**
+
+## CSE 11 – Introduction to Programming and Computational Problem Solving - Accelerated Pace
+
+**Available Options**: 2 (1 requiring multiple courses)
+
+### Single Course Options:
+**Option A (✅ Complete option)**: CIS 35A
+
+### Multiple Course Options:
+**Option B (✅ Complete option)**: CIS 36A, CIS 36B (complete all)
+
+### Notes:
+🔹 Non-honors courses also accepted: CIS 35A, CIS 36A, CIS 36B
+
+## What You Need To Do
+
+1. Choose **exactly ONE section** from above (A, B, etc.)
+2. Within your chosen section, complete **ALL UC courses** listed
+3. For each UC course, follow one complete articulation option
+4. **Do not mix** courses between different sections
+
+## Important Notes
+
+⚠️ Some options require **multiple CCC courses** to satisfy a single UC course. You must complete ALL courses listed in these options.
+ℹ️ All course options shown are verified against the official ASSIST articulation data.
+============================================================
+
+===== Test 9: What De Anza courses are required to satisfy Group 2 for Computer Science at UCSD? =====
+2025-05-11 20:23:23,956 - llm.engine.transfer_engine - INFO - Processing query: What De Anza courses are required to satisfy Group 2 for Computer Science at UCSD?
+2025-05-11 20:23:23,963 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': [], 'ccc_courses': []}
+2025-05-11 20:23:23,964 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.UNKNOWN
+2025-05-11 20:23:23,964 - llm.engine.transfer_engine - INFO - Using handler: GroupQueryHandler
+2025-05-11 20:23:23,964 - llm.engine.transfer_engine - INFO - Query processed in 0.01 seconds
+# All of the following UC courses are required (Group 2)
+
+
+
+# Group 2: All of the following UC courses are required
+
+**COMPLETE ALL COURSES**: You must satisfy EVERY UC course listed below. Each course has its own articulation options.
+
+
+
+## CSE 12 – Basic Data Structures and Object-Oriented Design
+
+**Available Options**: 2 (0 requiring multiple courses)
+
+### Single Course Options:
+**Option A (✅ Complete option)**: CIS 22C
+**Option B (✅ Complete option)**: CIS 22CH (honors)
+
+### Notes:
+🔹 Honors courses accepted: CIS 22CH
+🔹 Non-honors courses also accepted: CIS 22C
+
+## CSE 15L – Software Tools and Techniques Laboratory
+
+**Available Options**: 0 (0 requiring multiple courses)
+
+### No Articulation Available
+❌ **No courses available**: This course has no articulation at community colleges.
+
+### Notes:
+🔹 This course must be completed at UCSD after transfer.
+
+## CSE 20 – Discrete Mathematics
+
+**Available Options**: 2 (0 requiring multiple courses)
+
+### Single Course Options:
+**Option A (✅ Complete option)**: MATH 22
+**Option B (✅ Complete option)**: MATH 22H (honors)
+
+### Notes:
+🔹 Honors courses accepted: MATH 22H
+🔹 Non-honors courses also accepted: MATH 22
+
+## CSE 21 – Mathematics for Algorithms and Systems
+
+**Available Options**: 0 (0 requiring multiple courses)
+
+### No Articulation Available
+❌ **No courses available**: This course has no articulation at community colleges.
+
+### Notes:
+🔹 This course must be completed at UCSD after transfer.
+
+## CSE 30 – Computer Organization and Systems Programming
+
+**Available Options**: 2 (2 requiring multiple courses)
+
+### Multiple Course Options:
+**Option A (✅ Complete option)**: CIS 21JA, CIS 21JB, CIS 26B (complete all)
+**Option B (✅ Complete option)**: CIS 21JA, CIS 21JB, CIS 26BH (complete all)
+
+### Notes:
+🔹 Honors courses accepted: CIS 26BH
+🔹 Non-honors courses also accepted: CIS 21JA, CIS 21JB, CIS 26B
+
+## MATH 18 – Linear Algebra
+
+**Available Options**: 2 (0 requiring multiple courses)
+
+### Single Course Options:
+**Option A (✅ Complete option)**: MATH 2B
+**Option B (✅ Complete option)**: MATH 2BH (honors)
+
+### Notes:
+🔹 Honors courses accepted: MATH 2BH
+🔹 Non-honors courses also accepted: MATH 2B
+
+## MATH 20A – Calculus for Science and Engineering
+
+**Available Options**: 2 (0 requiring multiple courses)
+
+### Single Course Options:
+**Option A (✅ Complete option)**: MATH 1A
+**Option B (✅ Complete option)**: MATH 1AH (honors)
+
+### Notes:
+🔹 Honors courses accepted: MATH 1AH
+🔹 Non-honors courses also accepted: MATH 1A
+
+## MATH 20B – Calculus for Science and Engineering
+
+**Available Options**: 2 (0 requiring multiple courses)
+
+### Single Course Options:
+**Option A (✅ Complete option)**: MATH 1B
+**Option B (✅ Complete option)**: MATH 1BH (honors)
+
+### Notes:
+🔹 Honors courses accepted: MATH 1BH
+🔹 Non-honors courses also accepted: MATH 1B
+
+## MATH 20C – Calculus and Analytic Geometry for Science and Engineering
+
+**Available Options**: 2 (2 requiring multiple courses)
+
+### Multiple Course Options:
+**Option A (✅ Complete option)**: MATH 1C, MATH 1D (complete all)
+**Option B (✅ Complete option)**: MATH 1CH, MATH 1DH (complete all)
+
+### Notes:
+🔹 Honors courses accepted: MATH 1CH, MATH 1DH
+🔹 Non-honors courses also accepted: MATH 1C, MATH 1D
+
+## What You Need To Do
+
+1. Complete **ALL UC courses** listed above
+2. For each UC course, follow one complete articulation option
+3. You can choose different articulation options for different UC courses
+
+## Important Notes
+
+⚠️ Some options require **multiple CCC courses** to satisfy a single UC course. You must complete ALL courses listed in these options.
+ℹ️ All course options shown are verified against the official ASSIST articulation data.
+============================================================
+
+===== Test 10: Which courses count for CSE 12 at UCSD? =====
+2025-05-11 20:23:23,964 - llm.engine.transfer_engine - INFO - Processing query: Which courses count for CSE 12 at UCSD?
+2025-05-11 20:23:23,968 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['CSE 12'], 'ccc_courses': []}
+2025-05-11 20:23:23,968 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_LOOKUP
+2025-05-11 20:23:23,968 - llm.engine.transfer_engine - INFO - Using handler: CourseLookupHandler
+2025-05-11 20:23:23,968 - llm.handlers.course_lookup_handler - INFO - Processing course lookup query for UC course: CSE 12
+2025-05-11 20:23:23,968 - llm.handlers.course_lookup_handler - DEBUG - Found document for CSE 12: unknown
+2025-05-11 20:23:23,968 - llm.engine.transfer_engine - INFO - Query processed in 0.00 seconds
+# CSE 12 can be satisfied by any of these options:
+
+**Option A**: CIS 22C
+**Option B**: CIS 22CH (Honors)
+============================================================
+
+===== Test 11: What satisfies MATH 18 for UCSD transfer? =====
+2025-05-11 20:23:23,968 - llm.engine.transfer_engine - INFO - Processing query: What satisfies MATH 18 for UCSD transfer?
+2025-05-11 20:23:23,972 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['MATH 18'], 'ccc_courses': []}
+2025-05-11 20:23:23,972 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_LOOKUP
+2025-05-11 20:23:23,972 - llm.engine.transfer_engine - INFO - Using handler: CourseLookupHandler
+2025-05-11 20:23:23,972 - llm.handlers.course_lookup_handler - INFO - Processing course lookup query for UC course: MATH 18
+2025-05-11 20:23:23,972 - llm.handlers.course_lookup_handler - DEBUG - Found document for MATH 18: unknown
+2025-05-11 20:23:23,973 - llm.engine.transfer_engine - INFO - Query processed in 0.00 seconds
+# MATH 18 can be satisfied by any of these options:
+
+**Option A**: MATH 2B
+**Option B**: MATH 2BH (Honors)
+============================================================
+
+===== Test 12: Does MATH 2BH satisfy MATH 18? =====
+2025-05-11 20:23:23,973 - llm.engine.transfer_engine - INFO - Processing query: Does MATH 2BH satisfy MATH 18?
+2025-05-11 20:23:23,976 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['MATH 18'], 'ccc_courses': ['MATH 2BH']}
+2025-05-11 20:23:23,976 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_VALIDATION
+2025-05-11 20:23:23,976 - llm.engine.transfer_engine - INFO - Using handler: ValidationQueryHandler
+2025-05-11 20:23:23,976 - llm.engine.transfer_engine - INFO - Query processed in 0.00 seconds
+# ✅ Yes, based on official articulation - MATH 18
+
+✅ **Complete match!** Satisfies Option B with: MATH 2BH (Honors)
+============================================================
+
+===== Test 13: Can I take MATH 2B instead of MATH 2BH for MATH 18? =====
+2025-05-11 20:23:23,976 - llm.engine.transfer_engine - INFO - Processing query: Can I take MATH 2B instead of MATH 2BH for MATH 18?
+2025-05-11 20:23:23,981 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['MATH 18'], 'ccc_courses': ['MATH 2B', 'MATH 2BH']}
+2025-05-11 20:23:23,981 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_VALIDATION
+2025-05-11 20:23:23,981 - llm.engine.transfer_engine - INFO - Using handler: ValidationQueryHandler
+2025-05-11 20:23:23,981 - llm.engine.transfer_engine - INFO - Query processed in 0.00 seconds
+✅ Yes, MATH 2B and MATH 2BH are equivalent (non-honors and honors versions of the same course)
+============================================================
+
+===== Test 14: Is CSE 21 articulated from De Anza? =====
+2025-05-11 20:23:23,981 - llm.engine.transfer_engine - INFO - Processing query: Is CSE 21 articulated from De Anza?
+2025-05-11 20:23:23,985 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['CSE 21'], 'ccc_courses': []}
+2025-05-11 20:23:23,985 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_LOOKUP
+2025-05-11 20:23:23,985 - llm.engine.transfer_engine - INFO - Using handler: CourseLookupHandler
+2025-05-11 20:23:23,985 - llm.handlers.course_lookup_handler - INFO - Processing course lookup query for UC course: CSE 21
+2025-05-11 20:23:23,985 - llm.handlers.course_lookup_handler - DEBUG - Found document for CSE 21: unknown
+2025-05-11 20:23:23,985 - llm.handlers.course_lookup_handler - INFO - Course CSE 21 explicitly marked as having no articulation
+2025-05-11 20:23:23,985 - llm.engine.transfer_engine - INFO - Query processed in 0.00 seconds
+# ❌ No, CSE 21 does not have any articulation.
+
+According to the official articulation agreement, there are no courses at De Anza College that satisfy CSE 21. This means you will need to complete this course at UCSD after transferring.
+
+You might want to check if this course is part of a sequence or if there are alternatives in your major requirements.
+============================================================
+
+===== Test 15: Can I complete just CIS 21JA and 21JB to satisfy CSE 30? =====
+2025-05-11 20:23:23,985 - llm.engine.transfer_engine - INFO - Processing query: Can I complete just CIS 21JA and 21JB to satisfy CSE 30?
+2025-05-11 20:23:23,991 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['CSE 30'], 'ccc_courses': ['CIS 21JA', 'CIS 21JB']}
+2025-05-11 20:23:23,991 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_VALIDATION
+2025-05-11 20:23:23,991 - llm.engine.transfer_engine - INFO - Using handler: ValidationQueryHandler
+2025-05-11 20:23:23,992 - llm.engine.transfer_engine - INFO - Query processed in 0.01 seconds
+# ❌ No, based on verified articulation logic - CSE 30
+
+⚠️ **Partial Match** - Additional courses needed
+
+**Option A:**
+✓ **Already satisfied with:** CIS 21JA, CIS 21JB
+❌ **Still needed:** **CIS 26B**
+
+**Other possible options:**
+- Option B: Need **CIS 26BH (Honors)**
+
+**To complete this requirement:** Add the missing course(s) listed above.
+============================================================
+
+===== Test 16: Does CSE 15L have any articulation? =====
+2025-05-11 20:23:23,992 - llm.engine.transfer_engine - INFO - Processing query: Does CSE 15L have any articulation?
+2025-05-11 20:23:23,999 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['CSE 15L'], 'ccc_courses': []}
+2025-05-11 20:23:23,999 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_LOOKUP
+2025-05-11 20:23:23,999 - llm.engine.transfer_engine - INFO - Using handler: CourseLookupHandler
+2025-05-11 20:23:23,999 - llm.handlers.course_lookup_handler - INFO - Processing course lookup query for UC course: CSE 15L
+2025-05-11 20:23:23,999 - llm.handlers.course_lookup_handler - DEBUG - Found document for CSE 15L: unknown
+2025-05-11 20:23:23,999 - llm.handlers.course_lookup_handler - INFO - Course CSE 15L explicitly marked as having no articulation
+2025-05-11 20:23:23,999 - llm.engine.transfer_engine - INFO - Query processed in 0.01 seconds
+# ❌ No, CSE 15L does not have any articulation.
+
+According to the official articulation agreement, there are no courses at De Anza College that satisfy CSE 15L. This means you will need to complete this course at UCSD after transferring.
+
+You might want to check if this course is part of a sequence or if there are alternatives in your major requirements.
+============================================================
+
+===== Test 17: How can I satisfy CSE 30 using De Anza classes? =====
+2025-05-11 20:23:23,999 - llm.engine.transfer_engine - INFO - Processing query: How can I satisfy CSE 30 using De Anza classes?
+2025-05-11 20:23:24,004 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['CSE 30'], 'ccc_courses': []}
+2025-05-11 20:23:24,004 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_LOOKUP
+2025-05-11 20:23:24,004 - llm.engine.transfer_engine - INFO - Using handler: CourseLookupHandler
+2025-05-11 20:23:24,004 - llm.handlers.course_lookup_handler - INFO - Processing course lookup query for UC course: CSE 30
+2025-05-11 20:23:24,004 - llm.handlers.course_lookup_handler - DEBUG - Found document for CSE 30: unknown
+2025-05-11 20:23:24,004 - llm.engine.transfer_engine - INFO - Query processed in 0.01 seconds
+# CSE 30 can be satisfied by any of these options:
+
+**Option A**: CIS 21JA, CIS 21JB, CIS 26B (complete all)
+**Option B**: CIS 21JA, CIS 21JB, CIS 26BH (Honors) (complete all)
+============================================================
+
+===== Test 18: Does MATH 1CH and 1DH count for MATH 20C? =====
+2025-05-11 20:23:24,004 - llm.engine.transfer_engine - INFO - Processing query: Does MATH 1CH and 1DH count for MATH 20C?
+2025-05-11 20:23:24,009 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['MATH 20C'], 'ccc_courses': ['MATH 1CH', 'MATH 1DH']}
+2025-05-11 20:23:24,009 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_VALIDATION
+2025-05-11 20:23:24,009 - llm.engine.transfer_engine - INFO - Using handler: ValidationQueryHandler
+2025-05-11 20:23:24,009 - llm.engine.transfer_engine - INFO - Query processed in 0.00 seconds
+# ✅ Yes, based on official articulation - MATH 20C
+
+✅ **Complete match!** Satisfies Option B with: MATH 1CH (Honors), MATH 1DH (Honors)
+============================================================
+
+===== Test 19: What De Anza classes satisfy MATH 20C at UCSD? =====
+2025-05-11 20:23:24,009 - llm.engine.transfer_engine - INFO - Processing query: What De Anza classes satisfy MATH 20C at UCSD?
+2025-05-11 20:23:24,014 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['MATH 20C'], 'ccc_courses': []}
+2025-05-11 20:23:24,014 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_LOOKUP
+2025-05-11 20:23:24,014 - llm.engine.transfer_engine - INFO - Using handler: CourseLookupHandler
+2025-05-11 20:23:24,014 - llm.handlers.course_lookup_handler - INFO - Processing course lookup query for UC course: MATH 20C
+2025-05-11 20:23:24,014 - llm.handlers.course_lookup_handler - DEBUG - Found document for MATH 20C: unknown
+2025-05-11 20:23:24,014 - llm.engine.transfer_engine - INFO - Query processed in 0.01 seconds
+# MATH 20C can be satisfied by any of these options:
+
+**Option A**: MATH 1C, MATH 1D (complete all)
+**Option B**: MATH 1CH (Honors), MATH 1DH (Honors) (complete all)
+============================================================
+
+===== Test 20: Is there a difference between MATH 1A and MATH 1AH for transfer credit? =====
+2025-05-11 20:23:24,014 - llm.engine.transfer_engine - INFO - Processing query: Is there a difference between MATH 1A and MATH 1AH for transfer credit?
+2025-05-11 20:23:24,019 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': [], 'ccc_courses': ['MATH 1A', 'MATH 1AH']}
+2025-05-11 20:23:24,019 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_EQUIVALENCY
+2025-05-11 20:23:24,019 - llm.engine.transfer_engine - INFO - Using handler: CourseEquivalencyHandler
+Validating MATH 20A with ['MATH 1A', 'MATH 1AH']: {'is_satisfied': True, 'explanation': '✅ **Complete match!** Satisfies multiple options:\n- Option A: MATH 1A\n- Option B: MATH 1AH\n\n\n⚠️ **Redundant courses detected**:\n- Courses **MATH 1A, MATH 1AH** are equivalent. Only one is needed.\n', 'satisfied_options': [], 'missing_courses': {}, 'redundant_courses': [['MATH 1A', 'MATH 1AH']], 'match_percentage': 100}
+2025-05-11 20:23:24,019 - llm.engine.transfer_engine - INFO - Query processed in 0.01 seconds
+✅ MATH 1A, MATH 1AH can satisfy: MATH 20A
+============================================================
+
+===== Test 21: Which courses satisfy MATH 20A and 20B? =====
+2025-05-11 20:23:24,019 - llm.engine.transfer_engine - INFO - Processing query: Which courses satisfy MATH 20A and 20B?
+2025-05-11 20:23:24,023 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['MATH 20A', 'MATH 20B'], 'ccc_courses': []}
+2025-05-11 20:23:24,024 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_LOOKUP
+2025-05-11 20:23:24,024 - llm.engine.transfer_engine - INFO - Using handler: CourseLookupHandler
+2025-05-11 20:23:24,024 - llm.handlers.course_lookup_handler - INFO - Processing multi-course lookup query for UC courses: MATH 20A, MATH 20B
+2025-05-11 20:23:24,024 - llm.handlers.course_lookup_handler - INFO - Processing course lookup query for UC course: MATH 20A
+2025-05-11 20:23:24,024 - llm.handlers.course_lookup_handler - DEBUG - Found document for MATH 20A: unknown
+2025-05-11 20:23:24,024 - llm.handlers.course_lookup_handler - INFO - Processing course lookup query for UC course: MATH 20B
+2025-05-11 20:23:24,024 - llm.handlers.course_lookup_handler - DEBUG - Found document for MATH 20B: unknown
+2025-05-11 20:23:24,024 - llm.engine.transfer_engine - INFO - Query processed in 0.00 seconds
+# Articulation options for MATH 20A, MATH 20B
+
+# MATH 20A can be satisfied by any of these options:
+
+**Option A**: MATH 1A
+**Option B**: MATH 1AH (Honors)
+
+---
+
+# MATH 20B can be satisfied by any of these options:
+
+**Option A**: MATH 1B
+**Option B**: MATH 1BH (Honors)
+============================================================
+
+===== Test 22: List all options for CSE 30 at UCSD from De Anza. =====
+2025-05-11 20:23:24,024 - llm.engine.transfer_engine - INFO - Processing query: List all options for CSE 30 at UCSD from De Anza.
+2025-05-11 20:23:24,029 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['CSE 30'], 'ccc_courses': []}
+2025-05-11 20:23:24,029 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_LOOKUP
+2025-05-11 20:23:24,029 - llm.engine.transfer_engine - INFO - Using handler: CourseLookupHandler
+2025-05-11 20:23:24,029 - llm.handlers.course_lookup_handler - INFO - Processing course lookup query for UC course: CSE 30
+2025-05-11 20:23:24,029 - llm.handlers.course_lookup_handler - DEBUG - Found document for CSE 30: unknown
+2025-05-11 20:23:24,029 - llm.engine.transfer_engine - INFO - Query processed in 0.01 seconds
+# CSE 30 can be satisfied by any of these options:
+
+**Option A**: CIS 21JA, CIS 21JB, CIS 26B (complete all)
+**Option B**: CIS 21JA, CIS 21JB, CIS 26BH (Honors) (complete all)
+============================================================
+
+===== Test 23: What are my options for fulfilling Group 3 science requirements for CS at UCSD? =====
+2025-05-11 20:23:24,029 - llm.engine.transfer_engine - INFO - Processing query: What are my options for fulfilling Group 3 science requirements for CS at UCSD?
+2025-05-11 20:23:24,034 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': [], 'ccc_courses': []}
+2025-05-11 20:23:24,034 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.UNKNOWN
+2025-05-11 20:23:24,034 - llm.engine.transfer_engine - INFO - Using handler: GroupQueryHandler
+2025-05-11 20:23:24,034 - llm.engine.transfer_engine - INFO - Query processed in 0.01 seconds
+# Select 2 courses from the following. (Group 3)
+
+
+
+# Group 3: Select 2 courses from the following.
+
+**SELECT 2 COURSES**: Choose exactly 2 UC courses from the list below and complete the articulation requirements for each.
+
+
+
+## BILD 1 – The Cell
+
+**Available Options**: 2 (2 requiring multiple courses)
+
+### Multiple Course Options:
+**Option A (✅ Complete option)**: BIOL 6A, BIOL 6B, BIOL 6C (complete all)
+**Option B (✅ Complete option)**: BIOL 6AH, BIOL 6B, BIOL 6CH (complete all)
+
+### Notes:
+🔹 Honors courses accepted: BIOL 6AH, BIOL 6CH
+🔹 Non-honors courses also accepted: BIOL 6A, BIOL 6B, BIOL 6C
+
+## BILD 2 – Multicellular Life
+
+**Available Options**: 2 (2 requiring multiple courses)
+
+### Multiple Course Options:
+**Option A (✅ Complete option)**: BIOL 6A, BIOL 6B, BIOL 6C (complete all)
+**Option B (✅ Complete option)**: BIOL 6AH, BIOL 6B, BIOL 6CH (complete all)
+
+### Notes:
+🔹 Honors courses accepted: BIOL 6AH, BIOL 6CH
+🔹 Non-honors courses also accepted: BIOL 6A, BIOL 6B, BIOL 6C
+
+## BILD 3 – Organismic and Evolutionary Biology
+
+**Available Options**: 2 (2 requiring multiple courses)
+
+### Multiple Course Options:
+**Option A (✅ Complete option)**: BIOL 6A, BIOL 6B, BIOL 6C (complete all)
+**Option B (✅ Complete option)**: BIOL 6AH, BIOL 6B, BIOL 6CH (complete all)
+
+### Notes:
+🔹 Honors courses accepted: BIOL 6AH, BIOL 6CH
+🔹 Non-honors courses also accepted: BIOL 6A, BIOL 6B, BIOL 6C
+
+## CHEM 6A – General Chemistry I
+
+**Available Options**: 2 (0 requiring multiple courses)
+
+### Single Course Options:
+**Option A (✅ Complete option)**: CHEM 1A
+**Option B (✅ Complete option)**: CHEM 1AH (honors)
+
+### Notes:
+🔹 Honors courses accepted: CHEM 1AH
+🔹 Non-honors courses also accepted: CHEM 1A
+
+## CHEM 6B – General Chemistry II
+
+**Available Options**: 2 (0 requiring multiple courses)
+
+### Single Course Options:
+**Option A (✅ Complete option)**: CHEM 1B
+**Option B (✅ Complete option)**: CHEM 1BH (honors)
+
+### Notes:
+🔹 Honors courses accepted: CHEM 1BH
+🔹 Non-honors courses also accepted: CHEM 1B
+
+## PHYS 2A – Physics - Mechanics
+
+**Available Options**: 1 (0 requiring multiple courses)
+
+### Single Course Options:
+**Option A (✅ Complete option)**: PHYS 4A
+
+### Notes:
+🔹 Non-honors courses also accepted: PHYS 4A
+
+## PHYS 2B – Physics - Electricity and Magnetism
+
+**Available Options**: 1 (0 requiring multiple courses)
+
+### Single Course Options:
+**Option A (✅ Complete option)**: PHYS 4B
+
+### Notes:
+🔹 Non-honors courses also accepted: PHYS 4B
+
+## PHYS 4A – Physics for Physics Majors—Mechanics
+
+**Available Options**: 0 (0 requiring multiple courses)
+
+### No Articulation Available
+❌ **No courses available**: This course has no articulation at community colleges.
+
+### Notes:
+🔹 This course must be completed at UCSD after transfer.
+
+## PHYS 4B – Physics for Physics Majors—Fluids, Waves, Statistical and Thermal Physics
+
+**Available Options**: 0 (0 requiring multiple courses)
+
+### No Articulation Available
+❌ **No courses available**: This course has no articulation at community colleges.
+
+### Notes:
+🔹 This course must be completed at UCSD after transfer.
+
+## What You Need To Do
+
+1. Select **exactly 2** UC courses from the list above
+2. For each selected UC course, follow one complete articulation option
+3. You can choose any 2 courses from the list
+
+## Important Notes
+
+⚠️ Some options require **multiple CCC courses** to satisfy a single UC course. You must complete ALL courses listed in these options.
+ℹ️ All course options shown are verified against the official ASSIST articulation data.
+============================================================
+
+===== Test 24: What courses count for BILD 1? =====
+2025-05-11 20:23:24,034 - llm.engine.transfer_engine - INFO - Processing query: What courses count for BILD 1?
+2025-05-11 20:23:24,039 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['BILD 1'], 'ccc_courses': []}
+2025-05-11 20:23:24,039 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_LOOKUP
+2025-05-11 20:23:24,040 - llm.engine.transfer_engine - INFO - Using handler: CourseLookupHandler
+2025-05-11 20:23:24,040 - llm.handlers.course_lookup_handler - INFO - Processing course lookup query for UC course: BILD 1
+2025-05-11 20:23:24,040 - llm.handlers.course_lookup_handler - DEBUG - Found document for BILD 1: unknown
+2025-05-11 20:23:24,040 - llm.engine.transfer_engine - INFO - Query processed in 0.01 seconds
+# BILD 1 can be satisfied by any of these options:
+
+**Option A**: BIOL 6A, BIOL 6B, BIOL 6C (complete all)
+**Option B**: BIOL 6AH (Honors), BIOL 6B, BIOL 6CH (Honors) (complete all)
+============================================================
+
+===== Test 25: Can I take BIOL 6A and 6B only to satisfy BILD 1? =====
+2025-05-11 20:23:24,040 - llm.engine.transfer_engine - INFO - Processing query: Can I take BIOL 6A and 6B only to satisfy BILD 1?
+2025-05-11 20:23:24,045 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['BILD 1'], 'ccc_courses': ['BIOL 6A', 'BIOL 6B']}
+2025-05-11 20:23:24,045 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_VALIDATION
+2025-05-11 20:23:24,045 - llm.engine.transfer_engine - INFO - Using handler: ValidationQueryHandler
+2025-05-11 20:23:24,045 - llm.engine.transfer_engine - INFO - Query processed in 0.01 seconds
+# ❌ No, based on verified articulation logic - BILD 1
+
+⚠️ **Partial Match** - Additional courses needed
+
+**Option A:**
+✓ **Already satisfied with:** BIOL 6A, BIOL 6B
+❌ **Still needed:** **BIOL 6C**
+
+**Other possible options:**
+- Option B: Need **BIOL 6AH (Honors)**, **BIOL 6CH (Honors)**
+
+**To complete this requirement:** Add the missing course(s) listed above.
+============================================================
+
+===== Test 26: How many science courses do I need to transfer for UCSD Computer Science under Group 3? =====
+2025-05-11 20:23:24,045 - llm.engine.transfer_engine - INFO - Processing query: How many science courses do I need to transfer for UCSD Computer Science under Group 3?
+2025-05-11 20:23:24,050 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': [], 'ccc_courses': []}
+2025-05-11 20:23:24,050 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.UNKNOWN
+2025-05-11 20:23:24,050 - llm.engine.transfer_engine - INFO - Using handler: GroupQueryHandler
+2025-05-11 20:23:24,051 - llm.engine.transfer_engine - INFO - Query processed in 0.01 seconds
+# Select 2 courses from the following. (Group 3)
+
+
+
+# Group 3: Select 2 courses from the following.
+
+**SELECT 2 COURSES**: Choose exactly 2 UC courses from the list below and complete the articulation requirements for each.
+
+
+
+## BILD 1 – The Cell
+
+**Available Options**: 2 (2 requiring multiple courses)
+
+### Multiple Course Options:
+**Option A (✅ Complete option)**: BIOL 6A, BIOL 6B, BIOL 6C (complete all)
+**Option B (✅ Complete option)**: BIOL 6AH, BIOL 6B, BIOL 6CH (complete all)
+
+### Notes:
+🔹 Honors courses accepted: BIOL 6AH, BIOL 6CH
+🔹 Non-honors courses also accepted: BIOL 6A, BIOL 6B, BIOL 6C
+
+## BILD 2 – Multicellular Life
+
+**Available Options**: 2 (2 requiring multiple courses)
+
+### Multiple Course Options:
+**Option A (✅ Complete option)**: BIOL 6A, BIOL 6B, BIOL 6C (complete all)
+**Option B (✅ Complete option)**: BIOL 6AH, BIOL 6B, BIOL 6CH (complete all)
+
+### Notes:
+🔹 Honors courses accepted: BIOL 6AH, BIOL 6CH
+🔹 Non-honors courses also accepted: BIOL 6A, BIOL 6B, BIOL 6C
+
+## BILD 3 – Organismic and Evolutionary Biology
+
+**Available Options**: 2 (2 requiring multiple courses)
+
+### Multiple Course Options:
+**Option A (✅ Complete option)**: BIOL 6A, BIOL 6B, BIOL 6C (complete all)
+**Option B (✅ Complete option)**: BIOL 6AH, BIOL 6B, BIOL 6CH (complete all)
+
+### Notes:
+🔹 Honors courses accepted: BIOL 6AH, BIOL 6CH
+🔹 Non-honors courses also accepted: BIOL 6A, BIOL 6B, BIOL 6C
+
+## CHEM 6A – General Chemistry I
+
+**Available Options**: 2 (0 requiring multiple courses)
+
+### Single Course Options:
+**Option A (✅ Complete option)**: CHEM 1A
+**Option B (✅ Complete option)**: CHEM 1AH (honors)
+
+### Notes:
+🔹 Honors courses accepted: CHEM 1AH
+🔹 Non-honors courses also accepted: CHEM 1A
+
+## CHEM 6B – General Chemistry II
+
+**Available Options**: 2 (0 requiring multiple courses)
+
+### Single Course Options:
+**Option A (✅ Complete option)**: CHEM 1B
+**Option B (✅ Complete option)**: CHEM 1BH (honors)
+
+### Notes:
+🔹 Honors courses accepted: CHEM 1BH
+🔹 Non-honors courses also accepted: CHEM 1B
+
+## PHYS 2A – Physics - Mechanics
+
+**Available Options**: 1 (0 requiring multiple courses)
+
+### Single Course Options:
+**Option A (✅ Complete option)**: PHYS 4A
+
+### Notes:
+🔹 Non-honors courses also accepted: PHYS 4A
+
+## PHYS 2B – Physics - Electricity and Magnetism
+
+**Available Options**: 1 (0 requiring multiple courses)
+
+### Single Course Options:
+**Option A (✅ Complete option)**: PHYS 4B
+
+### Notes:
+🔹 Non-honors courses also accepted: PHYS 4B
+
+## PHYS 4A – Physics for Physics Majors—Mechanics
+
+**Available Options**: 0 (0 requiring multiple courses)
+
+### No Articulation Available
+❌ **No courses available**: This course has no articulation at community colleges.
+
+### Notes:
+🔹 This course must be completed at UCSD after transfer.
+
+## PHYS 4B – Physics for Physics Majors—Fluids, Waves, Statistical and Thermal Physics
+
+**Available Options**: 0 (0 requiring multiple courses)
+
+### No Articulation Available
+❌ **No courses available**: This course has no articulation at community colleges.
+
+### Notes:
+🔹 This course must be completed at UCSD after transfer.
+
+## What You Need To Do
+
+1. Select **exactly 2** UC courses from the list above
+2. For each selected UC course, follow one complete articulation option
+3. You can choose any 2 courses from the list
+
+## Important Notes
+
+⚠️ Some options require **multiple CCC courses** to satisfy a single UC course. You must complete ALL courses listed in these options.
+ℹ️ All course options shown are verified against the official ASSIST articulation data.
+============================================================
+
+===== Test 27: Can I satisfy Group 3 with CHEM 1A and PHYS 4A? =====
+2025-05-11 20:23:24,051 - llm.engine.transfer_engine - INFO - Processing query: Can I satisfy Group 3 with CHEM 1A and PHYS 4A?
+2025-05-11 20:23:24,055 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': [], 'ccc_courses': ['CHEM 1A', 'PHYS 4A']}
+2025-05-11 20:23:24,055 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_EQUIVALENCY
+2025-05-11 20:23:24,055 - llm.engine.transfer_engine - INFO - Using handler: CourseEquivalencyHandler
+Validating CHEM 6A with ['CHEM 1A', 'PHYS 4A']: {'is_satisfied': True, 'explanation': '✅ **Complete match!** Satisfies Option A with: CHEM 1A', 'satisfied_options': ['CHEM 1A'], 'missing_courses': {}, 'redundant_courses': [], 'match_percentage': 100}
+Validating PHYS 2A with ['CHEM 1A', 'PHYS 4A']: {'is_satisfied': True, 'explanation': '✅ **Complete match!** Satisfies Option A with: PHYS 4A', 'satisfied_options': ['PHYS 4A'], 'missing_courses': {}, 'redundant_courses': [], 'match_percentage': 100}
+2025-05-11 20:23:24,056 - llm.engine.transfer_engine - INFO - Query processed in 0.00 seconds
+✅ CHEM 1A, PHYS 4A can satisfy: CHEM 6A, PHYS 2A
+============================================================
+
+===== Test 28: Does PHYS 4A articulate to UCSD? =====
+2025-05-11 20:23:24,056 - llm.engine.transfer_engine - INFO - Processing query: Does PHYS 4A articulate to UCSD?
+2025-05-11 20:23:24,060 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': [], 'ccc_courses': ['PHYS 4A']}
+2025-05-11 20:23:24,060 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_EQUIVALENCY
+2025-05-11 20:23:24,060 - llm.engine.transfer_engine - INFO - Using handler: CourseEquivalencyHandler
+2025-05-11 20:23:24,060 - llm.engine.transfer_engine - INFO - Query processed in 0.00 seconds
+✅ PHYS 4A can satisfy PHYS 2A.
+============================================================
+
+===== Test 29: Does BILD 2 require the same BIOL series as BILD 1? =====
+2025-05-11 20:23:24,060 - llm.engine.transfer_engine - INFO - Processing query: Does BILD 2 require the same BIOL series as BILD 1?
+2025-05-11 20:23:24,064 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['BILD 1', 'BILD 2'], 'ccc_courses': []}
+2025-05-11 20:23:24,064 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_COMPARISON
+2025-05-11 20:23:24,064 - llm.engine.transfer_engine - INFO - Using handler: CourseComparisonHandler
+2025-05-11 20:23:24,065 - llm.handlers.course_comparison_handler - DEBUG - Extracting course codes from: {'options': [{'courses': [{'type': 'AND', 'courses': [{'name': 'BIOL 6A', 'is_honors': False}, {'name': 'BIOL 6B', 'is_honors': False}, {'name': 'BIOL 6C', 'is_honors': False}]}]}, {'courses': [{'type': 'AND', 'courses': [{'name': 'BIOL 6AH', 'is_honors': True}, {'name': 'BIOL 6B', 'is_honors': False}, {'name': 'BIOL 6CH', 'is_honors': True}]}]}]}
+2025-05-11 20:23:24,065 - llm.handlers.course_comparison_handler - DEBUG - Processing option with courses: [{'type': 'AND', 'courses': [{'name': 'BIOL 6A', 'is_honors': False}, {'name': 'BIOL 6B', 'is_honors': False}, {'name': 'BIOL 6C', 'is_honors': False}]}]
+2025-05-11 20:23:24,065 - llm.handlers.course_comparison_handler - DEBUG - Processing course item: {'type': 'AND', 'courses': [{'name': 'BIOL 6A', 'is_honors': False}, {'name': 'BIOL 6B', 'is_honors': False}, {'name': 'BIOL 6C', 'is_honors': False}]}
+2025-05-11 20:23:24,065 - llm.handlers.course_comparison_handler - DEBUG - Found AND group with courses: ['BIOL 6A', 'BIOL 6B', 'BIOL 6C']
+2025-05-11 20:23:24,065 - llm.handlers.course_comparison_handler - DEBUG - Processing option with courses: [{'type': 'AND', 'courses': [{'name': 'BIOL 6AH', 'is_honors': True}, {'name': 'BIOL 6B', 'is_honors': False}, {'name': 'BIOL 6CH', 'is_honors': True}]}]
+2025-05-11 20:23:24,065 - llm.handlers.course_comparison_handler - DEBUG - Processing course item: {'type': 'AND', 'courses': [{'name': 'BIOL 6AH', 'is_honors': True}, {'name': 'BIOL 6B', 'is_honors': False}, {'name': 'BIOL 6CH', 'is_honors': True}]}
+2025-05-11 20:23:24,065 - llm.handlers.course_comparison_handler - DEBUG - Found AND group with courses: ['BIOL 6AH', 'BIOL 6B', 'BIOL 6CH']
+2025-05-11 20:23:24,065 - llm.handlers.course_comparison_handler - DEBUG - Extracted course options: [{'courses': ['BIOL 6A', 'BIOL 6B', 'BIOL 6C'], 'is_and': True}, {'courses': ['BIOL 6AH', 'BIOL 6B', 'BIOL 6CH'], 'is_and': True}]
+2025-05-11 20:23:24,065 - llm.handlers.course_comparison_handler - DEBUG - Extracting course codes from: {'options': [{'courses': [{'type': 'AND', 'courses': [{'name': 'BIOL 6A', 'is_honors': False}, {'name': 'BIOL 6B', 'is_honors': False}, {'name': 'BIOL 6C', 'is_honors': False}]}]}, {'courses': [{'type': 'AND', 'courses': [{'name': 'BIOL 6AH', 'is_honors': True}, {'name': 'BIOL 6B', 'is_honors': False}, {'name': 'BIOL 6CH', 'is_honors': True}]}]}]}
+2025-05-11 20:23:24,065 - llm.handlers.course_comparison_handler - DEBUG - Processing option with courses: [{'type': 'AND', 'courses': [{'name': 'BIOL 6A', 'is_honors': False}, {'name': 'BIOL 6B', 'is_honors': False}, {'name': 'BIOL 6C', 'is_honors': False}]}]
+2025-05-11 20:23:24,065 - llm.handlers.course_comparison_handler - DEBUG - Processing course item: {'type': 'AND', 'courses': [{'name': 'BIOL 6A', 'is_honors': False}, {'name': 'BIOL 6B', 'is_honors': False}, {'name': 'BIOL 6C', 'is_honors': False}]}
+2025-05-11 20:23:24,065 - llm.handlers.course_comparison_handler - DEBUG - Found AND group with courses: ['BIOL 6A', 'BIOL 6B', 'BIOL 6C']
+2025-05-11 20:23:24,065 - llm.handlers.course_comparison_handler - DEBUG - Processing option with courses: [{'type': 'AND', 'courses': [{'name': 'BIOL 6AH', 'is_honors': True}, {'name': 'BIOL 6B', 'is_honors': False}, {'name': 'BIOL 6CH', 'is_honors': True}]}]
+2025-05-11 20:23:24,065 - llm.handlers.course_comparison_handler - DEBUG - Processing course item: {'type': 'AND', 'courses': [{'name': 'BIOL 6AH', 'is_honors': True}, {'name': 'BIOL 6B', 'is_honors': False}, {'name': 'BIOL 6CH', 'is_honors': True}]}
+2025-05-11 20:23:24,065 - llm.handlers.course_comparison_handler - DEBUG - Found AND group with courses: ['BIOL 6AH', 'BIOL 6B', 'BIOL 6CH']
+2025-05-11 20:23:24,065 - llm.handlers.course_comparison_handler - DEBUG - Extracted course options: [{'courses': ['BIOL 6A', 'BIOL 6B', 'BIOL 6C'], 'is_and': True}, {'courses': ['BIOL 6AH', 'BIOL 6B', 'BIOL 6CH'], 'is_and': True}]
+2025-05-11 20:23:24,065 - llm.engine.transfer_engine - INFO - Query processed in 0.00 seconds
+# ✅ Yes, BILD 1 and BILD 2 accept some of the same courses
+
+**BILD 1** (The Cell) and **BILD 2** (Multicellular Life) both accept BIOL courses from De Anza College.
+
+**Courses accepted by both:** BIOL 6A + BIOL 6B + BIOL 6C, BIOL 6AH + BIOL 6B + BIOL 6CH
+============================================================
+
+===== Test 30: What De Anza courses are required for CHEM 6A and 6B? =====
+2025-05-11 20:23:24,065 - llm.engine.transfer_engine - INFO - Processing query: What De Anza courses are required for CHEM 6A and 6B?
+2025-05-11 20:23:24,069 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['CHEM 6A', 'CHEM 6B'], 'ccc_courses': []}
+2025-05-11 20:23:24,069 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_LOOKUP
+2025-05-11 20:23:24,069 - llm.engine.transfer_engine - INFO - Using handler: CourseLookupHandler
+2025-05-11 20:23:24,069 - llm.handlers.course_lookup_handler - INFO - Processing multi-course lookup query for UC courses: CHEM 6A, CHEM 6B
+2025-05-11 20:23:24,069 - llm.handlers.course_lookup_handler - INFO - Processing course lookup query for UC course: CHEM 6A
+2025-05-11 20:23:24,069 - llm.handlers.course_lookup_handler - DEBUG - Found document for CHEM 6A: unknown
+2025-05-11 20:23:24,069 - llm.handlers.course_lookup_handler - INFO - Processing course lookup query for UC course: CHEM 6B
+2025-05-11 20:23:24,069 - llm.handlers.course_lookup_handler - DEBUG - Found document for CHEM 6B: unknown
+2025-05-11 20:23:24,069 - llm.engine.transfer_engine - INFO - Query processed in 0.00 seconds
+# Articulation options for CHEM 6A, CHEM 6B
+
+# CHEM 6A can be satisfied by any of these options:
+
+**Option A**: CHEM 1A
+**Option B**: CHEM 1AH (Honors)
+
+---
+
+# CHEM 6B can be satisfied by any of these options:
+
+**Option A**: CHEM 1B
+**Option B**: CHEM 1BH (Honors)
+============================================================
+
+===== Test 31: If I took CIS 36A, can it satisfy more than one UCSD course? =====
+2025-05-11 20:23:24,069 - llm.engine.transfer_engine - INFO - Processing query: If I took CIS 36A, can it satisfy more than one UCSD course?
+2025-05-11 20:23:24,075 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': [], 'ccc_courses': ['CIS 36A']}
+2025-05-11 20:23:24,075 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_EQUIVALENCY
+2025-05-11 20:23:24,075 - llm.engine.transfer_engine - INFO - Using handler: CourseEquivalencyHandler
+2025-05-11 20:23:24,075 - llm.engine.transfer_engine - INFO - Query processed in 0.01 seconds
+✅ CIS 36A can satisfy CSE 8A.
+
+Additionally, CIS 36A can contribute to satisfying CSE 11 when combined with other courses.
+============================================================
+
+===== Test 32: Are any honors courses required for the CS transfer path from De Anza to UCSD? =====
+2025-05-11 20:23:24,075 - llm.engine.transfer_engine - INFO - Processing query: Are any honors courses required for the CS transfer path from De Anza to UCSD?
+2025-05-11 20:23:24,080 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': [], 'ccc_courses': []}
+2025-05-11 20:23:24,080 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.HONORS_REQUIREMENT
+2025-05-11 20:23:24,080 - llm.engine.transfer_engine - INFO - Using handler: HonorsQueryHandler
+2025-05-11 20:23:24,080 - llm.engine.transfer_engine - INFO - Query processed in 0.00 seconds
+# Honors Requirements for Computer Science Transfer
+
+Based on the articulation data, **no courses require honors versions**. While honors courses are accepted, you can satisfy all requirements with non-honors courses.
+
+Taking honors courses may still provide other benefits, but they are not required for articulation.
+============================================================
+
+===== Test 33: Does CSE 12 require honors courses at De Anza? =====
+2025-05-11 20:24:24,025 - llm.engine.transfer_engine - INFO - Processing query: Does CSE 12 require honors courses at De Anza?
+2025-05-11 20:24:24,048 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['CSE 12'], 'ccc_courses': []}
+2025-05-11 20:24:24,049 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.HONORS_REQUIREMENT
+2025-05-11 20:24:24,049 - llm.engine.transfer_engine - INFO - Using handler: HonorsQueryHandler
+2025-05-11 20:24:24,061 - llm.engine.transfer_engine - INFO - Query processed in 0.04 seconds
+# ❌ No, CSE 12 does not require honors courses.
+
+Based on the official articulation data, you can satisfy CSE 12 with either honors or non-honors courses. You can satisfy this requirement with either the standard courses (CIS 22C) or their honors equivalents (CIS 22CH).
+============================================================
+
+===== Test 34: Can I take both MATH 1A and MATH 1AH for MATH 20A? =====
+2025-05-11 20:24:24,061 - llm.engine.transfer_engine - INFO - Processing query: Can I take both MATH 1A and MATH 1AH for MATH 20A?
+2025-05-11 20:24:24,081 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['MATH 20A'], 'ccc_courses': ['MATH 1A', 'MATH 1AH']}
+2025-05-11 20:24:24,081 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_VALIDATION
+2025-05-11 20:24:24,081 - llm.engine.transfer_engine - INFO - Using handler: ValidationQueryHandler
+2025-05-11 20:24:24,081 - llm.engine.transfer_engine - INFO - Query processed in 0.02 seconds
+✅ Yes, MATH 1A and MATH 1AH are equivalent (non-honors and honors versions of the same course)
+============================================================
+
+===== Test 35: Which UC courses can I satisfy with CIS 36A? =====
+2025-05-11 20:24:24,081 - llm.engine.transfer_engine - INFO - Processing query: Which UC courses can I satisfy with CIS 36A?
+2025-05-11 20:24:24,085 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': [], 'ccc_courses': ['CIS 36A']}
+2025-05-11 20:24:24,087 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_EQUIVALENCY
+2025-05-11 20:24:24,087 - llm.engine.transfer_engine - INFO - Using handler: CourseEquivalencyHandler
+2025-05-11 20:24:24,087 - llm.engine.transfer_engine - INFO - Query processed in 0.01 seconds
+✅ CIS 36A can satisfy CSE 8A.
+
+Additionally, CIS 36A can contribute to satisfying CSE 11 when combined with other courses.
+============================================================
+
+===== Test 36: Does CIS 22C satisfy CSE 12? =====
+2025-05-11 20:24:24,087 - llm.engine.transfer_engine - INFO - Processing query: Does CIS 22C satisfy CSE 12?
+2025-05-11 20:24:24,093 - llm.engine.transfer_engine - DEBUG - Extracted filters: {'uc_course': ['CSE 12'], 'ccc_courses': ['CIS 22C']}
+2025-05-11 20:24:24,093 - llm.engine.transfer_engine - DEBUG - Determined query type: QueryType.COURSE_VALIDATION
+2025-05-11 20:24:24,093 - llm.engine.transfer_engine - INFO - Using handler: ValidationQueryHandler
+2025-05-11 20:24:24,094 - llm.engine.transfer_engine - INFO - Query processed in 0.01 seconds
+# ✅ Yes, based on official articulation - CSE 12
+
+✅ **Complete match!** Satisfies Option A with: CIS 22C
+============================================================
