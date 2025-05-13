@@ -4,7 +4,7 @@
   "to": "University of California, San Diego",
   "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F137%2Fto%2F7%2FMajor%2Fae12a841-3675-41e1-a821-08dca807bc76",
   "catalog_year": "2024–2025",
-  "general_advice": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. The Studio Art major includes courses in painting, drawing, sculpture, performance, installation and cross-disciplinary art practices. Studio Art classes provide the technical and conceptual skills of contemporary art production in the context of art history, criticism and theory.For more information please visit visarts.ucsd.edu .\n\nUC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below: Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdf International Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf\n\nDATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. The Studio Art major includes courses in painting, drawing, sculpture, performance, installation and cross-disciplinary art practices. Studio Art classes provide the technical and conceptual skills of contemporary art production in the context of art history, criticism and theory.For more information please visit visarts.ucsd.edu .\n\nUC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below: Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdf International Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf",
+  "general_advice": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. The Studio Art major includes courses in painting, drawing, sculpture, performance, installation and cross-disciplinary art practices. Studio Art classes provide the technical and conceptual skills of contemporary art production in the context of art history, criticism and theory.For more information please visit visarts.ucsd.edu .\n\nUC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below: Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdf International Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf",
   "groups": [
     {
       "group_id": "1",
@@ -84,7 +84,8 @@
             }
           ]
         }
-      ]
+      ],
+      "overarching_title": "FOUNDATION LEVEL - REQUIRED COURSEWORK"
     },
     {
       "group_id": "2",
@@ -221,6 +222,7 @@
           "n_courses": 2
         }
       ],
+      "overarching_title": "ART MAKING",
       "n_courses": 2
     },
     {
@@ -421,6 +423,7 @@
           "n_courses": 1
         }
       ],
+      "overarching_title": "ART HISTORY",
       "n_courses": 1
     }
   ]

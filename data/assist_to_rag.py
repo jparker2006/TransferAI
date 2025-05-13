@@ -715,31 +715,44 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
                 rag_data["general_advice"] = content
     
     group_counter = 1
-    current_overarching_title = None # Track the last seen overarching title
+    # current_overarching_title = None # Track the last seen overarching title - Replaced with temporary variable below
+    last_seen_overarching_title = None # This will now be the persistent overarching title
     
     for asset in template_assets:
         asset_type = asset.get("type")
         
-        # Update General Advice
-        if asset_type == "GeneralText":
-            content = asset.get("content", "")
-            # Clean HTML tags, preserving paragraph structure
-            content = clean_html(content)
-            
-            if rag_data["general_advice"]:
-                rag_data["general_advice"] += "\n\n" + content
-            else:
-                rag_data["general_advice"] = content
+        # Update General Advice (This part seems duplicated, might need cleanup later)
+        # if asset_type == "GeneralText":
+        #     content = asset.get("content", "")
+        #     content = clean_html(content)
+        #     if rag_data["general_advice"]:
+        #         rag_data["general_advice"] += "\\n\\n" + content
+        #     else:
+        #         rag_data["general_advice"] = content
                 
-        # Check for Overarching Titles
-        elif asset_type == "RequirementTitle":
-            title_content = asset.get("content", "").upper()
-            # Identify potential overarching titles (avoid specific ones like "RECOMMENDED")
-            if "RECOMMENDED" not in title_content and ("REQUIREMENTS" in title_content or "DIVISION" in title_content or "ELECTIVES" in title_content):
-                 current_overarching_title = asset.get("content") # Store the original case title
-            # We could potentially reset current_overarching_title if we hit certain other non-group assets,
-            # but for now, assume it persists until the next overarching title.
+        # Check for Overarching Titles or other titles that might clear the context
+        if asset_type == "RequirementTitle":
+            title_content_original = asset.get("content", "")
+            title_content_upper = title_content_original.upper()
+            
+            # Define keywords that identify a general, persistent overarching title
+            # Exclude more specific titles like "RECOMMENDED"
+            is_valid_overarching_candidate = \
+                "RECOMMENDED" not in title_content_upper and \
+                ("REQUIREMENTS" in title_content_upper or \
+                 "DIVISION" in title_content_upper or \
+                 "ELECTIVES" in title_content_upper or \
+                 "ART MAKING" in title_content_upper or \
+                 "ART HISTORY" in title_content_upper or \
+                 "FOUNDATION LEVEL" in title_content_upper)
 
+            if is_valid_overarching_candidate:
+                last_seen_overarching_title = title_content_original # Set as the new persistent title
+            else:
+                # If the title is not a general overarching one (e.g., it's "RECOMMENDED" or some other specific title)
+                # it should clear any existing overarching title, so subsequent groups don't inherit it incorrectly.
+                last_seen_overarching_title = None
+            
         # Process Requirement Groups
         elif asset_type == "RequirementGroup":
             # RequirementGroup specific processing starts here
@@ -794,29 +807,54 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
                 group_logic_type = adv_logic_type
                 n_courses_or_null = adv_n_value # This might be n_courses or null depending on adv_logic_type
                 
+            # Extract the actual group title directly from the asset if present
+            # Check if there's a RequirementTitle *at the same position* or immediately preceding this group
+            # Find the specific RequirementTitle asset that matches this group's position context
+            explicit_group_title_asset = None
+            for title_asset in template_assets:
+                 if title_asset.get("type") == "RequirementTitle":
+                     # Check if the title position matches the group position OR precedes it directly
+                     # ASSIST seems inconsistent; sometimes title is at position N, group at N+1
+                     # Sometimes title is at position N, group is ALSO at position N (e.g., FOUNDATION LEVEL)
+                     title_pos = title_asset.get("position")
+                     group_pos = asset.get("position")
+                     if title_pos == group_pos: # Title and Group share position
+                         explicit_group_title_asset = title_asset
+                         break
+                     # We need a way to robustly link title[pos=N] to group[pos=N+1] - this might be complex.
+                     # Let's rely on the overarching title logic for now, and refine specific group titles later if needed.
+
+
             # Generate a proper group title based on the logic type and context
-            group_section_ids = [extract_section_id(s, idx) for idx, s in enumerate(sections)]
-            group_title = generate_group_title(
-                group_logic_type,
-                n_courses_or_null, # Pass the potentially null value
-                instruction_object, # Pass the raw instruction object
-                instruction_text,
-                is_recommended,
-                group_section_ids # Pass section IDs for potential "Complete Section A OR B" title
-            )
+            # Prioritize explicit title if found, otherwise generate based on logic
+            group_title = None
+            if explicit_group_title_asset:
+                 group_title = explicit_group_title_asset.get("content")
+
+            if not group_title: # If no explicit title was directly associated
+                 group_section_ids = [extract_section_id(s, idx) for idx, s in enumerate(sections)]
+                 group_title = generate_group_title(
+                     group_logic_type,
+                     n_courses_or_null, # Pass the potentially null value
+                     instruction_object, # Pass the raw instruction object
+                     instruction_text,
+                     is_recommended,
+                     group_section_ids # Pass section IDs for potential "Complete Section A OR B" title
+                 )
             
             # Create group structure
             group_obj = {
                 "group_id": group_id,
-                "group_title": group_title, # Title generated above
+                "group_title": group_title, # Title generated above/extracted
                 "group_logic_type": group_logic_type,
                 "sections": []
             }
 
-            # Add the current overarching title if one is active
-            if current_overarching_title:
-                 group_obj["overarching_title"] = current_overarching_title
-            
+            # Add the last seen overarching title IF one is active and persistent
+            if last_seen_overarching_title:
+                 group_obj["overarching_title"] = last_seen_overarching_title
+                 # DO NOT RESET last_seen_overarching_title here; it persists until a new RequirementTitle changes the context.
+
             # Add is_recommended flag if true
             if is_recommended:
                 group_obj["is_recommended"] = True # Add the flag to the RAG output
