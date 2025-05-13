@@ -13,3 +13,33 @@ Start by writing three reasoning paragraphs analyzing what the error might be. D
 Before you answer, I want you to write two detailed paragraphs, one for each solution. Do not jump to conclusions or commit to either solution until you have fully considered both. Then tell me which solution is obviously better and why.
 
 Please run all 36 test runner tests in 6 batches of 6, then analyze them all against the real assist data i provided, then analyze your results and add the remaining bugs we have to fix to the analysis roadmap. Proceed like a senior engineer. Write 3 reasoning paragraphs, one for each step, before you begin.
+
+
+
+
+You are validating whether a TransferAI RAG JSON file faithfully reflects the articulation logic shown in official ASSIST.org screenshots.
+
+Inputs:
+- `rag_data.json`: This contains structured course articulation data for a CCC → UC major transfer agreement.
+- ASSIST screenshots: These show the original articulation agreement from assist.org, grouped by articulation group, section, and UC course.
+
+Task:
+1. Read through `rag_data.json` and compare its course mappings, logic structure, section instructions, etc against the corresponding ASSIST screenshots.
+2. For each mismatch or suspected error, provide:
+   - the **type of issue** (e.g. wrong CCC course, missing OR/AND logic, incorrect honors flag, articulation omitted),
+   - a brief explanation of what is wrong,
+   - and optionally a suggested fix.
+
+Guidelines:
+- Pay special attention to logic structure: each `"type": "AND"` or `"type": "OR"` group should reflect what’s visible in the screenshot (e.g. nested arrows, group headings, section titles like “Select 2 from…”).
+- Do not assume correctness. Always prioritize what’s visible in the screenshot.
+- If screenshots show “No Course Articulated,” verify that `no_articulation: true` appears in the logic block.
+- Report even minor mismatches (e.g. course title or honors flag is missing or incorrect).
+- Assume that the screenshots are authoritative.
+
+Once complete, list all found issues as a bullet list under the heading `Discrepancies Found:` and include line numbers or key paths from the JSON (e.g. `group_id=2 > CSE 15L`) to make corrections easier.
+
+
+
+
+ Start by writing three reasoning paragraphs analyzing what the error might be. Do not jump to conclusions. Then implement the fix you reason out. The fewer lines of code, the better. Do not delete comments. Proceed like a senior developer.

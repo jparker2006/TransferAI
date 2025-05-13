@@ -54,15 +54,30 @@ def infer_group_logic_type(instruction: Dict[str, Any], section_count: int, advi
         conjunction = instruction.get("conjunction", "")
         selection_type = instruction.get("selectionType", "")
         
-        # Complete A or B type structure
-        if conjunction == "Or" and selection_type == "Complete":
-            return "choose_one_section", None
-            
+        # === Priority Check for Section Choice ===
+        # If instruction implies choosing between alternatives ('Or') AND there are multiple sections,
+        # infer 'choose_one_section' regardless of 'selectionType'.
+        # This handles cases like "Select A or B" or "Complete A or B" structures with multiple sections.
+        # Specifically target the common pattern where ASSIST uses Or/Select for section choices.
+        if conjunction == "Or" and section_count > 1:
+             # This could be refined later if ASSIST introduces "Select N sections"
+             # but currently Or/Select with multiple sections means choose 1 section.
+            if selection_type == "Select" or selection_type == "Complete":
+                 return "choose_one_section", None # n_courses is None/irrelevant
+
+        # --- Standard Instruction Checks (if not overridden by section choice) ---
+
+        # Complete A or B type structure (typically only one section, handled above if > 1)
+        if conjunction == "Or" and selection_type == "Complete" and section_count <= 1:
+             # Should ideally not happen with section_count > 1 due to check above
+             # If it's one section or less, treat as single section choice (or default)
+            return "choose_one_section", None # Or maybe "all_required" if section_count == 1? Revisit if needed.
+
         # Complete all sections
         if conjunction == "And" and selection_type == "Complete":
             return "all_required", None
-            
-        # Select N courses
+
+        # Select N courses (only if not already identified as choose_one_section)
         if selection_type == "Select":
             amount = int(float(instruction.get("amount", 1)))
             return "select_n_courses", amount
@@ -88,7 +103,15 @@ def infer_group_logic_type(instruction: Dict[str, Any], section_count: int, advi
             return "choose_one_section", None
     
     # Safe fallback: one section = all required
-    return "all_required", None
+    # If multiple sections exist but no clear instruction matched, default to all_required? Or choose_one_section?
+    # Let's default to all_required for safety, as choose_one_section is explicitly checked above.
+    if section_count == 1:
+        return "all_required", None
+    else:
+        # If section_count > 1 and we got here, no clear instruction was found.
+        # Defaulting to all_required might be safer than assuming a choice.
+        # Re-evaluate if this causes issues.
+        return "all_required", None
 
 
 def infer_required_course_count(instruction: str) -> int:
@@ -115,18 +138,25 @@ def parse_sending_articulation(articulation: Dict[str, Any]) -> Dict[str, Any]:
     Returns:
         Structured representation of the OR logic with nested AND groups
     """
-    # Handle empty articulation
-    if not articulation or "items" not in articulation:
+    # Handle empty articulation or no articulated items
+    if not articulation or "items" not in articulation or not articulation["items"]:
+        reason = "No Course Articulated"  # Default reason
+        specific_reason_text = articulation.get("noArticulationReason") if articulation else None
+        
+        if specific_reason_text and specific_reason_text.strip():
+            reason = specific_reason_text.strip()
+            
         return {
-            "type": "OR",
+            "type": "OR", 
             "courses": [{
-                "name": "No Course Articulated",
+                "name": reason,
                 "honors": False,
-                "course_id": hash_id("No Course Articulated"),
+                "course_id": hash_id(reason), # Hash the reason for a consistent ID
                 "course_letters": "N/A",
-                "title": "No Course Articulated"
+                "title": reason
             }],
-            "no_articulation": True
+            "no_articulation": True,
+            "no_articulation_reason": reason # Store the specific or default reason
         }
     
     # Start building the OR block for all possible paths
@@ -338,21 +368,46 @@ def infer_section_logic_type(section: Dict[str, Any], advisements: List[Dict[str
     # Check advisements first (highest priority)
     if advisements:
         for advisement in advisements:
-            if advisement.get("type") == "NFollowing" and advisement.get("selectionType") == "Select":
+            # Check if it's an 'NFollowing' advisement specifying a number of courses
+            if advisement.get("type") == "NFollowing" and advisement.get("amountUnitType") == "Course":
                 amount = int(float(advisement.get("amount", 1)))
+                # Regardless of selectionType ('Complete' or 'Select'), if it specifies N courses, it's a selection.
                 return "select_n_courses", amount
     
-    # Check for OR row relationships
-    # If a section has multiple rows with "OR" between them, it might be a "select_n_courses" type
     rows = section.get("rows", [])
     
-    # In many cases, if there are multiple courses but no other indicators,
-    # all courses in the section are required
-    if len(rows) > 1:
-        # Look for OR indicators between rows
+    # Specific pattern check for History BA Section A like structures:
+    # If a section contains a "Series" and also individual "Course" cells that are components of that Series,
+    # it implies a choice between taking the full Series or one of the individual component paths.
+    if len(rows) > 1: # Needs multiple rows to have a series and its components separately
+        has_series_cell_in_section = False
+        series_definition_courses = set() # Store course IDs (e.g., "HILD 2A") from a series definition
+        individual_course_ids_in_section = set() # Store course IDs from individual Course cells
+
         for row in rows:
-            if row.get("conjunction") == "Or":
-                return "select_one_course", None
+            for cell in row.get("cells", []):
+                if cell.get("type") == "Series":
+                    has_series_cell_in_section = True
+                    series_data = cell.get("series", {})
+                    for s_course in series_data.get("courses", []):
+                        series_definition_courses.add(f"{s_course.get('prefix')} {s_course.get('courseNumber')}")
+                elif cell.get("type") == "Course":
+                    course_data = cell.get("course", {})
+                    individual_course_ids_in_section.add(f"{course_data.get('prefix')} {course_data.get('courseNumber')}")
+        
+        if has_series_cell_in_section and series_definition_courses.intersection(individual_course_ids_in_section):
+            # This pattern (Series + its components listed individually in other rows) suggests a choice.
+            # The screenshot for History BA Section A implies "select 1" from these options.
+            return "select_n_courses", 1
+
+    # Check for OR row relationships (Review if this existing logic is sound, may need adjustment later)
+    # The original comment noted this `row.get("conjunction")` logic might be for within-row.
+    # For now, keeping it but acknowledging it might need to be revisited as it wasn't the cause of this specific bug.
+    if len(rows) > 1:
+        # Look for OR indicators between rows (this interpretation of row.conjunction needs verification)
+        for row in rows:
+            if row.get("conjunction") == "Or": # This 'conjunction' is usually for cells within a row
+                return "select_n_courses", 1 # Changed "select_one_course" to standard "select_n_courses"
     
     # Default to "all required"
     return "all_required", None
@@ -449,26 +504,65 @@ def process_group_advisements(group_asset: Dict[str, Any]) -> Tuple[Optional[str
     return None, None
 
 
-def generate_group_title(group_logic_type: str, n_courses: Optional[int] = None, instruction_text: str = "") -> str:
+def generate_group_title(
+    group_logic_type: str, 
+    n_courses: Optional[int] = None, 
+    instruction: Optional[Dict[str, Any]] = None,
+    instruction_text: str = "", 
+    is_recommended: bool = False,
+    section_ids: Optional[List[str]] = None
+) -> str:
     """
-    Generate a descriptive group title based on logic type.
+    Generate a descriptive group title based on logic type and context.
     
     Args:
         group_logic_type: The type of logic for the group
         n_courses: Number of courses to select (for select_n_courses type)
-        instruction_text: Original instruction text
+        instruction: The raw instruction object from the ASSIST JSON asset
+        instruction_text: Original instruction text (less reliable for specific choices)
+        is_recommended: Flag indicating if the group is recommended
+        section_ids: List of section IDs for multi-section choice groups
         
     Returns:
         A human-readable group title
     """
+    # Highest priority: Recommended groups
+    if is_recommended:
+        return "Recommended but not required courses:"
+        
+    # Next priority: Check for explicit 'Or'/'Select' instruction structure
+    if isinstance(instruction, dict) and instruction.get("conjunction") == "Or" and instruction.get("selectionType") == "Select":
+        # Even if inferred as select_n_courses, this structure implies a choice between options/sections.
+        # Generate a more specific title reflecting this choice.
+        # TODO: Refine this further based on roadmap item 3 (logic inference)
+        # If logic is confirmed 'choose_one_section', use section IDs. For now, use generic choice text.
+        if group_logic_type == "choose_one_section" and section_ids and len(section_ids) > 1:
+             # Sort section IDs for consistent ordering (e.g., A, B, C)
+            sorted_section_ids = sorted(section_ids)
+            return f"Complete Section { ' OR Section '.join(sorted_section_ids) }"
+        else:
+            # If it's inferred as select_n_courses but instruction implies OR choice
+            plural = "option" if n_courses == 1 else "options" 
+            number_word = "ONE" if n_courses == 1 else str(n_courses) if n_courses else "one" # Handle n_courses=None case
+            # Use n_courses if available and > 1, otherwise default to "ONE" or "one"
+            return f"Select {number_word} of the following {plural}:" # More specific choice title
+
+    # Default logic based on inferred type if no specific instruction matched above
     if group_logic_type == "select_n_courses" and n_courses is not None:
-        return f"Select {n_courses} courses from the following."
+        plural = "course" if n_courses == 1 else "courses"
+        return f"Select {n_courses} {plural} from the following."
     elif group_logic_type == "choose_one_section":
-        return "Complete one of the following sections"
+        if section_ids and len(section_ids) > 1:
+            # Sort section IDs for consistent ordering (e.g., A, B, C)
+            sorted_section_ids = sorted(section_ids) 
+            return f"Complete Section { ' OR Section '.join(sorted_section_ids) }"
+        else:
+            # Fallback if section IDs aren't available or only one section
+            return "Complete one of the following sections" 
     elif group_logic_type == "all_required":
         return "All of the following UC courses are required"
     else:
-        # Use original text as fallback
+        # Use original text as fallback if available, otherwise a generic default
         return instruction_text if instruction_text else "Complete the following requirements"
 
 
@@ -579,12 +673,36 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
     # Parse template assets
     template_assets_json = result.get("templateAssets", "[]")
     template_assets = json.loads(template_assets_json) if isinstance(template_assets_json, str) else template_assets_json
+    # Sort all assets by position once for easier lookup and correct sequencing
+    template_assets.sort(
+        key=lambda x: x.get("position") if isinstance(x.get("position"), int) else float('inf')
+    )
     
+    # Correctly identify the position of the group following a "RECOMMENDED" title
+    recommended_group_positions = set()
+    rec_title_index = -1
+    # Find the index of the "RECOMMENDED" title in the *position-sorted* list
+    for i, asset in enumerate(template_assets):
+        if asset.get("type") == "RequirementTitle" and "RECOMMENDED" in asset.get("content", "").upper():
+            rec_title_index = i
+            break
+    
+    # If found, find the position of the *first* RequirementGroup *after* it in the sorted list
+    if rec_title_index != -1:
+        for i in range(rec_title_index + 1, len(template_assets)):
+            next_asset = template_assets[i]
+            if next_asset.get("type") == "RequirementGroup":
+                # Found the group the title applies to based on position sequence
+                group_pos = next_asset.get("position")
+                if group_pos is not None:
+                    recommended_group_positions.add(group_pos)
+                break # Assume only one group is directly associated with this title
+
     # Parse articulations
     articulations_json = result.get("articulations", "[]")
     articulations = json.loads(articulations_json) if isinstance(articulations_json, str) else articulations_json
     
-    # Extract general advice from general text assets
+    # Extract general advice from general text assets (already sorted by position)
     for asset in template_assets:
         if asset.get("type") == "GeneralText":
             content = asset.get("content", "")
@@ -596,71 +714,121 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
             else:
                 rag_data["general_advice"] = content
     
-    # Process requirement groups
     group_counter = 1
+    current_overarching_title = None # Track the last seen overarching title
     
     for asset in template_assets:
-        if asset.get("type") == "RequirementGroup":
-            # Extract group information
+        asset_type = asset.get("type")
+        
+        # Update General Advice
+        if asset_type == "GeneralText":
+            content = asset.get("content", "")
+            # Clean HTML tags, preserving paragraph structure
+            content = clean_html(content)
+            
+            if rag_data["general_advice"]:
+                rag_data["general_advice"] += "\n\n" + content
+            else:
+                rag_data["general_advice"] = content
+                
+        # Check for Overarching Titles
+        elif asset_type == "RequirementTitle":
+            title_content = asset.get("content", "").upper()
+            # Identify potential overarching titles (avoid specific ones like "RECOMMENDED")
+            if "RECOMMENDED" not in title_content and ("REQUIREMENTS" in title_content or "DIVISION" in title_content or "ELECTIVES" in title_content):
+                 current_overarching_title = asset.get("content") # Store the original case title
+            # We could potentially reset current_overarching_title if we hit certain other non-group assets,
+            # but for now, assume it persists until the next overarching title.
+
+        # Process Requirement Groups
+        elif asset_type == "RequirementGroup":
+            # RequirementGroup specific processing starts here
             group_id = str(group_counter)
             group_counter += 1
             
+            # Determine if this group is recommended using the correctly identified position
+            current_group_position = asset.get("position")
+            is_recommended = current_group_position is not None and current_group_position in recommended_group_positions
+            
             # Get group instruction
-            instruction = None
+            instruction_object = None # Renamed from 'instruction' to avoid confusion
             instruction_text = "Complete the following requirements"  # Default
             
             if "instruction" in asset and asset["instruction"]:
-                # Keep the raw instruction object for inference
-                instruction = asset["instruction"]
+                # Keep the raw instruction object for inference and title generation
+                instruction_object = asset.get("instruction") # Use the raw instruction object
                 
-                # Also create a human-readable instruction text
-                if "conjunction" in asset["instruction"]:
-                    conjunction = asset["instruction"].get("conjunction", "")
-                    selection_type = asset["instruction"].get("selectionType", "")
+                # Also create a human-readable instruction text (as fallback)
+                if isinstance(instruction_object, dict) and "conjunction" in instruction_object:
+                    conjunction = instruction_object.get("conjunction", "")
+                    selection_type = instruction_object.get("selectionType", "")
                     
+                    # Generate a basic fallback text, might be overridden by generate_group_title later
                     if conjunction == "Or":
-                        instruction_text = "Complete one of the following sections"
+                        instruction_text = "Complete one of the following sections or courses"
                     elif conjunction == "And":
-                        instruction_text = "Complete all of the following sections"
-                    
+                        instruction_text = "Complete all of the following sections or courses"
+
                     if selection_type == "Select":
-                        amount = asset["instruction"].get("amount", 1)
-                        instruction_text = f"Select {amount} course(s) from the following"
+                        amount = instruction_object.get("amount", 1)
+                        plural = "course" if amount == 1 else "courses"
+                        instruction_text = f"Select {amount} {plural} from the following"
             
             # If no instruction found, look at sections
             sections = asset.get("sections", [])
             section_count = len(sections)
             
             # Determine group logic type using both the raw instruction object and our text version
-            group_logic_type, n_courses = infer_group_logic_type(instruction, section_count, asset.get("advisements", []))
+            group_logic_type, n_courses_or_null = infer_group_logic_type(instruction_object, section_count, asset.get("advisements", []))
             
             # Special case: if instruction contains "Complete one of the following sections"
-            if "Complete one of the following sections" in instruction_text:
-                group_logic_type = "choose_one_section"
+            # This check needs refinement later based on roadmap items 2 & 3
+            # if "Complete one of the following sections" in instruction_text:
+            #     group_logic_type = "choose_one_section"
             
             # Process the group's advisements for additional logic information
             adv_logic_type, adv_n_value = process_group_advisements(asset)
             
-            # If advisements provided a specific logic type, use it
+            # If advisements provided a specific logic type, use it (overrides instruction inference)
             if adv_logic_type:
                 group_logic_type = adv_logic_type
-                n_courses = adv_n_value
+                n_courses_or_null = adv_n_value # This might be n_courses or null depending on adv_logic_type
                 
-            # Generate a proper group title based on the logic type
-            group_title = generate_group_title(group_logic_type, n_courses, instruction_text)
+            # Generate a proper group title based on the logic type and context
+            group_section_ids = [extract_section_id(s, idx) for idx, s in enumerate(sections)]
+            group_title = generate_group_title(
+                group_logic_type,
+                n_courses_or_null, # Pass the potentially null value
+                instruction_object, # Pass the raw instruction object
+                instruction_text,
+                is_recommended,
+                group_section_ids # Pass section IDs for potential "Complete Section A OR B" title
+            )
             
             # Create group structure
             group_obj = {
                 "group_id": group_id,
-                "group_title": group_title,
+                "group_title": group_title, # Title generated above
                 "group_logic_type": group_logic_type,
                 "sections": []
             }
+
+            # Add the current overarching title if one is active
+            if current_overarching_title:
+                 group_obj["overarching_title"] = current_overarching_title
             
-            # If it's select_n_courses, add n_courses
-            if group_logic_type == "select_n_courses" and n_courses is not None:
-                group_obj["n_courses"] = n_courses
-            
+            # Add is_recommended flag if true
+            if is_recommended:
+                group_obj["is_recommended"] = True # Add the flag to the RAG output
+
+            # Add n_courses or n_sections_to_choose based on logic type
+            if group_logic_type == "select_n_courses" and n_courses_or_null is not None:
+                group_obj["n_courses"] = n_courses_or_null
+            elif group_logic_type == "choose_one_section":
+                 # Assuming choose_one_section always means choose 1, unless specified otherwise later
+                group_obj["n_sections_to_choose"] = 1
+            # Note: 'n_courses' field is intentionally omitted for 'choose_one_section'
+
             # Process sections
             for section_idx, section in enumerate(sections):
                 # Get section ID and title
@@ -774,6 +942,60 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
                                 "course_obj": current_uc_course_obj,
                                 "position": row_position
                             })
+                        elif cell.get("type") == "Series":
+                            series_data = cell.get("series", {})
+                            series_name_from_json = series_data.get("name", "Unknown Series") # e.g., "HILD 2A, HILD 2B, HILD 2C"
+                            
+                            # Create a uc_course_id from the parts for consistency if name is just a list
+                            series_uc_id_parts = []
+                            for s_course in sorted(series_data.get("courses", []), key=lambda x: x.get("position", 0)):
+                                series_uc_id_parts.append(f"{s_course.get('prefix')} {s_course.get('courseNumber')}")
+                            
+                            # Use the explicit series name if it's not just a join of course numbers, otherwise use the joined parts
+                            series_uc_id = series_name_from_json
+                            if not series_name_from_json or set(series_name_from_json.split(", ")) == set(series_uc_id_parts):
+                                series_uc_id = " + ".join(series_uc_id_parts) # e.g. "HILD 2A + HILD 2B + HILD 2C"
+
+                            series_uc_title = f"Series: {series_name_from_json}" 
+                            
+                            # Extract articulation for this "Series" cell
+                            articulation_data = None
+                            cell_id = cell.get("id") # ID of the Series cell
+                            for art_lookup in articulations: # Ensure 'articulations' is defined in this scope
+                                if art_lookup.get("templateCellId") == cell_id:
+                                    articulation_data = art_lookup
+                                    break
+                            
+                            logic_block = {}
+                            if articulation_data and "articulation" in articulation_data:
+                                sending_articulation = articulation_data["articulation"].get("sendingArticulation", {})
+                                logic_block = parse_sending_articulation(sending_articulation)
+                            else:
+                                logic_block = { "type": "OR", "courses": [{"name": "No Course Articulated", "honors": False, "course_id": hash_id("No Course Articulated"), "course_letters": "N/A", "title": "No Course Articulated"}], "no_articulation": True }
+
+                            current_uc_course_obj = {
+                                "uc_course_id": series_uc_id,
+                                "uc_course_title": series_uc_title,
+                                "_is_uc_series_requirement": True, 
+                                "_series_definition": [
+                                    {
+                                        "course_letters": f"{s_c.get('prefix')} {s_c.get('courseNumber')}",
+                                        "title": s_c.get('courseTitle')
+                                    } for s_c in series_data.get("courses", [])
+                                ],
+                                "section_id": section_id,
+                                "section_title": section_title,
+                                "logic_block": logic_block
+                            }
+                            
+                            uc_note_from_cell = extract_notes(cell)
+                            if uc_note_from_cell:
+                                current_uc_course_obj["note"] = uc_note_from_cell
+                            
+                            uc_courses_to_sort.append({
+                                "course_obj": current_uc_course_obj,
+                                "position": row_position 
+                            })
                 
                 # Sort the collected UC courses based on their row's position attribute
                 uc_courses_to_sort.sort(key=lambda x: x["position"])
@@ -785,6 +1007,9 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
                 # Add section to group
                 group_obj["sections"].append(section_obj)
             
+            # Sort sections alphabetically by section_id (A, B, C...)
+            group_obj["sections"].sort(key=lambda x: x.get("section_id", ""))
+
             # Add group to RAG data
             rag_data["groups"].append(group_obj)
     

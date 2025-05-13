@@ -1,0 +1,175 @@
+{
+  "major": "Mathematics B.S.",
+  "from": "Santa Monica College",
+  "to": "University of California, San Diego",
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F137%2Fto%2F7%2FMajor%2Fc00a69b1-1182-4533-6752-08dca807bc66",
+  "catalog_year": "2024–2025",
+  "general_advice": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Effective Fall 2018, major preparation will be required for this major. For details, visit: http://admissions.ucsd.edu/MajorPrep For more information please visit https://math.ucsd.edu/students/undergraduate/ma29-mathematics-b-s/ ﻿ NOTE: Students who have taken a vector calculus course at a non-UC college must successfully petition the course for 20E equivalency. Petitions must generally include course syllabus, textbook information and final exam. More information on the petition process for 20E can be found at the following site: https://www.math.ucsd.edu/students/undergraduate/math-20e-equivalency\n\nUC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below: Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdf International Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf\n\nDATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Effective Fall 2018, major preparation will be required for this major. For details, visit: http://admissions.ucsd.edu/MajorPrep For more information please visit https://math.ucsd.edu/students/undergraduate/ma29-mathematics-b-s/ ﻿ NOTE: Students who have taken a vector calculus course at a non-UC college must successfully petition the course for 20E equivalency. Petitions must generally include course syllabus, textbook information and final exam. More information on the petition process for 20E can be found at the following site: https://www.math.ucsd.edu/students/undergraduate/math-20e-equivalency\n\nUC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below: Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdf International Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf",
+  "groups": [
+    {
+      "group_id": "1",
+      "group_title": "All of the following UC courses are required",
+      "group_logic_type": "all_required",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "MATH 18",
+              "uc_course_title": "Linear Algebra",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 13 Linear Algebra",
+                        "honors": false,
+                        "course_id": "d69fdaec",
+                        "course_letters": "MATH 13",
+                        "title": "Linear Algebra"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20A",
+              "uc_course_title": "Calculus for Science and Engineering",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 7 Calculus 1",
+                        "honors": false,
+                        "course_id": "aa6a8148",
+                        "course_letters": "MATH 7",
+                        "title": "Calculus 1"
+                      },
+                      {
+                        "name": "MATH 8 Calculus 2",
+                        "honors": false,
+                        "course_id": "e5f25f6b",
+                        "course_letters": "MATH 8",
+                        "title": "Calculus 2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20B",
+              "uc_course_title": "Calculus for Science and Engineering",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 8 Calculus 2",
+                        "honors": false,
+                        "course_id": "e5f25f6b",
+                        "course_letters": "MATH 8",
+                        "title": "Calculus 2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20C",
+              "uc_course_title": "Calculus and Analytic Geometry for Science and Engineering",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 11 Multivariable Calculus",
+                        "honors": false,
+                        "course_id": "7ad0fd47",
+                        "course_letters": "MATH 11",
+                        "title": "Multivariable Calculus"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20D",
+              "uc_course_title": "Introduction to Differential Equations",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 15 Differential Equations",
+                        "honors": false,
+                        "course_id": "feaa6766",
+                        "course_letters": "MATH 15",
+                        "title": "Differential Equations"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20E",
+              "uc_course_title": "Vector Calculus",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 11 Multivariable Calculus",
+                        "honors": false,
+                        "course_id": "7ad0fd47",
+                        "course_letters": "MATH 11",
+                        "title": "Multivariable Calculus"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "major": "History B.A.",
+  "from": "Santa Monica College",
+  "to": "University of California, San Diego",
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F137%2Fto%2F7%2FMajor%2F1182c615-6a61-46b7-6722-08dca807bc66",
+  "catalog_year": "2024–2025",
+  "general_advice": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. \"Whereas other subjects may make us wiser for next time,\" said the great historian of the Renaissance, Jakob Burckhardt, \"the study of history makes us wiser forever.\" This major is, moreover, an excellent preparation for a number of rewarding careers in university and college teaching and research, law, government, diplomacy, international business, education and even medicine. At the crossroads of the humanities, the arts and the social sciences, history is the study of human experience as it has unfolded over the ages. As an academic discipline it presents a unique gateway both to the richness of our cultural heritage and to the immense variety of world civilizations. Department fields are as follows: Africa, East Asia, Europe, Near East, Latin America, History of Science, South Asia, and United States history; as well as, the following three thematic fields: Gender and Sexuality; Race, Ethnicity, and Migration; and War, Revolution, and Social Change. For more information, see http://history.ucsd.edu/ Three quarter courses or two semester courses are required for lower division. Courses including World History/Western Civilization that have not been articulated must be approved via petition on an individual basis by the History department upon transfer.\n\nUC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below: Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdf International Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf\n\nDATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. \"Whereas other subjects may make us wiser for next time,\" said the great historian of the Renaissance, Jakob Burckhardt, \"the study of history makes us wiser forever.\" This major is, moreover, an excellent preparation for a number of rewarding careers in university and college teaching and research, law, government, diplomacy, international business, education and even medicine. At the crossroads of the humanities, the arts and the social sciences, history is the study of human experience as it has unfolded over the ages. As an academic discipline it presents a unique gateway both to the richness of our cultural heritage and to the immense variety of world civilizations. Department fields are as follows: Africa, East Asia, Europe, Near East, Latin America, History of Science, South Asia, and United States history; as well as, the following three thematic fields: Gender and Sexuality; Race, Ethnicity, and Migration; and War, Revolution, and Social Change. For more information, see http://history.ucsd.edu/ Three quarter courses or two semester courses are required for lower division. Courses including World History/Western Civilization that have not been articulated must be approved via petition on an individual basis by the History department upon transfer.\n\nUC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below: Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdf International Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf",
+  "groups": [
+    {
+      "group_id": "1",
+      "group_title": "Complete Section A OR Section B OR Section C",
+      "group_logic_type": "choose_one_section",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "select_n_courses",
+          "uc_courses": [
+            {
+              "uc_course_id": "HILD 2A + HILD 2B + HILD 2C",
+              "uc_course_title": "Series: HILD 2A, HILD 2B, HILD 2C",
+              "_is_uc_series_requirement": true,
+              "_series_definition": [
+                {
+                  "course_letters": "HILD 2A",
+                  "title": "United States History"
+                },
+                {
+                  "course_letters": "HILD 2B",
+                  "title": "United States History"
+                },
+                {
+                  "course_letters": "HILD 2C",
+                  "title": "United States History"
+                }
+              ],
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "HIST 11 United States History through Reconstruction",
+                        "honors": false,
+                        "course_id": "4100d0a6",
+                        "course_letters": "HIST 11",
+                        "title": "United States History through Reconstruction"
+                      },
+                      {
+                        "name": "HIST 12 United States History since Reconstruction",
+                        "honors": false,
+                        "course_id": "9cf6463f",
+                        "course_letters": "HIST 12",
+                        "title": "United States History since Reconstruction"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "uc_course_id": "HILD 2A",
+              "uc_course_title": "United States History",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "HIST 11 United States History through Reconstruction",
+                        "honors": false,
+                        "course_id": "4100d0a6",
+                        "course_letters": "HIST 11",
+                        "title": "United States History through Reconstruction"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "HILD 2C",
+              "uc_course_title": "United States History",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "HIST 12 United States History since Reconstruction",
+                        "honors": false,
+                        "course_id": "9cf6463f",
+                        "course_letters": "HIST 12",
+                        "title": "United States History since Reconstruction"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "HIST 13 United States History after 1945",
+                        "honors": false,
+                        "course_id": "f3d44843",
+                        "course_letters": "HIST 13",
+                        "title": "United States History after 1945"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ],
+          "n_courses": 1
+        },
+        {
+          "section_id": "B",
+          "section_title": "Section B",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "HILD 7A",
+              "uc_course_title": "Race and Ethnicity in the United States",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "HILD 7B",
+              "uc_course_title": "Race and Ethnicity in the United States",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "HILD 7C",
+              "uc_course_title": "Race and Ethnicity in the United States",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "C",
+          "section_title": "Section C",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "HILD 10",
+              "uc_course_title": "East Asia: The Great Tradition",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "HILD 11",
+              "uc_course_title": "East Asia and the West",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "HILD 12",
+              "uc_course_title": "Twentieth-Century East Asia",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ]
+        }
+      ],
+      "n_sections_to_choose": 1
+    }
+  ]
+}

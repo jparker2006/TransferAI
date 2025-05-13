@@ -1,0 +1,427 @@
+{
+  "major": "Art: Studio B.A. (Visual Arts)",
+  "from": "Santa Monica College",
+  "to": "University of California, San Diego",
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F137%2Fto%2F7%2FMajor%2Fae12a841-3675-41e1-a821-08dca807bc76",
+  "catalog_year": "2024–2025",
+  "general_advice": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. The Studio Art major includes courses in painting, drawing, sculpture, performance, installation and cross-disciplinary art practices. Studio Art classes provide the technical and conceptual skills of contemporary art production in the context of art history, criticism and theory.For more information please visit visarts.ucsd.edu .\n\nUC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below: Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdf International Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf\n\nDATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. The Studio Art major includes courses in painting, drawing, sculpture, performance, installation and cross-disciplinary art practices. Studio Art classes provide the technical and conceptual skills of contemporary art production in the context of art history, criticism and theory.For more information please visit visarts.ucsd.edu .\n\nUC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below: Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdf International Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf",
+  "groups": [
+    {
+      "group_id": "1",
+      "group_title": "All of the following UC courses are required",
+      "group_logic_type": "all_required",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "VIS 11",
+              "uc_course_title": "Introduction to Visual Culture",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "This course must be taken at the university after transfer",
+                    "honors": false,
+                    "course_id": "b5c69e70",
+                    "course_letters": "N/A",
+                    "title": "This course must be taken at the university after transfer"
+                  }
+                ],
+                "no_articulation": true,
+                "no_articulation_reason": "This course must be taken at the university after transfer"
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "VIS 22",
+              "uc_course_title": "Formations of Modern Art",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "AHIS 3 Global Art History Since 1800",
+                        "honors": false,
+                        "course_id": "347d0ea5",
+                        "course_letters": "AHIS 3",
+                        "title": "Global Art History Since 1800"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "VIS 80",
+              "uc_course_title": "Intro to the Studio Major",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "This course must be taken at the university after transfer",
+                    "honors": false,
+                    "course_id": "b5c69e70",
+                    "course_letters": "N/A",
+                    "title": "This course must be taken at the university after transfer"
+                  }
+                ],
+                "no_articulation": true,
+                "no_articulation_reason": "This course must be taken at the university after transfer"
+              },
+              "units": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "2",
+      "group_title": "Select 2 courses from the following.",
+      "group_logic_type": "select_n_courses",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "select_n_courses",
+          "uc_courses": [
+            {
+              "uc_course_id": "VIS 1",
+              "uc_course_title": "Introduction to Art-Making: Two-Dimensional Practices",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "VIS 2",
+              "uc_course_title": "Introduction to Art-Making: Motion and Time Based Art",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "VIS 3",
+              "uc_course_title": "Introduction to Art-Making: Three-Dimensional Practices",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "VIS 41",
+              "uc_course_title": "Design Communication",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "VIS 60",
+              "uc_course_title": "Introduction to Digital Photography",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "VIS 70N",
+              "uc_course_title": "Introduction to Media",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "This course must be taken at the university after transfer",
+                    "honors": false,
+                    "course_id": "b5c69e70",
+                    "course_letters": "N/A",
+                    "title": "This course must be taken at the university after transfer"
+                  }
+                ],
+                "no_articulation": true,
+                "no_articulation_reason": "This course must be taken at the university after transfer"
+              },
+              "units": 6.0
+            }
+          ],
+          "n_courses": 2
+        }
+      ],
+      "n_courses": 2
+    },
+    {
+      "group_id": "3",
+      "group_title": "Select 1 course from the following.",
+      "group_logic_type": "select_n_courses",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "select_n_courses",
+          "uc_courses": [
+            {
+              "uc_course_id": "VIS 20",
+              "uc_course_title": "Introduction to Art of Europe and America",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "VIS 21A",
+              "uc_course_title": "Introduction to the Art of the Americas or Africa and Oceania",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "VIS 21B",
+              "uc_course_title": "Introduction to Asian Art",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "AHIS 17 Arts of Asia",
+                        "honors": false,
+                        "course_id": "567a3ba7",
+                        "course_letters": "AHIS 17",
+                        "title": "Arts of Asia"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "VIS 21C",
+              "uc_course_title": "Introduction to African Art",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "VIS 83",
+              "uc_course_title": "Photographic History",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "VIS 84",
+              "uc_course_title": "Film History",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "VIS 84B",
+              "uc_course_title": "Film Aesthetics",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "VIS 85A",
+              "uc_course_title": "Media History",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "VIS 85B",
+              "uc_course_title": "Media Aesthetics",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ],
+          "n_courses": 1
+        }
+      ],
+      "n_courses": 1
+    }
+  ]
+}
