@@ -195,7 +195,7 @@
     },
     {
       "group_id": "2",
-      "group_title": "All of the following UC courses are required",
+      "group_title": null,
       "group_logic_type": "all_required",
       "sections": [
         {

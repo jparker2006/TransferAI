@@ -27,7 +27,7 @@ This roadmap outlines improvements for `assist_to_rag.py` to create RAG JSON tha
             2.  **Missing Overarching Title (`groups[1]`):** The group corresponding to "ART MAKING" is missing an `overarching_title: "ART MAKING"` field. **(Status: Open)**
             3.  **Missing Overarching Title (`groups[2]`):** The group corresponding to "ART HISTORY" is missing an `overarching_title: "ART HISTORY"` field. **(Status: Open)**
             4.  **Additional Findings from Batch 1 (Economics B.S. RAG vs Screenshot Review):**
-                1.  **Leading Space in Course Title (`groups[1].sections[0].uc_courses[2].uc_course_title`):** ECON 5 title has an extraneous leading space (" Data Analytics..."). **(Status: Open)**
+                1.  **Leading Space in Course Title (`groups[1].sections[0].uc_courses[2].uc_course_title`):** ECON 5 title has an extraneous leading space (" Data Analytics..."). **(Status: Fixed)**
         *   Fix these specific bugs found in `assist_to_rag.py`.
         *   **Repeat:** Define subsequent batches (Batch 2, Batch 3, etc.) with diverse selections of the remaining majors. Repeat the processing, analysis, and fixing steps until all SMC-UCSD majors are successfully processed with accurate core structures.
     *   **Status:** Open (Ongoing)

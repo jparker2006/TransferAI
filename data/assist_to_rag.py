@@ -510,8 +510,9 @@ def generate_group_title(
     instruction: Optional[Dict[str, Any]] = None,
     instruction_text: str = "", 
     is_recommended: bool = False,
-    section_ids: Optional[List[str]] = None
-) -> str:
+    section_ids: Optional[List[str]] = None,
+    has_explicit_instruction_for_title: bool = False
+) -> Optional[str]:
     """
     Generate a descriptive group title based on logic type and context.
     
@@ -522,9 +523,10 @@ def generate_group_title(
         instruction_text: Original instruction text (less reliable for specific choices)
         is_recommended: Flag indicating if the group is recommended
         section_ids: List of section IDs for multi-section choice groups
+        has_explicit_instruction_for_title: True if instruction implies a title
         
     Returns:
-        A human-readable group title
+        A human-readable group title or None
     """
     # Highest priority: Recommended groups
     if is_recommended:
@@ -559,11 +561,13 @@ def generate_group_title(
         else:
             # Fallback if section IDs aren't available or only one section
             return "Complete one of the following sections" 
-    elif group_logic_type == "all_required":
+    elif group_logic_type == "all_required" and has_explicit_instruction_for_title: # Only return default if instruction implies it
         return "All of the following UC courses are required"
-    else:
-        # Use original text as fallback if available, otherwise a generic default
-        return instruction_text if instruction_text else "Complete the following requirements"
+    
+    # If no specific title could be generated based on logic or explicit instruction,
+    # and no explicit title was found from assets, return None.
+    # The original instruction_text might be too generic or misleading if used here directly as a fallback.
+    return None
 
 
 def generate_source_url(assist_json: Dict[str, Any], manual_url: Optional[str] = None, major_key: Optional[str] = None) -> str:
@@ -717,8 +721,9 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
     group_counter = 1
     # current_overarching_title = None # Track the last seen overarching title - Replaced with temporary variable below
     last_seen_overarching_title = None # This will now be the persistent overarching title
-    
-    for asset in template_assets:
+    last_seen_requirement_title_asset: Optional[Dict[str, Any]] = None
+
+    for asset_idx, asset in enumerate(template_assets): # Added enumerate for look-ahead/behind
         asset_type = asset.get("type")
         
         # Update General Advice (This part seems duplicated, might need cleanup later)
@@ -748,10 +753,15 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
 
             if is_valid_overarching_candidate:
                 last_seen_overarching_title = title_content_original # Set as the new persistent title
+                last_seen_requirement_title_asset = asset # Store this title asset
             else:
                 # If the title is not a general overarching one (e.g., it's "RECOMMENDED" or some other specific title)
                 # it should clear any existing overarching title, so subsequent groups don't inherit it incorrectly.
                 last_seen_overarching_title = None
+                if "RECOMMENDED" not in title_content_upper: # Store non-overarching, non-recommended titles too
+                    last_seen_requirement_title_asset = asset
+                else: # Clear if it's "RECOMMENDED" as that's handled by is_recommended flag
+                    last_seen_requirement_title_asset = None
             
         # Process Requirement Groups
         elif asset_type == "RequirementGroup":
@@ -811,18 +821,55 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
             # Check if there's a RequirementTitle *at the same position* or immediately preceding this group
             # Find the specific RequirementTitle asset that matches this group's position context
             explicit_group_title_asset = None
-            for title_asset in template_assets:
-                 if title_asset.get("type") == "RequirementTitle":
-                     # Check if the title position matches the group position OR precedes it directly
-                     # ASSIST seems inconsistent; sometimes title is at position N, group at N+1
-                     # Sometimes title is at position N, group is ALSO at position N (e.g., FOUNDATION LEVEL)
-                     title_pos = title_asset.get("position")
-                     group_pos = asset.get("position")
-                     if title_pos == group_pos: # Title and Group share position
-                         explicit_group_title_asset = title_asset
-                         break
-                     # We need a way to robustly link title[pos=N] to group[pos=N+1] - this might be complex.
-                     # Let's rely on the overarching title logic for now, and refine specific group titles later if needed.
+            current_group_pos = asset.get("position")
+
+            # Check if the last seen RequirementTitle is associated with this group
+            if last_seen_requirement_title_asset:
+                title_pos = last_seen_requirement_title_asset.get("position")
+                title_content = last_seen_requirement_title_asset.get("content","").upper()
+                # A title is associated if:
+                # 1. It shares the same position.
+                # 2. It immediately precedes the group (title_pos < current_group_pos) AND
+                #    no other RequirementGroup or significant RequirementTitle came between them.
+                #    This is simplified by checking if last_seen_requirement_title_asset is the most recent one.
+                # 3. It's not a "RECOMMENDED" title, as that's handled by is_recommended.
+                if "RECOMMENDED" not in title_content:
+                    if title_pos == current_group_pos:
+                        explicit_group_title_asset = last_seen_requirement_title_asset
+                    else:
+                        # Check if this group is the NEXT asset after the title, or if other groups are in between
+                        # This requires looking at the original template_assets sequence.
+                        # We assume if last_seen_requirement_title_asset was set, and we encounter a group,
+                        # and it's not a "RECOMMENDED" title, it applies if positions are "close".
+                        # For now, we'll consider any non-RECOMMENDED last_seen_requirement_title_asset
+                        # as potentially applying if not cleared by another overarching title.
+                        # The Art Studio case (FOUNDATION LEVEL) has title_pos == group_pos.
+                        # If group_pos is N and title_pos is N-1, it could also apply.
+                        # Let's refine association:
+                        # An explicit title asset is one that is NOT an overarching title,
+                        # and is either at the same position or we heuristically determine it's for this group.
+                        # The `last_seen_requirement_title_asset` captures the *most recent* title.
+                        # If it's not an overarching one (already handled by `last_seen_overarching_title`),
+                        # and not "RECOMMENDED", it's a candidate for an explicit group title.
+
+                        # Simpler approach: if a RequirementTitle was the immediately preceding asset in the sorted list
+                        # or shares the same position, and it's not "RECOMMENDED".
+                        if asset_idx > 0: # Ensure there is a preceding asset
+                            preceding_asset = template_assets[asset_idx - 1]
+                            if preceding_asset.get("type") == "RequirementTitle" and \
+                               "RECOMMENDED" not in preceding_asset.get("content","").upper() and \
+                               preceding_asset.get("position") < current_group_pos : # Must be before current group
+                                # Check if no other group was between this title and current group
+                                is_directly_associated = True
+                                for i in range(template_assets.index(preceding_asset) + 1, asset_idx):
+                                    if template_assets[i].get("type") == "RequirementGroup":
+                                        is_directly_associated = False
+                                        break
+                                if is_directly_associated:
+                                     explicit_group_title_asset = preceding_asset
+
+                        if not explicit_group_title_asset and title_pos == current_group_pos: # Shared position
+                             explicit_group_title_asset = last_seen_requirement_title_asset
 
 
             # Generate a proper group title based on the logic type and context
@@ -830,27 +877,58 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
             group_title = None
             if explicit_group_title_asset:
                  group_title = explicit_group_title_asset.get("content")
+                 # Clear last_seen_requirement_title_asset if it was used as an explicit group title
+                 # and was not an overarching title (which should persist).
+                 # Overarching titles are handled by last_seen_overarching_title.
+                 # If the explicit title was also an overarching candidate, it would have been stored there.
+                 # This ensures a specific group title isn't mistakenly reused.
+                 # if explicit_group_title_asset.get("content", "").upper() != last_seen_overarching_title_content_upper
+                 # This logic is tricky; for now, if used, we assume it's consumed.
+                 # Overarching titles will be re-applied from `last_seen_overarching_title` anyway.
+                 # Test this carefully. The goal is: if FOUNDATION LEVEL is used, it shouldn't become overarching.
+                 # The current overarching logic seems to handle this by checking specific keywords.
 
             if not group_title: # If no explicit title was directly associated
                  group_section_ids = [extract_section_id(s, idx) for idx, s in enumerate(sections)]
+                 # Determine if the instruction itself implies a title should be generated
+                 has_explicit_instruction_for_title = False
+                 if isinstance(instruction_object, dict):
+                     # If conjunction is Or/And with Select/Complete, it often implies a standard title
+                     if instruction_object.get("conjunction") in ["Or", "And"] and \
+                        instruction_object.get("selectionType") in ["Select", "Complete"]:
+                         has_explicit_instruction_for_title = True
+                 if not instruction_object and section_count == 1: # Single section group often implies "all required"
+                      has_explicit_instruction_for_title = True
+
+
                  group_title = generate_group_title(
                      group_logic_type,
                      n_courses_or_null, # Pass the potentially null value
                      instruction_object, # Pass the raw instruction object
                      instruction_text,
                      is_recommended,
-                     group_section_ids # Pass section IDs for potential "Complete Section A OR B" title
+                     group_section_ids, # Pass section IDs for potential "Complete Section A OR B" title
+                     has_explicit_instruction_for_title
                  )
             
             # Create group structure
             group_obj = {
                 "group_id": group_id,
-                "group_title": group_title, # Title generated above/extracted
+                "group_title": group_title, # Title generated above/extracted or None
                 "group_logic_type": group_logic_type,
                 "sections": []
             }
 
             # Add the last seen overarching title IF one is active and persistent
+            # AND if the current group_title isn't already the same as the overarching title
+            # (to avoid redundancy like "FOUNDATION LEVEL - REQUIRED COURSEWORK" as overarching
+            #  and then again as group_title if it was an explicit title).
+            #  However, an overarching title *should* apply even if the group title is e.g. "Select 2 courses".
+            #  The problem is when the explicit group title *is* the overarching one.
+            #  The `last_seen_overarching_title` logic should correctly set it based on keywords.
+            #  If `group_title` was set from an explicit `RequirementTitle` that *was* also an
+            #  overarching title (e.g. "FOUNDATION LEVEL..."), then `overarching_title` field might be redundant.
+            #  Let's assume for now the `overarching_title` field is for broader context and can co-exist.
             if last_seen_overarching_title:
                  group_obj["overarching_title"] = last_seen_overarching_title
                  # DO NOT RESET last_seen_overarching_title here; it persists until a new RequirementTitle changes the context.
@@ -910,7 +988,7 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
                             units = course_data.get("minUnits")
                             
                             uc_course_id = f"{prefix} {number}"
-                            uc_course_title = title
+                            uc_course_title = title.strip() # Trim whitespace from UC course title
 
                             # Pass the entire cell to extract_notes, as visibleCrossListedCourses
                             # and courseAttributes are direct children of the cell object.
@@ -994,7 +1072,7 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
                             if not series_name_from_json or set(series_name_from_json.split(", ")) == set(series_uc_id_parts):
                                 series_uc_id = " + ".join(series_uc_id_parts) # e.g. "HILD 2A + HILD 2B + HILD 2C"
 
-                            series_uc_title = f"Series: {series_name_from_json}" 
+                            series_uc_title = f"Series: {series_name_from_json.strip()}" # Trim whitespace from series title as well
                             
                             # Extract articulation for this "Series" cell
                             articulation_data = None

@@ -89,7 +89,7 @@
     },
     {
       "group_id": "2",
-      "group_title": "Select 2 courses from the following.",
+      "group_title": "ART MAKING",
       "group_logic_type": "select_n_courses",
       "sections": [
         {
@@ -227,7 +227,7 @@
     },
     {
       "group_id": "3",
-      "group_title": "Select 1 course from the following.",
+      "group_title": "ART HISTORY",
       "group_logic_type": "select_n_courses",
       "sections": [
         {

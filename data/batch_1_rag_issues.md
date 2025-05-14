@@ -10,7 +10,7 @@ This document summarizes the open issues identified during the quality assurance
     *   **Missing Overarching Title:** `groups[2]` lacks the required `overarching_title: "ART HISTORY"`. *(Status: FIXED)*
 
 2.  **Economics B.S. (`economics_bs.json`):**
-    *   **Leading Space in Course Title:** The UC course `ECON 5` title (`groups[1].sections[0].uc_courses[2].uc_course_title`) contains an extraneous leading space (" Data Analytics..."). *(See Roadmap: Phase 1, Task 1, Batch 1 Finding)*
+    *   **Leading Space in Course Title:** The UC course `ECON 5` title (`groups[1].sections[0].uc_courses[2].uc_course_title`) contains an extraneous leading space (" Data Analytics..."). *(Status: FIXED)* *(See Roadmap: Phase 1, Task 1, Batch 1 Finding)*
 
 ## General / Recurring Issues Observed in Batch 1
 
@@ -22,4 +22,4 @@ This document summarizes the open issues identified during the quality assurance
     *   **Issue:** The script currently defaults to generating "All of the following UC courses are required" as the `group_title` when the ASSIST interface only displays a group number (e.g., "1", "2") or lacks an explicit title for that block. This was observed in Economics, Physics, and Structural Engineering RAGs.
     *   **Needed Improvement:** The logic needs refinement to:
         *   Handle cases where no explicit group title exists more gracefully (perhaps leaving it null or using a different placeholder).
-        *   Prioritize using the *actual* title from the screenshot when one is present (as highlighted by the Art Studio mismatch). This is related to the specific Art Studio bug listed above but represents a broader strategy point. 
+        *   Prioritize using the *actual* title from the screenshot when one is present (as highlighted by the Art Studio mismatch). This is related to the specific Art Studio bug listed above but represents a broader strategy point. *(Status: FIXED)* 
