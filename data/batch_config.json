@@ -5,14 +5,14 @@
       "year_id": "75",
       "sending_id": "137",
       "receiving_id": "7",
-      "major_key": "0a3e674e-b9e8-4340-6726-08dca807bc66",
+      "major_key": "1f661785-c6c6-4acd-5362-08dcc0769233",
       "output_dir": "json"
     },
     {
       "type": "convert",
-      "input_file": "json/santa_monica_college/university_of_california_san_diego/cse_computer_science_bs.json",
-      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/cse_computer_science_bs.json",
-      "major_key": "0a3e674e-b9e8-4340-6726-08dca807bc66"
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/economics_bs.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/economics_bs.json",
+      "major_key": "1f661785-c6c6-4acd-5362-08dcc0769233"
     },
     {
       "type": "download",
@@ -27,62 +27,6 @@
       "input_file": "json/santa_monica_college/university_of_california_san_diego/biology_general_biology_bs.json",
       "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/biology_general_biology_bs.json",
       "major_key": "721cd3e3-a7fc-4b71-672a-08dca807bc66"
-    },
-    {
-      "type": "download",
-      "year_id": "75",
-      "sending_id": "137",
-      "receiving_id": "7",
-      "major_key": "b52c8fad-33dc-492f-6760-08dca807bc66",
-      "output_dir": "json"
-    },
-    {
-      "type": "convert",
-      "input_file": "json/santa_monica_college/university_of_california_san_diego/physics_bs.json",
-      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/physics_bs.json",
-      "major_key": "b52c8fad-33dc-492f-6760-08dca807bc66"
-    },
-    {
-      "type": "download",
-      "year_id": "75",
-      "sending_id": "137",
-      "receiving_id": "7",
-      "major_key": "c00a69b1-1182-4533-6752-08dca807bc66",
-      "output_dir": "json"
-    },
-    {
-      "type": "convert",
-      "input_file": "json/santa_monica_college/university_of_california_san_diego/mathematics_bs.json",
-      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/mathematics_bs.json",
-      "major_key": "c00a69b1-1182-4533-6752-08dca807bc66"
-    },
-    {
-      "type": "download",
-      "year_id": "75",
-      "sending_id": "137",
-      "receiving_id": "7",
-      "major_key": "a7ceeaed-d5a5-4419-a7f2-08dca807bc76",
-      "output_dir": "json"
-    },
-    {
-      "type": "convert",
-      "input_file": "json/santa_monica_college/university_of_california_san_diego/structural_engineering_bs.json",
-      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/structural_engineering_bs.json",
-      "major_key": "a7ceeaed-d5a5-4419-a7f2-08dca807bc76"
-    },
-    {
-      "type": "download",
-      "year_id": "75",
-      "sending_id": "137",
-      "receiving_id": "7",
-      "major_key": "1f661785-c6c6-4acd-5362-08dcc0769233",
-      "output_dir": "json"
-    },
-    {
-      "type": "convert",
-      "input_file": "json/santa_monica_college/university_of_california_san_diego/economics_bs.json",
-      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/economics_bs.json",
-      "major_key": "1f661785-c6c6-4acd-5362-08dcc0769233"
     },
     {
       "type": "download",
@@ -117,6 +61,20 @@
       "year_id": "75",
       "sending_id": "137",
       "receiving_id": "7",
+      "major_key": "a7ceeaed-d5a5-4419-a7f2-08dca807bc76",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/structural_engineering_bs.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/structural_engineering_bs.json",
+      "major_key": "a7ceeaed-d5a5-4419-a7f2-08dca807bc76"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
       "major_key": "f59c9ec7-ec6d-4bda-a7eb-08dca807bc76",
       "output_dir": "json"
     },
@@ -125,6 +83,48 @@
       "input_file": "json/santa_monica_college/university_of_california_san_diego/chemistry_and_biochemistry_chemistry_bs.json",
       "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/chemistry_and_biochemistry_chemistry_bs.json",
       "major_key": "f59c9ec7-ec6d-4bda-a7eb-08dca807bc76"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
+      "major_key": "c00a69b1-1182-4533-6752-08dca807bc66",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/mathematics_bs.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/mathematics_bs.json",
+      "major_key": "c00a69b1-1182-4533-6752-08dca807bc66"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
+      "major_key": "0a3e674e-b9e8-4340-6726-08dca807bc66",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/cse_computer_science_bs.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/cse_computer_science_bs.json",
+      "major_key": "0a3e674e-b9e8-4340-6726-08dca807bc66"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
+      "major_key": "b52c8fad-33dc-492f-6760-08dca807bc66",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/physics_bs.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/physics_bs.json",
+      "major_key": "b52c8fad-33dc-492f-6760-08dca807bc66"
     }
   ]
-} 
+}

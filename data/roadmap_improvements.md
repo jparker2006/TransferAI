@@ -19,18 +19,13 @@ This roadmap outlines improvements for `assist_to_rag.py` to create RAG JSON tha
             *   Errors in parsing `logic_block` structures (AND/OR logic, course representation).
             *   New patterns or edge cases in requirement structures.
             *   Identify specific notes/advisements needing capture (feeds into Task 2).
-        *   **Bugs to Fix from Batch 1 Analysis:** Based on the analysis of History B.A. and Chemistry B.S., the following specific issues need to be addressed in `assist_to_rag.py`:
-            1.  **Complex Section Alternatives (History B.A. Section A):** Implement logic to correctly parse sections that present multiple, distinct ways (using OR logic) to fulfill the section's requirement. Currently, one alternative was missed entirely, and the remaining parts were incorrectly combined with AND logic under `section_logic_type: "all_required"`. **(Status: Fixed)**
-            2.  **Section-Level Choice Logic (Chemistry B.S. Sections E & F):** Ensure that when a section header contains an explicit instruction like "Complete N course(s) from the following," the `section_logic_type` is set to `"select_n_courses"` (with the correct `n_courses`), even if the overall group logic is `"all_required"`. ~~Currently, these sections were incorrectly assigned `section_logic_type: "all_required"`.~~ **(Status: Fixed)**
-        *   **Additional Findings from Batch 1 (Art Studio B.A. - Visual Arts RAG vs Screenshot Review):**
-            1.  **Group Title Mismatch (`groups[0].group_title`):** Should be "FOUNDATION LEVEL - REQUIRED COURSEWORK" instead of "All of the following UC courses are required". **(Status: Open)**
-            2.  **Missing Overarching Title (`groups[1]`):** The group corresponding to "ART MAKING" is missing an `overarching_title: "ART MAKING"` field. **(Status: Open)**
-            3.  **Missing Overarching Title (`groups[2]`):** The group corresponding to "ART HISTORY" is missing an `overarching_title: "ART HISTORY"` field. **(Status: Open)**
-            4.  **Additional Findings from Batch 1 (Economics B.S. RAG vs Screenshot Review):**
-                1.  **Leading Space in Course Title (`groups[1].sections[0].uc_courses[2].uc_course_title`):** ECON 5 title has an extraneous leading space (" Data Analytics..."). **(Status: Fixed)**
-        *   Fix these specific bugs found in `assist_to_rag.py`.
-        *   **Repeat:** Define subsequent batches (Batch 2, Batch 3, etc.) with diverse selections of the remaining majors. Repeat the processing, analysis, and fixing steps until all SMC-UCSD majors are successfully processed with accurate core structures.
-    *   **Status:** Open (Ongoing)
+        *   **Batch 1 Processing (Completed):** All identified major-specific and general structural issues from Batch 1 (Physics, Biology, Math, Computer Science, Structural Engineering, Economics, History, Art Studio, Chemistry) are now addressed.
+        *   **Next Steps for Task 1 (Scalability and Generalization Testing):**
+            *   **Define and Process Batch 2:** Select a new diverse set of ~5-10 majors for the next processing batch.
+            *   **Concurrent Focus for Batch 2:** While processing Batch 2, actively begin implementation for **Issue 2: Handling `AdvisementText` and Embedded Notes**.
+            *   Analyze Batch 2 RAG outputs for new structural patterns, edge cases, and further `AdvisementText` capture needs.
+        *   **Repeat:** Define subsequent batches (Batch 3, etc.) and repeat the processing, analysis, and fixing steps until all SMC-UCSD majors are successfully processed.
+    *   **Status:** Open (Ongoing - Batch 2 Definition & Processing Next)
 
 2.  **Issue:** Handling `AdvisementText` and Embedded Notes (Formerly Phase 1, Item 1 - Addressed *during* Scaling)
     *   **Majors Affected:** All (extent varies)
@@ -44,6 +39,10 @@ This roadmap outlines improvements for `assist_to_rag.py` to create RAG JSON tha
     *   **Status:** Open
 
 ---
+
+## Post-Phase 1 Considerations (After Batch 2 and initial `AdvisementText` implementation)
+
+*   **Refactor `assist_to_rag.py`:** Evaluate and implement refactoring of `assist_to_rag.py` to improve modularity, maintainability, and testability. This becomes more critical as new features (like detailed note handling) are added.
 
 ## Phase 2: Refining Global Context & Advice
 
