@@ -1,0 +1,472 @@
+{
+  "major": "MAE: Mechanical Engineering B.S.",
+  "from": "Santa Monica College",
+  "to": "University of California, San Diego",
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F137%2Fto%2F7%2FMajor%2F52b1a260-d246-4fcc-6719-08dca807bc66",
+  "catalog_year": "2024–2025",
+  "general_advice": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Effective Fall 2017, major preparation will be required for this major. For details, visit: http://admissions.ucsd.edu/MajorPrep As of Fall 2014, the BS degrees in Mechanical, Aerospace Engineering are capped. Because of heavy student interest in these two majors, and the limited resources available to accommodate this demand, maintenance of a high-quality program makes it necessary to limit enrollment. Students must apply to be admitted directly into the Mechanical Engineering Major at UC San Diego. To be considered for admission to the Mechanical Engineering major, transfer students must have completed the following courses: - Calculus I-for Science and Engineering (Math. 20A) - Calculus II-for Science and Engineering (Math. 20B) - Calculus and Analytic Geometry (Math. 20C) - Differential Equations (Math. 20D) - Linear Algebra (Math. 18) - Calculus-based physics series with lab experience (Physics 2A-B-C) - Chemistry 6A *We recommend that students take MAE 8 (MATLAB Programming for Engineering Analysis), MAE 20 (Elements of Materials Science) and MAE 40 (Linear Circuits) as these courses are a requirement for UC San Diego students majoring in Mechanical Engineering. In addition to the required courses above, it is recommended that transfers complete Vector Calculus (Math. 20E) and a MATLAB programming course, if available. Courses that have not been articulated and do not show an equivalent transfer course on ASSIST.org must be approved via petition on an individual basis by the MAE Department. Please refer to the MAE Department’s Undergraduate Program website for more information: https://mae.ucsd.edu/transfer-equivalencies . Mechanical Engineering is a four-year ABET-accredited curriculum covering statics and dynamics, thermodynamics, fluid flow, heat transfer, materials, controls, and mechanical design. Mechanical engineers can do almost anything under the sun. Our graduates work in healthcare, biotech, aerospace, automotive, robotics, environment, energy, and many other industries.\n\nUC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below: Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdf International Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf",
+  "groups": [
+    {
+      "group_id": "1",
+      "group_title": null,
+      "group_logic_type": "all_required",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "MATH 18",
+              "uc_course_title": "Linear Algebra",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 13 Linear Algebra",
+                        "honors": false,
+                        "course_id": "d69fdaec",
+                        "course_letters": "MATH 13",
+                        "title": "Linear Algebra"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20A",
+              "uc_course_title": "Calculus for Science and Engineering",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 7 Calculus 1",
+                        "honors": false,
+                        "course_id": "aa6a8148",
+                        "course_letters": "MATH 7",
+                        "title": "Calculus 1"
+                      },
+                      {
+                        "name": "MATH 8 Calculus 2",
+                        "honors": false,
+                        "course_id": "e5f25f6b",
+                        "course_letters": "MATH 8",
+                        "title": "Calculus 2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20B",
+              "uc_course_title": "Calculus for Science and Engineering",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 8 Calculus 2",
+                        "honors": false,
+                        "course_id": "e5f25f6b",
+                        "course_letters": "MATH 8",
+                        "title": "Calculus 2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20C",
+              "uc_course_title": "Calculus and Analytic Geometry for Science and Engineering",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 11 Multivariable Calculus",
+                        "honors": false,
+                        "course_id": "7ad0fd47",
+                        "course_letters": "MATH 11",
+                        "title": "Multivariable Calculus"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20D",
+              "uc_course_title": "Introduction to Differential Equations",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 15 Differential Equations",
+                        "honors": false,
+                        "course_id": "feaa6766",
+                        "course_letters": "MATH 15",
+                        "title": "Differential Equations"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20E",
+              "uc_course_title": "Vector Calculus",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 11 Multivariable Calculus",
+                        "honors": false,
+                        "course_id": "7ad0fd47",
+                        "course_letters": "MATH 11",
+                        "title": "Multivariable Calculus"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "B",
+          "section_title": "Section B",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "PHYS 2A",
+              "uc_course_title": "Physics - Mechanics",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PHYSCS 21 Mechanics with Lab",
+                        "honors": false,
+                        "course_id": "58ce760a",
+                        "course_letters": "PHYSCS 21",
+                        "title": "Mechanics with Lab"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "PHYS 2B",
+              "uc_course_title": "Physics - Electricity and Magnetism",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PHYSCS 22 Electricity and Magnetism with Lab",
+                        "honors": false,
+                        "course_id": "33b01456",
+                        "course_letters": "PHYSCS 22",
+                        "title": "Electricity and Magnetism with Lab"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "PHYS 2C",
+              "uc_course_title": "Physics - Fluids, Waves, Thermodynamics, and Optics",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PHYSCS 23 Fluids, Waves, Thermodynamics, Optics with Lab",
+                        "honors": false,
+                        "course_id": "d1f1552f",
+                        "course_letters": "PHYSCS 23",
+                        "title": "Fluids, Waves, Thermodynamics, Optics with Lab"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "C",
+          "section_title": "Section C",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "MAE 8",
+              "uc_course_title": "MATLAB Programming for Engineering Analysis",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CS 52 C++ Programming",
+                        "honors": false,
+                        "course_id": "2cd23d39",
+                        "course_letters": "CS 52",
+                        "title": "C++ Programming"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "D",
+          "section_title": "Section D",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "MAE 20",
+              "uc_course_title": "Elements of Materials Science",
+              "section_id": "D",
+              "section_title": "Section D",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MAE 3",
+              "uc_course_title": "Introduction to Engineering Graphics and Design",
+              "section_id": "D",
+              "section_title": "Section D",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true,
+                "no_articulation_reason": "No Course Articulated"
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MAE 11",
+              "uc_course_title": "Thermodynamics",
+              "section_id": "D",
+              "section_title": "Section D",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "E",
+          "section_title": "Section E",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "CHEM 6A",
+              "uc_course_title": "General Chemistry I",
+              "section_id": "E",
+              "section_title": "Section E",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CHEM 11 General Chemistry I",
+                        "honors": false,
+                        "course_id": "c944b491",
+                        "course_letters": "CHEM 11",
+                        "title": "General Chemistry I"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "F",
+          "section_title": "Section F",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "MAE 30A",
+              "uc_course_title": "Statics & Introduction to Dynamics",
+              "section_id": "F",
+              "section_title": "Section F",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "ENGR 12 Statics",
+                        "honors": false,
+                        "course_id": "f6c96fed",
+                        "course_letters": "ENGR 12",
+                        "title": "Statics"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "ENGR 16 Dynamics",
+                        "honors": false,
+                        "course_id": "0600ab8c",
+                        "course_letters": "ENGR 16",
+                        "title": "Dynamics"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MAE 30B",
+              "uc_course_title": "Dynamics & Vibrations",
+              "section_id": "F",
+              "section_title": "Section F",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MAE 40",
+              "uc_course_title": "Linear Circuits",
+              "section_id": "F",
+              "section_title": "Section F",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "ENGR 21 Circuit Analysis",
+                        "honors": false,
+                        "course_id": "1b48942f",
+                        "course_letters": "ENGR 21",
+                        "title": "Circuit Analysis"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        }
+      ],
+      "overarching_title": "LOWER DIVISION MAJOR REQUIREMENTS"
+    }
+  ]
+}

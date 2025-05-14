@@ -17,29 +17,69 @@ Please run all 36 test runner tests in 6 batches of 6, then analyze them all aga
 
 
 
-You are validating whether a TransferAI RAG JSON file faithfully reflects the articulation logic shown in official ASSIST.org screenshots.
+You are an AI assistant helping to validate TransferAI RAG JSON files against official ASSIST.org screenshots. Your goal is to identify all discrepancies so they can be logged in `data/batch_2_rag_issues.md`.
 
-Inputs:
-- `rag_data.json`: This contains structured course articulation data for a CCC → UC major transfer agreement.
-- ASSIST screenshots: These show the original articulation agreement from assist.org, grouped by articulation group, section, and UC course.
+**Context for this Review Session:**
 
-Task:
-1. Read through `rag_data.json` and compare its course mappings, logic structure, section instructions, etc against the corresponding ASSIST screenshots.
-2. For each mismatch or suspected error, provide:
-   - the **type of issue** (e.g. wrong CCC course, missing OR/AND logic, incorrect honors flag, articulation omitted),
-   - a brief explanation of what is wrong,
-   - and optionally a suggested fix.
+*   **Current Major Being Reviewed:** [Specify the Major Name, e.g., "Cognitive Science B.S. with Specialization in Machine Learning and Neural Computation"]
+*   **Input RAG JSON File:** [Specify path to the RAG JSON for this major, e.g., `data/rag_output/santa_monica_college/university_of_california_san_diego/cognitive_science_bs_with_specialization_in_machine_learning_and_neural_computation.json`]
+*   **Input ASSIST Screenshots:** [Confirm you have the relevant ASSIST screenshots for this major, ideally organized or named clearly.]
+*   **Output Log File:** `data/batch_2_rag_issues.md`
 
-Guidelines:
-- Pay special attention to logic structure: each `"type": "AND"` or `"type": "OR"` group should reflect what’s visible in the screenshot (e.g. nested arrows, group headings, section titles like “Select 2 from…”).
-- Do not assume correctness. Always prioritize what’s visible in the screenshot.
-- If screenshots show “No Course Articulated,” verify that `no_articulation: true` appears in the logic block.
-- Report even minor mismatches (e.g. course title or honors flag is missing or incorrect).
-- Assume that the screenshots are authoritative.
+**Your Task for this Major:**
 
-Once complete, list all found issues as a bullet list under the heading `Discrepancies Found:` and include line numbers or key paths from the JSON (e.g. `group_id=2 > CSE 15L`) to make corrections easier.
+1.  **Thoroughly compare** the provided RAG JSON file against the corresponding ASSIST.org screenshots for the major specified above.
+2.  **Identify all discrepancies**, including but not limited to:
+    *   **Structural Issues:**
+        *   Incorrect `group_logic_type` or `section_logic_type` (e.g., "all_required" vs. "select_n_courses" vs. "choose_one_section").
+        *   Incorrect `n_courses` or `n_sections_to_choose` values.
+        *   Mismatched or missing `overarching_title` or `group_title`.
+        *   Errors in `logic_block` structures (incorrect AND/OR nesting, missing paths, extra paths).
+    *   **Course-Level Issues:**
+        *   Incorrect or missing UC course IDs (`uc_course_id`) or titles (`uc_course_title`).
+        *   Incorrect or missing CCC course mappings (course letters, titles, honors status) within `logic_block`.
+        *   Missing or incorrect `no_articulation: true` flags or `no_articulation_reason` text.
+        *   Incorrect `honors` flags for CCC courses.
+        *   Extraneous leading/trailing spaces in titles or course codes.
+    *   **Missing or Incorrect Notes/Advisements:**
+        *   Missing `notes` at the course or group level that are visible in screenshots.
+        *   `AdvisementText` from ASSIST not captured or incorrectly placed.
+        *   (This is a key focus for Issue 2 in the roadmap, so pay close attention).
+    *   **General Issues:**
+        *   Incorrect `source_url`, `catalog_year`, or major/institution names.
+        *   Any other deviations from the visual information in the ASSIST screenshots.
+3.  **For each discrepancy found, provide the following information in a clear, structured format:**
+    *   **Specific RAG File Path:** (This will be the same for all issues in this session, but good to reiterate if the process spans multiple interactions).
+    *   **Path to Discrepancy in JSON:** Use dot notation or clear descriptions (e.g., `groups[0].sections[1].uc_courses[2].logic_block.courses[0].name`, or "Group titled 'Advanced Math' section 'B'").
+    *   **Description of Issue:** Clearly explain what is wrong in the RAG JSON compared to the screenshot.
+    *   **Screenshot Reference:** Describe which part of the screenshot shows the correct information (e.g., "Screenshot for 'Upper Division Requirements', Section A, third course listed").
+    *   **Suggested Correction (Optional but helpful):** If the fix is obvious.
 
+**Output Format for `data/batch_2_rag_issues.md`:**
 
+When you identify issues for this major, you will help me append them to `data/batch_2_rag_issues.md`. We will use a format like this:
+
+```markdown
+## [Major Name - e.g., Cognitive Science B.S. with Specialization in Machine Learning and Neural Computation]
+
+*   **File:** `data/rag_output/santa_monica_college/university_of_california_san_diego/cognitive_science_bs_with_specialization_in_machine_learning_and_neural_computation.json`
+    *   **Issue:** Missing `overarching_title` for the second requirement group.
+        *   **Path:** `groups[1]`
+        *   **Screenshot:** "Upper Division Electives" section in ASSIST.
+        *   **Details:** The RAG JSON is missing `overarching_title: "Upper Division Electives"`.
+    *   **Issue:** Incorrect CCC course for UC course MATH 20A.
+        *   **Path:** `groups[0].sections[0].uc_courses[0].logic_block` (where uc_course_id is "MATH 20A")
+        *   **Screenshot:** "Lower Division Requirements", MATH 20A articulation.
+        *   **Details:** RAG shows "MATH 251" but screenshot shows "MATH 2A OR MATH 2B".
+    *   **Issue:** `AdvisementText` "Students must complete the full sequence at one institution" not captured.
+        *   **Path:** (Associated with the MATH 20A-C sequence group/section)
+        *   **Screenshot:** Note under the Calculus sequence.
+        *   **Details:** This critical advisement is missing from the `notes` field of the relevant group or section.
+
+*   ... (add more issues for this major) ...
+```
+
+**Let's begin with the first major from Batch 2. Please tell me which major you are providing screenshots and the RAG JSON for, and then present your findings.**
 
 
  Start by writing three reasoning paragraphs analyzing what the error might be. Do not jump to conclusions. Then implement the fix you reason out. The fewer lines of code, the better. Do not delete comments. Proceed like a senior developer.

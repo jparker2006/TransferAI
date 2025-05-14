@@ -1,0 +1,375 @@
+{
+  "major": "Public Health with Concentration in Epidemiology B.S.",
+  "from": "Santa Monica College",
+  "to": "University of California, San Diego",
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F137%2Fto%2F7%2FMajor%2Fc5d07233-4afe-45a9-a800-08dca807bc76",
+  "catalog_year": "2024–2025",
+  "general_advice": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Effective Fall 2024, major preparation will be required for this major. For details, visit: http://admissions.ucsd.edu/MajorPrep NOTE: Transfer students MUST complete all listed major preparatory courses for this major prior to enrolling at UC San Diego. Public health seeks to improve human health through the development and application of scientific knowledge that helps prevent disease, protects the public from exposure to potential harm, and promotes health throughout communities at the local, national, and global levels. Special Advising Note: We strongly advise students to complete as many of the lower-division courses as possible before entering UCSD. Preparing well for the major helps students move efficiently toward graduation. The Herbert Wertheim School of Public Health and Human Longevity Science offers courses in epidemiology, biostatistics, social and behavioral sciences, environmental and occupational health sciences, and health policy. The epidemiology and biostatistics areas offer courses on the determinants and distribution of disease at the population level with a focus on analyzing and interpreting public health data using statistical methods. The social and behavioral sciences area offers courses for students interested in how behaviors influence disease. The environmental and occupational health sciences area offers courses on the study of environmental and occupational factors, including biological, physical, and chemical factors that affect the health of a workforce and the community. The health policy area emphasizes the structure, process, and outcomes of health services and policies that are commonly used to motivate people to healthier lifestyles. All courses taken for the major, both lower-division and upper-division, must be taken for a letter grade. Students must receive a grade of C– or higher in any course to be counted toward fulfillment of the major requirements. Entry to the Major: All BSPH Majors have Selective Major ( https://students.ucsd.edu/academics/advising/majors-minors/impacted-majors.html ) status. Please see the Public Health Website under Public Health Entry Requirement ( https://ph.ucsd.edu/undergrad/majors/major-entry-requirement.html ) for details. Additional Information: • Undergraduate program in Public Health at UCSD: https://ph.ucsd.edu/undergrad/index.html • Required Transfer Major Preparation: https://ph.ucsd.edu/undergrad/new-prospective-students/transfer-major-preparation.html • The field of Public Health: https://whatispublichealth.org and https://thisispublichealth.org • For specific questions, send an email to publichealth@health.ucsd.edu\n\nUC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below: Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdf International Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf",
+  "groups": [
+    {
+      "group_id": "1",
+      "group_title": "All of the following UC courses are required",
+      "group_logic_type": "all_required",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "PH 40",
+              "uc_course_title": "Introduction to Public Health",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "This course must be taken at the university after transfer",
+                    "honors": false,
+                    "course_id": "b5c69e70",
+                    "course_letters": "N/A",
+                    "title": "This course must be taken at the university after transfer"
+                  }
+                ],
+                "no_articulation": true,
+                "no_articulation_reason": "This course must be taken at the university after transfer"
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "PH 45",
+              "uc_course_title": "Introduction to Methods and Ethics in Public Health Research",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ]
+        }
+      ],
+      "overarching_title": "LOWER DIVISION MAJOR REQUIREMENTS"
+    },
+    {
+      "group_id": "2",
+      "group_title": null,
+      "group_logic_type": "all_required",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "PH 50",
+              "uc_course_title": "Primary Care and Public Health",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "This course must be taken at the university after transfer",
+                    "honors": false,
+                    "course_id": "b5c69e70",
+                    "course_letters": "N/A",
+                    "title": "This course must be taken at the university after transfer"
+                  }
+                ],
+                "no_articulation": true,
+                "no_articulation_reason": "This course must be taken at the university after transfer"
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "PH 80",
+              "uc_course_title": "Racism as a Public Health Crisis",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "PH 91",
+              "uc_course_title": "Topics in Public Health",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ]
+        }
+      ],
+      "overarching_title": "LOWER DIVISION MAJOR REQUIREMENTS"
+    },
+    {
+      "group_id": "3",
+      "group_title": "All of the following UC courses are required",
+      "group_logic_type": "all_required",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "BILD 1",
+              "uc_course_title": "The Cell",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 21 Cell Biology and Evolution",
+                        "honors": false,
+                        "course_id": "9a5ba289",
+                        "course_letters": "BIOL 21",
+                        "title": "Cell Biology and Evolution"
+                      },
+                      {
+                        "name": "BIOL 22 Genetics and Molecular Biology",
+                        "honors": false,
+                        "course_id": "41321c85",
+                        "course_letters": "BIOL 22",
+                        "title": "Genetics and Molecular Biology"
+                      },
+                      {
+                        "name": "BIOL 23 Organismal and Environmental Biology",
+                        "honors": false,
+                        "course_id": "2b7ada8b",
+                        "course_letters": "BIOL 23",
+                        "title": "Organismal and Environmental Biology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "BILD 2",
+              "uc_course_title": "Multicellular Life",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 21 Cell Biology and Evolution",
+                        "honors": false,
+                        "course_id": "9a5ba289",
+                        "course_letters": "BIOL 21",
+                        "title": "Cell Biology and Evolution"
+                      },
+                      {
+                        "name": "BIOL 22 Genetics and Molecular Biology",
+                        "honors": false,
+                        "course_id": "41321c85",
+                        "course_letters": "BIOL 22",
+                        "title": "Genetics and Molecular Biology"
+                      },
+                      {
+                        "name": "BIOL 23 Organismal and Environmental Biology",
+                        "honors": false,
+                        "course_id": "2b7ada8b",
+                        "course_letters": "BIOL 23",
+                        "title": "Organismal and Environmental Biology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "BILD 3",
+              "uc_course_title": "Organismic and Evolutionary Biology",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 21 Cell Biology and Evolution",
+                        "honors": false,
+                        "course_id": "9a5ba289",
+                        "course_letters": "BIOL 21",
+                        "title": "Cell Biology and Evolution"
+                      },
+                      {
+                        "name": "BIOL 22 Genetics and Molecular Biology",
+                        "honors": false,
+                        "course_id": "41321c85",
+                        "course_letters": "BIOL 22",
+                        "title": "Genetics and Molecular Biology"
+                      },
+                      {
+                        "name": "BIOL 23 Organismal and Environmental Biology",
+                        "honors": false,
+                        "course_id": "2b7ada8b",
+                        "course_letters": "BIOL 23",
+                        "title": "Organismal and Environmental Biology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        }
+      ],
+      "overarching_title": "LOWER DIVISION MAJOR REQUIREMENTS"
+    },
+    {
+      "group_id": "4",
+      "group_title": "All of the following UC courses are required",
+      "group_logic_type": "all_required",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "MATH 11",
+              "uc_course_title": "Calculus Based Elementary Probability and Statistics",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            },
+            {
+              "uc_course_id": "HDS 60",
+              "uc_course_title": "Introduction to Statistical Analysis",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "This course must be taken at the university after transfer",
+                    "honors": false,
+                    "course_id": "b5c69e70",
+                    "course_letters": "N/A",
+                    "title": "This course must be taken at the university after transfer"
+                  }
+                ],
+                "no_articulation": true,
+                "no_articulation_reason": "This course must be taken at the university after transfer"
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "PSYC 60",
+              "uc_course_title": "Introduction to Statistics",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 54 Elementary Statistics",
+                        "honors": false,
+                        "course_id": "f23ccf08",
+                        "course_letters": "MATH 54",
+                        "title": "Elementary Statistics"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "COGS 14B",
+              "uc_course_title": "Introduction to Statistical Analysis",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 54 Elementary Statistics",
+                        "honors": false,
+                        "course_id": "f23ccf08",
+                        "course_letters": "MATH 54",
+                        "title": "Elementary Statistics"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        }
+      ],
+      "overarching_title": "LOWER DIVISION MAJOR REQUIREMENTS"
+    }
+  ]
+}

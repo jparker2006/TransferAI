@@ -1,0 +1,229 @@
+{
+  "major": "Sociology/Law and Society B.A.",
+  "from": "Santa Monica College",
+  "to": "University of California, San Diego",
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F137%2Fto%2F7%2FMajor%2F0a75fe7c-64ef-4769-a806-08dca807bc76",
+  "catalog_year": "2024–2025",
+  "general_advice": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. We offer a comprehensive and unique program in sociology. Our course offerings include sociology of the family, education, business and work, science, law, medicine and society, protest movements, race and ethnic relations, politics, and more. In addition, our faculty has an unusual breadth of expertise in international affairs and in many foreign societies. In our vision, sociology should serve as a key field for addressing problems arising from social inequality in the United States and around the world, the spread of information technology, economic and cultural globalization, the strengthening of nationalist and ethnic identities, the consolidation of new democracies, and the formulation of social policies. We aim to prepare students for graduate study in law, education, sociology, and in other professional and liberal arts programs. We also offer many courses of immediate use in employment, such as statistical analysis, classroom interaction, and social policy. Our department coordinates offerings with related programs on campus, including the Teacher Education Program, Law and Society, Urban Studies, and Ethnic Studies. A total of four lower division courses (SOCI 1, 2, 60 and one lower division elective) are required for the General Sociology major and the seven concentrations. If your community college does not offer a comparable course for the lower division elective requirement we will accept ANY UC transferable Sociology course from the community college. More information regarding the Sociology department, requirements, and major concentrations is available in the UCSD Sociology Department Web page at http://www.sociology.ucsd.edu . NOTE: If your Community College does not offer an articulated course for SOCI 10, 20, 30, 40, or 50, we will accept ANY UC transferable community college Sociology course.\n\nUC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below: Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdf International Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf",
+  "groups": [
+    {
+      "group_id": "1",
+      "group_title": "Select 1 course from the following.",
+      "group_logic_type": "select_n_courses",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "SOCI 1",
+              "uc_course_title": "Introduction to Sociology",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "SOCIOL 1 Introduction to Sociology",
+                        "honors": false,
+                        "course_id": "b581f626",
+                        "course_letters": "SOCIOL 1",
+                        "title": "Introduction to Sociology"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "SOCIOL 1S Introduction to Sociology-Service Learning",
+                        "honors": false,
+                        "course_id": "05bd6348",
+                        "course_letters": "SOCIOL 1S",
+                        "title": "Introduction to Sociology-Service Learning"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "SOCI 2",
+              "uc_course_title": "The Study of Society",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "SOCIOL 2 Social Problems",
+                        "honors": false,
+                        "course_id": "d61b0916",
+                        "course_letters": "SOCIOL 2",
+                        "title": "Social Problems"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "SOCIOL 2S Social Problems-Service Learning",
+                        "honors": false,
+                        "course_id": "5a278d70",
+                        "course_letters": "SOCIOL 2S",
+                        "title": "Social Problems-Service Learning"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "SOCI 60",
+              "uc_course_title": "Practice of Social Research",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "SOCIOL 4 Social Analysis",
+                        "honors": false,
+                        "course_id": "e5eed183",
+                        "course_letters": "SOCIOL 4",
+                        "title": "Social Analysis"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "B",
+          "section_title": "Section B",
+          "section_logic_type": "select_n_courses",
+          "uc_courses": [
+            {
+              "uc_course_id": "SOCI 10",
+              "uc_course_title": "American Society: Social Structure and Culture in the United States",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "SOCI 20",
+              "uc_course_title": "Social Change in the Modern World",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "SOCI 30",
+              "uc_course_title": "Science, Technology, and Society",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "SOCI 40",
+              "uc_course_title": "Sociology of Health Care Issues",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "SOCI 50",
+              "uc_course_title": "Introduction to Law and Society",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ],
+          "n_courses": 1
+        }
+      ],
+      "n_courses": 1
+    }
+  ]
+}

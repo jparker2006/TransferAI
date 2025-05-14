@@ -1,0 +1,511 @@
+{
+  "major": "Cognitive Science B.S. with Specialization in Machine Learning and Neural Computation",
+  "from": "Santa Monica College",
+  "to": "University of California, San Diego",
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F137%2Fto%2F7%2FMajor%2F4d409141-4dea-4cc4-a7f0-08dca807bc76",
+  "catalog_year": "2024–2025",
+  "general_advice": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. Cognitive science is a diverse field which is unified and motivated by a single basic inquiry: What is cognition? How do people, animals, or computers 'think', act, and learn? In order to understand the mind/brain, cognitive science brings together methods and discoveries from neuroscience, psychology, linguistics, philosophy, and computer science. UCSD has been at the forefront of this exciting field and our Cognitive Science Department was the first of its kind in the world. It is part of an exceptional scientific community and remains a dominant influence in the field it helped create. In addition to preparing undergraduates for careers in a variety of sciences, the major also provides an excellent background for many professional fields, including medicine, clinical psychology, and information technology. Students must choose one of the following Math sequences: MATH 10ABC and 18 or MATH 20AB and 18. * Machine Learning and Neural Computation students are strongly advised to take MATH 20-A-B-C-E, MATH 18, and COGS 18 or CSE 8A or CSE 11, as they are pre-requisites for upper-division electives. For more information, please visit http://www.cogsci.ucsd.edu/undergraduates/major/index.html\n\nUC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below: Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdf International Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf",
+  "groups": [
+    {
+      "group_id": "1",
+      "group_title": "Complete Section A OR Section B",
+      "group_logic_type": "choose_one_section",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "MATH 10A",
+              "uc_course_title": "Calculus I",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 7 Calculus 1",
+                        "honors": false,
+                        "course_id": "aa6a8148",
+                        "course_letters": "MATH 7",
+                        "title": "Calculus 1"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 28 Calculus 1 for Business and Social Science",
+                        "honors": false,
+                        "course_id": "c21ee822",
+                        "course_letters": "MATH 28",
+                        "title": "Calculus 1 for Business and Social Science"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 10B",
+              "uc_course_title": "Calculus II",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 8 Calculus 2",
+                        "honors": false,
+                        "course_id": "e5f25f6b",
+                        "course_letters": "MATH 8",
+                        "title": "Calculus 2"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 28 Calculus 1 for Business and Social Science",
+                        "honors": false,
+                        "course_id": "c21ee822",
+                        "course_letters": "MATH 28",
+                        "title": "Calculus 1 for Business and Social Science"
+                      },
+                      {
+                        "name": "MATH 29 Calculus 2 for Business and Social Science",
+                        "honors": false,
+                        "course_id": "c7b55b9b",
+                        "course_letters": "MATH 29",
+                        "title": "Calculus 2 for Business and Social Science"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 10C",
+              "uc_course_title": "Calculus III",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "B",
+          "section_title": "Section B",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "MATH 20A",
+              "uc_course_title": "Calculus for Science and Engineering",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 7 Calculus 1",
+                        "honors": false,
+                        "course_id": "aa6a8148",
+                        "course_letters": "MATH 7",
+                        "title": "Calculus 1"
+                      },
+                      {
+                        "name": "MATH 8 Calculus 2",
+                        "honors": false,
+                        "course_id": "e5f25f6b",
+                        "course_letters": "MATH 8",
+                        "title": "Calculus 2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20B",
+              "uc_course_title": "Calculus for Science and Engineering",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 8 Calculus 2",
+                        "honors": false,
+                        "course_id": "e5f25f6b",
+                        "course_letters": "MATH 8",
+                        "title": "Calculus 2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        }
+      ],
+      "n_sections_to_choose": 1
+    },
+    {
+      "group_id": "2",
+      "group_title": "All of the following UC courses are required",
+      "group_logic_type": "all_required",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "MATH 18",
+              "uc_course_title": "Linear Algebra",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 13 Linear Algebra",
+                        "honors": false,
+                        "course_id": "d69fdaec",
+                        "course_letters": "MATH 13",
+                        "title": "Linear Algebra"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "3",
+      "group_title": null,
+      "group_logic_type": "all_required",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "COGS 14A",
+              "uc_course_title": "Introduction to Research Methods",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "COGS 14B",
+              "uc_course_title": "Introduction to Statistical Analysis",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 54 Elementary Statistics",
+                        "honors": false,
+                        "course_id": "f23ccf08",
+                        "course_letters": "MATH 54",
+                        "title": "Elementary Statistics"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "COGS 1",
+              "uc_course_title": "Introduction to Cognitive Science",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "This course must be taken at the university after transfer",
+                    "honors": false,
+                    "course_id": "b5c69e70",
+                    "course_letters": "N/A",
+                    "title": "This course must be taken at the university after transfer"
+                  }
+                ],
+                "no_articulation": true,
+                "no_articulation_reason": "This course must be taken at the university after transfer"
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "COGS 13",
+              "uc_course_title": "Field Methods: Studying Cognition in the Wild",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "COGS 17",
+              "uc_course_title": "Neurobiology of Cognition",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PSYCH 2 Physiological Psychology",
+                        "honors": false,
+                        "course_id": "91bef7bf",
+                        "course_letters": "PSYCH 2",
+                        "title": "Physiological Psychology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "B",
+          "section_title": "Section B",
+          "section_logic_type": "select_n_courses",
+          "uc_courses": [
+            {
+              "uc_course_id": "COGS 10",
+              "uc_course_title": "Cognitive Consequences of Technology",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "DSGN 1",
+              "uc_course_title": "Design of Everyday Things",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ],
+          "n_courses": 1
+        },
+        {
+          "section_id": "C",
+          "section_title": "Section C",
+          "section_logic_type": "select_n_courses",
+          "uc_courses": [
+            {
+              "uc_course_id": "BILD 62",
+              "uc_course_title": "Introduction to Python for Biologists",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "COGS 18",
+              "uc_course_title": "Introduction to Python",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "CSE 6R",
+              "uc_course_title": "Introduction to Computer Science and Object-Oriented Programming: Python",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CS 87B Advanced Python Programming",
+                        "honors": false,
+                        "course_id": "e1641c95",
+                        "course_letters": "CS 87B",
+                        "title": "Advanced Python Programming"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "CSE 8A",
+              "uc_course_title": "Introduction to Programming and Computational Problem Solving I",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "CSE 11",
+              "uc_course_title": "Introduction to Programming and Computational Problem Solving - Accelerated Pace",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CS 55 JAVA Programming",
+                        "honors": false,
+                        "course_id": "c51a2407",
+                        "course_letters": "CS 55",
+                        "title": "JAVA Programming"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ],
+          "n_courses": 1
+        }
+      ]
+    }
+  ]
+}
