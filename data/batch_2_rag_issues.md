@@ -1,14 +1,16 @@
 ## Political Science/Data Analytics B.S.
 
 *   **File:** `data/rag_output/santa_monica_college/university_of_california_san_diego/political_science_data_analytics_bs.json`
-    *   **Issue:** Incorrect Group Logic and Title for the main lower-division requirement group.
+    *   **Issue:** Incorrect Group Logic and Title for the main lower-division requirement group. **[FIXED]**
         *   **Path:** `groups[0]`
         *   **Screenshot:** "LOWER DIVISION MAJOR REQUIREMENTS" block, encompassing both Section A and the "Select 2 courses from the following" instruction for Section B. General Information text also relevant.
         *   **Details:** `groups[0]` has `group_logic_type: "select_n_courses"`, `n_courses: 2`, and `group_title: "Select 2 courses from the following."`. This is incorrect because Section A (POLI 5, POLI 30) is fully required, and the "Select 2" rule applies only to Section B. The `group_logic_type` should be "all_required", `group_title` should be `null`, and the group-level `n_courses` should be removed.
-    *   **Issue:** Missing course note "Same as PHILOS 51" for CCC articulation.
+        *   **Note:** This fix also resolved a similar issue in `sociology_law_and_society_ba.json` (`groups[0]`).
+    *   **Issue:** Missing course note "Same as PHILOS 51" for CCC articulation. **[FIXED]**
         *   **Path:** `groups[0].sections[1].uc_courses[3].logic_block.courses[0].courses[0]` (SMC's `POL SC 51` course object).
         *   **Screenshot:** "LOWER DIVISION MAJOR REQUIREMENTS" block, Section B, articulation for UC course "POLI 13 Power and Justice". The note is under "POL SC 51 Political Philosophy".
         *   **Details:** The note "Same as PHILOS 51" associated with SMC's `POL SC 51` is missing from its RAG JSON object. It should have a `note: "Same as PHILOS 51"` field.
+        *   **Note:** This fix improved the `extract_notes` function to handle both direct cross-listed course objects and nested ones, ensuring compatibility with different JSON structures.
 
 ## MAE: Mechanical Engineering B.S.
 
@@ -21,7 +23,7 @@
 ## Sociology/Law and Society B.A.
 
 *   **File:** `data/rag_output/santa_monica_college/university_of_california_san_diego/sociology_law_and_society_ba.json`
-    *   **Issue:** Incorrect Group Logic and Title for the main requirement group.
+    *   **Issue:** Incorrect Group Logic and Title for the main requirement group. **[FIXED by Political Science/Data Analytics B.S. groups[0] fix]**
         *   **Path:** `groups[0]`
         *   **Screenshot:** Main requirement block (labeled "1"), encompassing both Section A and the "Select 1 course from the following" instruction for Section B. General Information text also relevant.
         *   **Details:** `groups[0]` has `group_logic_type: "select_n_courses"`, `n_courses: 1`, and `group_title: "Select 1 course from the following."`. This is incorrect because Section A (SOCI 1, SOCI 2, SOCI 60) is fully required, and the "Select 1" rule applies only to Section B. The `group_logic_type` should be "all_required", `group_title` should be `null`, and the group-level `n_courses` should be removed.

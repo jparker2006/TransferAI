@@ -8,8 +8,8 @@
   "groups": [
     {
       "group_id": "1",
-      "group_title": "Select 1 course from the following.",
-      "group_logic_type": "select_n_courses",
+      "group_title": null,
+      "group_logic_type": "all_required",
       "sections": [
         {
           "section_id": "A",
@@ -222,8 +222,7 @@
           ],
           "n_courses": 1
         }
-      ],
-      "n_courses": 1
+      ]
     }
   ]
 }

@@ -8,8 +8,8 @@
   "groups": [
     {
       "group_id": "1",
-      "group_title": "Select 2 courses from the following.",
-      "group_logic_type": "select_n_courses",
+      "group_title": null,
+      "group_logic_type": "all_required",
       "sections": [
         {
           "section_id": "A",
@@ -153,7 +153,8 @@
                         "honors": false,
                         "course_id": "c3aa2572",
                         "course_letters": "POL SC 51",
-                        "title": "Political Philosophy"
+                        "title": "Political Philosophy",
+                        "note": "Same as PHILOS 51"
                       }
                     ]
                   }
@@ -165,8 +166,7 @@
           "n_courses": 2
         }
       ],
-      "overarching_title": "LOWER DIVISION MAJOR REQUIREMENTS",
-      "n_courses": 2
+      "overarching_title": "LOWER DIVISION MAJOR REQUIREMENTS"
     }
   ]
 }

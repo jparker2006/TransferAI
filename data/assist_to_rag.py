@@ -271,10 +271,34 @@ def extract_notes(course_data: Dict[str, Any]) -> Optional[str]:
     if "visibleCrossListedCourses" in course_data and course_data["visibleCrossListedCourses"]:
         cross_listed_texts = []
         for cross in course_data["visibleCrossListedCourses"]:
-            if isinstance(cross, dict) and "course" in cross:
-                cross_course = cross["course"]
-                if "prefix" in cross_course and "courseNumber" in cross_course:
-                    cross_listed_texts.append(f"Same as {cross_course['prefix']} {cross_course['courseNumber']}")
+            # Handle both formats: direct course objects and those with a nested "course" key
+            cross_course = None
+            if isinstance(cross, dict):
+                # Format 1: The cross-listed course info is directly in the object (as with POL SC 51)
+                if "prefix" in cross or "courseNumber" in cross:
+                    cross_course = cross
+                # Format 2: The cross-listed course is in a nested "course" key (as with CSE courses)
+                elif "course" in cross and isinstance(cross["course"], dict):
+                    cross_course = cross["course"]
+                    
+            if cross_course:
+                # Process the cross_course data regardless of which format it came from
+                prefix_val = cross_course.get("prefix")
+                number_val = cross_course.get("courseNumber")
+                
+                current_identifier_parts = []
+                if prefix_val is not None:
+                    prefix_str = str(prefix_val).strip()
+                    if prefix_str: # Add only if not empty after stripping
+                        current_identifier_parts.append(prefix_str)
+                
+                if number_val is not None:
+                    number_str = str(number_val).strip()
+                    if number_str: # Add only if not empty after stripping
+                        current_identifier_parts.append(number_str)
+                
+                if current_identifier_parts: # Only if we have something to join
+                    cross_listed_texts.append(f"Same as {' '.join(current_identifier_parts)}")
         
         if cross_listed_texts:
             notes_list.extend(cross_listed_texts)
@@ -468,39 +492,44 @@ def analyze_section_courses(section: Dict[str, Any]) -> Tuple[Optional[str], Opt
 def process_group_advisements(group_asset: Dict[str, Any]) -> Tuple[Optional[str], Optional[int]]:
     """
     Process a requirement group's advisements to determine its overall logic type.
-    
-    Args:
-        group_asset: The requirement group asset from ASSIST JSON
-        
-    Returns:
-        Tuple of (logic_type, n_value) where n_value is only set for count-based types
+    Only group-level advisements or advisements/analysis from a single section (if group has only one)
+    should determine the group logic here. For multi-section groups, this function should not
+    infer group logic from sub-section advisements.
     """
     # First check the group's own advisements
-    advisements = group_asset.get("advisements", [])
-    for advisement in advisements:
+    group_advisements = group_asset.get("advisements", [])
+    for advisement in group_advisements:
         advisement_type = advisement.get("type")
         
         if advisement_type == "NFollowing" and advisement.get("selectionType") == "Select":
             amount = int(float(advisement.get("amount", 1)))
-            return "select_n_courses", amount
+            return "select_n_courses", amount # Group-level advisement takes precedence
     
-    # If the group itself has no advisements, check its sections
-    for section in group_asset.get("sections", []):
+    # If the group itself has no overriding advisements, check its sections.
+    # Only if the group has a SINGLE section can that section's advisements or analysis
+    # potentially define the group's logic type here.
+    sections = group_asset.get("sections", [])
+    if len(sections) == 1:
+        section = sections[0]
+        # Check this single section's advisements
         section_advisements = section.get("advisements", [])
         for advisement in section_advisements:
             if advisement.get("type") == "NFollowing" and advisement.get("selectionType") == "Select":
-                # If we find this in a section, the group should be "select_n_courses"
                 amount = int(float(advisement.get("amount", 1)))
-                return "select_n_courses", amount
-    
-    # Check if there's a single section with multiple courses and selection indicators
-    if len(group_asset.get("sections", [])) == 1:
-        section = group_asset["sections"][0]
-        # Analyze the section's courses for selection patterns
+                return "select_n_courses", amount # Single section's advisement defines group logic
+        
+        # If no overriding advisement from the single section, analyze its courses
+        # (This primarily looks for "select_n_courses" patterns within the single section)
         logic_type, n_value = analyze_section_courses(section)
         if logic_type:
             return logic_type, n_value
     
+    # For multi-section groups without a group-level "Select N" advisement,
+    # or for single-section groups where the section itself didn't yield a clear selection logic,
+    # return (None, None). This allows `infer_group_logic_type` (based on the group's main instruction)
+    # to make the final determination for the group's logic type.
+    # `infer_group_logic_type` often defaults to "all_required" for multi-section groups
+    # if the group's main instruction isn't a specific selection type.
     return None, None
 
 
