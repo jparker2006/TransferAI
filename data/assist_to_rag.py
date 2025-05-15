@@ -159,6 +159,80 @@ def parse_sending_articulation(articulation: Dict[str, Any]) -> Dict[str, Any]:
             "no_articulation_reason": reason # Store the specific or default reason
         }
     
+    # First, check if we have course group conjunctions specified
+    course_group_conjunctions = articulation.get("courseGroupConjunctions", [])
+    
+    # If we have AND conjunctions between course groups, we need to handle them specially
+    if course_group_conjunctions:
+        and_group_definitions = []
+        
+        # Map positions to create groups of items that should be joined with AND
+        for conjunction in course_group_conjunctions:
+            if conjunction.get("groupConjunction") == "And":
+                begin_pos = conjunction.get("sendingCourseGroupBeginPosition", 0)
+                end_pos = conjunction.get("sendingCourseGroupEndPosition", 0)
+                # Only add valid ranges
+                if end_pos >= begin_pos:
+                    and_group_definitions.append((begin_pos, end_pos))
+        
+        # If we found valid AND group definitions, process them
+        if and_group_definitions:
+            or_paths = []
+            
+            for begin_pos, end_pos in and_group_definitions:
+                # Collect all courses from the range of positions
+                all_courses_in_and_group = []
+                
+                # Process each item in the specified position range
+                for pos in range(begin_pos, end_pos + 1):  # +1 to include end position
+                    for item in articulation["items"]:
+                        if item.get("position") == pos and "items" in item:
+                            # Extract courses from this course group
+                            for course_data in item["items"]:
+                                if "courseIdentifierParentId" not in course_data:
+                                    continue
+                                
+                                # Extract course information
+                                prefix = course_data.get("prefix", "")
+                                number = course_data.get("courseNumber", "")
+                                title = course_data.get("courseTitle", "")
+                                full_name = f"{prefix} {number} {title}"
+                                
+                                # Determine if the course is an honors version
+                                is_honors = "HONORS" in title.upper() or title.upper().endswith("H")
+                                
+                                # Create a standardized course object
+                                course_letters = f"{prefix} {number}"
+                                course_obj = {
+                                    "name": full_name,
+                                    "honors": is_honors,
+                                    "course_id": hash_id(course_letters),
+                                    "course_letters": course_letters,
+                                    "title": title
+                                }
+                                
+                                # Extract and add notes
+                                ccc_note = extract_notes(course_data)
+                                if ccc_note:
+                                    course_obj["note"] = ccc_note
+                                
+                                all_courses_in_and_group.append(course_obj)
+                
+                # Create a single AND block containing all courses from this range
+                if all_courses_in_and_group:
+                    or_paths.append({
+                        "type": "AND",
+                        "courses": all_courses_in_and_group
+                    })
+            
+            # If we have valid paths after processing conjunctions, return them
+            if or_paths:
+                return {
+                    "type": "OR",
+                    "courses": or_paths
+                }
+    
+    # If no special conjunction processing happened, continue with the original logic
     # Start building the OR block for all possible paths
     or_paths = []
     

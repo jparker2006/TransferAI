@@ -400,12 +400,7 @@
                         "course_id": "f6c96fed",
                         "course_letters": "ENGR 12",
                         "title": "Statics"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "AND",
-                    "courses": [
+                      },
                       {
                         "name": "ENGR 16 Dynamics",
                         "honors": false,

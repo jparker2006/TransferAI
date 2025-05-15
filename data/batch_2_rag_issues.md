@@ -15,10 +15,11 @@
 ## MAE: Mechanical Engineering B.S.
 
 *   **File:** `data/rag_output/santa_monica_college/university_of_california_san_diego/mae_mechanical_engineering_bs.json`
-    *   **Issue:** Incorrect logic for articulation of UC course MAE 30A.
+    *   **Issue:** Incorrect logic for articulation of UC course MAE 30A. **[FIXED]**
         *   **Path:** `groups[0].sections[5].uc_courses[0].logic_block` (for UC course MAE 30A)
         *   **Screenshot:** "LOWER DIVISION MAJOR REQUIREMENTS" block, Section F, articulation for UC course "MAE 30A Statics & Introduction to Dynamics".
         *   **Details:** The RAG JSON implies an OR relationship between SMC's ENGR 12 and ENGR 16 for MAE 30A (i.e., ENGR 12 OR ENGR 16). The screenshot shows an AND relationship (i.e., ENGR 12 AND ENGR 16 are *both* required). The `logic_block.courses` array should contain a single AND block with both ENGR 12 and ENGR 16 if that's the sole articulated pathway.
+        *   **Note:** Fixed by properly handling the "courseGroupConjunctions" property in the ASSIST JSON, which specifies how multiple course groups relate to each other (AND vs OR).
 
 ## Sociology/Law and Society B.A.
 
