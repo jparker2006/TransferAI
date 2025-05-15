@@ -64,13 +64,13 @@
     },
     {
       "group_id": "2",
-      "group_title": null,
-      "group_logic_type": "all_required",
+      "group_title": "Complete 2 courses from the following",
+      "group_logic_type": "select_n_courses",
       "sections": [
         {
           "section_id": "A",
           "section_title": "Section A",
-          "section_logic_type": "all_required",
+          "section_logic_type": "select_n_courses",
           "uc_courses": [
             {
               "uc_course_id": "PH 50",
@@ -133,10 +133,12 @@
               },
               "units": 4.0
             }
-          ]
+          ],
+          "n_courses": 1
         }
       ],
-      "overarching_title": "LOWER DIVISION MAJOR REQUIREMENTS"
+      "overarching_title": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "n_courses": 2
     },
     {
       "group_id": "3",
@@ -269,13 +271,13 @@
     },
     {
       "group_id": "4",
-      "group_title": "All of the following UC courses are required",
-      "group_logic_type": "all_required",
+      "group_title": "Complete 1 course from A",
+      "group_logic_type": "select_n_courses",
       "sections": [
         {
           "section_id": "A",
           "section_title": "Section A",
-          "section_logic_type": "all_required",
+          "section_logic_type": "select_n_courses",
           "uc_courses": [
             {
               "uc_course_id": "MATH 11",
@@ -366,10 +368,12 @@
               },
               "units": 4.0
             }
-          ]
+          ],
+          "n_courses": 1
         }
       ],
-      "overarching_title": "LOWER DIVISION MAJOR REQUIREMENTS"
+      "overarching_title": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "n_courses": 1
     }
   ]
 }

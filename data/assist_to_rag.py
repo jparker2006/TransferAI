@@ -51,6 +51,13 @@ def infer_group_logic_type(instruction: Dict[str, Any], section_count: int, advi
     
     # If we have a proper instruction object
     if isinstance(instruction, dict):
+        # Handle specialized 'N from Area/Conjunction' instruction types
+        instr_type = instruction.get("type", "")
+        if instr_type in ["NFromArea", "NFromConjunction"]:
+            # These types typically indicate selecting N courses from the group/area
+            amount = int(float(instruction.get("amount", 1)))
+            return "select_n_courses", amount
+        
         conjunction = instruction.get("conjunction", "")
         selection_type = instruction.get("selectionType", "")
         
@@ -648,7 +655,21 @@ def generate_group_title(
     # Highest priority: Recommended groups
     if is_recommended:
         return "Recommended but not required courses:"
+    
+    # Handle specialized instruction types explicitly
+    if isinstance(instruction, dict):
+        instr_type = instruction.get("type", "")
+        amount = int(float(instruction.get("amount", 1))) if instruction.get("amount") is not None else 1
         
+        # NFromArea typically means "Complete N courses from the following"
+        if instr_type == "NFromArea":
+            plural = "course" if amount == 1 else "courses"
+            return f"Complete {amount} {plural} from the following"
+        
+        # NFromConjunction with multiple sections often means "Complete N course from Section X"
+        elif instr_type == "NFromConjunction" and amount == 1 and section_ids and len(section_ids) >= 1:
+            return f"Complete {amount} course from {section_ids[0]}"
+    
     # Next priority: Check for explicit 'Or'/'Select' instruction structure
     if isinstance(instruction, dict) and instruction.get("conjunction") == "Or" and instruction.get("selectionType") == "Select":
         # Even if inferred as select_n_courses, this structure implies a choice between options/sections.
@@ -1068,11 +1089,30 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
                 section_id = extract_section_id(section, section_idx)
                 section_title = extract_section_title(section, section_id)
                 
-                # Determine section logic type
-                section_logic_type, section_n_courses = infer_section_logic_type(
-                    section, 
-                    section.get("advisements", [])
-                )
+                # Determine section logic type - with specialized handling for specific group instructions
+                if (isinstance(instruction_object, dict) and 
+                    instruction_object.get("type") == "NFromConjunction" and 
+                    instruction_object.get("amount") == 1.0 and 
+                    section_count == 1 and 
+                    len(section.get("rows", [])) > 1):
+                    # This is the specific case for Group 4 in Public Health Epidemiology
+                    # where a NFromConjunction instruction with amount=1 and a single section
+                    # means "select 1 course from this section"
+                    section_logic_type, section_n_courses = "select_n_courses", 1
+                elif (isinstance(instruction_object, dict) and 
+                      instruction_object.get("type") == "NFromArea" and 
+                      float(instruction_object.get("amount", 0)) > 0 and
+                      section_count == 1):
+                    # This handles Group 2 in Public Health Epidemiology, where a NFromArea with
+                    # a single section means "select N courses from this section"
+                    # Only apply to the section if there's just 1 section in the group
+                    section_logic_type, section_n_courses = "select_n_courses", 1
+                else:
+                    # Default logic inference for other cases
+                    section_logic_type, section_n_courses = infer_section_logic_type(
+                        section, 
+                        section.get("advisements", [])
+                    )
                 
                 # Create section object
                 section_obj = {

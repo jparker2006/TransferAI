@@ -44,11 +44,11 @@
 ## Public Health with Concentration in Epidemiology B.S.
 
 *   **File:** `data/rag_output/santa_monica_college/university_of_california_san_diego/public_health_with_concentration_in_epidemiology_bs.json`
-    *   **Issue:** Incorrect logic and title for Group 2.
+    *   **Issue:** Incorrect logic and title for Group 2. **[FIXED]**
         *   **Path:** `groups[1]` (Corresponds to screenshot block "2")
         *   **Screenshot:** Requirement block "2", showing "Complete 2 courses from the following" above PH 50, PH 80, PH 91.
         *   **Details:** RAG JSON has `group_logic_type: "all_required"` and `group_title: null`. It should be `group_logic_type: "select_n_courses"`, `n_courses: 2`, and `group_title: "Complete 2 courses from the following"`.
-    *   **Issue:** Incorrect logic and title for Group 4 and its section.
+    *   **Issue:** Incorrect logic and title for Group 4 and its section. **[FIXED]**
         *   **Path:** `groups[3]` (Corresponds to screenshot block "4") and `groups[3].sections[0]`.
         *   **Screenshot:** Requirement block "4", showing "Complete 1 course from A".
         *   **Details:** RAG JSON `groups[3]` has `group_title: "All of the following UC courses are required"`. It should be `group_title: "Complete 1 course from A"`. Additionally, `groups[3].sections[0]` has `section_logic_type: "all_required"`. It should be `section_logic_type: "select_n_courses"` with `n_courses: 1`.
