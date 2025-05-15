@@ -48,7 +48,8 @@
                     ]
                   }
                 ]
-              }
+              },
+              "note": "Articulation is subject to placement by proficiency exam"
             },
             {
               "uc_course_id": "MUS 2B + MUS 2BK",
@@ -82,7 +83,8 @@
                     ]
                   }
                 ]
-              }
+              },
+              "note": "Articulation is subject to placement by proficiency exam"
             },
             {
               "uc_course_id": "MUS 2C + MUS 2CK",
@@ -116,7 +118,8 @@
                     ]
                   }
                 ]
-              }
+              },
+              "note": "Articulation is subject to placement by proficiency exam"
             }
           ]
         }

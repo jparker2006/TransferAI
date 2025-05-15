@@ -341,6 +341,20 @@ def extract_notes(course_data: Dict[str, Any]) -> Optional[str]:
             if isinstance(attr, dict) and "description" in attr:
                 notes_list.append(attr["description"])
     
+    # Look for series attributes (for Series cell types)
+    if "series" in course_data and isinstance(course_data["series"], dict):
+        series_data = course_data["series"]
+        if "seriesAttributes" in series_data and series_data["seriesAttributes"]:
+            for attr in series_data["seriesAttributes"]:
+                if isinstance(attr, dict) and "content" in attr and attr["content"]:
+                    notes_list.append(attr["content"])
+    
+    # Handle cell-level seriesAttributes (alternate location)
+    if "seriesAttributes" in course_data and course_data["seriesAttributes"]:
+        for attr in course_data["seriesAttributes"]:
+            if isinstance(attr, dict) and "content" in attr and attr["content"]:
+                notes_list.append(attr["content"])
+    
     # Look for visible cross-listed courses
     if "visibleCrossListedCourses" in course_data and course_data["visibleCrossListedCourses"]:
         cross_listed_texts = []

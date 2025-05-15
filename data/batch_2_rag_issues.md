@@ -32,13 +32,14 @@
 ## Music B.A.
 
 *   **File:** `data/rag_output/santa_monica_college/university_of_california_san_diego/music_ba.json`
-    *   **Issue:** Missing note "Articulation is subject to placement by proficiency exam" for UC course series.
+    *   **Issue:** Missing note "Articulation is subject to placement by proficiency exam" for UC course series. **[FIXED]**
         *   **Paths:**
             *   `groups[0].sections[0].uc_courses[0]` (MUS 2A + MUS 2AK series)
             *   `groups[0].sections[0].uc_courses[1]` (MUS 2B + MUS 2BK series)
             *   `groups[0].sections[0].uc_courses[2]` (MUS 2C + MUS 2CK series)
         *   **Screenshot:** Requirement block "1", Section A. The note is displayed above each MUS course pairing.
         *   **Details:** The note "Articulation is subject to placement by proficiency exam" is missing from the `note` field of all three UC course series objects in the RAG JSON. Each should have `note: "Articulation is subject to placement by proficiency exam"`.
+        *   **Note:** Fixed by enhancing the `extract_notes` function to properly handle `seriesAttributes` both at the cell level and within the series object structure.
 
 ## Public Health with Concentration in Epidemiology B.S.
 
