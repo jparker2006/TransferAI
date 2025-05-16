@@ -72,7 +72,8 @@ def generate_batch_config(
     sending_institution_slug: str,
     receiving_institution_slug: str,
     scrape_all_majors: bool, # Changed from target_majors
-    output_config_path: Path
+    output_config_path: Path,
+    convert_only: bool = False
 ) -> None:
     """
     Generates the batch_config.json file.
@@ -142,16 +143,17 @@ def generate_batch_config(
         convert_input_file_path = f"{download_output_base_dir}/{sending_institution_slug}/{receiving_institution_slug}/{input_json_filename}"
         convert_output_file_path = f"rag_output/{sending_institution_slug}/{receiving_institution_slug}/{input_json_filename}"
 
-        # Create download operation
-        download_op = {
-            "type": "download",
-            "year_id": year_id,
-            "sending_id": sending_institution_id,
-            "receiving_id": receiving_institution_id,
-            "major_key": major_key_hash, # Use the extracted hash
-            "output_dir": download_output_base_dir
-        }
-        operations.append(download_op)
+        # Create download operation (only if not in convert-only mode)
+        if not convert_only:
+            download_op = {
+                "type": "download",
+                "year_id": year_id,
+                "sending_id": sending_institution_id,
+                "receiving_id": receiving_institution_id,
+                "major_key": major_key_hash, # Use the extracted hash
+                "output_dir": download_output_base_dir
+            }
+            operations.append(download_op)
 
         # Create convert operation
         convert_op = {
@@ -169,7 +171,9 @@ def generate_batch_config(
         output_config_path.parent.mkdir(parents=True, exist_ok=True)
         with open(output_config_path, 'w', encoding='utf-8') as f:
             json.dump(output_data, f, indent=2)
-        print(f"Successfully generated batch configuration for {processed_count} major(s).")
+        
+        operation_type = "convert-only" if convert_only else "download and convert"
+        print(f"Successfully generated {operation_type} batch configuration for {processed_count} major(s).")
         print(f"Output written to: {output_config_path.resolve()}")
     except IOError as e:
         print(f"Error writing output config file to {output_config_path}: {e}", file=sys.stderr)
@@ -216,6 +220,11 @@ def main():
         help="If specified, process all majors from the majors JSON file. Otherwise, process a predefined list."
     )
     parser.add_argument(
+        "--convert-only",
+        action="store_true",
+        help="If specified, generate only convert operations, skipping download operations. Use when you already have the JSON files and just want to regenerate the RAG files."
+    )
+    parser.add_argument(
         "--output-config-path",
         type=Path,
         default=Path("batch_config.json"),
@@ -235,7 +244,8 @@ def main():
         args.sending_institution_slug,
         args.receiving_institution_slug,
         args.scrape_all, # Pass the boolean flag directly
-        args.output_config_path
+        args.output_config_path,
+        args.convert_only
     )
 
 if __name__ == "__main__":

@@ -32,7 +32,8 @@
                         "honors": false,
                         "course_id": "d69fdaec",
                         "course_letters": "MATH 13",
-                        "title": "Linear Algebra"
+                        "title": "Linear Algebra",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -56,14 +57,16 @@
                         "honors": false,
                         "course_id": "aa6a8148",
                         "course_letters": "MATH 7",
-                        "title": "Calculus 1"
+                        "title": "Calculus 1",
+                        "units": 5.0
                       },
                       {
                         "name": "MATH 8 Calculus 2",
                         "honors": false,
                         "course_id": "e5f25f6b",
                         "course_letters": "MATH 8",
-                        "title": "Calculus 2"
+                        "title": "Calculus 2",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -87,7 +90,8 @@
                         "honors": false,
                         "course_id": "e5f25f6b",
                         "course_letters": "MATH 8",
-                        "title": "Calculus 2"
+                        "title": "Calculus 2",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -111,7 +115,8 @@
                         "honors": false,
                         "course_id": "7ad0fd47",
                         "course_letters": "MATH 11",
-                        "title": "Multivariable Calculus"
+                        "title": "Multivariable Calculus",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -135,7 +140,8 @@
                         "honors": false,
                         "course_id": "feaa6766",
                         "course_letters": "MATH 15",
-                        "title": "Differential Equations"
+                        "title": "Differential Equations",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -159,7 +165,8 @@
                         "honors": false,
                         "course_id": "7ad0fd47",
                         "course_letters": "MATH 11",
-                        "title": "Multivariable Calculus"
+                        "title": "Multivariable Calculus",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -190,7 +197,8 @@
                         "honors": false,
                         "course_id": "58ce760a",
                         "course_letters": "PHYSCS 21",
-                        "title": "Mechanics with Lab"
+                        "title": "Mechanics with Lab",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -214,7 +222,8 @@
                         "honors": false,
                         "course_id": "33b01456",
                         "course_letters": "PHYSCS 22",
-                        "title": "Electricity and Magnetism with Lab"
+                        "title": "Electricity and Magnetism with Lab",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -238,7 +247,8 @@
                         "honors": false,
                         "course_id": "d1f1552f",
                         "course_letters": "PHYSCS 23",
-                        "title": "Fluids, Waves, Thermodynamics, Optics with Lab"
+                        "title": "Fluids, Waves, Thermodynamics, Optics with Lab",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -269,7 +279,8 @@
                         "honors": false,
                         "course_id": "2cd23d39",
                         "course_letters": "CS 52",
-                        "title": "C++ Programming"
+                        "title": "C++ Programming",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -370,7 +381,8 @@
                         "honors": false,
                         "course_id": "c944b491",
                         "course_letters": "CHEM 11",
-                        "title": "General Chemistry I"
+                        "title": "General Chemistry I",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -401,14 +413,16 @@
                         "honors": false,
                         "course_id": "f6c96fed",
                         "course_letters": "ENGR 12",
-                        "title": "Statics"
+                        "title": "Statics",
+                        "units": 3.0
                       },
                       {
                         "name": "ENGR 16 Dynamics",
                         "honors": false,
                         "course_id": "0600ab8c",
                         "course_letters": "ENGR 16",
-                        "title": "Dynamics"
+                        "title": "Dynamics",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -453,7 +467,8 @@
                         "honors": false,
                         "course_id": "1b48942f",
                         "course_letters": "ENGR 21",
-                        "title": "Circuit Analysis"
+                        "title": "Circuit Analysis",
+                        "units": 3.0
                       }
                     ]
                   }

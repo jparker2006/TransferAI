@@ -32,14 +32,16 @@
                         "honors": false,
                         "course_id": "946aa160",
                         "course_letters": "ENGL 5",
-                        "title": "British Literature 1"
+                        "title": "British Literature 1",
+                        "units": 3.0
                       },
                       {
                         "name": "ENGL 6 British Literature 2",
                         "honors": false,
                         "course_id": "4051fcbe",
                         "course_letters": "ENGL 6",
-                        "title": "British Literature 2"
+                        "title": "British Literature 2",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -63,14 +65,16 @@
                         "honors": false,
                         "course_id": "946aa160",
                         "course_letters": "ENGL 5",
-                        "title": "British Literature 1"
+                        "title": "British Literature 1",
+                        "units": 3.0
                       },
                       {
                         "name": "ENGL 6 British Literature 2",
                         "honors": false,
                         "course_id": "4051fcbe",
                         "course_letters": "ENGL 6",
-                        "title": "British Literature 2"
+                        "title": "British Literature 2",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -94,14 +98,16 @@
                         "honors": false,
                         "course_id": "946aa160",
                         "course_letters": "ENGL 5",
-                        "title": "British Literature 1"
+                        "title": "British Literature 1",
+                        "units": 3.0
                       },
                       {
                         "name": "ENGL 6 British Literature 2",
                         "honors": false,
                         "course_id": "4051fcbe",
                         "course_letters": "ENGL 6",
-                        "title": "British Literature 2"
+                        "title": "British Literature 2",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -132,7 +138,8 @@
                         "honors": false,
                         "course_id": "db9ccccf",
                         "course_letters": "ENGL 7",
-                        "title": "American Literature 1"
+                        "title": "American Literature 1",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -156,7 +163,8 @@
                         "honors": false,
                         "course_id": "d5325616",
                         "course_letters": "ENGL 8",
-                        "title": "American Literature 2"
+                        "title": "American Literature 2",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -187,7 +195,8 @@
                         "honors": false,
                         "course_id": "d8c0243a",
                         "course_letters": "ENGL 34",
-                        "title": "Afro-American Literature"
+                        "title": "Afro-American Literature",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -232,7 +241,8 @@
                         "honors": false,
                         "course_id": "63b74c48",
                         "course_letters": "ENGL 53",
-                        "title": "Latino Literature in the United States"
+                        "title": "Latino Literature in the United States",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -305,7 +315,8 @@
                         "honors": false,
                         "course_id": "58bbb273",
                         "course_letters": "ENGL 40",
-                        "title": "Asian Literature"
+                        "title": "Asian Literature",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -518,7 +529,8 @@
                         "honors": false,
                         "course_id": "384dffc6",
                         "course_letters": "HEBREW 1",
-                        "title": "Elementary Hebrew I"
+                        "title": "Elementary Hebrew I",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -542,7 +554,8 @@
                         "honors": false,
                         "course_id": "190239b9",
                         "course_letters": "HEBREW 2",
-                        "title": "Elementary Hebrew II"
+                        "title": "Elementary Hebrew II",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -1244,7 +1257,8 @@
                 ],
                 "no_articulation": true,
                 "no_articulation_reason": "No Course Articulated"
-              }
+              },
+              "units": 5.0
             },
             {
               "uc_course_id": "LISL 1B + LISL 1BX",
@@ -1275,7 +1289,8 @@
                 ],
                 "no_articulation": true,
                 "no_articulation_reason": "No Course Articulated"
-              }
+              },
+              "units": 5.0
             },
             {
               "uc_course_id": "LISL 1C + LISL 1CX",
@@ -1306,7 +1321,8 @@
                 ],
                 "no_articulation": true,
                 "no_articulation_reason": "No Course Articulated"
-              }
+              },
+              "units": 5.0
             },
             {
               "uc_course_id": "LISL 1D + LISL 1DX",
@@ -1337,7 +1353,8 @@
                 ],
                 "no_articulation": true,
                 "no_articulation_reason": "No Course Articulated"
-              }
+              },
+              "units": 5.0
             },
             {
               "uc_course_id": "LISL 1E",

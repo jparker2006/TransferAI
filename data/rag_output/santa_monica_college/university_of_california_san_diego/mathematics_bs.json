@@ -32,7 +32,8 @@
                         "honors": false,
                         "course_id": "d69fdaec",
                         "course_letters": "MATH 13",
-                        "title": "Linear Algebra"
+                        "title": "Linear Algebra",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -56,14 +57,16 @@
                         "honors": false,
                         "course_id": "aa6a8148",
                         "course_letters": "MATH 7",
-                        "title": "Calculus 1"
+                        "title": "Calculus 1",
+                        "units": 5.0
                       },
                       {
                         "name": "MATH 8 Calculus 2",
                         "honors": false,
                         "course_id": "e5f25f6b",
                         "course_letters": "MATH 8",
-                        "title": "Calculus 2"
+                        "title": "Calculus 2",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -87,7 +90,8 @@
                         "honors": false,
                         "course_id": "e5f25f6b",
                         "course_letters": "MATH 8",
-                        "title": "Calculus 2"
+                        "title": "Calculus 2",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -111,7 +115,8 @@
                         "honors": false,
                         "course_id": "7ad0fd47",
                         "course_letters": "MATH 11",
-                        "title": "Multivariable Calculus"
+                        "title": "Multivariable Calculus",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -135,7 +140,8 @@
                         "honors": false,
                         "course_id": "feaa6766",
                         "course_letters": "MATH 15",
-                        "title": "Differential Equations"
+                        "title": "Differential Equations",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -159,7 +165,8 @@
                         "honors": false,
                         "course_id": "7ad0fd47",
                         "course_letters": "MATH 11",
-                        "title": "Multivariable Calculus"
+                        "title": "Multivariable Calculus",
+                        "units": 5.0
                       }
                     ]
                   }

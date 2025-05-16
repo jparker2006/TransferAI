@@ -32,7 +32,8 @@
                         "honors": false,
                         "course_id": "d69fdaec",
                         "course_letters": "MATH 13",
-                        "title": "Linear Algebra"
+                        "title": "Linear Algebra",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -56,14 +57,16 @@
                         "honors": false,
                         "course_id": "aa6a8148",
                         "course_letters": "MATH 7",
-                        "title": "Calculus 1"
+                        "title": "Calculus 1",
+                        "units": 5.0
                       },
                       {
                         "name": "MATH 8 Calculus 2",
                         "honors": false,
                         "course_id": "e5f25f6b",
                         "course_letters": "MATH 8",
-                        "title": "Calculus 2"
+                        "title": "Calculus 2",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -87,7 +90,8 @@
                         "honors": false,
                         "course_id": "e5f25f6b",
                         "course_letters": "MATH 8",
-                        "title": "Calculus 2"
+                        "title": "Calculus 2",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -111,7 +115,8 @@
                         "honors": false,
                         "course_id": "7ad0fd47",
                         "course_letters": "MATH 11",
-                        "title": "Multivariable Calculus"
+                        "title": "Multivariable Calculus",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -304,21 +309,24 @@
                         "honors": false,
                         "course_id": "9a5ba289",
                         "course_letters": "BIOL 21",
-                        "title": "Cell Biology and Evolution"
+                        "title": "Cell Biology and Evolution",
+                        "units": 4.0
                       },
                       {
                         "name": "BIOL 22 Genetics and Molecular Biology",
                         "honors": false,
                         "course_id": "41321c85",
                         "course_letters": "BIOL 22",
-                        "title": "Genetics and Molecular Biology"
+                        "title": "Genetics and Molecular Biology",
+                        "units": 4.0
                       },
                       {
                         "name": "BIOL 23 Organismal and Environmental Biology",
                         "honors": false,
                         "course_id": "2b7ada8b",
                         "course_letters": "BIOL 23",
-                        "title": "Organismal and Environmental Biology"
+                        "title": "Organismal and Environmental Biology",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -342,21 +350,24 @@
                         "honors": false,
                         "course_id": "9a5ba289",
                         "course_letters": "BIOL 21",
-                        "title": "Cell Biology and Evolution"
+                        "title": "Cell Biology and Evolution",
+                        "units": 4.0
                       },
                       {
                         "name": "BIOL 22 Genetics and Molecular Biology",
                         "honors": false,
                         "course_id": "41321c85",
                         "course_letters": "BIOL 22",
-                        "title": "Genetics and Molecular Biology"
+                        "title": "Genetics and Molecular Biology",
+                        "units": 4.0
                       },
                       {
                         "name": "BIOL 23 Organismal and Environmental Biology",
                         "honors": false,
                         "course_id": "2b7ada8b",
                         "course_letters": "BIOL 23",
-                        "title": "Organismal and Environmental Biology"
+                        "title": "Organismal and Environmental Biology",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -387,7 +398,8 @@
                         "honors": false,
                         "course_id": "a3be7b28",
                         "course_letters": "ECON 1",
-                        "title": "Principles of Microeconomics"
+                        "title": "Principles of Microeconomics",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -411,7 +423,8 @@
                         "honors": false,
                         "course_id": "bf4865cf",
                         "course_letters": "ECON 2",
-                        "title": "Principles of Macroeconomics"
+                        "title": "Principles of Macroeconomics",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -463,7 +476,8 @@
                         "honors": false,
                         "course_id": "f23ccf08",
                         "course_letters": "MATH 54",
-                        "title": "Elementary Statistics"
+                        "title": "Elementary Statistics",
+                        "units": 4.0
                       }
                     ]
                   }
@@ -543,7 +557,8 @@
                         "honors": false,
                         "course_id": "e5eed183",
                         "course_letters": "SOCIOL 4",
-                        "title": "Social Analysis"
+                        "title": "Social Analysis",
+                        "units": 3.0
                       }
                     ]
                   }

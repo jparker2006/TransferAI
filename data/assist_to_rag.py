@@ -9,6 +9,77 @@ import urllib.parse
 import uuid
 
 
+def extract_units_info(course_data: Optional[Dict[str, Any]]) -> Dict[str, Any]:
+    """
+    Extract units information from course data, handling both fixed units and unit ranges.
+    Searches multiple possible locations for unit data in the ASSIST JSON structure.
+    
+    Args:
+        course_data: The course data containing units information
+        
+    Returns:
+        Dictionary with units information (units and optionally max_units)
+    """
+    result = {}
+    
+    # Handle None or non-dict input gracefully
+    if course_data is None or not isinstance(course_data, dict):
+        return result
+    
+    # Try multiple paths where units might be stored in course_data
+    min_units = None
+    max_units = None
+    
+    # Priority 1: Direct minUnits/maxUnits fields (most common format)
+    if "minUnits" in course_data:
+        min_units = course_data.get("minUnits")
+    elif "units" in course_data:
+        min_units = course_data.get("units")
+    # Priority 2: Check if units are nested in a "course" sub-object
+    elif "course" in course_data and isinstance(course_data["course"], dict):
+        nested_course = course_data["course"]
+        if "minUnits" in nested_course:
+            min_units = nested_course.get("minUnits")
+        elif "units" in nested_course:
+            min_units = nested_course.get("units")
+    
+    # Use the same approach for max_units
+    if "maxUnits" in course_data:
+        max_units = course_data.get("maxUnits")
+    elif "course" in course_data and isinstance(course_data["course"], dict):
+        nested_course = course_data["course"]
+        if "maxUnits" in nested_course:
+            max_units = nested_course.get("maxUnits")
+    
+    # Parse and convert to float if values are present
+    if min_units is not None:
+        # Handle case where value might be a string
+        try:
+            result["units"] = float(min_units)
+        except (ValueError, TypeError):
+            # If conversion fails, try to extract number from a string format like "4 units"
+            if isinstance(min_units, str):
+                match = re.search(r'(\d+(\.\d+)?)', min_units)
+                if match:
+                    result["units"] = float(match.group(1))
+    
+    # Only add max_units if it differs from min_units
+    if max_units is not None and max_units != min_units:
+        try:
+            max_value = float(max_units)
+            # Only add if greater than min units
+            if "units" in result and max_value > result["units"]:
+                result["max_units"] = max_value
+        except (ValueError, TypeError):
+            # Try to extract from string format
+            if isinstance(max_units, str):
+                match = re.search(r'(\d+(\.\d+)?)', max_units)
+                if match:
+                    result["max_units"] = float(match.group(1))
+    
+    return result
+
+
 def hash_id(s: str) -> str:
     """Generate a short hash ID for a string."""
     return hashlib.md5(s.encode("utf-8")).hexdigest()[:8]
@@ -205,6 +276,9 @@ def parse_sending_articulation(articulation: Dict[str, Any]) -> Dict[str, Any]:
                                 title = course_data.get("courseTitle", "")
                                 full_name = f"{prefix} {number} {title}"
                                 
+                                # Extract units information for CCC courses
+                                units_info = extract_units_info(course_data)
+                                
                                 # Determine if the course is an honors version
                                 is_honors = "HONORS" in title.upper() or title.upper().endswith("H")
                                 
@@ -217,6 +291,12 @@ def parse_sending_articulation(articulation: Dict[str, Any]) -> Dict[str, Any]:
                                     "course_letters": course_letters,
                                     "title": title
                                 }
+                                
+                                # Add units information to the CCC course object
+                                if "units" in units_info:
+                                    course_obj["units"] = units_info["units"]
+                                if "max_units" in units_info:
+                                    course_obj["max_units"] = units_info["max_units"]
                                 
                                 # Extract and add notes
                                 ccc_note = extract_notes(course_data)
@@ -268,6 +348,9 @@ def parse_sending_articulation(articulation: Dict[str, Any]) -> Dict[str, Any]:
             # Format course name consistently
             full_name = f"{prefix} {number} {title}"
             
+            # Extract units information for CCC courses
+            units_info = extract_units_info(course_data_from_json)
+            
             # Determine if the course is an honors version
             is_honors = "HONORS" in title.upper() or title.upper().endswith("H")
             
@@ -280,6 +363,12 @@ def parse_sending_articulation(articulation: Dict[str, Any]) -> Dict[str, Any]:
                 "course_letters": course_letters,
                 "title": title
             }
+            
+            # Add units information to the CCC course object
+            if "units" in units_info:
+                course_obj["units"] = units_info["units"]
+            if "max_units" in units_info:
+                course_obj["max_units"] = units_info["max_units"]
             
             # Extract and add notes for the CCC course
             ccc_note = extract_notes(course_data_from_json)
@@ -1144,7 +1233,17 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
                             prefix = course_data.get("prefix", "")
                             number = course_data.get("courseNumber", "")
                             title = course_data.get("courseTitle", "")
-                            units = course_data.get("minUnits")
+                            
+                            # Extract units information for the UC course using the helper function
+                            units_info = extract_units_info(course_data)
+                            # If no units found in course_data, try getting them from the cell object
+                            if not units_info:
+                                cell_units_info = extract_units_info(cell)
+                                if cell_units_info:
+                                    units_info = cell_units_info
+                                else:
+                                    # Default fallback: Use standard 4.0 units for UC courses with no specified units
+                                    units_info = {"units": 4.0, "_units_estimated": True}
                             
                             uc_course_id = f"{prefix} {number}"
                             uc_course_title = title.strip() # Trim whitespace from UC course title
@@ -1208,9 +1307,11 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
                                 "logic_block": logic_block
                             }
                             
-                            # Add optional fields if present
-                            if units is not None:
-                                current_uc_course_obj["units"] = units
+                            # Add units information to the UC course object
+                            if "units" in units_info:
+                                current_uc_course_obj["units"] = units_info["units"]
+                            if "max_units" in units_info:
+                                current_uc_course_obj["max_units"] = units_info["max_units"]
                             
                             # Add the extracted uc_note_from_cell if it exists
                             if uc_note_from_cell:
@@ -1227,8 +1328,27 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
                             
                             # Create a uc_course_id from the parts for consistency if name is just a list
                             series_uc_id_parts = []
+                            # Calculate total units for all courses in the series
+                            total_min_units = 0.0
+                            total_max_units = 0.0
+                            has_max_units = False
+                            course_count = 0
+                            
+                            # Process each course in the series
                             for s_course in sorted(series_data.get("courses", []), key=lambda x: x.get("position", 0)):
                                 series_uc_id_parts.append(f"{s_course.get('prefix')} {s_course.get('courseNumber')}")
+                                course_count += 1
+                                
+                                # Extract and sum units for each component course
+                                units_info = extract_units_info(s_course)
+                                if "units" in units_info:
+                                    total_min_units += units_info["units"]
+                                if "max_units" in units_info:
+                                    total_max_units += units_info["max_units"]
+                                    has_max_units = True
+                                elif "units" in units_info:
+                                    # If no max_units specified for this course, use the min value for total_max
+                                    total_max_units += units_info["units"]
                             
                             # Use the explicit series name if it's not just a join of course numbers, otherwise use the joined parts
                             series_uc_id = series_name_from_json
@@ -1278,6 +1398,35 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
                                 "section_title": section_title,
                                 "logic_block": logic_block
                             }
+                            
+                            # Add units information for the series
+                            if total_min_units > 0:
+                                current_uc_course_obj["units"] = total_min_units
+                                # Add max_units only if it differs from min_units
+                                if has_max_units and total_max_units > total_min_units:
+                                    current_uc_course_obj["max_units"] = total_max_units
+                            else:
+                                # Fallback 1: Check if the series itself has units
+                                series_units_info = extract_units_info(series_data)
+                                if "units" in series_units_info:
+                                    current_uc_course_obj["units"] = series_units_info["units"]
+                                    if "max_units" in series_units_info:
+                                        current_uc_course_obj["max_units"] = series_units_info["max_units"]
+                                # Fallback 2: Check if the cell has units
+                                elif course_count > 0:
+                                    cell_units_info = extract_units_info(cell)
+                                    if "units" in cell_units_info:
+                                        current_uc_course_obj["units"] = cell_units_info["units"]
+                                        if "max_units" in cell_units_info:
+                                            current_uc_course_obj["max_units"] = cell_units_info["max_units"]
+                                    # Fallback 3: Standard units approximation based on course count
+                                    else:
+                                        # Typical UC courses are ~4 units each
+                                        estimated_units = course_count * 4.0
+                                        current_uc_course_obj["units"] = estimated_units
+                                        # Add a flag to indicate these are estimated units
+                                        current_uc_course_obj["_units_estimated"] = True
+                                        # If the user wants to review these, we've made it easy to find them
                             
                             uc_note_from_cell = extract_notes(cell)
                             if uc_note_from_cell:

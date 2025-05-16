@@ -32,14 +32,16 @@
                         "honors": false,
                         "course_id": "aa6a8148",
                         "course_letters": "MATH 7",
-                        "title": "Calculus 1"
+                        "title": "Calculus 1",
+                        "units": 5.0
                       },
                       {
                         "name": "MATH 8 Calculus 2",
                         "honors": false,
                         "course_id": "e5f25f6b",
                         "course_letters": "MATH 8",
-                        "title": "Calculus 2"
+                        "title": "Calculus 2",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -63,7 +65,8 @@
                         "honors": false,
                         "course_id": "e5f25f6b",
                         "course_letters": "MATH 8",
-                        "title": "Calculus 2"
+                        "title": "Calculus 2",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -87,7 +90,8 @@
                         "honors": false,
                         "course_id": "7ad0fd47",
                         "course_letters": "MATH 11",
-                        "title": "Multivariable Calculus"
+                        "title": "Multivariable Calculus",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -118,7 +122,8 @@
                         "honors": false,
                         "course_id": "aa6a8148",
                         "course_letters": "MATH 7",
-                        "title": "Calculus 1"
+                        "title": "Calculus 1",
+                        "units": 5.0
                       }
                     ]
                   },
@@ -130,7 +135,8 @@
                         "honors": false,
                         "course_id": "c21ee822",
                         "course_letters": "MATH 28",
-                        "title": "Calculus 1 for Business and Social Science"
+                        "title": "Calculus 1 for Business and Social Science",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -154,7 +160,8 @@
                         "honors": false,
                         "course_id": "e5f25f6b",
                         "course_letters": "MATH 8",
-                        "title": "Calculus 2"
+                        "title": "Calculus 2",
+                        "units": 5.0
                       }
                     ]
                   },
@@ -166,14 +173,16 @@
                         "honors": false,
                         "course_id": "c21ee822",
                         "course_letters": "MATH 28",
-                        "title": "Calculus 1 for Business and Social Science"
+                        "title": "Calculus 1 for Business and Social Science",
+                        "units": 5.0
                       },
                       {
                         "name": "MATH 29 Calculus 2 for Business and Social Science",
                         "honors": false,
                         "course_id": "c7b55b9b",
                         "course_letters": "MATH 29",
-                        "title": "Calculus 2 for Business and Social Science"
+                        "title": "Calculus 2 for Business and Social Science",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -233,7 +242,8 @@
                         "honors": false,
                         "course_id": "a3be7b28",
                         "course_letters": "ECON 1",
-                        "title": "Principles of Microeconomics"
+                        "title": "Principles of Microeconomics",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -257,7 +267,8 @@
                         "honors": false,
                         "course_id": "bf4865cf",
                         "course_letters": "ECON 2",
-                        "title": "Principles of Macroeconomics"
+                        "title": "Principles of Macroeconomics",
+                        "units": 3.0
                       }
                     ]
                   }

@@ -161,7 +161,8 @@
                         "honors": false,
                         "course_id": "a3be7b28",
                         "course_letters": "ECON 1",
-                        "title": "Principles of Microeconomics"
+                        "title": "Principles of Microeconomics",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -185,7 +186,8 @@
                         "honors": false,
                         "course_id": "fd0e4ba8",
                         "course_letters": "ACCTG 1",
-                        "title": "Introduction to Financial Accounting"
+                        "title": "Introduction to Financial Accounting",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -210,14 +212,16 @@
                         "honors": false,
                         "course_id": "fd0e4ba8",
                         "course_letters": "ACCTG 1",
-                        "title": "Introduction to Financial Accounting"
+                        "title": "Introduction to Financial Accounting",
+                        "units": 5.0
                       },
                       {
                         "name": "ACCTG 2 Corporate Financial and Managerial Accounting",
                         "honors": false,
                         "course_id": "08eb1506",
                         "course_letters": "ACCTG 2",
-                        "title": "Corporate Financial and Managerial Accounting"
+                        "title": "Corporate Financial and Managerial Accounting",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -256,7 +260,8 @@
                         "honors": false,
                         "course_id": "aa6a8148",
                         "course_letters": "MATH 7",
-                        "title": "Calculus 1"
+                        "title": "Calculus 1",
+                        "units": 5.0
                       }
                     ]
                   },
@@ -268,7 +273,8 @@
                         "honors": false,
                         "course_id": "c21ee822",
                         "course_letters": "MATH 28",
-                        "title": "Calculus 1 for Business and Social Science"
+                        "title": "Calculus 1 for Business and Social Science",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -292,14 +298,16 @@
                         "honors": false,
                         "course_id": "aa6a8148",
                         "course_letters": "MATH 7",
-                        "title": "Calculus 1"
+                        "title": "Calculus 1",
+                        "units": 5.0
                       },
                       {
                         "name": "MATH 8 Calculus 2",
                         "honors": false,
                         "course_id": "e5f25f6b",
                         "course_letters": "MATH 8",
-                        "title": "Calculus 2"
+                        "title": "Calculus 2",
+                        "units": 5.0
                       }
                     ]
                   }

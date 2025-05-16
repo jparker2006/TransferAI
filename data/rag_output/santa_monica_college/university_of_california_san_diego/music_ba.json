@@ -43,12 +43,14 @@
                         "honors": false,
                         "course_id": "556f7434",
                         "course_letters": "MUSIC 2",
-                        "title": "Musicianship"
+                        "title": "Musicianship",
+                        "units": 2.0
                       }
                     ]
                   }
                 ]
               },
+              "units": 6.0,
               "note": "Articulation is subject to placement by proficiency exam"
             },
             {
@@ -78,12 +80,14 @@
                         "honors": false,
                         "course_id": "4e1391c2",
                         "course_letters": "MUSIC 3",
-                        "title": "Musicianship"
+                        "title": "Musicianship",
+                        "units": 2.0
                       }
                     ]
                   }
                 ]
               },
+              "units": 6.0,
               "note": "Articulation is subject to placement by proficiency exam"
             },
             {
@@ -113,12 +117,14 @@
                         "honors": false,
                         "course_id": "555c3db2",
                         "course_letters": "MUSIC 4",
-                        "title": "Musicianship"
+                        "title": "Musicianship",
+                        "units": 2.0
                       }
                     ]
                   }
                 ]
               },
+              "units": 6.0,
               "note": "Articulation is subject to placement by proficiency exam"
             }
           ]

@@ -32,7 +32,8 @@
                         "honors": false,
                         "course_id": "b581f626",
                         "course_letters": "SOCIOL 1",
-                        "title": "Introduction to Sociology"
+                        "title": "Introduction to Sociology",
+                        "units": 3.0
                       }
                     ]
                   },
@@ -44,7 +45,8 @@
                         "honors": false,
                         "course_id": "05bd6348",
                         "course_letters": "SOCIOL 1S",
-                        "title": "Introduction to Sociology-Service Learning"
+                        "title": "Introduction to Sociology-Service Learning",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -68,7 +70,8 @@
                         "honors": false,
                         "course_id": "d61b0916",
                         "course_letters": "SOCIOL 2",
-                        "title": "Social Problems"
+                        "title": "Social Problems",
+                        "units": 3.0
                       }
                     ]
                   },
@@ -80,7 +83,8 @@
                         "honors": false,
                         "course_id": "5a278d70",
                         "course_letters": "SOCIOL 2S",
-                        "title": "Social Problems-Service Learning"
+                        "title": "Social Problems-Service Learning",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -104,7 +108,8 @@
                         "honors": false,
                         "course_id": "e5eed183",
                         "course_letters": "SOCIOL 4",
-                        "title": "Social Analysis"
+                        "title": "Social Analysis",
+                        "units": 3.0
                       }
                     ]
                   }

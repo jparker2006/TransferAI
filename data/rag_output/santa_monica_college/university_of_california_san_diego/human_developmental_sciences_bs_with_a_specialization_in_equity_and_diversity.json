@@ -102,7 +102,8 @@
                         "honors": false,
                         "course_id": "0006cf2a",
                         "course_letters": "ANTHRO 1",
-                        "title": "Biological Anthropology"
+                        "title": "Biological Anthropology",
+                        "units": 3.0
                       }
                     ]
                   },
@@ -114,7 +115,8 @@
                         "honors": false,
                         "course_id": "958555c4",
                         "course_letters": "ANTHRO 5",
-                        "title": "Biological Anthropology with Laboratory"
+                        "title": "Biological Anthropology with Laboratory",
+                        "units": 4.0
                       }
                     ]
                   }
@@ -138,21 +140,24 @@
                         "honors": false,
                         "course_id": "9a5ba289",
                         "course_letters": "BIOL 21",
-                        "title": "Cell Biology and Evolution"
+                        "title": "Cell Biology and Evolution",
+                        "units": 4.0
                       },
                       {
                         "name": "BIOL 22 Genetics and Molecular Biology",
                         "honors": false,
                         "course_id": "41321c85",
                         "course_letters": "BIOL 22",
-                        "title": "Genetics and Molecular Biology"
+                        "title": "Genetics and Molecular Biology",
+                        "units": 4.0
                       },
                       {
                         "name": "BIOL 23 Organismal and Environmental Biology",
                         "honors": false,
                         "course_id": "2b7ada8b",
                         "course_letters": "BIOL 23",
-                        "title": "Organismal and Environmental Biology"
+                        "title": "Organismal and Environmental Biology",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -176,21 +181,24 @@
                         "honors": false,
                         "course_id": "9a5ba289",
                         "course_letters": "BIOL 21",
-                        "title": "Cell Biology and Evolution"
+                        "title": "Cell Biology and Evolution",
+                        "units": 4.0
                       },
                       {
                         "name": "BIOL 22 Genetics and Molecular Biology",
                         "honors": false,
                         "course_id": "41321c85",
                         "course_letters": "BIOL 22",
-                        "title": "Genetics and Molecular Biology"
+                        "title": "Genetics and Molecular Biology",
+                        "units": 4.0
                       },
                       {
                         "name": "BIOL 23 Organismal and Environmental Biology",
                         "honors": false,
                         "course_id": "2b7ada8b",
                         "course_letters": "BIOL 23",
-                        "title": "Organismal and Environmental Biology"
+                        "title": "Organismal and Environmental Biology",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -214,21 +222,24 @@
                         "honors": false,
                         "course_id": "9a5ba289",
                         "course_letters": "BIOL 21",
-                        "title": "Cell Biology and Evolution"
+                        "title": "Cell Biology and Evolution",
+                        "units": 4.0
                       },
                       {
                         "name": "BIOL 22 Genetics and Molecular Biology",
                         "honors": false,
                         "course_id": "41321c85",
                         "course_letters": "BIOL 22",
-                        "title": "Genetics and Molecular Biology"
+                        "title": "Genetics and Molecular Biology",
+                        "units": 4.0
                       },
                       {
                         "name": "BIOL 23 Organismal and Environmental Biology",
                         "honors": false,
                         "course_id": "2b7ada8b",
                         "course_letters": "BIOL 23",
-                        "title": "Organismal and Environmental Biology"
+                        "title": "Organismal and Environmental Biology",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -294,7 +305,8 @@
                         "honors": false,
                         "course_id": "bd8ad8e2",
                         "course_letters": "PHYS 3",
-                        "title": "Human Physiology"
+                        "title": "Human Physiology",
+                        "units": 4.0
                       }
                     ]
                   },
@@ -306,7 +318,8 @@
                         "honors": false,
                         "course_id": "f52b4606",
                         "course_letters": "BIOL 2",
-                        "title": "Human Biology"
+                        "title": "Human Biology",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -330,7 +343,8 @@
                         "honors": false,
                         "course_id": "91bef7bf",
                         "course_letters": "PSYCH 2",
-                        "title": "Physiological Psychology"
+                        "title": "Physiological Psychology",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -370,7 +384,8 @@
                         "honors": false,
                         "course_id": "aa6a8148",
                         "course_letters": "MATH 7",
-                        "title": "Calculus 1"
+                        "title": "Calculus 1",
+                        "units": 5.0
                       }
                     ]
                   },
@@ -382,7 +397,8 @@
                         "honors": false,
                         "course_id": "c21ee822",
                         "course_letters": "MATH 28",
-                        "title": "Calculus 1 for Business and Social Science"
+                        "title": "Calculus 1 for Business and Social Science",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -406,7 +422,8 @@
                         "honors": false,
                         "course_id": "e5f25f6b",
                         "course_letters": "MATH 8",
-                        "title": "Calculus 2"
+                        "title": "Calculus 2",
+                        "units": 5.0
                       }
                     ]
                   },
@@ -418,14 +435,16 @@
                         "honors": false,
                         "course_id": "c21ee822",
                         "course_letters": "MATH 28",
-                        "title": "Calculus 1 for Business and Social Science"
+                        "title": "Calculus 1 for Business and Social Science",
+                        "units": 5.0
                       },
                       {
                         "name": "MATH 29 Calculus 2 for Business and Social Science",
                         "honors": false,
                         "course_id": "c7b55b9b",
                         "course_letters": "MATH 29",
-                        "title": "Calculus 2 for Business and Social Science"
+                        "title": "Calculus 2 for Business and Social Science",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -470,14 +489,16 @@
                         "honors": false,
                         "course_id": "aa6a8148",
                         "course_letters": "MATH 7",
-                        "title": "Calculus 1"
+                        "title": "Calculus 1",
+                        "units": 5.0
                       },
                       {
                         "name": "MATH 8 Calculus 2",
                         "honors": false,
                         "course_id": "e5f25f6b",
                         "course_letters": "MATH 8",
-                        "title": "Calculus 2"
+                        "title": "Calculus 2",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -501,7 +522,8 @@
                         "honors": false,
                         "course_id": "e5f25f6b",
                         "course_letters": "MATH 8",
-                        "title": "Calculus 2"
+                        "title": "Calculus 2",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -525,7 +547,8 @@
                         "honors": false,
                         "course_id": "7ad0fd47",
                         "course_letters": "MATH 11",
-                        "title": "Multivariable Calculus"
+                        "title": "Multivariable Calculus",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -570,7 +593,8 @@
                         "honors": false,
                         "course_id": "c51a2407",
                         "course_letters": "CS 55",
-                        "title": "JAVA Programming"
+                        "title": "JAVA Programming",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -610,7 +634,8 @@
                         "honors": false,
                         "course_id": "3a7ec255",
                         "course_letters": "ANTHRO 2",
-                        "title": "Cultural Anthropology"
+                        "title": "Cultural Anthropology",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -634,7 +659,8 @@
                         "honors": false,
                         "course_id": "df26f2e9",
                         "course_letters": "ANTHRO 3",
-                        "title": "World Archaeology"
+                        "title": "World Archaeology",
+                        "units": 3.0
                       }
                     ]
                   },
@@ -646,7 +672,8 @@
                         "honors": false,
                         "course_id": "9e235f09",
                         "course_letters": "ANTHRO 4",
-                        "title": "Methods of Archaeology"
+                        "title": "Methods of Archaeology",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -790,7 +817,8 @@
                         "honors": false,
                         "course_id": "7daa99eb",
                         "course_letters": "PSYCH 1",
-                        "title": "General Psychology"
+                        "title": "General Psychology",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -814,7 +842,8 @@
                         "honors": false,
                         "course_id": "91bef7bf",
                         "course_letters": "PSYCH 2",
-                        "title": "Physiological Psychology"
+                        "title": "Physiological Psychology",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -859,7 +888,8 @@
                         "honors": false,
                         "course_id": "b581f626",
                         "course_letters": "SOCIOL 1",
-                        "title": "Introduction to Sociology"
+                        "title": "Introduction to Sociology",
+                        "units": 3.0
                       }
                     ]
                   },
@@ -871,7 +901,8 @@
                         "honors": false,
                         "course_id": "05bd6348",
                         "course_letters": "SOCIOL 1S",
-                        "title": "Introduction to Sociology-Service Learning"
+                        "title": "Introduction to Sociology-Service Learning",
+                        "units": 3.0
                       }
                     ]
                   }

@@ -74,7 +74,8 @@
                         "honors": false,
                         "course_id": "7daa99eb",
                         "course_letters": "PSYCH 1",
-                        "title": "General Psychology"
+                        "title": "General Psychology",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -169,21 +170,24 @@
                         "honors": false,
                         "course_id": "9a5ba289",
                         "course_letters": "BIOL 21",
-                        "title": "Cell Biology and Evolution"
+                        "title": "Cell Biology and Evolution",
+                        "units": 4.0
                       },
                       {
                         "name": "BIOL 22 Genetics and Molecular Biology",
                         "honors": false,
                         "course_id": "41321c85",
                         "course_letters": "BIOL 22",
-                        "title": "Genetics and Molecular Biology"
+                        "title": "Genetics and Molecular Biology",
+                        "units": 4.0
                       },
                       {
                         "name": "BIOL 23 Organismal and Environmental Biology",
                         "honors": false,
                         "course_id": "2b7ada8b",
                         "course_letters": "BIOL 23",
-                        "title": "Organismal and Environmental Biology"
+                        "title": "Organismal and Environmental Biology",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -207,21 +211,24 @@
                         "honors": false,
                         "course_id": "9a5ba289",
                         "course_letters": "BIOL 21",
-                        "title": "Cell Biology and Evolution"
+                        "title": "Cell Biology and Evolution",
+                        "units": 4.0
                       },
                       {
                         "name": "BIOL 22 Genetics and Molecular Biology",
                         "honors": false,
                         "course_id": "41321c85",
                         "course_letters": "BIOL 22",
-                        "title": "Genetics and Molecular Biology"
+                        "title": "Genetics and Molecular Biology",
+                        "units": 4.0
                       },
                       {
                         "name": "BIOL 23 Organismal and Environmental Biology",
                         "honors": false,
                         "course_id": "2b7ada8b",
                         "course_letters": "BIOL 23",
-                        "title": "Organismal and Environmental Biology"
+                        "title": "Organismal and Environmental Biology",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -245,21 +252,24 @@
                         "honors": false,
                         "course_id": "9a5ba289",
                         "course_letters": "BIOL 21",
-                        "title": "Cell Biology and Evolution"
+                        "title": "Cell Biology and Evolution",
+                        "units": 4.0
                       },
                       {
                         "name": "BIOL 22 Genetics and Molecular Biology",
                         "honors": false,
                         "course_id": "41321c85",
                         "course_letters": "BIOL 22",
-                        "title": "Genetics and Molecular Biology"
+                        "title": "Genetics and Molecular Biology",
+                        "units": 4.0
                       },
                       {
                         "name": "BIOL 23 Organismal and Environmental Biology",
                         "honors": false,
                         "course_id": "2b7ada8b",
                         "course_letters": "BIOL 23",
-                        "title": "Organismal and Environmental Biology"
+                        "title": "Organismal and Environmental Biology",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -291,7 +301,8 @@
                         "honors": false,
                         "course_id": "c944b491",
                         "course_letters": "CHEM 11",
-                        "title": "General Chemistry I"
+                        "title": "General Chemistry I",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -315,14 +326,16 @@
                         "honors": false,
                         "course_id": "c944b491",
                         "course_letters": "CHEM 11",
-                        "title": "General Chemistry I"
+                        "title": "General Chemistry I",
+                        "units": 5.0
                       },
                       {
                         "name": "CHEM 12 General Chemistry II",
                         "honors": false,
                         "course_id": "1b1661cf",
                         "course_letters": "CHEM 12",
-                        "title": "General Chemistry II"
+                        "title": "General Chemistry II",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -346,7 +359,8 @@
                         "honors": false,
                         "course_id": "1b1661cf",
                         "course_letters": "CHEM 12",
-                        "title": "General Chemistry II"
+                        "title": "General Chemistry II",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -370,14 +384,16 @@
                         "honors": false,
                         "course_id": "c944b491",
                         "course_letters": "CHEM 11",
-                        "title": "General Chemistry I"
+                        "title": "General Chemistry I",
+                        "units": 5.0
                       },
                       {
                         "name": "CHEM 12 General Chemistry II",
                         "honors": false,
                         "course_id": "1b1661cf",
                         "course_letters": "CHEM 12",
-                        "title": "General Chemistry II"
+                        "title": "General Chemistry II",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -417,7 +433,8 @@
                         "honors": false,
                         "course_id": "aa6a8148",
                         "course_letters": "MATH 7",
-                        "title": "Calculus 1"
+                        "title": "Calculus 1",
+                        "units": 5.0
                       }
                     ]
                   },
@@ -429,7 +446,8 @@
                         "honors": false,
                         "course_id": "c21ee822",
                         "course_letters": "MATH 28",
-                        "title": "Calculus 1 for Business and Social Science"
+                        "title": "Calculus 1 for Business and Social Science",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -453,7 +471,8 @@
                         "honors": false,
                         "course_id": "e5f25f6b",
                         "course_letters": "MATH 8",
-                        "title": "Calculus 2"
+                        "title": "Calculus 2",
+                        "units": 5.0
                       }
                     ]
                   },
@@ -465,14 +484,16 @@
                         "honors": false,
                         "course_id": "c21ee822",
                         "course_letters": "MATH 28",
-                        "title": "Calculus 1 for Business and Social Science"
+                        "title": "Calculus 1 for Business and Social Science",
+                        "units": 5.0
                       },
                       {
                         "name": "MATH 29 Calculus 2 for Business and Social Science",
                         "honors": false,
                         "course_id": "c7b55b9b",
                         "course_letters": "MATH 29",
-                        "title": "Calculus 2 for Business and Social Science"
+                        "title": "Calculus 2 for Business and Social Science",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -503,14 +524,16 @@
                         "honors": false,
                         "course_id": "aa6a8148",
                         "course_letters": "MATH 7",
-                        "title": "Calculus 1"
+                        "title": "Calculus 1",
+                        "units": 5.0
                       },
                       {
                         "name": "MATH 8 Calculus 2",
                         "honors": false,
                         "course_id": "e5f25f6b",
                         "course_letters": "MATH 8",
-                        "title": "Calculus 2"
+                        "title": "Calculus 2",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -534,7 +557,8 @@
                         "honors": false,
                         "course_id": "e5f25f6b",
                         "course_letters": "MATH 8",
-                        "title": "Calculus 2"
+                        "title": "Calculus 2",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -595,7 +619,8 @@
                         "honors": false,
                         "course_id": "f23ccf08",
                         "course_letters": "MATH 54",
-                        "title": "Elementary Statistics"
+                        "title": "Elementary Statistics",
+                        "units": 4.0
                       }
                     ]
                   }

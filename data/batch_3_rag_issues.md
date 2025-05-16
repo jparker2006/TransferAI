@@ -9,12 +9,14 @@
 * **Problem:** The `no_articulation_reason` field is missing for UC course NANO 15, while `no_articulation` is set to `true`. The screenshot explicitly states "No Course Articulated". This is inconsistent with other non-articulated courses like NANO 4, which correctly populates this field.
 * **ASSIST Reference:** Screenshot Section D, articulation status for NANO 15.
 * **Correction Needed:** Add `no_articulation_reason: "No Course Articulated"` to the `logic_block` for the NANO 15 UC course entry.
+* **Status:** ✅ FIXED - Modified assist_to_rag.py to ensure all no_articulation cases include a no_articulation_reason field
 
 #### Issue Category: Course Information
 * **Location:** Applies to all CCC course objects within `groups[*].sections[*].uc_courses[*].logic_block.courses[*].courses[*]` (and similar paths where CCC courses are defined).
 * **Problem:** Unit information for California Community College (CCC) courses is present on the ASSIST screenshot but is not included in the RAG JSON structure for CCC courses. For example, MATH 13 is shown as 3.00 units on ASSIST, but the JSON object for MATH 13 does not include its unit value.
 * **ASSIST Reference:** Unit values displayed on the right-hand side for all articulated CCC courses in the screenshot (e.g., MATH 13 (3.00 units), PHYSCS 21 (5.00 units), etc. for the NanoEngineering major, and generally across all majors).
 * **Correction Needed:** Implement a `units` field (e.g., `"units": 3.0`) within each CCC course object in the RAG JSON files and populate it with the correct unit values from ASSIST. This change should be applied consistently across all relevant RAG JSON files.
+* **Status:** ✅ FIXED - Added units field to all CCC course objects
 
 ## Data Science B.S.
 
@@ -55,6 +57,7 @@
 * **Problem:** These UC course series entries (e.g., `uc_course_id: "LIAB 1D + LIAB 1DX"`) are missing a top-level `units` field in the JSON. This field should represent the total units for completing the entire UC series. While ASSIST shows units for individual components of the series (e.g., LIAB 1D is 2.50 units, LIAB 1DX is 2.50 units), the JSON object for the combined series requirement does not sum these to provide a total (e.g., `units: 5.0`). Individual non-series UC courses in the same list do have their `units` specified.
 * **ASSIST Reference:** Screenshot 2 (Language Requirement). For example, component courses like LIAB 1D (2.50 units) and LIAB 1DX (2.50 units) are listed with their units, implying the series is 5.0 units total.
 * **Correction Needed:** Add a top-level `units` field to each UC course series object in the JSON. The value of this field should be the sum of the units of its component courses as indicated on ASSIST. For example, for the series `LIAB 1D + LIAB 1DX`, the JSON object should include `"units": 5.0`. This ensures that the RAG data for UC series requirements includes total unit information.
+* **Status:** ✅ FIXED - Added summed units field to all UC course series objects
 
 ## Literature/Writing B.A.
 
@@ -112,6 +115,7 @@
 * **Problem:** The RAG JSON lists `units: 4.0` for TDPR 6. The ASSIST screenshot shows variable units: "4.00 - 6.00".
 * **ASSIST Reference:** Screenshot, Section A, course TDPR 6, units column.
 * **Correction Needed:** Update the `units` for TDPR 6 to reflect the range. If the schema only supports a float for `units`, this might require a schema change (e.g., to allow a string like "4.00 - 6.00" or add `min_units`/`max_units` fields). For logging, note the need to represent this range accurately.
+* **Status:** ✅ FIXED - Added support for variable unit ranges using min_units and max_units fields
 
 ## Urban Studies and Planning B.A.
 

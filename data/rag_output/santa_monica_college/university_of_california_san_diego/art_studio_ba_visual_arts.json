@@ -53,7 +53,8 @@
                         "honors": false,
                         "course_id": "347d0ea5",
                         "course_letters": "AHIS 3",
-                        "title": "Global Art History Since 1800"
+                        "title": "Global Art History Since 1800",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -298,7 +299,8 @@
                         "honors": false,
                         "course_id": "567a3ba7",
                         "course_letters": "AHIS 17",
-                        "title": "Arts of Asia"
+                        "title": "Arts of Asia",
+                        "units": 3.0
                       }
                     ]
                   }

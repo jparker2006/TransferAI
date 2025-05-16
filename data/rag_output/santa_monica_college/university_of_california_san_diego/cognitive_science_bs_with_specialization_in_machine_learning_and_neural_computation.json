@@ -32,7 +32,8 @@
                         "honors": false,
                         "course_id": "aa6a8148",
                         "course_letters": "MATH 7",
-                        "title": "Calculus 1"
+                        "title": "Calculus 1",
+                        "units": 5.0
                       }
                     ]
                   },
@@ -44,7 +45,8 @@
                         "honors": false,
                         "course_id": "c21ee822",
                         "course_letters": "MATH 28",
-                        "title": "Calculus 1 for Business and Social Science"
+                        "title": "Calculus 1 for Business and Social Science",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -68,7 +70,8 @@
                         "honors": false,
                         "course_id": "e5f25f6b",
                         "course_letters": "MATH 8",
-                        "title": "Calculus 2"
+                        "title": "Calculus 2",
+                        "units": 5.0
                       }
                     ]
                   },
@@ -80,14 +83,16 @@
                         "honors": false,
                         "course_id": "c21ee822",
                         "course_letters": "MATH 28",
-                        "title": "Calculus 1 for Business and Social Science"
+                        "title": "Calculus 1 for Business and Social Science",
+                        "units": 5.0
                       },
                       {
                         "name": "MATH 29 Calculus 2 for Business and Social Science",
                         "honors": false,
                         "course_id": "c7b55b9b",
                         "course_letters": "MATH 29",
-                        "title": "Calculus 2 for Business and Social Science"
+                        "title": "Calculus 2 for Business and Social Science",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -139,14 +144,16 @@
                         "honors": false,
                         "course_id": "aa6a8148",
                         "course_letters": "MATH 7",
-                        "title": "Calculus 1"
+                        "title": "Calculus 1",
+                        "units": 5.0
                       },
                       {
                         "name": "MATH 8 Calculus 2",
                         "honors": false,
                         "course_id": "e5f25f6b",
                         "course_letters": "MATH 8",
-                        "title": "Calculus 2"
+                        "title": "Calculus 2",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -170,7 +177,8 @@
                         "honors": false,
                         "course_id": "e5f25f6b",
                         "course_letters": "MATH 8",
-                        "title": "Calculus 2"
+                        "title": "Calculus 2",
+                        "units": 5.0
                       }
                     ]
                   }
@@ -209,7 +217,8 @@
                         "honors": false,
                         "course_id": "d69fdaec",
                         "course_letters": "MATH 13",
-                        "title": "Linear Algebra"
+                        "title": "Linear Algebra",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -268,7 +277,8 @@
                         "honors": false,
                         "course_id": "f23ccf08",
                         "course_letters": "MATH 54",
-                        "title": "Elementary Statistics"
+                        "title": "Elementary Statistics",
+                        "units": 4.0
                       }
                     ]
                   }
@@ -334,7 +344,8 @@
                         "honors": false,
                         "course_id": "91bef7bf",
                         "course_letters": "PSYCH 2",
-                        "title": "Physiological Psychology"
+                        "title": "Physiological Psychology",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -457,7 +468,8 @@
                         "honors": false,
                         "course_id": "e1641c95",
                         "course_letters": "CS 87B",
-                        "title": "Advanced Python Programming"
+                        "title": "Advanced Python Programming",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -502,7 +514,8 @@
                         "honors": false,
                         "course_id": "c51a2407",
                         "course_letters": "CS 55",
-                        "title": "JAVA Programming"
+                        "title": "JAVA Programming",
+                        "units": 3.0
                       }
                     ]
                   }

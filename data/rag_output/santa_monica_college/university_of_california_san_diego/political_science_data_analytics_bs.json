@@ -81,7 +81,8 @@
                         "honors": false,
                         "course_id": "2101adf6",
                         "course_letters": "POL SC 1",
-                        "title": "National and California Government"
+                        "title": "National and California Government",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -105,7 +106,8 @@
                         "honors": false,
                         "course_id": "28ff3fc7",
                         "course_letters": "POL SC 2",
-                        "title": "Comparative Government and Politics"
+                        "title": "Comparative Government and Politics",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -129,7 +131,8 @@
                         "honors": false,
                         "course_id": "e5106986",
                         "course_letters": "POL SC 7",
-                        "title": "International Politics"
+                        "title": "International Politics",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -154,6 +157,7 @@
                         "course_id": "c3aa2572",
                         "course_letters": "POL SC 51",
                         "title": "Political Philosophy",
+                        "units": 3.0,
                         "note": "Same as PHILOS 51"
                       }
                     ]

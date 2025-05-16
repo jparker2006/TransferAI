@@ -32,7 +32,8 @@
                         "honors": false,
                         "course_id": "38eae2fd",
                         "course_letters": "TH ART 41",
-                        "title": "Acting I"
+                        "title": "Acting I",
+                        "units": 3.0
                       }
                     ]
                   }
@@ -206,7 +207,8 @@
                 "no_articulation": true,
                 "no_articulation_reason": "No Course Articulated"
               },
-              "units": 4.0
+              "units": 4.0,
+              "max_units": 6.0
             }
           ]
         }
