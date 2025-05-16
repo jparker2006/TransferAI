@@ -1,0 +1,202 @@
+{
+  "major": "Urban Studies and Planning B.A.",
+  "from": "Santa Monica College",
+  "to": "University of California, San Diego",
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F137%2Fto%2F7%2FMajor%2Fa092ba5b-dd75-491f-6755-08dca807bc66",
+  "catalog_year": "2024–2025",
+  "general_advice": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. The USP major is an interdisciplinary social science major that will give a variety of perspectives for understanding the development, growth, and culture of cities. Select courses that focus on the field that most interests you: urban planning, policy, social services, health care, environment, education, economic development, or community diversity. For more information please visit usp.ucsd.edu .\n\nUC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below: Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdf International Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf",
+  "groups": [
+    {
+      "group_id": "1",
+      "group_title": null,
+      "group_logic_type": "all_required",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "USP 1",
+              "uc_course_title": "History of U.S. Urban Communities",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "USP 4",
+              "uc_course_title": "Introduction to Geographic Information Systems",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "USP 30",
+              "uc_course_title": "Urban Studies and Planning Colloquium",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "This course must be taken at the university after transfer",
+                    "honors": false,
+                    "course_id": "b5c69e70",
+                    "course_letters": "N/A",
+                    "title": "This course must be taken at the university after transfer"
+                  }
+                ],
+                "no_articulation": true,
+                "no_articulation_reason": "This course must be taken at the university after transfer"
+              },
+              "units": 2.0
+            },
+            {
+              "uc_course_id": "USP 60",
+              "uc_course_title": "The Practice of Planning Research",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "This course must be taken at the university after transfer",
+                    "honors": false,
+                    "course_id": "b5c69e70",
+                    "course_letters": "N/A",
+                    "title": "This course must be taken at the university after transfer"
+                  }
+                ],
+                "no_articulation": true,
+                "no_articulation_reason": "This course must be taken at the university after transfer"
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "B",
+          "section_title": "Section B",
+          "section_logic_type": "select_n_courses",
+          "uc_courses": [
+            {
+              "uc_course_id": "USP 2",
+              "uc_course_title": "Urban World System",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "USP 6",
+              "uc_course_title": "Introduction to Global Architecture",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ],
+          "n_courses": 1
+        },
+        {
+          "section_id": "C",
+          "section_title": "Section C",
+          "section_logic_type": "select_n_courses",
+          "uc_courses": [
+            {
+              "uc_course_id": "USP 3",
+              "uc_course_title": "The City and Social Theory",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "USP 5",
+              "uc_course_title": "Introduction to the Real Estate and Development Process",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ],
+          "n_courses": 1
+        }
+      ]
+    }
+  ]
+}

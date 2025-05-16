@@ -1,0 +1,1323 @@
+{
+  "major": "Literature/Writing B.A.",
+  "from": "Santa Monica College",
+  "to": "University of California, San Diego",
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F137%2Fto%2F7%2FMajor%2Ffbcc2f1a-578d-4de3-a823-08dca807bc76",
+  "catalog_year": "2024–2025",
+  "general_advice": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. For information about the Department of Literature, including checklists of lower-division and upper-division requirements for all of our majors, descriptions of current courses and current class schedules, please go to: http://literature.ucsd.edu/ Students electing the Literature/Writing major should be aware that it has a dual focus in 1) the study of literature and literary analysis and 2) the study of writing as a craft. As with all of the literature majors offered at UCSD, there is a secondary language and literature requirement (see choices of languages below). This entails required study in a language other than English and the attainment of proficiency in that language through the terminal course in that particular language sequence. For details on the secondary language &amp; literature requirement, please go to: http://literature.ucsd.edu / . Students can prepare for this requirement by taking lower-division courses (enough to reach fluency level, usually one to two years) in American Sign Language, French, German, Greek, Hebrew, Italian, Korean, Latin, Russian, or Spanish. Literature/Writing majors are required to complete: 1) LTEN 26 2) Any two of the following: LTEN 21, 22, 23, 25, 27, 28, 29 GSS 21, 22, 23, 25, 26. 3) LTWR 8A, 8B, and 8C (most often these courses are taken at UCSD). 4) The secondary language and literature requirement in the chosen language. See appropriate lower-division articulated community college courses below.\n\nUC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below: Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdf International Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf",
+  "groups": [
+    {
+      "group_id": "1",
+      "group_title": null,
+      "group_logic_type": "all_required",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "LTEN 21",
+              "uc_course_title": "Introduction to the Literature of the British Isles: Pre 1660",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "ENGL 5 British Literature 1",
+                        "honors": false,
+                        "course_id": "946aa160",
+                        "course_letters": "ENGL 5",
+                        "title": "British Literature 1"
+                      },
+                      {
+                        "name": "ENGL 6 British Literature 2",
+                        "honors": false,
+                        "course_id": "4051fcbe",
+                        "course_letters": "ENGL 6",
+                        "title": "British Literature 2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "LTEN 22",
+              "uc_course_title": "Introduction to the Literature of the British Isles: 1660-1832",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "ENGL 5 British Literature 1",
+                        "honors": false,
+                        "course_id": "946aa160",
+                        "course_letters": "ENGL 5",
+                        "title": "British Literature 1"
+                      },
+                      {
+                        "name": "ENGL 6 British Literature 2",
+                        "honors": false,
+                        "course_id": "4051fcbe",
+                        "course_letters": "ENGL 6",
+                        "title": "British Literature 2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "LTEN 23",
+              "uc_course_title": "Introduction to the Literature of the British Isles: 1832-Present",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "ENGL 5 British Literature 1",
+                        "honors": false,
+                        "course_id": "946aa160",
+                        "course_letters": "ENGL 5",
+                        "title": "British Literature 1"
+                      },
+                      {
+                        "name": "ENGL 6 British Literature 2",
+                        "honors": false,
+                        "course_id": "4051fcbe",
+                        "course_letters": "ENGL 6",
+                        "title": "British Literature 2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "B",
+          "section_title": "Section B",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "LTEN 25",
+              "uc_course_title": "Introduction to the Literature of the United States, Beginnings to 1865",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "ENGL 7 American Literature 1",
+                        "honors": false,
+                        "course_id": "db9ccccf",
+                        "course_letters": "ENGL 7",
+                        "title": "American Literature 1"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "LTEN 26",
+              "uc_course_title": "Introduction to the Literature of the United States, 1865 to the Present",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "ENGL 8 American Literature 2",
+                        "honors": false,
+                        "course_id": "d5325616",
+                        "course_letters": "ENGL 8",
+                        "title": "American Literature 2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "C",
+          "section_title": "Section C",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "LTEN 27",
+              "uc_course_title": "Introduction to African American Literature",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "ENGL 34 Afro-American Literature",
+                        "honors": false,
+                        "course_id": "d8c0243a",
+                        "course_letters": "ENGL 34",
+                        "title": "Afro-American Literature"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "LTEN 28",
+              "uc_course_title": "Introduction to Asian-American Literature",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "LTEN 29",
+              "uc_course_title": "Introduction to Chicano Literature",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "ENGL 53 Latino Literature in the United States",
+                        "honors": false,
+                        "course_id": "63b74c48",
+                        "course_letters": "ENGL 53",
+                        "title": "Latino Literature in the United States"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "D",
+          "section_title": "Section D",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "GSS 21",
+              "uc_course_title": "​Africa: History, Culture, and Politics",
+              "section_id": "D",
+              "section_title": "Section D",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "GSS 22",
+              "uc_course_title": "​LatinAm Carib History Culture",
+              "section_id": "D",
+              "section_title": "Section D",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "GSS 23",
+              "uc_course_title": "China EastAsia History Culture",
+              "section_id": "D",
+              "section_title": "Section D",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "ENGL 40 Asian Literature",
+                        "honors": false,
+                        "course_id": "58bbb273",
+                        "course_letters": "ENGL 40",
+                        "title": "Asian Literature"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "GSS 25",
+              "uc_course_title": "Middle East History & Culture",
+              "section_id": "D",
+              "section_title": "Section D",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "GSS 26",
+              "uc_course_title": "​South Asia History & Culture",
+              "section_id": "D",
+              "section_title": "Section D",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "E",
+          "section_title": "Section E",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "LTWR 8A",
+              "uc_course_title": "Writing Fiction",
+              "section_id": "E",
+              "section_title": "Section E",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "LTWR 8B",
+              "uc_course_title": "Writing Poetry",
+              "section_id": "E",
+              "section_title": "Section E",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "LTWR 8C",
+              "uc_course_title": "Writing Nonfiction",
+              "section_id": "E",
+              "section_title": "Section E",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "F",
+          "section_title": "Section F",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "LTFR 2A",
+              "uc_course_title": "Intermediate French I",
+              "section_id": "F",
+              "section_title": "Section F",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            },
+            {
+              "uc_course_id": "LTFR 2B",
+              "uc_course_title": "Intermediate French II",
+              "section_id": "F",
+              "section_title": "Section F",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            },
+            {
+              "uc_course_id": "LTFR 2C",
+              "uc_course_title": "Intermediate French III: Composition and Cultural Topics",
+              "section_id": "F",
+              "section_title": "Section F",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "G",
+          "section_title": "Section G",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "JWSP 1",
+              "uc_course_title": "Beginning Hebrew",
+              "section_id": "G",
+              "section_title": "Section G",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "HEBREW 1 Elementary Hebrew I",
+                        "honors": false,
+                        "course_id": "384dffc6",
+                        "course_letters": "HEBREW 1",
+                        "title": "Elementary Hebrew I"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 5.0
+            },
+            {
+              "uc_course_id": "JWSP 2",
+              "uc_course_title": "Intermediate Hebrew",
+              "section_id": "G",
+              "section_title": "Section G",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "HEBREW 2 Elementary Hebrew II",
+                        "honors": false,
+                        "course_id": "190239b9",
+                        "course_letters": "HEBREW 2",
+                        "title": "Elementary Hebrew II"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 5.0
+            },
+            {
+              "uc_course_id": "JWSP 3",
+              "uc_course_title": "Intermediate Hebrew, Continued",
+              "section_id": "G",
+              "section_title": "Section G",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            }
+          ]
+        },
+        {
+          "section_id": "H",
+          "section_title": "Section H",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "LTGM 2A",
+              "uc_course_title": "Intermediate German I",
+              "section_id": "H",
+              "section_title": "Section H",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            },
+            {
+              "uc_course_id": "LTGM 2B",
+              "uc_course_title": "Intermediate German II",
+              "section_id": "H",
+              "section_title": "Section H",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            },
+            {
+              "uc_course_id": "LTGM 2C",
+              "uc_course_title": "Intermediate German III",
+              "section_id": "H",
+              "section_title": "Section H",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "I",
+          "section_title": "Section I",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "LTGK 1",
+              "uc_course_title": "Beginning Greek",
+              "section_id": "I",
+              "section_title": "Section I",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "LTGK 2",
+              "uc_course_title": "Intermediate Greek I",
+              "section_id": "I",
+              "section_title": "Section I",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "LTGK 3",
+              "uc_course_title": "Intermediate Greek II",
+              "section_id": "I",
+              "section_title": "Section I",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "J",
+          "section_title": "Section J",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "LTIT 2A",
+              "uc_course_title": "Intermediate Italian I",
+              "section_id": "J",
+              "section_title": "Section J",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            },
+            {
+              "uc_course_id": "LTIT 2B",
+              "uc_course_title": "Intermediate Italian II",
+              "section_id": "J",
+              "section_title": "Section J",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            },
+            {
+              "uc_course_id": "LTIT 50",
+              "uc_course_title": "Advanced Italian",
+              "section_id": "J",
+              "section_title": "Section J",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "K",
+          "section_title": "Section K",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "LTLA 1",
+              "uc_course_title": "Beginning Latin",
+              "section_id": "K",
+              "section_title": "Section K",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "LTLA 2",
+              "uc_course_title": "Intermediate Latin I",
+              "section_id": "K",
+              "section_title": "Section K",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "LTLA 3",
+              "uc_course_title": "Intermediate Latin II",
+              "section_id": "K",
+              "section_title": "Section K",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "L",
+          "section_title": "Section L",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "LTRU 1A",
+              "uc_course_title": "First-Year Russian",
+              "section_id": "L",
+              "section_title": "Section L",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            },
+            {
+              "uc_course_id": "LTRU 1B",
+              "uc_course_title": "First-Year Russian",
+              "section_id": "L",
+              "section_title": "Section L",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            },
+            {
+              "uc_course_id": "LTRU 1C",
+              "uc_course_title": "First-Year Russian",
+              "section_id": "L",
+              "section_title": "Section L",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            },
+            {
+              "uc_course_id": "LTRU 2A",
+              "uc_course_title": "Second-Year Russian",
+              "section_id": "L",
+              "section_title": "Section L",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            },
+            {
+              "uc_course_id": "LTRU 2B",
+              "uc_course_title": "Second-Year Russian",
+              "section_id": "L",
+              "section_title": "Section L",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            }
+          ]
+        },
+        {
+          "section_id": "M",
+          "section_title": "Section M",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "LTSP 2A",
+              "uc_course_title": "Intermediate Spanish I: Foundations",
+              "section_id": "M",
+              "section_title": "Section M",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            },
+            {
+              "uc_course_id": "LTSP 2B",
+              "uc_course_title": "Intermediate Spanish II: Readings and Composition",
+              "section_id": "M",
+              "section_title": "Section M",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            },
+            {
+              "uc_course_id": "LTSP 2C",
+              "uc_course_title": "Intermediate Spanish III: Cultural Topics and Conversation",
+              "section_id": "M",
+              "section_title": "Section M",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "LTSP 2D",
+              "uc_course_title": "Intermediate/Advanced Spanish: Spanish for Bilingual Speakers",
+              "section_id": "M",
+              "section_title": "Section M",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "LTSP 2E",
+              "uc_course_title": "Advanced Readings and Composition for Bilingual Speakers",
+              "section_id": "M",
+              "section_title": "Section M",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "N",
+          "section_title": "Section N",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "LTKO 1A",
+              "uc_course_title": "Beginning Korean: First Year I",
+              "section_id": "N",
+              "section_title": "Section N",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            },
+            {
+              "uc_course_id": "LTKO 1B",
+              "uc_course_title": "Beginning Korean: First Year II",
+              "section_id": "N",
+              "section_title": "Section N",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            },
+            {
+              "uc_course_id": "LTKO 1C",
+              "uc_course_title": "Beginning Korean: First Year III",
+              "section_id": "N",
+              "section_title": "Section N",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            },
+            {
+              "uc_course_id": "LTKO 2A",
+              "uc_course_title": "Intermediate Korean: Second Year I",
+              "section_id": "N",
+              "section_title": "Section N",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            },
+            {
+              "uc_course_id": "LTKO 2B",
+              "uc_course_title": "Intermediate Korean: Second Year II",
+              "section_id": "N",
+              "section_title": "Section N",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            },
+            {
+              "uc_course_id": "LTKO 2C",
+              "uc_course_title": "Intermediate Korean: Second Year III",
+              "section_id": "N",
+              "section_title": "Section N",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            }
+          ]
+        },
+        {
+          "section_id": "O",
+          "section_title": "Section O",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "LISL 1A + LISL 1AX",
+              "uc_course_title": "Series: LISL 1A, LISL 1AX",
+              "_is_uc_series_requirement": true,
+              "_series_definition": [
+                {
+                  "course_letters": "LISL 1A",
+                  "title": "American Sign Language Conversation"
+                },
+                {
+                  "course_letters": "LISL 1AX",
+                  "title": "Analysis of American Sign Language"
+                }
+              ],
+              "section_id": "O",
+              "section_title": "Section O",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              }
+            },
+            {
+              "uc_course_id": "LISL 1B + LISL 1BX",
+              "uc_course_title": "Series: LISL 1B, LISL 1BX",
+              "_is_uc_series_requirement": true,
+              "_series_definition": [
+                {
+                  "course_letters": "LISL 1B",
+                  "title": "American Sign Language Conversation"
+                },
+                {
+                  "course_letters": "LISL 1BX",
+                  "title": "Analysis of American Sign Language"
+                }
+              ],
+              "section_id": "O",
+              "section_title": "Section O",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              }
+            },
+            {
+              "uc_course_id": "LISL 1C + LISL 1CX",
+              "uc_course_title": "Series: LISL 1C, LISL 1CX",
+              "_is_uc_series_requirement": true,
+              "_series_definition": [
+                {
+                  "course_letters": "LISL 1C",
+                  "title": "American Sign Language Conversation"
+                },
+                {
+                  "course_letters": "LISL 1CX",
+                  "title": "Analysis of American Sign Language"
+                }
+              ],
+              "section_id": "O",
+              "section_title": "Section O",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              }
+            },
+            {
+              "uc_course_id": "LISL 1D + LISL 1DX",
+              "uc_course_title": "Series: LISL 1D, LISL 1DX",
+              "_is_uc_series_requirement": true,
+              "_series_definition": [
+                {
+                  "course_letters": "LISL 1D",
+                  "title": "American Sign Language Conversation"
+                },
+                {
+                  "course_letters": "LISL 1DX",
+                  "title": "Analysis of American Sign Language"
+                }
+              ],
+              "section_id": "O",
+              "section_title": "Section O",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              }
+            },
+            {
+              "uc_course_id": "LISL 1E",
+              "uc_course_title": "Intermediate American Sign Language Conversation",
+              "section_id": "O",
+              "section_title": "Section O",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

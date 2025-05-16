@@ -1,0 +1,1208 @@
+{
+  "major": "Psychology B.S. with a Specialization in Clinical Psychology",
+  "from": "Santa Monica College",
+  "to": "University of California, San Diego",
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F137%2Fto%2F7%2FMajor%2F9726f110-4ede-4055-a7e6-08dca807bc76",
+  "catalog_year": "2024–2025",
+  "general_advice": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. For more details, please visit our main website: http://psychology.ucsd.edu/ and specific information for New and Prospective Students . Special Advising Notes: All majors within the Psychology Department must complete listed lower division major course requirements, regardless of IGETC certification. Lower-division courses cannot be petitioned for upper-division major course requirements. All Community College courses are considered lower-division. For the Natural Science courses, students are required to complete a total of any three lower-division natural science courses from the list below. * Please note: only one of BILD 12, COGS 17 or PSYC 2 may be counted towards this requirement. For the Formal Skills courses, students are required to complete a total of three lower-division formal skills courses in research methods and calculus. Only one research methods course can be applied to the formal skills area . For careers that require advanced calculus, we recommend students complete MATH 20A and MATH 20B. For students pursuing future graduate study, we recommend COGS 18, CSE 11, ECE 15, or MAE 8.\n\nUC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below: Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdf International Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf",
+  "groups": [
+    {
+      "group_id": "1",
+      "group_title": "Complete 3 courses from the following",
+      "group_logic_type": "select_n_courses",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "BILD 1",
+              "uc_course_title": "The Cell",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 21 Cell Biology and Evolution",
+                        "honors": false,
+                        "course_id": "9a5ba289",
+                        "course_letters": "BIOL 21",
+                        "title": "Cell Biology and Evolution"
+                      },
+                      {
+                        "name": "BIOL 22 Genetics and Molecular Biology",
+                        "honors": false,
+                        "course_id": "41321c85",
+                        "course_letters": "BIOL 22",
+                        "title": "Genetics and Molecular Biology"
+                      },
+                      {
+                        "name": "BIOL 23 Organismal and Environmental Biology",
+                        "honors": false,
+                        "course_id": "2b7ada8b",
+                        "course_letters": "BIOL 23",
+                        "title": "Organismal and Environmental Biology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "BILD 2",
+              "uc_course_title": "Multicellular Life",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 21 Cell Biology and Evolution",
+                        "honors": false,
+                        "course_id": "9a5ba289",
+                        "course_letters": "BIOL 21",
+                        "title": "Cell Biology and Evolution"
+                      },
+                      {
+                        "name": "BIOL 22 Genetics and Molecular Biology",
+                        "honors": false,
+                        "course_id": "41321c85",
+                        "course_letters": "BIOL 22",
+                        "title": "Genetics and Molecular Biology"
+                      },
+                      {
+                        "name": "BIOL 23 Organismal and Environmental Biology",
+                        "honors": false,
+                        "course_id": "2b7ada8b",
+                        "course_letters": "BIOL 23",
+                        "title": "Organismal and Environmental Biology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "BILD 3",
+              "uc_course_title": "Organismic and Evolutionary Biology",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 21 Cell Biology and Evolution",
+                        "honors": false,
+                        "course_id": "9a5ba289",
+                        "course_letters": "BIOL 21",
+                        "title": "Cell Biology and Evolution"
+                      },
+                      {
+                        "name": "BIOL 22 Genetics and Molecular Biology",
+                        "honors": false,
+                        "course_id": "41321c85",
+                        "course_letters": "BIOL 22",
+                        "title": "Genetics and Molecular Biology"
+                      },
+                      {
+                        "name": "BIOL 23 Organismal and Environmental Biology",
+                        "honors": false,
+                        "course_id": "2b7ada8b",
+                        "course_letters": "BIOL 23",
+                        "title": "Organismal and Environmental Biology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "BILD 10",
+              "uc_course_title": "Fundamental Concepts of Modern Biology",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 3 Fundamentals of Biology",
+                        "honors": false,
+                        "course_id": "249a6e29",
+                        "course_letters": "BIOL 3",
+                        "title": "Fundamentals of Biology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "BILD 20",
+              "uc_course_title": "Human Genetics in Modern Society",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "BILD 26",
+              "uc_course_title": "Human Physiology",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PHYS 3 Human Physiology",
+                        "honors": false,
+                        "course_id": "bd8ad8e2",
+                        "course_letters": "PHYS 3",
+                        "title": "Human Physiology"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 2 Human Biology",
+                        "honors": false,
+                        "course_id": "f52b4606",
+                        "course_letters": "BIOL 2",
+                        "title": "Human Biology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "B",
+          "section_title": "Section B",
+          "section_logic_type": "select_n_courses",
+          "uc_courses": [
+            {
+              "uc_course_id": "CHEM 4",
+              "uc_course_title": "Basic Chemistry",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CHEM 10 Introductory General Chemistry",
+                        "honors": false,
+                        "course_id": "cc3a8753",
+                        "course_letters": "CHEM 10",
+                        "title": "Introductory General Chemistry"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CHEM 9 Everyday Chemistry",
+                        "honors": false,
+                        "course_id": "9bc21f08",
+                        "course_letters": "CHEM 9",
+                        "title": "Everyday Chemistry"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "CHEM 11",
+              "uc_course_title": "The Periodic Table",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ],
+          "n_courses": 1
+        },
+        {
+          "section_id": "C",
+          "section_title": "Section C",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "CHEM 6A",
+              "uc_course_title": "General Chemistry I",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CHEM 11 General Chemistry I",
+                        "honors": false,
+                        "course_id": "c944b491",
+                        "course_letters": "CHEM 11",
+                        "title": "General Chemistry I"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "CHEM 6B",
+              "uc_course_title": "General Chemistry II",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CHEM 11 General Chemistry I",
+                        "honors": false,
+                        "course_id": "c944b491",
+                        "course_letters": "CHEM 11",
+                        "title": "General Chemistry I"
+                      },
+                      {
+                        "name": "CHEM 12 General Chemistry II",
+                        "honors": false,
+                        "course_id": "1b1661cf",
+                        "course_letters": "CHEM 12",
+                        "title": "General Chemistry II"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "CHEM 6C",
+              "uc_course_title": "General Chemistry III",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CHEM 12 General Chemistry II",
+                        "honors": false,
+                        "course_id": "1b1661cf",
+                        "course_letters": "CHEM 12",
+                        "title": "General Chemistry II"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "D",
+          "section_title": "Section D",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "PHYS 1A",
+              "uc_course_title": "Mechanics",
+              "section_id": "D",
+              "section_title": "Section D",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PHYSCS 8 Calculus-Based Physics 1 with Lab",
+                        "honors": false,
+                        "course_id": "5ce00262",
+                        "course_letters": "PHYSCS 8",
+                        "title": "Calculus-Based Physics 1 with Lab"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 3.0
+            },
+            {
+              "uc_course_id": "PHYS 1B",
+              "uc_course_title": "Electricity and Magnetism",
+              "section_id": "D",
+              "section_title": "Section D",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PHYSCS 9 Calculus-Based Physics 2 with Lab",
+                        "honors": false,
+                        "course_id": "f617d0fe",
+                        "course_letters": "PHYSCS 9",
+                        "title": "Calculus-Based Physics 2 with Lab"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 3.0
+            },
+            {
+              "uc_course_id": "PHYS 1C",
+              "uc_course_title": "Waves, Optics, and Modern Physics",
+              "section_id": "D",
+              "section_title": "Section D",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PHYSCS 8 Calculus-Based Physics 1 with Lab",
+                        "honors": false,
+                        "course_id": "5ce00262",
+                        "course_letters": "PHYSCS 8",
+                        "title": "Calculus-Based Physics 1 with Lab"
+                      },
+                      {
+                        "name": "PHYSCS 9 Calculus-Based Physics 2 with Lab",
+                        "honors": false,
+                        "course_id": "f617d0fe",
+                        "course_letters": "PHYSCS 9",
+                        "title": "Calculus-Based Physics 2 with Lab"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 3.0
+            },
+            {
+              "uc_course_id": "PHYS 2A",
+              "uc_course_title": "Physics - Mechanics",
+              "section_id": "D",
+              "section_title": "Section D",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PHYSCS 21 Mechanics with Lab",
+                        "honors": false,
+                        "course_id": "58ce760a",
+                        "course_letters": "PHYSCS 21",
+                        "title": "Mechanics with Lab"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "PHYS 2B",
+              "uc_course_title": "Physics - Electricity and Magnetism",
+              "section_id": "D",
+              "section_title": "Section D",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PHYSCS 22 Electricity and Magnetism with Lab",
+                        "honors": false,
+                        "course_id": "33b01456",
+                        "course_letters": "PHYSCS 22",
+                        "title": "Electricity and Magnetism with Lab"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "PHYS 2C",
+              "uc_course_title": "Physics - Fluids, Waves, Thermodynamics, and Optics",
+              "section_id": "D",
+              "section_title": "Section D",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PHYSCS 23 Fluids, Waves, Thermodynamics, Optics with Lab",
+                        "honors": false,
+                        "course_id": "d1f1552f",
+                        "course_letters": "PHYSCS 23",
+                        "title": "Fluids, Waves, Thermodynamics, Optics with Lab"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "PHYS 10",
+              "uc_course_title": "Concepts in Physics",
+              "section_id": "D",
+              "section_title": "Section D",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PHYSCS 12 Introductory Physics - Non-Laboratory",
+                        "honors": false,
+                        "course_id": "0b44fd34",
+                        "course_letters": "PHYSCS 12",
+                        "title": "Introductory Physics - Non-Laboratory"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PHYSCS 14 Introductory Physics with Laboratory",
+                        "honors": false,
+                        "course_id": "91de57a6",
+                        "course_letters": "PHYSCS 14",
+                        "title": "Introductory Physics with Laboratory"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "PHYS 11",
+              "uc_course_title": "Survey of Physics",
+              "section_id": "D",
+              "section_title": "Section D",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "E",
+          "section_title": "Section E",
+          "section_logic_type": "select_n_courses",
+          "uc_courses": [
+            {
+              "uc_course_id": "BILD 12",
+              "uc_course_title": "Neurobiology and Behavior",
+              "section_id": "E",
+              "section_title": "Section E",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "COGS 17",
+              "uc_course_title": "Neurobiology of Cognition",
+              "section_id": "E",
+              "section_title": "Section E",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PSYCH 2 Physiological Psychology",
+                        "honors": false,
+                        "course_id": "91bef7bf",
+                        "course_letters": "PSYCH 2",
+                        "title": "Physiological Psychology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "PSYC 2",
+              "uc_course_title": "General Psychology: Biological Foundations",
+              "section_id": "E",
+              "section_title": "Section E",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PSYCH 2 Physiological Psychology",
+                        "honors": false,
+                        "course_id": "91bef7bf",
+                        "course_letters": "PSYCH 2",
+                        "title": "Physiological Psychology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ],
+          "n_courses": 1
+        }
+      ],
+      "overarching_title": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "n_courses": 3
+    },
+    {
+      "group_id": "2",
+      "group_title": "Complete Section A OR Section B",
+      "group_logic_type": "choose_one_section",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "MATH 10A",
+              "uc_course_title": "Calculus I",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 7 Calculus 1",
+                        "honors": false,
+                        "course_id": "aa6a8148",
+                        "course_letters": "MATH 7",
+                        "title": "Calculus 1"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 28 Calculus 1 for Business and Social Science",
+                        "honors": false,
+                        "course_id": "c21ee822",
+                        "course_letters": "MATH 28",
+                        "title": "Calculus 1 for Business and Social Science"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 10B",
+              "uc_course_title": "Calculus II",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 8 Calculus 2",
+                        "honors": false,
+                        "course_id": "e5f25f6b",
+                        "course_letters": "MATH 8",
+                        "title": "Calculus 2"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 28 Calculus 1 for Business and Social Science",
+                        "honors": false,
+                        "course_id": "c21ee822",
+                        "course_letters": "MATH 28",
+                        "title": "Calculus 1 for Business and Social Science"
+                      },
+                      {
+                        "name": "MATH 29 Calculus 2 for Business and Social Science",
+                        "honors": false,
+                        "course_id": "c7b55b9b",
+                        "course_letters": "MATH 29",
+                        "title": "Calculus 2 for Business and Social Science"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "B",
+          "section_title": "Section B",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "MATH 20A",
+              "uc_course_title": "Calculus for Science and Engineering",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 7 Calculus 1",
+                        "honors": false,
+                        "course_id": "aa6a8148",
+                        "course_letters": "MATH 7",
+                        "title": "Calculus 1"
+                      },
+                      {
+                        "name": "MATH 8 Calculus 2",
+                        "honors": false,
+                        "course_id": "e5f25f6b",
+                        "course_letters": "MATH 8",
+                        "title": "Calculus 2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20B",
+              "uc_course_title": "Calculus for Science and Engineering",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 8 Calculus 2",
+                        "honors": false,
+                        "course_id": "e5f25f6b",
+                        "course_letters": "MATH 8",
+                        "title": "Calculus 2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        }
+      ],
+      "overarching_title": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "n_sections_to_choose": 1
+    },
+    {
+      "group_id": "3",
+      "group_title": "Complete 1 course from A",
+      "group_logic_type": "select_n_courses",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "select_n_courses",
+          "uc_courses": [
+            {
+              "uc_course_id": "PSYC 70",
+              "uc_course_title": "Research Methods in Psychology",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PSYCH 7 Research Methods in Psychology",
+                        "honors": false,
+                        "course_id": "78b2d520",
+                        "course_letters": "PSYCH 7",
+                        "title": "Research Methods in Psychology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "COGS 14A",
+              "uc_course_title": "Introduction to Research Methods",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ],
+          "n_courses": 1
+        }
+      ],
+      "overarching_title": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "n_courses": 1
+    },
+    {
+      "group_id": "4",
+      "group_title": "Complete 1 course from A",
+      "group_logic_type": "select_n_courses",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "select_n_courses",
+          "uc_courses": [
+            {
+              "uc_course_id": "COGS 18",
+              "uc_course_title": "Introduction to Python",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "CSE 6R",
+              "uc_course_title": "Introduction to Computer Science and Object-Oriented Programming: Python",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CS 87B Advanced Python Programming",
+                        "honors": false,
+                        "course_id": "e1641c95",
+                        "course_letters": "CS 87B",
+                        "title": "Advanced Python Programming"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "CSE 8A",
+              "uc_course_title": "Introduction to Programming and Computational Problem Solving I",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "CSE 8B",
+              "uc_course_title": "Introduction to Programming and Computational Problem Solving II",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CS 55 JAVA Programming",
+                        "honors": false,
+                        "course_id": "c51a2407",
+                        "course_letters": "CS 55",
+                        "title": "JAVA Programming"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "CSE 11",
+              "uc_course_title": "Introduction to Programming and Computational Problem Solving - Accelerated Pace",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CS 55 JAVA Programming",
+                        "honors": false,
+                        "course_id": "c51a2407",
+                        "course_letters": "CS 55",
+                        "title": "JAVA Programming"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "CSE 12",
+              "uc_course_title": "Basic Data Structures and Object-Oriented Design",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CS 20A Data Structures with C++",
+                        "honors": false,
+                        "course_id": "73c8f049",
+                        "course_letters": "CS 20A",
+                        "title": "Data Structures with C++"
+                      },
+                      {
+                        "name": "CS 20B Data Structures with JAVA",
+                        "honors": false,
+                        "course_id": "77d65522",
+                        "course_letters": "CS 20B",
+                        "title": "Data Structures with JAVA"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "CSS 1",
+              "uc_course_title": "Introductory Programming for Computational Social Science",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "ECE 15",
+              "uc_course_title": "Engineering Computation",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "This course must be taken at the university after transfer",
+                    "honors": false,
+                    "course_id": "b5c69e70",
+                    "course_letters": "N/A",
+                    "title": "This course must be taken at the university after transfer"
+                  }
+                ],
+                "no_articulation": true,
+                "no_articulation_reason": "This course must be taken at the university after transfer"
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MAE 5",
+              "uc_course_title": "Quantitative Computer Skills",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MAE 8",
+              "uc_course_title": "MATLAB Programming for Engineering Analysis",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CS 52 C++ Programming",
+                        "honors": false,
+                        "course_id": "2cd23d39",
+                        "course_letters": "CS 52",
+                        "title": "C++ Programming"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ],
+          "n_courses": 1
+        }
+      ],
+      "overarching_title": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "n_courses": 1
+    },
+    {
+      "group_id": "5",
+      "group_title": "Complete 1 course from A",
+      "group_logic_type": "select_n_courses",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "select_n_courses",
+          "uc_courses": [
+            {
+              "uc_course_id": "PSYC 60",
+              "uc_course_title": "Introduction to Statistics",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 54 Elementary Statistics",
+                        "honors": false,
+                        "course_id": "f23ccf08",
+                        "course_letters": "MATH 54",
+                        "title": "Elementary Statistics"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "COGS 14B",
+              "uc_course_title": "Introduction to Statistical Analysis",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 54 Elementary Statistics",
+                        "honors": false,
+                        "course_id": "f23ccf08",
+                        "course_letters": "MATH 54",
+                        "title": "Elementary Statistics"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 11",
+              "uc_course_title": "Calculus Based Elementary Probability and Statistics",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 5.0
+            }
+          ],
+          "n_courses": 1
+        }
+      ],
+      "overarching_title": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "n_courses": 1
+    }
+  ]
+}

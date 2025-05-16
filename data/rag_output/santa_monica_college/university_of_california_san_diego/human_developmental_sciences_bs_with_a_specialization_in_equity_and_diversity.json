@@ -1,0 +1,900 @@
+{
+  "major": "Human Developmental Sciences B.S. with a Specialization in Equity & Diversity",
+  "from": "Santa Monica College",
+  "to": "University of California, San Diego",
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F137%2Fto%2F7%2FMajor%2Fdc9fb93d-e610-455b-a814-08dca807bc76",
+  "catalog_year": "2024–2025",
+  "general_advice": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly encouraged to complete as many lower-division preparatory courses as possible prior to enrollment at UC San Diego. The scientific study of human development focuses on issues of growth, development , and behavioral change across the lifespan. The UCSD Human Developmental Sciences Program (HDS) is interdisciplinary, incorporating courses from the Departments of Anthropology, Biology, Cognitive Science, Communication, Ethnic Studies, History, Linguistics, Literature, Psychology, Public Health, Sociology, Education Studies, and Urban Studies and Planning Program. The HDS curriculum is designed to emphasize the integration of information across these different perspectives, with the view that understanding development from any given perspective requires consideration of many contributing factors. Thus, the classes cover a broad spectrum of topics; from brain and perceptual development, to reasoning and problem solving, to social interaction and the evolution of cultural systems. The Human Developmental Sciences Major unifies and coordinates the excellent research and teaching resources currently available on campus across these areas, and profiles a breadth of influences that shape human behavior. For more information visit hdsciences.ucsd.edu . All courses taken to satisfy requirements in any Human Developmental Sciences (HDS) major must be taken for a letter grade. Transfer students should complete all courses comparable to the HDS major preparation courses EXCEPT HDS 1 (which MUST be taken at UCSD) before transferring. Students must complete all transfer courses applicable to the HDS major with a minimum grade of C- or better. The major preparation courses are: HDs 1-Introduction to Human Developmental Sciences One statistics course HDS 60 Two formal skills courses selected from the following: •Option 1: two courses from the MATH 10 or MATH 20 sequence •Option 2: one course from the MATH 10 or MATH 20 sequence, and one computer programming course from the approved list: CSE 7, CSE 8A, CSE 11. At least one course in calculus is required. Two biological science courses selected from: ANTH 2, BILD 1, BILD 2, BILD 3, BILD 12, BILD 20, BILD 26, BILD 38, or COGS 17. Two social sciences courses selected from: ANTH 1, ANTH 3, CAT 1, CAT 2, COMM 10, COGS 1, FMPH 40, FMPH 50, HILD 7A, B, or C (only one allowed), LIGN 4, LIGN 7, LIGN 8, LIGN 101, MMW 121, MMW 122, PSYC 1, PSYC 2, PSYC 3, PSYC 6, PSYC 7, SOCI 1, or SOCI 20. PLEASE NOTE : Transfer courses that have not been articulated on ASSIST may be considered to fulfill HDS requirements, but must be approved via petition on an individual basis by the HDS Program. Those transferable courses that are very similar to UCSD's will be accepted, as well as comparable courses at an equivalent academic level ONLY for the Human Development major.\n\nUC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below: Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdf International Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf",
+  "groups": [
+    {
+      "group_id": "1",
+      "group_title": "All of the following UC courses are required",
+      "group_logic_type": "all_required",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "HDS 1",
+              "uc_course_title": "Introduction to Human Developmental Sciences",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "This course must be taken at the university after transfer",
+                    "honors": false,
+                    "course_id": "b5c69e70",
+                    "course_letters": "N/A",
+                    "title": "This course must be taken at the university after transfer"
+                  }
+                ],
+                "no_articulation": true,
+                "no_articulation_reason": "This course must be taken at the university after transfer"
+              },
+              "units": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "2",
+      "group_title": "All of the following UC courses are required",
+      "group_logic_type": "all_required",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "HDS 60",
+              "uc_course_title": "Introduction to Statistical Analysis",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "This course must be taken at the university after transfer",
+                    "honors": false,
+                    "course_id": "b5c69e70",
+                    "course_letters": "N/A",
+                    "title": "This course must be taken at the university after transfer"
+                  }
+                ],
+                "no_articulation": true,
+                "no_articulation_reason": "This course must be taken at the university after transfer"
+              },
+              "units": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "3",
+      "group_title": "Complete 2 courses from the following",
+      "group_logic_type": "select_n_courses",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "select_n_courses",
+          "uc_courses": [
+            {
+              "uc_course_id": "ANTH 2",
+              "uc_course_title": "Human Origins",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "ANTHRO 1 Biological Anthropology",
+                        "honors": false,
+                        "course_id": "0006cf2a",
+                        "course_letters": "ANTHRO 1",
+                        "title": "Biological Anthropology"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "ANTHRO 5 Biological Anthropology with Laboratory",
+                        "honors": false,
+                        "course_id": "958555c4",
+                        "course_letters": "ANTHRO 5",
+                        "title": "Biological Anthropology with Laboratory"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "BILD 1",
+              "uc_course_title": "The Cell",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 21 Cell Biology and Evolution",
+                        "honors": false,
+                        "course_id": "9a5ba289",
+                        "course_letters": "BIOL 21",
+                        "title": "Cell Biology and Evolution"
+                      },
+                      {
+                        "name": "BIOL 22 Genetics and Molecular Biology",
+                        "honors": false,
+                        "course_id": "41321c85",
+                        "course_letters": "BIOL 22",
+                        "title": "Genetics and Molecular Biology"
+                      },
+                      {
+                        "name": "BIOL 23 Organismal and Environmental Biology",
+                        "honors": false,
+                        "course_id": "2b7ada8b",
+                        "course_letters": "BIOL 23",
+                        "title": "Organismal and Environmental Biology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "BILD 2",
+              "uc_course_title": "Multicellular Life",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 21 Cell Biology and Evolution",
+                        "honors": false,
+                        "course_id": "9a5ba289",
+                        "course_letters": "BIOL 21",
+                        "title": "Cell Biology and Evolution"
+                      },
+                      {
+                        "name": "BIOL 22 Genetics and Molecular Biology",
+                        "honors": false,
+                        "course_id": "41321c85",
+                        "course_letters": "BIOL 22",
+                        "title": "Genetics and Molecular Biology"
+                      },
+                      {
+                        "name": "BIOL 23 Organismal and Environmental Biology",
+                        "honors": false,
+                        "course_id": "2b7ada8b",
+                        "course_letters": "BIOL 23",
+                        "title": "Organismal and Environmental Biology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "BILD 3",
+              "uc_course_title": "Organismic and Evolutionary Biology",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 21 Cell Biology and Evolution",
+                        "honors": false,
+                        "course_id": "9a5ba289",
+                        "course_letters": "BIOL 21",
+                        "title": "Cell Biology and Evolution"
+                      },
+                      {
+                        "name": "BIOL 22 Genetics and Molecular Biology",
+                        "honors": false,
+                        "course_id": "41321c85",
+                        "course_letters": "BIOL 22",
+                        "title": "Genetics and Molecular Biology"
+                      },
+                      {
+                        "name": "BIOL 23 Organismal and Environmental Biology",
+                        "honors": false,
+                        "course_id": "2b7ada8b",
+                        "course_letters": "BIOL 23",
+                        "title": "Organismal and Environmental Biology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "BILD 12",
+              "uc_course_title": "Neurobiology and Behavior",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "BILD 20",
+              "uc_course_title": "Human Genetics in Modern Society",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "BILD 26",
+              "uc_course_title": "Human Physiology",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PHYS 3 Human Physiology",
+                        "honors": false,
+                        "course_id": "bd8ad8e2",
+                        "course_letters": "PHYS 3",
+                        "title": "Human Physiology"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 2 Human Biology",
+                        "honors": false,
+                        "course_id": "f52b4606",
+                        "course_letters": "BIOL 2",
+                        "title": "Human Biology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "COGS 17",
+              "uc_course_title": "Neurobiology of Cognition",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PSYCH 2 Physiological Psychology",
+                        "honors": false,
+                        "course_id": "91bef7bf",
+                        "course_letters": "PSYCH 2",
+                        "title": "Physiological Psychology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ],
+          "n_courses": 1
+        }
+      ],
+      "n_courses": 2
+    },
+    {
+      "group_id": "4",
+      "group_title": "Complete 2 courses from the following",
+      "group_logic_type": "select_n_courses",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "select_n_courses",
+          "uc_courses": [
+            {
+              "uc_course_id": "MATH 10A",
+              "uc_course_title": "Calculus I",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 7 Calculus 1",
+                        "honors": false,
+                        "course_id": "aa6a8148",
+                        "course_letters": "MATH 7",
+                        "title": "Calculus 1"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 28 Calculus 1 for Business and Social Science",
+                        "honors": false,
+                        "course_id": "c21ee822",
+                        "course_letters": "MATH 28",
+                        "title": "Calculus 1 for Business and Social Science"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 10B",
+              "uc_course_title": "Calculus II",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 8 Calculus 2",
+                        "honors": false,
+                        "course_id": "e5f25f6b",
+                        "course_letters": "MATH 8",
+                        "title": "Calculus 2"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 28 Calculus 1 for Business and Social Science",
+                        "honors": false,
+                        "course_id": "c21ee822",
+                        "course_letters": "MATH 28",
+                        "title": "Calculus 1 for Business and Social Science"
+                      },
+                      {
+                        "name": "MATH 29 Calculus 2 for Business and Social Science",
+                        "honors": false,
+                        "course_id": "c7b55b9b",
+                        "course_letters": "MATH 29",
+                        "title": "Calculus 2 for Business and Social Science"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 10C",
+              "uc_course_title": "Calculus III",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20A",
+              "uc_course_title": "Calculus for Science and Engineering",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 7 Calculus 1",
+                        "honors": false,
+                        "course_id": "aa6a8148",
+                        "course_letters": "MATH 7",
+                        "title": "Calculus 1"
+                      },
+                      {
+                        "name": "MATH 8 Calculus 2",
+                        "honors": false,
+                        "course_id": "e5f25f6b",
+                        "course_letters": "MATH 8",
+                        "title": "Calculus 2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20B",
+              "uc_course_title": "Calculus for Science and Engineering",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 8 Calculus 2",
+                        "honors": false,
+                        "course_id": "e5f25f6b",
+                        "course_letters": "MATH 8",
+                        "title": "Calculus 2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20C",
+              "uc_course_title": "Calculus and Analytic Geometry for Science and Engineering",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 11 Multivariable Calculus",
+                        "honors": false,
+                        "course_id": "7ad0fd47",
+                        "course_letters": "MATH 11",
+                        "title": "Multivariable Calculus"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "CSE 8A",
+              "uc_course_title": "Introduction to Programming and Computational Problem Solving I",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "CSE 11",
+              "uc_course_title": "Introduction to Programming and Computational Problem Solving - Accelerated Pace",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CS 55 JAVA Programming",
+                        "honors": false,
+                        "course_id": "c51a2407",
+                        "course_letters": "CS 55",
+                        "title": "JAVA Programming"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ],
+          "n_courses": 1
+        }
+      ],
+      "n_courses": 2
+    },
+    {
+      "group_id": "5",
+      "group_title": "Complete 2 courses from the following",
+      "group_logic_type": "select_n_courses",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "ANTH 1",
+              "uc_course_title": "Introduction to Culture",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "ANTHRO 2 Cultural Anthropology",
+                        "honors": false,
+                        "course_id": "3a7ec255",
+                        "course_letters": "ANTHRO 2",
+                        "title": "Cultural Anthropology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "ANTH 3",
+              "uc_course_title": "World Prehistory",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "ANTHRO 3 World Archaeology",
+                        "honors": false,
+                        "course_id": "df26f2e9",
+                        "course_letters": "ANTHRO 3",
+                        "title": "World Archaeology"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "ANTHRO 4 Methods of Archaeology",
+                        "honors": false,
+                        "course_id": "9e235f09",
+                        "course_letters": "ANTHRO 4",
+                        "title": "Methods of Archaeology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "COMM 10",
+              "uc_course_title": "Introduction to Communication",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "This course must be taken at the university after transfer",
+                    "honors": false,
+                    "course_id": "b5c69e70",
+                    "course_letters": "N/A",
+                    "title": "This course must be taken at the university after transfer"
+                  }
+                ],
+                "no_articulation": true,
+                "no_articulation_reason": "This course must be taken at the university after transfer"
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "COGS 1",
+              "uc_course_title": "Introduction to Cognitive Science",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "This course must be taken at the university after transfer",
+                    "honors": false,
+                    "course_id": "b5c69e70",
+                    "course_letters": "N/A",
+                    "title": "This course must be taken at the university after transfer"
+                  }
+                ],
+                "no_articulation": true,
+                "no_articulation_reason": "This course must be taken at the university after transfer"
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "B",
+          "section_title": "Section B",
+          "section_logic_type": "select_n_courses",
+          "uc_courses": [
+            {
+              "uc_course_id": "HILD 7A",
+              "uc_course_title": "Race and Ethnicity in the United States",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "HILD 7B",
+              "uc_course_title": "Race and Ethnicity in the United States",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "HILD 7C",
+              "uc_course_title": "Race and Ethnicity in the United States",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ],
+          "n_courses": 1
+        },
+        {
+          "section_id": "C",
+          "section_title": "Section C",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "PSYC 1",
+              "uc_course_title": "Psychology",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PSYCH 1 General Psychology",
+                        "honors": false,
+                        "course_id": "7daa99eb",
+                        "course_letters": "PSYCH 1",
+                        "title": "General Psychology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "PSYC 2",
+              "uc_course_title": "General Psychology: Biological Foundations",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PSYCH 2 Physiological Psychology",
+                        "honors": false,
+                        "course_id": "91bef7bf",
+                        "course_letters": "PSYCH 2",
+                        "title": "Physiological Psychology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "PSYC 3",
+              "uc_course_title": "General Psychology: Cognitive Foundations",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "SOCI 1",
+              "uc_course_title": "Introduction to Sociology",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "SOCIOL 1 Introduction to Sociology",
+                        "honors": false,
+                        "course_id": "b581f626",
+                        "course_letters": "SOCIOL 1",
+                        "title": "Introduction to Sociology"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "SOCIOL 1S Introduction to Sociology-Service Learning",
+                        "honors": false,
+                        "course_id": "05bd6348",
+                        "course_letters": "SOCIOL 1S",
+                        "title": "Introduction to Sociology-Service Learning"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "SOCI 20",
+              "uc_course_title": "Social Change in the Modern World",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ]
+        }
+      ],
+      "n_courses": 2
+    }
+  ]
+}

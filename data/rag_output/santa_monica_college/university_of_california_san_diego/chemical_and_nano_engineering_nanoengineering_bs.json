@@ -1,0 +1,495 @@
+{
+  "major": "Chemical and Nano Engineering: NanoEngineering B.S.",
+  "from": "Santa Monica College",
+  "to": "University of California, San Diego",
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75%2F137%2Fto%2F7%2FMajor%2Fa3bfedfc-6d2f-4eb8-a7e4-08dca807bc76",
+  "catalog_year": "2024–2025",
+  "general_advice": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Effective Fall 2017, major preparation will be required for this major. For details, visit: http://admissions.ucsd.edu/MajorPrep Effective Fall 2015, admission to all of the engineering majors at UC San Diego will be limited, as the majors have been declared capped. Students must apply to be directly admitted to the NanoEngineering major. Transfer students must have completed the following required courses in order to be considered for admission to the NanoEngineering major: • Calculus I - for Science and Engineering (Math 20A) • Calculus II - for Science and Engineering (Math 20B) • Calculus and Analytic Geometry (Math 20C) • Differential Equations (Math 20D) • Calculus-based physics series (Physics 2AB) • General Chemistry (Chemistry 6ABC) Special Advising Note: Preparing well for the major helps students move efficiently toward graduation. Transfer students may complete the B.S. in NanoEngineering in three years, if students have completed the required courses above, in addition to the following highly recommended courses: • Linear Algebra (Math 18, formerly 20F) • Calculus-based physics series(Physics 2CD) • General Chemistry Lab (Chemistry 7L) NanoEngineering is an ABET-accredited four-year curriculum which encompasses studies in nanoscale science, engineering and technology that have the potential to make valuable advances in various areas, such as new materials, biology and medicine; energy conversion; sensors; and environmental remediation. Nanoengineering is a highly diversified and multidisciplinary field. For more information please visit http://nanoengineering.ucsd.edu\n\nUC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below: Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdf International Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf",
+  "groups": [
+    {
+      "group_id": "1",
+      "group_title": null,
+      "group_logic_type": "all_required",
+      "sections": [
+        {
+          "section_id": "A",
+          "section_title": "Section A",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "MATH 18",
+              "uc_course_title": "Linear Algebra",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 13 Linear Algebra",
+                        "honors": false,
+                        "course_id": "d69fdaec",
+                        "course_letters": "MATH 13",
+                        "title": "Linear Algebra"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20A",
+              "uc_course_title": "Calculus for Science and Engineering",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 7 Calculus 1",
+                        "honors": false,
+                        "course_id": "aa6a8148",
+                        "course_letters": "MATH 7",
+                        "title": "Calculus 1"
+                      },
+                      {
+                        "name": "MATH 8 Calculus 2",
+                        "honors": false,
+                        "course_id": "e5f25f6b",
+                        "course_letters": "MATH 8",
+                        "title": "Calculus 2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20B",
+              "uc_course_title": "Calculus for Science and Engineering",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 8 Calculus 2",
+                        "honors": false,
+                        "course_id": "e5f25f6b",
+                        "course_letters": "MATH 8",
+                        "title": "Calculus 2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20C",
+              "uc_course_title": "Calculus and Analytic Geometry for Science and Engineering",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 11 Multivariable Calculus",
+                        "honors": false,
+                        "course_id": "7ad0fd47",
+                        "course_letters": "MATH 11",
+                        "title": "Multivariable Calculus"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20D",
+              "uc_course_title": "Introduction to Differential Equations",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 15 Differential Equations",
+                        "honors": false,
+                        "course_id": "feaa6766",
+                        "course_letters": "MATH 15",
+                        "title": "Differential Equations"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "MATH 20E",
+              "uc_course_title": "Vector Calculus",
+              "section_id": "A",
+              "section_title": "Section A",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "MATH 11 Multivariable Calculus",
+                        "honors": false,
+                        "course_id": "7ad0fd47",
+                        "course_letters": "MATH 11",
+                        "title": "Multivariable Calculus"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "B",
+          "section_title": "Section B",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "PHYS 2A",
+              "uc_course_title": "Physics - Mechanics",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PHYSCS 21 Mechanics with Lab",
+                        "honors": false,
+                        "course_id": "58ce760a",
+                        "course_letters": "PHYSCS 21",
+                        "title": "Mechanics with Lab"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "PHYS 2B",
+              "uc_course_title": "Physics - Electricity and Magnetism",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PHYSCS 22 Electricity and Magnetism with Lab",
+                        "honors": false,
+                        "course_id": "33b01456",
+                        "course_letters": "PHYSCS 22",
+                        "title": "Electricity and Magnetism with Lab"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "PHYS 2C",
+              "uc_course_title": "Physics - Fluids, Waves, Thermodynamics, and Optics",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PHYSCS 23 Fluids, Waves, Thermodynamics, Optics with Lab",
+                        "honors": false,
+                        "course_id": "d1f1552f",
+                        "course_letters": "PHYSCS 23",
+                        "title": "Fluids, Waves, Thermodynamics, Optics with Lab"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "PHYS 2D",
+              "uc_course_title": "Physics - Relativity and Quantum Physics",
+              "section_id": "B",
+              "section_title": "Section B",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "PHYSCS 24 Modern Physics with Lab",
+                        "honors": false,
+                        "course_id": "39ceb3b5",
+                        "course_letters": "PHYSCS 24",
+                        "title": "Modern Physics with Lab"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "C",
+          "section_title": "Section C",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "NANO 4",
+              "uc_course_title": "Experience NanoEngineering",
+              "section_id": "C",
+              "section_title": "Section C",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "This course must be taken at the university after transfer",
+                    "honors": false,
+                    "course_id": "b5c69e70",
+                    "course_letters": "N/A",
+                    "title": "This course must be taken at the university after transfer"
+                  }
+                ],
+                "no_articulation": true,
+                "no_articulation_reason": "This course must be taken at the university after transfer"
+              },
+              "units": 1.0
+            }
+          ]
+        },
+        {
+          "section_id": "D",
+          "section_title": "Section D",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "NANO 15",
+              "uc_course_title": "Engineering Computation Using MATLAB",
+              "section_id": "D",
+              "section_title": "Section D",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "name": "No Course Articulated",
+                    "honors": false,
+                    "course_id": "f5f99326",
+                    "course_letters": "N/A",
+                    "title": "No Course Articulated"
+                  }
+                ],
+                "no_articulation": true
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "E",
+          "section_title": "Section E",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "CHEM 6A",
+              "uc_course_title": "General Chemistry I",
+              "section_id": "E",
+              "section_title": "Section E",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CHEM 11 General Chemistry I",
+                        "honors": false,
+                        "course_id": "c944b491",
+                        "course_letters": "CHEM 11",
+                        "title": "General Chemistry I"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "CHEM 6B",
+              "uc_course_title": "General Chemistry II",
+              "section_id": "E",
+              "section_title": "Section E",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CHEM 11 General Chemistry I",
+                        "honors": false,
+                        "course_id": "c944b491",
+                        "course_letters": "CHEM 11",
+                        "title": "General Chemistry I"
+                      },
+                      {
+                        "name": "CHEM 12 General Chemistry II",
+                        "honors": false,
+                        "course_id": "1b1661cf",
+                        "course_letters": "CHEM 12",
+                        "title": "General Chemistry II"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "CHEM 6C",
+              "uc_course_title": "General Chemistry III",
+              "section_id": "E",
+              "section_title": "Section E",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CHEM 12 General Chemistry II",
+                        "honors": false,
+                        "course_id": "1b1661cf",
+                        "course_letters": "CHEM 12",
+                        "title": "General Chemistry II"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            },
+            {
+              "uc_course_id": "CHEM 7L",
+              "uc_course_title": "Introductory Inorganic Chemistry Laboratory",
+              "section_id": "E",
+              "section_title": "Section E",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "CHEM 11 General Chemistry I",
+                        "honors": false,
+                        "course_id": "c944b491",
+                        "course_letters": "CHEM 11",
+                        "title": "General Chemistry I"
+                      },
+                      {
+                        "name": "CHEM 12 General Chemistry II",
+                        "honors": false,
+                        "course_id": "1b1661cf",
+                        "course_letters": "CHEM 12",
+                        "title": "General Chemistry II"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        },
+        {
+          "section_id": "F",
+          "section_title": "Section F",
+          "section_logic_type": "all_required",
+          "uc_courses": [
+            {
+              "uc_course_id": "BILD 1",
+              "uc_course_title": "The Cell",
+              "section_id": "F",
+              "section_title": "Section F",
+              "logic_block": {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "name": "BIOL 21 Cell Biology and Evolution",
+                        "honors": false,
+                        "course_id": "9a5ba289",
+                        "course_letters": "BIOL 21",
+                        "title": "Cell Biology and Evolution"
+                      },
+                      {
+                        "name": "BIOL 22 Genetics and Molecular Biology",
+                        "honors": false,
+                        "course_id": "41321c85",
+                        "course_letters": "BIOL 22",
+                        "title": "Genetics and Molecular Biology"
+                      },
+                      {
+                        "name": "BIOL 23 Organismal and Environmental Biology",
+                        "honors": false,
+                        "course_id": "2b7ada8b",
+                        "course_letters": "BIOL 23",
+                        "title": "Organismal and Environmental Biology"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "units": 4.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

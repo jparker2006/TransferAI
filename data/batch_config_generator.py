@@ -27,7 +27,20 @@ DEFAULT_TARGET_MAJORS: List[str] = [
     "Sociology/Law and Society B.A.",
     "Music B.A.",
     "Linguistics: Language Studies Specialization in one language B.A.",
-    "Public Health with Concentration in Epidemiology B.S."
+    "Public Health with Concentration in Epidemiology B.S.",
+    # --- Batch 3 ---
+    "International Studies - Economics B.A.",
+    "Human Developmental Sciences B.S. with a Specialization in Equity & Diversity",
+    "Data Science B.S.",
+    "Environmental Systems/Earth Sciences B.S.",
+    "Communication B.A.",
+    "Urban Studies and Planning B.A.",
+    "Real Estate and Development B.S.",
+    "Chemical and Nano Engineering: NanoEngineering B.S.",
+    "Psychology B.S. with a Specialization in Clinical Psychology",
+    "Global Health B.S.",
+    "Theatre B.A.",
+    "Literature/Writing B.A."
 ]
 
 def slugify(label: str) -> str:
