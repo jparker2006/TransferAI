@@ -145,7 +145,8 @@
                     "title": "No Course Articulated"
                   }
                 ],
-                "no_articulation": true
+                "no_articulation": true,
+                "no_articulation_reason": "No Course Articulated"
               },
               "units": 4.0
             },
@@ -165,7 +166,8 @@
                     "title": "No Course Articulated"
                   }
                 ],
-                "no_articulation": true
+                "no_articulation": true,
+                "no_articulation_reason": "No Course Articulated"
               },
               "units": 4.0
             },
@@ -185,7 +187,8 @@
                     "title": "No Course Articulated"
                   }
                 ],
-                "no_articulation": true
+                "no_articulation": true,
+                "no_articulation_reason": "No Course Articulated"
               },
               "units": 4.0
             }
@@ -212,7 +215,8 @@
                     "title": "No Course Articulated"
                   }
                 ],
-                "no_articulation": true
+                "no_articulation": true,
+                "no_articulation_reason": "No Course Articulated"
               },
               "units": 4.0
             },
@@ -232,7 +236,8 @@
                     "title": "No Course Articulated"
                   }
                 ],
-                "no_articulation": true
+                "no_articulation": true,
+                "no_articulation_reason": "No Course Articulated"
               },
               "units": 4.0
             },
@@ -252,7 +257,8 @@
                     "title": "No Course Articulated"
                   }
                 ],
-                "no_articulation": true
+                "no_articulation": true,
+                "no_articulation_reason": "No Course Articulated"
               },
               "units": 4.0
             }

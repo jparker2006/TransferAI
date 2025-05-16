@@ -310,16 +310,18 @@ def parse_sending_articulation(articulation: Dict[str, Any]) -> Dict[str, Any]:
     
     # If no valid paths were found, return "No Course Articulated"
     if not or_paths:
+        reason = "No Course Articulated"
         return {
             "type": "OR",
             "courses": [{
-                "name": "No Course Articulated",
+                "name": reason,
                 "honors": False,
-                "course_id": hash_id("No Course Articulated"),
+                "course_id": hash_id(reason),
                 "course_letters": "N/A",
-                "title": "No Course Articulated"
+                "title": reason
             }],
-            "no_articulation": True
+            "no_articulation": True,
+            "no_articulation_reason": reason
         }
     
     # Sort OR paths by their position values to match ASSIST website display order
@@ -1167,30 +1169,34 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
                                 logic_block = parse_sending_articulation(sending_articulation)
                             else:
                                 # If there's no articulation data or it's empty, add no_articulation flag
+                                reason = "No Course Articulated"
                                 logic_block = {
                                     "type": "OR",
                                     "courses": [{
-                                        "name": "No Course Articulated",
+                                        "name": reason,
                                         "honors": False,
-                                        "course_id": hash_id("No Course Articulated"),
+                                        "course_id": hash_id(reason),
                                         "course_letters": "N/A",
-                                        "title": "No Course Articulated"
+                                        "title": reason
                                     }],
-                                    "no_articulation": True
+                                    "no_articulation": True,
+                                    "no_articulation_reason": reason
                                 }
                             
                             # Ensure empty logic blocks have no_articulation flag
                             if not logic_block or (isinstance(logic_block, dict) and not logic_block.get("courses")):
+                                reason = "No Course Articulated"
                                 logic_block = {
                                     "type": "OR",
                                     "courses": [{
-                                        "name": "No Course Articulated",
+                                        "name": reason,
                                         "honors": False,
-                                        "course_id": hash_id("No Course Articulated"),
+                                        "course_id": hash_id(reason),
                                         "course_letters": "N/A",
-                                        "title": "No Course Articulated"
+                                        "title": reason
                                     }],
-                                    "no_articulation": True
+                                    "no_articulation": True,
+                                    "no_articulation_reason": reason
                                 }
                             
                             # Create the UC course object
@@ -1244,7 +1250,19 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
                                 sending_articulation = articulation_data["articulation"].get("sendingArticulation", {})
                                 logic_block = parse_sending_articulation(sending_articulation)
                             else:
-                                logic_block = { "type": "OR", "courses": [{"name": "No Course Articulated", "honors": False, "course_id": hash_id("No Course Articulated"), "course_letters": "N/A", "title": "No Course Articulated"}], "no_articulation": True }
+                                reason = "No Course Articulated"
+                                logic_block = { 
+                                    "type": "OR", 
+                                    "courses": [{
+                                        "name": reason, 
+                                        "honors": False, 
+                                        "course_id": hash_id(reason), 
+                                        "course_letters": "N/A", 
+                                        "title": reason
+                                    }], 
+                                    "no_articulation": True,
+                                    "no_articulation_reason": reason 
+                                }
 
                             current_uc_course_obj = {
                                 "uc_course_id": series_uc_id,
