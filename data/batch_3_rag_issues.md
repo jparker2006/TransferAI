@@ -26,6 +26,7 @@
 * **Problem:** The `group_title` in the JSON is "ADDITIONAL MAJOR REQUIREMENTS", while the corresponding group header on the ASSIST screenshot is "Complete A, B, C, D, or E". While the `overarching_title` field contains "ADDITIONAL MAJOR REQUIREMENTS", the direct `group_title` should ideally match the instructional header from ASSIST when present.
 * **ASSIST Reference:** Screenshot 2, header for the second group of requirements.
 * **Correction Needed:** Change `groups[1].group_title` from "ADDITIONAL MAJOR REQUIREMENTS" to "Complete A, B, C, D, or E" to match the ASSIST screenshot's group header. (Alternatively, confirm if `overarching_title` is the intended field for the static title and `group_title` for the direct ASSIST header).
+* **Status:** ✅ FIXED - Logic in assist_to_rag.py updated to prioritize instruction-derived group titles.
 
 ## Human Developmental Sciences B.S. with a Specialization in Equity & Diversity
 

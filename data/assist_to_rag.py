@@ -783,7 +783,18 @@ def generate_group_title(
         plural = "course" if n_courses == 1 else "courses"
         return f"Select {n_courses} {plural} from the following."
     elif group_logic_type == "choose_one_section":
-        if section_ids and len(section_ids) > 1:
+        # Check for the specific "Complete A, B, C, D, or E" pattern
+        if instruction and instruction.get("conjunction") == "Or" and \
+           instruction.get("selectionType") == "Complete" and \
+           section_ids and len(section_ids) > 0:
+            sorted_section_ids = sorted(section_ids) # Ensure consistent order like A, B, C
+            if len(sorted_section_ids) == 1:
+                # If only one section in this specific pattern, format as "Complete A"
+                return f"Complete {sorted_section_ids[0]}"
+            else:
+                # Format as "Complete A, B, C, D, or E"
+                return f"Complete {', '.join(sorted_section_ids[:-1])}, or {sorted_section_ids[-1]}"
+        elif section_ids and len(section_ids) > 1: # Fallback for other choose_one_section types
             # Sort section IDs for consistent ordering (e.g., A, B, C)
             sorted_section_ids = sorted(section_ids) 
             return f"Complete Section { ' OR Section '.join(sorted_section_ids) }"
@@ -1104,41 +1115,42 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
             # Generate a proper group title based on the logic type and context
             # Prioritize explicit title if found, otherwise generate based on logic
             group_title = None
-            if explicit_group_title_asset:
+            # First, try to generate title from the group's own instruction and section structure
+            group_section_ids = [extract_section_id(s, idx) for idx, s in enumerate(sections)]
+            has_explicit_instruction_for_title = False
+            if isinstance(instruction_object, dict):
+                if instruction_object.get("conjunction") in ["Or", "And"] and \
+                   instruction_object.get("selectionType") in ["Select", "Complete"]:
+                    has_explicit_instruction_for_title = True
+            if not instruction_object and section_count == 1:
+                 has_explicit_instruction_for_title = True
+            
+            instruction_derived_title = generate_group_title(
+                group_logic_type,
+                n_courses_or_null, 
+                instruction_object, 
+                instruction_text,
+                is_recommended,
+                group_section_ids, 
+                has_explicit_instruction_for_title
+            )
+
+            # If the instruction-derived title is specific (not a generic fallback like "All of the following..."), use it.
+            # Otherwise, consider the explicit_group_title_asset.
+            if instruction_derived_title and not (
+                group_logic_type == "all_required" and instruction_derived_title == "All of the following UC courses are required"
+            ) and not (
+                 group_logic_type == "choose_one_section" and instruction_derived_title == "Complete one of the following sections"
+            ) and not (
+                group_logic_type == "select_n_courses" and "Select" in instruction_derived_title and "from the following" in instruction_derived_title and n_courses_or_null is None
+            ): # Avoid generic select title if n_courses is None
+                group_title = instruction_derived_title
+            elif explicit_group_title_asset:
                  group_title = explicit_group_title_asset.get("content")
-                 # Clear last_seen_requirement_title_asset if it was used as an explicit group title
-                 # and was not an overarching title (which should persist).
-                 # Overarching titles are handled by last_seen_overarching_title.
-                 # If the explicit title was also an overarching candidate, it would have been stored there.
-                 # This ensures a specific group title isn't mistakenly reused.
-                 # if explicit_group_title_asset.get("content", "").upper() != last_seen_overarching_title_content_upper
-                 # This logic is tricky; for now, if used, we assume it's consumed.
-                 # Overarching titles will be re-applied from `last_seen_overarching_title` anyway.
-                 # Test this carefully. The goal is: if FOUNDATION LEVEL is used, it shouldn't become overarching.
-                 # The current overarching logic seems to handle this by checking specific keywords.
-
-            if not group_title: # If no explicit title was directly associated
-                 group_section_ids = [extract_section_id(s, idx) for idx, s in enumerate(sections)]
-                 # Determine if the instruction itself implies a title should be generated
-                 has_explicit_instruction_for_title = False
-                 if isinstance(instruction_object, dict):
-                     # If conjunction is Or/And with Select/Complete, it often implies a standard title
-                     if instruction_object.get("conjunction") in ["Or", "And"] and \
-                        instruction_object.get("selectionType") in ["Select", "Complete"]:
-                         has_explicit_instruction_for_title = True
-                 if not instruction_object and section_count == 1: # Single section group often implies "all required"
-                      has_explicit_instruction_for_title = True
-
-
-                 group_title = generate_group_title(
-                     group_logic_type,
-                     n_courses_or_null, # Pass the potentially null value
-                     instruction_object, # Pass the raw instruction object
-                     instruction_text,
-                     is_recommended,
-                     group_section_ids, # Pass section IDs for potential "Complete Section A OR B" title
-                     has_explicit_instruction_for_title
-                 )
+            
+            # Fallback to instruction_derived_title if group_title is still None (e.g. no explicit_group_title_asset)
+            if group_title is None:
+                group_title = instruction_derived_title
             
             # Create group structure
             group_obj = {

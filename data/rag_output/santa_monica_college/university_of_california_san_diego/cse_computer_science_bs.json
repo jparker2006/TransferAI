@@ -8,7 +8,7 @@
   "groups": [
     {
       "group_id": "1",
-      "group_title": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_title": "Complete A, or B",
       "group_logic_type": "choose_one_section",
       "sections": [
         {
