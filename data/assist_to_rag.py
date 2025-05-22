@@ -1217,6 +1217,17 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
                         section.get("advisements", [])
                     )
                 
+                # If the parent group is 'select_n_courses', has a specific n_courses,
+                # and there's only one section, that section should inherit the group's n_courses.
+                # This ensures the section's n_courses accurately reflects the group's requirement.
+                if group_logic_type == "select_n_courses" and \
+                   n_courses_or_null is not None and \
+                   section_count == 1:
+                    # The section inherently becomes a list from which 'n_courses_or_null' must be chosen.
+                    # Ensure section logic reflects selection and override with parent group's n_courses.
+                    section_logic_type = "select_n_courses"
+                    section_n_courses = n_courses_or_null
+                
                 # Create section object
                 section_obj = {
                     "section_id": section_id,

@@ -41,6 +41,7 @@
 * **Correction Needed:** 
     * Change `groups[2].sections[0].n_courses` from `1` to `2`.
     * Change `groups[3].sections[0].n_courses` from `1` to `2`.
+* **Status:** ✅ FIXED - Modified assist_to_rag.py to ensure single sections inherit their parent group's n_courses value when appropriate
 
 * **Location:** `groups[4]` (related to ASSIST "Group 5: Complete 2 courses from the following") and its child sections:
     * `groups[4].sections[0]` (corresponds to ASSIST Group 5, sub-section A)
