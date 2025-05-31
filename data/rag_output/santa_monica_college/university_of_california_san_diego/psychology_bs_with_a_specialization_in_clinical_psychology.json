@@ -14,7 +14,7 @@
         {
           "section_id": "A",
           "section_title": "Section A",
-          "section_logic_type": "all_required",
+          "section_logic_type": "select_n_courses",
           "uc_courses": [
             {
               "uc_course_id": "BILD 1",
@@ -295,7 +295,7 @@
         {
           "section_id": "C",
           "section_title": "Section C",
-          "section_logic_type": "all_required",
+          "section_logic_type": "select_n_courses",
           "uc_courses": [
             {
               "uc_course_id": "CHEM 6A",
@@ -385,7 +385,7 @@
         {
           "section_id": "D",
           "section_title": "Section D",
-          "section_logic_type": "all_required",
+          "section_logic_type": "select_n_courses",
           "uc_courses": [
             {
               "uc_course_id": "PHYS 1A",

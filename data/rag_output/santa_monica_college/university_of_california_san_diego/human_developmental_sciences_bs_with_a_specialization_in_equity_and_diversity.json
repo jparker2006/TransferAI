@@ -616,7 +616,7 @@
         {
           "section_id": "A",
           "section_title": "Section A",
-          "section_logic_type": "all_required",
+          "section_logic_type": "select_n_courses",
           "uc_courses": [
             {
               "uc_course_id": "ANTH 1",
@@ -799,7 +799,7 @@
         {
           "section_id": "C",
           "section_title": "Section C",
-          "section_logic_type": "all_required",
+          "section_logic_type": "select_n_courses",
           "uc_courses": [
             {
               "uc_course_id": "PSYC 1",

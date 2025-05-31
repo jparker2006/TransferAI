@@ -1227,7 +1227,44 @@ def restructure_assist_for_rag(assist_json: Dict[str, Any], manual_source_url: O
                     # Ensure section logic reflects selection and override with parent group's n_courses.
                     section_logic_type = "select_n_courses"
                     section_n_courses = n_courses_or_null
-                
+
+                # Handle multi-section groups where parent requires selection but sections 
+                # inappropriately defaulted to "all_required" without explicit justification.
+                # This smart fix distinguishes between sections with genuine constraints vs. 
+                # those that should allow flexible individual course selection.
+                elif group_logic_type == "select_n_courses" and \
+                     section_count > 1 and \
+                     section_logic_type == "all_required":
+                    # Check if this section has explicit selection constraints that should be preserved
+                    has_explicit_selection_constraint = False
+                    has_explicit_all_required_advisement = False
+                    section_advisements = section.get("advisements", [])
+                    
+                    for advisement in section_advisements:
+                        # Check for explicit "Select N" constraints that should be preserved
+                        if advisement.get("type") == "NFollowing" and advisement.get("selectionType") == "Select":
+                            has_explicit_selection_constraint = True
+                            break
+                        # Check for explicit "all required" advisements
+                        elif advisement.get("type") in ["AllFollowing", "Complete"] or \
+                             (advisement.get("selectionType") == "Complete" and 
+                              advisement.get("type") != "NFollowing"):
+                            has_explicit_all_required_advisement = True
+                            break
+                    
+                    # Also check section title for explicit selection language (like "Select 1 course from the following")
+                    section_title_lower = section_title.lower() if section_title else ""
+                    if "select" in section_title_lower and "course" in section_title_lower:
+                        has_explicit_selection_constraint = True
+                    
+                    # If no explicit advisement requires all courses and no explicit selection constraint,
+                    # allow flexible individual course selection without artificial section limits
+                    if not has_explicit_all_required_advisement and not has_explicit_selection_constraint:
+                        section_logic_type = "select_n_courses"
+                        # Don't set section_n_courses, allowing flexible selection
+                        # Each course can be individually selected to contribute to group requirement
+                        section_n_courses = None
+
                 # Create section object
                 section_obj = {
                     "section_id": section_id,
