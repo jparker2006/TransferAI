@@ -1,0 +1,92 @@
+[
+  {
+    "course_letters": "ACCTG 1",
+    "course_title": "INTRODUCTION TO FINANCIAL ACCOUNTING",
+    "units": 5.0
+  },
+  {
+    "course_letters": "ACCTG 2",
+    "course_title": "CORPORATE FINANCIAL AND MANAGERIAL ACCOUNTING",
+    "units": 5.0
+  },
+  {
+    "course_letters": "ACCTG 6",
+    "course_title": "ACCOUNTING CONSOLIDATIONS",
+    "units": 3.0
+  },
+  {
+    "course_letters": "ACCTG 7",
+    "course_title": "ADVANCED ACCOUNTING: SPECIAL TOPICS",
+    "units": 3.0
+  },
+  {
+    "course_letters": "ACCTG 9",
+    "course_title": "ACCOUNTING ETHICS",
+    "units": 3.0
+  },
+  {
+    "course_letters": "ACCTG 10A",
+    "course_title": "INTERMEDIATE ACCOUNTING A",
+    "units": 3.0
+  },
+  {
+    "course_letters": "ACCTG 10B",
+    "course_title": "INTERMEDIATE ACCOUNTING B",
+    "units": 3.0
+  },
+  {
+    "course_letters": "ACCTG 10C",
+    "course_title": "INTERMEDIATE ACCOUNTING C",
+    "units": 4.0
+  },
+  {
+    "course_letters": "ACCTG 12",
+    "course_title": "AUDITING",
+    "units": 3.0
+  },
+  {
+    "course_letters": "ACCTG 15",
+    "course_title": "INDIVIDUAL INCOME TAXES",
+    "units": 3.0
+  },
+  {
+    "course_letters": "ACCTG 16",
+    "course_title": "TAXATION OF CORPORATIONS, PARTNERSHIPS, ESTATES AND TRUSTS",
+    "units": 3.0
+  },
+  {
+    "course_letters": "ACCTG 17",
+    "course_title": "INCOME TAX PREPARATION (CTEC- APPROVED)",
+    "units": 4.0
+  },
+  {
+    "course_letters": "ACCTG 21",
+    "course_title": "BUSINESS BOOKKEEPING",
+    "units": 3.0
+  },
+  {
+    "course_letters": "ACCTG 22",
+    "course_title": "ADVANCED BOOKKEEPING",
+    "units": 3.0
+  },
+  {
+    "course_letters": "ACCTG 23",
+    "course_title": "PAYROLL ACCOUNTING",
+    "units": 3.0
+  },
+  {
+    "course_letters": "ACCTG 31B",
+    "course_title": "ADVANCED EXCEL FOR ACCOUNTING \t3 UNITS",
+    "units": null
+  },
+  {
+    "course_letters": "ACCTG 41",
+    "course_title": "ACCOUNTING FOR ENTREPRENEURS \t 3 UNITS",
+    "units": null
+  },
+  {
+    "course_letters": "ACCTG 45",
+    "course_title": "INDIVIDUAL FINANCIAL PLANNING",
+    "units": 3.0
+  }
+]

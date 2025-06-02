@@ -8,14 +8,14 @@ SMC_CATALOG_PATH = "/home/jparker/TransferAI/data/SMC_catalog/253-SMCschedule.pd
 
 # Page range to scan (1-indexed, inclusive)
 START_PAGE_NUM_1_INDEXED = 13
-END_PAGE_NUM_1_INDEXED = 103
+END_PAGE_NUM_1_INDEXED = 103  # Restored to full range
 
 def extract_all_department_headers(pdf_path: str, start_page: int, end_page: int) -> dict[str, list[int]]:
     """
     Extracts ALL department headers using ONLY visual characteristics, leveraging PyMuPDF.
     Trust the PDF formatting - if it matches color, font, and size criteria, it's a header.
     """
-    print(f"\\n{'='*80}")
+    print(f"\n{'='*80}")
     print(f"PYMUPDF-BASED HEADER EXTRACTION - TRUST THE PDF FORMATTING")
     # CORRECTED HEADER_COLOR_INT based on debugging output from PyMuPDF
     HEADER_COLOR_INT = 21668  # This was 0x54a4 in hex, identified from 'Astronomy' span
@@ -78,7 +78,8 @@ def extract_all_department_headers(pdf_path: str, start_page: int, end_page: int
                                         'text': reconstructed_line_text,
                                         'page': current_page_1_indexed,
                                         'y_position': line_bbox[1],  # top y-coordinate of the line
-                                        'x_position': line_bbox[0]   # left x-coordinate of the line
+                                        'x_position': line_bbox[0],   # left x-coordinate of the line
+                                        'page_dict': page_dict  # Store page_dict for later description extraction
                                     })
                                     page_headers_texts_for_print.append(reconstructed_line_text)
             except Exception as e_page:
@@ -93,14 +94,14 @@ def extract_all_department_headers(pdf_path: str, start_page: int, end_page: int
         doc.close()
                     
     except FileNotFoundError:
-        print(f"\\nError: The PDF file was not found at '{pdf_path}'. Please check the path.")
+        print(f"\nError: The PDF file was not found at '{pdf_path}'. Please check the path.")
         return {}
     except Exception as e:
-        print(f"\\nError processing PDF with PyMuPDF: {e}")
+        print(f"\nError processing PDF with PyMuPDF: {e}")
         return {} # Return empty if there's a global error
     
     # Now apply smart reconstruction to the raw headers collected by PyMuPDF
-    print(f"\\n{'='*80}")
+    print(f"\n{'='*80}")
     print("SMART RECONSTRUCTION OF FRAGMENTED HEADERS (POST-PYMUPDF)")
     print(f"{'='*80}")
     
@@ -219,29 +220,295 @@ def smart_reconstruct_headers(raw_headers):
                 reconstructed.append({
                     'clean_name': clean_name,
                     'pages': [page_num], 
-                    'original_fragments': len(combined_text_parts)
+                    'original_fragments': len(combined_text_parts),
+                    'y_position': current_header_info['y_position'],
+                    'page_dict': current_header_info.get('page_dict')  # For description extraction
                 })
                 if len(combined_text_parts) > 1:
                     print(f"    Created multi-line/merged department (Page {page_num}): '{clean_name}'")
             
     # Consolidate pages for identical clean_names that might have been processed separately
-    final_consolidated_headers = defaultdict(lambda: {'pages': set(), 'original_fragments': 0})
+    final_consolidated_headers = defaultdict(lambda: {'pages': set(), 'original_fragments': 0, 'y_position': None, 'page_dict': None})
     for item in reconstructed:
         final_consolidated_headers[item['clean_name']]['pages'].add(item['pages'][0])
         final_consolidated_headers[item['clean_name']]['original_fragments'] = max(
             final_consolidated_headers[item['clean_name']]['original_fragments'], 
             item['original_fragments']
         )
+        # Store first occurrence info for description extraction
+        if final_consolidated_headers[item['clean_name']]['y_position'] is None:
+            final_consolidated_headers[item['clean_name']]['y_position'] = item['y_position']
+            final_consolidated_headers[item['clean_name']]['page_dict'] = item['page_dict']
 
     output_list = []
     for name, data in final_consolidated_headers.items():
         output_list.append({
             'clean_name': name,
             'pages': sorted(list(data['pages'])),
-            'original_fragments': data['original_fragments']
+            'original_fragments': data['original_fragments'],
+            'y_position': data['y_position'],
+            'page_dict': data['page_dict']
         })
 
     return sorted(output_list, key=lambda x: x['clean_name'])
+
+def extract_enhanced_department_info(headers_with_context):
+    """Extract course letters for departments using the reconstructed headers."""
+    enhanced_info = {}
+    
+    # Group headers by page for boundary detection
+    page_headers = {}
+    for header_info in headers_with_context:
+        for page in header_info['pages']:
+            if page not in page_headers:
+                page_headers[page] = []
+            page_headers[page].append({
+                'name': header_info['clean_name'],
+                'y_position': header_info['y_position'],
+                'page_dict': header_info['page_dict']
+            })
+    
+    # Sort headers by Y position on each page
+    for page in page_headers:
+        page_headers[page].sort(key=lambda x: x['y_position'])
+    
+    for header_info in headers_with_context:
+        dept_name = header_info['clean_name']
+        pages = header_info['pages']
+        y_position = header_info['y_position']
+        page_dict = header_info['page_dict']
+        
+        # Extract course letters with proper boundaries
+        course_letters = ""
+        
+        if page_dict and y_position:
+            # Find the next department boundary for course letter extraction
+            current_page = pages[0]  # Use first page where this department appears
+            next_dept_y = None
+            
+            if current_page in page_headers:
+                current_dept_headers = page_headers[current_page]
+                for i, header in enumerate(current_dept_headers):
+                    if header['name'] == dept_name and header['y_position'] == y_position:
+                        if i + 1 < len(current_dept_headers):
+                            next_dept_y = current_dept_headers[i + 1]['y_position']
+                        break
+            
+            course_letters = extract_course_letters_from_department_area(
+                page_dict, 
+                {'y_position': y_position, 'clean_name': dept_name}, 
+                next_dept_y
+            )
+        
+        enhanced_info[dept_name] = {
+            'pages': pages,
+            'course_letters': course_letters
+        }
+    
+    return enhanced_info
+
+def extract_course_letters_from_department_area(page_dict, header_info, next_dept_y=None):
+    """Extract course letter prefixes from course titles within a specific department's bounded area."""
+    header_y = header_info['y_position']
+    dept_name = header_info.get('clean_name', '')
+    
+    # First, try to guess the likely course prefix based on department name
+    likely_prefixes = guess_course_prefix_from_department_name(dept_name)
+    
+    # Define search boundaries - be more conservative
+    MIN_COURSE_DISTANCE = 30   # increased minimum distance to avoid header area
+    if next_dept_y:
+        MAX_COURSE_DISTANCE = min(next_dept_y - header_y - 15, 120)  # More conservative max distance
+    else:
+        MAX_COURSE_DISTANCE = 120  # reduced fallback distance
+    
+    # Ensure we have a reasonable search area
+    if MAX_COURSE_DISTANCE < MIN_COURSE_DISTANCE:
+        return ""
+    
+    # Course code regex (from course_info_parser.py)
+    COURSE_CODE_RE = re.compile(r"^([A-Z]{2,5})\s*\d{1,3}[A-Z]?[.,]\s*(.+)$")
+    
+    # Look for course codes within the bounded department area
+    found_courses = []
+    
+    for block in page_dict.get("blocks", []):
+        if block.get("type") == 0:  # Text block
+            for line in block.get("lines", []):
+                line_bbox = line.get("bbox", (0,0,0,0))
+                line_y = line_bbox[1]
+                
+                # Only look within this department's bounded area
+                if (line_y > header_y + MIN_COURSE_DISTANCE and 
+                    line_y < header_y + MAX_COURSE_DISTANCE):
+                    
+                    line_text_parts = []
+                    is_course_line = False
+                    
+                    for span in line.get("spans", []):
+                        span_text = span.get("text", "")
+                        span_font = span.get("font", "")
+                        span_size = span.get("size", 0)
+                        span_color = span.get("color", 0)
+                        
+                        # Check if this matches course title characteristics
+                        is_course_span = (
+                            span_font == 'ITCFranklinGothicStd-Dem' and
+                            abs(span_size - 7.96) < 0.3 and
+                            span_color == 0
+                        )
+                        
+                        if is_course_span:
+                            line_text_parts.append(span_text)
+                            is_course_line = True
+                    
+                    if is_course_line:
+                        line_text = "".join(line_text_parts).strip()
+                        match = COURSE_CODE_RE.match(line_text)
+                        if match:
+                            prefix = match.group(1).strip()
+                            distance_from_header = line_y - header_y
+                            
+                            # Prioritize courses that match expected prefixes
+                            priority = 0
+                            if prefix in likely_prefixes:
+                                priority = 1000 - distance_from_header  # High priority for matching prefix
+                            elif distance_from_header <= 60:
+                                priority = 500 - distance_from_header   # Medium priority for close courses
+                            
+                            if priority > 0:  # Only add courses with some priority
+                                found_courses.append({
+                                    'prefix': prefix,
+                                    'line_text': line_text,
+                                    'y_position': line_y,
+                                    'distance_from_header': distance_from_header,
+                                    'priority': priority
+                                })
+    
+    # If we found courses, take the highest priority one
+    if found_courses:
+        found_courses.sort(key=lambda x: x['priority'], reverse=True)
+        best_course = found_courses[0]
+        
+        # Only return if it's a good match
+        if best_course['priority'] >= 400:  # Reasonable threshold
+            return best_course['prefix']
+    
+    # If no clear course found, return empty string
+    return ""
+
+def guess_course_prefix_from_department_name(dept_name):
+    """Guess likely course prefixes based on department name."""
+    dept_upper = dept_name.upper()
+    likely_prefixes = set()
+    
+    # Common department to course prefix mappings
+    mappings = {
+        'ACCOUNTING': {'ACCTG'},
+        'ADMINISTRATION OF JUSTICE': {'ADMIN', 'AJ'},
+        'AMERICAN SIGN LANGUAGE': {'ASL'},
+        'ANIMATION': {'ANIM'},
+        'ANTHROPOLOGY': {'ANTHRO', 'ANTH'},
+        'AQUACULTURE': {'AQUA'},
+        'ARABIC': {'ARAB'},
+        'ARCHITECTURE': {'ARCH', 'ARC'},
+        'ART': {'ART'},
+        'ART HISTORY': {'AHIS', 'ART'},
+        'ASTRONOMY': {'ASTRO', 'ASTR'},
+        'AUTOMOTIVE TECHNOLOGY': {'AUTO'},
+        'BIOLOGICAL SCIENCES': {'BIOL'},
+        'BUSINESS': {'BUS'},
+        'CHEMISTRY': {'CHEM'},
+        'CHINESE': {'CHIN'},
+        'COMMUNICATION STUDIES': {'COMM'},
+        'COMPUTER INFORMATION SYSTEMS': {'CIS'},
+        'COMPUTER SCIENCE': {'CS'},
+        'COSMETOLOGY': {'COSM'},
+        'COUNSELING': {'COUNS'},
+        'DANCE': {'DANCE'},
+        'EARLY CHILDHOOD EDUCATION': {'ECE'},
+        'ECONOMICS': {'ECON'},
+        'EDUCATION': {'EDUC'},
+        'ENGINEERING': {'ENGR'},
+        'ENGLISH': {'ENGL'},
+        'ESL': {'ESL'},
+        'ENTERTAINMENT TECHNOLOGY': {'ET'},
+        'ENVIRONMENTAL STUDIES': {'ENVRN'},
+        'ETHNIC STUDIES': {'ETHST'},
+        'FASHION DESIGN': {'FASHN'},
+        'FILM STUDIES': {'FILM'},
+        'FRENCH': {'FREN'},
+        'GAME DESIGN': {'GAME'},
+        'GEOGRAPHY': {'GEOG'},
+        'GEOLOGY': {'GEOL'},
+        'GERMAN': {'GERM'},
+        'GLOBAL STUDIES': {'GLST'},
+        'GRAPHIC DESIGN': {'GRAPH'},
+        'HEALTH': {'HEALTH'},
+        'HEBREW': {'HEBR'},
+        'HISTORY': {'HIST'},
+        'HUMANITIES': {'HUM'},
+        'INTERACTION DESIGN': {'IXD'},
+        'INTERIOR ARCHITECTURAL DESIGN': {'IARC'},
+        'ITALIAN': {'ITAL'},
+        'JAPANESE': {'JAPAN'},
+        'JOURNALISM': {'JOURN'},
+        'KINESIOLOGY': {'KIN'},
+        'KOREAN': {'KOR'},
+        'LIBRARY STUDIES': {'LIBR'},
+        'LINGUISTICS': {'LING'},
+        'MATHEMATICS': {'MATH'},
+        'MEDIA STUDIES': {'MEDIA'},
+        'MUSIC': {'MUSIC'},
+        'NURSING': {'NURSNG'},
+        'OFFICE TECHNOLOGY': {'OFFIC'},
+        'PERSIAN': {'PERS'},
+        'PHILOSOPHY': {'PHILO'},
+        'PHOTOGRAPHY': {'PHOTO'},
+        'PHYSICS': {'PHYS'},
+        'POLITICAL SCIENCE': {'POLSC'},
+        'PSYCHOLOGY': {'PSYCH'},
+        'REAL ESTATE': {'RE'},
+        'RELIGIOUS STUDIES': {'RELS'},
+        'RESPIRATORY CARE': {'RC'},
+        'RUSSIAN': {'RUSS'},
+        'SCIENCE': {'SCI'},
+        'SOCIOLOGY': {'SOC'},
+        'SPANISH': {'SPAN'},
+        'SUSTAINABLE MATERIALS MANAGEMENT': {'SMM'},
+        'SUSTAINABILITY SYSTEMS': {'SST'},
+        'THEATRE ARTS': {'THTR'},
+        'URBAN STUDIES': {'URBAN'},
+        'WOMEN\'S, GENDER, AND SEXUALITY STUDIES': {'WGS'}
+    }
+    
+    # Look for exact matches first
+    for dept_key, prefixes in mappings.items():
+        if dept_key in dept_upper:
+            likely_prefixes.update(prefixes)
+    
+    # Look for partial matches
+    if 'PHYSICAL EDUCATION' in dept_upper:
+        likely_prefixes.add('KIN')
+    if 'KINESIOLOGY' in dept_upper:
+        likely_prefixes.add('KIN')
+    if 'ENGLISH' in dept_upper and 'COMPOSITION' in dept_upper:
+        likely_prefixes.add('ENGL')
+    if 'CREATIVE WRITING' in dept_upper:
+        likely_prefixes.add('ENGL')
+    
+    return likely_prefixes
+
+def find_primary_course_prefix(course_letters_set):
+    """Find the most common or primary course prefix from a set."""
+    if not course_letters_set:
+        return ""
+    
+    # Convert to list and return the first (alphabetically) if multiple
+    prefixes = sorted(list(course_letters_set))
+    
+    # Simple heuristic: return the shortest prefix (usually the primary department code)
+    return min(prefixes, key=len) if prefixes else ""
 
 def should_merge_headers(current_text: str, next_text: str) -> bool:
     """
@@ -515,59 +782,123 @@ def format_department_name_simple(text: str) -> str:
     
     # Final check for "ITalian" just in case, convert "It" to "It" if it became "IT"
     text = text.replace("ITalian", "Italian")
+    text = text.replace("Group a", "Group A")
     text = text.replace("It S", "It's") # Common OCR or split error
 
     return text.strip()
 
 if __name__ == "__main__":
-    print("🎯 SIMPLIFIED DEPARTMENT HEADER EXTRACTION")
-    print("Strategy: TRUST THE PDF FORMATTING")
-    print("- Extract anything with blue headers (0.642,), Gotham-Bold, size 17-19")
-    print("- Apply MINIMAL cleaning only")
-    print("- Stop overthinking - let the document tell us what's a department")
+    print("🎯 DEPARTMENT COURSE LETTER EXTRACTION")
+    print("Strategy: FOCUS ON ACCURATE COURSE LETTER DETECTION")
+    print("- Extract department headers correctly")
+    print("- Smart course letter detection with priority-based matching")
     print(f"{'='*80}")
     
+    # Step 1: Extract headers using original working logic
     headers = extract_all_department_headers(SMC_CATALOG_PATH, START_PAGE_NUM_1_INDEXED, END_PAGE_NUM_1_INDEXED)
     
+    # Step 2: Get enhanced context for descriptions and course letters
     print(f"\n{'='*80}")
-    # ---- NEW JSON OUTPUT LOGIC ----
+    print("COURSE LETTER EXTRACTION PHASE")
+    print(f"{'='*80}")
+    
+    # Re-run the extraction to get context for enhancements
+    try:
+        doc = fitz.open(SMC_CATALOG_PATH)
+        all_raw_headers = []
+        
+        for page_num_0_indexed in range(START_PAGE_NUM_1_INDEXED - 1, min(END_PAGE_NUM_1_INDEXED, len(doc))):
+            current_page_1_indexed = page_num_0_indexed + 1
+            try:
+                page = doc.load_page(page_num_0_indexed)
+                page_dict = page.get_text("dict", flags=fitz.TEXT_PRESERVE_LIGATURES | fitz.TEXT_PRESERVE_WHITESPACE)
+
+                for block in page_dict.get("blocks", []):
+                    if block.get("type") == 0:
+                        for line in block.get("lines", []):
+                            line_header_text_parts = []
+                            sorted_spans = sorted(line.get("spans", []), key=lambda s: s.get("bbox", [0,0,0,0])[0])
+
+                            for span in sorted_spans:
+                                span_text = span.get("text", "")
+                                span_font = span.get("font", "")
+                                span_size = span.get("size", 0)
+                                span_color = span.get("color", 0)
+                                
+                                is_header_span = (
+                                    span_color == 21668 and
+                                    "Gotham-Bold" in span_font and
+                                    17.0 <= span_size <= 19.0
+                                )
+                                
+                                if is_header_span:
+                                    line_header_text_parts.append(span_text)
+                            
+                            if line_header_text_parts:
+                                reconstructed_line_text = "".join(line_header_text_parts).strip()
+                                if reconstructed_line_text:
+                                    line_bbox = line.get("bbox", (0,0,0,0))
+                                    all_raw_headers.append({
+                                        'text': reconstructed_line_text,
+                                        'page': current_page_1_indexed,
+                                        'y_position': line_bbox[1],
+                                        'x_position': line_bbox[0],
+                                        'page_dict': page_dict
+                                    })
+            except Exception as e_page:
+                continue
+        
+        doc.close()
+        
+        # Reconstruct headers with context
+        reconstructed_headers_with_context = smart_reconstruct_headers(all_raw_headers)
+        
+        # Extract enhanced information with proper boundaries
+        enhanced_dept_info = extract_enhanced_department_info(reconstructed_headers_with_context)
+        
+    except Exception as e:
+        print(f"Error during enhancement phase: {e}")
+        enhanced_dept_info = {}
+    
+    print(f"\n{'='*80}")
+    # ---- ENHANCED JSON OUTPUT ----
     json_output_list = []
     if headers:
-        # Sort by department name first, then by page number for consistent JSON output
-        # though JSON object order isn't guaranteed, list order is.
         sorted_dept_names = sorted(headers.keys())
         for dept_name in sorted_dept_names:
-            pages = headers[dept_name] # Pages are already sorted from extract_all_department_headers
+            pages = headers[dept_name]
             for page_num in pages:
+                # Get enhanced info if available
+                enhanced_info = enhanced_dept_info.get(dept_name, {'course_letters': ''})
+                
                 json_output_list.append({
                     "major": dept_name,
-                    "pageNumber": page_num
+                    "pageNumber": page_num,
+                    "course_letters": enhanced_info['course_letters']
                 })
         
-        output_file_path = "smc_department_headers.json" # Saved in CWD
+        output_file_path = "smc_department_headers_enhanced.json"
         try:
             with open(output_file_path, 'w') as f:
-                json.dump(json_output_list, f, indent=4)
-            print(f"📚 Department list saved to: {output_file_path}")
+                json.dump(json_output_list, f, indent=4, ensure_ascii=False)
+            print(f"📚 Department course letters saved to: {output_file_path}")
             print(f"Total entries in JSON: {len(json_output_list)}")
-            # To give an idea of unique departments still:
-            print(f"Total unique department names found: {len(headers)}")
+            print(f"Total unique departments found: {len(headers)}")
+            
+            # Preview first few entries
+            print(f"\nPreview (first 5 departments):")
+            for i, dept_name in enumerate(sorted_dept_names[:5]):
+                enhanced_info = enhanced_dept_info.get(dept_name, {'course_letters': ''})
+                print(f"  {i+1}. {dept_name}")
+                print(f"     Course Letters: {enhanced_info['course_letters'] or '(none found)'}")
+                print(f"     Pages: {headers[dept_name]}")
 
         except IOError as e:
             print(f"Error writing JSON to file: {e}")
-            # Fallback to printing if file write fails, so data is not lost
-            print("\\nFALLBACK - PRINTING TO CONSOLE DUE TO FILE ERROR:")
-            if headers:
-                print(f"Found {len(headers)} departments:\\n")
-                for i, (dept_name, pages) in enumerate(sorted(headers.items()), 1):
-                    page_str = ", ".join(map(str, pages))
-                    print(f"{i:2d}. {dept_name:<40} (Pages: {page_str})")
-            else:
-                print("No headers found (fallback).")
 
     else:
-        print("No headers found to save to JSON.")
+        print("No department information found to save to JSON.")
 
     print(f"\n{'='*80}")
-    print("✅ PROCESSING COMPLETE!")
+    print("✅ COURSE LETTER EXTRACTION COMPLETE!")
     print(f"{'='*80}")

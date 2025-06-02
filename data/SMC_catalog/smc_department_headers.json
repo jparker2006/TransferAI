@@ -1,406 +1,514 @@
 [
     {
         "major": "Accounting",
-        "pageNumber": 13
+        "pageNumber": 13,
+        "course_letters": "ACCTG"
     },
     {
         "major": "Administration of Justice",
-        "pageNumber": 14
+        "pageNumber": 14,
+        "course_letters": "AD JUS"
     },
     {
         "major": "American Sign Language",
-        "pageNumber": 15
+        "pageNumber": 15,
+        "course_letters": "ASL"
     },
     {
         "major": "Animation",
-        "pageNumber": 15
+        "pageNumber": 15,
+        "course_letters": "ANIM"
     },
     {
         "major": "Anthropology",
-        "pageNumber": 16
+        "pageNumber": 16,
+        "course_letters": "ANTHRO",
+        "note": "ERTHSC also has a course letter in this department"
     },
     {
         "major": "Aquaculture",
-        "pageNumber": 18
+        "pageNumber": 18,
+        "course_letters": "AQUA"
     },
     {
         "major": "Arabic",
-        "pageNumber": 18
+        "pageNumber": 18,
+        "course_letters": "ARABIC"
     },
     {
         "major": "Architecture",
-        "pageNumber": 18
+        "pageNumber": 18,
+        "course_letters": "ARC"
     },
     {
         "major": "Art",
-        "pageNumber": 19
+        "pageNumber": 19,
+        "course_letters": "ART"
     },
     {
         "major": "Art History",
-        "pageNumber": 21
+        "pageNumber": 21,
+        "course_letters": "AHIS"
     },
     {
         "major": "Astronomy",
-        "pageNumber": 23
+        "pageNumber": 23,
+        "course_letters": "ASTRON"
     },
     {
         "major": "Automotive Technology",
-        "pageNumber": 23
+        "pageNumber": 23,
+        "course_letters": "AUTO"
     },
     {
-        "major": "Bicycle Maintenance \u2013 Noncredit",
-        "pageNumber": 24
+        "major": "Bicycle Maintenance – Noncredit",
+        "pageNumber": 24,
+        "course_letters": "BCYCLE"
     },
     {
         "major": "Biological Sciences",
-        "pageNumber": 24
+        "pageNumber": 24,
+        "course_letters": "BIOL",
+        "note": "ANATMY, BOTANY, MCRBIO, NUTR, PHYS, ZOOL also has a course letter in this department"
     },
     {
         "major": "Business",
-        "pageNumber": 27
+        "pageNumber": 27,
+        "course_letters": "BUS"
     },
     {
-        "major": "Business \u2013 Noncredit",
-        "pageNumber": 30
+        "major": "Business – Noncredit",
+        "pageNumber": 30,
+        "course_letters": "BUS"
     },
     {
         "major": "Chemistry",
-        "pageNumber": 30
+        "pageNumber": 30,
+        "course_letters": "CHEM"
     },
     {
         "major": "Chinese",
-        "pageNumber": 32
+        "pageNumber": 32,
+        "course_letters": "CHNESE"
     },
     {
         "major": "Communication Studies",
-        "pageNumber": 32
+        "pageNumber": 32,
+        "course_letters": "COM ST",
+        "note": "COMM also has a course letter in this department"
     },
     {
         "major": "Computer Information Systems",
-        "pageNumber": 33
+        "pageNumber": 33,
+        "course_letters": "CIS"
     },
     {
         "major": "Computer Science",
-        "pageNumber": 35
+        "pageNumber": 35,
+        "course_letters": "CS"
     },
     {
         "major": "Cosmetology",
-        "pageNumber": 37
+        "pageNumber": 37,
+        "course_letters": "COSM"
     },
     {
         "major": "Counseling",
-        "pageNumber": 40
+        "pageNumber": 40,
+        "course_letters": "COUNS"
     },
     {
         "major": "Counseling: Disabled Student Services",
-        "pageNumber": 41
+        "pageNumber": 41,
+        "course_letters": "COUNS"
     },
     {
-        "major": "Counseling: Disabled Student Services \u2013 Noncredit",
-        "pageNumber": 42
+        "major": "Counseling: Disabled Student Services – Noncredit",
+        "pageNumber": 42,
+        "course_letters": "COUNS"
     },
     {
         "major": "Dance: Appreciation and History",
-        "pageNumber": 42
+        "pageNumber": 42,
+        "course_letters": "DANCE"
     },
     {
         "major": "Dance: Technique and Performance",
-        "pageNumber": 42
+        "pageNumber": 42,
+        "course_letters": "DANCE"
     },
     {
         "major": "Digital Media Post-Production",
-        "pageNumber": 45
+        "pageNumber": 45,
+        "course_letters": "DMPOST"
     },
     {
-        "major": "ESL \u2013 English as a Second Language",
-        "pageNumber": 56
+        "major": "ESL – English as a Second Language",
+        "pageNumber": 56,
+        "course_letters": "ESL"
     },
     {
-        "major": "ESL \u2013 Noncredit",
-        "pageNumber": 58
+        "major": "ESL – Noncredit",
+        "pageNumber": 58,
+        "course_letters": "ESL"
     },
     {
         "major": "Early Childhood Education",
-        "pageNumber": 46
+        "pageNumber": 46,
+        "course_letters": "ECE"
     },
     {
-        "major": "Early Childhood Education \u2013 Noncredit",
-        "pageNumber": 48
+        "major": "Early Childhood Education – Noncredit",
+        "pageNumber": 48,
+        "course_letters": "ECE"
     },
     {
         "major": "Economics",
-        "pageNumber": 48
+        "pageNumber": 48,
+        "course_letters": "ECON"
     },
     {
         "major": "Education",
-        "pageNumber": 49
+        "pageNumber": 49,
+        "course_letters": "EDUC"
     },
     {
         "major": "Engineering",
-        "pageNumber": 49
+        "pageNumber": 49,
+        "course_letters": "ENGR"
     },
     {
-        "major": "English Composition \u2013 Group B",
-        "pageNumber": 52
+        "major": "English Composition – Group A",
+        "pageNumber": 50,
+        "course_letters": "ENGL"
     },
     {
-        "major": "English Composition \u2013 Group A",
-        "pageNumber": 50
+        "major": "English Composition – Group B",
+        "pageNumber": 52,
+        "course_letters": "ENGL"
     },
     {
-        "major": "English \u2013 Creative Writing",
-        "pageNumber": 56
+        "major": "English – Creative Writing",
+        "pageNumber": 56,
+        "course_letters": "ENGL"
     },
     {
-        "major": "English \u2013 Literature",
-        "pageNumber": 54
+        "major": "English – Literature",
+        "pageNumber": 54,
+        "course_letters": "ENGL"
     },
     {
         "major": "Entertainment Technology",
-        "pageNumber": 59
+        "pageNumber": 59,
+        "course_letters": "ET"
     },
     {
         "major": "Environmental Studies",
-        "pageNumber": 59
+        "pageNumber": 59,
+        "course_letters": "ENVRN"
     },
     {
         "major": "Ethnic Studies",
-        "pageNumber": 60
+        "pageNumber": 60,
+        "course_letters": "ETH"
     },
     {
         "major": "Fashion Design and Merchandising",
-        "pageNumber": 61
+        "pageNumber": 61,
+        "course_letters": "FASHN"
     },
     {
         "major": "Film Studies",
-        "pageNumber": 61
+        "pageNumber": 61,
+        "course_letters": "FILM"
     },
     {
         "major": "French",
-        "pageNumber": 63
+        "pageNumber": 63,
+        "course_letters": "FRENCH"
     },
     {
         "major": "Game Design",
-        "pageNumber": 64
+        "pageNumber": 64,
+        "course_letters": "GAME"
     },
     {
         "major": "Geographic Information Systems",
-        "pageNumber": 64
+        "pageNumber": 64,
+        "course_letters": "GIS"
     },
     {
         "major": "Geography",
-        "pageNumber": 64
+        "pageNumber": 64,
+        "course_letters": "GEOG"
     },
     {
         "major": "Geology",
-        "pageNumber": 65
+        "pageNumber": 65,
+        "course_letters": "GEOL"
     },
     {
         "major": "German",
-        "pageNumber": 65
+        "pageNumber": 65,
+        "course_letters": "GERMAN"
     },
     {
         "major": "Global Studies",
-        "pageNumber": 65
+        "pageNumber": 65,
+        "course_letters": "GLOBAL"
     },
     {
         "major": "Graphic Design",
-        "pageNumber": 66
+        "pageNumber": 66,
+        "course_letters": "DESIGN"
     },
     {
         "major": "Health Education",
-        "pageNumber": 67
+        "pageNumber": 67,
+        "course_letters": "HEALTH"
     },
     {
         "major": "Health Occupations",
-        "pageNumber": 68
+        "pageNumber": 68,
+        "course_letters": "HEALTH"
     },
     {
-        "major": "Health \u2013 Noncredit",
-        "pageNumber": 68
+        "major": "Health – Noncredit",
+        "pageNumber": 68,
+        "course_letters": "HEALTH"
     },
     {
         "major": "Hebrew",
-        "pageNumber": 68
+        "pageNumber": 68,
+        "course_letters": "HEBREW"
     },
     {
         "major": "History",
-        "pageNumber": 69
+        "pageNumber": 69,
+        "course_letters": "HIST"
     },
     {
         "major": "Humanities",
-        "pageNumber": 70
+        "pageNumber": 70,
+        "course_letters": "HUM"
     },
     {
         "major": "Independent Studies",
-        "pageNumber": 70
+        "pageNumber": 70,
+        "course_letters": "",
+        "note": "A bunch of different course letters."
     },
     {
         "major": "Interaction Design",
-        "pageNumber": 71
+        "pageNumber": 71,
+        "course_letters": "IXD"
     },
     {
         "major": "Interior Architectural Design",
-        "pageNumber": 72
+        "pageNumber": 72,
+        "course_letters": "IARC"
     },
     {
         "major": "Internships",
-        "pageNumber": 73
+        "pageNumber": 73,
+        "course_letters": "",
+        "note": "A bunch of different course letters. BIOL or COUNS"
     },
     {
         "major": "Italian",
-        "pageNumber": 73
+        "pageNumber": 73,
+        "course_letters": "ITAL"
     },
     {
         "major": "Japanese",
-        "pageNumber": 73
+        "pageNumber": 73,
+        "course_letters": "JAPAN"
     },
     {
         "major": "Journalism",
-        "pageNumber": 73
+        "pageNumber": 73,
+        "course_letters": "JOURN"
     },
     {
         "major": "Kinesiology/ Physical Education: Combatives",
-        "pageNumber": 75
+        "pageNumber": 75,
+        "course_letters": "KIN PE"
     },
     {
         "major": "Kinesiology/Physical Education",
-        "pageNumber": 74
+        "pageNumber": 74,
+        "course_letters": "KIN PE"
     },
     {
         "major": "Kinesiology/Physical Education: Aquatics",
-        "pageNumber": 74
+        "pageNumber": 74,
+        "course_letters": "KIN PE"
     },
     {
         "major": "Kinesiology/Physical Education: Fitness",
-        "pageNumber": 75
+        "pageNumber": 75,
+        "course_letters": "KIN PE"
     },
     {
         "major": "Kinesiology/Physical Education: Individual Sports",
-        "pageNumber": 76
+        "pageNumber": 76,
+        "course_letters": "KIN PE"
     },
     {
         "major": "Kinesiology/Physical Education: Team Sports",
-        "pageNumber": 76
+        "pageNumber": 76,
+        "course_letters": "KIN PE"
     },
     {
         "major": "Korean",
-        "pageNumber": 77
+        "pageNumber": 77,
+        "course_letters": "KOREAN"
     },
     {
         "major": "Library Studies",
-        "pageNumber": 77
+        "pageNumber": 77,
+        "course_letters": "LIBR"
     },
     {
         "major": "Linguistics",
-        "pageNumber": 77
+        "pageNumber": 77,
+        "course_letters": "LING"
     },
     {
         "major": "Mathematics",
-        "pageNumber": 77
+        "pageNumber": 77,
+        "course_letters": "MATH"
     },
     {
         "major": "Media Studies",
-        "pageNumber": 82
+        "pageNumber": 82,
+        "course_letters": "MEDIA"
     },
     {
         "major": "Music: Appreciation and History",
-        "pageNumber": 84
+        "pageNumber": 84,
+        "course_letters": "MUSIC"
     },
     {
         "major": "Music: Theory, Performance, and Application",
-        "pageNumber": 85
+        "pageNumber": 85,
+        "course_letters": "MUSIC"
     },
     {
         "major": "Nursing",
-        "pageNumber": 88
+        "pageNumber": 88,
+        "course_letters": "NURSNG"
     },
     {
-        "major": "Nursing \u2013 Noncredit",
-        "pageNumber": 90
+        "major": "Nursing – Noncredit",
+        "pageNumber": 90,
+        "course_letters": "NURSNG"
     },
     {
         "major": "Office Technology",
-        "pageNumber": 90
+        "pageNumber": 90,
+        "course_letters": "OFTECH"
     },
     {
         "major": "Persian",
-        "pageNumber": 90
+        "pageNumber": 90,
+        "course_letters": "PERSIN"
     },
     {
         "major": "Philosophy",
-        "pageNumber": 90
+        "pageNumber": 90,
+        "course_letters": "PHILOS"
     },
     {
         "major": "Photography",
-        "pageNumber": 91
+        "pageNumber": 91,
+        "course_letters": "PHOTO"
     },
     {
         "major": "Physics",
-        "pageNumber": 92
+        "pageNumber": 92,
+        "course_letters": "PHYSCS"
     },
     {
         "major": "Political Science",
-        "pageNumber": 93
+        "pageNumber": 93,
+        "course_letters": "POL SC",
+        "note": "POLS also has a course letter in this department"
     },
     {
         "major": "Professional Courses in Kinesiology/ Physical Education",
-        "pageNumber": 94
+        "pageNumber": 94,
+        "course_letters": "PRO CR"
     },
     {
         "major": "Psychology",
-        "pageNumber": 95
+        "pageNumber": 95,
+        "course_letters": "PSYCH",
+        "note": "PSYC also has a course letter in this department"
     },
     {
         "major": "Real Estate",
-        "pageNumber": 97
+        "pageNumber": 97,
+        "course_letters": "REALES"
     },
     {
         "major": "Religious Studies",
-        "pageNumber": 97
+        "pageNumber": 97,
+        "course_letters": "REL ST"
     },
     {
         "major": "Respiratory Care",
-        "pageNumber": 97
+        "pageNumber": 97,
+        "course_letters": "RC"
     },
     {
         "major": "Russian",
-        "pageNumber": 98
+        "pageNumber": 98,
+        "course_letters": "RUSS"
     },
     {
-        "major": "Science \u2013 General Studies",
-        "pageNumber": 98
+        "major": "Science – General Studies",
+        "pageNumber": 98,
+        "course_letters": "SCI"
     },
     {
         "major": "Sociology",
-        "pageNumber": 98
+        "pageNumber": 98,
+        "course_letters": "SOCIOL"
     },
     {
         "major": "Spanish",
-        "pageNumber": 99
+        "pageNumber": 99,
+        "course_letters": "SPAN"
     },
     {
-        "major": "Sustainability Systems and Technology \u2013 Noncredit",
-        "pageNumber": 100
+        "major": "Sustainability Systems and Technology – Noncredit",
+        "pageNumber": 100,
+        "course_letters": "SST"
     },
     {
         "major": "Sustainable Materials Management",
-        "pageNumber": 100
+        "pageNumber": 100,
+        "course_letters": "SMM"
     },
     {
         "major": "Theatre Arts",
-        "pageNumber": 100
+        "pageNumber": 100,
+        "course_letters": "TH ART"
     },
     {
         "major": "Urban Studies",
-        "pageNumber": 102
+        "pageNumber": 102,
+        "course_letters": "URBAN"
     },
     {
         "major": "Varsity Intercollegiate Athletics",
-        "pageNumber": 102
+        "pageNumber": 102,
+        "course_letters": "VAR PE"
     },
     {
-        "major": "Women\u2019s, Gender, and Sexuality Studies",
-        "pageNumber": 103
+        "major": "Women’s, Gender, and Sexuality Studies",
+        "pageNumber": 103,
+        "course_letters": "WGS"
     }
 ]
