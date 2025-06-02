@@ -1,0 +1,406 @@
+[
+    {
+        "major": "Accounting",
+        "pageNumber": 13
+    },
+    {
+        "major": "Administration of Justice",
+        "pageNumber": 14
+    },
+    {
+        "major": "American Sign Language",
+        "pageNumber": 15
+    },
+    {
+        "major": "Animation",
+        "pageNumber": 15
+    },
+    {
+        "major": "Anthropology",
+        "pageNumber": 16
+    },
+    {
+        "major": "Aquaculture",
+        "pageNumber": 18
+    },
+    {
+        "major": "Arabic",
+        "pageNumber": 18
+    },
+    {
+        "major": "Architecture",
+        "pageNumber": 18
+    },
+    {
+        "major": "Art",
+        "pageNumber": 19
+    },
+    {
+        "major": "Art History",
+        "pageNumber": 21
+    },
+    {
+        "major": "Astronomy",
+        "pageNumber": 23
+    },
+    {
+        "major": "Automotive Technology",
+        "pageNumber": 23
+    },
+    {
+        "major": "Bicycle Maintenance \u2013 Noncredit",
+        "pageNumber": 24
+    },
+    {
+        "major": "Biological Sciences",
+        "pageNumber": 24
+    },
+    {
+        "major": "Business",
+        "pageNumber": 27
+    },
+    {
+        "major": "Business \u2013 Noncredit",
+        "pageNumber": 30
+    },
+    {
+        "major": "Chemistry",
+        "pageNumber": 30
+    },
+    {
+        "major": "Chinese",
+        "pageNumber": 32
+    },
+    {
+        "major": "Communication Studies",
+        "pageNumber": 32
+    },
+    {
+        "major": "Computer Information Systems",
+        "pageNumber": 33
+    },
+    {
+        "major": "Computer Science",
+        "pageNumber": 35
+    },
+    {
+        "major": "Cosmetology",
+        "pageNumber": 37
+    },
+    {
+        "major": "Counseling",
+        "pageNumber": 40
+    },
+    {
+        "major": "Counseling: Disabled Student Services",
+        "pageNumber": 41
+    },
+    {
+        "major": "Counseling: Disabled Student Services \u2013 Noncredit",
+        "pageNumber": 42
+    },
+    {
+        "major": "Dance: Appreciation and History",
+        "pageNumber": 42
+    },
+    {
+        "major": "Dance: Technique and Performance",
+        "pageNumber": 42
+    },
+    {
+        "major": "Digital Media Post-Production",
+        "pageNumber": 45
+    },
+    {
+        "major": "ESL \u2013 English as a Second Language",
+        "pageNumber": 56
+    },
+    {
+        "major": "ESL \u2013 Noncredit",
+        "pageNumber": 58
+    },
+    {
+        "major": "Early Childhood Education",
+        "pageNumber": 46
+    },
+    {
+        "major": "Early Childhood Education \u2013 Noncredit",
+        "pageNumber": 48
+    },
+    {
+        "major": "Economics",
+        "pageNumber": 48
+    },
+    {
+        "major": "Education",
+        "pageNumber": 49
+    },
+    {
+        "major": "Engineering",
+        "pageNumber": 49
+    },
+    {
+        "major": "English Composition \u2013 Group B",
+        "pageNumber": 52
+    },
+    {
+        "major": "English Composition \u2013 Group A",
+        "pageNumber": 50
+    },
+    {
+        "major": "English \u2013 Creative Writing",
+        "pageNumber": 56
+    },
+    {
+        "major": "English \u2013 Literature",
+        "pageNumber": 54
+    },
+    {
+        "major": "Entertainment Technology",
+        "pageNumber": 59
+    },
+    {
+        "major": "Environmental Studies",
+        "pageNumber": 59
+    },
+    {
+        "major": "Ethnic Studies",
+        "pageNumber": 60
+    },
+    {
+        "major": "Fashion Design and Merchandising",
+        "pageNumber": 61
+    },
+    {
+        "major": "Film Studies",
+        "pageNumber": 61
+    },
+    {
+        "major": "French",
+        "pageNumber": 63
+    },
+    {
+        "major": "Game Design",
+        "pageNumber": 64
+    },
+    {
+        "major": "Geographic Information Systems",
+        "pageNumber": 64
+    },
+    {
+        "major": "Geography",
+        "pageNumber": 64
+    },
+    {
+        "major": "Geology",
+        "pageNumber": 65
+    },
+    {
+        "major": "German",
+        "pageNumber": 65
+    },
+    {
+        "major": "Global Studies",
+        "pageNumber": 65
+    },
+    {
+        "major": "Graphic Design",
+        "pageNumber": 66
+    },
+    {
+        "major": "Health Education",
+        "pageNumber": 67
+    },
+    {
+        "major": "Health Occupations",
+        "pageNumber": 68
+    },
+    {
+        "major": "Health \u2013 Noncredit",
+        "pageNumber": 68
+    },
+    {
+        "major": "Hebrew",
+        "pageNumber": 68
+    },
+    {
+        "major": "History",
+        "pageNumber": 69
+    },
+    {
+        "major": "Humanities",
+        "pageNumber": 70
+    },
+    {
+        "major": "Independent Studies",
+        "pageNumber": 70
+    },
+    {
+        "major": "Interaction Design",
+        "pageNumber": 71
+    },
+    {
+        "major": "Interior Architectural Design",
+        "pageNumber": 72
+    },
+    {
+        "major": "Internships",
+        "pageNumber": 73
+    },
+    {
+        "major": "Italian",
+        "pageNumber": 73
+    },
+    {
+        "major": "Japanese",
+        "pageNumber": 73
+    },
+    {
+        "major": "Journalism",
+        "pageNumber": 73
+    },
+    {
+        "major": "Kinesiology/ Physical Education: Combatives",
+        "pageNumber": 75
+    },
+    {
+        "major": "Kinesiology/Physical Education",
+        "pageNumber": 74
+    },
+    {
+        "major": "Kinesiology/Physical Education: Aquatics",
+        "pageNumber": 74
+    },
+    {
+        "major": "Kinesiology/Physical Education: Fitness",
+        "pageNumber": 75
+    },
+    {
+        "major": "Kinesiology/Physical Education: Individual Sports",
+        "pageNumber": 76
+    },
+    {
+        "major": "Kinesiology/Physical Education: Team Sports",
+        "pageNumber": 76
+    },
+    {
+        "major": "Korean",
+        "pageNumber": 77
+    },
+    {
+        "major": "Library Studies",
+        "pageNumber": 77
+    },
+    {
+        "major": "Linguistics",
+        "pageNumber": 77
+    },
+    {
+        "major": "Mathematics",
+        "pageNumber": 77
+    },
+    {
+        "major": "Media Studies",
+        "pageNumber": 82
+    },
+    {
+        "major": "Music: Appreciation and History",
+        "pageNumber": 84
+    },
+    {
+        "major": "Music: Theory, Performance, and Application",
+        "pageNumber": 85
+    },
+    {
+        "major": "Nursing",
+        "pageNumber": 88
+    },
+    {
+        "major": "Nursing \u2013 Noncredit",
+        "pageNumber": 90
+    },
+    {
+        "major": "Office Technology",
+        "pageNumber": 90
+    },
+    {
+        "major": "Persian",
+        "pageNumber": 90
+    },
+    {
+        "major": "Philosophy",
+        "pageNumber": 90
+    },
+    {
+        "major": "Photography",
+        "pageNumber": 91
+    },
+    {
+        "major": "Physics",
+        "pageNumber": 92
+    },
+    {
+        "major": "Political Science",
+        "pageNumber": 93
+    },
+    {
+        "major": "Professional Courses in Kinesiology/ Physical Education",
+        "pageNumber": 94
+    },
+    {
+        "major": "Psychology",
+        "pageNumber": 95
+    },
+    {
+        "major": "Real Estate",
+        "pageNumber": 97
+    },
+    {
+        "major": "Religious Studies",
+        "pageNumber": 97
+    },
+    {
+        "major": "Respiratory Care",
+        "pageNumber": 97
+    },
+    {
+        "major": "Russian",
+        "pageNumber": 98
+    },
+    {
+        "major": "Science \u2013 General Studies",
+        "pageNumber": 98
+    },
+    {
+        "major": "Sociology",
+        "pageNumber": 98
+    },
+    {
+        "major": "Spanish",
+        "pageNumber": 99
+    },
+    {
+        "major": "Sustainability Systems and Technology \u2013 Noncredit",
+        "pageNumber": 100
+    },
+    {
+        "major": "Sustainable Materials Management",
+        "pageNumber": 100
+    },
+    {
+        "major": "Theatre Arts",
+        "pageNumber": 100
+    },
+    {
+        "major": "Urban Studies",
+        "pageNumber": 102
+    },
+    {
+        "major": "Varsity Intercollegiate Athletics",
+        "pageNumber": 102
+    },
+    {
+        "major": "Women\u2019s, Gender, and Sexuality Studies",
+        "pageNumber": 103
+    }
+]
