@@ -1,0 +1,1098 @@
+{
+  "metadata": {
+    "source": "https://admissions.ucsd.edu/transfer/transfer-major-preparation.html",
+    "last_scraped": "2025-05-25",
+    "description": "UCSD Transfer Major Preparation Requirements for all majors"
+  },
+  "general_requirements": {
+    "description": "Students planning to transfer must complete the minimum major preparation coursework to be considered for admission into the majors listed below.",
+    "grade_requirement": "All major preparation screening courses must be completed with a C (2.0) or better grade unless otherwise noted.",
+    "completion_deadline": "Required minimum transfer major preparation must be completed by the end of the spring term prior to fall admission.",
+    "assist_org_note": "Visit assist.org to find the complete listing of major preparation and transferable courses at your California community college.",
+    "course_impacts_meaning": "Entering credit for the recommended preparation courses will affect enrollment in the following courses."
+  },
+  "majors": {
+    "anthropology": {
+      "major_name": "Biological Anthropology",
+      "department": "Anthropology",
+      "required_courses": [
+        "BILD 1, 2",
+        "Chem 6A, B, C",
+        "Choose two of these courses: Math 10A, B, C or Math 20A, B, C",
+        "Choose one of these courses: Math 11 or Psych 60",
+        "ANTH 2 (Human Origins)",
+        "ANTH 43 (Introduction to the Biology and Culture of Race)",
+        "ANTH 42 (Primates in a Human-Dominated World)",
+        "ANTH 5 (The Human Machine: Skeleton Within)",
+        "SOCI 70 (Sociology for Pre-medical Students)",
+        "PSYC 1 (Psychology)"
+      ]
+    },
+    "astronomy_and_astrophysics": {
+      "major_name": "Astronomy and Astrophysics",
+      "department": "Astronomy and Astrophysics",
+      "required_courses": [
+        "MATH 18, MATH 20A, MATH 20B, MATH 20C, MATH 20D",
+        "PHYS 2A, PHYS 2B, PHYS 2C",
+        "MATH 20E",
+        "PHYS 2D"
+      ]
+    },
+    "bioengineering": {
+      "major_name": "Bioengineering",
+      "department": "Bioengineering",
+      "required_courses": [
+        "MATH 20A, MATH 20B, MATH 20C, MATH 20D",
+        "CHEM 6A, CHEM 6B",
+        "PHYS 2A, PHYS 2B, PHYS 2BL, PHYS 2CL"
+      ],
+      "recommended_preparation": {
+        "courses": [
+          "BILD 1 The Cell",
+          "MAE 8 Matlab Programming for Engineering Analysis",
+          "MATH 18 Linear Algebra",
+          "MATH 20E Vector Calculus",
+          "PHYS 2C Physics—Fluids, Waves, Thermodynamics, and Optics",
+          "CHEM 7L General Chemistry Laboratory"
+        ],
+        "additional_info": {
+          "course_impacts": [
+            "BENG 100. Introduction to Probability and Statistics. Prerequisites include Math 18. Transfer students are recommended to take this course in Fall Quarter of Junior Year – or in Summer if offered.",
+            "BENG 110. Musculoskeletal Biomechanics. Prerequisites include MATH 18 and MATH 20E. Transfer students are recommended to take this course in Fall Quarter of Junior Year.",
+            "BENG 130. Biotechnology Thermodynamics and Kinetics. Prerequisites include PHYS 2C. Transfer students are recommended to take this course in Winter Quarter of Senior Year.",
+            "BENG 140A/B. Bioengineering Physiology. Prerequisites include BILD 1. Transfer students are recommended to take these courses in Winter Quarter and Spring Quarter of Junior Year.",
+            "MAE 40. Linear Circuits. Prerequisites include MATH 18. Transfer students are recommended to take this course in Fall Quarter of Junior Year.",
+            "MAE 107. Computational Methods in Engineering. Prerequisites include MATH 18 and MAE 8. Transfer students are recommended to take this course in Fall Quarter of Junior Year."
+          ],
+          "notes": [
+            "Time to degree is affected by credit for lower division STEM courses.",
+            "Consult the BS Bioengineering curriculum and flowchart at https://bioengineering.ucsd.edu/undergrad/programs/bioeng",
+            "See also UC Transfer Pathway draft including Bioengineering at https://narayan.sites.ucsc.edu/resources/"
+          ]
+        }
+      }
+    },
+    "bioengineering_bioinformatics": {
+      "major_name": "Bioengineering: Bioinformatics",
+      "department": "Bioengineering",
+      "specialization": "Bioinformatics",
+      "required_courses": [
+        "MATH 20A, MATH 20B, MATH 20C, MATH 20D",
+        "CHEM 6A, CHEM 6B",
+        "PHYS 2A, PHYS 2B"
+      ],
+      "recommended_preparation": {
+        "courses": [
+          "BILD 1 The Cell",
+          "BILD 3 Organismic and Evolutionary Biology",
+          "BILD 4 Introductory Biology Lab",
+          "CSE 11 Introduction to Programming and Computational Problem-Solving: Accelerated Pace",
+          "CSE 12 Basic Data Structures and Object-Oriented Design",
+          "MATH 18 Linear Algebra",
+          "MATH 20E Vector Calculus"
+        ],
+        "additional_info": {
+          "course_impacts": [
+            "BENG 100 Introduction to Probability and Statistics. Prerequisites include Math 18. Transfer students are recommended to take this course in Fall Quarter of Junior Year – or in Summer Session if offered.",
+            "CSE 21 Mathematics for Algorithms and Systems. Transfer students are recommended to take this course in Fall Quarter of Junior Year, as it is a prerequisite for CSE 100.",
+            "CSE 100 Advanced Data Structures. Transfer students are recommended to take this course in Winter Quarter of Junior Year. Prerequisites include CSE 12 and CSE 21.",
+            "CSE 185 Advanced Bioinformatics Laboratory. Transfer students are recommended to take this course in Spring Quarter of Junior Year. Prerequisites include CSE 11, CSE 12, and BILD 1 and BILD 4."
+          ],
+          "notes": [
+            "Time to degree is affected by credit for lower division STEM courses.",
+            "Consult the BS Bioengineering:Bioinformatics curriculum and flowchart at https://bioengineering.ucsd.edu/undergrad/programs/bioinfo",
+            "See also UC Transfer Pathway draft including Bioengineering at https://narayan.sites.ucsc.edu/resources/"
+          ]
+        }
+      }
+    },
+    "bioengineering_biosystems": {
+      "major_name": "Bioengineering: Biosystems",
+      "department": "Bioengineering",
+      "specialization": "Biosystems",
+      "required_courses": [
+        "MATH 20A, MATH 20B, MATH 20C, MATH 20D",
+        "CHEM 6A, CHEM 6B",
+        "PHYS 2A, PHYS 2B"
+      ],
+      "recommended_preparation": {
+        "courses": [
+          "BILD 1 The Cell. This course is not required, but see below.",
+          "MAE 8 MATLAB. Programming for Engineering Analysis or BENG 2 Introductory Computer Programming and MATLAB. We take credit for either.",
+          "MATH 18 Linear Algebra",
+          "MATH 20E Vector Calculus",
+          "PHYS 2BL Physics Laboratory – Mechanics",
+          "PHYS 2C Physics—Fluids, Waves, Thermodynamics, and Optics"
+        ],
+        "additional_info": {
+          "course_impacts": [
+            "BENG 100 Introduction to Probability and Statistics. Prerequisites include Math 18. Transfer students are recommended to take this course in Spring Quarter of Junior Year – or in Summer Session if offered.",
+            "BENG 110. Musculoskeletal Biomechanics. Prerequisites include MATH 18, MATH 20E, PHYS 2BL and PHYS 2C. Transfer students are recommended to take this course in Fall Quarter of Junior Year.",
+            "BENG 140A/B. Bioengineering Physiology. Prerequisites include BILD 1. Transfer students should take these courses in Winter Quarter and Spring Quarter of Senior Year. BENG 120 and BENG 102 are prerequisites; however, if BENG 140A and BENG 140B are taken early (some take them Junior Year), BILD 1 will be a satisfactory prerequisite.",
+            "ECE 35 Linear Circuits. Prerequisites include MATH 18. This course is a critical prerequisite for BENG 152 and BENG 186B. Transfer students are recommended to take this course in Fall Quarter of Junior Year, otherwise key courses will be delayed by a year."
+          ],
+          "notes": [
+            "Time to degree is affected by credit for lower division STEM courses.",
+            "Consult the BS Bioengineering:Biosystems curriculum and flowchart at https://bioengineering.ucsd.edu/undergrad/programs/biosys",
+            "See also UC Transfer Pathway draft including Bioengineering at https://narayan.sites.ucsc.edu/resources/"
+          ]
+        }
+      }
+    },
+    "bioengineering_biotechnology": {
+      "major_name": "Bioengineering: Biotechnology",
+      "department": "Bioengineering",
+      "specialization": "Biotechnology",
+      "required_courses": [
+        "MATH 20A, MATH 20B, MATH 20C, MATH 20D",
+        "CHEM 6A, CHEM 6B",
+        "PHYS 2A, PHYS 2B, PHYS 2CL"
+      ],
+      "recommended_preparation": {
+        "courses": [
+          "BILD 1 The Cell",
+          "BILD 3 Organismic and Evolutionary Biology. This course is not required but must also be taken as a prerequisite for BICD 100.",
+          "CHEM 6C General Chemistry III",
+          "CHEM 7L General Chemistry Laboratory",
+          "CHEM 41A/B Organic Chemistry for Life Sciences I/II",
+          "MAE 8 Matlab Programming for Engineering Analysis",
+          "MATH 18 Linear Algebra",
+          "MATH 20E Vector Calculus",
+          "PHYS 2C Physics Fluids, Waves, Thermodynamics, and Optics"
+        ],
+        "additional_info": {
+          "course_impacts": [
+            "BENG 100 Introduction to Probability and Statistics. Prerequisites include Math 18. Transfer students are recommended to take this course in Fall Quarter of Junior Year – or in Summer Session if offered.",
+            "BENG 123 Dynamic Simulation in Bioengineering. Prerequisites include MATH 18 and CHEM 41AB. Transfer students are recommended to take this course Winter Quarter of Senior Year.",
+            "BENG 130 Biotechnology Thermodynamics and Kinetics. Prerequisites include PHYS 2C. Transfer students are recommended to take this course in Winter Quarter of Junior Year.",
+            "BENG 166A Cell and Tissue Engineering. Prerequisites include BILD 1, CHEM 6C, and PHYS 2C. Transfer students are recommended to take this course in Fall Quarter of Junior Year.",
+            "BENG 168 Biomolecular Engineering. Prerequisites include BILD 1. Transfer students are recommended to take this course in Winter Quarter of Junior Year.",
+            "BICD 100 Genetics. Prerequisites are BILD 1 and BILD 3. Transfer students are recommended to take this course in Winter Quarter of Junior Year.",
+            "CENG 101A Introductory Fluid Mechanics. Prerequisites include MATH 20E. Transfer students are recommended to take this course in Fall Quarter of Junior Year.",
+            "MAE 170 Experimental Techniques. Prerequisites include PHYS 2C and PHYS 2CL. Transfer students are recommended to take this course in Fall Quarter of Junior Year."
+          ],
+          "notes": [
+            "Time to degree is affected by credit for lower division STEM courses.",
+            "Consult the BS Bioengineering:Biotechnology curriculum and flowchart at https://be.ucsd.edu/undergrad/programs/biotech",
+            "See also UC Transfer Pathway draft including Bioengineering at https://narayan.sites.ucsc.edu/resources/"
+          ]
+        }
+      }
+    },
+    "biology_ecology_behavior_evolution": {
+      "major_name": "Biology - Ecology, Behavior & Evolution",
+      "department": "Biology",
+      "specialization": "Ecology, Behavior & Evolution",
+      "required_courses": [
+        "BILD 1, BILD 3",
+        "CHEM 6A, CHEM 6B, CHEM 6C, CHEM 7L",
+        "MATH 10A, MATH 10B or MATH 20A, MATH 20B"
+      ],
+      "additional_requirements": [
+        "All courses must be completed with a letter grade of C- or higher",
+        "Students must have a minimum GPA of 2.5 in these courses",
+        "AP/IB credit will count toward course requirements but will not be factored into GPA calculation"
+      ]
+    },
+    "biology_general": {
+      "major_name": "Biology - General",
+      "department": "Biology",
+      "specialization": "General",
+      "required_courses": [
+        "BILD 1, BILD 3",
+        "CHEM 6A, CHEM 6B, CHEM 6C, CHEM 7L",
+        "MATH 10A, MATH 10B or MATH 20A, MATH 20B"
+      ],
+      "additional_requirements": [
+        "All courses must be completed with a letter grade of C- or higher",
+        "Students must have a minimum GPA of 2.5 in these courses",
+        "AP/IB credit will count toward course requirements but will not be factored into GPA calculation"
+      ]
+    },
+    "biology_molecular_and_cell": {
+      "major_name": "Biology - Molecular & Cell",
+      "department": "Biology",
+      "specialization": "Molecular & Cell",
+      "required_courses": [
+        "BILD 1, BILD 3",
+        "CHEM 6A, CHEM 6B, CHEM 6C, CHEM 7L",
+        "MATH 10A, MATH 10B or MATH 20A, MATH 20B"
+      ],
+      "additional_requirements": [
+        "All courses must be completed with a letter grade of C- or higher",
+        "Students must have a minimum GPA of 2.5 in these courses",
+        "AP/IB credit will count toward course requirements but will not be factored into GPA calculation"
+      ]
+    },
+    "biology_neurobiology": {
+      "major_name": "Biology - Neurobiology",
+      "department": "Biology",
+      "specialization": "Neurobiology",
+      "required_courses": [
+        "BILD 1, BILD 3",
+        "CHEM 6A, CHEM 6B, CHEM 6C, CHEM 7L",
+        "MATH 10A, MATH 10B or MATH 20A, MATH 20B"
+      ],
+      "additional_requirements": [
+        "All courses must be completed with a letter grade of C- or higher",
+        "Students must have a minimum GPA of 2.5 in these courses",
+        "AP/IB credit will count toward course requirements but will not be factored into GPA calculation"
+      ]
+    },
+    "biology_human": {
+      "major_name": "Biology - Human",
+      "department": "Biology",
+      "specialization": "Human",
+      "required_courses": [
+        "BILD 1, BILD 3",
+        "CHEM 6A, CHEM 6B, CHEM 6C, CHEM 7L",
+        "MATH 10A, MATH 10B or MATH 20A, MATH 20B"
+      ],
+      "additional_requirements": [
+        "All courses must be completed with a letter grade of C- or higher",
+        "Students must have a minimum GPA of 2.5 in these courses",
+        "AP/IB credit will count toward course requirements but will not be factored into GPA calculation"
+      ]
+    },
+    "biology_bioinformatics": {
+      "major_name": "Biology - Bioinformatics",
+      "department": "Biology",
+      "specialization": "Bioinformatics",
+      "required_courses": [
+        "BILD 1, BILD 3",
+        "CHEM 6A, CHEM 6B, CHEM 6C, CHEM 7L",
+        "MATH 10A, MATH 10B or MATH 20A, MATH 20B"
+      ],
+      "additional_requirements": [
+        "All courses must be completed with a letter grade of C- or higher",
+        "Students must have a minimum GPA of 2.5 in these courses",
+        "AP/IB credit will count toward course requirements but will not be factored into GPA calculation"
+      ]
+    },
+    "biology_biotechnology": {
+      "major_name": "Biology - Biotechnology",
+      "department": "Biology",
+      "specialization": "Biotechnology",
+      "required_courses": [
+        "BILD 1, BILD 3",
+        "CHEM 6A, CHEM 6B, CHEM 6C, CHEM 7L",
+        "MATH 10A, MATH 10B or MATH 20A, MATH 20B"
+      ],
+      "additional_requirements": [
+        "All courses must be completed with a letter grade of C- or higher",
+        "Students must have a minimum GPA of 2.5 in these courses",
+        "AP/IB credit will count toward course requirements but will not be factored into GPA calculation"
+      ]
+    },
+    "chemical_engineering": {
+      "major_name": "Chemical Engineering",
+      "department": "Chemical and NanoEngineering",
+      "required_courses": [
+        "CHEM 6A, CHEM 6B, CHEM 6C",
+        "MATH 20A, MATH 20B, MATH 20C, MATH 20D",
+        "PHYS 2A, PHYS 2B, PHYS 2C, PHYS 2CL"
+      ]
+    },
+    "chemical_engineering_bs_ms": {
+      "major_name": "Chemical Engineering B.S./M.S.",
+      "department": "Chemical and NanoEngineering",
+      "required_courses": [
+        "CHEM 6A, CHEM 6B, CHEM 6C",
+        "MATH 18, MATH 20A, MATH 20B, MATH 20C, MATH 20D",
+        "PHYS 2A, PHYS 2B, PHYS 2C, PHYS 2CL"
+      ]
+    },
+    "nanoengineering": {
+      "major_name": "NanoEngineering",
+      "department": "Chemical and NanoEngineering",
+      "required_courses": [
+        "CHEM 6A, CHEM 6B, CHEM 6C",
+        "MATH 20A, MATH 20B, MATH 20C, MATH 20D",
+        "PHYS 2A, PHYS 2B, PHYS 2C"
+      ]
+    },
+    "nanoengineering_bs_ms": {
+      "major_name": "NanoEngineering B.S./M.S.",
+      "department": "Chemical and NanoEngineering",
+      "required_courses": [
+        "CHEM 6A, CHEM 6B, CHEM 6C",
+        "MATH 18, MATH 20A, MATH 20B, MATH 20C, MATH 20D",
+        "PHYS 2A, PHYS 2B, PHYS 2C"
+      ]
+    },
+    "chemistry_bs": {
+      "major_name": "Chemistry B.S.",
+      "department": "Chemistry and Biochemistry",
+      "required_courses": [
+        "CHEM 6A, CHEM 6B, CHEM 6C, CHEM 7L",
+        "CHEM 41A (Formerly CHEM 40A), CHEM 41B (Formerly CHEM 40B), CHEM 41C (Formerly CHEM 40C), and CHEM 43A",
+        "PHYS 1A & PHYS 1B or PHYS 2A & PHYS 2B",
+        "MATH 10A & MATH 10B or MATH 20A & MATH 20B"
+      ]
+    },
+    "chemistry_with_specialization_in_biochemistry": {
+      "major_name": "Chemistry with a Specialization in Biochemistry",
+      "department": "Chemistry and Biochemistry",
+      "specialization": "Biochemistry",
+      "required_courses": [
+        "CHEM 6A, CHEM 6B, CHEM 6C, CHEM 7L",
+        "CHEM 41A (Formerly CHEM 40A), CHEM 41B (Formerly CHEM 40B), CHEM 41C (Formerly CHEM 40C), and CHEM 43A",
+        "PHYS 2A, PHYS 2B",
+        "MATH 20A, MATH 20B"
+      ]
+    },
+    "chemistry_with_specialization_in_education": {
+      "major_name": "Chemistry with a Specialization in Education",
+      "department": "Chemistry and Biochemistry",
+      "specialization": "Education",
+      "required_courses": [
+        "CHEM 6A, CHEM 6B, CHEM 6C, CHEM 7L",
+        "CHEM 41A (Formerly CHEM 40A), CHEM 41B (Formerly CHEM 40B), CHEM 41C (Formerly CHEM 40C), and CHEM 43A",
+        "PHYS 2A, PHYS 2B",
+        "MATH 20A, MATH 20B"
+      ]
+    },
+    "chemistry_with_specialization_in_environmental_chemistry": {
+      "major_name": "Chemistry with a Specialization in Environmental Chemistry",
+      "department": "Chemistry and Biochemistry",
+      "specialization": "Environmental Chemistry",
+      "required_courses": [
+        "CHEM 6A, CHEM 6B, CHEM 6C, CHEM 7L",
+        "CHEM 41A (Formerly CHEM 40A), CHEM 41B (Formerly CHEM 40B), CHEM 41C (Formerly CHEM 40C), and CHEM 43A",
+        "PHYS 2A, PHYS 2B",
+        "MATH 20A, MATH 20B"
+      ]
+    },
+    "chemistry_ba": {
+      "major_name": "Chemistry B.A.",
+      "department": "Chemistry and Biochemistry",
+      "required_courses": [
+        "CHEM 6A, CHEM 6B, CHEM 6C, CHEM 7L",
+        "CHEM 41A (Formerly CHEM 40A), CHEM 41B (Formerly CHEM 40B), CHEM 41C (Formerly CHEM 40C), and CHEM 43A",
+        "PHYS 1A & PHYS 1B or PHYS 2A & PHYS 2B",
+        "MATH 10A & MATH 10B or MATH 20A & MATH 20B"
+      ]
+    },
+    "computer_science_bs": {
+      "major_name": "Computer Science B.S.",
+      "department": "Computer Science and Engineering",
+      "required_courses": [
+        "MATH 18, MATH 20A, MATH 20B, MATH 20C",
+        "One course chosen from PHYS 2A, PHYS 2B, PHYS 4A, PHYS 4B, CHEM 6A or CHEM 6AH, CHEM 6B or CHEM 6BH, BILD 1, BILD 2, BILD 3, BICD 100, BIMM 101, BIMM 121, COGS 107A, COGS 107B, COGS 115, ESYS 101, HDS 110, SIO 126, or SIO 128",
+        "CSE 8B or 11 and, CSE 12 and, CSE 20"
+      ]
+    },
+    "computer_science_ba": {
+      "major_name": "Computer Science B.A.",
+      "department": "Computer Science and Engineering",
+      "required_courses": [
+        "MATH 18, MATH 20A, MATH 20B, MATH 20C",
+        "One course chosen from PHYS 2A, PHYS 2B, PHYS 4A, PHYS 4B, CHEM 6A or CHEM 6AH, CHEM 6B or CHEM 6BH, BILD 1, BILD 2, BILD 3, BICD 100, BIMM 101, BIMM 121, COGS 107A, COGS 107B, COGS 115, ESYS 101, HDS 110, SIO 126, or SIO 128",
+        "CSE 8B or 11 and, CSE 12 and, CSE 20"
+      ]
+    },
+    "computer_science_bioinformatics": {
+      "major_name": "Computer Science with a Specialization in Bioinformatics",
+      "department": "Computer Science and Engineering",
+      "specialization": "Bioinformatics",
+      "required_courses": [
+        "MATH 18, MATH 20A, MATH 20B, MATH 20C",
+        "BILD 1 or BILD 3",
+        "CHEM 6A",
+        "CSE 8B or 11 and, CSE 12"
+      ]
+    },
+    "data_science": {
+      "major_name": "Data Science",
+      "department": "Data Science",
+      "required_courses": [
+        "MATH 18 – Linear Algebra",
+        "MATH 20A – Calculus I – for Science and Engineering",
+        "MATH 20B – Calculus II – for Science and Engineering",
+        "MATH 20C – Calculus and Analytic Geometry for Science and Engineering",
+        "Minimum of one programming course in Java, C, C++, or Python. For colleges with ASSIST articulation agreements, we recommend that students take programming courses which articulate to CSE 8A, CSE 8B, or CSE 11."
+      ]
+    },
+    "business_economics": {
+      "major_name": "Business Economics",
+      "department": "Economics",
+      "required_courses": [
+        "MATH 20A (or 10A)*, MATH 20B (or 10B)*",
+        "ECON 1 or ECON 3",
+        "MGT 45 or ECON/MGT 4 and MGT 5"
+      ],
+      "additional_requirements": [
+        "Students must earn a C- or better in each class",
+        "Students must have a minimum 2.3 overall GPA across the major preparation classes."
+      ],
+      "recommendations": [
+        "*We recommend students take the math sequence required for the STEM majors if two math sequences are available at the community college (equivalent to UC San Diego's Math 20 series).",
+        "We recommend students also take MATH 20C (or 10C) as this class is a requirement for UC San Diego Business Economics majors."
+      ]
+    },
+    "economics": {
+      "major_name": "Economics",
+      "department": "Economics",
+      "required_courses": [
+        "ECON 1, ECON 3",
+        "MATH 20A (or 10A)*",
+        "MATH 20B (or 10B)*"
+      ],
+      "additional_requirements": [
+        "All courses must be completed with a letter grade of C- or higher",
+        "Students must have a minimum GPA of 2.3 in these courses"
+      ],
+      "recommendations": [
+        "*We recommend students take the math sequence required for the STEM majors if two math sequences are available at the community college (equivalent to UC San Diego's Math 20 series).",
+        "We recommend students also take MATH 20C (or 10C) as this class is a requirement for UC San Diego Economics majors."
+      ]
+    },
+    "joint_economics_mathematics": {
+      "major_name": "Joint Economics - Mathematics",
+      "department": "Economics",
+      "joint_program": true,
+      "required_courses": [
+        "ECON 1, ECON 3",
+        "MATH 20A (or 10A)*",
+        "MATH 20B (or 10B)*"
+      ],
+      "additional_requirements": [
+        "All courses must be completed with a letter grade of C- or higher",
+        "Students must have a minimum GPA of 2.3 in these courses"
+      ],
+      "recommendations": [
+        "*We recommend students take the math sequence required for the STEM majors if two math sequences are available at the community college (equivalent to UC San Diego's Math 20 series).",
+        "We recommend students also take MATH 20C (or 10C) as this class is a requirement for UC San Diego Economics majors."
+      ]
+    },
+      "computer_engineering": {
+        "major_name": "Computer Engineering",
+        "department": ["Electrical and Computer Engineering", "Computer Science and Engineering"],
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C",
+          "MATH 20D",
+          "PHYS 2A",
+          "PHYS 2B",
+          "PHYS 2C",
+          "CSE 8B or 11",
+          "CSE 12",
+          "CSE 20"
+        ]
+      },
+      "electrical_engineering": {
+        "major_name": "Electrical Engineering",
+        "department": "Electrical and Computer Engineering",
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C",
+          "MATH 20D",
+          "PHYS 2A",
+          "PHYS 2B",
+          "PHYS 2C",
+          "CHEM 6A",
+          "Minimum of one programming course in Java, C, or C++"
+        ],
+        "additional_requirements": [
+          "For colleges with ASSIST articulation agreements, the minimum will be CSE 8A, CSE 8B, or CSE 11"
+        ]
+      },
+      "electrical_engineering_power_systems": {
+        "major_name": "Electrical Engineering - Power Systems",
+        "department": "Electrical and Computer Engineering",
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C",
+          "MATH 20D",
+          "PHYS 2A",
+          "PHYS 2B",
+          "PHYS 2C",
+          "CHEM 6A",
+          "Minimum of one programming course in Java, C, or C++"
+        ],
+        "additional_requirements": [
+          "For colleges with ASSIST articulation agreements, the minimum will be CSE 8A, CSE 8B, or CSE 11"
+        ]
+      },
+      "machine_learning_and_neural_computation": {
+        "major_name": "Machine Learning and Neural Computation",
+        "department": "Electrical and Computer Engineering",
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C",
+          "MATH 20D",
+          "PHYS 2A",
+          "PHYS 2B",
+          "PHYS 2C",
+          "CHEM 6A",
+          "Minimum of one programming course in Java, C, or C++"
+        ],
+        "additional_requirements": [
+          "For colleges with ASSIST articulation agreements, the minimum will be CSE 8A, CSE 8B, or CSE 11"
+        ]
+      },
+      "environmental_engineering": {
+        "major_name": "Environmental Engineering",
+        "department": "Environmental Systems",
+        "required_courses": [
+          "BILD 3",
+          "CHEM 6A",
+          "CHEM 6B",
+          "CHEM 6C",
+          "MATH 20A",
+          "MATH 20B",
+          "PHYS 2A",
+          "PHYS 2B"
+        ],
+        "recommended_courses": [
+          "Math 20C",
+          "PHYS 2C",
+          "ECON 1"
+        ]
+      },
+      "environmental_science": {
+        "major_name": "Environmental Science",
+        "department": "Environmental Systems",
+        "required_courses": [
+          "BILD 3",
+          "CHEM 6A",
+          "CHEM 6B",
+          "CHEM 6C",
+          "CHEM 7L",
+          "MATH 20A",
+          "MATH 20B",
+          "PHYS 2A",
+          "PHYS 2B"
+        ],
+        "recommended_courses": [
+          "Math 20C",
+          "PHYS 2C",
+          "PHYS 2CL",
+          "ECON 1"
+        ]
+      },
+      "environmental_systems_ecology": {
+        "major_name": "Environmental Systems - Ecology, Behavior, and Evolution",
+        "department": "Environmental Systems",
+        "required_courses": [
+          "BILD 1",
+          "BILD 3",
+          "CHEM 6A",
+          "CHEM 6B",
+          "CHEM 6C",
+          "MATH 10A or MATH 20A",
+          "MATH 10B or MATH 20B",
+          "PHYS 1A",
+          "ECON 1"
+        ]
+      },
+      "environmental_systems_environmental_chemistry": {
+        "major_name": "Environmental Systems - Environmental Chemistry",
+        "department": "Environmental Systems",
+        "required_courses": [
+          "ECON 1",
+          "BILD 3",
+          "CHEM 6A",
+          "CHEM 6B",
+          "CHEM 6C",
+          "MATH 10A or MATH 20A",
+          "MATH 10B or MATH 20B"
+        ],
+        "recommended_courses": [
+          "ECON 2",
+          "PHYS 1A"
+        ]
+      },
+      "applied_mathematics": {
+        "major_name": "Applied Mathematics",
+        "department": "Mathematics",
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C",
+          "MATH 20D"
+        ]
+      },
+      "mathematics": {
+        "major_name": "Mathematics",
+        "department": "Mathematics",
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C",
+          "MATH 20D"
+        ]
+      },
+      "mathematics_applied_science": {
+        "major_name": "Mathematics - Applied Science",
+        "department": "Mathematics",
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C",
+          "MATH 20D"
+        ]
+      },
+      "mathematics_computer_science": {
+        "major_name": "Mathematics - Computer Science",
+        "department": "Mathematics",
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C",
+          "MATH 20D"
+        ]
+      },
+      "mathematics_scientific_computation": {
+        "major_name": "Mathematics - Scientific Computation",
+        "department": "Mathematics",
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C",
+          "MATH 20D"
+        ]
+      },
+      "mathematics_secondary_education": {
+        "major_name": "Mathematics - Secondary Education",
+        "department": "Mathematics",
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C",
+          "MATH 20D"
+        ]
+      },
+      "joint_mathematics_economics": {
+        "major_name": "Joint Mathematics - Economics",
+        "department": "Mathematics",
+        "joint_program": true,
+        "required_courses": [
+          "ECON 1",
+          "ECON 3",
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C",
+          "MATH 20D"
+        ],
+        "additional_requirements": [
+          "All courses must be completed with a letter grade of C- or higher",
+          "Students must have a minimum GPA of 2.3 in these courses"
+        ]
+      },
+      "probability_and_statistics": {
+        "major_name": "Probability and Statistics",
+        "department": "Mathematics",
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C",
+          "MATH 20D"
+        ]
+      },
+      "bioinformatics": {
+        "major_name": "Bioinformatics",
+        "department": "Mathematics",
+        "required_courses": [
+          "BILD 1",
+          "BILD 2",
+          "BILD 4",
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C",
+          "MATH 20D"
+        ]
+      },
+      "aerospace_engineering": {
+        "major_name": "Aerospace Engineering",
+        "department": "Mechanical and Aerospace Engineering",
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C",
+          "MATH 20D",
+          "CHEM 6A",
+          "PHYS 2A",
+          "PHYS 2B",
+          "PHYS 2C",
+          "PHYS 2CL",
+          "MAE 8"
+        ]
+      },
+      "mechanical_engineering": {
+        "major_name": "Mechanical Engineering",
+        "department": "Mechanical and Aerospace Engineering",
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C",
+          "MATH 20D",
+          "CHEM 6A",
+          "PHYS 2A",
+          "PHYS 2B",
+          "PHYS 2C",
+          "MAE 8"
+        ],
+        "recommended_courses": [
+          "MAE 20",
+          "MAE 40"
+        ]
+      },
+      "clinical_public_health": {
+        "major_name": "Clinical Public Health",
+        "department": "Public Health",
+        "required_courses": [
+          "BILD 1, BILD 2, BILD 3, BILD 10, BILD 12/COGS 17, BILD 18, BILD 20, BILD 22, BILD 26, BILD 28, BILD 30, BILD 32, BILD 36, BILD 38, BILD 44, BILD 60, BILD 61",
+          "COGS 14B, HDS 60, MATH 11, PSYC 60"
+        ],
+        "recommended_courses": [
+          "BILD 1, 2, 3 course equivalents",
+          "MATH 20A and MATH 20B course equivalents",
+          "MATH 11 course equivalent"
+        ],
+        "additional_info": "For more information, visit https://ph.ucsd.edu/undergrad/new-prospective-students/transfer-major-preparation.html"
+      },
+      "community_health": {
+        "major_name": "Community Health",
+        "department": "Public Health",
+        "required_courses": [
+          "CHEM 6A",
+          "CHEM 6B",
+          "CHEM 6C",
+          "MATH 10A/20A",
+          "MATH 10B/20B"
+        ],
+        "recommended_courses": [
+          "BILD 1, 2, 3 course equivalents",
+          "MATH 11 course equivalent"
+        ],
+        "additional_info": "For more information, visit https://ph.ucsd.edu/undergrad/new-prospective-students/transfer-major-preparation.html"
+      },
+      "epidemiology": {
+        "major_name": "Epidemiology",
+        "department": "Public Health",
+        "required_courses": [
+          "BILD 1, BILD 2, BILD 3, BILD 10, BILD 12/COGS 17, BILD 18, BILD 20, BILD 22, BILD 26, BILD 28, BILD 30, BILD 32, BILD 36, BILD 38, BILD 44, BILD 60, BILD 61",
+          "COGS 14B, HDS 60, MATH 11, PSYC 60"
+        ],
+        "recommended_courses": [
+          "BILD 1, 2, 3 course equivalents",
+          "COGS 14B, HDS 60, MATH 11, PSYC 60"
+        ],
+        "additional_info": "For more information, visit https://ph.ucsd.edu/undergrad/new-prospective-students/transfer-major-preparation.html"
+      },
+      "health_and_human_services": {
+        "major_name": "Health and Human Services",
+        "department": "Public Health",
+        "required_courses": [
+          "BILD 1, BILD 2, BILD 3, BILD 10, BILD 12/COGS 17, BILD 18, BILD 20, BILD 22, BILD 26, BILD 28, BILD 30, BILD 32, BILD 36, BILD 38, BILD 44, BILD 60, BILD 61",
+          "COGS 14B, HDS 60, MATH 11, PSYC 60"
+        ],
+        "recommended_courses": [
+          "BILD 1, 2, 3 course equivalents",
+          "CHEM 6ABC, 7L course equivalents",
+          "MATH 10A/20A, MATH 10B/20B",
+          "COGS 14B, HDS 60, MATH 11, PSYC 60"
+        ],
+        "additional_info": "For more information, visit https://ph.ucsd.edu/undergrad/new-prospective-students/transfer-major-preparation.html"
+      },
+      "physics": {
+        "major_name": "Physics",
+        "department": "Physics",
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C"
+        ],
+        "additional_requirements": [
+          "Minimum GPA of 3.0 in minimum screening courses"
+        ],
+        "recommended_courses": [
+          "MATH 20D",
+          "PHYS 2A",
+          "PHYS 2B",
+          "PHYS 2C",
+          "PHYS 2CL",
+          "PHYS 2D",
+          "PHYS 2DL",
+          "One programming course"
+        ],
+        "additional_info": "UC San Diego also requires completion of the Physics 4 series for transfer students after enrolling at UC San Diego. Additional details regarding the Physics 4 series are available via the UC San Diego General Catalog at https://catalog.ucsd.edu/courses/PHYS.html"
+      },
+      "physics_astrophysics": {
+        "major_name": "Physics - Astrophysics",
+        "department": "Physics",
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C"
+        ],
+        "additional_requirements": [
+          "Minimum GPA of 3.0 in minimum screening courses"
+        ],
+        "recommended_courses": [
+          "MATH 20D",
+          "PHYS 2A",
+          "PHYS 2B",
+          "PHYS 2C",
+          "PHYS 2CL",
+          "PHYS 2D",
+          "PHYS 2DL",
+          "One programming course"
+        ],
+        "additional_info": "UC San Diego also requires completion of the Physics 4 series for transfer students after enrolling at UC San Diego. Additional details regarding the Physics 4 series are available via the UC San Diego General Catalog at https://catalog.ucsd.edu/courses/PHYS.html"
+      },
+      "physics_astronomy": {
+        "major_name": "Physics - Astronomy",
+        "department": "Physics",
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C"
+        ],
+        "additional_requirements": [
+          "Minimum GPA of 3.0 in minimum screening courses"
+        ],
+        "recommended_courses": [
+          "MATH 20D",
+          "PHYS 2A",
+          "PHYS 2B",
+          "PHYS 2C",
+          "PHYS 2CL",
+          "PHYS 2D",
+          "PHYS 2DL",
+          "One programming course"
+        ],
+        "additional_info": "UC San Diego also requires completion of the Physics 4 series for transfer students after enrolling at UC San Diego. Additional details regarding the Physics 4 series are available via the UC San Diego General Catalog at https://catalog.ucsd.edu/courses/PHYS.html"
+      },
+      "physics_biophysics": {
+        "major_name": "Physics - Biophysics",
+        "department": "Physics",
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C"
+        ],
+        "additional_requirements": [
+          "Minimum GPA of 3.0 in minimum screening courses"
+        ],
+        "recommended_courses": [
+          "MATH 20D",
+          "PHYS 2A",
+          "PHYS 2B",
+          "PHYS 2C",
+          "PHYS 2CL",
+          "PHYS 2D",
+          "PHYS 2DL",
+          "One programming course",
+          "CHEM 6A-B-C",
+          "CHEM 7L",
+          "CHEM 40A",
+          "BILD 1-2"
+        ],
+        "additional_info": "UC San Diego also requires completion of the Physics 4 series for transfer students after enrolling at UC San Diego. Additional details regarding the Physics 4 series are available via the UC San Diego General Catalog at https://catalog.ucsd.edu/courses/PHYS.html"
+      },
+      "physics_computational": {
+        "major_name": "Physics - Computational",
+        "department": "Physics",
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C"
+        ],
+        "additional_requirements": [
+          "Minimum GPA of 3.0 in minimum screening courses"
+        ],
+        "recommended_courses": [
+          "MATH 20D",
+          "PHYS 2A",
+          "PHYS 2B",
+          "PHYS 2C",
+          "PHYS 2CL",
+          "PHYS 2D",
+          "PHYS 2DL",
+          "One programming course"
+        ],
+        "additional_info": "UC San Diego also requires completion of the Physics 4 series for transfer students after enrolling at UC San Diego. Additional details regarding the Physics 4 series are available via the UC San Diego General Catalog at https://catalog.ucsd.edu/courses/PHYS.html"
+      },
+      "physics_earth_sciences": {
+        "major_name": "Physics - Earth Sciences",
+        "department": "Physics",
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C"
+        ],
+        "additional_requirements": [
+          "Minimum GPA of 3.0 in minimum screening courses"
+        ],
+        "recommended_courses": [
+          "MATH 20D",
+          "PHYS 2A",
+          "PHYS 2B",
+          "PHYS 2C",
+          "PHYS 2CL",
+          "PHYS 2D",
+          "PHYS 2DL",
+          "One programming course",
+          "SIO 50"
+        ],
+        "additional_info": "UC San Diego also requires completion of the Physics 4 series for transfer students after enrolling at UC San Diego. Additional details regarding the Physics 4 series are available via the UC San Diego General Catalog at https://catalog.ucsd.edu/courses/PHYS.html"
+      },
+      "physics_materials": {
+        "major_name": "Physics - Materials",
+        "department": "Physics",
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C"
+        ],
+        "additional_requirements": [
+          "Minimum GPA of 3.0 in minimum screening courses"
+        ],
+        "recommended_courses": [
+          "MATH 20D",
+          "PHYS 2A",
+          "PHYS 2B",
+          "PHYS 2C",
+          "PHYS 2CL",
+          "PHYS 2D",
+          "PHYS 2DL",
+          "One programming course",
+          "CHEM 6A-B"
+        ],
+        "additional_info": "UC San Diego also requires completion of the Physics 4 series for transfer students after enrolling at UC San Diego. Additional details regarding the Physics 4 series are available via the UC San Diego General Catalog at https://catalog.ucsd.edu/courses/PHYS.html"
+      },
+      "real_estate_and_development": {
+        "major_name": "Real Estate and Development",
+        "department": "Rady School of Management",
+        "required_courses": [
+          "MATH 20A (or 10A)",
+          "MATH 20B (or 10B)",
+          "ECON 1 or ECON 3",
+          "MGT 45 or (ECON/MGT 4 and MGT 5)"
+        ],
+        "additional_requirements": [
+          "Students must earn a C- or better in each class",
+          "Students must have a minimum 2.3 overall GPA across the major preparation classes"
+        ],
+        "recommendations": [
+          "We recommend students take the math sequence required for the STEM majors if two math sequences are available at the community college (equivalent to UC San Diego's Math 20 series).",
+          "We recommend students also take MATH 20C (or 10C) as this class is a requirement for UC San Diego Business Economics majors."
+        ]
+      },
+      "earth_sciences": {
+        "major_name": "Earth Sciences",
+        "department": "Scripps Institution of Oceanography",
+        "required_courses": [
+          "Math 20A",
+          "Math 20B",
+          "Math 20C",
+          "Phys 2A",
+          "Phys 2B",
+          "Phys 2C",
+          "Chem 6A",
+          "Chem 6B",
+          "Chem 6C"
+        ]
+      },
+      "marine_biology": {
+        "major_name": "Marine Biology",
+        "department": "Scripps Institution of Oceanography",
+        "required_courses": [
+          "BILD 1",
+          "BILD 3",
+          "CHEM 6A",
+          "CHEM 6B",
+          "CHEM 6C",
+          "CHEM 7L",
+          "MATH 10A or MATH 20A",
+          "MATH 10B or MATH 20B"
+        ],
+        "additional_requirements": [
+          "All courses must be completed with a letter grade of C- or higher",
+          "Students must have a minimum GPA of 2.5 in these courses",
+          "AP/IB credit will count toward course requirements but will not be factored into GPA calculation"
+        ]
+      },
+      "oceanic_atmospheric_sciences": {
+        "major_name": "Oceanic and Atmospheric Sciences",
+        "department": "Scripps Institution of Oceanography",
+        "required_courses": [
+          "Math 20A",
+          "Math 20B",
+          "Math 20C",
+          "Physics 2A",
+          "Physics 2B",
+          "Physics 2C",
+          "Chem 6A"
+        ],
+        "recommended_courses": [
+          "Math 20D",
+          "Math 18",
+          "Phys 2BL",
+          "Phys 2CL",
+          "Chem 6B",
+          "Chem 6C",
+          "Chem 7L"
+        ]
+      },
+      "structural_engineering": {
+        "major_name": "Structural Engineering",
+        "department": "Structural Engineering",
+        "required_courses": [
+          "MATH 18",
+          "MATH 20A",
+          "MATH 20B",
+          "MATH 20C",
+          "MATH 20D",
+          "CHEM 6A",
+          "PHYS 2A",
+          "PHYS 2B",
+          "PHYS 2C",
+          "PHYS 2BL",
+          "SE 9",
+          "SE 101A"
+        ]
+      },
+      "urban_studies_planning": {
+        "major_name": "Urban Studies and Planning",
+        "department": "Urban Studies and Planning",
+        "required_courses": [
+          "ECON/MGT 4",
+          "ECON 1",
+          "MATH 10A or 20A",
+          "MGT 5"
+        ],
+        "recommendations": [
+          "We recommend students also take MGT 5 as this class is a requirement for UC San Diego Real Estate and Development majors."
+        ]
+      }
+    }
+  }

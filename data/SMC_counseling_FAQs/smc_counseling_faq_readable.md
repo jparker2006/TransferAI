@@ -1,0 +1,358 @@
+# Santa Monica College Counseling FAQ
+
+*Last updated: 2025-06-01T14:09:07.145353*
+
+## Table of Contents
+
+- [Academic Policies](#academic-policies)
+- [Administrative](#administrative)
+- [Counseling Services](#counseling-services)
+- [Degrees and Graduation](#degrees-and-graduation)
+- [General](#general)
+- [Transfer](#transfer)
+- [Units and Credits](#units-and-credits)
+
+---
+
+## Academic Policies
+
+### What is academic probation and progress probation, and how do I avoid it?
+
+Students will be placed on academic probation when: they have attempted 12 or more semester units at SMC and their SMC cumulative grade point average is below a 2.0 as noted on their SMC transcript; or transfer to SMC while on disqualification status at another college or university; or are readmitted after disqualification from SMC. they have attempted 12 or more semester units at SMC and their SMC cumulative grade point average is below a 2.0 as noted on their SMC transcript; or transfer to SMC while on disqualification status at another college or university; or are readmitted after disqualification from SMC. Students who have been on academic probation for two semesters or more will be subject to lower enrollment priority and may lose the California College Promise Grant. Probationary students are limited to a 9 unit* enrollment maximum in a Spring or Fall semester and 5 units in a Winter or Summer session until academic probation is removed. You will continue on academic probation until you raise your SMC cumulative grade point average to a 2.0 or better. To avoid a probationary status, avoid D's and F's in your classes, and if you must drop classes, drop them by the withdrawal deadline posted in your corsair portal to avoid receiving an ‘F’. If you are already on academic probation, one way to return to good standing is to repeat courses required for your academic goal/s in which you received D's or F's. To discuss other strategies for removal from academic probation, speak to an SMC Counselor. *F-1 visa students are required by federal law to complete 12 units in each fall and spring semester regardless of academic status. Progress Probation A student enrolled in at least 12 semester units at SMC will be placed on progress probation if the percentage of units in which the student receives the notation of "W” (Withdrawal), "I" (Incomplete) or "NP" (No Pass) reaches or exceeds: 50% of units enrolled, after enrolling in 12 or more units as noted on their SMC transcript. 50% of units enrolled, after enrolling in 12 or more units as noted on their SMC transcript. To avoid progress probation, try to avoid earning ‘NP’ or ‘I’ grades, and if you must drop classes, drop them by the stated deadline posted in your corsair portal to avoid a ‘W’ notation. Drop deadlines are listed next to each class in your Corsair Connect portal. If you are already on progress probation, one way to return to good standing is to repeat those required courses for your academic goal/s in which you received a ‘W’ or ‘NP’. To discuss other strategies for removal from progress probation, speak to an SMC Counselor. Students who have been on progress probation for two semesters or more will be subject to lower enrollment priority and may lose the California College Promise Grant. Probationary students are limited to a 9 unit* enrollment maximum in a Spring or Fall semester and a 5 unit maximum in a Winter or Summer session until progress probation is removed. If you again complete less than the required percentage of units in the semester after you are placed on Progress Probation, you will become disqualified. *F-1 visa students are required by federal law to complete 12 units in each fall and spring semester regardless of probationary status
+
+*Keywords: what, academic, probation, progress, avoid*
+
+---
+
+### What is academic renewal and progress renewal?
+
+Academic Renewal Policy To request that substandard coursework be disregarded on the basis of the SMC Academic Renewal Policy, the following requirements must be met: Petitioned coursework has not been previously used in the awarding of a SMC degree, certificate, or CSUGE certification. Coursework to be disregarded is limited to ‘D’ and ‘F’ grades in courses not subsequently completed with a ‘C’ or higher at SMC. Student’s previous performance does not reflect their recent demonstrated ability. After the semester or session of the coursework to be disregarded, the student must have completed a minimum of 12 consecutive semester units with a 2.0 GPA at a regionally accredited institution. Consecutive units must have been completed any time after the semester or session of the coursework to be disregarded. There must be a lapse of at least six months since completion of the most recent coursework to be disregarded. In addition, the following provisions of the college policy apply: Academic Renewal is a process intended to facilitate transfer, degree and certificate completion and/or removal from academic probation and academic disqualification. The student must speak with a counselor to petition for academic renewal. A maximum of 30 semester units may be disregarded under this policy. Final approval of the petition will be granted by the Admissions Office. All coursework will remain legible on the student’s permanent record ensuring a true and complete record. The student’s permanent record shall be annotated so that it is readily evident to all users of the record that any coursework disregarded may not satisfy certificate, degree, or general education course requirements. Please note if you qualify for academic renewal based on college coursework completed at another college, you must first request your official transcripts to be sent directly to the Santa Monica College Admissions Office. Once those transcripts are on file in the Admissions Office you can then speak with a counselor to petition for academic renewal. Progress Renewal Policy To request that coursework be disregarded on the basis of the SMC Progress Renewal Policy, the following requirements must be met: Coursework to be disregarded is limited to W (Withdrawal), NP (No Pass) and NC (No Credit) grade notations. Student’s previous performance does not reflect their recent demonstrated ability. After the semester or session of the coursework to be disregarded, the student must have completed a minimum of 12 consecutive semester units with a a 2.0 GPA at a regionally accredited institution. Consecutive units must have been completed any time after the semester or session of the coursework to be disregarded. There must be a lapse of at least six months after the semester or session of the coursework to be disregarded. In addition, the following provisions of the college policy apply: Progress Renewal is a process intended to facilitate degree and certificate completion and/or removal from progress probation or progress disqualification. The student must speak with a counselor to petition for progress renewal. A maximum of 30 semester units may be disregarded under this policy. Final approval of the petition will be granted by the Admissions Office. All coursework will remain legible on the student’s permanent record ensuring a true and complete record. The student’s permanent record shall be annotated so that it is readily evident to all users of the record that any course disregarded may not satisfy certificate, degree, or general education course requirements. Please note if you qualify for progress renewal based on college coursework completed at another college, you must first request official transcripts to be sent directly to the Santa Monica College Admissions Office. Once those transcripts are on file in the Admissions Office you can then speak with counselor to petition for progress renewal. Academic Renewal Policy To request that substandard coursework be disregarded on the basis of the SMC Academic Renewal Policy, the following requirements must be met: Petitioned coursework has not been previously used in the awarding of a SMC degree, certificate, or CSUGE certification. Coursework to be disregarded is limited to ‘D’ and ‘F’ grades in courses not subsequently completed with a ‘C’ or higher at SMC. Student’s previous performance does not reflect their recent demonstrated ability. After the semester or session of the coursework to be disregarded, the student must have completed a minimum of 12 consecutive semester units with a 2.0 GPA at a regionally accredited institution. Consecutive units must have been completed any time after the semester or session of the coursework to be disregarded. There must be a lapse of at least six months since completion of the most recent coursework to be disregarded. Petitioned coursework has not been previously used in the awarding of a SMC degree, certificate, or CSUGE certification. Coursework to be disregarded is limited to ‘D’ and ‘F’ grades in courses not subsequently completed with a ‘C’ or higher at SMC. Student’s previous performance does not reflect their recent demonstrated ability. After the semester or session of the coursework to be disregarded, the student must have completed a minimum of 12 consecutive semester units with a 2.0 GPA at a regionally accredited institution. Consecutive units must have been completed any time after the semester or session of the coursework to be disregarded. There must be a lapse of at least six months since completion of the most recent coursework to be disregarded. In addition, the following provisions of the college policy apply: Academic Renewal is a process intended to facilitate transfer, degree and certificate completion and/or removal from academic probation and academic disqualification. The student must speak with a counselor to petition for academic renewal. A maximum of 30 semester units may be disregarded under this policy. Final approval of the petition will be granted by the Admissions Office. All coursework will remain legible on the student’s permanent record ensuring a true and complete record. The student’s permanent record shall be annotated so that it is readily evident to all users of the record that any coursework disregarded may not satisfy certificate, degree, or general education course requirements. Please note if you qualify for academic renewal based on college coursework completed at another college, you must first request your official transcripts to be sent directly to the Santa Monica College Admissions Office. Once those transcripts are on file in the Admissions Office you can then speak with a counselor to petition for academic renewal. Progress Renewal Policy To request that coursework be disregarded on the basis of the SMC Progress Renewal Policy, the following requirements must be met: Coursework to be disregarded is limited to W (Withdrawal), NP (No Pass) and NC (No Credit) grade notations. Student’s previous performance does not reflect their recent demonstrated ability. After the semester or session of the coursework to be disregarded, the student must have completed a minimum of 12 consecutive semester units with a a 2.0 GPA at a regionally accredited institution. Consecutive units must have been completed any time after the semester or session of the coursework to be disregarded. There must be a lapse of at least six months after the semester or session of the coursework to be disregarded. Coursework to be disregarded is limited to W (Withdrawal), NP (No Pass) and NC (No Credit) grade notations. There must be a lapse of at least six months after the semester or session of the coursework to be disregarded. In addition, the following provisions of the college policy apply: Progress Renewal is a process intended to facilitate degree and certificate completion and/or removal from progress probation or progress disqualification. The student must speak with a counselor to petition for progress renewal. A maximum of 30 semester units may be disregarded under this policy. Final approval of the petition will be granted by the Admissions Office. All coursework will remain legible on the student’s permanent record ensuring a true and complete record. The student’s permanent record shall be annotated so that it is readily evident to all users of the record that any course disregarded may not satisfy certificate, degree, or general education course requirements. Please note if you qualify for progress renewal based on college coursework completed at another college, you must first request official transcripts to be sent directly to the Santa Monica College Admissions Office. Once those transcripts are on file in the Admissions Office you can then speak with counselor to petition for progress renewal.
+
+*Keywords: what, academic, renewal, progress, policy*
+
+---
+
+### How do I calculate my GPA?
+
+Your GPA, or grade point average, is the main indicator of your academic performance in college. GPAs are based on the following system: Grade PointsA = 4B = 3C = 2D = 1F = 0 To calculate your grade point average, multiply the letter grade points by the number of units in the class. For example, if you received an "A" in English 1, a "C" in Math 54, and an "F" in Counseling 12, you would have: Divide the total number of grade points (20) by the total number of units attempted (8) and that gives you your Grade Point Average = 2.5 GPA.
+
+*Keywords: calculate, gpa, grade, point, average*
+
+---
+
+### What do I do if I don't agree with the grade I received in a class?
+
+If you don’t agree with the grade you received in a class, your first step is to discuss your grade with the instructor. Bring with you appropriate documentation, and be ready to demonstrate why you should have received a higher grade. If the instructor does not agree to a request for a grade change and you still feel your grade should be changed, you may then take the matter to the Department Chair or to the Ombudspersons on campus for further informal mediation. The Ombudsperson can explain the grade appeals process and filing deadlines.
+
+*Keywords: what, agree, grade, received, class*
+
+---
+
+## Administrative
+
+### How do I get information about financial aid?
+
+For information about Financial Aid and Scholarships, please refer to the Financial Aid website . You may also want to consult websites such as www.fafsa.ed.gov, www.ed.gov (opens in new window) , and www.studentaid.gov. All students are encouraged to complete the Free Application for Federal Student Aid (FAFSA) or the CA Dream Act as early as possible, and the GPA Verification Form (for Cal Grants) between January 1st and March 2nd for priority consideration, and the California College Promise Grant. Direct Connect a financial aid navigation guide that helps students understand the process.
+
+*Keywords: information, about, financial, scholarships, please*
+
+---
+
+## Counseling Services
+
+### Am I assigned a counselor?
+
+Counselors and counseling appointments are not assigned. Instead, it is important that you find a counselor that you are comfortable working with. Once you find that counselor, make sure and make an appointment to speak to the counselor at least once a semester!
+
+*Keywords: assigned, counselor, counselors, counseling, appointments*
+
+---
+
+### How can I meet with a counselor?
+
+To speak with a counselor, refer to the how to connect with a counselor webpage.
+
+*Keywords: meet, counselor, speak, refer, connect*
+
+---
+
+## Degrees and Graduation
+
+### What is a certificate of achievement, and which ones are offered at SMC?
+
+Certificates of Achievement are designed for individuals seeking short-term education and training in preparation for work. Ranging from 18 to 40 units, Certificates of Achievement focus on a specific career area, and do not include General Education or elective classes. To see a list of available Certificates of Achievement or for more information on Certificates of Achievement, please see the Certificates of Achievement page.
+
+*Keywords: what, certificate, achievement, which, ones*
+
+---
+
+### What are the different degrees?
+
+There are several different degrees that are offered by community colleges, colleges, and universities. The degree that Santa Monica College offers is the Associate in Arts (AA) degree. Commonly called "two year degrees," AA degrees are granted upon completion of 60 semester units of required coursework. Currently, SMC also offers a Bachelor of Science (BS) in Interaction Design. The two primary degrees offered by colleges and universities are the Bachelor of Arts (BA) degree and the Bachelor of Science (BS) degree. Commonly called "four year degrees," these degrees are granted upon completion of at least 120 semester units of required coursework. Other bachelor degrees include the Bachelor of Fine Arts (BFA) and the Bachelor of Music (BM). After obtaining their bachelor's degree, some student go on to obtain their Master of Arts (MA) or Master of Science (MS) degree. Commonly called "graduate degrees," these degrees focus specifically on courses in the field of study, and are granted upon completion of at least 30 semester units of required coursework. Other master's degrees include the Master of Business Administration (MBA) and the Master of Fine Arts (MFA). Some students continue their education and pursue their PhD (Doctor of Philosophy) degree. Commonly called a "doctorate degree," these degrees can be obtained in almost any major, and take approximately three years of full-time study to complete.
+
+*Keywords: what, different, degrees, there, several*
+
+---
+
+## General
+
+### How do I qualify for the AB540 nonresident tuition exemption?
+
+This exemption is available to undocumented immigrants, permanent residents of the US, and US citizens who must have: Attended a high school in California for three or more years; and Graduated from a California high school or attained the equivalent thereof (e.g. passed the GED in California or the California High School Proficiency exam or received a Certificate of Completion); and Enrolled, or is registering to be enrolled, at a California Community College, a California State University or at the University of California after January 1, 2002. Attended a high school in California for three or more years; and Graduated from a California high school or attained the equivalent thereof (e.g. passed the GED in California or the California High School Proficiency exam or received a Certificate of Completion); and Enrolled, or is registering to be enrolled, at a California Community College, a California State University or at the University of California after January 1, 2002. Non-immigrant students are not eligible for this exemption. Non-immigrant students, as defined by federal immigration law, may hold one of the following visas: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, TN, TD and V, and TROV and NATO. All students applying for this exemption must sign an affidavit. If a student is without lawful immigration status, the student must state that he/she has filed an application to legalize his/her immigration status or will file an application as soon as he/she is eligible to do so. Submit the AB540 California Nonresident Tuition Exemption Request & Affidavit . Go to AB540/Dream Act for information on California state financial aid.
+
+*Keywords: qualify, nonresident, tuition, exemption, this*
+
+---
+
+### Am I required to complete the English or English as Second Language (ESL) and Math placement process?
+
+Placement Requirements: You are required to complete the English or ESL and math placement if: Enrolling in more than six (6) units during your first semseter (fall or spring) and your educational goal is to get a degree or certificate, transfer, or pursuing basic skills instruction; or Enrolling in an English, ESL, or math class for the first time; or Completed your first semester at SMC and did not complete the mandatory placement process, but now wish to enroll in a second regular semester (fall or spring) even if you are not planning to take English/ESL, or math. Please note this placement process can only be completed once. Placement exemptions You may be temporarily waived from placements if your are: enrolling only in up to six (6) units during your first semester (fall or spring) AND not enrolling in English or ESL or math classes. Enrolling in only winter or summer classes (not enrolling in English or ESL or math classes). Prerequisite Course Waiver Request for English and Math If you have completed college coursework at an accredited institution wiht a grade of 'C' or higher, or taken Advanced Placement (AP) exams and earned an AP score of '3' or higher, you may submit a waiver request through the SMC's Waivers and Exemptions (opens in new window) process. Furthermore, you are exempt from assessment if you have received an Associate in Arts degree or higher from a U.S. accredited institution. If you are planning to transfer, we strongly suggest that you discuss your plans with a counselor. Please note that although you may be exempt from assessment, all students must successfully complete any required prerequisite courses for English, ESL or Math classes. If you will not be completing the placement process at SMC because you meet any of the exemptions, you must provide proof (e.g., college transcript, or an original AP college board report) that you meet the exemption criteria.
+
+*Keywords: required, complete, english, second, language*
+
+---
+
+### How can I get career counseling at SMC?
+
+If you need assistance in identifying your career goal, writing a resume, preparing for an interview, or finding a job, career counseling services are available for SMC students at the Career Services Center. To make an appointment (for students currently enrolled in at least 3 units) or for more information about the services offered, please refer to Career Services Center,
+
+*Keywords: career, counseling, smc, need, assistance*
+
+---
+
+### What classes should I take for my major?
+
+The classes required for your major depend both on the major you choose and on your academic goal. For example, the courses required to transfer to a university may differ from those required for an AA degree. To learn of the specific courses required for your goal, please meet with an SMC counselor.
+
+*Keywords: what, classes, should, take, major*
+
+---
+
+### What is pass no pass, and how do I take a class pass/no pass?
+
+Pass/no pass is a good option if you want to take a class, but don't want the grade to impact your grade point average. If you received a "C" grade or higher in the class, the grade will appear as a "P" (for "pass") on your SMC transcript, and you will also receive the units for that course. If you received a "D" or an "F" in the class, however, a "NP" (for "no pass") will appear on your transcript, and you will not receive the units for that course. In either case, the course will not impact your grade point average. Starting Spring 2022: The deadline to opt-in for pass/no pass grading will be the last day of instruction for the class. See your Corsair Connect for the specific date for each class you are enrolled in. Please speak with a counselor if you have any questions. The "No Pass" (NP) grade will be excluded from progress probation and progress disqualification calculation. This provision (per CCCCO Executive Order 2022-02) applies to winter 2022, spring 2022, summer 2022, and fall 2022. Generally speaking, you should not take any of the following classes for Pass/No Pass: English 1; English 2; any major transferable math class; any course that meets the CSU GE Area A1, A2, A3 and B4 and IGETC Area 1A, 1B, 1C and 2; and any major transfer requirements. Colleges and universities have a limit on the number of units that can be taken on a Pass /No Pass basis. To find out unit limits for various colleges and universities, please speak with a counselor. In addition, if you are planning on attending law school or medical school in the future, please refer to specific law school and medical school webpage for information on how courses taken on a Pass/No Pass basis may impact your admission.
+
+*Keywords: what, pass, take, class, good*
+
+---
+
+### How am I eligible for the “Dean’s Honor List"?
+
+A student must achieve a 3.0 grade point average and complete 12 units in a semester to be eligible for the Dean’s Honor List. A record of this honor appears on the student’s transcript. Students who appear on the Dean’s Honor List for three semesters or who have a cumulative grade point average of 3.0 or higher will receive “honors” with their Associate in Arts degree.
+
+*Keywords: eligible, dean, honor, list, student*
+
+---
+
+### What happens if I'm disqualified?
+
+If you are on Academic Probation, you will become disqualified if you do not achieve a SMC cumulative GPA of 2.0 or higher in the semester subsequent to the semester you were placed on probation. If you were on Progress Probation, you will become disqualified at the end of the subsequent semester when the SMC cumulative percentage of units you receive of W (Withdrawal), I (Incomplete) or NP (No Pass) reaches or exceeds: 50% of units enrolled, after enrolling in 12 or more units 50% of units enrolled, after enrolling in 12 or more units Students who have been placed on Progress Probation at the end of a Spring or Fall semester will be disqualified from SMC at the end of the subsequent semester when the percentage of units in which a student receives a grade of "W", "I" or "NP" reaches or exceeds: 50% of units enrolled, after enrolling in 12 or more units 50% of units enrolled, after enrolling in 12 or more units Disqualified students who pre-enrolled for the subsequent semester will be administratively dropped from all registered classes if the student is not reinstated by a counselor. If you are a continuing student and become disqualified, you must first complete the petition for reinstatement and then schedule a appointment with a counselor to discuss your situation and your possible readmission. If it has been 2 consecutive semesters (one year) or longer, since your disqualification, you'll need to reapply to SMC and complete a Petition for Readmission. The following is the SMC Reinstatement Policy of Disqualified Students: 1st disqualification: Meet with a counselor to determine whether the student can be readmitted and if so, determine a unit limit up to a maximum of 6 units for a fall or spring semester, and up to a maximum of 3 units for a winter or summer session. 2nd disqualification: Student is required to sit out of SMC for one semester. 3rd disqualification or more: Student is required to sit out of SMC for one year. 1st disqualification: Meet with a counselor to determine whether the student can be readmitted and if so, determine a unit limit up to a maximum of 6 units for a fall or spring semester, and up to a maximum of 3 units for a winter or summer session. 2nd disqualification: Student is required to sit out of SMC for one semester. 3rd disqualification or more: Student is required to sit out of SMC for one year. Please schedule an appointment with a counselor so we can help you identify strategies to keep you in good standing and avoid a potential disqualification from SMC.
+
+*Keywords: what, happens, disqualified, academic, probation*
+
+---
+
+### How do I drop a class, and what are the drop dates?
+
+You may drop a class by using your - Corsair Connect (opens in new window) . For a list of withdrawal and refund dates and deadlines, refer to your class schedule posted in your Corsair Connect. You encourage you to speak with a counselor to determine if withdrawing from a class will impact your academic status at SMC. Stopping your attendance in a class or your partificatipation in online course does not withdraw you from that class, and will often result in a grade of "F." Please remember that it is your responsibility to drop a class.
+
+*Keywords: drop, class, what, dates, using*
+
+---
+
+### What are electives?
+
+There are three components to any degree: General Education classes, Major preparation classes, and Elective classes. An elective course is essentially any class that is not required for General Education or for Major preparation. Electives are often required in order to accumulate the number of units needed for your degree or for transfer. Meet with a counselor to determine if the elective class you are considering is applicable for your degree or for transfer.
+
+*Keywords: what, electives, there, three, components*
+
+---
+
+### How do I request an evaluation of coursework from other institutions?
+
+Evaluation and application of credit from other accredited institutions towards an SMC AA GE or SMC major requirements or IGETC or CSU GE can be a complex process when the previous coursework has not been completed at another California Community College. Students need to schedule a counseling appointment. Prepare for your counseling appointment by providing an unofficial copy of all transcripts from institutions you attended, and copies of course descriptions from the institutions college catalog. To locate a catalog online refer to www.collegesource.org. If you are requesting an evaluation of English composition courses, be prepared to bring a copy of the course syllabus too. If you do not have the syllabus, contact the department at the institution where the course was completed to obtain a copy. It is the student's responsibility to have official transcripts, from all institutions attended, sent directly to the SMC admissions office. Contact Online Counseling to see if an online evaluation of transcripts and AP test scores is possible. SMC counseling offers a preliminary unofficial transcript/exam score evaluation service for the AA GE, IGETC and/or CSU GE patterns.
+
+*Keywords: request, evaluation, coursework, other, institutions*
+
+---
+
+### Where can I get information about housing?
+
+While there is no on-campus housing at SMC. You can also visit our Housing and Commuting Guide website for information.
+
+*Keywords: where, information, about, housing, while*
+
+---
+
+### How can I get an incomplete in a class?
+
+A grade of incomplete may be granted for a course(s) if you have an unforeseeable emergency that prevents you from taking the final examination or completing other end-of-semester course requirements. If this is the case, discuss your situation with your instructor. If your instructor approves your request, an “I” will appear as your grade. The instructor will determine what grade will be issued if the final requirements are not completed, and how long you have (up to one year) to complete the final course work, at which your final grade will be assigned.
+
+*Keywords: incomplete, class, grade, granted, course*
+
+---
+
+### What do I do if I'm an International Student?
+
+Because International students holding F-1 visas have specific requirements for both admission and for academic planning, it is important that you work directly with the International Education Center.
+
+*Keywords: what, international, student, because, students*
+
+---
+
+### Where can I find information about internships?
+
+SMC has many internship opportunities for students who would like to gain real-life job experience while attending college. For a list of internship opportunities, visit the Career Services Center or view the Career Services Center web site.
+
+*Keywords: where, find, information, about, internships*
+
+---
+
+### Can SMC help me find a job?
+
+If you're looking for a job, SMC can help! Our Career Services Center has many job listings for students, and can also help you conduct a computerized job search.
+
+*Keywords: smc, help, find, looking, career*
+
+---
+
+### How can I request an excused withdrawal from a class/es?
+
+A student may petition for an excused withdrawal due to extenuating circumstances (such as cases of an accident, illness, military obligation, or other circumstances beyond the control of the student) that affects the student's ability to complete the courses. Students may complete an online Special Consideration Petition for an excused withdrawal located at Admissions & Records Forms. The petitions are reviewed by the Special Consideration Committee. The EW is not counted in (1) progress probation and dismissal calculations, and (2) will not count against the permitted number of withdrawals or enrollment attempts in a given course. As a result, students with an Excused Withdrawal (EW) may repeat the course(s) from which they have withdrawn. The EW notation became effective Summer 2018.
+
+*Keywords: request, excused, withdrawal, class, student*
+
+---
+
+### What is a major?
+
+A major is the primary focus of your degree, and is the area in which the greatest depth of knowledge will be developed. If you need assistance determining your major, consider enrolling in counseling 12 or schedule an appointment with a counselor to discuss your academic goal/s and options. If you've decided on a major, you will also want to make an appointment with a counselor to discuss the courses necessary to prepare you for your major.
+
+*Keywords: what, major, primary, focus, degree*
+
+---
+
+### How do I get started at SMC if I'm a new student?
+
+If you're a new student to SMC, your first step is to complete the on-line admissions application . If it is your first time in college, you will need to also complete: the online orientation, the SMC English or ESL and math placement process, create an ed plan with the assistance of a counselor before you can enroll in classes. Students are encouraged to apply for financial aid as earliest as possible.
+
+*Keywords: started, smc, student, first, step*
+
+---
+
+### How can I get counseling for personal problems?
+
+If you are experiencing constant stress, depression, or having other personal problems, please contact the Center for Wellness and Wellbeing located in Liberal Arts 110. Free emotional support is also available 24/7, call 800-691-6003.
+
+*Keywords: counseling, personal, problems, experiencing, constant*
+
+---
+
+### What is the SMC course repetition policy and how can I repeat a class?
+
+You may repeat a class in which you received a “W”, "D", "F", or "NC/NP" one time without counselor authorization. Please note that a student who is currently enrolled in a course will not be able to re-enroll in that same course for a subsequent term until the student receives a W or NP or a final substandard grade for the course. Course repetition requests beyond the first repetition will require counselor authorization. In some cases, such requests will require a student to submit a special request for consideration after meeting with a counselor. When a course is repeated once or more, a maximum of the first two substandard grades will be discounted from the SMC grade point average. The original grade(s) will still appear on your transcript, but will be annotated to indicate the course was repeated. Fourth enrollments (third repetitions) or more are generally not permitted since the state of California does not provide funding for these enrollments. If a student is granted a special exception for a fourth enrollment, due to extenuating circumstances, (third repetition), however, the third grade will be calculated into your GPA. For example, if you earn an "F", then a "D", then a second “D” and finally a “C” grade in the same class, only the "F" and the first “D” will be removed from you GPA. The second “D” grade and the “C” grades would be calculated into your GPA. Up to “two” W’s maximum can be discounted from the calculation towards progress probation, once a grade in the course has subsequently been earned. Students are permitted to repeat a course in which a satisfactory grade has previously been earned but only under special circumstances authorized by California Code of Regulations Title 5 §58161. These circumstances include: Courses which Santa Monica College has designated as repeatable. In some cases, courses are grouped together because they are related in content. These courses may include several levels, but also have a cumulative course repeatability of three (i.e., a total of four course enrollments is permitted in the course “grouping” of Dance 43, 44, 45 and 46) Courses in which a student received a satisfactory grade, IF the original course was completed at least three (3) years prior to repeating it, AND the District requires a more recent completion of the course (see §55003), OR another educational institution to which a student seeks to transfer requires the course to be taken more recently than the student’s last enrollment in the course [note that the significant-lapse-of-time exception cannot be used if the student earned a substandard grade when last enrolled in the course.]; or Variable unit open entry/open exit credit courses, where a specific portion of the course needs to be repeated as permitted by Title 5 §55044 of the California Code of Regulations; or Courses where satisfactory work has been recorded, but repetition is necessary for a student to meet a legally mandated training or cooperative/occupational work experience requirement (e.g., government-required licensing, certification, recertification) as a condition of paid or volunteer employment. Please note that these courses may be repeated any number of times, and the grade received each time will be included when calculating the student’s grade point average. Repeating a course that a student originally completed with a grade of A (4.0), B (3.0), C (2.0), or P (Pass) will have NO effect on the student’s GPA or units completed. If you have received a "D", "F" or "NC" in the a class you do not plan to repeat, please make an appointment with a counselor to discuss if you are eligible for academic renewal and/or progress renewal. Students are permitted to repeat a course in which a satisfactory grade has previously been earned but only under special circumstances authorized by California Code of Regulations Title 5 §58161. These circumstances include: Courses which Santa Monica College has designated as repeatable. In some cases, courses are grouped together because they are related in content. These courses may include several levels, but also have a cumulative course repeatability of three (i.e., a total of four course enrollments is permitted in the course “grouping” of Dance 43, 44, 45 and 46) Courses in which a student received a satisfactory grade, IF the original course was completed at least three (3) years prior to repeating it, AND the District requires a more recent completion of the course (see §55003), OR another educational institution to which a student seeks to transfer requires the course to be taken more recently than the student’s last enrollment in the course [note that the significant-lapse-of-time exception cannot be used if the student earned a substandard grade when last enrolled in the course.]; or Variable unit open entry/open exit credit courses, where a specific portion of the course needs to be repeated as permitted by Title 5 §55044 of the California Code of Regulations; or Courses where satisfactory work has been recorded, but repetition is necessary for a student to meet a legally mandated training or cooperative/occupational work experience requirement (e.g., government-required licensing, certification, recertification) as a condition of paid or volunteer employment. Please note that these courses may be repeated any number of times, and the grade received each time will be included when calculating the student’s grade point average. Courses which Santa Monica College has designated as repeatable. In some cases, courses are grouped together because they are related in content. These courses may include several levels, but also have a cumulative course repeatability of three (i.e., a total of four course enrollments is permitted in the course “grouping” of Dance 43, 44, 45 and 46) Courses in which a student received a satisfactory grade, IF the original course was completed at least three (3) years prior to repeating it, AND the District requires a more recent completion of the course (see §55003), OR another educational institution to which a student seeks to transfer requires the course to be taken more recently than the student’s last enrollment in the course [note that the significant-lapse-of-time exception cannot be used if the student earned a substandard grade when last enrolled in the course.]; or Variable unit open entry/open exit credit courses, where a specific portion of the course needs to be repeated as permitted by Title 5 §55044 of the California Code of Regulations; or Courses where satisfactory work has been recorded, but repetition is necessary for a student to meet a legally mandated training or cooperative/occupational work experience requirement (e.g., government-required licensing, certification, recertification) as a condition of paid or volunteer employment. Please note that these courses may be repeated any number of times, and the grade received each time will be included when calculating the student’s grade point average. Repeating a course that a student originally completed with a grade of A (4.0), B (3.0), C (2.0), or P (Pass) will have NO effect on the student’s GPA or units completed. If you have received a "D", "F" or "NC" in the a class you do not plan to repeat, please make an appointment with a counselor to discuss if you are eligible for academic renewal and/or progress renewal.
+
+*Keywords: what, smc, course, repetition, policy*
+
+---
+
+### How can I get information about scholarships?
+
+For information about Scholarships, please view the SMC Financial Aid website.
+
+*Keywords: information, about, scholarships, please, view*
+
+---
+
+### Is SMC's academic calendar on a semester or quarter system?
+
+SMC is on the semester system, and has two 16-week semesters, the fall and spring. Some classes during the semester are offered as 12 week and 8 week courses. We also have a winter session with classes 6 weeks in length, and a summer session with classes 6 or 8 weeks in length. All of the UC schools are on the quarter system, with the exception of UC Berkeley, which in on the semester system. Most CSU schools are on the semester system, with the exception of CSU Los Angeles, Cal Poly Pomona, and ? Private schools may be on either the quarter or semester system. What is the difference between schools on the semester system vs. quarter system? Schools on the semester system have two terms per year, not including summer or winter sessions. The fall semester and the spring semester each last between 16 to 18 weeks in length. Schools on the quarter system have three terms per year, not including summer sessions. The fall, winter, and spring quarters are between 10 and 12 weeks in length.
+
+*Keywords: smc, academic, calendar, semester, quarter*
+
+---
+
+### What are the Standards of Achievement at Santa Monica College?
+
+Standards of Achievement are defined below: Academic Achievement: A student who has attempted 12 or more semester units and earns at least a cumulative 2.0 grade point average (C average) in all units attempted only at Santa Monica College that were graded (A, B, C, D, F). Progress Achievement: A student who has enrolled in 12 or more semester units and who receives less than 50% of the following notations - 'W' (withdrawal), 'I'(incomplete), 'NP'(no pass), or 'NC'(no credit) in all units enrolled in only at Santa Monica College. Students who meet the Standards of Achievement can enroll in a maximum of 16 units in the fall/spring and 8 units in the winter/summer. When the Standards of Achievement are not met, the student is placed on academic probation and/or progress probation. Academic Probation: A student who has attempted 12 or more semester units and earns a cumulative grade point average less than 2.0 (C average) in all units attempted only at Santa Monica College that were graded (A,B, C, D, F). Progress Probation: A student who has enrolled in 12 or more semester units and receives 50% or more of the following notations - 'W', 'I'. 'NP, or 'NC' at Santa Monica College. Students on probation status are limited to a maximum of 9 units in the fall/spring and 5 units in the winter/summer.
+
+*Keywords: what, standards, achievement, santa, monica*
+
+---
+
+### How can I improve my learning skills?
+
+One of the best ways to improve your learning skills is to enroll in Counseling 1, Developing Learning Skills. This 8-week, 1 unit class will help you learn various study skills and strategies for note taking, studying for tests, taking tests, setting goals, and managing time. Counseling 20, Student Success Seminar is a 16-week, 3 unit class that also addresses learning skills, time management, active study strategies, career exploration and educational planning and includes other information to help you succeed in college.
+
+*Keywords: improve, learning, skills, best, ways*
+
+---
+
+## Transfer
+
+### What do I do if I have a compliment or complaint about an instructor or counselor?
+
+If you want to compliment an instructor, you can send a card or email to the instructor or counselor expressing your appreciation. You might also want to let the instructor or counselor’s Department Chair know of your compliment as well. If you want to express a concern or a complaint about an instructor or counselor, try talking to the instructor or counselor during an office hour or after class. If that is not effective or is too difficult, you can talk to the instructor or counselor’s Department Chair. A list of Department Chairs is available on the Academic Senate website. SMC values both compliments and constructive complaints about instructors and counselors!
+
+*Keywords: what, have, compliment, complaint, about*
+
+---
+
+### What is general education?
+
+There are three components to any degree: General Education (GE) classes, Major preparation classes, and Elective classes. GE classes are designed to provide you with a broad base of knowledge, and usually include the areas of English, Math, Arts & Humanities, Social Sciences, and Physical & Biological Sciences. For students pursuing their Associate in Arts degree, please consult the catalog for a full list of general education requirements, or make an appointment with a counselor. For students preparing for transfer, please consult the Transfer Center web site for specific general education requirements, or make an appointment with a counselor.
+
+*Keywords: what, general, education, there, three*
+
+---
+
+### How can I prepare to transfer to a four-year university?
+
+To prepare to transfer to a four-year university, it is important that you make an appointment with a counselor to discuss the specific requirements for your university and major. You may also want to consult the Transfer Center website for more information.
+
+*Keywords: prepare, transfer, four, year, university*
+
+---
+
+### How do I transfer classes from another school to SMC?
+
+If you want to transfer classes from another school to SMC, first have your transcripts from that school sent directly to: Santa Monica College, Admissions and Records, 1900 Pico Boulevard, Santa Monica, CA 90405. You should also always have your own copy of transcripts for reference or use in counseling sessions. A student can speak to a counselor to request their college transcripts evaluated for the following general education patterns: AA, IGETC and CSU. Once you have your transcripts, schedule an appointment with a counselor to determine if your classes count toward an AA degree and/or transfer, and to request a preliminary transcript evaluation.
+
+*Keywords: transfer, classes, another, school, smc*
+
+---
+
+## Units and Credits
+
+### Can I audit a class, or take it for no units?
+
+Some colleges allow students to audit courses, meaning no units, credits, or grades are given for those classes. Because of the high demand for classes at SMC, SMC does not audit courses. SMC does, however, allow that courses be taken on a Pass/No Pass basis. However, please note transfer institutions may have transfer unit limitations on courses completed on a Pass/No Pass basis, so consult with a counselor.
+
+*Keywords: audit, class, take, units, some*
+
+---
+
+### What is the maximum number of units I can take in a semester or winter/summer session?
+
+The maximum number of units a student may enroll in is sixteen (16) units in the fall and spring semester and eight (8) units in the winter and summer session. Students who are placed on academic and/or progress probation are limited to nine (9) units in the fall and spring semester, and five (5) units in the winter and summer session.
+
+*Keywords: what, maximum, number, units, take*
+
+---
+
+### What is a unit?
+
+A unit is the amount of credit you receive for successfully completing a class. Units also give you a clue about the approximate number of hours the class meets each week. For example, a 1 unit class will meet about one hour per week for the semester, while a 5 unit class will meet about 5 hours per week for the semester. Units also are an indicator about the level of difficulty of the class. The more difficult the course, the more units you receive for successfully completing that class. For example, you would receive 1 unit for completing a swimming or study skills class, while you would receive 5 units for completing a chemistry or calculus class. A unit is the amount of credit you receive for successfully completing a class. Units also give you a clue about the approximate number of hours the class meets each week. For example, a 1 unit class will meet about one hour per week for the semester, while a 5 unit class will meet about 5 hours per week for the semester. Units also are an indicator about the level of difficulty of the class. The more difficult the course, the more units you receive for successfully completing that class. For example, you would receive 1 unit for completing a swimming or study skills class, while you would receive 5 units for completing a chemistry or calculus class.
+
+*Keywords: what, unit, amount, credit, receive*
+
+---
+
+### How many units should I take per session?
+
+The number of units you should take per session depends on what other commitments you have in your life, such as work, parenting, etc. It will help you in planning your schedule if you have an idea about how much time you need to dedicate to your classes, so here is a good rule of thumb: For taking classes in a semester, multiply the number of units you will be taking times 3. That will tell you how many hours you will need each week between going to class and doing homework outside of class. For example, if you are planning on enrolling in 12 units in a semester, you will need 36 hours (12 x 3) each week to dedicate to school - which is almost a full-time job! Remember, it is not the number of classes that will determine how busy you will be - it is the number of units you enroll in. Taking three classes that total 7 units is very different from taking three classes that total 11 units. The general guidelines for the number of units you should take in a semester are as follows (the maximum allowed is 16): 40 hours of commitment per week (work, parenting, etc.) - take 3 to 6 units30 hours per week - 3 to 6 units20 hours per week - 6 to 9 units 10 hours per week - 9 to 12 units Fewer than 10 hours per week - 12 to 16 units Since the Winter and Summer sessions are only 6 or 8 weeks long, the classes are much more condensed, move at a more rapid pace, and meet for more hours during each week. For taking classes in a shorter session, multiply the number of units you will be taking times 6. That will tell you how many hours you will need each week between going to class and doing homework outside of class. For example, taking 6 units in the summer session means you'll need about 36 hours (6 x 6) each week to dedicate to school - again, almost a full-time job! The general guidelines for the number of units you should take in a Winter or Summer session are as follows (the maximum allowed is 8): 40 hours of commitment per week (work, parenting, etc.) - 3 units 30 hours per week - 3 units 20 hours per week - 3 to 6 units 10 hours per week - 6 units Fewer than 10 hours per week - 6 to 8 units
+
+*Keywords: many, units, should, take, session*
+
+---
+

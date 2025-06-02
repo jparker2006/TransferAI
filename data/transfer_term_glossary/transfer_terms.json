@@ -1,0 +1,685 @@
+{
+    "college_transfer_terms": {
+        "credentials_and_degree_types": {
+            "category_description": "Types of academic credentials and degrees relevant to college transfer students",
+            "terms": {
+                "Associate Degree (AA, AS)": {
+                    "definition": "A two-year undergraduate degree typically earned at community colleges. AA (Associate of Arts) focuses on liberal arts and humanities, while AS (Associate of Science) emphasizes science and technical subjects. Usually requires 60 semester units or equivalent.",
+                    "context": "Foundation credential for transfer to four-year institutions"
+                },
+                "Associate in Arts for Transfer (AA-T)": {
+                    "definition": "A California-specific associate degree designed for seamless transfer to California State University (CSU) system. Guarantees junior standing and priority admission to CSU campuses when paired with Transfer Model Curriculum completion.",
+                    "context": "California community college transfer pathway"
+                },
+                "Associate in Science for Transfer (AS-T)": {
+                    "definition": "Similar to AA-T but for science, technology, engineering, and mathematics (STEM) fields. Provides guaranteed transfer to CSU system with junior standing and priority consideration for admission to similar majors.",
+                    "context": "STEM-focused California transfer pathway"
+                },
+                "Associate Degree for Transfer (ADT)": {
+                    "definition": "Umbrella term encompassing both AA-T and AS-T degrees. These degrees guarantee transfer students junior standing at CSU campuses and priority admission consideration.",
+                    "context": "General term for California transfer degrees"
+                },
+                "Transfer Model Curriculum (TMC)": {
+                    "definition": "A standardized curriculum framework that ensures consistent preparation for transfer students. Defines specific course requirements and learning outcomes for particular majors across institutions.",
+                    "context": "Standardized transfer preparation framework"
+                },
+                "Area of Emphasis (AOE) Degree": {
+                    "definition": "An associate degree that allows students to focus on a specific academic area while completing general education requirements. Provides flexibility for students unsure of their exact transfer major.",
+                    "context": "Flexible associate degree option"
+                },
+                "Bachelor's / Baccalaureate Degree": {
+                    "definition": "A four-year undergraduate degree (120+ semester units) that transfer students work toward completing. Common types include BA (Bachelor of Arts), BS (Bachelor of Science), and specialized degrees like BFA or BBA.",
+                    "context": "Target degree for transfer students"
+                },
+                "Dual Degree / Joint Degree": {
+                    "definition": "Programs allowing students to earn degrees from two institutions simultaneously or sequentially. May involve formal partnerships between community colleges and four-year universities.",
+                    "context": "Collaborative degree programs"
+                },
+                "Certificate of Achievement / Certificate of Completion": {
+                    "definition": "Short-term credentials (6-30 units) focusing on specific skills or knowledge areas. May provide stackable credits toward associate or bachelor's degrees, though not all credits may transfer.",
+                    "context": "Supplementary credentials"
+                },
+                "Credential Program": {
+                    "definition": "Specialized programs leading to professional certification, such as teaching credentials. Often requires a bachelor's degree as prerequisite and may involve additional coursework and practicum requirements.",
+                    "context": "Professional certification programs"
+                },
+                "Minor / Concentration / Option / Emphasis": {
+                    "definition": "Secondary academic focus areas requiring 15-24 units of coursework in addition to a major. May be completed at the transfer institution and can enhance career prospects or academic breadth.",
+                    "context": "Secondary academic specializations"
+                },
+                "Pathway Certificate": {
+                    "definition": "Structured series of courses designed to prepare students for specific transfer majors or career paths. Often articulated with four-year institutions to ensure smooth transition.",
+                    "context": "Structured transfer preparation"
+                },
+                "Undergraduate / Graduate Student Classification": {
+                    "definition": "Academic level classification. Undergraduates pursue associate or bachelor's degrees (0-120+ units), while graduate students pursue master's or doctoral degrees after completing a bachelor's degree.",
+                    "context": "Academic level designation"
+                },
+                "Lower-Division / Upper-Division Course Levels": {
+                    "definition": "Lower-division courses (100-200 level) are typically taken in first two years and readily transfer. Upper-division courses (300-400+ level) are advanced courses usually taken in junior/senior years at four-year institutions.",
+                    "context": "Course level classification system"
+                }
+            }
+        },
+        "agreements_and_pathways": {
+            "category_description": "Formal agreements and structured pathways that facilitate student transfer between institutions",
+            "terms": {
+                "Articulation Agreement": {
+                    "definition": "Formal written agreement between institutions specifying how courses and credits transfer. Details course equivalencies, degree requirements, and transfer processes to ensure students don't lose progress when transferring.",
+                    "context": "Foundation document for transfer planning"
+                },
+                "Articulation History": {
+                    "definition": "Record of how courses have transferred between institutions over time. Provides historical data on course equivalencies and transfer patterns, helping advisors and students make informed decisions.",
+                    "context": "Historical transfer data reference"
+                },
+                "Direct Transfer Agreement (DTA)": {
+                    "definition": "State-specific agreement (common in Washington State) guaranteeing that completion of specified general education requirements at community colleges will fulfill lower-division requirements at four-year institutions.",
+                    "context": "State-level transfer guarantee"
+                },
+                "Transfer Admission Guarantee (TAG)": {
+                    "definition": "Agreement ensuring admission to specific universities for students who meet predetermined criteria (GPA, course completion, etc.). Common in UC and CSU systems, providing security for qualifying transfer students.",
+                    "context": "Guaranteed admission program"
+                },
+                "Transfer Admission Agreement (TAA)": {
+                    "definition": "Formal partnership between institutions outlining admission requirements, application processes, and support services for transfer students. May include priority admission or special consideration.",
+                    "context": "Institutional transfer partnership"
+                },
+                "Degree-with-a-Guarantee (CSU)": {
+                    "definition": "CSU system program guaranteeing that students who complete associate degrees for transfer will finish their bachelor's degree within 60 additional units, ensuring timely degree completion.",
+                    "context": "California State University guarantee program"
+                },
+                "2 + 2 Program": {
+                    "definition": "Structured pathway where students complete two years at a community college and two years at a four-year institution. Designed to ensure seamless transfer and degree completion within four total years.",
+                    "context": "Four-year degree completion pathway"
+                },
+                "Memorandum of Understanding (MOU)": {
+                    "definition": "Formal agreement between institutions outlining shared responsibilities, resources, and expectations for transfer student services. May include faculty exchange, resource sharing, or joint programming.",
+                    "context": "Institutional partnership agreement"
+                },
+                "Consortium Agreement / Cross-Enrollment Agreement": {
+                    "definition": "Agreement allowing students to take courses at partner institutions while enrolled at their home institution. Credits typically transfer seamlessly, expanding course options and scheduling flexibility.",
+                    "context": "Multi-institutional enrollment option"
+                },
+                "Reverse Transfer Agreement": {
+                    "definition": "Program allowing students who transfer before completing an associate degree to apply credits earned at the four-year institution back to complete their associate degree at the community college.",
+                    "context": "Retroactive degree completion"
+                },
+                "Bridge / Pipeline / Pathway Program": {
+                    "definition": "Structured support programs designed to prepare students for transfer success. May include academic support, mentoring, financial aid guidance, and cultural integration activities.",
+                    "context": "Transfer student support programs"
+                },
+                "Joint Admission / Dual Admission": {
+                    "definition": "Process where students are simultaneously admitted to both a community college and a four-year institution, providing a clear pathway from the start of their academic journey.",
+                    "context": "Simultaneous admission process"
+                },
+                "Guaranteed Admission Program": {
+                    "definition": "Programs ensuring admission to specific institutions for students who meet established criteria. Provides security and clear goals for transfer-bound students.",
+                    "context": "Assured admission pathway"
+                },
+                "Block Transfer / Seamless Transfer": {
+                    "definition": "Transfer of entire groups of courses or degree components as units, rather than individual course evaluation. Streamlines the transfer process and ensures comprehensive credit recognition.",
+                    "context": "Efficient credit transfer method"
+                },
+                "Passport Program (WICHE)": {
+                    "definition": "Western Interstate Commission for Higher Education program allowing students to take courses at participating institutions throughout the western United States with guaranteed credit transfer.",
+                    "context": "Multi-state transfer program"
+                },
+                "Major Related Programs (MRP)": {
+                    "definition": "Major Related Programs (MRP) outline the appropriate major related courses within a transferrable degree for students to be well prepared to enter their desired major upon transfer.",
+                    "context": "Major-specific transfer pathway"
+                },
+                "UCORE": {
+                    "definition": "An acronym that stands for 'University Common Requirements.' UCORE courses make up the general education component of a WSU student's degree. UCORE organizes courses into categories by subject, and to be able to graduate from WSU, each student must have taken the right amount and type of courses such that they have earned the required number of credits within each UCORE category.",
+                    "context": "WSU general education framework"
+                },
+                "Articulation": {
+                    "definition": "The process of comparing the content of courses that are transferred between colleges or universities to determine how one institution will accept and apply course credit from another.",
+                    "context": "Course transfer evaluation process"
+                },
+                "Transfer Agreement": {
+                    "definition": "A formal agreement between sending and receiving institutions about how the receiving institution will articulate the coursework from the sending institution and award course credit. It guarantees if a transfer student completes a program of study from the sending institution, they will be guaranteed junior-level standing admission.",
+                    "context": "Inter-institutional transfer guarantee"
+                }
+            }
+        },
+        "unit_and_credit_vocabulary": {
+            "category_description": "Terms related to academic units, credits, and time-based measurements in higher education",
+            "terms": {
+                "Semester Unit": {
+                    "definition": "Standard unit of academic credit based on semester system. One semester unit typically represents one hour of class time per week for a 15-16 week semester, plus expected outside study time.",
+                    "context": "Primary credit measurement system"
+                },
+                "Quarter Unit": {
+                    "definition": "Academic credit unit based on quarter system (10-11 weeks). Generally, 1.5 quarter units equal 1 semester unit. Common in UC system and some private institutions.",
+                    "context": "Alternative credit measurement system"
+                },
+                "Credit Hour": {
+                    "definition": "Federal standard for measuring academic work. One credit hour represents at least 15 hours of direct instruction plus 30 hours of student work (reading, studying, assignments) per semester.",
+                    "context": "Federal academic measurement standard"
+                },
+                "Clock Hour": {
+                    "definition": "Actual time spent in classroom instruction, typically used for vocational or technical programs. Different from credit hours, which include outside study time expectations.",
+                    "context": "Vocational education time measurement"
+                },
+                "Unit Conversion Table": {
+                    "definition": "Reference chart showing how credits convert between different systems (semester/quarter/clock hours). Essential for accurate transfer credit evaluation and degree planning.",
+                    "context": "Credit conversion reference tool"
+                },
+                "Transferable Unit": {
+                    "definition": "Credits that meet receiving institution's standards and will count toward degree requirements. Must typically be from regionally accredited institutions and meet minimum grade requirements.",
+                    "context": "Credits accepted for transfer"
+                },
+                "Non-Transferable Unit": {
+                    "definition": "Credits that don't meet receiving institution's transfer standards. May include remedial courses, vocational training, or courses from non-accredited institutions.",
+                    "context": "Credits not accepted for transfer"
+                },
+                "Excess Units / Unit Cap / Max Transferable Units": {
+                    "definition": "Maximum number of transfer credits an institution will accept (typically 60-70 semester units). Excess units may still be valuable for placement or prerequisite satisfaction.",
+                    "context": "Transfer credit limitations"
+                },
+                "Residency Units / In-Residence Requirement": {
+                    "definition": "Minimum number of credits that must be completed at the degree-granting institution. Typically 30-60 units for bachelor's degrees, ensuring students complete substantial work at their graduating institution.",
+                    "context": "Graduation requirement"
+                },
+                "Full-Time / Part-Time Status": {
+                    "definition": "Enrollment status based on credit load. Full-time typically means 12+ units per semester; part-time is fewer than 12 units. Affects financial aid eligibility and graduation timeline.",
+                    "context": "Enrollment classification"
+                },
+                "Catalog Rights (Catalog of Record)": {
+                    "definition": "Student's right to graduate under the degree requirements published in the catalog year they first enrolled or when they declared their major, protecting them from requirement changes.",
+                    "context": "Academic requirement protection"
+                },
+                "Continuous Enrollment": {
+                    "definition": "Requirement to maintain enrollment each semester/quarter to retain certain benefits, such as catalog rights, financial aid eligibility, or program admission.",
+                    "context": "Enrollment maintenance requirement"
+                },
+                "Time-to-Degree Limit": {
+                    "definition": "Maximum time period allowed to complete a degree program. Typically 6-8 years for bachelor's degrees, though may be extended for part-time students or those with approved leave.",
+                    "context": "Degree completion deadline"
+                },
+                "Academic Year / Term / Session / Inter-session": {
+                    "definition": "Time periods for academic instruction. Academic year typically includes fall and spring semesters/quarters. Terms are individual semesters/quarters. Sessions and inter-sessions are shorter intensive periods.",
+                    "context": "Academic calendar terminology"
+                },
+                "Census Date": {
+                    "definition": "Official enrollment count date, typically 2-3 weeks after term begins. Determines enrollment status for financial aid, fee assessment, and withdrawal policies.",
+                    "context": "Official enrollment determination date"
+                },
+                "Unit Lapse / Aging Credit Policy": {
+                    "definition": "Policy limiting the age of credits that can be applied toward degree requirements, particularly for rapidly changing fields like technology or healthcare.",
+                    "context": "Credit currency requirement"
+                },
+                "Gray Area Credits": {
+                    "definition": "Up to 15 quarter (10 semester) credits of coursework at the 100 level or above, which are otherwise non-transferable vocational/technical courses, may transfer as part of a DTA Associate degree meeting the ICRC guidelines. These credits are labeled as 'gray area' and entered as GRAY 999 into the database with a grade of P.",
+                    "context": "Special vocational credit transfer allowance"
+                },
+                "Transfer Equivalency Rules": {
+                    "definition": "'One to one rules' are simple equivalencies which identify that one course is equivalent to the WSU course and the transfer GPA reflects each course individually. 'Many to one rules' are used to combine two or more transfer courses as equivalent to one WSU course. 'Many to many rules' are considered complex equivalencies and are used to define that two or more transfer courses are equivalent to two or more WSU courses.",
+                    "context": "Course equivalency mapping types"
+                }
+            }
+        },
+        "course_attributes_and_scheduling": {
+            "category_description": "Terms describing course characteristics, relationships, and alternative delivery methods",
+            "terms": {
+                "Course Equivalency": {
+                    "definition": "Determination that a course from one institution is substantially similar to a course at another institution in content, rigor, and learning outcomes. Forms the basis for transfer credit acceptance.",
+                    "context": "Transfer credit evaluation basis"
+                },
+                "Course Comparable": {
+                    "definition": "Course that is similar but not identical to a course at the receiving institution. May fulfill similar requirements but with some differences in content or scope.",
+                    "context": "Similar but not identical course match"
+                },
+                "Course Substitution": {
+                    "definition": "Process of allowing a different course to fulfill a specific degree requirement when the exact required course isn't available or when transfer credit evaluation warrants it.",
+                    "context": "Alternative requirement fulfillment"
+                },
+                "Course Waiver": {
+                    "definition": "Exemption from a specific course requirement based on prior learning, work experience, or equivalent knowledge demonstration. The requirement is eliminated rather than substituted.",
+                    "context": "Requirement elimination"
+                },
+                "Prerequisite": {
+                    "definition": "Course or requirement that must be completed before enrolling in another course. Ensures students have necessary foundational knowledge for course success.",
+                    "context": "Required prior coursework"
+                },
+                "Corequisite": {
+                    "definition": "Course that must be taken simultaneously with another course. Often involves lecture and laboratory components or closely related subject matter.",
+                    "context": "Simultaneous enrollment requirement"
+                },
+                "Recommended Preparation": {
+                    "definition": "Suggested but not required background knowledge or coursework that would help students succeed in a course. Less strict than prerequisites but indicates helpful preparation.",
+                    "context": "Suggested background preparation"
+                },
+                "Sequence Course": {
+                    "definition": "Series of courses that must be taken in a specific order, building upon previous knowledge. Common in mathematics, science, and language programs.",
+                    "context": "Ordered course progression"
+                },
+                "Cross-Listed Course": {
+                    "definition": "Single course offered under multiple department codes or course numbers, allowing students from different programs to receive appropriate credit for their major.",
+                    "context": "Multi-department course offering"
+                },
+                "Hybrid Course / Online Course": {
+                    "definition": "Alternative delivery methods. Hybrid courses combine face-to-face and online instruction. Online courses are delivered entirely via digital platforms. Both may have different transferability considerations.",
+                    "context": "Alternative course delivery methods"
+                },
+                "Laboratory Component": {
+                    "definition": "Hands-on practical portion of a course, often required for science courses. May be scheduled separately from lecture and typically requires additional time commitment.",
+                    "context": "Practical course component"
+                },
+                "Internship / Practicum / Fieldwork": {
+                    "definition": "Experiential learning opportunities providing real-world application of academic knowledge. May be required for certain majors and often carry academic credit.",
+                    "context": "Experiential learning components"
+                },
+                "Independent Study": {
+                    "definition": "Self-directed learning experience under faculty supervision, allowing students to explore specific topics not covered in regular coursework. Typically requires proposal and contract.",
+                    "context": "Self-directed academic work"
+                },
+                "Experiential Learning Credit": {
+                    "definition": "Academic credit awarded for learning gained through work experience, military service, volunteer work, or other life experiences. Requires documentation and assessment.",
+                    "context": "Life experience academic credit"
+                },
+                "Prior Learning Assessment (PLA)": {
+                    "definition": "Process of evaluating and potentially granting credit for knowledge and skills gained outside traditional academic settings. May involve portfolios, exams, or demonstrations.",
+                    "context": "Alternative credit assessment"
+                },
+                "Military Credit / ACE Credit": {
+                    "definition": "Academic credit for military training and experience, evaluated through American Council on Education (ACE) recommendations. Many institutions grant credit for military service and training.",
+                    "context": "Military experience academic credit"
+                },
+                "Credit-by-Examination / Challenge Exam": {
+                    "definition": "Opportunity to earn course credit by demonstrating mastery through examination rather than taking the course. May include CLEP, departmental exams, or standardized tests.",
+                    "context": "Examination-based credit earning"
+                },
+                "Electives": {
+                    "definition": "Programs of study allow for a certain number of courses to count toward the graduation requirement. General Electives are not core to the program and can span a variety of subjects. Program or Major Electives are restricted to courses specific or relevant to the particular area of study.",
+                    "context": "Optional course requirements"
+                }
+            }
+        },
+        "evaluation_and_documentation": {
+            "category_description": "Documents, tools, and processes used to evaluate and track academic progress and transfer requirements",
+            "terms": {
+                "Official Transcript": {
+                    "definition": "Certified academic record sent directly from the issuing institution to the receiving institution. Required for transfer admission and credit evaluation. Contains courses, grades, and degree information.",
+                    "context": "Primary academic record document"
+                },
+                "Academic History": {
+                    "definition": "Your postsecondary education experience, which is usually represented by a transcript or list of your completed coursework.",
+                    "context": "Educational record overview"
+                },
+                "Degree Requirements": {
+                    "definition": "The authoritative list of courses a student must successfully take to complete a program of study.",
+                    "context": "Program completion criteria"
+                },
+                "Unofficial Transcript": {
+                    "definition": "Academic record provided directly to the student, often accessible online. Useful for planning purposes but not accepted for official transfer credit evaluation or admission.",
+                    "context": "Student planning document"
+                },
+                "Transcript Evaluation": {
+                    "definition": "Process of reviewing transfer student transcripts to determine which courses will transfer and how they apply to degree requirements at the receiving institution.",
+                    "context": "Transfer credit assessment process"
+                },
+                "Transfer Credit Report": {
+                    "definition": "Official document showing how transfer credits have been applied to degree requirements at the receiving institution. Details course equivalencies and remaining requirements.",
+                    "context": "Transfer credit application summary"
+                },
+                "Degree Audit / Degree Progress Report": {
+                    "definition": "Detailed analysis showing completed requirements, remaining requirements, and progress toward degree completion. Essential tool for transfer students to track their academic progress.",
+                    "context": "Degree completion tracking tool"
+                },
+                "Articulation Petition / Appeal": {
+                    "definition": "Formal request to review transfer credit decisions or seek exceptions to standard policies. Used when students believe their courses should transfer but were initially denied.",
+                    "context": "Transfer credit review process"
+                },
+                "Course Syllabus (for review)": {
+                    "definition": "Detailed course outline including objectives, content, assignments, and assessment methods. May be required for transfer credit evaluation when course equivalency is unclear.",
+                    "context": "Course content documentation"
+                },
+                "College Catalog": {
+                    "definition": "Official publication detailing institution's programs, policies, procedures, and degree requirements. Serves as the contract between institution and students regarding academic requirements.",
+                    "context": "Official academic requirements document"
+                },
+                "Program Mapper / Degree Planner": {
+                    "definition": "Interactive tool helping students plan their course sequence and track progress toward degree completion. Often includes transfer planning features and what-if scenarios.",
+                    "context": "Academic planning tool"
+                },
+                "ASSIST.org Database": {
+                    "definition": "California's official articulation system providing transfer information between California community colleges and UC/CSU systems. Shows course equivalencies and transfer requirements.",
+                    "context": "California transfer planning resource"
+                },
+                "C-ID Course Identifier": {
+                    "definition": "California course identification numbering system ensuring consistency in course content across institutions. Facilitates transfer by standardizing course descriptions and learning outcomes.",
+                    "context": "California course standardization system"
+                },
+                "TES (Transfer Evaluation System)": {
+                    "definition": "Database system used by institutions to track and manage transfer credit evaluations. Maintains records of course equivalencies and transfer decisions.",
+                    "context": "Transfer credit management system"
+                },
+                "Transfer Planning Guide (TPG)": {
+                    "definition": "Resource document outlining recommended course sequences and requirements for transfer students in specific majors. Helps students plan their academic pathway efficiently.",
+                    "context": "Major-specific transfer guidance"
+                },
+                "Transfer Credit Equivalency Table": {
+                    "definition": "Reference chart showing how courses from various institutions translate to courses at the receiving institution. Streamlines the transfer evaluation process.",
+                    "context": "Course equivalency reference"
+                },
+                "Accreditation (Regional / National)": {
+                    "definition": "Quality assurance process ensuring institutions meet educational standards. Regional accreditation is typically required for transfer credit acceptance; national accreditation may have limitations.",
+                    "context": "Educational quality certification"
+                },
+                "Accreditation Agency": {
+                    "definition": "Organizations that evaluate and certify educational institutions. Examples include WASC (Western), MSCHE (Middle States), SACSCOC (Southern). Accreditation affects transfer credit acceptance.",
+                    "context": "Educational oversight organizations"
+                },
+                "Transfer GPA": {
+                    "definition": "Transfer GPA is the transfer student's GPA as accepted and calculated by WSU. The transfer GPA is calculated using grades received in transferable college-level courses from all sources. The transfer GPA is not averaged into the WSU GPA.",
+                    "context": "Transfer-specific grade point average"
+                }
+            }
+        },
+        "policies_and_requirements": {
+            "category_description": "Academic policies, standards, and requirements that affect transfer students",
+            "terms": {
+                "Admissions Requirements": {
+                    "definition": "Criteria students must meet for admission to an institution or program. For transfer students, typically includes minimum GPA, completed coursework, and application materials.",
+                    "context": "Transfer admission criteria"
+                },
+                "Minimum Transferable GPA": {
+                    "definition": "Lowest grade point average required for transfer admission consideration. Varies by institution and program, typically ranging from 2.0 to 3.5 for competitive programs.",
+                    "context": "Academic performance threshold"
+                },
+                "Good Standing / Probation / Disqualification": {
+                    "definition": "Academic status indicators. Good standing means meeting academic standards; probation indicates below-standard performance; disqualification means dismissal from the institution.",
+                    "context": "Academic status classifications"
+                },
+                "Satisfactory Academic Progress (SAP)": {
+                    "definition": "Standards students must maintain to remain eligible for financial aid and continued enrollment. Includes GPA requirements, completion rate, and maximum time frame for degree completion.",
+                    "context": "Financial aid and enrollment eligibility"
+                },
+                "Pass/No Pass – Credit/No Credit Grading": {
+                    "definition": "Alternative grading system where students receive credit without a letter grade. May have limitations on transfer acceptance and major requirement fulfillment.",
+                    "context": "Alternative grading option"
+                },
+                "Grade Forgiveness / Repetition Policy": {
+                    "definition": "Policy allowing students to retake courses to improve grades. May replace original grade in GPA calculation or average the grades, depending on institutional policy.",
+                    "context": "Course repeat and grade improvement"
+                },
+                "Academic Renewal / Fresh Start": {
+                    "definition": "Process allowing students to exclude poor academic performance from a previous period from their current GPA calculation, typically after a significant break in enrollment.",
+                    "context": "Academic record restoration"
+                },
+                "Residency Requirement / Senior Residency": {
+                    "definition": "Requirement that students complete a minimum number of credits at the degree-granting institution, particularly in their major and in their final year of study.",
+                    "context": "Degree completion requirement"
+                },
+                "Unit Lapse / Aging Credit Policy": {
+                    "definition": "Policy limiting the age of credits that can be applied toward degree requirements, particularly for rapidly changing fields like technology or healthcare.",
+                    "context": "Credit currency requirement"
+                },
+                "Double Counting (GE + Major)": {
+                    "definition": "Policy regarding whether courses can simultaneously fulfill general education and major requirements. Some institutions allow this; others require separate courses.",
+                    "context": "Course requirement overlap policy"
+                },
+                "Certification of CSU GE Breadth": {
+                    "definition": "Official verification that a student has completed the California State University general education pattern, allowing completion of lower-division general education before transfer.",
+                    "context": "CSU general education completion"
+                },
+                "Certification of IGETC / IGETC for STEM": {
+                    "definition": "Certification of Intersegmental General Education Transfer Curriculum completion, allowing California community college students to fulfill lower-division general education for UC and CSU transfer.",
+                    "context": "California general education transfer pattern"
+                },
+                "Reciprocity Agreement (GE)": {
+                    "definition": "Agreement between institutions to accept each other's general education requirements, reducing duplication and streamlining transfer for students moving between participating schools.",
+                    "context": "Cross-institutional requirement acceptance"
+                },
+                "Appeal / Exception / Waiver": {
+                    "definition": "Formal process for requesting deviation from standard academic policies or requirements. May involve committee review and typically requires compelling justification.",
+                    "context": "Policy exception process"
+                },
+                "Hold (Advising, Bursar, Registrar)": {
+                    "definition": "Administrative restriction preventing registration or other academic actions until specific requirements are met, such as advising appointments, fee payments, or document submission.",
+                    "context": "Administrative enrollment restriction"
+                },
+                "Accelerated Study": {
+                    "definition": "A program that allows you to complete your degree faster than is normally required, for example taking summer courses.",
+                    "context": "Expedited degree completion option"
+                }
+            }
+        },
+        "support_roles_and_resources": {
+            "category_description": "Personnel, services, and resources that support transfer students throughout their academic journey",
+            "terms": {
+                "Academic Advisor / Major Advisor": {
+                    "definition": "Professional staff who provide guidance on course selection, degree planning, and academic policies. Major advisors specialize in specific academic programs and requirements.",
+                    "context": "Academic guidance professional"
+                },
+                "Transfer Counselor / Articulation Officer": {
+                    "definition": "Specialist who helps students navigate transfer processes, evaluate transfer credit, and understand articulation agreements between institutions.",
+                    "context": "Transfer process specialist"
+                },
+                "Transfer Center / Transfer Success Center": {
+                    "definition": "Dedicated facility providing comprehensive transfer services including advising, workshops, application assistance, and resources for transfer-bound students.",
+                    "context": "Centralized transfer support facility"
+                },
+                "Orientation / Transfer Bridge Session": {
+                    "definition": "Introductory programs helping new transfer students acclimate to their new institution, understand resources, and connect with peers and support services.",
+                    "context": "New student integration program"
+                },
+                "Peer Mentor / Student Ambassador": {
+                    "definition": "Current students who provide guidance and support to new transfer students, sharing experiences and helping with transition challenges.",
+                    "context": "Peer support program"
+                },
+                "Degree Planner / MyPlan / Roadmap": {
+                    "definition": "Digital tools that help students plan their academic pathway, track progress, and explore course options. Often integrated with degree audit systems.",
+                    "context": "Academic planning technology"
+                },
+                "Early Alert / Advising Hold": {
+                    "definition": "System to identify students at academic risk and require intervention, such as mandatory advising appointments, before they can continue registration.",
+                    "context": "Academic intervention system"
+                },
+                "Virtual Transfer Fair / Transfer Day": {
+                    "definition": "Events where representatives from four-year institutions meet with prospective transfer students to provide information about programs, admission requirements, and transfer processes.",
+                    "context": "Transfer recruitment and information event"
+                },
+                "Financial Aid Counselor": {
+                    "definition": "Professional who assists students with understanding and applying for financial aid, including grants, loans, scholarships, and work-study programs.",
+                    "context": "Financial aid specialist"
+                },
+                "FAFSA / CADAA / WASFA": {
+                    "definition": "Financial aid applications: Free Application for Federal Student Aid (FAFSA), California Dream Act Application (CADAA), and Washington Application for State Financial Aid (WASFA).",
+                    "context": "Financial aid application forms"
+                },
+                "SAP Appeal / Financial Aid Suspension": {
+                    "definition": "Process for students who have lost financial aid eligibility due to not meeting Satisfactory Academic Progress standards to request reinstatement of aid.",
+                    "context": "Financial aid eligibility restoration"
+                },
+                "Scholarship Search / Transfer Scholarship": {
+                    "definition": "Resources and programs specifically designed to help transfer students find and apply for scholarships, including merit-based and need-based opportunities.",
+                    "context": "Transfer student funding opportunities"
+                },
+                "Veterans Benefit Certification": {
+                    "definition": "Process of verifying and certifying student enrollment and program information to the Department of Veterans Affairs for education benefit eligibility.",
+                    "context": "Military education benefit administration"
+                },
+                "Disability Support Services (DSS)": {
+                    "definition": "Office providing accommodations and support services for students with disabilities to ensure equal access to educational opportunities and programs.",
+                    "context": "Accessibility support services"
+                }
+            }
+        },
+        "exams_and_alternative_credit": {
+            "category_description": "Standardized examinations and alternative methods for earning academic credit",
+            "terms": {
+                "Advanced Placement (AP)": {
+                    "definition": "College-level courses and examinations offered in high school. Students scoring 3, 4, or 5 on AP exams may receive college credit or advanced placement at many institutions.",
+                    "context": "High school college-level program"
+                },
+                "International Baccalaureate (IB)": {
+                    "definition": "International education program offering college-level coursework. Higher Level (HL) and Standard Level (SL) courses may earn college credit based on examination scores.",
+                    "context": "International college-level program"
+                },
+                "College-Level Examination Program (CLEP)": {
+                    "definition": "Credit-by-examination program allowing students to earn college credit by demonstrating mastery of college-level material through standardized tests.",
+                    "context": "Credit-by-examination program"
+                },
+                "Cambridge International (AICE)": {
+                    "definition": "International examination system offering Advanced Subsidiary (AS) and Advanced (A) level qualifications that may earn college credit at participating institutions.",
+                    "context": "International examination system"
+                },
+                "DSST / DANTES": {
+                    "definition": "Credit-by-examination program originally designed for military personnel but now available to civilians. Covers various subject areas for college credit earning.",
+                    "context": "Military and civilian examination program"
+                },
+                "ACT / SAT (for placement)": {
+                    "definition": "Standardized college entrance exams that may also be used for course placement decisions, particularly in mathematics and English, rather than just admission.",
+                    "context": "Standardized test for placement"
+                },
+                "Math Placement Test": {
+                    "definition": "Assessment to determine appropriate mathematics course level for students. Results determine whether students need remedial courses or can proceed to college-level mathematics.",
+                    "context": "Mathematics course placement assessment"
+                },
+                "Writing Placement / Directed Self-Placement": {
+                    "definition": "Assessment or self-evaluation process to determine appropriate English composition course level. May involve writing samples or student self-assessment of writing skills.",
+                    "context": "English composition placement process"
+                },
+                "Foreign Language Placement": {
+                    "definition": "Assessment to determine appropriate foreign language course level based on prior knowledge and skills. May allow students to skip introductory courses.",
+                    "context": "Language course placement assessment"
+                },
+                "Departmental Challenge Exam": {
+                    "definition": "Subject-specific examination created by academic departments to allow students to earn credit for courses by demonstrating equivalent knowledge and skills.",
+                    "context": "Department-specific credit examination"
+                },
+                "Proficiency Examination": {
+                    "definition": "Test designed to measure mastery of specific skills or knowledge areas. May be used for course placement, credit earning, or graduation requirement fulfillment.",
+                    "context": "Skill and knowledge assessment"
+                },
+                "Running Start": {
+                    "definition": "College credit earned while still in high school. Although these students will have transfer credits, they are not considered transfer students.",
+                    "context": "High school concurrent enrollment program"
+                },
+                "American College Testing (ACT)": {
+                    "definition": "A national college admissions examination that consists of subject areas in English, Mathematics, Reading and Science. The ACT Plus Writing includes the four subject area plus a 30-minute writing test.",
+                    "context": "College entrance examination"
+                },
+                "Scholastic Assessment Test (SAT)": {
+                    "definition": "A globally recognized college admissions examination that consists of subject areas in Reading, Writing and Math. The SAT I Reasoning Test concentrates on verbal and mathematical reasoning. The SAT II Subject Tests are subject specific examinations.",
+                    "context": "College entrance examination"
+                },
+                "Dual Enrollment": {
+                    "definition": "A policy that allows a student to earn college credit while in high school.",
+                    "context": "High school concurrent enrollment option"
+                }
+            }
+        },
+        "miscellaneous_transfer_concepts": {
+            "category_description": "Additional important terms and concepts related to the transfer process and student experience",
+            "terms": {
+                "Sending Institution / Home Institution": {
+                    "definition": "The college or university where a student originally earns credit before seeking to transfer it elsewhere.",
+                    "context": "Transfer origin institution"
+                },
+                "Receiving Institution / Host Institution": {
+                    "definition": "The school that evaluates incoming coursework and decides how it applies toward its own degree requirements.",
+                    "context": "Transfer destination institution"
+                },
+                "Transfer Applicant / Prospective Transfer": {
+                    "definition": "A student who is actively applying to move from one post-secondary institution to another after earning college-level credit.",
+                    "context": "Student status during transfer process"
+                },
+                "Transfer Admit Rate": {
+                    "definition": "The percentage of transfer applicants offered admission in a given cycle (often lower than first-year admit rates).",
+                    "context": "Admission statistics and competitiveness"
+                },
+                "Articulation Maintenance Cycle": {
+                    "definition": "The scheduled process (usually annual) by which articulation officers review, renew, or retire course-transfer agreements to keep them current.",
+                    "context": "Credit transfer policy management"
+                },
+                "Course Articulation Matrix": {
+                    "definition": "A publicly posted table—such as Louisiana's statewide grid—that shows course-by-course equivalencies among multiple campuses.",
+                    "context": "Credit transfer reference tool"
+                },
+                "Block Transfer Credit": {
+                    "definition": "Policy under which an entire certificate, associate degree, or GE pattern transfers as a unit instead of course-by-course.",
+                    "context": "Bulk credit transfer method"
+                },
+                "Seamless Transfer Pathway": {
+                    "definition": "A coordinated 2-to-4-year roadmap designed to move students to the bachelor's level with no loss of credit or time.",
+                    "context": "Structured transfer program"
+                },
+                "Transfer Shock": {
+                    "definition": "The common, short-term GPA dip that occurs after a student changes schools.",
+                    "context": "Academic adjustment phenomenon"
+                },
+                "Transfer Resilience": {
+                    "definition": "The student's ability to rebound and persist beyond the initial GPA dip after transferring schools.",
+                    "context": "Academic recovery and persistence"
+                },
+                "Rolling Admission": {
+                    "definition": "An admission process that reviews applications as they arrive and notifies decisions quickly, typically without a fixed deadline.",
+                    "context": "Flexible admission timeline"
+                },
+                "Priority Deadline": {
+                    "definition": "The date by which applications must be submitted for fullest consideration before space or financial aid runs out.",
+                    "context": "Application deadline with preference"
+                },
+                "Conditional Admission / Provisional Admission": {
+                    "definition": "An offer of admission that becomes final only after the student meets specified conditions (e.g., final transcript review or completion of prerequisite courses).",
+                    "context": "Admission with requirements"
+                },
+                "Deferment / Gap Term": {
+                    "definition": "Permission to delay enrollment—often for a semester or year—after acceptance, while reserving one's admission spot.",
+                    "context": "Delayed enrollment option"
+                },
+                "Application Fee Waiver": {
+                    "definition": "Formal confirmation (e.g., Common App fee waiver) that a qualified applicant may submit an admission application without paying the usual fee.",
+                    "context": "Financial assistance for application process"
+                },
+                "Registrar": {
+                    "definition": "The institutional office and officer responsible for maintaining academic records, transcripts, and enrollment verification.",
+                    "context": "Academic records management"
+                },
+                "Bursar": {
+                    "definition": "The institutional office responsible for billing and collecting tuition, fees, and other student financial obligations.",
+                    "context": "Student financial services"
+                },
+                "Cashier": {
+                    "definition": "The office or window where students make in-person payments for tuition, fees, or receive refunds.",
+                    "context": "Payment processing location"
+                },
+                "Financial Hold": {
+                    "definition": "An institutional block placed on registration, transcript release, or graduation due to unpaid financial obligations.",
+                    "context": "Enrollment restriction due to financial issues"
+                },
+                "Academic Hold": {
+                    "definition": "An institutional block placed on registration or other services due to unmet academic requirements or violations.",
+                    "context": "Enrollment restriction due to academic issues"
+                },
+                "Immunization Hold": {
+                    "definition": "An institutional block placed on registration until required vaccination records are submitted and verified.",
+                    "context": "Health requirement enforcement"
+                },
+                "Leave of Absence": {
+                    "definition": "An approved, temporary break in enrollment that allows a student to return without reapplying for admission.",
+                    "context": "Formal enrollment interruption"
+                },
+                "Stop-out": {
+                    "definition": "An unapproved or unexpected interruption in enrollment with the intent (but no guarantee) of returning.",
+                    "context": "Informal enrollment interruption"
+                },
+                "Re-enrollment": {
+                    "definition": "A streamlined process for a former student to resume the same degree program after a brief absence.",
+                    "context": "Simple return to previous program"
+                },
+                "Re-admission": {
+                    "definition": "A full application review process for a student returning after a longer absence or seeking entry to a different program.",
+                    "context": "Formal return after extended absence"
+                },
+                "Common Course Numbers (CCN)": {
+                    "definition": "Courses with this designation are considered Common Course Numbers (CCN). They indicate that the content of these courses are similar throughout the Washington community college system.",
+                    "context": "Washington state course standardization"
+                }
+            }
+        }
+    }
+}
