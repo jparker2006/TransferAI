@@ -1,0 +1,256 @@
+{
+  "metadata": {
+    "title": "Online Learning Student FAQ",
+    "url": "https://www.smc.edu/academics/online-learning/students/student-faq.php",
+    "scraped_at": "2025-06-02T14:59:13.940350",
+    "institution": "Santa Monica College",
+    "page_type": "student",
+    "total_faqs": 9,
+    "categories": {
+      "Class Format and Schedule": 2,
+      "Canvas and Account Access": 5,
+      "Online Learning General": 1,
+      "Student Support Services": 1
+    }
+  },
+  "faqs": [
+    {
+      "id": 1,
+      "category": "Class Format and Schedule",
+      "question": "How do I Enroll in an Online Class?",
+      "answer": "The enrollment process is the same for online and on-ground classes and takes place in your Corsair Connect account. You may try to self-enroll in a class at any time up to the night before the first day of the class.",
+      "keywords": [
+        "enroll",
+        "online",
+        "class",
+        "enrollment",
+        "process",
+        "same",
+        "on-ground",
+        "classes",
+        "takes",
+        "place",
+        "corsair",
+        "connect",
+        "account",
+        "self-enroll",
+        "time"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Canvas and Account Access",
+      "question": "I can't find my Class in Canvas",
+      "answer": "For an online/hybrid class that is being hosted on Canvas your login will NOT be available until the first day of the class. When you add a class with an add code or reinstate code, you will not be able to access the course until the next day.",
+      "keywords": [
+        "find",
+        "class",
+        "canvas",
+        "online",
+        "hybrid",
+        "being",
+        "hosted",
+        "login",
+        "available",
+        "until",
+        "first",
+        "when",
+        "code",
+        "reinstate",
+        "able"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Canvas and Account Access",
+      "question": "I can't login to Canvas",
+      "answer": "Students need to follow these instructions carefully: Username is your SMC email without @student.smc.edu or @smc.edu. Do not use your student ID. Example: Your username is lee_jane_doe if your email is lee_jane_doe@student.smc.edu or lee_jane_doe@smc.edu Password is your regular SMC password, the same one you use for Corsair Connect.",
+      "keywords": [
+        "login",
+        "canvas",
+        "students",
+        "need",
+        "follow",
+        "these",
+        "instructions",
+        "carefully",
+        "username",
+        "smc",
+        "email",
+        "without",
+        "student",
+        "example",
+        "password"
+      ],
+      "links": [
+        {
+          "text": "without @student.smc.edu",
+          "url": "mailto:without@student.smc.edu"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Canvas and Account Access",
+      "question": "Why does Canvas say \"no such account\" when I try to Login?",
+      "answer": "Students who are new to Canvas, will not have access until two weeks before the term begins. If a student registers after the term begins, it takes Canvas 24 hours to create an account, so you will not be able to access the course until the next day.",
+      "keywords": [
+        "does",
+        "canvas",
+        "such",
+        "account",
+        "when",
+        "login",
+        "students",
+        "have",
+        "access",
+        "until",
+        "weeks",
+        "before",
+        "term",
+        "begins",
+        "student"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Canvas and Account Access",
+      "question": "My Password is Not Working",
+      "answer": "If your password does not work, open Notepad on PC or Text Edit on Mac, type your password and copy this password. Test your password in Corsair Connect and paste it in Canvas to ensure they are the same.",
+      "keywords": [
+        "password",
+        "working",
+        "does",
+        "work",
+        "open",
+        "notepad",
+        "text",
+        "edit",
+        "type",
+        "copy",
+        "this",
+        "test",
+        "corsair",
+        "connect",
+        "paste"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Canvas and Account Access",
+      "question": "I forgot my Password",
+      "answer": "Your password is your Corsair Connect password. To recover your password: Go to the SMC Homepage Type \"student password\" in the Search box See \"Recovering Your Password\" question.",
+      "keywords": [
+        "forgot",
+        "password",
+        "corsair",
+        "connect",
+        "recover",
+        "smc",
+        "homepage",
+        "type",
+        "student",
+        "search",
+        "recovering",
+        "question"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Class Format and Schedule",
+      "question": "Why was I dropped from my online class?",
+      "answer": "If you were not active in the class and/or missed assignments, the professor is required to drop you. Online classes require substantive participation. This means that if you do not regularly and thoughtfully participate in the class activities defined in your course syllabus, you risk being dropped.",
+      "keywords": [
+        "dropped",
+        "online",
+        "class",
+        "were",
+        "active",
+        "missed",
+        "assignments",
+        "professor",
+        "required",
+        "drop",
+        "classes",
+        "require",
+        "substantive",
+        "participation",
+        "this"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Online Learning General",
+      "question": "What Should I Expect from Online Learning?",
+      "answer": "Most SMC online courses and on ground web-enhanced courses (hybrid) are taught on the Canvas platform. Please go to this link www.smc.edu/OnlineEd to find out how to login to Canvas. This page also has other information needed to reach the online portion of your courses on Canvas. Scroll down to the bottom of the page to select from resources listed under How to Use the New Canvas System. How to Use the New Canvas System Learn how to use the new course management system: Canvas Student Guides (opens in new window) Canvas Student Tour Self-Paced Course (opens in new window) Technical Requirements for Using Canvas (opens in new window)",
+      "keywords": [
+        "what",
+        "should",
+        "expect",
+        "online",
+        "learning",
+        "most",
+        "smc",
+        "courses",
+        "ground",
+        "web-enhanced",
+        "hybrid",
+        "taught",
+        "canvas",
+        "platform",
+        "please"
+      ],
+      "links": [
+        {
+          "text": "www.smc.edu/OnlineEd",
+          "url": "https://www.smc.edu/OnlineEd"
+        },
+        {
+          "text": "Canvas Student Guides(opens in new window)",
+          "url": "https://community.canvaslms.com/docs/DOC-4121"
+        },
+        {
+          "text": "Canvas Student Tour Self-Paced Course(opens in new window)",
+          "url": "https://resources.instructure.com/courses/32"
+        },
+        {
+          "text": "Technical Requirements for Using Canvas(opens in new window)",
+          "url": "https://community.canvaslms.com/docs/DOC-1284"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "category": "Student Support Services",
+      "question": "Where can I get tutoring for online courses?",
+      "answer": "Online tutoring is offered through Smarthinking Access Instructions: Log into your Canvas course and select the Smarthinking Online Tutoring link in the course navigation on the left side of your screen. If you have questions about Smarthinking tutoring support, please view Smarthinking's \"How-To\" videos (opens in new window) . For additional support, please contact the SMC Distance Education Department.",
+      "keywords": [
+        "where",
+        "tutoring",
+        "online",
+        "courses",
+        "offered",
+        "through",
+        "smarthinking",
+        "access",
+        "instructions",
+        "into",
+        "canvas",
+        "course",
+        "select",
+        "link",
+        "navigation"
+      ],
+      "links": [
+        {
+          "text": "Smarthinking's \"How-To\" videos(opens in new window)",
+          "url": "http://www.smarthinking.com/"
+        },
+        {
+          "text": "SMC Distance Education Department",
+          "url": "https://www.smc.edu/academics/online-learning/index.php"
+        }
+      ]
+    }
+  ]
+}
