@@ -1,0 +1,72 @@
+[
+    {
+        "title": "ADVANCED COMPOSITION",
+        "course_id": "ENGL 31",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTENSIVE COLLEGE WRITING SKILLS",
+        "course_id": "ENGL 28",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "BRITISH LITERATURE 1",
+        "course_id": "ENGL 5",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "AMERICAN LITERATURE 1",
+        "course_id": "ENGL 7",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "AMERICAN LITERATURE 2",
+        "course_id": "ENGL 8",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "RACE AND ETHNICITY IN LITERATURE OF THE U.S.",
+        "course_id": "ENGL 10",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "SHAKESPEARE",
+        "course_id": "ENGL 15",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTRODUCTION TO THE HUMANITIES",
+        "course_id": "ENGL 26",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ASIAN LITERATURE",
+        "course_id": "ENGL 40",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MYTHOLOGY",
+        "course_id": "ENGL 50",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "LITERATURE OF THE BIBLE: OLD TESTAMENT",
+        "course_id": "ENGL 51",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTRODUCTION TO THE FAIRY TALE",
+        "course_id": "ENGL 61",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTRODUCTION TO CREATIVE WRITING",
+        "course_id": "ENGL 71",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "WRITING IN FICTION",
+        "course_id": "ENGL 72",
+        "units": "3 UNITS"
+    }
+]

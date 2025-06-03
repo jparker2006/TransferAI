@@ -1,0 +1,32 @@
+[
+    {
+        "title": "2D COLOR THEORY",
+        "course_id": "IARC 15",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "STUDIO 2: INTERIOR ARCHITECTURE",
+        "course_id": "IARC 20",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MATERIALS AND PRODUCTS FOR INTERIOR ARCHITECTURAL DESIGN",
+        "course_id": "IARC 25",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "STUDIO 3: INTERIOR ARCHITECTURE",
+        "course_id": "IARC 30",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "STUDIO 4: INTERIOR ARCHITECTURE",
+        "course_id": "IARC 40",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "BUILDING SYSTEMS AND CODES",
+        "course_id": "IARC 45",
+        "units": "3 UNITS"
+    }
+]

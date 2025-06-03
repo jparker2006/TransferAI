@@ -1,0 +1,32 @@
+[
+    {
+        "title": "STELLAR ASTRONOMY",
+        "course_id": "ASTRON 1",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "PLANETARY ASTRONOMY",
+        "course_id": "ASTRON 2",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "STELLAR ASTRONOMY WITH LABORATORY",
+        "course_id": "ASTRON 3",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "PLANETARY ASTRONOMY WITH LABORATORY",
+        "course_id": "ASTRON 4",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "LIFE IN THE UNIVERSE",
+        "course_id": "ASTRON 5",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ARCHAEOASTRONOMY",
+        "course_id": "ASTRON 6",
+        "units": "3 UNITS"
+    }
+]

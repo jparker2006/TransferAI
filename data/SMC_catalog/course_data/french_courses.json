@@ -1,0 +1,17 @@
+[
+    {
+        "title": "ELEMENTARY FRENCH I",
+        "course_id": "FRENCH 1",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "ELEMENTARY FRENCH II",
+        "course_id": "FRENCH 2",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "INTERMEDIATE FRENCH I",
+        "course_id": "FRENCH 3",
+        "units": "5 UNITS"
+    }
+]

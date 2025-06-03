@@ -1,0 +1,37 @@
+[
+    {
+        "title": "INTRODUCTION TO ADMINISTRATION OF JUSTICE",
+        "course_id": "AD JUS 1",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "CONCEPTS OF CRIMINAL LAW",
+        "course_id": "AD JUS 2",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "LEGAL ASPECTS OF EVIDENCE",
+        "course_id": "AD JUS 3",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "CRIMINAL INVESTIGATION",
+        "course_id": "AD JUS 5",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "JUVENILE PROCEDURES",
+        "course_id": "AD JUS 8",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTRODUCTION TO FORENSICS",
+        "course_id": "AD JUS 11",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "COMMUNITY AND THE JUSTICE SYSTEM",
+        "course_id": "AD JUS 67",
+        "units": "3 UNITS"
+    }
+]

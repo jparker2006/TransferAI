@@ -1,0 +1,57 @@
+[
+    {
+        "title": "INDEPENDENT STUDIES IN PHILOSOPHY",
+        "course_id": "PHILOS 88A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INDEPENDENT STUDIES IN PHILOSOPHY",
+        "course_id": "PHILOS 88B",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "KNOWLEDGE AND REALITY",
+        "course_id": "PHILOS 1",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ETHICS",
+        "course_id": "PHILOS 2",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "EARLY PHILOSOPHERS",
+        "course_id": "PHILOS 3",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "LOGIC AND CRITICAL THINKING",
+        "course_id": "PHILOS 7",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "SYMBOLIC LOGIC",
+        "course_id": "PHILOS 9",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ASIAN PHILOSOPHY",
+        "course_id": "PHILOS 22",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "PHILOSOPHY OF RELIGION",
+        "course_id": "PHILOS 23",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "POLITICAL PHILOSOPHY",
+        "course_id": "PHILOS 51",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "CONTEMPORARY POLITICAL THOUGHT",
+        "course_id": "PHILOS 52",
+        "units": "3 UNITS"
+    }
+]

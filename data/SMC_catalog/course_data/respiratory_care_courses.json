@@ -1,0 +1,72 @@
+[
+    {
+        "title": "FUNDAMENTALS OF RESPIRATORY CARE",
+        "course_id": "RC 1",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "INTEGRATED RESPIRATORY PHYSIOLOGY AND PATHOPHYSIOLOGY I",
+        "course_id": "RC 2",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "RESPIRATORY CARE THERAPEUTICS",
+        "course_id": "RC 3",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "PHYSICIAN INTERACTION I",
+        "course_id": "RC 4",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ADVANCED LIFE SUPPORT AND ICU MONITORING",
+        "course_id": "RC 10",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "ADVANCED MECHANICAL VENTILATION",
+        "course_id": "RC 11",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "PHYSICIAN INTERACTION III",
+        "course_id": "RC 12",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "NEONATAL AND PEDIATRIC RESPIRATORY CARE",
+        "course_id": "RC 13",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "APPLIED FUNDAMENTALS OF RESPIRATORY CARE",
+        "course_id": "RC 1L",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "APPLIED INTEGRATED RESPIRATORY PHYSIOLOGY AND PATHOPHYSIOLOGY I",
+        "course_id": "RC 2L",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "APPLIED RESPIRATORY CARE THERAPEUTICS",
+        "course_id": "RC 3L",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "APPLIED ADVANCED LIFE SUPPORT AND ICU MONITORING",
+        "course_id": "RC 10L",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "APPLIED ADVANCED MECHANICAL VENTILATION",
+        "course_id": "RC 11L",
+        "units": "2.5 UNITS"
+    },
+    {
+        "title": "APPLIED NEONATAL AND PEDIATRIC RESPIRATORY CARE",
+        "course_id": "RC 13L",
+        "units": "2 UNITS"
+    }
+]

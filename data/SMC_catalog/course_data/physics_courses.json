@@ -1,0 +1,47 @@
+[
+    {
+        "title": "INDEPENDENT STUDIES IN PHYSICS",
+        "course_id": "PHYSCS 88A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "GENERAL PHYSICS 1 WITH LAB",
+        "course_id": "PHYSCS 6",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "CALCULUS-BASED GENERAL PHYSICS 1 WITH LAB",
+        "course_id": "PHYSCS 8",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "INTRODUCTORY PHYSICS NON-LAB",
+        "course_id": "PHYSCS 12",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTRODUCTORY PHYSICS WITH LAB",
+        "course_id": "PHYSCS 14",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "PREPARATION FOR CALCULUS-BASED PHYSICS",
+        "course_id": "PHYSCS 20",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "MECHANICS WITH LAB",
+        "course_id": "PHYSCS 21",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "ELECTRICITY AND MAGNETISM WITH LAB",
+        "course_id": "PHYSCS 22",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "FLUIDS, WAVES, THERMODYNAMICS, OPTICS WITH LAB",
+        "course_id": "PHYSCS 23",
+        "units": "5 UNITS"
+    }
+]

@@ -1,0 +1,252 @@
+[
+    {
+        "title": "MUSIC FOR EARLY CHILDHOOD EDUCATION",
+        "course_id": "MUSIC 27",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "A WORLD OF MUSIC",
+        "course_id": "MUSIC 29",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MUSIC HISTORY I",
+        "course_id": "MUSIC 30",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "APPRECIATION OF MUSIC",
+        "course_id": "MUSIC 32",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "JAZZ IN AMERICAN CULTURE",
+        "course_id": "MUSIC 33",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "HISTORY OF ROCK MUSIC",
+        "course_id": "MUSIC 36",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MUSIC IN AMERICAN CULTURE",
+        "course_id": "MUSIC 37",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "FUNDAMENTALS OF MUSIC",
+        "course_id": "MUSIC 1",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MUSICIANSHIP",
+        "course_id": "MUSIC 2",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "MUSICIANSHIP",
+        "course_id": "MUSIC 3",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "MUSICIANSHIP",
+        "course_id": "MUSIC 4",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "FUNDAMENTALS OF MUSICIANSHIP",
+        "course_id": "MUSIC 5",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "DIATONIC HARMONY",
+        "course_id": "MUSIC 6",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "CHROMATIC HARMONY",
+        "course_id": "MUSIC 7",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MODULATION AND ANALYSIS",
+        "course_id": "MUSIC 8",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "OPERA WORKSHOP",
+        "course_id": "MUSIC 40",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "MARIACHI ENSEMBLE",
+        "course_id": "MUSIC 44",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "MUSICAL THEATRE WORKSHOP",
+        "course_id": "MUSIC 45",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "COMBO AND CHAMBER ENSEMBLE",
+        "course_id": "MUSIC 49",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "ELEMENTARY VOICE",
+        "course_id": "MUSIC 50A",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "INTERMEDIATE VOICE",
+        "course_id": "MUSIC 50B",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "JAZZ VOCAL ENSEMBLE",
+        "course_id": "MUSIC 53",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "CONCERT CHORALE",
+        "course_id": "MUSIC 55",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "ADVANCED VOCAL PERFORMANCE TECHNIQUES",
+        "course_id": "MUSIC 57",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "CHAMBER CHOIR",
+        "course_id": "MUSIC 59",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "ELEMENTARY PIANO, FIRST LEVEL",
+        "course_id": "MUSIC 60A",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "ELEMENTARY PIANO, SECOND LEVEL",
+        "course_id": "MUSIC 60B",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "ELEMENTARY PIANO, THIRD LEVEL",
+        "course_id": "MUSIC 60C",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "ELEMENTARY PIANO, FOURTH LEVEL",
+        "course_id": "MUSIC 60D",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "INTERMEDIATE PIANO, FIFTH LEVEL",
+        "course_id": "MUSIC 61A",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "PIANO ENSEMBLE",
+        "course_id": "MUSIC 64",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "KEYBOARD IMPROVISATION I",
+        "course_id": "MUSIC 65A",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "KEYBOARD IMPROVISATION II",
+        "course_id": "MUSIC 65B",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "FUNDAMENTALS OF MUSIC AND ELEMENTARY PIANO",
+        "course_id": "MUSIC 66",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "STRING INSTRUMENT TECHNIQUES",
+        "course_id": "MUSIC 70A",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "INTERMEDIATE STRINGS TECHNIQUES",
+        "course_id": "MUSIC 70B",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "INTERMEDIATE STRINGS ORCHESTRA",
+        "course_id": "MUSIC 70C",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "PERCUSSION INSTRUMENT TECHNIQUES",
+        "course_id": "MUSIC 73A",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "INTERMEDIATE PERCUSSION ENSEMBLE",
+        "course_id": "MUSIC 73B",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "ORCHESTRA",
+        "course_id": "MUSIC 74",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "INTERMEDIATE BRASS, WOODWINDS, AND PERCUSSION",
+        "course_id": "MUSIC 76",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "WIND ENSEMBLE",
+        "course_id": "MUSIC 77",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "JAZZ ENSEMBLE",
+        "course_id": "MUSIC 78",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "POPULAR GUITAR, FIRST LEVEL",
+        "course_id": "MUSIC 84A",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "POPULAR GUITAR, SECOND LEVEL",
+        "course_id": "MUSIC 84B",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "POPULAR GUITAR, THIRD LEVEL",
+        "course_id": "MUSIC 84C",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "FINGERSTYLE GUITAR, FIRST LEVEL",
+        "course_id": "MUSIC 87A",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "FINGERSTYLE GUITAR, SECOND LEVEL",
+        "course_id": "MUSIC 87B",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "APPLIED MUSIC INSTRUCTION",
+        "course_id": "MUSIC 92",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "CONCERT MUSIC CLASS",
+        "course_id": "MUSIC 94",
+        "units": "1 UNIT"
+    }
+]

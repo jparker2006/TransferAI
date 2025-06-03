@@ -1,0 +1,272 @@
+[
+    {
+        "title": "INDEPENDENT STUDIES IN PHYSICAL EDUCATION",
+        "course_id": "KIN PE 88A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INTRODUCTION TO EXERCISE PHYSIOLOGY I",
+        "course_id": "KIN PE 3",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTRODUCTION TO SPORT PSYCHOLOGY",
+        "course_id": "KIN PE 4",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "BEGINNING SWIMMING",
+        "course_id": "KIN PE 48A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ELEMENTARY SWIMMING",
+        "course_id": "KIN PE 48B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INTERMEDIATE SWIMMING",
+        "course_id": "KIN PE 48C",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ADVANCED SWIMMING",
+        "course_id": "KIN PE 48D",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "BEGINNING SURFING",
+        "course_id": "KIN PE 51A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INTERMEDIATE SURFING",
+        "course_id": "KIN PE 51B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "KARATE",
+        "course_id": "KIN PE 34A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INTERMEDIATE KARATE",
+        "course_id": "KIN PE 34B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ADVANCED INTERMEDIATE KARATE",
+        "course_id": "KIN PE 34C",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ADVANCED KARATE",
+        "course_id": "KIN PE 34D",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "SELF DEFENSE \u2013 WOMEN",
+        "course_id": "KIN PE 41W",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ACHIEVING LIFETIME FITNESS",
+        "course_id": "KIN PE 2",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "FITNESS LAB",
+        "course_id": "KIN PE 10A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "BEGINNING WEIGHT TRAINING",
+        "course_id": "KIN PE 11A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INTERMEDIATE WEIGHT TRAINING",
+        "course_id": "KIN PE 11B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ADVANCED WEIGHT TRAINING",
+        "course_id": "KIN PE 11C",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "OLYMPIC-STYLE WEIGHTLIFTING",
+        "course_id": "KIN PE 12",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "BOXING FOR FITNESS",
+        "course_id": "KIN PE 17",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "FITNESS \u2013 BODY LEVEL EXERCISES",
+        "course_id": "KIN PE 19C",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "PILATES MAT EXERCISE",
+        "course_id": "KIN PE 29A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INTERMEDIATE PILATES",
+        "course_id": "KIN PE 29B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ADVANCED PILATES",
+        "course_id": "KIN PE 29C",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "BEGINNING YOGA",
+        "course_id": "KIN PE 58A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INTERMEDIATE YOGA",
+        "course_id": "KIN PE 58B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ADVANCED YOGA",
+        "course_id": "KIN PE 58C",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "BEGINNING BADMINTON",
+        "course_id": "KIN PE 5A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INTERMEDIATE BADMINTON",
+        "course_id": "KIN PE 5B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "BEGINNING ROCK CLIMBING",
+        "course_id": "KIN PE 16A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INTERMEDIATE ROCK CLIMBING",
+        "course_id": "KIN PE 16B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "BEGINNING PICKLEBALL",
+        "course_id": "KIN PE 52A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INTERMEDIATE PICKLEBALL",
+        "course_id": "KIN PE 52B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "TABLE TENNIS",
+        "course_id": "KIN PE 53A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INTERMEDIATE TABLE TENNIS",
+        "course_id": "KIN PE 53B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "BEGINNING TENNIS, FIRST LEVEL",
+        "course_id": "KIN PE 54A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "BEGINNING TENNIS, SECOND LEVEL",
+        "course_id": "KIN PE 54B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INTERMEDIATE TENNIS",
+        "course_id": "KIN PE 54C",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ADVANCED TENNIS",
+        "course_id": "KIN PE 54D",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "BEGINNING TRACK AND FIELD",
+        "course_id": "KIN PE 56A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INTERMEDIATE TRACK AND FIELD",
+        "course_id": "KIN PE 56B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "BEGINNING BASKETBALL",
+        "course_id": "KIN PE 9A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INTERMEDIATE BASKETBALL",
+        "course_id": "KIN PE 9B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "BEGINNING SOCCER",
+        "course_id": "KIN PE 43A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INTERMEDIATE SOCCER",
+        "course_id": "KIN PE 43B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ADVANCED SOCCER",
+        "course_id": "KIN PE 43C",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "BEGINNING SOFTBALL",
+        "course_id": "KIN PE 45A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ADVANCED SOFTBALL",
+        "course_id": "KIN PE 45C",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "BEGINNING VOLLEYBALL",
+        "course_id": "KIN PE 57A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INTERMEDIATE VOLLEYBALL",
+        "course_id": "KIN PE 57B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ADVANCED VOLLEYBALL",
+        "course_id": "KIN PE 57C",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INTERMEDIATE BEACH VOLLEYBALL",
+        "course_id": "KIN PE 59B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ADVANCED BEACH VOLLEYBALL",
+        "course_id": "KIN PE 59C",
+        "units": "1 UNIT"
+    }
+]

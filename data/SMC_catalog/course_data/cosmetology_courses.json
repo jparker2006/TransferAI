@@ -1,0 +1,182 @@
+[
+    {
+        "title": "RELATED SCIENCE 1A",
+        "course_id": "COSM 10A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "RELATED SCIENCE 1B",
+        "course_id": "COSM 10B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "HAIR CUTTING 1",
+        "course_id": "COSM 11A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "HAIR STYLING 1",
+        "course_id": "COSM 11B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "HAIR COLORING 1",
+        "course_id": "COSM 11C",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "PERMANENT WAVING",
+        "course_id": "COSM 11D",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "NAIL CARE 1",
+        "course_id": "COSM 16",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "SKIN CARE 1",
+        "course_id": "COSM 18",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "RELATED SCIENCE 2",
+        "course_id": "COSM 20",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "HAIR CUTTING 2",
+        "course_id": "COSM 21A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "HAIR STYLING 2",
+        "course_id": "COSM 21B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "HAIR COLORING 2",
+        "course_id": "COSM 21C",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "CURLY HAIR TECHNIQUES 2",
+        "course_id": "COSM 21E",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "NAIL CARE 2",
+        "course_id": "COSM 26",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "SKIN CARE 2A",
+        "course_id": "COSM 28A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "SKIN CARE 2B",
+        "course_id": "COSM 28B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "RELATED SCIENCE 3",
+        "course_id": "COSM 30",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "HAIR CUTTING 3",
+        "course_id": "COSM 31A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "MULTI TEXTURE STYLING",
+        "course_id": "COSM 31E",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "NAIL CARE 3",
+        "course_id": "COSM 36",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "SKIN CARE 3",
+        "course_id": "COSM 38",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "MECHANICAL EXFOLIATION",
+        "course_id": "COSM 38B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "CHEMICAL EXFOLIATION",
+        "course_id": "COSM 38C",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "WRITTEN PREPARATION FOR ESTHETICIAN STATE BOARD EXAM",
+        "course_id": "COSM 50E",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "WRITTEN PREPARATION FOR NAIL CARE STATE BOARD EXAM",
+        "course_id": "COSM 50N",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "WRITTEN PREPARATION FOR BARBERING STATE BOARD EXAM",
+        "course_id": "COSM 50R",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "SALON MANAGEMENT",
+        "course_id": "COSM 64",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "SALON EXPERIENCE",
+        "course_id": "COSM 95A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "SHORT HAIR CUTTING",
+        "course_id": "COSM 42",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "NAIL CARE 4",
+        "course_id": "COSM 46",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "SKIN CARE 4",
+        "course_id": "COSM 48",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "MAKE-UP",
+        "course_id": "COSM 48B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "WRITTEN PREPARATION FOR COSMETOLOGY STATE BOARD EXAM",
+        "course_id": "COSM 50A",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "SALON EXPERIENCE",
+        "course_id": "COSM 95B",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "SALON EXPERIENCE",
+        "course_id": "COSM 95C",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "SALON EXPERIENCE",
+        "course_id": "COSM 95D",
+        "units": "4 UNITS"
+    }
+]

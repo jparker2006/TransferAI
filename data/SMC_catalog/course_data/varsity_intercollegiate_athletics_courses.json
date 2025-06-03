@@ -1,0 +1,67 @@
+[
+    {
+        "title": "VARSITY BASKETBALL FOR MEN",
+        "course_id": "VAR PE 9V",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "VARSITY BASKETBALL FOR WOMEN",
+        "course_id": "VAR PE 9W",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "IN-SEASON INTERCOLLEGIATE STRENGTH AND CONDITIONING",
+        "course_id": "VAR PE 11A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "OFF-SEASON INTERCOLLEGIATE STRENGTH AND CONDITIONING",
+        "course_id": "VAR PE 11B",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "VARSITY CROSS COUNTRY FOR MEN",
+        "course_id": "VAR PE 14V",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "VARSITY CROSS COUNTRY FOR WOMEN",
+        "course_id": "VAR PE 14W",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "VARSITY FOOTBALL FOR MEN",
+        "course_id": "VAR PE 21V",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "VARSITY SOCCER FOR MEN",
+        "course_id": "VAR PE 43V",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "VARSITY SOCCER FOR WOMEN",
+        "course_id": "VAR PE 43W",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "VARSITY WATER POLO FOR MEN",
+        "course_id": "VAR PE 50V",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "VARSITY WATER POLO FOR WOMEN",
+        "course_id": "VAR PE 50W",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "VARSITY VOLLEYBALL FOR WOMEN",
+        "course_id": "VAR PE 57W",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "CONDITIONING FOR INTERCOLLEGIATE SPORT",
+        "course_id": "VAR PE 60",
+        "units": "1 UNIT"
+    }
+]

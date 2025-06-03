@@ -1,0 +1,32 @@
+[
+    {
+        "title": "ELEMENTARY SPANISH I",
+        "course_id": "SPAN 1",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "ELEMENTARY SPANISH II",
+        "course_id": "SPAN 2",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "INTERMEDIATE SPANISH I",
+        "course_id": "SPAN 3",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "CONVERSATIONAL SPANISH",
+        "course_id": "SPAN 8",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "SPANISH FOR HERITAGE SPEAKERS I",
+        "course_id": "SPAN 11",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "PRACTICAL SPANISH",
+        "course_id": "SPAN 31A",
+        "units": "3 UNITS"
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "title": "STORYTELLING",
+        "course_id": "ANIM 1",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "2D ANIMATION FUNDAMENTALS",
+        "course_id": "ANIM 2",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "3D FUNDAMENTALS",
+        "course_id": "ANIM 3",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "DIGITAL STORYBOARDING",
+        "course_id": "ANIM 4",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "HISTORY OF ANIMATION",
+        "course_id": "ANIM 5",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "PERSPECTIVE DRAWING",
+        "course_id": "ANIM 18",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "COLOR THEORY AND APPLICATION",
+        "course_id": "ANIM 19",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "INTERMEDIATE 2D ANIMATION",
+        "course_id": "ANIM 20",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ADVANCED 2D ANIMATION",
+        "course_id": "ANIM 21",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "2D DIGITAL PRODUCTION",
+        "course_id": "ANIM 22",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ADVANCED 3D ANIMATION",
+        "course_id": "ANIM 31",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "DIGITAL PREVISUALIZATION",
+        "course_id": "ANIM 32",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "3D MODELING",
+        "course_id": "ANIM 35",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "3D CHARACTER CREATION",
+        "course_id": "ANIM 37",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "3D CHARACTER RIGGING",
+        "course_id": "ANIM 38",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ENVIRONMENT DESIGN",
+        "course_id": "ANIM 41",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "PROP AND VEHICLE DESIGN",
+        "course_id": "ANIM 42",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "CAREER DEVELOPMENT",
+        "course_id": "ANIM 75",
+        "units": "2 UNITS"
+    }
+]

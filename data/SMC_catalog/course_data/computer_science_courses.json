@@ -1,0 +1,162 @@
+[
+    {
+        "title": "INTRODUCTION TO COMPUTER SYSTEMS",
+        "course_id": "CS 3",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "PROGRAMMING FOR NON-COMPUTER SCIENCE MAJORS",
+        "course_id": "CS 7",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "TECHNOLOGY PROJECT MANAGEMENT I",
+        "course_id": "CS 9A",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "TECHNOLOGY PROJECT MANAGEMENT II",
+        "course_id": "CS 9B",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ASSEMBLY LANGUAGE PROGRAMMING",
+        "course_id": "CS 17",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "DATA STRUCTURES WITH C++",
+        "course_id": "CS 20A",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "DATA STRUCTURES WITH JAVA",
+        "course_id": "CS 20B",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MATLAB PROGRAMMING",
+        "course_id": "CS 30",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "OPERATING SYSTEMS",
+        "course_id": "CS 40",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "DIGITAL LOGIC",
+        "course_id": "CS 42",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "C PROGRAMMING",
+        "course_id": "CS 50",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "C++ PROGRAMMING",
+        "course_id": "CS 52",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "JAVA PROGRAMMING",
+        "course_id": "CS 55",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ADVANCED JAVA PROGRAMMING",
+        "course_id": "CS 56",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "DATABASE CONCEPTS AND APPLICATIONS",
+        "course_id": "CS 60",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "NETWORK FUNDAMENTALS AND ARCHITECTURE",
+        "course_id": "CS 70",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "FUNDAMENTALS OF COMPUTER SECURITY",
+        "course_id": "CS 73A",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "COMPUTER FORENSICS FUNDAMENTALS",
+        "course_id": "CS 73B",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "CYBERSECURITY AND ETHICAL HACKING",
+        "course_id": "CS 73C",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "CYBERSECURITY LITERACY",
+        "course_id": "CS 73L",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTRODUCTION TO CLOUD COMPUTING",
+        "course_id": "CS 79A",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "DATABASE ESSENTIALS IN AMAZON WEB SERVICES",
+        "course_id": "CS 79B",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "COMPUTE ENGINES IN AMAZON WEB SERVICES",
+        "course_id": "CS 79C",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "SECURITY IN AMAZON WEB SERVICES",
+        "course_id": "CS 79D",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MACHINE LEARNING ON AWS",
+        "course_id": "CS 79F",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTERNET PROGRAMMING",
+        "course_id": "CS 80",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "JAVASCRIPT PROGRAMMING",
+        "course_id": "CS 81",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTRODUCTION TO DATA SCIENCE",
+        "course_id": "CS 82A",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "PRINCIPLES OF DATA SCIENCE",
+        "course_id": "CS 82B",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "R PROGRAMMING",
+        "course_id": "CS 82C",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "PYTHON PROGRAMMING",
+        "course_id": "CS 87A",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ADVANCED PYTHON PROGRAMMING",
+        "course_id": "CS 87B",
+        "units": "3 UNITS"
+    }
+]

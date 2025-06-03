@@ -1,0 +1,102 @@
+[
+    {
+        "title": "HUMAN BIOLOGY",
+        "course_id": "BIOL 2",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "FUNDAMENTALS OF BIOLOGY",
+        "course_id": "BIOL 3",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "ENVIRONMENTAL BIOLOGY",
+        "course_id": "BIOL 9",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "APPLIED ECOLOGY AND CONSERVATION BIOLOGY",
+        "course_id": "BIOL 10",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "MARINE BIOLOGY WITH LABORATORY",
+        "course_id": "BIOL 15",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "CELL BIOLOGY AND EVOLUTION",
+        "course_id": "BIOL 21",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "GENETICS AND MOLECULAR BIOLOGY",
+        "course_id": "BIOL 22",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "ORGANISMAL AND ENVIRONMENTAL BIOLOGY",
+        "course_id": "BIOL 23",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "FUNDAMENTALS OF BIOTECHNOLOGY 1",
+        "course_id": "BIOL 30",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "IMMUNOASSAY METHODS",
+        "course_id": "BIOL 33",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "INDEPENDENT STUDIES IN BIOLOGICAL SCIENCES",
+        "course_id": "BIOL 88A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "LIFE SCIENCE INTERNSHIP",
+        "course_id": "BIOL 90A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "GENERAL HUMAN ANATOMY",
+        "course_id": "ANATMY 1",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "GENERAL BOTANY",
+        "course_id": "BOTANY 1",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "FUNDAMENTALS OF MICROBIOLOGY",
+        "course_id": "MCRBIO 1",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "INTRODUCTION TO NUTRITION SCIENCE",
+        "course_id": "NUTR 1",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "HEALTHY LIFESTYLE: FOOD AND FITNESS",
+        "course_id": "NUTR 4",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "FOOD AND CULTURE IN AMERICA",
+        "course_id": "NUTR 7",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "HUMAN PHYSIOLOGY",
+        "course_id": "PHYS 3",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "INTRODUCTORY ZOOLOGY",
+        "course_id": "ZOOL 5",
+        "units": "4 UNITS"
+    }
+]

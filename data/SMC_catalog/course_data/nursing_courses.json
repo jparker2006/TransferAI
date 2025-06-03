@@ -1,0 +1,107 @@
+[
+    {
+        "title": "FUNDAMENTALS OF NURSING CONCEPTS 1",
+        "course_id": "NURSNG 1",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "FUNDAMENTALS OF NURSING CONCEPTS 1 LAB",
+        "course_id": "NURSNG 1L",
+        "units": "2.5 UNITS"
+    },
+    {
+        "title": "FUNDAMENTALS OF NURSING CONCEPTS 2",
+        "course_id": "NURSNG 2",
+        "units": "2.5 UNITS"
+    },
+    {
+        "title": "FUNDAMENTALS OF NURSING CONCEPTS 2 LAB",
+        "course_id": "NURSNG 2L",
+        "units": "2.5 UNITS"
+    },
+    {
+        "title": "ADULT HEALTH NURSING CONCEPTS 1",
+        "course_id": "NURSNG 3",
+        "units": "2.5 UNITS"
+    },
+    {
+        "title": "ADULT HEALTH NURSING CONCEPTS 1 LAB",
+        "course_id": "NURSNG 3L",
+        "units": "2.5 UNITS"
+    },
+    {
+        "title": "MENTAL HEALTH NURSING CONCEPTS",
+        "course_id": "NURSNG 4",
+        "units": "1.5 UNITS"
+    },
+    {
+        "title": "MENTAL HEALTH CONCEPTS LAB",
+        "course_id": "NURSNG 4L",
+        "units": "1.5 UNITS"
+    },
+    {
+        "title": "ADULT HEALTH NURSING CONCEPTS 2",
+        "course_id": "NURSNG 5",
+        "units": "2.5 UNITS"
+    },
+    {
+        "title": "ADULT HEALTH NURSING CONCEPTS 2 LAB",
+        "course_id": "NURSNG 5L",
+        "units": "2.5 UNITS"
+    },
+    {
+        "title": "MATERNAL NEWBORN NURSING CONCEPTS",
+        "course_id": "NURSNG 6",
+        "units": "1.5 UNITS"
+    },
+    {
+        "title": "MATERNAL NEWBORN NURSING CONCEPTS LAB",
+        "course_id": "NURSNG 6L",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "PEDIATRIC NURSING CONCEPTS",
+        "course_id": "NURSNG 7",
+        "units": "1.5 UNITS"
+    },
+    {
+        "title": "PEDIATRIC NURSING CONCEPTS LAB",
+        "course_id": "NURSNG 7L",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ADULT HEALTH NURSING CONCEPTS 3",
+        "course_id": "NURSNG 8",
+        "units": "2.5 UNITS"
+    },
+    {
+        "title": "ADULT HEALTH NURSING CONCEPTS 3 LAB",
+        "course_id": "NURSNG 8L",
+        "units": "2.5 UNITS"
+    },
+    {
+        "title": "NURSING LEADERSHIP CONCEPTS",
+        "course_id": "NURSNG 9",
+        "units": "1.5 UNITS"
+    },
+    {
+        "title": "NURSING LEADERSHIP CONCEPTS LAB",
+        "course_id": "NURSNG 9L",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "PHARMACOLOGICAL ASPECTS OF NURSING",
+        "course_id": "NURSNG 17",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "CALCULATIONS IN DRUGS AND SOLUTIONS",
+        "course_id": "NURSNG 36",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "SUPERVISED TUTORING",
+        "course_id": "NURSNG 900",
+        "units": "0 UNITS"
+    }
+]

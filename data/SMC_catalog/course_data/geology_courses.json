@@ -1,0 +1,27 @@
+[
+    {
+        "title": "PHYSICAL GEOLOGY WITHOUT LAB",
+        "course_id": "GEOL 1",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTRODUCTION TO ENVIRONMENTAL GEOLOGY",
+        "course_id": "GEOL 3",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTRODUCTION TO PHYSICAL OCEANOGRAPHY WITH LAB",
+        "course_id": "GEOL 32",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "PHYSICAL GEOLOGY WITH LAB",
+        "course_id": "GEOL 4",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "ENVIRONMENTAL GEOLOGY WITH LAB",
+        "course_id": "GEOL 6",
+        "units": "4 UNITS"
+    }
+]

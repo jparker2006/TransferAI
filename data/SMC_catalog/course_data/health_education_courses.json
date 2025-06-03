@@ -1,0 +1,52 @@
+[
+    {
+        "title": "FUNDAMENTALS OF HEALTHFUL LIVING",
+        "course_id": "HEALTH 10",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "FIRST AID AND CARDIO-PULMONARY RESUSCITATION",
+        "course_id": "HEALTH 11",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MEDICAL TERMINOLOGY",
+        "course_id": "HEALTH 61",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "PROVIDING CARE TO OLDER ADULTS",
+        "course_id": "HEALTH 905",
+        "units": "0 UNITS"
+    },
+    {
+        "title": "COMMUNICATION WITH OLDER ADULTS",
+        "course_id": "HEALTH 906",
+        "units": "0 UNITS"
+    },
+    {
+        "title": "WELLNESS IN OLDER ADULTS",
+        "course_id": "HEALTH 907",
+        "units": "0 UNITS"
+    },
+    {
+        "title": "NURSE ASSISTANT PRE-CERTIFICATION FOUNDATIONAL TRAINING",
+        "course_id": "HEALTH 985",
+        "units": "0 UNITS"
+    },
+    {
+        "title": "NURSE ASSISTANT PRE-CERTIFICATION FOUNDATIONAL CLINICAL TRAINING LAB",
+        "course_id": "HEALTH 986",
+        "units": "0 UNITS"
+    },
+    {
+        "title": "HOME HEALTH AIDE PRE-CERTIFICATION FOUNDATIONAL TRAINING",
+        "course_id": "HEALTH 987",
+        "units": "0 UNITS"
+    },
+    {
+        "title": "HOME HEALTH AIDE PRE-CERTIFICATION TRAINING CLINICAL LAB",
+        "course_id": "HEALTH 988",
+        "units": "0 UNITS"
+    }
+]

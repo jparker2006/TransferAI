@@ -1,0 +1,32 @@
+[
+    {
+        "title": "INTRODUCTION TO ENGINEERING",
+        "course_id": "ENGR 1",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "ENGINEERING GRAPHICS AND DESIGN",
+        "course_id": "ENGR 11",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "STATICS",
+        "course_id": "ENGR 12",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "CIRCUIT ANALYSIS",
+        "course_id": "ENGR 21",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "CIRCUIT ANALYSIS LAB",
+        "course_id": "ENGR 22",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INDEPENDENT STUDIES IN ENGINEERING",
+        "course_id": "ENGR 88B",
+        "units": "2 UNITS"
+    }
+]

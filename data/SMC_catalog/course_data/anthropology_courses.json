@@ -1,0 +1,62 @@
+[
+    {
+        "title": "BIOLOGICAL ANTHROPOLOGY",
+        "course_id": "ANTHRO 1",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "CULTURAL ANTHROPOLOGY",
+        "course_id": "ANTHRO 2",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "WORLD ARCHAEOLOGY",
+        "course_id": "ANTHRO 3",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "METHODS OF ARCHAEOLOGY",
+        "course_id": "ANTHRO 4",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "BIOLOGICAL ANTHROPOLOGY WITH LAB",
+        "course_id": "ANTHRO 5",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "INTRODUCTION TO LINGUISTIC ANTHROPOLOGY",
+        "course_id": "ANTHRO 7",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "THE CULTURE OF FOOD",
+        "course_id": "ANTHRO 19",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MAGIC, RELIGION, AND WITCHCRAFT",
+        "course_id": "ANTHRO 22",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INDEPENDENT STUDIES IN ANTHROPOLOGY",
+        "course_id": "ANTHRO 88A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ETHNOGRAPHIC RESEARCH METHODS FOR DESIGNERS",
+        "course_id": "ANTHRO 300",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INDEPENDENT STUDIES IN EARTH SCIENCE",
+        "course_id": "ERTHSC 88A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INDEPENDENT STUDIES IN EARTH SCIENCE",
+        "course_id": "ERTHSC 88B",
+        "units": "2 UNITS"
+    }
+]

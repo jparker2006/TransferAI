@@ -1,0 +1,37 @@
+[
+    {
+        "title": "PRINCIPLES OF MICROECONOMICS",
+        "course_id": "ECON 1",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "PRINCIPLES OF MACROECONOMICS",
+        "course_id": "ECON 2",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ENVIRONMENTAL ECONOMICS",
+        "course_id": "ECON 4",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTERNATIONAL POLITICAL ECONOMY: INTRODUCTION TO GLOBAL STUDIES",
+        "course_id": "ECON 5",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ECONOMIC HISTORY OF THE U.S.",
+        "course_id": "ECON 15",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INDEPENDENT STUDIES IN ECONOMICS",
+        "course_id": "ECON 88A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "INDEPENDENT STUDIES IN ECONOMICS",
+        "course_id": "ECON 88B",
+        "units": "2 UNITS"
+    }
+]

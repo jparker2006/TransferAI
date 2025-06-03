@@ -1,0 +1,47 @@
+[
+    {
+        "title": "EVERYDAY CHEMISTRY",
+        "course_id": "CHEM 9",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "INTRODUCTORY GENERAL CHEMISTRY",
+        "course_id": "CHEM 10",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "GENERAL CHEMISTRY I",
+        "course_id": "CHEM 11",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "GENERAL CHEMISTRY II",
+        "course_id": "CHEM 12",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "FUNDAMENTALS OF GENERAL, ORGANIC, AND BIOLOGICAL CHEMISTRY",
+        "course_id": "CHEM 19",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "ORGANIC CHEMISTRY I",
+        "course_id": "CHEM 21",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "ORGANIC CHEMISTRY II",
+        "course_id": "CHEM 22",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "ORGANIC CHEMISTRY II LABORATORY",
+        "course_id": "CHEM 24",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "INDEPENDENT STUDIES IN CHEMISTRY",
+        "course_id": "CHEM 88B",
+        "units": "2 UNITS"
+    }
+]

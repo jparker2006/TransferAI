@@ -1,0 +1,62 @@
+[
+    {
+        "title": "WESTERN ART HISTORY I",
+        "course_id": "AHIS 1",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "WESTERN ART HISTORY II",
+        "course_id": "AHIS 2",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "GLOBAL ART HISTORY SINCE 1860",
+        "course_id": "AHIS 3",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "LATIN AMERICAN ART HISTORY 1",
+        "course_id": "AHIS 5",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "LATIN AMERICAN ART HISTORY 2",
+        "course_id": "AHIS 6",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ART APPRECIATION: INTRODUCTION TO GLOBAL VISUAL CULTURE",
+        "course_id": "AHIS 11",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ARTS OF ASIA",
+        "course_id": "AHIS 17",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTRODUCTION TO AFRICAN ART HISTORY",
+        "course_id": "AHIS 18",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ARCHITECTURAL HISTORY: ANCIENT TO 1850",
+        "course_id": "AHIS 21",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ARCHITECTURAL HISTORY AND THEORY: 1850 TO PRESENT",
+        "course_id": "AHIS 22",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "HISTORY OF PHOTOGRAPHY",
+        "course_id": "AHIS 52",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "AFRICAN AMERICAN ART HISTORY",
+        "course_id": "AHIS 71",
+        "units": "3 UNITS"
+    }
+]

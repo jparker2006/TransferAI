@@ -1,0 +1,62 @@
+[
+    {
+        "title": "INTRODUCTION TO COMPUTER INFORMATION SYSTEMS",
+        "course_id": "CIS 1",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MICROSOFT WORD",
+        "course_id": "CIS 37",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MS OUTLOOK \u2013 COMPREHENSIVE COURSE",
+        "course_id": "CIS 39",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "PHOTOSHOP I",
+        "course_id": "CIS 60A",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ILLUSTRATOR",
+        "course_id": "CIS 64",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "DIGITAL MARKETING APPLICATIONS",
+        "course_id": "CIS 70",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "TECHNOLOGY PROJECT MANAGEMENT II",
+        "course_id": "CIS 9B",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MICROSOFT EXCEL",
+        "course_id": "CIS 30",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "TABLEAU DESKTOP ESSENTIALS",
+        "course_id": "CIS 30T",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "QUICKBOOKS ONLINE",
+        "course_id": "CIS 35B",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "COMPUTER SKILLS FOR VIRTUAL ASSISTANTS",
+        "course_id": "CIS 2",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "TECHNOLOGY PROJECT MANAGEMENT I",
+        "course_id": "CIS 9A",
+        "units": "3 UNITS"
+    }
+]

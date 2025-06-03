@@ -1,0 +1,92 @@
+[
+    {
+        "title": "DESIGN FOUNDATIONS",
+        "course_id": "DESIGN 11",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "TYPOGRAPHY 1",
+        "course_id": "DESIGN 12",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "DIGITAL DESIGN TOOLS",
+        "course_id": "DESIGN 13",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "DESIGN METHODS",
+        "course_id": "DESIGN 21",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "TYPOGRAPHY 2",
+        "course_id": "DESIGN 22",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "USER EXPERIENCE DESIGN 1",
+        "course_id": "DESIGN 23",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "WEB DESIGN 1",
+        "course_id": "DESIGN 24",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTERACTIVE ADVERTISING",
+        "course_id": "DESIGN 31",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "COMMUNICATION DESIGN",
+        "course_id": "DESIGN 32",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "USER EXPERIENCE DESIGN 2",
+        "course_id": "DESIGN 33",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "WEB DESIGN 2",
+        "course_id": "DESIGN 34",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INDUSTRY PROJECT",
+        "course_id": "DESIGN 41",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INFORMATION DESIGN",
+        "course_id": "DESIGN 42",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "DESIGN PORTFOLIO",
+        "course_id": "DESIGN 43",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MOBILE DESIGN 1",
+        "course_id": "DESIGN 25",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MOTION GRAPHICS 1",
+        "course_id": "DESIGN 26",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MOBILE DESIGN 2",
+        "course_id": "DESIGN 35",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MOTION GRAPHICS 2",
+        "course_id": "DESIGN 36",
+        "units": "3 UNITS"
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "title": "DEVELOPING LEARNING SKILLS",
+        "course_id": "COUNS 1",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ORIENTATION TO HIGHER EDUCATION",
+        "course_id": "COUNS 11",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "EXPLORING CAREERS AND COLLEGE MAJORS",
+        "course_id": "COUNS 12",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "JOB SEARCH TECHNIQUES",
+        "course_id": "COUNS 15",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "STUDENT SUCCESS SEMINAR",
+        "course_id": "COUNS 20",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "UNDERSTANDING MONEY FOR LIFELONG SUCCESS",
+        "course_id": "COUNS 47",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "GENERAL INTERNSHIP",
+        "course_id": "COUNS 90A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "GENERAL INTERNSHIP",
+        "course_id": "COUNS 90B",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "GENERAL INTERNSHIP",
+        "course_id": "COUNS 90C",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "GENERAL INTERNSHIP",
+        "course_id": "COUNS 90D",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "PERSONAL AND SOCIAL AWARENESS",
+        "course_id": "COUNS 13H",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ADAPTED COMPUTER TECHNOLOGY",
+        "course_id": "COUNS 21H",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ROADMAP TO COLLEGE READINESS",
+        "course_id": "COUNS 41H",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "LISTENING, NOTE TAKING, AND MEMORY",
+        "course_id": "COUNS 57",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "TEXTBOOK STRATEGIES USING TECHNOLOGY",
+        "course_id": "COUNS 59",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ABI CONNECTIONS",
+        "course_id": "COUNS 910",
+        "units": "0 UNITS"
+    },
+    {
+        "title": "TEST TAKING/MEMORY STRATEGIES",
+        "course_id": "COUNS 51",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "TEXTBOOK/MEMORY STRATEGIES",
+        "course_id": "COUNS 52",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "PHONICS, SPELLING AND VOCABULARY DEVELOPMENT",
+        "course_id": "COUNS 53",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "ORGANIZING FOR COLLEGE SUCCESS",
+        "course_id": "COUNS 54",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "WRITTEN LANGUAGE STRATEGIES",
+        "course_id": "COUNS 56",
+        "units": "1 UNIT"
+    }
+]

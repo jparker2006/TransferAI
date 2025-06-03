@@ -1,0 +1,42 @@
+[
+    {
+        "title": "STUDIO 1",
+        "course_id": "ARC 10",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "DESIGN COMMUNICATION 1",
+        "course_id": "ARC 11",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "STUDIO 2: ARCHITECTURE",
+        "course_id": "ARC 20",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "DESIGN COMMUNICATION 2",
+        "course_id": "ARC 21",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "STUDIO 3: ARCHITECTURE",
+        "course_id": "ARC 30",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "DESIGN COMMUNICATION 3",
+        "course_id": "ARC 31",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "STUDIO 4: ARCHITECTURE",
+        "course_id": "ARC 40",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "PORTFOLIO",
+        "course_id": "ARC 70",
+        "units": "2 UNITS"
+    }
+]

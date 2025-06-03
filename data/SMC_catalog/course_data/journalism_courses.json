@@ -1,0 +1,47 @@
+[
+    {
+        "title": "THE NEWS",
+        "course_id": "JOURN 1",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "NEWSCASTING AND NEWSWRITING",
+        "course_id": "JOURN 4A",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ENGAGING AUDIENCES FOR JOURNALISM AND SOCIAL MEDIA",
+        "course_id": "JOURN 7",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "INTRODUCTION TO MULTIMEDIA STORYTELLING",
+        "course_id": "JOURN 15",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "PRODUCING THE CAMPUS NEWSPAPER",
+        "course_id": "JOURN 16",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "EDITING THE CAMPUS NEWSPAPER",
+        "course_id": "JOURN 17",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "NEWS PHOTOGRAPHY",
+        "course_id": "JOURN 21",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "PHOTOGRAPHY FOR PUBLICATION",
+        "course_id": "JOURN 22",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "PUBLIC RELATIONS AND PUBLICITY",
+        "course_id": "JOURN 43",
+        "units": "3 UNITS"
+    }
+]

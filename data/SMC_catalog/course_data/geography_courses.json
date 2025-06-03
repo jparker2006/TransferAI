@@ -1,0 +1,52 @@
+[
+    {
+        "title": "PHYSICAL GEOGRAPHY",
+        "course_id": "GEOG 1",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTRODUCTION TO HUMAN GEOGRAPHY",
+        "course_id": "GEOG 2",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "WEATHER AND CLIMATE",
+        "course_id": "GEOG 3",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "PHYSICAL GEOGRAPHY WITH LAB",
+        "course_id": "GEOG 5",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "INTRODUCTION TO ENVIRONMENTAL STUDIES",
+        "course_id": "GEOG 7",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTRODUCTION TO URBAN STUDIES",
+        "course_id": "GEOG 8",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "WORLD GEOGRAPHY: INTRODUCTION TO GLOBAL STUDIES",
+        "course_id": "GEOG 11",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "GEOGRAPHY OF CALIFORNIA",
+        "course_id": "GEOG 14",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTRODUCTION TO GEOGRAPHIC INFORMATION SYSTEMS",
+        "course_id": "GEOG 20",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTRODUCTION TO REMOTE SENSING",
+        "course_id": "GEOG 26",
+        "units": "3 UNITS"
+    }
+]

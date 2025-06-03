@@ -1,0 +1,27 @@
+[
+    {
+        "title": "MEDICAL VOCABULARY",
+        "course_id": "OFTECH 20",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MEDICAL TERMS AND TRANSCRIPTION 1",
+        "course_id": "OFTECH 21",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MEDICAL BILLING (MEDISOFT)",
+        "course_id": "OFTECH 23",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MEDICAL CODING/BILLING 1",
+        "course_id": "OFTECH 24",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ELECTRONIC HEALTH RECORDS",
+        "course_id": "OFTECH 28",
+        "units": "3 UNITS"
+    }
+]

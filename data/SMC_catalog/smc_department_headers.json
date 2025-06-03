@@ -23,7 +23,7 @@
         "major": "Anthropology",
         "pageNumber": 16,
         "course_letters": "ANTHRO",
-        "note": "ERTHSC also has a course letter in this department"
+        "note": "ERTHSC"
     },
     {
         "major": "Aquaculture",
@@ -43,7 +43,8 @@
     {
         "major": "Art",
         "pageNumber": 19,
-        "course_letters": "ART"
+        "course_letters": "ART",
+        "note":"ARTS"
     },
     {
         "major": "Art History",
@@ -69,7 +70,7 @@
         "major": "Biological Sciences",
         "pageNumber": 24,
         "course_letters": "BIOL",
-        "note": "ANATMY, BOTANY, MCRBIO, NUTR, PHYS, ZOOL also has a course letter in this department"
+        "note": "ANATMY, BOTANY, MCRBIO, NUTR, PHYS, ZOOL"
     },
     {
         "major": "Business",
@@ -95,7 +96,7 @@
         "major": "Communication Studies",
         "pageNumber": 32,
         "course_letters": "COM ST",
-        "note": "COMM also has a course letter in this department"
+        "note": "COMM"
     },
     {
         "major": "Computer Information Systems",
@@ -312,7 +313,7 @@
         "major": "Internships",
         "pageNumber": 73,
         "course_letters": "",
-        "note": "A bunch of different course letters. BIOL or COUNS"
+        "note": "BIOL, COUNS"
     },
     {
         "major": "Italian",
@@ -377,7 +378,8 @@
     {
         "major": "Mathematics",
         "pageNumber": 77,
-        "course_letters": "MATH"
+        "course_letters": "MATH",
+        "note": "STAT"
     },
     {
         "major": "Media Studies",
@@ -433,7 +435,7 @@
         "major": "Political Science",
         "pageNumber": 93,
         "course_letters": "POL SC",
-        "note": "POLS also has a course letter in this department"
+        "note": "POLS"
     },
     {
         "major": "Professional Courses in Kinesiology/ Physical Education",
@@ -444,7 +446,7 @@
         "major": "Psychology",
         "pageNumber": 95,
         "course_letters": "PSYCH",
-        "note": "PSYC also has a course letter in this department"
+        "note": "PSYC"
     },
     {
         "major": "Real Estate",

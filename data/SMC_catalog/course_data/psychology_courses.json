@@ -1,0 +1,67 @@
+[
+    {
+        "title": "PHYSIOLOGICAL PSYCHOLOGY",
+        "course_id": "PSYCH 2",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "PERSONALITY: DYNAMICS AND DEVELOPMENT",
+        "course_id": "PSYCH 3",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "THE PSYCHOLOGY OF COMMUNICATION",
+        "course_id": "PSYCH 5",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MARRIAGE, FAMILY, AND HUMAN INTIMACY",
+        "course_id": "PSYCH 6",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "RESEARCH METHODS IN PSYCHOLOGY",
+        "course_id": "PSYCH 7",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "CHILD GROWTH AND DEVELOPMENT",
+        "course_id": "PSYCH 11",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "SOCIAL PSYCHOLOGY",
+        "course_id": "PSYCH 13",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ABNORMAL PSYCHOLOGY",
+        "course_id": "PSYCH 14",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "LIFESPAN HUMAN DEVELOPMENT",
+        "course_id": "PSYCH 19",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "HUMAN SEXUALITY",
+        "course_id": "PSYCH 25",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ENVIRONMENTAL PSYCHOLOGY",
+        "course_id": "PSYCH 40",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "COGNITIVE PSYCHOLOGY",
+        "course_id": "PSYCH 320",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "GENERAL PSYCHOLOGY",
+        "course_id": "PSYC C1000",
+        "units": "3 UNITS"
+    }
+]

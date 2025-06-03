@@ -1,0 +1,77 @@
+[
+    {
+        "title": "INTRODUCTION TO THE FASHION INDUSTRY",
+        "course_id": "FASHN 1",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "COLOR ANALYSIS",
+        "course_id": "FASHN 2",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "APPAREL CONSTRUCTION",
+        "course_id": "FASHN 3",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "FASHION BUYING",
+        "course_id": "FASHN 5",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "PATTERN DRAFTING AND DESIGN",
+        "course_id": "FASHN 6A",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "PATTERN DRAFTING AND DESIGN INTERMEDIATE",
+        "course_id": "FASHN 6B",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "FASHION TEXTILES",
+        "course_id": "FASHN 7",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "HISTORY OF FASHION DESIGN",
+        "course_id": "FASHN 8",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTRODUCTION TO FASHION ILLUSTRATION",
+        "course_id": "FASHN 9A",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ADVANCED DESIGN AND CONSTRUCTION",
+        "course_id": "FASHN 10",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "DRAPING II",
+        "course_id": "FASHN 14",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ETHNIC FASHION",
+        "course_id": "FASHN 15",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "PATTERN GRADING",
+        "course_id": "FASHN 16",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "COMPUTER AIDED FASHION DESIGN AND MERCHANDISING",
+        "course_id": "FASHN 18",
+        "units": "2 UNITS"
+    },
+    {
+        "title": "FASHION STYLING AND VISUAL PRESENTATION",
+        "course_id": "FASHN 20",
+        "units": "3 UNITS"
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "title": "INTRODUCTION TO FINANCIAL ACCOUNTING",
+        "course_id": "ACCTG 1",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "CORPORATE FINANCIAL AND MANAGERIAL ACCOUNTING",
+        "course_id": "ACCTG 2",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "ACCOUNTING CONSOLIDATIONS",
+        "course_id": "ACCTG 6",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ADVANCED ACCOUNTING: SPECIAL TOPICS",
+        "course_id": "ACCTG 7",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ACCOUNTING ETHICS",
+        "course_id": "ACCTG 9",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTERMEDIATE ACCOUNTING A",
+        "course_id": "ACCTG 10A",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTERMEDIATE ACCOUNTING B",
+        "course_id": "ACCTG 10B",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INTERMEDIATE ACCOUNTING C",
+        "course_id": "ACCTG 10C",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "AUDITING",
+        "course_id": "ACCTG 12",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INDIVIDUAL INCOME TAXES",
+        "course_id": "ACCTG 15",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "TAXATION OF CORPORATIONS, PARTNERSHIPS, ESTATES AND TRUSTS",
+        "course_id": "ACCTG 16",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INCOME TAX PREPARATION (CTEC- APPROVED)",
+        "course_id": "ACCTG 17",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "BUSINESS BOOKKEEPING",
+        "course_id": "ACCTG 21",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ADVANCED BOOKKEEPING",
+        "course_id": "ACCTG 22",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "PAYROLL ACCOUNTING",
+        "course_id": "ACCTG 23",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ADVANCED EXCEL FOR ACCOUNTING",
+        "course_id": "ACCTG 31B",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ACCOUNTING FOR ENTREPRENEURS",
+        "course_id": "ACCTG 41",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "INDIVIDUAL FINANCIAL PLANNING",
+        "course_id": "ACCTG 45",
+        "units": "3 UNITS"
+    }
+]

@@ -1,0 +1,77 @@
+[
+    {
+        "title": "INDEPENDENT STUDIES IN MATHEMATICS",
+        "course_id": "MATH 88A",
+        "units": "1 UNIT"
+    },
+    {
+        "title": "CONCURRENT SUPPORT FOR ELEMENTARY STATISTICS",
+        "course_id": "MATH 54C",
+        "units": "6 UNITS"
+    },
+    {
+        "title": "PRECALCULUS",
+        "course_id": "MATH 2",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "CONCURRENT SUPPORT FOR TRIGONOMETRY WITH APPLICATIONS",
+        "course_id": "MATH 3C",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "TRIGONOMETRY WITH APPLICATIONS",
+        "course_id": "MATH 3",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "COLLEGE ALGEBRA FOR STEM MAJORS",
+        "course_id": "MATH 4",
+        "units": "4 UNITS"
+    },
+    {
+        "title": "CALCULUS 1",
+        "course_id": "MATH 7",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "CALCULUS 2",
+        "course_id": "MATH 8",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "DISCRETE STRUCTURES",
+        "course_id": "MATH 10",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MULTIVARIABLE CALCULUS",
+        "course_id": "MATH 11",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "LINEAR ALGEBRA",
+        "course_id": "MATH 13",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ORDINARY DIFFERENTIAL EQUATIONS",
+        "course_id": "MATH 15",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "FINITE MATHEMATICS",
+        "course_id": "MATH 21",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "CALCULUS 1 FOR BUSINESS AND SOCIAL SCIENCE",
+        "course_id": "MATH 28",
+        "units": "5 UNITS"
+    },
+    {
+        "title": "INTRODUCTION TO STATISTICS",
+        "course_id": "STAT C1000",
+        "units": "4 UNITS"
+    }
+]

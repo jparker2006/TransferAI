@@ -1,0 +1,102 @@
+[
+    {
+        "title": "HISTORY OF WESTERN CIVILIZATION I",
+        "course_id": "HIST 1",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "HISTORY OF WESTERN CIVILIZATION II",
+        "course_id": "HIST 2",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "BRITISH CIVILIZATION I",
+        "course_id": "HIST 3",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "HISTORY OF LATIN AMERICA 2",
+        "course_id": "HIST 6",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ETHNICITY AND AMERICAN CULTURE",
+        "course_id": "HIST 10",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "UNITED STATES HISTORY THROUGH RECONSTRUCTION",
+        "course_id": "HIST 11",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "THE UNITED STATES HISTORY SINCE RECONSTRUCTION",
+        "course_id": "HIST 12",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "U.S. ENVIRONMENTAL HISTORY",
+        "course_id": "HIST 14",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "ECONOMIC HISTORY OF THE U.S.",
+        "course_id": "HIST 15",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "AFRICAN-AMERICAN HISTORY",
+        "course_id": "HIST 16",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "HISTORY OF THE MIDDLE EAST",
+        "course_id": "HIST 22",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "HISTORY OF EAST ASIA TO 1600",
+        "course_id": "HIST 24",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MODERN EUROPE: 1914 TO THE PRESENT",
+        "course_id": "HIST 28",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "GLOBAL ENVIRONMENTAL HISTORY",
+        "course_id": "HIST 32",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "WORLD CIVILIZATIONS I",
+        "course_id": "HIST 33",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "WORLD CIVILIZATIONS II",
+        "course_id": "HIST 34",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "NATIVE-AMERICAN HISTORY",
+        "course_id": "HIST 41",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "MEXICAN-AMERICAN HISTORY",
+        "course_id": "HIST 43",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "LGBTQ U.S. HISTORY",
+        "course_id": "HIST 51",
+        "units": "3 UNITS"
+    },
+    {
+        "title": "THE HISTORY OF RELIGION",
+        "course_id": "HIST 53",
+        "units": "3 UNITS"
+    }
+]
