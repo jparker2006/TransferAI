@@ -1,0 +1,381 @@
+{
+  "metadata": {
+    "source": "Santa Monica College IGETC Course List",
+    "academic_year": "2024-2025",
+    "department_name": "Geography",
+    "department_code": "GEOGRAPHY",
+    "scraped_at": "2025-06-03T22:10:43.779401",
+    "total_courses": 9,
+    "active_courses": 9,
+    "removed_courses": 0,
+    "courses_with_removal_dates": 0,
+    "data_type": "IGETC_transfer_courses"
+  },
+  "department": {
+    "name": "Geography",
+    "code": "GEOGRAPHY",
+    "description": "Geography courses for IGETC transfer",
+    "course_count": 9,
+    "active_course_count": 9,
+    "removed_course_count": 0
+  },
+  "courses": [
+    {
+      "course_code": "GEOG 1",
+      "title": "Physical Geography",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "5A",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "1991",
+            "formatted": "Fall 1991",
+            "raw": "F1991"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOG 2",
+      "title": "Introduction to Human Geography",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "4E",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "1991",
+            "formatted": "Fall 1991",
+            "raw": "F1991"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOG 3",
+      "title": "Weather and Climate",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "5A",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "1991",
+            "formatted": "Fall 1991",
+            "raw": "F1991"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOG 5",
+      "title": "Physical Geography with Lab",
+      "units": 4.0,
+      "units_raw": "4.00",
+      "igetc_areas": [
+        {
+          "area": "5A",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "1991",
+            "formatted": "Fall 1991",
+            "raw": "F1991"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        },
+        {
+          "area": "5C",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "1991",
+            "formatted": "Fall 1991",
+            "raw": "F1991"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOG 7",
+      "title": "Introduction to Environmental Studies",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "4E",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2001",
+            "formatted": "Fall 2001",
+            "raw": "F2001"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [
+        "Same as: ENVRN 7"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOG 8",
+      "title": "Introduction to Urban Studies",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "4E",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2001",
+            "formatted": "Fall 2001",
+            "raw": "F2001"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [
+        "Same as: URBAN 8"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOG 11",
+      "title": "World Geography: Introduction to Global Studies",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "4E",
+          "date_approved": {
+            "semester": "Summer",
+            "year": "2007",
+            "formatted": "Summer 2007",
+            "raw": "Su2007"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [
+        "Same as: GLOBAL 11"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOG 12",
+      "title": "Earth Science with lab",
+      "units": 4.0,
+      "units_raw": "4.00",
+      "igetc_areas": [
+        {
+          "area": "5A",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2023",
+            "formatted": "Fall 2023",
+            "raw": "F2023"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        },
+        {
+          "area": "5C",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2023",
+            "formatted": "Fall 2023",
+            "raw": "F2023"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [
+        "Same as: GEOL 12"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOG 14",
+      "title": "Geography of California",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "4E",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "1998",
+            "formatted": "Fall 1998",
+            "raw": "F1998"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    }
+  ],
+  "summary": {
+    "igetc_areas_covered": {
+      "area_counts": {
+        "5A": 4,
+        "4E": 5,
+        "5C": 2
+      },
+      "area_status": {
+        "5A": {
+          "active": 4,
+          "removed": 0,
+          "future_removal": 0
+        },
+        "4E": {
+          "active": 5,
+          "removed": 0,
+          "future_removal": 0
+        },
+        "5C": {
+          "active": 2,
+          "removed": 0,
+          "future_removal": 0
+        }
+      }
+    },
+    "unit_range": {
+      "min": 3.0,
+      "max": 4.0,
+      "average": 3.22
+    },
+    "most_recent_additions": [
+      {
+        "course_code": "GEOG 12",
+        "title": "Earth Science with lab",
+        "year_approved": 2023
+      },
+      {
+        "course_code": "GEOG 11",
+        "title": "World Geography: Introduction to Global Studies",
+        "year_approved": 2007
+      },
+      {
+        "course_code": "GEOG 7",
+        "title": "Introduction to Environmental Studies",
+        "year_approved": 2001
+      },
+      {
+        "course_code": "GEOG 8",
+        "title": "Introduction to Urban Studies",
+        "year_approved": 2001
+      },
+      {
+        "course_code": "GEOG 14",
+        "title": "Geography of California",
+        "year_approved": 1998
+      }
+    ],
+    "removal_status": {
+      "active_courses": 9,
+      "removed_courses": 0,
+      "courses_with_future_removal": 0
+    }
+  }
+}

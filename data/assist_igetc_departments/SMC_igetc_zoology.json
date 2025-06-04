@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "source": "Santa Monica College IGETC Course List",
+    "academic_year": "2024-2025",
+    "department_name": "Zoology",
+    "department_code": "ZOOLOGY",
+    "scraped_at": "2025-06-03T22:10:43.790784",
+    "total_courses": 1,
+    "active_courses": 1,
+    "removed_courses": 0,
+    "courses_with_removal_dates": 0,
+    "data_type": "IGETC_transfer_courses"
+  },
+  "department": {
+    "name": "Zoology",
+    "code": "ZOOLOGY",
+    "description": "Zoology courses for IGETC transfer",
+    "course_count": 1,
+    "active_course_count": 1,
+    "removed_course_count": 0
+  },
+  "courses": [
+    {
+      "course_code": "ZOOL 5",
+      "title": "Introductory Zoology",
+      "units": 4.0,
+      "units_raw": "4.00",
+      "igetc_areas": [
+        {
+          "area": "5B",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "1991",
+            "formatted": "Fall 1991",
+            "raw": "F1991"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        },
+        {
+          "area": "5C",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "1991",
+            "formatted": "Fall 1991",
+            "raw": "F1991"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    }
+  ],
+  "summary": {
+    "igetc_areas_covered": {
+      "area_counts": {
+        "5B": 1,
+        "5C": 1
+      },
+      "area_status": {
+        "5B": {
+          "active": 1,
+          "removed": 0,
+          "future_removal": 0
+        },
+        "5C": {
+          "active": 1,
+          "removed": 0,
+          "future_removal": 0
+        }
+      }
+    },
+    "unit_range": {
+      "min": 4.0,
+      "max": 4.0,
+      "average": 4.0
+    },
+    "most_recent_additions": [
+      {
+        "course_code": "ZOOL 5",
+        "title": "Introductory Zoology",
+        "year_approved": 1991
+      }
+    ],
+    "removal_status": {
+      "active_courses": 1,
+      "removed_courses": 0,
+      "courses_with_future_removal": 0
+    }
+  }
+}

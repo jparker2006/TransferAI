@@ -1,0 +1,272 @@
+{
+  "metadata": {
+    "source": "Santa Monica College IGETC Course List",
+    "academic_year": "2024-2025",
+    "department_name": "Korean",
+    "department_code": "KOREAN",
+    "scraped_at": "2025-06-03T22:10:43.784196",
+    "total_courses": 5,
+    "active_courses": 5,
+    "removed_courses": 0,
+    "courses_with_removal_dates": 1,
+    "data_type": "IGETC_transfer_courses"
+  },
+  "department": {
+    "name": "Korean",
+    "code": "KOREAN",
+    "description": "Korean courses for IGETC transfer",
+    "course_count": 5,
+    "active_course_count": 5,
+    "removed_course_count": 0
+  },
+  "courses": [
+    {
+      "course_code": "KOREAN 1",
+      "title": "Elementary Korean I",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "igetc_areas": [
+        {
+          "area": "6A",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2002",
+            "formatted": "Fall 2002",
+            "raw": "F2002"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "KOREAN 2",
+      "title": "Elementary Korean II",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "igetc_areas": [
+        {
+          "area": "3B",
+          "date_approved": {
+            "semester": "Spring",
+            "year": "2005",
+            "formatted": "Spring 2005",
+            "raw": "S2005"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        },
+        {
+          "area": "6A",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "1999",
+            "formatted": "Fall 1999",
+            "raw": "F1999"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "KOREAN 3",
+      "title": "Intermediate Korean 1",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "igetc_areas": [
+        {
+          "area": "3B",
+          "date_approved": {
+            "semester": "Spring",
+            "year": "2007",
+            "formatted": "Spring 2007",
+            "raw": "S2007"
+          },
+          "date_removed": {
+            "semester": "Fall",
+            "year": "2026",
+            "formatted": "Fall 2026",
+            "raw": "F2026"
+          },
+          "removal_date_exists": true,
+          "is_active": true
+        },
+        {
+          "area": "6A",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2024",
+            "formatted": "Fall 2024",
+            "raw": "F2024"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": true
+    },
+    {
+      "course_code": "KOREAN 4",
+      "title": "Intermediate Korean 2",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "igetc_areas": [
+        {
+          "area": "3B",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2009",
+            "formatted": "Fall 2009",
+            "raw": "F2009"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        },
+        {
+          "area": "6A",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2009",
+            "formatted": "Fall 2009",
+            "raw": "F2009"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "KOREAN 9",
+      "title": "Korean Civilization",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "3B",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2022",
+            "formatted": "Fall 2022",
+            "raw": "F2022"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    }
+  ],
+  "summary": {
+    "igetc_areas_covered": {
+      "area_counts": {
+        "6A": 4,
+        "3B": 4
+      },
+      "area_status": {
+        "6A": {
+          "active": 4,
+          "removed": 0,
+          "future_removal": 0
+        },
+        "3B": {
+          "active": 3,
+          "removed": 0,
+          "future_removal": 1
+        }
+      }
+    },
+    "unit_range": {
+      "min": 3.0,
+      "max": 5.0,
+      "average": 4.6
+    },
+    "most_recent_additions": [
+      {
+        "course_code": "KOREAN 3",
+        "title": "Intermediate Korean 1",
+        "year_approved": 2024
+      },
+      {
+        "course_code": "KOREAN 9",
+        "title": "Korean Civilization",
+        "year_approved": 2022
+      },
+      {
+        "course_code": "KOREAN 4",
+        "title": "Intermediate Korean 2",
+        "year_approved": 2009
+      },
+      {
+        "course_code": "KOREAN 2",
+        "title": "Elementary Korean II",
+        "year_approved": 2005
+      },
+      {
+        "course_code": "KOREAN 1",
+        "title": "Elementary Korean I",
+        "year_approved": 2002
+      }
+    ],
+    "removal_status": {
+      "active_courses": 5,
+      "removed_courses": 0,
+      "courses_with_future_removal": 1
+    }
+  }
+}

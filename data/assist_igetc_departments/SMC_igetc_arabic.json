@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "source": "Santa Monica College IGETC Course List",
+    "academic_year": "2024-2025",
+    "department_name": "Arabic",
+    "department_code": "ARABIC",
+    "scraped_at": "2025-06-03T22:10:43.771522",
+    "total_courses": 1,
+    "active_courses": 1,
+    "removed_courses": 0,
+    "courses_with_removal_dates": 0,
+    "data_type": "IGETC_transfer_courses"
+  },
+  "department": {
+    "name": "Arabic",
+    "code": "ARABIC",
+    "description": "Arabic courses for IGETC transfer",
+    "course_count": 1,
+    "active_course_count": 1,
+    "removed_course_count": 0
+  },
+  "courses": [
+    {
+      "course_code": "ARABIC 1",
+      "title": "Elementary Arabic 1",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "igetc_areas": [
+        {
+          "area": "6A",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2009",
+            "formatted": "Fall 2009",
+            "raw": "F2009"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    }
+  ],
+  "summary": {
+    "igetc_areas_covered": {
+      "area_counts": {
+        "6A": 1
+      },
+      "area_status": {
+        "6A": {
+          "active": 1,
+          "removed": 0,
+          "future_removal": 0
+        }
+      }
+    },
+    "unit_range": {
+      "min": 5.0,
+      "max": 5.0,
+      "average": 5.0
+    },
+    "most_recent_additions": [
+      {
+        "course_code": "ARABIC 1",
+        "title": "Elementary Arabic 1",
+        "year_approved": 2009
+      }
+    ],
+    "removal_status": {
+      "active_courses": 1,
+      "removed_courses": 0,
+      "courses_with_future_removal": 0
+    }
+  }
+}
