@@ -3,7 +3,7 @@
     {
       "type": "convert",
       "input_file": "json/santa_monica_college/university_of_california_san_diego/cse_computer_science_bs.json",
-      "output_file": "rag_output_v2/santa_monica_college/university_of_california_san_diego/cse_computer_science_bs.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/cse_computer_science_bs.json",
       "major_key": "0a3e674e-b9e8-4340-6726-08dca807bc66"
     }
   ]
