@@ -1,0 +1,329 @@
+{
+  "metadata": {
+    "source": "Santa Monica College IGETC Course List",
+    "academic_year": "2024-2025",
+    "department_name": "Ethnic Studies",
+    "department_code": "ETHNIC",
+    "scraped_at": "2025-06-03T22:10:43.778294",
+    "total_courses": 7,
+    "active_courses": 6,
+    "removed_courses": 1,
+    "courses_with_removal_dates": 1,
+    "data_type": "IGETC_transfer_courses"
+  },
+  "department": {
+    "name": "Ethnic Studies",
+    "code": "ETHNIC",
+    "description": "Ethnic Studies courses for IGETC transfer",
+    "course_count": 7,
+    "active_course_count": 6,
+    "removed_course_count": 1
+  },
+  "courses": [
+    {
+      "course_code": "ETH ST 1",
+      "title": "Introduction to Ethnic Studies",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "4",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2023",
+            "formatted": "Fall 2023",
+            "raw": "F2023"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        },
+        {
+          "area": "7",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2023",
+            "formatted": "Fall 2023",
+            "raw": "F2023"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ETH ST 6",
+      "title": "Introduction to Chicana/o/x and Latina/o/x Studies",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "4",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2023",
+            "formatted": "Fall 2023",
+            "raw": "F2023"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ETH ST 7",
+      "title": "Introduction to African American and Black Studies",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "4",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2023",
+            "formatted": "Fall 2023",
+            "raw": "F2023"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ETH ST 8",
+      "title": "Introduction to Asian American Studies",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "4",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2024",
+            "formatted": "Fall 2024",
+            "raw": "F2024"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ETH ST 10",
+      "title": "Media, Gender and Race",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "4G",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2023",
+            "formatted": "Fall 2023",
+            "raw": "F2023"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ETH ST 10",
+      "title": "Introduction to Ethnic Studies",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "3B",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "1995",
+            "formatted": "Fall 1995",
+            "raw": "F1995"
+          },
+          "date_removed": {
+            "semester": "Fall",
+            "year": "1999",
+            "formatted": "Fall 1999",
+            "raw": "F1999"
+          },
+          "removal_date_exists": true,
+          "is_active": false
+        },
+        {
+          "area": "4C",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "1996",
+            "formatted": "Fall 1996",
+            "raw": "F1996"
+          },
+          "date_removed": {
+            "semester": "Fall",
+            "year": "1998",
+            "formatted": "Fall 1998",
+            "raw": "F1998"
+          },
+          "removal_date_exists": true,
+          "is_active": false
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": false
+    },
+    {
+      "course_code": "ETH ST 38",
+      "title": "Introduction to Latina/o/x Communication Studies",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "4",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2023",
+            "formatted": "Fall 2023",
+            "raw": "F2023"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    }
+  ],
+  "summary": {
+    "igetc_areas_covered": {
+      "area_counts": {
+        "4": 5,
+        "7": 1,
+        "4G": 1,
+        "3B": 1,
+        "4C": 1
+      },
+      "area_status": {
+        "4": {
+          "active": 5,
+          "removed": 0,
+          "future_removal": 0
+        },
+        "7": {
+          "active": 1,
+          "removed": 0,
+          "future_removal": 0
+        },
+        "4G": {
+          "active": 1,
+          "removed": 0,
+          "future_removal": 0
+        },
+        "3B": {
+          "active": 0,
+          "removed": 1,
+          "future_removal": 0
+        },
+        "4C": {
+          "active": 0,
+          "removed": 1,
+          "future_removal": 0
+        }
+      }
+    },
+    "unit_range": {
+      "min": 3.0,
+      "max": 3.0,
+      "average": 3.0
+    },
+    "most_recent_additions": [
+      {
+        "course_code": "ETH ST 8",
+        "title": "Introduction to Asian American Studies",
+        "year_approved": 2024
+      },
+      {
+        "course_code": "ETH ST 1",
+        "title": "Introduction to Ethnic Studies",
+        "year_approved": 2023
+      },
+      {
+        "course_code": "ETH ST 6",
+        "title": "Introduction to Chicana/o/x and Latina/o/x Studies",
+        "year_approved": 2023
+      },
+      {
+        "course_code": "ETH ST 7",
+        "title": "Introduction to African American and Black Studies",
+        "year_approved": 2023
+      },
+      {
+        "course_code": "ETH ST 10",
+        "title": "Media, Gender and Race",
+        "year_approved": 2023
+      }
+    ],
+    "removal_status": {
+      "active_courses": 6,
+      "removed_courses": 1,
+      "courses_with_future_removal": 0
+    }
+  }
+}

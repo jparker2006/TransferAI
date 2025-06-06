@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "source": "Santa Monica College IGETC Course List",
+    "academic_year": "2024-2025",
+    "department_name": "Early Childhood Education",
+    "department_code": "EARLY",
+    "scraped_at": "2025-06-03T22:10:43.776328",
+    "total_courses": 2,
+    "active_courses": 1,
+    "removed_courses": 1,
+    "courses_with_removal_dates": 1,
+    "data_type": "IGETC_transfer_courses"
+  },
+  "department": {
+    "name": "Early Childhood Education",
+    "code": "EARLY",
+    "description": "Early Childhood Education courses for IGETC transfer",
+    "course_count": 2,
+    "active_course_count": 1,
+    "removed_course_count": 1
+  },
+  "courses": [
+    {
+      "course_code": "ECE 11",
+      "title": "Child, Family, and the Community",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "4G",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2010",
+            "formatted": "Fall 2010",
+            "raw": "F2010"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ECE 18",
+      "title": "Childhood: Culture and Personality",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "4G",
+          "date_approved": {
+            "semester": "Spring",
+            "year": "2007",
+            "formatted": "Spring 2007",
+            "raw": "S2007"
+          },
+          "date_removed": {
+            "semester": "Spring",
+            "year": "2017",
+            "formatted": "Spring 2017",
+            "raw": "S2017"
+          },
+          "removal_date_exists": true,
+          "is_active": false
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": false
+    }
+  ],
+  "summary": {
+    "igetc_areas_covered": {
+      "area_counts": {
+        "4G": 2
+      },
+      "area_status": {
+        "4G": {
+          "active": 1,
+          "removed": 1,
+          "future_removal": 0
+        }
+      }
+    },
+    "unit_range": {
+      "min": 3.0,
+      "max": 3.0,
+      "average": 3.0
+    },
+    "most_recent_additions": [
+      {
+        "course_code": "ECE 11",
+        "title": "Child, Family, and the Community",
+        "year_approved": 2010
+      },
+      {
+        "course_code": "ECE 18",
+        "title": "Childhood: Culture and Personality",
+        "year_approved": 2007
+      }
+    ],
+    "removal_status": {
+      "active_courses": 1,
+      "removed_courses": 1,
+      "courses_with_future_removal": 0
+    }
+  }
+}

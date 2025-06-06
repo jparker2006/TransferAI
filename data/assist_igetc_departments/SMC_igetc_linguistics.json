@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "source": "Santa Monica College IGETC Course List",
+    "academic_year": "2024-2025",
+    "department_name": "Linguistics",
+    "department_code": "LINGUISTICS",
+    "scraped_at": "2025-06-03T22:10:43.784542",
+    "total_courses": 1,
+    "active_courses": 1,
+    "removed_courses": 0,
+    "courses_with_removal_dates": 0,
+    "data_type": "IGETC_transfer_courses"
+  },
+  "department": {
+    "name": "Linguistics",
+    "code": "LINGUISTICS",
+    "description": "Linguistics courses for IGETC transfer",
+    "course_count": 1,
+    "active_course_count": 1,
+    "removed_course_count": 0
+  },
+  "courses": [
+    {
+      "course_code": "LING 1",
+      "title": "Introduction to Linguistics",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "3B",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2014",
+            "formatted": "Fall 2014",
+            "raw": "F2014"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    }
+  ],
+  "summary": {
+    "igetc_areas_covered": {
+      "area_counts": {
+        "3B": 1
+      },
+      "area_status": {
+        "3B": {
+          "active": 1,
+          "removed": 0,
+          "future_removal": 0
+        }
+      }
+    },
+    "unit_range": {
+      "min": 3.0,
+      "max": 3.0,
+      "average": 3.0
+    },
+    "most_recent_additions": [
+      {
+        "course_code": "LING 1",
+        "title": "Introduction to Linguistics",
+        "year_approved": 2014
+      }
+    ],
+    "removal_status": {
+      "active_courses": 1,
+      "removed_courses": 0,
+      "courses_with_future_removal": 0
+    }
+  }
+}

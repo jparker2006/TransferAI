@@ -1,0 +1,463 @@
+{
+  "metadata": {
+    "source": "Santa Monica College IGETC Course List",
+    "academic_year": "2024-2025",
+    "department_name": "Astronomy",
+    "department_code": "ASTRONOMY",
+    "scraped_at": "2025-06-03T22:10:43.773029",
+    "total_courses": 12,
+    "active_courses": 10,
+    "removed_courses": 2,
+    "courses_with_removal_dates": 2,
+    "data_type": "IGETC_transfer_courses"
+  },
+  "department": {
+    "name": "Astronomy",
+    "code": "ASTRONOMY",
+    "description": "Astronomy courses for IGETC transfer",
+    "course_count": 12,
+    "active_course_count": 10,
+    "removed_course_count": 2
+  },
+  "courses": [
+    {
+      "course_code": "ASTRON 1",
+      "title": "Stellar Astronomy",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "5A",
+          "date_approved": {
+            "semester": "Summer",
+            "year": "2007",
+            "formatted": "Summer 2007",
+            "raw": "Su2007"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [
+        "Formerly: ASTRON 1A prior to Su2007"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ASTRON 1A",
+      "title": "Stellar Astronomy",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "5A",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "1991",
+            "formatted": "Fall 1991",
+            "raw": "F1991"
+          },
+          "date_removed": {
+            "semester": "Summer",
+            "year": "2007",
+            "formatted": "Summer 2007",
+            "raw": "Su2007"
+          },
+          "removal_date_exists": true,
+          "is_active": false
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": false
+    },
+    {
+      "course_code": "ASTRON 1B",
+      "title": "Astronomy of the Solar System",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "5A",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "1991",
+            "formatted": "Fall 1991",
+            "raw": "F1991"
+          },
+          "date_removed": {
+            "semester": "Summer",
+            "year": "2007",
+            "formatted": "Summer 2007",
+            "raw": "Su2007"
+          },
+          "removal_date_exists": true,
+          "is_active": false
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": false
+    },
+    {
+      "course_code": "ASTRON 2",
+      "title": "Planetary Astronomy",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "5A",
+          "date_approved": {
+            "semester": "Summer",
+            "year": "2007",
+            "formatted": "Summer 2007",
+            "raw": "Su2007"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [
+        "Formerly: ASTRON 1B prior to Su2007"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ASTRON 3",
+      "title": "Stellar Astronomy with Laboratory",
+      "units": 4.0,
+      "units_raw": "4.00",
+      "igetc_areas": [
+        {
+          "area": "5A",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "1991",
+            "formatted": "Fall 1991",
+            "raw": "F1991"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        },
+        {
+          "area": "5C",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "1991",
+            "formatted": "Fall 1991",
+            "raw": "F1991"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ASTRON 4",
+      "title": "Planatary Astronomy with Laboratory",
+      "units": 4.0,
+      "units_raw": "4.00",
+      "igetc_areas": [
+        {
+          "area": "5A",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "1991",
+            "formatted": "Fall 1991",
+            "raw": "F1991"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        },
+        {
+          "area": "5C",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "1991",
+            "formatted": "Fall 1991",
+            "raw": "F1991"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ASTRON 5",
+      "title": "Life in the Universe",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "5A",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2002",
+            "formatted": "Fall 2002",
+            "raw": "F2002"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ASTRON 6",
+      "title": "Archaeoastronomy",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "4A",
+          "date_approved": {
+            "semester": "Spring",
+            "year": "2013",
+            "formatted": "Spring 2013",
+            "raw": "S2013"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ASTRON 7",
+      "title": "Cosmology",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "5A",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2014",
+            "formatted": "Fall 2014",
+            "raw": "F2014"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ASTRON 8",
+      "title": "Introduction to Astrophysics",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "5A",
+          "date_approved": {
+            "semester": "Spring",
+            "year": "2015",
+            "formatted": "Spring 2015",
+            "raw": "S2015"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ASTRON 9",
+      "title": "Astrophysics with Calculus",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "5A",
+          "date_approved": {
+            "semester": "Spring",
+            "year": "2016",
+            "formatted": "Spring 2016",
+            "raw": "S2016"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ASTRON 10",
+      "title": "Exploration of the Solar System",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "igetc_areas": [
+        {
+          "area": "5A",
+          "date_approved": {
+            "semester": "Fall",
+            "year": "2022",
+            "formatted": "Fall 2022",
+            "raw": "F2022"
+          },
+          "date_removed": {
+            "semester": "",
+            "year": "",
+            "formatted": "",
+            "raw": ""
+          },
+          "removal_date_exists": false,
+          "is_active": true
+        }
+      ],
+      "notes": [
+        "Same as: GEOL 10"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    }
+  ],
+  "summary": {
+    "igetc_areas_covered": {
+      "area_counts": {
+        "5A": 11,
+        "5C": 2,
+        "4A": 1
+      },
+      "area_status": {
+        "5A": {
+          "active": 9,
+          "removed": 2,
+          "future_removal": 0
+        },
+        "5C": {
+          "active": 2,
+          "removed": 0,
+          "future_removal": 0
+        },
+        "4A": {
+          "active": 1,
+          "removed": 0,
+          "future_removal": 0
+        }
+      }
+    },
+    "unit_range": {
+      "min": 3.0,
+      "max": 4.0,
+      "average": 3.17
+    },
+    "most_recent_additions": [
+      {
+        "course_code": "ASTRON 10",
+        "title": "Exploration of the Solar System",
+        "year_approved": 2022
+      },
+      {
+        "course_code": "ASTRON 9",
+        "title": "Astrophysics with Calculus",
+        "year_approved": 2016
+      },
+      {
+        "course_code": "ASTRON 8",
+        "title": "Introduction to Astrophysics",
+        "year_approved": 2015
+      },
+      {
+        "course_code": "ASTRON 7",
+        "title": "Cosmology",
+        "year_approved": 2014
+      },
+      {
+        "course_code": "ASTRON 6",
+        "title": "Archaeoastronomy",
+        "year_approved": 2013
+      }
+    ],
+    "removal_status": {
+      "active_courses": 10,
+      "removed_courses": 2,
+      "courses_with_future_removal": 0
+    }
+  }
+}

@@ -1,0 +1,830 @@
+Date Generated: 6/3/25
+Get latest version
+ASSIST Logo.  Click to navigate to assist.org home page
+ASSIST does not take the place of a counselor on your campus. It is intended to help students and counselors work together to establish an appropriate path toward transferring from a public California community college to a California university.
+IGETC Course List
+(All Departments)
+Santa Monica College
+Academic Year 2024-2025
+IMPORTANT
+
+The Intersegmental General Education Transfer Curriculum (IGETC) is a series of courses that California community college students may complete to satisfy the lower-division breadth/general education requirements before transferring to the California State University (CSU) or to the University of California (UC).
+
+The IGETC pattern is certified by the CCC, accepted by all CSU campuses, and accepted for many majors at all UC campuses. Students should consult a CCC counselor for more information about IGETC, and the majors for which IGETC is appropriate.
+
+The following community college courses will satisfy IGETC requirement areas as indicated.
+
+Limitations
+
+• Transfer credit may be limited by either CSU policy, or UC policy, or both. Please review the CSU GE-Breadth Certification Course List as well as the UC Transferable Course List (the UC TCA) in addition to consulting with a counselor.
+
+• Per UC policy, courses listed in multiple areas shall not be certified in more than one area except for courses in Languages Other Than English, which can be certified in both areas 3B and 6A.
+
+More information regarding IGETC may be located through the following links:
+
+CSU GE Transfer Requirements
+
+UC IGETC Requirements
+
+Administration of Justice
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+AD JUS 1	Introduction to Administration of Justice	3.00	4	F2017	
+American Sign Language
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+ASL 1	American Sign Language 1	5.00	6A	F2006	
+ASL 2	American Sign Language 2	5.00	3B	F2007	
+6A	F2012	
+Anatomy
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+ANATMY 1	General Human Anatomy	4.00	5B	F1991	
+5C	F1991	
+ANATMY 2	Advanced Human Anatomy	4.00	5B	F1991	
+5C	F1991	
+Anthropology
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+ANTHRO 1	Biological Anthropology	3.00	5B	F1991	
+ANTHRO 2	Cultural Anthropology	3.00	4A	F1991	
+ANTHRO 3	World Archaeology	3.00	4A	F1991	
+ANTHRO 4	Methods of Archaeology	3.00	4A	F2014	
+ANTHRO 5	Biological Anthropology with Laboratory	4.00	5B	F1991	
+5C	F1991	
+ANTHRO 7	Introduction to Linguistic Anthropology	3.00	4A	Su2007	
+ANTHRO 9	Paleoanthropology	3.00	5B	S2002	
+ANTHRO 11	Introduction to Primatology	3.00	5B	F2021	
+ANTHRO 14	Sex, Gender, and Culture	3.00	4A	F1995	
+ANTHRO 19	The Culture of Food	3.00	4A	F2012	
+ANTHRO 20	Traditional Peoples and Cultures of Africa	3.00	4A	F1992	
+ANTHRO 21	Peoples and Power in Latin America	3.00	4A	Su2009	
+ANTHRO 22	Magic, Religion, and Witchcraft	3.00	4A	F2007	
+Arabic
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+ARABIC 1	Elementary Arabic 1	5.00	6A	F2009	
+Architecture
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+ARCH 50	Architectural History: Ancient to 1850	3.00	3A	F1992	F2003
+ARCH 51	History and Theory of Architecture: 1850 to Present	3.00	3A	F1991	F2003
+Art
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+ART 1	Western Art History I	3.00	3A	F1991	F2009
+ART 2	Western Art History II	3.00	3A	F1991	F2009
+ART 3	Western Art History III	3.00	3A	F1995	F2009
+ART 4	Chicano Art History	3.00	3A	F1993	S2002
+ART 5	Arts of Asia: Prehistory to 1900	3.00	3A	F1994	F2009
+ART 6	Architectural History: Ancient to 1850	3.00	3A	F1992	F2009
+ART 7	Architectural History and Theory: 1850 to Present	3.00	3A	F1991	F2009
+ART 8	Western Art History IV	3.00	3A	F1991	F2009
+ART 9	Mexican Art History	3.00	3A	F1991	F2009
+ART 71	African-American Art History	3.00	3A	F1997	F2009
+ART 72	American Art History	3.00	3A	F1997	F2009
+ART 73	History of Photography	3.00	3A	F2001	F2009
+Same as: PHOTO 52
+
+ART 79	Art Appreciation: Introduction to Global Visual Culture	3.00	3A	Su2007	F2009
+Art History
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+AHIS 1	Western Art History I	3.00	3A	F2009	
+AHIS 2	Western Art History II	3.00	3A	F2009	
+AHIS 3	Global Art History Since 1800	3.00	3A	F2009	
+(Formerly ART 8 prior to F2009)
+
+AHIS 5	Latin American Art History 1	3.00	3A	S2014	
+AHIS 6	Latin American Art History 2	3.00	3A	S2014	
+AHIS 11	Art Appreciation: Introduction to Global Visual Culture	3.00	3A	F2009	
+(Formerly ART 79 prior to F2009)
+
+AHIS 15	Mexican Art History	3.00	3A	F2009	
+(Formerly ART 9 prior to F2009)
+
+AHIS 17	Arts of Asia	3.00	3A	F2009	
+(Formerly ART 5 prior to F2009)
+
+AHIS 18	Introduction to African Art History	3.00	3A	F2010	
+3B	F2010	
+AHIS 21	Architectural History: Ancient to 1850	3.00	3A	F2009	
+(Formerly ART 6 prior to F2009)
+
+AHIS 22	Architectural History and Theory: 1850 to Present	3.00	3A	F2009	
+(Formerly ART 7 prior to F2009)
+
+AHIS 52	History of Photography	3.00	3A	F2009	
+Same as: PHOTO 52
+
+(Formerly ART 73 prior to F2009)
+
+AHIS 71	African-American Art History	3.00	3A	F2009	
+(Formerly ART 71 prior to F2009)
+
+AHIS 72	American Art History	3.00	3A	F2009	
+(Formerly ART 72 prior to F2009)
+
+Astronomy
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+ASTRON 1	Stellar Astronomy	3.00	5A	Su2007	
+(Formerly ASTRON 1A prior to Su2007)
+
+ASTRON 1A	Stellar Astronomy	3.00	5A	F1991	Su2007
+ASTRON 1B	Astronomy of the Solar System	3.00	5A	F1991	Su2007
+ASTRON 2	Planetary Astronomy	3.00	5A	Su2007	
+(Formerly ASTRON 1B prior to Su2007)
+
+ASTRON 3	Stellar Astronomy with Laboratory	4.00	5A	F1991	
+5C	F1991	
+ASTRON 4	Planatary Astronomy with Laboratory	4.00	5A	F1991	
+5C	F1991	
+ASTRON 5	Life in the Universe	3.00	5A	F2002	
+ASTRON 6	Archaeoastronomy	3.00	4A	S2013	
+ASTRON 7	Cosmology	3.00	5A	F2014	
+ASTRON 8	Introduction to Astrophysics	3.00	5A	S2015	
+ASTRON 9	Astrophysics with Calculus	3.00	5A	S2016	
+ASTRON 10	Exploration of the Solar System	3.00	5A	F2022	
+Same as: GEOL 10
+
+Biology
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+BIOL 2	Human Biology	3.00	5B	F2001	
+(Formerly BIOL 25 prior to F2001)
+
+BIOL 3	Fundamentals of Biology	4.00	5B	F1991	
+5C	F1991	
+BIOL 4	Modern Applications of Biology	4.00	5B	F1998	S2017
+5C	F1998	S2017
+BIOL 6	General Biology I	5.00	5B	F1991	F2000
+5C	F1991	F2000
+BIOL 7	General Biology II	5.00	5B	F1991	F2001
+5C	F1991	F2001
+BIOL 9	Introduction to Environmental Biology	3.00	5B	F1991	
+BIOL 10	Applied Ecology and Conservation Biology	4.00	5B	F2019	
+5C	F2019	
+BIOL 15	Marine Biology with Laboratory	4.00	5B	F1991	
+5C	F1991	
+BIOL 15N	Marine Biology (Non-Laboratory)	3.00	5B	F1991	
+BIOL 21	Cell Biology and Evolution	4.00	5B	F2001	
+5C	F2001	
+BIOL 22	Genetics and Molecular Biology	4.00	5B	F2001	
+5C	F2001	
+BIOL 23	Organismal and Environmental Biology	5.00	5B	F2001	
+(Formerly BIOL 7 prior to F2001)	5C	F2001	
+BIOL 25	Human Biology	3.00	5B	F1991	F2001
+BIOL 75N	Biotechnology and Molecular Biology	3.00	5B	F2000	F2005
+Botany
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+BOTANY 1	General Botany	4.00	5B	F1991	
+5C	F1991	
+Chemistry
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+CHEM 1	General Chemistry I	5.00	5A	F1991	F1996
+5C	F1991	F1996
+CHEM 2	General Chemistry II	5.00	5A	F1991	F1996
+5C	F1991	F1996
+CHEM 3	Introductory General Chemistry	5.00	5A	F1991	F1996
+5C	F1991	F1996
+CHEM 9	Everyday Chemistry	5.00	5A	F2006	
+5C	F2006	
+CHEM 10	Introductory General Chemistry	5.00	5A	F1996	
+(Formerly CHEM 3 prior to F1996)	5C	F1996	
+CHEM 11	General Chemistry I	5.00	5A	F1996	
+(Formerly CHEM 1 prior to F1996)	5C	F1996	
+CHEM 12	General Chemistry II	5.00	5A	F1996	
+(Formerly CHEM 2 prior to F1996)	5C	F1996	
+CHEM 14	Organic Chemistry	5.00	5A	F1991	F1999
+5C	F1991	F1999
+CHEM 15	Introductory Bio-Organic Chemistry	5.00	5A	F1991	W1999
+5C	F1991	W1999
+CHEM 16	Organic Chemistry II	5.00	5A	F1991	F2000
+5C	F1991	F2000
+CHEM 19	Fundamentals of General, Organic, and Biological Chemistry	5.00	5A	S2016	
+5C	S2016	
+CHEM 21	Organic Chemistry I	5.00	5A	F1999	
+(Formerly CHEM 14 prior to F1999)	5C	F1999	
+CHEM 22	Organic Chemistry II	4.00	5A	F1998	
+CHEM 24	Organic Chemistry II Laboratory	2.00	5A	F1998	F2012
+5C	F1998	
+CHEM 31	Biochemistry I	5.00	5A	F1999	
+5C	F1999	
+Chinese
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+CHNESE 1	Elementary Chinese 1	5.00	6A	F2002	
+CHNESE 2	Elementary Chinese 2	5.00	3B	S2004	
+6A	F1991	
+CHNESE 3	Intermediate Chinese 1	5.00	3B	F2000	
+6A	F2005	
+CHNESE 4	Intermediate Chinese 2	5.00	3B	S2009	F2018
+6A	S2009	F2018
+CHNESE 9	Chinese Culture and Tradition	3.00	3B	S2010	
+Cinema
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+CINEMA 1	History of Motion Pictures	3.00	3B	F1991	F2005
+CINEMA 5	Film and Society	3.00	3B	F1991	F2005
+CINEMA 8	Women in Film	3.00	3B	F1998	F2005
+CINEMA 9	Film Appreciation: Introduction to Cinema	3.00	3A	S2004	F2005
+Communication
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+COMM 1	Survey of Mass Media Communications	3.00	4G	S2007	F2012
+COMM 10	Journalism, Gender and Race	3.00	4G	F1998	F2012
+Communication Studies
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+COM ST 9	Introduction to Communication Studies	3.00	4G	F2014	
+COM ST 11	Elements of Public Speaking	3.00	1C	F2012	
+(Formerly SPEECH 1 prior to F2012)
+
+COM ST 12	Persuasion	3.00	1C	F2012	
+(Formerly SPEECH 2 prior to F2012)	3B	F2012	
+COM ST 16	Fundamentals of Small Group Discussion	3.00	1C	F2012	
+(Formerly SPEECH 6 prior to F2012)
+
+COM ST 20	Agitational and Protest Communication	3.00	4	F2019	
+COM ST 21	Argumentation	3.00	1C	F2012	
+(Formerly SPEECH 11 prior to F2012)
+
+COM ST 30	Introduction to Communication Theory	3.00	4G	F2014	
+COM ST 31	Research Methods for Communication Studies	3.00	4G	F2012	
+COM ST 35	Interpersonal Communication	3.00	4	F2019	
+(Formerly SPEECH 5 prior to F2012)	4G	F2012	F2019
+COM ST 36	Gender and Communication	3.00	4D	S2015	
+COM ST 37	Intercultural Communication	3.00	4G	F2012	
+(Formerly SPEECH 7 prior to F2012)
+
+COM ST 38	Introduction to Latina/o/x Communication Studies	3.00	4	F2022	
+Computer Science -Progamming
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+CS 10	Discrete Structures	3.00	2A	F1991	W2017
+Dance
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+DANCE 2	Dance in American Culture	3.00	3A	S2007	
+DANCE 5	Dance History	3.00	3A	F1991	
+DANCE 6	20th and 21st Century Dance History	3.00	3A	F2019	
+Early Childhood Education
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+ECE 11	Child, Family, and the Community	3.00	4G	F2010	
+ECE 18	Childhood: Culture and Personality	3.00	4G	S2007	S2017
+Economics
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+ECON 1	Principles of Microeconomics	3.00	4B	F1991	
+ECON 2	Principles of Macroeconomics	3.00	4B	F1991	
+ECON 4	Environmental Economics	3.00	4	F2019	
+Same as: ENVRN 4
+
+ECON 5	International Politcal Economy: Introduction to Global Studies	3.00	4H	F1999	
+Same as: GLOBAL 5, POL SC 5
+
+ECON 6	Contemporary Economics Problems	3.00	4B	F1991	
+ECON 8	Women in the Economy	3.00	4	F2019	
+Same as: WGS 8
+
+ECON 15	Economic History of the United States	3.00	3B	F1991	
+Same as: HIST 15	4B	F1991	
+English
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+ENGL 1	Reading and Composition I	3.00	1A	F1991	
+ENGL 1D	Reading and Composition 1--Diversity	3.00	1A	F2020	
+ENGL 2	Critical Analysis and Intermediate Composition	3.00	1B	F1993	
+3B	F2015	
+8B	F1991	F1993
+ENGL 3	World Literature 1	3.00	3B	F1991	
+ENGL 4	World Literature 2	3.00	3B	F1991	
+ENGL 5	British Literature 1	3.00	3B	F1991	
+(Formerly "English Literature 1" prior to W2024)
+
+ENGL 6	British Literature 2	3.00	3B	F1991	
+(Formerly "English Literature 2" prior to W2024)
+
+ENGL 7	American Literature 1	3.00	3B	F1991	
+ENGL 8	American Literature 2	3.00	3B	F1991	
+ENGL 9	Literature of California	3.00	3B	S2009	
+ENGL 10	Ethnic Literature of the United States	3.00	3B	F1993	
+ENGL 11	Literature to Film	3.00	3B	S2008	W2017
+ENGL 14	Contemporary American Literature	3.00	3B	F1991	
+ENGL 15	Shakespeare	3.00	3B	F1991	
+ENGL 16	Special Studies in Shakespeare Honors Seminar	3.00	3B	F1991	F1995
+ENGL 17	Contemporary British Literature	3.00	3B	S2000	
+ENGL 18	Children's Literature	3.00	3B	F2022	
+ENGL 26	Introduction to the Humanities	3.00	3B	F1991	
+Same as: HUM 26
+
+ENGL 31	Advanced Composition	3.00	8B	F1991	F1993
+ENGL 34	Afro-American Literature	3.00	3B	F1991	
+ENGL 38	Literature of the Absurd	3.00	3B	F1991	
+ENGL 39	Images of Women in Literature	3.00	3B	F1991	
+ENGL 40	Asian Literature	3.00	3B	F1991	
+ENGL 41	Introduction to Asian American Literature	3.00	3B	S2006	
+ENGL 45	Asian Film, Literature, and Society	3.00	3B	S2002	
+ENGL 49	Asian Mythology	3.00	3B	S2015	
+ENGL 50	Mythology	3.00	3B	F1991	
+ENGL 51	Literature of the Bible: Old Testament	3.00	3B	F1991	
+Same as: REL ST 51
+
+ENGL 52	Literature of the Bible: New Testament	3.00	3B	F1991	
+Same as: REL ST 52
+
+ENGL 53	Latino Literature in the United States	3.00	3B	F1991	
+ENGL 54	Indigenous Literatrues of North America	3.00	3B	F1993	
+(Formerly "Native American Literature" prior to S2024)
+
+ENGL 55	Modern Drama	3.00	3A	F1991	
+3B	F1991	
+ENGL 56	Twentieth Century European Literature	3.00	3B	F1991	
+ENGL 57	Latin American Literature	3.00	3B	F2000	
+ENGL 58	Literature of Mexico	3.00	3B	F1991	
+ENGL 59	Lesbian and Gay Literature	3.00	3B	F1998	
+ENGL 61	Introduction to the Fairy Tale	3.00	3B	W2016	
+ENGL 62	Crime Fiction in a Global Context	3.00	3B	F2020	
+ENGL 63	Science Fiction: Worlds Within Worlds	3.00	3B	F2023	
+ENGL 64	Graphic Literature	3.00	3B	F2022	
+Entertainment Technology
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+ANIM 5	History of Animation	3.00	3A	F2020	
+Environmental Studies
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+ENVRN 4	Environmental Economics	3.00	4	F2019	
+Same as: ECON 4
+
+ENVRN 7	Introduction to Environmental Studies	3.00	4E	F2001	
+Same as: GEOG 7
+
+ENVRN 14	U.S. Environmental History	3.00	4F	F2013	
+Same as: HIST 14
+
+ENVRN 20	Environmental Ethics	3.00	3B	S2012	
+Same as: PHILOS 20
+
+ENVRN 22	Environmental Politics and Policies	3.00	4H	S2013	
+Same as: POL SC 22
+
+ENVRN 32	Global Environmental History	3.00	4F	F2013	
+Same as: HIST 32
+
+ENVRN 40	Environmental Psychology	3.00	4I	F2011	
+Same as: PSYCH 40
+
+Ethnic Studies
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+ETH ST 1	Introduction to Ethnic Studies	3.00	4	F2023	
+7	F2023	
+ETH ST 6	Introduction to Chicana/o/x and Latina/o/x Studies	3.00	4	F2023	
+ETH ST 7	Introduction to African American and Black Studies	3.00	4	F2023	
+ETH ST 8	Introduction to Asian American Studies	3.00	4	F2024	
+ETH ST 10	Media, Gender and Race	3.00	4G	F2023	
+ETH ST 10	Introduction to Ethnic Studies	3.00	3B	F1995	F1999
+4C	F1996	F1998
+ETH ST 38	Introduction to Latina/o/x Communication Studies	3.00	4	F2023	
+Film Studies
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+FILM 1	Film Appreciation: Introduction to Cinema	3.00	3A	F2005	
+(Formerly CINEMA 9 prior to F2005)
+
+FILM 2	History of Motion Pictures	3.00	3A	F2008	
+(Formerly CINEMA 1 prior to F2005)	3B	F2005	F2010
+FILM 5	Film and Society	3.00	3B	F2005	
+(Formerly CINEMA 5 prior to F2005)
+
+FILM 6	Women in Film	3.00	3A	F2008	
+(Formerly CINEMA 8 prior to F2005)	3B	F2005	
+FILM 7	American Cinema: Crossing Cultures	3.00	3B	F2009	
+FILM 8	The Popular Film Genres	3.00	3A	S2006	
+FILM 11	Literature to Film	3.00	3B	S2008	
+French
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+FRENCH 1	Elementary French I	5.00	6A	F2002	
+FRENCH 2	Elementary French II	5.00	3B	S2004	
+6A	F1991	
+FRENCH 3	Intermediate French I	5.00	3B	F1995	
+6A	F2005	
+FRENCH 4	Intermediate French II	5.00	3B	F1995	
+6A	F2005	
+FRENCH 9	French Culture and Civilization	3.00	3B	F2021	
+FRENCH 20	Francophone Culture Through Film	3.00	3B	F2022	
+Geography
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+GEOG 1	Physical Geography	3.00	5A	F1991	
+GEOG 2	Introduction to Human Geography	3.00	4E	F1991	
+GEOG 3	Weather and Climate	3.00	5A	F1991	
+GEOG 5	Physical Geography with Lab	4.00	5A	F1991	
+5C	F1991	
+GEOG 7	Introduction to Environmental Studies	3.00	4E	F2001	
+Same as: ENVRN 7
+
+GEOG 8	Introduction to Urban Studies	3.00	4E	F2001	
+Same as: URBAN 8
+
+GEOG 11	World Geography: Introduction to Global Studies	3.00	4E	Su2007	
+Same as: GLOBAL 11
+
+GEOG 12	Earth Science with lab	4.00	5A	F2023	
+Same as: GEOL 12	5C	F2023	
+GEOG 14	Geography of California	3.00	4E	F1998	
+Geology
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+GEOL 1	Physical Geology without Laboratory	3.00	5A	F1991	
+GEOL 3	Introduction to Environmental Geology	3.00	5A	S2015	
+GEOL 4	Physical Geology with Laboratory	4.00	5A	F1991	
+5C	F1991	
+GEOL 5	Earth History	4.00	5A	F2001	
+5A	F1991	F1993
+5C	F2001	
+5C	F1991	F1993
+GEOL 6	Environmental Geology with Lab	4.00	5A	F2024	
+5C	F2024	
+GEOL 9	Climate Change	3.00	5A	F2024	
+GEOL 10	Exploration of the Solar System	3.00	5A	F2016	
+Same as: ASTRON 10
+
+GEOL 12	Earth Science with Lab	4.00	5A	F2023	
+Same as: GEOG 12	5C	F2023	
+GEOL 31	Introduction to Physical Oceanography	3.00	5A	F1991	
+GEOL 32	Introduction to Physical Oceanography with Lab	4.00	5A	F2021	
+5C	F2021	
+German
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+GERMAN 1	Elementary German I	5.00	6A	F2002	
+GERMAN 2	Elementary German II	5.00	3B	S2004	
+6A	F1991	
+GERMAN 3	Intermediate German I	5.00	3B	F1995	
+6A	F2005	
+GERMAN 4	Intermediate German II	5.00	3B	F1995	
+6A	F2005	
+Global Studies
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+GLOBAL 3	Global Media	3.00	4G	S2015	
+Same as: MEDIA 3
+
+GLOBAL 5	International Political Economy: Introduction to Global Studies	3.00	4H	W2011	
+Same as: ECON 5, POL SC 5
+
+GLOBAL 10	Global Issues	3.00	4G	S2011	
+GLOBAL 11	World Geography: Introduction to Global Studies	3.00	4E	W2011	
+Same as: GEOG 11
+
+Hebrew
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+HEBREW 1	Elementary Hebrew I	5.00	6A	F2002	
+HEBREW 2	Elementary Hebrew II	5.00	3B	S2004	
+6A	F1991	
+HEBREW 3	Intermediate Hebrew 1	5.00	3B	S2016	
+HEBREW 4	Intermediate Hebrew 2	5.00	3B	S2016	
+History
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+HIST 1	History of Western Civilization I	3.00	3B	F1991	
+HIST 2	History of Western Civilization II	3.00	3B	F1991	
+HIST 3	History of British Civilization I	3.00	3B	F1991	
+HIST 4	History of British Civilization II	3.00	3B	F1991	
+HIST 5	History of Latin America I	3.00	3B	F1991	
+HIST 6	History of Latin America II	3.00	3B	F1991	
+HIST 10	Ethnicity and American Culture	3.00	3B	F1992	
+4F	F2013	
+HIST 11	United States History through Reconstruction	3.00	3B	F1991	
+4F	F2013	
+HIST 12	United States History since Reconstruction	3.00	3B	F1991	
+4F	F2013	
+HIST 13	United States History after 1945	3.00	3B	F1991	
+HIST 14	U.S. Environmental History	3.00	4F	F2013	
+Same as: ENVRN 14
+
+HIST 15	Economic History of the United States	3.00	3B	F1991	
+Same as: ECON 15	4B	F1991	
+HIST 16	African-American History	3.00	3B	F1991	
+HIST 17	History of the American Civilization I	3.00	3B	F1991	F1993
+HIST 18	History of the American Civilization II	3.00	3B	F1991	F1993
+HIST 19	History of Mexico	3.00	3B	F1991	
+HIST 20	History of California	3.00	3B	F1991	
+HIST 21	History of Russia	3.00	3B	F1991	
+HIST 22	History of the Middle East	3.00	3B	F1991	
+HIST 23	Modern History of China and Japan	3.00	3B	F1991	F1992
+HIST 24	History of East Asia to 1600	3.00	3B	F1992	
+HIST 25	History of East Asia since 1600	3.00	3B	F1992	
+HIST 26	South Asian Civilization I	3.00	3B	F1993	
+HIST 27	History of Southeast Asia	3.00	4	F2017	
+HIST 28	Modern Europe: 1914 to Present	3.00	3B	F2016	
+HIST 28	Modern Europe, 1914 to Present	3.00	4F	F1997	Su2002
+4H	F1997	Su2002
+HIST 29	Jewish History	3.00	3B	F1997	
+HIST 32	Global Environmental History	3.00	4F	F2013	
+Same as: ENVRN 32
+
+HIST 33	World Civilizations I	3.00	3B	F1993	
+HIST 34	World Civilizations II	3.00	3B	F1993	
+HIST 37	African Civilization	3.00	3B	F1991	F1995
+HIST 38	African History I	3.00	3B	F1995	
+HIST 39	African History II	3.00	3B	F1995	
+HIST 41	Native American History	3.00	3B	F1996	
+HIST 42	The Latina/o Experience in the United States	3.00	4C	F2003	
+4F	F2003	
+HIST 42	The Native and Latino Experience in the United States	3.00	3B	F1996	F1997
+HIST 43	Mexican-American History	3.00	3B	F1991	
+HIST 45	United States Cultural History Honors Colloquium	3.00	3B	F1991	S2017
+HIST 46	United States Cultural History Seminar	3.00	3B	F1991	S2017
+HIST 47	The Practice of History	3.00	1B	F2012	
+4F	F2012	
+HIST 48	Nonviolent Resistance	3.00	3B	S2005	W2017
+4G	S2005	W2017
+HIST 51	LGBTQ U.S. History	3.00	4	F2023	
+HIST 52	The History of Women in American Culture	3.00	3B	F1991	
+HIST 53	The History of Religion	3.00	3B	F2003	
+HIST 55	History of Science	3.00	3B	F2000	
+4F	F2000	
+HIST 62	Asian-American History	3.00	3B	F1991	
+Home Economics
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+HME EC 6	Introduction to Marriage & Family Life	3.00	4I	F1998	F1999
+Humanities
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+HUM 9A	South Asia: Culture and Civilization	3.00	3B	F2020	
+HUM 26	Introduction to the Humanities	3.00	3B	F1991	
+Same as: ENGL 26
+
+Italian
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+ITAL 1	Elementary Italian I	5.00	6A	F2002	
+ITAL 2	Elementary Italian II	5.00	3B	S2005	
+6A	F1991	
+ITAL 3	Intermediate Italian I	5.00	3B	F2000	
+6A	F2005	
+ITAL 4	Intermediate Italian 2	5.00	3B	F2014	
+6A	F2014	
+Japanese
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+JAPAN 1	Elementary Japanese I	5.00	6A	F2002	
+JAPAN 2	Elementary Japanese II	5.00	3B	S2005	
+6A	F1991	
+JAPAN 3	Intermediate Japanese I	5.00	3B	F1995	
+6A	F2005	
+JAPAN 4	Intermediate Japanese II	5.00	3B	F1995	
+6A	F2005	
+JAPAN 9	Japan: Culture and Civilization	3.00	3B	F2014	
+Journalism
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+JOURN 2	Newswriting and Reporting	3.00	8A	F1991	F1993
+Korean
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+KOREAN 1	Elementary Korean I	5.00	6A	F2002	
+KOREAN 2	Elementary Korean II	5.00	3B	S2005	
+6A	F1999	
+KOREAN 3	Intermediate Korean 1	5.00	3B	S2007	F2026
+6A	F2024	
+KOREAN 4	Intermediate Korean 2	5.00	3B	F2009	
+6A	F2009	
+KOREAN 9	Korean Civilization	3.00	3B	F2022	
+Linguistics
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+LING 1	Introduction to Linguistics	3.00	3B	F2014	
+Mathematics
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+MATH 2	Precalculus	5.00	2A	F1991	
+MATH 4	College Algebra for STEM Majors	4.00	2A	F2018	
+MATH 7	Calculus 1	5.00	2A	F1991	
+MATH 8	Calculus 2	5.00	2A	F1991	
+MATH 10	Discrete Structures	3.00	2A	F1991	
+MATH 11	Multivariable Calculus	5.00	2A	F1991	
+MATH 13	Linear Algebra	3.00	2A	F1991	
+MATH 15	Differential Equations	3.00	2A	F1991	
+MATH 21	Finite Mathematics	3.00	2A	F1991	
+MATH 22	College Algebra for Business and Social Sciences	3.00	2A	F2001	Su2008
+MATH 23	Calculus 1 for Business and Social Science	5.00	2A	F1991	F2007
+MATH 24	Calculus 2 for Business and Social Science	3.00	2A	F1991	W2008
+MATH 26	Functions and Modeling for Business and Social Science	3.00	2A	Su2007	
+MATH 28	Calculus 1 for Business and Social Science	5.00	2A	F2007	
+(Formerly MATH 23 prior to F2007)
+
+MATH 29	Calculus 2 for Business and Social Science	3.00	2A	W2008	
+(Formerly MATH 24 prior to W2008)
+
+MATH 52	Elementary Statistics	3.00	2A	F1991	F2010
+MATH 54	Elementary Statistics	4.00	2A	S2010	
+Media
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+MEDIA 1	Survey of Mass Media Communications	3.00	4G	F2012	
+(Formerly COMM 1 prior to F2012)
+
+MEDIA 3	Global Media	3.00	4G	S2015	
+Same as: GLOBAL 3
+
+MEDIA 4	Introduction to Game Studies	3.00	4G	F2016	
+MEDIA 10	Media, Gender and Race	3.00	4G	F2012	
+(Formerly COMM 10 prior to F2012)
+
+Microbiology
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+MCRBIO 1	Fundamentals of Microbiology	5.00	5B	F1991	
+5C	F1991	
+Music
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+MUSIC 1	Fundamentals of Music	3.00	3A	F1991	
+MUSIC 29	A World of Music	3.00	3A	F2020	
+MUSIC 30	Music History I	3.00	3A	F1991	
+MUSIC 31	Music History II	3.00	3A	F1991	
+MUSIC 32	Appreciation of Music	3.00	3A	F1991	
+MUSIC 33	Jazz in American Culture	3.00	3A	F1991	
+MUSIC 35	Women in Music	3.00	3A	S2001	S2016
+MUSIC 35	Appreciation of Music - World	3.00	3A	F1997	F1998
+MUSIC 36	History of Rock Music	3.00	3A	S2007	
+MUSIC 37	Music in American Culture	3.00	3A	F1999	
+MUSIC 39	History of Opera	3.00	3A	F1998	
+Nutrition
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+NUTR 7	Food and Culture	3.00	4G	F2003	
+Persian
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+PERSIN 1	Elementary Persian I	5.00	6A	F1998	
+PERSIN 2	Elementary Persian II	5.00	3B	S2004	
+6A	F1999	
+Philosophy
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+PHILOS 1	Knowledge and Reality	3.00	3B	F1991	
+PHILOS 2	Ethics	3.00	3B	F1991	
+PHILOS 3	Early Philosophers	3.00	3B	F1991	
+PHILOS 4	Modern Philosophers	3.00	3B	F1991	
+PHILOS 5	Contemporary Moral Conflicts	3.00	3B	F1991	
+PHILOS 6	Philosophy of Science	3.00	3B	F2000	
+PHILOS 7	Logic and Critical Thinking	3.00	8A	F1991	F1993
+PHILOS 10	Bio-Ethics	3.00	3B	F2001	
+PHILOS 11	Philosophy of Art and Aesthetics	3.00	3B	S2008	
+PHILOS 20	Environmental Ethics	3.00	3B	S2012	
+Same as: ENVRN 20
+
+PHILOS 22	Asian Philosophy	3.00	3B	F1991	
+PHILOS 23	Philosophy of Religion	3.00	3B	F1991	
+PHILOS 24	Philosophy in Literature	3.00	3B	F2008	
+3B	F1991	F1995
+PHILOS 41	Philosophical Problems Seminar	3.00	3B	F1991	F1995
+PHILOS 48	Nonviolent Resistance	3.00	3B	S2005	
+4G	S2005	
+PHILOS 51	Political Philosophy	3.00	3B	F1991	
+Same as: POL SC 51	4H	F1991	
+PHILOS 52	Contemporary Political Thought	3.00	3B	F1991	
+Same as: POL SC 52	4H	F1991	
+Photography
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+PHOTO 52	History of Photography	3.00	3A	F2001	
+Same as: AHIS 52
+
+Physics
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+PHYSCS 1	Mechanics	5.00	5A	F1991	F2003
+5C	F1991	F2003
+PHYSCS 2	Heat, Light, Modern Physics	5.00	5A	F1991	F2003
+5C	F1991	F2003
+PHYSCS 3	Electricity and Magnetism	5.00	5A	F1991	F2003
+5C	F1991	F2003
+PHYSCS 6	General Physics 1 with Lab	4.00	5A	F1991	
+5C	F1991	
+PHYSCS 7	General Physics 2 with Lab	4.00	5A	F1991	
+5C	F1991	
+PHYSCS 8	Calculus-Based Physics 1 with Lab	4.00	5A	F1991	
+5C	F1991	
+PHYSCS 9	Calculus-Based Physics 2 with Lab	4.00	5A	F1991	
+5C	F1991	
+PHYSCS 12	Introductory Physics - Non-Laboratory	3.00	5A	F1991	
+PHYSCS 14	Introductory Physics with Laboratory	4.00	5A	F2000	
+5C	F2000	
+PHYSCS 21	Mechanics with Lab	5.00	5A	F2003	
+(Formerly PHYSCS 1 prior to F2003)	5C	F2003	
+PHYSCS 22	Electricity and Magnetism with Lab	5.00	5A	F2003	
+(Formerly PHYSCS 3 prior to F2003)	5C	F2003	
+PHYSCS 23	Fluids, Waves, Thermodynamics, Optics with Lab	5.00	5A	F2003	
+(Formerly PHYSCS 2 prior to F2003)	5C	F2003	
+Physiology
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+PHYS 3	Human Physiology	4.00	5B	F1991	
+5C	F1991	
+Political Science
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+POL SC 1	National and California Government	3.00	4H	F1991	
+POL SC 2	Comparative Government and Politics	3.00	4H	F1991	
+POL SC 3	Introduction to Politics: Justice, Power and Agency	3.00	4H	F2013	
+POL SC 5	International Political Economy: Introduction to Global Studies	3.00	4H	F1992	
+Same as: ECON 5, GLOBAL 5
+
+POL SC 7	International Politics	3.00	4H	F1991	
+POL SC 8	The Modern Far East	3.00	4H	F1991	
+POL SC 14	Middle East Government and Politics	3.00	4H	F1991	
+POL SC 21	Race, Ethnicity, and the Politics of Difference	3.00	4H	F1991	
+POL SC 22	Environmental Politics and Policies	3.00	4H	F1998	
+Same as: ENVRN 22
+
+POL SC 23	Gender, Sex, and Power	3.00	4D	S2005	
+POL SC 24	Introduction to Law	3.00	4H	F2016	
+POL SC 25	Mass Media Politics	3.00	4H	F1996	F1997
+POL SC 28	Modern Europe - 1914 to Present	3.00	4F	F1997	Su2002
+4H	F1997	Su2002
+POL SC 31	Introduction to Public Policy	3.00	4H	S2012	
+POL SC 47	International Politics Seminar	3.00	4H	S2007	
+POL SC 51	Political Philosophy	3.00	3B	F1991	
+Same as: PHILOS 51	4H	F1991	
+POL SC 52	Contemporary Political Thought	3.00	3B	F1991	
+Same as: PHILOS 52	4H	F1991	
+Portuguese
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+PORTGS 1	Elementary Portuguese 1	5.00	6A	S2016	
+PORTGS 2	Elementary Portuguese 2	5.00	6A	F2020	
+Psychology
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+PSYCH 1	General Psychology	3.00	4I	F1991	
+PSYCH 2	Physiological Psychology	3.00	5B	F1991	
+PSYCH 3	Personality: Dynamics and Development	3.00	4I	F1991	
+PSYCH 6	Marriage, Family and Human Intimacy	3.00	4	F2019	
+4I	F1998	F2019
+4I	F1999	F2019
+4I	F1999	F2019
+4I	F1999	F2019
+4I	F1999	F2019
+4I	F1999	F2019
+PSYCH 7	Research Methods in Psychology	3.00	4I	S2014	
+PSYCH 8	Community Psychology	3.00	4	S2018	
+PSYCH 11	Child Growth and Development	3.00	4I	F1991	
+PSYCH 13	Social Psychology	3.00	4I	F1991	
+PSYCH 14	Abnormal Psychology	3.00	4I	F2001	
+PSYCH 18	Childhood: Culture and Personality	3.00	4G	S2007	S2017
+PSYCH 19	Lifespan Human Development	3.00	4I	S2007	
+PSYCH 25	Human Sexuality	3.00	4I	F2001	
+PSYCH 40	Environmental Psychology	3.00	4I	F2011	
+Same as: ENVRN 40
+
+Religious Studies
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+REL ST 22	Asian Philosophy	3.00	3B	F1991	F1997
+REL ST 23	Philosophy of Religion	3.00	3B	F1991	F1997
+REL ST 51	Literature of the Bible: Old Testament	3.00	3B	F1991	
+Same as: ENGL 51
+
+REL ST 52	Literature of the Bible: New Testament	3.00	3B	F1991	
+Same as: ENGL 52
+
+Russian
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+RUSS 1	Elementary Russian I	5.00	6A	F2002	
+RUSS 2	Elementary Russian II	5.00	3B	S2004	
+6A	F1991	
+Sociology
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+SOCIOL 1	Introduction to Sociology	3.00	4J	F1991	
+SOCIOL 1S	Introduction to Sociology-Service Learning	3.00	4J	F2009	
+SOCIOL 2	Social Problems	3.00	4J	F1991	
+SOCIOL 2S	Social Problems-Service Learning	3.00	4J	F2009	
+SOCIOL 4	Social Analysis	3.00	4J	F1991	
+SOCIOL 12	Sociology of the Family	3.00	4I	F2003	
+SOCIOL 30	African Americans in Contemporary Society	3.00	4J	F1998	
+SOCIOL 31	Latinas/os in Contemporary Society	3.00	4J	F1991	
+SOCIOL 32	Asian American in Contemporary Society	3.00	4J	F1991	
+SOCIOL 33	Sociology of Sex and Gender	3.00	4J	F1991	
+SOCIOL 34	Racial and Ethnic Relations in Amercian Society	3.00	4J	F1991	
+Spanish
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+SPAN 1	Elementary Spanish I	5.00	6A	F2002	
+SPAN 1B	Elementary Spanish 1B	3.00	6A	F2023	
+SPAN 2	Elementary Spanish II	5.00	3B	S2004	
+6A	F1991	
+SPAN 3	Intermediate Spanish I	5.00	3B	F1995	
+6A	F2005	
+SPAN 4	Intermediate Spanish II	5.00	3B	F1995	
+6A	F2005	
+SPAN 9	The Civilization of Spain	3.00	3B	F1991	
+SPAN 11	Spanish for Native Speakers I	5.00	6A	F1998	
+SPAN 12	Spanish for Native Speakers 2	5.00	3B	S2009	
+6A	S2009	
+SPAN 20	The Civilization of Latin America	3.00	3B	F1999	
+4C	F1999	
+Speech
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+SPEECH 1	Elements of Public Speaking	3.00	1C	F1991	F2012
+SPEECH 2	Persuasion	3.00	1C	F2011	F2012
+3B	F2011	F2012
+SPEECH 5	Interpersonal Communication	3.00	1C	F2010	F2012
+4G	F2010	F2012
+SPEECH 6	Fundamentals of Small Group Discussion	3.00	1C	F2002	F2012
+SPEECH 7	Intercultural Communication	3.00	4G	F2002	F2012
+SPEECH 11	Argumentation	3.00	1C	F1991	F2012
+Theater Arts
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+TH ART 2	Introduction to the Theater	3.00	3A	F1991	
+TH ART 5	History of World Theatre	3.00	3A	F1991	
+TH ART 7	Modern Drama	3.00	3A	F1991	S2016
+3B	F1991	S2016
+Turkish
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+TURKSH 1	Elementary Turkish 1	5.00	6A	F2011	
+Urban Studies
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+URBAN 8	Introduction to Urban Studies	3.00	4E	F2001	
+Same as: GEOG 8
+
+Women Studies
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+WGS 8	Women in the Economy	3.00	4	F2019	
+Same as: ECON 8
+
+WGS 10	Introduction to Women's Studies	3.00	4D	S2019	
+(Formerly WOM ST 10 prior to S2019)
+
+WGS 20	Gender,, Feminisms and Social Movements: A Global Approach	3.00	4D	S2019	
+(Formerly WOM ST 20 prior to S2019)
+
+WGS 30	Women, Gender, and Sexuality in Popular Culture	3.00	4D	S2019	
+(Formerly WOM ST 30 prior to S2019)
+
+WGS 40	Introduction to LGBTQ Studies	3.00	4	F2019	
+WOM ST 10	Introduction to Women's Studies	3.00	4D	F1996	S2019
+WOM ST 20	Women, Feminism and Social Movements: A Global Approach	3.00	4D	S2008	S2019
+WOM ST 30	Women and Popular Culture	3.00	4D	F2009	S2019
+Zoology
+Course	Title	Semester Units	IGETC Areas	Date Approved	Date Removed
+ZOOL 5	Introductory Zoology	4.00	5B	F1991	
+5C	F1991	
