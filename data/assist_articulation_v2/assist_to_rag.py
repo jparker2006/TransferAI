@@ -446,6 +446,8 @@ def process_assist_json_file(file_path: Union[str, Path], manual_source_url: Opt
                 instruction_type = asset.instruction.get('type')
                 conjunction = asset.instruction.get('conjunction')
                 selection_type = asset.instruction.get('selectionType', 'Complete').capitalize()
+                amount = asset.instruction.get('amount')
+                amount_unit_type = asset.instruction.get('amountUnitType', 'Course')
 
                 # Handles "Select A, B, or C" type instructions
                 if conjunction == 'Or':
@@ -463,6 +465,25 @@ def process_assist_json_file(file_path: Union[str, Path], manual_source_url: Opt
                 # Handles "Complete the following" type instructions
                 elif instruction_type == 'Following':
                     group_instruction_text = f"{selection_type} the following"
+                
+                # Handles "Complete X courses from the following" type instructions
+                elif instruction_type == 'NFromArea':
+                    if amount and amount > 0:
+                        unit_text = amount_unit_type.lower() if amount_unit_type != "Course" else "course"
+                        plural = "s" if amount > 1 and amount_unit_type == "Course" else ""
+                        amount_str = int(amount) if amount.is_integer() else amount
+                        group_instruction_text = f"{selection_type} {amount_str} {unit_text}{plural} from the following"
+                
+                # Handles "Complete X course from A" type instructions
+                elif instruction_type == 'NFromConjunction':
+                    if amount and amount > 0:
+                        unit_text = amount_unit_type.lower() if amount_unit_type != "Course" else "course"
+                        plural = "s" if amount > 1 and amount_unit_type == "Course" else ""
+                        amount_str = int(amount) if amount.is_integer() else amount
+                        # Generate section labels (A, B, C, etc.)
+                        section_labels = [chr(ord('A') + i) for i, _ in enumerate(asset.sections)]
+                        if section_labels:
+                            group_instruction_text = f"{selection_type} {amount_str} {unit_text}{plural} from {section_labels[0]}"
             # --- End Instruction Logic ---
 
             # Group-level advisements can add to the instruction

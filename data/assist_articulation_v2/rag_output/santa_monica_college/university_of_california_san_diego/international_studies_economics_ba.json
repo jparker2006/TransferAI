@@ -1,0 +1,158 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/35f13cde-a6ec-4df1-a7de-08dca807bc76",
+  "agreement_title": "International Studies - Economics B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL SUBJECT TO CHANGE. PLEASE CONSULT THE CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. Why International Studies?The International Studies Program (ISP) at UC San Diego offers an interdisciplinary major that brings the insights of different disciplines\u2014anthropology, economics, international business, history, linguistics, literature, philosophy, political science and sociology\u2014to the deep exploration of the causes and consequences of the processes found across the globe. The major provides students with both a firm grounding in a discipline and the flexibility to permit exploration from alternative perspectives. For more information, please visit http://isp.ucsd.edu.In addition to the BA in International Studies, ISP and the School of Global Policy and Strategy (GPS) offer a sequential Bachelor of Arts / Master of International Affairs program. With careful preparation, transfer students are able to complete their BA in International Studies and then their Master of International Affairs in three years following transfer to UC San Diego. Application to the program is required. Please see the International Studies \u2013 Bachelor/Master articulation agreement for requirements as well as the following website for more information: http://isp.ucsd.edu/programs/bachelor-master/index.htmlInternational Studies Major Lower-Division Requirements NOTE: Students are encouraged to complete these requirements before transfer to UCSD. All courses (excluding language courses) must be taken for a letter grade of C- or better.1. Language Requirement:a. Completion of the fourth quarter college-level course in a foreign language.i. Note: If there is not an articulation agreement in place for language courses at this particular community college, please contact the International Studies Program at isp@ucsd.edu for the procedure to obtain credit at UCSD.b. OR the language requirement may also be completed by one of the following options:i. Graduation from a high school outside of the United States where a language other than English was spoken.ii. Score of 4 or better on AP world language exam or 3 or better on AP world literature exam.iii. Score of 6 or 7 on the IB Language Exam.iv. Score of 700 or better on SAT II language exam.v. Passing of a proficiency exam at UCSD.2. Calculus:a. Completion of one year of calculus courses that are equivalent to the following UCSD courses.i. MATH 10A-10B-10C OR MATH 20A-20B-20C3. Economics: a. Completion of one year of lower-division economics courses that are equivalent to the following UCSD courses:i. ECON 1 - Microeconomicsii. ECON 2 \u2013 Market Imperfections and Policyiii. ECON 3 - MacroeconomicsPlease contact the International Studies program at isp@ucsd.edu or (858) 822-5299 for additional information or clarification."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "Select A or B",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 10A: Calculus I (4.00 units)",
+              "sending_course_text": "MATH 7: Calculus 1 (5.00 units) OR MATH 28: Calculus 1 for Business and Social Science (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 10B: Calculus II (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units) OR (MATH 28: Calculus 1 for Business and Social Science (5.00 units) AND MATH 29: Calculus 2 for Business and Social Science (3.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 10C: Calculus III (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 20A: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "(MATH 7: Calculus 1 (5.00 units) AND MATH 8: Calculus 2 (5.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 20B: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20C: Calculus and Analytic Geometry for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 11: Multivariable Calculus (5.00 units)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "ECON 1: Principles of Microeconomics (4.00 units)",
+              "sending_course_text": "ECON 1: Principles of Microeconomics (3.00 units)"
+            },
+            {
+              "receiving_course_text": "ECON 2: Market Imperfections and Policy (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "ECON 3: Principles of Macroeconomics (4.00 units)",
+              "sending_course_text": "ECON 2: Principles of Macroeconomics (3.00 units)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 3,
+      "requirement_area": "",
+      "group_instruction": "Complete 1 course from the following",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "CHIN 20AN: Second-Year Chinese I (4.00 units)",
+              "sending_course_text": "CHNESE 3: Intermediate Chinese 1 (5.00 units)"
+            },
+            {
+              "receiving_course_text": "JAPN 20A: Second Year Japanese I (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LIAB 1D: Arabic Conversation (2.50 units) AND LIAB 1DX: Analysis of Arabic (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LIFR 1D: French Conversation (2.50 units) AND LIFR 1DX: Analysis of French (2.50 units)",
+              "sending_course_text": "FRENCH 3: Intermediate French I (5.00 units)"
+            },
+            {
+              "receiving_course_text": "LTFR 2A: Intermediate French I (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LIGM 1D: German Conversation (2.50 units) AND LIGM 1DX: Analysis of German (2.50 units)",
+              "sending_course_text": "GERMAN 3: Intermediate German I (5.00 units)"
+            },
+            {
+              "receiving_course_text": "LTGM 2A: Intermediate German I (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LIIT 1D: Italian Conversation (2.50 units) AND LIIT 1DX: Analysis of Italian (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTIT 2A: Intermediate Italian I (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTKO 2A: Intermediate Korean: Second Year I (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LIPO 1D: Portuguese Conversation (2.50 units) AND LIPO 1DX: Analysis of Portuguese (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTRU 2A: Second-Year Russian (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LISL 1D: American Sign Language Conversation (2.50 units) AND LISL 1DX: Analysis of American Sign Language (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LISP 1D: Spanish Conversation (2.50 units) AND LISP 1DX: Analysis of Spanish (2.50 units)",
+              "sending_course_text": "SPAN 3: Intermediate Spanish I (5.00 units)"
+            },
+            {
+              "receiving_course_text": "LTSP 2A: Intermediate Spanish I: Foundations (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

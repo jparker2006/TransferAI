@@ -1,0 +1,157 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/da31dba3-8138-4ece-a822-08dca807bc76",
+  "agreement_title": "Data Science B.S.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Effective Fall 2021, transfer major preparation will be required for this major. or details, visit: http://admissions.ucsd.edu/MajorPrep. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation.Data Science Major RequirementsThe major consists of 112 units with fifty-two units from lower-division courses and sixty units from upper-division courses. The lower-division curriculum includes calculus and linear algebra courses for sixteen units, data science courses for twenty-eight units, and subject domain courses for eight units. The program includes twenty units of elective courses that will enable students to embark upon an in-depth exploration of one or more areas in which data science can profitably be applied. Alternatively, students can choose to explore the mathematical, statistical, and computational foundations of data science in even greater depth.All majors will be required to undertake a senior project that will give them an opportunity to creatively synthesize much of what they have learned in the data science courses for addressing problems in chosen domains.Lower-division requirements (52 units)All lower-division courses must be taken for a letter grade. A minimum grade of C- is required.Mathematics (16 units): Math 18 , Math 20A, Math 20B, Math 20CData Science (28 units):COGS 9: Introduction to Data ScienceDSC 10: Principles of Data ScienceDSC 20: Algorithms, Programming and Data Structures for Data Science IDSC 30: Algorithms, Programming and Data Structures for Data Science IIDSC 40A: Theoretical Foundations of Data Science IDSC 40B: Theoretical Foundations of Data Science IIDSC 80: The Practice and Application of Data ScienceSubject Domain Courses (8 units): Students must choose one of the following two-course sequences (8 units)Business Analytics and Econometrics: ECON 1 and ECON 3Machine Learning and Artificial Intelligence: COGS 14A-BScience: BILD 1 and BILD 3Social Sciences: (POLI 5 and POLI 30) or (SOCI 60 and USP 4)"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "LOWER DIVISION REQUIREMENTS",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 18: Linear Algebra (4.00 units)",
+              "sending_course_text": "MATH 13: Linear Algebra (3.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20A: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "(MATH 7: Calculus 1 (5.00 units) AND MATH 8: Calculus 2 (5.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 20B: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20C: Calculus and Analytic Geometry for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 11: Multivariable Calculus (5.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "COGS 9: Introduction to Data Science (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "DSC 10: Principles of Data Science (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "DSC 20: Programming and Basic Data Structures for Data Science (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "DSC 30: Data Structures and Algorithms for Data Science (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "DSC 40A: Theoretical Foundations of Data Science I (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "DSC 40B: Theoretical Foundations of Data Science II (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "DSC 80: The Practice and Application of Data Science (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "requirement_area": "ADDITIONAL MAJOR REQUIREMENTS",
+      "group_instruction": "Complete A, B, C, D, or E",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "BILD 1: The Cell (4.00 units)",
+              "sending_course_text": "(BIOL 21: Cell Biology and Evolution (4.00 units) AND BIOL 22: Genetics and Molecular Biology (4.00 units) AND BIOL 23: Organismal and Environmental Biology (5.00 units))"
+            },
+            {
+              "receiving_course_text": "BILD 3: Organismic and Evolutionary Biology (4.00 units)",
+              "sending_course_text": "(BIOL 21: Cell Biology and Evolution (4.00 units) AND BIOL 22: Genetics and Molecular Biology (4.00 units) AND BIOL 23: Organismal and Environmental Biology (5.00 units))"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "ECON 1: Principles of Microeconomics (4.00 units)",
+              "sending_course_text": "ECON 1: Principles of Microeconomics (3.00 units)"
+            },
+            {
+              "receiving_course_text": "ECON 3: Principles of Macroeconomics (4.00 units)",
+              "sending_course_text": "ECON 2: Principles of Macroeconomics (3.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "C",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "COGS 14A: Introduction to Research Methods (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "COGS 14B: Introduction to Statistical Analysis (4.00 units)",
+              "sending_course_text": "MATH 54: Elementary Statistics (4.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "D",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "POLI 5: Data Analytics for the Social Sciences (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "POLI 30: Political Inquiry (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            }
+          ]
+        },
+        {
+          "section_label": "E",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "SOCI 60: Practice of Social Research (4.00 units)",
+              "sending_course_text": "SOCIOL 4: Social Analysis (3.00 units)"
+            },
+            {
+              "receiving_course_text": "USP 4: Introduction to Geographic Information Systems (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

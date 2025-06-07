@@ -1,0 +1,66 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/4150db51-109a-407b-a818-08dca807bc76",
+  "agreement_title": "Theatre B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. \ufeffThe Theatre major provides a student with a solid artistic and academic background. The required lower-division courses equip the student with the skills and knowledge necessary for more advanced work in each of the areas of study. The major is structured to respond to the needs of students who seek a broad-based liberal arts education in theatre as well as those who plan to pursue their studies at the graduate level with the aim of acquiring either an M.F.A. or Ph.D. degree. Students should meet with the department's undergraduate coordinator the quarter in which they declare a theatre major in order to plan an appropriate individual course of study. For more information please visit https://theatre.ucsd.edu/admissions/undergraduate/theatre-major.html NOTE: Theatre majors are required to do two practicums-TDPR 6. You must complete at least one practicum at UCSD. It\u2019s recommended you complete TDPR 6 within a year of declaring a Theatre major."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "TDAC 1: Introduction to Acting (4.00 units)",
+              "sending_course_text": "TH ART 41: Acting I (3.00 units)"
+            },
+            {
+              "receiving_course_text": "TDDE 1: Introduction to Design for the Theatre (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "TDGE 1: Introduction to Theatre (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "TDHT 10: Introduction to Play Analysis (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "TDHT 21: Ancient and Medieval Theatre (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "TDHT 22: Theatre 1500-1900 (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "TDHT 23: Twentieth-Century Theatre (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "TDPW 1: Introduction to Playwriting (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "TDPR 6: Theatre Practicum (6.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

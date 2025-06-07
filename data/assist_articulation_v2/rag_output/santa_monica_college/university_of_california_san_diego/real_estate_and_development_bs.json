@@ -1,0 +1,102 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/c757229d-4e9c-42cd-6711-08dca807bc66",
+  "agreement_title": "Real Estate and Development B.S.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Effective Fall 2023, major preparation will be required for this major. For details, visit: http://admissions.ucsd.edu/MajorPrepTransfer students must complete the following preparatory courses for the Real Estate &amp; Development Major prior to enrolling at UC San Diego.ECON/MGT 4MGT 5ECON 1MATH 10A or 20AThe curriculum for the Bachelor of Science in Real Estate and Development is broad and interdisciplinary in response to the diverse ways in which real estate impacts the ways people live, work, and enrich their lives. Required courses include economics, business management, urban planning, real estate finance, real estate law, sustainable development, and urban design. All coursework is designed to facilitate qualitative, quantitative, analytical, strategic, design, and problem-solving, solutions-oriented skills. Majors are encouraged to pair their degree with a minor degree in one of the many minor degrees offered at UC San Diego, particularly those offered by the Rady School of Management including the minor in business and the minor in entrepreneurship and innovation. For more information please visit usp.ucsd.edu."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "LOWER DIVISION REQUIREMENTS",
+      "group_instruction": "Complete 1 course from the following",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "USP 1: History of U.S. Urban Communities (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "USP 2: Urban World System (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "requirement_area": "LOWER DIVISION REQUIREMENTS",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "USP 5: Introduction to the Real Estate and Development Process (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "USP 15: Applied Urban Economics for Planning and Development (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "USP 25: Real Estate and Development Principles and Analysis (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "ECON 1: Principles of Microeconomics (4.00 units)",
+              "sending_course_text": "ECON 1: Principles of Microeconomics (3.00 units)"
+            },
+            {
+              "receiving_course_text": "ECON 4: Financial Accounting (4.00 units) (Same as MGT 4)",
+              "sending_course_text": "ACCTG 1: Introduction to Financial Accounting (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MGT 5: Managerial Accounting (4.00 units)",
+              "sending_course_text": "(ACCTG 1: Introduction to Financial Accounting (5.00 units) AND ACCTG 2: Corporate Financial and Managerial Accounting (5.00 units))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 3,
+      "requirement_area": "LOWER DIVISION REQUIREMENTS",
+      "group_instruction": "Complete 1 course from the following",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 10A: Calculus I (4.00 units)",
+              "sending_course_text": "MATH 7: Calculus 1 (5.00 units) OR MATH 28: Calculus 1 for Business and Social Science (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20A: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "(MATH 7: Calculus 1 (5.00 units) AND MATH 8: Calculus 2 (5.00 units))"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
