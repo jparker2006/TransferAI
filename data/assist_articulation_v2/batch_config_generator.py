@@ -10,9 +10,9 @@ DEFAULT_TARGET_MAJORS: List[str] = [
     # --- Batch 1  ---
     "CSE: Computer Science B.S.",
     # --- Batch 1.1  ---
-    # "Biology: General Biology B.S.",
-    # "Physics B.S.",
-    # "Mathematics B.S.",
+    "Biology: General Biology B.S.",
+    "Physics B.S.",
+    "Mathematics B.S."
     # # --- Batch 1.2  ---
     # "Structural Engineering B.S.",
     # "Economics B.S.",

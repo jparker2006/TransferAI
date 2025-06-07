@@ -1,0 +1,194 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/b52c8fad-33dc-492f-6760-08dca807bc66",
+  "agreement_title": "Physics B.S.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "documents": [
+    {
+      "type": "General Text",
+      "requirement_area": "General Information",
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Effective Fall 2018, major preparation will be required for this major. Transfer major preparation will allow a student to complete the Physics 4 series in their first year at UC San Diego in preparation for the core upper division major program. For details, visit: http://admissions.ucsd.edu/MajorPrep and https://www.physics.ucsd.edu/Student/Prospective/Undergraduate/TransferAdmissions Special Advising Note: For more information about this major, see http://www.physics.ucsd.edu/ and send inquiries to advising@physics.ucsd.edu. \ufeffThe B.S. program provides a basic foundation for students to go on to graduate school in physics or related areas, such as engineering and other physical sciences. It is at the same time a solid preparation for gainful employment in the technical fields."
+    },
+    {
+      "type": "General Text",
+      "requirement_area": "General Information",
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "RECOMMENDED BUT NOT REQUIRED",
+      "group_id": 1,
+      "section_label": "A",
+      "text": "Requirement Area: RECOMMENDED BUT NOT REQUIRED. To satisfy the 'PHYS 2A: Physics - Mechanics (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: (PHYSCS 21: Mechanics with Lab (5.00 units))"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "RECOMMENDED BUT NOT REQUIRED",
+      "group_id": 1,
+      "section_label": "A",
+      "text": "Requirement Area: RECOMMENDED BUT NOT REQUIRED. To satisfy the 'PHYS 2B: Physics - Electricity and Magnetism (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: (PHYSCS 22: Electricity and Magnetism with Lab (5.00 units))"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "RECOMMENDED BUT NOT REQUIRED",
+      "group_id": 1,
+      "section_label": "A",
+      "text": "Requirement Area: RECOMMENDED BUT NOT REQUIRED. To satisfy the 'PHYS 2C: Physics - Fluids, Waves, Thermodynamics, and Optics (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: (PHYSCS 23: Fluids, Waves, Thermodynamics, Optics with Lab (5.00 units))"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 2,
+      "section_label": "A",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. To satisfy the 'PHYS 2CL: Physics Laboratory - Electricity and Magnetism (2.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: (PHYSCS 22: Electricity and Magnetism with Lab (5.00 units))"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 2,
+      "section_label": "A",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. To satisfy the 'PHYS 2DL: Physics Laboratory-Modern Physics (2.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: (PHYSCS 23: Fluids, Waves, Thermodynamics, Optics with Lab (5.00 units)) OR (PHYSCS 24: Modern Physics with Lab (3.00 units))"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 2,
+      "section_label": "A",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. To satisfy the 'PHYS 4A: Physics for Physics Majors\u2014Mechanics (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: No Course Articulated"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 2,
+      "section_label": "A",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. To satisfy the 'PHYS 4B: Physics for Physics Majors\u2014Fluids, Waves, Statistical and Thermal Physics (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: No Course Articulated"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 2,
+      "section_label": "A",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. To satisfy the 'PHYS 4C: Physics for Physics Majors\u2014Electricity and Magnetism (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: No Course Articulated"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 2,
+      "section_label": "A",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. To satisfy the 'PHYS 4D: Physics for Physics Majors\u2014Electromagnetic Waves, Special Relativity and Optics (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: No Course Articulated"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 2,
+      "section_label": "A",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. To satisfy the 'PHYS 4E: Physics for Physics Majors\u2014Quantum Physics (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: No Course Articulated"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 3,
+      "section_label": "A",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. To satisfy the 'MATH 18: Linear Algebra (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: (MATH 13: Linear Algebra (3.00 units))"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 3,
+      "section_label": "A",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. To satisfy the 'MATH 20A: Calculus for Science and Engineering (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: (MATH 7: Calculus 1 (5.00 units) AND MATH 8: Calculus 2 (5.00 units))"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 3,
+      "section_label": "A",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. To satisfy the 'MATH 20B: Calculus for Science and Engineering (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: (MATH 8: Calculus 2 (5.00 units))"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 3,
+      "section_label": "A",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. To satisfy the 'MATH 20C: Calculus and Analytic Geometry for Science and Engineering (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: (MATH 11: Multivariable Calculus (5.00 units))"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 3,
+      "section_label": "A",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. To satisfy the 'MATH 20D: Introduction to Differential Equations (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: (MATH 15: Differential Equations (3.00 units))"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 3,
+      "section_label": "A",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. To satisfy the 'MATH 20E: Vector Calculus (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: (MATH 11: Multivariable Calculus (5.00 units))"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 4,
+      "section_label": "A",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. Instruction: Select A or B. To satisfy the 'PHYS 41: Scientific Computing with Python (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: No Course Articulated"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 4,
+      "section_label": "B",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. Instruction: Select A or B. To satisfy the 'CENG 15: Engineering Computation Using MATLAB (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: No Course Articulated"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 4,
+      "section_label": "B",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. Instruction: Select A or B. To satisfy the 'NANO 15: Engineering Computation Using MATLAB (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: No Course Articulated"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 4,
+      "section_label": "B",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. Instruction: Select A or B. To satisfy the 'COGS 18: Introduction to Python (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: No Course Articulated"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 4,
+      "section_label": "B",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. Instruction: Select A or B. To satisfy the 'CSE 8A: Introduction to Programming and Computational Problem Solving I (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: No Course Articulated"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 4,
+      "section_label": "B",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. Instruction: Select A or B. To satisfy the 'CSE 11: Introduction to Programming and Computational Problem Solving - Accelerated Pace (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: (CS 55: JAVA Programming (3.00 units))"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 4,
+      "section_label": "B",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. Instruction: Select A or B. To satisfy the 'CSE 12: Basic Data Structures and Object-Oriented Design (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: (CS 20A: Data Structures with C++ (3.00 units) AND CS 20B: Data Structures with JAVA (3.00 units))"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 4,
+      "section_label": "B",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. Instruction: Select A or B. To satisfy the 'ECE 15: Engineering Computation (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: This course must be taken at the university after transfer"
+    },
+    {
+      "type": "Course Requirement",
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_id": 4,
+      "section_label": "B",
+      "text": "Requirement Area: LOWER DIVISION MAJOR REQUIREMENTS. Instruction: Select A or B. To satisfy the 'MAE 8: MATLAB Programming for Engineering Analysis (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: (CS 52: C++ Programming (3.00 units))"
+    }
+  ]
+}
