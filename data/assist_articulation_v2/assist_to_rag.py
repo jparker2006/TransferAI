@@ -89,6 +89,19 @@ class Course:
     visibleCrossListedCourses: List[Dict[str, Any]] = field(default_factory=list)
 
 @dataclass
+class Series:
+    conjunction: str
+    name: str
+    courses: List[Course]
+    
+    @classmethod
+    def from_dict(cls, data: Dict[str, Any]):
+        instance = _from_dict(cls, data)
+        if 'courses' in data and data['courses']:
+            instance.courses = [_from_dict(Course, course_data) for course_data in data['courses']]
+        return instance
+
+@dataclass
 class SendingCourseGroupItem:
     type: SendingCourseGroupItemType
     position: int
@@ -147,6 +160,7 @@ class Cell:
     type: TemplateCellType
     position: int
     course: Optional[Course] = None
+    series: Optional[Series] = None
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]):
@@ -155,7 +169,10 @@ class Cell:
             # The cross-listed courses are siblings of the course object in the cell
             course_data['visibleCrossListedCourses'] = data.get('visibleCrossListedCourses', [])
         
+        series_data = data.get('series')
+        
         data['course'] = _from_dict(Course, course_data)
+        data['series'] = Series.from_dict(series_data) if series_data else None
         return _from_dict(cls, data)
 
 @dataclass
@@ -295,6 +312,15 @@ def _format_course(course: Course, include_units=True) -> str:
             
     return text
 
+def _format_series(series: Series, include_units=True) -> str:
+    """Formats a series object into a string like 'HILD 2A AND HILD 2B AND HILD 2C'"""
+    if not series.courses:
+        return series.name if series.name else "Empty Series"
+    
+    course_texts = [_format_course(course, include_units=include_units) for course in series.courses]
+    conjunction = f" {series.conjunction.upper()} "
+    return conjunction.join(course_texts)
+
 def _format_advisement_string(advisement: Advisement) -> str:
     """
     Converts an advisement object into a human-readable string.
@@ -405,29 +431,27 @@ def process_assist_json_file(file_path: Union[str, Path], manual_source_url: Opt
             
             # --- Start Instruction Logic ---
             group_instruction_text = ""
-            # Handle simple text content on the group, e.g., "Complete the following"
-            if asset.content:
-                group_instruction_text = _clean_html(asset.content)
+            if asset.instruction:
+                instruction_type = asset.instruction.get('type')
+                conjunction = asset.instruction.get('conjunction')
+                selection_type = asset.instruction.get('selectionType', 'Complete').capitalize()
 
-            # Handle complex, structured instructions, e.g., "Select A, B, or C"
-            # This will override the simpler content text if present.
-            structured_instruction_text = ""
-            if asset.instruction and asset.instruction.get('conjunction') == 'Or':
-                section_labels = [chr(ord('A') + i) for i, _ in enumerate(asset.sections)]
-                joined_labels = ""
-                if len(section_labels) > 2:
-                    joined_labels = ", ".join(section_labels[:-1]) + ", or " + section_labels[-1]
-                elif len(section_labels) == 2:
-                    joined_labels = " or ".join(section_labels)
-                elif section_labels:
-                    joined_labels = section_labels[0]
+                # Handles "Select A, B, or C" type instructions
+                if conjunction == 'Or':
+                    section_labels = [chr(ord('A') + i) for i, _ in enumerate(asset.sections)]
+                    joined_labels = ""
+                    if len(section_labels) > 2:
+                        joined_labels = ", ".join(section_labels[:-1]) + ", or " + section_labels[-1]
+                    elif len(section_labels) == 2:
+                        joined_labels = " or ".join(section_labels)
+                    elif section_labels:
+                        joined_labels = section_labels[0]
+                    if joined_labels:
+                        group_instruction_text = f"{selection_type} {joined_labels}"
                 
-                if joined_labels:
-                    instruction_verb = asset.instruction.get('selectionType', 'Complete').capitalize()
-                    structured_instruction_text = f"{instruction_verb} {joined_labels}"
-            
-            if structured_instruction_text:
-                group_instruction_text = structured_instruction_text
+                # Handles "Complete the following" type instructions
+                elif instruction_type == 'Following':
+                    group_instruction_text = f"{selection_type} the following"
             # --- End Instruction Logic ---
 
             # Group-level advisements can add to the instruction
@@ -469,6 +493,18 @@ def process_assist_json_file(file_path: Union[str, Path], manual_source_url: Opt
 
                             current_section["requirements"].append({
                                 "receiving_course_text": receiving_course_text,
+                                "sending_course_text": sending_course_text,
+                            })
+                        elif cell.type == TemplateCellType.SERIES and cell.series:
+                            receiving_series_text = _format_series(cell.series)
+                            
+                            articulation = agreement.articulations.get(cell.id)
+                            sending_course_text = "No Course Articulated"
+                            if articulation:
+                                sending_course_text = _generate_text_for_sending_articulation(articulation.articulation)
+
+                            current_section["requirements"].append({
+                                "receiving_course_text": receiving_series_text,
                                 "sending_course_text": sending_course_text,
                             })
                 

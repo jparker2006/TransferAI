@@ -23,6 +23,10 @@
           "section_rule": "",
           "requirements": [
             {
+              "receiving_course_text": "HILD 2A: United States History (4.00 units) AND HILD 2B: United States History (4.00 units) AND HILD 2C: United States History (4.00 units)",
+              "sending_course_text": "(HIST 11: United States History through Reconstruction (3.00 units) AND HIST 12: United States History since Reconstruction (3.00 units))"
+            },
+            {
               "receiving_course_text": "HILD 2A: United States History (4.00 units)",
               "sending_course_text": "HIST 11: United States History through Reconstruction (3.00 units)"
             },
