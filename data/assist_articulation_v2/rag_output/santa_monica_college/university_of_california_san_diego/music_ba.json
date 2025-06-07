@@ -1,0 +1,42 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/4608dfa0-72cc-475e-672f-08dca807bc66",
+  "agreement_title": "Music B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. The curriculum for the Bachelor of Arts Degree in Music emphasizes the development of musical listening and performance skills as applied to both contemporary and traditional music. Students can concentrate in the areas of composition, performance, literature, technology, or jazz and the music of the African Diaspora.All transfer students are cleared to enroll in Music 101A - Music Theory and Practice I. Students must take a placement exam for Music 2ABC - Basic Musicianship, which will be given Monday of Welcome Week, and Music 2AK,BK, and CK, which will be given at the first class meeting in the fall quarter. If the exams are not passed, Music 2A-B-C tutoring is provided and Music 2AK-BK-CK must be taken.At least three quarters of performance ensembles are required.For more information please visit https://music-cms.ucsd.edu/ugrad/index.html"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "Articulation is subject to placement by proficiency exam\\nMUS 2A: Basic Musicianship (4.00 units) AND MUS 2AK: Basic Keyboard (2.00 units)",
+              "sending_course_text": "MUSIC 2: Musicianship (2.00 units)"
+            },
+            {
+              "receiving_course_text": "Articulation is subject to placement by proficiency exam\\nMUS 2B: Basic Musicianship (4.00 units) AND MUS 2BK: Basic Keyboard (2.00 units)",
+              "sending_course_text": "MUSIC 3: Musicianship (2.00 units)"
+            },
+            {
+              "receiving_course_text": "Articulation is subject to placement by proficiency exam\\nMUS 2C: Basic Musicianship (4.00 units) AND MUS 2CK: Basic Keyboard (2.00 units)",
+              "sending_course_text": "MUSIC 4: Musicianship (2.00 units)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

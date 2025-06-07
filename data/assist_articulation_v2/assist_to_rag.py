@@ -131,6 +131,7 @@ class SendingArticulationItem:
 class SendingArticulation:
     items: List[SendingArticulationItem] = field(default_factory=list)
     noArticulationReason: Optional[str] = None
+    courseGroupConjunctions: List[Dict[str, Any]] = field(default_factory=list)
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]):
@@ -161,6 +162,7 @@ class Cell:
     position: int
     course: Optional[Course] = None
     series: Optional[Series] = None
+    seriesAttributes: List[Dict[str, Any]] = field(default_factory=list)
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]):
@@ -303,10 +305,15 @@ def _format_course(course: Course, include_units=True) -> str:
     if course.visibleCrossListedCourses:
         cross_listed_texts = []
         for cl_course_data in course.visibleCrossListedCourses:
-             # The actual course data is nested under a 'course' key
-            cl_course = cl_course_data.get('course')
-            if cl_course:
-                cross_listed_texts.append(f"{cl_course['prefix'].strip()} {cl_course['courseNumber'].strip()}")
+            # Handle both nested and direct course data structures
+            if 'course' in cl_course_data:
+                # Nested structure: course data is under a 'course' key (e.g., CSE case)
+                cl_course = cl_course_data['course']
+                if cl_course.get('prefix') and cl_course.get('courseNumber'):
+                    cross_listed_texts.append(f"{cl_course['prefix'].strip()} {cl_course['courseNumber'].strip()}")
+            elif cl_course_data.get('prefix') and cl_course_data.get('courseNumber'):
+                # Direct structure: course data is directly in the array (e.g., Political Science case)
+                cross_listed_texts.append(f"{cl_course_data['prefix'].strip()} {cl_course_data['courseNumber'].strip()}")
         if cross_listed_texts:
             text += f" (Same as {', '.join(cross_listed_texts)})"
             
@@ -372,8 +379,12 @@ def _generate_text_for_sending_articulation(articulation: SendingArticulation) -
                 group_text = f"({group_text})"
             group_texts.append(group_text)
 
-    # For now, we assume a top-level OR conjunction between course groups, which is the most common case.
-    return " OR ".join(group_texts)
+    # Determine the top-level conjunction. Default to OR, but use courseGroupConjunctions if available.
+    top_level_conjunction = "OR"
+    if articulation.courseGroupConjunctions and articulation.courseGroupConjunctions[0].get("groupConjunction"):
+        top_level_conjunction = articulation.courseGroupConjunctions[0].get("groupConjunction")
+
+    return f" {top_level_conjunction.upper()} ".join(group_texts)
 
 
 # ======================================================================================
@@ -497,6 +508,12 @@ def process_assist_json_file(file_path: Union[str, Path], manual_source_url: Opt
                             })
                         elif cell.type == TemplateCellType.SERIES and cell.series:
                             receiving_series_text = _format_series(cell.series)
+
+                            if cell.seriesAttributes:
+                                attribute_texts = [_clean_html(attr.get('content', '')) for attr in cell.seriesAttributes]
+                                prefix = " ".join(filter(None, attribute_texts))
+                                if prefix:
+                                    receiving_series_text = f"{prefix}\\n{receiving_series_text}"
                             
                             articulation = agreement.articulations.get(cell.id)
                             sending_course_text = "No Course Articulated"

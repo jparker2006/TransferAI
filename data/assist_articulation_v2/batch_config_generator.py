@@ -13,22 +13,22 @@ DEFAULT_TARGET_MAJORS: List[str] = [
     "Biology: General Biology B.S.",
     "Physics B.S.",
     "Mathematics B.S.",
-    # # --- Batch 1.2  ---
+    # # --- Batch 2  ---
     "Structural Engineering B.S.",
     "Economics B.S.",
     "History B.A.",
     "Art: Studio B.A. (Visual Arts)",
-    "Chemistry and Biochemistry: Chemistry B.S."
-    # # --- Batch 2 ---
-    # "Cognitive Science B.S. with Specialization in Machine Learning and Neural Computation",
-    # "Political Science/Data Analytics B.S.",
-    # "MAE: Mechanical Engineering B.S.",
-    # "Bioengineering: Biotechnology B.S.",
-    # "Sociology/Law and Society B.A.",
-    # "Music B.A.",
-    # "Linguistics: Language Studies Specialization in one language B.A.",
-    # "Public Health with Concentration in Epidemiology B.S.",
+    "Chemistry and Biochemistry: Chemistry B.S.",
     # # --- Batch 3 ---
+    "Cognitive Science B.S. with Specialization in Machine Learning and Neural Computation",
+    "Political Science/Data Analytics B.S.",
+    "MAE: Mechanical Engineering B.S.",
+    "Bioengineering: Biotechnology B.S.",
+    "Sociology/Law and Society B.A.",
+    "Music B.A.",
+    "Linguistics: Language Studies Specialization in one language B.A.",
+    "Public Health with Concentration in Epidemiology B.S."
+    # # --- Batch 4 ---
     # "International Studies - Economics B.A.",
     # "Human Developmental Sciences B.S. with a Specialization in Equity & Diversity",
     # "Data Science B.S.",
