@@ -1,0 +1,108 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/a7ceeaed-d5a5-4419-a7f2-08dca807bc76",
+  "agreement_title": "Structural Engineering B.S.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Effective Fall 2017, major preparation will be required for this major. For details, visit: http://admissions.ucsd.edu/MajorPrepStudents must apply to be directly admitted to the Structural Engineering major. Transfer students must have completed thefollowing courses in order to be considered for admission to the Structural Engineering major.\u2022 Calculus I-for Science and Engineering (Math. 20A)\u2022 Calculus II-for Science and Engineering (Math. 20B)\u2022 Calculus and Analytic Geometry (Math. 20C)\u2022 Differential Equations (Math. 20D)\u2022 Linear Algebra (Math. 18)\u2022 Complete calculus-based physics series with lab experience (Physics 2A-B-C)\u2022 Chemistry 6A For more details regarding transfer admission, please visit the Undergraduate Admission page on our website; https://se.ucsd.edu/academics/undergraduate-program/undergraduate-admissionEffective Summer 2024, the Structural Engineering major will no longer be considered a selective/capped major. Students who are not directly admitted into the major can switch into the major by using the Major/Minor Tool on TritonLink. Courses that have not been articulated and do not show an equivalent transfer course on ASSIST.ORG must be approved via petition on an individual basis by the SE department. Special Advising Note: The following courses are recommended preparation for all transfer students considering admission to the Structural Engineering major. Preparing well for the major helps students move efficiently toward graduation. \u2022 Matlab based algorithms and programming for structural engineering or equivalent \u2022 Statics or equivalentWhile structural engineering is often viewed as a sub-discipline of civil engineering, we take a cross-disciplinary approach tostructural engineering at UCSD by developing an undergraduate curriculum, fully accredited by ABET (Accreditation Board forEngineering Technology), as well as a full graduate program, emphasizing structural design of not only civil engineering structures,(such as buildings, bridge, and earth dams) but also aerospace structures, mechanical structures, offshore, and marine structures. Across-disciplinary education allows our graduates to find employment in any of the above mentioned engineering disciplines, whichprovides the student with great flexibility in employment after graduating with a B.S. in structural engineering. For more informationplease visit https://se.ucsd.edu"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 18: Linear Algebra (4.00 units)",
+              "sending_course_text": "MATH 13: Linear Algebra (3.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20A: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "(MATH 7: Calculus 1 (5.00 units) AND MATH 8: Calculus 2 (5.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 20B: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20C: Calculus and Analytic Geometry for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 11: Multivariable Calculus (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20D: Introduction to Differential Equations (4.00 units)",
+              "sending_course_text": "MATH 15: Differential Equations (3.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20E: Vector Calculus (4.00 units)",
+              "sending_course_text": "MATH 11: Multivariable Calculus (5.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "PHYS 2A: Physics - Mechanics (4.00 units)",
+              "sending_course_text": "PHYSCS 21: Mechanics with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2B: Physics - Electricity and Magnetism (4.00 units)",
+              "sending_course_text": "PHYSCS 22: Electricity and Magnetism with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2C: Physics - Fluids, Waves, Thermodynamics, and Optics (4.00 units)",
+              "sending_course_text": "PHYSCS 23: Fluids, Waves, Thermodynamics, Optics with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2BL: Physics Laboratory - Mechanics (2.00 units)",
+              "sending_course_text": "PHYSCS 21: Mechanics with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2CL: Physics Laboratory - Electricity and Magnetism (2.00 units)",
+              "sending_course_text": "PHYSCS 22: Electricity and Magnetism with Lab (5.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "C",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "SE 1: Intro to Structures & Design (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "SE 3: Graphical Communication for Engineering Design (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "SE 9: Algorithms and Programming for Structural Engineering (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "D",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "CHEM 6A: General Chemistry I (4.00 units)",
+              "sending_course_text": "CHEM 11: General Chemistry I (5.00 units)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

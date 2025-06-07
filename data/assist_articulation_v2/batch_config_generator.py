@@ -12,13 +12,13 @@ DEFAULT_TARGET_MAJORS: List[str] = [
     # --- Batch 1.1  ---
     "Biology: General Biology B.S.",
     "Physics B.S.",
-    "Mathematics B.S."
+    "Mathematics B.S.",
     # # --- Batch 1.2  ---
-    # "Structural Engineering B.S.",
-    # "Economics B.S.",
-    # "History B.A.",
-    # "Art: Studio B.A. (Visual Arts)",
-    # "Chemistry and Biochemistry: Chemistry B.S.",
+    "Structural Engineering B.S.",
+    "Economics B.S.",
+    "History B.A.",
+    "Art: Studio B.A. (Visual Arts)",
+    "Chemistry and Biochemistry: Chemistry B.S."
     # # --- Batch 2 ---
     # "Cognitive Science B.S. with Specialization in Machine Learning and Neural Computation",
     # "Political Science/Data Analytics B.S.",

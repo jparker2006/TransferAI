@@ -340,7 +340,11 @@ def _generate_text_for_sending_articulation(articulation: SendingArticulation) -
                     course_texts.append(_format_course(course_item.course, include_units=True))
             
             conjunction = f" {item.courseConjunction.upper()} "
-            group_texts.append(f"({conjunction.join(course_texts)})")
+            group_text = conjunction.join(course_texts)
+            # Only wrap in parentheses if there is more than one course in the sub-group (e.g., for an AND condition)
+            if len(course_texts) > 1:
+                group_text = f"({group_text})"
+            group_texts.append(group_text)
 
     # For now, we assume a top-level OR conjunction between course groups, which is the most common case.
     return " OR ".join(group_texts)
@@ -378,26 +382,20 @@ def process_assist_json_file(file_path: Union[str, Path], manual_source_url: Opt
     # 1. Transform raw data into normalized model
     agreement = _transform_raw_json(raw_data)
 
-    # 2. Assemble RAG documents
-    general_documents = []
-    requirement_documents = []
-    # Initialize with an empty string. It will only be populated if a RequirementTitle is found.
+    # 2. Assemble RAG documents into a hierarchical structure
+    general_information = []
+    requirement_groups = []
     current_requirement_area = ""
     group_id = 0
 
-    # Process all template assets in their sorted order to correctly handle state changes
-    # for the requirement area.
+    # Process all template assets in their sorted order
     for asset in agreement.template_assets:
         if asset.type == TemplateAssetType.REQUIREMENT_TITLE:
             current_requirement_area = _clean_html(asset.content)
-            # This asset's only job is to set the context for the next ones, so we can skip the rest of the loop.
             continue
         
         if asset.type == TemplateAssetType.GENERAL_TEXT:
-            general_documents.append({
-                "type": "General Text",
-                # General text is always categorized as such, regardless of its position.
-                "requirement_area": "General Information",
+            general_information.append({
                 "text": _clean_html(asset.content)
             })
             continue
@@ -405,38 +403,59 @@ def process_assist_json_file(file_path: Union[str, Path], manual_source_url: Opt
         if asset.type == TemplateAssetType.REQUIREMENT_GROUP:
             group_id += 1
             
-            # Handle top-level advisements for the group
-            group_advisement_text = ""
-            if asset.advisements:
-                group_advisement_text = " AND ".join([_format_advisement_string(adv) for adv in asset.advisements])
-            
-            # Handle instructions like "Complete A or B"
+            # --- Start Instruction Logic ---
             group_instruction_text = ""
+            # Handle simple text content on the group, e.g., "Complete the following"
+            if asset.content:
+                group_instruction_text = _clean_html(asset.content)
+
+            # Handle complex, structured instructions, e.g., "Select A, B, or C"
+            # This will override the simpler content text if present.
+            structured_instruction_text = ""
             if asset.instruction and asset.instruction.get('conjunction') == 'Or':
-                # Dynamically build the instruction string from the sections present in the asset
                 section_labels = [chr(ord('A') + i) for i, _ in enumerate(asset.sections)]
-                
                 joined_labels = ""
                 if len(section_labels) > 2:
-                    # Creates "A, B, or C" for > 2 sections
                     joined_labels = ", ".join(section_labels[:-1]) + ", or " + section_labels[-1]
                 elif len(section_labels) == 2:
-                    # Creates "A or B" for 2 sections
                     joined_labels = " or ".join(section_labels)
-                elif len(section_labels) == 1:
-                    # Creates "A" for 1 section
+                elif section_labels:
                     joined_labels = section_labels[0]
-
+                
                 if joined_labels:
-                    # Use the 'selectionType' from the JSON (e.g., "Select") as the verb. Default to "Complete".
                     instruction_verb = asset.instruction.get('selectionType', 'Complete').capitalize()
-                    group_instruction_text = f"{instruction_verb} {joined_labels}"
+                    structured_instruction_text = f"{instruction_verb} {joined_labels}"
+            
+            if structured_instruction_text:
+                group_instruction_text = structured_instruction_text
+            # --- End Instruction Logic ---
+
+            # Group-level advisements can add to the instruction
+            if asset.advisements:
+                group_advisement_text = " AND ".join([_format_advisement_string(adv) for adv in asset.advisements])
+                if group_instruction_text:
+                    group_instruction_text += f". {group_advisement_text}"
+                else:
+                    group_instruction_text = group_advisement_text
+
+            current_group = {
+                "group_id": group_id,
+                "requirement_area": current_requirement_area,
+                "group_instruction": group_instruction_text.strip(),
+                "sections": []
+            }
 
             for section_index, section in enumerate(asset.sections):
                 section_label = chr(ord('A') + section_index)
-                section_advisement_text = ""
+                section_rule_text = ""
                 if section.advisements:
-                        section_advisement_text = " AND ".join([_format_advisement_string(adv) for adv in section.advisements])
+                    section_rule_text = " AND ".join([_format_advisement_string(adv) for adv in section.advisements])
+
+                current_section = {
+                    "section_label": section_label,
+                    "section_rule": section_rule_text,
+                    "requirements": []
+                }
 
                 for row in section.rows:
                     for cell in row.cells:
@@ -444,38 +463,20 @@ def process_assist_json_file(file_path: Union[str, Path], manual_source_url: Opt
                             receiving_course_text = _format_course(cell.course)
                             
                             articulation = agreement.articulations.get(cell.id)
+                            sending_course_text = "No Course Articulated"
                             if articulation:
                                 sending_course_text = _generate_text_for_sending_articulation(articulation.articulation)
-                            else:
-                                sending_course_text = "No Course Articulated"
 
-                            # Assemble the final text chunk conditionally to avoid empty parts
-                            text_parts = []
-                            if current_requirement_area:
-                                text_parts.append(f"Requirement Area: {current_requirement_area}.")
-                            if group_instruction_text:
-                                text_parts.append(f"Instruction: {group_instruction_text}.")
-                            if group_advisement_text:
-                                text_parts.append(f"Group Rule: {group_advisement_text}.")
-                            if section_advisement_text:
-                                text_parts.append(f"Section Rule: {section_advisement_text}.")
-
-                            # Main requirement sentence
-                            text_parts.append(
-                                f"To satisfy the '{receiving_course_text}' requirement at {agreement.receiving_institution_name}, a student from {agreement.sending_institution_name} must complete: {sending_course_text}"
-                            )
-                            full_text = " ".join(text_parts)
-                            
-                            requirement_documents.append({
-                                "type": "Course Requirement",
-                                "requirement_area": current_requirement_area,
-                                "group_id": group_id,
-                                "section_label": section_label,
-                                "text": full_text
+                            current_section["requirements"].append({
+                                "receiving_course_text": receiving_course_text,
+                                "sending_course_text": sending_course_text,
                             })
-    
-    # The final list of documents is an ordered combination of general info and requirements.
-    rag_documents = general_documents + requirement_documents
+                
+                if current_section["requirements"]:
+                    current_group["sections"].append(current_section)
+            
+            if current_group["sections"]:
+                requirement_groups.append(current_group)
 
     # 3. Generate source URL if not provided
     source_url = manual_source_url
@@ -501,7 +502,8 @@ def process_assist_json_file(file_path: Union[str, Path], manual_source_url: Opt
         "academic_year": "2024-2025",
         "sending_institution": agreement.sending_institution_name,
         "receiving_institution": agreement.receiving_institution_name,
-        "documents": rag_documents
+        "general_information": general_information,
+        "requirement_groups": requirement_groups,
     }
 
 def save_rag_json(rag_data: Dict[str, Any], output_path: Union[str, Path]) -> None:

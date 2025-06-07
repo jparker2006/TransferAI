@@ -4,58 +4,51 @@
   "academic_year": "2024-2025",
   "sending_institution": "Santa Monica College",
   "receiving_institution": "University of California, San Diego",
-  "documents": [
+  "general_information": [
     {
-      "type": "General Text",
-      "requirement_area": "General Information",
       "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Effective Fall 2018, major preparation will be required for this major. For details, visit: http://admissions.ucsd.edu/MajorPrep For more information please visit https://math.ucsd.edu/students/undergraduate/ma29-mathematics-b-s/\ufeffNOTE: Students who have taken a vector calculus course at a non-UC college must successfully petition the course for 20E equivalency. Petitions must generally include course syllabus, textbook information and final exam. More information on the petition process for 20E can be found at the following site: https://www.math.ucsd.edu/students/undergraduate/math-20e-equivalency"
     },
     {
-      "type": "General Text",
-      "requirement_area": "General Information",
       "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
-    },
+    }
+  ],
+  "requirement_groups": [
     {
-      "type": "Course Requirement",
-      "requirement_area": "",
       "group_id": 1,
-      "section_label": "A",
-      "text": "To satisfy the 'MATH 18: Linear Algebra (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: (MATH 13: Linear Algebra (3.00 units))"
-    },
-    {
-      "type": "Course Requirement",
       "requirement_area": "",
-      "group_id": 1,
-      "section_label": "A",
-      "text": "To satisfy the 'MATH 20A: Calculus for Science and Engineering (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: (MATH 7: Calculus 1 (5.00 units) AND MATH 8: Calculus 2 (5.00 units))"
-    },
-    {
-      "type": "Course Requirement",
-      "requirement_area": "",
-      "group_id": 1,
-      "section_label": "A",
-      "text": "To satisfy the 'MATH 20B: Calculus for Science and Engineering (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: (MATH 8: Calculus 2 (5.00 units))"
-    },
-    {
-      "type": "Course Requirement",
-      "requirement_area": "",
-      "group_id": 1,
-      "section_label": "A",
-      "text": "To satisfy the 'MATH 20C: Calculus and Analytic Geometry for Science and Engineering (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: (MATH 11: Multivariable Calculus (5.00 units))"
-    },
-    {
-      "type": "Course Requirement",
-      "requirement_area": "",
-      "group_id": 1,
-      "section_label": "A",
-      "text": "To satisfy the 'MATH 20D: Introduction to Differential Equations (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: (MATH 15: Differential Equations (3.00 units))"
-    },
-    {
-      "type": "Course Requirement",
-      "requirement_area": "",
-      "group_id": 1,
-      "section_label": "A",
-      "text": "To satisfy the 'MATH 20E: Vector Calculus (4.00 units)' requirement at University of California, San Diego, a student from Santa Monica College must complete: (MATH 11: Multivariable Calculus (5.00 units))"
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 18: Linear Algebra (4.00 units)",
+              "sending_course_text": "MATH 13: Linear Algebra (3.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20A: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "(MATH 7: Calculus 1 (5.00 units) AND MATH 8: Calculus 2 (5.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 20B: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20C: Calculus and Analytic Geometry for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 11: Multivariable Calculus (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20D: Introduction to Differential Equations (4.00 units)",
+              "sending_course_text": "MATH 15: Differential Equations (3.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20E: Vector Calculus (4.00 units)",
+              "sending_course_text": "MATH 11: Multivariable Calculus (5.00 units)"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
