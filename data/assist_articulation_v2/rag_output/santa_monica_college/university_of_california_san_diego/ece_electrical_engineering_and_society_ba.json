@@ -1,0 +1,232 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/63767a0d-beec-40d9-a7e7-08dca807bc76",
+  "agreement_title": "ECE: Electrical Engineering and Society B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION.Effective Fall 2017, major preparation will be required for this major. For details, visit: http://admissions.ucsd.edu/MajorPrepGeneral Advice: Transfer students must have completed the following courses in order to be considered for admission to this major.- Calculus I-for Science and Engineering (Math. 20A)- Calculus II-for Science and Engineering (Math. 20B)- Calculus and Analytic Geometry (Math. 20C)- Differential Equations (Math. 20D)- Linear Algebra (Math. 18)- Complete calculus-based physics series (Physics 2A-B-C) Note: An equivalent to UCSD\u2019s PHYS 2D is strongly recommended although it is not considered for screening purposes.- Chemistry I-for Science and Engineering (Chemistry 6A)- Introductory computer programming language (Java, C, or C++)Note about ECE 15 and ECE 35 credit: If students take a C programming course or circuits course at a non-UC College without an official articulation, they must pass the ECE 15 or 35 Waiver Exam to receive transfer credit for UCSD ECE 15 or 35. These are NOT placement tests. For more information, go to http://www.ece.ucsd.edu/undergraduate/ece-15-35-waiver-examsNOTE: Articulation of engineering coursework will be subject to thorough review and evaluation. Special Advising Note:All transfer students should understand that the lower-division curriculum is demanding. Transfer students will be required to complete all lower-division requirements or their equivalent courses. The ECE department has a recommended schedule for transfer students (please consult the ECE website, http://www.ece.ucsd.edu, for sample recommended course schedules and for the ECE course requirement guide).Note regarding Elective Courses in Social Sciences and Humanities Studies (8 units):These can be prerequisite courses for the upper division depth sequence in social sciences/humanities. For instance, for history studies, this can be two history lower division courses (HILD 2, 7, 10-12). Historically oriented HUM, MMW and CAT courses would count as well. At least one lower division course should have a writing component. For Economics studies, this can be two lower division courses (ECON 1, and ECON 4; for the Finance track); or one lower division course (ECON 1) plus one upper division course; for the Data Analysis track.For political science, the following courses may be utilized: POLI 10, POLI 11, POLI 12, POLI 13, POLI 30. For sociology studies, students will choose two lower-division courses from SOCI 1, 2, and 30, of which 30 is highly recommended."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "ECE 15: Engineering Computation (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "ECE 25: Introduction to Digital Design (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "ECE 30: Introduction to Computer Engineering (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "ECE 35: Introduction to Analog Design (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "ECE 45: Circuits and Systems (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "ECE 65: Components and Circuits Lab (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "CHEM 6A: General Chemistry I (4.00 units)",
+              "sending_course_text": "CHEM 11: General Chemistry I (5.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "C",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 18: Linear Algebra (4.00 units)",
+              "sending_course_text": "MATH 13: Linear Algebra (3.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20A: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "(MATH 7: Calculus 1 (5.00 units) AND MATH 8: Calculus 2 (5.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 20B: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20C: Calculus and Analytic Geometry for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 11: Multivariable Calculus (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20D: Introduction to Differential Equations (4.00 units)",
+              "sending_course_text": "MATH 15: Differential Equations (3.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20E: Vector Calculus (4.00 units)",
+              "sending_course_text": "MATH 11: Multivariable Calculus (5.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "D",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "PHYS 2A: Physics - Mechanics (4.00 units)",
+              "sending_course_text": "PHYSCS 21: Mechanics with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2B: Physics - Electricity and Magnetism (4.00 units)",
+              "sending_course_text": "PHYSCS 22: Electricity and Magnetism with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2C: Physics - Fluids, Waves, Thermodynamics, and Optics (4.00 units)",
+              "sending_course_text": "PHYSCS 23: Fluids, Waves, Thermodynamics, Optics with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2D: Physics - Relativity and Quantum Physics (4.00 units)",
+              "sending_course_text": "PHYSCS 24: Modern Physics with Lab (3.00 units)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "requirement_area": "HISTORICAL STUDIES",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "HILD 7A: Race and Ethnicity in the United States (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "HILD 7B: Race and Ethnicity in the United States (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "HILD 7C: Race and Ethnicity in the United States (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "HILD 10: East Asia: The Great Tradition (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "HILD 11: East Asia and the West (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "HILD 12: Twentieth-Century East Asia (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 3,
+      "requirement_area": "ECONOMICS STUDIES",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "ECON 1: Principles of Microeconomics (4.00 units)",
+              "sending_course_text": "ECON 1: Principles of Microeconomics (3.00 units)"
+            },
+            {
+              "receiving_course_text": "ECON 4: Financial Accounting (4.00 units) (Same as MGT 4)",
+              "sending_course_text": "ACCTG 1: Introduction to Financial Accounting (5.00 units)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 4,
+      "requirement_area": "POLITICAL SCIENCE STUDIES",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "POLI 10: Introduction to Political Science: American Politics (4.00 units)",
+              "sending_course_text": "POL SC 1: National and California Government (3.00 units)"
+            },
+            {
+              "receiving_course_text": "POLI 11: Introduction to Political Science: Comparative Politics (4.00 units)",
+              "sending_course_text": "POL SC 2: Comparative Government and Politics (3.00 units)"
+            },
+            {
+              "receiving_course_text": "POLI 12: Introduction to Political Science: International Relations (4.00 units)",
+              "sending_course_text": "POL SC 7: International Politics (3.00 units)"
+            },
+            {
+              "receiving_course_text": "POLI 13: Power and Justice (4.00 units)",
+              "sending_course_text": "POL SC 51: Political Philosophy (3.00 units) (Same as PHILOS 51)"
+            },
+            {
+              "receiving_course_text": "POLI 30: Political Inquiry (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 5,
+      "requirement_area": "SOCIOLOGY STUDIES",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "SOCI 1: Introduction to Sociology (4.00 units)",
+              "sending_course_text": "SOCIOL 1: Introduction to Sociology (3.00 units) OR SOCIOL 1S: Introduction to Sociology-Service Learning (3.00 units)"
+            },
+            {
+              "receiving_course_text": "SOCI 2: The Study of Society (4.00 units)",
+              "sending_course_text": "SOCIOL 2: Social Problems (3.00 units) OR SOCIOL 2S: Social Problems-Service Learning (3.00 units)"
+            },
+            {
+              "receiving_course_text": "SOCI 30: Science, Technology, and Society (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
