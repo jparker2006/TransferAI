@@ -1,0 +1,34 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/efc08f00-d575-4ea6-a7f5-08dca807bc76",
+  "agreement_title": "Anthropology B.A. with Concentration in Biological Anthropology",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. Students who anticipate a major or minor in Biological Anthropology are advised to take ANTH 2 (Human Origins), which is a recommended introduction for most upper-division courses offered by the department."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "RECOMMENDED BUT NOT REQUIRED",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "ANTH 2: Human Origins (4.00 units)",
+              "sending_course_text": "ANTHRO 1: Biological Anthropology (3.00 units) OR ANTHRO 5: Biological Anthropology with Laboratory (4.00 units)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

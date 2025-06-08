@@ -1,0 +1,34 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/476477f9-2b02-49d0-a7fb-08dca807bc76",
+  "agreement_title": "Philosophy B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: The Philosophy Department at UCSD welcomes transfer students from California's Community Colleges. These notes are intended to help facilitate a smooth transition between Community College and UCSD. For further information, please contact our Undergraduate Student Advisor at (858) 534-3077. Information about the department is also available at our web site: http://philosophy.ucsd.edu/. Specific Information about Department Policy: a) Seven of the twelve upper-division courses in the major must be taken in the philosophy department at UCSD. b) All courses applied toward the major or minor in philosophy, must be taken for a letter grade (C- or better). c) Fifteen (15) total courses are required for the major, twelve (12) must be upper-division. In addition to Logic, two (2) lower division courses may be petitioned for elective credit in the Philosophy major. d) Phil 10 (Introduction to Logic) equivalent classes must include both informal and formal logic and reasoning. The following topics must be covered: basic concepts of logic (argument, premises, validity, soundness, etc.), informal fallacies, the sentential (propositional) calculus, symbolization, truth tables, natural deduction, indirect and conditional proofs. Courses that are not on ASSIST must be petitioned for credit in the Philosophy Department."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "PHIL 10: Introduction to Logic (4.00 units)",
+              "sending_course_text": "PHILOS 7: Logic and Critical Thinking (3.00 units) OR PHILOS 9: Symbolic Logic (3.00 units)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

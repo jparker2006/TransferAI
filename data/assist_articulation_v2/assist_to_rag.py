@@ -227,6 +227,7 @@ class TemplateAsset:
     sections: List[Section] = field(default_factory=list)
     instruction: Optional[Dict[str, Any]] = None
     advisements: List[Advisement] = field(default_factory=list)
+    attributes: List[Dict[str, Any]] = field(default_factory=list)
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]):
@@ -298,8 +299,12 @@ def _format_course(course: Course, include_units=True) -> str:
     
     text = f"{prefix} {number}: {title}"
     if include_units:
-        units = course.maxUnits
-        unit_str = f"({units:.2f} units)"
+        # Check if this is a variable unit course (minUnits != maxUnits)
+        if course.minUnits != course.maxUnits:
+            unit_str = f"({course.minUnits:.2f} - {course.maxUnits:.2f} units)"
+        else:
+            units = course.maxUnits
+            unit_str = f"({units:.2f} units)"
         text = f"{text} {unit_str}"
     
     if course.visibleCrossListedCourses:
@@ -486,6 +491,13 @@ def process_assist_json_file(file_path: Union[str, Path], manual_source_url: Opt
                             group_instruction_text = f"{selection_type} {amount_str} {unit_text}{plural} from {section_labels[0]}"
             # --- End Instruction Logic ---
 
+            # --- Start Group Attributes Logic ---
+            group_notes = ""
+            if asset.attributes:
+                attribute_texts = [_clean_html(attr.get('content', '')) for attr in asset.attributes]
+                group_notes = ". ".join(filter(None, attribute_texts))
+            # --- End Group Attributes Logic ---
+
             # Group-level advisements can add to the instruction
             if asset.advisements:
                 group_advisement_text = " AND ".join([_format_advisement_string(adv) for adv in asset.advisements])
@@ -500,6 +512,10 @@ def process_assist_json_file(file_path: Union[str, Path], manual_source_url: Opt
                 "group_instruction": group_instruction_text.strip(),
                 "sections": []
             }
+            
+            # Only add group_notes if there are attributes
+            if group_notes.strip():
+                current_group["group_notes"] = group_notes.strip()
 
             for section_index, section in enumerate(asset.sections):
                 section_label = chr(ord('A') + section_index)

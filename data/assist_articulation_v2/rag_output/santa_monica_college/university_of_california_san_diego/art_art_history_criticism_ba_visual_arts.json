@@ -1,0 +1,85 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/0fe55179-90d4-4803-673b-08dca807bc66",
+  "agreement_title": "Art: Art History/Criticism B.A. (Visual Arts)",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. The major in art history, theory, and criticism is designed both for students who desire a broadly-based education in the humanities and for those who plan to pursue a career in an art-related profession. By combining art historical and critical study, the program promotes in the student an awareness of the cultural traditions which have shaped their intellectual outlook and provides a framework for informed judgment on the crucial issues of meaning and expression in contemporary society. Art History honors available for qualified students. For more information please visit visarts.ucsd.edu."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "FOUNDATION LEVEL - REQUIRED COURSEWORK",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "VIS 22: Formations of Modern Art (4.00 units)",
+              "sending_course_text": "AHIS 3: Global Art History Since 1800 (3.00 units)"
+            },
+            {
+              "receiving_course_text": "VIS 23: Seminar in Art History Methods (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "requirement_area": "ART HISTORY",
+      "group_instruction": "Complete A or B",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "VIS 11: Introduction to Visual Culture (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "VIS 20: Introduction to Art of Europe and America (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "VIS 21A: Introduction to the Art of the Americas or Africa and Oceania (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "VIS 21B: Introduction to Asian Art (4.00 units)",
+              "sending_course_text": "AHIS 17: Arts of Asia (3.00 units)"
+            },
+            {
+              "receiving_course_text": "VIS 21C: Introduction to African Art (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "VIS 83: Photographic History (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "VIS 84: Film History (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
