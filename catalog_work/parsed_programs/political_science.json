@@ -1,7 +1,232 @@
 {
   "program_name": "Political Science",
-  "program_description": "Political science is the academic discipline dedicated to the study of power and justice. Political science has four well-defined subfields: political theory, international relations, comparative politics, and American politics. Courses focus on topics and pressing problems, among them war, law, local, state, and national politics, voting, mass media, public opinion, poverty, human rights, race, gender, ideology, class, international organizations, revolutions, and failed states in all parts of the world. Students in these courses learn to critically analyze not only the behavior of political actors, but also their respective political institutions and political systems. The main objectives are to enable students to use strong analytical skills and critical thinking in their analysis of theories, institutions, and processes. POLS C1000, AMERICAN GOVERNMENT AND POLITICS 3 UNITS Transfer: UC, CSU C-ID: POLS 110. Cal-GETC Area 4 (Social & Behavioral Sciences) • Advisory: Eligibility for English 1. Formerly POL SC 1. This course is an introduction to government and politics in the United States and California. Students examine the constitutions, structure, and operation of governing institutions, civil liberties and civil rights, political behaviors, political issues, and public policy using political science theory and methodology. 2953 8:00a.m.-9:20a.m. MW HSS 165 Tahvildaranjess R A Above section modality is On Ground. 2954 9:30a.m.-10:50a.m. MW HSS 165 Tahvildaranjess R A Above section modality is On Ground. 2955 9:30a.m.-10:50a.m. TTh HSS 252 Woods V Above section modality is On Ground. 2956 9:30a.m.-10:50a.m. TTh HSS 154 Oifer E R Above section 2956 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On Ground. 2957 11:15a.m.-12:35p.m. TTh HSS 252 Woods V Above section modality is On Ground. 2958 12:45p.m.-2:05p.m. MW HSS 165 Tahvildaranjess R A Above section modality is On Ground. 2959 Arrange-3 Hours ONLINE Kurvink S J Above section modality is Flexible. 2960 Arrange-6.5 Hours ONLINE Tahvildaranjess R A Above section 2960 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible. 2961 Arrange-3 Hours ONLINE Gorgie F J Above section modality is Flexible. 2962 Arrange-3 Hours ONLINE Tahvildaranjess R A Above section modality is Flexible. 2963 Arrange-6.5 Hours ONLINE Gorgie F J Above section 2963 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible. 2964 Arrange-6.5 Hours ONLINE Gorgie F J Above section 2964 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible.",
+  "program_description": "Political science is the academic discipline dedicated to the study of power and justice. Political science has four well-defined subfields: political theory, international relations, comparative politics, and American politics. Courses focus on topics and pressing problems, among them war, law, local, state, and national politics, voting, mass media, public opinion, poverty, human rights, race, gender, ideology, class, international organizations, revolutions, and failed states in all parts of the world. Students in these courses learn to critically analyze not only the behavior of political actors, but also their respective political institutions and political systems. The main objectives are to enable students to use strong analytical skills and critical thinking in their analysis of theories, institutions, and processes.",
   "courses": [
+    {
+      "course_code": "POLS C1000",
+      "course_title": "AMERICAN GOVERNMENT AND POLITICS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "POLS 110",
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": "POL SC 1",
+      "description": "This course is an introduction to government and politics in the United States and California. Students examine the constitutions, structure, and operation of governing institutions, civil liberties and civil rights, political behaviors, political issues, and public policy using political science theory and methodology.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2953",
+          "schedule": [
+            {
+              "time": "8:00a.m.-9:20a.m.",
+              "days": "MW",
+              "location": "HSS 165",
+              "instructor": "Tahvildaranjess R A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2954",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "MW",
+              "location": "HSS 165",
+              "instructor": "Tahvildaranjess R A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2955",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "HSS 252",
+              "instructor": "Woods V"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2956",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "HSS 154",
+              "instructor": "Oifer E R"
+            }
+          ],
+          "notes": [
+            "Above section 2956 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2957",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "TTh",
+              "location": "HSS 252",
+              "instructor": "Woods V"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2958",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "HSS 165",
+              "instructor": "Tahvildaranjess R A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2959",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Kurvink S J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2960",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Tahvildaranjess R A"
+            }
+          ],
+          "notes": [
+            "Above section 2960 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2961",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Gorgie F J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2962",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Tahvildaranjess R A"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2963",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Gorgie F J"
+            }
+          ],
+          "notes": [
+            "Above section 2963 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2964",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Gorgie F J"
+            }
+          ],
+          "notes": [
+            "Above section 2964 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
     {
       "course_code": "POL SC 2",
       "course_title": "COMPARATIVE GOVERNMENT AND POLITICS",

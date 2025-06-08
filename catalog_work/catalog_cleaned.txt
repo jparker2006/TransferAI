@@ -439,7 +439,7 @@ which will be presented in readings, videos and discussion in
 ASL. Non-verbal communication is emphasized.
 4022 5:10p.m.-7:35p.m. MW DRSCHR 222 Virji S
 Above section modality is On Ground.
-Anatomy
+~Anatomy
 Please see listing under “Biological Sciences.”
 =Animation
 The Animation program prepares students for careers in the enter- tainment industry through comprehensive, hands-on training. The
@@ -1121,7 +1121,7 @@ Above section 1177 is a hybrid class taught online via the Internet
 and at the Center for Media and Design, 1660 Stewart Street,
 Santa Monica CA 90404. For additional information, go to smc.
 edu/OnlineEd.
-ARC 51 DESIGN COMMUNICATION 5 3 UNITS
+ARC 51, DESIGN COMMUNICATION 5 3 UNITS
 Transfer: CSU
 Formerly INTARC 65.
 Digitally build and enhance images for professional presenta-
@@ -2100,7 +2100,7 @@ Mesoamerica, and South America), and non-western cultures
 (Asia, Africa).
 1269 Arrange-3 Hours ONLINE Fouts G A
 Above section modality is Flexible.
-Athletics
+~Athletics
 Please see listing under “Varsity Intercollegiate Athletics.”
 =Automotive Technology
 Provides students with hands-on training on vehicle technologies.
@@ -2738,7 +2738,7 @@ Arrange-3 Hours ONLINE Salter J
 Above section 3226 is a hybrid class taught on campus and online
 via the Internet. For additional information, go to smc.edu/
 OnlineEd.
-Botany
+~Botany
 Please see listing under “Biological Sciences.”
 =Business
 Business Managers coordinate business activities in both private
@@ -9453,7 +9453,7 @@ Transfer: CSU
 Please see “Independent Studies” section.
 2315 Arrange-1.5 Hours Carrasco S
 Above section 2315 meets for 12 weeks, Sep 22 to Dec 12.
-Foreign Languages
+~Foreign Languages
 SMC offers courses in American Sign Language, Arabic, Chinese
 (Mandarin), French, German, Hebrew, Italian, Japanese, Korean,
 Persian (Farsi), Portuguese, Russian, Spanish, and Turkish. Classes are listed under name of specific language.
@@ -13327,9 +13327,9 @@ STUDIES 1 UNIT
 Transfer: CSU
 Please see “Independent Studies” section.
 2699 Arrange-1 Hour Shaw R D
-Microbiology
+~Microbiology
 Please see listing under “Biological Sciences.”
-Modern Languages
+~Modern Languages
 SMC offers courses in American Sign Language, Arabic, Chinese
 (Mandarin), French, German, Hebrew, Italian, Japanese, Korean,
 Persian (Farsi), Portuguese, Russian, Spanish, and Turkish. Classes are listed under name of specific language.
@@ -14531,7 +14531,7 @@ Above section modality is On Ground.
 Above section 7079 meets for 8 weeks, Oct 28 to Dec 16, at the
 Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.
 Above section modality is On Ground.
-Nutrition
+~Nutrition
 Please see listing under “Biological Sciences.”
 =Office Technology
 The Office Technology Department offers training in general, medi-
@@ -14998,7 +14998,7 @@ PHOTOGRAPHY 2 UNITS
 Transfer: CSU
 Please see “Independent Studies” section.
 2898 Arrange-2 Hours Sanseri J D
-Physical Education
+~Physical Education
 Please see listing under “Kinesiology/Physical Education.”
 =Physics
 Physicists study matter, energy, and the relationships between them
@@ -15158,7 +15158,7 @@ PHYSCS 88A, INDEPENDENT STUDIES IN PHYSICS 1 UNIT
 Transfer: CSU
 Please see “Independent Studies” section.
 2930 Arrange-1 Hour Hsieh J M
-Physiology
+~Physiology
 Please see listing under “Biological Sciences.”
 =Political Science
 Political science is the academic discipline dedicated to the study of
@@ -17110,5 +17110,5 @@ Please see “Independent Studies” section.
 Above section 3225 is part of the Scholars Program and enrollment
 is temporarily limited to program participants. See the Special
 Programs section of the class schedule or smc.edu/scholars for more information.
-Zoology
+~Zoology
 Please see listing under “Biological Sciences.”

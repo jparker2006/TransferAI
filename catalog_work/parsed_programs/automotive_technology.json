@@ -551,15 +551,13 @@
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
-      "special_notes": [
-        "*No UC credit given for BIOL 3 if taken after BIOL 21, 22 or 23."
-      ],
+      "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
-      "description": "This general biology course is for transfer students who are not biology majors. Topics include basic molecular and cellular biology, genetics, the anatomy and physiology of plants, animals and humans, the diversity of life, evolution, and ecology. Current environmental issues and new developments in biological science are discussed. Laboratory experiences are integrated and stress scientific methodology and thinking. Credit is allowed for either BIOL 3 or BOTANY 1, but not both.",
+      "description": "*No UC credit given for BIOL 3 if taken after BIOL 21, 22 or 23. This general biology course is for transfer students who are not biology majors. Topics include basic molecular and cellular biology, genetics, the anatomy and physiology of plants, animals and humans, the diversity of life, evolution, and ecology. Current environmental issues and new developments in biological science are discussed. Laboratory experiences are integrated and stress scientific methodology and thinking. Credit is allowed for either BIOL 3 or BOTANY 1, but not both.",
       "same_as": null,
       "sections": [
         {

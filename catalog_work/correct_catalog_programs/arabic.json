@@ -1,0 +1,46 @@
+{
+  "program_name": "Arabic",
+  "program_description": "Most sections require the use of a computer with Internet access for class resources and/or to complete assignments.",
+  "courses": [
+    {
+      "course_code": "ARABIC 1",
+      "course_title": "ELEMENTARY ARABIC 1",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course introduces basic vocabulary and the fundamentals of Modern Standard Arabic grammar, structure, pronunciation as well as reading, writing, and speaking. This course prepares students to understand spoken Arabic, to hold simple conversations, read, and write short descriptive compositions in Arabic. Aspects of contemporary Arabic culture and Arabic history are covered as well.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1165",
+          "schedule": [
+            {
+              "time": "11:15a.m.-1:40p.m.",
+              "days": "MW",
+              "location": "DRSCHR 217",
+              "instructor": "Bezrati S"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

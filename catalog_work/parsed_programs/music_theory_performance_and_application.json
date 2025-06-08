@@ -13,14 +13,14 @@
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 3A (Arts)",
       "special_notes": [
-        "*No UC transfer credit for MUSIC 1 if taken after MUSIC 2."
+        "*No UC transfer credit for MUSIC 1 if taken after MUSIC 2"
       ],
       "prerequisites": null,
       "prerequisite_notes": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "See also MUSIC 66. This course provides the study of the rudiments of music notation, including scales, intervals, triads and seventh chords. Also included are rhythmic drills, sight singing and exercises using computer-assisted-instruction. This course (or the equivalent) is a prerequisite for all other music theory courses. MUSIC 1 is equivalent to the theory portion of MUSIC 66. Credit may be earned for MUSIC 1 or MUSIC 66 but not both.",
+      "description": ". See also MUSIC 66. This course provides the study of the rudiments of music notation, including scales, intervals, triads and seventh chords. Also included are rhythmic drills, sight singing and exercises using computer-assisted-instruction. This course (or the equivalent) is a prerequisite for all other music theory courses. MUSIC 1 is equivalent to the theory portion of MUSIC 66. Credit may be earned for MUSIC 1 or MUSIC 66 but not both.",
       "same_as": null,
       "sections": [
         {
@@ -127,14 +127,14 @@
       "cal_getc_area": null,
       "special_notes": [
         "Corequisite: MUSIC 6.",
-        "*No UC transfer credit for MUSIC 1 if taken after MUSIC 2."
+        "*No UC transfer credit for MUSIC 1 if taken after MUSIC 2"
       ],
       "prerequisites": null,
       "prerequisite_notes": null,
       "advisory": "MUSIC 1 and MUSIC 5",
       "advisory_notes": null,
       "formerly": null,
-      "description": "This course covers sight singing with the “movable do” system, keyboard harmony, and in-class dictation of melodic lines, rhythmic patterns, intervals, harmonic progressions. Also included are ear training exercises using computer-assisted-instruction. Correlated with Music 6 (Diatonic Harmony).",
+      "description": ". This course covers sight singing with the “movable do” system, keyboard harmony, and in-class dictation of melodic lines, rhythmic patterns, intervals, harmonic progressions. Also included are ear training exercises using computer-assisted-instruction. Correlated with Music 6 (Diatonic Harmony).",
       "same_as": null,
       "sections": [
         {
@@ -880,8 +880,8 @@
             {
               "time": "6:45p.m.-9:50p.m.",
               "days": "Th",
-              "location": "PAC 107 Bradfield M",
-              "instructor": ""
+              "location": "PAC 107",
+              "instructor": "Bradfield M"
             },
             {
               "time": "Arrange-1 Hour",

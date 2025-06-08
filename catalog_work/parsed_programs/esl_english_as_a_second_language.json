@@ -256,14 +256,14 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [
-        "*ESL 19A, ESL 19B, and ESL 25 combined: maximum credit, 8 units."
+        "*ESL 19A, ESL 19B, and ESL 25 combined: maximum credit, 8 units"
       ],
       "prerequisites": "ESL 11A or multiple measures placement.",
       "prerequisite_notes": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "This course is an intermediate contextualized writing course for non-native speakers, emphasizing paragraph development and essay construction, editing of grammar and mechanical errors, reading, and critical thinking. ESL 19A is the first part of the ESL19A/B sequence.",
+      "description": ". This course is an intermediate contextualized writing course for non-native speakers, emphasizing paragraph development and essay construction, editing of grammar and mechanical errors, reading, and critical thinking. ESL 19A is the first part of the ESL19A/B sequence.",
       "same_as": null,
       "sections": [
         {
@@ -398,14 +398,14 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [
-        "*ESL 19A, ESL 19B and ESL 25 combined: maximum credit, 8 units."
+        "*ESL 19A, ESL 19B and ESL 25 combined: maximum credit, 8 units"
       ],
       "prerequisites": "ESL 19A.",
       "prerequisite_notes": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "This course is the second part of the ESL 19A/B sequence, for non-native speakers. It continues the emphasis on essay writing, editing of grammar and mechanical errors, reading, and critical thinking.",
+      "description": ". This course is the second part of the ESL 19A/B sequence, for non-native speakers. It continues the emphasis on essay writing, editing of grammar and mechanical errors, reading, and critical thinking.",
       "same_as": null,
       "sections": [
         {

@@ -204,14 +204,14 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [
-        "*Maximum UC credit allowed for COUNS 12 and COUNS 20 is 3 units This class is designed for students who are either undecided about their educational or career goals, validating their decisions, or seeking to transition into a new career."
+        "*Maximum UC credit allowed for COUNS 12 and COUNS 20 is 3 units"
       ],
       "prerequisites": null,
       "prerequisite_notes": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "Students are guided through a process that focuses on their individual interests, skills, personality and values to aid in the selection of a major, determine a career direction and develop career goals. Students will relate their self-assessment information to possible college major and career choices. Decision-making models and goal setting techniques are examined and will be used to develop short and long term education and career plans.",
+      "description": "This class is designed for students who are either undecided about their educational or career goals, validating their decisions, or seeking to transition into a new career. Students are guided through a process that focuses on their individual interests, skills, personality and values to aid in the selection of a major, determine a career direction and develop career goals. Students will relate their self-assessment information to possible college major and career choices. Decision-making models and goal setting techniques are examined and will be used to develop short and long term education and career plans.",
       "same_as": null,
       "sections": [
         {
@@ -572,7 +572,7 @@
             "Above section 1653 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible. Above section is part of the STEM/MAS program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/stem for more information."
           ],
           "duration": "8 weeks, Oct 27 to Dec 19",
-          "modality": "Flexible. Above section is part of the STEM/",
+          "modality": "Flexible",
           "co_enrollment_with": null
         },
         {
@@ -589,7 +589,7 @@
             "Above section 1654 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible. Above section is part of the STEM/MAS program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/stem for more information."
           ],
           "duration": "8 weeks, Oct 27 to Dec 19",
-          "modality": "Flexible. Above section is part of the STEM/",
+          "modality": "Flexible",
           "co_enrollment_with": null
         }
       ]
@@ -605,14 +605,14 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [
-        "*Maximum UC credit allowed for COUNS 12 and COUNS 20 is 3 units This course provides an exploration of intellectual, psychological, social and physical factors that impact lifelong learning, well-being and success."
+        "*Maximum UC credit allowed for COUNS 12 and COUNS 20 is 3 units"
       ],
       "prerequisites": null,
       "prerequisite_notes": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "Topics include motivation and selfefficacy; critical thinking, academic integrity and active study strategies; health issues and lifestyle choices; relating to others as a global citizen; written and oral communication; time management; career exploration; and educational planning.",
+      "description": "This course provides an exploration of intellectual, psychological, social and physical factors that impact lifelong learning, well-being and success. Topics include motivation and selfefficacy; critical thinking, academic integrity and active study strategies; health issues and lifestyle choices; relating to others as a global citizen; written and oral communication; time management; career exploration; and educational planning.",
       "same_as": null,
       "sections": [
         {
@@ -857,7 +857,7 @@
             "MOCAN Students. See smc.edu/student-support/men-of-color/mocan for more information. Above section modality is On Ground."
           ],
           "duration": null,
-          "modality": "On",
+          "modality": "On Ground",
           "co_enrollment_with": null
         },
         {
@@ -874,7 +874,7 @@
             "Above section 1671is recommended for, but not limited to, student athletes. See Special Program section of the Schedule of Classes for more information. Above section modality is On Ground."
           ],
           "duration": null,
-          "modality": "On",
+          "modality": "On Ground",
           "co_enrollment_with": null
         },
         {

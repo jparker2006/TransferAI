@@ -12,15 +12,13 @@
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, non-lab)",
-      "special_notes": [
-        "*Maximum credit allowed for ASTRON 1 and ASTRON 3 is one course (4 units)."
-      ],
+      "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "This course provides a comprehensive introduction to the fascinating subject of astronomy with an emphasis on the study of the Sun and other stars. Topics covered include the motions of the sky, a survey of the history of astronomy from Kepler to Einstein, gravity, radiation and matter, astronomical instrumentation, the Sun, stars, star formation, stellar evolution, galaxies and cosmology.",
+      "description": "*Maximum credit allowed for ASTRON 1 and ASTRON 3 is one course (4 units). This course provides a comprehensive introduction to the fascinating subject of astronomy with an emphasis on the study of the Sun and other stars. Topics covered include the motions of the sky, a survey of the history of astronomy from Kepler to Einstein, gravity, radiation and matter, astronomical instrumentation, the Sun, stars, star formation, stellar evolution, galaxies and cosmology.",
       "same_as": null,
       "sections": [
         {
@@ -137,15 +135,13 @@
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, non-lab)",
-      "special_notes": [
-        "*Maximum credit allowed for ASTRON 2 and ASTRON 4 is one course (4 units)."
-      ],
+      "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "This course provides a comprehensive introduction to the fascinating subject of astronomy with an emphasis on the study of the Earth and the other planets in the solar system. Topics covered include the motions of the sky, a survey of the history of astronomy from the Greeks to Einstein, phases of the moon, eclipses, gravity, the formation of the solar system, the Earth, Terrestrial and Jovian planets, their moons, asteroids, meteoroids, comets and a discussion of extrasolar planets around other stars.",
+      "description": "*Maximum credit allowed for ASTRON 2 and ASTRON 4 is one course (4 units). This course provides a comprehensive introduction to the fascinating subject of astronomy with an emphasis on the study of the Earth and the other planets in the solar system. Topics covered include the motions of the sky, a survey of the history of astronomy from the Greeks to Einstein, phases of the moon, eclipses, gravity, the formation of the solar system, the Earth, Terrestrial and Jovian planets, their moons, asteroids, meteoroids, comets and a discussion of extrasolar planets around other stars.",
       "same_as": null,
       "sections": [
         {
@@ -234,15 +230,13 @@
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
-      "special_notes": [
-        "*Maximum credit allowed for ASTRON 1 and ASTRON 3 is one course (4 units)."
-      ],
+      "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "This survey course covers the same material as Astronomy 1, but includes a laboratory section covering hands-on astronomical activities. The laboratory portion includes observations of the sky, computer simulations, the construction of simple astronomical instruments and analyzing publicly avail- able astronomical data from the internet.",
+      "description": "*Maximum credit allowed for ASTRON 1 and ASTRON 3 is one course (4 units). This survey course covers the same material as Astronomy 1, but includes a laboratory section covering hands-on astronomical activities. The laboratory portion includes observations of the sky, computer simulations, the construction of simple astronomical instruments and analyzing publicly avail- able astronomical data from the internet.",
       "same_as": null,
       "sections": [
         {
@@ -314,15 +308,13 @@
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
-      "special_notes": [
-        "*Maximum credit allowed for ASTRON 2 and ASTRON 4 is one course (4 units)."
-      ],
+      "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "This is a 4-unit introductory level lab course with a similar curricular depth and breadth to its comparable 3-unit lecture course Astronomy 2. In the lab component, students begin by re-creating many historical, first-ever human discoveries and measurements that helped to develop the scientific method: the size of Earth, Moon, and Sun, their relative distances, the scale of planetary orbits, phases, diameters, densities, masses, surface features, atmospheres, and rates of rotation. The labs also engage students in basic observations of the sky, computer simulations, and analysis of archival data from public domain sky surveys and surface maps by robotic NASA rovers and orbiting probes. The course material is a single semester survey of the origin and evolution of planetary systems such as our own Solar System including the latest leading theories of planetary topography, atmospheres, interiors, moons, comets, asteroids, and aurorae produced by the interaction of planetary magnetism and particle outflows from the Sun.",
+      "description": "*Maximum credit allowed for ASTRON 2 and ASTRON 4 is one course (4 units). This is a 4-unit introductory level lab course with a similar curricular depth and breadth to its comparable 3-unit lecture course Astronomy 2. In the lab component, students begin by re-creating many historical, first-ever human discoveries and measurements that helped to develop the scientific method: the size of Earth, Moon, and Sun, their relative distances, the scale of planetary orbits, phases, diameters, densities, masses, surface features, atmospheres, and rates of rotation. The labs also engage students in basic observations of the sky, computer simulations, and analysis of archival data from public domain sky surveys and surface maps by robotic NASA rovers and orbiting probes. The course material is a single semester survey of the origin and evolution of planetary systems such as our own Solar System including the latest leading theories of planetary topography, atmospheres, interiors, moons, comets, asteroids, and aurorae produced by the interaction of planetary magnetism and particle outflows from the Sun.",
       "same_as": null,
       "sections": [
         {
@@ -443,7 +435,7 @@
             }
           ],
           "notes": [
-            "Above section modality is Flexible. Athletics"
+            "Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",

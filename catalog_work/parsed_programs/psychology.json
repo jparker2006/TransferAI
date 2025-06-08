@@ -1,7 +1,501 @@
 {
   "program_name": "Psychology",
-  "program_description": "Psychologists study the behavior of individuals and groups and try to help people achieve satisfactory personal adjustment. They work with individuals, couples, families or groups. Some engage in teaching or research, while others work with people doing testing, counseling, or treatment in clinics, schools, and industries. Some additional career titles include developmental psychologist, industrial/organizational psychologist, mental health coordinator, and community services worker. See Counseling for courses in educational and vocational planning and personal awareness. PSYC C1000, GENERAL PSYCHOLOGY 3 UNITS Transfer: UC, CSU C-ID: PSY 110. Cal-GETC Area 4 (Social & Behavioral Sciences) • Advisory: Eligibility for English 1. Formerly: PSYCH 1. This course is an introduction to psychology, which is the study of the mind and behavior. Students focus on theories and concepts of biological, cognitive, developmental, environmental, social, and cultural influences; their applications; and their research foundations. 2974 8:00a.m.-9:20a.m. T HSS 253 Schwartz A F Arrange-1.5 Hours ONLINE Schwartz A F Above section 2974 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. 2975 9:30a.m.-10:50a.m. TTh MALBU 219Hausman Ozery D Above section 2975 meets at the Malibu Campus, 23555 Civic Center Way, Malibu. Please be advised that the distance between the SMC Main Campus and the Malibu Campus is approximately 15 miles. Please plan your schedule to accommodate travel time, which will vary depending on time of day and mode of transportation. Above section modality is On Ground. 2976 11:15a.m.-12:35p.m. MW ONLINE Schwartz A F Above section modality is Scheduled. 2977 12:45p.m.-2:05p.m. TTh HSS 256 O’Leary B A Above section modality is On Ground. 2978 2:15p.m.-3:35p.m. MW ONLINE Davis-King D T Above section modality is Scheduled. 2979 2:15p.m.-3:35p.m. W HSS 256 Anderson St M Arrange-1.5 Hours ONLINE Anderson St M Above section 2979 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. 2980 Arrange-3 Hours ONLINE Hausman Ozery D Above section modality is Flexible. 2981 Arrange-3 Hours ONLINE Hausman Ozery D Above section modality is Flexible. 2982 Arrange-3 Hours ONLINE Davis-King D T Above section modality is Flexible. 2983 Arrange-6.5 Hours ONLINE De Loach C D Above section 2983 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible. 2984 Arrange-6.5 Hours ONLINE De Loach C D Above section 2984 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible. 2985 Arrange-3 Hours ONLINE Davis-King D T Above section modality is Flexible. 2986 Arrange-3 Hours ONLINE Farwell L A Above section modality is Flexible. 2987 Arrange-3 Hours ONLINE Farwell L A Above section modality is Flexible. 2988 Arrange-3 Hours ONLINE Farwell L A Above section modality is Flexible. 2989 Arrange-3 Hours ONLINE Woodard N L Above section modality is Flexible. 2990 Arrange-6.5 Hours ONLINE Cue E N Above section 2990 meets for 8 weeks, Sep 03 to Oct 24. Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is Flexible. 2991 Arrange-6.5 Hours ONLINE Cue E N Above section 2991 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible. 2992 Arrange-3 Hours ONLINE Schwartz A F Above section modality is Flexible. 2994 Arrange-3 Hours ONLINE Chin D Above section modality is Flexible. 2995 Arrange-3 Hours ONLINE Chin D Above section modality is Flexible. 2996 Arrange-3 Hours ONLINE Chin D Above section modality is Flexible. 2998 Arrange-3 Hours ONLINE Chopp R M Above section modality is Flexible. 3000 Arrange-4.5 Hours ONLINE Arakelyan H Above section 3000 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible. 3002 Arrange-6.5 Hours ONLINE Arakelyan H Above section 3002 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible. 4178 5:15p.m.-6:35p.m. MW HSS 103 Smith-Clark C T Above section modality is On Ground. 4179 6:45p.m.-9:50p.m. M HSS 256 Smith-Clark C T Above section modality is On Ground.",
+  "program_description": "Psychologists study the behavior of individuals and groups and try to help people achieve satisfactory personal adjustment. They work with individuals, couples, families or groups. Some engage in teaching or research, while others work with people doing testing, counseling, or treatment in clinics, schools, and industries. Some additional career titles include developmental psychologist, industrial/organizational psychologist, mental health coordinator, and community services worker. See Counseling for courses in educational and vocational planning and personal awareness.",
   "courses": [
+    {
+      "course_code": "PSYC C1000",
+      "course_title": "GENERAL PSYCHOLOGY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "PSY 110",
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": ": PSYCH 1",
+      "description": "This course is an introduction to psychology, which is the study of the mind and behavior. Students focus on theories and concepts of biological, cognitive, developmental, environmental, social, and cultural influences; their applications; and their research foundations.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2974",
+          "schedule": [
+            {
+              "time": "8:00a.m.-9:20a.m.",
+              "days": "T",
+              "location": "HSS 253",
+              "instructor": "Schwartz A F"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Schwartz A F"
+            }
+          ],
+          "notes": [
+            "Above section 2974 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2975",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "MALBU 219",
+              "instructor": "Hausman Ozery D"
+            }
+          ],
+          "notes": [
+            "Above section 2975 meets at the Malibu Campus, 23555 Civic Center Way, Malibu. Please be advised that the distance between the SMC Main Campus and the Malibu Campus is approximately",
+            "15 miles. Please plan your schedule to accommodate travel time, which will vary depending on time of day and mode of transportation. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2976",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "ONLINE",
+              "instructor": "Schwartz A F"
+            }
+          ],
+          "notes": [
+            "Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2977",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "HSS 256 O’",
+              "instructor": "Leary B A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2978",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "MW",
+              "location": "ONLINE",
+              "instructor": "Davis-King D T"
+            }
+          ],
+          "notes": [
+            "Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2979",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "W",
+              "location": "HSS 256",
+              "instructor": "Anderson St M"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Anderson St M"
+            }
+          ],
+          "notes": [
+            "Above section 2979 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2980",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Hausman Ozery D"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2981",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Hausman Ozery D"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2982",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Davis-King D T"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2983",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "De Loach C D"
+            }
+          ],
+          "notes": [
+            "Above section 2983 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2984",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "De Loach C D"
+            }
+          ],
+          "notes": [
+            "Above section 2984 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2985",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Davis-King D T"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2986",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Farwell L A"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2987",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Farwell L A"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2988",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Farwell L A"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2989",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Woodard N L"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2990",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Cue E N"
+            }
+          ],
+          "notes": [
+            "Above section 2990 meets for 8 weeks, Sep 03 to Oct 24.",
+            "Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2991",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Cue E N"
+            }
+          ],
+          "notes": [
+            "Above section 2991 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2992",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Schwartz A F"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2994",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Chin D"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2995",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Chin D"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2996",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Chin D"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2998",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Chopp R M"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3000",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Arakelyan H"
+            }
+          ],
+          "notes": [
+            "Above section 3000 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3002",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Arakelyan H"
+            }
+          ],
+          "notes": [
+            "Above section 3002 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4178",
+          "schedule": [
+            {
+              "time": "5:15p.m.-6:35p.m.",
+              "days": "MW",
+              "location": "HSS 103",
+              "instructor": "Smith-Clark C T"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4179",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "M",
+              "location": "HSS 256",
+              "instructor": "Smith-Clark C T"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
     {
       "course_code": "PSYCH 2",
       "course_title": "PHYSIOLOGICAL PSYCHOLOGY",
@@ -732,8 +1226,8 @@
             {
               "time": "2:15p.m.-3:35p.m.",
               "days": "TTh",
-              "location": "HSS 256 O’Leary B A",
-              "instructor": ""
+              "location": "HSS 256 O’",
+              "instructor": "Leary B A"
             }
           ],
           "notes": [

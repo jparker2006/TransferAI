@@ -7,6 +7,12 @@ from datetime import datetime
 
 
 @dataclass
+class SmallHeader:
+    header_name: str
+    description: str
+
+
+@dataclass
 class Schedule:
     time: str
     days: str
@@ -55,6 +61,7 @@ class SMCCatalogParser:
         self.text_file_path = text_file_path
         self.output_dir = output_dir
         self.programs = []
+        self.small_headers = []  # Track smaller program headers marked with ~
         self.parsing_warnings = []  # Track potential parsing issues
         
         # Create output directory if it doesn't exist
@@ -286,18 +293,63 @@ class SMCCatalogParser:
         # Fix hyphenation issues first
         content = self.fix_hyphenation(content)
         
-        # Split by program markers
-        program_sections = re.split(r'\n=([^=\n]+)\n', content)
+        # Split by both program markers: = for main programs, ~ for small headers
+        # We'll process them in order to maintain proper organization
+        sections = re.split(r'\n([=~])([^=~\n]+)\n', content)
         
-        # Process each program
-        for i in range(1, len(program_sections), 2):
-            program_name = program_sections[i].strip()
-            program_content = program_sections[i + 1] if i + 1 < len(program_sections) else ""
-            
-            if program_content.strip():
-                program = self.parse_program(program_name, program_content)
-                self.programs.append(program)
-                self.save_program_json(program)
+        # Process each section
+        i = 1
+        while i < len(sections):
+            if i + 2 < len(sections):
+                marker = sections[i]      # = or ~
+                header_name = sections[i + 1].strip()
+                section_content = sections[i + 2] if i + 2 < len(sections) else ""
+                
+                if marker == '=':
+                    # Main program header
+                    if section_content.strip():
+                        program = self.parse_program(header_name, section_content)
+                        self.programs.append(program)
+                        self.save_program_json(program)
+                elif marker == '~':
+                    # Small header - extract just the description (usually one line)
+                    description_lines = []
+                    lines = section_content.split('\n')
+                    
+                    # Take content until we hit another header or end
+                    for line in lines:
+                        line = line.strip()
+                        if not line:
+                            continue
+                        # Stop if we hit the start of another section (=HEADER or ~HEADER pattern)
+                        if line.startswith('=') or line.startswith('~'):
+                            break
+                        description_lines.append(line)
+                        # For small headers, take multiple lines if needed to capture complete descriptions
+                        # Continue until we have a reasonably complete description or hit specific markers
+                        full_description = ' '.join(description_lines)
+                        # Stop if we reach a reasonable length and end with proper punctuation
+                        if (len(full_description) > 50 and 
+                            (full_description.endswith('.') or 
+                             full_description.endswith('"') or
+                             'listed under name of specific language' in full_description)):
+                            break
+                    
+                    description = ' '.join(description_lines).strip()
+                    if description:
+                        small_header = SmallHeader(
+                            header_name=header_name,
+                            description=description
+                        )
+                        self.small_headers.append(small_header)
+                
+                i += 3
+            else:
+                i += 1
+        
+        # Save small headers to separate JSON file
+        if self.small_headers:
+            self.save_small_headers_json()
     
     def is_legitimate_course_title(self, title: str) -> bool:
         """
@@ -381,7 +433,8 @@ class SMCCatalogParser:
             line = lines[i].strip()
             
             # Look for course code pattern at the start of a line
-            course_match = re.match(r'^((?:[A-Z]+\s+)?[A-Z]+(?:\s+ST)?\s+[0-9]+[A-Z]?),\s+(.+)', line)
+            # Updated to handle codes like "ENGL C1000" (letter prefix before digits)
+            course_match = re.match(r'^((?:[A-Z]+\s+)?[A-Z]+(?:\s+ST)?\s+[A-Z]*[0-9]+[A-Z]*),\s+(.+)', line)
             if course_match:
                 course_code = course_match.group(1)
                 title_start = course_match.group(2)
@@ -714,9 +767,12 @@ class SMCCatalogParser:
                     if duration_match:
                         current_section.duration = duration_match.group(1)
                     # Extract modality if present - search anywhere in the line
-                    modality_match = re.search(r'modality is (.+?)\.?$', line)
+                    modality_match = re.search(r'modality is ([^.]+)', line)
                     if modality_match:
-                        current_section.modality = modality_match.group(1).rstrip('.')
+                        modality_value = modality_match.group(1).strip()
+                        # Clean up any line break artifacts or extra whitespace
+                        modality_value = re.sub(r'\s+', ' ', modality_value).strip()
+                        current_section.modality = modality_value
                     i += 1
                     continue
                 else:
@@ -730,15 +786,25 @@ class SMCCatalogParser:
             
             # If not in section or couldn't parse as section content, it's description
             if not in_section:
-                # Check for "same as" pattern
-                same_as_match = re.search(r'([A-Z]+(?:\s+ST)?\s+\d+[A-Z]?)\s+is the same course as\s+([A-Z]+(?:\s+ST)?\s+\d+[A-Z]?)', line)
-                if same_as_match:
-                    course.same_as = same_as_match.group(2)
-                    # Add the part before "same as" to description if any
-                    before_same_as = line[:same_as_match.start()].strip()
-                    if before_same_as:
-                        description_lines.append(before_same_as)
-                else:
+                # Check for "same as" pattern - handle both "course" and "class" variations
+                same_as_patterns = [
+                    r'([A-Z]+(?:\s+ST)?\s+\d+[A-Z]?)\s+is the same (?:course|class) as\s+([A-Z]+(?:\s+ST)?\s+\d+[A-Z]?)',
+                    r'([A-Z]+(?:\s+ST)?\s+\d+[A-Z]?)\s+is the same as\s+([A-Z]+(?:\s+ST)?\s+\d+[A-Z]?)',
+                ]
+                
+                same_as_found = False
+                for pattern in same_as_patterns:
+                    same_as_match = re.search(pattern, line)
+                    if same_as_match:
+                        course.same_as = same_as_match.group(2)
+                        # Add the part before "same as" to description if any
+                        before_same_as = line[:same_as_match.start()].strip()
+                        if before_same_as:
+                            description_lines.append(before_same_as)
+                        same_as_found = True
+                        break
+                
+                if not same_as_found:
                     description_lines.append(line)
             
             i += 1
@@ -801,12 +867,17 @@ class SMCCatalogParser:
                 section.notes[i] = fixed_note
             
             # Extract modality from any note containing "modality is"
-            if not section.modality:
+            # Also check if modality is incomplete (just "On" without "Ground")
+            if not section.modality or section.modality == "On":
                 for note in section.notes:
-                    # Primary pattern: "modality is [value]"
-                    modality_match = re.search(r'modality is (.+?)\.?$', note)
+                    # Primary pattern: "modality is [value]" - stop at first period or end of sentence
+                    # Handle cases where the modality value might have been split across lines
+                    modality_match = re.search(r'modality is ([^.]+)', note)
                     if modality_match:
-                        section.modality = modality_match.group(1).rstrip('.')
+                        modality_value = modality_match.group(1).strip()
+                        # Clean up any line break artifacts or extra whitespace
+                        modality_value = re.sub(r'\s+', ' ', modality_value).strip()
+                        section.modality = modality_value
                         break
                     
                     # IMPROVED: Additional modality patterns
@@ -863,22 +934,45 @@ class SMCCatalogParser:
                 course.description = re.sub(prereq_pattern, '', course.description).strip()
                 self.add_warning(f"Extracted prerequisites from description for {course_code}: {course.prerequisites}")
             
+            # IMPROVED: Extract "same as" information from description if not already set
+            if not course.same_as:
+                # Expanded patterns to handle variations: "is the same course as", "is the same class as"
+                same_as_patterns = [
+                    r'([A-Z]+(?:\s+ST)?\s+\d+[A-Z]?)\s+is the same (?:course|class) as\s+([A-Z]+(?:\s+ST)?\s+\d+[A-Z]?)',
+                    r'([A-Z]+(?:\s+ST)?\s+\d+[A-Z]?)\s+is the same as\s+([A-Z]+(?:\s+ST)?\s+\d+[A-Z]?)',
+                ]
+                
+                for pattern in same_as_patterns:
+                    same_as_match = re.search(pattern, course.description)
+                    if same_as_match:
+                        course.same_as = same_as_match.group(2)
+                        # Remove the "same as" clause from description
+                        # Find the full sentence containing the match
+                        full_sentence_pattern = r'[^.]*' + re.escape(same_as_match.group(0)) + r'[^.]*\.'
+                        sentence_match = re.search(full_sentence_pattern, course.description)
+                        if sentence_match:
+                            course.description = re.sub(re.escape(sentence_match.group(0)), '', course.description).strip()
+                            # Clean up any double spaces or periods
+                            course.description = re.sub(r'\s+', ' ', course.description).strip()
+                        self.add_warning(f"Extracted same_as from description for {course_code}: {course.same_as}")
+                        break
+            
             # IMPROVED: Extract all asterisk notes from description and categorize them
             asterisk_patterns = [
                 # Credit limitations and restrictions (should go to special_notes)
-                # Updated to handle sentences ending with or without periods
-                (r'(\*Maximum (?:UC )?credit[^.]*(?:\.|(?=\s+[A-Z])))', 'special'),
-                (r'(\*No UC (?:transfer )?credit[^.]*(?:\.|(?=\s+[A-Z])))', 'special'),
-                (r'(\*Total of[^.]*(?:\.|(?=\s+[A-Z])))', 'special'),
-                (r'(\*UC gives no credit[^.]*(?:\.|(?=\s+[A-Z])))', 'special'),
+                # Very specific patterns that match only the credit statements
+                (r'(\*Maximum (?:UC )?credit (?:allowed )?for [A-Z]+ \d+[A-Z]?(?: and [A-Z]+ \d+[A-Z]?)* (?:combined )?is \d+ (?:unit|course)s?)(?:\.|(?=\s+(?:This|Students|In this|The course)))', 'special'),
+                (r'(\*No UC (?:transfer )?credit for [A-Z]+ \d+[A-Z]?(?: if taken [^.]*)?)', 'special'),
+                (r'(\*Total of [A-Z]+ \d+[A-Z]? and [A-Z]+ \d+[A-Z]? combined[^.]*)', 'special'),
+                (r'(\*UC gives no credit for [A-Z]+ \d+[A-Z]? if [^.]*)', 'special'),
                 # Handle ESL-style combined credit patterns
-                (r'(\*[A-Z]+ \d+[A-Z]?,\s*[A-Z]+ \d+[A-Z]?[^:]*:\s*maximum credit[^.]*(?:\.|(?=\s+[A-Z])))', 'special'),
+                (r'(\*[A-Z]+ \d+[A-Z]?,\s*[A-Z]+ \d+[A-Z]?[^:]*:\s*maximum credit[^.]*)', 'special'),
                 
                 # Prerequisite explanations (should go to prerequisite_notes)
-                (r'(\*The prerequisite for this course[^.]*(?:\.|(?=\s+[A-Z])))', 'prerequisite'),
+                (r'(\*The prerequisite for this course[^.]*)', 'prerequisite'),
                 
                 # Advisory explanations (should go to advisory_notes)
-                (r'(\*The advisory for this course[^.]*(?:\.|(?=\s+[A-Z])))', 'advisory'),
+                (r'(\*The advisory for this course[^.]*)', 'advisory'),
             ]
             
             for pattern, note_type in asterisk_patterns:
@@ -903,6 +997,33 @@ class SMCCatalogParser:
                     
                     # Remove from description
                     course.description = re.sub(pattern, '', course.description).strip()
+            
+            # IMPROVED: Extract credit-related continuation sentences (without asterisks)
+            # These often follow asterisk notes and provide additional credit information
+            credit_continuation_patterns = [
+                # Maximum credit patterns
+                r'(Maximum (?:UC )?credit for [A-Z]+ \d+[A-Z]?(?: and \d+[A-Z]?)* combined is [^.]+\.)',
+                r'(Maximum (?:UC )?credit for [A-Z]+ \d+[A-Z]? and [A-Z]+ \d+[A-Z]? combined is [^.]+\.)',
+                # Total credit patterns  
+                r'(Total of [A-Z]+ \d+[A-Z]? and [A-Z]+ \d+[A-Z]? combined[^.]+\.)',
+                # No credit patterns
+                r'(No (?:UC )?credit for [A-Z]+ \d+[A-Z]? if taken [^.]+\.)',
+                # UC gives patterns
+                r'(UC gives no credit for [A-Z]+ \d+[A-Z]? if [^.]+\.)',
+            ]
+            
+            # Only look for these if we already have special_notes (indicates this course has credit restrictions)
+            if course.special_notes:
+                for pattern in credit_continuation_patterns:
+                    continuation_match = re.search(pattern, course.description)
+                    if continuation_match:
+                        continuation_note = continuation_match.group(1)
+                        course.special_notes.append(continuation_note)
+                        # Remove from description
+                        course.description = re.sub(re.escape(continuation_note), '', course.description).strip()
+                        # Clean up any double spaces
+                        course.description = re.sub(r'\s+', ' ', course.description).strip()
+                        self.add_warning(f"Extracted credit continuation note from description for {course_code}: {continuation_note}")
             
             # Clean up advisory field by removing asterisks and trailing periods
             if course.advisory:
@@ -1218,9 +1339,10 @@ class SMCCatalogParser:
         words = text.split()
         for word in words:
             # Each word should be either:
-            # - All uppercase letters/numbers
+            # - All uppercase letters/numbers (isupper() or all digits)
             # - A mix but starting with uppercase and mostly uppercase
             if not (word.isupper() or 
+                    word.isdigit() or  # Allow pure numbers like room numbers
                     (word[0].isupper() and sum(1 for c in word if c.isupper()) >= len(word) * 0.7)):
                 return False
         
@@ -1295,6 +1417,29 @@ class SMCCatalogParser:
         
         print(f"Saved {program.program_name} to {filepath}")
     
+    def save_small_headers_json(self):
+        """Save all small headers to a separate JSON file"""
+        filepath = os.path.join(self.output_dir, "cross_references.json")
+        
+        # Convert to dict for JSON serialization
+        small_headers_data = {
+            "small_headers": [
+                {
+                    "header_name": header.header_name,
+                    "description": header.description
+                }
+                for header in self.small_headers
+            ],
+            "count": len(self.small_headers),
+            "parsed_at": datetime.now().isoformat()
+        }
+        
+        # Save to JSON file
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(small_headers_data, f, indent=2, ensure_ascii=False)
+        
+        print(f"Saved {len(self.small_headers)} cross-references to {filepath}")
+    
     def establish_co_enrollment_relationships(self, course: Course):
         """Establish co-enrollment relationships between sections based on notes"""
         for section in course.sections:
@@ -1311,7 +1456,7 @@ class SMCCatalogParser:
 if __name__ == "__main__":
     parser = SMCCatalogParser(os.path.join(os.path.dirname(__file__), "catalog_cleaned.txt"), os.path.join(os.path.dirname(__file__), "parsed_programs"))
     parser.parse()
-    print(f"\nParsed {len(parser.programs)} programs")
+    print(f"\nParsed {len(parser.programs)} programs and {len(parser.small_headers)} small headers")
     
     # Print parsing warnings summary
     if parser.parsing_warnings:
@@ -1322,9 +1467,10 @@ if __name__ == "__main__":
             print(f"  ... and {len(parser.parsing_warnings) - 10} more warnings")
     
     # Print summary
+    print(f"\n=== MAIN PROGRAMS ({len(parser.programs)}) ===")
     for program in parser.programs:
-        print(f"\n{program.program_name}: {len(program.courses)} courses")
-        for course in program.courses:
-            print(f"  - {course.course_code}: {course.course_title} ({course.units})")
-            if course.sections:
-                print(f"    Sections: {len(course.sections)}")
+        print(f"  {program.program_name}: {len(program.courses)} courses")
+    
+    print(f"\n=== SMALL HEADERS ({len(parser.small_headers)}) ===")
+    for small_header in parser.small_headers:
+        print(f"  {small_header.header_name}: {small_header.description}")

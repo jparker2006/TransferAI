@@ -629,7 +629,7 @@
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "Please see “Independent Studies” section. Please see listing under “Biological Sciences.”",
+      "description": "Please see “Independent Studies” section.",
       "same_as": null,
       "sections": [
         {
@@ -642,9 +642,7 @@
               "instructor": "Hsieh J M"
             }
           ],
-          "notes": [
-            "Physiology"
-          ],
+          "notes": [],
           "duration": null,
           "modality": null,
           "co_enrollment_with": null

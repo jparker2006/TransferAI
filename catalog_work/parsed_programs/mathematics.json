@@ -1,19 +1,33 @@
 {
   "program_name": "Mathematics",
-  "program_description": "Mathematicians use symbolic languages to set up and analyze relationships among quantities and qualities of things, events, and places. Pure mathematicians develop the theories to further the science of mathematics. Possible careers include actuary, computer engineer, cryptographer, satellite communications expert, robotics programmer, statistician and teacher. Students new to the Santa Monica College mathematics program who wish to enroll in a course should see the placement tab in their Corsair connect account. Mathematics placement based on high school GPA and highest math class taken in high school, or through Guided Self Placement (GSP). A student who has successfully completed college level math courses (earned a grade of C or better) at another institution may be able to verify having met prerequisites by submitting an official transcript. Continuing students must complete prerequisite courses with a grade of “C” or better. STAT C1000, INTRODUCTION TO STATISTICS WITH",
+  "program_description": "Mathematicians use symbolic languages to set up and analyze relationships among quantities and qualities of things, events, and places. Pure mathematicians develop the theories to further the science of mathematics. Possible careers include actuary, computer engineer, cryptographer, satellite communications expert, robotics programmer, statistician and teacher. Students new to the Santa Monica College mathematics program who wish to enroll in a course should see the placement tab in their Corsair connect account. Mathematics placement based on high school GPA and highest math class taken in high school, or through Guided Self Placement (GSP). A student who has successfully completed college level math courses (earned a grade of C or better) at another institution may be able to verify having met prerequisites by submitting an official transcript. Continuing students must complete prerequisite courses with a grade of “C” or better.",
   "courses": [
+    {
+      "course_code": "STAT C1000",
+      "course_title": "INTRODUCTION TO STATISTICS WITH MATH 54C, CONCURRENT SUPPORT FOR ELEMENTARY STATISTICS",
+      "units": "6 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "",
+      "same_as": null,
+      "sections": []
+    },
     {
       "course_code": "MATH 54C",
       "course_title": "CONCURRENT SUPPORT FOR ELEMENTARY STATISTICS",
       "units": "6 UNITS",
-      "transfer_info": [
-        "UC",
-        "CSU"
-      ],
-      "c_id": "MATH 110",
+      "transfer_info": [],
+      "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
-      "prerequisites": "Placement as determined by the college’s multiple",
+      "prerequisites": "MATH 18 or MATH 20 or MATH 49 or MATH 50.",
       "prerequisite_notes": null,
       "advisory": null,
       "advisory_notes": null,
@@ -539,12 +553,33 @@
             }
           ],
           "notes": [
-            "Above section 4141 requires co-enrollment in STAT C1000 section 4195. Above section modality is On Ground. STAT C1000, INTRODUCTION TO STATISTICS 4 UNITS measures assessment process or completion of a course taught at or above the level of intermediate algebra."
+            "Above section 4141 requires co-enrollment in STAT C1000 section 4195. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
           "co_enrollment_with": "4195"
-        },
+        }
+      ]
+    },
+    {
+      "course_code": "STAT C1000",
+      "course_title": "INTRODUCTION TO STATISTICS",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "MATH 110",
+      "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
+      "special_notes": [],
+      "prerequisites": "Placement as determined by the college’s multiple",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": "MATH 54",
+      "description": "measures assessment process or completion of a course taught at or above the level of intermediate algebra. This course is an introduction to statistical thinking and processes, including methods and concepts for discovery and decision-making using data. Topics include descriptive statistics; probability and sampling distributions; statistical inference; correlation and linear regression; analysis of variance, chi-squared, and t-tests; and application of technology for statistical analysis including the interpretation of the relevance of the statistical findings. Students apply methods and processes to applications using data from a broad range of disciplines.",
+      "same_as": null,
+      "sections": [
         {
           "section_number": "3113",
           "schedule": [
@@ -1024,7 +1059,7 @@
             "Above section modality is Flexible. Above section has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
           ],
           "duration": null,
-          "modality": "Flexible. Above section has online exams",
+          "modality": "Flexible",
           "co_enrollment_with": null
         },
         {
@@ -1176,15 +1211,13 @@
       "transfer_info": [],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
-      "special_notes": [
-        "*Maximum UC credit for Math 2, Math 4, and Math 26 is one course."
-      ],
+      "special_notes": [],
       "prerequisites": "Math 20 and Math 32.",
       "prerequisite_notes": null,
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
-      "description": "MATH 2 Transfer: UC*, CSU; MATH 2C Transfer: None  Math 2: An intensive preparation for calculus. This course is intended for computer science, engineering, mathematics, and natural science majors. Topics include algebraic, exponential, logarithmic and trigonometric functions and their inverses and identities, conic sections, sequences, series, the binomial theorem and mathematical induction. The corequisite Math 2C: A review of the core prerequisite skills, competencies, and concepts needed in precalculus. Intended for students who are concurrently enrolled in Math 2, Precalculus. Topics include concepts from elementary algebra, geometry, and intermediate algebra that are needed to understand the basics of college-level precalculus. Emphasis is placed on real and complex numbers; fundamental operations on algebraic expressions and functions; algebraic factoring and simplification; introduction to functions, equations and graphs; circles and parabolas; properties of geometric figures, similarity, and special right triangles. Pass/No Pass only. CO-ENROLLMENT",
+      "description": "MATH 2 Transfer: UC*, CSU; MATH 2C Transfer: None *Maximum UC credit for Math 2, Math 4, and Math 26 is one course. Math 2: An intensive preparation for calculus. This course is intended for computer science, engineering, mathematics, and natural science majors. Topics include algebraic, exponential, logarithmic and trigonometric functions and their inverses and identities, conic sections, sequences, series, the binomial theorem and mathematical induction. The corequisite Math 2C: A review of the core prerequisite skills, competencies, and concepts needed in precalculus. Intended for students who are concurrently enrolled in Math 2, Precalculus. Topics include concepts from elementary algebra, geometry, and intermediate algebra that are needed to understand the basics of college-level precalculus. Emphasis is placed on real and complex numbers; fundamental operations on algebraic expressions and functions; algebraic factoring and simplification; introduction to functions, equations and graphs; circles and parabolas; properties of geometric figures, similarity, and special right triangles. Pass/No Pass only. CO-ENROLLMENT",
       "same_as": null,
       "sections": [
         {
@@ -1505,15 +1538,13 @@
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
-      "special_notes": [
-        "*Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units."
-      ],
+      "special_notes": [],
       "prerequisites": "MATH 20 and MATH 32.",
       "prerequisite_notes": null,
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
-      "description": "An intensive preparation for calculus. This course is intended for computer science, engineering, mathematics, and natural science majors. Topics include algebraic, exponential, logarithmic and trigonometric functions and their inverses and identities, conic sections, sequences, series, the binomial theorem and mathematical induction.",
+      "description": "*Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units. An intensive preparation for calculus. This course is intended for computer science, engineering, mathematics, and natural science majors. Topics include algebraic, exponential, logarithmic and trigonometric functions and their inverses and identities, conic sections, sequences, series, the binomial theorem and mathematical induction.",
       "same_as": null,
       "sections": [
         {
@@ -1598,7 +1629,7 @@
             "Above section modality is Flexible. Above section has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
           ],
           "duration": null,
-          "modality": "Flexible. Above section has online exams",
+          "modality": "Flexible",
           "co_enrollment_with": null
         },
         {
@@ -1818,15 +1849,13 @@
       "transfer_info": [],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2: Mathematical Concepts and Quantitative Reasoning",
-      "special_notes": [
-        "*Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units."
-      ],
+      "special_notes": [],
       "prerequisites": "MATH 20.",
       "prerequisite_notes": null,
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
-      "description": "Math 4 Transfer: UC*, CSU; Math 4C Transfer: None  MATH 4: This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). MATH 4 in combination with MATH 3 (Trigonometry with applications) serves as a prerequisite for Math 7 (Calculus 1). The topics to be covered include review of the fundamentals of algebra, relations, functions, solutions of first and second degree equations and inequalities, systems of equations, matrices, binomial theorem, mathematical induction, polynomial and rational functions, exponential and logarithmic functions, analytic geometry and conic sections, and geometric and arithmetic sequences and series. The corequisite MATH 4C is a review of the core prerequisite skills, competencies, and concepts needed in College Algebra. Intended for students who are concurrently enrolled in MATH 4, College Algebra for STEM Majors. Topics include concepts from elementary and intermediate algebra and analytic geometry that are needed to understand the basics of college-level algebra. Emphasis is placed on real and complex numbers; fundamental operations on algebraic expressions and functions; factoring and simplifying algebraic expressions; introduction to functions, solving equations and systems of linear equations; graphs of elementary functions and their properties. Pass/No Pass only. CO-ENROLLMENT",
+      "description": "Math 4 Transfer: UC*, CSU; Math 4C Transfer: None *Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units. MATH 4: This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). MATH 4 in combination with MATH 3 (Trigonometry with applications) serves as a prerequisite for Math 7 (Calculus 1). The topics to be covered include review of the fundamentals of algebra, relations, functions, solutions of first and second degree equations and inequalities, systems of equations, matrices, binomial theorem, mathematical induction, polynomial and rational functions, exponential and logarithmic functions, analytic geometry and conic sections, and geometric and arithmetic sequences and series. The corequisite MATH 4C is a review of the core prerequisite skills, competencies, and concepts needed in College Algebra. Intended for students who are concurrently enrolled in MATH 4, College Algebra for STEM Majors. Topics include concepts from elementary and intermediate algebra and analytic geometry that are needed to understand the basics of college-level algebra. Emphasis is placed on real and complex numbers; fundamental operations on algebraic expressions and functions; factoring and simplifying algebraic expressions; introduction to functions, solving equations and systems of linear equations; graphs of elementary functions and their properties. Pass/No Pass only. CO-ENROLLMENT",
       "same_as": null,
       "sections": [
         {
@@ -1991,15 +2020,13 @@
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
-      "special_notes": [
-        "*Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units."
-      ],
+      "special_notes": [],
       "prerequisites": "MATH 20.",
       "prerequisite_notes": null,
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
-      "description": "This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). Math 4 in combination with Math 3 (Trigonometry with applications) serves as a prerequisite for Math 7 (Calculus 1). The topics to be covered include review of the fundamentals of algebra, relations, functions, solutions of first and second degree equations and inequalities, systems of equations, matrices, binomial theorem, mathematical induction, polynomial and rational functions, exponential and logarithmic functions, analytic geometry and conic sections, and geometric and arithmetic sequences and series.",
+      "description": "*Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units. This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). Math 4 in combination with Math 3 (Trigonometry with applications) serves as a prerequisite for Math 7 (Calculus 1). The topics to be covered include review of the fundamentals of algebra, relations, functions, solutions of first and second degree equations and inequalities, systems of equations, matrices, binomial theorem, mathematical induction, polynomial and rational functions, exponential and logarithmic functions, analytic geometry and conic sections, and geometric and arithmetic sequences and series.",
       "same_as": null,
       "sections": [
         {
@@ -2031,15 +2058,13 @@
       ],
       "c_id": "MATH 211",
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
-      "special_notes": [
-        "*Maximum UC credit for MATH 7 and MATH 28 is one course."
-      ],
+      "special_notes": [],
       "prerequisites": "MATH 2 or (MATH 3 and MATH 4).",
       "prerequisite_notes": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "This first course in calculus is intended primarily for science, technology, engineering and mathematics majors. Topics include limits, continuity, and derivatives and integrals of algebraic and trigonometric functions, with mathematical and physical applications.",
+      "description": "*Maximum UC credit for MATH 7 and MATH 28 is one course. This first course in calculus is intended primarily for science, technology, engineering and mathematics majors. Topics include limits, continuity, and derivatives and integrals of algebraic and trigonometric functions, with mathematical and physical applications.",
       "same_as": null,
       "sections": [
         {
@@ -2490,15 +2515,13 @@
       ],
       "c_id": "MATH 221",
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
-      "special_notes": [
-        "*Maximum UC credit for MATH 8 and MATH 29 is one course."
-      ],
+      "special_notes": [],
       "prerequisites": "MATH 7.",
       "prerequisite_notes": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "This second course in calculus is intended primarily for sci- ence, technology, engineering, and mathematics majors. Topics include derivatives and integrals of transcendental functions with mathematical and physical applications, indeterminate forms and improper integrals, infinite sequences and series, and curves, including conic sections, described by parametric equations and polar coordinates.",
+      "description": "*Maximum UC credit for MATH 8 and MATH 29 is one course. This second course in calculus is intended primarily for sci- ence, technology, engineering, and mathematics majors. Topics include derivatives and integrals of transcendental functions with mathematical and physical applications, indeterminate forms and improper integrals, infinite sequences and series, and curves, including conic sections, described by parametric equations and polar coordinates.",
       "same_as": null,
       "sections": [
         {
@@ -2532,7 +2555,7 @@
             "Above section modality is On Ground. Above section 2586 is part of the STEM/MAS program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/stem for more information."
           ],
           "duration": null,
-          "modality": "On Ground. Above section 2586 is part",
+          "modality": "On Ground",
           "co_enrollment_with": null
         },
         {
@@ -3356,15 +3379,13 @@
       ],
       "c_id": "MATH 140",
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
-      "special_notes": [
-        "*Maximum UC credit for MATH 7 and MATH 28 is one course."
-      ],
+      "special_notes": [],
       "prerequisites": "MATH 26.",
       "prerequisite_notes": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "This course is intended for students majoring in business or social sciences. It is a survey of differential and integral calculus with business and social science applications. Topics include limits, differential calculus of one variable, including exponential and logarithmic functions, introduction to integral calculus, and mathematics of finance.",
+      "description": "*Maximum UC credit for MATH 7 and MATH 28 is one course. This course is intended for students majoring in business or social sciences. It is a survey of differential and integral calculus with business and social science applications. Topics include limits, differential calculus of one variable, including exponential and logarithmic functions, introduction to integral calculus, and mathematics of finance.",
       "same_as": null,
       "sections": [
         {

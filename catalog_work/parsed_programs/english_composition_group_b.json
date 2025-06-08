@@ -1,7 +1,24 @@
 {
   "program_name": "English Composition – Group B",
-  "program_description": "ENGL C1000, ACADEMIC READING AND WRITING WITH",
+  "program_description": "",
   "courses": [
+    {
+      "course_code": "ENGL C1000",
+      "course_title": "ACADEMIC READING AND WRITING WITH ENGL 28, INTENSIVE COLLEGE WRITING SKILLS",
+      "units": "5 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "",
+      "same_as": null,
+      "sections": []
+    },
     {
       "course_code": "ENGL 28",
       "course_title": "INTENSIVE COLLEGE WRITING SKILLS",
@@ -669,8 +686,8 @@
             {
               "time": "11:15a.m.-12:35p.m.",
               "days": "TTh",
-              "location": "DRSCHR 212",
-              "instructor": "O’Hara D M"
+              "location": "DRSCHR 212 O’",
+              "instructor": "Hara D M"
             }
           ],
           "notes": [
@@ -686,8 +703,8 @@
             {
               "time": "12:45p.m.-1:35p.m.",
               "days": "TTh",
-              "location": "DRSCHR 212",
-              "instructor": "O’Hara D M"
+              "location": "DRSCHR 212 O’",
+              "instructor": "Hara D M"
             }
           ],
           "notes": [
