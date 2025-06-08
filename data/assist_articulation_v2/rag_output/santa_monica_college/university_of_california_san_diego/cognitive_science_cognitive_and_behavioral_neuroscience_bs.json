@@ -16,7 +16,7 @@
     {
       "group_id": 1,
       "requirement_area": "ADDITIONAL MAJOR REQUIREMENTS",
-      "group_instruction": "",
+      "group_instruction": "Complete A",
       "sections": [
         {
           "section_label": "A",
@@ -33,7 +33,7 @@
     {
       "group_id": 2,
       "requirement_area": "ADDITIONAL MAJOR REQUIREMENTS",
-      "group_instruction": "Complete A, B, or C",
+      "group_instruction": "Complete 2 courses from A, B, or C",
       "sections": [
         {
           "section_label": "A",

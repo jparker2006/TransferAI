@@ -33,7 +33,7 @@
     {
       "group_id": 2,
       "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
-      "group_instruction": "Select A, B, C, or D",
+      "group_instruction": "Select 2 courses from A, B, C, or D",
       "sections": [
         {
           "section_label": "A",

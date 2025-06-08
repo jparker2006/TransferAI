@@ -211,6 +211,7 @@ class Section:
     rows: List[Row]
     position: int
     advisements: List[Advisement] = field(default_factory=list)
+    attributes: List[Dict[str, Any]] = field(default_factory=list)
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]):
@@ -454,19 +455,63 @@ def process_assist_json_file(file_path: Union[str, Path], manual_source_url: Opt
                 amount = asset.instruction.get('amount')
                 amount_unit_type = asset.instruction.get('amountUnitType', 'Course')
 
-                # Handles "Select A, B, or C" type instructions
-                if conjunction == 'Or':
+                # Handles "Complete X course from A, B, or C" type instructions
+                if instruction_type == 'NFromConjunction':
+                    if amount and amount > 0:
+                        unit_text = amount_unit_type.lower() if amount_unit_type != "Course" else "course"
+                        plural = "s" if amount > 1 and amount_unit_type == "Course" else ""
+                        amount_str = int(amount) if amount.is_integer() else amount
+                        
+                        # Generate section labels (A, B, C, etc.)
+                        section_labels = [chr(ord('A') + i) for i, _ in enumerate(asset.sections)]
+                        
+                        joined_labels = ""
+                        # Handles "Or" conjunction for the labels
+                        if conjunction == 'Or':
+                            if len(section_labels) > 2:
+                                joined_labels = ", ".join(section_labels[:-1]) + ", or " + section_labels[-1]
+                            elif len(section_labels) == 2:
+                                joined_labels = " or ".join(section_labels)
+                            elif section_labels:
+                                joined_labels = section_labels[0]
+                        # Handles "And" conjunction for the labels
+                        elif conjunction == 'And':
+                            if len(section_labels) > 2:
+                                joined_labels = ", ".join(section_labels[:-1]) + ", and " + section_labels[-1]
+                            elif len(section_labels) == 2:
+                                joined_labels = " and ".join(section_labels)
+                            elif section_labels:
+                                joined_labels = section_labels[0]
+                        else: # Fallback for single section or unknown conjunction
+                           if section_labels:
+                                joined_labels = section_labels[0]
+
+                        if joined_labels:
+                            group_instruction_text = f"{selection_type} {amount_str} {unit_text}{plural} from {joined_labels}"
+
+                # Handles "Select A, B, or C" type instructions (for instructions without a specific amount)
+                elif instruction_type == 'Conjunction':
                     section_labels = [chr(ord('A') + i) for i, _ in enumerate(asset.sections)]
                     joined_labels = ""
-                    if len(section_labels) > 2:
-                        joined_labels = ", ".join(section_labels[:-1]) + ", or " + section_labels[-1]
-                    elif len(section_labels) == 2:
-                        joined_labels = " or ".join(section_labels)
-                    elif section_labels:
-                        joined_labels = section_labels[0]
+
+                    if conjunction == 'Or':
+                        if len(section_labels) > 2:
+                            joined_labels = ", ".join(section_labels[:-1]) + ", or " + section_labels[-1]
+                        elif len(section_labels) == 2:
+                            joined_labels = " or ".join(section_labels)
+                        elif section_labels:
+                            joined_labels = section_labels[0]
+                    elif conjunction == 'And':
+                        if len(section_labels) > 2:
+                            joined_labels = ", ".join(section_labels[:-1]) + ", and " + section_labels[-1]
+                        elif len(section_labels) == 2:
+                            joined_labels = " and ".join(section_labels)
+                        elif section_labels:
+                            joined_labels = section_labels[0]
+                    
                     if joined_labels:
                         group_instruction_text = f"{selection_type} {joined_labels}"
-                
+
                 # Handles "Complete the following" type instructions
                 elif instruction_type == 'Following':
                     group_instruction_text = f"{selection_type} the following"
@@ -478,17 +523,6 @@ def process_assist_json_file(file_path: Union[str, Path], manual_source_url: Opt
                         plural = "s" if amount > 1 and amount_unit_type == "Course" else ""
                         amount_str = int(amount) if amount.is_integer() else amount
                         group_instruction_text = f"{selection_type} {amount_str} {unit_text}{plural} from the following"
-                
-                # Handles "Complete X course from A" type instructions
-                elif instruction_type == 'NFromConjunction':
-                    if amount and amount > 0:
-                        unit_text = amount_unit_type.lower() if amount_unit_type != "Course" else "course"
-                        plural = "s" if amount > 1 and amount_unit_type == "Course" else ""
-                        amount_str = int(amount) if amount.is_integer() else amount
-                        # Generate section labels (A, B, C, etc.)
-                        section_labels = [chr(ord('A') + i) for i, _ in enumerate(asset.sections)]
-                        if section_labels:
-                            group_instruction_text = f"{selection_type} {amount_str} {unit_text}{plural} from {section_labels[0]}"
             # --- End Instruction Logic ---
 
             # --- Start Group Attributes Logic ---
@@ -523,9 +557,17 @@ def process_assist_json_file(file_path: Union[str, Path], manual_source_url: Opt
                 if section.advisements:
                     section_rule_text = " AND ".join([_format_advisement_string(adv) for adv in section.advisements])
 
+                if section.attributes:
+                    attribute_texts = [_clean_html(attr.get('content', '')) for attr in section.attributes]
+                    section_attribute_text = ". ".join(filter(None, attribute_texts))
+                    if section_rule_text:
+                        section_rule_text += f". {section_attribute_text}"
+                    else:
+                        section_rule_text = section_attribute_text
+
                 current_section = {
                     "section_label": section_label,
-                    "section_rule": section_rule_text,
+                    "section_rule": section_rule_text.strip(),
                     "requirements": []
                 }
 
