@@ -163,6 +163,8 @@ class Cell:
     course: Optional[Course] = None
     series: Optional[Series] = None
     seriesAttributes: List[Dict[str, Any]] = field(default_factory=list)
+    courseAttributes: List[Dict[str, Any]] = field(default_factory=list)
+    attributes: List[Dict[str, Any]] = field(default_factory=list)
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]):
@@ -574,7 +576,22 @@ def process_assist_json_file(file_path: Union[str, Path], manual_source_url: Opt
                 for row in section.rows:
                     for cell in row.cells:
                         if cell.type == TemplateCellType.COURSE and cell.course:
+                            note_prefix = ""
+                            if cell.attributes:
+                                attribute_texts = [_clean_html(attr.get('content', '')) for attr in cell.attributes]
+                                note = ". ".join(filter(None, attribute_texts))
+                                if note:
+                                    note_prefix = f"{note}\n"
+
                             receiving_course_text = _format_course(cell.course)
+
+                            if cell.courseAttributes:
+                                attribute_texts = [_clean_html(attr.get('content', '')) for attr in cell.courseAttributes]
+                                note = ". ".join(filter(None, attribute_texts))
+                                if note:
+                                    receiving_course_text += f"\n  {note}"
+                            
+                            receiving_course_text = note_prefix + receiving_course_text
                             
                             articulation = agreement.articulations.get(cell.id)
                             sending_course_text = "No Course Articulated"

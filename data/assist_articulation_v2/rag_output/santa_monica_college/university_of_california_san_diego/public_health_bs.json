@@ -79,11 +79,11 @@
           "section_rule": "Select 2 courses from the following",
           "requirements": [
             {
-              "receiving_course_text": "BILD 1: The Cell (4.00 units)",
+              "receiving_course_text": "Maximum credit, one course\nBILD 1: The Cell (4.00 units)",
               "sending_course_text": "(BIOL 21: Cell Biology and Evolution (4.00 units) AND BIOL 22: Genetics and Molecular Biology (4.00 units) AND BIOL 23: Organismal and Environmental Biology (5.00 units))"
             },
             {
-              "receiving_course_text": "BILD 10: Fundamental Concepts of Modern Biology (4.00 units)",
+              "receiving_course_text": "Maximum credit, one course\nBILD 10: Fundamental Concepts of Modern Biology (4.00 units)",
               "sending_course_text": "BIOL 3: Fundamentals of Biology (4.00 units)"
             },
             {
