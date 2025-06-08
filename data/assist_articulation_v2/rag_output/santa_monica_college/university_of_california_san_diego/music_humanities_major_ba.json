@@ -1,0 +1,42 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/c1974b04-4169-4b26-a804-08dca807bc76",
+  "agreement_title": "Music/Humanities Major B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. The Music/Humanities major is intended for students who wish to pursue a broad liberal arts program that includes music as a central element. This program emphasizes music history and literature and allows students to select an individual focus for the major within the broad field of the humanities.At least three quarters of performance ensembles are required.For more information please visit https://music-cms.ucsd.edu/ugrad/index.html"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MUS 1A: Fundamentals of Music (4.00 units)",
+              "sending_course_text": "MUSIC 1: Fundamentals of Music (3.00 units)"
+            },
+            {
+              "receiving_course_text": "MUS 1B: Fundamentals of Music (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "MUS 1C: Fundamentals of Music (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/a54fe9cc-2c6d-462f-a7f6-08dca807bc76",
+  "agreement_title": "MAE: Aerospace Engineering B.S.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Effective Fall 2017, major preparation will be required for this major. For details, visit: http://admissions.ucsd.edu/MajorPrepAs of Fall 2014, the BS degrees in Mechanical, Aerospace Engineering degrees are capped. Because of heavy student interest in these two majors, and the limited resources available to accommodate this demand, maintenance of a high-quality program makes it necessary to limit enrollments. Please contact the MAE Department advisors for more information.Students must apply to be admitted directly into the Aerospace Engineering major at UC San Diego. To be considered for admission to the Aerospace Engineering major, transfer students must have completed the following courses:- Calculus I-for Science and Engineering (Math. 20A)- Calculus II-for Science and Engineering (Math. 20B)- Calculus and Analytic Geometry (Math. 20C)- Differential Equations (Math. 20D)- Linear Algebra (Math. 18)- Calculus-based physics series with lab experience (Physics 2A-B-C)- Chemistry 6A*We recommend that students take MAE 8 (MATLAB Programming for Engineering Analysis) as this course is a requirement for UC San Diego students majoring in Aerospace Engineering.In addition to the required courses above, it is recommended that transfers complete Vector Calculus (Math. 20E) and a MATLAB programming course, if available.Courses that have not been articulated and do not show an equivalent transfer course on ASSIST.org must be approved via petition on an individual basis by the MAE Department. Please refer to the MAE Department\u2019s Undergraduate Program website for more information: https://mae.ucsd.edu/transfer-equivalencies.Aerospace Engineering is a four-year ABET-accredited curriculum that begins with fundamental engineering courses in mechanics, thermodynamics, materials, solid mechanics, fluid mechanics, and heat transfer. Additional courses are required in aerospace structures, aerodynamics, flight mechanics, propulsion, controls, and aerospace design. Graduates of this program will normally enter the aerospace industry to develop aircraft and spacecraft, but also may find employment in other areas that use similar technologies, such as mechanical and energy-related fields. Examples include automobile, naval, and sporting equipment manufacturers."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 18: Linear Algebra (4.00 units)",
+              "sending_course_text": "MATH 13: Linear Algebra (3.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20A: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "(MATH 7: Calculus 1 (5.00 units) AND MATH 8: Calculus 2 (5.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 20B: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20C: Calculus and Analytic Geometry for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 11: Multivariable Calculus (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20D: Introduction to Differential Equations (4.00 units)",
+              "sending_course_text": "MATH 15: Differential Equations (3.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20E: Vector Calculus (4.00 units)",
+              "sending_course_text": "MATH 11: Multivariable Calculus (5.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "PHYS 2A: Physics - Mechanics (4.00 units)",
+              "sending_course_text": "PHYSCS 21: Mechanics with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2B: Physics - Electricity and Magnetism (4.00 units)",
+              "sending_course_text": "PHYSCS 22: Electricity and Magnetism with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2C: Physics - Fluids, Waves, Thermodynamics, and Optics (4.00 units)",
+              "sending_course_text": "PHYSCS 23: Fluids, Waves, Thermodynamics, Optics with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2CL: Physics Laboratory - Electricity and Magnetism (2.00 units)",
+              "sending_course_text": "PHYSCS 22: Electricity and Magnetism with Lab (5.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "C",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MAE 8: MATLAB Programming for Engineering Analysis (4.00 units)",
+              "sending_course_text": "CS 52: C++ Programming (3.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "D",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MAE 2: Introduction to Aerospace Engineering (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            }
+          ]
+        },
+        {
+          "section_label": "E",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "CHEM 6A: General Chemistry I (4.00 units)",
+              "sending_course_text": "CHEM 11: General Chemistry I (5.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "F",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MAE 11: Thermodynamics (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "MAE 21: Aerospace Materials Science (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "MAE 30A: Statics & Introduction to Dynamics (4.00 units)",
+              "sending_course_text": "ENGR 12: Statics (3.00 units) AND ENGR 16: Dynamics (3.00 units)"
+            },
+            {
+              "receiving_course_text": "MAE 30B: Dynamics & Vibrations (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

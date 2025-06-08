@@ -1,0 +1,187 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/4a8cb9ea-12cf-49e6-5364-08dcc0769233",
+  "agreement_title": "Communication:  Media Industries and Communication B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Transfer students are highly encouraged to complete coursework that will satisfy IGETC, partial IGETC, or the General Education requirements for the college that they apply to at UC San Diego. The Bachelor of Arts in Media Industries &amp; Communication offers a curriculum in media literacy, institutional analysis, and skills acquisition. Core courses provide a historical and theoretical background for analyzing an increasingly complex media and communication landscape, with a focus on the inner workings of specific sectors (i.e. film, advertising, internet, tourism, etc.). Electives cover a broad range of topics from film analysis to surveillance culture. Students must also take skills-centered practice-based courses in media production, design, and/or other areas. This major welcomes both aspiring media practitioners (filmmakers, musicians, journalists, etc.) and those who aspire to work in media and culture as marketers, managers, digital specialists, lawyers, executives, policy analysts, HR professionals, and more.\ufeffFor more information about on the Media Industries and Communication major please visit our website: http://communication.ucsd.edu"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "Complete 1 course from the following",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "COMM 20: Analysis of Media Forms and Cultures (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "COMM 30: Digital Media Literacy: Analyzing Forms, Practices, and Infrastructures of Mediated Public Life (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "COMM 40: Promotional Communication (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "requirement_area": "",
+      "group_instruction": "Complete 1 course from the following",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LTWR 8A: Writing Fiction (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTWR 8B: Writing Poetry (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTWR 8C: Writing Nonfiction (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "MUS 1A: Fundamentals of Music (4.00 units)",
+              "sending_course_text": "MUSIC 1: Fundamentals of Music (3.00 units)"
+            },
+            {
+              "receiving_course_text": "TDAC 1: Introduction to Acting (4.00 units)",
+              "sending_course_text": "TH ART 41: Acting I (3.00 units)"
+            },
+            {
+              "receiving_course_text": "TDDE 1: Introduction to Design for the Theatre (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "TDDM 1: Introduction to Dance Making (4.00 units)",
+              "sending_course_text": "(DANCE 60: Fundamentals of Choreography: Dance Improvisation (2.00 units) AND DANCE 61: Fundamentals of Choreography: Composition 1 (2.00 units))"
+            },
+            {
+              "receiving_course_text": "TDGE 1: Introduction to Theatre (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "TDGE 3: Cultivating the Creative Mind (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "TDPW 1: Introduction to Playwriting (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "VIS 1: Introduction to Art-Making: Two-Dimensional Practices (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "VIS 2: Introduction to Art-Making: Motion and Time Based Art (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "VIS 3: Introduction to Art-Making: Three-Dimensional Practices (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "VIS 9: Introduction to Digital Photography for Non-Majors (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "VIS 10: Computing in the Arts Lecture Series (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "VIS 41: Design Communication (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "ECON 1: Principles of Microeconomics (4.00 units)",
+              "sending_course_text": "ECON 1: Principles of Microeconomics (3.00 units)"
+            },
+            {
+              "receiving_course_text": "MGT 3: Quantitative Methods in Business (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "MGT 45: Principles of Accounting (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "COGS 1: Introduction to Cognitive Science (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "COGS 3: Introduction to Computing (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "COGS 9: Introduction to Data Science (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "COGS 18: Introduction to Python (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "CSE 3: Fluency in Information Technology (4.00 units)",
+              "sending_course_text": "CS 3: Introduction to Computer Systems (3.00 units)"
+            },
+            {
+              "receiving_course_text": "CSE 6R: Introduction to Computer Science and Object-Oriented Programming: Python (4.00 units)",
+              "sending_course_text": "CS 87B: Advanced Python Programming (3.00 units)"
+            },
+            {
+              "receiving_course_text": "CSE 8A: Introduction to Programming and Computational Problem Solving I (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "CSS 1: Introductory Programming for Computational Social Science (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "DSC 10: Principles of Data Science (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "COGS 14A: Introduction to Research Methods (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "ECON 5: Data Analytics for the Social Sciences (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "POLI 5: Data Analytics for the Social Sciences (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "PSYC 60: Introduction to Statistics (4.00 units)",
+              "sending_course_text": "MATH 54: Elementary Statistics (4.00 units)"
+            },
+            {
+              "receiving_course_text": "SOCI 60: Practice of Social Research (4.00 units)",
+              "sending_course_text": "SOCIOL 4: Social Analysis (3.00 units)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

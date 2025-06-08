@@ -1,0 +1,147 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/6c19527e-1a54-4234-a7f7-08dca807bc76",
+  "agreement_title": "Art: Media B.A. ( Visual Arts)",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. The Media program is designed for students who want to redefine the possibilities of photography, video, film and sound. The curriculum immerses candidates in the creative world of time-based practices. Based in conceptual and practical production, the program provides historical, social and aesthetic backgrounds for the understanding of modern media, and emphasizes creativity, versatility and intelligence over technical specializations. Media Honors Program available for qualified students.For more information please visit visarts.ucsd.edu."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "FOUNDATION LEVEL - REQUIRED COURSEWORK",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "VIS 60: Introduction to Digital Photography (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "VIS 70N: Introduction to Media (6.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "requirement_area": "MEDIA STUDIES",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "Select 2 courses from the following",
+          "requirements": [
+            {
+              "receiving_course_text": "VIS 83: Photographic History (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "VIS 84: Film History (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "VIS 84B: Film Aesthetics (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "VIS 85A: Media History (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "VIS 85B: Media Aesthetics (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 3,
+      "requirement_area": "ART MAKING",
+      "group_instruction": "Select 2 courses from the following",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "VIS 1: Introduction to Art-Making: Two-Dimensional Practices (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "VIS 2: Introduction to Art-Making: Motion and Time Based Art (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "VIS 3: Introduction to Art-Making: Three-Dimensional Practices (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "VIS 11: Introduction to Visual Culture (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "VIS 41: Design Communication (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "VIS 80: Intro to the Studio Major (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 4,
+      "requirement_area": "ART HISTORY",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "Select 1 course from the following",
+          "requirements": [
+            {
+              "receiving_course_text": "VIS 20: Introduction to Art of Europe and America (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "VIS 21A: Introduction to the Art of the Americas or Africa and Oceania (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "VIS 21B: Introduction to Asian Art (4.00 units)",
+              "sending_course_text": "AHIS 17: Arts of Asia (3.00 units)"
+            },
+            {
+              "receiving_course_text": "VIS 21C: Introduction to African Art (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "VIS 22: Formations of Modern Art (4.00 units)",
+              "sending_course_text": "AHIS 3: Global Art History Since 1800 (3.00 units)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

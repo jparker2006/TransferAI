@@ -1,0 +1,150 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/5a6d229d-4c4f-4047-5365-08dcc0769233",
+  "agreement_title": "CSE: Artificial Intelligence B.S.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "Effective Fall 2025, major preparation will be required for this major. For details, visit: http://admissions.ucsd.edu/MajorPrepThe educational philosophy behind the AI major has three components: (1) Help students develop foundations that will serve them a lifetime, so they can build the next advances in AI systems. (2) Provide students with opportunities to learn AI in many different settings and with many applications \u2013 we will engage with many units on campus so students have the option to connect across as many fields as possible. (3) Situate the area of AI in a broader societal, ethical, and professional context so students are empowered to reason about the impact of their work.Course equivalency: For course equivalencies not listed below, visit the CSE Student Affairs Office, CSE Building (EBU3B, Room 1200) first floor, or email CSEStudent@eng.ucsd.edu.For information not found here, please visit the CSE Undergraduate Program at: https://cse.ucsd.edu/undergraduate"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "Complete 1 course from the following",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "CSE 8B: Introduction to Programming and Computational Problem Solving II (4.00 units)",
+              "sending_course_text": "CS 55: JAVA Programming (3.00 units)"
+            },
+            {
+              "receiving_course_text": "CSE 11: Introduction to Programming and Computational Problem Solving - Accelerated Pace (4.00 units)",
+              "sending_course_text": "CS 55: JAVA Programming (3.00 units)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "CSE 12: Basic Data Structures and Object-Oriented Design (4.00 units)",
+              "sending_course_text": "(CS 20A: Data Structures with C++ (3.00 units) AND CS 20B: Data Structures with JAVA (3.00 units))"
+            },
+            {
+              "receiving_course_text": "CSE 20: Discrete Mathematics (4.00 units) (Same as MATH 15A)",
+              "sending_course_text": "MATH 10: Discrete Structures (3.00 units)"
+            },
+            {
+              "receiving_course_text": "CSE 21: Mathematics for Algorithms and Systems (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "CSE 25: Introduction to Artificial Intelligence (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "CSE 29: Systems Programming and Software Tools (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "CSE 30: Computer Organization and Systems Programming (4.00 units)",
+              "sending_course_text": "CS 17: Assembly Language Programming (3.00 units)"
+            },
+            {
+              "receiving_course_text": "CSE 55: Foundations of Artificial Intelligence and Machine Learning (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 18: Linear Algebra (4.00 units)",
+              "sending_course_text": "MATH 13: Linear Algebra (3.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20A: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "(MATH 7: Calculus 1 (5.00 units) AND MATH 8: Calculus 2 (5.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 20B: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20C: Calculus and Analytic Geometry for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 11: Multivariable Calculus (5.00 units)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 3,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "Select 2 courses from the following",
+          "requirements": [
+            {
+              "receiving_course_text": "BILD 1: The Cell (4.00 units)",
+              "sending_course_text": "(BIOL 21: Cell Biology and Evolution (4.00 units) AND BIOL 22: Genetics and Molecular Biology (4.00 units) AND BIOL 23: Organismal and Environmental Biology (5.00 units))"
+            },
+            {
+              "receiving_course_text": "BILD 2: Multicellular Life (4.00 units)",
+              "sending_course_text": "(BIOL 21: Cell Biology and Evolution (4.00 units) AND BIOL 22: Genetics and Molecular Biology (4.00 units) AND BIOL 23: Organismal and Environmental Biology (5.00 units))"
+            },
+            {
+              "receiving_course_text": "BILD 3: Organismic and Evolutionary Biology (4.00 units)",
+              "sending_course_text": "(BIOL 21: Cell Biology and Evolution (4.00 units) AND BIOL 22: Genetics and Molecular Biology (4.00 units) AND BIOL 23: Organismal and Environmental Biology (5.00 units))"
+            },
+            {
+              "receiving_course_text": "CHEM 6A: General Chemistry I (4.00 units)",
+              "sending_course_text": "CHEM 11: General Chemistry I (5.00 units)"
+            },
+            {
+              "receiving_course_text": "CHEM 6B: General Chemistry II (4.00 units)",
+              "sending_course_text": "(CHEM 11: General Chemistry I (5.00 units) AND CHEM 12: General Chemistry II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "PHYS 2A: Physics - Mechanics (4.00 units)",
+              "sending_course_text": "PHYSCS 21: Mechanics with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2B: Physics - Electricity and Magnetism (4.00 units)",
+              "sending_course_text": "PHYSCS 22: Electricity and Magnetism with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 4A: Physics for Physics Majors\u2014Mechanics (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "PHYS 4B: Physics for Physics Majors\u2014Fluids, Waves, Statistical and Thermal Physics (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

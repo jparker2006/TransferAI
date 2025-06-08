@@ -1,0 +1,209 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/4c928e9f-adc6-4f11-674a-08dca807bc66",
+  "agreement_title": "Music: Interdisciplinary Computing in the Arts Major (ICAM) B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. Students who wish to emphasize Music in their upper-division coursework at UCSD will declare their major through the Music Department; students who wish to emphasize Visual Arts in their upper-division coursework at UCSD will declare their major through the Visual Arts Department.The Interdisciplinary Computing and the Arts program in the Departments of Music and Visual Arts draws upon and aims to bring together ideas and paradigms from computer science, art, and cultural theory. It takes for granted that the computer has become a metamedium and that artists working with computers are expected to combine different media forms in their works. All of this makes the program unique among currently existing computer art or design programs which, on the one hand, usually focus on the use of computers for a particular media (for instance, specializing in computer animation or music, or computer design for print) and, on the other hand, do not enter into a serious dialogue with current research in computer science, only teaching the students off-the-shelf-software.The goals of the program are to: (1) prepare the next generation of artists who will be functioning in a computer-mediated culture; (2) give students necessary technical, theoretical and historical backgrounds so they can contribute to the development of new aesthetics for computer media; (3) prepare students to mediate between the worlds of computer science and technology, the arts, and the culture at large by being equally proficient with computing and cultural concepts; and (4) give students sufficient understanding of the trajectories of development in computing so they can anticipate and work with the emerging trends, rather than being locked in particular software currently available on the market.For more information please visit https://music-cms.ucsd.edu/ugrad/index.html"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "Select 1 course from the following",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MUS 4: Introduction to Western Music (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "MUS 6: Electronic Music (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "MUS 7: Music, Science, and Computers (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "MUS 13: Worlds of Music (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "MUS 14: Contemporary Music (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "requirement_area": "",
+      "group_instruction": "Complete 1 course from the following",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MUS 1A: Fundamentals of Music (4.00 units)",
+              "sending_course_text": "MUSIC 1: Fundamentals of Music (3.00 units)"
+            },
+            {
+              "receiving_course_text": "MUS 2A: Basic Musicianship (4.00 units)",
+              "sending_course_text": "MUSIC 2: Musicianship (2.00 units)"
+            },
+            {
+              "receiving_course_text": "MUS 5: Sound in Time (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 3,
+      "requirement_area": "",
+      "group_instruction": "Complete 2 courses from the following",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MUS 1B: Fundamentals of Music (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "MUS 2B: Basic Musicianship (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "MUS 4: Introduction to Western Music (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "MUS 6: Electronic Music (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "MUS 7: Music, Science, and Computers (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "MUS 14: Contemporary Music (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 4,
+      "requirement_area": "",
+      "group_instruction": "Select A or B",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "CSE 11: Introduction to Programming and Computational Problem Solving - Accelerated Pace (4.00 units)",
+              "sending_course_text": "CS 55: JAVA Programming (3.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "CSE 8A: Introduction to Programming and Computational Problem Solving I (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "CSE 8B: Introduction to Programming and Computational Problem Solving II (4.00 units)",
+              "sending_course_text": "CS 55: JAVA Programming (3.00 units)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 5,
+      "requirement_area": "",
+      "group_instruction": "Select A, B, or C",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "CSE 20: Discrete Mathematics (4.00 units) (Same as MATH 15A)",
+              "sending_course_text": "MATH 10: Discrete Structures (3.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 20A: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "(MATH 7: Calculus 1 (5.00 units) AND MATH 8: Calculus 2 (5.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 20B: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "C",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 10A: Calculus I (4.00 units)",
+              "sending_course_text": "MATH 7: Calculus 1 (5.00 units) OR MATH 28: Calculus 1 for Business and Social Science (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 10B: Calculus II (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units) OR (MATH 28: Calculus 1 for Business and Social Science (5.00 units) AND MATH 29: Calculus 2 for Business and Social Science (3.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 10C: Calculus III (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 6,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "VIS 41: Design Communication (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

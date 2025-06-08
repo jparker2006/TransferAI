@@ -1,0 +1,95 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/4869c77f-d594-4ca5-6745-08dca807bc66",
+  "agreement_title": "Mathematics/Applied Science B.S.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Effective Fall 2018, major preparation will be required for this major. For details, visit: http://admissions.ucsd.edu/MajorPrep MATHEMATICS/APPLIED SCIENCE Students who have completed C/C++ Programming may be able to use that course in place of one of the required Java Programming classes listed below. Students should speak with a UCSD Mathematics advisor. The Mathematics/Applied Science major is intended for those students who are interested in mathematics, but who also have a substantial interest in the applications of mathematics to other areas. It is an individual major and students design their own programs while consulting with an academic advisor. Students who major in Mathematics/Applied Science may pursue one of the following plans, for example, or others which can be custom designed: 1. Chemistry and Biochemistry 2. Medical and Life Sciences 3. Cognitive Science and Psychology 4. Applied Mechanics &amp; Engineering 5. Biology and Bioengineering 6. Electrical and Computer Engineering For more information please visit https://math.ucsd.edu/students/undergraduate/ma31-math-applied-science-b-s/ NOTE: Students who have taken a vector calculus course at a non-UC college must successfully petition the course for 20E equivalency. Petitions must generally include course syllabus, textbook information and final exam. More information on the petition process for 20E can be found at the following site: https://www.math.ucsd.edu/students/undergraduate/math-20e-equivalency"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 18: Linear Algebra (4.00 units)",
+              "sending_course_text": "MATH 13: Linear Algebra (3.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20A: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "(MATH 7: Calculus 1 (5.00 units) AND MATH 8: Calculus 2 (5.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 20B: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20C: Calculus and Analytic Geometry for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 11: Multivariable Calculus (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20D: Introduction to Differential Equations (4.00 units)",
+              "sending_course_text": "MATH 15: Differential Equations (3.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20E: Vector Calculus (4.00 units)",
+              "sending_course_text": "MATH 11: Multivariable Calculus (5.00 units)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "requirement_area": "",
+      "group_instruction": "Select A, B, or C",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "CSE 11: Introduction to Programming and Computational Problem Solving - Accelerated Pace (4.00 units)",
+              "sending_course_text": "CS 55: JAVA Programming (3.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "CSE 8A: Introduction to Programming and Computational Problem Solving I (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "CSE 8B: Introduction to Programming and Computational Problem Solving II (4.00 units)",
+              "sending_course_text": "CS 55: JAVA Programming (3.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "C",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "ECE 15: Engineering Computation (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

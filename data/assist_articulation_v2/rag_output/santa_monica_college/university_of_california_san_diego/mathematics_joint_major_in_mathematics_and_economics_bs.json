@@ -1,0 +1,64 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/57cc9336-63b4-4a83-673f-08dca807bc66",
+  "agreement_title": "Mathematics: Joint Major in Mathematics and Economics B.S.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Effective Fall 2018, major preparation will be required for this major. For details, visit: http://admissions.ucsd.edu/MajorPrep This major is considered to be excellent preparation for Ph.D. study in economics and business administration, as well as for graduate studies for professional management degrees, including the MBA. Majors in economics generally recognize the importance of mathematics to their discipline. Undergraduate students who plan to pursue doctoral studies in economics and business need the more advanced mathematics training prescribed in this major. Majors in mathematics often feel the need for more formal introduction to issues involving business applications of science and mathematics. Extending their studies into economics provides this application and can provide a bridge to successful careers or advanced study. This major provides a more formal framework making it easier to combine study in economics and mathematics. For more information please visit https://math.ucsd.edu/students/undergraduate/ma33-joint-major-in-math-econ/"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 18: Linear Algebra (4.00 units)",
+              "sending_course_text": "MATH 13: Linear Algebra (3.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20A: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "(MATH 7: Calculus 1 (5.00 units) AND MATH 8: Calculus 2 (5.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 20B: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20C: Calculus and Analytic Geometry for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 11: Multivariable Calculus (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20D: Introduction to Differential Equations (4.00 units)",
+              "sending_course_text": "MATH 15: Differential Equations (3.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "ECON 1: Principles of Microeconomics (4.00 units)",
+              "sending_course_text": "ECON 1: Principles of Microeconomics (3.00 units)"
+            },
+            {
+              "receiving_course_text": "ECON 3: Principles of Macroeconomics (4.00 units)",
+              "sending_course_text": "ECON 2: Principles of Macroeconomics (3.00 units)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

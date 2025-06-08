@@ -1,0 +1,218 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/4d5c959d-968d-452e-6756-08dca807bc66",
+  "agreement_title": "Human Developmental Sciences B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly encouraged to complete as many lower-division preparatory courses as possible prior to enrollment at UC San Diego.The scientific study of human development focuses on issues of growth, development, and behavioral change across the lifespan. The UCSD Human Developmental Sciences Program (HDS) is interdisciplinary, incorporating courses from the Departments of Anthropology, Biology, Cognitive Science, Communication, Ethnic Studies, History, Linguistics, Literature, Psychology, Public Health, Sociology, Education Studies, and Urban Studies and Planning Program. The HDS curriculum is designed to emphasize the integration of information across these different perspectives, with the view that understanding development from any given perspective requires consideration of many contributing factors. Thus, the classes cover a broad spectrum of topics; from brain and perceptual development, to reasoning and problem solving, to social interaction and the evolution of cultural systems. The Human Developmental Sciences Major unifies and coordinates the excellent research and teaching resources currently available on campus across these areas, and profiles a breadth of influences that shape human behavior.For more information visit hdsciences.ucsd.edu.All courses taken to satisfy requirements in any Human Developmental Sciences (HDS) major must be taken for a letter grade.Transfer students should complete all courses comparable to the HDS major preparation courses EXCEPT HDP 1 (which MUST be taken at UCSD) before transferring. Students must complete all transfer courses applicable to the HDS major with a minimum grade of C- or better.The major preparation courses are: HDS 1-Introduction to Human Developmental Sciences One statistics course HDS 60One formal skills course selected from: PHIL 10, PHIL 12, LIGN 17, or one class from the MATH 10 sequence or MATH 20 sequence. (Please note only ONE class is necessary from the MATH 10 or 20 sequence.)Two biological science courses selected from: ANTH 2, BILD 1, BILD 2, BILD 3, BILD 7, BILD 10, BILD 12, BILD 18, BILD 20, BILD 26, BILD 38, COGS 11, COGS 17, or PSYC 2.Two social sciences courses selected from: ANTH 1, ANTH 3, CAT 1, CAT 2, COMM 10, COGS 1, FMPH 40, FMPH 50, HILD 7A, B or C (only one allowed), LIGN 4, LIGN 7, LIGN 8, LIGN 101, MMW 121, MMW 122, PSYC 1, PSYC 3, PSYC 6, PSYC 7, SOCI 1, or SOCI 20.PLEASE NOTE: Transfer Courses that have not been articulated on ASSIST may be considered to fulfill HDS requirements, but must be approved via petition on an individual basis by the HDS Program. Those transferable courses that are very similar to UCSD's will be accepted, as well as comparable courses at an equivalent academic level ONLY for the HDS major."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "HDS 1: Introduction to Human Developmental Sciences (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "requirement_area": "STATISTICS",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "HDS 60: Introduction to Statistical Analysis (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 3,
+      "requirement_area": "STATISTICS",
+      "group_instruction": "Complete 1 course from the following",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 10A: Calculus I (4.00 units)",
+              "sending_course_text": "MATH 7: Calculus 1 (5.00 units) OR MATH 28: Calculus 1 for Business and Social Science (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 10B: Calculus II (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units) OR (MATH 28: Calculus 1 for Business and Social Science (5.00 units) AND MATH 29: Calculus 2 for Business and Social Science (3.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 20A: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "(MATH 7: Calculus 1 (5.00 units) AND MATH 8: Calculus 2 (5.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 20B: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20C: Calculus and Analytic Geometry for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 11: Multivariable Calculus (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHIL 10: Introduction to Logic (4.00 units)",
+              "sending_course_text": "PHILOS 7: Logic and Critical Thinking (3.00 units) OR PHILOS 9: Symbolic Logic (3.00 units)"
+            },
+            {
+              "receiving_course_text": "PHIL 12: Scientific Reasoning (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 4,
+      "requirement_area": "STATISTICS",
+      "group_instruction": "Complete 2 courses from the following",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "ANTH 2: Human Origins (4.00 units)",
+              "sending_course_text": "ANTHRO 1: Biological Anthropology (3.00 units) OR ANTHRO 5: Biological Anthropology with Laboratory (4.00 units)"
+            },
+            {
+              "receiving_course_text": "BILD 1: The Cell (4.00 units)",
+              "sending_course_text": "(BIOL 21: Cell Biology and Evolution (4.00 units) AND BIOL 22: Genetics and Molecular Biology (4.00 units) AND BIOL 23: Organismal and Environmental Biology (5.00 units))"
+            },
+            {
+              "receiving_course_text": "BILD 2: Multicellular Life (4.00 units)",
+              "sending_course_text": "(BIOL 21: Cell Biology and Evolution (4.00 units) AND BIOL 22: Genetics and Molecular Biology (4.00 units) AND BIOL 23: Organismal and Environmental Biology (5.00 units))"
+            },
+            {
+              "receiving_course_text": "BILD 3: Organismic and Evolutionary Biology (4.00 units)",
+              "sending_course_text": "(BIOL 21: Cell Biology and Evolution (4.00 units) AND BIOL 22: Genetics and Molecular Biology (4.00 units) AND BIOL 23: Organismal and Environmental Biology (5.00 units))"
+            },
+            {
+              "receiving_course_text": "BILD 7: The Beginning of Life (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "BILD 10: Fundamental Concepts of Modern Biology (4.00 units)",
+              "sending_course_text": "BIOL 3: Fundamentals of Biology (4.00 units)"
+            },
+            {
+              "receiving_course_text": "BILD 12: Neurobiology and Behavior (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "BILD 18: Human Impact on the Environment (4.00 units)",
+              "sending_course_text": "BIOL 9: Introduction to Environmental Biology (3.00 units)"
+            },
+            {
+              "receiving_course_text": "BILD 20: Human Genetics in Modern Society (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "BILD 26: Human Physiology (4.00 units)",
+              "sending_course_text": "PHYS 3: Human Physiology (4.00 units) OR BIOL 2: Human Biology (3.00 units)"
+            },
+            {
+              "receiving_course_text": "COGS 17: Neurobiology of Cognition (4.00 units)",
+              "sending_course_text": "PSYCH 2: Physiological Psychology (3.00 units)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 5,
+      "requirement_area": "STATISTICS",
+      "group_instruction": "Complete 2 courses from the following",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "ANTH 1: Introduction to Culture (4.00 units)",
+              "sending_course_text": "ANTHRO 2: Cultural Anthropology (3.00 units)"
+            },
+            {
+              "receiving_course_text": "ANTH 3: World Prehistory (4.00 units)",
+              "sending_course_text": "ANTHRO 3: World Archaeology (3.00 units) OR ANTHRO 4: Methods of Archaeology (3.00 units)"
+            },
+            {
+              "receiving_course_text": "COMM 10: Introduction to Communication (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "COGS 1: Introduction to Cognitive Science (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "Select 1 course from the following",
+          "requirements": [
+            {
+              "receiving_course_text": "HILD 7A: Race and Ethnicity in the United States (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "HILD 7B: Race and Ethnicity in the United States (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "HILD 7C: Race and Ethnicity in the United States (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "C",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "PSYC 1: Psychology (4.00 units)",
+              "sending_course_text": "PSYCH 1: General Psychology (3.00 units)"
+            },
+            {
+              "receiving_course_text": "PSYC 3: General Psychology: Cognitive Foundations (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "SOCI 1: Introduction to Sociology (4.00 units)",
+              "sending_course_text": "SOCIOL 1: Introduction to Sociology (3.00 units) OR SOCIOL 1S: Introduction to Sociology-Service Learning (3.00 units)"
+            },
+            {
+              "receiving_course_text": "SOCI 20: Social Change in the Modern World (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

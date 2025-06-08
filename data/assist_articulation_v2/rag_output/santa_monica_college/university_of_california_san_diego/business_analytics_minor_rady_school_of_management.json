@@ -1,0 +1,38 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/cbb47ac9-5172-4ef6-cbfb-08dd13bf79d5",
+  "agreement_title": "Business Analytics Minor: Rady School of Management",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their minor before enrolling at UC San Diego. Preparing well for the minor helps students move efficiently toward graduation. Business Analytics is the use of business data to improve business decision making. The explosion of data is transforming nearly every business function to incorporate data in its retrospective analyses, current decisions and future forecasts. The Business Analytics minor curriculum exposes students to four key learning goals: fundamental frameworks and principles of data analysis, wide exposure to a variety of business analytics applications, hands-on training with modern data analysis toolkits, and the generalizable ability to repeatedly learn and apply challenging mathematical frameworks.\ufeffFor more information please visit Undergraduate Minors | UCSD Rady School of Management"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "PREPARATION FOR THE MINOR",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MGT 71: Business Process and Operations Management (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "DSC 10: Principles of Data Science (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

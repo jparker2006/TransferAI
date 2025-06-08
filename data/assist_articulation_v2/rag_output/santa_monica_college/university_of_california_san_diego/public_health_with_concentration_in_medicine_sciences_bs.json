@@ -1,0 +1,274 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/49ef9e20-1357-4609-6750-08dca807bc66",
+  "agreement_title": "Public Health with Concentration in Medicine Sciences B.S.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Effective Fall 2023, major preparation will be required for this major. For details, visit: http://admissions.ucsd.edu/MajorPrepNOTE: Transfer students MUST complete all listed major preparatory courses for this major prior to enrolling at UC San Diego.Public health seeks to improve human health through the development and application of scientific knowledge that helps prevent disease, protects the public from exposure to potential harm, and promotes health throughout communities at the local, national, and global levels. Special Advising Note: We strongly advise students to complete as many of the lower-division courses as possible before entering UCSD. Preparing well for the major helps students move efficiently toward graduation. The Herbert Wertheim School of Public Health and Human Longevity Science offers courses in epidemiology, biostatistics, social and behavioral sciences, environmental and occupational health sciences, and health policy. The epidemiology and biostatistics areas offer courses on the determinants and distribution of disease at the population level with a focus on analyzing and interpreting public health data using statistical methods. The social and behavioral sciences area offers courses for students interested in how behaviors influence disease. The environmental and occupational health sciences area offers courses on the study of environmental and occupational factors, including biological, physical, and chemical factors that affect the health of a workforce and the community. The health policy area emphasizes the structure, process, and outcomes of health services and policies that are commonly used to motivate people to healthier lifestyles. All courses taken for the major, both lower-division and upper-division, must be taken for a letter grade. Students must receive a grade of C\u2013 or higher in any course to be counted toward fulfillment of the major requirements. Entry to the Major: All BSPH Majors have Selective Major (https://students.ucsd.edu/academics/advising/majors-minors/impacted-majors.html) status. Please see the Public Health Website under Public Health Entry Requirement (https://ph.ucsd.edu/undergrad/majors/major-entry-requirement.html) for details. Additional Information: \u2022 Undergraduate program in Public Health at UCSD: https://ph.ucsd.edu/undergrad/index.html \u2022 Required Transfer Major Preparation: https://ph.ucsd.edu/undergrad/new-prospective-students/transfer-major-preparation.html \u2022 The field of Public Health: https://whatispublichealth.org and https://thisispublichealth.org \u2022 For specific questions, send an email to publichealth@health.ucsd.edu"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "PH 40: Introduction to Public Health (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "PH 45: Introduction to Methods and Ethics in Public Health Research (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "Complete 2 courses from the following",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "PH 50: Primary Care and Public Health (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "PH 80: Racism as a Public Health Crisis (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "PH 91: Topics in Public Health (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 3,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "BILD 1: The Cell (4.00 units)",
+              "sending_course_text": "(BIOL 21: Cell Biology and Evolution (4.00 units) AND BIOL 22: Genetics and Molecular Biology (4.00 units) AND BIOL 23: Organismal and Environmental Biology (5.00 units))"
+            },
+            {
+              "receiving_course_text": "BILD 2: Multicellular Life (4.00 units)",
+              "sending_course_text": "(BIOL 21: Cell Biology and Evolution (4.00 units) AND BIOL 22: Genetics and Molecular Biology (4.00 units) AND BIOL 23: Organismal and Environmental Biology (5.00 units))"
+            },
+            {
+              "receiving_course_text": "BILD 3: Organismic and Evolutionary Biology (4.00 units)",
+              "sending_course_text": "(BIOL 21: Cell Biology and Evolution (4.00 units) AND BIOL 22: Genetics and Molecular Biology (4.00 units) AND BIOL 23: Organismal and Environmental Biology (5.00 units))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 4,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "CHEM 6A: General Chemistry I (4.00 units)",
+              "sending_course_text": "CHEM 11: General Chemistry I (5.00 units)"
+            },
+            {
+              "receiving_course_text": "CHEM 6B: General Chemistry II (4.00 units)",
+              "sending_course_text": "(CHEM 11: General Chemistry I (5.00 units) AND CHEM 12: General Chemistry II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "CHEM 6C: General Chemistry III (4.00 units)",
+              "sending_course_text": "CHEM 12: General Chemistry II (5.00 units)"
+            },
+            {
+              "receiving_course_text": "CHEM 7L: Introductory Inorganic Chemistry Laboratory (4.00 units)",
+              "sending_course_text": "(CHEM 11: General Chemistry I (5.00 units) AND CHEM 12: General Chemistry II (5.00 units))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 5,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "Complete A or B",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 10A: Calculus I (4.00 units)",
+              "sending_course_text": "MATH 7: Calculus 1 (5.00 units) OR MATH 28: Calculus 1 for Business and Social Science (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 10B: Calculus II (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units) OR (MATH 28: Calculus 1 for Business and Social Science (5.00 units) AND MATH 29: Calculus 2 for Business and Social Science (3.00 units))"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 20A: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "(MATH 7: Calculus 1 (5.00 units) AND MATH 8: Calculus 2 (5.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 20B: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 6,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "Complete 1 course from A",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 11: Calculus Based Elementary Probability and Statistics (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "HDS 60: Introduction to Statistical Analysis (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "PSYC 60: Introduction to Statistics (4.00 units)",
+              "sending_course_text": "MATH 54: Elementary Statistics (4.00 units)"
+            },
+            {
+              "receiving_course_text": "COGS 14B: Introduction to Statistical Analysis (4.00 units)",
+              "sending_course_text": "MATH 54: Elementary Statistics (4.00 units)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 7,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "Complete 3 courses from the following",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "BILD 12: Neurobiology and Behavior (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "BILD 20: Human Genetics in Modern Society (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "BILD 22: Human Nutrition (4.00 units)",
+              "sending_course_text": "NUTR 1: Introduction to Nutrition Science (3.00 units)"
+            },
+            {
+              "receiving_course_text": "BILD 26: Human Physiology (4.00 units)",
+              "sending_course_text": "PHYS 3: Human Physiology (4.00 units) OR BIOL 2: Human Biology (3.00 units)"
+            },
+            {
+              "receiving_course_text": "BILD 28: Immunology, Vaccines, and Immunotherapy (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "BILD 30: Biology of Plagues: Past & Present (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "BILD 32: Introduction to Cancer Biology (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "BILD 36: AIDS Science and Society (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "BILD 38: Dementia, Science, and Society (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "BILD 60: Biology and Diversity (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "CHEM 41A: Organic Chemistry I: Structure and Reactivity (4.00 units)",
+              "sending_course_text": "CHEM 21: Organic Chemistry I (5.00 units)"
+            },
+            {
+              "receiving_course_text": "CHEM 41B: Organic Chemistry II: Reactivity and Synthesis (4.00 units)",
+              "sending_course_text": "(CHEM 21: Organic Chemistry I (5.00 units) AND CHEM 22: Organic Chemistry II (4.00 units))"
+            },
+            {
+              "receiving_course_text": "CHEM 41C: Organic Chemistry III: Synthesis, Reactivity, and Macromolecules (4.00 units)",
+              "sending_course_text": "CHEM 22: Organic Chemistry II (4.00 units)"
+            },
+            {
+              "receiving_course_text": "CHEM 43A: Organic Chemistry Laboratory (4.00 units)",
+              "sending_course_text": "(CHEM 21: Organic Chemistry I (5.00 units) AND CHEM 22: Organic Chemistry II (4.00 units) AND CHEM 24: Organic Chemistry II Laboratory (2.00 units))"
+            },
+            {
+              "receiving_course_text": "PHYS 1A: Mechanics (3.00 units)",
+              "sending_course_text": "PHYSCS 8: Calculus-Based Physics 1 with Lab (4.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 1AL: Mechanics Laboratory (2.00 units)",
+              "sending_course_text": "PHYSCS 8: Calculus-Based Physics 1 with Lab (4.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 1B: Electricity and Magnetism (3.00 units)",
+              "sending_course_text": "PHYSCS 9: Calculus-Based Physics 2 with Lab (4.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 1BL: Electricity and Magnetism Laboratory (2.00 units)",
+              "sending_course_text": "PHYSCS 9: Calculus-Based Physics 2 with Lab (4.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 1C: Waves, Optics, and Modern Physics (3.00 units)",
+              "sending_course_text": "(PHYSCS 8: Calculus-Based Physics 1 with Lab (4.00 units) AND PHYSCS 9: Calculus-Based Physics 2 with Lab (4.00 units))"
+            },
+            {
+              "receiving_course_text": "PHYS 1CL: Waves, Optics, and Modern Physics Laboratory (2.00 units)",
+              "sending_course_text": "(PHYSCS 8: Calculus-Based Physics 1 with Lab (4.00 units) AND PHYSCS 9: Calculus-Based Physics 2 with Lab (4.00 units))"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

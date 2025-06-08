@@ -1,0 +1,167 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/18d36637-6df4-44dd-675e-08dca807bc66",
+  "agreement_title": "Astronomy and Astrophysics B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. The Bachelor of Arts in Astronomy and Astrophysics is intended to give students a detailed background in the full landscape of astronomy and astrophysics while also offering students breadth by requiring courses in other related disciplines. Students take upper division courses on topics such as stars, planets, galaxies and cosmology, and then select from a wide range of courses in math, physics, geophysics, engineering, chemistry, or biology to complete their major study. The intention of the major is to serve students interested in careers in science communication, science outreach, science policy, teaching in the sciences at the K-12 level, or a variety of positions in industry."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "LOWER DIVISION REQUIRED COURSES",
+      "group_instruction": "Complete A or B",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "PHYS 2A: Physics - Mechanics (4.00 units)",
+              "sending_course_text": "PHYSCS 21: Mechanics with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2B: Physics - Electricity and Magnetism (4.00 units)",
+              "sending_course_text": "PHYSCS 22: Electricity and Magnetism with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2C: Physics - Fluids, Waves, Thermodynamics, and Optics (4.00 units)",
+              "sending_course_text": "PHYSCS 23: Fluids, Waves, Thermodynamics, Optics with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2D: Physics - Relativity and Quantum Physics (4.00 units)",
+              "sending_course_text": "PHYSCS 24: Modern Physics with Lab (3.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "PHYS 4A: Physics for Physics Majors\u2014Mechanics (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "PHYS 4B: Physics for Physics Majors\u2014Fluids, Waves, Statistical and Thermal Physics (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "PHYS 4C: Physics for Physics Majors\u2014Electricity and Magnetism (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "PHYS 4D: Physics for Physics Majors\u2014Electromagnetic Waves, Special Relativity and Optics (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "PHYS 4E: Physics for Physics Majors\u2014Quantum Physics (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "requirement_area": "PROGRAMMING",
+      "group_instruction": "Complete 1 course from the following",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "DSC 10: Principles of Data Science (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "BILD 62: Introduction to Python for Biologists (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "COGS 18: Introduction to Python (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "CSE 6R: Introduction to Computer Science and Object-Oriented Programming: Python (4.00 units)",
+              "sending_course_text": "CS 87B: Advanced Python Programming (3.00 units)"
+            },
+            {
+              "receiving_course_text": "CSE 8A: Introduction to Programming and Computational Problem Solving I (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "CSE 11: Introduction to Programming and Computational Problem Solving - Accelerated Pace (4.00 units)",
+              "sending_course_text": "CS 55: JAVA Programming (3.00 units)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 3,
+      "requirement_area": "PROGRAMMING",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 18: Linear Algebra (4.00 units)",
+              "sending_course_text": "MATH 13: Linear Algebra (3.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20A: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "(MATH 7: Calculus 1 (5.00 units) AND MATH 8: Calculus 2 (5.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 20B: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20C: Calculus and Analytic Geometry for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 11: Multivariable Calculus (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20D: Introduction to Differential Equations (4.00 units)",
+              "sending_course_text": "MATH 15: Differential Equations (3.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20E: Vector Calculus (4.00 units)",
+              "sending_course_text": "MATH 11: Multivariable Calculus (5.00 units)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 4,
+      "requirement_area": "PROGRAMMING",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "ASTR 20A: Introduction to Astrophysics I (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "ASTR 20B: Introduction to Astrophysics II (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
