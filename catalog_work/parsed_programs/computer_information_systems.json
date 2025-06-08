@@ -1,0 +1,612 @@
+{
+  "program_name": "Computer Information Systems",
+  "program_description": "The Computer Information Systems (CIS) program includes courses in web authoring, desktop publishing, social media, Microsoft Office and Adobe applications. Students focusing on web applications attain the skills to professionally design, develop, and manage websites. The department also offers courses that lead to careers in social media. The office application courses prepare students for positions such as office managers who oversee a variety of administrative, clerical, and accounting functions necessary to efficiently run and maintain business information systems. The CIS program manages industry certification programs for Microsoft, QuickBooks, and Adobe products for students. Keyboarding skills of 25 words per minute or enrollment in OFTECH 1A or 9 are recommended for computer applications classes.",
+  "courses": [
+    {
+      "course_code": "CIS 1",
+      "course_title": "INTRODUCTION TO COMPUTER INFORMATION SYSTEMS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "*No UC credit for CIS 1 or 4 if taken after CS 3.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1467",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Valdivia O"
+            }
+          ],
+          "notes": [
+            "Above section 1467 meets for 12 weeks, Sep 03 to Nov 21. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 03 to Nov 21",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "CIS 37",
+      "course_title": "MICROSOFT WORD",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": "CIS 1 and ability to type 25 wpm.",
+      "formerly": null,
+      "description": "Through the use of Microsoft Word software, skills are developed in creating, revising, formatting, storing, and printing a variety of business documents. Skills are developed from basic functions and editing tools through intermediate features such as AutoText, columns, custom tab settings, charts and graphs, graphics, envelopes, labels, and headers/footers. Emphasis is placed on professional quality production of documents. Students also learn to increase productivity through the use of automated features and multiple windows. Students develop problem-solving skills through the use of document revisions and trouble-shooting assignments. Additionally, students develop advanced skills in areas of interest ranging from legal applications to brochures and newsletters. Hands-on experience is provided in a microcomputer lab. This class covers the objectives necessary for the MOS and Expert certification in Word. This course uses Microsoft Word 365/2021.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1468",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Jerry G S"
+            }
+          ],
+          "notes": [
+            "Above section 1468 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "CIS 39",
+      "course_title": "MS OUTLOOK – COMPREHENSIVE COURSE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": "CIS 1.",
+      "formerly": null,
+      "description": "Microsoft Outlook has become a primary means of office communication and task management. In this course the student will learn to effectively use all features of Outlook e-mail, calendar, contacts, tasks, and notes; create and manage Outlook folders; collaborate with others for scheduling meetings and resources; configure and customize Outlook; and integrate Outlook contacts with other Microsoft Office programs. This class covers the objectives necessary for the MOS certification in Outlook. This course uses Microsoft Outlook 365/2021.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1469",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Jerry G S"
+            }
+          ],
+          "notes": [
+            "Above section 1469 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "CIS 60A",
+      "course_title": "PHOTOSHOP I",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": "CIS 1.",
+      "formerly": null,
+      "description": "This course is for the non-design student interested in learning Photoshop. Students will learn image creation and editing using Adobe Photoshop. Students learn to create, repair and modify images, scan photos, plan composite images and create special effects for use in a variety of applications. Handson experience is provided in a microcomputer lab. This class covers the objectives necessary for the Visual Communication using Adobe Photoshop (ACA) certification. This course uses Adobe Photoshop Creative Cloud.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1470",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Valdivia O"
+            }
+          ],
+          "notes": [
+            "Above section 1470 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "CIS 64",
+      "course_title": "ILLUSTRATOR",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": "CIS 60A.",
+      "formerly": null,
+      "description": "This course is for the non-design students interested in learning Adobe Illustrator using Personal Computers for Windows. Students will develop the skills and use a variety of tools to create sophisticated illustrations, logos, advertisements, and other business media graphics for the Web. Hands-on experience is provided. This class covers the objectives necessary for the Adobe Certified Professional in Graphic Design & Illustration Using Adobe Illustrator certification. This course uses Adobe Illustrator Creative Cloud.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1471",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Valdivia O"
+            }
+          ],
+          "notes": [
+            "Above section 1471 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "CIS 70",
+      "course_title": "DIGITAL MARKETING APPLICATIONS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": "CIS 1.",
+      "formerly": null,
+      "description": "Digital marketing enables an individual or business to promote an organization, brand, product or service using a varisoftware and website development, and other areas of computer science or information systems. Students will learn the theory, as well as the use of Project Management software to plan, track and manage project resources. Topics covered include project life cycles, tasks, schedules, resources, and costs.",
+      "same_as": "CS 9A",
+      "sections": [
+        {
+          "section_number": "1461",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Darwiche J"
+            }
+          ],
+          "notes": [
+            "Above section 1461 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "CIS 9B",
+      "course_title": "TECHNOLOGY PROJECT MANAGEMENT II",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": "CIS 9A or CS 9A.",
+      "formerly": null,
+      "description": "This course covers advanced topics of Project Management theory and practice. Students will learn how to manage projects with changing tasks and schedules, and to adjust their resources and budgets. Also covered are leadership and communication skills. Students will complement the theory with case studies and the use of Project Management software.",
+      "same_as": "CS 9B",
+      "sections": [
+        {
+          "section_number": "1462",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Darwiche J"
+            }
+          ],
+          "notes": [
+            "Above section 1462 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "CIS 30",
+      "course_title": "MICROSOFT EXCEL",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": "CIS 1, CIS 4.",
+      "formerly": null,
+      "description": "This course includes a detailed study of business applications using Microsoft Excel spreadsheet package. Topics include the commands, formats, and functions of Excel with emphasis on its use as a problem solving and financial analysis tool. Students will also learn to create macros, customize ribbons and tabs, and integrate Excel with other applications and the World Wide Web. Students will also have an introduction to writing Visual Basic code. CIS 30 has replaced CIS 31 in all CSIS degree and certificate programs.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1463",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Bolandhemat F"
+            }
+          ],
+          "notes": [
+            "Above section 1463 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1464",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Zimmerman W L"
+            }
+          ],
+          "notes": [
+            "Above section 1464 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "CIS 30T",
+      "course_title": "TABLEAU DESKTOP ESSENTIALS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course introduces students to Tableau, a popular platform for data visualization and simplification of complex data. It was designed to help the user to create visuals and graphics without the help of any programmer or any prior knowledge of programming. Topics include: connecting to different data types, exploring and analyzing the data visually, build custom calculations. Students will build a fully interactive dashboard, build a story to present and share the findings with publishing online or via Tableau server. This course uses Tableau/2021.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1465",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Bolandhemat F"
+            }
+          ],
+          "notes": [
+            "Above section 1465 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1466",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Bolandhemat F"
+            }
+          ],
+          "notes": [
+            "Above section 1466 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "CIS 35B",
+      "course_title": "QUICKBOOKS ONLINE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": "ACCTG 1 or ACCTG 21 and CIS 4.",
+      "formerly": null,
+      "description": "This course provides the student with a business approach to computerized, integrated accounting principles using QuickBooks Online. Students will work with the various components of an accounting system by setting up an accounting system for a new company. Topics include the creation of a QuickBooks company, processing daily accounting entries, working with payroll online, maintaining inventory, the creation and the analysis of financial statements and other managerial reports. Hands-on experience is provided. This class covers the objectives necessary for the QuickBooks Online certification. This class uses QuickBooks Online. This beginning course explores the foundations of technology as well as current trends and emerging topics in information technology. Students complete hands-on projects in operating systems, web browsers, and web-based office applications. Students will also be introduced to topics such as understanding programming, computer security and social media. This course uses Windows 11 and various Internet Browsers. This course uses Google Apps (Docs and Sheets) as well as Code.org.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1450",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "M",
+              "location": "BUS 255",
+              "instructor": "Valdivia O"
+            },
+            {
+              "time": "Arrange-5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Valdivia O"
+            }
+          ],
+          "notes": [
+            "Above section 1450 meets for 8 weeks, Sep 08 to Oct 20, and is",
+            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": "8 weeks, Sep 08 to Oct 20",
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1453",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Valdivia O"
+            }
+          ],
+          "notes": [
+            "Above section 1453 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1454",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Scott Jacqueline D"
+            }
+          ],
+          "notes": [
+            "Above section 1454 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "CIS 2",
+      "course_title": "COMPUTER SKILLS FOR VIRTUAL ASSISTANTS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course will offer a comprehensive overview of administrative responsibilities within virtual and hybrid professional settings. Students will acquire knowledge of project management, applicable technology and automation tools, ethics, and data and equipment security. Through a combination of information and virtual work experiences, students will gain theoretical and practical skills.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1455",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Valdivia O"
+            }
+          ],
+          "notes": [
+            "Above section 1455 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "CIS 4",
+      "course_title": "BUSINESS INFORMATION SYSTEMS WITH APPLICATIONS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": "BUS 140",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This is not a beginning computing course. It is recommended that students take CIS 1 prior to CIS 4. Ability to keyboard 25 words per minute is recommended. *No UC credit for CIS 1 or 4 if taken after CS 3. This course introduces students to information systems and their role in business. Topics include information systems, database management systems, networking, e-commerce, ethics and security, computer systems, hardware systems, and application software (word processing, spreadsheet, database, and presentation graphics). In this course, students develop computer-based solutions to a variety of business problems. This course uses Windows 11 and Microsoft Office 365/2021.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1456",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:50p.m.",
+              "days": "T",
+              "location": "BUS 255",
+              "instructor": "Jerry G S"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Jerry G S"
+            }
+          ],
+          "notes": [
+            "Above section 1456 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1457",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Jerry G S"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1458",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Jerry G S"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1459",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Jerry G S"
+            }
+          ],
+          "notes": [
+            "Above section 1459 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1460",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Scott Jacqueline D"
+            }
+          ],
+          "notes": [
+            "Above section 1460 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "CIS 9A",
+      "course_title": "TECHNOLOGY PROJECT MANAGEMENT I",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": "CS 3 or CIS 1.",
+      "formerly": null,
+      "description": "This course covers the fundamentals of Project Management theory, implementation, and best practices. It is aimed at students who work mostly in the Technology sectors covering ety of online marketing strategies: content marketing, social media marketing, search engine marketing and e-marketing. Numerous tools and applications are utilized to deliver these strategies, such as a content management system; blogging; content creators and editors for images, posts and videos; crowdsourcing; podcasting; RSS feed and directories; social media business accounts and ad managers, like Facebook Ad Manager; search engine advertising, like Google Ads; SEO techniques and tools; third party tracking and analytics tools, such as Google Analytics; email and direct message marketing; and event promotion. This course provides the skills to use these tools and applications for a successful digital marketing campaign.",
+      "same_as": "BUS 34B",
+      "sections": [
+        {
+          "section_number": "1472",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Rothaupt B L"
+            }
+          ],
+          "notes": [
+            "Above section 1472 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

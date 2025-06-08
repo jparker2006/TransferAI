@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "source": "Santa Monica College IGETC Course List by Area",
+    "academic_year": "2024-2025",
+    "area_name": "7 - Ethnic Studies",
+    "area_code": "7",
+    "scraped_at": "2025-06-04T12:19:44.151140",
+    "total_courses": 1,
+    "active_courses": 1,
+    "removed_courses": 0,
+    "courses_with_removal_dates": 0,
+    "data_type": "IGETC_transfer_courses_by_area"
+  },
+  "area": {
+    "name": "7 - Ethnic Studies",
+    "code": "7",
+    "description": "7 - Ethnic Studies courses for IGETC transfer",
+    "course_count": 1,
+    "active_course_count": 1,
+    "removed_course_count": 0
+  },
+  "courses": [
+    {
+      "course_code": "ETH ST 1",
+      "title": "Introduction to Ethnic Studies",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2023",
+        "formatted": "Fall 2023",
+        "raw": "F2023"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "4"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    }
+  ],
+  "summary": {
+    "departments_represented": {
+      "department_counts": {
+        "ETH": 1
+      },
+      "total_departments": 1,
+      "departments": [
+        "ETH"
+      ]
+    },
+    "unit_range": {
+      "min": 3.0,
+      "max": 3.0,
+      "average": 3.0
+    },
+    "most_recent_additions": [
+      {
+        "course_code": "ETH ST 1",
+        "title": "Introduction to Ethnic Studies",
+        "year_approved": 2023
+      }
+    ],
+    "removal_status": {
+      "active_courses": 1,
+      "removed_courses": 0,
+      "courses_with_future_removal": 0
+    }
+  }
+}

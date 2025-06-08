@@ -1,0 +1,171 @@
+{
+  "program_name": "Counseling: Disabled Student Services",
+  "program_description": "The Center for Student with Disabilities is a program designed to ensure that students with disabilities have equal access to all programs and activities on campus. Our primary goal is to encourage and promote independence in students so they may achieve their full potential. We strive to provide the highest quality programs and services to our students with disabilities including a variety of classes to support their academic success.",
+  "courses": [
+    {
+      "course_code": "COUNS 13H",
+      "course_title": "PERSONAL AND SOCIAL AWARENESS",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "Maximum credit of AA applicable counseling courses may be limited; check with Counseling. This course is designed for students who wish to gain greater self-awareness, become more sensitive to others, and improve their communication skills through group interaction.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1652",
+          "schedule": [
+            {
+              "time": "12:00p.m.-2:05p.m.",
+              "days": "Th",
+              "location": "SSC 370A",
+              "instructor": "Roh A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 21H",
+      "course_title": "ADAPTED COMPUTER TECHNOLOGY",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "In the context of word processing, students receive instruction in the assistive technology needed to provide computer access for completion of written academic assignments. Students must be concurrently enrolled in an academic class at Santa Monica College. (Also, Credit/Noncredit, open entry, self-paced.)",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1698",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "SSC 159",
+              "instructor": "Ramos J J"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 41H",
+      "course_title": "ROADMAP TO COLLEGE READINESS",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course is designed for students with a disability who are transitioning into academic classes and are seeking guidance for tools that promote college readiness. Emphasis will be placed on skill acquisition for organization, goal setting, stress reduction and time management techniques. Students will gain perspective on their own learning styles, as well as how to create healthy habits and routines as they relate to both home and academic activities. Orientation to on and off campus support resources will be included.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1699",
+          "schedule": [
+            {
+              "time": "9:30a.m.-11:35a.m.",
+              "days": "Th",
+              "location": "SSC 370A",
+              "instructor": "Roh A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 57",
+      "course_title": "LISTENING, NOTE TAKING, AND MEMORY",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "MEMORY 1 UNIT Maximum credit of AA applicable counseling courses may be limited; check with Counseling. This course is designed to improve a student’s ability to actively listen, take lecture notes, and to employ memory strategies. The class is specifically for students with learning disabilities. Assistive technology for note taking is also explored.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1709",
+          "schedule": [
+            {
+              "time": "11:30a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "SSC 370A",
+              "instructor": "Teruya S"
+            }
+          ],
+          "notes": [
+            "Above section 1709 meets for 8 weeks, Sep 03 to Oct 22. Above section 1709mmended for students enrolled in at least 1 academic class. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 22",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 59",
+      "course_title": "TEXTBOOK STRATEGIES USING TECHNOLOGY",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "TECHNOLOGY 1 UNIT Students learn to apply technology-based study strategies to enhance comprehension and retention of instructional materials. Students will apply the strategies with consideration for their learning styles and the types of materials they are reading. Comprehension strategies such as patterns of organization and skimming techniques are also covered. This course is designed for students with learning disabilities.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1710",
+          "schedule": [
+            {
+              "time": "12:45p.m.-1:50p.m.",
+              "days": "MW",
+              "location": "SSC 159 Courto L",
+              "instructor": ""
+            }
+          ],
+          "notes": [
+            "Above section 1710 meets for 8 weeks, Oct 27 to Dec 17. Above section 1710mmended for students enrolled in at least 1 academic class. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 17",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

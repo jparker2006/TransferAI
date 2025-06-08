@@ -1,0 +1,185 @@
+{
+  "program_name": "Kinesiology/Physical Education: Combatives",
+  "program_description": "See also “Professional Courses in Kinesiology/Physical Education” (PRO CR) and “Varsity Intercollegiate Athletics” (VAR/PE). *Maximum UC transfer credit for any or all KIN PE courses combined is four units unless otherwise noted.",
+  "courses": [
+    {
+      "course_code": "KIN PE 34A",
+      "course_title": "KARATE",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course is designed as an introduction to traditional karate. The program focuses on the cultural and self-defense aspects of the art as it was originally taught. The style is fluid, mobile, and emphasizes grabbing, striking, and kicking. Students work on conditioning, partner work, solo forms (kata), and learning the traditions and etiquette of the martial art.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2474",
+          "schedule": [
+            {
+              "time": "3:45p.m.-5:05p.m.",
+              "days": "TTh",
+              "location": "CPC 218",
+              "instructor": "Baghdasarian G"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "KIN PE 34B",
+      "course_title": "INTERMEDIATE KARATE",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": "KIN PE 34A or equivalent experience.",
+      "formerly": null,
+      "description": "This is an intermediate level course in traditional karate. Multi-step techniques, movement fluidity, and controlled one-on-one combat scenarios are emphasized. Power generation through breathing techniques and meditation is introduced at this level. Students learn traditional kata forms of “Seisan” and “Ananku”. In additional to the Okinawan history of karate, global scale history of the martial arts is discussed.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2475",
+          "schedule": [
+            {
+              "time": "3:45p.m.-5:05p.m.",
+              "days": "TTh",
+              "location": "CPC 218",
+              "instructor": "Baghdasarian G"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "KIN PE 34C",
+      "course_title": "ADVANCED INTERMEDIATE KARATE",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": "KIN PE 34B or equivalent experience.",
+      "formerly": null,
+      "description": "This is an advanced intermediate level course in traditional karate. Advanced techniques and movements not covered in the beginning and intermediate classes are introduced. Power generation through breathing techniques, whole body movement fluidity, and meditation is emphasized at a more advanced level than KIN PE 34B. Students learn advanced timing for traditional kata forms of “Seisan” and “Ananku”, and some students are introduced to the kata “Wansu”. Specific history associated with students’ direct Okinawan karate lineage is discussed.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2476",
+          "schedule": [
+            {
+              "time": "3:45p.m.-5:05p.m.",
+              "days": "TTh",
+              "location": "CPC 218",
+              "instructor": "Baghdasarian G"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "KIN PE 34D",
+      "course_title": "ADVANCED KARATE",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": "KIN PE 34B or equivalent experience.",
+      "formerly": null,
+      "description": "This is an advanced level course in traditional karate. Techniques and movement introduced in previous courses are further refined and effective self-defense application of these techniques are studied. Personalized kata training and interpretation is emphasized and may involve study of forms including, but not limited to, “Passai”, “Gojushiho”, “Chinto”, and/or “Kusanku”. Meditation training and research into various lineages of the martial arts are required.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2477",
+          "schedule": [
+            {
+              "time": "3:45p.m.-5:05p.m.",
+              "days": "TTh",
+              "location": "CPC 218",
+              "instructor": "Baghdasarian G"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "KIN PE 41W",
+      "course_title": "SELF DEFENSE – WOMEN",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course provides knowledge of the laws relating to self defense, basics of anatomy as applied to defense techniques, and physical techniques that are effective in self defense.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2478",
+          "schedule": [
+            {
+              "time": "8:00a.m.-9:20a.m.",
+              "days": "MW",
+              "location": "CPC 218",
+              "instructor": "Eastcott M B"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,767 @@
+{
+  "metadata": {
+    "source": "Santa Monica College IGETC Course List by Area",
+    "academic_year": "2024-2025",
+    "generated_at": "2025-06-04T12:19:44.151826",
+    "total_areas": 24,
+    "total_courses": 542,
+    "active_courses": 431,
+    "removed_courses": 111,
+    "courses_with_removal_dates": 113,
+    "courses_with_future_removal": 2
+  },
+  "areas": [
+    {
+      "name": "1A - English Composition",
+      "code": "1A",
+      "course_count": 2,
+      "active_courses": 2,
+      "removed_courses": 0,
+      "courses_with_removal_dates": 0,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "1B - Critical Thinking - English Composition",
+      "code": "1B",
+      "course_count": 2,
+      "active_courses": 1,
+      "removed_courses": 1,
+      "courses_with_removal_dates": 1,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "1C - Oral Communication (CSU requirement only)",
+      "code": "1C",
+      "course_count": 9,
+      "active_courses": 4,
+      "removed_courses": 5,
+      "courses_with_removal_dates": 5,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "2A - Math",
+      "code": "2A",
+      "course_count": 18,
+      "active_courses": 13,
+      "removed_courses": 5,
+      "courses_with_removal_dates": 5,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "3A - Arts",
+      "code": "3A",
+      "course_count": 54,
+      "active_courses": 34,
+      "removed_courses": 20,
+      "courses_with_removal_dates": 20,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "3B - Humanities",
+      "code": "3B",
+      "course_count": 151,
+      "active_courses": 129,
+      "removed_courses": 22,
+      "courses_with_removal_dates": 23,
+      "courses_with_future_removal": 1
+    },
+    {
+      "name": "4 - Social Sciences",
+      "code": "4",
+      "course_count": 18,
+      "active_courses": 16,
+      "removed_courses": 2,
+      "courses_with_removal_dates": 2,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "4A - Anthropology and Archaeology",
+      "code": "4A",
+      "course_count": 10,
+      "active_courses": 10,
+      "removed_courses": 0,
+      "courses_with_removal_dates": 0,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "4B - Economics",
+      "code": "4B",
+      "course_count": 5,
+      "active_courses": 5,
+      "removed_courses": 0,
+      "courses_with_removal_dates": 0,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "4C - Ethnic Studies",
+      "code": "4C",
+      "course_count": 3,
+      "active_courses": 2,
+      "removed_courses": 1,
+      "courses_with_removal_dates": 1,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "4D - Gender Studies",
+      "code": "4D",
+      "course_count": 8,
+      "active_courses": 5,
+      "removed_courses": 3,
+      "courses_with_removal_dates": 3,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "4E - Geography",
+      "code": "4E",
+      "course_count": 8,
+      "active_courses": 8,
+      "removed_courses": 0,
+      "courses_with_removal_dates": 0,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "4F - History",
+      "code": "4F",
+      "course_count": 12,
+      "active_courses": 10,
+      "removed_courses": 2,
+      "courses_with_removal_dates": 2,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "4G - Interdisciplinary, Social & Behavioral Sciences",
+      "code": "4G",
+      "course_count": 22,
+      "active_courses": 14,
+      "removed_courses": 8,
+      "courses_with_removal_dates": 8,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "4H - Political Science, Government & Legal Institutions",
+      "code": "4H",
+      "course_count": 22,
+      "active_courses": 19,
+      "removed_courses": 3,
+      "courses_with_removal_dates": 3,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "4I - Psychology",
+      "code": "4I",
+      "course_count": 13,
+      "active_courses": 11,
+      "removed_courses": 2,
+      "courses_with_removal_dates": 2,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "4J - Sociology & Criminology",
+      "code": "4J",
+      "course_count": 10,
+      "active_courses": 10,
+      "removed_courses": 0,
+      "courses_with_removal_dates": 0,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "5A - Physical Science",
+      "code": "5A",
+      "course_count": 52,
+      "active_courses": 39,
+      "removed_courses": 13,
+      "courses_with_removal_dates": 13,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "5B - Biological Science",
+      "code": "5B",
+      "course_count": 25,
+      "active_courses": 20,
+      "removed_courses": 5,
+      "courses_with_removal_dates": 5,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "5C - Science Laboratory",
+      "code": "5C",
+      "course_count": 50,
+      "active_courses": 36,
+      "removed_courses": 14,
+      "courses_with_removal_dates": 14,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "6A - Language Other Than English",
+      "code": "6A",
+      "course_count": 43,
+      "active_courses": 42,
+      "removed_courses": 1,
+      "courses_with_removal_dates": 2,
+      "courses_with_future_removal": 1
+    },
+    {
+      "name": "7 - Ethnic Studies",
+      "code": "7",
+      "course_count": 1,
+      "active_courses": 1,
+      "removed_courses": 0,
+      "courses_with_removal_dates": 0,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "8A - Critical Thinking",
+      "code": "8A",
+      "course_count": 2,
+      "active_courses": 0,
+      "removed_courses": 2,
+      "courses_with_removal_dates": 2,
+      "courses_with_future_removal": 0
+    },
+    {
+      "name": "8B - English Composition",
+      "code": "8B",
+      "course_count": 2,
+      "active_courses": 0,
+      "removed_courses": 2,
+      "courses_with_removal_dates": 2,
+      "courses_with_future_removal": 0
+    }
+  ],
+  "department_coverage": {
+    "departments_represented": [
+      "AD",
+      "AHIS",
+      "ANATMY",
+      "ANIM",
+      "ANTHRO",
+      "ARABIC",
+      "ARCH",
+      "ART",
+      "ASL",
+      "ASTRON",
+      "BIOL",
+      "BOTANY",
+      "CHEM",
+      "CHNESE",
+      "CINEMA",
+      "COM",
+      "COMM",
+      "CS",
+      "DANCE",
+      "ECE",
+      "ECON",
+      "ENGL",
+      "ENVRN",
+      "ETH",
+      "FILM",
+      "FRENCH",
+      "GEOG",
+      "GEOL",
+      "GERMAN",
+      "GLOBAL",
+      "HEBREW",
+      "HIST",
+      "HME",
+      "HUM",
+      "ITAL",
+      "JAPAN",
+      "JOURN",
+      "KOREAN",
+      "LING",
+      "MATH",
+      "MCRBIO",
+      "MEDIA",
+      "MUSIC",
+      "NUTR",
+      "PERSIN",
+      "PHILOS",
+      "PHOTO",
+      "PHYS",
+      "PHYSCS",
+      "POL",
+      "PORTGS",
+      "PSYCH",
+      "REL",
+      "RUSS",
+      "SOCIOL",
+      "SPAN",
+      "SPEECH",
+      "TH",
+      "TURKSH",
+      "URBAN",
+      "WGS",
+      "WOM",
+      "ZOOL"
+    ],
+    "total_departments": 63,
+    "department_area_mapping": {
+      "ENGL": [
+        "1A - English Composition",
+        "1B - Critical Thinking - English Composition",
+        "3A - Arts",
+        "3B - Humanities",
+        "8B - English Composition"
+      ],
+      "HIST": [
+        "1B - Critical Thinking - English Composition",
+        "3B - Humanities",
+        "4 - Social Sciences",
+        "4B - Economics",
+        "4C - Ethnic Studies",
+        "4F - History",
+        "4G - Interdisciplinary, Social & Behavioral Sciences",
+        "4H - Political Science, Government & Legal Institutions"
+      ],
+      "COM": [
+        "1C - Oral Communication (CSU requirement only)",
+        "3B - Humanities",
+        "4 - Social Sciences",
+        "4D - Gender Studies",
+        "4G - Interdisciplinary, Social & Behavioral Sciences"
+      ],
+      "SPEECH": [
+        "1C - Oral Communication (CSU requirement only)",
+        "3B - Humanities",
+        "4G - Interdisciplinary, Social & Behavioral Sciences"
+      ],
+      "CS": [
+        "2A - Math"
+      ],
+      "MATH": [
+        "2A - Math"
+      ],
+      "AHIS": [
+        "3A - Arts",
+        "3B - Humanities"
+      ],
+      "ANIM": [
+        "3A - Arts"
+      ],
+      "ARCH": [
+        "3A - Arts"
+      ],
+      "ART": [
+        "3A - Arts"
+      ],
+      "CINEMA": [
+        "3A - Arts",
+        "3B - Humanities"
+      ],
+      "DANCE": [
+        "3A - Arts"
+      ],
+      "FILM": [
+        "3A - Arts",
+        "3B - Humanities"
+      ],
+      "MUSIC": [
+        "3A - Arts"
+      ],
+      "PHOTO": [
+        "3A - Arts"
+      ],
+      "TH": [
+        "3A - Arts",
+        "3B - Humanities"
+      ],
+      "ASL": [
+        "3B - Humanities",
+        "6A - Language Other Than English"
+      ],
+      "CHNESE": [
+        "3B - Humanities",
+        "6A - Language Other Than English"
+      ],
+      "ECON": [
+        "3B - Humanities",
+        "4 - Social Sciences",
+        "4B - Economics",
+        "4H - Political Science, Government & Legal Institutions"
+      ],
+      "ENVRN": [
+        "3B - Humanities",
+        "4 - Social Sciences",
+        "4E - Geography",
+        "4F - History",
+        "4H - Political Science, Government & Legal Institutions",
+        "4I - Psychology"
+      ],
+      "ETH": [
+        "3B - Humanities",
+        "4 - Social Sciences",
+        "4C - Ethnic Studies",
+        "4G - Interdisciplinary, Social & Behavioral Sciences",
+        "7 - Ethnic Studies"
+      ],
+      "FRENCH": [
+        "3B - Humanities",
+        "6A - Language Other Than English"
+      ],
+      "GERMAN": [
+        "3B - Humanities",
+        "6A - Language Other Than English"
+      ],
+      "HEBREW": [
+        "3B - Humanities",
+        "6A - Language Other Than English"
+      ],
+      "HUM": [
+        "3B - Humanities"
+      ],
+      "ITAL": [
+        "3B - Humanities",
+        "6A - Language Other Than English"
+      ],
+      "JAPAN": [
+        "3B - Humanities",
+        "6A - Language Other Than English"
+      ],
+      "KOREAN": [
+        "3B - Humanities",
+        "6A - Language Other Than English"
+      ],
+      "LING": [
+        "3B - Humanities"
+      ],
+      "PERSIN": [
+        "3B - Humanities",
+        "6A - Language Other Than English"
+      ],
+      "PHILOS": [
+        "3B - Humanities",
+        "4G - Interdisciplinary, Social & Behavioral Sciences",
+        "4H - Political Science, Government & Legal Institutions",
+        "8A - Critical Thinking"
+      ],
+      "POL": [
+        "3B - Humanities",
+        "4D - Gender Studies",
+        "4F - History",
+        "4H - Political Science, Government & Legal Institutions"
+      ],
+      "REL": [
+        "3B - Humanities"
+      ],
+      "RUSS": [
+        "3B - Humanities",
+        "6A - Language Other Than English"
+      ],
+      "SPAN": [
+        "3B - Humanities",
+        "4C - Ethnic Studies",
+        "6A - Language Other Than English"
+      ],
+      "AD": [
+        "4 - Social Sciences"
+      ],
+      "PSYCH": [
+        "4 - Social Sciences",
+        "4G - Interdisciplinary, Social & Behavioral Sciences",
+        "4I - Psychology",
+        "5B - Biological Science"
+      ],
+      "WGS": [
+        "4 - Social Sciences",
+        "4D - Gender Studies"
+      ],
+      "ANTHRO": [
+        "4A - Anthropology and Archaeology",
+        "5B - Biological Science",
+        "5C - Science Laboratory"
+      ],
+      "ASTRON": [
+        "4A - Anthropology and Archaeology",
+        "5A - Physical Science",
+        "5C - Science Laboratory"
+      ],
+      "WOM": [
+        "4D - Gender Studies"
+      ],
+      "GEOG": [
+        "4E - Geography",
+        "5A - Physical Science",
+        "5C - Science Laboratory"
+      ],
+      "GLOBAL": [
+        "4E - Geography",
+        "4G - Interdisciplinary, Social & Behavioral Sciences",
+        "4H - Political Science, Government & Legal Institutions"
+      ],
+      "URBAN": [
+        "4E - Geography"
+      ],
+      "COMM": [
+        "4G - Interdisciplinary, Social & Behavioral Sciences"
+      ],
+      "ECE": [
+        "4G - Interdisciplinary, Social & Behavioral Sciences"
+      ],
+      "MEDIA": [
+        "4G - Interdisciplinary, Social & Behavioral Sciences"
+      ],
+      "NUTR": [
+        "4G - Interdisciplinary, Social & Behavioral Sciences"
+      ],
+      "HME": [
+        "4I - Psychology"
+      ],
+      "SOCIOL": [
+        "4I - Psychology",
+        "4J - Sociology & Criminology"
+      ],
+      "CHEM": [
+        "5A - Physical Science",
+        "5C - Science Laboratory"
+      ],
+      "GEOL": [
+        "5A - Physical Science",
+        "5C - Science Laboratory"
+      ],
+      "PHYSCS": [
+        "5A - Physical Science",
+        "5C - Science Laboratory"
+      ],
+      "ANATMY": [
+        "5B - Biological Science",
+        "5C - Science Laboratory"
+      ],
+      "BIOL": [
+        "5B - Biological Science",
+        "5C - Science Laboratory"
+      ],
+      "BOTANY": [
+        "5B - Biological Science",
+        "5C - Science Laboratory"
+      ],
+      "MCRBIO": [
+        "5B - Biological Science",
+        "5C - Science Laboratory"
+      ],
+      "PHYS": [
+        "5B - Biological Science",
+        "5C - Science Laboratory"
+      ],
+      "ZOOL": [
+        "5B - Biological Science",
+        "5C - Science Laboratory"
+      ],
+      "ARABIC": [
+        "6A - Language Other Than English"
+      ],
+      "PORTGS": [
+        "6A - Language Other Than English"
+      ],
+      "TURKSH": [
+        "6A - Language Other Than English"
+      ],
+      "JOURN": [
+        "8A - Critical Thinking"
+      ]
+    }
+  },
+  "removal_analysis": {
+    "total_active_courses": 431,
+    "total_removed_courses": 111,
+    "total_with_future_removal": 2,
+    "areas_with_removed_courses": 18
+  },
+  "statistics": {
+    "areas_by_course_count": [
+      [
+        "3B - Humanities",
+        151
+      ],
+      [
+        "3A - Arts",
+        54
+      ],
+      [
+        "5A - Physical Science",
+        52
+      ],
+      [
+        "5C - Science Laboratory",
+        50
+      ],
+      [
+        "6A - Language Other Than English",
+        43
+      ],
+      [
+        "5B - Biological Science",
+        25
+      ],
+      [
+        "4G - Interdisciplinary, Social & Behavioral Sciences",
+        22
+      ],
+      [
+        "4H - Political Science, Government & Legal Institutions",
+        22
+      ],
+      [
+        "2A - Math",
+        18
+      ],
+      [
+        "4 - Social Sciences",
+        18
+      ],
+      [
+        "4I - Psychology",
+        13
+      ],
+      [
+        "4F - History",
+        12
+      ],
+      [
+        "4A - Anthropology and Archaeology",
+        10
+      ],
+      [
+        "4J - Sociology & Criminology",
+        10
+      ],
+      [
+        "1C - Oral Communication (CSU requirement only)",
+        9
+      ],
+      [
+        "4D - Gender Studies",
+        8
+      ],
+      [
+        "4E - Geography",
+        8
+      ],
+      [
+        "4B - Economics",
+        5
+      ],
+      [
+        "4C - Ethnic Studies",
+        3
+      ],
+      [
+        "1A - English Composition",
+        2
+      ],
+      [
+        "1B - Critical Thinking - English Composition",
+        2
+      ],
+      [
+        "8A - Critical Thinking",
+        2
+      ],
+      [
+        "8B - English Composition",
+        2
+      ],
+      [
+        "7 - Ethnic Studies",
+        1
+      ]
+    ],
+    "areas_by_active_courses": [
+      [
+        "3B - Humanities",
+        129
+      ],
+      [
+        "6A - Language Other Than English",
+        42
+      ],
+      [
+        "5A - Physical Science",
+        39
+      ],
+      [
+        "5C - Science Laboratory",
+        36
+      ],
+      [
+        "3A - Arts",
+        34
+      ],
+      [
+        "5B - Biological Science",
+        20
+      ],
+      [
+        "4H - Political Science, Government & Legal Institutions",
+        19
+      ],
+      [
+        "4 - Social Sciences",
+        16
+      ],
+      [
+        "4G - Interdisciplinary, Social & Behavioral Sciences",
+        14
+      ],
+      [
+        "2A - Math",
+        13
+      ],
+      [
+        "4I - Psychology",
+        11
+      ],
+      [
+        "4A - Anthropology and Archaeology",
+        10
+      ],
+      [
+        "4F - History",
+        10
+      ],
+      [
+        "4J - Sociology & Criminology",
+        10
+      ],
+      [
+        "4E - Geography",
+        8
+      ],
+      [
+        "4B - Economics",
+        5
+      ],
+      [
+        "4D - Gender Studies",
+        5
+      ],
+      [
+        "1C - Oral Communication (CSU requirement only)",
+        4
+      ],
+      [
+        "1A - English Composition",
+        2
+      ],
+      [
+        "4C - Ethnic Studies",
+        2
+      ],
+      [
+        "1B - Critical Thinking - English Composition",
+        1
+      ],
+      [
+        "7 - Ethnic Studies",
+        1
+      ],
+      [
+        "8A - Critical Thinking",
+        0
+      ],
+      [
+        "8B - English Composition",
+        0
+      ]
+    ]
+  }
+}

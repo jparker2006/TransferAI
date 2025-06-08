@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "source": "Santa Monica College IGETC Course List by Area",
+    "academic_year": "2024-2025",
+    "area_name": "1B - Critical Thinking - English Composition",
+    "area_code": "1B",
+    "scraped_at": "2025-06-04T12:19:44.139729",
+    "total_courses": 2,
+    "active_courses": 1,
+    "removed_courses": 1,
+    "courses_with_removal_dates": 1,
+    "data_type": "IGETC_transfer_courses_by_area"
+  },
+  "area": {
+    "name": "1B - Critical Thinking - English Composition",
+    "code": "1B",
+    "description": "1B - Critical Thinking - English Composition courses for IGETC transfer",
+    "course_count": 2,
+    "active_course_count": 1,
+    "removed_course_count": 1
+  },
+  "courses": [
+    {
+      "course_code": "ENGL 2",
+      "title": "Critical Analysis and Intermediate Composition",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1993",
+        "formatted": "Fall 1993",
+        "raw": "F1993"
+      },
+      "date_removed": {
+        "semester": "Fall",
+        "year": "1993",
+        "formatted": "Fall 1993",
+        "raw": "F1993"
+      },
+      "other_igetc_areas": [
+        "3B",
+        "8B"
+      ],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": false
+    },
+    {
+      "course_code": "HIST 47",
+      "title": "The Practice of History",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2012",
+        "formatted": "Fall 2012",
+        "raw": "F2012"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "4F"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    }
+  ],
+  "summary": {
+    "departments_represented": {
+      "department_counts": {
+        "ENGL": 1,
+        "HIST": 1
+      },
+      "total_departments": 2,
+      "departments": [
+        "ENGL",
+        "HIST"
+      ]
+    },
+    "unit_range": {
+      "min": 3.0,
+      "max": 3.0,
+      "average": 3.0
+    },
+    "most_recent_additions": [
+      {
+        "course_code": "HIST 47",
+        "title": "The Practice of History",
+        "year_approved": 2012
+      },
+      {
+        "course_code": "ENGL 2",
+        "title": "Critical Analysis and Intermediate Composition",
+        "year_approved": 1993
+      }
+    ],
+    "removal_status": {
+      "active_courses": 1,
+      "removed_courses": 1,
+      "courses_with_future_removal": 0
+    }
+  }
+}

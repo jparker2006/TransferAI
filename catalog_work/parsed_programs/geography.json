@@ -1,0 +1,487 @@
+{
+  "program_name": "Geography",
+  "program_description": "Geography is the science of studying human and physical attributes on the surface of the Earth. These attributes may be marks of human occupation, properties of some natural environment, or both. Geographers ask the questions “Where” and “Why there”, with an interest in describing and explaining the various ways in which people have made Earth their home at scales ranging from the local to the global. Geography is an integrative discipline whose interests in space and place and whose perspectives from both environmental and social sciences foster a greater understanding of the interrelationships between the human and physical worlds. The use of Geo-Spatial Technologies, including Geographic Information Science (GIS), Remote Sensing (RS), and Global Positioning Systems (GPS), are now widely used in the visualization, measurement and analysis of Earth’s physical features and human societies, as well as the interaction between them.",
+  "courses": [
+    {
+      "course_code": "GEOG 1",
+      "course_title": "PHYSICAL GEOGRAPHY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": "GEOG 110",
+      "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, non-lab)",
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": "Eligibility for English 1.",
+      "formerly": null,
+      "description": "*Maximum credit allowed for GEOG 1 and GEOG 5 is one course (4 units). This course surveys the distribution and relationships of environmental elements in our atmosphere, lithosphere, hydrosphere and biosphere, including weather, climate, water resources, landforms, soils, natural vegetation, and wildlife. Focus is on the systems and cycles of our natural world, including the effects of the sun and moon on environmental processes, and the roles played by humans.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4109",
+          "schedule": [
+            {
+              "time": "6:45p.m.-8:05p.m.",
+              "days": "MW",
+              "location": "ONLINE",
+              "instructor": "Kranz J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "GEOG 2",
+      "course_title": "INTRODUCTION TO HUMAN GEOGRAPHY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "GEOG 120",
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": "Eligibility for English 1.",
+      "formerly": null,
+      "description": "This course is a study of humanity and its planetary home of distinctive places, spaces, landscapes, and environments. The course systematically considers geographic patterns, processes, and issues, beginning with the basic questions of Where? and Why There? Specific topics examined include human population change and migration; agriculture and food systems; urban-economic development; cultural and environmental change in an age of globalization, with specific attention paid to language, religion, ethnic identity, and biodiversity; and international geopolitics.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2321",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "MSB 310",
+              "instructor": "Morris P S"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2322",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Morris P S"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "GEOG 3",
+      "course_title": "WEATHER AND CLIMATE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "GEOG 130",
+      "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, non-lab)",
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course is a survey of the earth’s atmosphere, with special reference to the causes and regional distribution of weather and climate. The nature and causes of winds, clouds, precipitation, and severe storms are studied. Students will learn techniques of local weather observation and prediction.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2323",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "W",
+              "location": "MSB 211",
+              "instructor": "Munoz A"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Munoz A"
+            }
+          ],
+          "notes": [
+            "Above section 2323 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2324",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Liu J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "GEOG 5",
+      "course_title": "PHYSICAL GEOGRAPHY WITH LAB",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": "GEOG 115",
+      "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "*Maximum credit allowed for GEOG 1 and GEOG 5 is one course (4 units). This course surveys the distribution and relationships of environmental elements in our atmosphere, lithosphere, hydrosphere and biosphere, including weather, climate, water resources, landforms, soils, natural vegetation, and wildlife. Focus is on the systems and cycles of our natural world, including the effects of the sun and moon on environmental processes, and the roles played by humans. Laboratory work emphasizes the practical application of concepts presented in lecture, introduces the student to some of the tools and methods used in Physical Geography, and may include field study opportunities.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2325",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "MW",
+              "location": "MSB 116 O’Keefe R",
+              "instructor": ""
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2326",
+          "schedule": [
+            {
+              "time": "9:30a.m.-12:35p.m.",
+              "days": "T",
+              "location": "MSB 116",
+              "instructor": "Liu J"
+            },
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Liu J"
+            }
+          ],
+          "notes": [
+            "Above section 2326 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/ scholars for more information."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2327",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:50p.m.",
+              "days": "M",
+              "location": "MSB 116",
+              "instructor": "Fritschle J"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Fritschle J"
+            }
+          ],
+          "notes": [
+            "Above section 2327 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2328",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Fritschle J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "GEOG 7",
+      "course_title": "INTRODUCTION TO ENVIRONMENTAL STUDIES",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This introductory course will use an interdisciplinary approach to provide students with a broad perspective on environmental problems and solutions. Students will be introduced to the strategies used by scientists, economists, political analysts, and other writers and researchers to investigate and analyze environmental and urban issues, human/nature relationships, natural and built environments, and environmental citizenship.",
+      "same_as": "ENVRN 7",
+      "sections": [
+        {
+          "section_number": "2329",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "M",
+              "location": "MSB 113",
+              "instructor": "Fritschle J"
+            },
+            {
+              "time": "Arrange-5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Fritschle J"
+            }
+          ],
+          "notes": [
+            "Above section 2329 meets for 8 weeks, Sep 08 to Oct 20, and is",
+            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": "8 weeks, Sep 08 to Oct 20",
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "GEOG 8",
+      "course_title": "INTRODUCTION TO URBAN STUDIES",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course introduces students to the multi-disciplinary study of urban society and space. Cities are examined both as complex social-economic groupings of people, and as material landscapes of buildings, pathways, and public and private spaces. Attention is paid to what cities are and have been (the evolving urban experience of the past and present) as well as to ever-changing ideas about what cities should be (urban planning and design for the future). While the overall perspective of the course is global, its primary focus is on the cities of North America and, in particular, the Los Angeles metropolitan area. This emphasis is evident both in the classroom and in field trips or other assignments that ask students to apply classroom ideas to our local urban setting.",
+      "same_as": "URBAN 8",
+      "sections": [
+        {
+          "section_number": "2330",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "W",
+              "location": "MSB 113",
+              "instructor": "Morris P S"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Morris P S"
+            }
+          ],
+          "notes": [
+            "Above section 2330 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "GEOG 11",
+      "course_title": "WORLD GEOGRAPHY: INTRODUCTION TO GLOBAL STUDIES",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "GEOG 125",
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "GLOBAL STUDIES 3 UNITS This course introduces Global Studies through a survey of the world’s major geographic regions. Students will encounter core concepts related to processes of global connection and change, while also developing basic geographic literacy in the distribution of human and natural features on Earth. Students will examine and discuss significant issues — cultural, social, political-economic, and environmental — impacting humanity today as both problem and possibility. In particular, this course considers the diverse localized impacts of globalization as a continuing story of peoples and places isolated and connected by imperial, colonial, and international systems of the past and present.",
+      "same_as": "GLOBAL 11",
+      "sections": [
+        {
+          "section_number": "2331",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Morris P S"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "GEOG 14",
+      "course_title": "GEOGRAPHY OF CALIFORNIA",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "GEOG 140",
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course surveys the physical and human geography of California and the process shaping its landscapes. Topics include natural features and resources, such as geology, climate, plants and animals, and hydrology. Historical and current trends in human population, migration, and settlement patterns are considered, including a review of the state’s major cultural groups. Primary and advanced economic activities are examined within modern rural and urban settings. Emphasis is on the profound connections between these topics, on California’s unequaled diversity, and the rapid change that is transforming our people and its landscapes.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2332",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Morris P S"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "GEOG 20",
+      "course_title": "INTRODUCTION TO GEOGRAPHIC INFORMATION SYSTEMS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "GEOG 155",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": "same course as CIS 20",
+      "description": "GIS are computer-based systems used to collect, store and analyze geographic information. This course will present the concepts of Geographic Information Systems (GIS) science and its applications to spatial data management. Topics include: Identification and acquisition of GIS data; Assessment of vector and raster data, scale, resolution, map projection, coordinate systems, georeferencing and Global Positioning Systems (GPS). Spatial analysis and modeling with GIS will also be presented.",
+      "same_as": "GIS 20",
+      "sections": [
+        {
+          "section_number": "2333",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Liu J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "GEOG 26",
+      "course_title": "INTRODUCTION TO REMOTE SENSING",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course introduces students to the basic concepts of remote sensing, characteristics of remote sensors, and remote sensing applications in academic disciplines and professional industries. Emphases are placed on remote sensing data acquisition; digital image processing and interpretation. The course is designed for students interested in the Earth Observing System, environmental monitoring techniques, and image analysis.",
+      "same_as": "GIS 26",
+      "sections": [
+        {
+          "section_number": "2334",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Liu J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

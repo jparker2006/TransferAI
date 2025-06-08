@@ -1,0 +1,269 @@
+{
+  "program_name": "Geology",
+  "program_description": "Geology is an interdisciplinary science that integrates the principles of mathematics, physics, chemistry, biology, and the social sciences to explore and understand the Earth. Geology asks and answers questions about the Earth, including its origins, composition, structure, and past and present activity and the impact of these factors on society. As a science with pragmatic applications it is also applied to locate resources and assess their abundance, to mitigate geologic hazards, and to provide critical information about Earth’s changing climate and the impact of these changes on our ecosystems. A degree in geology can translate to a number of important and highly valued academic and professional positions, including but not limited to, Earth scientist (e.g. geologist, seismologist, volcanologist, oceanographer, soil scientist, hydrologist, etc.), environmental consultant, environmental lawyer, remediation specialist, climate scientist, and teacher.",
+  "courses": [
+    {
+      "course_code": "GEOL 1",
+      "course_title": "PHYSICAL GEOLOGY WITHOUT LAB",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": "GEOL 100",
+      "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, non-lab)",
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "*Maximum credit allowed for GEOL 1 and GEOL 4 is one course (4 units). This course illustrates the many geologic processes that have shaped our planet. Lecture topics include rocks, minerals, landslides, streams, ground water, glaciers, oceans, earthquakes, and plate tectonics. Upon completion of this course, the student will have a greater awareness and understanding of their constantly changing environment.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2335",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Grippo A"
+            }
+          ],
+          "notes": [
+            "Above section 2335 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "GEOL 3",
+      "course_title": "INTRODUCTION TO ENVIRONMENTAL GEOLOGY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, non-lab)",
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course is an introduction to geologic hazards and resources. The primary focus is geologic settings that produce regions with different types of geologic hazards, the specific hazards and mitigation techniques associated with those regions, and the formation and utilization of geologic resources. Topics include earthquakes, volcanoes, floods and groundwater, fossil fuels, rock and mineral resources, and problems associated with resource use.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2336",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Melendez C"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "GEOL 32",
+      "course_title": "INTRODUCTION TO PHYSICAL OCEANOGRAPHY WITH LAB",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course describes the physical and geological aspects of oceanography. Lecture topics include the origin of the oceans, plate tectonics, seafloor topography, waves, beaches, estuaries, lagoons, and lakes. Lab content will reinforce lecture topics giving students an opportunity to apply their knowledge with hands-on experience along with a greater degree of understanding the physical and chemical properties of the oceans and atmosphere.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2337",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "M",
+              "location": "MSB 317",
+              "instructor": "Collins L E"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Collins L E"
+            }
+          ],
+          "notes": [
+            "Above section 2337 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2338",
+          "schedule": [
+            {
+              "time": "11:15a.m.-2:20p.m.",
+              "days": "M",
+              "location": "MSB 317",
+              "instructor": "Collins L E"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Collins L E"
+            }
+          ],
+          "notes": [
+            "Above section 2338 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "GEOL 4",
+      "course_title": "PHYSICAL GEOLOGY WITH LAB",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": "GEOL 101",
+      "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "*Maximum credit allowed for GEOL 1 and GEOL 4 is one course (4 units). This course presents an introduction to geologic processes that have shaped the Earth. Lecture topics include formation of the Earth, plate tectonics, rocks, minerals, earthquakes, geologic structures, geologic time, coastal processes, and groundwater. Laboratory exercises expand this information by dealing with rock and mineral identification, topographic and geologic map interpretation, and the interpretation aerial photographs. Upon completion of this course, the student will have a good understanding of the processes that form major features on Earth.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2339",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "W",
+              "location": "MSB 317 Hall J M",
+              "instructor": ""
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Collins L E"
+            }
+          ],
+          "notes": [
+            "Above section 2339 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/ scholars for more information."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2340",
+          "schedule": [
+            {
+              "time": "2:30p.m.-5:35p.m.",
+              "days": "W",
+              "location": "MSB 317",
+              "instructor": "Grippo A"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Grippo A"
+            }
+          ],
+          "notes": [
+            "Above section 2340 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "GEOL 6",
+      "course_title": "ENVIRONMENTAL GEOLOGY WITH LAB",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course is an introduction to the fundamentals of Environmental Geology with laboratory. Topics include the interactions between and impacts of humans with the environment in a geologic context. This course emphasizes the Earth system and connections between the geosphere, biosphere, atmosphere, and hydrosphere.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2341",
+          "schedule": [
+            {
+              "time": "11:15a.m.-2:20p.m.",
+              "days": "W",
+              "location": "MSB 317",
+              "instructor": "Melendez C"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Melendez C"
+            }
+          ],
+          "notes": [
+            "Above section 2341 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2342",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Melendez C"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

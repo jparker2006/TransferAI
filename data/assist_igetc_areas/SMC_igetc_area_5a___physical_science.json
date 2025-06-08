@@ -1,0 +1,1319 @@
+{
+  "metadata": {
+    "source": "Santa Monica College IGETC Course List by Area",
+    "academic_year": "2024-2025",
+    "area_name": "5A - Physical Science",
+    "area_code": "5A",
+    "scraped_at": "2025-06-04T12:19:44.147812",
+    "total_courses": 52,
+    "active_courses": 39,
+    "removed_courses": 13,
+    "courses_with_removal_dates": 13,
+    "data_type": "IGETC_transfer_courses_by_area"
+  },
+  "area": {
+    "name": "5A - Physical Science",
+    "code": "5A",
+    "description": "5A - Physical Science courses for IGETC transfer",
+    "course_count": 52,
+    "active_course_count": 39,
+    "removed_course_count": 13
+  },
+  "courses": [
+    {
+      "course_code": "ASTRON 1",
+      "title": "Stellar Astronomy",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Summer",
+        "year": "2007",
+        "formatted": "Summer 2007",
+        "raw": "Su2007"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [
+        "Formerly: ASTRON 1A prior to Su2007"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ASTRON 1A",
+      "title": "Stellar Astronomy",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "Summer",
+        "year": "2007",
+        "formatted": "Summer 2007",
+        "raw": "Su2007"
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": false
+    },
+    {
+      "course_code": "ASTRON 1B",
+      "title": "Astronomy of the Solar System",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "Summer",
+        "year": "2007",
+        "formatted": "Summer 2007",
+        "raw": "Su2007"
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": false
+    },
+    {
+      "course_code": "ASTRON 2",
+      "title": "Planetary Astronomy",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Summer",
+        "year": "2007",
+        "formatted": "Summer 2007",
+        "raw": "Su2007"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [
+        "Formerly: ASTRON 1B prior to Su2007"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ASTRON 3",
+      "title": "Stellar Astronomy with Laboratory",
+      "units": 4.0,
+      "units_raw": "4.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ASTRON 4",
+      "title": "Planatary Astronomy with Laboratory",
+      "units": 4.0,
+      "units_raw": "4.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ASTRON 5",
+      "title": "Life in the Universe",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2002",
+        "formatted": "Fall 2002",
+        "raw": "F2002"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ASTRON 7",
+      "title": "Cosmology",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2014",
+        "formatted": "Fall 2014",
+        "raw": "F2014"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ASTRON 8",
+      "title": "Introduction to Astrophysics",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Spring",
+        "year": "2015",
+        "formatted": "Spring 2015",
+        "raw": "S2015"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ASTRON 9",
+      "title": "Astrophysics with Calculus",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Spring",
+        "year": "2016",
+        "formatted": "Spring 2016",
+        "raw": "S2016"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ASTRON 10",
+      "title": "Exploration of the Solar System",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2022",
+        "formatted": "Fall 2022",
+        "raw": "F2022"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [
+        "Same as: GEOL 10"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "CHEM 1",
+      "title": "General Chemistry I",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "Fall",
+        "year": "1996",
+        "formatted": "Fall 1996",
+        "raw": "F1996"
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": false
+    },
+    {
+      "course_code": "CHEM 2",
+      "title": "General Chemistry II",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "Fall",
+        "year": "1996",
+        "formatted": "Fall 1996",
+        "raw": "F1996"
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": false
+    },
+    {
+      "course_code": "CHEM 3",
+      "title": "Introductory General Chemistry",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "Fall",
+        "year": "1996",
+        "formatted": "Fall 1996",
+        "raw": "F1996"
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": false
+    },
+    {
+      "course_code": "CHEM 9",
+      "title": "Everyday Chemistry",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2006",
+        "formatted": "Fall 2006",
+        "raw": "F2006"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "CHEM 10",
+      "title": "Introductory General Chemistry",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1996",
+        "formatted": "Fall 1996",
+        "raw": "F1996"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [
+        "Formerly: CHEM 3 prior to F1996"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "CHEM 11",
+      "title": "General Chemistry I",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1996",
+        "formatted": "Fall 1996",
+        "raw": "F1996"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [
+        "Formerly: CHEM 1 prior to F1996"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "CHEM 12",
+      "title": "General Chemistry II",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1996",
+        "formatted": "Fall 1996",
+        "raw": "F1996"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [
+        "Formerly: CHEM 2 prior to F1996"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "CHEM 14",
+      "title": "Organic Chemistry",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "Fall",
+        "year": "1999",
+        "formatted": "Fall 1999",
+        "raw": "F1999"
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": false
+    },
+    {
+      "course_code": "CHEM 15",
+      "title": "Introductory Bio-Organic Chemistry",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "Winter",
+        "year": "1999",
+        "formatted": "Winter 1999",
+        "raw": "W1999"
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": false
+    },
+    {
+      "course_code": "CHEM 16",
+      "title": "Organic Chemistry II",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "Fall",
+        "year": "2000",
+        "formatted": "Fall 2000",
+        "raw": "F2000"
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": false
+    },
+    {
+      "course_code": "CHEM 19",
+      "title": "Fundamentals of General, Organic, and Biological Chemistry",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Spring",
+        "year": "2016",
+        "formatted": "Spring 2016",
+        "raw": "S2016"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "CHEM 21",
+      "title": "Organic Chemistry I",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1999",
+        "formatted": "Fall 1999",
+        "raw": "F1999"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [
+        "Formerly: CHEM 14 prior to F1999"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "CHEM 22",
+      "title": "Organic Chemistry II",
+      "units": 4.0,
+      "units_raw": "4.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1998",
+        "formatted": "Fall 1998",
+        "raw": "F1998"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "CHEM 24",
+      "title": "Organic Chemistry II Laboratory",
+      "units": 2.0,
+      "units_raw": "2.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1998",
+        "formatted": "Fall 1998",
+        "raw": "F1998"
+      },
+      "date_removed": {
+        "semester": "Fall",
+        "year": "2012",
+        "formatted": "Fall 2012",
+        "raw": "F2012"
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": false
+    },
+    {
+      "course_code": "CHEM 31",
+      "title": "Biochemistry I",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1999",
+        "formatted": "Fall 1999",
+        "raw": "F1999"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOG 1",
+      "title": "Physical Geography",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOG 3",
+      "title": "Weather and Climate",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOG 5",
+      "title": "Physical Geography with Lab",
+      "units": 4.0,
+      "units_raw": "4.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOG 12",
+      "title": "Earth Science with lab",
+      "units": 4.0,
+      "units_raw": "4.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2023",
+        "formatted": "Fall 2023",
+        "raw": "F2023"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [
+        "Same as: GEOL 12"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOL 1",
+      "title": "Physical Geology without Laboratory",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOL 3",
+      "title": "Introduction to Environmental Geology",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Spring",
+        "year": "2015",
+        "formatted": "Spring 2015",
+        "raw": "S2015"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOL 4",
+      "title": "Physical Geology with Laboratory",
+      "units": 4.0,
+      "units_raw": "4.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOL 5",
+      "title": "Earth History",
+      "units": 4.0,
+      "units_raw": "4.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2001",
+        "formatted": "Fall 2001",
+        "raw": "F2001"
+      },
+      "date_removed": {
+        "semester": "Fall",
+        "year": "1993",
+        "formatted": "Fall 1993",
+        "raw": "F1993"
+      },
+      "other_igetc_areas": [
+        "5C",
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": false
+    },
+    {
+      "course_code": "GEOL 6",
+      "title": "Environmental Geology with Lab",
+      "units": 4.0,
+      "units_raw": "4.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2024",
+        "formatted": "Fall 2024",
+        "raw": "F2024"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOL 9",
+      "title": "Climate Change",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2024",
+        "formatted": "Fall 2024",
+        "raw": "F2024"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOL 10",
+      "title": "Exploration of the Solar System",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2016",
+        "formatted": "Fall 2016",
+        "raw": "F2016"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [
+        "Same as: ASTRON 10"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOL 12",
+      "title": "Earth Science with Lab",
+      "units": 4.0,
+      "units_raw": "4.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2023",
+        "formatted": "Fall 2023",
+        "raw": "F2023"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [
+        "Same as: GEOG 12"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOL 31",
+      "title": "Introduction to Physical Oceanography",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GEOL 32",
+      "title": "Introduction to Physical Oceanography with Lab",
+      "units": 4.0,
+      "units_raw": "4.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2021",
+        "formatted": "Fall 2021",
+        "raw": "F2021"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "PHYSCS 1",
+      "title": "Mechanics",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "Fall",
+        "year": "2003",
+        "formatted": "Fall 2003",
+        "raw": "F2003"
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": false
+    },
+    {
+      "course_code": "PHYSCS 2",
+      "title": "Heat, Light, Modern Physics",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "Fall",
+        "year": "2003",
+        "formatted": "Fall 2003",
+        "raw": "F2003"
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": false
+    },
+    {
+      "course_code": "PHYSCS 3",
+      "title": "Electricity and Magnetism",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "Fall",
+        "year": "2003",
+        "formatted": "Fall 2003",
+        "raw": "F2003"
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": false
+    },
+    {
+      "course_code": "PHYSCS 6",
+      "title": "General Physics 1 with Lab",
+      "units": 4.0,
+      "units_raw": "4.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "PHYSCS 7",
+      "title": "General Physics 2 with Lab",
+      "units": 4.0,
+      "units_raw": "4.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "PHYSCS 8",
+      "title": "Calculus-Based Physics 1 with Lab",
+      "units": 4.0,
+      "units_raw": "4.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "PHYSCS 9",
+      "title": "Calculus-Based Physics 2 with Lab",
+      "units": 4.0,
+      "units_raw": "4.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "PHYSCS 12",
+      "title": "Introductory Physics - Non-Laboratory",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "PHYSCS 14",
+      "title": "Introductory Physics with Laboratory",
+      "units": 4.0,
+      "units_raw": "4.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2000",
+        "formatted": "Fall 2000",
+        "raw": "F2000"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "PHYSCS 21",
+      "title": "Mechanics with Lab",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2003",
+        "formatted": "Fall 2003",
+        "raw": "F2003"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [
+        "Formerly: PHYSCS 1 prior to F2003"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "PHYSCS 22",
+      "title": "Electricity and Magnetism with Lab",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2003",
+        "formatted": "Fall 2003",
+        "raw": "F2003"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [
+        "Formerly: PHYSCS 3 prior to F2003"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "PHYSCS 23",
+      "title": "Fluids, Waves, Thermodynamics, Optics with Lab",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2003",
+        "formatted": "Fall 2003",
+        "raw": "F2003"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "5C"
+      ],
+      "notes": [
+        "Formerly: PHYSCS 2 prior to F2003"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    }
+  ],
+  "summary": {
+    "departments_represented": {
+      "department_counts": {
+        "ASTRON": 11,
+        "CHEM": 15,
+        "GEOG": 4,
+        "GEOL": 10,
+        "PHYSCS": 12
+      },
+      "total_departments": 5,
+      "departments": [
+        "ASTRON",
+        "CHEM",
+        "GEOG",
+        "GEOL",
+        "PHYSCS"
+      ]
+    },
+    "unit_range": {
+      "min": 2.0,
+      "max": 5.0,
+      "average": 4.0
+    },
+    "most_recent_additions": [
+      {
+        "course_code": "GEOL 6",
+        "title": "Environmental Geology with Lab",
+        "year_approved": 2024
+      },
+      {
+        "course_code": "GEOL 9",
+        "title": "Climate Change",
+        "year_approved": 2024
+      },
+      {
+        "course_code": "GEOG 12",
+        "title": "Earth Science with lab",
+        "year_approved": 2023
+      },
+      {
+        "course_code": "GEOL 12",
+        "title": "Earth Science with Lab",
+        "year_approved": 2023
+      },
+      {
+        "course_code": "ASTRON 10",
+        "title": "Exploration of the Solar System",
+        "year_approved": 2022
+      }
+    ],
+    "removal_status": {
+      "active_courses": 39,
+      "removed_courses": 13,
+      "courses_with_future_removal": 0
+    }
+  }
+}

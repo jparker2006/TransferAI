@@ -1,0 +1,42 @@
+{
+  "program_name": "Religious Studies",
+  "program_description": "",
+  "courses": [
+    {
+      "course_code": "REL ST 51",
+      "course_title": "LITERATURE OF THE BIBLE: OLD TESTAMENT",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
+      "special_notes": [],
+      "prerequisites": "ENGL C1000 (formerly ENGL 1).",
+      "advisory": null,
+      "formerly": null,
+      "description": "This course provides an analytical and critical study of the Old Testament of the Bible, focusing on its component genres and literary qualities. Attention is given to how Biblical literature has been and can be interpreted, studied, and used. Representative types of Biblical literature are examined.",
+      "same_as": "ENGL 51",
+      "sections": [
+        {
+          "section_number": "3067",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Meyer E E"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

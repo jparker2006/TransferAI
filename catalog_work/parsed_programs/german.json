@@ -1,0 +1,44 @@
+{
+  "program_name": "German",
+  "program_description": "Most sections require the use of a computer with Internet access for class resources and/or to complete assignments.",
+  "courses": [
+    {
+      "course_code": "GERMAN 1",
+      "course_title": "ELEMENTARY GERMAN I",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "The course is designed to give students the ability to understand, speak, read and write simple German. Primary goals are to introduce beginning students to basic structures of the German language by developing vocabulary and a command of idiomatic expressions; to familiarize students with sentence structure through written exercises and short compositions; to give students a basic foundation in German history and culture; and to interest students in traveling to German-speaking countries.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4110",
+          "schedule": [
+            {
+              "time": "5:10p.m.-7:35p.m.",
+              "days": "TTh",
+              "location": "ONLINE",
+              "instructor": "Lashgari Rensel M"
+            }
+          ],
+          "notes": [
+            "Above section 4110 requires students to use a camera and microphone for video proctoring during quizzes and exams. Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "program_name": "Engineering",
+  "program_description": "Engineers apply the theories and principles of science and mathematics to research and develop economical solutions to practical technical problems. Their work is the link between scientific discoveries and commercial applications. Engineers design products, the machinery to build those products, the factories in which those products are made, and the systems that ensure the quality of the product and efficiency of the workforce and manufacturing process. There are a variety of engineering fields: electrical, mechanical, civil, industrial, aeronautical, chemical, materials, nuclear, petroleum and mining engineering.",
+  "courses": [
+    {
+      "course_code": "ENGR 1",
+      "course_title": "INTRODUCTION TO ENGINEERING",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course is an introduction to the methods and tools of engineering problem solving and design, including the interface of the engineer with society and engineering ethics. While addressing the branches of engineering, the functions of an engineer, and the industries in which engineers work, this course examines the engineering education pathways and explores effective academic strategies. Communication skills pertinent to the engineering profession are also addressed.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2183",
+          "schedule": [
+            {
+              "time": "9:00a.m.-10:30a.m.",
+              "days": "MW",
+              "location": "DRSCHR 111",
+              "instructor": "Kim L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2184",
+          "schedule": [
+            {
+              "time": "12:00p.m.-1:30p.m.",
+              "days": "MW",
+              "location": "DRSCHR 111",
+              "instructor": "Dang T T"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2185",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Directo N J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4092",
+          "schedule": [
+            {
+              "time": "5:30p.m.-7:05p.m.",
+              "days": "Th",
+              "location": "DRSCHR 111",
+              "instructor": "Cervantes J A"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Cervantes J A"
+            }
+          ],
+          "notes": [
+            "Above section 4092 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ENGR 11",
+      "course_title": "ENGINEERING GRAPHICS AND DESIGN",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "MATH 2 or (MATH 3 and MATH 4).",
+      "advisory": null,
+      "formerly": null,
+      "description": "This course covers the principles of engineering drawings to visually communicate engineering designs. The course also serves as an introduction to computer-aided design (CAD). Topics include the development of visualization skills, orthographic projections, dimensioning and tolerancing practices, and an introduction to the engineering design process. Sketching, engineering drawings, and 3D CAD solid modeling skills are developed. The use of CAD software is an integral part of the course.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2187",
+          "schedule": [
+            {
+              "time": "2:30p.m.-4:55p.m.",
+              "days": "MW",
+              "location": "DRSCHR 111",
+              "instructor": "Dang T T"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ENGR 12",
+      "course_title": "STATICS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "PHYSCS 21 and MATH 7.",
+      "advisory": null,
+      "formerly": null,
+      "description": "This course covers basic principles of static equilibrium in two and three dimensions utilizing vector analysis and Newton’s laws. Various structures are considered which include trusses, frames, machines, and beams.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2188",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "MSB 311",
+              "instructor": "Kim L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ENGR 21",
+      "course_title": "CIRCUIT ANALYSIS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Prerequisite/Corequisite: MATH 15 (MATH 15 can be taken concurrently with ENGR 21)."
+      ],
+      "prerequisites": "PHYSCS 22.",
+      "advisory": null,
+      "formerly": null,
+      "description": "This course serves as an introduction to the analysis of electrical circuits through the use of analytical techniques based on the application of circuit laws and network theorems. The course covers DC and AC circuits containing resistors, capacitors, inductors, dependent sources, operational amplifiers, and/or switches. The analysis of these circuits include natural and forced responses of first and second order RLC circuits, the use of phasors, AC power calculations, power transfer, and energy concepts.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2189",
+          "schedule": [
+            {
+              "time": "8:00a.m.-9:45a.m.",
+              "days": "F",
+              "location": "DRSCHR 111",
+              "instructor": "Santos J"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Santos J"
+            }
+          ],
+          "notes": [
+            "Above section 2189 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ENGR 22",
+      "course_title": "CIRCUIT ANALYSIS LAB",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Prerequisite/Corequisite: ENGR 21."
+      ],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course serves as an introduction to the construction, measurement, and design of elementary electrical circuits and basic operational amplifier circuits. Students gain familiarity with the basic use of electrical test and measurement instruments, including multimeters, oscilloscopes, power supplies, and function generators. Using principles of circuit analysis for DC, transient, and sinusoidal steady-state (AC) conditions, students develop data interpretation skills by using circuit simulation software and by direct measurements of circuits. Practical considerations such as component value tolerance and non-ideal aspects of laboratory instruments are also introduced.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2190",
+          "schedule": [
+            {
+              "time": "10:15a.m.-1:20p.m.",
+              "days": "F",
+              "location": "DRSCHR 111",
+              "instructor": "Santos J"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ENGR 88B",
+      "course_title": "INDEPENDENT STUDIES IN ENGINEERING",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "ENGINEERING 2 UNITS",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2191",
+          "schedule": [
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Hsieh J M"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

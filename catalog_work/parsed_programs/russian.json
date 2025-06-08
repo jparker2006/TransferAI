@@ -1,0 +1,50 @@
+{
+  "program_name": "Russian",
+  "program_description": "Most sections require the use of a computer with Internet access for class resources and/or to complete assignments.",
+  "courses": [
+    {
+      "course_code": "RUSS 1",
+      "course_title": "ELEMENTARY RUSSIAN I",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course provides students with basic vocabulary and fundamental sentence structures in the present and past tenses, using the nominative, locative and accusative and genitive case of nouns and pronouns. Basic listening and reading comprehension is developed, and students engage in conversation, make oral presentations, and write brief compositions. Significant geographic, historical, literary and contemporary political, social and cultural issues are also introduced.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4183",
+          "schedule": [
+            {
+              "time": "5:10p.m.-6:35p.m.",
+              "days": "MW",
+              "location": "DRSCHR 208",
+              "instructor": "Makarova E"
+            },
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Makarova E"
+            }
+          ],
+          "notes": [
+            "Above section 4183 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

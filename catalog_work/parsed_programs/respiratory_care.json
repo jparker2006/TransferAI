@@ -1,0 +1,948 @@
+{
+  "program_name": "Respiratory Care",
+  "program_description": "",
+  "courses": [
+    {
+      "course_code": "RC 1",
+      "course_title": "FUNDAMENTALS OF RESPIRATORY CARE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Formal Admission to the Respiratory Care Program,",
+      "advisory": null,
+      "formerly": null,
+      "description": "ANATMY 1 and HEALTH 61 and MCRBIO 1 and PHYS 3 and CHEM 10 or CHEM 19. This course introduces students to the fundamentals of respiratory care practice, including credential mechanisms, organization of respiratory care services, theory of modalities performed by respiratory care practitioners (RCPs) in various settings, and the various patient populations RCPs work with. Basics of patient assessment and evidence-based practice protocols are introduced.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3042",
+          "schedule": [
+            {
+              "time": "7:45a.m.-10:05a.m.",
+              "days": "MTh",
+              "location": "BUNDY 121",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 3042 meets for 4 weeks, Sep 04 to Sep 25, at the",
+            "Above section modality is On Ground."
+          ],
+          "duration": "4 weeks, Sep 04 to Sep 25",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "RC 2",
+      "course_title": "INTEGRATED RESPIRATORY PHYSIOLOGY AND PATHOPHYSIOLOGY I",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: RC 2L."
+      ],
+      "prerequisites": "Formal Admission to the Respiratory Care Program and RC 1.",
+      "advisory": null,
+      "formerly": null,
+      "description": "PATHOPHYSIOLOGY I 2 UNITS This course focuses on the physiology of the cardiopulmonary system from a clinical perspective, including basic anatomy, pulmonary ventilation, diffusion of gases, blood gas transport and acid-base status.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3043",
+          "schedule": [
+            {
+              "time": "7:45a.m.-9:55a.m.",
+              "days": "MTW",
+              "location": "BUNDY 121",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 3043 meets for 6 weeks, Sep 29 to Nov 05, at the",
+            "Above section modality is On Ground."
+          ],
+          "duration": "6 weeks, Sep 29 to Nov 05",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "RC 3",
+      "course_title": "RESPIRATORY CARE THERAPEUTICS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisites: RC 3L and RC 4."
+      ],
+      "prerequisites": "Formal Admission to the Respiratory Care Program and RC 2.",
+      "advisory": null,
+      "formerly": null,
+      "description": "This course presents the basic concepts and principles in oxygen supply systems and administration, humidity and aerosol therapy, lung expansion therapy and airway clearance techniques.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3044",
+          "schedule": [
+            {
+              "time": "7:00a.m.-11:15a.m.",
+              "days": "MW",
+              "location": "BUNDY 121",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 3044 meets for 6 weeks, Nov 10 to Dec 17, at the",
+            "Above section modality is On Ground."
+          ],
+          "duration": "6 weeks, Nov 10 to Dec 17",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "RC 4",
+      "course_title": "PHYSICIAN INTERACTION I",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: RC 3."
+      ],
+      "prerequisites": "Formal admission to the Respiratory Care Program and RC 2.",
+      "advisory": null,
+      "formerly": null,
+      "description": "This course provides direct physician interaction and student involvement in the clinical and nonclinical settings. The course will focus on the ability to present patient respiratory assessments, SBAR and assessment of need, assessment of outcome, recognize adverse effects and make recommendations of respiratory care therapeutics to a physician.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3045",
+          "schedule": [
+            {
+              "time": "1:00p.m.-3:00p.m.",
+              "days": "M",
+              "location": "BUNDY 416",
+              "instructor": "Staff"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 3045 meets for 11 weeks, Oct 06 to Dec 15, and is a hybrid class taught online via the Internet and at the Bundy"
+          ],
+          "duration": "11 weeks, Oct 06 to Dec 15",
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "RC 10",
+      "course_title": "ADVANCED LIFE SUPPORT AND ICU MONITORING",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisites: RC 10L and RC 11 and RC 12."
+      ],
+      "prerequisites": "Formal admission to the Respiratory Care Program and RC 9.",
+      "advisory": null,
+      "formerly": null,
+      "description": "This course covers the essentials of invasive and noninvasive monitoring devices. Pulse oximetry, capnography, volumetric capnography and transcutaneous monitoring are covered as well as cardiovascular monitoring using invasive and indwelling catheters. The course also covers drugs used in the application of critical care and advanced life support.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3046",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:00a.m.",
+              "days": "MTh",
+              "location": "BUNDY 416",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 3046 meets for 6 weeks, Sep 04 to Oct 09, at the",
+            "Above section modality is On Ground."
+          ],
+          "duration": "6 weeks, Sep 04 to Oct 09",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "RC 11",
+      "course_title": "ADVANCED MECHANICAL VENTILATION",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisites: RC 10 and RC 11L and RC 12."
+      ],
+      "prerequisites": "Formal Admission to the Respiratory Care Program and RC 9.",
+      "advisory": null,
+      "formerly": null,
+      "description": "This course presents conventional and unconventional strategies of mechanical ventilation to minimize lung injury. Emphasis is placed on the ARDSnet protocol and airway pressure release ventilation. The concepts of the “baby lung” and assessment of esophageal pressure, stress index, driving pressure and P-SILI are highlighted. Salvage therapies for ARDS are also discussed. In addition, conventional and unconventional strategies of the gradual or abrupt discontinuation of mechanical ventilation are covered.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3047",
+          "schedule": [
+            {
+              "time": "10:00a.m.-12:10p.m.",
+              "days": "MTh",
+              "location": "BUNDY 121",
+              "instructor": "Santana S A"
+            },
+            {
+              "time": "Arrange-2.5 Hours",
+              "days": "N",
+              "location": "BUNDY 121",
+              "instructor": "Santana S A"
+            }
+          ],
+          "notes": [
+            "Above section 3047 meets for 5 weeks, Oct 13 to Nov 13, at the",
+            "Above section modality is On Ground."
+          ],
+          "duration": "5 weeks, Oct 13 to Nov 13",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "RC 12",
+      "course_title": "PHYSICIAN INTERACTION III",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisites: RC 10 and RC 11."
+      ],
+      "prerequisites": "Formal Admission to the Respiratory Care Program and RC 9.",
+      "advisory": null,
+      "formerly": null,
+      "description": "This course provides direct physician interaction and student involvement in the clinical and nonclinical settings. The course will prepare students to present case studies coherently and efficiently to a physician. The topics covered include lung protective strategies, weaning and liberation from mechanical ventilation. In addition, noninvasive and invasive monitoring, capnography, pulse oximetry, transcutaneous and hemodynamic monitoring are also covered.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3048",
+          "schedule": [
+            {
+              "time": "12:30p.m.-2:10p.m.",
+              "days": "M",
+              "location": "BUNDY 416",
+              "instructor": "Staff"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "BUNDY 121",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 3048 meets for 16 weeks, Sep 08 to Dec 15, at the",
+            "Above section modality is On Ground."
+          ],
+          "duration": "16 weeks, Sep 08 to Dec 15",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "RC 13",
+      "course_title": "NEONATAL AND PEDIATRIC RESPIRATORY CARE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: RC 13L."
+      ],
+      "prerequisites": "Formal Admission to the SMC RC program and RC 10 and RC 11.",
+      "advisory": null,
+      "formerly": null,
+      "description": "This course presents prenatal development, high risk pregnancy and normal labor and delivery. Assessment of the newborn and pediatric patient, neonatal and pediatric diseases and disorders are described with an emphasis on the respiratory care interventions, techniques, and equipment used in neonatal and pediatric patient care. The use of noninvasive and invasive mechanical ventilation and strategies to reduce the likelihood of ventilator induced lung injury are also discussed.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3049",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:00a.m.",
+              "days": "MTh",
+              "location": "BUNDY",
+              "instructor": "416Menchaca-Perez V"
+            }
+          ],
+          "notes": [
+            "Above section 3049 meets for 5 weeks, Nov 17 to Dec 18, at the",
+            "Above section modality is On Ground."
+          ],
+          "duration": "5 weeks, Nov 17 to Dec 18",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "RC 1L",
+      "course_title": "APPLIED FUNDAMENTALS OF RESPIRATORY CARE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: RC 1."
+      ],
+      "prerequisites": "Formal Admission to the Respiratory Care Program.",
+      "advisory": null,
+      "formerly": null,
+      "description": "This course provides hands-on practice of the fundamentals of patient assessment, medical records, and infection control. The basic application of respiratory care modalities performed by respiratory care practitioners are introduced. Patient assessment skills and monitoring are applied to the delivery of floor care modalities. Ethics, Respiratory Care tracking software, HIPAA computer modules and hospital medical requirements are completed to prepare the student for entry to clinical experience.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3050",
+          "schedule": [
+            {
+              "time": "10:30a.m.-12:35p.m.",
+              "days": "MTWTh",
+              "location": "BUNDY",
+              "instructor": "121Menchaca-Perez V"
+            },
+            {
+              "time": "1:00p.m.-3:05p.m.",
+              "days": "MTWTh",
+              "location": "BUNDY 121",
+              "instructor": "Staff"
+            },
+            {
+              "time": "Arrange-9 Hours",
+              "days": "N",
+              "location": "HOSP",
+              "instructor": "Santana S A"
+            }
+          ],
+          "notes": [
+            "Above section 3050 meets for 4 weeks, Sep 03 to Sep 25, at the",
+            "Above section modality is On Ground."
+          ],
+          "duration": "4 weeks, Sep 03 to Sep 25",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3051",
+          "schedule": [
+            {
+              "time": "10:30a.m.-12:35p.m.",
+              "days": "MTWTh",
+              "location": "BUNDY 121",
+              "instructor": "Staff"
+            },
+            {
+              "time": "1:00p.m.-3:05p.m.",
+              "days": "MTWTh",
+              "location": "BUNDY 121",
+              "instructor": "Staff"
+            },
+            {
+              "time": "Arrange-9 Hours",
+              "days": "N",
+              "location": "HOSP",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 3051 meets for 4 weeks, Sep 03 to Sep 25, at the",
+            "Above section modality is On Ground."
+          ],
+          "duration": "4 weeks, Sep 03 to Sep 25",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3052",
+          "schedule": [
+            {
+              "time": "10:30a.m.-12:35p.m.",
+              "days": "MTWTh",
+              "location": "BUNDY 121",
+              "instructor": "Staff"
+            },
+            {
+              "time": "1:00p.m.-3:05p.m.",
+              "days": "MTWTh",
+              "location": "BUNDY 121",
+              "instructor": "Staff"
+            },
+            {
+              "time": "Arrange-9 Hours",
+              "days": "N",
+              "location": "HOSP",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 3052 meets for 4 weeks, Sep 03 to Sep 25, at the",
+            "Above section modality is On Ground."
+          ],
+          "duration": "4 weeks, Sep 03 to Sep 25",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "RC 2L",
+      "course_title": "APPLIED INTEGRATED RESPIRATORY PHYSIOLOGY AND PATHOPHYSIOLOGY I",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: RC 2."
+      ],
+      "prerequisites": "Formal Admission to Respiratory Care Program.",
+      "advisory": null,
+      "formerly": null,
+      "description": "AND PATHOPHYSIOLOGY I 2 UNITS This course presents the applied physiology, etiology, pathophysiology, diagnosis and treatment of cardiopulmonary diseases such as asthma, chronic obstructive pulmonary disease, pulmonary embolism, pneumonia, atelectasis, interstitial lung disease, etc.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3053",
+          "schedule": [
+            {
+              "time": "10:30a.m.-12:30p.m.",
+              "days": "TWTh",
+              "location": "BUNDY 119",
+              "instructor": "Staff"
+            },
+            {
+              "time": "1:00p.m.-3:00p.m.",
+              "days": "TWTh",
+              "location": "BUNDY 119",
+              "instructor": "Staff"
+            },
+            {
+              "time": "Arrange-6 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Santana S A"
+            }
+          ],
+          "notes": [
+            "Above section 3053 meets for 6 weeks, Sep 30 to Nov 06, and is a hybrid class taught online via the Internet and at the Bundy"
+          ],
+          "duration": "6 weeks, Sep 30 to Nov 06",
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3054",
+          "schedule": [
+            {
+              "time": "10:30a.m.-12:30p.m.",
+              "days": "TWTh",
+              "location": "BUNDY 119",
+              "instructor": "Staff"
+            },
+            {
+              "time": "1:00p.m.-3:00p.m.",
+              "days": "TWTh",
+              "location": "BUNDY 119",
+              "instructor": "Staff"
+            },
+            {
+              "time": "Arrange-6 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Menchaca-Perez V"
+            }
+          ],
+          "notes": [
+            "Above section 3054 meets for 6 weeks, Sep 30 to Nov 06, and is a hybrid class taught online via the Internet and at the Bundy"
+          ],
+          "duration": "6 weeks, Sep 30 to Nov 06",
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3055",
+          "schedule": [
+            {
+              "time": "10:30a.m.-12:30p.m.",
+              "days": "TWTh",
+              "location": "BUNDY 119",
+              "instructor": "Staff"
+            },
+            {
+              "time": "1:00p.m.-3:00p.m.",
+              "days": "TWTh",
+              "location": "BUNDY 119",
+              "instructor": "Staff"
+            },
+            {
+              "time": "Arrange-6 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Menchaca-Perez V"
+            }
+          ],
+          "notes": [
+            "Above section 3055 meets for 6 weeks, Sep 30 to Nov 06, and is a hybrid class taught online via the Internet and at the Bundy"
+          ],
+          "duration": "6 weeks, Sep 30 to Nov 06",
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3056",
+          "schedule": [
+            {
+              "time": "10:30a.m.-12:30p.m.",
+              "days": "TWTh",
+              "location": "BUNDY 119",
+              "instructor": "Staff"
+            },
+            {
+              "time": "1:00p.m.-3:00p.m.",
+              "days": "TWTh",
+              "location": "BUNDY 119",
+              "instructor": "Staff"
+            },
+            {
+              "time": "Arrange-6 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 3056 meets for 6 weeks, Sep 30 to Nov 06, and is a hybrid class taught online via the Internet and at the Bundy"
+          ],
+          "duration": "6 weeks, Sep 30 to Nov 06",
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "RC 3L",
+      "course_title": "APPLIED RESPIRATORY CARE THERAPEUTICS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: RC 3."
+      ],
+      "prerequisites": "Formal admission to the Respiratory Care Program.",
+      "advisory": null,
+      "formerly": null,
+      "description": "This course provides hands-on practice and supervised clinical experience at local area hospitals with the purpose of practicing the assessment of need, administration, monitoring and reevaluation of respiratory care therapeutics (oxygen therapy, lung expansion therapy, aerosol therapy, lung expansion therapy, airway clearance modalities, and humidity therapy). Technical skills, knowledge and attitude are practiced. The student is assessed in competency of therapeutic delivery, assessment of need, assessment outcome, monitoring and evaluation of therapy.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3057",
+          "schedule": [
+            {
+              "time": "6:00a.m.-12:30p.m.",
+              "days": "Th",
+              "location": "HOSP",
+              "instructor": "Menchaca-Perez V"
+            },
+            {
+              "time": "6:00a.m.-12:30p.m.",
+              "days": "Th",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "1:00p.m.-7:30p.m.",
+              "days": "Th",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "1:00p.m.-7:30p.m.",
+              "days": "Th",
+              "location": "HOSP",
+              "instructor": "Menchaca-Perez V"
+            }
+          ],
+          "notes": [
+            "Above section 3057 meets for 6 weeks, Nov 13 to Dec 18. Above section modality is On Ground."
+          ],
+          "duration": "6 weeks, Nov 13 to Dec 18",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3058",
+          "schedule": [
+            {
+              "time": "6:00a.m.-12:30p.m.",
+              "days": "Th",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "6:00a.m.-12:30p.m.",
+              "days": "F",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "1:00p.m.-7:30p.m.",
+              "days": "F",
+              "location": "HOSP",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 3058 meets for 6 weeks, Nov 13 to Dec 19. Above section modality is On Ground."
+          ],
+          "duration": "6 weeks, Nov 13 to Dec 19",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3059",
+          "schedule": [
+            {
+              "time": "6:00a.m.-12:30p.m.",
+              "days": "F",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "6:00a.m.-12:30p.m.",
+              "days": "S",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "1:00p.m.-7:30p.m.",
+              "days": "F",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "1:00p.m.-7:30p.m.",
+              "days": "S",
+              "location": "HOSP",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 3059 meets for 6 weeks, Nov 14 to Dec 20. Above section modality is On Ground."
+          ],
+          "duration": "6 weeks, Nov 14 to Dec 20",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "RC 10L",
+      "course_title": "APPLIED ADVANCED LIFE SUPPORT AND ICU MONITORING",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: RC 10."
+      ],
+      "prerequisites": "Formal Admission to Respiratory Care Program.",
+      "advisory": null,
+      "formerly": null,
+      "description": "This course provides hands-on skills and supervised clinical experience at local area hospitals with the purpose of gaining experience in the initiation, monitoring and troubleshooting of noninvasive monitoring devices, hemodynamic monitoring and arterial sampling measurement and interpretation in the acute care setting. This course also provides examples of application of medications frequently used in advanced life support and in the intensive care unit (ICU).",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3060",
+          "schedule": [
+            {
+              "time": "7:00a.m.-1:30p.m.",
+              "days": "T",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "7:00a.m.-1:30p.m.",
+              "days": "W",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "2:00p.m.-8:30p.m.",
+              "days": "T",
+              "location": "HOSP",
+              "instructor": "Menchaca-Perez V"
+            }
+          ],
+          "notes": [
+            "Above section 3060 meets for 6 weeks, Sep 03 to Oct 08. Above section modality is On Ground."
+          ],
+          "duration": "6 weeks, Sep 03 to Oct 08",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3061",
+          "schedule": [
+            {
+              "time": "7:00a.m.-1:30p.m.",
+              "days": "W",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "2:00p.m.-8:30p.m.",
+              "days": "F",
+              "location": "HOSP",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 3061 meets for 6 weeks, Sep 03 to Oct 10. Above section modality is On Ground."
+          ],
+          "duration": "6 weeks, Sep 03 to Oct 10",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "RC 11L",
+      "course_title": "APPLIED ADVANCED MECHANICAL VENTILATION 2.",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: RC 11."
+      ],
+      "prerequisites": "Formal Admission to Respiratory Care Program.",
+      "advisory": null,
+      "formerly": null,
+      "description": "VENTILATION 2.5 UNITS This course provides hands-on skills in lab setting and supervised clinical experience at local area hospitals with the purpose of gaining experience in applying evidence-based medicine to advanced concepts in mechanical ventilation. Emphasis is placed on recognizing acute lung injury, acute respiratory distress, and minimizing iatrogenic ventilator induced lung injury. In addition, practice in weaning and discontinuation of mechanical ventilation is covered.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3062",
+          "schedule": [
+            {
+              "time": "7:00a.m.-1:30p.m.",
+              "days": "W",
+              "location": "HOSP",
+              "instructor": "Menchaca-Perez V"
+            },
+            {
+              "time": "7:00a.m.-1:30p.m.",
+              "days": "F",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "2:00p.m.-8:30p.m.",
+              "days": "W",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "2:00p.m.-8:30p.m.",
+              "days": "F",
+              "location": "HOSP",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 3062 meets for 5 weeks, Oct 15 to Nov 14. Above section modality is On Ground."
+          ],
+          "duration": "5 weeks, Oct 15 to Nov 14",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3063",
+          "schedule": [
+            {
+              "time": "7:00a.m.-1:30p.m.",
+              "days": "W",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "7:00a.m.-1:30p.m.",
+              "days": "F",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "2:00p.m.-8:30p.m.",
+              "days": "W",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "2:00p.m.-8:30p.m.",
+              "days": "F",
+              "location": "HOSP",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 3063 meets for 5 weeks, Oct 15 to Nov 14. Above section modality is On Ground."
+          ],
+          "duration": "5 weeks, Oct 15 to Nov 14",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "RC 13L",
+      "course_title": "APPLIED NEONATAL AND PEDIATRIC RESPIRATORY CARE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: RC 13."
+      ],
+      "prerequisites": "Formal Admission to the Respiratory Care Program.",
+      "advisory": null,
+      "formerly": null,
+      "description": "RESPIRATORY CARE 2 UNITS This course presents hands-on application of neonatal-pedi- atric respiratory care, physical assessment, neutral thermal environment and management of common respiratory diseases/conditions. Application of technical skills used to assess need, initial setup, and monitoring of neonatal and pediatric patient requiring noninvasive and invasive mechanical ventilation are also covered.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3064",
+          "schedule": [
+            {
+              "time": "7:00a.m.-10:20a.m.",
+              "days": "T",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "10:20a.m.-1:40p.m.",
+              "days": "T",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "2:00p.m.-5:20p.m.",
+              "days": "T",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "7:00a.m.-10:20a.m.",
+              "days": "W",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "10:20a.m.-1:40p.m.",
+              "days": "W",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "2:00p.m.-5:20p.m.",
+              "days": "W",
+              "location": "HOSP",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 3064 meets for 5 weeks, Nov 18 to Dec 17. Above section modality is On Ground."
+          ],
+          "duration": "5 weeks, Nov 18 to Dec 17",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3065",
+          "schedule": [
+            {
+              "time": "7:30a.m.-12:40p.m.",
+              "days": "F",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "1:00p.m.-6:10p.m.",
+              "days": "F",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "1:00p.m.-6:10p.m.",
+              "days": "S",
+              "location": "HOSP",
+              "instructor": "Menchaca-Perez V"
+            }
+          ],
+          "notes": [
+            "Above section 3065 meets for 5 weeks, Nov 21 to Dec 20. Above section modality is On Ground."
+          ],
+          "duration": "5 weeks, Nov 21 to Dec 20",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

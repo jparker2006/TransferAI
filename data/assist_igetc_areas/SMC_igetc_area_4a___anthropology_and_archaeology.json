@@ -1,0 +1,294 @@
+{
+  "metadata": {
+    "source": "Santa Monica College IGETC Course List by Area",
+    "academic_year": "2024-2025",
+    "area_name": "4A - Anthropology and Archaeology",
+    "area_code": "4A",
+    "scraped_at": "2025-06-04T12:19:44.144472",
+    "total_courses": 10,
+    "active_courses": 10,
+    "removed_courses": 0,
+    "courses_with_removal_dates": 0,
+    "data_type": "IGETC_transfer_courses_by_area"
+  },
+  "area": {
+    "name": "4A - Anthropology and Archaeology",
+    "code": "4A",
+    "description": "4A - Anthropology and Archaeology courses for IGETC transfer",
+    "course_count": 10,
+    "active_course_count": 10,
+    "removed_course_count": 0
+  },
+  "courses": [
+    {
+      "course_code": "ANTHRO 2",
+      "title": "Cultural Anthropology",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ANTHRO 3",
+      "title": "World Archaeology",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ANTHRO 4",
+      "title": "Methods of Archaeology",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2014",
+        "formatted": "Fall 2014",
+        "raw": "F2014"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ANTHRO 7",
+      "title": "Introduction to Linguistic Anthropology",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Summer",
+        "year": "2007",
+        "formatted": "Summer 2007",
+        "raw": "Su2007"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ANTHRO 14",
+      "title": "Sex, Gender, and Culture",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1995",
+        "formatted": "Fall 1995",
+        "raw": "F1995"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ANTHRO 19",
+      "title": "The Culture of Food",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2012",
+        "formatted": "Fall 2012",
+        "raw": "F2012"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ANTHRO 20",
+      "title": "Traditional Peoples and Cultures of Africa",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1992",
+        "formatted": "Fall 1992",
+        "raw": "F1992"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ANTHRO 21",
+      "title": "Peoples and Power in Latin America",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Summer",
+        "year": "2009",
+        "formatted": "Summer 2009",
+        "raw": "Su2009"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ANTHRO 22",
+      "title": "Magic, Religion, and Witchcraft",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2007",
+        "formatted": "Fall 2007",
+        "raw": "F2007"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ASTRON 6",
+      "title": "Archaeoastronomy",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Spring",
+        "year": "2013",
+        "formatted": "Spring 2013",
+        "raw": "S2013"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    }
+  ],
+  "summary": {
+    "departments_represented": {
+      "department_counts": {
+        "ANTHRO": 9,
+        "ASTRON": 1
+      },
+      "total_departments": 2,
+      "departments": [
+        "ANTHRO",
+        "ASTRON"
+      ]
+    },
+    "unit_range": {
+      "min": 3.0,
+      "max": 3.0,
+      "average": 3.0
+    },
+    "most_recent_additions": [
+      {
+        "course_code": "ANTHRO 4",
+        "title": "Methods of Archaeology",
+        "year_approved": 2014
+      },
+      {
+        "course_code": "ASTRON 6",
+        "title": "Archaeoastronomy",
+        "year_approved": 2013
+      },
+      {
+        "course_code": "ANTHRO 19",
+        "title": "The Culture of Food",
+        "year_approved": 2012
+      },
+      {
+        "course_code": "ANTHRO 21",
+        "title": "Peoples and Power in Latin America",
+        "year_approved": 2009
+      },
+      {
+        "course_code": "ANTHRO 7",
+        "title": "Introduction to Linguistic Anthropology",
+        "year_approved": 2007
+      }
+    ],
+    "removal_status": {
+      "active_courses": 10,
+      "removed_courses": 0,
+      "courses_with_future_removal": 0
+    }
+  }
+}

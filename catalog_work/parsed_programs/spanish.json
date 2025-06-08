@@ -1,0 +1,391 @@
+{
+  "program_name": "Spanish",
+  "program_description": "Most sections require the use of a computer with Internet access for class resources and/or to complete assignments.",
+  "courses": [
+    {
+      "course_code": "SPAN 1",
+      "course_title": "ELEMENTARY SPANISH I",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "SPAN 100",
+      "cal_getc_area": null,
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "The SPAN 1 and SPAN 2 sequence is equivalent to SPAN 11. Students will receive credit for the sequence or SPAN 11, but not both. This course introduces the students to basic vocabulary and fundamental sentence structure in the present and preterit tenses. Basic aural and reading comprehension is developed and students hold simple conversations and write short compositions about present and past actions. This course is taught in Spanish, except in the case of linguistic difficulty as determined by the professor.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3102",
+          "schedule": [
+            {
+              "time": "9:30a.m.-11:00a.m.",
+              "days": "MW",
+              "location": "DRSCHR 213",
+              "instructor": "Espinal J"
+            },
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Espinal J"
+            }
+          ],
+          "notes": [
+            "Above section 3102 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3103",
+          "schedule": [
+            {
+              "time": "9:30a.m.-11:00a.m.",
+              "days": "TTh",
+              "location": "DRSCHR 222",
+              "instructor": "Monroe M"
+            },
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Monroe M"
+            }
+          ],
+          "notes": [
+            "Above section 3103 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3104",
+          "schedule": [
+            {
+              "time": "11:15a.m.-1:40p.m.",
+              "days": "TTh",
+              "location": "DRSCHR 222",
+              "instructor": "Mizuki A H"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3105",
+          "schedule": [
+            {
+              "time": "2:30p.m.-4:00p.m.",
+              "days": "MW",
+              "location": "DRSCHR 213",
+              "instructor": "Espinal J"
+            },
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Espinal J"
+            }
+          ],
+          "notes": [
+            "Above section 3105 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4189",
+          "schedule": [
+            {
+              "time": "5:10p.m.-7:35p.m.",
+              "days": "MW",
+              "location": "ONLINE",
+              "instructor": "Candelaria C"
+            }
+          ],
+          "notes": [
+            "Above section 4189 requires students to use a camera and microphone for video proctoring during quizzes and exams. Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "SPAN 2",
+      "course_title": "ELEMENTARY SPANISH II",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "SPAN 110",
+      "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "advisory": "SPAN 1*.",
+      "formerly": null,
+      "description": "The SPAN 1 and SPAN 2 sequence is equivalent to SPAN 11. Students will receive credit for the sequence or SPAN 11, but not both. This course is a continuation of Spanish 1. This course stresses basic vocabulary and fundamental sentence structure in the past and future indicative tenses and the subjunctive mood. The course develops basic aural and reading comprehension. Students hold simple conversations and write short compositions in the past and future. They read simple texts and further study Spanish and Latin American culture. *The advisory for this course is comparable to two years of high school Spanish.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3106",
+          "schedule": [
+            {
+              "time": "9:00a.m.-11:00a.m.",
+              "days": "MW",
+              "location": "DRSCHR 217",
+              "instructor": "Lee Chan A"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Lee Chan A"
+            }
+          ],
+          "notes": [
+            "Above section 3106 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3107",
+          "schedule": [
+            {
+              "time": "9:00a.m.-11:00a.m.",
+              "days": "TTh",
+              "location": "DRSCHR 217",
+              "instructor": "Lee Chan A"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Lee Chan A"
+            }
+          ],
+          "notes": [
+            "Above section 3107 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3108",
+          "schedule": [
+            {
+              "time": "2:30p.m.-4:00p.m.",
+              "days": "TTh",
+              "location": "ONLINE",
+              "instructor": "Espinal J"
+            },
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Espinal J"
+            }
+          ],
+          "notes": [
+            "Above section 3108 requires students to use a camera and microphone for video proctoring during quizzes and exams. Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "SPAN 3",
+      "course_title": "INTERMEDIATE SPANISH I",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "SPAN 200",
+      "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "advisory": "SPAN 2*.",
+      "formerly": null,
+      "description": "Students will receive credit for either SPAN 3 or SPAN 12, but not both. This course is taught through thematic units in Spanish on a variety of current and cultural topics. In addition, this course reviews Spanish grammar, emphasizing idiomatic constructions and expressions. Emphasis is also placed on the use of learned structures in compositions. Reading skills and basic literary analysis are developed using selected readings from Spanish and Spanish-American literature. *The advisory for this course is comparable to three years of high school Spanish.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3109",
+          "schedule": [
+            {
+              "time": "2:30p.m.-4:55p.m.",
+              "days": "TTh",
+              "location": "DRSCHR 217",
+              "instructor": "Lee Chan A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "SPAN 8",
+      "course_title": "CONVERSATIONAL SPANISH",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "SPAN 2*.",
+      "advisory": null,
+      "formerly": null,
+      "description": "*The prerequisite for this course is comparable to three years of high school Spanish. This course provides an opportunity to acquire intermediate fluency in spoken Spanish with emphasis on natural, colloquial usage. This course is taught in Spanish except in cases of linguistic difficulty as determined by the professor. Applied and service-learning field experience within a public agency, educational institution, and citizen volunteer groups is a requirement of this class.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4190",
+          "schedule": [
+            {
+              "time": "5:30p.m.-7:30p.m.",
+              "days": "T",
+              "location": "ONLINE",
+              "instructor": "Staff"
+            },
+            {
+              "time": "Arrange-.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 4190 meets for 12 weeks, Sep 23 to Dec 09. Above section 4190 requires students to use a camera and microphone for video proctoring during quizzes and exams. Above section modality is Scheduled."
+          ],
+          "duration": "12 weeks, Sep 23 to Dec 09",
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "SPAN 11",
+      "course_title": "SPANISH FOR HERITAGE SPEAKERS I",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "The SPAN 1 and SPAN 2 sequence is equivalent to SPAN 11. Students will receive credit for the sequence or SPAN 11, but not both. This course is designed for students who speak Spanish at home and who need to improve their vocabulary and knowledge of the grammar as well as their spelling, writing skills, and reading comprehension. Formal aspects of the language will be stressed including: spelling, punctuation, and accentuation. In addition, there is a focus on formal writing and the writing process. Reading, reading strategies and comprehension as well as basic literary analysis are stressed. This course is taught in Spanish except in cases of linguistic difficulty as determined by the professor.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3110",
+          "schedule": [
+            {
+              "time": "Arrange-5.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Arevalo L H"
+            }
+          ],
+          "notes": [
+            "Above section 3110 is part of the Adelante program though enrollment is open to all students. See the Special Programs section of the class schedule or smc.edu/latinocenter for more information. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3111",
+          "schedule": [
+            {
+              "time": "Arrange-7.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Arevalo L H"
+            }
+          ],
+          "notes": [
+            "Above section 3111 meets for 12 weeks, Sep 22 to Dec 12. Above section is part of the Adelante program though enrollment is",
+            "open to all students. See the Special Programs section of the class schedule or smc.edu/latinocenter for more information. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "SPAN 31A",
+      "course_title": "PRACTICAL SPANISH",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course is designed for the student with no previous knowledge of Spanish and develops basic conversation skills in the present tense. It emphasizes the use of set-up phrases, idiomatic expressions, correct pronunciation, development of useful thematic vocabulary and the ability to communicate at a practical and basic level. This course is taught in Spanish except in cases of linguistic difficulty as determined by the professor.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3112",
+          "schedule": [
+            {
+              "time": "2:00p.m.-3:20p.m.",
+              "days": "TTh",
+              "location": "DRSCHR 211",
+              "instructor": "Mizuki A H"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1096 @@
+{
+  "metadata": {
+    "source": "Santa Monica College IGETC Course List by Area",
+    "academic_year": "2024-2025",
+    "area_name": "6A - Language Other Than English",
+    "area_code": "6A",
+    "scraped_at": "2025-06-04T12:19:44.150347",
+    "total_courses": 43,
+    "active_courses": 42,
+    "removed_courses": 1,
+    "courses_with_removal_dates": 2,
+    "data_type": "IGETC_transfer_courses_by_area"
+  },
+  "area": {
+    "name": "6A - Language Other Than English",
+    "code": "6A",
+    "description": "6A - Language Other Than English courses for IGETC transfer",
+    "course_count": 43,
+    "active_course_count": 42,
+    "removed_course_count": 1
+  },
+  "courses": [
+    {
+      "course_code": "ARABIC 1",
+      "title": "Elementary Arabic 1",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2009",
+        "formatted": "Fall 2009",
+        "raw": "F2009"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ASL 1",
+      "title": "American Sign Language 1",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2006",
+        "formatted": "Fall 2006",
+        "raw": "F2006"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ASL 2",
+      "title": "American Sign Language 2",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2012",
+        "formatted": "Fall 2012",
+        "raw": "F2012"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "CHNESE 1",
+      "title": "Elementary Chinese 1",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2002",
+        "formatted": "Fall 2002",
+        "raw": "F2002"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "CHNESE 2",
+      "title": "Elementary Chinese 2",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "CHNESE 3",
+      "title": "Intermediate Chinese 1",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2005",
+        "formatted": "Fall 2005",
+        "raw": "F2005"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "CHNESE 4",
+      "title": "Intermediate Chinese 2",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Spring",
+        "year": "2009",
+        "formatted": "Spring 2009",
+        "raw": "S2009"
+      },
+      "date_removed": {
+        "semester": "Fall",
+        "year": "2018",
+        "formatted": "Fall 2018",
+        "raw": "F2018"
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": false
+    },
+    {
+      "course_code": "FRENCH 1",
+      "title": "Elementary French I",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2002",
+        "formatted": "Fall 2002",
+        "raw": "F2002"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "FRENCH 2",
+      "title": "Elementary French II",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "FRENCH 3",
+      "title": "Intermediate French I",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2005",
+        "formatted": "Fall 2005",
+        "raw": "F2005"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "FRENCH 4",
+      "title": "Intermediate French II",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2005",
+        "formatted": "Fall 2005",
+        "raw": "F2005"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GERMAN 1",
+      "title": "Elementary German I",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2002",
+        "formatted": "Fall 2002",
+        "raw": "F2002"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GERMAN 2",
+      "title": "Elementary German II",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GERMAN 3",
+      "title": "Intermediate German I",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2005",
+        "formatted": "Fall 2005",
+        "raw": "F2005"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "GERMAN 4",
+      "title": "Intermediate German II",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2005",
+        "formatted": "Fall 2005",
+        "raw": "F2005"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "HEBREW 1",
+      "title": "Elementary Hebrew I",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2002",
+        "formatted": "Fall 2002",
+        "raw": "F2002"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "HEBREW 2",
+      "title": "Elementary Hebrew II",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ITAL 1",
+      "title": "Elementary Italian I",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2002",
+        "formatted": "Fall 2002",
+        "raw": "F2002"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ITAL 2",
+      "title": "Elementary Italian II",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ITAL 3",
+      "title": "Intermediate Italian I",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2005",
+        "formatted": "Fall 2005",
+        "raw": "F2005"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ITAL 4",
+      "title": "Intermediate Italian 2",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2014",
+        "formatted": "Fall 2014",
+        "raw": "F2014"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "JAPAN 1",
+      "title": "Elementary Japanese I",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2002",
+        "formatted": "Fall 2002",
+        "raw": "F2002"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "JAPAN 2",
+      "title": "Elementary Japanese II",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "JAPAN 3",
+      "title": "Intermediate Japanese I",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2005",
+        "formatted": "Fall 2005",
+        "raw": "F2005"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "JAPAN 4",
+      "title": "Intermediate Japanese II",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2005",
+        "formatted": "Fall 2005",
+        "raw": "F2005"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "KOREAN 1",
+      "title": "Elementary Korean I",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2002",
+        "formatted": "Fall 2002",
+        "raw": "F2002"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "KOREAN 2",
+      "title": "Elementary Korean II",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1999",
+        "formatted": "Fall 1999",
+        "raw": "F1999"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "KOREAN 3",
+      "title": "Intermediate Korean 1",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2024",
+        "formatted": "Fall 2024",
+        "raw": "F2024"
+      },
+      "date_removed": {
+        "semester": "Fall",
+        "year": "2026",
+        "formatted": "Fall 2026",
+        "raw": "F2026"
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": true
+    },
+    {
+      "course_code": "KOREAN 4",
+      "title": "Intermediate Korean 2",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2009",
+        "formatted": "Fall 2009",
+        "raw": "F2009"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "PERSIN 1",
+      "title": "Elementary Persian I",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1998",
+        "formatted": "Fall 1998",
+        "raw": "F1998"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "PERSIN 2",
+      "title": "Elementary Persian II",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1999",
+        "formatted": "Fall 1999",
+        "raw": "F1999"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "PORTGS 1",
+      "title": "Elementary Portuguese 1",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Spring",
+        "year": "2016",
+        "formatted": "Spring 2016",
+        "raw": "S2016"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "PORTGS 2",
+      "title": "Elementary Portuguese 2",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2020",
+        "formatted": "Fall 2020",
+        "raw": "F2020"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "RUSS 1",
+      "title": "Elementary Russian I",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2002",
+        "formatted": "Fall 2002",
+        "raw": "F2002"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "RUSS 2",
+      "title": "Elementary Russian II",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "SPAN 1",
+      "title": "Elementary Spanish I",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2002",
+        "formatted": "Fall 2002",
+        "raw": "F2002"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "SPAN 1B",
+      "title": "Elementary Spanish 1B",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2023",
+        "formatted": "Fall 2023",
+        "raw": "F2023"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "SPAN 2",
+      "title": "Elementary Spanish II",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1991",
+        "formatted": "Fall 1991",
+        "raw": "F1991"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "SPAN 3",
+      "title": "Intermediate Spanish I",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2005",
+        "formatted": "Fall 2005",
+        "raw": "F2005"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "SPAN 4",
+      "title": "Intermediate Spanish II",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2005",
+        "formatted": "Fall 2005",
+        "raw": "F2005"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "SPAN 11",
+      "title": "Spanish for Native Speakers I",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "1998",
+        "formatted": "Fall 1998",
+        "raw": "F1998"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "SPAN 12",
+      "title": "Spanish for Native Speakers 2",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Spring",
+        "year": "2009",
+        "formatted": "Spring 2009",
+        "raw": "S2009"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "3B"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "TURKSH 1",
+      "title": "Elementary Turkish 1",
+      "units": 5.0,
+      "units_raw": "5.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2011",
+        "formatted": "Fall 2011",
+        "raw": "F2011"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    }
+  ],
+  "summary": {
+    "departments_represented": {
+      "department_counts": {
+        "ARABIC": 1,
+        "ASL": 2,
+        "CHNESE": 4,
+        "FRENCH": 4,
+        "GERMAN": 4,
+        "HEBREW": 2,
+        "ITAL": 4,
+        "JAPAN": 4,
+        "KOREAN": 4,
+        "PERSIN": 2,
+        "PORTGS": 2,
+        "RUSS": 2,
+        "SPAN": 7,
+        "TURKSH": 1
+      },
+      "total_departments": 14,
+      "departments": [
+        "ARABIC",
+        "ASL",
+        "CHNESE",
+        "FRENCH",
+        "GERMAN",
+        "HEBREW",
+        "ITAL",
+        "JAPAN",
+        "KOREAN",
+        "PERSIN",
+        "PORTGS",
+        "RUSS",
+        "SPAN",
+        "TURKSH"
+      ]
+    },
+    "unit_range": {
+      "min": 3.0,
+      "max": 5.0,
+      "average": 4.95
+    },
+    "most_recent_additions": [
+      {
+        "course_code": "KOREAN 3",
+        "title": "Intermediate Korean 1",
+        "year_approved": 2024
+      },
+      {
+        "course_code": "SPAN 1B",
+        "title": "Elementary Spanish 1B",
+        "year_approved": 2023
+      },
+      {
+        "course_code": "PORTGS 2",
+        "title": "Elementary Portuguese 2",
+        "year_approved": 2020
+      },
+      {
+        "course_code": "PORTGS 1",
+        "title": "Elementary Portuguese 1",
+        "year_approved": 2016
+      },
+      {
+        "course_code": "ITAL 4",
+        "title": "Intermediate Italian 2",
+        "year_approved": 2014
+      }
+    ],
+    "removal_status": {
+      "active_courses": 42,
+      "removed_courses": 1,
+      "courses_with_future_removal": 1
+    }
+  }
+}

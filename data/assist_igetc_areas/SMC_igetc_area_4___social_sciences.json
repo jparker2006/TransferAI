@@ -1,0 +1,503 @@
+{
+  "metadata": {
+    "source": "Santa Monica College IGETC Course List by Area",
+    "academic_year": "2024-2025",
+    "area_name": "4 - Social Sciences",
+    "area_code": "4",
+    "scraped_at": "2025-06-04T12:19:44.143951",
+    "total_courses": 18,
+    "active_courses": 16,
+    "removed_courses": 2,
+    "courses_with_removal_dates": 2,
+    "data_type": "IGETC_transfer_courses_by_area"
+  },
+  "area": {
+    "name": "4 - Social Sciences",
+    "code": "4",
+    "description": "4 - Social Sciences courses for IGETC transfer",
+    "course_count": 18,
+    "active_course_count": 16,
+    "removed_course_count": 2
+  },
+  "courses": [
+    {
+      "course_code": "AD JUS 1",
+      "title": "Introduction to Administration of Justice",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2017",
+        "formatted": "Fall 2017",
+        "raw": "F2017"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "COM ST 20",
+      "title": "Agitational and Protest Communication",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2019",
+        "formatted": "Fall 2019",
+        "raw": "F2019"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "COM ST 35",
+      "title": "Interpersonal Communication",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2019",
+        "formatted": "Fall 2019",
+        "raw": "F2019"
+      },
+      "date_removed": {
+        "semester": "Fall",
+        "year": "2019",
+        "formatted": "Fall 2019",
+        "raw": "F2019"
+      },
+      "other_igetc_areas": [
+        "4G"
+      ],
+      "notes": [
+        "Formerly: SPEECH 5 prior to F2012"
+      ],
+      "removal_date_exists": true,
+      "is_active": false
+    },
+    {
+      "course_code": "COM ST 38",
+      "title": "Introduction to Latina/o/x Communication Studies",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2022",
+        "formatted": "Fall 2022",
+        "raw": "F2022"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ECON 4",
+      "title": "Environmental Economics",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2019",
+        "formatted": "Fall 2019",
+        "raw": "F2019"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [
+        "Same as: ENVRN 4"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ECON 8",
+      "title": "Women in the Economy",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2019",
+        "formatted": "Fall 2019",
+        "raw": "F2019"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [
+        "Same as: WGS 8"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ENVRN 4",
+      "title": "Environmental Economics",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2019",
+        "formatted": "Fall 2019",
+        "raw": "F2019"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [
+        "Same as: ECON 4"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ETH ST 1",
+      "title": "Introduction to Ethnic Studies",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2023",
+        "formatted": "Fall 2023",
+        "raw": "F2023"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [
+        "7"
+      ],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ETH ST 6",
+      "title": "Introduction to Chicana/o/x and Latina/o/x Studies",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2023",
+        "formatted": "Fall 2023",
+        "raw": "F2023"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ETH ST 7",
+      "title": "Introduction to African American and Black Studies",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2023",
+        "formatted": "Fall 2023",
+        "raw": "F2023"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ETH ST 8",
+      "title": "Introduction to Asian American Studies",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2024",
+        "formatted": "Fall 2024",
+        "raw": "F2024"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "ETH ST 38",
+      "title": "Introduction to Latina/o/x Communication Studies",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2023",
+        "formatted": "Fall 2023",
+        "raw": "F2023"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "HIST 27",
+      "title": "History of Southeast Asia",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2017",
+        "formatted": "Fall 2017",
+        "raw": "F2017"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "HIST 51",
+      "title": "LGBTQ U.S. History",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2023",
+        "formatted": "Fall 2023",
+        "raw": "F2023"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "PSYCH 6",
+      "title": "Marriage, Family and Human Intimacy",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2019",
+        "formatted": "Fall 2019",
+        "raw": "F2019"
+      },
+      "date_removed": {
+        "semester": "Fall",
+        "year": "2019",
+        "formatted": "Fall 2019",
+        "raw": "F2019"
+      },
+      "other_igetc_areas": [
+        "4I",
+        "4I",
+        "4I",
+        "4I",
+        "4I",
+        "4I"
+      ],
+      "notes": [],
+      "removal_date_exists": true,
+      "is_active": false
+    },
+    {
+      "course_code": "PSYCH 8",
+      "title": "Community Psychology",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Spring",
+        "year": "2018",
+        "formatted": "Spring 2018",
+        "raw": "S2018"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "WGS 8",
+      "title": "Women in the Economy",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2019",
+        "formatted": "Fall 2019",
+        "raw": "F2019"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [
+        "Same as: ECON 8"
+      ],
+      "removal_date_exists": false,
+      "is_active": true
+    },
+    {
+      "course_code": "WGS 40",
+      "title": "Introduction to LGBTQ Studies",
+      "units": 3.0,
+      "units_raw": "3.00",
+      "date_approved": {
+        "semester": "Fall",
+        "year": "2019",
+        "formatted": "Fall 2019",
+        "raw": "F2019"
+      },
+      "date_removed": {
+        "semester": "",
+        "year": "",
+        "formatted": "",
+        "raw": ""
+      },
+      "other_igetc_areas": [],
+      "notes": [],
+      "removal_date_exists": false,
+      "is_active": true
+    }
+  ],
+  "summary": {
+    "departments_represented": {
+      "department_counts": {
+        "AD": 1,
+        "COM": 3,
+        "ECON": 2,
+        "ENVRN": 1,
+        "ETH": 5,
+        "HIST": 2,
+        "PSYCH": 2,
+        "WGS": 2
+      },
+      "total_departments": 8,
+      "departments": [
+        "AD",
+        "COM",
+        "ECON",
+        "ENVRN",
+        "ETH",
+        "HIST",
+        "PSYCH",
+        "WGS"
+      ]
+    },
+    "unit_range": {
+      "min": 3.0,
+      "max": 3.0,
+      "average": 3.0
+    },
+    "most_recent_additions": [
+      {
+        "course_code": "ETH ST 8",
+        "title": "Introduction to Asian American Studies",
+        "year_approved": 2024
+      },
+      {
+        "course_code": "ETH ST 1",
+        "title": "Introduction to Ethnic Studies",
+        "year_approved": 2023
+      },
+      {
+        "course_code": "ETH ST 6",
+        "title": "Introduction to Chicana/o/x and Latina/o/x Studies",
+        "year_approved": 2023
+      },
+      {
+        "course_code": "ETH ST 7",
+        "title": "Introduction to African American and Black Studies",
+        "year_approved": 2023
+      },
+      {
+        "course_code": "ETH ST 38",
+        "title": "Introduction to Latina/o/x Communication Studies",
+        "year_approved": 2023
+      }
+    ],
+    "removal_status": {
+      "active_courses": 16,
+      "removed_courses": 2,
+      "courses_with_future_removal": 0
+    }
+  }
+}

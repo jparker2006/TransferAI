@@ -1,0 +1,1207 @@
+{
+  "program_name": "Theatre Arts",
+  "program_description": "Pre-enrollment auditions are required for Theatre Arts production classes (Th Art 45, 50, 52, 53, 54, 55 and 56). Theatre Arts majors enroll in Theatre Arts 5. All sections require attendance of theatre productions for which students must purchase tickets.",
+  "courses": [
+    {
+      "course_code": "TH ART 2",
+      "course_title": "INTRODUCTION TO THE THEATRE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "THTR 111",
+      "cal_getc_area": "Cal-GETC Area 3A (Arts)",
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course provides the student with a general knowledge of theatre and its influence on modern society. Historical growth, basic vocabulary, skills, and crafts of theatre are emphasized. Theatre Arts majors enroll in TH ART 5.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3158",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "T",
+              "location": "TH ART STUDIO",
+              "instructor": "Anderson C B"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Anderson C B"
+            }
+          ],
+          "notes": [
+            "Above section 3158 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3159",
+          "schedule": [
+            {
+              "time": "11:15a.m.-2:20p.m.",
+              "days": "F",
+              "location": "TH ART 102",
+              "instructor": "Adair-Lynch T A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3160",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Adair-Lynch T A"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 5",
+      "course_title": "HISTORY OF WORLD THEATRE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "THTR 113",
+      "cal_getc_area": "Cal-GETC Area 3A (Arts)",
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": "Eligibility for English 1.",
+      "formerly": null,
+      "description": "This course covers the history of theatre and dramatic literature with emphasis on the relationship of the theatre to cultural development.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3161",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "TH ART 102",
+              "instructor": "Harrop A M"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3162",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Adair-Lynch T A"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 10A",
+      "course_title": "VOICE DEVELOPMENT FOR THE STAGE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "The study of speech designed to develop the skills for performing classic and modern dramatic literature is stressed in this course.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4197",
+          "schedule": [
+            {
+              "time": "7:00p.m.-10:05p.m.",
+              "days": "M",
+              "location": "TH ART 101",
+              "instructor": "Robbins C R"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 13",
+      "course_title": "STAGE DIALECTS",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": "TH ART 10A.",
+      "formerly": null,
+      "description": "Specific training is given in the performance of the regional American and foreign dialects most often used in the theatre.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3163",
+          "schedule": [
+            {
+              "time": "8:00a.m.-9:20a.m.",
+              "days": "MW",
+              "location": "TH ART 101",
+              "instructor": "Robbins C R"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground.",
+            "techniques with primary focus on actor safety and effective story telling. Disciplines explored will include Unarmed"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3164",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "TH ART 101",
+              "instructor": "Mendelson J"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 15",
+      "course_title": "STAGE MOVEMENT FOR THE ACTOR",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": "TH ART 15A",
+      "description": "This course develops the student’s awareness of the body as an instrument of communication in stage acting.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3165",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "TH ART 101",
+              "instructor": "Sawoski P"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 16",
+      "course_title": "ADVANCED STAGE MOVEMENT FOR THE ACTOR",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": "TH ART 15B",
+      "description": "This course enhances the student’s awareness of the physical self as a means of communication in Theatre. Techniques from Flamenco movement are incorporated to help the student develop coordination, poise, rhythm and passion that are inherent in this art form. Adopting this technique, students perform scenes and monologues from various genres including works of Shakespeare, Lorca and Oscar Wilde. Students enrolled in this course are required to purchase tickets for and attend SMC theatre productions.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4198",
+          "schedule": [
+            {
+              "time": "5:30p.m.-6:50p.m.",
+              "days": "MW",
+              "location": "TH ART 101",
+              "instructor": "Sawoski P"
+            },
+            {
+              "time": "5:30p.m.-6:50p.m.",
+              "days": "MW",
+              "location": "TH ART 101",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 18A",
+      "course_title": "TECHNICAL THEATRE PRODUCTION WORKSHOP",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "THTR 192; to get C-ID THTR 192 for TH ART 18A, students must complete both TH ART 18A and 18B",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "WORKSHOP 1 UNIT This course is intended for students interested in actual training and experience, either in the various backstage areas of technical support or by being involved as a member of a production crew for a Santa Monica College Theatre Arts Dept. production.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3166",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "TH ART MAIN STG",
+              "instructor": "Anzelc L L"
+            }
+          ],
+          "notes": [
+            "students to attend ONE of these meetings. Students will schedule",
+            "their commitment to the class based on this meeting. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 18B",
+      "course_title": "TECHNICAL THEATRE PRODUCTION WORKSHOP",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "THTR 192",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course is intended for students interested in actual training and experience, either in the various backstage areas of technical support or by being involved as a member of a production crew for a Santa Monica College Theatre Arts Department production.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3167",
+          "schedule": [
+            {
+              "time": "Arrange-6 Hours",
+              "days": "N",
+              "location": "TH ART MAIN STG",
+              "instructor": "Anzelc L L"
+            }
+          ],
+          "notes": [
+            "students to attend ONE of these meetings. Students will schedule",
+            "their commitment to the class based on this meeting. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 18C",
+      "course_title": "TECHNICAL THEATRE PRODUCTION WORKSHOP",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "THTR 192",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course is intended for students interested in actual training and experience, either in the various backstage areas of technical support or by being involved as a member of a production crew for a Santa Monica College Theatre Arts Department production.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3168",
+          "schedule": [
+            {
+              "time": "Arrange-9 Hours",
+              "days": "N",
+              "location": "TH ART MAIN STG",
+              "instructor": "Anzelc L L"
+            }
+          ],
+          "notes": [
+            "students to attend ONE of these meetings. Students will schedule",
+            "their commitment to the class based on this meeting. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 20",
+      "course_title": "STAGECRAFT",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "THTR 171",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course covers the construction, painting and rigging of stage scenery, properties and effects. It includes the use of construction tools, shop safety and procedures, and an introduction to scenic design.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3169",
+          "schedule": [
+            {
+              "time": "2:15p.m.-4:40p.m.",
+              "days": "TTh",
+              "location": "TH ART MAIN STG",
+              "instructor": "Allen L A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3170",
+          "schedule": [
+            {
+              "time": "3:00p.m.-5:20p.m.",
+              "days": "MW",
+              "location": "TH ART MAIN STG",
+              "instructor": "Allen L A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 21",
+      "course_title": "SCENIC PAINTING TECHNIQUES",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": "TH ART 20.",
+      "formerly": null,
+      "description": "The course concerns the study and execution of scenic painting techniques. It provides study and training in the use of materials and techniques for painting scenery for theatre, film and television. A materials fee will be charged for student supplies.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4199",
+          "schedule": [
+            {
+              "time": "7:00p.m.-10:05p.m.",
+              "days": "M",
+              "location": "TH ART 130",
+              "instructor": "Anzelc L L"
+            },
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": ""
+            }
+          ],
+          "notes": [
+            "Above section 4199 meets for 12 weeks, Sep 22 to Dec 08. Above section modality is On Ground."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 08",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 22",
+      "course_title": "STAGE LIGHTING",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "THTR 173",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course introduces the student to the theory and practice of modern stage lighting. The properties and control of light are covered, including electricity, color, instrumentation and design.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3171",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "TH ART STUDIO",
+              "instructor": "Allen L A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 23",
+      "course_title": "PROJECTION AND LIGHTING DESIGN",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course explores the process of designing projection and lighting for theatrical performances including: visualizing and choosing a concept, drafting a light plot, finding projection content, and focusing and cueing. In-depth programming of lighting consoles and advanced equipment (including moving lights, LEDs, projectors and DMX controlled accessories) will be addressed. Students are also introduced to drafting light plots by hand and with computer software such as Vectorworks, Spotlight, and Lightwright, the basics of using Photoshop, and running projection with Qlab.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3172",
+          "schedule": [
+            {
+              "time": "11:15a.m.-2:20p.m.",
+              "days": "F",
+              "location": "TH ART STUDIO",
+              "instructor": "Allen L A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 25",
+      "course_title": "INTRODUCTION TO THEATRICAL SOUND",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course introduces the student to the theory and practice of modern theatrical sound design. The role of sound in theatre is explored with a focus on its unique contribution in supporting the dramatic narrative. Instruction will cover basic sound theory and acoustics, use of contemporary audio equipment, tools, and techniques, and crafting a sound design from concept to completion.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3173",
+          "schedule": [
+            {
+              "time": "3:45p.m.-5:05p.m.",
+              "days": "TTh",
+              "location": "TH ART STUDIO",
+              "instructor": "Floyd J M"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 26",
+      "course_title": "INTRODUCTION TO STAGE COSTUMING",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "THTR 174",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "Costume construction theory and practice are the essential elements in this course, including a survey of the history of costume.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3174",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:50p.m.",
+              "days": "MW",
+              "location": "TH ART 102",
+              "instructor": "Sarabipour Y"
+            },
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "TH ART 102",
+              "instructor": "Sarabipour Y"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 28A",
+      "course_title": "BEGINNING STAGE MAKE-UP",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "A study of the art and application of stage make-up with practice in the techniques of creating facial characterizations and alterations for specific roles and types.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3175",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "T",
+              "location": "TH ART 132",
+              "instructor": "Adair-Lynch T A"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Adair-Lynch T A"
+            }
+          ],
+          "notes": [
+            "Above section 3175 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 31",
+      "course_title": "INTRODUCTION TO STAGE MANAGEMENT",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course explores the artistic and organizational techniques and practices required of stage managers. Topics covered include production preparation, safety, rehearsal documentation styles, execution and calling of shows. The course also addresses the necessary collaborations and relationships with other artists and staff.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3176",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "TH ART 101",
+              "instructor": "Allen L A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 41",
+      "course_title": "ACTING I",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "THTR 151",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course introduces the beginning student to the art of stage acting. The major emphasis is on actor development and growth through character portrayal, scene or monologue performance, and written work. Students evaluate theatre productions based on materials and techniques studied.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3177",
+          "schedule": [
+            {
+              "time": "11:15a.m.-2:20p.m.",
+              "days": "F",
+              "location": "TH ART 101",
+              "instructor": "Sterling S A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3178",
+          "schedule": [
+            {
+              "time": "3:45p.m.-5:05p.m.",
+              "days": "TTh",
+              "location": "TH ART 102",
+              "instructor": "Harrop A M"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4200",
+          "schedule": [
+            {
+              "time": "7:00p.m.-10:05p.m.",
+              "days": "T",
+              "location": "TH ART 102",
+              "instructor": "Harrop A M"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 42",
+      "course_title": "ACTING II",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "THTR 152",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": "TH ART 41.",
+      "formerly": null,
+      "description": "This course provides continued and intensive development of acting skills. Focus on realistic acting techniques, rehearsal skills, character building, scene study and performance, and play analysis.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3179",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "MW",
+              "location": "TH ART 101",
+              "instructor": "Sawoski P"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3180",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "TTh",
+              "location": "TH ART 102",
+              "instructor": "Harrop A M"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 45",
+      "course_title": "MUSICAL THEATRE WORKSHOP",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "THTR 191",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Audition required.",
+      "advisory": null,
+      "formerly": null,
+      "description": "This course introduces the student to theories, techniques and practices of musical theatre performance. The class concentrates on preparing and performing scenes from musical theatre, culminating in a public performance. TH",
+      "same_as": "MUSIC 45",
+      "sections": [
+        {
+          "section_number": "3181",
+          "schedule": [
+            {
+              "time": "12:45p.m.-5:20p.m.",
+              "days": "MW",
+              "location": "TH ART STUDIO",
+              "instructor": "Sawoski P"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "TH ART STUDIO",
+              "instructor": "Gray G L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 50",
+      "course_title": "ADVANCED PRODUCTION – FULL PLAY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "THTR 191",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Pre-enrollment auditions required.",
+      "advisory": null,
+      "formerly": null,
+      "description": "This course includes rehearsals and performances of a fulllength theatrical production in the Main Stage. Emphasis is placed on cooperative blending of all theatrical activities into a finished public performance.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4201",
+          "schedule": [
+            {
+              "time": "6:00p.m.-10:05p.m.",
+              "days": "MWF",
+              "location": "TH ART MAIN STG",
+              "instructor": ""
+            },
+            {
+              "time": "2:30p.m.-5:50p.m.",
+              "days": "F",
+              "location": "TH ART MAIN STG",
+              "instructor": ""
+            },
+            {
+              "time": "Arrange-13 Hours",
+              "days": "N",
+              "location": "TH ART MAIN STG",
+              "instructor": ""
+            }
+          ],
+          "notes": [
+            "Above section 4201 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4202",
+          "schedule": [
+            {
+              "time": "6:15p.m.-10:15p.m.",
+              "days": "UMThF",
+              "location": "TH ART MAIN STG",
+              "instructor": "Harrop A M"
+            },
+            {
+              "time": "Arrange-13.5 Hours",
+              "days": "N",
+              "location": "TH ART MAIN STG",
+              "instructor": "Harrop A M"
+            }
+          ],
+          "notes": [
+            "Above section 4202 meets for 8 weeks, Oct 26 to Dec 19. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 26 to Dec 19",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 51",
+      "course_title": "STAGE MAKE-UP WORKSHOP 0.",
+      "units": "5 UNIT",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "Concurrent Enrollment in a Theatre Arts production course is required. A study of the art and practical application of stage make-up for those performing in Theatre Arts Department productions.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3182",
+          "schedule": [
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Adair-Lynch T A"
+            }
+          ],
+          "notes": [
+            "Above section 3182 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3183",
+          "schedule": [
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Harrop A M"
+            }
+          ],
+          "notes": [
+            "Above section 3183 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 55",
+      "course_title": "ADVANCED PRODUCTION – SMALL THEATRE VENUE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": "THTR 191",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Pre-enrollment audition required.",
+      "advisory": null,
+      "formerly": null,
+      "description": "This course involves rehearsals and performances of a theatrical production designed for a smaller venue. Such a production includes, but is not limited to any of the following: Non-traditional themes, newer or lesser-known playwrights, student or faculty-written works, multi-cultural works and multiple theatrical genres. The course applies advanced acting skills in the selected genre to the development and performance of a production. Emphasis is placed on cooperative blending of all theatre activities into a finished public performance. Students rehearse and learn about the processes of performing for the live theatre.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4203",
+          "schedule": [
+            {
+              "time": "6:15p.m.-9:15p.m.",
+              "days": "TThF",
+              "location": "TH ART STUDIO",
+              "instructor": "Martin A F"
+            }
+          ],
+          "notes": [
+            "Above section 4203 meets for 12 weeks, Sep 02 to Nov 21. Above section modality is On Ground."
+          ],
+          "duration": "12 weeks, Sep 02 to Nov 21",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 88A",
+      "course_title": "INDEPENDENT STUDIES IN THEATRE ARTS",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "ARTS 1 UNIT",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3184",
+          "schedule": [
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Sawoski P"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3185",
+          "schedule": [
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Sawoski P"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3186",
+          "schedule": [
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Harrop A M"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3187",
+          "schedule": [
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "Adair-Lynch T A",
+              "instructor": ""
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 88B",
+      "course_title": "INDEPENDENT STUDIES IN THEATRE ARTS",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "ARTS 2 UNITS",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3188",
+          "schedule": [
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Sawoski P"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "TH ART 88C",
+      "course_title": "INDEPENDENT STUDIES IN THEATRE ARTS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "ARTS 3 UNITS",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3189",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Sawoski P"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

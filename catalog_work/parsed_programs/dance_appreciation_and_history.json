@@ -1,0 +1,351 @@
+{
+  "program_name": "Dance: Appreciation and History",
+  "program_description": "See also “Dance: Technique and Performance.”",
+  "courses": [
+    {
+      "course_code": "DANCE 2",
+      "course_title": "DANCE IN AMERICAN CULTURE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 3A (Arts)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "advisory": "Eligibility for English 1.",
+      "formerly": null,
+      "description": "This course is a comparative and integrative study of world dance styles of the United States. Included is the study of Native American, European American, African American, Chicano/Latin American, and Asian American dance styles from their historical origins to the present. The study of dance traditions from both the technical and cultural perspective is presented in relation to social, theatrical and artistic dance. Observation and descriptive skills are learned through films, live performances and lectures. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1772",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Susilowati S"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1773",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Susilowati S"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1774",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Van Wormer V M"
+            }
+          ],
+          "notes": [
+            "Above section 1774 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1775",
+          "schedule": [
+            {
+              "time": "Arrange-6.75 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Susilowati S"
+            }
+          ],
+          "notes": [
+            "Above section 1775 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 51",
+      "course_title": "TEST TAKING/MEMORY STRATEGIES",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "Maximum credit of AA applicable counseling courses may be limited; check with Counseling. This course is designed to teach specific learning strategies in the areas of test taking and memory. Students will learn to be more successful in taking various types of academic tests by applying specific strategies for test-taking, retaining and recalling information, answering test questions, and learning from mistakes.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1704",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:35a.m.",
+              "days": "MW",
+              "location": "ONLINE",
+              "instructor": "Abadzhyan S"
+            }
+          ],
+          "notes": [
+            "Above section 1704 meets for 8 weeks, Oct 27 to Dec 17. Above section 1704mmended for students enrolled in at least 1 academic class. Above section modality is Scheduled."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 17",
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 52",
+      "course_title": "TEXTBOOK/MEMORY STRATEGIES",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "Maximum credit of AA applicable counseling courses may be limited; check with Counseling. This course is designed to teach specific learning strategies in the areas of textbook reading and memory. Students will learn to improve comprehension of textbooks by reading actively,creating a variety of study tools from textbooks, and applying techniques for remembering what has been read.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1705",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:35a.m.",
+              "days": "MW",
+              "location": "ONLINE",
+              "instructor": "Abadzhyan S"
+            }
+          ],
+          "notes": [
+            "Above section 1705 meets for 8 weeks, Sep 03 to Oct 22. Above section 1705mmended for students enrolled in at least 1 academic class. Above section modality is Scheduled."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 22",
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 53",
+      "course_title": "PHONICS, SPELLING AND VOCABULARY DEVELOPMENT",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "DEVELOPMENT 1 UNIT Maximum credit of AA applicable counseling courses may be limited; check with Counseling. This course helps students develop strategies to improve phonetic and rule-based spelling. This course also helps students develop vocabulary through understanding of word morphology. This course is designed for students with learning disabilities.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1706",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:35a.m.",
+              "days": "TTh",
+              "location": "ONLINE",
+              "instructor": "Teruya S"
+            }
+          ],
+          "notes": [
+            "Above section 1706 meets for 8 weeks, Sep 02 to Oct 23. Above section 1706mmended for students enrolled in at least 1 academic class. Above section modality is Scheduled."
+          ],
+          "duration": "8 weeks, Sep 02 to Oct 23",
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 54",
+      "course_title": "ORGANIZING FOR COLLEGE SUCCESS",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "Maximum credit of AA applicable counseling courses may be limited; check with Counseling. The primary emphasis of this class is on time management and task analysis. Students are taught how to break academic assignments down into individual steps and how to schedule these and other tasks on daily, weekly, and monthly calendars. Goal setting, career choice, prioritizing, procrastination, and evaluation of study time and environment are part of this planning process. Also covered are organization of materials and information as well as memory. This class is designed for more mature, motivated students with learning disabilities, particularly attention deficit disorders.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1707",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:35a.m.",
+              "days": "TTh",
+              "location": "ONLINE",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 1707 meets for 8 weeks, Sep 02 to Oct 23. Above section 1707mmended for students enrolled in at least 1 academic class. Above section modality is Scheduled."
+          ],
+          "duration": "8 weeks, Sep 02 to Oct 23",
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 56",
+      "course_title": "WRITTEN LANGUAGE STRATEGIES",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "Maximum credit of AA applicable counseling courses may be limited; check with Counseling. This course incorporates the use of computers and software to implement and support the step-by-step stages of writing strategies. This course is designed for students with learning disabilities.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1708",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:35a.m.",
+              "days": "TTh",
+              "location": "ONLINE",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 1708 meets for 8 weeks, Oct 28 to Dec 18. Above section 1708mmended for students enrolled in at least 1 academic class. Above section modality is Scheduled."
+          ],
+          "duration": "8 weeks, Oct 28 to Dec 18",
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 5",
+      "course_title": "DANCE HISTORY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 3A (Arts)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "advisory": "Eligibility for English 1.",
+      "formerly": null,
+      "description": "Dance 5 offers an overview of dance in historical, cultural, political, and social contexts. This course covers the historical development of dance as a performing art through the periods of history from the pre-historic era through the 21st Century. This class investigates the origin, tradition, and development of theatrical dance styles, including ballet, modern, postmodern, jazz, tap, hip-hop, world dance forms and contemporary. Examining dance as a performing art as well as a medium of social, cultural, and individual expression is emphasized through the comprehensive study of dance works and dance artists. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1776",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Lee J Y"
+            }
+          ],
+          "notes": [
+            "Above section 1776 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1777",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Lee J Y"
+            }
+          ],
+          "notes": [
+            "Above section 1777 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 77",
+      "course_title": "NAVIGATING CAREERS IN DANCE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "advisory": null,
+      "formerly": null,
+      "description": "This course provides students with a comprehensive understanding of dance-related industries and necessary tools for success in dance-related fields. Students will examine past, current and projected industry trends and will be exposed to numerous dance-related career paths through lectures, discussion, research, case studies, and industry guest speakers. Students will learn how to create artist materials such as resumes, bios, cover letters, video reels, and online profiles, as well as learn audition and interview techniques for various dance career contexts. Students will be familiarized with contracts, wages, agencies, and freelance strategies while learning how to locate internships and job opportunities that align with skill sets and goals. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1778",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "CPC 314",
+              "instructor": "Moreno M O"
+            }
+          ],
+          "notes": [
+            "Above section 1778 meets for 16 weeks, Sep 08 to Dec 22. Above section 1778 is in the hyflex format. Students will have the option",
+            "to attend the class on campus or participate over Zoom."
+          ],
+          "duration": "16 weeks, Sep 08 to Dec 22",
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}
