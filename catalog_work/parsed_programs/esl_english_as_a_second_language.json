@@ -1,6 +1,6 @@
 {
   "program_name": "ESL – English as a Second Language",
-  "program_description": "English for Second Language Speakers courses are designed specifically for students whose first language is not English. SMC offers three different ESL programs: 1) Credit ESL courses focus on academic skills needed for success in college (reading textbooks, listening and notetaking, writing papers with citations, speaking in class in small groups, and making presentations). Faculty assist students in the development of grammar, vocabulary, paraphrasing, and summarizing skills within the context of themes or academic content. ESL 19A and 19B are CSU and UC transferable (up to 8 units). 2) Noncredit ESL courses focus on college and career readiness and developing the skills needed for life and work in the US. Noncredit ESL courses are free to students, except those studying on an F-1 visa. These courses do not carry any academic credit. 3) Intensive ESL (offered through SMC’s Community Services Program in conjunction with International Education) offers multi-skills courses to prepare international students for entry to Santa Monica College. Student work is graded, but courses in the Intensive ESL Program do not receive academic credit. These courses are offered for a fee. For the following classes, placement is required to determine class placement. See smc.edu/successcenter. Most sections of ESL classes require access to a computer and the Internet. Intensive English",
+  "program_description": "English for Second Language Speakers courses are designed specifically for students whose first language is not English. SMC offers three different ESL programs: 1) Credit ESL courses focus on academic skills needed for success in college (reading textbooks, listening and notetaking, writing papers with citations, speaking in class in small groups, and making presentations). Faculty assist students in the development of grammar, vocabulary, paraphrasing, and summarizing skills within the context of themes or academic content. ESL 19A and 19B are CSU and UC transferable (up to 8 units). 2) Noncredit ESL courses focus on college and career readiness and developing the skills needed for life and work in the US. Noncredit ESL courses are free to students, except those studying on an F-1 visa. These courses do not carry any academic credit. 3) Intensive ESL (offered through SMC’s Community Services Program in conjunction with International Education) offers multi-skills courses to prepare international students for entry to Santa Monica College. Student work is graded, but courses in the Intensive ESL Program do not receive academic credit. These courses are offered for a fee. For the following classes, placement is required to determine class placement. See smc.edu/successcenter. Most sections of ESL classes require access to a computer and the Internet. Courses are organized into the following areas: Intensive English: ESL 10G, ESL 10W; ESL Writing: ESL 11A, ESL 19A; Speaking and Listening: ESL 14B, ESL 15; Grammar: ESL 16A, ESL 16B; Vocabulary: ESL 28.",
   "courses": [
     {
       "course_code": "ESL 10G",
@@ -151,7 +151,7 @@
             }
           ],
           "notes": [
-            "Above section modality is On Ground. ESL Writing"
+            "Above section modality is On Ground"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -263,7 +263,7 @@
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": ". This course is an intermediate contextualized writing course for non-native speakers, emphasizing paragraph development and essay construction, editing of grammar and mechanical errors, reading, and critical thinking. ESL 19A is the first part of the ESL19A/B sequence.",
+      "description": "This course is an intermediate contextualized writing course for non-native speakers, emphasizing paragraph development and essay construction, editing of grammar and mechanical errors, reading, and critical thinking. ESL 19A is the first part of the ESL19A/B sequence.",
       "same_as": null,
       "sections": [
         {
@@ -405,7 +405,7 @@
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": ". This course is the second part of the ESL 19A/B sequence, for non-native speakers. It continues the emphasis on essay writing, editing of grammar and mechanical errors, reading, and critical thinking.",
+      "description": "This course is the second part of the ESL 19A/B sequence, for non-native speakers. It continues the emphasis on essay writing, editing of grammar and mechanical errors, reading, and critical thinking.",
       "same_as": null,
       "sections": [
         {
@@ -538,7 +538,7 @@
             }
           ],
           "notes": [
-            "Above section 2226 meets for 8 weeks, Oct 28 to Dec 19. Above section modality is On Ground. Speaking and Listening"
+            "Above section 2226 meets for 8 weeks, Oct 28 to Dec 19. Above section modality is On Ground"
           ],
           "duration": "8 weeks, Oct 28 to Dec 19",
           "modality": "On Ground",
@@ -608,7 +608,7 @@
             }
           ],
           "notes": [
-            "Above section modality is On Ground. Grammar"
+            "Above section modality is On Ground"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -748,7 +748,7 @@
             }
           ],
           "notes": [
-            "Above section 2227 meets for 12 weeks, Sep 22 to Dec 10. Above section modality is On Ground. Vocabulary"
+            "Above section 2227 meets for 12 weeks, Sep 22 to Dec 10. Above section modality is On Ground"
           ],
           "duration": "12 weeks, Sep 22 to Dec 10",
           "modality": "On Ground",
@@ -786,7 +786,7 @@
             "Above section 2228 meets for 12 weeks, Sep 22 to Dec 10. Fully on ground and will be taught in person at the time and location listed in the schedule of classes."
           ],
           "duration": "12 weeks, Sep 22 to Dec 10",
-          "modality": null,
+          "modality": "On Ground",
           "co_enrollment_with": null
         }
       ]

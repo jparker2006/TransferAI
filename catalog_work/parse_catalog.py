@@ -511,6 +511,10 @@ class SMCCatalogParser:
     def parse_program(self, name: str, content: str) -> Program:
         lines = content.split('\n')
         
+        # Special handling for ESL program with subheaders
+        if name == "ESL – English as a Second Language":
+            return self.parse_esl_program_with_subheaders(name, content, lines)
+        
         # Find all course boundaries first
         course_boundaries = self.find_course_boundaries(lines)
         
@@ -563,6 +567,138 @@ class SMCCatalogParser:
             # Parse this course
             course = self.parse_single_course(course_code, course_title, units, course_lines)
             courses.append(course)
+        
+        return Program(
+            program_name=name,
+            program_description=description,
+            courses=courses
+        )
+    
+    def parse_esl_program_with_subheaders(self, name: str, content: str, lines: List[str]) -> Program:
+        """Special parser for ESL program that has subheaders grouping courses"""
+        
+        # ESL subheaders we expect to find
+        esl_subheaders = [
+            "Intensive English",
+            "ESL Writing", 
+            "Speaking and Listening",
+            "Grammar",
+            "Vocabulary"
+        ]
+        
+        # Find all course boundaries first
+        course_boundaries = self.find_course_boundaries(lines)
+        
+        if not course_boundaries:
+            # No courses found, return program with description only
+            description = ' '.join(line.strip() for line in lines if line.strip())
+            description = re.sub(r'\s+', ' ', description)
+            return Program(
+                program_name=name,
+                program_description=description,
+                courses=[]
+            )
+        
+        # Extract program description (text before first course, cleaning subheader fragments)
+        first_course_line = course_boundaries[0][0]
+        description_lines = []
+        for i in range(first_course_line):
+            if lines[i].strip():
+                description_lines.append(lines[i].strip())
+        
+        description = ' '.join(description_lines)
+        description = re.sub(r'\s+', ' ', description)
+        # Apply hyphenation fixes to program description
+        description = self.fix_hyphenation(description)
+        
+        # Clean up subheader fragments from description
+        # Remove "Intensive English" if it appears at the end without proper context
+        description = re.sub(r'\s+Intensive English\s*$', '', description).strip()
+        
+        # Fix URL spacing issues in program descriptions
+        description = re.sub(r'smc\.edu/\s+([a-zA-Z])', r'smc.edu/\1', description)
+        description = re.sub(r'go to smc\.edu/\s+([a-zA-Z])', r'go to smc.edu/\1', description)
+        description = re.sub(r'or smc\.edu/\s+([a-zA-Z])', r'or smc.edu/\1', description)
+        description = re.sub(r'visit smc\.edu/\s+([a-zA-Z])', r'visit smc.edu/\1', description)
+        description = re.sub(r'see smc\.edu/\s+([a-zA-Z])', r'see smc.edu/\1', description)
+        
+        # Parse all courses and track subheader assignments
+        courses = []
+        course_to_subheader = {}  # Track which subheader each course belongs to
+        
+        for i, (start_line, course_code, course_title, units) in enumerate(course_boundaries):
+            # Determine end line for this course
+            if i + 1 < len(course_boundaries):
+                end_line = course_boundaries[i + 1][0]
+            else:
+                end_line = len(lines)
+            
+            # Extract course lines
+            course_lines = lines[start_line:end_line]
+            
+            # Look backwards from this course to find the most recent subheader
+            current_subheader = None
+            for j in range(start_line - 1, max(0, start_line - 20), -1):  # Look back up to 20 lines
+                line = lines[j].strip()
+                for subheader in esl_subheaders:
+                    if line == subheader or line.endswith(subheader):
+                        current_subheader = subheader
+                        break
+                if current_subheader:
+                    break
+            
+            # Parse this course
+            course = self.parse_single_course(course_code, course_title, units, course_lines)
+            
+            # Clean subheader fragments from course section notes
+            for section in course.sections:
+                cleaned_notes = []
+                for note in section.notes:
+                    # Remove standalone subheader names from notes
+                    cleaned_note = note
+                    for subheader in esl_subheaders:
+                        # Remove if the note is exactly the subheader or ends with it
+                        if cleaned_note.strip() == subheader:
+                            cleaned_note = ""
+                        elif cleaned_note.strip().endswith(subheader):
+                            # Remove the subheader from the end, but keep other content
+                            cleaned_note = cleaned_note.replace(subheader, "").strip()
+                            # Clean up any trailing punctuation or "Above section" artifacts
+                            cleaned_note = re.sub(r'\.\s*$', '', cleaned_note)
+                            cleaned_note = re.sub(r'Above section modality is [^.]+\.\s*$', lambda m: m.group(0).replace(subheader, ''), cleaned_note)
+                    
+                    if cleaned_note.strip():
+                        cleaned_notes.append(cleaned_note)
+                
+                section.notes = cleaned_notes
+            
+            courses.append(course)
+            if current_subheader:
+                course_to_subheader[course_code] = current_subheader
+        
+        # Group courses by subheader for description enhancement
+        subheader_to_courses = {}
+        for course in courses:
+            subheader = course_to_subheader.get(course.course_code, "General")
+            if subheader not in subheader_to_courses:
+                subheader_to_courses[subheader] = []
+            subheader_to_courses[subheader].append(course.course_code)
+        
+        # Add course organization information to description
+        if subheader_to_courses:
+            organization_parts = []
+            subheader_order = ["Intensive English", "ESL Writing", "Speaking and Listening", "Grammar", "Vocabulary"]
+            
+            for subheader in subheader_order:
+                if subheader in subheader_to_courses and subheader != "General":
+                    course_codes = subheader_to_courses[subheader]
+                    if len(course_codes) == 1:
+                        organization_parts.append(f"{subheader}: {course_codes[0]}")
+                    else:
+                        organization_parts.append(f"{subheader}: {', '.join(course_codes)}")
+            
+            if organization_parts:
+                description += f" Courses are organized into the following areas: {'; '.join(organization_parts)}."
         
         return Program(
             program_name=name,
@@ -900,6 +1036,16 @@ class SMCCatalogParser:
                     if re.search(r'taught on campus and online', note, re.IGNORECASE):
                         section.modality = 'Hybrid'
                         break
+                    
+                    # "fully on ground" - indicates on ground modality
+                    if re.search(r'fully on ground', note, re.IGNORECASE):
+                        section.modality = 'On Ground'
+                        break
+                    
+                    # "taught in person" - indicates on ground modality
+                    if re.search(r'(?:will be )?taught in person', note, re.IGNORECASE):
+                        section.modality = 'On Ground'
+                        break
         
         # Post-process to establish co-enrollment relationships
         self.establish_co_enrollment_relationships(course)
@@ -998,6 +1144,9 @@ class SMCCatalogParser:
                     # Remove from description
                     course.description = re.sub(pattern, '', course.description).strip()
             
+            # Clean up any orphaned punctuation at the beginning of description
+            course.description = re.sub(r'^[.\s,;:]+', '', course.description).strip()
+            
             # IMPROVED: Extract credit-related continuation sentences (without asterisks)
             # These often follow asterisk notes and provide additional credit information
             credit_continuation_patterns = [
@@ -1024,6 +1173,9 @@ class SMCCatalogParser:
                         # Clean up any double spaces
                         course.description = re.sub(r'\s+', ' ', course.description).strip()
                         self.add_warning(f"Extracted credit continuation note from description for {course_code}: {continuation_note}")
+            
+            # Clean up any orphaned punctuation at the beginning of description after all extractions
+            course.description = re.sub(r'^[.\s,;:]+', '', course.description).strip()
             
             # Clean up advisory field by removing asterisks and trailing periods
             if course.advisory:
