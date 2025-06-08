@@ -1,0 +1,42 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/14a60732-321c-4de1-a7d9-08dca807bc76",
+  "agreement_title": "Ethnic Studies B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Ethnic Studies at UC San Diego is an interdisciplinary field of study that focuses on fundamental theoretical and political questions regarding the social construction of categories of race, ethnicity, gender, sexuality, class, and nation. The curriculum of the Ethnic Studies Department is designed to teach students to: Conduct interdisciplinary research in comparative race and ethnic studies; Communicate complex ideas about society effectively, particularly in oral and written form; Critically analyze power and inequality in a global focus, in preparation for an international world; Articulate the historical, cultural and social contexts of specific racial, ethnic, and other social formations, in preparation for our diverse society; Demonstrate practical experience in ethnic studies, other than academic writing and reading, such as through performance, art, direct service, internships, and study abroad. These skills will give students the opportunity to satisfy the increasingly rigorous expectations of graduate admissions committees and prepares students considering careers in education, law, medicine, public health, social work, counseling, journalism, business, city planning, psychology, international relations, and many other fields. Students majoring in Ethnic Studies are required to complete two courses from the Ethnic Studies lower-division sequence (Ethnic Studies 1-2-3, Introduction to Ethnic Studies: Land and Labor; Circulations of Difference; Making Culture), and thirteen upper-division courses in the Department of Ethnic Studies. More information regarding the Ethnic Studies department, major, and courses is available in the UCSD Ethnic Studies Department Web page at http://www.ethnicstudies.ucsd.edu.NOTE: The courses below are unique and used exclusively for those students majoring in Ethnic Studies. Please see the department representative for clarification or petition."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "ETHN 1: Introduction to Ethnic Studies: Land and Labor (4.00 units)",
+              "sending_course_text": "HIST 10: Ethnicity and American Culture (3.00 units)"
+            },
+            {
+              "receiving_course_text": "ETHN 2: Introduction to Ethnic Studies: Circulations of Difference (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "ETHN 3: Introduction to Ethnic Studies: Making Culture (4.00 units)",
+              "sending_course_text": "SOCIOL 34: Racial and Ethnic Relations in Amercian Society (3.00 units)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

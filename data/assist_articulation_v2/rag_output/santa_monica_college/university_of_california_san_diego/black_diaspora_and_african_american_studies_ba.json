@@ -1,0 +1,46 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/f8378ac2-5934-4e79-6713-08dca807bc66",
+  "agreement_title": "Black Diaspora and African American Studies B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION.For more details, please visit our main website: http://bdaas.ucsd.edu/ and specific information for New and Prospective Students.The Black Diaspora and African American Studies Program Students will be able to design their individual programs under the guidelines of three different program concentrations:Concentration A: Black diaspora studies,Concentration B: African American studies, or Concentration C: interdisciplinary study. Concentration A: focuses on Africa and the Black diaspora. Concentration B focuses on African American experiences.Concentration C allows students to design a major focus across a selected intersectional topic or issue that is covered across multiple departments.Concentration A: Africa and the Black DiasporaAAS 11. Introduction to Black Diasporic Studies (4)AAS 14. Introduction to African Studies (4)AAS 15. Racism and Global Imperialism (4) Concentration B: African American StudiesAAS 10. Introduction to African American Studies (4)AAS 11. Introduction to Black Diasporic Studies (4)AAS 14. Introduction to African Studies (4)AAS 15. Racism and Global Imperialism (4) Concentration C: Interdisciplinary StudyStudents may choose a lower-division course from Concentration A and B. \ufeffAny Student interested in majoring in Black Diaspora and African American Studies must take 1 lower division course under their desired concentration."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "Select 3 courses from the following",
+          "requirements": [
+            {
+              "receiving_course_text": "AAS 10: Introduction to African American Studies (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "AAS 11: Introduction to Black Diasporic Studies (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "AAS 14: Introduction to African Studies (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "AAS 15: Racism and Global Imperialism (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

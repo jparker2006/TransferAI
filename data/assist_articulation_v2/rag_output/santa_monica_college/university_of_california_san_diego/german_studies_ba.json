@@ -1,0 +1,54 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/595f42fd-3f79-4b23-6727-08dca807bc66",
+  "agreement_title": "German Studies B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. In consultation with a faculty member, students in the German Studies program design individual plans of study from the many core courses offered in the Departments of History, Literature, Music, Philosophy, Political Science, Sociology, and Theatre and Dance. Further courses, including some offered by other departments, may be incorporated into the student's program. Students need to attain competence in German (two years of university level language courses or the equivalent) before they can take certain required upper-division courses. For more information please visit http://caesar.ucsd.edu/german/major.html Required: Two years lower division German language."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LIGM 1A: German Conversation (2.50 units) AND LIGM 1AX: Analysis of German (2.50 units)",
+              "sending_course_text": "(GERMAN 1: Elementary German I (5.00 units) AND GERMAN 2: Elementary German II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "LIGM 1B: German Conversation (2.50 units) AND LIGM 1BX: Analysis of German (2.50 units)",
+              "sending_course_text": "(GERMAN 1: Elementary German I (5.00 units) AND GERMAN 2: Elementary German II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "LIGM 1C: German Conversation (2.50 units) AND LIGM 1CX: Analysis of German (2.50 units)",
+              "sending_course_text": "(GERMAN 1: Elementary German I (5.00 units) AND GERMAN 2: Elementary German II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "LTGM 2A: Intermediate German I (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTGM 2B: Intermediate German II (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTGM 2C: Intermediate German III (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

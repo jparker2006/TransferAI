@@ -1,0 +1,66 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/e21661cb-ad42-45a9-a7e2-08dca807bc76",
+  "agreement_title": "Dance B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. The Department of Theatre and Dance offers a Bachelor of Arts degree in Dance (B.A.). The Dance Major offers students an opportunity to specialize their training in the creative, aesthetic and conceptual discipline of dance as a contemporary art form, within the context of a broad undergraduate education. The Dance Major allows students to study a range of techniques and dance practices that include traditional and contemporary forms, world dance, somatic movement approaches, dance making, history and theory. Our program emphasizes innovation and interdisciplinary collaboration, encourages hybridization of dance vocabularies and aims to push forward the boundaries of dance as a culturally and aesthetically diverse art form. Integral to the practice and appreciation of dance is relationship, interaction and exchange with others, both physically and intellectually. Our program fosters an open, respectful, imaginative, inventive, and non-competitive approach to all areas of practice, and encourages students to be self-motivated, rigorous, proactive and reflective to prepare them for the demands of a variety of professional careers. \ufeffStudents who have not taken the introductory level Dance courses at UCSD (TDMV 1, TDMV 2, and/or TDMV 3) must have instructor approval to enroll in intermediate level (TDMV 110, TDMV 120, and/or TDMV 130) or higher technique classes. For more information please visit https://theatre.ucsd.edu/admissions/undergraduate/dance-major.html"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "TDPR 6: Theatre Practicum (4.00 - 6.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "TDTR 10: Introduction to Dance (4.00 units)",
+              "sending_course_text": "DANCE 5: Dance History (3.00 units)"
+            },
+            {
+              "receiving_course_text": "TDDM 1: Introduction to Dance Making (4.00 units)",
+              "sending_course_text": "(DANCE 60: Fundamentals of Choreography: Dance Improvisation (2.00 units) AND DANCE 61: Fundamentals of Choreography: Composition 1 (2.00 units))"
+            },
+            {
+              "receiving_course_text": "TDDM 5: Site Specific Dance and Performance (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "TDHD 20: Looking at Dance (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "TDHD 21: Dance Pioneers of the Twentieth and Twenty-First Centuries (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "TDMV 20: Movement Laboratory (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "TDTR 15: Dance Movement and Analysis (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "TDTR 20: Dance on Film (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

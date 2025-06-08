@@ -1,0 +1,96 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/92bd8ed9-960d-4783-6733-08dca807bc66",
+  "agreement_title": "Geosciences B.S.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Effective Fall 2022, major preparation will be required for this major. For details, visit: http://admissions.ucsd.edu/MajorPrep Special Advising Note:While not all lower division courses in this major are required for transfer major preparation, the Scripps Department encourages transfer students to complete as much of the major\u2019s lower division coursework as possible prior to transferring to UC San Diego. Preparing well for the major helps students move efficiently toward graduation.The UC San Diego Scripps Institution of Oceanography offers a Geosciences major leading to a B.S. degree, with emphasis on the quantitative aspects of the field. As a guiding concept, the focus of the Geosciences curriculum is the physical and chemical evolution of the earth system and the energetics and dynamics of this evolution. For more information see the Scripps Undergraduate Education Web page at https://scripps.ucsd.edu/undergrad"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "SIO 50: Introduction to Physical Geology (6.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "SIO 65: Geosciences Seminar (2.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "SIO 75: Geological History of Earth (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "CHEM 6A: General Chemistry I (4.00 units)",
+              "sending_course_text": "CHEM 11: General Chemistry I (5.00 units)"
+            },
+            {
+              "receiving_course_text": "CHEM 6B: General Chemistry II (4.00 units)",
+              "sending_course_text": "(CHEM 11: General Chemistry I (5.00 units) AND CHEM 12: General Chemistry II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "CHEM 6C: General Chemistry III (4.00 units)",
+              "sending_course_text": "CHEM 12: General Chemistry II (5.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "C",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 20A: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "(MATH 7: Calculus 1 (5.00 units) AND MATH 8: Calculus 2 (5.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 20B: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20C: Calculus and Analytic Geometry for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 11: Multivariable Calculus (5.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "D",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "PHYS 2A: Physics - Mechanics (4.00 units)",
+              "sending_course_text": "PHYSCS 21: Mechanics with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2B: Physics - Electricity and Magnetism (4.00 units)",
+              "sending_course_text": "PHYSCS 22: Electricity and Magnetism with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2C: Physics - Fluids, Waves, Thermodynamics, and Optics (4.00 units)",
+              "sending_course_text": "PHYSCS 23: Fluids, Waves, Thermodynamics, Optics with Lab (5.00 units)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

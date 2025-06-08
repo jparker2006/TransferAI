@@ -1,0 +1,78 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/f975f10b-12ed-4c5c-a7e3-08dca807bc76",
+  "agreement_title": "Classical Studies B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION.Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. The Classical Studies Program provides an interdisciplinary examination of the ancient Mediterranean world, from the era of the Bronze Age to the great transformations of late antiquity. The program centers on the cultures of Greece and Rome and is inclusive of other cultures of the region. In the Classical Studies Program students study the ancient world through a diverse disciplinary lens, with courses offered in history, literature, philosophy, political science, visual arts, and more. Students have two options to major in the Classical Studies Program: a language emphasis track, which focuses on Greek and Latin texts in their literary, intellectual, and historical context; or the cultures emphasis track, which uses texts in translation for the study of antiquity. A minor is also available. Classical studies offers a choice between two tracks for a major: A language emphasis track and a cultures emphasis track. For both tracks, a major in classical studies consists of a choice of twelve upper-division courses (forty-eight units) approved for the program and listed below. All courses used to meet requirements for a major in classical studies must be taken for a letter grade and be passed with a grade of C\u2013 or better.For more information please visit https://iah.ucsd.edu/academics/classical-studies"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "Complete A, B, or C",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LTWL 19A: Introduction to the Ancient Greeks and Romans (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTWL 19B: Introduction to the Ancient Greeks and Romans (4.00 units)",
+              "sending_course_text": "ENGL 50: Mythology (3.00 units)"
+            },
+            {
+              "receiving_course_text": "LTWL 19C: Introduction to the Ancient Greeks and Romans (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LTLA 1: Beginning Latin (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTLA 2: Intermediate Latin I (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTLA 3: Intermediate Latin II (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "C",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LTGK 1: Beginning Greek (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTGK 2: Intermediate Greek I (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTGK 3: Intermediate Greek II (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

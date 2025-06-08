@@ -1,0 +1,46 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/6d6c193c-3abc-4498-674e-08dca807bc66",
+  "agreement_title": "Chinese Studies B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: All students must do a placement interview before enrolling in their first Mandarin Chinese course at UCSD. Instructions for the interview can be located at the Chinese Studies Program website: http://chinesestudies.ucsd.edu/language/placement-info.html Chinese Studies is an interdisciplinary program that allows the student interested in China to utilize the university's offerings in various departments to build a major leading to a B.A. degree. The student choosing a major in Chinese Studies must meet the following requirements. Two years of Mandarin Chinese (CHIN 10 A-B-C and CHIN 20 A-B-C ) or equivalent Chinese knowledge.Twelve upper-division four-unit courses in Chinese studies topics. a. Courses must be taken from at least three departments or programs. b. Three of the twelve courses must be upper-division Chinese history. c. No more than six of the upper-division courses may be language acquisition courses. d. A minimum of six upper-division courses must be taken at UCSD. 3. As a rule, all courses must be taken and completed for a letter grade for both the major and minor. Exceptions are granted for CHIN 198 and CHIN 199. NOTE: One year of Community College course work equals three quarters of UCSD course work. For more information please visit https://chinesestudies.ucsd.edu/undergraduate/major.html"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "CHIN 10AN: First-Year Chinese I (5.00 units)",
+              "sending_course_text": "CHNESE 1: Elementary Chinese 1 (5.00 units)"
+            },
+            {
+              "receiving_course_text": "CHIN 10BN: First-Year Chinese II (5.00 units) AND CHIN 10CN: First-Year Chinese III (5.00 units)",
+              "sending_course_text": "CHNESE 2: Elementary Chinese 2 (5.00 units)"
+            },
+            {
+              "receiving_course_text": "CHIN 20AN: Second-Year Chinese I (4.00 units)",
+              "sending_course_text": "CHNESE 3: Intermediate Chinese 1 (5.00 units)"
+            },
+            {
+              "receiving_course_text": "CHIN 20BN: Second-Year Chinese II (4.00 units) AND CHIN 20CN: Second-Year Chinese III (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

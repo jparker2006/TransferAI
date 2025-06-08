@@ -1,0 +1,58 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/fc724010-29f7-48be-a802-08dca807bc76",
+  "agreement_title": "Global South Studies (Formerly Third World Studies) B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Global South Studies provides an understanding of the shifting economic and political nature of the countries designated as belonging to the \u201cGlobal South,\u201d especially in light of the dramatic political and economic changes worldwide in the late 1980s and 1990s. To this end, our Global South studies courses will, where appropriate, address and contextualize the history of the term \u201cGlobal South\u201d and its current applications in scholarship and the broader international media.Global South Studies requires a minimum of twelve upper-division courses plus three lower-division courses from the Global South studies sequence (GSS 20, 21, 22, 23, 25, 26 or 27). Students interested in Global South Studies may focus on a theme, problem, or geohistorical area, such as Africa, Asia and Latin America. A Global South Studies program of study is interdisciplinary with course offerings from anthropology, economics, history, literature, political science, sociology, etc. For more information please visit globalsouth.ucsd.edu."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "Select 3 courses from the following",
+          "requirements": [
+            {
+              "receiving_course_text": "GSS 20: Introduction to Global South Studies (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "GSS 21: \u200bAfrica: History, Culture, and Politics (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "GSS 22: \u200bLatinAm Carib History Culture (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "GSS 23: China EastAsia History Culture (4.00 units)",
+              "sending_course_text": "ENGL 40: Asian Literature (3.00 units)"
+            },
+            {
+              "receiving_course_text": "GSS 25: Middle East History & Culture (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "GSS 26: \u200bSouth Asia History & Culture (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "GSS 27: SE Asia History & Culture (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
