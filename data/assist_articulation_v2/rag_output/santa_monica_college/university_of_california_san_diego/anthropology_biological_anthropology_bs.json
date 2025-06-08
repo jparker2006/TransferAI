@@ -1,0 +1,136 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/6c92f3dd-5a49-43d4-6721-08dca807bc66",
+  "agreement_title": "Anthropology: Biological Anthropology B.S.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. Effective Fall 2019 the UC San Diego Anthropology department will offer a Biological Anthropology B.S. degree. To receive a B.S. degree with a major in Biological Anthropology, students must complete the following courses:Lower Division (10 courses, 40 units)Two courses of general biology (BILD 1, 2)Three courses of general chemistry (Chem 6A, B, C)Three courses of math/stats:Choose two of these courses: Math 10A, B, C or 20A, B, C, andChoose one of these courses: Math 11, Psych 60One course in Anthropology: ANTH 2 (Human Origins)One course in Anthropology or Psychology or Sociology: ANTH 43 (Introduction to the Biology and Culture of Race) or ANTH 42 (Primates in a Human-Dominated World) or ANTH 5 (The Human Machine: Skeleton Within) or SOCI 70 (Sociology for Pre-medical Students) or PSYC 1 (Psychology)"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "ANTH 2: Human Origins (4.00 units)",
+              "sending_course_text": "ANTHRO 1: Biological Anthropology (3.00 units) OR ANTHRO 5: Biological Anthropology with Laboratory (4.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "BILD 1: The Cell (4.00 units)",
+              "sending_course_text": "(BIOL 21: Cell Biology and Evolution (4.00 units) AND BIOL 22: Genetics and Molecular Biology (4.00 units) AND BIOL 23: Organismal and Environmental Biology (5.00 units))"
+            },
+            {
+              "receiving_course_text": "BILD 2: Multicellular Life (4.00 units)",
+              "sending_course_text": "(BIOL 21: Cell Biology and Evolution (4.00 units) AND BIOL 22: Genetics and Molecular Biology (4.00 units) AND BIOL 23: Organismal and Environmental Biology (5.00 units))"
+            }
+          ]
+        },
+        {
+          "section_label": "C",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "CHEM 6A: General Chemistry I (4.00 units)",
+              "sending_course_text": "CHEM 11: General Chemistry I (5.00 units)"
+            },
+            {
+              "receiving_course_text": "CHEM 6B: General Chemistry II (4.00 units)",
+              "sending_course_text": "(CHEM 11: General Chemistry I (5.00 units) AND CHEM 12: General Chemistry II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "CHEM 6C: General Chemistry III (4.00 units)",
+              "sending_course_text": "CHEM 12: General Chemistry II (5.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "D",
+          "section_rule": "Select 2 courses from the following",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 10A: Calculus I (4.00 units)",
+              "sending_course_text": "MATH 7: Calculus 1 (5.00 units) OR MATH 28: Calculus 1 for Business and Social Science (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 10B: Calculus II (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units) OR (MATH 28: Calculus 1 for Business and Social Science (5.00 units) AND MATH 29: Calculus 2 for Business and Social Science (3.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 10C: Calculus III (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "MATH 20A: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "(MATH 7: Calculus 1 (5.00 units) AND MATH 8: Calculus 2 (5.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 20B: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20C: Calculus and Analytic Geometry for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 11: Multivariable Calculus (5.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "E",
+          "section_rule": "Select 1 course from the following",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 11: Calculus Based Elementary Probability and Statistics (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "PSYC 60: Introduction to Statistics (4.00 units)",
+              "sending_course_text": "MATH 54: Elementary Statistics (4.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "F",
+          "section_rule": "Select 1 course from the following",
+          "requirements": [
+            {
+              "receiving_course_text": "ANTH 5: The Human Machine: The Skeleton Within (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "ANTH 42: Primates in a Human-Dominated World (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "ANTH 43: Introduction to Biology and Culture of Race (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "PSYC 1: Psychology (4.00 units)",
+              "sending_course_text": "PSYCH 1: General Psychology (3.00 units)"
+            },
+            {
+              "receiving_course_text": "SOCI 70: General Sociology for Pre-Medical Students (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/2f86691e-4a9a-46fd-a81d-08dca807bc76",
+  "agreement_title": "Finance Minor: Rady School of Management",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their minor before enrolling at UC San Diego. Preparing well for the minor helps students move efficiently toward graduation. Through its curriculum and interactions with faculty and the external business community, the Rady School\u2019s Finance Minor will provide students with an educational experience that emphasizes the sound fundamental financial concepts necessary for success in the industry and for preparing them to begin a challenging and meaningful career upon graduation. A minor in finance can be applied to a broad range of careers, as every industry has a finance function. Courses build skills related to both personal and business financial management. The minor consists of 28 units that provide breadth of content spanning all areas of finance. The Finance Minor develops current knowledge that firms are seeking in areas like sustainable investing, financial modeling and forecasting, private equity and new venture finance, along with sound fundamentals of corporate finance, investment banking, and financial accounting. 1.) All courses applied toward the Finance minor must be taken for a letter grade (C- or better). 2.) MGT 4 Financial Accounting is cross-listed with ECON 4. Either will satisfy the Finance minor requirement. Courses that may be equivalent to MGT/ECON 4, and are not on ASSIST must be petitioned for credit with the Economics Department. 3.) Courses that may be equivalent to MGT 5, and are not on ASSIST must be petitioned for credit with the Rady School of Management. 4.) Information about the accounting minor is also available at our web site: https://rady.ucsd.edu/programs/undergraduate-programs/finance-minor/ 5.) Of the seven (7) total courses are required for the minor, five (5) must be upper-division. Five of the seven courses in the minor must be taken at UCSD."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "PREPARATION FOR THE MINOR",
+      "group_instruction": "Select A or B",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MGT 45: Principles of Accounting (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MGT 4: Financial Accounting (4.00 units) (Same as ECON 4)",
+              "sending_course_text": "ACCTG 1: Introduction to Financial Accounting (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MGT 5: Managerial Accounting (4.00 units)",
+              "sending_course_text": "(ACCTG 1: Introduction to Financial Accounting (5.00 units) AND ACCTG 2: Corporate Financial and Managerial Accounting (5.00 units))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "requirement_area": "PREPARATION FOR THE MINOR",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MGT 12: Personal Financial Management (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

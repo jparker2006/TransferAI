@@ -1,0 +1,50 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/92eae352-6869-4abe-6737-08dca807bc66",
+  "agreement_title": "Political Science/American Politics B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Please visit the Department of Political Science homepage: http://polisci.ucsd.edu. NOTE: Eight areas of concentration are offered.Students are required to take two of the lower-division courses (11-12-13) as well as Political Science 10 and Political Science 30 (PS 30 is not included in the introductory sequence)."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "POLI 10: Introduction to Political Science: American Politics (4.00 units)",
+              "sending_course_text": "POL SC 1: National and California Government (3.00 units)"
+            },
+            {
+              "receiving_course_text": "POLI 11: Introduction to Political Science: Comparative Politics (4.00 units)",
+              "sending_course_text": "POL SC 2: Comparative Government and Politics (3.00 units)"
+            },
+            {
+              "receiving_course_text": "POLI 12: Introduction to Political Science: International Relations (4.00 units)",
+              "sending_course_text": "POL SC 7: International Politics (3.00 units)"
+            },
+            {
+              "receiving_course_text": "POLI 13: Power and Justice (4.00 units)",
+              "sending_course_text": "POL SC 51: Political Philosophy (3.00 units) (Same as PHILOS 51)"
+            },
+            {
+              "receiving_course_text": "POLI 30: Political Inquiry (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

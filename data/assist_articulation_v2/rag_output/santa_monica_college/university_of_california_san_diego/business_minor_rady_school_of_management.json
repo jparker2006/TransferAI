@@ -1,0 +1,82 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/ff8d1a79-3415-469f-a81c-08dca807bc76",
+  "agreement_title": "Business Minor: Rady School of Management",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. The Rady School of Management\u2019s Business Minor is designed to provide students the breadth of understanding of business theory and a depth of ability with business practices and applications. This minor will appeal to students from a variety of different academic pursuits who envision careers that require an understanding of the basic principles and practices of business. Upon graduation, UCSD students with a minor in business will be well prepared to assume entry level positions in the business functions of a vast number of commercial, non-profit and governmental organizations. Having a solid understanding of business principles and practices is a major advantage even for students pursuing careers not immediately identified with business activities such as engineering, science, social sciences, fine arts, health care, education, or public service. With the option of a business minor, a student can major in an area that most interests them, like performing arts, and still be attractive to a wide variety of potential employers. Additionally, graduates pursuing careers not directly related to formal business functions, but still impacted by business practices, will bring a much valued ability to their initial employment. Specific Information about Department Policy: 1.) Of the seven (7) total courses are required for the minor, five (5) must be upper-division. Five of the seven courses in the minor must be taken at UCSD. 2.) All courses applied toward the business minor must be taken for a letter grade (C- or better). 3.) In lieu of taking MGT 45 Principles of Accounting, student may opt to take both MGT/Econ 4 Financial Accounting and MGT 5 Managerial Accounting. Please review the \u201cAccounting Minor: Rady School of Management\u201d page for more information about MGT/Econ 4 and MGT 5 equivalents. 4.) Information about the business minor is also available at our web site: https://rady.ucsd.edu/programs/undergraduate/minors/index.html"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "PREPARATION FOR THE MINOR",
+      "group_instruction": "Complete A",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MGT 16: Personal Ethics at Work (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "requirement_area": "PREPARATION FOR THE MINOR",
+      "group_instruction": "Complete A or B",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MGT 45: Principles of Accounting (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MGT 4: Financial Accounting (4.00 units) (Same as ECON 4)",
+              "sending_course_text": "ACCTG 1: Introduction to Financial Accounting (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MGT 5: Managerial Accounting (4.00 units)",
+              "sending_course_text": "(ACCTG 1: Introduction to Financial Accounting (5.00 units) AND ACCTG 2: Corporate Financial and Managerial Accounting (5.00 units))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 3,
+      "requirement_area": "PREPARATION FOR THE MINOR",
+      "group_instruction": "Complete A",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MGT 71: Business Process and Operations Management (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/e3ffc5ac-127c-482f-6724-08dca807bc66",
+  "agreement_title": "Business Economics B.S : Rady School of Management",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Effective Fall 2022, major preparation will be required for this major. For details, visit: http://admissions.ucsd.edu/MajorPrep Special Advising Note: Transfer students must complete the following preparatory courses for their major before enrolling at UC San Diego: One lower division economics course (Microeconomics OR Macroeconomics), Financial Accounting, Managerial Accounting as well as two required math classes, Math 10A, B or 20A,B. Students are strongly advised to complete the third required math class, Math 10C or 20C, before enrolling at UC San Diego. Students are not able to begin their upper division core economics courses until Math 10C or 20C is complete. The Business Economics major will train students to operate within firms and to understand how firms operate within markets. Training in core economics disciplines (microeconomics, macroeconomics, econometrics) will teach students how firms interact with markets, how economies function, and how to extract insights from data. Training in core business disciplines (accounting, finance, management, marketing, operations, strategy) will teach students how to perform various functions inside businesses. Electives will deepen students' skillsets after core training is complete. With an understanding of economic fundamentals and functions of businesses, students will graduate with the knowledge required for their first day on the job as well as the skills needed to predict and respond effectively to future changes in their industry, the workplace and the world. When choosing which mathematics series to take, Math 10A-B-C or Math 20A-B-C, it is important to remember that only Math 20A-B-C allows students access to UC San Diego\u2019s upper division math courses that are recommended as preparation for Ph.D. study in economics and business administration, as well as for graduate studies for professional management degrees, including the MBA. Therefore, while we require economics majors to take Math 10A-B-C, we strongly recommend that economics students take Math 20A-B-C. For more information please visit https://economics.ucsd.edu/undergraduate-program/index.html"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "Complete A or B",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 20A: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "(MATH 7: Calculus 1 (5.00 units) AND MATH 8: Calculus 2 (5.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 20B: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 20C: Calculus and Analytic Geometry for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 11: Multivariable Calculus (5.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 10A: Calculus I (4.00 units)",
+              "sending_course_text": "MATH 7: Calculus 1 (5.00 units) OR MATH 28: Calculus 1 for Business and Social Science (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 10B: Calculus II (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units) OR (MATH 28: Calculus 1 for Business and Social Science (5.00 units) AND MATH 29: Calculus 2 for Business and Social Science (3.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 10C: Calculus III (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "requirement_area": "",
+      "group_instruction": "Complete A or B",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "ECON 1: Principles of Microeconomics (4.00 units)",
+              "sending_course_text": "ECON 1: Principles of Microeconomics (3.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "ECON 3: Principles of Macroeconomics (4.00 units)",
+              "sending_course_text": "ECON 2: Principles of Macroeconomics (3.00 units)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 3,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "ECON 5: Data Analytics for the Social Sciences (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 4,
+      "requirement_area": "",
+      "group_instruction": "Complete A or B",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MGT 45: Principles of Accounting (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MGT 4: Financial Accounting (4.00 units) (Same as ECON 4)",
+              "sending_course_text": "ACCTG 1: Introduction to Financial Accounting (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MGT 5: Managerial Accounting (4.00 units)",
+              "sending_course_text": "(ACCTG 1: Introduction to Financial Accounting (5.00 units) AND ACCTG 2: Corporate Financial and Managerial Accounting (5.00 units))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 5,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MGT 16: Personal Ethics at Work (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "MGT 71: Business Process and Operations Management (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

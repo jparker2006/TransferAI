@@ -1,0 +1,68 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/a2aa3007-639f-4f1c-a7ff-08dca807bc76",
+  "agreement_title": "Sociology/Economy and Society B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. We offer a comprehensive and unique program in sociology. Our course offerings include sociology of the family, education, business and work, science, law, medicine and society, protest movements, race and ethnic relations, politics, and more. In addition, our faculty has an unusual breadth of expertise in international affairs and in many foreign societies. In our vision, sociology should serve as a key field for addressing problems arising from social inequality in the United States and around the world, the spread of information technology, economic and cultural globalization, the strengthening of nationalist and ethnic identities, the consolidation of new democracies, and the formulation of social policies. We aim to prepare students for graduate study in law, education, sociology, and in other professional and liberal arts programs. We also offer many courses of immediate use in employment, such as statistical analysis, classroom interaction, and social policy. Our department coordinates offerings with related programs on campus, including the Teacher Education Program, Law and Society, Urban Studies, and Ethnic Studies. A total of four lower division courses (SOCI 1, 2, 60 and one lower division elective) are required for the General Sociology major and the seven concentrations. If your community college does not offer a comparable course for the lower division elective requirement we will accept ANY UC transferable Sociology course from the community college. More information regarding the Sociology department, requirements, and major concentrations is available in the UCSD Sociology Department Web page at http://www.sociology.ucsd.edu.NOTE: If your Community College does not offer an articulated course for SOCI 10, 20, 30, 40, or 50, we will accept ANY UC transferable community college Sociology course."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "SOCI 1: Introduction to Sociology (4.00 units)",
+              "sending_course_text": "SOCIOL 1: Introduction to Sociology (3.00 units) OR SOCIOL 1S: Introduction to Sociology-Service Learning (3.00 units)"
+            },
+            {
+              "receiving_course_text": "SOCI 2: The Study of Society (4.00 units)",
+              "sending_course_text": "SOCIOL 2: Social Problems (3.00 units) OR SOCIOL 2S: Social Problems-Service Learning (3.00 units)"
+            },
+            {
+              "receiving_course_text": "SOCI 60: Practice of Social Research (4.00 units)",
+              "sending_course_text": "SOCIOL 4: Social Analysis (3.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "Select 1 course from the following",
+          "requirements": [
+            {
+              "receiving_course_text": "SOCI 10: American Society: Social Structure and Culture in the United States (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "SOCI 20: Social Change in the Modern World (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "SOCI 30: Science, Technology, and Society (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "SOCI 40: Sociology of Health Care Issues (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "SOCI 50: Introduction to Law and Society (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

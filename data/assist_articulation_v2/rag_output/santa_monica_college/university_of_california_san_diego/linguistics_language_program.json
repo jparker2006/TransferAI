@@ -1,0 +1,142 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/2c3a148d-37d9-4dcc-6729-08dca807bc66",
+  "agreement_title": "Linguistics Language Program",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. These are course equivalencies for first year language courses at UC San Diego. Each college has its own language requirement or option. Certain academic departments also have language requirements for majors. Please refer to the UC San Diego General Catalog for specific information. The abbreviation ASL stands for American Sign Language. For more information please visit https://linguistics.ucsd.edu/"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LIAB 1A: Arabic Conversation (2.50 units) AND LIAB 1AX: Analysis of Arabic (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LIAB 1B: Arabic Conversation (2.50 units) AND LIAB 1BX: Analysis of Arabic (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LIAB 1C: Arabic Conversation (2.50 units) AND LIAB 1CX: Analysis of Arabic (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LIAB 1D: Arabic Conversation (2.50 units) AND LIAB 1DX: Analysis of Arabic (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LISL 1A: American Sign Language Conversation (2.50 units) AND LISL 1AX: Analysis of American Sign Language (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LISL 1B: American Sign Language Conversation (2.50 units) AND LISL 1BX: Analysis of American Sign Language (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LISL 1C: American Sign Language Conversation (2.50 units) AND LISL 1CX: Analysis of American Sign Language (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LISL 1D: American Sign Language Conversation (2.50 units) AND LISL 1DX: Analysis of American Sign Language (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LIFR 1A: French Conversation (2.50 units) AND LIFR 1AX: Analysis of French (2.50 units)",
+              "sending_course_text": "(FRENCH 1: Elementary French I (5.00 units) AND FRENCH 2: Elementary French II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "LIFR 1B: French Conversation (2.50 units) AND LIFR 1BX: Analysis of French (2.50 units)",
+              "sending_course_text": "(FRENCH 1: Elementary French I (5.00 units) AND FRENCH 2: Elementary French II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "LIFR 1C: French Conversation (2.50 units) AND LIFR 1CX: Analysis of French (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LIFR 1D: French Conversation (2.50 units) AND LIFR 1DX: Analysis of French (2.50 units)",
+              "sending_course_text": "FRENCH 3: Intermediate French I (5.00 units)"
+            },
+            {
+              "receiving_course_text": "LIGM 1A: German Conversation (2.50 units) AND LIGM 1AX: Analysis of German (2.50 units)",
+              "sending_course_text": "(GERMAN 1: Elementary German I (5.00 units) AND GERMAN 2: Elementary German II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "LIGM 1B: German Conversation (2.50 units) AND LIGM 1BX: Analysis of German (2.50 units)",
+              "sending_course_text": "(GERMAN 1: Elementary German I (5.00 units) AND GERMAN 2: Elementary German II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "LIGM 1C: German Conversation (2.50 units) AND LIGM 1CX: Analysis of German (2.50 units)",
+              "sending_course_text": "(GERMAN 1: Elementary German I (5.00 units) AND GERMAN 2: Elementary German II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "LIGM 1D: German Conversation (2.50 units) AND LIGM 1DX: Analysis of German (2.50 units)",
+              "sending_course_text": "GERMAN 3: Intermediate German I (5.00 units)"
+            },
+            {
+              "receiving_course_text": "LIIT 1A: Italian Conversation (2.50 units) AND LIIT 1AX: Analysis of Italian (2.50 units)",
+              "sending_course_text": "(ITAL 1: Elementary Italian I (5.00 units) AND ITAL 2: Elementary Italian II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "LIIT 1B: Italian Conversation (2.50 units) AND LIIT 1BX: Analysis of Italian (2.50 units)",
+              "sending_course_text": "(ITAL 1: Elementary Italian I (5.00 units) AND ITAL 2: Elementary Italian II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "LIIT 1C: Italian Conversation (2.50 units) AND LIIT 1CX: Analysis of Italian (2.50 units)",
+              "sending_course_text": "(ITAL 1: Elementary Italian I (5.00 units) AND ITAL 2: Elementary Italian II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "LIIT 1D: Italian Conversation (2.50 units) AND LIIT 1DX: Analysis of Italian (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LIPO 1A: Portuguese Conversation (2.50 units) AND LIPO 1AX: Analysis of Portuguese (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LIPO 1B: Portuguese Conversation (2.50 units) AND LIPO 1BX: Analysis of Portuguese (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LIPO 1C: Portuguese Conversation (2.50 units) AND LIPO 1CX: Analysis of Portuguese (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LIPO 1D: Portuguese Conversation (2.50 units) AND LIPO 1DX: Analysis of Portuguese (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LISP 1A: Spanish Conversation (2.50 units) AND LISP 1AX: Analysis of Spanish (2.50 units)",
+              "sending_course_text": "(SPAN 1: Elementary Spanish I (5.00 units) AND SPAN 2: Elementary Spanish II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "LISP 1B: Spanish Conversation (2.50 units) AND LISP 1BX: Analysis of Spanish (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LISP 1C: Spanish Conversation (2.50 units) AND LISP 1CX: Analysis of Spanish (2.50 units)",
+              "sending_course_text": "(SPAN 1: Elementary Spanish I (5.00 units) AND SPAN 2: Elementary Spanish II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "LISP 1D: Spanish Conversation (2.50 units) AND LISP 1DX: Analysis of Spanish (2.50 units)",
+              "sending_course_text": "SPAN 3: Intermediate Spanish I (5.00 units)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

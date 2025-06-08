@@ -1,0 +1,50 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/b9a226c7-c515-4ce3-a826-08dca807bc76",
+  "agreement_title": "Theatre and Dance B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. \ufeffThe double major in Theatre and Dance provides students with a solid academic base and an artistic base in both theatre and dance disciplines. Furthermore, requirements for this double major will create stronger and more experienced directors (for their exposure to choreography), choreographers (for their exposure to directing), actors (for the poise and strength they will attain from dance, and dancers (for having confronted text and character). Students should meet with the department's undergraduate coordinator as soon as practical (but no later than the quarter in which they declare the major) in order to plan an appropriate individual course of study. Double majors should complete the Petition for Double Major form obtained from their college and submit it to the department for review and approval. For more information please visit https://theatre.ucsd.edu/admissions/undergraduate/double-major.html"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "TDAC 1: Introduction to Acting (4.00 units)",
+              "sending_course_text": "TH ART 41: Acting I (3.00 units)"
+            },
+            {
+              "receiving_course_text": "TDDM 1: Introduction to Dance Making (4.00 units)",
+              "sending_course_text": "(DANCE 60: Fundamentals of Choreography: Dance Improvisation (2.00 units) AND DANCE 61: Fundamentals of Choreography: Composition 1 (2.00 units))"
+            },
+            {
+              "receiving_course_text": "TDDE 1: Introduction to Design for the Theatre (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "TDPR 6: Theatre Practicum (4.00 - 6.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "TDPW 1: Introduction to Playwriting (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

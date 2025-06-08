@@ -1,0 +1,54 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/b62314bd-6c36-4349-a7f9-08dca807bc76",
+  "agreement_title": "Education Sciences B.S.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "Our Bachelor of Science will provide you with opportunities to explore the complex social, psychological, economic, historical, political, and cultural issues that impact our lives. Our overarching mission is to provide the resources for you to combine interactive academic coursework, hands-on service-learning experiences, and a deep understanding about the relationship between research and educational issues. You will reflect deeply on underlying educational principles and gain the insight needed to become advocates for equity and social justice within our society. Students are guided to develop an understanding of research and theory within the realities of practice and to use practice to reevaluate both research and theory. The B.S. in Education Sciences provides interdisciplinary opportunities for undergraduate students. Graduates are prepared for careers in the global knowledge economy, with opportunities to apply learning modalities and technologies in multicultural contexts. The major in Education Sciences provides a foundation for the study of education, focused on four domains. These include: Education in a Diverse Society Learning and Development Introduction to Learning ContextsEducational Research and EvaluationStudents are also encouraged to pick an area of focus, and may choose from the upper-division electives listed. Students may define their own area of focus, selecting from courses offered by EDS and other related departments with department approval. Graduates may choose from career opportunities such as: Public EducationPublic HealthHigher EducationEducational PolicyNon-Profit OrganizationsCurriculum DevelopmentMany graduates will pursue advanced degrees leading to teacher credentialing or educational research. Graduates may also pursue careers in public education supporting students through counseling, school psychology, or student affairs. For more information please visit http://educationstudies.ucsd.edu/"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "LOWER DIVISION REQUIREMENTS",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "Select 1 course from the following",
+          "requirements": [
+            {
+              "receiving_course_text": "EDS 30: Introduction to Math Teaching (2.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "EDS 31: Introduction to Teaching Science (2.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "EDS 38: Explorations in Education (2.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "EDS 39: Explorations in Secondary STEM Education (2.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "HDS 1: Introduction to Human Developmental Sciences (4.00 units)",
+              "sending_course_text": "This course must be taken at the university after transfer"
+            },
+            {
+              "receiving_course_text": "SOCI 60: Practice of Social Research (4.00 units)",
+              "sending_course_text": "SOCIOL 4: Social Analysis (3.00 units)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
