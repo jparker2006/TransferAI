@@ -12,11 +12,15 @@
       ],
       "c_id": "GEOG 110",
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, non-lab)",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum credit allowed for GEOG 1 and GEOG 5 is one course (4 units)."
+      ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum credit allowed for GEOG 1 and GEOG 5 is one course (4 units). This course surveys the distribution and relationships of environmental elements in our atmosphere, lithosphere, hydrosphere and biosphere, including weather, climate, water resources, landforms, soils, natural vegetation, and wildlife. Focus is on the systems and cycles of our natural world, including the effects of the sun and moon on environmental processes, and the roles played by humans.",
+      "description": "This course surveys the distribution and relationships of environmental elements in our atmosphere, lithosphere, hydrosphere and biosphere, including weather, climate, water resources, landforms, soils, natural vegetation, and wildlife. Focus is on the systems and cycles of our natural world, including the effects of the sun and moon on environmental processes, and the roles played by humans.",
       "same_as": null,
       "sections": [
         {
@@ -50,7 +54,9 @@
       "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is a study of humanity and its planetary home of distinctive places, spaces, landscapes, and environments. The course systematically considers geographic patterns, processes, and issues, beginning with the basic questions of Where? and Why There? Specific topics examined include human population change and migration; agriculture and food systems; urban-economic development; cultural and environmental change in an age of globalization, with specific attention paid to language, religion, ethnic identity, and biodiversity; and international geopolitics.",
       "same_as": null,
@@ -103,7 +109,9 @@
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, non-lab)",
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is a survey of the earth’s atmosphere, with special reference to the causes and regional distribution of weather and climate. The nature and causes of winds, clouds, precipitation, and severe storms are studied. Students will learn techniques of local weather observation and prediction.",
       "same_as": null,
@@ -128,7 +136,7 @@
             "Above section 2323 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -160,11 +168,15 @@
       ],
       "c_id": "GEOG 115",
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum credit allowed for GEOG 1 and GEOG 5 is one course (4 units)."
+      ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum credit allowed for GEOG 1 and GEOG 5 is one course (4 units). This course surveys the distribution and relationships of environmental elements in our atmosphere, lithosphere, hydrosphere and biosphere, including weather, climate, water resources, landforms, soils, natural vegetation, and wildlife. Focus is on the systems and cycles of our natural world, including the effects of the sun and moon on environmental processes, and the roles played by humans. Laboratory work emphasizes the practical application of concepts presented in lecture, introduces the student to some of the tools and methods used in Physical Geography, and may include field study opportunities.",
+      "description": "This course surveys the distribution and relationships of environmental elements in our atmosphere, lithosphere, hydrosphere and biosphere, including weather, climate, water resources, landforms, soils, natural vegetation, and wildlife. Focus is on the systems and cycles of our natural world, including the effects of the sun and moon on environmental processes, and the roles played by humans. Laboratory work emphasizes the practical application of concepts presented in lecture, introduces the student to some of the tools and methods used in Physical Geography, and may include field study opportunities.",
       "same_as": null,
       "sections": [
         {
@@ -201,10 +213,10 @@
             }
           ],
           "notes": [
-            "Above section 2326 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/ scholars for more information."
+            "Above section 2326 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -227,7 +239,7 @@
             "Above section 2327 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -263,7 +275,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This introductory course will use an interdisciplinary approach to provide students with a broad perspective on environmental problems and solutions. Students will be introduced to the strategies used by scientists, economists, political analysts, and other writers and researchers to investigate and analyze environmental and urban issues, human/nature relationships, natural and built environments, and environmental citizenship.",
       "same_as": "ENVRN 7",
@@ -285,11 +299,10 @@
             }
           ],
           "notes": [
-            "Above section 2329 meets for 8 weeks, Sep 08 to Oct 20, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 2329 meets for 8 weeks, Sep 08 to Oct 20, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "8 weeks, Sep 08 to Oct 20",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -306,7 +319,9 @@
       "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course introduces students to the multi-disciplinary study of urban society and space. Cities are examined both as complex social-economic groupings of people, and as material landscapes of buildings, pathways, and public and private spaces. Attention is paid to what cities are and have been (the evolving urban experience of the past and present) as well as to ever-changing ideas about what cities should be (urban planning and design for the future). While the overall perspective of the course is global, its primary focus is on the cities of North America and, in particular, the Los Angeles metropolitan area. This emphasis is evident both in the classroom and in field trips or other assignments that ask students to apply classroom ideas to our local urban setting.",
       "same_as": "URBAN 8",
@@ -331,7 +346,7 @@
             "Above section 2330 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -350,9 +365,11 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "GLOBAL STUDIES 3 UNITS This course introduces Global Studies through a survey of the world’s major geographic regions. Students will encounter core concepts related to processes of global connection and change, while also developing basic geographic literacy in the distribution of human and natural features on Earth. Students will examine and discuss significant issues — cultural, social, political-economic, and environmental — impacting humanity today as both problem and possibility. In particular, this course considers the diverse localized impacts of globalization as a continuing story of peoples and places isolated and connected by imperial, colonial, and international systems of the past and present.",
+      "description": "This course introduces Global Studies through a survey of the world’s major geographic regions. Students will encounter core concepts related to processes of global connection and change, while also developing basic geographic literacy in the distribution of human and natural features on Earth. Students will examine and discuss significant issues — cultural, social, political-economic, and environmental — impacting humanity today as both problem and possibility. In particular, this course considers the diverse localized impacts of globalization as a continuing story of peoples and places isolated and connected by imperial, colonial, and international systems of the past and present.",
       "same_as": "GLOBAL 11",
       "sections": [
         {
@@ -388,7 +405,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course surveys the physical and human geography of California and the process shaping its landscapes. Topics include natural features and resources, such as geology, climate, plants and animals, and hydrology. Historical and current trends in human population, migration, and settlement patterns are considered, including a review of the state’s major cultural groups. Primary and advanced economic activities are examined within modern rural and urban settings. Emphasis is on the profound connections between these topics, on California’s unequaled diversity, and the rapid change that is transforming our people and its landscapes.",
       "same_as": null,
@@ -424,7 +443,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "same course as CIS 20",
       "description": "GIS are computer-based systems used to collect, store and analyze geographic information. This course will present the concepts of Geographic Information Systems (GIS) science and its applications to spatial data management. Topics include: Identification and acquisition of GIS data; Assessment of vector and raster data, scale, resolution, map projection, coordinate systems, georeferencing and Global Positioning Systems (GPS). Spatial analysis and modeling with GIS will also be presented.",
       "same_as": "GIS 20",
@@ -459,7 +480,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course introduces students to the basic concepts of remote sensing, characteristics of remote sensors, and remote sensing applications in academic disciplines and professional industries. Emphases are placed on remote sensing data acquisition; digital image processing and interpretation. The course is designed for students interested in the Earth Observing System, environmental monitoring techniques, and image analysis.",
       "same_as": "GIS 26",

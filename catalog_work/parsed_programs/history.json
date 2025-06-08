@@ -14,7 +14,9 @@
       "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course surveys the development of Western Civilization from its beginnings in the valleys of the Tigris-Euphrates and Nile Rivers to Europe of the 16th century. It addresses cultures of the Near East, Greece, and Rome; the medieval period; the Renaissance; and the Reformation, introducing the social, economic, political, intellectual, and artistic transformations that shaped what came to be known as the West.",
       "same_as": null,
@@ -36,12 +38,11 @@
             }
           ],
           "notes": [
-            "Above section 2359 is a hybrid class taught online via the Internet",
-            "and at the Malibu Campus, 23555 Civic Center Way, Malibu.",
-            "vary depending on time of day and mode of transportation. For additional information, go to smc.edu/OnlineEd."
+            "Above section 2359 is a hybrid class taught online via the Internet and at the Malibu Campus, 23555 Civic Center Way, Malibu. Please be advised that the distance between the SMC Main Campus and the Malibu Campus is approximately 15 miles.",
+            "Please plan your schedule to accommodate travel time, which will vary depending on time of day and mode of transportation. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -180,11 +181,10 @@
             }
           ],
           "notes": [
-            "Above section 2367 meets for 12 weeks, Sep 22 to Dec 10, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 2367 meets for 12 weeks, Sep 22 to Dec 10, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 22 to Dec 10",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -201,7 +201,9 @@
       "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course surveys the transformations of Western Civilization from the 16th century into the 21st century. It addresses social, economic, political, intellectual, and artistic transformations that relate to the development of nation-states, industrialization, imperialism, and international conflicts and migration.",
       "same_as": null,
@@ -251,9 +253,7 @@
             }
           ],
           "notes": [
-            "Above section 2370 is part of the Scholars Program and enrollment",
-            "is temporarily limited to program participants. See the Special",
-            "Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is Flexible."
+            "Above section 2370 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -341,7 +341,9 @@
       "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course surveys the development of British Civilization from Roman times to the Restoration of 1660. It addresses the significant social, economic, political, intellectual, and artistic transformations that shaped British and Irish history, from Roman occupation through the medieval period and the political and religious upheavals of the English Reformation, Civil Wars, and Restoration.",
       "same_as": null,
@@ -379,7 +381,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course surveys modern Latin American history from independence to the present. Using a thematic and chronological approach, it addresses post-colonial developments in Mexico, Central and South America, and the Caribbean, including such topics as the social and cultural challenges of nation-building and economic growth through periods of political conflict to contemporary globalization.",
       "same_as": null,
@@ -417,7 +421,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course surveys ethnic groups in America from precontact to the present, including Native Americans, European Americans, African Americans, Asian Americans, and Latinos, emphasizing the forces prompting emigration and immigration, their roles in shaping American society and culture, their reception by and adaptation to American society, as well as an examination of contending theoretical models of the immigrant experience in America.",
       "same_as": null,
@@ -619,11 +625,13 @@
         "UC",
         "CSU"
       ],
-      "c_id": "HIST 140",
+      "c_id": "HIST 130",
       "cal_getc_area": "Cal-GETC Area 3B (Humanities) OR Area 4 (Social & Behavioral Sciences)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course surveys the United States from the colonial period through post-Civil War Reconstruction, addressing developments in American culture; ethnic, racial, gender, and class relations; politics; and the economy. It also considers American interaction with other nations, including both foreign policy and the relationship of domestic developments to the larger history of the modern world.",
       "same_as": null,
@@ -662,12 +670,11 @@
             }
           ],
           "notes": [
-            "Above section 2389 is a hybrid class taught online via the Internet",
-            "and at the Malibu Campus, 23555 Civic Center Way, Malibu.",
-            "vary depending on time of day and mode of transportation. For additional information, go to smc.edu/OnlineEd."
+            "Above section 2389 is a hybrid class taught online via the Internet and at the Malibu Campus, 23555 Civic Center Way, Malibu. Please be advised that the distance between the SMC Main Campus and the Malibu Campus is approximately 15 miles.",
+            "Please plan your schedule to accommodate travel time, which will vary depending on time of day and mode of transportation. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -766,14 +773,33 @@
             }
           ],
           "notes": [
-            "Above section modality is Flexible.",
-            "politics; and the economy. It also considers American interaction with other nations, including both foreign policy and the",
-            "relationship of domestic developments to the larger history of the modern world."
+            "Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
           "co_enrollment_with": null
-        },
+        }
+      ]
+    },
+    {
+      "course_code": "HIST 12",
+      "course_title": "THE UNITED STATES HISTORY SINCE RECONSTRUCTION",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "HIST 140",
+      "cal_getc_area": "Cal-GETC Area 3B (Humanities) OR Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course surveys the United States from post-Civil War Reconstruction to the present, addressing developments in American culture; ethnic, racial, gender, and class relations; politics; and the economy. It also considers American interaction with other nations, including both foreign policy and the relationship of domestic developments to the larger history of the modern world.",
+      "same_as": null,
+      "sections": [
         {
           "section_number": "2396",
           "schedule": [
@@ -785,10 +811,7 @@
             }
           ],
           "notes": [
-            "Above section 2396 is part of the Black Collegians program",
-            "though enrollment is open to all students. See the Special",
-            "Programs section of the class schedule or smc.edu/blackcollegians",
-            "for more information. Above section modality is On Ground."
+            "Above section 2396 is part of the Black Collegians program though enrollment is open to all students. See the Special Programs section of the class schedule or smc.edu/blackcollegians for more information. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -929,7 +952,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course surveys the environmental history of the United States from earliest human migration to the present, focusing on the complex and consequential ways people have perceived, relied on, interacted with, and been impacted by the natural world. Topics include diverse patterns of interaction with land, water, plants, animals, and energy sources, as well as the economic, political, social, cultural, technological and global aspects of these patterns.",
       "same_as": "ENVRN 14",
@@ -965,7 +990,9 @@
       "cal_getc_area": "Cal-GETC Area 3B (Humanities) OR Area 4 (Social & Behavioral Sciences)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is a chronological study of American economic history by major areas, including agriculture, industrial development, money, banking, and transportation. The roles of business, labor, and government are given a particular emphasis.",
       "same_as": "ECON 15",
@@ -1001,7 +1028,9 @@
       "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course surveys African-American history from its beginnings in Africa through slavery, abolition, the Civil Rights movement, and into the present. The course will pay particular attention to the development of internal and external definitions of freedom and equality and to the influences of African Americans on the social, economic, political, and cultural development of the United States.",
       "same_as": null,
@@ -1017,10 +1046,7 @@
             }
           ],
           "notes": [
-            "Above section 2407 is part of the Black Collegians program",
-            "though enrollment is open to all students. See the Special",
-            "Programs section of the class schedule or smc.edu/blackcollegians",
-            "for more information. Above section modality is On Ground."
+            "Above section 2407 is part of the Black Collegians program though enrollment is open to all students. See the Special Programs section of the class schedule or smc.edu/blackcollegians for more information. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1040,7 +1066,9 @@
       "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course surveys the history of the Middle East, from the ancient civilizations of the Tigris-Euphrates river valley to the present. Major topics include the religious, ethnic, social and political differences that developed prior to and since the emergence of Islam; the establishment of new states following the world wars, and the 21st-century engagement with globalizing trends.",
       "same_as": null,
@@ -1076,7 +1104,9 @@
       "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course surveys East Asian history to 1600, tracing the rise of classical Chinese civilization and the subsequent dispersion of this culture to Korea and Japan. Addressing the connections, convergences, and divergences in the histories of China, Japan, and Korea, it examines such topics as the earliest stateformations and the emergence and maturation of market economies and popular cultures prior to the modern era.",
       "same_as": null,
@@ -1112,7 +1142,9 @@
       "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course examines the domestic and global politics of and between European states since 1914, exploring such topics as nationalism, imperialism, totalitarianism, decolonization, migrations, and European integration. The course will analyze these topics in relation to major events of the time period, including the World Wars, formation and collapse of the Soviet Union and its satellite system, creation of the European Union, and disputes and cooperation between European states in the contemporary era of globalization.",
       "same_as": null,
@@ -1150,7 +1182,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course surveys global environmental history from early human evolution to the present, focusing on the complex and consequential ways people have perceived, relied on, interacted with and been impacted by the natural world. Topics include the diverse patterns of interaction with land, water, plants, animals, and energy sources, as well as their economic, political, social, cultural, and technological aspects in the local, regional, and global context.",
       "same_as": "ENVRN 32",
@@ -1186,7 +1220,9 @@
       "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course surveys world history from the rise of humanity to 1500, addressing human impact on the physical environment, the domestication of plants and animals, and the establishment of complex cultures. A thematic and chronological approach is used to examine the major civilizations of Africa, Asia, the Middle East, the Americas, and Europe in terms of their political, social, economic, intellectual, and cultural development and their inter-regional relations.",
       "same_as": null,
@@ -1224,7 +1260,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course surveys world history from 1500 to the present, addressing major developments that contributed to global change. A thematic and chronological approach will be used to examine the economic, social, intellectual, cultural, and political transformations associated with development of and resistance to colonialism and imperialism, technological and industrial change in Africa, the Americas, Asia, Europe, and the Middle East, through the twentieth-century wars and global transitions that shape the contemporary world.",
       "same_as": null,
@@ -1260,7 +1298,9 @@
       "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course surveys Native-American history from earliest settlement to the present, addressing such topics as colonial-era interactions with Europeans, the development of U.S. Indian policy, and the effort to reclaim sovereign rights. Focusing primarily on native peoples of the United States, this course pays particular attention to the development of internal and external definitions of freedom and equality and to the influence of Native Americans on the social, economic, political, and cultural development of America.",
       "same_as": null,
@@ -1296,7 +1336,9 @@
       "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course surveys the history of the US Southwest from Native-American settlement through the periods of foreign colonization and conquest to contemporary times. Focusing primarily on Mexican Americans in this border region and, more currently, throughout the nation, the course pays particular attention to the development of internal and external definitions of freedom and equality and to the influence of Mexican Americans on the social, economic, political, and cultural development of America.",
       "same_as": null,
@@ -1312,9 +1354,7 @@
             }
           ],
           "notes": [
-            "Above section modality is On Ground. Above section 2415 is",
-            "part of the Adelante program though enrollment is open to all",
-            "students. See the Special Programs section of the class schedule or smc.edu/latinocenter for more information."
+            "Above section modality is On Ground. Above section 2415 is part of the Adelante program though enrollment is open to all students. See the Special Programs section of the class schedule or smc.edu/latinocenter for more information."
           ],
           "duration": null,
           "modality": "On Ground. Above section 2415 is",
@@ -1331,10 +1371,12 @@
         "CSU"
       ],
       "c_id": null,
-      "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course surveys LGBTQ US history from the pre-contact era to the present. It examines gender and sexuality, especially the emergence of gender ideologies and sexual identities, as they intersect with race, ethnicity, class, and citizenship. Definitions and transformations of these ideologies and identities will be examined through colonization, industrialization, westward expansion, immigration, urbanization, modernization of science and medicine, war, and civil rights and liberation movements. The course will pay particular attention to LGBTQ Americans’ influence on the social, economic, political, and cultural development of the United States.",
       "same_as": null,
@@ -1350,15 +1392,33 @@
             }
           ],
           "notes": [
-            "Above section modality is Flexible.",
-            "religion from prehistoric times to the present. Analyzing the",
-            "essential principles and global historical context of such religions as Buddhism, Taoism, Confucianism, Shinto, Hinduism,",
-            "religions, it addresses the cultural, political, social and other roles religion has played throughout history."
+            "Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
           "co_enrollment_with": null
-        },
+        }
+      ]
+    },
+    {
+      "course_code": "HIST 53",
+      "course_title": "THE HISTORY OF RELIGION",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course surveys major themes and trends in the history of religion from prehistoric times to the present. Analyzing the essential principles and global historical context of such religions as Buddhism, Taoism, Confucianism, Shinto, Hinduism, Judaism, Christianity, Islam, and tribal and contemporary religions, it addresses the cultural, political, social and other roles religion has played throughout history.",
+      "same_as": null,
+      "sections": [
         {
           "section_number": "2417",
           "schedule": [

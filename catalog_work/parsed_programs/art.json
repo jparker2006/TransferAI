@@ -13,7 +13,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course will be an overview of the field of exhibitions and display including Fine Art Galleries, Museums, and Cultural Institutions. Focus will be on understanding the various roles of exhibitions & display in contemporary society as well as the many ways to create and implement them. Students will be given an overview of exhibition planning & implementation including the creation of didactic materials, learning guides, and workshops in conjunction with the exhibitions. This will be a hands-on course, directly connected to, and correlated with exhibition and display at the college.",
       "same_as": null,
@@ -48,7 +50,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course introduces exhibition and display practices through hands-on experience in planning and installing exhibitions and display at Santa Monica College. This course will introduce the basic skills of exhibition production and display including: handling & preparing of art objects, planning and building out exhibition designs, and proper installation. The course will also introduce and explores jobs and careers in the field. Students will have the opportunity to directly participate in the creation of an exhibition and/or display at SMC.",
       "same_as": null,
@@ -83,9 +87,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "ACTIVATION, AND MANAGEMENT 3 UNITS This course offers an opportunity to utilize an existing exhibition and display at the college and how to activate it and connect it to the communities it can serve. Students will develop an understanding of and responsibility for exhibition planning, research, operation, and management of exhibition spaces and introduces the creation of educational materials. There will also be opportunities to plan events and coordinate activities around the exhibition/display along with appropriate web content that can be accessed remotely.",
+      "description": "This course offers an opportunity to utilize an existing exhibition and display at the college and how to activate it and connect it to the communities it can serve. Students will develop an understanding of and responsibility for exhibition planning, research, operation, and management of exhibition spaces and introduces the creation of educational materials. There will also be opportunities to plan events and coordinate activities around the exhibition/display along with appropriate web content that can be accessed remotely.",
       "same_as": null,
       "sections": [
         {
@@ -119,7 +125,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This is an introductory course in the theory and application of the elements of 2-D design. Assignments will focus on the following design principles: line, value, form, scale, light, logic, space, depth, texture, pattern, composition and color theory. This course is required for all art majors.",
       "same_as": null,
@@ -144,7 +152,7 @@
             "Above section 1183 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -207,7 +215,7 @@
             "Above section 1186 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -270,7 +278,7 @@
             "Above section 1189 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -381,11 +389,10 @@
             }
           ],
           "notes": [
-            "Above section 1195 meets for 12 weeks, Sep 26 to Dec 12, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1195 meets for 12 weeks, Sep 26 to Dec 12, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 26 to Dec 12",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -402,7 +409,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This studio course focuses on research based design principles and their application in real world scenarios. Critical design thinking is considered in the context of the arts, mass media, social sciences, ecology, architecture, and interactive systems.",
       "same_as": null,
@@ -455,7 +464,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 10A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 10A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is a continuation of the theory and application of the principles and elements of fine art and design on the computer. Introducing the basics of computer operation for digital imaging applications, scanner technologies, and learning how to apply visual design concepts with digital media. This course serves as preparation for further study in the computer arts by providing an overview of theoretical issues related to the use of computers in fine art disciplines. Studio projects focus on integrating visual design principles with digital imaging technology and personal expression.",
       "same_as": null,
@@ -511,11 +522,10 @@
             }
           ],
           "notes": [
-            "Above section 1200 meets for 12 weeks, Sep 24 to Dec 10, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1200 meets for 12 weeks, Sep 24 to Dec 10, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 24 to Dec 10",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -549,7 +559,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is an introduction to historical references, conceptual ideas, and hands on applications related to threedimensional design. Students in this class will look at spatial composition, along with organizing principles and elements of design as they apply to space and form. Students are invited to experiment with new materials, cutting edge technology, and critical dialogues in order to develop their own visual vocabulary for creative expression. The class will have regular lectures, practices with work space organization for exhibitions, and a sense of play in the use of materials for non-representational three-dimensional studio projects. This course is spirited and experimental.",
       "same_as": null,
@@ -635,7 +647,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 10A and ART 20A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 10A and ART 20A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course explores jewelry design and silversmithing as an art form and includes both fabricating and lost-wax casting techniques.",
       "same_as": null,
@@ -652,7 +666,8 @@
           ],
           "notes": [
             "Above section 1205 meets at the Airport Arts Campus, 2800",
-            "Airport Avenue, Santa Monica Airport. Above section modality is"
+            "Airport Avenue, Santa Monica Airport. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,
@@ -671,7 +686,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 17A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 17A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is a continuation of jewelry fabrication and casting, emphasizing the expressive use of non-ferrous metal construction techniques including chain making, surface embellishments, alternative casting, and hollow container construction.",
       "same_as": null,
@@ -688,7 +705,8 @@
           ],
           "notes": [
             "Above section 1206 meets at the Airport Arts Campus, 2800",
-            "Airport Avenue, Santa Monica Airport. Above section modality is"
+            "Airport Avenue, Santa Monica Airport. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,
@@ -708,7 +726,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This fundamental course is focused on representational drawing and composition using various black and white media. Introduction to principles, elements, and practices of drawing, employing a wide range of subject matter and drawing media. Focus on perceptually based drawing, observational skills, technical abilities, and creative responses to materials and subject matter.",
       "same_as": null,
@@ -750,7 +770,7 @@
             "Above section 1208 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -770,12 +790,11 @@
             }
           ],
           "notes": [
-            "Above section 1209 is a hybrid class taught online via the Internet",
-            "and at the Malibu Campus, 23555 Civic Center Way, Malibu.",
-            "vary depending on time of day and mode of transportation. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1209 is a hybrid class taught online via the Internet and at the Malibu Campus, 23555 Civic Center Way, Malibu. Please be advised that the distance between the SMC Main Campus and the Malibu Campus is approximately 15 miles.",
+            "Please plan your schedule to accommodate travel time, which will vary depending on time of day and mode of transportation. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -815,7 +834,7 @@
             "Above section 1212 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -903,11 +922,10 @@
             }
           ],
           "notes": [
-            "Above section 1217 meets for 12 weeks, Sep 26 to Dec 12, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1217 meets for 12 weeks, Sep 26 to Dec 12, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 26 to Dec 12",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -927,11 +945,10 @@
             }
           ],
           "notes": [
-            "Above section 1218 meets for 12 weeks, Sep 27 to Dec 13, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1218 meets for 12 weeks, Sep 27 to Dec 13, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 27 to Dec 13",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -951,11 +968,10 @@
             }
           ],
           "notes": [
-            "Above section 1219 meets for 12 weeks, Sep 22 to Dec 08, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1219 meets for 12 weeks, Sep 22 to Dec 08, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 22 to Dec 08",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -989,7 +1005,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 20A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 20A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is a continuation of Art 20A with emphasis on color, the compositional aspects of drawing, advanced integration of basic drawing principles, and the development of individual expression. Exploration of artistic concepts, styles, and creative expression related to intermediate-level drawing, focusing on complex subject matter and concepts using a variety of drawing mediums, techniques, and methodologies. Students in this course will build on fundamental drawing skills to develop personalized approaches to content and materials in exercises covering multiple historical and contemporary approaches to drawing.",
       "same_as": null,
@@ -1062,11 +1080,10 @@
             }
           ],
           "notes": [
-            "Above section 1223 meets for 12 weeks, Sep 26 to Dec 12, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1223 meets for 12 weeks, Sep 26 to Dec 12, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 26 to Dec 12",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -1083,7 +1100,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 20A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 20A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course focuses on study of the human figure through drawing utilizing observation, anatomy, and spatial structure. Beginning with proportions, volumes and gesture, drawing from the live model with class demonstrations the students will learn to identify the main landmarks of the body, the skeletal structure and the muscles of the human body. The lecture portion of the course will focus on Descriptive Anatomy directed toward artistic purposes and connected theoretical concepts, the studio portion of the course is focused toward the practical application of these notions and concepts making them directly relevant to the students that will start immediately applying them toward the practice of drawing the human figure. Various drawing techniques will also be practiced in the Studio portion of the course.",
       "same_as": null,
@@ -1162,11 +1181,10 @@
             }
           ],
           "notes": [
-            "Above section 4018 meets for 12 weeks, Sep 23 to Dec 09, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 4018 meets for 12 weeks, Sep 23 to Dec 09, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 23 to Dec 09",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -1183,7 +1201,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 21A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 21A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "Drawing from the human figure is an enjoyable and powerful exploration into the cultural context of one’s own world. This course provides intermediate instruction in drawing the human figure from the live model for students building a portfolio of figure drawings. This course builds on ART 21A, and focuses on more in depth study of the human figure through drawing. A broader range of materials will be introduced, including the use of color with continued emphasis on observation, anatomy, and spatial structure.",
       "same_as": null,
@@ -1222,11 +1242,10 @@
             }
           ],
           "notes": [
-            "Above section 4019 meets for 12 weeks, Sep 23 to Dec 09, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 4019 meets for 12 weeks, Sep 23 to Dec 09, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 23 to Dec 09",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -1242,7 +1261,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "The figure continues to be one of the most important and enduring subjects for art. This course provides advanced instruction in drawing the human figure from the live model for students building a portfolio of figure drawings. This course focuses on in-depth study of the human figure through drawing. A broad range of materials will be utilized, including the use of color with continued emphasis on observation, anatomy, and spatial structure. In order to help students build a portfolio of figure drawings for transfer or to help find work in one of the many fields that require figure drawing, this course moves beyond observation and emphasizes creative, conceptual, & theoretical development. This course provides advanced instruction in drawing the human figure from the live model as well of use of the figure in work that students create. Emphasis will be on developing self-directed student work. Course exercises will cover advanced surface musculature and skeletal anatomy, but will also develop students’ repertoire of medias and deepen exploration of the figure in drawing. Students will produce drawings in multiple medias and colored drawings.",
       "same_as": null,
@@ -1278,7 +1299,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 10A or ART 20A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 10A or ART 20A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This is an introductory course to water media painting with emphasis on watercolor technique, composition, and formal theory. A spectrum of wash, glaze, and gouache techniques are explored using principles of color theory, composition, and space building concepts.",
       "same_as": null,
@@ -1331,7 +1354,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 10A or ART 20A or ART 30A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 10A or ART 20A or ART 30A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "In this advanced watercolor class students will further their knowledge and research about the principles, and practices of painting with watercolor. There is a focus on exploration of watercolor materials, perceptual skills and color theory, paint mixing and technique, as well as creative responses to materials and subject matter.",
       "same_as": null,
@@ -1367,7 +1392,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 10A and ART 20A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 10A and ART 20A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course will focus on the basics of drawing and painting with Acrylics and Mixed Media. Acrylics are a fast drying medium that is ideally suited for the beginning art student interested in Commercial Arts as well as Fine Arts. Students will develop skills in conceptual and observational painting through still life and assignments geared toward illustration. Assignments are based on typical areas of concentration found in the field, including conceptual, decorative, surreal, editorial, design, narrative, portrait, realistic and on the practical aspect of a career in illustration.",
       "same_as": null,
@@ -1389,11 +1416,10 @@
             }
           ],
           "notes": [
-            "Above section 1232 meets for 12 weeks, Sep 27 to Dec 13, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1232 meets for 12 weeks, Sep 27 to Dec 13, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 27 to Dec 13",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -1410,7 +1436,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 10A and ART 20A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 10A and ART 20A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This an introductory course in oil painting. This course will emphasize building a foundation for executing and understanding paintings with coursework focusing on the use and application of painting materials, composition, and theory.",
       "same_as": null,
@@ -1460,9 +1488,8 @@
             }
           ],
           "notes": [
-            "Above section 1235 meets at the Malibu Campus, 23555 Civic",
-            "the SMC Main Campus and the Malibu Campus is approximately",
-            "time, which will vary depending on time of day and mode of transportation. Above section modality is On Ground."
+            "Above section 1235 meets at the Malibu Campus, 23555 Civic Center Way, Malibu. Please be advised that the distance between the SMC Main Campus and the Malibu Campus is approximately",
+            "15 miles. Please plan your schedule to accommodate travel time, which will vary depending on time of day and mode of transportation. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1485,11 +1512,10 @@
             }
           ],
           "notes": [
-            "Above section 1236 meets for 12 weeks, Sep 27 to Dec 13, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1236 meets for 12 weeks, Sep 27 to Dec 13, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 27 to Dec 13",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -1506,7 +1532,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 10A and ART 20A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 10A and ART 20A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is an intermediate course in painting with a variety of types of subject matter. This course will emphasize the further use of oil paint or acrylic.",
       "same_as": null,
@@ -1522,9 +1550,8 @@
             }
           ],
           "notes": [
-            "Above section 1237 meets at the Malibu Campus, 23555 Civic",
-            "the SMC Main Campus and the Malibu Campus is approximately",
-            "time, which will vary depending on time of day and mode of transportation. Above section modality is On Ground."
+            "Above section 1237 meets at the Malibu Campus, 23555 Civic Center Way, Malibu. Please be advised that the distance between the SMC Main Campus and the Malibu Campus is approximately",
+            "15 miles. Please plan your schedule to accommodate travel time, which will vary depending on time of day and mode of transportation. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1547,11 +1574,10 @@
             }
           ],
           "notes": [
-            "Above section 1238 meets for 12 weeks, Sep 27 to Dec 13, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1238 meets for 12 weeks, Sep 27 to Dec 13, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 27 to Dec 13",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -1567,7 +1593,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 10A or ART 20A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 10A or ART 20A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course introduces the use of the airbrush in fine art, design and illustration, including exercises in freehand air painting, masks, and stencils.",
       "same_as": null,
@@ -1589,11 +1617,10 @@
             }
           ],
           "notes": [
-            "Above section 1239 meets for 12 weeks, Sep 27 to Dec 13, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1239 meets for 12 weeks, Sep 27 to Dec 13, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 27 to Dec 13",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -1610,7 +1637,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 10A or ART 20A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 10A or ART 20A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This will be an introduction to the formal and spatial concepts, principles and techniques in sculpture. Various methods and mediums will be employed with attention to creative self- expression and historical context.",
       "same_as": null,
@@ -1646,7 +1675,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 40A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 40A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "Students will continue to explore sculptural materials and techniques and how different materials can be used for various art problems. Focus will be on individual growth and direction, emphasizing aesthetic and conceptual consider- ations.",
       "same_as": null,
@@ -1682,7 +1713,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 40B.",
+      "prerequisite_notes": null,
+      "advisory": "ART 40B",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course offers the advanced sculpture student the opportunity to further explore materials, tools, processes and techniques in conjunction with their individual conceptual and theoretical framework. Students will develop greater strength and abilities in articulating and investigating the significance of their own work and the work of other artists.",
       "same_as": null,
@@ -1718,7 +1751,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 21A or ART 40A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 21A or ART 40A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "Sculpting the human figure in clay is studied. Emphasis is on relief and full figure over an armature, using live models.",
       "same_as": null,
@@ -1735,7 +1770,8 @@
           ],
           "notes": [
             "Above section 1243 meets at the Airport Arts Campus, 2800",
-            "Airport Avenue, Santa Monica Airport. Above section modality is"
+            "Airport Avenue, Santa Monica Airport. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,
@@ -1755,7 +1791,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 41A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 41A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This continuation of Art 41A utilizes problems in figure composition, individual interpretation of the figure, and exploration of various media.",
       "same_as": null,
@@ -1772,7 +1810,8 @@
           ],
           "notes": [
             "Above section 1244 meets at the Airport Arts Campus, 2800",
-            "Airport Avenue, Santa Monica Airport. Above section modality is"
+            "Airport Avenue, Santa Monica Airport. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,
@@ -1792,7 +1831,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 10A or ART 20A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 10A or ART 20A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course explores form and function utilizing free blown and poured glass, glass construction and glass in combination with other materials, emphasizing design, construction techniques, and proficiency in the art of off-hand glassblowing.",
       "same_as": null,
@@ -1828,7 +1869,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 43A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 43A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course further explores form based on techniques acquired in Art 43A. Advanced techniques such as slumping, fusing, molds, surface decoration, and coloring are covered.",
       "same_as": null,
@@ -1864,7 +1907,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 10A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 10A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is designed to teach students basic ceramic design, materials, terminology, and construction methods, with an emphasis on building ceramic forms by hand with pinch, coil, and slab techniques. The course introduces students to the history of ceramics in a variety of cultural contexts, from ancient to contemporary. Students will have the opportunity to develop unique sculptural and functional ceramic objects with a wide variety of construction and decoration techniques.",
       "same_as": null,
@@ -1881,7 +1926,8 @@
           ],
           "notes": [
             "Above section 1247 meets at the Airport Arts Campus, 2800",
-            "Airport Avenue, Santa Monica Airport. Above section modality is"
+            "Airport Avenue, Santa Monica Airport. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,
@@ -1899,7 +1945,8 @@
           ],
           "notes": [
             "Above section 1248 meets at the Airport Arts Campus, 2800",
-            "Airport Avenue, Santa Monica Airport. Above section modality is"
+            "Airport Avenue, Santa Monica Airport. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,
@@ -1919,7 +1966,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 52A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 52A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This is a ceramic design and construction course using basic hand building methods such as slab, coil, and molding combined with advanced building techniques. This course investigates traditional ways of hand building with contemporary concepts. Awareness of three-dimensional form, concept, and surface design are heightened by individual and group critiques. The students work towards a more individual statement by further experimentation with a variety of clay bodies, glazes, and firing techniques.",
       "same_as": null,
@@ -1936,7 +1985,8 @@
           ],
           "notes": [
             "Above section 1249 meets at the Airport Arts Campus, 2800",
-            "Airport Avenue, Santa Monica Airport. Above section modality is"
+            "Airport Avenue, Santa Monica Airport. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,
@@ -1956,7 +2006,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "Students learn various forming techniques, with an emphasis on wheel throwing and the production of functional pottery forms. This course covers beginning problems of centering, throwing and shaping various functional and non-functional pottery. Students will be introduced to the process of glazing and basic firing techniques. Surface design techniques, such as stamping, carving, slip and oxide decoration, wax resist and glaze application methods are covered.",
       "same_as": null,
@@ -1973,7 +2025,8 @@
           ],
           "notes": [
             "Above section 1250 meets at the Airport Arts Campus, 2800",
-            "Airport Avenue, Santa Monica Airport. Above section modality is"
+            "Airport Avenue, Santa Monica Airport. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,
@@ -1993,7 +2046,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course in ceramics focuses on surface treatment and enhancement. Student will learn extensive use of decorative slips, engobes and oxide washes. This course develops use of the potter’s wheel with lessons on plates, bottles, lidded vessels, and goblets. Student will gain extensive knowledge on glaze composition and materials.",
       "same_as": null,
@@ -2010,7 +2065,8 @@
           ],
           "notes": [
             "Above section 1251 meets at the Airport Arts Campus, 2800",
-            "Airport Avenue, Santa Monica Airport. Above section modality is"
+            "Airport Avenue, Santa Monica Airport. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,
@@ -2030,7 +2086,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ART 20A.",
+      "prerequisite_notes": null,
+      "advisory": "ART 20A",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This is an introductory course in printmaking media and techniques including lino-cut, multi-block woodcut, and etching processes.",
       "same_as": null,
@@ -2066,7 +2124,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course introduces fundamental concepts related to the design and fabrication of objects. Students utilize a combination of computational and mechanical tools to design, develop, refine, and construct physical forms. Through a combination of lectures, demonstrations, and hands on lab work, students develop the skills, toolsets, and experimental approaches needed for further study in the fields of sculpture, architecture, industrial design, 3D modeling, and contemporary multimedia studio art practice. In addition to lectures and readings on the historical and contemporary intersections of art and technology, topics of instruction include the safe operation of power tools, digital input and output paths, laser cutting, 3D printing, CNC routing and milling, and a survey of relevant 3D modeling software.",
       "same_as": null,
@@ -2088,10 +2148,10 @@
             }
           ],
           "notes": [
-            "Above section 1252 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. portfolio for transfer and have taken entry-level art courses. leading to completed artworks for an exhibition at the end of the program will be the main emphasis. Focus will be on creating ambitious and self-guided artwork."
+            "Above section 1252 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. ART 87 ART MENTOR PORTFOLIO 3 UNITS This course is designed for students who are building an art portfolio for transfer and have taken entry-level art courses. Planning, production, and execution of proposed projects leading to completed artworks for an exhibition at the end of the program will be the main emphasis. Focus will be on creating ambitious and self-guided artwork."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -2124,9 +2184,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "",
+      "description": "Please see “Independent Studies” section.",
       "same_as": null,
       "sections": [
         {
@@ -2157,9 +2219,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "",
+      "description": "Please see “Independent Studies” section.",
       "same_as": null,
       "sections": [
         {

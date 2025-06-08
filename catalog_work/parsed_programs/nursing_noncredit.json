@@ -11,7 +11,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "The purpose of this course is to provide additional assistance to nursing students, enrolled in Santa Monica College Nursing Program, in order to facilitate understanding the core concepts taught in the courses in the nursing curriculum. The course will assist the student in being able to determine their comprehension of the content taught in the nursing course (s) and facilitate the transfer of nursing concepts. A stimulating learning environment will be created for active communication and interaction among students and instructor. The learning environment will provide an opportunity for students to verbalize their thinking, understanding of underlying pathophysiology and its relevance to the therapeutic regime and therapeutic nursing interventions. Consistent attendance and participation are essential to the effectiveness of the supervised tutoring sessions.",
       "same_as": null,
@@ -27,7 +29,7 @@
             }
           ],
           "notes": [
-            "Above section 7075 meets for 8 weeks, Sep 08 to Oct 20, at the",
+            "Above section 7075 meets for 8 weeks, Sep 08 to Oct 20, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Sep 08 to Oct 20",
@@ -45,7 +47,7 @@
             }
           ],
           "notes": [
-            "Above section 7076 meets for 8 weeks, Sep 09 to Oct 21, at the",
+            "Above section 7076 meets for 8 weeks, Sep 09 to Oct 21, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Sep 09 to Oct 21",
@@ -63,7 +65,7 @@
             }
           ],
           "notes": [
-            "Above section 7077 meets for 8 weeks, Sep 08 to Oct 20, at the",
+            "Above section 7077 meets for 8 weeks, Sep 08 to Oct 20, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Sep 08 to Oct 20",
@@ -81,7 +83,7 @@
             }
           ],
           "notes": [
-            "Above section 7078 meets for 8 weeks, Sep 09 to Oct 21, at the",
+            "Above section 7078 meets for 8 weeks, Sep 09 to Oct 21, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Sep 09 to Oct 21",
@@ -99,8 +101,8 @@
             }
           ],
           "notes": [
-            "Above section 7079 meets for 8 weeks, Oct 28 to Dec 16, at the",
-            "Above section modality is On Ground."
+            "Above section 7079 meets for 8 weeks, Oct 28 to Dec 16, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
+            "Above section modality is On Ground. Nutrition"
           ],
           "duration": "8 weeks, Oct 28 to Dec 16",
           "modality": "On Ground",

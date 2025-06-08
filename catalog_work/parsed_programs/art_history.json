@@ -16,7 +16,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": "ART 1",
       "description": "A survey of the chronological development of Western art from the Stone Age to the Gothic Period with emphasis on the cultural, political, and social factors that influenced this evolution. This includes: Near-Eastern, Egyptian, Greek, Roman, Byzantine, Romanesque and Gothic art and architecture.",
       "same_as": null,
@@ -58,7 +60,7 @@
             "Above section 1068 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -299,11 +301,10 @@
             }
           ],
           "notes": [
-            "Above section 1081 meets for 12 weeks, Sep 27 to Dec 13, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1081 meets for 12 weeks, Sep 27 to Dec 13, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 27 to Dec 13",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -323,11 +324,10 @@
             }
           ],
           "notes": [
-            "Above section 1082 meets for 12 weeks, Sep 23 to Dec 11, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1082 meets for 12 weeks, Sep 23 to Dec 11, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 23 to Dec 11",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -346,7 +346,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": "ART 2",
       "description": "This course is a survey of the chronological development of Western art from the Renaissance to the mid 19th Century with emphasis on the cultural, political, and social factors that influenced this evolution. This includes: Renaissance, Baroque, Rococo, Neoclassicism, Romanticism and Realism painting, sculpture and architecture.",
       "same_as": null,
@@ -371,7 +373,7 @@
             "Above section 1083 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -476,11 +478,10 @@
             }
           ],
           "notes": [
-            "Above section 4005 meets for 8 weeks, Sep 24 to Nov 12, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 4005 meets for 8 weeks, Sep 24 to Nov 12, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "8 weeks, Sep 24 to Nov 12",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -499,7 +500,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": "ART 8",
       "description": "A focused survey of the chronological development of art and architecture from Impressionism to the present day. This course will cover the major movements of modern and contemporary art while examining their historical, cultural and philosophical context. Specific attention will be given to art theory and its part in shaping conversations about art history and the contemporary.",
       "same_as": null,
@@ -554,7 +557,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "An introduction to the art, symbolism, and visual culture of Latin America, emphasizing, Mesoamerican and Andean civilizations from prehistory to the Spanish conquest. Using interdisciplinary methods, this course will reconstruct (to the degree that is possible), the meaning and function of the visual arts in multiple, interlocking economic, political and sacred spheres. Subjects include the representation of history, ritual, and cosmology as revealed in sculpture, hieroglyphs, painting, ceramics, and architectural design. The course will also consider the interaction of ancient Latin American art objects with the contemporary world including issues of looting, cultural heritage, and museum display.",
       "same_as": null,
@@ -576,11 +581,10 @@
             }
           ],
           "notes": [
-            "Above section 1091 meets for 12 weeks, Sep 22 to Dec 10, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1091 meets for 12 weeks, Sep 22 to Dec 10, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 22 to Dec 10",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -633,7 +637,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is an introductory survey of the art, architecture, and visual culture of Latin America from the colonial to the contemporary period. The course examines the introduction and adaption of European artistic models in the Americas as well as the transformation of American art as a result of the conquest, analyzing a variety of materials and media including urban planning, religious and secular architecture, painting, sculpture, manuscript drawings and prints from the colonial period (1492-1820). Students examine the role of Latin American artists in building independent nations in the 19th c. and engaging with issues of race, gender, new technologies, politics, and globalization in the 20th and 21st centuries.",
       "same_as": null,
@@ -655,11 +661,10 @@
             }
           ],
           "notes": [
-            "Above section 1094 meets for 12 weeks, Sep 23 to Dec 11, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1094 meets for 12 weeks, Sep 23 to Dec 11, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 23 to Dec 11",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -678,9 +683,11 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": "ART 79",
-      "description": "VISUAL CULTURE 3 UNITS An introduction to artistic practices by exploring the myriad manifestations of visual culture in our world through a crosscultural thematic approach. This course examines themes in art like Religion, Power, Reproduction and Sexuality, and traces them across cultures and time periods. Emphasis will be placed on learning the language of visual culture both in terms of the formal elements of design as well as the content of style and subject matter and finding connections and differences. Students will explore the various media of art from drawing, sculpture, fresco, oil, photography, motion pictures, architecture to contemporary advertising and design and investigate how various cultures have used specific media and themes. This course is designed to introduce Fine Art and Art History simultaneously providing a unique opportunity to explore these fields as well as to prepare students for a course of study in Fine Art and Art History.",
+      "description": "An introduction to artistic practices by exploring the myriad manifestations of visual culture in our world through a crosscultural thematic approach. This course examines themes in art like Religion, Power, Reproduction and Sexuality, and traces them across cultures and time periods. Emphasis will be placed on learning the language of visual culture both in terms of the formal elements of design as well as the content of style and subject matter and finding connections and differences. Students will explore the various media of art from drawing, sculpture, fresco, oil, photography, motion pictures, architecture to contemporary advertising and design and investigate how various cultures have used specific media and themes. This course is designed to introduce Fine Art and Art History simultaneously providing a unique opportunity to explore these fields as well as to prepare students for a course of study in Fine Art and Art History.",
       "same_as": null,
       "sections": [
         {
@@ -767,7 +774,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": "ART 5",
       "description": "This course is a survey of the chronological development of Asian art from earliest times to modern times with emphasis on the cultural, political, and social factors which influenced this evolution. The course includes the art of India, China, Japan, Korea, Thailand, Cambodia, and Indonesia.",
       "same_as": null,
@@ -805,7 +814,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "An introduction to key themes in African art history through an examination of the role and function of African arts within their religious, political, social and economic contexts. The course will cover various art making practices including performance, sculpture, architecture, painting, photography, regalia and arts of the body. Considering the importance of broader art and architectural connections between Africa and other parts of the world, this course examines issues of colonialism, the global economy, Afrofuturism, questions of display, and current concerns with art appropriation and cultural patrimony.",
       "same_as": null,
@@ -827,11 +838,10 @@
             }
           ],
           "notes": [
-            "Above section 1100 meets for 12 weeks, Sep 23 to Dec 11, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1100 meets for 12 weeks, Sep 23 to Dec 11, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 23 to Dec 11",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -884,9 +894,11 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "ART 6",
-      "description": "1850 3 UNITS A survey of the chronological development of World architecture from prehistory to the Romanticism of the late 18th and early 19th Centuries. It includes art history and architecture with a worldwide introduction to the history of architecture. The contributions of technology, organizing methodology, intellectual thought, social conditions, and general artistic sensibilities will be addressed. This course will analyze key works to develop an understanding of specific relationships between the organization, configuration, and articulation of buildings and the historical, conceptual, and cultural arguments with which they are associated.",
+      "description": "A survey of the chronological development of World architecture from prehistory to the Romanticism of the late 18th and early 19th Centuries. It includes art history and architecture with a worldwide introduction to the history of architecture. The contributions of technology, organizing methodology, intellectual thought, social conditions, and general artistic sensibilities will be addressed. This course will analyze key works to develop an understanding of specific relationships between the organization, configuration, and articulation of buildings and the historical, conceptual, and cultural arguments with which they are associated.",
       "same_as": null,
       "sections": [
         {
@@ -906,11 +918,10 @@
             }
           ],
           "notes": [
-            "Above section 1103 meets for 8 weeks, Sep 04 to Oct 23, and is",
-            "a hybrid class taught online via the Internet and at the Center for For additional information, go to smc.edu/OnlineEd."
+            "Above section 1103 meets for 8 weeks, Sep 04 to Oct 23, and is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "8 weeks, Sep 04 to Oct 23",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -946,9 +957,11 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "ART 7",
-      "description": "TO PRESENT 3 UNITS Through the use of lectures, slides, and field trips, architecture will be studied from the mid-19th Century social and industrial conditions to current sensibilities represented by various creative individuals, movements and buildings. Cross references will be made to ideas of other arts, sociopolitical theory, and society in general.",
+      "description": "Through the use of lectures, slides, and field trips, architecture will be studied from the mid-19th Century social and industrial conditions to current sensibilities represented by various creative individuals, movements and buildings. Cross references will be made to ideas of other arts, sociopolitical theory, and society in general.",
       "same_as": null,
       "sections": [
         {
@@ -985,11 +998,10 @@
             }
           ],
           "notes": [
-            "Above section 1106 meets for 8 weeks, Oct 30 to Dec 18, and is",
-            "a hybrid class taught online via the Internet and at the Center for For additional information, go to smc.edu/OnlineEd."
+            "Above section 1106 meets for 8 weeks, Oct 30 to Dec 18, and is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "8 weeks, Oct 30 to Dec 18",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -1006,7 +1018,9 @@
       "cal_getc_area": "Cal-GETC Area 3A (Arts)",
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "ART 73",
       "description": "This is a historical survey of the evolving nature of photography from the early 1800’s to the present digital age.",
       "same_as": "PHOTO 52",
@@ -1062,11 +1076,10 @@
             }
           ],
           "notes": [
-            "Above section 4006 meets for 12 weeks, Sep 23 to Dec 09, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 4006 meets for 12 weeks, Sep 23 to Dec 09, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 23 to Dec 09",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -1085,7 +1098,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "ART 71",
       "description": "This course surveys artworks made by African Americans in the United States and abroad. Students will explore visual and material culture from the inception of chattel slavery in the sixteenth-century to contemporary Black Art Movements including Reconstruction and the Harlem Renaissance. Additionally, the impact of political movements on artists and their work such as the Black Liberation Movement and #BlackLivesMatter. In addition, students will consider how artists have contended with issues of race, gender, and sexuality and will examine transnational artist networks in Latin America and Europe among other places. Course content includes cross-historical phenomena such as the AIDS crisis, Afrofuturism, and the history of the Black Panther.",
       "same_as": null,
@@ -1107,11 +1122,10 @@
             }
           ],
           "notes": [
-            "Above section 1109 meets for 8 weeks, Oct 31 to Dec 19, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1109 meets for 8 weeks, Oct 31 to Dec 19, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "8 weeks, Oct 31 to Dec 19",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {

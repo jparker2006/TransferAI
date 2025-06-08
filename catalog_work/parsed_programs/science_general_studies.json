@@ -14,7 +14,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": "Successful completion of a UC transferable science class",
+      "advisory_notes": null,
       "formerly": null,
       "description": "with lab and MATH 20 and eligibility for English 1. This course explores the modern practice of science. The course focuses on the use of the scientific method; the history of science; how, why and where research is conducted; the ethical protocol in the scientific process; how peer review works; and how to formulate scientifically testable hypotheses and design/perform experiments to test the hypotheses. Students will apply the scientific method in inquiry-based laboratory projects and will communicate research design, data collection, and data interpretation in conventional sci- entific formats.",
       "same_as": null,
@@ -30,8 +32,7 @@
             }
           ],
           "notes": [
-            "Above section 3068 is part of the STEM/MAS program and enrollment is temporarily limited to program participants. See",
-            "the Special Programs section of the class schedule or smc.edu/stem for more information. Above section modality is On Ground."
+            "Above section 3068 is part of the STEM/MAS program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/stem for more information. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",

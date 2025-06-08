@@ -14,7 +14,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "An overview of the functional areas of business in a global society. Students will complete the course with knowledge of the general business environment, economic systems, business ethics, operations and project management, and technology and information systems. In addition, students will learn the fundamentals of economics, business ownership, entrepreneurship, finance, management, leadership, and marketing. Key themes woven throughout the course include exploration of career options and development of business problem-solving skills.",
       "same_as": null,
@@ -178,11 +180,10 @@
             }
           ],
           "notes": [
-            "Above section 1316 meets for 8 weeks, Sep 03 to Oct 22, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1316 meets for 8 weeks, Sep 03 to Oct 22, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "8 weeks, Sep 03 to Oct 22",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -299,11 +300,15 @@
       ],
       "c_id": "BUS 120 and BUS 125",
       "cal_getc_area": null,
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum UC credit allowed for ACCTG 26, BUS 5, BUS 6 is one course (3 units)."
+      ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum UC credit allowed for ACCTG 26, BUS 5, BUS 6 is one course (3 units). This course provides students with an overview of the fundamental legal principles pertaining to business transactions and related topics. It also encompasses introductory subjects concerning the U.S. legal system such as the court structure, sources of law, legal reasoning and case analysis. To give students a broad perspective on the various laws and areas impacting business, the following topics are also explored: criminal law, torts, civil procedure, administrative processes, contract law, ethics, constitutional law, agency and the legal principles pertaining to business entities.",
+      "description": "This course provides students with an overview of the fundamental legal principles pertaining to business transactions and related topics. It also encompasses introductory subjects concerning the U.S. legal system such as the court structure, sources of law, legal reasoning and case analysis. To give students a broad perspective on the various laws and areas impacting business, the following topics are also explored: criminal law, torts, civil procedure, administrative processes, contract law, ethics, constitutional law, agency and the legal principles pertaining to business entities.",
       "same_as": null,
       "sections": [
         {
@@ -527,11 +532,10 @@
             }
           ],
           "notes": [
-            "Above section 4033 meets for 8 weeks, Oct 29 to Dec 17, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 4033 meets for 8 weeks, Oct 29 to Dec 17, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "8 weeks, Oct 29 to Dec 17",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -546,11 +550,15 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum UC credit allowed for ACCTG 26, BUS 5, BUS 6 is one course (3 units)."
+      ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum UC credit allowed for ACCTG 26, BUS 5, BUS 6 is one course (3 units). Formerly same course as ACCTG 26. This course covers advanced topics in agency, partnerships, corporations, LLCs, torts, legal procedures, and other advanced topics.",
+      "description": "Formerly same course as ACCTG 26. This course covers advanced topics in agency, partnerships, corporations, LLCs, torts, legal procedures, and other advanced topics.",
       "same_as": null,
       "sections": [
         {
@@ -583,7 +591,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course provides an introduction to the voluntary process of sustainability reporting in business and other organizations. The Global Reporting Initiative will be highlighted as a key model for a business to build sustainable practices into its operations. Items such as team building, sustainability indicators, tracking and reporting are the areas of concentration. Students will be able to develop a beginning sustainability report for a chosen business.",
       "same_as": null,
@@ -618,7 +628,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course provides an overview of the United Nations Sustainability Development Goals (SDGs) as they relate to corporations and nonprofit organizations. Students will learn processes to build contemporary sustainability goals into the corporate culture and business model of conventional organizations. This course takes a global perspective, touching on various aspects of the global capitalist economy.",
       "same_as": null,
@@ -653,7 +665,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course provides an introduction to the varied elements of social sustainability and examines what role business should play. Socially responsible leadership, Corporate Social Responsibility (CSR), the advancement of diversity, equity, inclusion, innovation, activism and changing policies, social impacts on communities, the world’s food systems, global fair trade and impact entrepreneurs will be used to highlight the increasing attention on the need to align of business practices with essential societal needs.",
       "same_as": null,
@@ -688,7 +702,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course navigates the current business environment and identifies the key legal challenges that an entrepreneur faces in starting and operating a business. It is ideal for business majors and for students who have an interest in starting their own businesses. The following topics are explored: basic legal concepts, dispute resolution, tort liability, contracts, managing risk, employment law, agent liability, legal form of business ownership, legal challenges with marketing, and intellectual property law.",
       "same_as": null,
@@ -710,11 +726,10 @@
             }
           ],
           "notes": [
-            "Above section 1339 meets for 8 weeks, Sep 03 to Oct 22, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1339 meets for 8 weeks, Sep 03 to Oct 22, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "8 weeks, Sep 03 to Oct 22",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -730,7 +745,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course introduces students to Earned Value Management Systems (EVMS). Earned Value Management Systems is a technique that combines measures of scope, cost and schedule for evaluating project progress. EVMS utilizes defined metrics and visual analytics to help track cost and schedule performance. This course will introduce how EVMS measures accomplished efforts against the plan for management to effectively make risk assessments. EVMS are utilized on a sundry of projects in the manufacturing, pharmaceutical, and high-tech industries.",
       "same_as": null,
@@ -771,7 +788,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course provides students with an overview of the different forms of intellectual property (IP). An emphasis is placed on analyzing the subject matter that patent, copyright, trademark and trade secret protect. In addition to learning about the different IP protections, students will also gain an appreciation of the strategies to guard against infringing upon another’s intellectual property right. Finally, the course will explore the relevance of IP to business, the arts, science, music and other arenas.",
       "same_as": null,
@@ -793,11 +812,10 @@
             }
           ],
           "notes": [
-            "Above section 1340 meets for 8 weeks, Oct 29 to Dec 17, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1340 meets for 8 weeks, Oct 29 to Dec 17, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "8 weeks, Oct 29 to Dec 17",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -813,7 +831,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course provides students with an introduction to the hospitality industry, explaining the interrelationships and history of key leisure industry segments. An emphasis is placed on the application of technology, sustainability, ethics, leadership, teams, critical thinking, and service standards for the restaurant, hotel, and travel-related businesses. The course examines career opportunities, operations management, human resource management, marketing, and financial considerations for each segment.",
       "same_as": null,
@@ -848,7 +868,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "In this course, students will learn the essentials of personal insurance coverages. Personal property and liability topics will include automobile, homeowners, and other residential insurance, such as earthquake, flood, marine and miscellaneous coverages. The basics of financial planning, life insurance and health insurance will also be covered.",
       "same_as": null,
@@ -883,7 +905,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "In this course, students will learn the basics of property and liability insurance. It covers types of insurers, institutions that provide insurance, insurance regulation, and measurement of financial performance. It also covers insurance operations, including marketing techniques, underwriting, claims, insur- ance contracts, loss exposure and risk management.",
       "same_as": null,
@@ -918,7 +942,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "Principles of Marketing examines the organization’s functions for creating, communicating, and delivering value to customers. The course also examines the role and importance of marketing in the firm and other organizations. Topics include marketing plans & strategies, digital marketing, marketing research, market segmentation, distribution, pricing, promotion, marketing ethics and product development.",
       "same_as": null,
@@ -974,11 +1000,10 @@
             }
           ],
           "notes": [
-            "Above section 4036 meets for 8 weeks, Oct 29 to Dec 17, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 4036 meets for 8 weeks, Oct 29 to Dec 17, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "8 weeks, Oct 29 to Dec 17",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -994,7 +1019,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course provides an introduction to retailing concepts and strategies used by contemporary merchandisers. Special attention will be given to the theory and practice involved in such merchandising activities as sales transactions, customer services, types of merchandising institutions, store operation and policies, store layout and fixtures, advertising, and display.",
       "same_as": null,
@@ -1029,7 +1056,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "Advertising psychology, strategies, and methods are covered in this introduction to the field. Topics include planning advertising campaigns for all types of media. Class projects give the student practice in creating and communicating ideas using advertising strategy and techniques.",
       "same_as": null,
@@ -1064,7 +1093,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course explores the fundamental sales process of analyzing customer needs and satisfying those needs with a relevant product or service. Topics include prospecting and qualifying potential buyers, preparing for sales calls, delivering sales presentations, handling customer objections, negotiating sales transactions, closing sales, and providing effective follow-up.",
       "same_as": null,
@@ -1086,11 +1117,10 @@
             }
           ],
           "notes": [
-            "Above section 1348 meets for 8 weeks, Oct 27 to Dec 17, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1348 meets for 8 weeks, Oct 27 to Dec 17, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "8 weeks, Oct 27 to Dec 17",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -1129,7 +1159,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "The marketing research portion of the course includes the allocation and usage of secondary as well as primary data sources, the understanding of basic concepts, the collection of information, the proper analysis of the data acquired, and the screening of sample applications. The consumer behavior section of the course will introduce the student to knowledge, concepts, and models that use consumer behavior to generate explanations for the behavior of individual consumers and groups, the decisions they make, and the culture they live in. The final section of the course focuses on the application of marketing research and consumer behavior. The student will learn how these skills can help them in business, as well as how to build their own research study.",
       "same_as": null,
@@ -1164,7 +1196,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "same course as CIS 27",
       "description": "Students will learn the technological and strategic aspects of electronic commerce essential to succeeding in today’s internet-based economy. No background in e-commerce is necessary. This is a lecture and theoretical course which covers the key technologies used in e-Commerce, the history of internet and web technologies, infrastructure, and the economic forces behind e-Commerce. Business goals and constraints, technology and process tools, business strategies and tactics, and underlying economic theories relating to successful e-Commerce will be discussed.",
       "same_as": null,
@@ -1199,7 +1233,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course addresses strategies marketers may use to best communicate with their customers and other stakeholders. By applying an Integrated Marketing Communications perspective to marketing promotion, all aspects of communication are pulled together, thereby providing a more complete treatment of advertising, sales promotion, direct marketing, personal selling, public relations, publicity, and interactive media.",
       "same_as": null,
@@ -1232,9 +1268,7 @@
             }
           ],
           "notes": [
-            "Above section 4039 meets for 8 weeks, Oct 28 to Dec 18. Above section is part of the Promo Pathway program and enrollment is",
-            "limited to program participants. See the Special Programs section",
-            "of the class schedule or smc.edu/promo for additional program information. Above section modality is Scheduled."
+            "Above section 4039 meets for 8 weeks, Oct 28 to Dec 18. Above section is part of the Promo Pathway program and enrollment is limited to program participants. See the Special Programs section of the class schedule or smc.edu/promo for additional program information. Above section modality is Scheduled."
           ],
           "duration": "8 weeks, Oct 28 to Dec 18",
           "modality": "Scheduled",
@@ -1253,7 +1287,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This is a survey course of basic principles and objectives of public relations, including publicity and promotion techniques. Emphasis is on the tools, such as media and publication, in planning public relations programs.",
       "same_as": "JOURN 43",
@@ -1289,7 +1325,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course emphasizes the use of effective grammar, punctuation, sentence and paragraph structure in writing short business reports and other business documents.",
       "same_as": null,
@@ -1324,7 +1362,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": "ENGL C1000 (formerly ENGL 1) or BUS 31.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course surveys the principles and techniques of current and evolving business communication as a process in a variety of business situations. The course emphasizes planning, organizing, composing, and revising business documents using appropriate utilization of a variety of technological platforms, business related internet writing contexts, and web resources. Also, this course will incorporate a variety of internet-based communication tools relevant to doing business in today’s world. This course is designed for students who already have college-level writing skills.",
       "same_as": null,
@@ -1461,7 +1501,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course examines advertising as an economic support for commercial broadcast, cable, and related telecommunications media. Audience surveys, rate structures, client, ad rep firms and advertising agency relationships are discussed and explored.",
       "same_as": "MEDIA 18",
@@ -1496,7 +1538,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course introduces students to digital marketing. Students will learn how to develop and implement various digital marketing channels, such as search-engine optimization (SEO), search engine marketing (SEM), social media marketing, pay per click (PPC) advertising, affiliate marketing, email marketing and content marketing. The course will emphasize the strategic role of digital marketing in traditional marketing; its impact on the customer experience; and how to track its effectiveness.",
       "same_as": null,
@@ -1569,7 +1613,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "CIS 1.",
+      "prerequisite_notes": null,
+      "advisory": "CIS 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "Digital marketing enables an individual or business to promote an organization, brand, product or service using a variety of online marketing strategies: content marketing, social media marketing, search engine marketing and e-marketing. Numerous tools and applications are utilized to deliver these strategies, such as a content management system; blogging; content creators and editors for images, posts and videos; crowdsourcing; podcasting; RSS feed and directories; social media business accounts and ad managers, like Facebook Ad Manager; search engine advertising, like Google Ads; SEO techniques and tools; third party tracking and analytics tools, such as Google Analytics; email and direct message marketing; and event promotion. This course provides the skills to use these tools and applications for a successful digital marketing campaign.",
       "same_as": "CIS 70",
@@ -1604,7 +1650,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course provides an overview of approaches and practices in digital marketing measurements and analysis and offers an understanding of how tools, such as Google Analytics, can be utilized to inform strategic direction. Focusing on key performance indicators for digital marketing, students will learn how to measure and track online performance to determine digital marketing return on investment. Students will review factors that drive conversion and how to optimize conversion rates using data and A/B testing.",
       "same_as": null,
@@ -1639,7 +1687,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "The course provides an overview of the dynamic area of Customer Relationship Management (CRM), a strategic methodology that recognizes customers as the core of the business. Partner Relationship Management (PRM), Customer Experience Management (CEM) and the impact of social networking will also be explored.",
       "same_as": null,
@@ -1674,7 +1724,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This is an introductory Salesforce course in the context of business. Salesforce is a cloud-based software company that provides businesses with tools that help them find more prospects, close more deals, and provide a higher level of service to their customers. This course will describe how companies use Salesforce. Students will differentiate between various job roles and career paths in the Salesforce ecosystem. This course is a starting point towards Salesforce certification. At the end of this course, students could pursue the next step towards the Salesforce Associate certification.",
       "same_as": null,
@@ -1709,7 +1761,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is designed for students who want to learn the fundamentals of marketing while leveraging the Salesforce Marketing Cloud platform. Salesforce Marketing Cloud is a tool that allows businesses and organizations to communicate with customers using multiple channels. It develops a personalized digital experience with clients, it collects data from multiple sources, and it is also capable of managing data from social media interactions, advertising campaigns, email marketing, email content, design, delivery and tracking. At the end of this course, students could pursue the next step towards the Marketing Cloud Email Specialist Credential.",
       "same_as": null,
@@ -1744,7 +1798,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is an exploration of the business of Hip-Hop from localized exhibition to a domestic and international phenomenon. With the emergence of new technology, there is a need for a new criterion in the analysis of Hip-Hop as an entertainment industry leader. Students examine the business practices of moguls and pioneers, such as Dr. Dre, Jay-Z, Kanye West, Master P, and Sean Combs. This course emphasizes the evolution of the business elements of hip-hop: urban entrepreneurialism, sales & marketing, and intellectual property.",
       "same_as": null,
@@ -1780,7 +1836,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": "Elementary Algebra.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course provides students with the tools to achieve their personal financial goals. It will help them make informed decisions related to spending, saving, borrowing, and investing by training them to apply quantitative reasoning concepts to solve problems. Topics covered include personal financial planning; money management; tax strategy; consumer credit; purchasing decisions; insurance; investing in stocks, bonds, and mutual funds; retirement; and estate planning. BUS 45 is the same class as ACCTG 45. Students may earn credit for one, but not for both.",
       "same_as": null,
@@ -1889,7 +1947,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course provides a comprehensive view of securities, markets, and investment techniques, ranging from simple investment programs to advanced speculative market techniques.",
       "same_as": null,
@@ -1941,9 +2001,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "SUCCESS 1 UNIT This course provides students with the fundamental tools to make informed decisions that impact their short and intermediate-term finances. Topics covered include money management and the decision processes and behaviors underlying spending, saving, and borrowing.",
+      "description": "This course provides students with the fundamental tools to make informed decisions that impact their short and intermediate-term finances. Topics covered include money management and the decision processes and behaviors underlying spending, saving, and borrowing.",
       "same_as": "COUNS 47",
       "sections": [
         {
@@ -2027,7 +2089,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course focuses on general business problems, theories, techniques and strategies necessary in the development of business activities in the global market place. The course is designed to promote an understanding of the impact that a country’s culture and its political and economic environments have on a firm’s international operations. The course covers the global perspective of business fundamentals as they relate to international management, communication, marketing, finance, ethics, etc.",
       "same_as": null,
@@ -2049,11 +2113,10 @@
             }
           ],
           "notes": [
-            "Above section 1379 meets for 12 weeks, Sep 26 to Dec 12, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1379 meets for 12 weeks, Sep 26 to Dec 12, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 26 to Dec 12",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -2071,7 +2134,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is designed to heighten awareness of culture and its impact on successful business enterprises. The student will develop skills to identify areas where culture and business intersect by focusing on four subsets of American culture (European Americans, Chicano/Latinos, African Americans and Asian Americans) as well as on international cultures. Emphasis will be placed on how a firm’s success is affected by both domestic and global issues influencing intercultural communication.",
       "same_as": null,
@@ -2106,7 +2171,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course presents an overview of importing and exporting as drivers of globalization. It is designed to help students explore the benefits, costs, and risks of importing and exporting as well as the trade regulations involved, the documentation and licensing required, and the public and private sources of financing and other assistance available. It stresses crosscultural comparisons of foreign business, legal and political practices, trade patterns, and markets as a means of implementing successful import/export plans. Currency exchange, sources and methods of market research, terms of payment, broker services, insurance, letters of credit, transportation and barriers to entry will also be covered.",
       "same_as": null,
@@ -2141,9 +2208,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "CONNECTIONS AND BLUE/OCEAN ECONOMY 3 UNITS This course provides an overview of Southern California’s economy, its people, and its emerging role in the ocean economy. Using a variety of tools, students will be introduced to the vital commercial, financial, and personal connections that make Southern California one of the most diverse and globally connected places in the world. Special attention is devoted to key ocean economy regional engagement opportunities and to enlighten students on how the Blue/Ocean economy (“sustainable use of ocean resources for economic growth, improved livelihoods, and jobs while preserving the health of ocean ecosystem.”) is shaping the future of local, state, and global economies.",
+      "description": "This course provides an overview of Southern California’s economy, its people, and its emerging role in the ocean economy. Using a variety of tools, students will be introduced to the vital commercial, financial, and personal connections that make Southern California one of the most diverse and globally connected places in the world. Special attention is devoted to key ocean economy regional engagement opportunities and to enlighten students on how the Blue/Ocean economy (“sustainable use of ocean resources for economic growth, improved livelihoods, and jobs while preserving the health of ocean ecosystem.”) is shaping the future of local, state, and global economies.",
       "same_as": null,
       "sections": [
         {
@@ -2176,7 +2245,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "The entertainment industry is rapidly and continuously shifting and evolving, with digital technology serving as the catalyst for its change. This new paradigm requires that our understanding of the industry and its operations evolve along with it. This introductory course will examine the current and future trends that drive the industry, and the changing business models and associated roles for creatives and executives within the business of entertainment.",
       "same_as": null,
@@ -2211,7 +2282,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course introduces the basic concepts of performance improvement methods. Students will learn about Lean SixSigma and Human Centered Design (HCD) methodologies. Lean Six-Sigma is a method that relies on a collaborative team effort to improve performance by systematically removing waste, quality management and reducing variation. This course will cover these concepts as they apply to different industries. Students will have the option to earn a Lean SixSigma Yellow Belt Certification upon completing the course and passing the exam, if they choose to.",
       "same_as": null,
@@ -2252,7 +2325,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course provides concrete guidance in using human relations skills in the workplace that will promote working effectively with others. Strategies are integrated throughout the course that will enable students to apply human relations theories and applications to the real world of work. Ethical issues in business are addressed where students will learn an explicit process of ethical reasoning that will aid in defining and dealing with dilemmas in the workplace. Current events and case studies will be used to develop critical skills as students apply theories and principles.",
       "same_as": null,
@@ -2277,7 +2352,7 @@
             "Above section 1385 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -2293,7 +2368,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course covers the fundamentals of how to organize, finance, and operate a small business. Topics to be covered include business plan development, financing, legal and ethical issues, marketing, entrepreneurial team development, and business models.",
       "same_as": null,
@@ -2315,11 +2392,10 @@
             }
           ],
           "notes": [
-            "Above section 1386 meets for 8 weeks, Sep 03 to Oct 22, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1386 meets for 8 weeks, Sep 03 to Oct 22, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "8 weeks, Sep 03 to Oct 22",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -2381,7 +2457,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course introduces the student to management concepts and strategies used by modern businesses. The course is designed to familiarize student with the accepted standards, procedures, and techniques employed by top, middle, and supervisory level managers. Further, the course provides students with an understanding of the role of management and how to develop plans and execute strategies in pursuit of organizational goals.",
       "same_as": null,
@@ -2406,7 +2484,7 @@
             "Above section 1388 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -2422,7 +2500,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "Human resource management encompasses those activities designed to provide for and coordinate the human resources of an organization. This course is fashioned to emphasize both the theoretical and practical aspects of human resource management. Topics of special interest include equal employment opportunity; staffing the organization; training and devel- oping employees; employee compensation; understanding unions; and organizational maintenance, communication, and information systems.",
       "same_as": null,
@@ -2444,11 +2524,10 @@
             }
           ],
           "notes": [
-            "Above section 4046 meets for 8 weeks, Sep 03 to Oct 22, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 4046 meets for 8 weeks, Sep 03 to Oct 22, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "8 weeks, Sep 03 to Oct 22",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -2464,7 +2543,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course teaches modern day strategies needed to make conscious decisions when negotiation is required to reach a desired outcome. Creating mutually beneficial situations for both parties involve understanding key concepts covering the basic understanding of ways negotiators can exert and gain power in a discussion. Managers, executives, students, and other potential dealmakers will learn the essential skills to conduct successful business negotiations. Through interactive role-play, videos, case studies, and other engaging content students will move through modules exploring ways to settle workplace and interpersonal disputes by the application of proven negotiating principles and strategies.",
       "same_as": null,
@@ -2499,7 +2580,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course provides an overview of how firms use distribution intermediaries to gain a competitive advantage in local and global markets through the integration of logistics and supply chain management. The management of the physical flow of products and information throughout the entire supply chain is examined, including physical distribution, transportation, warehousing, customer service, materials management, third-party and global logistics, systems planning, and operations and management of the supply chain.",
       "same_as": null,
@@ -2534,7 +2617,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is an overview of the entire supply chain and its key elements. Students are exposed to concepts, models, and terminology used in demand planning, inventory planning, material planning, distribution planning, fulfillment planning, and related components of a supply chain are examined.",
       "same_as": null,
@@ -2569,7 +2654,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course introduces students to the fundamentals of procurement. Students will learn how to improve a company’s profitability through key concepts such as negotiation, supplier sourcing and qualification, outsourcing and make-or-buy analysis. Students will learn the various steps of the order process from the generation of the purchase requisition through receiving. Students will also learn to maintain effective purchasing records, manage budgets and explore career opportunities in the Supply Chain Industry.",
       "same_as": null,
@@ -2604,7 +2691,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course introduces an enterprise resource planning system such as SAP software (“Systems, Applications & Products in Data Processing”) and how it is used in a procurement office to record the day-to-day purchasing activities at major corporations. Through case studies and the review of major business processes, students will learn how SAP software records the transaction including sales, procurement, invoices, MRP (Materials Requirement Planning) and payments.",
       "same_as": null,

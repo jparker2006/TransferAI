@@ -11,7 +11,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course introduces a community relations system with proven techniques and practices for effective sustainability outreach programs and provides both non-traditional and pathway students the opportunity to develop a skill-set in the field of sustainability.",
       "same_as": null,
@@ -33,11 +35,10 @@
             }
           ],
           "notes": [
-            "Above section 7080 meets for 12 weeks, Sep 03 to Nov 19, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 7080 meets for 12 weeks, Sep 03 to Nov 19, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 03 to Nov 19",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]

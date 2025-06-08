@@ -11,7 +11,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": "Placement Group B.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "In English C1000, students receive instruction in academic reading and writing, including writing processes, effective use of language, analytical thinking, and the foundations of academic research. The co-enrollment English 28 emphasizes clear, effective written communication and preparation of the research paper to prepare students for success in college-level composition and reading. It consists of instruction in composition, comprehension and analysis of college-level readings, and basic research skills. Students will receive 3 units of transferrable credit for ENGL C1000, and 2 units of non-transferrable, degree applicable credit for ENGL 28. CO-ENROLLMENT",
       "same_as": null,
@@ -27,8 +29,7 @@
             }
           ],
           "notes": [
-            "Above section 1963 requires co-enrollment in ENGL 28 section",
-            "1907. Above section modality is On Ground."
+            "Above section 1963 requires co-enrollment in ENGL 28 section 1907. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -45,8 +46,7 @@
             }
           ],
           "notes": [
-            "Above section 1907 requires co-enrollment in ENGL C1000 section",
-            "1963. Above section modality is On Ground."
+            "Above section 1907 requires co-enrollment in ENGL C1000 section 1963. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -63,8 +63,7 @@
             }
           ],
           "notes": [
-            "Above section 1964 requires co-enrollment in ENGL 28 section",
-            "1908. Above section modality is On Ground."
+            "Above section 1964 requires co-enrollment in ENGL 28 section 1908. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -81,8 +80,7 @@
             }
           ],
           "notes": [
-            "Above section 1908 requires co-enrollment in ENGL C1000 section",
-            "1964. Above section modality is On Ground."
+            "Above section 1908 requires co-enrollment in ENGL C1000 section 1964. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -99,8 +97,7 @@
             }
           ],
           "notes": [
-            "Above section 1965 requires co-enrollment in ENGL 28 section",
-            "1909. Above section modality is Scheduled."
+            "Above section 1965 requires co-enrollment in ENGL 28 section 1909. Above section modality is Scheduled."
           ],
           "duration": null,
           "modality": "Scheduled",
@@ -117,8 +114,7 @@
             }
           ],
           "notes": [
-            "Above section 1909 requires co-enrollment in ENGL C1000 section",
-            "1965. Above section modality is Scheduled."
+            "Above section 1909 requires co-enrollment in ENGL C1000 section 1965. Above section modality is Scheduled. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "Scheduled",
@@ -144,7 +140,7 @@
             "Above section 1969 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1969 requires co-enrollment in ENGL 28 section 1910."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1910"
         },
         {
@@ -164,10 +160,10 @@
             }
           ],
           "notes": [
-            "Above section 1910 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1910 requires co-enrollment in ENGL C1000 section 1969."
+            "Above section 1910 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1910 requires co-enrollment in ENGL C1000 section 1969. CO-ENROLLMENT"
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1969"
         },
         {
@@ -181,8 +177,7 @@
             }
           ],
           "notes": [
-            "Above section 1975 requires co-enrollment in ENGL 28 section",
-            "1911. Above section modality is On Ground."
+            "Above section 1975 requires co-enrollment in ENGL 28 section 1911. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -199,8 +194,7 @@
             }
           ],
           "notes": [
-            "Above section 1911 requires co-enrollment in ENGL C1000 section",
-            "1975. Above section modality is On Ground."
+            "Above section 1911 requires co-enrollment in ENGL C1000 section 1975. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -217,8 +211,7 @@
             }
           ],
           "notes": [
-            "Above section 1976 requires co-enrollment in ENGL 28 section",
-            "1912. Above section modality is On Ground."
+            "Above section 1976 requires co-enrollment in ENGL 28 section 1912. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -235,8 +228,7 @@
             }
           ],
           "notes": [
-            "Above section 1912 requires co-enrollment in ENGL C1000 section",
-            "1976. Above section modality is On Ground."
+            "Above section 1912 requires co-enrollment in ENGL C1000 section 1976. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -253,8 +245,7 @@
             }
           ],
           "notes": [
-            "Above section 1978 requires co-enrollment in ENGL 28 section",
-            "1913. Above section modality is On Ground."
+            "Above section 1978 requires co-enrollment in ENGL 28 section 1913. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -271,8 +262,7 @@
             }
           ],
           "notes": [
-            "Above section 1913 requires co-enrollment in ENGL C1000 section",
-            "1978. Above section modality is On Ground."
+            "Above section 1913 requires co-enrollment in ENGL C1000 section 1978. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -298,7 +288,7 @@
             "Above section 1979 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1979 requires co-enrollment in ENGL 28 section 1914."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1914"
         },
         {
@@ -318,10 +308,10 @@
             }
           ],
           "notes": [
-            "Above section 1914 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1914 requires co-enrollment in ENGL C1000 section 1979."
+            "Above section 1914 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1914 requires co-enrollment in ENGL C1000 section 1979. CO-ENROLLMENT"
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1979"
         },
         {
@@ -344,7 +334,7 @@
             "Above section 1980 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1980 requires co-enrollment in ENGL 28 section 1915."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1915"
         },
         {
@@ -364,10 +354,10 @@
             }
           ],
           "notes": [
-            "Above section 1915 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1915 requires co-enrollment in ENGL C1000 section 1980."
+            "Above section 1915 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1915 requires co-enrollment in ENGL C1000 section 1980. CO-ENROLLMENT"
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1980"
         },
         {
@@ -381,8 +371,7 @@
             }
           ],
           "notes": [
-            "Above section 1985 requires co-enrollment in ENGL 28 section",
-            "1916. Above section modality is On Ground."
+            "Above section 1985 requires co-enrollment in ENGL 28 section 1916. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -399,8 +388,7 @@
             }
           ],
           "notes": [
-            "Above section 1916 requires co-enrollment in ENGL C1000 section",
-            "1985. Above section modality is On Ground."
+            "Above section 1916 requires co-enrollment in ENGL C1000 section 1985. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -417,8 +405,7 @@
             }
           ],
           "notes": [
-            "Above section 1989 requires co-enrollment in ENGL 28 section",
-            "1917. Above section modality is On Ground."
+            "Above section 1989 requires co-enrollment in ENGL 28 section 1917. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -435,8 +422,7 @@
             }
           ],
           "notes": [
-            "Above section 1917 requires co-enrollment in ENGL C1000 section",
-            "1989. Above section modality is On Ground."
+            "Above section 1917 requires co-enrollment in ENGL C1000 section 1989. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -462,7 +448,7 @@
             "Above section 1991 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1991 requires co-enrollment in ENGL 28 section 1918."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1918"
         },
         {
@@ -482,10 +468,10 @@
             }
           ],
           "notes": [
-            "Above section 1918 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1918 requires co-enrollment in ENGL C1000 section 1991."
+            "Above section 1918 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1918 requires co-enrollment in ENGL C1000 section 1991. CO-ENROLLMENT"
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1991"
         },
         {
@@ -499,8 +485,7 @@
             }
           ],
           "notes": [
-            "Above section 2003 requires co-enrollment in ENGL 28 section",
-            "1919. Above section modality is On Ground."
+            "Above section 2003 requires co-enrollment in ENGL 28 section 1919. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -517,8 +502,7 @@
             }
           ],
           "notes": [
-            "Above section 1919 requires co-enrollment in ENGL C1000 section",
-            "2003. Above section modality is On Ground."
+            "Above section 1919 requires co-enrollment in ENGL C1000 section 2003. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -541,11 +525,10 @@
             }
           ],
           "notes": [
-            "Above section 2006 meets for 12 weeks, Sep 03 to Nov 19, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2006 requires co-enrollment in ENGL 28 section 1934."
+            "Above section 2006 meets for 12 weeks, Sep 03 to Nov 19, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2006 requires co-enrollment in ENGL 28 section 1934."
           ],
           "duration": "12 weeks, Sep 03 to Nov 19",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1934"
         },
         {
@@ -560,7 +543,7 @@
           ],
           "notes": [
             "Above section 1934 meets for 12 weeks, Sep 03 to Nov 21. Above section 1934 requires co-enrollment in ENGL C1000 section 2006.",
-            "Above section modality is Flexible."
+            "Above section modality is Flexible. CO-ENROLLMENT"
           ],
           "duration": "12 weeks, Sep 03 to Nov 21",
           "modality": "Flexible",
@@ -586,7 +569,7 @@
             "Above section 2008 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2008 requires co-enrollment in ENGL 28 section 1920."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1920"
         },
         {
@@ -606,10 +589,10 @@
             }
           ],
           "notes": [
-            "Above section 1920 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1920 requires co-enrollment in ENGL C1000 section 2008."
+            "Above section 1920 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1920 requires co-enrollment in ENGL C1000 section 2008. CO-ENROLLMENT"
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "2008"
         },
         {
@@ -623,8 +606,7 @@
             }
           ],
           "notes": [
-            "Above section 2015 requires co-enrollment in ENGL 28 section",
-            "1921. Above section modality is On Ground."
+            "Above section 2015 requires co-enrollment in ENGL 28 section 1921. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -641,8 +623,7 @@
             }
           ],
           "notes": [
-            "Above section 1921 requires co-enrollment in ENGL C1000 section",
-            "2015. Above section modality is On Ground."
+            "Above section 1921 requires co-enrollment in ENGL C1000 section 2015. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -659,8 +640,7 @@
             }
           ],
           "notes": [
-            "Above section 2016 requires co-enrollment in ENGL 28 section",
-            "1922. Above section modality is On Ground."
+            "Above section 2016 requires co-enrollment in ENGL 28 section 1922. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -677,8 +657,7 @@
             }
           ],
           "notes": [
-            "Above section 1922 requires co-enrollment in ENGL C1000 section",
-            "2016. Above section modality is On Ground."
+            "Above section 1922 requires co-enrollment in ENGL C1000 section 2016. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -695,8 +674,7 @@
             }
           ],
           "notes": [
-            "Above section 2022 requires co-enrollment in ENGL 28 section",
-            "1923. Above section modality is On Ground."
+            "Above section 2022 requires co-enrollment in ENGL 28 section 1923. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -713,8 +691,7 @@
             }
           ],
           "notes": [
-            "Above section 1923 requires co-enrollment in ENGL C1000 section",
-            "2022. Above section modality is On Ground."
+            "Above section 1923 requires co-enrollment in ENGL C1000 section 2022. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -737,8 +714,7 @@
             }
           ],
           "notes": [
-            "Above section 2026 requires co-enrollment in ENGL 28 section",
-            "1924. Above section modality is Scheduled."
+            "Above section 2026 requires co-enrollment in ENGL 28 section 1924. Above section modality is Scheduled."
           ],
           "duration": null,
           "modality": "Scheduled",
@@ -761,8 +737,7 @@
             }
           ],
           "notes": [
-            "Above section 1924 requires co-enrollment in ENGL C1000 section",
-            "2026. Above section modality is Scheduled."
+            "Above section 1924 requires co-enrollment in ENGL C1000 section 2026. Above section modality is Scheduled. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "Scheduled",
@@ -788,7 +763,7 @@
             "Above section 2027 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2027 requires co-enrollment in ENGL 28 section 1925."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1925"
         },
         {
@@ -808,10 +783,10 @@
             }
           ],
           "notes": [
-            "Above section 1925 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1925 requires co-enrollment in ENGL C1000 section 2027."
+            "Above section 1925 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1925 requires co-enrollment in ENGL C1000 section 2027. CO-ENROLLMENT"
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "2027"
         },
         {
@@ -831,11 +806,10 @@
             }
           ],
           "notes": [
-            "Above section 2029 meets for 8 weeks, Sep 03 to Oct 22, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2029 requires co-enrollment in ENGL 28 section 1926."
+            "Above section 2029 meets for 8 weeks, Sep 03 to Oct 22, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2029 requires co-enrollment in ENGL 28 section 1926."
           ],
           "duration": "8 weeks, Sep 03 to Oct 22",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1926"
         },
         {
@@ -855,11 +829,10 @@
             }
           ],
           "notes": [
-            "Above section 1926 meets for 8 weeks, Sep 03 to Oct 22, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1926 requires co-enrollment in ENGL C1000 section 2029."
+            "Above section 1926 meets for 8 weeks, Sep 03 to Oct 22, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1926 requires co-enrollment in ENGL C1000 section 2029. CO-ENROLLMENT"
           ],
           "duration": "8 weeks, Sep 03 to Oct 22",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "2029"
         },
         {
@@ -879,11 +852,10 @@
             }
           ],
           "notes": [
-            "Above section 2030 meets for 12 weeks, Sep 03 to Nov 19, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2030 requires co-enrollment in ENGL 28 section 1935."
+            "Above section 2030 meets for 12 weeks, Sep 03 to Nov 19, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2030 requires co-enrollment in ENGL 28 section 1935."
           ],
           "duration": "12 weeks, Sep 03 to Nov 19",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1935"
         },
         {
@@ -898,7 +870,7 @@
           ],
           "notes": [
             "Above section 1935 meets for 12 weeks, Sep 03 to Nov 21. Above section 1935 requires co-enrollment in ENGL C1000 section 2030.",
-            "Above section modality is Flexible."
+            "Above section modality is Flexible. CO-ENROLLMENT"
           ],
           "duration": "12 weeks, Sep 03 to Nov 21",
           "modality": "Flexible",
@@ -921,8 +893,7 @@
             }
           ],
           "notes": [
-            "Above section 2032 requires co-enrollment in ENGL 28 section",
-            "1927. Above section modality is Scheduled."
+            "Above section 2032 requires co-enrollment in ENGL 28 section 1927. Above section modality is Scheduled."
           ],
           "duration": null,
           "modality": "Scheduled",
@@ -945,8 +916,7 @@
             }
           ],
           "notes": [
-            "Above section 1927 requires co-enrollment in ENGL C1000 section",
-            "2032. Above section modality is Scheduled."
+            "Above section 1927 requires co-enrollment in ENGL C1000 section 2032. Above section modality is Scheduled. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "Scheduled",
@@ -963,8 +933,7 @@
             }
           ],
           "notes": [
-            "Above section 2035 requires co-enrollment in ENGL 28 section",
-            "1928. Above section modality is On Ground."
+            "Above section 2035 requires co-enrollment in ENGL 28 section 1928. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -981,8 +950,7 @@
             }
           ],
           "notes": [
-            "Above section 1928 requires co-enrollment in ENGL C1000 section",
-            "2035. Above section modality is On Ground."
+            "Above section 1928 requires co-enrollment in ENGL C1000 section 2035. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1008,7 +976,7 @@
             "Above section 2037 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2037 requires co-enrollment in ENGL 28 section 1929."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1929"
         },
         {
@@ -1028,10 +996,10 @@
             }
           ],
           "notes": [
-            "Above section 1929 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1929 requires co-enrollment in ENGL C1000 section 2037."
+            "Above section 1929 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1929 requires co-enrollment in ENGL C1000 section 2037. CO-ENROLLMENT"
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "2037"
         },
         {
@@ -1045,8 +1013,7 @@
             }
           ],
           "notes": [
-            "Above section 2038 requires co-enrollment in ENGL 28 section",
-            "1930. Above section modality is On Ground."
+            "Above section 2038 requires co-enrollment in ENGL 28 section 1930. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1063,8 +1030,7 @@
             }
           ],
           "notes": [
-            "Above section 1930 requires co-enrollment in ENGL C1000 section",
-            "2038. Above section modality is On Ground."
+            "Above section 1930 requires co-enrollment in ENGL C1000 section 2038. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1081,11 +1047,7 @@
             }
           ],
           "notes": [
-            "Above section 2041 requires co-enrollment in ENGL 28 section",
-            "1931. Above section is part of the Black Collegians program",
-            "though enrollment is open to all students. See the Special",
-            "Programs section of the class schedule or smc.edu/blackcollegians",
-            "for more information. Above section modality is On Ground."
+            "Above section 2041 requires co-enrollment in ENGL 28 section 1931. Above section is part of the Black Collegians program though enrollment is open to all students. See the Special Programs section of the class schedule or smc.edu/blackcollegians for more information. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1102,11 +1064,7 @@
             }
           ],
           "notes": [
-            "Above section 1931 requires co-enrollment in ENGL C1000 section",
-            "2041. Above section is part of the Black Collegians program",
-            "though enrollment is open to all students. See the Special",
-            "Programs section of the class schedule or smc.edu/blackcollegians",
-            "for more information. Above section modality is On Ground."
+            "Above section 1931 requires co-enrollment in ENGL C1000 section 2041. Above section is part of the Black Collegians program though enrollment is open to all students. See the Special Programs section of the class schedule or smc.edu/blackcollegians for more information. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1132,7 +1090,7 @@
             "Above section 2045 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2045 requires co-enrollment in ENGL 28 section 1932."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1932"
         },
         {
@@ -1152,10 +1110,10 @@
             }
           ],
           "notes": [
-            "Above section 1932 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1932 requires co-enrollment in ENGL C1000 section 2045."
+            "Above section 1932 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1932 requires co-enrollment in ENGL C1000 section 2045. CO-ENROLLMENT"
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "2045"
         },
         {
@@ -1175,11 +1133,10 @@
             }
           ],
           "notes": [
-            "Above section 2046 meets for 12 weeks, Sep 09 to Nov 18, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2046 requires co-enrollment in ENGL 28 section 1943."
+            "Above section 2046 meets for 12 weeks, Sep 09 to Nov 18, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2046 requires co-enrollment in ENGL 28 section 1943."
           ],
           "duration": "12 weeks, Sep 09 to Nov 18",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1943"
         },
         {
@@ -1194,7 +1151,7 @@
           ],
           "notes": [
             "Above section 1943 meets for 12 weeks, Sep 03 to Nov 21. Above section 1943 requires co-enrollment in ENGL C1000 section 2046.",
-            "Above section modality is Flexible."
+            "Above section modality is Flexible. CO-ENROLLMENT"
           ],
           "duration": "12 weeks, Sep 03 to Nov 21",
           "modality": "Flexible",
@@ -1211,8 +1168,7 @@
             }
           ],
           "notes": [
-            "Above section 2052 requires co-enrollment in ENGL 28 section",
-            "1933. Above section modality is On Ground."
+            "Above section 2052 requires co-enrollment in ENGL 28 section 1933. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1229,8 +1185,7 @@
             }
           ],
           "notes": [
-            "Above section 1933 requires co-enrollment in ENGL C1000 section",
-            "2052. Above section modality is On Ground."
+            "Above section 1933 requires co-enrollment in ENGL C1000 section 2052. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1247,8 +1202,7 @@
             }
           ],
           "notes": [
-            "Above section 2055 requires co-enrollment in ENGL 28 section",
-            "1936. Above section modality is Flexible."
+            "Above section 2055 requires co-enrollment in ENGL 28 section 1936. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -1265,8 +1219,7 @@
             }
           ],
           "notes": [
-            "Above section 1936 requires co-enrollment in ENGL C1000 section",
-            "2055. Above section modality is Flexible."
+            "Above section 1936 requires co-enrollment in ENGL C1000 section 2055. Above section modality is Flexible. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "Flexible",
@@ -1283,8 +1236,7 @@
             }
           ],
           "notes": [
-            "Above section 2059 requires co-enrollment in ENGL 28 section",
-            "1937. Above section modality is Flexible."
+            "Above section 2059 requires co-enrollment in ENGL 28 section 1937. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -1301,8 +1253,7 @@
             }
           ],
           "notes": [
-            "Above section 1937 requires co-enrollment in ENGL C1000 section",
-            "2059. Above section modality is Flexible."
+            "Above section 1937 requires co-enrollment in ENGL C1000 section 2059. Above section modality is Flexible. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "Flexible",
@@ -1319,8 +1270,7 @@
             }
           ],
           "notes": [
-            "Above section 2061 requires co-enrollment in ENGL 28 section",
-            "1938. Above section modality is Flexible."
+            "Above section 2061 requires co-enrollment in ENGL 28 section 1938. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -1337,8 +1287,7 @@
             }
           ],
           "notes": [
-            "Above section 1938 requires co-enrollment in ENGL C1000 section",
-            "2061. Above section modality is Flexible."
+            "Above section 1938 requires co-enrollment in ENGL C1000 section 2061. Above section modality is Flexible. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "Flexible",
@@ -1374,7 +1323,7 @@
           ],
           "notes": [
             "Above section 1939 meets for 12 weeks, Sep 03 to Nov 21. Above section 1939 requires co-enrollment in ENGL C1000 section 2062.",
-            "Above section modality is Flexible."
+            "Above section modality is Flexible. CO-ENROLLMENT"
           ],
           "duration": "12 weeks, Sep 03 to Nov 21",
           "modality": "Flexible",
@@ -1410,7 +1359,7 @@
           ],
           "notes": [
             "Above section 1940 meets for 12 weeks, Sep 03 to Nov 21. Above section 1940 requires co-enrollment in ENGL C1000 section 2063.",
-            "Above section modality is Flexible."
+            "Above section modality is Flexible. CO-ENROLLMENT"
           ],
           "duration": "12 weeks, Sep 03 to Nov 21",
           "modality": "Flexible",
@@ -1427,8 +1376,7 @@
             }
           ],
           "notes": [
-            "Above section 2080 requires co-enrollment in ENGL 28 section",
-            "1941. Above section modality is Flexible."
+            "Above section 2080 requires co-enrollment in ENGL 28 section 1941. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -1445,8 +1393,7 @@
             }
           ],
           "notes": [
-            "Above section 1941 requires co-enrollment in ENGL C1000 section",
-            "2080. Above section modality is Flexible."
+            "Above section 1941 requires co-enrollment in ENGL C1000 section 2080. Above section modality is Flexible. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "Flexible",
@@ -1463,8 +1410,7 @@
             }
           ],
           "notes": [
-            "Above section 2081 requires co-enrollment in ENGL 28 section",
-            "1942. Above section modality is Flexible."
+            "Above section 2081 requires co-enrollment in ENGL 28 section 1942. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -1481,8 +1427,7 @@
             }
           ],
           "notes": [
-            "Above section 1942 requires co-enrollment in ENGL C1000 section",
-            "2081. Above section modality is Flexible."
+            "Above section 1942 requires co-enrollment in ENGL C1000 section 2081. Above section modality is Flexible. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "Flexible",
@@ -1505,11 +1450,10 @@
             }
           ],
           "notes": [
-            "Above section 2089 meets for 12 weeks, Sep 23 to Dec 11, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2089 requires co-enrollment in ENGL 28 section 1944."
+            "Above section 2089 meets for 12 weeks, Sep 23 to Dec 11, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2089 requires co-enrollment in ENGL 28 section 1944."
           ],
           "duration": "12 weeks, Sep 23 to Dec 11",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1944"
         },
         {
@@ -1529,11 +1473,10 @@
             }
           ],
           "notes": [
-            "Above section 1944 meets for 12 weeks, Sep 23 to Dec 11, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1944 requires co-enrollment in ENGL C1000 section 2089."
+            "Above section 1944 meets for 12 weeks, Sep 23 to Dec 11, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1944 requires co-enrollment in ENGL C1000 section 2089. CO-ENROLLMENT"
           ],
           "duration": "12 weeks, Sep 23 to Dec 11",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "2089"
         },
         {
@@ -1566,7 +1509,7 @@
           ],
           "notes": [
             "Above section 1945 meets for 12 weeks, Sep 22 to Dec 10. Above section 1945 requires co-enrollment in ENGL C1000 section 2090.",
-            "Above section modality is On Ground."
+            "Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": "12 weeks, Sep 22 to Dec 10",
           "modality": "On Ground",
@@ -1589,11 +1532,10 @@
             }
           ],
           "notes": [
-            "Above section 2091 meets for 12 weeks, Sep 22 to Dec 08, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2091 requires co-enrollment in ENGL 28 section 1946."
+            "Above section 2091 meets for 12 weeks, Sep 22 to Dec 08, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2091 requires co-enrollment in ENGL 28 section 1946."
           ],
           "duration": "12 weeks, Sep 22 to Dec 08",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1946"
         },
         {
@@ -1613,11 +1555,10 @@
             }
           ],
           "notes": [
-            "Above section 1946 meets for 12 weeks, Sep 22 to Dec 08, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1946 requires co-enrollment in ENGL C1000 section 2091."
+            "Above section 1946 meets for 12 weeks, Sep 22 to Dec 08, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1946 requires co-enrollment in ENGL C1000 section 2091. CO-ENROLLMENT"
           ],
           "duration": "12 weeks, Sep 22 to Dec 08",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "2091"
         },
         {
@@ -1637,11 +1578,10 @@
             }
           ],
           "notes": [
-            "Above section 2093 meets for 12 weeks, Sep 23 to Dec 09, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2093 requires co-enrollment in ENGL 28 section 1947."
+            "Above section 2093 meets for 12 weeks, Sep 23 to Dec 09, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2093 requires co-enrollment in ENGL 28 section 1947."
           ],
           "duration": "12 weeks, Sep 23 to Dec 09",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1947"
         },
         {
@@ -1661,11 +1601,10 @@
             }
           ],
           "notes": [
-            "Above section 1947 meets for 12 weeks, Sep 23 to Dec 09, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1947 requires co-enrollment in ENGL C1000 section 2093."
+            "Above section 1947 meets for 12 weeks, Sep 23 to Dec 09, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1947 requires co-enrollment in ENGL C1000 section 2093. CO-ENROLLMENT"
           ],
           "duration": "12 weeks, Sep 23 to Dec 09",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "2093"
         },
         {
@@ -1685,11 +1624,10 @@
             }
           ],
           "notes": [
-            "Above section 2094 meets for 12 weeks, Sep 25 to Dec 11, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2094 requires co-enrollment in ENGL 28 section 1948."
+            "Above section 2094 meets for 12 weeks, Sep 25 to Dec 11, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2094 requires co-enrollment in ENGL 28 section 1948."
           ],
           "duration": "12 weeks, Sep 25 to Dec 11",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1948"
         },
         {
@@ -1709,11 +1647,10 @@
             }
           ],
           "notes": [
-            "Above section 1948 meets for 12 weeks, Sep 25 to Dec 11, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1948 requires co-enrollment in ENGL C1000 section 2094."
+            "Above section 1948 meets for 12 weeks, Sep 25 to Dec 11, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1948 requires co-enrollment in ENGL C1000 section 2094. CO-ENROLLMENT"
           ],
           "duration": "12 weeks, Sep 25 to Dec 11",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "2094"
         },
         {
@@ -1746,7 +1683,7 @@
           ],
           "notes": [
             "Above section 1949 meets for 12 weeks, Sep 23 to Dec 11. Above section 1949 requires co-enrollment in ENGL C1000 section 2095.",
-            "Above section modality is On Ground."
+            "Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": "12 weeks, Sep 23 to Dec 11",
           "modality": "On Ground",
@@ -1769,11 +1706,10 @@
             }
           ],
           "notes": [
-            "Above section 2096 meets for 12 weeks, Sep 25 to Dec 11, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2096 requires co-enrollment in ENGL 28 section 1950."
+            "Above section 2096 meets for 12 weeks, Sep 25 to Dec 11, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2096 requires co-enrollment in ENGL 28 section 1950."
           ],
           "duration": "12 weeks, Sep 25 to Dec 11",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1950"
         },
         {
@@ -1793,11 +1729,10 @@
             }
           ],
           "notes": [
-            "Above section 1950 meets for 12 weeks, Sep 25 to Dec 11, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1950 requires co-enrollment in ENGL C1000 section 2096."
+            "Above section 1950 meets for 12 weeks, Sep 25 to Dec 11, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1950 requires co-enrollment in ENGL C1000 section 2096. CO-ENROLLMENT"
           ],
           "duration": "12 weeks, Sep 25 to Dec 11",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "2096"
         },
         {
@@ -1830,7 +1765,7 @@
           ],
           "notes": [
             "Above section 1951 meets for 12 weeks, Sep 22 to Dec 12. Above section 1951 requires co-enrollment in ENGL C1000 section 2106.",
-            "Above section modality is Flexible."
+            "Above section modality is Flexible. CO-ENROLLMENT"
           ],
           "duration": "12 weeks, Sep 22 to Dec 12",
           "modality": "Flexible",
@@ -1853,11 +1788,10 @@
             }
           ],
           "notes": [
-            "Above section 2108 meets for 8 weeks, Oct 29 to Dec 17, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2108 requires co-enrollment in ENGL 28 section 1952."
+            "Above section 2108 meets for 8 weeks, Oct 29 to Dec 17, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2108 requires co-enrollment in ENGL 28 section 1952."
           ],
           "duration": "8 weeks, Oct 29 to Dec 17",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "1952"
         },
         {
@@ -1877,11 +1811,10 @@
             }
           ],
           "notes": [
-            "Above section 1952 meets for 8 weeks, Oct 29 to Dec 17, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1952 requires co-enrollment in ENGL C1000 section 2108."
+            "Above section 1952 meets for 8 weeks, Oct 29 to Dec 17, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1952 requires co-enrollment in ENGL C1000 section 2108."
           ],
           "duration": "8 weeks, Oct 29 to Dec 17",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "2108"
         }
       ]

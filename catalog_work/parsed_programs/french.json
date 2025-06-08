@@ -16,7 +16,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course introduces the students to basic vocabulary and fundamental sentence structures in the present and past. Pronunciation, grammar and everyday vocabulary are stressed as indispensable tools for comprehension and expression. French customs, culture and everyday life are also highlighted. The course is taught in French except in cases of linguistic difficulty as determined by the professor.",
       "same_as": null,
@@ -41,7 +43,7 @@
             "Above section 2316 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -77,9 +79,11 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "FRENCH 1*.",
+      "prerequisite_notes": null,
+      "advisory": "FRENCH 1",
+      "advisory_notes": "*The advisory for this course is comparable to two years of high school French.",
       "formerly": null,
-      "description": "This course completes the basics of the language further stressing pronunciation, grammar and everyday vocabulary as indispensable tools for comprehension. It also includes simplified readings highlighting French customs, culture, and everyday life. This course is taught in French except in cases of linguistic difficulty as determined by the professor. *The advisory for this course is comparable to two years of high school French.",
+      "description": "This course completes the basics of the language further stressing pronunciation, grammar and everyday vocabulary as indispensable tools for comprehension. It also includes simplified readings highlighting French customs, culture, and everyday life. This course is taught in French except in cases of linguistic difficulty as determined by the professor.",
       "same_as": null,
       "sections": [
         {
@@ -125,7 +129,7 @@
             "Above section 2318 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -144,9 +148,11 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "FRENCH 2*.",
+      "prerequisite_notes": null,
+      "advisory": "FRENCH 2",
+      "advisory_notes": "*The advisory for this course is comparable to three years of high school French.",
       "formerly": null,
-      "description": "This course reviews French grammar emphasizing idiomatic construction and expressions. Discussions are based on selected readings from contemporary French literature. The course is taught in French except in cases of linguistic difficulty as determined by the professor. *The advisory for this course is comparable to three years of high school French.",
+      "description": "This course reviews French grammar emphasizing idiomatic construction and expressions. Discussions are based on selected readings from contemporary French literature. The course is taught in French except in cases of linguistic difficulty as determined by the professor.",
       "same_as": null,
       "sections": [
         {
@@ -169,7 +175,7 @@
             "Above section 2319 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]

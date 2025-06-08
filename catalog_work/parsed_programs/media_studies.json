@@ -14,7 +14,9 @@
       "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "COMM 1",
       "description": "This course introduces aspects of communications and the impact of mass media on the individual and society. The survey includes newspapers, magazines, radio, television, cable, motion pictures, online media, advertising, public relations, theories of communication, and mass communication modes, processes and effects.",
       "same_as": null,
@@ -30,10 +32,7 @@
             }
           ],
           "notes": [
-            "Above section 2664 is part of the Scholars Program and enrollment",
-            "is temporarily limited to program participants. See the Special",
-            "Programs section of the class schedule or smc.edu/scholars for",
-            "more information. Theme: Media and Climate Change. Above section modality is Scheduled."
+            "Above section 2664 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Theme: Media and Climate Change. Above section modality is Scheduled."
           ],
           "duration": null,
           "modality": "Scheduled",
@@ -238,8 +237,7 @@
             }
           ],
           "notes": [
-            "Above section 2676 meets for 8 weeks, Oct 27 to Dec 17, at the",
-            "CA 90404. Above section modality is On Ground."
+            "Above section 2676 meets for 8 weeks, Oct 27 to Dec 17, at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
           ],
           "duration": "8 weeks, Oct 27 to Dec 17",
           "modality": "On Ground",
@@ -326,7 +324,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "COMM 2",
       "description": "This course prepares students for a media-saturated world, by equipping them with the tools they need to critically evaluate media content in print, electronic and digital form, such as magazines, television, film, podcasts, advertising and video games. Students will delve into the intricacies of media messages, the techniques behind them, and their societal implications; exploring the powerful narratives that shape our culture and the profound influence media messages have on public opinion. Students will also cultivate an ethical approach to media consumption and gain insights into the importance of accurate representation and the challenges of media bias.",
       "same_as": null,
@@ -364,7 +364,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course provides a detailed introduction to global media systems around the world, examining the main economic and cultural dimensions of the international media environment. Key theoretical approaches to international and global communication will be examined. Consideration will be given to the key issues, main actors, and significant developments in global media.",
       "same_as": "GLOBAL 3",
@@ -417,7 +419,9 @@
       "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This introductory course examines the medium of video games. The course studies how video games have developed historically, culturally, and technically. Issues of narrative, design, interactivity, and spatiality, which inform both the medium as a whole and individual games in particular, are examined. The function of video games as media texts within popular culture is also assessed.",
       "same_as": null,
@@ -454,7 +458,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "COMM 10",
       "description": "This course is a historical overview of class, gender, and race/ ethnicity of the media in the United States. Using readings from selected texts, clips from movies, radio and television broadcasts, as well as period literature, students analyze and debate representations in the media with a focus on at least 3 of the following racial/ethnic groups: Latinx, African American, Asian American, and Indigenous peoples. Critical thinking skills are developed in this course.",
       "same_as": null,
@@ -476,10 +482,10 @@
             }
           ],
           "notes": [
-            "Above section 2685 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/ scholars for more information."
+            "Above section 2685 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -580,7 +586,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "BRDCST 1",
       "description": "Radio, television and related electronic media are introduced in this course with emphasis on history, programming, FCC regulations, operations, economics, and social impact. The course also includes an examination of the newer technologies such as the Internet, cable, direct broadcast satellites, computers, wireless phones, and the communications technology revolution.",
       "same_as": null,
@@ -602,11 +610,10 @@
             }
           ],
           "notes": [
-            "Above section 2691 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+            "Above section 2691 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -622,7 +629,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "BRDCST 4A",
       "description": "This course familiarizes the student with the expectations of journalism by the public and teaches the student the basic newswriting guidelines used in broadcast journalism. Through newswriting assignments and exercises, the student will become adept in basic broadcast news writing.",
       "same_as": "JOURN 4A",
@@ -644,11 +653,10 @@
             }
           ],
           "notes": [
-            "Above section 2692 meets for 8 weeks, Sep 08 to Oct 20, and is",
-            "a hybrid class taught online via the Internet and at the Center for For additional information, go to smc.edu/OnlineEd."
+            "Above section 2692 meets for 8 weeks, Sep 08 to Oct 20, and is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "8 weeks, Sep 08 to Oct 20",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -664,7 +672,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "BRDCST 5A",
       "description": "Sports reporting for the broadcast media, including a study of sources of information, statistic and personal background on athletes, as well as techniques of interviewing, color reporting, and play-by-play announcing are covered in this course. Special emphasis will be given to the particular demands and playing environments of fall sports such as football. Field work in coverage of football and other fall sports involves interview shows with coaches, players, and sports figures.",
       "same_as": null,
@@ -712,7 +722,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course examines advertising as an economic support for commercial broadcast, cable, and related telecommunications media. Audience surveys, rate structures, client, ad rep firms and advertising agency relationships are discussed and explored.",
       "same_as": "BUS 33",
@@ -747,7 +759,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "MEDIA 13 or MEDIA 14.",
+      "prerequisite_notes": null,
+      "advisory": "MEDIA 13 or MEDIA 14",
+      "advisory_notes": null,
       "formerly": "BRDCST 9",
       "description": "This course offers further training and practical experience in producing and announcing for radio. Students use digital audio workstations to produce commercials, newscasts, promos and various other audio projects. Lecture topics include an overview of current industry trends, plus instruction on voice overs, digital editing and mixing, podcasting, Internet streaming and satellite radio.",
       "same_as": null,
@@ -769,11 +783,10 @@
             }
           ],
           "notes": [
-            "Above section 4147 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. 51% of the classes will be On Ground and the remainder will be online."
+            "Above section 4147 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. 51% of the classes will be On Ground and the remainder will be online."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -789,9 +802,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "BRDCST 20",
-      "description": "PRODUCING SHORT-FORM CONTENT 3 UNITS Basic introductory course in writing for all forms of screen and new media. Emphasis on preparing scripts in proper formats, including fundamental technical, conceptual and stylistic issues related to writing scripts for sports, informational and entertainment purposes. This course also offers basic training and practical experience in writing, producing, shooting, music selection, and directing voice-over talent for short-form media projects. These project forms include on-air promos, commercials, public service announcements, web series, and special marketing campaigns. The course will take a hands-on approach to enable the development of basic copywriting and production skills, and will provide students with an introductory understanding of television, radio, and alternative media branding and marketing strategies. Includes a writing evaluation component as a significant part of the course requirement. Storytelling, scriptwriting, and coordinating essential production elements will be emphasized.",
+      "description": "Basic introductory course in writing for all forms of screen and new media. Emphasis on preparing scripts in proper formats, including fundamental technical, conceptual and stylistic issues related to writing scripts for sports, informational and entertainment purposes. This course also offers basic training and practical experience in writing, producing, shooting, music selection, and directing voice-over talent for short-form media projects. These project forms include on-air promos, commercials, public service announcements, web series, and special marketing campaigns. The course will take a hands-on approach to enable the development of basic copywriting and production skills, and will provide students with an introductory understanding of television, radio, and alternative media branding and marketing strategies. Includes a writing evaluation component as a significant part of the course requirement. Storytelling, scriptwriting, and coordinating essential production elements will be emphasized.",
       "same_as": null,
       "sections": [
         {
@@ -824,7 +839,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "MEDIA 20.",
+      "prerequisite_notes": null,
+      "advisory": "MEDIA 20",
+      "advisory_notes": null,
       "formerly": "BRDCST 21",
       "description": "This course offers advanced instruction and focused practical experience in concept development, writing and producing for short form visual media projects. These project forms include on-air promos, commercials, public service announcements (PSA’s), webisodes, and special visual marketing campaigns. The major course objective is to enable professional visual writing and production skills through immersion in short-form producing and writing assignments applicable to television, radio, internet, mobile device, and other digital media formats. Story and script development, and short form project conception and production will be emphasized.",
       "same_as": null,
@@ -846,8 +863,7 @@
             }
           ],
           "notes": [
-            "Above section 2695 meets for 12 weeks, Sep 23 to Dec 09, at the",
-            "CA 90404. Above section modality is On Ground."
+            "Above section 2695 meets for 12 weeks, Sep 23 to Dec 09, at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
           ],
           "duration": "12 weeks, Sep 23 to Dec 09",
           "modality": "On Ground",
@@ -866,9 +882,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "SOCIAL MEDIA 4 UNITS Student media practicum and lab where students produce engaging social media journalism content for the campus community. Students learn how to plan, pitch, innovate and execute news content pieces across the social and digital landscape. Students collaborate with student newsroom writers, photojournalists, designers and editors to develop audi- ence engagement strategies following media industry best practices. Students use analytics and metrics to analyze how audiences engage with created content.",
+      "description": "Student media practicum and lab where students produce engaging social media journalism content for the campus community. Students learn how to plan, pitch, innovate and execute news content pieces across the social and digital landscape. Students collaborate with student newsroom writers, photojournalists, designers and editors to develop audi- ence engagement strategies following media industry best practices. Students use analytics and metrics to analyze how audiences engage with created content.",
       "same_as": "JOURN 7",
       "sections": [
         {
@@ -907,7 +925,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "BRDCST 46",
       "description": "This course provides basic training in the use of television equipment and facilities; camera operations; audio and video control; lighting; graphics; editing; portable video, and audio production techniques.",
       "same_as": null,
@@ -955,7 +975,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "BRDCST 48",
       "description": "Students will produce a variety of electronic media projects primarily for airing on public cable access and public television station channels. Projects will also be developed for pod-casting, inclusion in video/film festivals, and distribution to other media entities. The emphasis in this course is on the development of creative video camera techniques, writing, producing, and editing skills for the production of digital media. Students will also have the opportunity to produce video segments for the Corsair newspaper online edition.",
       "same_as": null,
@@ -997,9 +1019,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "STUDIES 1 UNIT",
+      "description": "Please see “Independent Studies” section. Please see listing under “Biological Sciences.”",
       "same_as": null,
       "sections": [
         {
@@ -1012,7 +1036,10 @@
               "instructor": "Shaw R D"
             }
           ],
-          "notes": [],
+          "notes": [
+            "Microbiology Modern Languages SMC offers courses in American Sign Language, Arabic, Chinese",
+            "(Mandarin), French, German, Hebrew, Italian, Japanese, Korean, Persian (Farsi), Portuguese, Russian, Spanish, and Turkish. Classes are listed under name of specific language."
+          ],
           "duration": null,
           "modality": null,
           "co_enrollment_with": null

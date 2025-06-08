@@ -11,9 +11,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "COMMUNICATION SKILLS 0 UNITS This course provides additional assistance to students pursuing Early Childhood Education careers.",
+      "description": "This course provides additional assistance to students pursuing Early Childhood Education careers.",
       "same_as": null,
       "sections": [
         {
@@ -27,8 +29,7 @@
             }
           ],
           "notes": [
-            "Above section 7010 meets at the Early Childhood Lab School",
-            "Campus, 1802 4th Street, Santa Monica CA 90404. Above section modality is On Ground."
+            "Above section 7010 meets at the Early Childhood Lab School Campus, 1802 4th Street, Santa Monica CA 90404. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -45,7 +46,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is designed to introduce students to the stages of child development from birth through five years of age, best practices in supporting healthy growth and development, and an overview of family and community resources to support children’s diverse needs. The course emphasizes effective communication and guidance strategies for working in a diverse early care and education setting.",
       "same_as": null,
@@ -67,11 +70,10 @@
             }
           ],
           "notes": [
-            "Above section 7011 meets for 4 weeks, Oct 04 to Oct 25, and is",
-            "a hybrid class taught online via the Internet and at the Bundy"
+            "Above section 7011 meets for 4 weeks, Oct 04 to Oct 25, and is a hybrid class taught online via the Internet and at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "4 weeks, Oct 04 to Oct 25",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -85,7 +87,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course provides an introduction to developmentally appropriate and culturally relevant curriculum for children from birth through age five. Course content emphasizes developing age appropriate activities and creating effective learning environments for children in a diverse early care and education setting.",
       "same_as": null,
@@ -107,10 +111,10 @@
             }
           ],
           "notes": [
-            "Above section 7012 meets for 4 weeks, Nov 01 to Nov 22, and is a hybrid class taught online via the Internet and at the Bundy"
+            "Above section 7012 meets for 4 weeks, Nov 01 to Nov 22, and is a hybrid class taught online via the Internet and at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "4 weeks, Nov 01 to Nov 22",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -124,7 +128,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "Introduction to requirements for obtaining a license as a family home care provider. Review of the National Association for Education of Young Children (NAEYC) code of ethical conduct and California’s licensing regulations. Emphasis on professionalism, health and safety in early care and education environments.",
       "same_as": null,
@@ -146,11 +152,11 @@
             }
           ],
           "notes": [
-            "Above section 7013 meets for 4 weeks, Dec 06 to Dec 20, and is a hybrid class taught online via the Internet and at the Bundy",
-            "first aid, with an emphasis on infants and young children."
+            "Above section 7013 meets for 4 weeks, Dec 06 to Dec 20, and is a hybrid class taught online via the Internet and at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. For additional information, go to smc.edu/OnlineEd.",
+            "ECE 904 HEALTH AND SAFETY FOR ECE PROVIDERS 0 UNITS Introduction and training on specific topics associated with cardiopulmonary resuscitation, emergency procedures, and first aid, with an emphasis on infants and young children."
           ],
           "duration": "4 weeks, Dec 06 to Dec 20",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -170,10 +176,11 @@
             }
           ],
           "notes": [
-            "Above section 7014 meets for 1 weeks, Nov 05 to Nov 05, and is a hybrid class taught online via the Internet and at the Early"
+            "Above section 7014 meets for 1 weeks, Nov 05 to Nov 05, and is a hybrid class taught online via the Internet and at the Early Childhood Lab School Campus, 1802 4th Street, Santa Monica CA",
+            "90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "1 weeks, Nov 05 to Nov 05",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -187,7 +194,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course examines the topics of gender, power, and equity, focusing on how they relate to identity development and the life trajectory of young children in concert with the intersection of race, ability, family structure, and economic status. Issues examined include the development of gender identity, theoretical and practical implications of power and oppression, cultural and socializing agents, and application of theory to classroom environments and curriculum, including strategies to empower teachers to develop pedagogical skills to support all children. Students will self-examine and reflect on personal experiences related to gender identity and expression, gender stereotypes and bias, cultural implications, and media and societal impacts. Students will recognize and contrast perspectives through an intersectional lens that promotes understanding, knowledge, and skills for supporting all children. Topics and strategies will be explored emphasizing culturally and linguistically focused anti-bias approaches.",
       "same_as": null,

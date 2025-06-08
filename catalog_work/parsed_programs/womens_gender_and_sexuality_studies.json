@@ -16,9 +16,11 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": "WOM ST 10",
-      "description": "SEXUALITY STUDIES 3 UNITS Introduction to the study of women and men in society, covering comparative issues of social, political, and economic position in the workplace, family, cultural institutions; historical basis of gender based subordination; the female experience; the male experience; relations between women and men; intersections of ethnicity/race, class, sexuality and gender; violence against women; cultural images of women and men; social roles of women and men, LGBTQ identities and movements for social change.",
+      "description": "Introduction to the study of women and men in society, covering comparative issues of social, political, and economic position in the workplace, family, cultural institutions; historical basis of gender based subordination; the female experience; the male experience; relations between women and men; intersections of ethnicity/race, class, sexuality and gender; violence against women; cultural images of women and men; social roles of women and men, LGBTQ identities and movements for social change.",
       "same_as": null,
       "sections": [
         {
@@ -32,9 +34,7 @@
             }
           ],
           "notes": [
-            "Above section 3215 is part of the Scholars Program and enrollment",
-            "is temporarily limited to program participants. See the Special",
-            "Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is Flexible."
+            "Above section 3215 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -90,7 +90,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": "WOM ST 30",
       "description": "This course utilizes the lens of feminist theories to critically analyze how popular culture constructs gender and sexuality and how these constructions become cultural norms and values. Employing feminist theories and feminist analysis, this course examines the relationship between women, gender, sexuality and popular culture. Students will examine historical and contemporary images and roles of women in popular culture (including print, film, television, music, advertising, and consumerism) and situate these images and roles within changing socio-historical, political, and economic contexts. The intersection of gender, race, class, and sexual orientation is examined throughout the course and the relationship between popular culture and feminist movements is emphasized.",
       "same_as": null,
@@ -162,7 +164,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This introductory course examines a broad range of contemporary and historical gay, lesbian, bisexual, transgender, intersex and queer issues in various contexts, such as social, scientific and cultural contexts.",
       "same_as": null,
@@ -197,9 +201,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "AND SEXUALITY STUDIES 1 UNIT",
+      "description": "Please see “Independent Studies” section.",
       "same_as": null,
       "sections": [
         {
@@ -228,9 +234,7 @@
             }
           ],
           "notes": [
-            "Above section 3223 is part of the Scholars Program and enrollment",
-            "is temporarily limited to program participants. See the Special",
-            "Programs section of the class schedule or smc.edu/scholars for more information."
+            "Above section 3223 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information."
           ],
           "duration": null,
           "modality": null,
@@ -249,9 +253,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "AND SEXUALITY STUDIES 2 UNITS",
+      "description": "Please see “Independent Studies” section. Please see listing under “Biological Sciences.”",
       "same_as": null,
       "sections": [
         {
@@ -280,9 +286,8 @@
             }
           ],
           "notes": [
-            "Above section 3225 is part of the Scholars Program and enrollment",
-            "is temporarily limited to program participants. See the Special",
-            "Programs section of the class schedule or smc.edu/scholars for more information."
+            "Above section 3225 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information.",
+            "Zoology"
           ],
           "duration": null,
           "modality": null,

@@ -11,7 +11,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This is an introductory course which explores the maintenance, diagnosis, operation and safety of the modern automobile. It also covers tools, equipment and safe working practices in the automobile industry. Students are also familiarized with career opportunities in the field.",
       "same_as": null,
@@ -27,8 +29,7 @@
             }
           ],
           "notes": [
-            "Above section 4026 meets for 12 weeks, Sep 22 to Dec 10, at",
-            "the Santa Monica High School, 601 Pico Blvd., Santa Monica CA",
+            "Above section 4026 meets for 12 weeks, Sep 22 to Dec 10, at the Santa Monica High School, 601 Pico Blvd., Santa Monica CA",
             "90405. Above section modality is On Ground."
           ],
           "duration": "12 weeks, Sep 22 to Dec 10",
@@ -46,7 +47,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This is a theoretical and practical course in automotive braking systems. It includes operating principles, component description, diagnosis, service, and repair.",
       "same_as": null,
@@ -62,15 +65,10 @@
             }
           ],
           "notes": [
-            "Above section 4027 meets for 12 weeks, Sep 23 to Dec 11, at",
-            "the Santa Monica High School, 601 Pico Blvd., Santa Monica CA",
+            "Above section 4027 meets for 12 weeks, Sep 23 to Dec 11, at the Santa Monica High School, 601 Pico Blvd., Santa Monica CA",
             "90405. Above section modality is On Ground.",
-            "and sensory. Functions of the organ systems are included",
-            "at the introductory level to prepare students for a course in",
-            "dissection. The use of actual specimens, including cat dissection and observation of a human cadaver, is emphasized to",
-            "assure that students learn the relative structure, functions,",
-            "textures and variations in tissues not incorporated in models. Supplemental materials such as models, photographs,",
-            "charts, videotapes, and digitized images are also provided."
+            "and sensory. Functions of the organ systems are included at the introductory level to prepare students for a course in Human Physiology. Laboratory assignments develop the skills of observation, investigation, identification, discovery and dissection. The use of actual specimens, including cat dissection and observation of a human cadaver, is emphasized to assure that students learn the relative structure, functions, textures and variations in tissues not incorporated in models. Supplemental materials such as models, photographs, charts, videotapes, and digitized images are also provided.",
+            "This course is required for students preparing for many Allied Health professions including, but not limited to, Nursing, Respiratory Therapy, Physical Therapy, Physical Education and Kinesiology Training, and Physician’s Assistant and is a prereq- uisite for Human Physiology 3."
           ],
           "duration": "12 weeks, Sep 23 to Dec 11",
           "modality": "On Ground",
@@ -102,7 +100,7 @@
             "Above section 1111 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1111 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -154,7 +152,7 @@
             "Above section 1114 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -183,7 +181,7 @@
             "Above section 1115 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1115 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -235,7 +233,7 @@
             "Above section 1117 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1117 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -264,7 +262,7 @@
             "Above section 1118 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1118 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -293,7 +291,7 @@
             "Above section 1119 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1119 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -345,7 +343,7 @@
             "Above section 1121 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1121 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -374,7 +372,7 @@
             "Above section 1122 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1122 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -403,7 +401,7 @@
             "Above section 4007 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 4007 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -432,7 +430,7 @@
             "Above section 4008 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 4008 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -449,7 +447,9 @@
       "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, non-lab)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This survey course explores the principles of biology using humans as examples. It includes introductions to the scientific method, cell biology, heredity, evolution, human ecology, behavior, and the major concepts of structure, function and pathology of most organ systems. The course may serve as an introduction to the future study of biology, including anatomy and physiology, or stand by itself as a non-lab life science course for general education students.",
       "same_as": null,
@@ -516,8 +516,7 @@
             }
           ],
           "notes": [
-            "Above section 1273 has online exams accessing an online proctoring service. Computer with webcam and microphone is",
-            "required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+            "Above section 1273 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -552,11 +551,15 @@
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
-      "special_notes": [],
+      "special_notes": [
+        "*No UC credit given for BIOL 3 if taken after BIOL 21, 22 or 23."
+      ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
-      "description": "*No UC credit given for BIOL 3 if taken after BIOL 21, 22 or 23. This general biology course is for transfer students who are not biology majors. Topics include basic molecular and cellular biology, genetics, the anatomy and physiology of plants, animals and humans, the diversity of life, evolution, and ecology. Current environmental issues and new developments in biological science are discussed. Laboratory experiences are integrated and stress scientific methodology and thinking. Credit is allowed for either BIOL 3 or BOTANY 1, but not both.",
+      "description": "This general biology course is for transfer students who are not biology majors. Topics include basic molecular and cellular biology, genetics, the anatomy and physiology of plants, animals and humans, the diversity of life, evolution, and ecology. Current environmental issues and new developments in biological science are discussed. Laboratory experiences are integrated and stress scientific methodology and thinking. Credit is allowed for either BIOL 3 or BOTANY 1, but not both.",
       "same_as": null,
       "sections": [
         {
@@ -570,10 +573,7 @@
             }
           ],
           "notes": [
-            "Above section 1276 is part of the Scholars Program and enrollment",
-            "is temporarily limited to program participants. See the Special",
-            "Programs section of the class schedule or smc.edu/scholars for",
-            "more information. Above section modality is On Ground."
+            "Above section 1276 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -668,7 +668,7 @@
             "Above section 1280 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section is part of the Scholars Program and"
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]

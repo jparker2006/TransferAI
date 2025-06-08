@@ -14,7 +14,9 @@
       "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "MATH 31 or MATH 49 and Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "MATH 31 or MATH 49 and Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course introduces students to the supply and demand model, the concept of elasticity, productivity and cost structures. Within the Supply and Demand framework, the class studies the impact of government intervention on markets. The class evaluates alternative market structures in terms of prices, efficiency, and the role of the government. Students may take ECON 1 and ECON 2 in any order, or even at the same time.",
       "same_as": null,
@@ -36,11 +38,10 @@
             }
           ],
           "notes": [
-            "Above section 1867 meets for 8 weeks, Sep 04 to Oct 23, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1867 meets for 8 weeks, Sep 04 to Oct 23, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "8 weeks, Sep 04 to Oct 23",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -54,9 +55,7 @@
             }
           ],
           "notes": [
-            "Above section 1868 is part of the Scholars Program and enrollment",
-            "is temporarily limited to program participants. See the Special",
-            "Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is Flexible."
+            "Above section 1868 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -263,7 +262,9 @@
       "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "MATH 31 or MATH 49 and Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "MATH 31 or MATH 49 and Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course introduces students to measurement of economic aggregates, economic models, and economic policy. Measures of economic aggregates include: GDP, the unemployment rate, the GDP Deflator, and the Consumer Price Index. The Great Depression is used as an introduction to macroeconomic policy. The course covers the tools of fiscal and monetary policy and their impact on aggregate demand, prices, income and interest rates. Additionally, the course introduces students to following models: Classical, Keynesian, Monetarist, and Supply Side with their corresponding policy implications and recommendations. Students may take ECON 1 and ECON 2 in any order, or even at the same time.",
       "same_as": null,
@@ -302,11 +303,10 @@
             }
           ],
           "notes": [
-            "Above section 1880 meets for 8 weeks, Sep 04 to Oct 23, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1880 meets for 8 weeks, Sep 04 to Oct 23, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "8 weeks, Sep 04 to Oct 23",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -354,9 +354,7 @@
             }
           ],
           "notes": [
-            "Above section 1883 is part of the Scholars Program and enrollment",
-            "is temporarily limited to program participants. See the Special",
-            "Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is Flexible."
+            "Above section 1883 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -497,7 +495,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "MATH 31 or MATH 50 and Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "MATH 31 or MATH 50 and Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course emphasizes the application of economic theory to environmental issues and resource allocation. It evaluates the potential role of government in implementing environmental policy to solve issues related to market failure. It also explores the ecological approach to environmental issues, connecting economic systems with natural ecosystems.",
       "same_as": "ENVRN 4",
@@ -535,9 +535,11 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
-      "description": "INTRODUCTION TO GLOBAL STUDIES 3 UNITS This course offers an interdisciplinary introduction to the fields of Global Studies and International Political Economy. Students will analyze critically the role of national governments, international organizations, nongovernmental organizations, and multinational corporations, in regard to phenomena such as, international markets and production regimes, monetary and trade policy, international and global conflict, and environmental degradation. Contending theoretical and ideological perspectives regarding international systems, processes, and trends will be applied and evaluated. ECON 5 is the same course as POL SC 5 and GLOBAL 5. Students may earn credit for one, but not both.",
+      "description": "This course offers an interdisciplinary introduction to the fields of Global Studies and International Political Economy. Students will analyze critically the role of national governments, international organizations, nongovernmental organizations, and multinational corporations, in regard to phenomena such as, international markets and production regimes, monetary and trade policy, international and global conflict, and environmental degradation. Contending theoretical and ideological perspectives regarding international systems, processes, and trends will be applied and evaluated. ECON 5 is the same course as POL SC 5 and GLOBAL 5. Students may earn credit for one, but not both.",
       "same_as": null,
       "sections": [
         {
@@ -588,7 +590,9 @@
       "cal_getc_area": "Cal-GETC Area 3B (Humanities) OR Area 4 (Social & Behavioral Sciences)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "Economic History of the USA is a one-semester, interdisciplinary course (Econ 15 or Hist 15) that surveys the origins and development of the U.S. economy from the period of European exploration and colonization through the present period. The course utilizes a thematic approach to consecutive historic periods of economic growth with an emphasis on specific sectors (agriculture, transportation, industry, energy, commerce, finance, government and public policy), as well as on the attendant impacts on the environment, producers, consumers, labor and diverse socio-economic groups. Students will learn basic economic concepts in order to help describe, explain, and analyze the historic events, trends, and institutions that influence the U.S. economy.",
       "same_as": "HIST 15",
@@ -623,9 +627,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "",
+      "description": "Please see “Independent Studies” section.",
       "same_as": null,
       "sections": [
         {
@@ -654,9 +660,7 @@
             }
           ],
           "notes": [
-            "Above section 1895 is part of the Scholars Program and enrollment",
-            "is temporarily limited to program participants. See the Special",
-            "Programs section of the class schedule or smc.edu/scholars for more information."
+            "Above section 1895 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information."
           ],
           "duration": null,
           "modality": null,
@@ -675,9 +679,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "ECONOMICS 2 UNITS",
+      "description": "Please see “Independent Studies” section.",
       "same_as": null,
       "sections": [
         {
@@ -706,9 +712,7 @@
             }
           ],
           "notes": [
-            "Above section 1897 is part of the Scholars Program and enrollment",
-            "is temporarily limited to program participants. See the Special",
-            "Programs section of the class schedule or smc.edu/scholars for more information."
+            "Above section 1897 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information."
           ],
           "duration": null,
           "modality": null,

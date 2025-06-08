@@ -16,7 +16,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course introduces the students to the Korean alphabet Hangul, basic vocabulary, and fundamental sentence structures in present, past, and future tense. Pronunciation, grammar, and everyday vocabulary are stressed as indispensable tools for comprehension and expressions. Korean customs and culture are also highlighted. This course is taught in Korean except in case of linguistic difficulty as determined by the professor.",
       "same_as": null,
@@ -58,7 +60,7 @@
             "Above section 2529 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -94,9 +96,11 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "KOREAN 1*.",
+      "prerequisite_notes": null,
+      "advisory": "KOREAN 1",
+      "advisory_notes": "*The advisory for this course is comparable to two years of high school Korean.",
       "formerly": null,
-      "description": "This course is a continuation of Korean 1 and further stresses modal expressions with various clausal connectives and sentence ending forms. Advanced basic aural and oral skills and reading comprehension skills are also developed. Students hold simple conversations and write short compositions in the form of compound sentences. It also advances students’ knowledge of Korean culture, customs, and traditions. This course is taught in Korean except in case of linguistic difficulty as determined by the professor. *The advisory for this course is comparable to two years of high school Korean.",
+      "description": "This course is a continuation of Korean 1 and further stresses modal expressions with various clausal connectives and sentence ending forms. Advanced basic aural and oral skills and reading comprehension skills are also developed. Students hold simple conversations and write short compositions in the form of compound sentences. It also advances students’ knowledge of Korean culture, customs, and traditions. This course is taught in Korean except in case of linguistic difficulty as determined by the professor.",
       "same_as": null,
       "sections": [
         {
@@ -119,7 +123,7 @@
             "Above section 2531 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -138,9 +142,11 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "KOREAN 2*",
+      "prerequisite_notes": null,
+      "advisory": "KOREAN 2",
+      "advisory_notes": "*The advisory for this course is comparable to three years of high school Korean.",
       "formerly": null,
-      "description": "This course is a continuation of Korean 2 and further builds up a solid foundation to achieve practical commands in everyday social interactions. Engaging and comprehensive course materials are designed to encourage students to practice with interactive activities, immersive exercises, and real-life scenarios. The course also familiarizes students with different registers (spoken vs. written) and speech styles. By focusing on both linguistic and cultural aspects, the course equips students with the tools to communicate more confidently and effectively in Korean. This course is taught in Korean except in case of linguistic difficulty as determined by the professor. *The advisory for this course is comparable to three years of high school Korean.",
+      "description": "This course is a continuation of Korean 2 and further builds up a solid foundation to achieve practical commands in everyday social interactions. Engaging and comprehensive course materials are designed to encourage students to practice with interactive activities, immersive exercises, and real-life scenarios. The course also familiarizes students with different registers (spoken vs. written) and speech styles. By focusing on both linguistic and cultural aspects, the course equips students with the tools to communicate more confidently and effectively in Korean. This course is taught in Korean except in case of linguistic difficulty as determined by the professor.",
       "same_as": null,
       "sections": [
         {
@@ -163,7 +169,7 @@
             "Above section 2532 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]

@@ -13,7 +13,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "INTARC 34B",
       "description": "An introduction to studio and design theory through exploration in concepts of space, form, function, materials and creative construction. Emphasis is placed on critical thinking and conceptualization as a basis for designing projects through sketching, model making, and other media.",
       "same_as": null,
@@ -53,11 +55,10 @@
             }
           ],
           "notes": [
-            "Above section 1167 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1167 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -96,7 +97,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "INTARC 29 and INTARC 28B",
       "description": "Three dimensional drawing for interior and architectural designers with an emphasis on simplified systems of linear perspective drawing and the fundamentals of quick sketching. Studies include an introduction to perspective and rendering of interior installations using size, scale, and shading to show depth and 3D form. This course uses Rhino software.",
       "same_as": null,
@@ -141,12 +144,10 @@
             }
           ],
           "notes": [
-            "Above section 1170 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. Above section 1170s in CMD 208 at the start of the",
-            "semester and will use CMD 124 starting week 6."
+            "Above section 1170 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. Above section 1170s in CMD 208 at the start of the semester and will use CMD 124 starting week 6."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -179,7 +180,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ARC 10, ARC 11.",
+      "prerequisite_notes": null,
+      "advisory": "ARC 10, ARC 11",
+      "advisory_notes": null,
       "formerly": null,
       "description": "A studio course which focuses on the development of context and precedent while designing spaces and architectural forms. Simple built environments are developed using design principles in context with spatial relationships, human interaction, and materiality. Emphasis is placed on the design process and human experience. Visual and oral presentations are used in the development of a course portfolio.",
       "same_as": null,
@@ -201,11 +204,10 @@
             }
           ],
           "notes": [
-            "Above section 1172 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1172 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -221,7 +223,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "INTARC 28A and INTARC 35",
       "description": "This course develops the fundamentals of communicating ideas through the integration of computer graphics and traditional drawing. Emphasis is placed on developing skills in 2D drafting and architectural drawings. This course uses AutoCAD software.",
       "same_as": null,
@@ -243,12 +247,12 @@
             }
           ],
           "notes": [
-            "Above section 1173 meets for 12 weeks, Sep 04 to Nov 20, and is a hybrid class taught online via the Internet and at the Center",
-            "for Media and Design, 1660 Stewart Street, Santa Monica CA",
+            "Above section 1173 meets for 12 weeks, Sep 04 to Nov 20, and is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA",
+            "90404. For additional information, go to smc.edu/OnlineEd.",
             "Above section 1173s in CMD 208 at the start of the semester and will use CMD 124 starting week 6."
           ],
           "duration": "12 weeks, Sep 04 to Nov 20",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -264,7 +268,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ARC 20, ARC 21.",
+      "prerequisite_notes": null,
+      "advisory": "ARC 20, ARC 21",
+      "advisory_notes": null,
       "formerly": null,
       "description": "An architectural studio course which focuses on an understanding of how environment and building systems informs architectural concepts. This course explores questions of concept, sustainability, culture, and social responsibility within the context of buildings which are responsive to the environment and people utilizing them. Students will also give visual and oral presentations which are used in the development of a course portfolio.",
       "same_as": null,
@@ -286,11 +292,10 @@
             }
           ],
           "notes": [
-            "Above section 1175 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1175 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -306,7 +311,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "INTARC 38",
       "description": "Develop advanced skills in two-dimensional and threedimensional digital drafting and rendering for Interior and Architectural designers.",
       "same_as": null,
@@ -341,7 +348,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ARC 30, ARC 31.",
+      "prerequisite_notes": null,
+      "advisory": "ARC 30, ARC 31",
+      "advisory_notes": null,
       "formerly": "INTARC 65",
       "description": "An architectural studio course which provides a creative framework to explore the development of commercial and mixed-use buildings within an urban setting. Urban sites are analyzed in terms of community, culture, economics, and sustainability. Projects balance structural, environmental, social, and programmatic strategies. Visual and oral presentations are used in the development of a course portfolio.",
       "same_as": null,
@@ -363,12 +372,11 @@
             }
           ],
           "notes": [
-            "Above section 1177 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd.",
-            "images for professional interior and architectural design work."
+            "Above section 1177 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd.",
+            "ARC 51 DESIGN COMMUNICATION 5 3 UNITS Digitally build and enhance images for professional presentations through the exploration of materials, light, color, texture, and shadows. Emphasis is placed on producing realistic images for professional interior and architectural design work."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -401,7 +409,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ARC 20 or IARC 20 or ARC 31.",
+      "prerequisite_notes": null,
+      "advisory": "ARC 20 or IARC 20 or ARC 31",
+      "advisory_notes": null,
       "formerly": null,
       "description": "A look at the importance of portfolios in the design field, the different types of portfolios, and how to create visually cohesive project pages. Students design and build a digital portfolio which can be used for transfer to a university, to apply for employment, or to showcase professional work.",
       "same_as": null,

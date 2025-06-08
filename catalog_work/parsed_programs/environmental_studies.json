@@ -16,7 +16,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "MATH 31 or MATH 50 and Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "MATH 31 or MATH 50 and Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course emphasizes the application of economic theory to environmental issues and resource allocation. It evaluates the potential role of government in implementing environmental policy to solve issues related to market failure. It also explores the ecological approach to environmental issues, connecting economic systems with natural ecosystems.",
       "same_as": "ECON 4",
@@ -54,7 +56,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This introductory course will use an interdisciplinary approach to provide students with a broad perspective on environmental problems and solutions. Students will be introduced to the strategies used by scientists, economists, political analysts, and other writers and researchers to investigate and analyze environmental and urban issues, human/nature relationships, natural and built environments, and environmental citizenship.",
       "same_as": "GEOG 7",
@@ -76,11 +80,10 @@
             }
           ],
           "notes": [
-            "Above section 2193 meets for 8 weeks, Sep 08 to Oct 20, and is",
-            "a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+            "Above section 2193 meets for 8 weeks, Sep 08 to Oct 20, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "8 weeks, Sep 08 to Oct 20",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -99,7 +102,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course surveys environmental history of the United States from earliest human migration to the present, focusing on the complex and consequential ways people have perceived, relied on, interacted with, and been impacted by the natural world. Topics include diverse patterns of interaction with land, water, plants, animals, and energy sources, as well as the economic, political, social, cultural, technological and global aspects of these patterns.",
       "same_as": "HIST 14",
@@ -137,7 +142,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course surveys global environmental history from early human evolution to the present, focusing on the complex and consequential ways people have perceived, relied on, interacted with and been impacted by the natural world. Topics include the diverse patterns of interaction with land, water, plants, animals, and energy sources, as well as their economic, political, social, cultural, and technological aspects in the local, regional, and global context.",
       "same_as": "HIST 32",
@@ -175,7 +182,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course will focus on the theory and application of psychological principles as they relate to the causes of, and potential solutions to, current global environmental problems. Modern ecological issues (such as global climate change, habitat-loss, etc.) have their historical origin in human behavior; this class will focus both on relevant causal behaviors, and on the mental mechanisms that give rise to such behavior. An evolutionary perspective will be employed to identify the pathways by which the clash of a “universal human nature” and the modern environment results in an “evolutionary mismatch.” Evolutionary models such as the “tragedy of the commons” will be elucidated with relevant and real world examples. In addition, the course will explore potential avenues to effectively reshape human kind’s social, technological and economic relationship with its environment. As such, a systems approach will be taken that considers the human as a part of, as well as an influence on, ecosystems. Cutting edge research will be integrated from different domains of psychology (cognitive, social, developmental and evolutionary, etc.) as well as related fields (genetics, behavioral economics, game-theory, anthropology, etc.) to comprehensively study the human- environment interaction.",
       "same_as": "PSYCH 40",
@@ -200,7 +209,7 @@
             "Above section 2196 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]

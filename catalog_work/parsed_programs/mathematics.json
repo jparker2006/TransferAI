@@ -14,7 +14,9 @@
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
       "prerequisites": "Placement as determined by the college’s multiple",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "MATH 54",
       "description": "STAT C1000 Transfer: UC, CSU; MATH 54C Transfer: None STAT C1000 is an introduction to statistical thinking and processes, including methods and concepts for discovery and decision-making using data. Topics include descriptive statistics; probability and sampling distributions; statistical inference; correlation and linear regression; analysis of variance, chi-squared, and t-tests; and application of technology for statistical analysis including the interpretation of the relevance of the statistical findings. Students apply methods and processes to applications using data from a broad range of disciplines. MATH 54C is a review of the core prerequisite skills, competencies, and concepts needed in statistics. Intended for students who are concurrently enrolled in STAT C1000, Introduction to Statistics. Topics include: concepts from arithmetic, pre-algebra, elementary and intermediate algebra that are needed to understand the basics of collegelevel statistics. Concepts are taught through the context of descriptive data analysis. Pass/No Pass only. CO-ENROLLMENT",
       "same_as": null,
@@ -30,8 +32,7 @@
             }
           ],
           "notes": [
-            "Above section 3115 requires co-enrollment in MATH 54C section",
-            "2636. Above section modality is On Ground."
+            "Above section 3115 requires co-enrollment in MATH 54C section 2636. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -48,8 +49,7 @@
             }
           ],
           "notes": [
-            "Above section 2636 requires co-enrollment in STAT C1000 section",
-            "3115. Above section modality is On Ground."
+            "Above section 2636 requires co-enrollment in STAT C1000 section 3115. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -66,8 +66,7 @@
             }
           ],
           "notes": [
-            "Above section 3119 requires co-enrollment in MATH 54C section",
-            "2637. Above section modality is On Ground."
+            "Above section 3119 requires co-enrollment in MATH 54C section 2637. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -84,8 +83,7 @@
             }
           ],
           "notes": [
-            "Above section 2637 requires co-enrollment in STAT C1000 section",
-            "3119. Above section modality is On Ground."
+            "Above section 2637 requires co-enrollment in STAT C1000 section 3119. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -102,9 +100,7 @@
             }
           ],
           "notes": [
-            "Above section 3120 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section 3120 requires",
-            "co-enrollment in MATH 54C section 2638. Above section modality is On Ground."
+            "Above section 3120 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 3120 requires co-enrollment in MATH 54C section 2638. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -121,9 +117,7 @@
             }
           ],
           "notes": [
-            "Above section 2638 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section 2638 requires",
-            "co-enrollment in STAT C1000 section 3120. Above section modality is On Ground."
+            "Above section 2638 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 2638 requires co-enrollment in STAT C1000 section 3120. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -140,8 +134,7 @@
             }
           ],
           "notes": [
-            "Above section 3121 requires co-enrollment in MATH 54C section",
-            "2639. Above section modality is On Ground."
+            "Above section 3121 requires co-enrollment in MATH 54C section 2639. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -158,8 +151,7 @@
             }
           ],
           "notes": [
-            "Above section 2639 requires co-enrollment in STAT C1000 section",
-            "3121. Above section modality is On Ground."
+            "Above section 2639 requires co-enrollment in STAT C1000 section 3121. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -176,9 +168,7 @@
             }
           ],
           "notes": [
-            "Above section 3125 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section 3125 requires",
-            "co-enrollment in MATH 54C section 2640. Above section modality is On Ground."
+            "Above section 3125 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 3125 requires co-enrollment in MATH 54C section 2640. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -195,9 +185,7 @@
             }
           ],
           "notes": [
-            "Above section 2640 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section 2640 requires",
-            "co-enrollment in STAT C1000 section 3125. Above section modality is On Ground."
+            "Above section 2640 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 2640 requires co-enrollment in STAT C1000 section 3125. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -214,8 +202,7 @@
             }
           ],
           "notes": [
-            "Above section 3126 requires co-enrollment in MATH 54C section",
-            "2641. Above section modality is On Ground."
+            "Above section 3126 requires co-enrollment in MATH 54C section 2641. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -232,8 +219,7 @@
             }
           ],
           "notes": [
-            "Above section 2641 requires co-enrollment in STAT C1000 section",
-            "3126. Above section modality is On Ground."
+            "Above section 2641 requires co-enrollment in STAT C1000 section 3126. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -250,8 +236,7 @@
             }
           ],
           "notes": [
-            "Above section 3127 requires co-enrollment in MATH 54C section",
-            "2642. Above section modality is On Ground."
+            "Above section 3127 requires co-enrollment in MATH 54C section 2642. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -268,8 +253,7 @@
             }
           ],
           "notes": [
-            "Above section 2642 requires co-enrollment in STAT C1000 section",
-            "3127. Above section modality is On Ground."
+            "Above section 2642 requires co-enrollment in STAT C1000 section 3127. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -287,8 +271,7 @@
           ],
           "notes": [
             "Above section 3129 meets at the Center for Media and Design,",
-            "1660 Stewart Street, Santa Monica CA 90404. Above section 3129",
-            "requires co-enrollment in MATH 54C section 2643. Above section modality is On Ground."
+            "1660 Stewart Street, Santa Monica CA 90404. Above section 3129 requires co-enrollment in MATH 54C section 2643. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -306,8 +289,7 @@
           ],
           "notes": [
             "Above section 2643 meets at the Center for Media and Design,",
-            "1660 Stewart Street, Santa Monica CA 90404. Above section 2643",
-            "requires co-enrollment in STAT C1000 section 3129. Above section modality is On Ground."
+            "1660 Stewart Street, Santa Monica CA 90404. Above section 2643 requires co-enrollment in STAT C1000 section 3129. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -324,8 +306,7 @@
             }
           ],
           "notes": [
-            "Above section 3132 requires co-enrollment in MATH 54C section",
-            "2644. Above section modality is On Ground."
+            "Above section 3132 requires co-enrollment in MATH 54C section 2644. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -342,8 +323,7 @@
             }
           ],
           "notes": [
-            "Above section 2644 requires co-enrollment in STAT C1000 section",
-            "3132. Above section modality is On Ground."
+            "Above section 2644 requires co-enrollment in STAT C1000 section 3132. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -360,8 +340,7 @@
             }
           ],
           "notes": [
-            "Above section 3133 requires co-enrollment in MATH 54C section",
-            "2645. Above section modality is On Ground."
+            "Above section 3133 requires co-enrollment in MATH 54C section 2645. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -378,8 +357,7 @@
             }
           ],
           "notes": [
-            "Above section 2645 requires co-enrollment in STAT C1000 section",
-            "3133. Above section modality is On Ground."
+            "Above section 2645 requires co-enrollment in STAT C1000 section 3133. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -396,8 +374,7 @@
             }
           ],
           "notes": [
-            "Above section 3134 requires co-enrollment in MATH 54C section",
-            "2646. Above section modality is On Ground."
+            "Above section 3134 requires co-enrollment in MATH 54C section 2646. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -414,8 +391,7 @@
             }
           ],
           "notes": [
-            "Above section 2646 requires co-enrollment in STAT C1000 section",
-            "3134. Above section modality is On Ground."
+            "Above section 2646 requires co-enrollment in STAT C1000 section 3134. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -432,9 +408,7 @@
             }
           ],
           "notes": [
-            "Above section 3136 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section 3136 requires",
-            "co-enrollment in MATH 54C section 2647. Above section modality is On Ground."
+            "Above section 3136 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 3136 requires co-enrollment in MATH 54C section 2647. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -451,9 +425,7 @@
             }
           ],
           "notes": [
-            "Above section 2647 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section 2647 requires",
-            "co-enrollment in STAT C1000 section 3136. Above section modality is On Ground."
+            "Above section 2647 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 2647 requires co-enrollment in STAT C1000 section 3136. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -479,7 +451,7 @@
             "Above section 3140 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 3140 requires co-enrollment in MATH 54C section 4142."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "4142"
         },
         {
@@ -499,10 +471,10 @@
             }
           ],
           "notes": [
-            "Above section 4142 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 4142 requires co-enrollment in STAT C1000 section 3140."
+            "Above section 4142 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 4142 requires co-enrollment in STAT C1000 section 3140. CO-ENROLLMENT"
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "3140"
         },
         {
@@ -516,9 +488,7 @@
             }
           ],
           "notes": [
-            "Above section 4191 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section 4191 requires",
-            "co-enrollment in MATH 54C section 4143. Above section modality is On Ground."
+            "Above section 4191 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 4191 requires co-enrollment in MATH 54C section 4143. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -535,9 +505,7 @@
             }
           ],
           "notes": [
-            "Above section 4143 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section 4143 requires",
-            "co-enrollment in STAT C1000 section 4191. Above section modality is On Ground."
+            "Above section 4143 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 4143 requires co-enrollment in STAT C1000 section 4191. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -554,8 +522,7 @@
             }
           ],
           "notes": [
-            "Above section 3139 requires co-enrollment in MATH 54C section",
-            "4141. Above section modality is On Ground."
+            "Above section 3139 requires co-enrollment in MATH 54C section 4141. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -572,12 +539,7 @@
             }
           ],
           "notes": [
-            "Above section 4141 requires co-enrollment in STAT C1000 section",
-            "4195. Above section modality is On Ground.",
-            "measures assessment process or completion of a course taught at or above the level of intermediate algebra.",
-            "chi-squared, and t-tests; and application of technology for statistical analysis including the interpretation of the relevance of",
-            "the statistical findings. Students apply methods and processes",
-            "to applications using data from a broad range of disciplines."
+            "Above section 4141 requires co-enrollment in STAT C1000 section 4195. Above section modality is On Ground. STAT C1000, INTRODUCTION TO STATISTICS 4 UNITS measures assessment process or completion of a course taught at or above the level of intermediate algebra."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -594,8 +556,8 @@
             }
           ],
           "notes": [
-            "Above section 3113 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section modality is"
+            "Above section 3113 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,
@@ -629,8 +591,8 @@
             }
           ],
           "notes": [
-            "Above section 3116 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section modality is"
+            "Above section 3116 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,
@@ -681,10 +643,7 @@
             }
           ],
           "notes": [
-            "Above section 3118 is part of the Scholars Program and enrollment",
-            "is temporarily limited to program participants. See the Special",
-            "Programs section of the class schedule or smc.edu/scholars for",
-            "more information. Above section modality is On Ground."
+            "Above section 3118 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -719,8 +678,8 @@
             }
           ],
           "notes": [
-            "Above section 3123 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section modality is"
+            "Above section 3123 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,
@@ -737,8 +696,8 @@
             }
           ],
           "notes": [
-            "Above section 3124 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section modality is"
+            "Above section 3124 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,
@@ -772,8 +731,8 @@
             }
           ],
           "notes": [
-            "Above section 3130 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section modality is"
+            "Above section 3130 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,
@@ -824,10 +783,7 @@
             }
           ],
           "notes": [
-            "Above section 3137 is part of the Scholars Program and enrollment",
-            "is temporarily limited to program participants. See the Special",
-            "Programs section of the class schedule or smc.edu/scholars for",
-            "more information. Above section modality is On Ground."
+            "Above section 3137 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -861,8 +817,7 @@
             }
           ],
           "notes": [
-            "Above section 3142 has online exams accessing an online proctoring service. Computer with webcam and microphone is",
-            "required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+            "Above section 3142 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -879,8 +834,7 @@
             }
           ],
           "notes": [
-            "Above section 3143 has online exams accessing an online proctoring service. Computer with webcam and microphone is",
-            "required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+            "Above section 3143 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -897,8 +851,7 @@
             }
           ],
           "notes": [
-            "Above section 3144 has online exams accessing an online proctoring service. Computer with webcam and microphone is",
-            "required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+            "Above section 3144 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -915,8 +868,7 @@
             }
           ],
           "notes": [
-            "Above section 3145 has online exams accessing an online proctoring service. Computer with webcam and microphone is",
-            "required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+            "Above section 3145 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -933,8 +885,7 @@
             }
           ],
           "notes": [
-            "Above section 3146 has online exams accessing an online proctoring service. Computer with webcam and microphone is",
-            "required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+            "Above section 3146 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -951,8 +902,7 @@
             }
           ],
           "notes": [
-            "Above section 3147 has online exams accessing an online proctoring service. Computer with webcam and microphone is",
-            "required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+            "Above section 3147 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -969,8 +919,7 @@
             }
           ],
           "notes": [
-            "Above section 3148 has online exams accessing an online proctoring service. Computer with webcam and microphone is",
-            "required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+            "Above section 3148 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -987,8 +936,7 @@
             }
           ],
           "notes": [
-            "Above section 3149 has online exams accessing an online proctoring service. Computer with webcam and microphone is",
-            "required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+            "Above section 3149 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -1005,8 +953,7 @@
             }
           ],
           "notes": [
-            "Above section 3150 has online exams accessing an online proctoring service. Computer with webcam and microphone is",
-            "required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+            "Above section 3150 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -1023,8 +970,7 @@
             }
           ],
           "notes": [
-            "Above section 3151 has online exams accessing an online proctoring service. Computer with webcam and microphone is",
-            "required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+            "Above section 3151 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -1041,8 +987,7 @@
             }
           ],
           "notes": [
-            "Above section 3152 has online exams accessing an online proctoring service. Computer with webcam and microphone is",
-            "required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+            "Above section 3152 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -1059,8 +1004,7 @@
             }
           ],
           "notes": [
-            "Above section 3153 has online exams accessing an online proctoring service. Computer with webcam and microphone is",
-            "required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+            "Above section 3153 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -1077,9 +1021,7 @@
             }
           ],
           "notes": [
-            "Above section modality is Flexible. Above section has online exams",
-            "accessing an online proctoring service. Computer with webcam",
-            "and microphone is required. The Google Chrome browser must be downloaded to your computer."
+            "Above section modality is Flexible. Above section has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
           ],
           "duration": null,
           "modality": "Flexible. Above section has online exams",
@@ -1096,8 +1038,7 @@
             }
           ],
           "notes": [
-            "Above section 3155 meets for 8 weeks, Oct 27 to Dec 19. Above section 3155 has online exams accessing an online proctoring",
-            "service. Computer with webcam and microphone is required. The",
+            "Above section 3155 meets for 8 weeks, Oct 27 to Dec 19. Above section 3155 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer.",
             "Above section modality is Flexible."
           ],
           "duration": "8 weeks, Oct 27 to Dec 19",
@@ -1115,8 +1056,7 @@
             }
           ],
           "notes": [
-            "Above section 3156 meets for 8 weeks, Oct 27 to Dec 19. Above section 3156 has online exams accessing an online proctoring",
-            "service. Computer with webcam and microphone is required. The",
+            "Above section 3156 meets for 8 weeks, Oct 27 to Dec 19. Above section 3156 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer.",
             "Above section modality is Flexible."
           ],
           "duration": "8 weeks, Oct 27 to Dec 19",
@@ -1134,8 +1074,7 @@
             }
           ],
           "notes": [
-            "Above section 3157 meets for 8 weeks, Oct 27 to Dec 19. Above section 3157 has online exams accessing an online proctoring",
-            "service. Computer with webcam and microphone is required. The",
+            "Above section 3157 meets for 8 weeks, Oct 27 to Dec 19. Above section 3157 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer.",
             "Above section modality is Flexible."
           ],
           "duration": "8 weeks, Oct 27 to Dec 19",
@@ -1153,8 +1092,8 @@
             }
           ],
           "notes": [
-            "Above section 4192 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section modality is"
+            "Above section 4192 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,
@@ -1237,11 +1176,15 @@
       "transfer_info": [],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum UC credit for Math 2, Math 4, and Math 26 is one course."
+      ],
       "prerequisites": "Math 20 and Math 32.",
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
-      "description": "SUPPORT FOR PRECALCULUS 7 UNITS MATH 2 Transfer: UC*, CSU; MATH 2C Transfer: None *Maximum UC credit for Math 2, Math 4, and Math 26 is one course. Math 2: An intensive preparation for calculus. This course is intended for computer science, engineering, mathematics, and natural science majors. Topics include algebraic, exponential, logarithmic and trigonometric functions and their inverses and identities, conic sections, sequences, series, the binomial theorem and mathematical induction. The corequisite Math 2C: A review of the core prerequisite skills, competencies, and concepts needed in precalculus. Intended for students who are concurrently enrolled in Math 2, Precalculus. Topics include concepts from elementary algebra, geometry, and intermediate algebra that are needed to understand the basics of college-level precalculus. Emphasis is placed on real and complex numbers; fundamental operations on algebraic expressions and functions; algebraic factoring and simplification; introduction to functions, equations and graphs; circles and parabolas; properties of geometric figures, similarity, and special right triangles. Pass/No Pass only. CO-ENROLLMENT",
+      "description": "MATH 2 Transfer: UC*, CSU; MATH 2C Transfer: None  Math 2: An intensive preparation for calculus. This course is intended for computer science, engineering, mathematics, and natural science majors. Topics include algebraic, exponential, logarithmic and trigonometric functions and their inverses and identities, conic sections, sequences, series, the binomial theorem and mathematical induction. The corequisite Math 2C: A review of the core prerequisite skills, competencies, and concepts needed in precalculus. Intended for students who are concurrently enrolled in Math 2, Precalculus. Topics include concepts from elementary algebra, geometry, and intermediate algebra that are needed to understand the basics of college-level precalculus. Emphasis is placed on real and complex numbers; fundamental operations on algebraic expressions and functions; algebraic factoring and simplification; introduction to functions, equations and graphs; circles and parabolas; properties of geometric figures, similarity, and special right triangles. Pass/No Pass only. CO-ENROLLMENT",
       "same_as": null,
       "sections": [
         {
@@ -1255,8 +1198,7 @@
             }
           ],
           "notes": [
-            "Above section 2538 requires co-enrollment in MATH 2C section",
-            "2623. Above section modality is On Ground."
+            "Above section 2538 requires co-enrollment in MATH 2C section 2623. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1273,8 +1215,7 @@
             }
           ],
           "notes": [
-            "Above section 2623 requires co-enrollment in MATH 2 section",
-            "2538. Above section modality is On Ground."
+            "Above section 2623 requires co-enrollment in MATH 2 section 2538. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1291,8 +1232,7 @@
             }
           ],
           "notes": [
-            "Above section 2540 requires co-enrollment in MATH 2C section",
-            "2624. Above section modality is On Ground."
+            "Above section 2540 requires co-enrollment in MATH 2C section 2624. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1309,8 +1249,7 @@
             }
           ],
           "notes": [
-            "Above section 2624 requires co-enrollment in MATH 2 section",
-            "2540. Above section modality is On Ground."
+            "Above section 2624 requires co-enrollment in MATH 2 section 2540. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1327,8 +1266,7 @@
             }
           ],
           "notes": [
-            "Above section 2542 requires co-enrollment in MATH 2C section",
-            "2625. Above section modality is On Ground."
+            "Above section 2542 requires co-enrollment in MATH 2C section 2625. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1345,8 +1283,7 @@
             }
           ],
           "notes": [
-            "Above section 2625 requires co-enrollment in MATH 2 section",
-            "2542. Above section modality is On Ground."
+            "Above section 2625 requires co-enrollment in MATH 2 section 2542. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1363,8 +1300,7 @@
             }
           ],
           "notes": [
-            "Above section 2543 requires co-enrollment in MATH 2C section",
-            "2626. Above section modality is On Ground."
+            "Above section 2543 requires co-enrollment in MATH 2C section 2626. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1381,8 +1317,7 @@
             }
           ],
           "notes": [
-            "Above section 2626 requires co-enrollment in MATH 2 section",
-            "2543. Above section modality is On Ground."
+            "Above section 2626 requires co-enrollment in MATH 2 section 2543. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1399,8 +1334,7 @@
             }
           ],
           "notes": [
-            "Above section 2544 requires co-enrollment in MATH 2C section",
-            "2627. Above section modality is On Ground."
+            "Above section 2544 requires co-enrollment in MATH 2C section 2627. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1417,8 +1351,7 @@
             }
           ],
           "notes": [
-            "Above section 2627 requires co-enrollment in MATH 2 section",
-            "2544. Above section modality is On Ground."
+            "Above section 2627 requires co-enrollment in MATH 2 section 2544. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1435,8 +1368,7 @@
             }
           ],
           "notes": [
-            "Above section 2546 requires co-enrollment in MATH 2C section",
-            "2628. Above section modality is On Ground."
+            "Above section 2546 requires co-enrollment in MATH 2C section 2628. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1453,8 +1385,7 @@
             }
           ],
           "notes": [
-            "Above section 2628 requires co-enrollment in MATH 2 section",
-            "2546. Above section modality is On Ground."
+            "Above section 2628 requires co-enrollment in MATH 2 section 2546. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1471,8 +1402,7 @@
             }
           ],
           "notes": [
-            "Above section 4120 requires co-enrollment in MATH 2C section",
-            "4138. Above section modality is On Ground."
+            "Above section 4120 requires co-enrollment in MATH 2C section 4138. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1489,8 +1419,7 @@
             }
           ],
           "notes": [
-            "Above section 4138 requires co-enrollment in MATH 2 section",
-            "4120. Above section modality is On Ground."
+            "Above section 4138 requires co-enrollment in MATH 2 section 4120. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1507,8 +1436,7 @@
             }
           ],
           "notes": [
-            "Above section 4121 requires co-enrollment in MATH 2C section",
-            "4139. Above section modality is On Ground."
+            "Above section 4121 requires co-enrollment in MATH 2C section 4139. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1525,8 +1453,7 @@
             }
           ],
           "notes": [
-            "Above section 4139 requires co-enrollment in MATH 2 section",
-            "4121. Above section modality is On Ground."
+            "Above section 4139 requires co-enrollment in MATH 2 section 4121. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1543,8 +1470,7 @@
             }
           ],
           "notes": [
-            "Above section 4123 requires co-enrollment in MATH 2C section",
-            "4140. Above section modality is On Ground."
+            "Above section 4123 requires co-enrollment in MATH 2C section 4140. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1561,8 +1487,7 @@
             }
           ],
           "notes": [
-            "Above section 4140 requires co-enrollment in MATH 2 section",
-            "4123. Above section modality is On Ground."
+            "Above section 4140 requires co-enrollment in MATH 2 section 4123. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1580,11 +1505,15 @@
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units."
+      ],
       "prerequisites": "MATH 20 and MATH 32.",
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units. An intensive preparation for calculus. This course is intended for computer science, engineering, mathematics, and natural science majors. Topics include algebraic, exponential, logarithmic and trigonometric functions and their inverses and identities, conic sections, sequences, series, the binomial theorem and mathematical induction.",
+      "description": "An intensive preparation for calculus. This course is intended for computer science, engineering, mathematics, and natural science majors. Topics include algebraic, exponential, logarithmic and trigonometric functions and their inverses and identities, conic sections, sequences, series, the binomial theorem and mathematical induction.",
       "same_as": null,
       "sections": [
         {
@@ -1615,10 +1544,7 @@
             }
           ],
           "notes": [
-            "Above section 2541 is part of the Scholars Program and enrollment",
-            "is temporarily limited to program participants. See the Special",
-            "Programs section of the class schedule or smc.edu/scholars for",
-            "more information. Above section modality is On Ground."
+            "Above section 2541 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1669,9 +1595,7 @@
             }
           ],
           "notes": [
-            "Above section modality is Flexible. Above section has online exams",
-            "accessing an online proctoring service. Computer with webcam",
-            "and microphone is required. The Google Chrome browser must be downloaded to your computer."
+            "Above section modality is Flexible. Above section has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
           ],
           "duration": null,
           "modality": "Flexible. Above section has online exams",
@@ -1688,8 +1612,7 @@
             }
           ],
           "notes": [
-            "Above section 2551 has online exams accessing an online proctoring service. Computer with webcam and microphone is",
-            "required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+            "Above section 2551 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -1757,7 +1680,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "",
       "same_as": null,
@@ -1772,9 +1697,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": "MATH 20 and MATH 32.",
-      "advisory": "MATH 4 and eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "MATH 4 and eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
-      "description": "WITH APPLICATIONS 4 UNITS Math 3 Transfer: CSU; Math 3C Transfer: None Math 3: This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). Math 3 in combination with Math 4 (College Algebra for STEM Majors) serves as a prerequisite for Math 7 (Calculus 1). The course includes a study of the properties and graphs of trigonometric and inverse trigonometric functions, trigonometric identities, solutions of triangles, trigonometric equations, parametric equations, polar coordinates and polar equations, the algebra of vectors in two and three dimensions and topics from analytic geometry and applications. The co-requisite Math 3C is a review of the core prerequisite skills, competencies, and concepts needed in trigonometry. Intended for students who are concurrently enrolled in Math 3, Trigonometry with Applications. Topics include concepts from elementary and intermediate algebra and analytic geometry that are needed to understand the basics of trigonometry. Emphasis is placed on studying angles and their properties; geometric figures including circles and triangles; factoring and simplifying algebraic expressions; equations and graphs of circles; introduction to functions; fundamental operations on algebraic expressions and functions. Pass/No Pass only. CO-ENROLLMENT",
+      "description": "Math 3 Transfer: CSU; Math 3C Transfer: None Math 3: This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). Math 3 in combination with Math 4 (College Algebra for STEM Majors) serves as a prerequisite for Math 7 (Calculus 1). The course includes a study of the properties and graphs of trigonometric and inverse trigonometric functions, trigonometric identities, solutions of triangles, trigonometric equations, parametric equations, polar coordinates and polar equations, the algebra of vectors in two and three dimensions and topics from analytic geometry and applications. The co-requisite Math 3C is a review of the core prerequisite skills, competencies, and concepts needed in trigonometry. Intended for students who are concurrently enrolled in Math 3, Trigonometry with Applications. Topics include concepts from elementary and intermediate algebra and analytic geometry that are needed to understand the basics of trigonometry. Emphasis is placed on studying angles and their properties; geometric figures including circles and triangles; factoring and simplifying algebraic expressions; equations and graphs of circles; introduction to functions; fundamental operations on algebraic expressions and functions. Pass/No Pass only. CO-ENROLLMENT",
       "same_as": null,
       "sections": [
         {
@@ -1788,8 +1715,7 @@
             }
           ],
           "notes": [
-            "Above section 2553 requires co-enrollment in MATH 3C section",
-            "2631. Above section modality is On Ground."
+            "Above section 2553 requires co-enrollment in MATH 3C section 2631. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1806,8 +1732,7 @@
             }
           ],
           "notes": [
-            "Above section 2631 requires co-enrollment in MATH 3 section",
-            "2553. Above section modality is On Ground."
+            "Above section 2631 requires co-enrollment in MATH 3 section 2553. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1826,7 +1751,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": "MATH 20 and MATH 32.",
-      "advisory": "MATH 4 and eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "MATH 4 and eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). Math 3 in combination with Math 4 (College Algebra for STEM Majors) serves as a prerequisite for Math 7 (Calculus 1). The course includes a study of the properties and graphs of trigonometric and inverse trigonometric functions, trigonometric identities, solutions of triangles, trigonometric equations, parametric equations, polar coordinates and polar equations, the algebra of vectors in two and three dimensions and topics from analytic geometry and applications.",
       "same_as": null,
@@ -1876,8 +1803,7 @@
             }
           ],
           "notes": [
-            "Above section 2555 has online exams accessing an online proctoring service. Computer with webcam and microphone is",
-            "required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+            "Above section 2555 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -1892,11 +1818,15 @@
       "transfer_info": [],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2: Mathematical Concepts and Quantitative Reasoning",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units."
+      ],
       "prerequisites": "MATH 20.",
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
-      "description": "ALGEBRA FOR STEM MAJORS 5 UNITS Math 4 Transfer: UC*, CSU; Math 4C Transfer: None *Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units. MATH 4: This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). MATH 4 in combination with MATH 3 (Trigonometry with applications) serves as a prerequisite for Math 7 (Calculus 1). The topics to be covered include review of the fundamentals of algebra, relations, functions, solutions of first and second degree equations and inequalities, systems of equations, matrices, binomial theorem, mathematical induction, polynomial and rational functions, exponential and logarithmic functions, analytic geometry and conic sections, and geometric and arithmetic sequences and series. The corequisite MATH 4C is a review of the core prerequisite skills, competencies, and concepts needed in College Algebra. Intended for students who are concurrently enrolled in MATH 4, College Algebra for STEM Majors. Topics include concepts from elementary and intermediate algebra and analytic geometry that are needed to understand the basics of college-level algebra. Emphasis is placed on real and complex numbers; fundamental operations on algebraic expressions and functions; factoring and simplifying algebraic expressions; introduction to functions, solving equations and systems of linear equations; graphs of elementary functions and their properties. Pass/No Pass only. CO-ENROLLMENT",
+      "description": "Math 4 Transfer: UC*, CSU; Math 4C Transfer: None  MATH 4: This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). MATH 4 in combination with MATH 3 (Trigonometry with applications) serves as a prerequisite for Math 7 (Calculus 1). The topics to be covered include review of the fundamentals of algebra, relations, functions, solutions of first and second degree equations and inequalities, systems of equations, matrices, binomial theorem, mathematical induction, polynomial and rational functions, exponential and logarithmic functions, analytic geometry and conic sections, and geometric and arithmetic sequences and series. The corequisite MATH 4C is a review of the core prerequisite skills, competencies, and concepts needed in College Algebra. Intended for students who are concurrently enrolled in MATH 4, College Algebra for STEM Majors. Topics include concepts from elementary and intermediate algebra and analytic geometry that are needed to understand the basics of college-level algebra. Emphasis is placed on real and complex numbers; fundamental operations on algebraic expressions and functions; factoring and simplifying algebraic expressions; introduction to functions, solving equations and systems of linear equations; graphs of elementary functions and their properties. Pass/No Pass only. CO-ENROLLMENT",
       "same_as": null,
       "sections": [
         {
@@ -1910,9 +1840,7 @@
             }
           ],
           "notes": [
-            "Above section 2556 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section 2556 requires",
-            "co-enrollment in MATH 4C section 2632. Above section modality is On Ground."
+            "Above section 2556 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 2556 requires co-enrollment in MATH 4C section 2632. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1929,9 +1857,8 @@
             }
           ],
           "notes": [
-            "Above section 2632 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section 2632 requires",
-            "co-enrollment in MATH 4 section 2556. Above section modality is"
+            "Above section 2632 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 2632 requires co-enrollment in MATH 4 section 2556. Above section modality is",
+            "On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": null,
@@ -1948,9 +1875,7 @@
             }
           ],
           "notes": [
-            "Above section 2557 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section 2557 requires",
-            "co-enrollment in MATH 4C section 2633. Above section modality is On Ground."
+            "Above section 2557 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 2557 requires co-enrollment in MATH 4C section 2633. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -1967,9 +1892,8 @@
             }
           ],
           "notes": [
-            "Above section 2633 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section 2633 requires",
-            "co-enrollment in MATH 4 section 2557. Above section modality is"
+            "Above section 2633 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 2633 requires co-enrollment in MATH 4 section 2557. Above section modality is",
+            "On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": null,
@@ -1986,8 +1910,7 @@
             }
           ],
           "notes": [
-            "Above section 2558 requires co-enrollment in MATH 4C section",
-            "2634. Above section modality is On Ground."
+            "Above section 2558 requires co-enrollment in MATH 4C section 2634. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -2004,8 +1927,7 @@
             }
           ],
           "notes": [
-            "Above section 2634 requires co-enrollment in MATH 4 section",
-            "2558. Above section modality is On Ground."
+            "Above section 2634 requires co-enrollment in MATH 4 section 2558. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -2031,7 +1953,7 @@
             "Above section 2559 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2559 requires co-enrollment in MATH 4C section 2635."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "2635"
         },
         {
@@ -2054,7 +1976,7 @@
             "Above section 2635 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2635 requires co-enrollment in MATH 4 section 2559."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": "2559"
         }
       ]
@@ -2069,11 +1991,15 @@
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units."
+      ],
       "prerequisites": "MATH 20.",
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units. This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). Math 4 in combination with Math 3 (Trigonometry with applications) serves as a prerequisite for Math 7 (Calculus 1). The topics to be covered include review of the fundamentals of algebra, relations, functions, solutions of first and second degree equations and inequalities, systems of equations, matrices, binomial theorem, mathematical induction, polynomial and rational functions, exponential and logarithmic functions, analytic geometry and conic sections, and geometric and arithmetic sequences and series.",
+      "description": "This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). Math 4 in combination with Math 3 (Trigonometry with applications) serves as a prerequisite for Math 7 (Calculus 1). The topics to be covered include review of the fundamentals of algebra, relations, functions, solutions of first and second degree equations and inequalities, systems of equations, matrices, binomial theorem, mathematical induction, polynomial and rational functions, exponential and logarithmic functions, analytic geometry and conic sections, and geometric and arithmetic sequences and series.",
       "same_as": null,
       "sections": [
         {
@@ -2087,8 +2013,7 @@
             }
           ],
           "notes": [
-            "Above section 2560 has online exams accessing an online proctoring service. Computer with webcam and microphone is",
-            "required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+            "Above section 2560 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -2106,11 +2031,15 @@
       ],
       "c_id": "MATH 211",
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum UC credit for MATH 7 and MATH 28 is one course."
+      ],
       "prerequisites": "MATH 2 or (MATH 3 and MATH 4).",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum UC credit for MATH 7 and MATH 28 is one course. This first course in calculus is intended primarily for science, technology, engineering and mathematics majors. Topics include limits, continuity, and derivatives and integrals of algebraic and trigonometric functions, with mathematical and physical applications.",
+      "description": "This first course in calculus is intended primarily for science, technology, engineering and mathematics majors. Topics include limits, continuity, and derivatives and integrals of algebraic and trigonometric functions, with mathematical and physical applications.",
       "same_as": null,
       "sections": [
         {
@@ -2219,7 +2148,7 @@
             "Above section 2566 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -2233,8 +2162,7 @@
             }
           ],
           "notes": [
-            "Above section 2567 is part of the STEM/MAS program and enrollment is temporarily limited to program participants. See",
-            "the Special Programs section of the class schedule or smc.edu/stem for more information. Above section modality is On Ground."
+            "Above section 2567 is part of the STEM/MAS program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/stem for more information. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -2303,10 +2231,7 @@
             }
           ],
           "notes": [
-            "Above section 2571 is part of the Scholars Program and enrollment",
-            "is temporarily limited to program participants. See the Special",
-            "Programs section of the class schedule or smc.edu/scholars for",
-            "more information. Above section modality is On Ground."
+            "Above section 2571 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -2425,8 +2350,8 @@
             }
           ],
           "notes": [
-            "Above section 2578 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section modality is"
+            "Above section 2578 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,
@@ -2460,8 +2385,8 @@
             }
           ],
           "notes": [
-            "Above section 2580 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section modality is"
+            "Above section 2580 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,
@@ -2495,8 +2420,8 @@
             }
           ],
           "notes": [
-            "Above section 2582 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section modality is"
+            "Above section 2582 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,
@@ -2513,8 +2438,7 @@
             }
           ],
           "notes": [
-            "Above section 2583 has online exams accessing an online proctoring service. Computer with webcam and microphone is",
-            "required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+            "Above section 2583 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -2531,8 +2455,7 @@
             }
           ],
           "notes": [
-            "Above section 2584 has online exams accessing an online proctoring service. Computer with webcam and microphone is",
-            "required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+            "Above section 2584 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -2567,11 +2490,15 @@
       ],
       "c_id": "MATH 221",
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum UC credit for MATH 8 and MATH 29 is one course."
+      ],
       "prerequisites": "MATH 7.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum UC credit for MATH 8 and MATH 29 is one course. This second course in calculus is intended primarily for sci- ence, technology, engineering, and mathematics majors. Topics include derivatives and integrals of transcendental functions with mathematical and physical applications, indeterminate forms and improper integrals, infinite sequences and series, and curves, including conic sections, described by parametric equations and polar coordinates.",
+      "description": "This second course in calculus is intended primarily for sci- ence, technology, engineering, and mathematics majors. Topics include derivatives and integrals of transcendental functions with mathematical and physical applications, indeterminate forms and improper integrals, infinite sequences and series, and curves, including conic sections, described by parametric equations and polar coordinates.",
       "same_as": null,
       "sections": [
         {
@@ -2602,9 +2529,7 @@
             }
           ],
           "notes": [
-            "Above section modality is On Ground. Above section 2586 is part",
-            "of the STEM/MAS program and enrollment is temporarily limited",
-            "to program participants. See the Special Programs section of the class schedule or smc.edu/stem for more information."
+            "Above section modality is On Ground. Above section 2586 is part of the STEM/MAS program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/stem for more information."
           ],
           "duration": null,
           "modality": "On Ground. Above section 2586 is part",
@@ -2723,8 +2648,7 @@
             }
           ],
           "notes": [
-            "Above section 2593 has online exams accessing an online proctoring service. Computer with webcam and microphone is",
-            "required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+            "Above section 2593 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
           ],
           "duration": null,
           "modality": "Flexible",
@@ -2761,7 +2685,9 @@
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
       "prerequisites": "MATH 8.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "same course as CS 10",
       "description": "This course is intended for computer science, engineering, and mathematics majors. Topics include proof techniques, cardinality of sets, partial orderings and equivalence relations, symbolic logic and valid arguments, permutations and combinations with repetition, and an introduction to graph theory.",
       "same_as": null,
@@ -2797,7 +2723,9 @@
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
       "prerequisites": "MATH 8.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "Topics include vectors and analytic geometry in two and three dimensions, vector functions with applications, partial derivatives, extrema, Lagrange Multipliers, multiple integrals with applications, vector fields. Green’s Theorem, the Divergence Theorem, and Stokes’ Theorem.",
       "same_as": null,
@@ -2813,8 +2741,7 @@
             }
           ],
           "notes": [
-            "Above section 2594 is part of the STEM/MAS program and enrollment is temporarily limited to program participants. See",
-            "the Special Programs section of the class schedule or smc.edu/stem for more information. Above section modality is On Ground."
+            "Above section 2594 is part of the STEM/MAS program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/stem for more information. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -2874,7 +2801,7 @@
             "Above section 2597 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -2908,7 +2835,9 @@
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
       "prerequisites": "MATH 8.",
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "Topics include matrices and linear transformations; abstract vector spaces and subspaces; linear independence and bases; determinants; systems of linear equations; eigenvalues and eigenvectors.",
       "same_as": null,
@@ -2995,7 +2924,9 @@
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
       "prerequisites": "MATH 8.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is an introduction to ordinary differential equations. Topics include first order equations, linear equations, reduction of order, variation of parameters, spring motion and other applications, Cauchy-Euler equations, power series solutions, Laplace transform, and systems of linear differential equations.",
       "same_as": null,
@@ -3061,10 +2992,12 @@
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
-      "prerequisites": null,
+      "prerequisites": "MATH 18 or MATH 20 or MATH 49 or MATH 50.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "21C, CONCURRENT SUPPORT FOR FINITE MATHEMATICS 4 UNITS Math 21 Transfer: UC, CSU; MATH 21C Transfer: None Prerequisite: MATH 18 or MATH 20 or MATH 49 or MATH 50. Math 21: This is a terminal mathematics course for liberal arts and social science majors. Topics include sets and counting, probability, linear systems, linear programming, statistics, and mathematics of finance, with emphasis on applications. The corequisite Math 21C provides a review of the core prerequisite skills, competencies, and concepts needed for students who are concurrently enrolled in Finite Mathematics. Topics include theory, procedures, and practices from pre-algebra, beginning algebra, and intermediate algebra. Particular attention is paid to solving and graphing linear equations and inequalities, problem-solving and modeling strategies, translating and interpreting language for the purpose of formulating mathematical phrases and statements, simplifying arithmetic and algebraic expressions, and learning to use the appropriate technology (typically scientific calculators) needed in Math 21. Pass/No Pass only. CO-ENROLLMENT",
+      "description": "21C, CONCURRENT SUPPORT FOR FINITE Math 21 Transfer: UC, CSU; MATH 21C Transfer: None Math 21: This is a terminal mathematics course for liberal arts and social science majors. Topics include sets and counting, probability, linear systems, linear programming, statistics, and mathematics of finance, with emphasis on applications. The corequisite Math 21C provides a review of the core prerequisite skills, competencies, and concepts needed for students who are concurrently enrolled in Finite Mathematics. Topics include theory, procedures, and practices from pre-algebra, beginning algebra, and intermediate algebra. Particular attention is paid to solving and graphing linear equations and inequalities, problem-solving and modeling strategies, translating and interpreting language for the purpose of formulating mathematical phrases and statements, simplifying arithmetic and algebraic expressions, and learning to use the appropriate technology (typically scientific calculators) needed in Math 21. Pass/No Pass only. CO-ENROLLMENT",
       "same_as": null,
       "sections": [
         {
@@ -3078,9 +3011,7 @@
             }
           ],
           "notes": [
-            "Above section 2604 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section 2604 requires",
-            "co-enrollment in MATH 21C section 2614. Above section modality is On Ground."
+            "Above section 2604 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 2604 requires co-enrollment in MATH 21C section 2614. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -3097,9 +3028,7 @@
             }
           ],
           "notes": [
-            "Above section 2614 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section 2614 requires",
-            "co-enrollment in MATH 21 section 2604. Above section modality is On Ground."
+            "Above section 2614 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 2614 requires co-enrollment in MATH 21 section 2604. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -3116,8 +3045,7 @@
             }
           ],
           "notes": [
-            "Above section 2605 requires co-enrollment in MATH 21C section",
-            "2615. Above section modality is On Ground."
+            "Above section 2605 requires co-enrollment in MATH 21C section 2615. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -3134,8 +3062,7 @@
             }
           ],
           "notes": [
-            "Above section 2615 requires co-enrollment in MATH 21 section",
-            "2605. Above section modality is On Ground."
+            "Above section 2615 requires co-enrollment in MATH 21 section 2605. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -3152,8 +3079,7 @@
             }
           ],
           "notes": [
-            "Above section 2607 requires co-enrollment in MATH 21C section",
-            "2617. Above section modality is On Ground."
+            "Above section 2607 requires co-enrollment in MATH 21C section 2617. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -3170,8 +3096,7 @@
             }
           ],
           "notes": [
-            "Above section 2617 requires co-enrollment in MATH 21 section",
-            "2607. Above section modality is On Ground."
+            "Above section 2617 requires co-enrollment in MATH 21 section 2607. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -3188,8 +3113,7 @@
             }
           ],
           "notes": [
-            "Above section 2608 requires co-enrollment in MATH 21C section",
-            "2618. Above section modality is On Ground."
+            "Above section 2608 requires co-enrollment in MATH 21C section 2618. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -3206,8 +3130,7 @@
             }
           ],
           "notes": [
-            "Above section 2618 requires co-enrollment in MATH 21 section",
-            "2608. Above section modality is On Ground."
+            "Above section 2618 requires co-enrollment in MATH 21 section 2608. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -3224,8 +3147,7 @@
             }
           ],
           "notes": [
-            "Above section 2609 requires co-enrollment in MATH 21C section",
-            "2616. Above section modality is On Ground."
+            "Above section 2609 requires co-enrollment in MATH 21C section 2616. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -3242,8 +3164,7 @@
             }
           ],
           "notes": [
-            "Above section 2616 requires co-enrollment in MATH 21 section",
-            "2609. Above section modality is On Ground."
+            "Above section 2616 requires co-enrollment in MATH 21 section 2609. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -3260,8 +3181,7 @@
             }
           ],
           "notes": [
-            "Above section 2611 requires co-enrollment in MATH 21C section",
-            "2619. Above section modality is On Ground."
+            "Above section 2611 requires co-enrollment in MATH 21C section 2619. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -3278,8 +3198,7 @@
             }
           ],
           "notes": [
-            "Above section 2619 requires co-enrollment in MATH 21 section",
-            "2611. Above section modality is On Ground."
+            "Above section 2619 requires co-enrollment in MATH 21 section 2611. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -3296,9 +3215,7 @@
             }
           ],
           "notes": [
-            "Above section 2612 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section 2612 requires",
-            "co-enrollment in MATH 21C section 4135. Above section modality is On Ground."
+            "Above section 2612 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 2612 requires co-enrollment in MATH 21C section 4135. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -3315,9 +3232,7 @@
             }
           ],
           "notes": [
-            "Above section 4135 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section 4135 requires",
-            "co-enrollment in MATH 21 section 2612. Above section modality is On Ground."
+            "Above section 4135 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 4135 requires co-enrollment in MATH 21 section 2612. Above section modality is On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -3334,8 +3249,7 @@
             }
           ],
           "notes": [
-            "Above section 4133 requires co-enrollment in MATH 21C section",
-            "4136. Above section modality is On Ground."
+            "Above section 4133 requires co-enrollment in MATH 21C section 4136. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -3352,8 +3266,7 @@
             }
           ],
           "notes": [
-            "Above section 4136 requires co-enrollment in MATH 21 section",
-            "4133. Above section modality is On Ground."
+            "Above section 4136 requires co-enrollment in MATH 21 section 4133. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -3373,7 +3286,9 @@
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
       "prerequisites": "MATH 18 or MATH 20 or MATH 49 or MATH 50.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This is a terminal mathematics course for liberal arts and social science majors. Topics include sets and counting, prob- ability, linear systems, linear programming, statistics, and mathematics of finance, with emphasis on applications.",
       "same_as": null,
@@ -3441,11 +3356,15 @@
       ],
       "c_id": "MATH 140",
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum UC credit for MATH 7 and MATH 28 is one course."
+      ],
       "prerequisites": "MATH 26.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum UC credit for MATH 7 and MATH 28 is one course. This course is intended for students majoring in business or social sciences. It is a survey of differential and integral calculus with business and social science applications. Topics include limits, differential calculus of one variable, including exponential and logarithmic functions, introduction to integral calculus, and mathematics of finance.",
+      "description": "This course is intended for students majoring in business or social sciences. It is a survey of differential and integral calculus with business and social science applications. Topics include limits, differential calculus of one variable, including exponential and logarithmic functions, introduction to integral calculus, and mathematics of finance.",
       "same_as": null,
       "sections": [
         {
@@ -3476,8 +3395,8 @@
             }
           ],
           "notes": [
-            "Above section 2622 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section modality is"
+            "Above section 2622 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,
@@ -3513,9 +3432,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "MATHEMATICS 1 UNIT",
+      "description": "Please see “Independent Studies” section.",
       "same_as": null,
       "sections": [
         {

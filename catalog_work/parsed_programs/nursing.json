@@ -15,9 +15,11 @@
         "Corequisite: NURSNG 1L."
       ],
       "prerequisites": "Admission to Nursing Program, ANATMY 1, ENGL",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "CONCEPTS 1 2 UNITS C1000 (formerly ENGL 1), MCRBIO 1, PHYS 3. This course provides a basic introduction to nursing and roles of the nurse, as well as professional concepts related to patient-centered care, safety, teamwork and collaboration, evidence-based practice, quality improvement, and informatics. Emphasis is placed on the knowledge and skills needed to provide safe, quality care to the adult and older adult. The theoretical foundation for communication and nursing skills is presented. An introduction to the nursing process provides a framework to assist students in developing effective clinical reasoning, clinical judgment, and clinical decision making.",
+      "description": "C1000 (formerly ENGL 1), MCRBIO 1, PHYS 3. This course provides a basic introduction to nursing and roles of the nurse, as well as professional concepts related to patient-centered care, safety, teamwork and collaboration, evidence-based practice, quality improvement, and informatics. Emphasis is placed on the knowledge and skills needed to provide safe, quality care to the adult and older adult. The theoretical foundation for communication and nursing skills is presented. An introduction to the nursing process provides a framework to assist students in developing effective clinical reasoning, clinical judgment, and clinical decision making.",
       "same_as": null,
       "sections": [
         {
@@ -31,7 +33,7 @@
             }
           ],
           "notes": [
-            "Above section 2764 meets for 8 weeks, Sep 08 to Oct 21, at the",
+            "Above section 2764 meets for 8 weeks, Sep 08 to Oct 21, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Sep 08 to Oct 21",
@@ -53,9 +55,11 @@
         "Corequisite: NURSNG 1."
       ],
       "prerequisites": "Admission to Nursing Program.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "LAB 2.5 UNITS This course provides the opportunity for students to apply foundational concepts related to patient-centered care, safety, teamwork and collaboration, evidence-based practice, quality improvement, and informatics. Emphasis is placed on the knowledge and skills needed to provide safe, quality care. Students will begin to utilize communication and nursing skills in the laboratory and long-term care settings. The nursing process provides a framework to assist students in developing effective clinical decision making.",
+      "description": "This course provides the opportunity for students to apply foundational concepts related to patient-centered care, safety, teamwork and collaboration, evidence-based practice, quality improvement, and informatics. Emphasis is placed on the knowledge and skills needed to provide safe, quality care. Students will begin to utilize communication and nursing skills in the laboratory and long-term care settings. The nursing process provides a framework to assist students in developing effective clinical decision making.",
       "same_as": null,
       "sections": [
         {
@@ -75,7 +79,7 @@
             }
           ],
           "notes": [
-            "Above section 2765 meets for 8 weeks, Sep 03 to Oct 23, at the",
+            "Above section 2765 meets for 8 weeks, Sep 03 to Oct 23, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Sep 03 to Oct 23",
@@ -99,7 +103,7 @@
             }
           ],
           "notes": [
-            "Above section 2766 meets for 8 weeks, Sep 03 to Oct 23, at the",
+            "Above section 2766 meets for 8 weeks, Sep 03 to Oct 23, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Sep 03 to Oct 23",
@@ -123,7 +127,7 @@
             }
           ],
           "notes": [
-            "Above section 2767 meets for 8 weeks, Sep 03 to Oct 23, at the",
+            "Above section 2767 meets for 8 weeks, Sep 03 to Oct 23, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Sep 03 to Oct 23",
@@ -147,7 +151,7 @@
             }
           ],
           "notes": [
-            "Above section 2768 meets for 8 weeks, Sep 03 to Oct 23, at the",
+            "Above section 2768 meets for 8 weeks, Sep 03 to Oct 23, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Sep 03 to Oct 23",
@@ -169,9 +173,11 @@
         "Corequisite: NURSNG 2L."
       ],
       "prerequisites": "NURSNG 1 and NURSNG 36.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "CONCEPTS 2 2.5 UNITS This course expands the discussion of the roles of the nurse, as well as profession-related and patient care concepts. Emphasis is placed on leadership, spirituality, sexuality, nutrition, medication administration, and patient education. An exploration of basic human needs and nursing skills is presented in providing care for the adult and older adult.",
+      "description": "This course expands the discussion of the roles of the nurse, as well as profession-related and patient care concepts. Emphasis is placed on leadership, spirituality, sexuality, nutrition, medication administration, and patient education. An exploration of basic human needs and nursing skills is presented in providing care for the adult and older adult.",
       "same_as": null,
       "sections": [
         {
@@ -185,7 +191,7 @@
             }
           ],
           "notes": [
-            "Above section 2769 meets for 8 weeks, Oct 28 to Dec 19, at the",
+            "Above section 2769 meets for 8 weeks, Oct 28 to Dec 19, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Oct 28 to Dec 19",
@@ -207,9 +213,11 @@
         "Corequisite: NURSNG 2."
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "LAB 2.5 UNITS This course expands the application of the roles of the nurse, as well as profession-related and patient care concepts. In the laboratory and clinical setting emphasis is placed on leadership, spirituality, sexuality, nutrition, medication administration, and patient education. An integration of basic human needs and nursing skills are practiced.",
+      "description": "This course expands the application of the roles of the nurse, as well as profession-related and patient care concepts. In the laboratory and clinical setting emphasis is placed on leadership, spirituality, sexuality, nutrition, medication administration, and patient education. An integration of basic human needs and nursing skills are practiced.",
       "same_as": null,
       "sections": [
         {
@@ -372,9 +380,11 @@
         "Corequisite: NURSNG 3L and NURSNG 17."
       ],
       "prerequisites": "NURSNG 2.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "CONCEPTS 1 2.5 UNITS This course focuses on the care of adult patients with health alterations that require medical and/or surgical intervention. Emphasis is placed on the care of patients with alterations in selected body functions. Concepts of patient-centered care, cultural sensitivity, informatics, safe practice, and profession- alism are integrated throughout the course.",
+      "description": "This course focuses on the care of adult patients with health alterations that require medical and/or surgical intervention. Emphasis is placed on the care of patients with alterations in selected body functions. Concepts of patient-centered care, cultural sensitivity, informatics, safe practice, and profession- alism are integrated throughout the course.",
       "same_as": null,
       "sections": [
         {
@@ -388,7 +398,7 @@
             }
           ],
           "notes": [
-            "Above section 2775 meets for 8 weeks, Sep 05 to Oct 24, at the",
+            "Above section 2775 meets for 8 weeks, Sep 05 to Oct 24, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Sep 05 to Oct 24",
@@ -410,9 +420,11 @@
         "Corequisite: NURSNG 3."
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "LAB 2.5 UNITS This clinical course focuses on the care of adult patients with health alterations that require medical and/or surgical intervention. Emphasis is placed on the care of patients with alterations in selected body functions. Clinical experiences provide the student an opportunity to apply theoretical concepts and implement safe patient care to adults in a variety of settings. Concepts of patient-centered care, cultural sensitivity, informatics, safe practice, and professionalism are integrated throughout the course.",
+      "description": "This clinical course focuses on the care of adult patients with health alterations that require medical and/or surgical intervention. Emphasis is placed on the care of patients with alterations in selected body functions. Clinical experiences provide the student an opportunity to apply theoretical concepts and implement safe patient care to adults in a variety of settings. Concepts of patient-centered care, cultural sensitivity, informatics, safe practice, and professionalism are integrated throughout the course.",
       "same_as": null,
       "sections": [
         {
@@ -545,9 +557,11 @@
         "Corequisite: NURSNG 4L."
       ],
       "prerequisites": "NURSNG 3.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "CONCEPTS 1.5 UNITS This course focuses on the care of patients across the lifespan experiencing cognitive, mental and behavioral disorders. Emphasis is placed on management of patients facing emotional and psychological stressors as well as promoting and maintaining the mental health of individuals and families. Concepts of crisis intervention, therapeutic communication, anger management, and coping skills are integrated throughout the course. The community as a site for care and support services is addressed.",
+      "description": "This course focuses on the care of patients across the lifespan experiencing cognitive, mental and behavioral disorders. Emphasis is placed on management of patients facing emotional and psychological stressors as well as promoting and maintaining the mental health of individuals and families. Concepts of crisis intervention, therapeutic communication, anger management, and coping skills are integrated throughout the course. The community as a site for care and support services is addressed.",
       "same_as": null,
       "sections": [
         {
@@ -561,7 +575,7 @@
             }
           ],
           "notes": [
-            "Above section 2781 meets for 8 weeks, Oct 27 to Dec 15, at the",
+            "Above section 2781 meets for 8 weeks, Oct 27 to Dec 15, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Oct 27 to Dec 15",
@@ -583,7 +597,9 @@
         "Corequisite: NURSNG 4."
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This clinical course focuses on the care of patients experiencing cognitive, mental and behavioral disorders. Emphasis is placed on management of patients facing emotional and psychological stressors as well as promoting and maintaining the mental health of individuals and families. Concepts of crisis intervention, therapeutic communication, anger management, and coping skills are integrated throughout the clinical experience. Clinical experiences provide the student an opportunity to apply theoretical concepts and implement safe patient care to patients in selected mental health settings.",
       "same_as": null,
@@ -695,9 +711,11 @@
         "Corequisite: NURSNG 5L."
       ],
       "prerequisites": "NURSNG 4 and NURSNG 17.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "CONCEPTS 2 2.5 UNITS This course focuses on the care of adult patients with complex medical/surgical health problems. Emphasis is placed on helping patients and their families cope with alterations in body functions. Concepts of pharmacology, health promotion and education, evidence-based practice, and interdisciplinary collaboration will be integrated throughout the course.",
+      "description": "This course focuses on the care of adult patients with complex medical/surgical health problems. Emphasis is placed on helping patients and their families cope with alterations in body functions. Concepts of pharmacology, health promotion and education, evidence-based practice, and interdisciplinary collaboration will be integrated throughout the course.",
       "same_as": null,
       "sections": [
         {
@@ -711,7 +729,7 @@
             }
           ],
           "notes": [
-            "Above section 2786 meets for 8 weeks, Sep 05 to Oct 24, at the",
+            "Above section 2786 meets for 8 weeks, Sep 05 to Oct 24, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Sep 05 to Oct 24",
@@ -733,9 +751,11 @@
         "Corequisite: NURSNG 5."
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "LAB 2.5 UNITS This clinical course provides the student an opportunity to apply theoretical concepts and implement safe care for adult patients with complex medical/surgical health problems in a variety of settings. Emphasis is placed on helping patients and their families cope with alterations in body functions. Concepts of pharmacology, health promotion, education, evidence based practice, and interdisciplinary collaboration will be applied throughout the clinical course.",
+      "description": "This clinical course provides the student an opportunity to apply theoretical concepts and implement safe care for adult patients with complex medical/surgical health problems in a variety of settings. Emphasis is placed on helping patients and their families cope with alterations in body functions. Concepts of pharmacology, health promotion, education, evidence based practice, and interdisciplinary collaboration will be applied throughout the clinical course.",
       "same_as": null,
       "sections": [
         {
@@ -851,9 +871,11 @@
         "Corequisite: NURSNG 6L."
       ],
       "prerequisites": "NURSNG 5.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "CONCEPTS 1.5 UNITS This course provides an integrative, family-centered approach to the care of mothers, newborns, and families. Emphasis is placed on normal and high-risk pregnancies, normal growth and development, family dynamics and the promotion of healthy behaviors in patients.",
+      "description": "This course provides an integrative, family-centered approach to the care of mothers, newborns, and families. Emphasis is placed on normal and high-risk pregnancies, normal growth and development, family dynamics and the promotion of healthy behaviors in patients.",
       "same_as": null,
       "sections": [
         {
@@ -867,7 +889,7 @@
             }
           ],
           "notes": [
-            "Above section 2791 meets for 4 weeks, Oct 27 to Nov 19, at the",
+            "Above section 2791 meets for 4 weeks, Oct 27 to Nov 19, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "4 weeks, Oct 27 to Nov 19",
@@ -885,7 +907,7 @@
             }
           ],
           "notes": [
-            "Above section 2792 meets for 4 weeks, Nov 24 to Dec 17, at the",
+            "Above section 2792 meets for 4 weeks, Nov 24 to Dec 17, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "4 weeks, Nov 24 to Dec 17",
@@ -907,9 +929,11 @@
         "Corequisite: NURSNG 6."
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "CONCEPTS LAB 1 UNIT This clinical course provides an integrative, family-centered approach to the care of mothers, newborns and families. Emphasis is placed on normal and high-risk pregnancies, normal growth and development, family dynamics and the promotion of healthy behaviors in patients. Clinical experiences provide the student an opportunity to apply theoretical concepts and implement safe patient care to mothers and newborns in selected settings.",
+      "description": "This clinical course provides an integrative, family-centered approach to the care of mothers, newborns and families. Emphasis is placed on normal and high-risk pregnancies, normal growth and development, family dynamics and the promotion of healthy behaviors in patients. Clinical experiences provide the student an opportunity to apply theoretical concepts and implement safe patient care to mothers and newborns in selected settings.",
       "same_as": null,
       "sections": [
         {
@@ -1065,7 +1089,9 @@
         "Corequisite: NURSNG 7L."
       ],
       "prerequisites": "NURSNG 5.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course provides an integrative, family-centered approach to the care of children. Emphasis is placed on normal growth and development, family dynamics, common pediatric disorders and the promotion of healthy behaviors in patients.",
       "same_as": null,
@@ -1081,7 +1107,7 @@
             }
           ],
           "notes": [
-            "Above section 2799 meets for 4 weeks, Oct 29 to Nov 20, at the",
+            "Above section 2799 meets for 4 weeks, Oct 29 to Nov 20, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "4 weeks, Oct 29 to Nov 20",
@@ -1099,7 +1125,7 @@
             }
           ],
           "notes": [
-            "Above section 2800 meets for 4 weeks, Nov 26 to Dec 18, at the",
+            "Above section 2800 meets for 4 weeks, Nov 26 to Dec 18, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "4 weeks, Nov 26 to Dec 18",
@@ -1121,7 +1147,9 @@
         "Corequisite: NURSNG 7."
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This clinical course provides an integrative, family-centered approach to the care of children. Emphasis is placed on normal growth and development, family dynamics, common pediatric disorders and the promotion of healthy behaviors in patients. Clinical experiences provide the student an opportunity to apply theoretical concepts and implement safe patient care to children in selected settings.",
       "same_as": null,
@@ -1201,7 +1229,7 @@
             }
           ],
           "notes": [
-            "Above section 2803 meets for 4 weeks, Oct 27 to Nov 17, at the",
+            "Above section 2803 meets for 4 weeks, Oct 27 to Nov 17, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "4 weeks, Oct 27 to Nov 17",
@@ -1275,9 +1303,11 @@
         "Corequisite: NURSNG 8L."
       ],
       "prerequisites": "NURSNG 5.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "CONCEPTS 3 2.5 UNITS This course focuses on advanced concepts of nursing care as they relate to patients with complex, multi-system alterations in health. Emphasis is placed on implementing time management and organizational skills while managing the care of patients with multiple needs and collaborating with the interdisciplinary team. Complex clinical skills, as well as priority setting, clinical judgment, and tenets of legal and ethical practice are integrated throughout the course.",
+      "description": "This course focuses on advanced concepts of nursing care as they relate to patients with complex, multi-system alterations in health. Emphasis is placed on implementing time management and organizational skills while managing the care of patients with multiple needs and collaborating with the interdisciplinary team. Complex clinical skills, as well as priority setting, clinical judgment, and tenets of legal and ethical practice are integrated throughout the course.",
       "same_as": null,
       "sections": [
         {
@@ -1291,7 +1321,7 @@
             }
           ],
           "notes": [
-            "Above section 2806 meets for 8 weeks, Sep 05 to Oct 24, at the",
+            "Above section 2806 meets for 8 weeks, Sep 05 to Oct 24, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Sep 05 to Oct 24",
@@ -1313,9 +1343,11 @@
         "Corequisite: NURSNG 8."
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "LAB 2.5 UNITS This clinical course focuses on advanced concepts of nursing care as they relate to patients with complex multi-system alterations in health. Emphasis is placed on implementing time management and organizational skills while managing the care of patients with multiple needs and collaborating with the interdisciplinary team. Complex clinical skills, as well as priority setting, clinical judgment, and tenets of legal and ethical practice are integrated throughout the course. Clinical experiences provide the student an opportunity to apply theoretical concepts and implement safe care to patients and selected groups in a variety of settings.",
+      "description": "This clinical course focuses on advanced concepts of nursing care as they relate to patients with complex multi-system alterations in health. Emphasis is placed on implementing time management and organizational skills while managing the care of patients with multiple needs and collaborating with the interdisciplinary team. Complex clinical skills, as well as priority setting, clinical judgment, and tenets of legal and ethical practice are integrated throughout the course. Clinical experiences provide the student an opportunity to apply theoretical concepts and implement safe care to patients and selected groups in a variety of settings.",
       "same_as": null,
       "sections": [
         {
@@ -1460,7 +1492,9 @@
         "Corequisite: NURSNG 9L."
       ],
       "prerequisites": "NURSNG 8.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course facilitates the transition of the student to the role of a professional nurse in the microsystem of a work unit. Emphasis is placed on contemporary issues and management concepts, as well as developing the skills of delegation, conflict management, and leadership. Legal and ethical issues are discussed with a focus on personal accountability and responsibility. Standards of practice and the significance of functioning according to state regulations and statutes are analyzed.",
       "same_as": null,
@@ -1476,7 +1510,7 @@
             }
           ],
           "notes": [
-            "Above section 2812 meets for 8 weeks, Oct 27 to Dec 15, at the",
+            "Above section 2812 meets for 8 weeks, Oct 27 to Dec 15, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Oct 27 to Dec 15",
@@ -1498,9 +1532,11 @@
         "Corequisite: NURSNG 9."
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "CONCEPTS LAB 2 UNITS This clinical course facilitates the transition of the student to the role of a professional nurse in the microsystem of a work unit. Emphasis is placed on contemporary issues, leadership and management concepts, as well as developing the skills of delegation, prioritization, time management and conflict management. Legal and ethical issues are discussed with a focus on personal accountability and responsibility. Standards of practice and the significance of functioning according to state regulations and statutes are analyzed. Clinical experiences provide the student the opportunity to apply theoretical concepts while functioning in a leadership role and providing care to groups of patients.",
+      "description": "This clinical course facilitates the transition of the student to the role of a professional nurse in the microsystem of a work unit. Emphasis is placed on contemporary issues, leadership and management concepts, as well as developing the skills of delegation, prioritization, time management and conflict management. Legal and ethical issues are discussed with a focus on personal accountability and responsibility. Standards of practice and the significance of functioning according to state regulations and statutes are analyzed. Clinical experiences provide the student the opportunity to apply theoretical concepts while functioning in a leadership role and providing care to groups of patients.",
       "same_as": null,
       "sections": [
         {
@@ -1520,7 +1556,7 @@
             }
           ],
           "notes": [
-            "Above section 2813 meets for 8 weeks, Oct 27 to Dec 15, at the",
+            "Above section 2813 meets for 8 weeks, Oct 27 to Dec 15, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Oct 27 to Dec 15",
@@ -1544,7 +1580,7 @@
             }
           ],
           "notes": [
-            "Above section 2814 meets for 8 weeks, Oct 27 to Dec 15, at the",
+            "Above section 2814 meets for 8 weeks, Oct 27 to Dec 15, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Oct 27 to Dec 15",
@@ -1568,7 +1604,7 @@
             }
           ],
           "notes": [
-            "Above section 2815 meets for 8 weeks, Oct 27 to Dec 15, at the",
+            "Above section 2815 meets for 8 weeks, Oct 27 to Dec 15, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Oct 27 to Dec 15",
@@ -1604,7 +1640,7 @@
             }
           ],
           "notes": [
-            "Above section 2816 meets for 8 weeks, Oct 27 to Dec 15, at the",
+            "Above section 2816 meets for 8 weeks, Oct 27 to Dec 15, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Oct 27 to Dec 15",
@@ -1624,7 +1660,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": "PHYS 3.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This as an introductory course in pharmacology designed to enable the student to recognize the various classes of drugs used in modern medicine. It includes a brief review of anatomy and physiology, how drugs exert their effects, the major indication for drug use, routes of administration, expected and adverse drug effects, precautions and contraindications. Emphasis is on prescription drugs, but over the counter medications are also included.",
       "same_as": null,
@@ -1640,8 +1678,8 @@
             }
           ],
           "notes": [
-            "Above section 2817 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section modality is"
+            "Above section 2817 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,
@@ -1675,9 +1713,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "SOLUTIONS 1 UNIT This course reviews the mathematics used in medical calculation. It investigates the systems of measurements and methods of computing safe and accurate medical dosages.",
+      "description": "This course reviews the mathematics used in medical calculation. It investigates the systems of measurements and methods of computing safe and accurate medical dosages.",
       "same_as": null,
       "sections": [
         {
@@ -1691,7 +1731,7 @@
             }
           ],
           "notes": [
-            "Above section 2819 meets for 8 weeks, Sep 09 to Oct 21, at the",
+            "Above section 2819 meets for 8 weeks, Sep 09 to Oct 21, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Sep 09 to Oct 21",
@@ -1709,7 +1749,7 @@
             }
           ],
           "notes": [
-            "Above section 2820 meets for 9 weeks, Oct 31 to Dec 19, at the",
+            "Above section 2820 meets for 9 weeks, Oct 31 to Dec 19, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "9 weeks, Oct 31 to Dec 19",
@@ -1727,7 +1767,7 @@
             }
           ],
           "notes": [
-            "Above section 2821 meets for 9 weeks, Oct 30 to Dec 18, at the",
+            "Above section 2821 meets for 9 weeks, Oct 30 to Dec 18, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "9 weeks, Oct 30 to Dec 18",
@@ -1745,7 +1785,7 @@
             }
           ],
           "notes": [
-            "Above section 2822 meets for 9 weeks, Oct 28 to Dec 23, at the",
+            "Above section 2822 meets for 9 weeks, Oct 28 to Dec 23, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "9 weeks, Oct 28 to Dec 23",
@@ -1763,7 +1803,7 @@
             }
           ],
           "notes": [
-            "Above section 2823 meets for 9 weeks, Oct 29 to Dec 17, at the",
+            "Above section 2823 meets for 9 weeks, Oct 29 to Dec 17, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "9 weeks, Oct 29 to Dec 17",

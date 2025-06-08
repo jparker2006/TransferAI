@@ -14,7 +14,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This basketball course provides a consistent laboratory for the development and enhancement of the skills required to participate in intercollegiate basketball. The course is in conjunction with regular season practice and competitions as scheduled by the local and state community college athletics organizations. This class is recommended for those students that plan on participating on the intercollegiate varsity team. Previous experience on a club or high school team is preferred. One repeat is allowed. Must be enrolled in at least 12 units, including this course.",
       "same_as": null,
@@ -56,7 +58,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This varsity basketball course provides a consistent laboratory for the development and enhancement of the skills required to participate in women’s intercollegiate basketball. The course is in conjunction with regular season practice and competitions as scheduled by the local and state community college athletics organizations. This class is recommended for those students that plan on participating on the intercollegiate varsity team. Previous experience on a club or high school team is preferred. One repeat is allowed. Must be enrolled in at least 12 units, including this course.",
       "same_as": null,
@@ -98,9 +102,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "AND CONDITIONING 1 UNIT Students will be instructed in sport specific strength and conditioning protocols geared towards maintaining physical athletic qualities such muscular strength and power. There will also be an emphasis on recovery techniques. This inseason physical preparation course is recommended for those students participating on the intercollegiate varsity team.",
+      "description": "Students will be instructed in sport specific strength and conditioning protocols geared towards maintaining physical athletic qualities such muscular strength and power. There will also be an emphasis on recovery techniques. This inseason physical preparation course is recommended for those students participating on the intercollegiate varsity team.",
       "same_as": null,
       "sections": [
         {
@@ -114,8 +120,7 @@
             }
           ],
           "notes": [
-            "Above section 3193 is recommended for intercollegiate athletes",
-            "on the water polo team. Above section modality is On Ground."
+            "Above section 3193 is recommended for intercollegiate athletes on the water polo team. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -132,8 +137,7 @@
             }
           ],
           "notes": [
-            "Above section 3194 is recommended for intercollegiate athletes",
-            "on the women’s volleyball team. Above section modality is On"
+            "Above section 3194 is recommended for intercollegiate athletes on the women’s volleyball team. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On",
@@ -150,8 +154,7 @@
             }
           ],
           "notes": [
-            "Above section 3233 is recommended for intercollegiate athletes",
-            "on the football team. Above section modality is On Ground."
+            "Above section 3233 is recommended for intercollegiate athletes on the football team. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -168,8 +171,7 @@
             }
           ],
           "notes": [
-            "Above section 3195 is recommended for intercollegiate athletes",
-            "on the football team. Above section modality is On Ground."
+            "Above section 3195 is recommended for intercollegiate athletes on the football team. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -189,9 +191,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "AND CONDITIONING 1 UNIT Students will be instructed in sport specific strength and conditioning protocols related to improving muscular strength, power, agility, and speed. This off-season physical preparation course is recommended for those students that plan on participating on the intercollegiate varsity team.",
+      "description": "Students will be instructed in sport specific strength and conditioning protocols related to improving muscular strength, power, agility, and speed. This off-season physical preparation course is recommended for those students that plan on participating on the intercollegiate varsity team.",
       "same_as": null,
       "sections": [
         {
@@ -205,8 +209,7 @@
             }
           ],
           "notes": [
-            "Above section 3196 is recommended for intercollegiate athletes",
-            "on the men’s volleyball team. Above section modality is On"
+            "Above section 3196 is recommended for intercollegiate athletes on the men’s volleyball team. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On",
@@ -229,8 +232,7 @@
             }
           ],
           "notes": [
-            "Above section 3197 meets for 8 weeks, Sep 03 to Oct 23. Above section 3197 is recommended for intercollegiate athletes on the",
-            "basketball teams. Above section modality is On Ground."
+            "Above section 3197 meets for 8 weeks, Sep 03 to Oct 23. Above section 3197 is recommended for intercollegiate athletes on the basketball teams. Above section modality is On Ground."
           ],
           "duration": "8 weeks, Sep 03 to Oct 23",
           "modality": "On Ground",
@@ -250,7 +252,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This cross country course provides a consistent laboratory for the development and enhancement of the skills required to participate in intercollegiate cross country. The course is in conjunction with regular season practice and competitions as scheduled by the local and state community college athletics organizations. This class is recommended for those students that plan on participating on the intercollegiate varsity team. Previous experience on a club or high school team is preferred. One repeat is allowed. Must be enrolled in at least 12 units, including this course.",
       "same_as": null,
@@ -272,7 +276,8 @@
             }
           ],
           "notes": [
-            "Above section modality is On Ground. Typically, practices are"
+            "Above section modality is On Ground. Typically, practices are",
+            "M-Th from 2:15 p.m. to 4:45 p.m. with competitions on Fridays."
           ],
           "duration": null,
           "modality": "On Ground. Typically, practices are",
@@ -292,7 +297,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This cross country course provides a consistent laboratory for the development and enhancement of the skills required to participate in intercollegiate cross country. The course is in conjunction with regular season practice and competitions as scheduled by the local and state community college athletics organizations. This class is recommended for those students that plan on participating on the intercollegiate varsity team. Previous experience on a club or high school team is preferred. One repeat is allowed. Must be enrolled in at least 12 units, including this course.",
       "same_as": null,
@@ -314,7 +321,8 @@
             }
           ],
           "notes": [
-            "Above section modality is On Ground. Typically, practices are"
+            "Above section modality is On Ground. Typically, practices are",
+            "M-Th from 2:15 p.m. to 4:45 p.m. with competitions on Fridays."
           ],
           "duration": null,
           "modality": "On Ground. Typically, practices are",
@@ -334,7 +342,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "The varsity football course provides a consistent laboratory for the development and enhancement of the skills required to participate in intercollegiate football. The course is in conjunction with regular season practice and conference games as scheduled by the local and state community college athletics organizations. This class is recommended for those students that plan on participating on the intercollegiate varsity team. Previous experience on a club or high school team is preferred. One repeat is allowed. Must be enrolled in at least 12 units, including this course.",
       "same_as": null,
@@ -399,7 +409,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This varsity soccer course provides a consistent laboratory for the development and enhancement of the skills required to participate in intercollegiate soccer. The course is in conjunction with regular season practice and competitions as scheduled by the local and state community college athletics organizations. This class is recommended for students that plan on participating on the intercollegiate varsity team. Previous experience on a club or high school team is preferred. One repeat is allowed. Must be enrolled in at least 12 units, including this course.",
       "same_as": null,
@@ -441,7 +453,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This varsity soccer course provides a consistent laboratory for the development and enhancement of the skills required to participate in intercollegiate soccer. The course is in conjunction with regular season practice and competitions as scheduled by the local and state community college athletics organizations. This class is recommended for students that plan on participating on the intercollegiate varsity team. Previous experience on a club or high school team is preferred. One repeat is allowed. Must be enrolled in at least 12 units, including this course.",
       "same_as": null,
@@ -483,7 +497,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This varsity water polo course provides a consistent laboratory for the development and enhancement of the skills required to participate in men’s intercollegiate water polo. The course is in conjunction with regular season practice and competitions as scheduled by the local and state community college athletics organizations. This class is recommended for those students that plan on participating on the intercollegiate varsity team. Previous experience on a club or high school team is preferred. One repeat is allowed. Must be enrolled in at least 12 units, including this course.",
       "same_as": null,
@@ -525,7 +541,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This varsity water polo course provides a consistent laboratory for the development and enhancement of the skills required to participate in women’s intercollegiate water polo. The course is in conjunction with regular season practice and competitions as scheduled by the local and state community college athletics organizations. This class is recommended for those students that plan on participating on the intercollegiate varsity team. Previous experience on a club or high school team is preferred. One repeat is allowed. Must be enrolled in at least 12 units, including this course.",
       "same_as": null,
@@ -561,7 +579,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This varsity volleyball course provides a consistent laboratory for the development and enhancement of the skills required to participate in women’s intercollegiate volleyball. The course is in conjunction with regular season practice and competitions as scheduled by the local and state community college athletics organizations. This class is recommended for those students that plan on participating on the intercollegiate varsity team. Previous experience on a club or high school team is preferred. One repeat is allowed. Must be enrolled in at least 12 units, including this course.",
       "same_as": null,
@@ -603,9 +623,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "SPORT 1 UNIT This conditioning course provides a consistent laboratory for sport specific training and conditioning related to intercollegiate athletics participation. Emphasis is on individual and team activities that contribute to advancement in their designated sport.",
+      "description": "This conditioning course provides a consistent laboratory for sport specific training and conditioning related to intercollegiate athletics participation. Emphasis is on individual and team activities that contribute to advancement in their designated sport.",
       "same_as": null,
       "sections": [
         {
@@ -710,8 +732,7 @@
             }
           ],
           "notes": [
-            "Above section 3211 meets at Memorial Park, 1401 Olympic Blvd.,",
-            "Santa Monica CA 90404. Above section modality is On Ground."
+            "Above section 3211 meets at Memorial Park, 1401 Olympic Blvd., Santa Monica CA 90404. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -745,8 +766,7 @@
             }
           ],
           "notes": [
-            "Above section 3229 meets at Memorial Park, 1401 Olympic Blvd.,",
-            "Santa Monica CA 90404. Above section modality is On Ground."
+            "Above section 3229 meets at Memorial Park, 1401 Olympic Blvd., Santa Monica CA 90404. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",

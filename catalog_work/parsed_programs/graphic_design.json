@@ -13,7 +13,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "GR DES 31",
       "description": "This studio course introduces the graphic design process — concept, visualization, documentation, and professional presentation. With an emphasis on visual communication strategies, students will explore the fundamental text/image interaction and develop various types of graphic identity designs including symbolic, pictorial or typographic.",
       "same_as": null,
@@ -35,12 +37,10 @@
             }
           ],
           "notes": [
-            "Above section 1808 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. Above section 1808 will meet On Ground on the",
-            "following dates: Sept 4, Sept 25, Oct 16, Nov 6, Nov 20, Dec 4, and"
+            "Above section 1808 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. Above section 1808 will meet On Ground on the following dates: Sept 4, Sept 25, Oct 16, Nov 6, Nov 20, Dec 4, and Dec 18. All other class meetings will be held on Zoom via Canvas."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -60,11 +60,10 @@
             }
           ],
           "notes": [
-            "Above section 4069 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. Above section 4069 will be held On Ground on"
+            "Above section 4069 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. Above section 4069 will be held On Ground on Sept 3 & 24, Oct 15, Nov 5 & 19, and Dec 17. All remaining class sessions will be held via Canvas Zoom."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -80,7 +79,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "GR DES 33",
       "description": "The course serves as an introduction to the fundamentals of typography. Students learn about the history of the letterform and type development, the core concepts and the professional vocabulary, as well as the technologies and their applications in the typographic practice. The primary focus of the course is on developing the basic skills necessary to understand and apply typography in visual communication.",
       "same_as": null,
@@ -102,8 +103,7 @@
             }
           ],
           "notes": [
-            "Above section 1809 will meet online in the Scheduled modality",
-            "on Sept 4 & 25, Oct 16, Nov 6 & 20, and Dec 18. Above section modality is Scheduled."
+            "Above section 1809 will meet online in the Scheduled modality on Sept 4 & 25, Oct 16, Nov 6 & 20, and Dec 18. Above section modality is Scheduled."
           ],
           "duration": null,
           "modality": "Scheduled",
@@ -140,7 +140,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "GR DES 18",
       "description": "This course provides an overview of digital applications used in the field of Graphic Design for the purposes of image manipulation, vector graphics, and publication design. Also covered: Operation Systems, file management, and computer navigation basics.",
       "same_as": null,
@@ -210,7 +212,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "DESIGN 11.",
+      "prerequisite_notes": null,
+      "advisory": "DESIGN 11",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course supplies students with a toolbox of techniques to build visual problem-solving and communication skills. Students will explore different methodologies used to kickstart the creative process: how to formulate design problems, establish constraints, ideate, and prototype solutions. A variety of different techniques are explored that designers use to conceptualize and visualize their ideas and present them in different mediums. Concepts covered include sketching, brainstorming, visual research, Interviewing, field research, moodboards, brand books, co-designing, mind mapping, and concept presentations.",
       "same_as": null,
@@ -255,11 +259,10 @@
             }
           ],
           "notes": [
-            "Above section 1816 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1816 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -275,7 +278,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "DESIGN 12.",
+      "prerequisite_notes": null,
+      "advisory": "DESIGN 12",
+      "advisory_notes": null,
       "formerly": "GR DES 43",
       "description": "The course builds on the fundamental principles covered in Typography 1 to continue the exploration of type as a visual communication tool. Students learn to understand the context and the meaning behind the typographic strategies and apply advanced techniques and methods to increasingly complex design projects. The course emphasizes the use of grids and the systematic approach to visual communication.",
       "same_as": null,
@@ -297,11 +302,10 @@
             }
           ],
           "notes": [
-            "Above section 1817 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1817 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -316,9 +320,8 @@
           ],
           "notes": [
             "Above section 4071 meets at the Center for Media and Design,",
-            "1660 Stewart Street, Santa Monica CA 90404. Above section 4071",
-            "will meet On Ground on the following dates: Sept 4, Sept 25, Oct",
-            "be held on Zoom via Canvas. Above section modality is On Ground."
+            "1660 Stewart Street, Santa Monica CA 90404. Above section 4071 will meet On Ground on the following dates: Sept 4, Sept 25, Oct",
+            "16, Nov 6, Nov 20, Dec 4, and Dec 18. All other class meetings will be held on Zoom via Canvas. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -337,7 +340,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "GR DES 61",
       "description": "User Experience (UX) Design prioritizes the needs and wants of the user. The goal: create useful, meaningful, and ethical/ sustainable interactions with a product, service or design. This introductory course will provide an overview of the design process and tools used within the UX field with a specific focus on mobile or web-based solutions. Students will collaborate to research, critique, and design a real-world project or projects to present to stakeholders.",
       "same_as": null,
@@ -376,11 +381,11 @@
             }
           ],
           "notes": [
-            "Above section 4072 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. Above section 4072 will meet On Ground on Sept"
+            "Above section 4072 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. Above section 4072 will meet On Ground on Sept",
+            "16, Oct 14, and Nov 18. All remaining class meetings will be held via Canvas Zoom."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -396,7 +401,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "DESIGN 13.",
+      "prerequisite_notes": null,
+      "advisory": "DESIGN 13",
+      "advisory_notes": null,
       "formerly": "GR DES 65",
       "description": "This course serves as an introduction to the fundamentals of web design for students with existing command of digital design tools. Students will learn about the history and the nature of the Web as a medium for visual communication, it’s underlying structures, and the foundational principles and methods of design for the Web. The course focuses on core concepts like site structure, treatment of text and images, the separation of content and presentation, as well as introduction to layout and positioning and allows students to apply these skills in creation of their own Web pages and sites.",
       "same_as": null,
@@ -418,11 +425,11 @@
             }
           ],
           "notes": [
-            "Above section 1819 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. Above section 1819 will meet On Ground on Sept"
+            "Above section 1819 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. Above section 1819 will meet On Ground on Sept",
+            "3, Nov 12, and Dec 17. All remaining class meetings will be held via Canvas Zoom."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -438,7 +445,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "DESIGN 11.",
+      "prerequisite_notes": null,
+      "advisory": "DESIGN 11",
+      "advisory_notes": null,
       "formerly": null,
       "description": "In this project-based course, students will apply graphic design skills to interactive advertising and social media platforms. Using appropriate tools, frameworks, and technologies, students will create interactive campaigns to promote, engage, and drive user behaviors as well as identify and apply various methods for measuring a project’s success. Students will use a hands-on approach to campaign creation through social media advertising, marketing strategies, and performance indicators to tell the story of a business or user — and the goals they want to achieve.",
       "same_as": null,
@@ -460,11 +469,11 @@
             }
           ],
           "notes": [
-            "Above section 1820 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. Above section 1820 will meet On Ground on Sept"
+            "Above section 1820 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. Above section 1820 will meet On Ground on Sept",
+            "3, Nov 12, and Dec 17. All remaining class meetings will be held via Canvas Zoom."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -480,7 +489,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "DESIGN 11.",
+      "prerequisite_notes": null,
+      "advisory": "DESIGN 11",
+      "advisory_notes": null,
       "formerly": null,
       "description": "The class prepares students to participate in a visual communication campaign delivered across various media. The coursework focuses on the application of a consistent visual language to different platforms preserving branding and messaging cohesion. Supplied with a design brief for a single large campaign students will practice conceptualization, prototyping, pre-production and content delivery within the constraints of working towards a set goal and target audience.",
       "same_as": null,
@@ -502,11 +513,10 @@
             }
           ],
           "notes": [
-            "Above section 1821 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1821 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -522,7 +532,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "DESIGN 23.",
+      "prerequisite_notes": null,
+      "advisory": "DESIGN 23",
+      "advisory_notes": null,
       "formerly": "GR DES 62",
       "description": "User Experience (UX) 2 builds on the knowledge acquired in UX 1. If projects in UX 1 focus primarily on mobile and webbased solutions, UX 2 embraces a more holistic view of the user experience. This may include looking at other interfaces (voice activation, wearables, etc.) and design types (service, interventions) — and even those we have not yet considered. Project outcomes may also be equally diverse with projects ranging from interactive campaigns to speculative prototypes. Students will collaborate to research, critique, and design real-world, theme-based project(s) to a group of a stakeholders.",
       "same_as": null,
@@ -544,11 +556,10 @@
             }
           ],
           "notes": [
-            "Above section 1822 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1822 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -581,7 +592,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "DESIGN 24.",
+      "prerequisite_notes": null,
+      "advisory": "DESIGN 24",
+      "advisory_notes": null,
       "formerly": "GR DES 66",
       "description": "This course builds up on the web design fundamentals covered in Design 24 and is centered around the best practices for the use of design systems in web design and the introduction to the interactivity on the Web. Students explore concepts like grids and layouts and learn to apply various CSS strategies for the design of modern cross-platform responsive websites. They learn about engaging and delighting users with interactive components, and advanced application of typography and images and practice applying common interactive design strategies to the design of complex multi-page websites for real-world clients.",
       "same_as": null,
@@ -603,11 +616,11 @@
             }
           ],
           "notes": [
-            "Above section 1824 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. Above section 1824 will meet On Ground on Sept"
+            "Above section 1824 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. Above section 1824 will meet On Ground on Sept",
+            "4, Oct 30, and Dec 18. All remaining class meetings will be held via Canvas Zoom."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -623,7 +636,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "DESIGN 11.",
+      "prerequisite_notes": null,
+      "advisory": "DESIGN 11",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course focuses on an industry-sponsored project driven by a real-world brief. As a capstone class, students will build on the knowledge and skills they acquired in earlier course work. Students in this course will work independently or in small teams to research, prototype, and present design concepts in collaboration with the industry partner.",
       "same_as": null,
@@ -645,11 +660,10 @@
             }
           ],
           "notes": [
-            "Above section 4073 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+            "Above section 4073 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -665,7 +679,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": "DESIGN 11",
+      "advisory_notes": null,
       "formerly": null,
       "description": "Design and presentation of information is integral to all human cultures — from pictographs to alphabet to complex data visualizations. This course presents students with the opportunity to explore visual expressions of data and information, wayfinding systems and information-based narratives. Students will learn to create visual systems, data visualizations in print and on the Web, and effective and engaging presentations.",
       "same_as": null,
@@ -687,11 +703,11 @@
             }
           ],
           "notes": [
-            "Above section 4074 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. Above section 4074 will meet On Ground on Oct"
+            "Above section 4074 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. Above section 4074 will meet On Ground on Oct",
+            "13, Nov 17, and Dec 15. All remaining class meetings will be held via Canvas Zoom."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -707,7 +723,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "DESIGN 11.",
+      "prerequisite_notes": null,
+      "advisory": "DESIGN 11",
+      "advisory_notes": null,
       "formerly": "GR DES 50",
       "description": "This course provides the opportunity to focus on the development of an effective design portfolio and addresses the process of developing project documentation that meets the current industry standards. Students learn how to write case studies, and present and exhibit their work in a professional setting. Students prepare promotional materials, including a design statement, resume, digital portfolio, online professional presence, cover letters, and references. Emphasis is placed on cultivating a professional voice in design.",
       "same_as": null,
@@ -729,11 +747,10 @@
             }
           ],
           "notes": [
-            "Above section 1825 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+            "Above section 1825 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -747,7 +764,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "DESIGN 13.",
+      "prerequisite_notes": null,
+      "advisory": "DESIGN 13",
+      "advisory_notes": null,
       "formerly": "GR DES 75",
       "description": "This design course focuses on designing mobile touchscreen interfaces, including smartphones and tablets. Mobile design requires the skill of designing for smaller, hand-held devices and has its own set of characteristics and constraints. Students will conceptualize, design, and implement low-fidelity design prototypes of apps for mobile devices. Projects will cover best practices for mobile device design and the basics of mobile app prototyping, including design process, interface design, and interaction design patterns. NOTE: This course is not a mobile app development or programming course. For such courses, please see the Computer Science course offerings. This course is not a mobile app development or programming course. For such courses, please see our Computer Science course offerings.",
       "same_as": null,
@@ -782,7 +801,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "DESIGN 12 and DESIGN 13.",
+      "prerequisite_notes": null,
+      "advisory": "DESIGN 12 and DESIGN 13",
+      "advisory_notes": null,
       "formerly": "GR DES 71",
       "description": "This hands-on course focuses on communication design for motion. Students will conceptualize, design and produce visual communication solutions using motion. Motion Graphics is a form of communication with a range of applications: film, television, communication design, branding, advertising and web. Projects will cover best practices for animation and visual effects in broadcast design, film titles, and video production by combining narrative storytelling, graphics and typography.",
       "same_as": null,
@@ -823,7 +844,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "DESIGN 23 and DESIGN 25.",
+      "prerequisite_notes": null,
+      "advisory": "DESIGN 23 and DESIGN 25",
+      "advisory_notes": null,
       "formerly": "GR DES 76",
       "description": "This design course focuses on designing apps for mobile touchscreen devices including smartphones and tablets. This class will use knowledge acquired in Mobile Design 1 to conceptualize, design, and implement interactive design prototypes for mobile devices at an intermediate level. Projects will include designing, user testing, and creating mobile app design prototypes. NOTE: This course is not a mobile app development or programming course. For such courses, please see the Computer Science course offerings. This course is not a mobile app development or programming course. For such courses, please see our Computer Science course offerings.",
       "same_as": null,
@@ -858,7 +881,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "DESIGN 26.",
+      "prerequisite_notes": null,
+      "advisory": "DESIGN 26",
+      "advisory_notes": null,
       "formerly": "GR DES 71B",
       "description": "This hands-on course focuses on communication design and common professional uses of advanced motion graphics. Students will conceptualize, design and produce innovative time-based visual communication solutions using motion design theory and techniques. Exploring a wide range of applications (film, web, television, communication design, branding and advertising), students will create projects with advanced techniques for animation and visual effects in broadcast design, film titles and video production by combining typography, graphics and narrative storytelling.",
       "same_as": null,

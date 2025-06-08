@@ -16,7 +16,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "The SPAN 1 and SPAN 2 sequence is equivalent to SPAN 11. Students will receive credit for the sequence or SPAN 11, but not both. This course introduces the students to basic vocabulary and fundamental sentence structure in the present and preterit tenses. Basic aural and reading comprehension is developed and students hold simple conversations and write short compositions about present and past actions. This course is taught in Spanish, except in the case of linguistic difficulty as determined by the professor.",
       "same_as": null,
@@ -41,7 +43,7 @@
             "Above section 3102 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -64,7 +66,7 @@
             "Above section 3103 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -104,7 +106,7 @@
             "Above section 3105 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -140,9 +142,11 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "SPAN 1*.",
+      "prerequisite_notes": null,
+      "advisory": "SPAN 1",
+      "advisory_notes": "*The advisory for this course is comparable to two years of high school Spanish.",
       "formerly": null,
-      "description": "The SPAN 1 and SPAN 2 sequence is equivalent to SPAN 11. Students will receive credit for the sequence or SPAN 11, but not both. This course is a continuation of Spanish 1. This course stresses basic vocabulary and fundamental sentence structure in the past and future indicative tenses and the subjunctive mood. The course develops basic aural and reading comprehension. Students hold simple conversations and write short compositions in the past and future. They read simple texts and further study Spanish and Latin American culture. *The advisory for this course is comparable to two years of high school Spanish.",
+      "description": "The SPAN 1 and SPAN 2 sequence is equivalent to SPAN 11. Students will receive credit for the sequence or SPAN 11, but not both. This course is a continuation of Spanish 1. This course stresses basic vocabulary and fundamental sentence structure in the past and future indicative tenses and the subjunctive mood. The course develops basic aural and reading comprehension. Students hold simple conversations and write short compositions in the past and future. They read simple texts and further study Spanish and Latin American culture.",
       "same_as": null,
       "sections": [
         {
@@ -165,7 +169,7 @@
             "Above section 3106 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -188,7 +192,7 @@
             "Above section 3107 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -230,9 +234,11 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "SPAN 2*.",
+      "prerequisite_notes": null,
+      "advisory": "SPAN 2",
+      "advisory_notes": "*The advisory for this course is comparable to three years of high school Spanish.",
       "formerly": null,
-      "description": "Students will receive credit for either SPAN 3 or SPAN 12, but not both. This course is taught through thematic units in Spanish on a variety of current and cultural topics. In addition, this course reviews Spanish grammar, emphasizing idiomatic constructions and expressions. Emphasis is also placed on the use of learned structures in compositions. Reading skills and basic literary analysis are developed using selected readings from Spanish and Spanish-American literature. *The advisory for this course is comparable to three years of high school Spanish.",
+      "description": "Students will receive credit for either SPAN 3 or SPAN 12, but not both. This course is taught through thematic units in Spanish on a variety of current and cultural topics. In addition, this course reviews Spanish grammar, emphasizing idiomatic constructions and expressions. Emphasis is also placed on the use of learned structures in compositions. Reading skills and basic literary analysis are developed using selected readings from Spanish and Spanish-American literature.",
       "same_as": null,
       "sections": [
         {
@@ -266,9 +272,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": "SPAN 2*.",
+      "prerequisite_notes": "*The prerequisite for this course is comparable to three years of high school Spanish.",
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "*The prerequisite for this course is comparable to three years of high school Spanish. This course provides an opportunity to acquire intermediate fluency in spoken Spanish with emphasis on natural, colloquial usage. This course is taught in Spanish except in cases of linguistic difficulty as determined by the professor. Applied and service-learning field experience within a public agency, educational institution, and citizen volunteer groups is a requirement of this class.",
+      "description": "This course provides an opportunity to acquire intermediate fluency in spoken Spanish with emphasis on natural, colloquial usage. This course is taught in Spanish except in cases of linguistic difficulty as determined by the professor. Applied and service-learning field experience within a public agency, educational institution, and citizen volunteer groups is a requirement of this class.",
       "same_as": null,
       "sections": [
         {
@@ -310,7 +318,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "The SPAN 1 and SPAN 2 sequence is equivalent to SPAN 11. Students will receive credit for the sequence or SPAN 11, but not both. This course is designed for students who speak Spanish at home and who need to improve their vocabulary and knowledge of the grammar as well as their spelling, writing skills, and reading comprehension. Formal aspects of the language will be stressed including: spelling, punctuation, and accentuation. In addition, there is a focus on formal writing and the writing process. Reading, reading strategies and comprehension as well as basic literary analysis are stressed. This course is taught in Spanish except in cases of linguistic difficulty as determined by the professor.",
       "same_as": null,
@@ -343,8 +353,7 @@
             }
           ],
           "notes": [
-            "Above section 3111 meets for 12 weeks, Sep 22 to Dec 12. Above section is part of the Adelante program though enrollment is",
-            "open to all students. See the Special Programs section of the class schedule or smc.edu/latinocenter for more information. Above section modality is Flexible."
+            "Above section 3111 meets for 12 weeks, Sep 22 to Dec 12. Above section is part of the Adelante program though enrollment is open to all students. See the Special Programs section of the class schedule or smc.edu/latinocenter for more information. Above section modality is Flexible."
           ],
           "duration": "12 weeks, Sep 22 to Dec 12",
           "modality": "Flexible",
@@ -363,7 +372,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is designed for the student with no previous knowledge of Spanish and develops basic conversation skills in the present tense. It emphasizes the use of set-up phrases, idiomatic expressions, correct pronunciation, development of useful thematic vocabulary and the ability to communicate at a practical and basic level. This course is taught in Spanish except in cases of linguistic difficulty as determined by the professor.",
       "same_as": null,

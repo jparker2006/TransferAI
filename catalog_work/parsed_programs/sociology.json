@@ -14,7 +14,9 @@
       "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course introduces the study of society and human social interaction. Both macro and micro sociological theory are discussed, as well as methods of sociological inquiry, culture, socialization, deviance, social change and social stratification — particularly in the areas of social class, race and ethnicity, and gender. Students are highly encouraged to complete Sociology 1 prior to enrolling in other sociology courses. Students may earn credit for either SOCIOL 1 or 1 S but not both. Only SOCIOL 1 S fulfills the Santa Monica College Global Citizenship requirement.",
       "same_as": null,
@@ -47,13 +49,7 @@
             }
           ],
           "notes": [
-            "Above section 3071 is part of the Black Collegians program",
-            "though enrollment is open to all students. See the Special",
-            "Programs section of the class schedule or smc.edu/blackcollegians",
-            "for more information. Above section is part of the Adelante",
-            "program though enrollment is open to all students. See the Special",
-            "Programs section of the class schedule or smc.edu/latinocenter",
-            "for more information. Above section modality is On Ground."
+            "Above section 3071 is part of the Black Collegians program though enrollment is open to all students. See the Special Programs section of the class schedule or smc.edu/blackcollegians for more information. Above section is part of the Adelante program though enrollment is open to all students. See the Special Programs section of the class schedule or smc.edu/latinocenter for more information. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -393,10 +389,7 @@
             }
           ],
           "notes": [
-            "Above section 4188 is part of the Scholars Program and enrollment",
-            "is temporarily limited to program participants. See the Special",
-            "Programs section of the class schedule or smc.edu/scholars for",
-            "more information. Above section modality is On Ground."
+            "Above section 4188 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -416,7 +409,9 @@
       "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course involves a sociological analysis of social problems on the local, national, and international level. Critical inquiry and analysis are conducted into issues such as global inequality, environmental destruction, urban deterioration, economic and political power distribution, poverty, racism, sexism, and problems of work, family, education, drugs, and crime. Theoretical perspectives of sociology and current sociological research are explored. Students may earn credit for either SOCIOL 2 or 2 S but not both. Only SOCIOL 2 S fulfills the Santa Monica College Global Citizenship Requirement.",
       "same_as": null,
@@ -469,7 +464,9 @@
       "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "SOCIOL 1 and eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "SOCIOL 1 and eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course introduces students to the fundamental principles and methods of sociological research design and implementation. Students examine the key varieties of evidence — including qualitative and quantitative data, data-gathering and sampling methods, logic of comparison, and causal reasoning. The work of several scholars is evaluated and students create their own research project related to a sociological issue.",
       "same_as": null,
@@ -494,7 +491,7 @@
             "Above section 3093 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -511,7 +508,9 @@
       "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course involves a sociological examination of the social, cultural, political, and economic conditions experienced by African Americans in the United States. Current and past institutional practices relating to inequality, institutional discrimination, segregation, cultural pluralism, and assimilation are analyzed. Social movements within African American communities as well as intraand intergroup relations are also considered.",
       "same_as": null,
@@ -527,10 +526,7 @@
             }
           ],
           "notes": [
-            "Above section 3094 is part of the Black Collegians program",
-            "though enrollment is open to all students. See the Special",
-            "Programs section of the class schedule or smc.edu/blackcollegians",
-            "for more information. Above section modality is On Ground."
+            "Above section 3094 is part of the Black Collegians program though enrollment is open to all students. See the Special Programs section of the class schedule or smc.edu/blackcollegians for more information. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -550,7 +546,9 @@
       "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course addresses the distinction between biological sex and the social construction of gender. Issues of gender inequality in societal institutions and social structures will be the focus of critical analyses of the consequences of the sex/ gender system in the United States. Incorporating an understanding of the concept of Intersectionality will be critical to a more inclusive approach to gender and sexuality issues. A global perspective, which examines and compares the place of gender in nations of the North with those of the South, is also emphasized.",
       "same_as": null,
@@ -605,9 +603,11 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
-      "description": "AMERICAN SOCIETY 3 UNITS This course involves the critical examination of patterns, practices, and relations among racial and ethnic groups in the United States. Particular attention will be given to problems of ongoing discrimination, prejudice, assimilation and cultural pluralism, and power differences between groups. Interconnections between race, ethnicity, social class, gender, and other systems of inequality will be emphasized. Social movements organized within and among racial and ethnic groups that address institutional inequalities in this society will be analyzed.",
+      "description": "This course involves the critical examination of patterns, practices, and relations among racial and ethnic groups in the United States. Particular attention will be given to problems of ongoing discrimination, prejudice, assimilation and cultural pluralism, and power differences between groups. Interconnections between race, ethnicity, social class, gender, and other systems of inequality will be emphasized. Social movements organized within and among racial and ethnic groups that address institutional inequalities in this society will be analyzed.",
       "same_as": null,
       "sections": [
         {
@@ -640,9 +640,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "SOCIOLOGY 1 UNIT",
+      "description": "Please see “Independent Studies” section.",
       "same_as": null,
       "sections": [
         {
@@ -671,9 +673,7 @@
             }
           ],
           "notes": [
-            "Above section 3099 is part of the Scholars Program and enrollment",
-            "is temporarily limited to program participants. See the Special",
-            "Programs section of the class schedule or smc.edu/scholars for more information."
+            "Above section 3099 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information."
           ],
           "duration": null,
           "modality": null,
@@ -692,9 +692,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "SOCIOLOGY 2 UNITS",
+      "description": "Please see “Independent Studies” section.",
       "same_as": null,
       "sections": [
         {
@@ -723,9 +725,7 @@
             }
           ],
           "notes": [
-            "Above section 3101 is part of the Scholars Program and enrollment",
-            "is temporarily limited to program participants. See the Special",
-            "Programs section of the class schedule or smc.edu/scholars for more information."
+            "Above section 3101 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information."
           ],
           "duration": null,
           "modality": null,

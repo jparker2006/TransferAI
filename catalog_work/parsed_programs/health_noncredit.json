@@ -11,7 +11,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course will prepare the student to assist older adults. It provides an overview of the older adult population with respect to demographics and the aging process. The primary focus is on the role of a non-medical caregiver and the basic skills necessary to assist with daily living needs. Students completing this course will meet the State of California requirements for 10 hour Senior Caregiver Training. Completion of Providing Care to Older Adults, Communication with Older Adults, and Wellness in Older Adults leads to a noncredit certificate, Introduction to Working with Older Adults.",
       "same_as": null,
@@ -27,7 +29,7 @@
             }
           ],
           "notes": [
-            "Above section 7060 meets for 4 weeks, Oct 04 to Oct 25, at the",
+            "Above section 7060 meets for 4 weeks, Oct 04 to Oct 25, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "4 weeks, Oct 04 to Oct 25",
@@ -45,7 +47,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course introduces techniques and skills that can be used to help facilitate communication with older adults. The student will examine age related sensory changes and be able to define and identify barriers to communication. Completion of Providing Care to Older Adults, Communication with Older Adults, and Wellness in Older Adults leads to a noncredit certificate, Introduction to Working with Older Adults.",
       "same_as": null,
@@ -61,7 +65,7 @@
             }
           ],
           "notes": [
-            "Above section 7061 meets for 4 weeks, Nov 01 to Nov 22, at the",
+            "Above section 7061 meets for 4 weeks, Nov 01 to Nov 22, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "4 weeks, Nov 01 to Nov 22",
@@ -79,7 +83,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course will educate students on how to promote wellness in older adults with an emphasis on nutrition, physical activities and lifestyle choices. The student will learn techniques to promote healthy lifestyles of older adults which is vital in helping them to maintain health and functional independence and lead healthy and independent lives. Completion of Providing Care to Older Adults, Communication with Older Adults, and Wellness in Older Adults leads to a noncredit certificate, Introduction to Working with Older Adults.",
       "same_as": null,
@@ -95,7 +101,7 @@
             }
           ],
           "notes": [
-            "Above section 7062 meets for 4 weeks, Dec 06 to Dec 20, at the",
+            "Above section 7062 meets for 4 weeks, Dec 06 to Dec 20, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "4 weeks, Dec 06 to Dec 20",
@@ -115,9 +121,11 @@
         "Corequisite: HEALTH 986 The California Department of Health"
       ],
       "prerequisites": "Admission to the Nurse Assistant/Home Health Aide",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "FOUNDATIONAL TRAINING 0 UNITS requires students to be concurrently enrolled in HEALTH 985 (theory) and HEALTH 986 (lab) and pass both courses together. They cannot be taken individually for credit. Pre-certification Program. This course is designed for students who have expressed an interest in a healthcare career. This course consists of 72 hours of classroom instruction as required by the California Department of Public Health. The content meets Title 22 Health and Safety Code regulations for nursing assistants taking care of the geriatric population in a long-term care setting. Emphasis is placed on the role of nurse assistant, communication/interpersonal skills, prevention and management of catastrophe and unusual occurrences, body mechanics, medical and surgical asepsis, weights and measures, patient care skill, patient care procedures and emergency procedures vital signs, nutrition, emergency procedures, long term care, rehabilitative nursing, observation and charting, death and dying, and patient/resident abuse.",
+      "description": "requires students to be concurrently enrolled in HEALTH 985 (theory) and HEALTH 986 (lab) and pass both courses together. They cannot be taken individually for credit. Pre-certification Program. This course is designed for students who have expressed an interest in a healthcare career. This course consists of 72 hours of classroom instruction as required by the California Department of Public Health. The content meets Title 22 Health and Safety Code regulations for nursing assistants taking care of the geriatric population in a long-term care setting. Emphasis is placed on the role of nurse assistant, communication/interpersonal skills, prevention and management of catastrophe and unusual occurrences, body mechanics, medical and surgical asepsis, weights and measures, patient care skill, patient care procedures and emergency procedures vital signs, nutrition, emergency procedures, long term care, rehabilitative nursing, observation and charting, death and dying, and patient/resident abuse.",
       "same_as": null,
       "sections": [
         {
@@ -137,7 +145,7 @@
             }
           ],
           "notes": [
-            "Above section 7063 meets for 8 weeks, Sep 03 to Oct 23, at the",
+            "Above section 7063 meets for 8 weeks, Sep 03 to Oct 23, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Sep 03 to Oct 23",
@@ -157,9 +165,11 @@
         "Corequisite: HEALTH 985 The California Department of Health"
       ],
       "prerequisites": "Admission to the Nurse Assistant/Home Health Aide",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "FOUNDATIONAL CLINICAL TRAINING LAB 0 UNITS requires students to be concurrently enrolled in HEALTH 985 (theory) and HEALTH 986 (lab) and pass both courses together. They cannot be taken individually for credit. Pre-certification Program. This course is designed for students who have expressed an interest in a healthcare career. This course consists of 108 hours of supervised practice in a simulated patient care setting and direct patient care in a long-term facility and/ or home care setting as required by the California Department of Public Health. The content meets Title 22 Health and Safety Code regulations for nursing assistants taking care of the geriatric population in a long-term care setting. Emphasis is placed on patient care skills related to prevention and management of catastrophe and unusual occurrences, body mechanics, medical and surgical asepsis, weights and measures, patient care skill, patient care procedures, emergency procedures, vital signs, nutrition, long term care, rehabilitative nursing, and observation and charting.",
+      "description": "requires students to be concurrently enrolled in HEALTH 985 (theory) and HEALTH 986 (lab) and pass both courses together. They cannot be taken individually for credit. Pre-certification Program. This course is designed for students who have expressed an interest in a healthcare career. This course consists of 108 hours of supervised practice in a simulated patient care setting and direct patient care in a long-term facility and/ or home care setting as required by the California Department of Public Health. The content meets Title 22 Health and Safety Code regulations for nursing assistants taking care of the geriatric population in a long-term care setting. Emphasis is placed on patient care skills related to prevention and management of catastrophe and unusual occurrences, body mechanics, medical and surgical asepsis, weights and measures, patient care skill, patient care procedures, emergency procedures, vital signs, nutrition, long term care, rehabilitative nursing, and observation and charting.",
       "same_as": null,
       "sections": [
         {
@@ -267,9 +277,11 @@
         "Corequisite: HEALTH 988 The California Department of Health"
       ],
       "prerequisites": "HEALTH 985 and HEALTH 986.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "FOUNDATIONAL TRAINING 0 UNITS requires students to be concurrently enrolled in HEALTH 987 Home Health Aide Precertification Foundational Training (theory) and HEALTH 988 Home Health Aide Precertification Foundational Training (lab) and pass both courses together. They cannot be taken individually for credit. This course is designed for students who have completed Health 985 and 986 or are a Certified Nurse Assistant who have expressed an interest in caring for individuals in the home setting. The training consists of 27 hours of classroom instruction as required by the California Department of Public Health. The content meets Title 22 Health and Safety Code regulations for certified nurse assistants caring for individuals in a home health and/or assisted living healthcare setting. Emphasis is placed on the home health aide and agency role, interpretation of medical and social needs of people being served, personal care services, nutrition and cleaning and care tasks in the home.",
+      "description": "requires students to be concurrently enrolled in HEALTH 987 Home Health Aide Precertification Foundational Training (theory) and HEALTH 988 Home Health Aide Precertification Foundational Training (lab) and pass both courses together. They cannot be taken individually for credit. This course is designed for students who have completed Health 985 and 986 or are a Certified Nurse Assistant who have expressed an interest in caring for individuals in the home setting. The training consists of 27 hours of classroom instruction as required by the California Department of Public Health. The content meets Title 22 Health and Safety Code regulations for certified nurse assistants caring for individuals in a home health and/or assisted living healthcare setting. Emphasis is placed on the home health aide and agency role, interpretation of medical and social needs of people being served, personal care services, nutrition and cleaning and care tasks in the home.",
       "same_as": null,
       "sections": [
         {
@@ -283,7 +295,7 @@
             }
           ],
           "notes": [
-            "Above section 7068 meets for 3 weeks, Sep 03 to Sep 18, at the",
+            "Above section 7068 meets for 3 weeks, Sep 03 to Sep 18, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "3 weeks, Sep 03 to Sep 18",
@@ -301,7 +313,7 @@
             }
           ],
           "notes": [
-            "Above section 7069 meets for 3 weeks, Oct 29 to Nov 13, at the",
+            "Above section 7069 meets for 3 weeks, Oct 29 to Nov 13, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "3 weeks, Oct 29 to Nov 13",
@@ -321,9 +333,11 @@
         "Corequisite: HEALTH 987 The California Department of Health"
       ],
       "prerequisites": "HEALTH 985 and HEALTH 986. After completion",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "TRAINING CLINICAL LAB 0 UNITS requires students to be concurrently enrolled in HEALTH 987 (theory) and HEALTH 988 (lab) and pass both courses together. They cannot be taken individually for credit. of HEALTH 985 and HEALTH 986, students are eligible to take the California Department of Public Health Nurse Assistant Certification exam and enroll in HEALTH 987 and HEALTH 988 Home Health Aide courses. This course is designed for students who are Certified Nurse Assistants who have expressed an interest in caring for individuals in the home setting. The training consists of 27 hours of supervised patient care experiences in a long term care or home health setting as required by the California Department of Public Health. The content meets Title 22 Health and Safety Code regulations for certified nurse assistants caring for individuals in home health and assisted living healthcare settings. Emphasis is placed on patient care skills as it relates to the home health aide and agency role, interpretation of medical and social needs of people being served, personal care services, nutrition and cleaning and care tasks in the home.",
+      "description": "requires students to be concurrently enrolled in HEALTH 987 (theory) and HEALTH 988 (lab) and pass both courses together. They cannot be taken individually for credit. of HEALTH 985 and HEALTH 986, students are eligible to take the California Department of Public Health Nurse Assistant Certification exam and enroll in HEALTH 987 and HEALTH 988 Home Health Aide courses. This course is designed for students who are Certified Nurse Assistants who have expressed an interest in caring for individuals in the home setting. The training consists of 27 hours of supervised patient care experiences in a long term care or home health setting as required by the California Department of Public Health. The content meets Title 22 Health and Safety Code regulations for certified nurse assistants caring for individuals in home health and assisted living healthcare settings. Emphasis is placed on patient care skills as it relates to the home health aide and agency role, interpretation of medical and social needs of people being served, personal care services, nutrition and cleaning and care tasks in the home.",
       "same_as": null,
       "sections": [
         {

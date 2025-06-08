@@ -16,7 +16,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This is an introductory course of American Sign Language (ASL) with an emphasis on signing, receptive skills, signing parameters, the glossing system and numbers. This course provides a historical introduction, cultural awareness and cross-cultural adjustment skills. Non-verbal communication is emphasized. Homework assignments will include, but are not limited to, attendance and involvement at community events.",
       "same_as": null,
@@ -54,9 +56,11 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "ASL 1*.",
+      "prerequisite_notes": null,
+      "advisory": "ASL 1",
+      "advisory_notes": "*The advisory for this course is comparable to two years of high school American Sign Language.",
       "formerly": null,
-      "description": "*The advisory for this course is comparable to two years of high school American Sign Language. This course is a continuation of ASL 1. Instruction will include further studies of the elementary skills for the fundamentals of ASL: grammar, receptive, and expressive. There will also be extensive instruction on the Deaf Culture and Community, which will be presented in readings, videos and discussion in ASL. Non-verbal communication is emphasized.",
+      "description": "This course is a continuation of ASL 1. Instruction will include further studies of the elementary skills for the fundamentals of ASL: grammar, receptive, and expressive. There will also be extensive instruction on the Deaf Culture and Community, which will be presented in readings, videos and discussion in ASL. Non-verbal communication is emphasized.",
       "same_as": null,
       "sections": [
         {
@@ -70,7 +74,7 @@
             }
           ],
           "notes": [
-            "Above section modality is On Ground."
+            "Above section modality is On Ground. Anatomy"
           ],
           "duration": null,
           "modality": "On Ground",

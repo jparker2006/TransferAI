@@ -34,7 +34,9 @@ class Course:
     cal_getc_area: Optional[str] = None
     special_notes: List[str] = None
     prerequisites: Optional[str] = None
+    prerequisite_notes: Optional[str] = None
     advisory: Optional[str] = None
+    advisory_notes: Optional[str] = None
     formerly: Optional[str] = None
     description: str = ""
     sections: List[Section] = None
@@ -229,6 +231,8 @@ class SMCCatalogParser:
             r'reduc-\s*ed': 'reduced',
             r'produc-\s*ed': 'produced',
             r'introduc-\s*ed': 'introduced',
+            r'work-\s*shop': 'workshop',
+            r'commen-\s*surate': 'commensurate',
             
             # Previously handled cases (keep for backward compatibility)
             r'fur-\s*ther': 'further',
@@ -295,6 +299,78 @@ class SMCCatalogParser:
                 self.programs.append(program)
                 self.save_program_json(program)
     
+    def is_legitimate_course_title(self, title: str) -> bool:
+        """
+        Determine if a title looks like a legitimate course title vs. description text.
+        This is more nuanced than just checking starting words.
+        """
+        title_lower = title.lower()
+        
+        # Red flags that indicate this is likely description text, not a course title
+        description_indicators = [
+            # Starts with description phrases
+            'this course',
+            'students will',
+            'the purpose of this course',
+            'this class',
+            'the student will',
+            'in this course',
+            'this program',
+            
+            # Contains mid-sentence indicators
+            'combined: maximum uc credit',
+            'maximum credit allowed',
+            'see the special programs section',
+            
+            # Contains schedule information (shouldn't be in a title)
+            r'\d{4}\s+\d{1,2}:\d{2}[ap]\.m\.',
+        ]
+        
+        # Check for description indicators
+        for indicator in description_indicators:
+            if indicator.startswith('r'):  # regex pattern
+                if re.search(indicator, title_lower):
+                    return False
+            else:
+                if title_lower.startswith(indicator):
+                    return False
+        
+        # Additional checks for overly long titles (likely descriptions)
+        words = title.split()
+        if len(words) > 15:  # Very long titles are suspicious
+            return False
+        
+        # Check for legitimate course title patterns that start with articles
+        # Course titles starting with articles often follow certain patterns:
+        legitimate_article_patterns = [
+            # "THE X OF Y" patterns common in academic course titles
+            r'^the\s+\w+\s+of\s+\w+',
+            r'^the\s+\w+\s+\w+',  # "THE MODERN WORLD", "THE HUMAN CONDITION"
+            r'^a\s+\w+\s+to\s+\w+',  # "A GUIDE TO X", "AN INTRODUCTION TO Y"
+            r'^an\s+\w+\s+to\s+\w+',
+            # Common course title starters
+            r'^the\s+(history|culture|art|science|study|world|modern|ancient|contemporary)',
+            r'^a\s+(survey|study|guide|history|introduction)',
+            r'^an\s+(introduction|overview|analysis)',
+        ]
+        
+        # If it starts with an article, check if it matches legitimate patterns
+        if title_lower.startswith(('the ', 'a ', 'an ')):
+            for pattern in legitimate_article_patterns:
+                if re.match(pattern, title_lower):
+                    return True
+            
+            # If it doesn't match legitimate patterns but is short enough, be more lenient
+            # Short titles starting with articles are more likely to be legitimate
+            if len(words) <= 8:  # Conservative threshold for article-starting titles
+                return True
+            
+            # If none of the patterns match and it's longer, it's probably description text
+            return False
+        
+        # If it doesn't start with an article, apply more lenient validation
+        return True
+    
     def find_course_boundaries(self, lines: List[str]) -> List[Tuple[int, str, str, str]]:
         """Find all course start positions and extract course info"""
         courses = []
@@ -317,11 +393,8 @@ class SMCCatalogParser:
                     title_only = title_start[:units_match.start()].strip()
                     units = units_match.group(1)
                     
-                    # Additional validation to avoid false positives
-                    if (len(title_only.split()) > 15 or
-                        title_only.lower().startswith(('this course', 'students will', 'the ', 'a ', 'an ')) or
-                        'combined: maximum UC credit' in title_only or
-                        re.search(r'\d{4}\s+\d{1,2}:\d{2}[ap]\.m\.', title_only)):
+                    # Use improved validation logic
+                    if not self.is_legitimate_course_title(title_only):
                         self.add_warning(f"Skipping potential false positive: {course_code} - {title_only[:50]}...")
                         i += 1
                         continue
@@ -369,12 +442,8 @@ class SMCCatalogParser:
                         full_title = ' '.join(full_title_parts).strip()
                         full_title = re.sub(r'\s+', ' ', full_title)
                         
-                        # Additional validation to avoid false positives
-                        # Skip if this looks like description text rather than a course header
-                        if (len(full_title.split()) > 15 or  # Very long titles are suspicious
-                            full_title.lower().startswith(('this course', 'students will', 'the ', 'a ', 'an ')) or
-                            'combined: maximum UC credit' in full_title or
-                            re.search(r'\d{4}\s+\d{1,2}:\d{2}[ap]\.m\.', full_title)):  # Contains schedule info
+                        # Use improved validation logic
+                        if not self.is_legitimate_course_title(full_title):
                             self.add_warning(f"Skipping potential false positive: {course_code} - {full_title[:50]}...")
                             i += 1
                             continue
@@ -413,6 +482,18 @@ class SMCCatalogParser:
         description = re.sub(r'\s+', ' ', description)
         # Apply hyphenation fixes to program description
         description = self.fix_hyphenation(description)
+        
+        # Fix URL spacing issues in program descriptions - handle cases like "smc.edu/ designtech" -> "smc.edu/designtech"
+        # Handle all "smc.edu/ path" patterns (space after slash)
+        description = re.sub(r'smc\.edu/\s+([a-zA-Z])', r'smc.edu/\1', description)
+        # Handle "go to smc.edu/ path" patterns
+        description = re.sub(r'go to smc\.edu/\s+([a-zA-Z])', r'go to smc.edu/\1', description)
+        # Handle "or smc.edu/ path" patterns
+        description = re.sub(r'or smc\.edu/\s+([a-zA-Z])', r'or smc.edu/\1', description)
+        # Handle "visit smc.edu/ path" patterns
+        description = re.sub(r'visit smc\.edu/\s+([a-zA-Z])', r'visit smc.edu/\1', description)
+        # Handle "see smc.edu/ path" patterns
+        description = re.sub(r'see smc\.edu/\s+([a-zA-Z])', r'see smc.edu/\1', description)
         
         # Parse each course
         courses = []
@@ -454,8 +535,9 @@ class SMCCatalogParser:
         current_section = None
         in_section = False
         description_lines = []
+        please_see_lines = []  # Collect "Please see" lines separately
         
-        # Skip the first line (course header)
+        # Skip the first line (course header) and any title continuation lines
         i = 1
         while i < len(lines):
             line = lines[i].strip()
@@ -463,6 +545,30 @@ class SMCCatalogParser:
             if not line:
                 i += 1
                 continue
+            
+            # IMPROVED: Detect and skip title continuation lines
+            # These are lines that contain parts of the already-extracted course title + units
+            # Check if this line looks like a title continuation with units
+            units_match = re.search(r'(\d+\s+UNITS?)(?:\s|$)', line)
+            if units_match:
+                # Extract the part before units
+                before_units = line[:units_match.start()].strip()
+                extracted_units = units_match.group(1)
+                
+                # Check if this matches our extracted units and if the text before units 
+                # appears to be part of our course title
+                if extracted_units == units and before_units:
+                    # Check if the text before units is likely part of the course title
+                    # by seeing if it appears as a substring in our extracted title
+                    # (accounting for potential differences in spacing/punctuation)
+                    title_words = set(course_title.lower().replace(',', '').replace(':', '').replace('–', '').replace('-', '').split())
+                    before_units_words = set(before_units.lower().replace(',', '').replace(':', '').replace('–', '').replace('-', '').split())
+                    
+                    # If most words in before_units appear in the course title, this is likely a continuation line
+                    if before_units_words and len(before_units_words.intersection(title_words)) >= len(before_units_words) * 0.7:
+                        self.add_warning(f"Skipping title continuation line: '{line}' for {course_code}")
+                        i += 1
+                        continue
             
             # Parse transfer info
             if line.startswith('Transfer:'):
@@ -507,9 +613,22 @@ class SMCCatalogParser:
                 i += 1
                 continue
             
-            # Check for "Please see" lines
+            # IMPROVED: Parse standalone Prerequisites/Advisory lines (not in bullet format)
+            if line.startswith('Prerequisites:') or line.startswith('Prerequisite:'):
+                prereq_text = line.replace('Prerequisites:', '').replace('Prerequisite:', '').strip()
+                course.prerequisites = prereq_text
+                i += 1
+                continue
+            
+            if line.startswith('Advisory:'):
+                advisory_text = line.replace('Advisory:', '').strip()
+                course.advisory = advisory_text
+                i += 1
+                continue
+            
+            # Check for "Please see" lines - collect them but don't add to main description yet
             if line.startswith('Please see'):
-                # This is typically a special instruction, not part of description
+                please_see_lines.append(line)
                 i += 1
                 continue
             
@@ -563,11 +682,32 @@ class SMCCatalogParser:
                     i += 1
                     continue
                 
-                # Check if line contains section-related information or continuation of notes
-                if ('section' in line.lower() or line.startswith('Above section') or 
-                    line.startswith('via the Internet') or line.startswith('For additional information') or
-                    line.startswith('OnlineEd.') or line.startswith('microphone for video') or
-                    (line and line[0].islower())):  # Continuation lines often start with lowercase
+                # IMPROVED: More inclusive note collection when in section
+                # First check for obvious non-note content that should end the section
+                if (line.startswith('Transfer:') or 
+                    line.startswith('C-ID:') or 
+                    line.startswith('Cal-GETC') or
+                    line.startswith('Prerequisites:') or
+                    line.startswith('Prerequisite:') or
+                    line.startswith('Advisory:') or
+                    line.startswith('Formerly') or
+                    line.startswith('•') or
+                    re.match(r'^[A-Z]+ \d+,', line)):  # New course starting
+                    # This line belongs to course metadata, not section notes
+                    # Reset section mode and reprocess this line
+                    if current_section:
+                        course.sections.append(current_section)
+                        current_section = None
+                        in_section = False
+                    # Don't increment i, let the line be reprocessed in the main loop
+                    continue
+                
+                # If we're still in section mode, treat this as a section note
+                # (unless it's clearly a course description)
+                if not (len(line.split()) > 15 and 
+                        line[0].isupper() and 
+                        '.' in line and 
+                        any(word in line.lower() for word in ['course', 'students', 'study', 'topics', 'introduction'])):
                     current_section.notes.append(line)
                     # Extract duration if present
                     duration_match = re.search(r'meets for (\d+ weeks, .+?)(?:\.|,\s*(?:and|at))', line)
@@ -579,6 +719,14 @@ class SMCCatalogParser:
                         current_section.modality = modality_match.group(1).rstrip('.')
                     i += 1
                     continue
+                else:
+                    # This looks like a course description, end section mode
+                    if current_section:
+                        course.sections.append(current_section)
+                        current_section = None
+                        in_section = False
+                    # Let this line be processed as description in the main loop
+                    # Don't increment i, let it be reprocessed
             
             # If not in section or couldn't parse as section content, it's description
             if not in_section:
@@ -614,39 +762,13 @@ class SMCCatalogParser:
                     # Check if this note is incomplete and should be combined with the next one
                     if (i + 1 < len(section.notes)):
                         next_note = section.notes[i + 1]
-                        should_combine = (
-                            note.endswith('and') or 
-                            note.endswith('online') or 
-                            note.endswith('smc.edu/') or
-                            note.endswith('go to') or
-                            note.endswith('Above') or
-                            note.endswith('though') or  # Handle "though enrollment is open..." pattern
-                            note.endswith('to smc.') or  # Handle "go to smc." patterns
-                            note.endswith('Street,') or  # Handle address lines ending with "Street,"
-                            'camera and' in note or 
-                            'on campus and' in note or
-                            next_note.startswith('OnlineEd.') or
-                            next_note.startswith('edu/OnlineEd.') or  # Handle partial URL fragments
-                            next_note.startswith('microphone for') or
-                            next_note.startswith('For additional information') or
-                            next_note.startswith('section ')
-                        )
+                        
+                        # IMPROVED: More comprehensive should_combine logic
+                        should_combine = self._should_combine_notes(note, next_note)
                         
                         if should_combine:
                             # Combine with next note
-                            # Handle special cases for URL reconstruction
-                            if (note.endswith('smc.edu/') and next_note.startswith('OnlineEd.')):
-                                combined_note = note + next_note
-                            elif (note.endswith('to smc.') and next_note.startswith('edu/OnlineEd.')):
-                                combined_note = note + next_note
-                            elif (note.endswith('Street,') and next_note.startswith('edu/OnlineEd.')):
-                                # Reconstruct the full address and URL
-                                combined_note = note + ' Santa Monica CA 90404. For additional information, go to smc.' + next_note
-                            elif (note.endswith('/') and not next_note.startswith(' ')):
-                                combined_note = note + next_note
-                            else:
-                                combined_note = note + ' ' + next_note
-                            
+                            combined_note = self._combine_notes(note, next_note)
                             consolidated_notes.append(combined_note)
                             i += 2  # Skip the next note since we combined it
                             notes_changed = True  # Mark that we made a change
@@ -662,12 +784,50 @@ class SMCCatalogParser:
             # Apply hyphenation fixes to all section notes
             section.notes = [self.fix_hyphenation(note) for note in section.notes]
             
+            # Fix URL spacing issues - handle cases like "smc.edu/ scholars" -> "smc.edu/scholars"
+            for i, note in enumerate(section.notes):
+                # Fix common URL spacing issues
+                fixed_note = note
+                # Handle all "smc.edu/ path" patterns (space after slash)
+                fixed_note = re.sub(r'smc\.edu/\s+([a-zA-Z])', r'smc.edu/\1', fixed_note)
+                # Handle "go to smc.edu/ path" patterns
+                fixed_note = re.sub(r'go to smc\.edu/\s+([a-zA-Z])', r'go to smc.edu/\1', fixed_note)
+                # Handle "or smc.edu/ path" patterns
+                fixed_note = re.sub(r'or smc\.edu/\s+([a-zA-Z])', r'or smc.edu/\1', fixed_note)
+                # Handle "visit smc.edu/ path" patterns
+                fixed_note = re.sub(r'visit smc\.edu/\s+([a-zA-Z])', r'visit smc.edu/\1', fixed_note)
+                # Handle "see smc.edu/ path" patterns
+                fixed_note = re.sub(r'see smc\.edu/\s+([a-zA-Z])', r'see smc.edu/\1', fixed_note)
+                section.notes[i] = fixed_note
+            
             # Extract modality from any note containing "modality is"
             if not section.modality:
                 for note in section.notes:
+                    # Primary pattern: "modality is [value]"
                     modality_match = re.search(r'modality is (.+?)\.?$', note)
                     if modality_match:
                         section.modality = modality_match.group(1).rstrip('.')
+                        break
+                    
+                    # IMPROVED: Additional modality patterns
+                    # "is a hybrid class"
+                    if re.search(r'is a hybrid class', note, re.IGNORECASE):
+                        section.modality = 'Hybrid'
+                        break
+                    
+                    # "is an online class"  
+                    if re.search(r'is an? online class', note, re.IGNORECASE):
+                        section.modality = 'Online'
+                        break
+                    
+                    # "hybrid class taught on campus and online"
+                    if re.search(r'hybrid class taught', note, re.IGNORECASE):
+                        section.modality = 'Hybrid'
+                        break
+                    
+                    # "taught on campus and online" (without "hybrid" but with both)
+                    if re.search(r'taught on campus and online', note, re.IGNORECASE):
+                        section.modality = 'Hybrid'
                         break
         
         # Post-process to establish co-enrollment relationships
@@ -680,11 +840,85 @@ class SMCCatalogParser:
         if description_lines and not course.description:
             course.description = ' '.join(description_lines)
         
+        # If no description but we have "Please see" lines, use those as description
+        if not course.description and please_see_lines:
+            course.description = ' '.join(please_see_lines)
+            self.add_warning(f"Using 'Please see' line as description for {course_code}: {course.description}")
+        
         # Clean up description and fix hyphenation
         if course.description:
             course.description = re.sub(r'\s+', ' ', course.description).strip()
             # Apply hyphenation fixes to description
             course.description = self.fix_hyphenation(course.description)
+            
+            # IMPROVED: Extract prerequisites from description if they got misplaced there
+            # Handle patterns like "Prerequisites: COURSE 1 and COURSE 2." at the beginning of description
+            prereq_pattern = r'^(Prerequisites?:\s*[^.]+\.)\s*'
+            prereq_match = re.match(prereq_pattern, course.description)
+            if prereq_match and not course.prerequisites:
+                prereq_text = prereq_match.group(1)
+                # Extract just the prerequisite content without the label
+                course.prerequisites = prereq_text.replace('Prerequisites:', '').replace('Prerequisite:', '').strip().rstrip('.')
+                # Remove from description
+                course.description = re.sub(prereq_pattern, '', course.description).strip()
+                self.add_warning(f"Extracted prerequisites from description for {course_code}: {course.prerequisites}")
+            
+            # IMPROVED: Extract all asterisk notes from description and categorize them
+            asterisk_patterns = [
+                # Credit limitations and restrictions (should go to special_notes)
+                # Updated to handle sentences ending with or without periods
+                (r'(\*Maximum (?:UC )?credit[^.]*(?:\.|(?=\s+[A-Z])))', 'special'),
+                (r'(\*No UC (?:transfer )?credit[^.]*(?:\.|(?=\s+[A-Z])))', 'special'),
+                (r'(\*Total of[^.]*(?:\.|(?=\s+[A-Z])))', 'special'),
+                (r'(\*UC gives no credit[^.]*(?:\.|(?=\s+[A-Z])))', 'special'),
+                # Handle ESL-style combined credit patterns
+                (r'(\*[A-Z]+ \d+[A-Z]?,\s*[A-Z]+ \d+[A-Z]?[^:]*:\s*maximum credit[^.]*(?:\.|(?=\s+[A-Z])))', 'special'),
+                
+                # Prerequisite explanations (should go to prerequisite_notes)
+                (r'(\*The prerequisite for this course[^.]*(?:\.|(?=\s+[A-Z])))', 'prerequisite'),
+                
+                # Advisory explanations (should go to advisory_notes)
+                (r'(\*The advisory for this course[^.]*(?:\.|(?=\s+[A-Z])))', 'advisory'),
+            ]
+            
+            for pattern, note_type in asterisk_patterns:
+                match = re.search(pattern, course.description)
+                if match:
+                    asterisk_note = match.group(1)
+                    
+                    if note_type == 'special':
+                        # Add to special_notes
+                        if course.special_notes is None:
+                            course.special_notes = []
+                        course.special_notes.append(asterisk_note)
+                        self.add_warning(f"Extracted credit note from description for {course_code}: {asterisk_note}")
+                    elif note_type == 'prerequisite':
+                        # Put explanation in prerequisite_notes field
+                        course.prerequisite_notes = asterisk_note
+                        self.add_warning(f"Extracted prerequisite explanation from description for {course_code}: {asterisk_note}")
+                    elif note_type == 'advisory':
+                        # Put explanation in advisory_notes field
+                        course.advisory_notes = asterisk_note
+                        self.add_warning(f"Extracted advisory explanation from description for {course_code}: {asterisk_note}")
+                    
+                    # Remove from description
+                    course.description = re.sub(pattern, '', course.description).strip()
+            
+            # Clean up advisory field by removing asterisks and trailing periods
+            if course.advisory:
+                course.advisory = course.advisory.rstrip('*. ')
+            
+            # Fix URL spacing issues in descriptions - handle cases like "smc.edu/ scholars" -> "smc.edu/scholars"
+            # Handle all "smc.edu/ path" patterns (space after slash)
+            course.description = re.sub(r'smc\.edu/\s+([a-zA-Z])', r'smc.edu/\1', course.description)
+            # Handle "go to smc.edu/ path" patterns
+            course.description = re.sub(r'go to smc\.edu/\s+([a-zA-Z])', r'go to smc.edu/\1', course.description)
+            # Handle "or smc.edu/ path" patterns
+            course.description = re.sub(r'or smc\.edu/\s+([a-zA-Z])', r'or smc.edu/\1', course.description)
+            # Handle "visit smc.edu/ path" patterns
+            course.description = re.sub(r'visit smc\.edu/\s+([a-zA-Z])', r'visit smc.edu/\1', course.description)
+            # Handle "see smc.edu/ path" patterns
+            course.description = re.sub(r'see smc\.edu/\s+([a-zA-Z])', r'see smc.edu/\1', course.description)
             
             # Extract and move "combined credit" statements to special_notes
             combined_credit_pattern = r'PHYSCS\s+[0-9A-Z,\s]+(?:or\s+PHYSCS\s+[0-9A-Z,\s]+)*\s+combined:\s+maximum\s+UC\s+credit,\s+1\s+series\.\s*'
@@ -710,12 +944,122 @@ class SMCCatalogParser:
         # Apply hyphenation fixes to other text fields
         if course.prerequisites:
             course.prerequisites = self.fix_hyphenation(course.prerequisites)
+        if course.prerequisite_notes:
+            course.prerequisite_notes = self.fix_hyphenation(course.prerequisite_notes)
         if course.advisory:
             course.advisory = self.fix_hyphenation(course.advisory)
+        if course.advisory_notes:
+            course.advisory_notes = self.fix_hyphenation(course.advisory_notes)
         if course.special_notes:
             course.special_notes = [self.fix_hyphenation(note) for note in course.special_notes]
+            # Also fix URL spacing issues in special_notes
+            for i, note in enumerate(course.special_notes):
+                fixed_note = note
+                # Handle all "smc.edu/ path" patterns (space after slash)
+                fixed_note = re.sub(r'smc\.edu/\s+([a-zA-Z])', r'smc.edu/\1', fixed_note)
+                # Handle "go to smc.edu/ path" patterns
+                fixed_note = re.sub(r'go to smc\.edu/\s+([a-zA-Z])', r'go to smc.edu/\1', fixed_note)
+                # Handle "or smc.edu/ path" patterns
+                fixed_note = re.sub(r'or smc\.edu/\s+([a-zA-Z])', r'or smc.edu/\1', fixed_note)
+                # Handle "visit smc.edu/ path" patterns
+                fixed_note = re.sub(r'visit smc\.edu/\s+([a-zA-Z])', r'visit smc.edu/\1', fixed_note)
+                # Handle "see smc.edu/ path" patterns
+                fixed_note = re.sub(r'see smc\.edu/\s+([a-zA-Z])', r'see smc.edu/\1', fixed_note)
+                course.special_notes[i] = fixed_note
         
         return course
+    
+    def _should_combine_notes(self, note: str, next_note: str) -> bool:
+        """
+        Determine if two consecutive notes should be combined.
+        Uses multiple heuristics to detect incomplete sentences/fragments.
+        """
+        # Original explicit patterns (keep these for known cases)
+        explicit_patterns = (
+            note.endswith('and') or 
+            note.endswith('online') or 
+            note.endswith('smc.edu/') or
+            note.endswith('go to') or
+            note.endswith('Above') or
+            note.endswith('though') or  # Handle "though enrollment is open..." pattern
+            note.endswith('to smc.') or  # Handle "go to smc." patterns
+            note.endswith('Street,') or  # Handle address lines ending with "Street,"
+            note.endswith('at') or  # Handle "located at" patterns
+            note.endswith('the') or  # Handle "the [next line]" patterns
+            note.endswith('of') or   # Handle "of [next line]" patterns
+            note.endswith('in') or   # Handle "in [next line]" patterns
+            note.endswith('for') or  # Handle "for [next line]" patterns
+            note.endswith('on') or   # Handle "on [next line]" patterns
+            note.endswith('via') or  # Handle "via [next line]" patterns
+            note.endswith('with') or # Handle "with [next line]" patterns
+            'camera and' in note or 
+            'on campus and' in note or
+            next_note.startswith('OnlineEd.') or
+            next_note.startswith('edu/OnlineEd.') or  # Handle partial URL fragments
+            next_note.startswith('microphone for') or
+            next_note.startswith('For additional information') or
+            next_note.startswith('section ')
+        )
+        
+        if explicit_patterns:
+            return True
+        
+        # NEW: Detect sentence fragments based on capitalization and punctuation
+        note_ends_with_incomplete = (
+            # Ends with a word that doesn't look like a complete thought
+            not note.endswith('.') and 
+            not note.endswith('!') and
+            not note.endswith('?') and
+            not note.endswith(':') and
+            # And the next note starts with lowercase (likely continuation)
+            next_note and next_note[0].islower()
+        )
+        
+        if note_ends_with_incomplete:
+            return True
+        
+        # NEW: Detect proper noun continuations (like "Santa" + "Monica")
+        # Look for cases where the last word of note might be part of a proper noun
+        # that continues in the next note
+        note_words = note.split()
+        if note_words:
+            last_word = note_words[-1].rstrip('.,;:')
+            next_words = next_note.split()
+            if next_words:
+                first_word = next_words[0].rstrip('.,;:')
+                
+                # Check if this looks like a proper noun continuation
+                # Both parts should be capitalized and neither should be common sentence starters
+                if (last_word and last_word[0].isupper() and 
+                    first_word and first_word[0].isupper() and
+                    first_word not in ['Above', 'This', 'The', 'For', 'Students', 'Section']):
+                    return True
+        
+        # NEW: Detect address/location patterns
+        # Common patterns: "Street, Santa Monica", "Boulevard, Los Angeles", etc.
+        if (note.endswith(',') and 
+            any(addr in note.lower() for addr in ['street', 'avenue', 'boulevard', 'drive', 'road', 'lane'])):
+            return True
+        
+        return False
+    
+    def _combine_notes(self, note: str, next_note: str) -> str:
+        """
+        Intelligently combine two notes, handling special cases for URLs, addresses, etc.
+        """
+        # Handle special cases for URL reconstruction
+        if (note.endswith('smc.edu/') and next_note.startswith('OnlineEd.')):
+            return note + next_note
+        elif (note.endswith('to smc.') and next_note.startswith('edu/OnlineEd.')):
+            return note + next_note
+        elif (note.endswith('Street,') and next_note.startswith('edu/OnlineEd.')):
+            # Reconstruct the full address and URL
+            return note + ' Santa Monica CA 90404. For additional information, go to smc.' + next_note
+        elif (note.endswith('/') and not next_note.startswith(' ')):
+            return note + next_note
+        else:
+            # Default: add space between notes
+            return note + ' ' + next_note
     
     def parse_schedule_line(self, line: str) -> Optional[Schedule]:
         """Parse a line to see if it contains schedule information"""
@@ -916,7 +1260,9 @@ class SMCCatalogParser:
                 "cal_getc_area": course.cal_getc_area,
                 "special_notes": course.special_notes,
                 "prerequisites": course.prerequisites,
+                "prerequisite_notes": course.prerequisite_notes,
                 "advisory": course.advisory,
+                "advisory_notes": course.advisory_notes,
                 "formerly": course.formerly,
                 "description": course.description,
                 "same_as": course.same_as,

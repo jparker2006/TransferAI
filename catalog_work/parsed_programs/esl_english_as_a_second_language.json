@@ -11,9 +11,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "ESL 10",
-      "description": "LISTENING, SPEAKING, AND GRAMMAR 6 UNITS ESL 10G is a low-intermediate multi-skills course designed to improve the English language skills of non-native speakers. This course concentrates on listening, speaking, and grammar. Course credit may not be applied toward satisfaction of Associate in Arts Degree requirements. It is recommended that students take this course concurrently with ESL 10W.",
+      "description": "ESL 10G is a low-intermediate multi-skills course designed to improve the English language skills of non-native speakers. This course concentrates on listening, speaking, and grammar. Course credit may not be applied toward satisfaction of Associate in Arts Degree requirements. It is recommended that students take this course concurrently with ESL 10W.",
       "same_as": null,
       "sections": [
         {
@@ -61,9 +63,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "ESL 10",
-      "description": "READING AND WRITING 6 UNITS ESL 10W is a low-intermediate multi-skills course designed to improve the English language skills of non-native speakers. This course concentrates on reading, writing, and computer assisted language learning (CALL). Course credit may not be applied toward satisfaction of Associate in Arts Degree requirements. It is recommended that you take this course concurrently with ESL 10G.",
+      "description": "ESL 10W is a low-intermediate multi-skills course designed to improve the English language skills of non-native speakers. This course concentrates on reading, writing, and computer assisted language learning (CALL). Course credit may not be applied toward satisfaction of Associate in Arts Degree requirements. It is recommended that you take this course concurrently with ESL 10G.",
       "same_as": null,
       "sections": [
         {
@@ -147,7 +151,7 @@
             }
           ],
           "notes": [
-            "Above section modality is On Ground."
+            "Above section modality is On Ground. ESL Writing"
           ],
           "duration": null,
           "modality": "On Ground",
@@ -164,7 +168,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": "ESL 10G and ESL 10W or Group C on the ESL",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "Placement Assessment. Students who receive a final grade of “C” in ESL 10G or 10W should enroll in support courses (ESL 14A/B, 15, 16A/B/C, 17) before taking ESL 11A or concurrently with ESL 11A. ESL 11A is an intermediate, multi-skills course with an emphasis on paragraph writing for non-native speakers of English who have completed ESL 10G and ESL 10W or score at Level C on the SMC Placement Assessment.",
       "same_as": null,
@@ -249,11 +255,15 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [],
+      "special_notes": [
+        "*ESL 19A, ESL 19B, and ESL 25 combined: maximum credit, 8 units."
+      ],
       "prerequisites": "ESL 11A or multiple measures placement.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "*ESL 19A, ESL 19B, and ESL 25 combined: maximum credit, 8 units. This course is an intermediate contextualized writing course for non-native speakers, emphasizing paragraph development and essay construction, editing of grammar and mechanical errors, reading, and critical thinking. ESL 19A is the first part of the ESL19A/B sequence.",
+      "description": "This course is an intermediate contextualized writing course for non-native speakers, emphasizing paragraph development and essay construction, editing of grammar and mechanical errors, reading, and critical thinking. ESL 19A is the first part of the ESL19A/B sequence.",
       "same_as": null,
       "sections": [
         {
@@ -387,11 +397,15 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [],
+      "special_notes": [
+        "*ESL 19A, ESL 19B and ESL 25 combined: maximum credit, 8 units."
+      ],
       "prerequisites": "ESL 19A.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "*ESL 19A, ESL 19B and ESL 25 combined: maximum credit, 8 units. This course is the second part of the ESL 19A/B sequence, for non-native speakers. It continues the emphasis on essay writing, editing of grammar and mechanical errors, reading, and critical thinking.",
+      "description": "This course is the second part of the ESL 19A/B sequence, for non-native speakers. It continues the emphasis on essay writing, editing of grammar and mechanical errors, reading, and critical thinking.",
       "same_as": null,
       "sections": [
         {
@@ -524,7 +538,7 @@
             }
           ],
           "notes": [
-            "Above section 2226 meets for 8 weeks, Oct 28 to Dec 19. Above section modality is On Ground."
+            "Above section 2226 meets for 8 weeks, Oct 28 to Dec 19. Above section modality is On Ground. Speaking and Listening"
           ],
           "duration": "8 weeks, Oct 28 to Dec 19",
           "modality": "On Ground",
@@ -541,7 +555,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": "ESL 10G and ESL 10W or placement in ESL 11A.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is designed to help ESL students communicate more effectively by learning the rhythm and intonation patterns of standard North American English. The course includes a brief review of all vowel sounds and specific consonants",
       "same_as": null,
@@ -573,10 +589,12 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "ESL 10G and ESL 10W with a grade of C or better.",
+      "prerequisites": "Group “C” on the English placement exam or successful completion of ESL 10G and ESL 10W.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "IN THE U.S. 3 UNITS This speaking/listening course for group “A”, “B”, and “C” level non-native speakers of English examines the cross cultural differences that affect communication. It prepares students to understand and speak English more clearly and fluently in pairs, groups, class discussions, interviews, panels, and speeches. Conversation techniques, vocabulary acquisition, and reading, critical thinking, and problem-solving skills are employed.",
+      "description": "This speaking/listening course for group “A”, “B”, and “C” level non-native speakers of English examines the cross cultural differences that affect communication. It prepares students to understand and speak English more clearly and fluently in pairs, groups, class discussions, interviews, panels, and speeches. Conversation techniques, vocabulary acquisition, and reading, critical thinking, and problem-solving skills are employed.",
       "same_as": null,
       "sections": [
         {
@@ -590,14 +608,30 @@
             }
           ],
           "notes": [
-            "Above section modality is On Ground.",
-            "articles (a, an, the). The course also helps students use correct subject-verb agreement.",
-            "in Arts Degree requirements. concurrent enrollment in ESL 11A or ESL"
+            "Above section modality is On Ground. Grammar"
           ],
           "duration": null,
           "modality": "On Ground",
           "co_enrollment_with": null
-        },
+        }
+      ]
+    },
+    {
+      "course_code": "ESL 16A",
+      "course_title": "THE NOUN SYSTEM AND ARTICLES",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "ESL 10G and ESL 10W with a grade of C or better.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course helps non-native speakers of English to communicate effectively using the noun system (count, non-count, proper, common, singular, plural), modifiers and quantifiers (possessives; determiners: this, that, these, those), and articles (a, an, the). The course also helps students use correct subject-verb agreement. *Course credit may not be applied toward satisfaction of Associate in Arts Degree requirements. concurrent enrollment in ESL 11A or ESL 19A is recommended; however, this course is open to students whose assessment results are B or A.",
+      "same_as": null,
+      "sections": [
         {
           "section_number": "2209",
           "schedule": [
@@ -626,7 +660,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": "ESL 10G and ESL 10W.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "Concurrent enrollment in ESL 11A or ESL 19A is recommended; however this course is open to students who place at the A or B level. This course helps non-native speakers of English to communicate effectively using verb forms including: present, past, future, perfects,passives, conditionals, and modals. *Course credit may not be applied toward satisfaction of Associate in Arts Degree requirements.",
       "same_as": null,
@@ -659,9 +695,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": "ESL 10G and ESL 10W.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "PUNCTUATION 1 UNIT Concurrent enrollment in ESL 11A or ESL 19A is recommended. This course helps students whose first language is not English to construct grammatically correct sentences using appropriate punctuation. Students will learn to combine sentence elements (clauses and phrases) to produce effective sentences. Please note: Concurrent enrollment in ESL 11A or 19A is recommended; however, this course is open to students whose placement assessment results are Group B or A.",
+      "description": "Concurrent enrollment in ESL 11A or ESL 19A is recommended. This course helps students whose first language is not English to construct grammatically correct sentences using appropriate punctuation. Students will learn to combine sentence elements (clauses and phrases) to produce effective sentences. Please note: Concurrent enrollment in ESL 11A or 19A is recommended; however, this course is open to students whose placement assessment results are Group B or A.",
       "same_as": null,
       "sections": [
         {
@@ -692,7 +730,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": "ESL 11A or ESL 19A, ESL 19B, or assessment placement in",
+      "advisory_notes": null,
       "formerly": null,
       "description": "ESL or English Groups A or B. This course is designed to increase a student’s grammar and sentence-writing skill. Students will recognize and employ the sophisticated language necessary for successful completion of ESL 19A and ESL 19B. Concurrent enrollment in this course is highly recommended for success in ESL 19A and ESL 19B.",
       "same_as": null,
@@ -708,7 +748,7 @@
             }
           ],
           "notes": [
-            "Above section 2227 meets for 12 weeks, Sep 22 to Dec 10. Above section modality is On Ground."
+            "Above section 2227 meets for 12 weeks, Sep 22 to Dec 10. Above section modality is On Ground. Vocabulary"
           ],
           "duration": "12 weeks, Sep 22 to Dec 10",
           "modality": "On Ground",
@@ -725,7 +765,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": "ESL 11A, ESL 19A, OR ESL 19B, or assessment placement",
+      "advisory_notes": null,
       "formerly": null,
       "description": "in ESL or English Groups A or B. This course is designed for students who wish to develop their techniques for understanding academic vocabulary and using English words idiomatically. It emphasizes context and usage of vocabulary from the Academic Word List (Coxhead 2000) or a similar corpus. Students will learn to comprehend and use approximately 200 words from the AWL to improve their reading comprehension, speaking, listening, and writing skills for academic success. It is designed for students at the 19A or 19B level or students who have placed in Group B on the ESL Placement Exam. Students are encouraged to enroll in ESL 28 concurrently with ESL 20A, 20B, ESL 19A and/or ESL 19B.",
       "same_as": null,
@@ -741,8 +783,7 @@
             }
           ],
           "notes": [
-            "Above section 2228 meets for 12 weeks, Sep 22 to Dec 10. Fully on",
-            "ground and will be taught in person at the time and location listed in the schedule of classes."
+            "Above section 2228 meets for 12 weeks, Sep 22 to Dec 10. Fully on ground and will be taught in person at the time and location listed in the schedule of classes."
           ],
           "duration": "12 weeks, Sep 22 to Dec 10",
           "modality": null,

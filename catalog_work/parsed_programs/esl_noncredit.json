@@ -11,9 +11,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ESL 901.",
+      "prerequisite_notes": null,
+      "advisory": "ESL 901",
+      "advisory_notes": null,
       "formerly": null,
-      "description": "LEVEL 2 0 UNITS This high-beginning, multi-skills course is designed to improve the English language skills of non-native speakers. The course focuses on listening, speaking, reading, and writing. The skills taught in this course prepare students to transition to post-secondary education and to function effectively as community members, parents, and participants in the workforce.",
+      "description": "This high-beginning, multi-skills course is designed to improve the English language skills of non-native speakers. The course focuses on listening, speaking, reading, and writing. The skills taught in this course prepare students to transition to post-secondary education and to function effectively as community members, parents, and participants in the workforce.",
       "same_as": null,
       "sections": [
         {
@@ -33,10 +35,10 @@
             }
           ],
           "notes": [
-            "Above section 7016 meets for 16 weeks, Sep 09 to Dec 16, and is a hybrid class taught online via the Internet and at the Bundy"
+            "Above section 7016 meets for 16 weeks, Sep 09 to Dec 16, and is a hybrid class taught online via the Internet and at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "16 weeks, Sep 09 to Dec 16",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -50,9 +52,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ESL 902.",
+      "prerequisite_notes": null,
+      "advisory": "ESL 902",
+      "advisory_notes": null,
       "formerly": null,
-      "description": "LEVEL 3 0 UNITS This low-intermediate, multi-skills course is designed to improve the English language skills of non-native speakers. The course focuses on listening, speaking, reading, and writing. The skills taught in this course prepare students to transition to post-secondary education and to function effectively as community members, parents, and participants in the workforce.",
+      "description": "This low-intermediate, multi-skills course is designed to improve the English language skills of non-native speakers. The course focuses on listening, speaking, reading, and writing. The skills taught in this course prepare students to transition to post-secondary education and to function effectively as community members, parents, and participants in the workforce.",
       "same_as": null,
       "sections": [
         {
@@ -72,10 +76,10 @@
             }
           ],
           "notes": [
-            "Above section 7017 meets for 16 weeks, Sep 08 to Dec 15, and is a hybrid class taught online via the Internet and at the Bundy"
+            "Above section 7017 meets for 16 weeks, Sep 08 to Dec 15, and is a hybrid class taught online via the Internet and at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "16 weeks, Sep 08 to Dec 15",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -95,10 +99,10 @@
             }
           ],
           "notes": [
-            "Above section 7018 meets for 16 weeks, Sep 08 to Dec 15, and is a hybrid class taught online via the Internet and at the Bundy"
+            "Above section 7018 meets for 16 weeks, Sep 08 to Dec 15, and is a hybrid class taught online via the Internet and at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "16 weeks, Sep 08 to Dec 15",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -112,9 +116,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ESL 903.",
+      "prerequisite_notes": null,
+      "advisory": "ESL 903",
+      "advisory_notes": null,
       "formerly": null,
-      "description": "LEVEL 4 0 UNITS This high-intermediate, multi-skills course is designed to improve the English language skills of non-native speakers. The course focuses on listening, speaking, reading, and writing. The skills taught in this course prepare students to transition to post-secondary education and to function effectively as community members, parents, and participants in the workforce.",
+      "description": "This high-intermediate, multi-skills course is designed to improve the English language skills of non-native speakers. The course focuses on listening, speaking, reading, and writing. The skills taught in this course prepare students to transition to post-secondary education and to function effectively as community members, parents, and participants in the workforce.",
       "same_as": null,
       "sections": [
         {
@@ -134,10 +140,10 @@
             }
           ],
           "notes": [
-            "Above section 7019 meets for 16 weeks, Sep 03 to Dec 17, and is a hybrid class taught online via the Internet and at the Bundy"
+            "Above section 7019 meets for 16 weeks, Sep 03 to Dec 17, and is a hybrid class taught online via the Internet and at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "16 weeks, Sep 03 to Dec 17",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -151,9 +157,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ESL 904.",
+      "prerequisite_notes": null,
+      "advisory": "ESL 904",
+      "advisory_notes": null,
       "formerly": null,
-      "description": "LEVEL 5 0 UNITS This low-advanced, multi-skills course is designed to improve the English language skills of non-native speakers. The course focuses on listening, speaking, reading, and writing. The skills taught in this course prepare students to transition to post-secondary education and to function effectively as community members, parents, and participants in the workforce.",
+      "description": "This low-advanced, multi-skills course is designed to improve the English language skills of non-native speakers. The course focuses on listening, speaking, reading, and writing. The skills taught in this course prepare students to transition to post-secondary education and to function effectively as community members, parents, and participants in the workforce.",
       "same_as": null,
       "sections": [
         {
@@ -173,10 +181,10 @@
             }
           ],
           "notes": [
-            "Above section 7020 meets for 16 weeks, Sep 09 to Dec 16, and is a hybrid class taught online via the Internet and at the Bundy"
+            "Above section 7020 meets for 16 weeks, Sep 09 to Dec 16, and is a hybrid class taught online via the Internet and at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "16 weeks, Sep 09 to Dec 16",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -196,10 +204,10 @@
             }
           ],
           "notes": [
-            "Above section 7021 meets for 16 weeks, Sep 09 to Dec 16, and is a hybrid class taught online via the Internet and at the Bundy"
+            "Above section 7021 meets for 16 weeks, Sep 09 to Dec 16, and is a hybrid class taught online via the Internet and at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "16 weeks, Sep 09 to Dec 16",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -236,9 +244,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ESL 905.",
+      "prerequisite_notes": null,
+      "advisory": "ESL 905",
+      "advisory_notes": null,
       "formerly": null,
-      "description": "LEVEL 6 0 UNITS This high-advanced multi-skills course is designed to improve the English language skills of non-native speakers. The course focuses on listening, speaking, reading, and writing. The skills taught in this course prepare students to transition to post-secondary education and to function effectively as community members, parents, and participants in the workforce.",
+      "description": "This high-advanced multi-skills course is designed to improve the English language skills of non-native speakers. The course focuses on listening, speaking, reading, and writing. The skills taught in this course prepare students to transition to post-secondary education and to function effectively as community members, parents, and participants in the workforce.",
       "same_as": null,
       "sections": [
         {
@@ -258,10 +268,10 @@
             }
           ],
           "notes": [
-            "Above section 7023 meets for 16 weeks, Sep 09 to Dec 16, and is a hybrid class taught online via the Internet and at the Bundy"
+            "Above section 7023 meets for 16 weeks, Sep 09 to Dec 16, and is a hybrid class taught online via the Internet and at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "16 weeks, Sep 09 to Dec 16",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -275,7 +285,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "In this course, beginning ESL students focus on developing listening and speaking skills needed to communicate effectively in social, work, and academic contexts.",
       "same_as": null,
@@ -291,7 +303,7 @@
             }
           ],
           "notes": [
-            "Above section 7024 meets for 16 weeks, Sep 03 to Dec 17, at the",
+            "Above section 7024 meets for 16 weeks, Sep 03 to Dec 17, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "16 weeks, Sep 03 to Dec 17",
@@ -309,7 +321,7 @@
             }
           ],
           "notes": [
-            "Above section 7025 meets for 16 weeks, Sep 03 to Dec 17, at the",
+            "Above section 7025 meets for 16 weeks, Sep 03 to Dec 17, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "16 weeks, Sep 03 to Dec 17",
@@ -327,7 +339,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "In this intermediate ESL course, students focus on developing listening and speaking skills needed to communicate effectively in social, work, and academic contexts.",
       "same_as": null,
@@ -343,7 +357,7 @@
             }
           ],
           "notes": [
-            "Above section 7026 meets for 16 weeks, Sep 04 to Dec 18, at the",
+            "Above section 7026 meets for 16 weeks, Sep 04 to Dec 18, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "16 weeks, Sep 04 to Dec 18",
@@ -361,7 +375,7 @@
             }
           ],
           "notes": [
-            "Above section 7027 meets for 16 weeks, Sep 04 to Dec 18, at the",
+            "Above section 7027 meets for 16 weeks, Sep 04 to Dec 18, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "16 weeks, Sep 04 to Dec 18",
@@ -379,7 +393,7 @@
             }
           ],
           "notes": [
-            "Above section 7028 meets for 16 weeks, Sep 04 to Dec 18, at the",
+            "Above section 7028 meets for 16 weeks, Sep 04 to Dec 18, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "16 weeks, Sep 04 to Dec 18",
@@ -443,7 +457,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "In this advanced ESL course, students focus on developing listening and speaking skills needed to communicate effectively in social, work, and academic contexts.",
       "same_as": null,
@@ -459,7 +475,7 @@
             }
           ],
           "notes": [
-            "Above section 7031 meets for 16 weeks, Sep 03 to Dec 17, at the",
+            "Above section 7031 meets for 16 weeks, Sep 03 to Dec 17, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "16 weeks, Sep 03 to Dec 17",
@@ -477,7 +493,7 @@
             }
           ],
           "notes": [
-            "Above section 7032 meets for 16 weeks, Sep 03 to Dec 17, at the",
+            "Above section 7032 meets for 16 weeks, Sep 03 to Dec 17, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "16 weeks, Sep 03 to Dec 17",
@@ -495,7 +511,7 @@
             }
           ],
           "notes": [
-            "Above section 7033 meets for 16 weeks, Sep 03 to Dec 17, at the",
+            "Above section 7033 meets for 16 weeks, Sep 03 to Dec 17, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "16 weeks, Sep 03 to Dec 17",
@@ -536,9 +552,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ESL 905.",
+      "prerequisite_notes": null,
+      "advisory": "ESL 905",
+      "advisory_notes": null,
       "formerly": null,
-      "description": "IN THE U.S. 0 UNITS This noncredit ESL course is mirrored to the credit course ESL 15 and is designed for noncredit students who wish to transition to credit coursework. This speaking/listening course examines the crosscultural differences that affect communication. It prepares students to understand and speak English more clearly and fluently in pairs, groups, class discussions, interviews, panels, and speeches. Conversation techniques, vocabulary acquisition, and reading, critical thinking, and problem-solving skills are employed.",
+      "description": "This noncredit ESL course is mirrored to the credit course ESL 15 and is designed for noncredit students who wish to transition to credit coursework. This speaking/listening course examines the crosscultural differences that affect communication. It prepares students to understand and speak English more clearly and fluently in pairs, groups, class discussions, interviews, panels, and speeches. Conversation techniques, vocabulary acquisition, and reading, critical thinking, and problem-solving skills are employed.",
       "same_as": null,
       "sections": [
         {
@@ -552,11 +570,8 @@
             }
           ],
           "notes": [
-            "Enrolling in this section means the online Canvas course shell will",
-            "be shared with students enrolled in distinct credit and noncredit",
-            "sections. Mirrored course enrollment is offered to noncredit",
-            "noncredit ESL classes. Please contact the noncredit office for more",
-            "information about enrolling in this class. Above section modality is On Ground."
+            "Enrolling in this section means the online Canvas course shell will be shared with students enrolled in distinct credit and noncredit sections. Mirrored course enrollment is offered to noncredit",
+            "ESL students who have demonstrated success in advanced level noncredit ESL classes. Please contact the noncredit office for more information about enrolling in this class. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -573,7 +588,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ESL 905 or ESL 965.",
+      "prerequisite_notes": null,
+      "advisory": "ESL 905 or ESL 965",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This noncredit ESL course is mirrored to the credit course ESL 20A-Advanced Grammar Workshop and is designed for noncredit students who wish to transition to credit coursework. This course is designed to increase a student’s grammar and sentence-writing skills. Students will recognize and employ the sophisticated language necessary for successful completion of ESL 19A and ESL 19B. Concurrent enrollment in this course is highly recommended for success in ESL 19A and ESL 19B.",
       "same_as": null,
@@ -590,11 +607,8 @@
           ],
           "notes": [
             "Above section 7036 meets for 12 weeks, Sep 22 to Dec 10.",
-            "Enrolling in this section means the online Canvas course shell will",
-            "be shared with students enrolled in distinct credit and noncredit",
-            "sections. Mirrored course enrollment is offered to noncredit",
-            "noncredit ESL classes. Please contact the noncredit office for more",
-            "information about enrolling in this class. Above section modality is On Ground."
+            "Enrolling in this section means the online Canvas course shell will be shared with students enrolled in distinct credit and noncredit sections. Mirrored course enrollment is offered to noncredit",
+            "ESL students who have demonstrated success in advanced level noncredit ESL classes. Please contact the noncredit office for more information about enrolling in this class. Above section modality is On Ground."
           ],
           "duration": "12 weeks, Sep 22 to Dec 10",
           "modality": "On Ground",
@@ -611,7 +625,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is designed for the beginning ESL student. Students at this level will focus on developing their reading, vocabulary, and writing skills for success at work, school, and in the community. Students in this class learn to read a variety of texts and to write short notes and emails.",
       "same_as": null,
@@ -627,7 +643,7 @@
             }
           ],
           "notes": [
-            "Above section 7037 meets for 16 weeks, Sep 04 to Dec 18, at the",
+            "Above section 7037 meets for 16 weeks, Sep 04 to Dec 18, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "16 weeks, Sep 04 to Dec 18",
@@ -645,7 +661,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is designed for the intermediate ESL student. The course focuses on improving vocabulary, reading and writing skills for success at work, school, and in the community. Students learn to read a variety of informational texts and to write paragraphs for a range of purposes.",
       "same_as": null,
@@ -661,7 +679,7 @@
             }
           ],
           "notes": [
-            "Above section 7038 meets for 16 weeks, Sep 09 to Dec 16, at the",
+            "Above section 7038 meets for 16 weeks, Sep 09 to Dec 16, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "16 weeks, Sep 09 to Dec 16",
@@ -679,7 +697,7 @@
             }
           ],
           "notes": [
-            "Above section 7039 meets for 16 weeks, Sep 09 to Dec 16, at the",
+            "Above section 7039 meets for 16 weeks, Sep 09 to Dec 16, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "16 weeks, Sep 09 to Dec 16",
@@ -697,7 +715,7 @@
             }
           ],
           "notes": [
-            "Above section 7040 meets for 16 weeks, Sep 09 to Dec 16, at the",
+            "Above section 7040 meets for 16 weeks, Sep 09 to Dec 16, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "16 weeks, Sep 09 to Dec 16",
@@ -761,7 +779,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is designed for the advanced ESL student. The course focuses on improving vocabulary, reading and writing skills for success at work, school, and in the community. Students learn to read a variety of informational texts and to write multi-paragraph compositions.",
       "same_as": null,
@@ -777,7 +797,7 @@
             }
           ],
           "notes": [
-            "Above section 7043 meets for 16 weeks, Sep 04 to Dec 18, at the",
+            "Above section 7043 meets for 16 weeks, Sep 04 to Dec 18, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "16 weeks, Sep 04 to Dec 18",
@@ -795,7 +815,7 @@
             }
           ],
           "notes": [
-            "Above section 7044 meets for 16 weeks, Sep 04 to Dec 18, at the",
+            "Above section 7044 meets for 16 weeks, Sep 04 to Dec 18, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "16 weeks, Sep 04 to Dec 18",
@@ -836,7 +856,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "In this beginning ESL course, students engage in listening, speaking, reading, and writing activities that focus on developing vocabulary needed to function effectively in social, work, and academic contexts. Students in this course are introduced to basic word learning skills and study skills.",
       "same_as": null,
@@ -852,7 +874,7 @@
             }
           ],
           "notes": [
-            "Above section 7046 meets for 16 weeks, Sep 08 to Dec 15, at the",
+            "Above section 7046 meets for 16 weeks, Sep 08 to Dec 15, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "16 weeks, Sep 08 to Dec 15",
@@ -870,7 +892,7 @@
             }
           ],
           "notes": [
-            "Above section 7047 meets for 8 weeks, Oct 28 to Dec 18, at the",
+            "Above section 7047 meets for 8 weeks, Oct 28 to Dec 18, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "8 weeks, Oct 28 to Dec 18",
@@ -888,7 +910,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "In this intermediate ESL course, students engage in listening, speaking, reading, and writing activities that focus on acquiring vocabulary needed for social, work, and academic contexts. Students in this course expand their English language vocabulary while developing word learning and study strategies.",
       "same_as": null,
@@ -904,7 +928,7 @@
             }
           ],
           "notes": [
-            "Above section 7048 meets for 16 weeks, Sep 05 to Dec 19, at the",
+            "Above section 7048 meets for 16 weeks, Sep 05 to Dec 19, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "16 weeks, Sep 05 to Dec 19",
@@ -922,7 +946,7 @@
             }
           ],
           "notes": [
-            "Above section 7049 meets for 16 weeks, Sep 05 to Dec 19, at the",
+            "Above section 7049 meets for 16 weeks, Sep 05 to Dec 19, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "16 weeks, Sep 05 to Dec 19",
@@ -963,7 +987,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "In this advanced ESL course, students engage in listening, speaking, reading, and writing activities that focus on acquiring vocabulary needed to communicate effectively in social, work, and academic contexts. Students in this course expand their English language vocabulary while developing independent word learning and study strategies.",
       "same_as": null,
@@ -979,7 +1005,7 @@
             }
           ],
           "notes": [
-            "Above section 7051 meets for 16 weeks, Sep 08 to Dec 15, at the",
+            "Above section 7051 meets for 16 weeks, Sep 08 to Dec 15, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "16 weeks, Sep 08 to Dec 15",
@@ -997,7 +1023,7 @@
             }
           ],
           "notes": [
-            "Above section 7052 meets for 16 weeks, Sep 08 to Dec 15, at the",
+            "Above section 7052 meets for 16 weeks, Sep 08 to Dec 15, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
             "Above section modality is On Ground."
           ],
           "duration": "16 weeks, Sep 08 to Dec 15",
@@ -1038,7 +1064,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ESL 905 or ESL 975.",
+      "prerequisite_notes": null,
+      "advisory": "ESL 905 or ESL 975",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This noncredit ESL course is mirrored to the credit course ESL 28-Academic Vocabulary Skills. This course is designed for noncredit students who wish to transition to credit coursework and develop their techniques for understanding academic vocabulary and using English words idiomatically. It emphasizes context and usage of vocabulary from the Academic Word List (Coxhead 2000) or a similar corpus. Students will learn to comprehend and use approximately 200 words from the AWL to improve their reading comprehension, speaking, listening, and writing skills for academic success.",
       "same_as": null,
@@ -1055,12 +1083,8 @@
           ],
           "notes": [
             "Above section 7054 meets for 12 weeks, Sep 22 to Dec 10.",
-            "Enrolling in this section means the online Canvas course shell will",
-            "be shared with students enrolled in distinct credit and noncredit",
-            "sections. Mirrored course enrollment is offered to noncredit",
-            "noncredit ESL classes. Please contact the noncredit office for more",
-            "information about enrolling in this class. Fully on ground and will",
-            "be taught in person at the time and location listed in the schedule of classes."
+            "Enrolling in this section means the online Canvas course shell will be shared with students enrolled in distinct credit and noncredit sections. Mirrored course enrollment is offered to noncredit",
+            "ESL students who have demonstrated success in advanced level noncredit ESL classes. Please contact the noncredit office for more information about enrolling in this class. Fully on ground and will be taught in person at the time and location listed in the schedule of classes."
           ],
           "duration": "12 weeks, Sep 22 to Dec 10",
           "modality": null,
@@ -1077,7 +1101,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course prepares students to pass all three parts of the US Citizenship Test: 1) English Reading and Writing, 2) Civics and History, 3) Personal Questions.",
       "same_as": null,
@@ -1116,7 +1142,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This high intermediate/advanced ESL course introduces English language speaking, writing, listening, reading, vocabulary, and study skills as related to specific academic and career pathways. Students in this course are introduced to critical thinking, teamwork, cultural awareness and autonomous learning strategies that are transferable to college and career pathways.",
       "same_as": null,
@@ -1138,12 +1166,10 @@
             }
           ],
           "notes": [
-            "Above section 7056 meets for 8 weeks, Sep 06 to Oct 25,",
-            "and is a hybrid class taught online via the Internet and at the For additional information, go to smc.edu/OnlineEd. Above section 7056 focuses on language instruction which supports",
-            "intermediate/advanced ESL students with interest in a career in the field of early care and education."
+            "Above section 7056 meets for 8 weeks, Sep 06 to Oct 25, and is a hybrid class taught online via the Internet and at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. For additional information, go to smc.edu/OnlineEd. Above section 7056 focuses on language instruction which supports intermediate/advanced ESL students with interest in a career in the field of early care and education."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -1157,11 +1183,8 @@
             }
           ],
           "notes": [
-            "Above section 7057 meets for 8 weeks, Sep 05 to Oct 24, at",
-            "the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA",
-            "90066. Above section 7057 focuses on language instruction which",
-            "supports intermediate/advanced ESL students with interest in a",
-            "career in the field of healthcare. Above section modality is On"
+            "Above section 7057 meets for 8 weeks, Sep 05 to Oct 24, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA",
+            "90066. Above section 7057 focuses on language instruction which supports intermediate/advanced ESL students with interest in a career in the field of healthcare. Above section modality is On Ground."
           ],
           "duration": "8 weeks, Sep 05 to Oct 24",
           "modality": "On",
@@ -1178,9 +1201,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "EFFECTIVE COMMUNICATION 0 UNITS This high intermediate/advanced ESL course focuses on English language speaking, writing, listening, reading, vocabulary and study skills as related to specific academic and career pathways. Students produce written work and oral presentations relevant to their field as they apply critical thinking, cultural awareness, and autonomous learning strategies that are transferable to college and career pathways. Students are recommended to complete ESL 994 prior to taking this course.",
+      "description": "This high intermediate/advanced ESL course focuses on English language speaking, writing, listening, reading, vocabulary and study skills as related to specific academic and career pathways. Students produce written work and oral presentations relevant to their field as they apply critical thinking, cultural awareness, and autonomous learning strategies that are transferable to college and career pathways. Students are recommended to complete ESL 994 prior to taking this course.",
       "same_as": null,
       "sections": [
         {
@@ -1200,12 +1225,10 @@
             }
           ],
           "notes": [
-            "Above section 7058 meets for 8 weeks, Nov 01 to Dec 20,",
-            "and is a hybrid class taught online via the Internet and at the For additional information, go to smc.edu/OnlineEd. Above section 7058 focuses on language instruction which supports",
-            "intermediate/advanced ESL students with interest in a career in the field of early care and education."
+            "Above section 7058 meets for 8 weeks, Nov 01 to Dec 20, and is a hybrid class taught online via the Internet and at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. For additional information, go to smc.edu/OnlineEd. Above section 7058 focuses on language instruction which supports intermediate/advanced ESL students with interest in a career in the field of early care and education."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -1219,11 +1242,8 @@
             }
           ],
           "notes": [
-            "Above section 7059 meets for 8 weeks, Oct 31 to Dec 19, at",
-            "the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA",
-            "90066. Above section 7059 focuses on language instruction which",
-            "supports intermediate/advanced ESL students with interest in a",
-            "career in the field of healthcare. Above section modality is On"
+            "Above section 7059 meets for 8 weeks, Oct 31 to Dec 19, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA",
+            "90066. Above section 7059 focuses on language instruction which supports intermediate/advanced ESL students with interest in a career in the field of healthcare. Above section modality is On Ground."
           ],
           "duration": "8 weeks, Oct 31 to Dec 19",
           "modality": "On",

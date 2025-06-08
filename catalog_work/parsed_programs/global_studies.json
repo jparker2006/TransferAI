@@ -16,7 +16,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course provides a detailed introduction to global media systems around the world, examining the main economic and cultural dimensions of the international media environment. Key theoretical approaches to international and global communication will be examined. Consideration will be given to the key issues, main actors, and significant developments in global media.",
       "same_as": "MEDIA 3",
@@ -71,9 +73,11 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
-      "description": "INTRODUCTION TO GLOBAL STUDIES 3 UNITS This course offers an interdisciplinary introduction to the fields of Global Studies and International Political Economy. Students will analyze critically the role of national governments, international organizations, nongovernmental organizations, and multinational corporations, in regard to phenomena such as, international markets and production regimes, monetary and trade policy, international and global conflict, and environmental degradation. Contending theoretical and ideological perspectives regarding international systems, processes, and trends will be applied and evaluated.",
+      "description": "This course offers an interdisciplinary introduction to the fields of Global Studies and International Political Economy. Students will analyze critically the role of national governments, international organizations, nongovernmental organizations, and multinational corporations, in regard to phenomena such as, international markets and production regimes, monetary and trade policy, international and global conflict, and environmental degradation. Contending theoretical and ideological perspectives regarding international systems, processes, and trends will be applied and evaluated.",
       "same_as": "ECON 5",
       "sections": [
         {
@@ -126,7 +130,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This introductory course offers an interdisciplinary approach to exploring the origins, current status, trends and possible solutions of major global issues. Students will examine multiple issues of concern such as international war and conflict, global inequality, food, water, energy, climate change, population growth, migration, and social change. This Global Studies course will emphasize interdisciplinary inquiry by drawing upon both the holistic body of work in global studies, as well as the approaches of related fields such as anthropology, economics, environmental studies, geography, history, philosophy, political science, psychology, sociology, and women’s studies.",
       "same_as": null,
@@ -164,9 +170,11 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "GLOBAL STUDIES 3 UNITS This course introduces Global Studies through a survey of the world’s major geographic regions. Students will encounter core concepts related to processes of global connection and change, while also developing basic geographic literacy in the distribution of human and natural features on Earth. Students will examine and discuss significant issues — cultural, social, political-economic, and environmental — impacting humanity today as both problem and possibility. In particular, this course considers the diverse localized impacts of globalization as a continuing story of peoples and places isolated and connected by imperial, colonial, and international systems of the past and present.",
+      "description": "This course introduces Global Studies through a survey of the world’s major geographic regions. Students will encounter core concepts related to processes of global connection and change, while also developing basic geographic literacy in the distribution of human and natural features on Earth. Students will examine and discuss significant issues — cultural, social, political-economic, and environmental — impacting humanity today as both problem and possibility. In particular, this course considers the diverse localized impacts of globalization as a continuing story of peoples and places isolated and connected by imperial, colonial, and international systems of the past and present.",
       "same_as": "GEOG 11",
       "sections": [
         {

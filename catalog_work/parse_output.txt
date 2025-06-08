@@ -1,0 +1,3238 @@
+WARNING: Found multi-line course: AD JUS 1 - INTRODUCTION TO ADMINISTRATION OF JUSTICE
+WARNING: Found single-line course: AD JUS 2 - CONCEPTS OF CRIMINAL LAW
+WARNING: Found single-line course: AD JUS 3 - LEGAL ASPECTS OF EVIDENCE
+WARNING: Found single-line course: AD JUS 5 - CRIMINAL INVESTIGATION
+WARNING: Found single-line course: AD JUS 8 - JUVENILE PROCEDURES
+WARNING: Found single-line course: AD JUS 11 - INTRODUCTION TO FORENSICS
+WARNING: Found multi-line course: AD JUS 67 - COMMUNITY AND THE JUSTICE SYSTEM
+Saved Administration of Justice to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/administration_of_justice.json
+WARNING: Found single-line course: ASL 1 - AMERICAN SIGN LANGUAGE 1
+WARNING: Found single-line course: ASL 2 - AMERICAN SIGN LANGUAGE 2
+Saved American Sign Language to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/american_sign_language.json
+WARNING: Found single-line course: ANIM 1 - STORYTELLING
+WARNING: Found single-line course: ANIM 2 - 2D ANIMATION FUNDAMENTALS
+WARNING: Found single-line course: ANIM 3 - 3D FUNDAMENTALS
+WARNING: Found single-line course: ANIM 4 - DIGITAL STORYBOARDING
+WARNING: Found single-line course: ANIM 5 - HISTORY OF ANIMATION
+WARNING: Found single-line course: ANIM 18 - PERSPECTIVE DRAWING
+WARNING: Found single-line course: ANIM 19 - COLOR THEORY AND APPLICATION
+WARNING: Found single-line course: ANIM 20 - INTERMEDIATE 2D ANIMATION
+WARNING: Found single-line course: ANIM 21 - ADVANCED 2D ANIMATION
+WARNING: Found single-line course: ANIM 22 - 2D DIGITAL PRODUCTION
+WARNING: Found single-line course: ANIM 31 - ADVANCED 3D ANIMATION
+WARNING: Found single-line course: ANIM 32 - DIGITAL PREVISUALIZATION
+WARNING: Found single-line course: ANIM 35 - 3D MODELING
+WARNING: Found single-line course: ANIM 37 - 3D CHARACTER CREATION
+WARNING: Found single-line course: ANIM 38 - 3D CHARACTER RIGGING
+WARNING: Found single-line course: ANIM 41 - ENVIRONMENT DESIGN
+WARNING: Found single-line course: ANIM 42 - PROP AND VEHICLE DESIGN
+WARNING: Found single-line course: ANIM 75 - CAREER DEVELOPMENT
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+Saved Animation to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/animation.json
+WARNING: Found single-line course: ANTHRO 1 - BIOLOGICAL ANTHROPOLOGY
+WARNING: Found single-line course: ANTHRO 2 - CULTURAL ANTHROPOLOGY
+WARNING: Found single-line course: ANTHRO 3 - WORLD ARCHAEOLOGY
+WARNING: Found single-line course: ANTHRO 4 - METHODS OF ARCHAEOLOGY
+WARNING: Found multi-line course: ANTHRO 5 - BIOLOGICAL ANTHROPOLOGY WITH LAB
+WARNING: Found multi-line course: ANTHRO 7 - INTRODUCTION TO LINGUISTIC ANTHROPOLOGY
+WARNING: Found single-line course: ANTHRO 19 - THE CULTURE OF FOOD
+WARNING: Found multi-line course: ANTHRO 22 - MAGIC, RELIGION, AND WITCHCRAFT
+WARNING: Found multi-line course: ANTHRO 88A - INDEPENDENT STUDIES IN ANTHROPOLOGY
+WARNING: Found multi-line course: ERTHSC 88A - INDEPENDENT STUDIES IN EARTH SCIENCE
+WARNING: Found multi-line course: ERTHSC 88B - INDEPENDENT STUDIES IN EARTH SCIENCE
+WARNING: Found multi-line course: ANTHRO 300 - ETHNOGRAPHIC RESEARCH METHODS FOR DESIGNERS
+Saved Anthropology to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/anthropology.json
+WARNING: Found multi-line course: AQUA 1 - INTRODUCTION TO AQUACULTURE: HISTORY, ECOLOGY AND SUSTAINABILITY
+WARNING: Found multi-line course: AQUA 2 - APPLICATIONS IN AQUACULTURE – SYSTEM DESIGN, MONITORING AND MAINTENANCE
+WARNING: Found multi-line course: AQUA 3 - MICROBIOLOGY AND GENETICS FOR AQUACULTURE
+Saved Aquaculture to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/aquaculture.json
+WARNING: Found single-line course: ARABIC 1 - ELEMENTARY ARABIC 1
+Saved Arabic to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/arabic.json
+WARNING: Found single-line course: ARC 10 - STUDIO 1
+WARNING: Found single-line course: ARC 11 - DESIGN COMMUNICATION 1
+WARNING: Found single-line course: ARC 20 - STUDIO 2: ARCHITECTURE
+WARNING: Found single-line course: ARC 21 - DESIGN COMMUNICATION 2
+WARNING: Found single-line course: ARC 30 - STUDIO 3: ARCHITECTURE
+WARNING: Found single-line course: ARC 31 - DESIGN COMMUNICATION 3
+WARNING: Found single-line course: ARC 40 - STUDIO 4: ARCHITECTURE
+WARNING: Found single-line course: ARC 70 - PORTFOLIO
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+Saved Architecture to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/architecture.json
+WARNING: Found multi-line course: ART 80 - INTRODUCTION TO EXHIBITION & DISPLAY
+WARNING: Found single-line course: ART 82 - EXHIBITION AND DISPLAY PRODUCTION
+WARNING: Found multi-line course: ART 84 - EXHIBITION & DISPLAY IMPLEMENTATION, ACTIVATION, AND MANAGEMENT
+WARNING: Found single-line course: ART 10A - DESIGN I
+WARNING: Found single-line course: ART 10B - DESIGN THEORY & PRACTICE
+WARNING: Found single-line course: ART 10C - DIGITAL MEDIA
+WARNING: Found multi-line course: ART 13 - FORM AND SPACE: INTRODUCTION TO 3D DESIGN
+WARNING: Found single-line course: ART 17A - 3D JEWELRY DESIGN I
+WARNING: Found single-line course: ART 17B - 3D JEWELRY DESIGN II
+WARNING: Found multi-line course: ART 20A - DRAWING I – INTRODUCTION TO DRAWING
+WARNING: Found single-line course: ART 20B - DRAWING II – DRAWING WITH COLOR
+WARNING: Found single-line course: ART 21A - FIGURE DRAWING I
+WARNING: Found single-line course: ART 21B - FIGURE DRAWING II
+WARNING: Found multi-line course: ART 21C - FIGURE DRAWING FOR PORTFOLIO DEVELOPMENT
+WARNING: Found single-line course: ART 30A - BEGINNING WATERCOLOR PAINTING I
+WARNING: Found single-line course: ART 30B - WATERCOLOR PAINTING II
+WARNING: Found single-line course: ART 30C - ACRYLIC PAINTING TECHNIQUES
+WARNING: Found single-line course: ART 31 - BEGINNING OIL PAINTING
+WARNING: Found single-line course: ART 32 - INTERMEDIATE PAINTING
+WARNING: Found single-line course: ART 35 - AIRBRUSH TECHNIQUES
+WARNING: Found single-line course: ART 40A - SCULPTURE FUNDAMENTALS
+WARNING: Found single-line course: ART 40B - SCULPTURE EXPLORATIONS
+WARNING: Found single-line course: ART 40C - ADVANCED SCULPTURE
+WARNING: Found single-line course: ART 41A - FIGURE MODELING SCULPTURE I
+WARNING: Found single-line course: ART 41B - FIGURE MODELING SCULPTURE II
+WARNING: Found single-line course: ART 43A - GLASS SCULPTURE I
+WARNING: Found single-line course: ART 43B - GLASS SCULPTURE II
+WARNING: Found single-line course: ART 52A - INTRODUCTION TO CERAMICS
+WARNING: Found single-line course: ART 52B - CERAMICS: HAND BUILDING
+WARNING: Found single-line course: ART 53A - INTRODUCTION TO WHEEL THROWING
+WARNING: Found multi-line course: ART 53B - WHEEL THROWING PROCESSES AND TECHNIQUES
+WARNING: Found single-line course: ART 60 - INTRODUCTION TO PRINTMAKING
+WARNING: Found single-line course: ART 75 - FORM AND INFORMATION
+WARNING: Found single-line course: ARTS 88A - INDEPENDENT STUDIES IN THE ARTS
+WARNING: Found single-line course: ARTS 88C - INDEPENDENT STUDIES IN THE ARTS
+Saved Art to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/art.json
+WARNING: Found single-line course: AHIS 1 - WESTERN ART HISTORY I
+WARNING: Found single-line course: AHIS 2 - WESTERN ART HISTORY II
+WARNING: Found single-line course: AHIS 3 - GLOBAL ART HISTORY SINCE 1860
+WARNING: Found single-line course: AHIS 5 - LATIN AMERICAN ART HISTORY 1
+WARNING: Found single-line course: AHIS 6 - LATIN AMERICAN ART HISTORY 2
+WARNING: Found multi-line course: AHIS 11 - ART APPRECIATION: INTRODUCTION TO GLOBAL VISUAL CULTURE
+WARNING: Found single-line course: AHIS 17 - ARTS OF ASIA
+WARNING: Found multi-line course: AHIS 18 - INTRODUCTION TO AFRICAN ART HISTORY
+WARNING: Found multi-line course: AHIS 21 - ARCHITECTURAL HISTORY: ANCIENT TO 1850
+WARNING: Found multi-line course: AHIS 22 - ARCHITECTURAL HISTORY AND THEORY: 1850 TO PRESENT
+WARNING: Found single-line course: AHIS 52 - HISTORY OF PHOTOGRAPHY
+WARNING: Found single-line course: AHIS 71 - AFRICAN AMERICAN ART HISTORY
+WARNING: Rejected potential section '1850' - no valid schedule indicators: '1850 3 UNITS'
+Saved Art History to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/art_history.json
+WARNING: Found single-line course: ASTRON 1 - STELLAR ASTRONOMY
+WARNING: Found single-line course: ASTRON 2 - PLANETARY ASTRONOMY
+WARNING: Found multi-line course: ASTRON 3 - STELLAR ASTRONOMY WITH LABORATORY
+WARNING: Found multi-line course: ASTRON 4 - PLANETARY ASTRONOMY WITH LABORATORY
+WARNING: Found single-line course: ASTRON 5 - LIFE IN THE UNIVERSE
+WARNING: Found single-line course: ASTRON 6 - ARCHAEOASTRONOMY
+Saved Astronomy to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/astronomy.json
+WARNING: Found multi-line course: AUTO 40 - AUTOMOTIVE MAINTENANCE AND OPERATION
+WARNING: Found single-line course: AUTO 45 - AUTOMOTIVE BRAKING SYSTEMS
+WARNING: Found single-line course: BIOL 2 - HUMAN BIOLOGY
+WARNING: Found single-line course: BIOL 3 - FUNDAMENTALS OF BIOLOGY
+Saved Automotive Technology to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/automotive_technology.json
+WARNING: Found single-line course: BCYCLE 901 - BICYCLE MAINTENANCE LEVEL 1
+WARNING: Found single-line course: BCYCLE 902 - BICYCLE MAINTENANCE LEVEL 2
+Saved Bicycle Maintenance – Noncredit to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/bicycle_maintenance_noncredit.json
+WARNING: Found single-line course: ANATMY 1 - GENERAL HUMAN ANATOMY
+WARNING: Found single-line course: BIOL 9 - ENVIRONMENTAL BIOLOGY
+WARNING: Found multi-line course: BIOL 10 - APPLIED ECOLOGY AND CONSERVATION BIOLOGY
+WARNING: Found single-line course: BIOL 15 - MARINE BIOLOGY WITH LABORATORY
+WARNING: Found single-line course: BIOL 21 - CELL BIOLOGY AND EVOLUTION
+WARNING: Found single-line course: BIOL 22 - GENETICS AND MOLECULAR BIOLOGY
+WARNING: Found multi-line course: BIOL 23 - ORGANISMAL AND ENVIRONMENTAL BIOLOGY
+WARNING: Found single-line course: BIOL 30 - FUNDAMENTALS OF BIOTECHNOLOGY 1
+WARNING: Found single-line course: BIOL 33 - IMMUNOASSAY METHODS
+WARNING: Found multi-line course: BIOL 88A - INDEPENDENT STUDIES IN BIOLOGICAL SCIENCES
+WARNING: Found single-line course: BIOL 90A - LIFE SCIENCE INTERNSHIP
+WARNING: Found single-line course: BOTANY 1 - GENERAL BOTANY
+WARNING: Found single-line course: MCRBIO 1 - FUNDAMENTALS OF MICROBIOLOGY
+WARNING: Found single-line course: NUTR 1 - INTRODUCTION TO NUTRITION SCIENCE
+WARNING: Found single-line course: NUTR 4 - HEALTHY LIFESTYLE: FOOD AND FITNESS
+WARNING: Found single-line course: NUTR 7 - FOOD AND CULTURE IN AMERICA
+WARNING: Found single-line course: PHYS 3 - HUMAN PHYSIOLOGY
+WARNING: Found single-line course: ZOOL 5 - INTRODUCTORY ZOOLOGY
+Saved Biological Sciences to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/biological_sciences.json
+WARNING: Found single-line course: BUS 1 - INTRODUCTION TO BUSINESS
+WARNING: Found multi-line course: BUS 5 - BUSINESS LAW AND THE LEGAL ENVIRONMENT
+WARNING: Found single-line course: BUS 6 - ADVANCED BUSINESS LAW
+WARNING: Found multi-line course: BUS 7B - SUSTAINABILITY REPORTING IN BUSINESS
+WARNING: Found multi-line course: BUS 7C - CORPORATE SUSTAINABILITY STRATEGIES IN BUSINESS
+WARNING: Found multi-line course: BUS 7D - BUSINESS STRATEGIES AND SOCIAL SUSTAINABILITY
+WARNING: Found single-line course: BUS 8 - LAW FOR THE ENTREPRENEUR
+WARNING: Found single-line course: BUS 86 - EARNED VALUE MANAGEMENT SYSTEMS
+WARNING: Found multi-line course: BUS 9 - INTELLECTUAL PROPERTY FOR THE ENTREPRENEUR
+WARNING: Found multi-line course: BUS 11 - INTRODUCTION TO THE HOSPITALITY INDUSTRY
+WARNING: Found single-line course: BUS 16 - PERSONAL INSURANCE
+WARNING: Found single-line course: BUS 17 - PROPERTY AND LIABILITY INSURANCE
+WARNING: Found single-line course: BUS 20 - PRINCIPLES OF MARKETING
+WARNING: Found single-line course: BUS 21 - MERCHANDISING PRINCIPLES
+WARNING: Found single-line course: BUS 22 - INTRODUCTION TO ADVERTISING
+WARNING: Found single-line course: BUS 23 - PRINCIPLES OF SELLING
+WARNING: Found multi-line course: BUS 26 - MARKETING RESEARCH AND CONSUMER BEHAVIOR
+WARNING: Found single-line course: BUS 27 - INTRODUCTION TO E-COMMERCE
+WARNING: Found single-line course: BUS 28 - MARKETING PROMOTION
+WARNING: Found single-line course: BUS 29 - PUBLIC RELATIONS AND PUBLICITY
+WARNING: Found single-line course: BUS 31 - BUSINESS ENGLISH FUNDAMENTALS
+WARNING: Found single-line course: BUS 32 - BUSINESS COMMUNICATIONS
+WARNING: Found single-line course: BUS 33 - BROADCAST ADVERTISING
+WARNING: Found multi-line course: BUS 34A - INTRODUCTION TO DIGITAL MARKETING
+WARNING: Found single-line course: BUS 34B - DIGITAL MARKETING APPLICATIONS
+WARNING: Found single-line course: BUS 34C - DIGITAL MARKETING ANALYTICS
+WARNING: Found multi-line course: BUS 35 - CUSTOMER RELATIONSHIP MANAGEMENT
+WARNING: Found single-line course: BUS 36 - SALESFORCE FOR YOUR BUSINESS
+WARNING: Found multi-line course: BUS 36B - INTRODUCTION TO SALESFORCE MARKETING CLOUD
+WARNING: Found single-line course: BUS 37 - BUSINESS OF HIP-HOP INDUSTRY
+WARNING: Found single-line course: BUS 45 - INDIVIDUAL FINANCIAL PLANNING
+WARNING: Found single-line course: BUS 46 - INTRODUCTION TO INVESTMENTS
+WARNING: Found multi-line course: BUS 47 - UNDERSTANDING MONEY FOR LIFELONG SUCCESS
+WARNING: Found multi-line course: BUS 50 - INTRODUCTION TO INTERNATIONAL BUSINESS
+WARNING: Found multi-line course: BUS 51 - INTERCULTURAL BUSINESS COMMUNICATION
+WARNING: Found single-line course: BUS 53 - IMPORTING AND EXPORTING
+WARNING: Found multi-line course: BUS 55 - SOUTHERN CALIFORNIA’S INTERNATIONAL CONNECTIONS AND BLUE/OCEAN ECONOMY
+WARNING: Found multi-line course: BUS 56 - UNDERSTANDING THE BUSINESS OF ENTERTAINMENT
+WARNING: Found single-line course: BUS 57 - INTRODUCTION TO LEAN SIX SIGMA
+WARNING: Found multi-line course: BUS 62 - HUMAN RELATIONS AND ETHICAL ISSUES IN BUSINESS
+WARNING: Found single-line course: BUS 63 - PRINCIPLES OF ENTREPRENEURSHIP
+WARNING: Found single-line course: BUS 65 - MANAGEMENT PRINCIPLES
+WARNING: Found single-line course: BUS 76 - HUMAN RESOURCES MANAGEMENT
+WARNING: Found single-line course: BUS 79 - BARGAINING AND NEGOTIATIONS
+WARNING: Found single-line course: BUS 80 - PRINCIPLES OF LOGISTICS
+WARNING: Found single-line course: BUS 82 - SUPPLY CHAIN MANAGEMENT
+WARNING: Found single-line course: BUS 84 - INTRODUCTION TO PROCUREMENT
+WARNING: Found single-line course: BUS 87 - ERP SYSTEM: PROCUREMENT
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+Saved Business to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/business.json
+WARNING: Found single-line course: BUS 901 - INTRODUCTION TO BUSINESS – BASIC
+WARNING: Found single-line course: BUS 902 - INTRODUCTION TO BUSINESS MINDSET
+WARNING: Found single-line course: BUS 911 - CUSTOMER SERVICE LEVEL 1
+WARNING: Found single-line course: BUS 912 - CUSTOMER SERVICE LEVEL 2
+Saved Business – Noncredit to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/business_noncredit.json
+WARNING: Found single-line course: CHEM 9 - EVERYDAY CHEMISTRY
+WARNING: Found single-line course: CHEM 10 - INTRODUCTORY GENERAL CHEMISTRY
+WARNING: Found single-line course: CHEM 11 - GENERAL CHEMISTRY I
+WARNING: Found single-line course: CHEM 12 - GENERAL CHEMISTRY II
+WARNING: Found multi-line course: CHEM 19 - FUNDAMENTALS OF GENERAL, ORGANIC, AND BIOLOGICAL CHEMISTRY
+WARNING: Found single-line course: CHEM 21 - ORGANIC CHEMISTRY I
+WARNING: Found single-line course: CHEM 22 - ORGANIC CHEMISTRY II
+WARNING: Found single-line course: CHEM 24 - ORGANIC CHEMISTRY II LABORATORY
+WARNING: Found multi-line course: CHEM 88B - INDEPENDENT STUDIES IN CHEMISTRY
+WARNING: Could not reliably parse location/instructor from: 'SCI 155 Scholefield M R' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'SCI 155 Scholefield M R' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'SCI 301 Scholefield M R' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'SCI 155 Scholefield M R' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'SCI 155 Scholefield M R' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'SCI 301 Scholefield M R' - defaulting to location only
+Saved Chemistry to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/chemistry.json
+WARNING: Found single-line course: CHNESE 2 - ELEMENTARY CHINESE 2
+Saved Chinese to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/chinese.json
+WARNING: Found multi-line course: COM ST 9 - INTRODUCTION TO COMMUNICATION STUDIES
+WARNING: Found single-line course: COM ST 12 - PERSUASION
+WARNING: Found multi-line course: COM ST 16 - FUNDAMENTALS OF SMALL GROUP DISCUSSION
+WARNING: Found multi-line course: COM ST 20 - AGITATIONAL AND PROTEST COMMUNICATION
+WARNING: Found single-line course: COM ST 21 - ARGUMENTATION
+WARNING: Found multi-line course: COM ST 30 - INTRODUCTION TO COMMUNICATION THEORY
+WARNING: Found multi-line course: COM ST 31 - RESEARCH METHODS FOR COMMUNICATION STUDIES
+WARNING: Found single-line course: COM ST 35 - INTERPERSONAL COMMUNICATION
+WARNING: Found single-line course: COM ST 36 - GENDER AND COMMUNICATION
+WARNING: Found single-line course: COM ST 37 - INTERCULTURAL COMMUNICATION
+Saved Communication Studies to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/communication_studies.json
+WARNING: Found multi-line course: CIS 1 - INTRODUCTION TO COMPUTER INFORMATION SYSTEMS
+WARNING: Found single-line course: CIS 37 - MICROSOFT WORD
+WARNING: Found multi-line course: CIS 39 - MS OUTLOOK – COMPREHENSIVE COURSE
+WARNING: Found single-line course: CIS 60A - PHOTOSHOP I
+WARNING: Found single-line course: CIS 64 - ILLUSTRATOR
+WARNING: Found single-line course: CIS 70 - DIGITAL MARKETING APPLICATIONS
+WARNING: Found single-line course: CIS 9B - TECHNOLOGY PROJECT MANAGEMENT II
+WARNING: Found single-line course: CIS 30 - MICROSOFT EXCEL
+WARNING: Found single-line course: CIS 30T - TABLEAU DESKTOP ESSENTIALS
+WARNING: Found single-line course: CIS 35B - QUICKBOOKS ONLINE
+WARNING: Found multi-line course: CIS 2 - COMPUTER SKILLS FOR VIRTUAL ASSISTANTS
+WARNING: Found multi-line course: CIS 4 - BUSINESS INFORMATION SYSTEMS WITH APPLICATIONS
+WARNING: Found single-line course: CIS 9A - TECHNOLOGY PROJECT MANAGEMENT I
+Saved Computer Information Systems to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/computer_information_systems.json
+WARNING: Found single-line course: CS 3 - INTRODUCTION TO COMPUTER SYSTEMS
+WARNING: Found multi-line course: CS 7 - PROGRAMMING FOR NON-COMPUTER SCIENCE MAJORS
+WARNING: Found single-line course: CS 9A - TECHNOLOGY PROJECT MANAGEMENT I
+WARNING: Found single-line course: CS 9B - TECHNOLOGY PROJECT MANAGEMENT II
+WARNING: Found single-line course: CS 17 - ASSEMBLY LANGUAGE PROGRAMMING
+WARNING: Found single-line course: CS 20A - DATA STRUCTURES WITH C++
+WARNING: Found single-line course: CS 20B - DATA STRUCTURES WITH JAVA
+WARNING: Found single-line course: CS 30 - MATLAB PROGRAMMING
+WARNING: Found single-line course: CS 40 - OPERATING SYSTEMS
+WARNING: Found single-line course: CS 42 - DIGITAL LOGIC
+WARNING: Found single-line course: CS 50 - C PROGRAMMING
+WARNING: Found single-line course: CS 52 - C++ PROGRAMMING
+WARNING: Found single-line course: CS 55 - JAVA PROGRAMMING
+WARNING: Found single-line course: CS 56 - ADVANCED JAVA PROGRAMMING
+WARNING: Found single-line course: CS 60 - DATABASE CONCEPTS AND APPLICATIONS
+WARNING: Found multi-line course: CS 70 - NETWORK FUNDAMENTALS AND ARCHITECTURE
+WARNING: Found multi-line course: CS 73A - FUNDAMENTALS OF COMPUTER SECURITY
+WARNING: Found single-line course: CS 73B - COMPUTER FORENSICS FUNDAMENTALS
+WARNING: Found single-line course: CS 73C - CYBERSECURITY AND ETHICAL HACKING
+WARNING: Found single-line course: CS 73L - CYBERSECURITY LITERACY
+WARNING: Found single-line course: CS 79A - INTRODUCTION TO CLOUD COMPUTING
+WARNING: Found multi-line course: CS 79B - DATABASE ESSENTIALS IN AMAZON WEB SERVICES
+WARNING: Found multi-line course: CS 79C - COMPUTE ENGINES IN AMAZON WEB SERVICES
+WARNING: Found single-line course: CS 79D - SECURITY IN AMAZON WEB SERVICES
+WARNING: Found single-line course: CS 79F - MACHINE LEARNING ON AWS
+WARNING: Found single-line course: CS 80 - INTERNET PROGRAMMING
+WARNING: Found single-line course: CS 81 - JAVASCRIPT PROGRAMMING
+WARNING: Found single-line course: CS 82A - INTRODUCTION TO DATA SCIENCE
+WARNING: Found single-line course: CS 82B - PRINCIPLES OF DATA SCIENCE
+WARNING: Found single-line course: CS 82C - R PROGRAMMING
+WARNING: Found single-line course: CS 87A - PYTHON PROGRAMMING
+WARNING: Found single-line course: CS 87B - ADVANCED PYTHON PROGRAMMING
+WARNING: Could not reliably parse location/instructor from: 'BUS 201 Greenfield N A' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'BUS 201 Greenfield N A' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'BUS 201 Greenfield N A' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'BUS 201 Greenfield N A' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'BUS 201 Greenfield N A' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'BUS 201 Greenfield N A' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'BUS 201 Greenfield N A' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'BUS 201 Greenfield N A' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'BUS 201 Greenfield N A' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'BUS 201 Greenfield N A' - defaulting to location only
+Saved Computer Science to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/computer_science.json
+WARNING: Found single-line course: COSM 10A - RELATED SCIENCE 1A
+WARNING: Found single-line course: COSM 10B - RELATED SCIENCE 1B
+WARNING: Found single-line course: COSM 11A - HAIR CUTTING 1
+WARNING: Found single-line course: COSM 11B - HAIR STYLING 1
+WARNING: Found single-line course: COSM 11C - HAIR COLORING 1
+WARNING: Found single-line course: COSM 11D - PERMANENT WAVING
+WARNING: Found single-line course: COSM 16 - NAIL CARE 1
+WARNING: Found single-line course: COSM 18 - SKIN CARE 1
+WARNING: Found single-line course: COSM 20 - RELATED SCIENCE 2
+WARNING: Found single-line course: COSM 21A - HAIR CUTTING 2
+WARNING: Found single-line course: COSM 21B - HAIR STYLING 2
+WARNING: Found single-line course: COSM 21C - HAIR COLORING 2
+WARNING: Found single-line course: COSM 21E - CURLY HAIR TECHNIQUES 2
+WARNING: Found single-line course: COSM 26 - NAIL CARE 2
+WARNING: Found single-line course: COSM 28A - SKIN CARE 2A
+WARNING: Found single-line course: COSM 28B - SKIN CARE 2B
+WARNING: Found single-line course: COSM 30 - RELATED SCIENCE 3
+WARNING: Found single-line course: COSM 31A - HAIR CUTTING 3
+WARNING: Found single-line course: COSM 31E - MULTI TEXTURE STYLING
+WARNING: Found single-line course: COSM 36 - NAIL CARE 3
+WARNING: Found single-line course: COSM 38 - SKIN CARE 3
+WARNING: Found single-line course: COSM 38B - MECHANICAL EXFOLIATION
+WARNING: Found single-line course: COSM 38C - CHEMICAL EXFOLIATION
+WARNING: Found multi-line course: COSM 50E - WRITTEN PREPARATION FOR ESTHETICIAN STATE BOARD EXAM
+WARNING: Found multi-line course: COSM 50N - WRITTEN PREPARATION FOR NAIL CARE STATE BOARD EXAM
+WARNING: Found multi-line course: COSM 50R - WRITTEN PREPARATION FOR BARBERING STATE BOARD EXAM
+WARNING: Found single-line course: COSM 64 - SALON MANAGEMENT
+WARNING: Found single-line course: COSM 95A - SALON EXPERIENCE
+WARNING: Found single-line course: COSM 42 - SHORT HAIR CUTTING
+WARNING: Found single-line course: COSM 46 - NAIL CARE 4
+WARNING: Found single-line course: COSM 48 - SKIN CARE 4
+WARNING: Found single-line course: COSM 48B - MAKE-UP
+WARNING: Found multi-line course: COSM 50A - WRITTEN PREPARATION FOR COSMETOLOGY STATE BOARD EXAM
+WARNING: Found single-line course: COSM 95B - SALON EXPERIENCE
+WARNING: Found single-line course: COSM 95C - SALON EXPERIENCE
+WARNING: Found single-line course: COSM 95D - SALON EXPERIENCE
+Saved Cosmetology to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/cosmetology.json
+WARNING: Found single-line course: COUNS 1 - DEVELOPING LEARNING SKILLS
+WARNING: Found single-line course: COUNS 11 - ORIENTATION TO HIGHER EDUCATION
+WARNING: Found multi-line course: COUNS 12 - EXPLORING CAREERS AND COLLEGE MAJORS
+WARNING: Found single-line course: COUNS 15 - JOB SEARCH TECHNIQUES
+WARNING: Found single-line course: COUNS 20 - STUDENT SUCCESS SEMINAR
+WARNING: Found multi-line course: COUNS 47 - UNDERSTANDING MONEY FOR LIFELONG SUCCESS
+WARNING: Found single-line course: COUNS 90A - GENERAL INTERNSHIP
+WARNING: Found single-line course: COUNS 90B - GENERAL INTERNSHIP
+WARNING: Found single-line course: COUNS 90C - GENERAL INTERNSHIP
+WARNING: Found single-line course: COUNS 90D - GENERAL INTERNSHIP
+Saved Counseling to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/counseling.json
+WARNING: Found single-line course: COUNS 13H - PERSONAL AND SOCIAL AWARENESS
+WARNING: Found single-line course: COUNS 21H - ADAPTED COMPUTER TECHNOLOGY
+WARNING: Found single-line course: COUNS 41H - ROADMAP TO COLLEGE READINESS
+WARNING: Found multi-line course: COUNS 57 - LISTENING, NOTE TAKING, AND MEMORY
+WARNING: Found multi-line course: COUNS 59 - TEXTBOOK STRATEGIES USING TECHNOLOGY
+WARNING: Could not reliably parse location/instructor from: 'SSC 159 Courto L' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'SSC 159 Courto L' - defaulting to location only
+Saved Counseling: Disabled Student Services to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/counseling_disabled_student_services.json
+WARNING: Found single-line course: COUNS 910 - ABI CONNECTIONS
+Saved Counseling: Disabled Student Services – Noncredit to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/counseling_disabled_student_services_noncredit.json
+WARNING: Found single-line course: DANCE 2 - DANCE IN AMERICAN CULTURE
+WARNING: Found single-line course: COUNS 51 - TEST TAKING/MEMORY STRATEGIES
+WARNING: Found single-line course: COUNS 52 - TEXTBOOK/MEMORY STRATEGIES
+WARNING: Found multi-line course: COUNS 53 - PHONICS, SPELLING AND VOCABULARY DEVELOPMENT
+WARNING: Found single-line course: COUNS 54 - ORGANIZING FOR COLLEGE SUCCESS
+WARNING: Found single-line course: COUNS 56 - WRITTEN LANGUAGE STRATEGIES
+WARNING: Found single-line course: DANCE 5 - DANCE HISTORY
+WARNING: Found single-line course: DANCE 77 - NAVIGATING CAREERS IN DANCE
+Saved Dance: Appreciation and History to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/dance_appreciation_and_history.json
+WARNING: Found multi-line course: DANCE 10 - FUNDAMENTALS OF DANCE TECHNIQUE
+WARNING: Found single-line course: DANCE 11 - BEGINNING HIP HOP DANCE
+WARNING: Found single-line course: DANCE 12 - INTERMEDIATE HIP HOP DANCE
+WARNING: Found single-line course: DANCE 13 - ADVANCED HIP HOP DANCE
+WARNING: Found single-line course: DANCE 14 - BEGINNING JAZZ
+WARNING: Found single-line course: DANCE 15 - INTERMEDIATE JAZZ
+WARNING: Found single-line course: DANCE 16 - ADVANCED JAZZ
+WARNING: Found single-line course: DANCE 17 - BEGINNING TAP
+WARNING: Found single-line course: DANCE 18 - INTERMEDIATE TAP
+WARNING: Found single-line course: DANCE 22A - BEGINNING MEXICAN DANCE
+WARNING: Found single-line course: DANCE 22B - INTERMEDIATE MEXICAN DANCE
+WARNING: Found single-line course: DANCE 26A - BEGINNING SALSA DANCE
+WARNING: Found single-line course: DANCE 26B - INTERMEDIATE SALSA DANCE
+WARNING: Found single-line course: DANCE 31A - BALLET 1A
+WARNING: Found single-line course: DANCE 31B - BALLET 1B
+WARNING: Found single-line course: DANCE 32A - BALLET 2A
+WARNING: Found single-line course: DANCE 32B - BALLET 2B
+WARNING: Found single-line course: DANCE 33A - INTERMEDIATE BALLET 3A
+WARNING: Found single-line course: DANCE 34A - ADVANCED BALLET 4A
+WARNING: Found single-line course: DANCE 41 - CONTEMPORARY MODERN DANCE I
+WARNING: Found single-line course: DANCE 42 - CONTEMPORARY MODERN DANCE 2
+WARNING: Found multi-line course: DANCE 43A - INTERMEDIATE CONTEMPORARY MODERN DANCE 3A
+WARNING: Found multi-line course: DANCE 44A - ADVANCED CONTEMPORARY MODERN DANCE 4A
+WARNING: Found single-line course: DANCE 55A - DANCE PERFORMANCE – MODERN
+WARNING: Found single-line course: DANCE 57A - WORLD DANCE PERFORMANCE
+WARNING: Found multi-line course: DANCE 60 - FUNDAMENTALS OF CHOREOGRAPHY: DANCE IMPROVISATION
+WARNING: Found multi-line course: DANCE 75 - DANCE FOR CHILDREN: CREATIVE DANCE IN THE PRE-K AND ELEMENTARY CLASSROOM
+WARNING: Found single-line course: DANCE 88A - INDEPENDENT STUDIES IN DANCE
+WARNING: Found single-line course: DANCE 88B - INDEPENDENT STUDIES IN DANCE
+Saved Dance: Technique and Performance to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/dance_technique_and_performance.json
+WARNING: Found multi-line course: DMPOST 1 - DIGITAL MEDIA WORKFLOW MANAGEMENT
+WARNING: Found single-line course: DMPOST 2 - DIGITAL AUDIO FUNDAMENTALS
+WARNING: Found single-line course: DMPOST 3 - DIGITAL VIDEO FUNDAMENTALS
+WARNING: Found single-line course: DMPOST 4 - DIGITAL IMAGE FUNDAMENTALS
+WARNING: Found single-line course: DMPOST 22 - DIGITAL MUSIC PRODUCTION
+WARNING: Found single-line course: DMPOST 23 - SOUND DESIGN
+WARNING: Found single-line course: DMPOST 30 - DIGITAL VIDEO EDITING
+WARNING: Found single-line course: DMPOST 31 - DIGITAL COMPOSITING
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+Saved Digital Media Post-Production to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/digital_media_post_production.json
+WARNING: Found multi-line course: ECE 2 - PRINCIPLES AND PRACTICES OF TEACHING YOUNG CHILDREN
+WARNING: Found multi-line course: ECE 4 - LANGUAGE AND LITERATURE FOR THE YOUNG CHILD
+WARNING: Found multi-line course: ECE 8 - CREATIVE EXPERIENCES – ART, MUSIC, AND MOVEMENT
+WARNING: Found single-line course: ECE 11 - CHILD, FAMILY AND COMMUNITY
+WARNING: Found single-line course: ECE 17 - INTRODUCTION TO CURRICULUM
+WARNING: Found single-line course: ECE 19 - TEACHING IN A DIVERSE SOCIETY
+WARNING: Found single-line course: ECE 21 - OBSERVATION AND ASSESSMENT
+WARNING: Found multi-line course: ECE 22 - PRACTICUM IN EARLY CHILDHOOD EDUCATION
+WARNING: Found multi-line course: ECE 30 - STRATEGIES FOR WORKING WITH CHALLENGING BEHAVIORS
+WARNING: Found single-line course: ECE 32 - COMMUNICATING WITH FAMILIES
+WARNING: Found multi-line course: ECE 45 - INTRODUCTION TO CHILDREN WITH SPECIAL NEEDS
+WARNING: Found single-line course: ECE 46 - INFANT AND TODDLER DEVELOPMENT
+WARNING: Found single-line course: ECE 47 - DEVELOPING FAMILY CHILDCARE
+WARNING: Found multi-line course: ECE 48 - ADULT SUPERVISION AND MENTORING IN EARLY EDUCATION
+WARNING: Found multi-line course: ECE 49 - CURRICULUM AND STRATEGIES FOR CHILDREN WITH SPECIAL NEEDS
+WARNING: Found single-line course: ECE 51 - THE REGGIO APPROACH
+WARNING: Found multi-line course: ECE 64 - HEALTH, SAFETY, AND NUTRITION FOR YOUNG CHILDREN
+WARNING: Found multi-line course: ECE 71 - INFANTS AND TODDLER EDUCATION AND CARE
+WARNING: Found multi-line course: ECE 75 - DANCE FOR CHILDREN: CREATIVE DANCE IN THE PRE-K AND ELEMENTARY CLASSROOM
+WARNING: Found single-line course: ECE 76 - CHILDREN IN NATURE
+WARNING: Found multi-line course: ECE 81 - MUSIC FOR EARLY CHILDHOOD EDUCATION
+Saved Early Childhood Education to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/early_childhood_education.json
+WARNING: Found multi-line course: ECE 900 - EARLY CHILDHOOD EDUCATION COMMUNICATION SKILLS
+WARNING: Found multi-line course: ECE 901 - INTRODUCTION TO EARLY CARE AND EDUCATION
+WARNING: Found single-line course: ECE 902 - CULTURALLY RELEVANT CURRICULUM
+WARNING: Found multi-line course: ECE 903 - EARLY CARE LICENSING AND WORKFORCE READINESS
+WARNING: Found multi-line course: ECE 930 - GENDER AND EQUITY IN EARLY CHILDHOOD
+Saved Early Childhood Education – Noncredit to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/early_childhood_education_noncredit.json
+WARNING: Found single-line course: ECON 1 - PRINCIPLES OF MICROECONOMICS
+WARNING: Found single-line course: ECON 2 - PRINCIPLES OF MACROECONOMICS
+WARNING: Found single-line course: ECON 4 - ENVIRONMENTAL ECONOMICS
+WARNING: Found multi-line course: ECON 5 - INTERNATIONAL POLITICAL ECONOMY: INTRODUCTION TO GLOBAL STUDIES
+WARNING: Found single-line course: ECON 15 - ECONOMIC HISTORY OF THE U.S.
+WARNING: Found single-line course: ECON 88A - INDEPENDENT STUDIES IN ECONOMICS
+WARNING: Found multi-line course: ECON 88B - INDEPENDENT STUDIES IN ECONOMICS
+Saved Economics to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/economics.json
+WARNING: Found multi-line course: EDUC 12 - INTRODUCTION TO ELEMENTARY CLASSROOM TEACHING & FIELD EXPERIENCES
+WARNING: Found multi-line course: EDUC 50 - TEACHING IN THE AGE OF AI: STRATEGIES FOR EDUCATORS
+Saved Education to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/education.json
+WARNING: Found single-line course: ENGR 1 - INTRODUCTION TO ENGINEERING
+WARNING: Found single-line course: ENGR 11 - ENGINEERING GRAPHICS AND DESIGN
+WARNING: Found single-line course: ENGR 12 - STATICS
+WARNING: Found single-line course: ENGR 21 - CIRCUIT ANALYSIS
+WARNING: Found single-line course: ENGR 22 - CIRCUIT ANALYSIS LAB
+WARNING: Found multi-line course: ENGR 88B - INDEPENDENT STUDIES IN ENGINEERING
+Saved Engineering to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/engineering.json
+WARNING: Found single-line course: ENGL 31 - ADVANCED COMPOSITION
+Saved English Composition – Group A to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/english_composition_group_a.json
+WARNING: Found single-line course: ENGL 28 - INTENSIVE COLLEGE WRITING SKILLS
+WARNING: Rejected potential section '2006' - no valid schedule indicators: '2006 requires co-enrollment in ENGL 28 section 1934.'
+WARNING: Rejected potential section '2029' - no valid schedule indicators: '2029 requires co-enrollment in ENGL 28 section 1926.'
+WARNING: Rejected potential section '1926' - no valid schedule indicators: '1926 requires co-enrollment in ENGL C1000 section 2029.'
+WARNING: Rejected potential section '2030' - no valid schedule indicators: '2030 requires co-enrollment in ENGL 28 section 1935.'
+WARNING: Rejected potential section '2046' - no valid schedule indicators: '2046 requires co-enrollment in ENGL 28 section 1943.'
+WARNING: Rejected potential section '2089' - no valid schedule indicators: '2089 requires co-enrollment in ENGL 28 section 1944.'
+WARNING: Rejected potential section '1944' - no valid schedule indicators: '1944 requires co-enrollment in ENGL C1000 section 2089.'
+WARNING: Rejected potential section '2091' - no valid schedule indicators: '2091 requires co-enrollment in ENGL 28 section 1946.'
+WARNING: Rejected potential section '1946' - no valid schedule indicators: '1946 requires co-enrollment in ENGL C1000 section 2091.'
+WARNING: Rejected potential section '2093' - no valid schedule indicators: '2093 requires co-enrollment in ENGL 28 section 1947.'
+WARNING: Rejected potential section '1947' - no valid schedule indicators: '1947 requires co-enrollment in ENGL C1000 section 2093.'
+WARNING: Rejected potential section '2094' - no valid schedule indicators: '2094 requires co-enrollment in ENGL 28 section 1948.'
+WARNING: Rejected potential section '1948' - no valid schedule indicators: '1948 requires co-enrollment in ENGL C1000 section 2094.'
+WARNING: Rejected potential section '2096' - no valid schedule indicators: '2096 requires co-enrollment in ENGL 28 section 1950.'
+WARNING: Rejected potential section '1950' - no valid schedule indicators: '1950 requires co-enrollment in ENGL C1000 section 2096.'
+WARNING: Rejected potential section '2108' - no valid schedule indicators: '2108 requires co-enrollment in ENGL 28 section 1952.'
+WARNING: Rejected potential section '1952' - no valid schedule indicators: '1952 requires co-enrollment in ENGL C1000 section 2108.'
+Saved English Composition – Group B to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/english_composition_group_b.json
+WARNING: Found single-line course: ENGL 5 - BRITISH LITERATURE 1
+WARNING: Found single-line course: ENGL 7 - AMERICAN LITERATURE 1
+WARNING: Found single-line course: ENGL 8 - AMERICAN LITERATURE 2
+WARNING: Found multi-line course: ENGL 10 - RACE AND ETHNICITY IN LITERATURE OF THE U.S.
+WARNING: Found single-line course: ENGL 15 - SHAKESPEARE
+WARNING: Found single-line course: ENGL 26 - INTRODUCTION TO THE HUMANITIES
+WARNING: Found single-line course: ENGL 40 - ASIAN LITERATURE
+WARNING: Found single-line course: ENGL 50 - MYTHOLOGY
+WARNING: Found multi-line course: ENGL 51 - LITERATURE OF THE BIBLE: OLD TESTAMENT
+WARNING: Found single-line course: ENGL 61 - INTRODUCTION TO THE FAIRY TALE
+Saved English – Literature to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/english_literature.json
+WARNING: Found single-line course: ENGL 71 - INTRODUCTION TO CREATIVE WRITING
+WARNING: Found single-line course: ENGL 72 - WRITING IN FICTION
+Saved English – Creative Writing to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/english_creative_writing.json
+WARNING: Found multi-line course: ESL 10G - MULTIPLE SKILLS PREPARATION: LISTENING, SPEAKING, AND GRAMMAR
+WARNING: Found multi-line course: ESL 10W - MULTIPLE SKILLS PREPARATION: READING AND WRITING
+WARNING: Found single-line course: ESL 11A - BASIC ENGLISH 1
+WARNING: Found single-line course: ESL 19A - ENGLISH FUNDAMENTALS 1
+WARNING: Found single-line course: ESL 19B - ENGLISH FUNDAMENTALS 2
+WARNING: Found multi-line course: ESL 14B - PRONUNCIATION: RHYTHM AND INTONATION
+WARNING: Found multi-line course: ESL 15 - CONVERSATION AND CULTURE IN THE U.S.
+WARNING: Found single-line course: ESL 16A - THE NOUN SYSTEM AND ARTICLES
+WARNING: Found single-line course: ESL 16B - USING VERB TENSES
+WARNING: Found multi-line course: ESL 16C - SENTENCE STRUCTURE AND PUNCTUATION
+WARNING: Found single-line course: ESL 20A - ADVANCED GRAMMAR WORKSHOP
+WARNING: Found single-line course: ESL 28 - ACADEMIC VOCABULARY SKILLS
+Saved ESL – English as a Second Language to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/esl_english_as_a_second_language.json
+WARNING: Found multi-line course: ESL 902 - ENGLISH AS A SECOND LANGUAGE LEVEL 2
+WARNING: Found multi-line course: ESL 903 - ENGLISH AS A SECOND LANGUAGE LEVEL 3
+WARNING: Found multi-line course: ESL 904 - ENGLISH AS A SECOND LANGUAGE LEVEL 4
+WARNING: Found multi-line course: ESL 905 - ENGLISH AS A SECOND LANGUAGE LEVEL 5
+WARNING: Found multi-line course: ESL 906 - ENGLISH AS A SECOND LANGUAGE LEVEL 6
+WARNING: Found single-line course: ESL 911 - BEGINNING LISTENING AND SPEAKING
+WARNING: Found multi-line course: ESL 913 - INTERMEDIATE LISTENING AND SPEAKING
+WARNING: Found single-line course: ESL 915 - ADVANCED LISTENING AND SPEAKING
+WARNING: Found multi-line course: ESL 922 - CONVERSATION AND CULTURE IN THE U.S.
+WARNING: Found single-line course: ESL 926 - ADVANCED GRAMMAR WORKSHOP
+WARNING: Found single-line course: ESL 961 - BEGINNING READING AND WRITING
+WARNING: Found single-line course: ESL 963 - INTERMEDIATE READING AND WRITING
+WARNING: Found single-line course: ESL 965 - ADVANCED READING AND WRITING
+WARNING: Found single-line course: ESL 971 - BEGINNING ESL VOCABULARY
+WARNING: Found single-line course: ESL 973 - INTERMEDIATE ESL VOCABULARY
+WARNING: Found single-line course: ESL 975 - ADVANCED ESL VOCABULARY
+WARNING: Found single-line course: ESL 976 - ACADEMIC VOCABULARY SKILLS
+WARNING: Found multi-line course: ESL 980 - ESL US CITIZENSHIP TEST PREPARATION
+WARNING: Found multi-line course: ESL 994 - ESL FOR COLLEGE AND CAREER PATHWAYS – INTRODUCTION
+WARNING: Found multi-line course: ESL 995 - ESL FOR COLLEGE AND CAREER PATHWAYS – EFFECTIVE COMMUNICATION
+Saved ESL – Noncredit to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/esl_noncredit.json
+WARNING: Found multi-line course: ET 88B - INDEPENDENT STUDIES IN ENTERTAINMENT TECHNOLOGY
+WARNING: Found multi-line course: ET 88C - INDEPENDENT STUDIES IN ENTERTAINMENT TECHNOLOGY
+Saved Entertainment Technology to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/entertainment_technology.json
+WARNING: Found single-line course: ENVRN 4 - ENVIRONMENTAL ECONOMICS
+WARNING: Found multi-line course: ENVRN 7 - INTRODUCTION TO ENVIRONMENTAL STUDIES
+WARNING: Found single-line course: ENVRN 14 - U.S. ENVIRONMENTAL HISTORY
+WARNING: Found single-line course: ENVRN 32 - GLOBAL ENVIRONMENTAL HISTORY
+WARNING: Found single-line course: ENVRN 40 - ENVIRONMENTAL PSYCHOLOGY
+Saved Environmental Studies to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/environmental_studies.json
+WARNING: Found single-line course: ETH ST 1 - INTRODUCTION TO ETHNIC STUDIES
+WARNING: Found multi-line course: ETH ST 6 - INTRODUCTION TO CHICANA/O/X AND LATINA/ O/X STUDIES
+WARNING: Found multi-line course: ETH ST 7 - INTRODUCTION TO AFRICAN AMERICAN AND BLACK STUDIES
+WARNING: Found multi-line course: ETH ST 8 - INTRODUCTION TO ASIAN AMERICAN STUDIES
+Saved Ethnic Studies to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/ethnic_studies.json
+WARNING: Found multi-line course: FASHN 1 - INTRODUCTION TO THE FASHION INDUSTRY
+WARNING: Found single-line course: FASHN 2 - COLOR ANALYSIS
+WARNING: Found single-line course: FASHN 3 - APPAREL CONSTRUCTION
+WARNING: Found single-line course: FASHN 5 - FASHION BUYING
+WARNING: Found single-line course: FASHN 6A - PATTERN DRAFTING AND DESIGN
+WARNING: Found multi-line course: FASHN 6B - PATTERN DRAFTING AND DESIGN INTERMEDIATE
+WARNING: Found single-line course: FASHN 7 - FASHION TEXTILES
+WARNING: Found single-line course: FASHN 8 - HISTORY OF FASHION DESIGN
+WARNING: Found multi-line course: FASHN 9A - INTRODUCTION TO FASHION ILLUSTRATION
+WARNING: Found multi-line course: FASHN 10 - ADVANCED DESIGN AND CONSTRUCTION
+WARNING: Found single-line course: FASHN 14 - DRAPING II
+WARNING: Found single-line course: FASHN 15 - ETHNIC FASHION
+WARNING: Found single-line course: FASHN 16 - PATTERN GRADING
+WARNING: Found multi-line course: FASHN 18 - COMPUTER AIDED FASHION DESIGN AND MERCHANDISING
+WARNING: Found multi-line course: FASHN 20 - FASHION STYLING AND VISUAL PRESENTATION
+Saved Fashion Design and Merchandising to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/fashion_design_and_merchandising.json
+WARNING: Found multi-line course: FILM 1 - FILM APPRECIATION: INTRODUCTION TO CINEMA
+WARNING: Found single-line course: FILM 2 - HISTORY OF MOTION PICTURES
+WARNING: Found single-line course: FILM 5 - FILM AND SOCIETY
+WARNING: Found multi-line course: FILM 7 - AMERICAN CINEMA: CROSSING CULTURES
+WARNING: Found single-line course: FILM 8 - THE POPULAR FILM GENRES
+WARNING: Found single-line course: FILM 9 - THE GREAT FILM MAKERS
+WARNING: Found single-line course: FILM 11 - LITERATURE INTO FILM
+WARNING: Found single-line course: FILM 20 - BEGINNING SCRIPTWRITING
+WARNING: Found single-line course: FILM 21 - ADVANCED SCRIPTWRITING
+WARNING: Found multi-line course: FILM 30 - PRODUCTION PLANNING FOR FILM AND VIDEO
+WARNING: Found multi-line course: FILM 31 - INTRODUCTION TO DIGITAL FILMMAKING
+WARNING: Found single-line course: FILM 32 - INTERMEDIATE DIGITAL FILMMAKING
+WARNING: Found multi-line course: FILM 32L - INTERMEDIATE DIGITAL FILMMAKING LAB
+WARNING: Found single-line course: FILM 33 - MAKING THE SHORT FILM
+WARNING: Found single-line course: FILM 33L - MAKING THE SHORT FILM LAB
+WARNING: Found single-line course: FILM 34 - ADVANCED DIGITAL FILMMAKING
+WARNING: Found single-line course: FILM 34L - ADVANCED DIGITAL FILMMAKING LAB
+WARNING: Found single-line course: FILM 40 - CINEMATOGRAPHY
+WARNING: Found single-line course: FILM 41 - ADVANCED CINEMATOGRAPHY
+WARNING: Found single-line course: FILM 50 - PRODUCTION SOUND
+WARNING: Found multi-line course: FILM 88A - INDEPENDENT STUDIES IN FILM STUDIES
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Could not reliably parse location/instructor from: 'N CMD 182 Dada C' - defaulting to location only
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+Saved Film Studies to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/film_studies.json
+WARNING: Found single-line course: FRENCH 1 - ELEMENTARY FRENCH I
+WARNING: Found single-line course: FRENCH 2 - ELEMENTARY FRENCH II
+WARNING: Found single-line course: FRENCH 3 - INTERMEDIATE FRENCH I
+Saved French to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/french.json
+WARNING: Found single-line course: GAME 1 - GAME DESIGN FUNDAMENTALS
+WARNING: Found single-line course: GAME 2 - GAME MECHANICS
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+Saved Game Design to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/game_design.json
+WARNING: Found multi-line course: GIS 20 - INTRODUCTION TO GEOGRAPHIC INFORMATION SYSTEMS
+WARNING: Found single-line course: GIS 26 - INTRODUCTION TO REMOTE SENSING
+Saved Geographic Information Systems to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/geographic_information_systems.json
+WARNING: Found single-line course: GEOG 1 - PHYSICAL GEOGRAPHY
+WARNING: Found single-line course: GEOG 2 - INTRODUCTION TO HUMAN GEOGRAPHY
+WARNING: Found single-line course: GEOG 3 - WEATHER AND CLIMATE
+WARNING: Found single-line course: GEOG 5 - PHYSICAL GEOGRAPHY WITH LAB
+WARNING: Found multi-line course: GEOG 7 - INTRODUCTION TO ENVIRONMENTAL STUDIES
+WARNING: Found single-line course: GEOG 8 - INTRODUCTION TO URBAN STUDIES
+WARNING: Found multi-line course: GEOG 11 - WORLD GEOGRAPHY: INTRODUCTION TO GLOBAL STUDIES
+WARNING: Found single-line course: GEOG 14 - GEOGRAPHY OF CALIFORNIA
+WARNING: Found multi-line course: GEOG 20 - INTRODUCTION TO GEOGRAPHIC INFORMATION SYSTEMS
+WARNING: Found single-line course: GEOG 26 - INTRODUCTION TO REMOTE SENSING
+WARNING: Could not reliably parse location/instructor from: 'MSB 116 O’Keefe R' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'MSB 116 O’Keefe R' - defaulting to location only
+Saved Geography to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/geography.json
+WARNING: Found single-line course: GEOL 1 - PHYSICAL GEOLOGY WITHOUT LAB
+WARNING: Found multi-line course: GEOL 3 - INTRODUCTION TO ENVIRONMENTAL GEOLOGY
+WARNING: Found multi-line course: GEOL 32 - INTRODUCTION TO PHYSICAL OCEANOGRAPHY WITH LAB
+WARNING: Found single-line course: GEOL 4 - PHYSICAL GEOLOGY WITH LAB
+WARNING: Found single-line course: GEOL 6 - ENVIRONMENTAL GEOLOGY WITH LAB
+WARNING: Could not reliably parse location/instructor from: 'MSB 317 Hall J M' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'MSB 317 Hall J M' - defaulting to location only
+Saved Geology to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/geology.json
+WARNING: Found single-line course: GERMAN 1 - ELEMENTARY GERMAN I
+Saved German to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/german.json
+WARNING: Found single-line course: GLOBAL 3 - GLOBAL MEDIA
+WARNING: Found multi-line course: GLOBAL 5 - INTERNATIONAL POLITICAL ECONOMY: INTRODUCTION TO GLOBAL STUDIES
+WARNING: Found single-line course: GLOBAL 10 - GLOBAL ISSUES
+WARNING: Found multi-line course: GLOBAL 11 - WORLD GEOGRAPHY: INTRODUCTION TO GLOBAL STUDIES
+Saved Global Studies to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/global_studies.json
+WARNING: Found single-line course: DESIGN 11 - DESIGN FOUNDATIONS
+WARNING: Found single-line course: DESIGN 12 - TYPOGRAPHY 1
+WARNING: Found single-line course: DESIGN 13 - DIGITAL DESIGN TOOLS
+WARNING: Found single-line course: DESIGN 21 - DESIGN METHODS
+WARNING: Found single-line course: DESIGN 22 - TYPOGRAPHY 2
+WARNING: Found single-line course: DESIGN 23 - USER EXPERIENCE DESIGN 1
+WARNING: Found single-line course: DESIGN 24 - WEB DESIGN 1
+WARNING: Found single-line course: DESIGN 31 - INTERACTIVE ADVERTISING
+WARNING: Found single-line course: DESIGN 32 - COMMUNICATION DESIGN
+WARNING: Found single-line course: DESIGN 33 - USER EXPERIENCE DESIGN 2
+WARNING: Found single-line course: DESIGN 34 - WEB DESIGN 2
+WARNING: Found single-line course: DESIGN 41 - INDUSTRY PROJECT
+WARNING: Found single-line course: DESIGN 42 - INFORMATION DESIGN
+WARNING: Found single-line course: DESIGN 43 - DESIGN PORTFOLIO
+WARNING: Found single-line course: DESIGN 25 - MOBILE DESIGN 1
+WARNING: Found single-line course: DESIGN 26 - MOTION GRAPHICS 1
+WARNING: Found single-line course: DESIGN 35 - MOBILE DESIGN 2
+WARNING: Found single-line course: DESIGN 36 - MOTION GRAPHICS 2
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section 4071'
+Saved Graphic Design to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/graphic_design.json
+WARNING: Found multi-line course: HEALTH 10 - FUNDAMENTALS OF HEALTHFUL LIVING
+WARNING: Found multi-line course: HEALTH 11 - FIRST AID AND CARDIO-PULMONARY RESUSCITATION
+Saved Health Education to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/health_education.json
+WARNING: Found single-line course: HEALTH 61 - MEDICAL TERMINOLOGY
+Saved Health Occupations to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/health_occupations.json
+WARNING: Found multi-line course: HEALTH 905 - PROVIDING CARE TO OLDER ADULTS
+WARNING: Found multi-line course: HEALTH 906 - COMMUNICATION WITH OLDER ADULTS
+WARNING: Found single-line course: HEALTH 907 - WELLNESS IN OLDER ADULTS
+WARNING: Found multi-line course: HEALTH 985 - NURSE ASSISTANT PRE-CERTIFICATION FOUNDATIONAL TRAINING
+WARNING: Found multi-line course: HEALTH 986 - NURSE ASSISTANT PRE-CERTIFICATION FOUNDATIONAL CLINICAL TRAINING LAB
+WARNING: Found multi-line course: HEALTH 987 - HOME HEALTH AIDE PRE-CERTIFICATION FOUNDATIONAL TRAINING
+WARNING: Found multi-line course: HEALTH 988 - HOME HEALTH AIDE PRE-CERTIFICATION TRAINING CLINICAL LAB
+Saved Health – Noncredit to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/health_noncredit.json
+WARNING: Found single-line course: HEBREW 1 - ELEMENTARY HEBREW I
+Saved Hebrew to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/hebrew.json
+WARNING: Found single-line course: HIST 1 - HISTORY OF WESTERN CIVILIZATION I
+WARNING: Found single-line course: HIST 2 - HISTORY OF WESTERN CIVILIZATION II
+WARNING: Found single-line course: HIST 3 - BRITISH CIVILIZATION I
+WARNING: Found single-line course: HIST 6 - HISTORY OF LATIN AMERICA 2
+WARNING: Found single-line course: HIST 10 - ETHNICITY AND AMERICAN CULTURE
+WARNING: Found multi-line course: HIST 11 - UNITED STATES HISTORY THROUGH RECONSTRUCTION
+WARNING: Found multi-line course: HIST 12 - THE UNITED STATES HISTORY SINCE RECONSTRUCTION
+WARNING: Found single-line course: HIST 14 - U.S. ENVIRONMENTAL HISTORY
+WARNING: Found single-line course: HIST 15 - ECONOMIC HISTORY OF THE U.S.
+WARNING: Found single-line course: HIST 16 - AFRICAN-AMERICAN HISTORY
+WARNING: Found single-line course: HIST 22 - HISTORY OF THE MIDDLE EAST
+WARNING: Found single-line course: HIST 24 - HISTORY OF EAST ASIA TO 1600
+WARNING: Found multi-line course: HIST 28 - MODERN EUROPE: 1914 TO THE PRESENT
+WARNING: Found single-line course: HIST 32 - GLOBAL ENVIRONMENTAL HISTORY
+WARNING: Found single-line course: HIST 33 - WORLD CIVILIZATIONS I
+WARNING: Found single-line course: HIST 34 - WORLD CIVILIZATIONS II
+WARNING: Found single-line course: HIST 41 - NATIVE-AMERICAN HISTORY
+WARNING: Found single-line course: HIST 43 - MEXICAN-AMERICAN HISTORY
+WARNING: Found single-line course: HIST 51 - LGBTQ U.S. HISTORY
+WARNING: Found single-line course: HIST 53 - THE HISTORY OF RELIGION
+Saved History to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/history.json
+WARNING: Found single-line course: HUM 26 - INTRODUCTION TO THE HUMANITIES
+Saved Humanities to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/humanities.json
+WARNING: Found multi-line course: ANTHRO 88A - INDEPENDENT STUDIES IN ANTHROPOLOGY
+WARNING: Found single-line course: ARTS 88A - INDEPENDENT STUDIES IN THE ARTS
+WARNING: Found single-line course: ARTS 88C - INDEPENDENT STUDIES IN THE ARTS
+WARNING: Found multi-line course: BIOL 88A - INDEPENDENT STUDIES IN BIOLOGICAL SCIENCES
+WARNING: Found multi-line course: CHEM 88B - INDEPENDENT STUDIES IN CHEMISTRY
+WARNING: Found single-line course: DANCE 88A - INDEPENDENT STUDIES IN DANCE
+WARNING: Found single-line course: DANCE 88B - INDEPENDENT STUDIES IN DANCE
+WARNING: Found single-line course: ECON 88A - INDEPENDENT STUDIES IN ECONOMICS
+WARNING: Found multi-line course: ECON 88B - INDEPENDENT STUDIES IN ECONOMICS
+WARNING: Found multi-line course: ENGR 88B - INDEPENDENT STUDIES IN ENGINEERING
+WARNING: Found multi-line course: ERTHSC 88A - INDEPENDENT STUDIES IN EARTH SCIENCE
+WARNING: Found multi-line course: ERTHSC 88B - INDEPENDENT STUDIES IN EARTH SCIENCE
+WARNING: Found multi-line course: ET 88B - INDEPENDENT STUDIES IN ENTERTAINMENT TECHNOLOGY
+WARNING: Found multi-line course: ET 88C - INDEPENDENT STUDIES IN ENTERTAINMENT TECHNOLOGY
+WARNING: Found multi-line course: FILM 88A - INDEPENDENT STUDIES IN FILM STUDIES
+WARNING: Found multi-line course: KIN PE 88A - INDEPENDENT STUDIES IN PHYSICAL EDUCATION
+WARNING: Found multi-line course: MATH 88A - INDEPENDENT STUDIES IN MATHEMATICS
+WARNING: Found multi-line course: MEDIA 88A - INDEPENDENT STUDIES IN MEDIA STUDIES
+WARNING: Found multi-line course: PHILOS 88A - INDEPENDENT STUDIES IN PHILOSOPHY
+WARNING: Found multi-line course: PHILOS 88B - INDEPENDENT STUDIES IN PHILOSOPHY
+WARNING: Found multi-line course: PHOTO 88B - INDEPENDENT STUDIES IN PHOTOGRAPHY
+WARNING: Found single-line course: PHYSCS 88A - INDEPENDENT STUDIES IN PHYSICS
+WARNING: Found multi-line course: POL SC 88A - INDEPENDENT STUDIES IN POLITICAL SCIENCE
+WARNING: Found multi-line course: POL SC 88B - INDEPENDENT STUDIES IN POLITICAL SCIENCE
+WARNING: Found multi-line course: SOCIOL 88A - INDEPENDENT STUDIES IN SOCIOLOGY
+WARNING: Found multi-line course: SOCIOL 88B - INDEPENDENT STUDIES IN SOCIOLOGY
+WARNING: Found multi-line course: TH ART 18A - TECHNICAL THEATRE PRODUCTION WORKSHOP
+WARNING: Found multi-line course: TH ART 18B - TECHNICAL THEATRE PRODUCTION WORKSHOP
+WARNING: Found multi-line course: TH ART 18C - TECHNICAL THEATRE PRODUCTION WORKSHOP
+WARNING: Found multi-line course: TH ART 88A - INDEPENDENT STUDIES IN THEATRE ARTS
+WARNING: Found multi-line course: TH ART 88B - INDEPENDENT STUDIES IN THEATRE ARTS
+WARNING: Found multi-line course: TH ART 88C - INDEPENDENT STUDIES IN THEATRE ARTS
+WARNING: Found multi-line course: WGS 88A - INDEPENDENT STUDIES IN WOMEN’S, GENDER, AND SEXUALITY STUDIES
+WARNING: Found multi-line course: WGS 88B - INDEPENDENT STUDIES IN WOMEN’S, GENDER, AND SEXUALITY STUDIES
+WARNING: Could not reliably parse location/instructor from: 'McGraw C K' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'McGraw C K' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'Adair-Lynch T A' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'Adair-Lynch T A' - defaulting to location only
+Saved Independent Studies to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/independent_studies.json
+WARNING: Found multi-line course: IXD 320 - HISTORY AND PRACTICE OF INTERACTION DESIGN
+WARNING: Found single-line course: IXD 310 - INTERACTION DESIGN STUDIO 1
+WARNING: Found single-line course: IXD 370 - DESIGN FOR COMMUNITY CHANGE
+WARNING: Found single-line course: IXD 410 - PROJECT MANAGEMENT FOR DESIGN
+WARNING: Found single-line course: IXD 450 - INTERACTION DESIGN PORTFOLIO
+WARNING: Found single-line course: IXD 460 - TANGIBLE INTERACTION
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+Saved Interaction Design to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/interaction_design.json
+WARNING: Found single-line course: IARC 15 - 2D COLOR THEORY
+WARNING: Found single-line course: IARC 20 - STUDIO 2: INTERIOR ARCHITECTURE
+WARNING: Found multi-line course: IARC 25 - MATERIALS AND PRODUCTS FOR INTERIOR ARCHITECTURAL DESIGN
+WARNING: Found single-line course: IARC 30 - STUDIO 3: INTERIOR ARCHITECTURE
+WARNING: Found single-line course: IARC 40 - STUDIO 4: INTERIOR ARCHITECTURE
+WARNING: Found single-line course: IARC 45 - BUILDING SYSTEMS AND CODES
+Saved Interior Architectural Design to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/interior_architectural_design.json
+WARNING: Found single-line course: BIOL 90A - LIFE SCIENCE INTERNSHIP
+WARNING: Found single-line course: COUNS 90A - GENERAL INTERNSHIP
+WARNING: Found single-line course: COUNS 90B - GENERAL INTERNSHIP
+WARNING: Found single-line course: COUNS 90C - GENERAL INTERNSHIP
+WARNING: Found single-line course: COUNS 90D - GENERAL INTERNSHIP
+Saved Internships to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/internships.json
+WARNING: Found single-line course: ITAL 1 - ELEMENTARY ITALIAN I
+Saved Italian to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/italian.json
+WARNING: Found single-line course: JAPAN 1 - ELEMENTARY JAPANESE I
+WARNING: Found single-line course: JAPAN 2 - ELEMENTARY JAPANESE II
+WARNING: Found single-line course: JAPAN 3 - INTERMEDIATE JAPANESE I
+Saved Japanese to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/japanese.json
+WARNING: Found single-line course: JOURN 1 - THE NEWS
+WARNING: Found single-line course: JOURN 4A - NEWSCASTING AND NEWSWRITING
+WARNING: Found multi-line course: JOURN 7 - ENGAGING AUDIENCES FOR JOURNALISM AND SOCIAL MEDIA
+WARNING: Found multi-line course: JOURN 15 - INTRODUCTION TO MULTIMEDIA STORYTELLING
+WARNING: Found multi-line course: JOURN 16 - PRODUCING THE CAMPUS NEWSPAPER
+WARNING: Found single-line course: JOURN 17 - EDITING THE CAMPUS NEWSPAPER
+WARNING: Found single-line course: JOURN 21 - NEWS PHOTOGRAPHY
+WARNING: Found single-line course: JOURN 22 - PHOTOGRAPHY FOR PUBLICATION
+WARNING: Found single-line course: JOURN 43 - PUBLIC RELATIONS AND PUBLICITY
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+Saved Journalism to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/journalism.json
+WARNING: Found multi-line course: KIN PE 3 - INTRODUCTION TO EXERCISE PHYSIOLOGY I
+WARNING: Found multi-line course: KIN PE 4 - INTRODUCTION TO SPORT PSYCHOLOGY
+Saved Kinesiology/Physical Education to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/kinesiologyphysical_education.json
+WARNING: Found single-line course: KIN PE 48A - BEGINNING SWIMMING
+WARNING: Found single-line course: KIN PE 48B - ELEMENTARY SWIMMING
+WARNING: Found single-line course: KIN PE 48C - INTERMEDIATE SWIMMING
+WARNING: Found single-line course: KIN PE 48D - ADVANCED SWIMMING
+WARNING: Found single-line course: KIN PE 51A - BEGINNING SURFING
+WARNING: Found single-line course: KIN PE 51B - INTERMEDIATE SURFING
+Saved Kinesiology/Physical Education: Aquatics to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/kinesiologyphysical_education_aquatics.json
+WARNING: Found single-line course: KIN PE 34A - KARATE
+WARNING: Found single-line course: KIN PE 34B - INTERMEDIATE KARATE
+WARNING: Found single-line course: KIN PE 34C - ADVANCED INTERMEDIATE KARATE
+WARNING: Found single-line course: KIN PE 34D - ADVANCED KARATE
+WARNING: Found single-line course: KIN PE 41W - SELF DEFENSE – WOMEN
+Saved Kinesiology/Physical Education: Combatives to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/kinesiologyphysical_education_combatives.json
+WARNING: Found single-line course: KIN PE 2 - ACHIEVING LIFETIME FITNESS
+WARNING: Found single-line course: KIN PE 10A - FITNESS LAB
+WARNING: Found single-line course: KIN PE 11A - BEGINNING WEIGHT TRAINING
+WARNING: Found single-line course: KIN PE 11B - INTERMEDIATE WEIGHT TRAINING
+WARNING: Found single-line course: KIN PE 11C - ADVANCED WEIGHT TRAINING
+WARNING: Found single-line course: KIN PE 12 - OLYMPIC-STYLE WEIGHTLIFTING
+WARNING: Found single-line course: KIN PE 17 - BOXING FOR FITNESS
+WARNING: Found single-line course: KIN PE 19C - FITNESS – BODY LEVEL EXERCISES
+WARNING: Found single-line course: KIN PE 29A - PILATES MAT EXERCISE
+WARNING: Found single-line course: KIN PE 29B - INTERMEDIATE PILATES
+WARNING: Found single-line course: KIN PE 29C - ADVANCED PILATES
+WARNING: Found single-line course: KIN PE 58A - BEGINNING YOGA
+WARNING: Found single-line course: KIN PE 58B - INTERMEDIATE YOGA
+WARNING: Found single-line course: KIN PE 58C - ADVANCED YOGA
+WARNING: Found multi-line course: KIN PE 88A - INDEPENDENT STUDIES IN PHYSICAL EDUCATION
+Saved Kinesiology/Physical Education: Fitness to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/kinesiologyphysical_education_fitness.json
+WARNING: Found single-line course: KIN PE 5A - BEGINNING BADMINTON
+WARNING: Found single-line course: KIN PE 5B - INTERMEDIATE BADMINTON
+WARNING: Found single-line course: KIN PE 16A - BEGINNING ROCK CLIMBING
+WARNING: Found single-line course: KIN PE 16B - INTERMEDIATE ROCK CLIMBING
+WARNING: Found single-line course: KIN PE 52A - BEGINNING PICKLEBALL
+WARNING: Found single-line course: KIN PE 52B - INTERMEDIATE PICKLEBALL
+WARNING: Found single-line course: KIN PE 53A - TABLE TENNIS
+WARNING: Found single-line course: KIN PE 53B - INTERMEDIATE TABLE TENNIS
+WARNING: Found single-line course: KIN PE 54A - BEGINNING TENNIS, FIRST LEVEL
+WARNING: Found single-line course: KIN PE 54B - BEGINNING TENNIS, SECOND LEVEL
+WARNING: Found single-line course: KIN PE 54C - INTERMEDIATE TENNIS
+WARNING: Found single-line course: KIN PE 54D - ADVANCED TENNIS
+WARNING: Found single-line course: KIN PE 56A - BEGINNING TRACK AND FIELD
+WARNING: Found single-line course: KIN PE 56B - INTERMEDIATE TRACK AND FIELD
+Saved Kinesiology/Physical Education: Individual Sports to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/kinesiologyphysical_education_individual_sports.json
+WARNING: Found single-line course: KIN PE 9A - BEGINNING BASKETBALL
+WARNING: Found single-line course: KIN PE 9B - INTERMEDIATE BASKETBALL
+WARNING: Found single-line course: KIN PE 43A - BEGINNING SOCCER
+WARNING: Found single-line course: KIN PE 43B - INTERMEDIATE SOCCER
+WARNING: Found single-line course: KIN PE 43C - ADVANCED SOCCER
+WARNING: Found single-line course: KIN PE 45A - BEGINNING SOFTBALL
+WARNING: Found single-line course: KIN PE 45C - ADVANCED SOFTBALL
+WARNING: Found single-line course: KIN PE 57A - BEGINNING VOLLEYBALL
+WARNING: Found single-line course: KIN PE 57B - INTERMEDIATE VOLLEYBALL
+WARNING: Found single-line course: KIN PE 57C - ADVANCED VOLLEYBALL
+WARNING: Found single-line course: KIN PE 59B - INTERMEDIATE BEACH VOLLEYBALL
+WARNING: Found single-line course: KIN PE 59C - ADVANCED BEACH VOLLEYBALL
+Saved Kinesiology/Physical Education: Team Sports to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/kinesiologyphysical_education_team_sports.json
+WARNING: Found single-line course: KOREAN 1 - ELEMENTARY KOREAN I
+WARNING: Found single-line course: KOREAN 2 - ELEMENTARY KOREAN II
+WARNING: Found single-line course: KOREAN 3 - INTERMEDIATE KOREAN I
+Saved Korean to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/korean.json
+WARNING: Found single-line course: LIBR 1 - LIBRARY RESEARCH METHODS
+Saved Library Studies to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/library_studies.json
+WARNING: Found single-line course: LING 1 - INTRODUCTION TO LINGUISTICS
+Saved Linguistics to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/linguistics.json
+WARNING: Found multi-line course: MATH 54C - CONCURRENT SUPPORT FOR ELEMENTARY STATISTICS
+WARNING: Found multi-line course: MATH 2 - PRECALCULUS WITH MATH 2C, CONCURRENT SUPPORT FOR PRECALCULUS
+WARNING: Found single-line course: MATH 2 - PRECALCULUS
+WARNING: Found multi-line course: MATH 3 - TRIGONOMETRY WITH APPLICATIONS WITH MATH 3C, CONCURRENT SUPPORT FOR TRIGONOMETRY WITH APPLICATIONS
+WARNING: Found multi-line course: MATH 3C - CONCURRENT SUPPORT FOR TRIGONOMETRY WITH APPLICATIONS
+WARNING: Found single-line course: MATH 3 - TRIGONOMETRY WITH APPLICATIONS
+WARNING: Skipping potential false positive: MATH 4 - COLLEGE ALGEBRA FOR STEM MAJORS WITH MATH 4C, CONC...
+WARNING: Found multi-line course: WITH MATH 4C - CONCURRENT SUPPORT FOR COLLEGE ALGEBRA FOR STEM MAJORS
+WARNING: Found single-line course: MATH 4 - COLLEGE ALGEBRA FOR STEM MAJORS
+WARNING: Found single-line course: MATH 7 - CALCULUS 1
+WARNING: Found single-line course: MATH 8 - CALCULUS 2
+WARNING: Found single-line course: MATH 10 - DISCRETE STRUCTURES
+WARNING: Found single-line course: MATH 11 - MULTIVARIABLE CALCULUS
+WARNING: Found single-line course: MATH 13 - LINEAR ALGEBRA
+WARNING: Found single-line course: MATH 15 - ORDINARY DIFFERENTIAL EQUATIONS
+WARNING: Found multi-line course: MATH 21 - FINITE MATHEMATIC WITH MATH 21C, CONCURRENT SUPPORT FOR FINITE MATHEMATICS
+WARNING: Found single-line course: MATH 21 - FINITE MATHEMATICS
+WARNING: Found multi-line course: MATH 28 - CALCULUS 1 FOR BUSINESS AND SOCIAL SCIENCE
+WARNING: Found multi-line course: MATH 88A - INDEPENDENT STUDIES IN MATHEMATICS
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section 3129'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section 2643'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Could not reliably parse location/instructor from: 'McGraw C K' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'McGraw C K' - defaulting to location only
+Saved Mathematics to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/mathematics.json
+WARNING: Found multi-line course: MEDIA 1 - SURVEY OF MASS MEDIA COMMUNICATIONS
+WARNING: Found single-line course: MEDIA 2 - MEDIA LITERACY
+WARNING: Found single-line course: MEDIA 3 - GLOBAL MEDIA
+WARNING: Found single-line course: MEDIA 4 - INTRODUCTION TO GAME STUDIES
+WARNING: Found single-line course: MEDIA 10 - MEDIA, GENDER, AND RACE
+WARNING: Found single-line course: MEDIA 11 - INTRODUCTION TO BROADCASTING
+WARNING: Found single-line course: MEDIA 14 - NEWSCASTING AND NEWSWRITING
+WARNING: Found single-line course: MEDIA 16 - SPORTSCASTING FALL SPORTS
+WARNING: Found single-line course: MEDIA 18 - BROADCAST ADVERTISING
+WARNING: Found single-line course: MEDIA 19 - BROADCASTING WORKSHOP
+WARNING: Found multi-line course: MEDIA 20 - INTRODUCTION TO MEDIA WRITING AND PRODUCING SHORT-FORM CONTENT
+WARNING: Found multi-line course: MEDIA 21 - SHORT FORM VISUAL MEDIA PRODUCTION
+WARNING: Found multi-line course: MEDIA 25 - ENGAGING AUDIENCES FOR JOURNALISM AND SOCIAL MEDIA
+WARNING: Found single-line course: MEDIA 46 - TELEVISION PRODUCTION
+WARNING: Found multi-line course: MEDIA 48 - TELEVISION FIELD PRODUCTION WORKSHOP
+WARNING: Found multi-line course: MEDIA 88A - INDEPENDENT STUDIES IN MEDIA STUDIES
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+Saved Media Studies to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/media_studies.json
+WARNING: Found multi-line course: MUSIC 27 - MUSIC FOR EARLY CHILDHOOD EDUCATION
+WARNING: Found single-line course: MUSIC 29 - A WORLD OF MUSIC
+WARNING: Found single-line course: MUSIC 30 - MUSIC HISTORY I
+WARNING: Found single-line course: MUSIC 32 - APPRECIATION OF MUSIC
+WARNING: Found single-line course: MUSIC 33 - JAZZ IN AMERICAN CULTURE
+WARNING: Found single-line course: MUSIC 36 - HISTORY OF ROCK MUSIC
+WARNING: Found single-line course: MUSIC 37 - MUSIC IN AMERICAN CULTURE
+Saved Music: Appreciation and History to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/music_appreciation_and_history.json
+WARNING: Found single-line course: MUSIC 1 - FUNDAMENTALS OF MUSIC
+WARNING: Found single-line course: MUSIC 2 - MUSICIANSHIP
+WARNING: Found single-line course: MUSIC 3 - MUSICIANSHIP
+WARNING: Found single-line course: MUSIC 4 - MUSICIANSHIP
+WARNING: Found single-line course: MUSIC 5 - FUNDAMENTALS OF MUSICIANSHIP
+WARNING: Found single-line course: MUSIC 6 - DIATONIC HARMONY
+WARNING: Found single-line course: MUSIC 7 - CHROMATIC HARMONY
+WARNING: Found single-line course: MUSIC 8 - MODULATION AND ANALYSIS
+WARNING: Found single-line course: MUSIC 40 - OPERA WORKSHOP
+WARNING: Found single-line course: MUSIC 44 - MARIACHI ENSEMBLE
+WARNING: Found single-line course: MUSIC 45 - MUSICAL THEATRE WORKSHOP
+WARNING: Found single-line course: MUSIC 49 - COMBO AND CHAMBER ENSEMBLE
+WARNING: Found single-line course: MUSIC 50A - ELEMENTARY VOICE
+WARNING: Found single-line course: MUSIC 50B - INTERMEDIATE VOICE
+WARNING: Found single-line course: MUSIC 53 - JAZZ VOCAL ENSEMBLE
+WARNING: Found single-line course: MUSIC 55 - CONCERT CHORALE
+WARNING: Found multi-line course: MUSIC 57 - ADVANCED VOCAL PERFORMANCE TECHNIQUES
+WARNING: Found single-line course: MUSIC 59 - CHAMBER CHOIR
+WARNING: Found single-line course: MUSIC 60A - ELEMENTARY PIANO, FIRST LEVEL
+WARNING: Found single-line course: MUSIC 60B - ELEMENTARY PIANO, SECOND LEVEL
+WARNING: Found single-line course: MUSIC 60C - ELEMENTARY PIANO, THIRD LEVEL
+WARNING: Found single-line course: MUSIC 60D - ELEMENTARY PIANO, FOURTH LEVEL
+WARNING: Found single-line course: MUSIC 61A - INTERMEDIATE PIANO, FIFTH LEVEL
+WARNING: Found single-line course: MUSIC 64 - PIANO ENSEMBLE
+WARNING: Found single-line course: MUSIC 65A - KEYBOARD IMPROVISATION I
+WARNING: Found single-line course: MUSIC 65B - KEYBOARD IMPROVISATION II
+WARNING: Found multi-line course: MUSIC 66 - FUNDAMENTALS OF MUSIC AND ELEMENTARY PIANO
+WARNING: Found single-line course: MUSIC 70A - STRING INSTRUMENT TECHNIQUES
+WARNING: Found multi-line course: MUSIC 70B - INTERMEDIATE STRINGS TECHNIQUES
+WARNING: Found multi-line course: MUSIC 70C - INTERMEDIATE STRINGS ORCHESTRA
+WARNING: Found multi-line course: MUSIC 73A - PERCUSSION INSTRUMENT TECHNIQUES
+WARNING: Found multi-line course: MUSIC 73B - INTERMEDIATE PERCUSSION ENSEMBLE
+WARNING: Found single-line course: MUSIC 74 - ORCHESTRA
+WARNING: Found multi-line course: MUSIC 76 - INTERMEDIATE BRASS, WOODWINDS, AND PERCUSSION
+WARNING: Found single-line course: MUSIC 77 - WIND ENSEMBLE
+WARNING: Found single-line course: MUSIC 78 - JAZZ ENSEMBLE
+WARNING: Found single-line course: MUSIC 84A - POPULAR GUITAR, FIRST LEVEL
+WARNING: Found single-line course: MUSIC 84B - POPULAR GUITAR, SECOND LEVEL
+WARNING: Found single-line course: MUSIC 84C - POPULAR GUITAR, THIRD LEVEL
+WARNING: Found single-line course: MUSIC 87A - FINGERSTYLE GUITAR, FIRST LEVEL
+WARNING: Found multi-line course: MUSIC 87B - FINGERSTYLE GUITAR, SECOND LEVEL
+WARNING: Found single-line course: MUSIC 92 - APPLIED MUSIC INSTRUCTION
+WARNING: Found single-line course: MUSIC 94 - CONCERT MUSIC CLASS
+WARNING: Could not reliably parse location/instructor from: 'De Stefano J D' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'PAC 107 Bradfield M' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'PAC 107 Bradfield M' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'Smith Me M' - defaulting to location only
+Saved Music: Theory, Performance, and Application to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/music_theory_performance_and_application.json
+Saved Noncredit Classes to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/noncredit_classes.json
+WARNING: Found multi-line course: NURSNG 1 - FUNDAMENTALS OF NURSING CONCEPTS 1
+WARNING: Found multi-line course: NURSNG 1L - FUNDAMENTALS OF NURSING CONCEPTS 1 LAB 2.
+WARNING: Found multi-line course: NURSNG 2 - FUNDAMENTALS OF NURSING CONCEPTS 2 2.
+WARNING: Found multi-line course: NURSNG 2L - FUNDAMENTALS OF NURSING CONCEPTS 2 LAB 2.
+WARNING: Found multi-line course: NURSNG 3 - ADULT HEALTH NURSING CONCEPTS 1 2.
+WARNING: Found multi-line course: NURSNG 3L - ADULT HEALTH NURSING CONCEPTS 1 LAB 2.
+WARNING: Found multi-line course: NURSNG 4 - MENTAL HEALTH NURSING CONCEPTS 1.
+WARNING: Found single-line course: NURSNG 4L - MENTAL HEALTH CONCEPTS LAB 1.
+WARNING: Found multi-line course: NURSNG 5 - ADULT HEALTH NURSING CONCEPTS 2 2.
+WARNING: Found multi-line course: NURSNG 5L - ADULT HEALTH NURSING CONCEPTS 2 LAB 2.
+WARNING: Found multi-line course: NURSNG 6 - MATERNAL NEWBORN NURSING CONCEPTS 1.
+WARNING: Found multi-line course: NURSNG 6L - MATERNAL NEWBORN NURSING CONCEPTS LAB
+WARNING: Found single-line course: NURSNG 7 - PEDIATRIC NURSING CONCEPTS 1.
+WARNING: Found single-line course: NURSNG 7L - PEDIATRIC NURSING CONCEPTS LAB
+WARNING: Found multi-line course: NURSNG 8 - ADULT HEALTH NURSING CONCEPTS 3 2.
+WARNING: Found multi-line course: NURSNG 8L - ADULT HEALTH NURSING CONCEPTS 3 LAB 2.
+WARNING: Found single-line course: NURSNG 9 - NURSING LEADERSHIP CONCEPTS 1.
+WARNING: Found multi-line course: NURSNG 9L - NURSING LEADERSHIP CONCEPTS LAB
+WARNING: Found multi-line course: NURSNG 17 - PHARMACOLOGICAL ASPECTS OF NURSING
+WARNING: Found multi-line course: NURSNG 36 - CALCULATIONS IN DRUGS AND SOLUTIONS
+Saved Nursing to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/nursing.json
+WARNING: Found single-line course: NURSNG 900 - SUPERVISED TUTORING
+Saved Nursing – Noncredit to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/nursing_noncredit.json
+WARNING: Found single-line course: OFTECH 20 - MEDICAL VOCABULARY
+WARNING: Found multi-line course: OFTECH 21 - MEDICAL TERMS AND TRANSCRIPTION 1
+WARNING: Found single-line course: OFTECH 23 - MEDICAL BILLING (MEDISOFT)
+WARNING: Found single-line course: OFTECH 24 - MEDICAL CODING/BILLING 1
+WARNING: Found single-line course: OFTECH 28 - ELECTRONIC HEALTH RECORDS
+Saved Office Technology to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/office_technology.json
+WARNING: Found single-line course: PERSIN 1 - ELEMENTARY PERSIAN I
+Saved Persian to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/persian.json
+WARNING: Found single-line course: PHILOS 1 - KNOWLEDGE AND REALITY
+WARNING: Found single-line course: PHILOS 2 - ETHICS
+WARNING: Found single-line course: PHILOS 3 - EARLY PHILOSOPHERS
+WARNING: Found single-line course: PHILOS 7 - LOGIC AND CRITICAL THINKING
+WARNING: Found single-line course: PHILOS 9 - SYMBOLIC LOGIC
+WARNING: Found single-line course: PHILOS 22 - ASIAN PHILOSOPHY
+WARNING: Found single-line course: PHILOS 23 - PHILOSOPHY OF RELIGION
+WARNING: Found single-line course: PHILOS 51 - POLITICAL PHILOSOPHY
+WARNING: Found multi-line course: PHILOS 52 - CONTEMPORARY POLITICAL THOUGHT
+WARNING: Found multi-line course: PHILOS 88A - INDEPENDENT STUDIES IN PHILOSOPHY
+WARNING: Found multi-line course: PHILOS 88B - INDEPENDENT STUDIES IN PHILOSOPHY
+Saved Philosophy to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/philosophy.json
+WARNING: Found single-line course: PHOTO 1 - INTRODUCTION TO PHOTOGRAPHY
+WARNING: Found multi-line course: PHOTO 2 - BASIC BLACK AND WHITE DARKROOM TECHNIQUES
+WARNING: Found single-line course: PHOTO 13 - NEWS PHOTOGRAPHY
+WARNING: Found single-line course: PHOTO 14 - PHOTOGRAPHY FOR PUBLICATION
+WARNING: Found multi-line course: PHOTO 21 - ALTERNATIVE PHOTOGRAPHIC PROCESSES
+WARNING: Found multi-line course: PHOTO 30 - TECHNIQUES OF LIGHTING: INTRODUCTION
+WARNING: Found single-line course: PHOTO 32 - LIGHTING FOR PEOPLE 2
+WARNING: Found single-line course: PHOTO 33 - LIGHTING FOR PRODUCTS
+WARNING: Found single-line course: PHOTO 34 - CAPTURE TO COMPOSITE
+WARNING: Found single-line course: PHOTO 39 - BEGINNING PHOTOSHOP
+WARNING: Found single-line course: PHOTO 43 - PORTFOLIO DEVELOPMENT
+WARNING: Found single-line course: PHOTO 50 - BASIC COLOR PRINTING
+WARNING: Found single-line course: PHOTO 52 - HISTORY OF PHOTOGRAPHY
+WARNING: Found multi-line course: PHOTO 60 - BUSINESS PRACTICES IN PHOTOGRAPHY
+WARNING: Found multi-line course: PHOTO 70 - INTRO TO VIDEO FOR PHOTOGRAPHERS
+WARNING: Found multi-line course: PHOTO 71 - INTRO TO VIDEO EDITING FOR PHOTOGRAPHERS
+WARNING: Found multi-line course: PHOTO 88B - INDEPENDENT STUDIES IN PHOTOGRAPHY
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+Saved Photography to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/photography.json
+WARNING: Found single-line course: PHYSCS 6 - GENERAL PHYSICS 1 WITH LAB
+WARNING: Found multi-line course: PHYSCS 8 - CALCULUS-BASED GENERAL PHYSICS 1 WITH LAB
+WARNING: Found single-line course: PHYSCS 12 - INTRODUCTORY PHYSICS NON-LAB
+WARNING: Found single-line course: PHYSCS 14 - INTRODUCTORY PHYSICS WITH LAB
+WARNING: Found multi-line course: PHYSCS 20 - PREPARATION FOR CALCULUS-BASED PHYSICS
+WARNING: Found single-line course: PHYSCS 21 - MECHANICS WITH LAB
+WARNING: Found multi-line course: PHYSCS 22 - ELECTRICITY AND MAGNETISM WITH LAB
+WARNING: Found multi-line course: PHYSCS 23 - FLUIDS, WAVES, THERMODYNAMICS, OPTICS WITH LAB
+WARNING: Found single-line course: PHYSCS 88A - INDEPENDENT STUDIES IN PHYSICS
+Saved Physics to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/physics.json
+WARNING: Found multi-line course: POL SC 2 - COMPARATIVE GOVERNMENT AND POLITICS
+WARNING: Found multi-line course: POL SC 5 - INTERNATIONAL POLITICAL ECONOMY: INTRODUCTION TO GLOBAL STUDIES
+WARNING: Found single-line course: POL SC 7 - INTERNATIONAL POLITICS
+WARNING: Found single-line course: POL SC 24 - INTRODUCTION TO LAW
+WARNING: Found single-line course: POL SC 31 - INTRODUCTION TO PUBLIC POLICY
+WARNING: Found single-line course: POL SC 51 - POLITICAL PHILOSOPHY
+WARNING: Found multi-line course: POL SC 52 - CONTEMPORARY POLITICAL THOUGHT
+WARNING: Found multi-line course: POL SC 88A - INDEPENDENT STUDIES IN POLITICAL SCIENCE
+WARNING: Found multi-line course: POL SC 88B - INDEPENDENT STUDIES IN POLITICAL SCIENCE
+WARNING: Found multi-line course: POL SC 95 - PUBLIC POLICY – EXPERIENTIAL LEARNING
+Saved Political Science to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/political_science.json
+WARNING: Found single-line course: PRO CR 6A - COACHING OF FOOTBALL
+WARNING: Found single-line course: PRO CR 10 - INTRODUCTION TO KINESIOLOGY
+WARNING: Found single-line course: PRO CR 11 - INTRODUCTION TO SPORTS INJURIES
+WARNING: Found multi-line course: PRO CR 12 - EMERGENCY CARE AND WATER SAFETY
+WARNING: Found single-line course: PRO CR 15 - SPORTS MANAGEMENT
+WARNING: Found single-line course: PRO CR 19 - FIELD EXPERIENCE
+WARNING: Found single-line course: PRO CR 25 - PERSONAL TRAINER PREPARATION
+Saved Professional Courses In Kinesiology/Physical Education to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/professional_courses_in_kinesiologyphysical_education.json
+WARNING: Found single-line course: PSYCH 2 - PHYSIOLOGICAL PSYCHOLOGY
+WARNING: Found multi-line course: PSYCH 3 - PERSONALITY: DYNAMICS AND DEVELOPMENT
+WARNING: Found single-line course: PSYCH 5 - THE PSYCHOLOGY OF COMMUNICATION
+WARNING: Found multi-line course: PSYCH 6 - MARRIAGE, FAMILY, AND HUMAN INTIMACY
+WARNING: Found single-line course: PSYCH 7 - RESEARCH METHODS IN PSYCHOLOGY
+WARNING: Found single-line course: PSYCH 11 - CHILD GROWTH AND DEVELOPMENT
+WARNING: Found single-line course: PSYCH 13 - SOCIAL PSYCHOLOGY
+WARNING: Found single-line course: PSYCH 14 - ABNORMAL PSYCHOLOGY
+WARNING: Found single-line course: PSYCH 19 - LIFESPAN HUMAN DEVELOPMENT
+WARNING: Found single-line course: PSYCH 25 - HUMAN SEXUALITY
+WARNING: Found single-line course: PSYCH 40 - ENVIRONMENTAL PSYCHOLOGY
+WARNING: Found single-line course: PSYCH 320 - COGNITIVE PSYCHOLOGY
+WARNING: Could not reliably parse location/instructor from: 'HSS 256 O’Leary B A' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'HSS 256 O’Leary B A' - defaulting to location only
+WARNING: Rejected potential section '1660' - appears to be address/year: '1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.'
+Saved Psychology to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/psychology.json
+WARNING: Found single-line course: REALES 3 - REAL ESTATE PRACTICE
+Saved Real Estate to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/real_estate.json
+WARNING: Found multi-line course: REL ST 51 - LITERATURE OF THE BIBLE: OLD TESTAMENT
+Saved Religious Studies to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/religious_studies.json
+WARNING: Found single-line course: RC 1 - FUNDAMENTALS OF RESPIRATORY CARE
+WARNING: Found multi-line course: RC 2 - INTEGRATED RESPIRATORY PHYSIOLOGY AND PATHOPHYSIOLOGY I
+WARNING: Found single-line course: RC 3 - RESPIRATORY CARE THERAPEUTICS
+WARNING: Found single-line course: RC 4 - PHYSICIAN INTERACTION I
+WARNING: Found multi-line course: RC 10 - ADVANCED LIFE SUPPORT AND ICU MONITORING
+WARNING: Found single-line course: RC 11 - ADVANCED MECHANICAL VENTILATION
+WARNING: Found single-line course: RC 12 - PHYSICIAN INTERACTION III
+WARNING: Found multi-line course: RC 13 - NEONATAL AND PEDIATRIC RESPIRATORY CARE
+WARNING: Found multi-line course: RC 1L - APPLIED FUNDAMENTALS OF RESPIRATORY CARE
+WARNING: Found multi-line course: RC 2L - APPLIED INTEGRATED RESPIRATORY PHYSIOLOGY AND PATHOPHYSIOLOGY I
+WARNING: Found multi-line course: RC 3L - APPLIED RESPIRATORY CARE THERAPEUTICS
+WARNING: Found multi-line course: RC 10L - APPLIED ADVANCED LIFE SUPPORT AND ICU MONITORING
+WARNING: Found multi-line course: RC 11L - APPLIED ADVANCED MECHANICAL VENTILATION 2.
+WARNING: Found multi-line course: RC 13L - APPLIED NEONATAL AND PEDIATRIC RESPIRATORY CARE
+Saved Respiratory Care to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/respiratory_care.json
+WARNING: Found single-line course: RUSS 1 - ELEMENTARY RUSSIAN I
+Saved Russian to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/russian.json
+WARNING: Found multi-line course: SCI 10 - PRINCIPLES AND PRACTICE OF SCIENTIFIC RESEARCH
+Saved Science – General Studies to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/science_general_studies.json
+WARNING: Found single-line course: SOCIOL 1 - INTRODUCTION TO SOCIOLOGY
+WARNING: Found single-line course: SOCIOL 2 - SOCIAL PROBLEMS
+WARNING: Found single-line course: SOCIOL 4 - SOCIOLOGICAL ANALYSIS
+WARNING: Found multi-line course: SOCIOL 30 - AFRICAN AMERICANS IN CONTEMPORARY SOCIETY
+WARNING: Found single-line course: SOCIOL 33 - SOCIOLOGY OF SEX AND GENDER
+WARNING: Found multi-line course: SOCIOL 34 - RACIAL AND ETHNIC RELATIONS IN AMERICAN SOCIETY
+WARNING: Found multi-line course: SOCIOL 88A - INDEPENDENT STUDIES IN SOCIOLOGY
+WARNING: Found multi-line course: SOCIOL 88B - INDEPENDENT STUDIES IN SOCIOLOGY
+Saved Sociology to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/sociology.json
+WARNING: Found single-line course: SPAN 1 - ELEMENTARY SPANISH I
+WARNING: Found single-line course: SPAN 2 - ELEMENTARY SPANISH II
+WARNING: Found single-line course: SPAN 3 - INTERMEDIATE SPANISH I
+WARNING: Found single-line course: SPAN 8 - CONVERSATIONAL SPANISH
+WARNING: Found single-line course: SPAN 11 - SPANISH FOR HERITAGE SPEAKERS I
+WARNING: Found single-line course: SPAN 31A - PRACTICAL SPANISH
+Saved Spanish to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/spanish.json
+WARNING: Found single-line course: SST 902 - SUSTAINABILITY OUTREACH
+Saved Sustainability Systems and Technology – Noncredit to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/sustainability_systems_and_technology_noncredit.json
+WARNING: Found multi-line course: SMM 1 - INTRODUCTION TO SUSTAINABLE MATERIALS MANAGEMENT
+WARNING: Found single-line course: SMM 2 - CULTURE AND ZERO WASTE
+WARNING: Found multi-line course: SMM 3 - SUSTAINABLE MATERIALS MANAGEMENT AND ZERO WASTE FOR COMMUNITIES
+WARNING: Found multi-line course: SMM 4 - SUSTAINABLE MATERIALS MANAGEMENT AND ZERO WASTE IN BUSINESS
+Saved Sustainable Materials Management to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/sustainable_materials_management.json
+WARNING: Found single-line course: TH ART 2 - INTRODUCTION TO THE THEATRE
+WARNING: Found single-line course: TH ART 5 - HISTORY OF WORLD THEATRE
+WARNING: Found multi-line course: TH ART 10A - VOICE DEVELOPMENT FOR THE STAGE
+WARNING: Found single-line course: TH ART 13 - STAGE DIALECTS
+WARNING: Found single-line course: TH ART 15 - STAGE MOVEMENT FOR THE ACTOR
+WARNING: Found multi-line course: TH ART 16 - ADVANCED STAGE MOVEMENT FOR THE ACTOR
+WARNING: Found multi-line course: TH ART 18A - TECHNICAL THEATRE PRODUCTION WORKSHOP
+WARNING: Found multi-line course: TH ART 18B - TECHNICAL THEATRE PRODUCTION WORKSHOP
+WARNING: Found multi-line course: TH ART 18C - TECHNICAL THEATRE PRODUCTION WORKSHOP
+WARNING: Found single-line course: TH ART 20 - STAGECRAFT
+WARNING: Found single-line course: TH ART 21 - SCENIC PAINTING TECHNIQUES
+WARNING: Found single-line course: TH ART 22 - STAGE LIGHTING
+WARNING: Found single-line course: TH ART 23 - PROJECTION AND LIGHTING DESIGN
+WARNING: Found multi-line course: TH ART 25 - INTRODUCTION TO THEATRICAL SOUND
+WARNING: Found multi-line course: TH ART 26 - INTRODUCTION TO STAGE COSTUMING
+WARNING: Found single-line course: TH ART 28A - BEGINNING STAGE MAKE-UP
+WARNING: Found multi-line course: TH ART 31 - INTRODUCTION TO STAGE MANAGEMENT
+WARNING: Found single-line course: TH ART 41 - ACTING I
+WARNING: Found single-line course: TH ART 42 - ACTING II
+WARNING: Found single-line course: TH ART 45 - MUSICAL THEATRE WORKSHOP
+WARNING: Found multi-line course: TH ART 50 - ADVANCED PRODUCTION – FULL PLAY
+WARNING: Found single-line course: TH ART 51 - STAGE MAKE-UP WORKSHOP 0.
+WARNING: Found multi-line course: TH ART 55 - ADVANCED PRODUCTION – SMALL THEATRE VENUE
+WARNING: Found multi-line course: TH ART 88A - INDEPENDENT STUDIES IN THEATRE ARTS
+WARNING: Found multi-line course: TH ART 88B - INDEPENDENT STUDIES IN THEATRE ARTS
+WARNING: Found multi-line course: TH ART 88C - INDEPENDENT STUDIES IN THEATRE ARTS
+WARNING: Could not reliably parse location/instructor from: 'N TH ART 130 Anzelc L L' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'TH ART MAIN STG' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'TH ART MAIN STG' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'TH ART MAIN STG' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'TH ART MAIN STG' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'Adair-Lynch T A' - defaulting to location only
+WARNING: Could not reliably parse location/instructor from: 'Adair-Lynch T A' - defaulting to location only
+Saved Theatre Arts to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/theatre_arts.json
+WARNING: Found single-line course: URBAN 8 - INTRODUCTION TO URBAN STUDIES
+Saved Urban Studies to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/urban_studies.json
+WARNING: Found single-line course: VAR PE 9V - VARSITY BASKETBALL FOR MEN
+WARNING: Found single-line course: VAR PE 9W - VARSITY BASKETBALL FOR WOMEN
+WARNING: Found multi-line course: VAR PE 11A - IN-SEASON INTERCOLLEGIATE STRENGTH AND CONDITIONING
+WARNING: Found multi-line course: VAR PE 11B - OFF-SEASON INTERCOLLEGIATE STRENGTH AND CONDITIONING
+WARNING: Found single-line course: VAR PE 14V - VARSITY CROSS COUNTRY FOR MEN
+WARNING: Found multi-line course: VAR PE 14W - VARSITY CROSS COUNTRY FOR WOMEN
+WARNING: Found single-line course: VAR PE 21V - VARSITY FOOTBALL FOR MEN
+WARNING: Found single-line course: VAR PE 43V - VARSITY SOCCER FOR MEN
+WARNING: Found single-line course: VAR PE 43W - VARSITY SOCCER FOR WOMEN
+WARNING: Found single-line course: VAR PE 50V - VARSITY WATER POLO FOR MEN
+WARNING: Found single-line course: VAR PE 50W - VARSITY WATER POLO FOR WOMEN
+WARNING: Found single-line course: VAR PE 57W - VARSITY VOLLEYBALL FOR WOMEN
+WARNING: Found multi-line course: VAR PE 60 - CONDITIONING FOR INTERCOLLEGIATE SPORT
+Saved Varsity Intercollegiate Athletics to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/varsity_intercollegiate_athletics.json
+WARNING: Found multi-line course: WGS 10 - INTRODUCTION TO WOMEN’S, GENDER, AND SEXUALITY STUDIES
+WARNING: Found multi-line course: WGS 30 - WOMEN, GENDER, AND SEXUALITY IN POPULAR CULTURE
+WARNING: Found single-line course: WGS 40 - INTRODUCTION TO LGBTQ STUDIES
+WARNING: Found multi-line course: WGS 88A - INDEPENDENT STUDIES IN WOMEN’S, GENDER, AND SEXUALITY STUDIES
+WARNING: Found multi-line course: WGS 88B - INDEPENDENT STUDIES IN WOMEN’S, GENDER, AND SEXUALITY STUDIES
+Saved Women’s, Gender, and Sexuality Studies to /Users/ryancheng/p/TransferAI/catalog_work/parsed_programs/womens_gender_and_sexuality_studies.json
+
+Parsed 101 programs
+
+=== PARSING WARNINGS (1051) ===
+  Found single-line course: VAR PE 43W - VARSITY SOCCER FOR WOMEN
+  Found single-line course: VAR PE 50V - VARSITY WATER POLO FOR MEN
+  Found single-line course: VAR PE 50W - VARSITY WATER POLO FOR WOMEN
+  Found single-line course: VAR PE 57W - VARSITY VOLLEYBALL FOR WOMEN
+  Found multi-line course: VAR PE 60 - CONDITIONING FOR INTERCOLLEGIATE SPORT
+  Found multi-line course: WGS 10 - INTRODUCTION TO WOMEN’S, GENDER, AND SEXUALITY STUDIES
+  Found multi-line course: WGS 30 - WOMEN, GENDER, AND SEXUALITY IN POPULAR CULTURE
+  Found single-line course: WGS 40 - INTRODUCTION TO LGBTQ STUDIES
+  Found multi-line course: WGS 88A - INDEPENDENT STUDIES IN WOMEN’S, GENDER, AND SEXUALITY STUDIES
+  Found multi-line course: WGS 88B - INDEPENDENT STUDIES IN WOMEN’S, GENDER, AND SEXUALITY STUDIES
+  ... and 1041 more warnings
+
+Administration of Justice: 7 courses
+  - AD JUS 1: INTRODUCTION TO ADMINISTRATION OF JUSTICE (3 UNITS)
+    Sections: 3
+  - AD JUS 2: CONCEPTS OF CRIMINAL LAW (3 UNITS)
+    Sections: 2
+  - AD JUS 3: LEGAL ASPECTS OF EVIDENCE (3 UNITS)
+    Sections: 1
+  - AD JUS 5: CRIMINAL INVESTIGATION (3 UNITS)
+    Sections: 1
+  - AD JUS 8: JUVENILE PROCEDURES (3 UNITS)
+    Sections: 1
+  - AD JUS 11: INTRODUCTION TO FORENSICS (3 UNITS)
+    Sections: 1
+  - AD JUS 67: COMMUNITY AND THE JUSTICE SYSTEM (3 UNITS)
+    Sections: 1
+
+American Sign Language: 2 courses
+  - ASL 1: AMERICAN SIGN LANGUAGE 1 (5 UNITS)
+    Sections: 1
+  - ASL 2: AMERICAN SIGN LANGUAGE 2 (5 UNITS)
+    Sections: 1
+
+Animation: 18 courses
+  - ANIM 1: STORYTELLING (3 UNITS)
+    Sections: 2
+  - ANIM 2: 2D ANIMATION FUNDAMENTALS (3 UNITS)
+    Sections: 2
+  - ANIM 3: 3D FUNDAMENTALS (3 UNITS)
+    Sections: 2
+  - ANIM 4: DIGITAL STORYBOARDING (3 UNITS)
+    Sections: 1
+  - ANIM 5: HISTORY OF ANIMATION (3 UNITS)
+    Sections: 1
+  - ANIM 18: PERSPECTIVE DRAWING (2 UNITS)
+    Sections: 1
+  - ANIM 19: COLOR THEORY AND APPLICATION (2 UNITS)
+    Sections: 1
+  - ANIM 20: INTERMEDIATE 2D ANIMATION (3 UNITS)
+    Sections: 1
+  - ANIM 21: ADVANCED 2D ANIMATION (3 UNITS)
+    Sections: 1
+  - ANIM 22: 2D DIGITAL PRODUCTION (3 UNITS)
+    Sections: 1
+  - ANIM 31: ADVANCED 3D ANIMATION (3 UNITS)
+    Sections: 1
+  - ANIM 32: DIGITAL PREVISUALIZATION (3 UNITS)
+    Sections: 1
+  - ANIM 35: 3D MODELING (3 UNITS)
+    Sections: 1
+  - ANIM 37: 3D CHARACTER CREATION (3 UNITS)
+    Sections: 1
+  - ANIM 38: 3D CHARACTER RIGGING (3 UNITS)
+    Sections: 1
+  - ANIM 41: ENVIRONMENT DESIGN (3 UNITS)
+    Sections: 1
+  - ANIM 42: PROP AND VEHICLE DESIGN (3 UNITS)
+    Sections: 1
+  - ANIM 75: CAREER DEVELOPMENT (2 UNITS)
+    Sections: 1
+
+Anthropology: 12 courses
+  - ANTHRO 1: BIOLOGICAL ANTHROPOLOGY (3 UNITS)
+    Sections: 8
+  - ANTHRO 2: CULTURAL ANTHROPOLOGY (3 UNITS)
+    Sections: 5
+  - ANTHRO 3: WORLD ARCHAEOLOGY (3 UNITS)
+    Sections: 1
+  - ANTHRO 4: METHODS OF ARCHAEOLOGY (3 UNITS)
+    Sections: 1
+  - ANTHRO 5: BIOLOGICAL ANTHROPOLOGY WITH LAB (4 UNITS)
+    Sections: 4
+  - ANTHRO 7: INTRODUCTION TO LINGUISTIC ANTHROPOLOGY (3 UNITS)
+    Sections: 1
+  - ANTHRO 19: THE CULTURE OF FOOD (3 UNITS)
+    Sections: 1
+  - ANTHRO 22: MAGIC, RELIGION, AND WITCHCRAFT (3 UNITS)
+    Sections: 1
+  - ANTHRO 88A: INDEPENDENT STUDIES IN ANTHROPOLOGY (1 UNIT)
+    Sections: 3
+  - ERTHSC 88A: INDEPENDENT STUDIES IN EARTH SCIENCE (1 UNIT)
+    Sections: 1
+  - ERTHSC 88B: INDEPENDENT STUDIES IN EARTH SCIENCE (2 UNITS)
+    Sections: 1
+  - ANTHRO 300: ETHNOGRAPHIC RESEARCH METHODS FOR DESIGNERS (3 UNITS)
+    Sections: 1
+
+Aquaculture: 3 courses
+  - AQUA 1: INTRODUCTION TO AQUACULTURE: HISTORY, ECOLOGY AND SUSTAINABILITY (3 UNITS)
+    Sections: 1
+  - AQUA 2: APPLICATIONS IN AQUACULTURE – SYSTEM DESIGN, MONITORING AND MAINTENANCE (4 UNITS)
+    Sections: 1
+  - AQUA 3: MICROBIOLOGY AND GENETICS FOR AQUACULTURE (4 UNITS)
+    Sections: 1
+
+Arabic: 1 courses
+  - ARABIC 1: ELEMENTARY ARABIC 1 (5 UNITS)
+    Sections: 1
+
+Architecture: 8 courses
+  - ARC 10: STUDIO 1 (3 UNITS)
+    Sections: 3
+  - ARC 11: DESIGN COMMUNICATION 1 (3 UNITS)
+    Sections: 3
+  - ARC 20: STUDIO 2: ARCHITECTURE (3 UNITS)
+    Sections: 1
+  - ARC 21: DESIGN COMMUNICATION 2 (3 UNITS)
+    Sections: 1
+  - ARC 30: STUDIO 3: ARCHITECTURE (3 UNITS)
+    Sections: 1
+  - ARC 31: DESIGN COMMUNICATION 3 (3 UNITS)
+    Sections: 1
+  - ARC 40: STUDIO 4: ARCHITECTURE (3 UNITS)
+    Sections: 2
+  - ARC 70: PORTFOLIO (2 UNITS)
+    Sections: 1
+
+Art: 35 courses
+  - ART 80: INTRODUCTION TO EXHIBITION & DISPLAY (3 UNITS)
+    Sections: 1
+  - ART 82: EXHIBITION AND DISPLAY PRODUCTION (3 UNITS)
+    Sections: 1
+  - ART 84: EXHIBITION & DISPLAY IMPLEMENTATION, ACTIVATION, AND MANAGEMENT (3 UNITS)
+    Sections: 1
+  - ART 10A: DESIGN I (3 UNITS)
+    Sections: 13
+  - ART 10B: DESIGN THEORY & PRACTICE (3 UNITS)
+    Sections: 2
+  - ART 10C: DIGITAL MEDIA (3 UNITS)
+    Sections: 4
+  - ART 13: FORM AND SPACE: INTRODUCTION TO 3D DESIGN (3 UNITS)
+    Sections: 4
+  - ART 17A: 3D JEWELRY DESIGN I (3 UNITS)
+    Sections: 1
+  - ART 17B: 3D JEWELRY DESIGN II (3 UNITS)
+    Sections: 1
+  - ART 20A: DRAWING I – INTRODUCTION TO DRAWING (3 UNITS)
+    Sections: 13
+  - ART 20B: DRAWING II – DRAWING WITH COLOR (3 UNITS)
+    Sections: 4
+  - ART 21A: FIGURE DRAWING I (3 UNITS)
+    Sections: 4
+  - ART 21B: FIGURE DRAWING II (3 UNITS)
+    Sections: 2
+  - ART 21C: FIGURE DRAWING FOR PORTFOLIO DEVELOPMENT (3 UNITS)
+    Sections: 1
+  - ART 30A: BEGINNING WATERCOLOR PAINTING I (3 UNITS)
+    Sections: 2
+  - ART 30B: WATERCOLOR PAINTING II (3 UNITS)
+    Sections: 1
+  - ART 30C: ACRYLIC PAINTING TECHNIQUES (3 UNITS)
+    Sections: 1
+  - ART 31: BEGINNING OIL PAINTING (3 UNITS)
+    Sections: 4
+  - ART 32: INTERMEDIATE PAINTING (3 UNITS)
+    Sections: 2
+  - ART 35: AIRBRUSH TECHNIQUES (3 UNITS)
+    Sections: 1
+  - ART 40A: SCULPTURE FUNDAMENTALS (3 UNITS)
+    Sections: 1
+  - ART 40B: SCULPTURE EXPLORATIONS (3 UNITS)
+    Sections: 1
+  - ART 40C: ADVANCED SCULPTURE (3 UNITS)
+    Sections: 1
+  - ART 41A: FIGURE MODELING SCULPTURE I (3 UNITS)
+    Sections: 1
+  - ART 41B: FIGURE MODELING SCULPTURE II (3 UNITS)
+    Sections: 1
+  - ART 43A: GLASS SCULPTURE I (3 UNITS)
+    Sections: 1
+  - ART 43B: GLASS SCULPTURE II (3 UNITS)
+    Sections: 1
+  - ART 52A: INTRODUCTION TO CERAMICS (3 UNITS)
+    Sections: 2
+  - ART 52B: CERAMICS: HAND BUILDING (3 UNITS)
+    Sections: 1
+  - ART 53A: INTRODUCTION TO WHEEL THROWING (3 UNITS)
+    Sections: 1
+  - ART 53B: WHEEL THROWING PROCESSES AND TECHNIQUES (3 UNITS)
+    Sections: 1
+  - ART 60: INTRODUCTION TO PRINTMAKING (3 UNITS)
+    Sections: 1
+  - ART 75: FORM AND INFORMATION (3 UNITS)
+    Sections: 2
+  - ARTS 88A: INDEPENDENT STUDIES IN THE ARTS (1 UNIT)
+    Sections: 1
+  - ARTS 88C: INDEPENDENT STUDIES IN THE ARTS (3 UNITS)
+    Sections: 1
+
+Art History: 12 courses
+  - AHIS 1: WESTERN ART HISTORY I (3 UNITS)
+    Sections: 17
+  - AHIS 2: WESTERN ART HISTORY II (3 UNITS)
+    Sections: 7
+  - AHIS 3: GLOBAL ART HISTORY SINCE 1860 (3 UNITS)
+    Sections: 2
+  - AHIS 5: LATIN AMERICAN ART HISTORY 1 (3 UNITS)
+    Sections: 3
+  - AHIS 6: LATIN AMERICAN ART HISTORY 2 (3 UNITS)
+    Sections: 1
+  - AHIS 11: ART APPRECIATION: INTRODUCTION TO GLOBAL VISUAL CULTURE (3 UNITS)
+    Sections: 4
+  - AHIS 17: ARTS OF ASIA (3 UNITS)
+    Sections: 1
+  - AHIS 18: INTRODUCTION TO AFRICAN ART HISTORY (3 UNITS)
+    Sections: 3
+  - AHIS 21: ARCHITECTURAL HISTORY: ANCIENT TO 1850 (3 UNITS)
+    Sections: 2
+  - AHIS 22: ARCHITECTURAL HISTORY AND THEORY: 1850 TO PRESENT (3 UNITS)
+    Sections: 2
+  - AHIS 52: HISTORY OF PHOTOGRAPHY (3 UNITS)
+    Sections: 3
+  - AHIS 71: AFRICAN AMERICAN ART HISTORY (3 UNITS)
+    Sections: 2
+
+Astronomy: 6 courses
+  - ASTRON 1: STELLAR ASTRONOMY (3 UNITS)
+    Sections: 6
+  - ASTRON 2: PLANETARY ASTRONOMY (3 UNITS)
+    Sections: 4
+  - ASTRON 3: STELLAR ASTRONOMY WITH LABORATORY (4 UNITS)
+    Sections: 3
+  - ASTRON 4: PLANETARY ASTRONOMY WITH LABORATORY (4 UNITS)
+    Sections: 2
+  - ASTRON 5: LIFE IN THE UNIVERSE (3 UNITS)
+    Sections: 1
+  - ASTRON 6: ARCHAEOASTRONOMY (3 UNITS)
+    Sections: 1
+
+Automotive Technology: 4 courses
+  - AUTO 40: AUTOMOTIVE MAINTENANCE AND OPERATION (3 UNITS)
+    Sections: 1
+  - AUTO 45: AUTOMOTIVE BRAKING SYSTEMS (3 UNITS)
+    Sections: 14
+  - BIOL 2: HUMAN BIOLOGY (3 UNITS)
+    Sections: 5
+  - BIOL 3: FUNDAMENTALS OF BIOLOGY (4 UNITS)
+    Sections: 5
+
+Bicycle Maintenance – Noncredit: 2 courses
+  - BCYCLE 901: BICYCLE MAINTENANCE LEVEL 1 (0 UNITS)
+    Sections: 1
+  - BCYCLE 902: BICYCLE MAINTENANCE LEVEL 2 (0 UNITS)
+    Sections: 1
+
+Biological Sciences: 18 courses
+  - ANATMY 1: GENERAL HUMAN ANATOMY (4 UNITS)
+    Sections: 11
+  - BIOL 9: ENVIRONMENTAL BIOLOGY (3 UNITS)
+    Sections: 3
+  - BIOL 10: APPLIED ECOLOGY AND CONSERVATION BIOLOGY (4 UNITS)
+    Sections: 2
+  - BIOL 15: MARINE BIOLOGY WITH LABORATORY (4 UNITS)
+    Sections: 1
+  - BIOL 21: CELL BIOLOGY AND EVOLUTION (4 UNITS)
+    Sections: 3
+  - BIOL 22: GENETICS AND MOLECULAR BIOLOGY (4 UNITS)
+    Sections: 2
+  - BIOL 23: ORGANISMAL AND ENVIRONMENTAL BIOLOGY (5 UNITS)
+    Sections: 1
+  - BIOL 30: FUNDAMENTALS OF BIOTECHNOLOGY 1 (5 UNITS)
+    Sections: 2
+  - BIOL 33: IMMUNOASSAY METHODS (4 UNITS)
+    Sections: 1
+  - BIOL 88A: INDEPENDENT STUDIES IN BIOLOGICAL SCIENCES (1 UNIT)
+    Sections: 1
+  - BIOL 90A: LIFE SCIENCE INTERNSHIP (1 UNIT)
+    Sections: 1
+  - BOTANY 1: GENERAL BOTANY (4 UNITS)
+    Sections: 2
+  - MCRBIO 1: FUNDAMENTALS OF MICROBIOLOGY (5 UNITS)
+    Sections: 6
+  - NUTR 1: INTRODUCTION TO NUTRITION SCIENCE (3 UNITS)
+    Sections: 6
+  - NUTR 4: HEALTHY LIFESTYLE: FOOD AND FITNESS (3 UNITS)
+    Sections: 1
+  - NUTR 7: FOOD AND CULTURE IN AMERICA (3 UNITS)
+    Sections: 1
+  - PHYS 3: HUMAN PHYSIOLOGY (4 UNITS)
+    Sections: 8
+  - ZOOL 5: INTRODUCTORY ZOOLOGY (4 UNITS)
+    Sections: 1
+
+Business: 48 courses
+  - BUS 1: INTRODUCTION TO BUSINESS (3 UNITS)
+    Sections: 15
+  - BUS 5: BUSINESS LAW AND THE LEGAL ENVIRONMENT (3 UNITS)
+    Sections: 13
+  - BUS 6: ADVANCED BUSINESS LAW (3 UNITS)
+    Sections: 1
+  - BUS 7B: SUSTAINABILITY REPORTING IN BUSINESS (3 UNITS)
+    Sections: 1
+  - BUS 7C: CORPORATE SUSTAINABILITY STRATEGIES IN BUSINESS (3 UNITS)
+    Sections: 1
+  - BUS 7D: BUSINESS STRATEGIES AND SOCIAL SUSTAINABILITY (3 UNITS)
+    Sections: 1
+  - BUS 8: LAW FOR THE ENTREPRENEUR (3 UNITS)
+    Sections: 1
+  - BUS 86: EARNED VALUE MANAGEMENT SYSTEMS (3 UNITS)
+    Sections: 1
+  - BUS 9: INTELLECTUAL PROPERTY FOR THE ENTREPRENEUR (3 UNITS)
+    Sections: 1
+  - BUS 11: INTRODUCTION TO THE HOSPITALITY INDUSTRY (3 UNITS)
+    Sections: 1
+  - BUS 16: PERSONAL INSURANCE (3 UNITS)
+    Sections: 1
+  - BUS 17: PROPERTY AND LIABILITY INSURANCE (3 UNITS)
+    Sections: 1
+  - BUS 20: PRINCIPLES OF MARKETING (3 UNITS)
+    Sections: 3
+  - BUS 21: MERCHANDISING PRINCIPLES (3 UNITS)
+    Sections: 1
+  - BUS 22: INTRODUCTION TO ADVERTISING (3 UNITS)
+    Sections: 1
+  - BUS 23: PRINCIPLES OF SELLING (3 UNITS)
+    Sections: 2
+  - BUS 26: MARKETING RESEARCH AND CONSUMER BEHAVIOR (3 UNITS)
+    Sections: 1
+  - BUS 27: INTRODUCTION TO E-COMMERCE (3 UNITS)
+    Sections: 1
+  - BUS 28: MARKETING PROMOTION (3 UNITS)
+    Sections: 2
+  - BUS 29: PUBLIC RELATIONS AND PUBLICITY (3 UNITS)
+    Sections: 1
+  - BUS 31: BUSINESS ENGLISH FUNDAMENTALS (3 UNITS)
+    Sections: 1
+  - BUS 32: BUSINESS COMMUNICATIONS (3 UNITS)
+    Sections: 7
+  - BUS 33: BROADCAST ADVERTISING (3 UNITS)
+    Sections: 1
+  - BUS 34A: INTRODUCTION TO DIGITAL MARKETING (3 UNITS)
+    Sections: 3
+  - BUS 34B: DIGITAL MARKETING APPLICATIONS (3 UNITS)
+    Sections: 1
+  - BUS 34C: DIGITAL MARKETING ANALYTICS (3 UNITS)
+    Sections: 1
+  - BUS 35: CUSTOMER RELATIONSHIP MANAGEMENT (3 UNITS)
+    Sections: 1
+  - BUS 36: SALESFORCE FOR YOUR BUSINESS (3 UNITS)
+    Sections: 1
+  - BUS 36B: INTRODUCTION TO SALESFORCE MARKETING CLOUD (3 UNITS)
+    Sections: 1
+  - BUS 37: BUSINESS OF HIP-HOP INDUSTRY (3 UNITS)
+    Sections: 1
+  - BUS 45: INDIVIDUAL FINANCIAL PLANNING (3 UNITS)
+    Sections: 5
+  - BUS 46: INTRODUCTION TO INVESTMENTS (3 UNITS)
+    Sections: 2
+  - BUS 47: UNDERSTANDING MONEY FOR LIFELONG SUCCESS (1 UNIT)
+    Sections: 4
+  - BUS 50: INTRODUCTION TO INTERNATIONAL BUSINESS (3 UNITS)
+    Sections: 1
+  - BUS 51: INTERCULTURAL BUSINESS COMMUNICATION (3 UNITS)
+    Sections: 1
+  - BUS 53: IMPORTING AND EXPORTING (3 UNITS)
+    Sections: 1
+  - BUS 55: SOUTHERN CALIFORNIA’S INTERNATIONAL CONNECTIONS AND BLUE/OCEAN ECONOMY (3 UNITS)
+    Sections: 1
+  - BUS 56: UNDERSTANDING THE BUSINESS OF ENTERTAINMENT (3 UNITS)
+    Sections: 1
+  - BUS 57: INTRODUCTION TO LEAN SIX SIGMA (3 UNITS)
+    Sections: 1
+  - BUS 62: HUMAN RELATIONS AND ETHICAL ISSUES IN BUSINESS (3 UNITS)
+    Sections: 1
+  - BUS 63: PRINCIPLES OF ENTREPRENEURSHIP (3 UNITS)
+    Sections: 3
+  - BUS 65: MANAGEMENT PRINCIPLES (3 UNITS)
+    Sections: 1
+  - BUS 76: HUMAN RESOURCES MANAGEMENT (3 UNITS)
+    Sections: 1
+  - BUS 79: BARGAINING AND NEGOTIATIONS (3 UNITS)
+    Sections: 1
+  - BUS 80: PRINCIPLES OF LOGISTICS (3 UNITS)
+    Sections: 1
+  - BUS 82: SUPPLY CHAIN MANAGEMENT (3 UNITS)
+    Sections: 1
+  - BUS 84: INTRODUCTION TO PROCUREMENT (3 UNITS)
+    Sections: 1
+  - BUS 87: ERP SYSTEM: PROCUREMENT (4 UNITS)
+    Sections: 1
+
+Business – Noncredit: 4 courses
+  - BUS 901: INTRODUCTION TO BUSINESS – BASIC (0 UNITS)
+    Sections: 1
+  - BUS 902: INTRODUCTION TO BUSINESS MINDSET (0 UNITS)
+    Sections: 1
+  - BUS 911: CUSTOMER SERVICE LEVEL 1 (0 UNITS)
+    Sections: 1
+  - BUS 912: CUSTOMER SERVICE LEVEL 2 (0 UNITS)
+    Sections: 1
+
+Chemistry: 9 courses
+  - CHEM 9: EVERYDAY CHEMISTRY (5 UNITS)
+    Sections: 4
+  - CHEM 10: INTRODUCTORY GENERAL CHEMISTRY (5 UNITS)
+    Sections: 15
+  - CHEM 11: GENERAL CHEMISTRY I (5 UNITS)
+    Sections: 8
+  - CHEM 12: GENERAL CHEMISTRY II (5 UNITS)
+    Sections: 5
+  - CHEM 19: FUNDAMENTALS OF GENERAL, ORGANIC, AND BIOLOGICAL CHEMISTRY (5 UNITS)
+    Sections: 9
+  - CHEM 21: ORGANIC CHEMISTRY I (5 UNITS)
+    Sections: 3
+  - CHEM 22: ORGANIC CHEMISTRY II (4 UNITS)
+    Sections: 1
+  - CHEM 24: ORGANIC CHEMISTRY II LABORATORY (2 UNITS)
+    Sections: 2
+  - CHEM 88B: INDEPENDENT STUDIES IN CHEMISTRY (2 UNITS)
+    Sections: 1
+
+Chinese: 1 courses
+  - CHNESE 2: ELEMENTARY CHINESE 2 (5 UNITS)
+    Sections: 1
+
+Communication Studies: 10 courses
+  - COM ST 9: INTRODUCTION TO COMMUNICATION STUDIES (3 UNITS)
+    Sections: 4
+  - COM ST 12: PERSUASION (3 UNITS)
+    Sections: 2
+  - COM ST 16: FUNDAMENTALS OF SMALL GROUP DISCUSSION (3 UNITS)
+    Sections: 4
+  - COM ST 20: AGITATIONAL AND PROTEST COMMUNICATION (3 UNITS)
+    Sections: 1
+  - COM ST 21: ARGUMENTATION (3 UNITS)
+    Sections: 4
+  - COM ST 30: INTRODUCTION TO COMMUNICATION THEORY (3 UNITS)
+    Sections: 1
+  - COM ST 31: RESEARCH METHODS FOR COMMUNICATION STUDIES (3 UNITS)
+    Sections: 1
+  - COM ST 35: INTERPERSONAL COMMUNICATION (3 UNITS)
+    Sections: 13
+  - COM ST 36: GENDER AND COMMUNICATION (3 UNITS)
+    Sections: 1
+  - COM ST 37: INTERCULTURAL COMMUNICATION (3 UNITS)
+    Sections: 1
+
+Computer Information Systems: 13 courses
+  - CIS 1: INTRODUCTION TO COMPUTER INFORMATION SYSTEMS (3 UNITS)
+    Sections: 1
+  - CIS 37: MICROSOFT WORD (3 UNITS)
+    Sections: 1
+  - CIS 39: MS OUTLOOK – COMPREHENSIVE COURSE (3 UNITS)
+    Sections: 1
+  - CIS 60A: PHOTOSHOP I (3 UNITS)
+    Sections: 1
+  - CIS 64: ILLUSTRATOR (3 UNITS)
+    Sections: 1
+  - CIS 70: DIGITAL MARKETING APPLICATIONS (3 UNITS)
+    Sections: 1
+  - CIS 9B: TECHNOLOGY PROJECT MANAGEMENT II (3 UNITS)
+    Sections: 1
+  - CIS 30: MICROSOFT EXCEL (3 UNITS)
+    Sections: 2
+  - CIS 30T: TABLEAU DESKTOP ESSENTIALS (3 UNITS)
+    Sections: 2
+  - CIS 35B: QUICKBOOKS ONLINE (3 UNITS)
+    Sections: 3
+  - CIS 2: COMPUTER SKILLS FOR VIRTUAL ASSISTANTS (3 UNITS)
+    Sections: 1
+  - CIS 4: BUSINESS INFORMATION SYSTEMS WITH APPLICATIONS (3 UNITS)
+    Sections: 5
+  - CIS 9A: TECHNOLOGY PROJECT MANAGEMENT I (3 UNITS)
+    Sections: 1
+
+Computer Science: 32 courses
+  - CS 3: INTRODUCTION TO COMPUTER SYSTEMS (3 UNITS)
+    Sections: 9
+  - CS 7: PROGRAMMING FOR NON-COMPUTER SCIENCE MAJORS (3 UNITS)
+    Sections: 1
+  - CS 9A: TECHNOLOGY PROJECT MANAGEMENT I (3 UNITS)
+    Sections: 1
+  - CS 9B: TECHNOLOGY PROJECT MANAGEMENT II (3 UNITS)
+    Sections: 1
+  - CS 17: ASSEMBLY LANGUAGE PROGRAMMING (3 UNITS)
+    Sections: 3
+  - CS 20A: DATA STRUCTURES WITH C++ (3 UNITS)
+    Sections: 4
+  - CS 20B: DATA STRUCTURES WITH JAVA (3 UNITS)
+    Sections: 2
+  - CS 30: MATLAB PROGRAMMING (3 UNITS)
+    Sections: 1
+  - CS 40: OPERATING SYSTEMS (3 UNITS)
+    Sections: 1
+  - CS 42: DIGITAL LOGIC (3 UNITS)
+    Sections: 3
+  - CS 50: C PROGRAMMING (3 UNITS)
+    Sections: 5
+  - CS 52: C++ PROGRAMMING (3 UNITS)
+    Sections: 5
+  - CS 55: JAVA PROGRAMMING (3 UNITS)
+    Sections: 2
+  - CS 56: ADVANCED JAVA PROGRAMMING (3 UNITS)
+    Sections: 1
+  - CS 60: DATABASE CONCEPTS AND APPLICATIONS (3 UNITS)
+    Sections: 2
+  - CS 70: NETWORK FUNDAMENTALS AND ARCHITECTURE (3 UNITS)
+    Sections: 1
+  - CS 73A: FUNDAMENTALS OF COMPUTER SECURITY (3 UNITS)
+    Sections: 1
+  - CS 73B: COMPUTER FORENSICS FUNDAMENTALS (3 UNITS)
+    Sections: 1
+  - CS 73C: CYBERSECURITY AND ETHICAL HACKING (3 UNITS)
+    Sections: 1
+  - CS 73L: CYBERSECURITY LITERACY (3 UNITS)
+    Sections: 1
+  - CS 79A: INTRODUCTION TO CLOUD COMPUTING (3 UNITS)
+    Sections: 2
+  - CS 79B: DATABASE ESSENTIALS IN AMAZON WEB SERVICES (3 UNITS)
+    Sections: 1
+  - CS 79C: COMPUTE ENGINES IN AMAZON WEB SERVICES (3 UNITS)
+    Sections: 1
+  - CS 79D: SECURITY IN AMAZON WEB SERVICES (3 UNITS)
+    Sections: 1
+  - CS 79F: MACHINE LEARNING ON AWS (3 UNITS)
+    Sections: 1
+  - CS 80: INTERNET PROGRAMMING (3 UNITS)
+    Sections: 1
+  - CS 81: JAVASCRIPT PROGRAMMING (3 UNITS)
+    Sections: 1
+  - CS 82A: INTRODUCTION TO DATA SCIENCE (3 UNITS)
+    Sections: 2
+  - CS 82B: PRINCIPLES OF DATA SCIENCE (3 UNITS)
+    Sections: 1
+  - CS 82C: R PROGRAMMING (3 UNITS)
+    Sections: 1
+  - CS 87A: PYTHON PROGRAMMING (3 UNITS)
+    Sections: 4
+  - CS 87B: ADVANCED PYTHON PROGRAMMING (3 UNITS)
+    Sections: 2
+
+Cosmetology: 36 courses
+  - COSM 10A: RELATED SCIENCE 1A (1 UNIT)
+    Sections: 4
+  - COSM 10B: RELATED SCIENCE 1B (1 UNIT)
+    Sections: 4
+  - COSM 11A: HAIR CUTTING 1 (1 UNIT)
+    Sections: 2
+  - COSM 11B: HAIR STYLING 1 (1 UNIT)
+    Sections: 2
+  - COSM 11C: HAIR COLORING 1 (1 UNIT)
+    Sections: 2
+  - COSM 11D: PERMANENT WAVING (1 UNIT)
+    Sections: 2
+  - COSM 16: NAIL CARE 1 (1 UNIT)
+    Sections: 2
+  - COSM 18: SKIN CARE 1 (1 UNIT)
+    Sections: 4
+  - COSM 20: RELATED SCIENCE 2 (1 UNIT)
+    Sections: 4
+  - COSM 21A: HAIR CUTTING 2 (1 UNIT)
+    Sections: 2
+  - COSM 21B: HAIR STYLING 2 (1 UNIT)
+    Sections: 2
+  - COSM 21C: HAIR COLORING 2 (1 UNIT)
+    Sections: 2
+  - COSM 21E: CURLY HAIR TECHNIQUES 2 (1 UNIT)
+    Sections: 2
+  - COSM 26: NAIL CARE 2 (1 UNIT)
+    Sections: 2
+  - COSM 28A: SKIN CARE 2A (1 UNIT)
+    Sections: 3
+  - COSM 28B: SKIN CARE 2B (1 UNIT)
+    Sections: 3
+  - COSM 30: RELATED SCIENCE 3 (1 UNIT)
+    Sections: 3
+  - COSM 31A: HAIR CUTTING 3 (1 UNIT)
+    Sections: 1
+  - COSM 31E: MULTI TEXTURE STYLING (1 UNIT)
+    Sections: 1
+  - COSM 36: NAIL CARE 3 (1 UNIT)
+    Sections: 2
+  - COSM 38: SKIN CARE 3 (1 UNIT)
+    Sections: 2
+  - COSM 38B: MECHANICAL EXFOLIATION (1 UNIT)
+    Sections: 2
+  - COSM 38C: CHEMICAL EXFOLIATION (1 UNIT)
+    Sections: 2
+  - COSM 50E: WRITTEN PREPARATION FOR ESTHETICIAN STATE BOARD EXAM (1 UNIT)
+    Sections: 2
+  - COSM 50N: WRITTEN PREPARATION FOR NAIL CARE STATE BOARD EXAM (1 UNIT)
+    Sections: 2
+  - COSM 50R: WRITTEN PREPARATION FOR BARBERING STATE BOARD EXAM (1 UNIT)
+    Sections: 1
+  - COSM 64: SALON MANAGEMENT (2 UNITS)
+    Sections: 2
+  - COSM 95A: SALON EXPERIENCE (1 UNIT)
+    Sections: 2
+  - COSM 42: SHORT HAIR CUTTING (1 UNIT)
+    Sections: 2
+  - COSM 46: NAIL CARE 4 (1 UNIT)
+    Sections: 1
+  - COSM 48: SKIN CARE 4 (1 UNIT)
+    Sections: 2
+  - COSM 48B: MAKE-UP (1 UNIT)
+    Sections: 2
+  - COSM 50A: WRITTEN PREPARATION FOR COSMETOLOGY STATE BOARD EXAM (2 UNITS)
+    Sections: 3
+  - COSM 95B: SALON EXPERIENCE (2 UNITS)
+    Sections: 1
+  - COSM 95C: SALON EXPERIENCE (3 UNITS)
+    Sections: 1
+  - COSM 95D: SALON EXPERIENCE (4 UNITS)
+    Sections: 1
+
+Counseling: 10 courses
+  - COUNS 1: DEVELOPING LEARNING SKILLS (1 UNIT)
+    Sections: 2
+  - COUNS 11: ORIENTATION TO HIGHER EDUCATION (1 UNIT)
+    Sections: 7
+  - COUNS 12: EXPLORING CAREERS AND COLLEGE MAJORS (1 UNIT)
+    Sections: 19
+  - COUNS 15: JOB SEARCH TECHNIQUES (1 UNIT)
+    Sections: 2
+  - COUNS 20: STUDENT SUCCESS SEMINAR (3 UNITS)
+    Sections: 40
+  - COUNS 47: UNDERSTANDING MONEY FOR LIFELONG SUCCESS (1 UNIT)
+    Sections: 4
+  - COUNS 90A: GENERAL INTERNSHIP (1 UNIT)
+    Sections: 1
+  - COUNS 90B: GENERAL INTERNSHIP (2 UNITS)
+    Sections: 1
+  - COUNS 90C: GENERAL INTERNSHIP (3 UNITS)
+    Sections: 1
+  - COUNS 90D: GENERAL INTERNSHIP (4 UNITS)
+    Sections: 1
+
+Counseling: Disabled Student Services: 5 courses
+  - COUNS 13H: PERSONAL AND SOCIAL AWARENESS (1 UNIT)
+    Sections: 1
+  - COUNS 21H: ADAPTED COMPUTER TECHNOLOGY (1 UNIT)
+    Sections: 1
+  - COUNS 41H: ROADMAP TO COLLEGE READINESS (1 UNIT)
+    Sections: 1
+  - COUNS 57: LISTENING, NOTE TAKING, AND MEMORY (1 UNIT)
+    Sections: 1
+  - COUNS 59: TEXTBOOK STRATEGIES USING TECHNOLOGY (1 UNIT)
+    Sections: 1
+
+Counseling: Disabled Student Services – Noncredit: 1 courses
+  - COUNS 910: ABI CONNECTIONS (0 UNITS)
+    Sections: 1
+
+Dance: Appreciation and History: 8 courses
+  - DANCE 2: DANCE IN AMERICAN CULTURE (3 UNITS)
+    Sections: 4
+  - COUNS 51: TEST TAKING/MEMORY STRATEGIES (1 UNIT)
+    Sections: 1
+  - COUNS 52: TEXTBOOK/MEMORY STRATEGIES (1 UNIT)
+    Sections: 1
+  - COUNS 53: PHONICS, SPELLING AND VOCABULARY DEVELOPMENT (1 UNIT)
+    Sections: 1
+  - COUNS 54: ORGANIZING FOR COLLEGE SUCCESS (1 UNIT)
+    Sections: 1
+  - COUNS 56: WRITTEN LANGUAGE STRATEGIES (1 UNIT)
+    Sections: 1
+  - DANCE 5: DANCE HISTORY (3 UNITS)
+    Sections: 2
+  - DANCE 77: NAVIGATING CAREERS IN DANCE (3 UNITS)
+    Sections: 1
+
+Dance: Technique and Performance: 29 courses
+  - DANCE 10: FUNDAMENTALS OF DANCE TECHNIQUE (2 UNITS)
+    Sections: 1
+  - DANCE 11: BEGINNING HIP HOP DANCE (2 UNITS)
+    Sections: 2
+  - DANCE 12: INTERMEDIATE HIP HOP DANCE (2 UNITS)
+    Sections: 1
+  - DANCE 13: ADVANCED HIP HOP DANCE (2 UNITS)
+    Sections: 1
+  - DANCE 14: BEGINNING JAZZ (2 UNITS)
+    Sections: 1
+  - DANCE 15: INTERMEDIATE JAZZ (2 UNITS)
+    Sections: 1
+  - DANCE 16: ADVANCED JAZZ (2 UNITS)
+    Sections: 1
+  - DANCE 17: BEGINNING TAP (2 UNITS)
+    Sections: 1
+  - DANCE 18: INTERMEDIATE TAP (2 UNITS)
+    Sections: 1
+  - DANCE 22A: BEGINNING MEXICAN DANCE (2 UNITS)
+    Sections: 1
+  - DANCE 22B: INTERMEDIATE MEXICAN DANCE (2 UNITS)
+    Sections: 1
+  - DANCE 26A: BEGINNING SALSA DANCE (2 UNITS)
+    Sections: 1
+  - DANCE 26B: INTERMEDIATE SALSA DANCE (2 UNITS)
+    Sections: 1
+  - DANCE 31A: BALLET 1A (2 UNITS)
+    Sections: 2
+  - DANCE 31B: BALLET 1B (2 UNITS)
+    Sections: 2
+  - DANCE 32A: BALLET 2A (2 UNITS)
+    Sections: 2
+  - DANCE 32B: BALLET 2B (2 UNITS)
+    Sections: 2
+  - DANCE 33A: INTERMEDIATE BALLET 3A (2 UNITS)
+    Sections: 1
+  - DANCE 34A: ADVANCED BALLET 4A (2 UNITS)
+    Sections: 1
+  - DANCE 41: CONTEMPORARY MODERN DANCE I (2 UNITS)
+    Sections: 2
+  - DANCE 42: CONTEMPORARY MODERN DANCE 2 (2 UNITS)
+    Sections: 2
+  - DANCE 43A: INTERMEDIATE CONTEMPORARY MODERN DANCE 3A (2 UNITS)
+    Sections: 1
+  - DANCE 44A: ADVANCED CONTEMPORARY MODERN DANCE 4A (2 UNITS)
+    Sections: 1
+  - DANCE 55A: DANCE PERFORMANCE – MODERN (4 UNITS)
+    Sections: 1
+  - DANCE 57A: WORLD DANCE PERFORMANCE (4 UNITS)
+    Sections: 1
+  - DANCE 60: FUNDAMENTALS OF CHOREOGRAPHY: DANCE IMPROVISATION (2 UNITS)
+    Sections: 1
+  - DANCE 75: DANCE FOR CHILDREN: CREATIVE DANCE IN THE PRE-K AND ELEMENTARY CLASSROOM (3 UNITS)
+    Sections: 1
+  - DANCE 88A: INDEPENDENT STUDIES IN DANCE (1 UNIT)
+    Sections: 1
+  - DANCE 88B: INDEPENDENT STUDIES IN DANCE (2 UNITS)
+    Sections: 1
+
+Digital Media Post-Production: 8 courses
+  - DMPOST 1: DIGITAL MEDIA WORKFLOW MANAGEMENT (3 UNITS)
+    Sections: 1
+  - DMPOST 2: DIGITAL AUDIO FUNDAMENTALS (3 UNITS)
+    Sections: 2
+  - DMPOST 3: DIGITAL VIDEO FUNDAMENTALS (3 UNITS)
+    Sections: 3
+  - DMPOST 4: DIGITAL IMAGE FUNDAMENTALS (3 UNITS)
+    Sections: 1
+  - DMPOST 22: DIGITAL MUSIC PRODUCTION (3 UNITS)
+    Sections: 1
+  - DMPOST 23: SOUND DESIGN (3 UNITS)
+    Sections: 1
+  - DMPOST 30: DIGITAL VIDEO EDITING (3 UNITS)
+    Sections: 2
+  - DMPOST 31: DIGITAL COMPOSITING (3 UNITS)
+    Sections: 1
+
+Early Childhood Education: 21 courses
+  - ECE 2: PRINCIPLES AND PRACTICES OF TEACHING YOUNG CHILDREN (3 UNITS)
+    Sections: 4
+  - ECE 4: LANGUAGE AND LITERATURE FOR THE YOUNG CHILD (3 UNITS)
+    Sections: 1
+  - ECE 8: CREATIVE EXPERIENCES – ART, MUSIC, AND MOVEMENT (3 UNITS)
+    Sections: 1
+  - ECE 11: CHILD, FAMILY AND COMMUNITY (3 UNITS)
+    Sections: 5
+  - ECE 17: INTRODUCTION TO CURRICULUM (3 UNITS)
+    Sections: 3
+  - ECE 19: TEACHING IN A DIVERSE SOCIETY (3 UNITS)
+    Sections: 2
+  - ECE 21: OBSERVATION AND ASSESSMENT (4 UNITS)
+    Sections: 1
+  - ECE 22: PRACTICUM IN EARLY CHILDHOOD EDUCATION (5 UNITS)
+    Sections: 1
+  - ECE 30: STRATEGIES FOR WORKING WITH CHALLENGING BEHAVIORS (3 UNITS)
+    Sections: 2
+  - ECE 32: COMMUNICATING WITH FAMILIES (3 UNITS)
+    Sections: 1
+  - ECE 45: INTRODUCTION TO CHILDREN WITH SPECIAL NEEDS (3 UNITS)
+    Sections: 1
+  - ECE 46: INFANT AND TODDLER DEVELOPMENT (3 UNITS)
+    Sections: 2
+  - ECE 47: DEVELOPING FAMILY CHILDCARE (3 UNITS)
+    Sections: 1
+  - ECE 48: ADULT SUPERVISION AND MENTORING IN EARLY EDUCATION (3 UNITS)
+    Sections: 1
+  - ECE 49: CURRICULUM AND STRATEGIES FOR CHILDREN WITH SPECIAL NEEDS (3 UNITS)
+    Sections: 1
+  - ECE 51: THE REGGIO APPROACH (3 UNITS)
+    Sections: 1
+  - ECE 64: HEALTH, SAFETY, AND NUTRITION FOR YOUNG CHILDREN (3 UNITS)
+    Sections: 2
+  - ECE 71: INFANTS AND TODDLER EDUCATION AND CARE (3 UNITS)
+    Sections: 1
+  - ECE 75: DANCE FOR CHILDREN: CREATIVE DANCE IN THE PRE-K AND ELEMENTARY CLASSROOM (3 UNITS)
+    Sections: 1
+  - ECE 76: CHILDREN IN NATURE (3 UNITS)
+    Sections: 1
+  - ECE 81: MUSIC FOR EARLY CHILDHOOD EDUCATION (3 UNITS)
+    Sections: 1
+
+Early Childhood Education – Noncredit: 5 courses
+  - ECE 900: EARLY CHILDHOOD EDUCATION COMMUNICATION SKILLS (0 UNITS)
+    Sections: 1
+  - ECE 901: INTRODUCTION TO EARLY CARE AND EDUCATION (0 UNITS)
+    Sections: 1
+  - ECE 902: CULTURALLY RELEVANT CURRICULUM (0 UNITS)
+    Sections: 1
+  - ECE 903: EARLY CARE LICENSING AND WORKFORCE READINESS (0 UNITS)
+    Sections: 2
+  - ECE 930: GENDER AND EQUITY IN EARLY CHILDHOOD (0 UNITS)
+    Sections: 1
+
+Economics: 7 courses
+  - ECON 1: PRINCIPLES OF MICROECONOMICS (3 UNITS)
+    Sections: 13
+  - ECON 2: PRINCIPLES OF MACROECONOMICS (3 UNITS)
+    Sections: 12
+  - ECON 4: ENVIRONMENTAL ECONOMICS (3 UNITS)
+    Sections: 1
+  - ECON 5: INTERNATIONAL POLITICAL ECONOMY: INTRODUCTION TO GLOBAL STUDIES (3 UNITS)
+    Sections: 2
+  - ECON 15: ECONOMIC HISTORY OF THE U.S. (3 UNITS)
+    Sections: 1
+  - ECON 88A: INDEPENDENT STUDIES IN ECONOMICS (1 UNIT)
+    Sections: 2
+  - ECON 88B: INDEPENDENT STUDIES IN ECONOMICS (2 UNITS)
+    Sections: 2
+
+Education: 2 courses
+  - EDUC 12: INTRODUCTION TO ELEMENTARY CLASSROOM TEACHING & FIELD EXPERIENCES (3 UNITS)
+    Sections: 1
+  - EDUC 50: TEACHING IN THE AGE OF AI: STRATEGIES FOR EDUCATORS (3 UNITS)
+    Sections: 1
+
+Engineering: 6 courses
+  - ENGR 1: INTRODUCTION TO ENGINEERING (2 UNITS)
+    Sections: 4
+  - ENGR 11: ENGINEERING GRAPHICS AND DESIGN (3 UNITS)
+    Sections: 1
+  - ENGR 12: STATICS (3 UNITS)
+    Sections: 1
+  - ENGR 21: CIRCUIT ANALYSIS (3 UNITS)
+    Sections: 1
+  - ENGR 22: CIRCUIT ANALYSIS LAB (1 UNIT)
+    Sections: 1
+  - ENGR 88B: INDEPENDENT STUDIES IN ENGINEERING (2 UNITS)
+    Sections: 1
+
+English Composition – Group A: 1 courses
+  - ENGL 31: ADVANCED COMPOSITION (3 UNITS)
+    Sections: 1
+
+English Composition – Group B: 1 courses
+  - ENGL 28: INTENSIVE COLLEGE WRITING SKILLS (5 UNITS)
+    Sections: 92
+
+English – Literature: 10 courses
+  - ENGL 5: BRITISH LITERATURE 1 (3 UNITS)
+    Sections: 2
+  - ENGL 7: AMERICAN LITERATURE 1 (3 UNITS)
+    Sections: 1
+  - ENGL 8: AMERICAN LITERATURE 2 (3 UNITS)
+    Sections: 1
+  - ENGL 10: RACE AND ETHNICITY IN LITERATURE OF THE U.S. (3 UNITS)
+    Sections: 1
+  - ENGL 15: SHAKESPEARE (3 UNITS)
+    Sections: 1
+  - ENGL 26: INTRODUCTION TO THE HUMANITIES (3 UNITS)
+    Sections: 1
+  - ENGL 40: ASIAN LITERATURE (3 UNITS)
+    Sections: 1
+  - ENGL 50: MYTHOLOGY (3 UNITS)
+    Sections: 1
+  - ENGL 51: LITERATURE OF THE BIBLE: OLD TESTAMENT (3 UNITS)
+    Sections: 1
+  - ENGL 61: INTRODUCTION TO THE FAIRY TALE (3 UNITS)
+    Sections: 1
+
+English – Creative Writing: 2 courses
+  - ENGL 71: INTRODUCTION TO CREATIVE WRITING (3 UNITS)
+    Sections: 4
+  - ENGL 72: WRITING IN FICTION (3 UNITS)
+    Sections: 1
+
+ESL – English as a Second Language: 12 courses
+  - ESL 10G: MULTIPLE SKILLS PREPARATION: LISTENING, SPEAKING, AND GRAMMAR (6 UNITS)
+    Sections: 2
+  - ESL 10W: MULTIPLE SKILLS PREPARATION: READING AND WRITING (6 UNITS)
+    Sections: 3
+  - ESL 11A: BASIC ENGLISH 1 (6 UNITS)
+    Sections: 4
+  - ESL 19A: ENGLISH FUNDAMENTALS 1 (4 UNITS)
+    Sections: 7
+  - ESL 19B: ENGLISH FUNDAMENTALS 2 (4 UNITS)
+    Sections: 8
+  - ESL 14B: PRONUNCIATION: RHYTHM AND INTONATION (3 UNITS)
+    Sections: 1
+  - ESL 15: CONVERSATION AND CULTURE IN THE U.S. (3 UNITS)
+    Sections: 1
+  - ESL 16A: THE NOUN SYSTEM AND ARTICLES (1 UNIT)
+    Sections: 1
+  - ESL 16B: USING VERB TENSES (1 UNIT)
+    Sections: 1
+  - ESL 16C: SENTENCE STRUCTURE AND PUNCTUATION (1 UNIT)
+    Sections: 1
+  - ESL 20A: ADVANCED GRAMMAR WORKSHOP (3 UNITS)
+    Sections: 1
+  - ESL 28: ACADEMIC VOCABULARY SKILLS (3 UNITS)
+    Sections: 1
+
+ESL – Noncredit: 20 courses
+  - ESL 902: ENGLISH AS A SECOND LANGUAGE LEVEL 2 (0 UNITS)
+    Sections: 1
+  - ESL 903: ENGLISH AS A SECOND LANGUAGE LEVEL 3 (0 UNITS)
+    Sections: 2
+  - ESL 904: ENGLISH AS A SECOND LANGUAGE LEVEL 4 (0 UNITS)
+    Sections: 1
+  - ESL 905: ENGLISH AS A SECOND LANGUAGE LEVEL 5 (0 UNITS)
+    Sections: 3
+  - ESL 906: ENGLISH AS A SECOND LANGUAGE LEVEL 6 (0 UNITS)
+    Sections: 1
+  - ESL 911: BEGINNING LISTENING AND SPEAKING (0 UNITS)
+    Sections: 2
+  - ESL 913: INTERMEDIATE LISTENING AND SPEAKING (0 UNITS)
+    Sections: 5
+  - ESL 915: ADVANCED LISTENING AND SPEAKING (0 UNITS)
+    Sections: 4
+  - ESL 922: CONVERSATION AND CULTURE IN THE U.S. (0 UNITS)
+    Sections: 1
+  - ESL 926: ADVANCED GRAMMAR WORKSHOP (0 UNITS)
+    Sections: 1
+  - ESL 961: BEGINNING READING AND WRITING (0 UNITS)
+    Sections: 1
+  - ESL 963: INTERMEDIATE READING AND WRITING (0 UNITS)
+    Sections: 5
+  - ESL 965: ADVANCED READING AND WRITING (0 UNITS)
+    Sections: 3
+  - ESL 971: BEGINNING ESL VOCABULARY (0 UNITS)
+    Sections: 2
+  - ESL 973: INTERMEDIATE ESL VOCABULARY (0 UNITS)
+    Sections: 3
+  - ESL 975: ADVANCED ESL VOCABULARY (0 UNITS)
+    Sections: 3
+  - ESL 976: ACADEMIC VOCABULARY SKILLS (0 UNITS)
+    Sections: 1
+  - ESL 980: ESL US CITIZENSHIP TEST PREPARATION (0 UNITS)
+    Sections: 1
+  - ESL 994: ESL FOR COLLEGE AND CAREER PATHWAYS – INTRODUCTION (0 UNITS)
+    Sections: 2
+  - ESL 995: ESL FOR COLLEGE AND CAREER PATHWAYS – EFFECTIVE COMMUNICATION (0 UNITS)
+    Sections: 2
+
+Entertainment Technology: 2 courses
+  - ET 88B: INDEPENDENT STUDIES IN ENTERTAINMENT TECHNOLOGY (2 UNITS)
+    Sections: 1
+  - ET 88C: INDEPENDENT STUDIES IN ENTERTAINMENT TECHNOLOGY (3 UNITS)
+    Sections: 1
+
+Environmental Studies: 5 courses
+  - ENVRN 4: ENVIRONMENTAL ECONOMICS (3 UNITS)
+    Sections: 1
+  - ENVRN 7: INTRODUCTION TO ENVIRONMENTAL STUDIES (3 UNITS)
+    Sections: 1
+  - ENVRN 14: U.S. ENVIRONMENTAL HISTORY (3 UNITS)
+    Sections: 1
+  - ENVRN 32: GLOBAL ENVIRONMENTAL HISTORY (3 UNITS)
+    Sections: 1
+  - ENVRN 40: ENVIRONMENTAL PSYCHOLOGY (3 UNITS)
+    Sections: 1
+
+Ethnic Studies: 4 courses
+  - ETH ST 1: INTRODUCTION TO ETHNIC STUDIES (3 UNITS)
+    Sections: 23
+  - ETH ST 6: INTRODUCTION TO CHICANA/O/X AND LATINA/ O/X STUDIES (3 UNITS)
+    Sections: 1
+  - ETH ST 7: INTRODUCTION TO AFRICAN AMERICAN AND BLACK STUDIES (3 UNITS)
+    Sections: 1
+  - ETH ST 8: INTRODUCTION TO ASIAN AMERICAN STUDIES (3 UNITS)
+    Sections: 1
+
+Fashion Design and Merchandising: 15 courses
+  - FASHN 1: INTRODUCTION TO THE FASHION INDUSTRY (3 UNITS)
+    Sections: 4
+  - FASHN 2: COLOR ANALYSIS (3 UNITS)
+    Sections: 2
+  - FASHN 3: APPAREL CONSTRUCTION (3 UNITS)
+    Sections: 4
+  - FASHN 5: FASHION BUYING (3 UNITS)
+    Sections: 2
+  - FASHN 6A: PATTERN DRAFTING AND DESIGN (2 UNITS)
+    Sections: 2
+  - FASHN 6B: PATTERN DRAFTING AND DESIGN INTERMEDIATE (3 UNITS)
+    Sections: 1
+  - FASHN 7: FASHION TEXTILES (3 UNITS)
+    Sections: 2
+  - FASHN 8: HISTORY OF FASHION DESIGN (3 UNITS)
+    Sections: 1
+  - FASHN 9A: INTRODUCTION TO FASHION ILLUSTRATION (3 UNITS)
+    Sections: 1
+  - FASHN 10: ADVANCED DESIGN AND CONSTRUCTION (3 UNITS)
+    Sections: 1
+  - FASHN 14: DRAPING II (3 UNITS)
+    Sections: 1
+  - FASHN 15: ETHNIC FASHION (3 UNITS)
+    Sections: 1
+  - FASHN 16: PATTERN GRADING (2 UNITS)
+    Sections: 1
+  - FASHN 18: COMPUTER AIDED FASHION DESIGN AND MERCHANDISING (2 UNITS)
+    Sections: 1
+  - FASHN 20: FASHION STYLING AND VISUAL PRESENTATION (3 UNITS)
+    Sections: 1
+
+Film Studies: 21 courses
+  - FILM 1: FILM APPRECIATION: INTRODUCTION TO CINEMA (3 UNITS)
+    Sections: 9
+  - FILM 2: HISTORY OF MOTION PICTURES (3 UNITS)
+    Sections: 3
+  - FILM 5: FILM AND SOCIETY (3 UNITS)
+    Sections: 2
+  - FILM 7: AMERICAN CINEMA: CROSSING CULTURES (3 UNITS)
+    Sections: 1
+  - FILM 8: THE POPULAR FILM GENRES (3 UNITS)
+    Sections: 2
+  - FILM 9: THE GREAT FILM MAKERS (3 UNITS)
+    Sections: 2
+  - FILM 11: LITERATURE INTO FILM (3 UNITS)
+    Sections: 1
+  - FILM 20: BEGINNING SCRIPTWRITING (3 UNITS)
+    Sections: 3
+  - FILM 21: ADVANCED SCRIPTWRITING (3 UNITS)
+    Sections: 3
+  - FILM 30: PRODUCTION PLANNING FOR FILM AND VIDEO (3 UNITS)
+    Sections: 2
+  - FILM 31: INTRODUCTION TO DIGITAL FILMMAKING (3 UNITS)
+    Sections: 2
+  - FILM 32: INTERMEDIATE DIGITAL FILMMAKING (3 UNITS)
+    Sections: 2
+  - FILM 32L: INTERMEDIATE DIGITAL FILMMAKING LAB (1 UNIT)
+    Sections: 2
+  - FILM 33: MAKING THE SHORT FILM (3 UNITS)
+    Sections: 1
+  - FILM 33L: MAKING THE SHORT FILM LAB (2 UNITS)
+    Sections: 1
+  - FILM 34: ADVANCED DIGITAL FILMMAKING (3 UNITS)
+    Sections: 1
+  - FILM 34L: ADVANCED DIGITAL FILMMAKING LAB (1 UNIT)
+    Sections: 1
+  - FILM 40: CINEMATOGRAPHY (3 UNITS)
+    Sections: 1
+  - FILM 41: ADVANCED CINEMATOGRAPHY (3 UNITS)
+    Sections: 1
+  - FILM 50: PRODUCTION SOUND (3 UNITS)
+    Sections: 1
+  - FILM 88A: INDEPENDENT STUDIES IN FILM STUDIES (1 UNIT)
+    Sections: 1
+
+French: 3 courses
+  - FRENCH 1: ELEMENTARY FRENCH I (5 UNITS)
+    Sections: 2
+  - FRENCH 2: ELEMENTARY FRENCH II (5 UNITS)
+    Sections: 2
+  - FRENCH 3: INTERMEDIATE FRENCH I (5 UNITS)
+    Sections: 1
+
+Game Design: 2 courses
+  - GAME 1: GAME DESIGN FUNDAMENTALS (3 UNITS)
+    Sections: 1
+  - GAME 2: GAME MECHANICS (3 UNITS)
+    Sections: 1
+
+Geographic Information Systems: 2 courses
+  - GIS 20: INTRODUCTION TO GEOGRAPHIC INFORMATION SYSTEMS (3 UNITS)
+    Sections: 1
+  - GIS 26: INTRODUCTION TO REMOTE SENSING (3 UNITS)
+    Sections: 1
+
+Geography: 10 courses
+  - GEOG 1: PHYSICAL GEOGRAPHY (3 UNITS)
+    Sections: 1
+  - GEOG 2: INTRODUCTION TO HUMAN GEOGRAPHY (3 UNITS)
+    Sections: 2
+  - GEOG 3: WEATHER AND CLIMATE (3 UNITS)
+    Sections: 2
+  - GEOG 5: PHYSICAL GEOGRAPHY WITH LAB (4 UNITS)
+    Sections: 4
+  - GEOG 7: INTRODUCTION TO ENVIRONMENTAL STUDIES (3 UNITS)
+    Sections: 1
+  - GEOG 8: INTRODUCTION TO URBAN STUDIES (3 UNITS)
+    Sections: 1
+  - GEOG 11: WORLD GEOGRAPHY: INTRODUCTION TO GLOBAL STUDIES (3 UNITS)
+    Sections: 1
+  - GEOG 14: GEOGRAPHY OF CALIFORNIA (3 UNITS)
+    Sections: 1
+  - GEOG 20: INTRODUCTION TO GEOGRAPHIC INFORMATION SYSTEMS (3 UNITS)
+    Sections: 1
+  - GEOG 26: INTRODUCTION TO REMOTE SENSING (3 UNITS)
+    Sections: 1
+
+Geology: 5 courses
+  - GEOL 1: PHYSICAL GEOLOGY WITHOUT LAB (3 UNITS)
+    Sections: 1
+  - GEOL 3: INTRODUCTION TO ENVIRONMENTAL GEOLOGY (3 UNITS)
+    Sections: 1
+  - GEOL 32: INTRODUCTION TO PHYSICAL OCEANOGRAPHY WITH LAB (4 UNITS)
+    Sections: 2
+  - GEOL 4: PHYSICAL GEOLOGY WITH LAB (4 UNITS)
+    Sections: 2
+  - GEOL 6: ENVIRONMENTAL GEOLOGY WITH LAB (4 UNITS)
+    Sections: 2
+
+German: 1 courses
+  - GERMAN 1: ELEMENTARY GERMAN I (5 UNITS)
+    Sections: 1
+
+Global Studies: 4 courses
+  - GLOBAL 3: GLOBAL MEDIA (3 UNITS)
+    Sections: 2
+  - GLOBAL 5: INTERNATIONAL POLITICAL ECONOMY: INTRODUCTION TO GLOBAL STUDIES (3 UNITS)
+    Sections: 2
+  - GLOBAL 10: GLOBAL ISSUES (3 UNITS)
+    Sections: 1
+  - GLOBAL 11: WORLD GEOGRAPHY: INTRODUCTION TO GLOBAL STUDIES (3 UNITS)
+    Sections: 1
+
+Graphic Design: 18 courses
+  - DESIGN 11: DESIGN FOUNDATIONS (3 UNITS)
+    Sections: 2
+  - DESIGN 12: TYPOGRAPHY 1 (3 UNITS)
+    Sections: 2
+  - DESIGN 13: DIGITAL DESIGN TOOLS (3 UNITS)
+    Sections: 3
+  - DESIGN 21: DESIGN METHODS (3 UNITS)
+    Sections: 2
+  - DESIGN 22: TYPOGRAPHY 2 (3 UNITS)
+    Sections: 2
+  - DESIGN 23: USER EXPERIENCE DESIGN 1 (3 UNITS)
+    Sections: 2
+  - DESIGN 24: WEB DESIGN 1 (3 UNITS)
+    Sections: 1
+  - DESIGN 31: INTERACTIVE ADVERTISING (3 UNITS)
+    Sections: 1
+  - DESIGN 32: COMMUNICATION DESIGN (3 UNITS)
+    Sections: 1
+  - DESIGN 33: USER EXPERIENCE DESIGN 2 (3 UNITS)
+    Sections: 2
+  - DESIGN 34: WEB DESIGN 2 (3 UNITS)
+    Sections: 1
+  - DESIGN 41: INDUSTRY PROJECT (3 UNITS)
+    Sections: 1
+  - DESIGN 42: INFORMATION DESIGN (3 UNITS)
+    Sections: 1
+  - DESIGN 43: DESIGN PORTFOLIO (3 UNITS)
+    Sections: 1
+  - DESIGN 25: MOBILE DESIGN 1 (3 UNITS)
+    Sections: 1
+  - DESIGN 26: MOTION GRAPHICS 1 (3 UNITS)
+    Sections: 1
+  - DESIGN 35: MOBILE DESIGN 2 (3 UNITS)
+    Sections: 1
+  - DESIGN 36: MOTION GRAPHICS 2 (3 UNITS)
+    Sections: 1
+
+Health Education: 2 courses
+  - HEALTH 10: FUNDAMENTALS OF HEALTHFUL LIVING (3 UNITS)
+    Sections: 5
+  - HEALTH 11: FIRST AID AND CARDIO-PULMONARY RESUSCITATION (3 UNITS)
+    Sections: 1
+
+Health Occupations: 1 courses
+  - HEALTH 61: MEDICAL TERMINOLOGY (3 UNITS)
+    Sections: 2
+
+Health – Noncredit: 7 courses
+  - HEALTH 905: PROVIDING CARE TO OLDER ADULTS (0 UNITS)
+    Sections: 1
+  - HEALTH 906: COMMUNICATION WITH OLDER ADULTS (0 UNITS)
+    Sections: 1
+  - HEALTH 907: WELLNESS IN OLDER ADULTS (0 UNITS)
+    Sections: 1
+  - HEALTH 985: NURSE ASSISTANT PRE-CERTIFICATION FOUNDATIONAL TRAINING (0 UNITS)
+    Sections: 1
+  - HEALTH 986: NURSE ASSISTANT PRE-CERTIFICATION FOUNDATIONAL CLINICAL TRAINING LAB (0 UNITS)
+    Sections: 4
+  - HEALTH 987: HOME HEALTH AIDE PRE-CERTIFICATION FOUNDATIONAL TRAINING (0 UNITS)
+    Sections: 2
+  - HEALTH 988: HOME HEALTH AIDE PRE-CERTIFICATION TRAINING CLINICAL LAB (0 UNITS)
+    Sections: 2
+
+Hebrew: 1 courses
+  - HEBREW 1: ELEMENTARY HEBREW I (5 UNITS)
+    Sections: 1
+
+History: 20 courses
+  - HIST 1: HISTORY OF WESTERN CIVILIZATION I (3 UNITS)
+    Sections: 9
+  - HIST 2: HISTORY OF WESTERN CIVILIZATION II (3 UNITS)
+    Sections: 7
+  - HIST 3: BRITISH CIVILIZATION I (3 UNITS)
+    Sections: 1
+  - HIST 6: HISTORY OF LATIN AMERICA 2 (3 UNITS)
+    Sections: 1
+  - HIST 10: ETHNICITY AND AMERICAN CULTURE (3 UNITS)
+    Sections: 11
+  - HIST 11: UNITED STATES HISTORY THROUGH RECONSTRUCTION (3 UNITS)
+    Sections: 8
+  - HIST 12: THE UNITED STATES HISTORY SINCE RECONSTRUCTION (3 UNITS)
+    Sections: 8
+  - HIST 14: U.S. ENVIRONMENTAL HISTORY (3 UNITS)
+    Sections: 1
+  - HIST 15: ECONOMIC HISTORY OF THE U.S. (3 UNITS)
+    Sections: 1
+  - HIST 16: AFRICAN-AMERICAN HISTORY (3 UNITS)
+    Sections: 1
+  - HIST 22: HISTORY OF THE MIDDLE EAST (3 UNITS)
+    Sections: 1
+  - HIST 24: HISTORY OF EAST ASIA TO 1600 (3 UNITS)
+    Sections: 1
+  - HIST 28: MODERN EUROPE: 1914 TO THE PRESENT (3 UNITS)
+    Sections: 1
+  - HIST 32: GLOBAL ENVIRONMENTAL HISTORY (3 UNITS)
+    Sections: 1
+  - HIST 33: WORLD CIVILIZATIONS I (3 UNITS)
+    Sections: 1
+  - HIST 34: WORLD CIVILIZATIONS II (3 UNITS)
+    Sections: 1
+  - HIST 41: NATIVE-AMERICAN HISTORY (3 UNITS)
+    Sections: 1
+  - HIST 43: MEXICAN-AMERICAN HISTORY (3 UNITS)
+    Sections: 1
+  - HIST 51: LGBTQ U.S. HISTORY (3 UNITS)
+    Sections: 1
+  - HIST 53: THE HISTORY OF RELIGION (3 UNITS)
+    Sections: 1
+
+Humanities: 1 courses
+  - HUM 26: INTRODUCTION TO THE HUMANITIES (3 UNITS)
+    Sections: 1
+
+Independent Studies: 34 courses
+  - ANTHRO 88A: INDEPENDENT STUDIES IN ANTHROPOLOGY (1 UNIT)
+    Sections: 3
+  - ARTS 88A: INDEPENDENT STUDIES IN THE ARTS (1 UNIT)
+    Sections: 1
+  - ARTS 88C: INDEPENDENT STUDIES IN THE ARTS (3 UNITS)
+    Sections: 1
+  - BIOL 88A: INDEPENDENT STUDIES IN BIOLOGICAL SCIENCES (1 UNIT)
+    Sections: 1
+  - CHEM 88B: INDEPENDENT STUDIES IN CHEMISTRY (2 UNITS)
+    Sections: 1
+  - DANCE 88A: INDEPENDENT STUDIES IN DANCE (1 UNIT)
+    Sections: 1
+  - DANCE 88B: INDEPENDENT STUDIES IN DANCE (2 UNITS)
+    Sections: 1
+  - ECON 88A: INDEPENDENT STUDIES IN ECONOMICS (1 UNIT)
+    Sections: 2
+  - ECON 88B: INDEPENDENT STUDIES IN ECONOMICS (2 UNITS)
+    Sections: 2
+  - ENGR 88B: INDEPENDENT STUDIES IN ENGINEERING (2 UNITS)
+    Sections: 1
+  - ERTHSC 88A: INDEPENDENT STUDIES IN EARTH SCIENCE (1 UNIT)
+    Sections: 1
+  - ERTHSC 88B: INDEPENDENT STUDIES IN EARTH SCIENCE (2 UNITS)
+    Sections: 1
+  - ET 88B: INDEPENDENT STUDIES IN ENTERTAINMENT TECHNOLOGY (2 UNITS)
+    Sections: 1
+  - ET 88C: INDEPENDENT STUDIES IN ENTERTAINMENT TECHNOLOGY (3 UNITS)
+    Sections: 1
+  - FILM 88A: INDEPENDENT STUDIES IN FILM STUDIES (1 UNIT)
+    Sections: 1
+  - KIN PE 88A: INDEPENDENT STUDIES IN PHYSICAL EDUCATION (1 UNIT)
+    Sections: 1
+  - MATH 88A: INDEPENDENT STUDIES IN MATHEMATICS (1 UNIT)
+    Sections: 1
+  - MEDIA 88A: INDEPENDENT STUDIES IN MEDIA STUDIES (1 UNIT)
+    Sections: 1
+  - PHILOS 88A: INDEPENDENT STUDIES IN PHILOSOPHY (1 UNIT)
+    Sections: 2
+  - PHILOS 88B: INDEPENDENT STUDIES IN PHILOSOPHY (2 UNITS)
+    Sections: 2
+  - PHOTO 88B: INDEPENDENT STUDIES IN PHOTOGRAPHY (2 UNITS)
+    Sections: 1
+  - PHYSCS 88A: INDEPENDENT STUDIES IN PHYSICS (1 UNIT)
+    Sections: 1
+  - POL SC 88A: INDEPENDENT STUDIES IN POLITICAL SCIENCE (1 UNIT)
+    Sections: 2
+  - POL SC 88B: INDEPENDENT STUDIES IN POLITICAL SCIENCE (2 UNITS)
+    Sections: 2
+  - SOCIOL 88A: INDEPENDENT STUDIES IN SOCIOLOGY (1 UNIT)
+    Sections: 2
+  - SOCIOL 88B: INDEPENDENT STUDIES IN SOCIOLOGY (2 UNITS)
+    Sections: 2
+  - TH ART 18A: TECHNICAL THEATRE PRODUCTION WORKSHOP (1 UNIT)
+    Sections: 1
+  - TH ART 18B: TECHNICAL THEATRE PRODUCTION WORKSHOP (2 UNITS)
+    Sections: 1
+  - TH ART 18C: TECHNICAL THEATRE PRODUCTION WORKSHOP (3 UNITS)
+    Sections: 1
+  - TH ART 88A: INDEPENDENT STUDIES IN THEATRE ARTS (1 UNIT)
+    Sections: 4
+  - TH ART 88B: INDEPENDENT STUDIES IN THEATRE ARTS (2 UNITS)
+    Sections: 1
+  - TH ART 88C: INDEPENDENT STUDIES IN THEATRE ARTS (3 UNITS)
+    Sections: 1
+  - WGS 88A: INDEPENDENT STUDIES IN WOMEN’S, GENDER, AND SEXUALITY STUDIES (1 UNIT)
+    Sections: 2
+  - WGS 88B: INDEPENDENT STUDIES IN WOMEN’S, GENDER, AND SEXUALITY STUDIES (2 UNITS)
+    Sections: 2
+
+Interaction Design: 6 courses
+  - IXD 320: HISTORY AND PRACTICE OF INTERACTION DESIGN (3 UNITS)
+    Sections: 1
+  - IXD 310: INTERACTION DESIGN STUDIO 1 (3 UNITS)
+    Sections: 1
+  - IXD 370: DESIGN FOR COMMUNITY CHANGE (3 UNITS)
+    Sections: 1
+  - IXD 410: PROJECT MANAGEMENT FOR DESIGN (3 UNITS)
+    Sections: 1
+  - IXD 450: INTERACTION DESIGN PORTFOLIO (2 UNITS)
+    Sections: 1
+  - IXD 460: TANGIBLE INTERACTION (3 UNITS)
+    Sections: 1
+
+Interior Architectural Design: 6 courses
+  - IARC 15: 2D COLOR THEORY (3 UNITS)
+    Sections: 1
+  - IARC 20: STUDIO 2: INTERIOR ARCHITECTURE (3 UNITS)
+    Sections: 1
+  - IARC 25: MATERIALS AND PRODUCTS FOR INTERIOR ARCHITECTURAL DESIGN (3 UNITS)
+    Sections: 1
+  - IARC 30: STUDIO 3: INTERIOR ARCHITECTURE (3 UNITS)
+    Sections: 1
+  - IARC 40: STUDIO 4: INTERIOR ARCHITECTURE (3 UNITS)
+    Sections: 1
+  - IARC 45: BUILDING SYSTEMS AND CODES (3 UNITS)
+    Sections: 1
+
+Internships: 5 courses
+  - BIOL 90A: LIFE SCIENCE INTERNSHIP (1 UNIT)
+    Sections: 1
+  - COUNS 90A: GENERAL INTERNSHIP (1 UNIT)
+    Sections: 1
+  - COUNS 90B: GENERAL INTERNSHIP (2 UNITS)
+    Sections: 1
+  - COUNS 90C: GENERAL INTERNSHIP (3 UNITS)
+    Sections: 1
+  - COUNS 90D: GENERAL INTERNSHIP (4 UNITS)
+    Sections: 1
+
+Italian: 1 courses
+  - ITAL 1: ELEMENTARY ITALIAN I (5 UNITS)
+    Sections: 2
+
+Japanese: 3 courses
+  - JAPAN 1: ELEMENTARY JAPANESE I (5 UNITS)
+    Sections: 5
+  - JAPAN 2: ELEMENTARY JAPANESE II (5 UNITS)
+    Sections: 2
+  - JAPAN 3: INTERMEDIATE JAPANESE I (5 UNITS)
+    Sections: 1
+
+Journalism: 9 courses
+  - JOURN 1: THE NEWS (3 UNITS)
+    Sections: 3
+  - JOURN 4A: NEWSCASTING AND NEWSWRITING (3 UNITS)
+    Sections: 1
+  - JOURN 7: ENGAGING AUDIENCES FOR JOURNALISM AND SOCIAL MEDIA (4 UNITS)
+    Sections: 1
+  - JOURN 15: INTRODUCTION TO MULTIMEDIA STORYTELLING (3 UNITS)
+    Sections: 2
+  - JOURN 16: PRODUCING THE CAMPUS NEWSPAPER (4 UNITS)
+    Sections: 1
+  - JOURN 17: EDITING THE CAMPUS NEWSPAPER (2 UNITS)
+    Sections: 1
+  - JOURN 21: NEWS PHOTOGRAPHY (3 UNITS)
+    Sections: 1
+  - JOURN 22: PHOTOGRAPHY FOR PUBLICATION (3 UNITS)
+    Sections: 1
+  - JOURN 43: PUBLIC RELATIONS AND PUBLICITY (3 UNITS)
+    Sections: 1
+
+Kinesiology/Physical Education: 2 courses
+  - KIN PE 3: INTRODUCTION TO EXERCISE PHYSIOLOGY I (3 UNITS)
+    Sections: 1
+  - KIN PE 4: INTRODUCTION TO SPORT PSYCHOLOGY (3 UNITS)
+    Sections: 1
+
+Kinesiology/Physical Education: Aquatics: 6 courses
+  - KIN PE 48A: BEGINNING SWIMMING (1 UNIT)
+    Sections: 2
+  - KIN PE 48B: ELEMENTARY SWIMMING (1 UNIT)
+    Sections: 1
+  - KIN PE 48C: INTERMEDIATE SWIMMING (1 UNIT)
+    Sections: 4
+  - KIN PE 48D: ADVANCED SWIMMING (1 UNIT)
+    Sections: 3
+  - KIN PE 51A: BEGINNING SURFING (1 UNIT)
+    Sections: 2
+  - KIN PE 51B: INTERMEDIATE SURFING (1 UNIT)
+    Sections: 1
+
+Kinesiology/Physical Education: Combatives: 5 courses
+  - KIN PE 34A: KARATE (1 UNIT)
+    Sections: 1
+  - KIN PE 34B: INTERMEDIATE KARATE (1 UNIT)
+    Sections: 1
+  - KIN PE 34C: ADVANCED INTERMEDIATE KARATE (1 UNIT)
+    Sections: 1
+  - KIN PE 34D: ADVANCED KARATE (1 UNIT)
+    Sections: 1
+  - KIN PE 41W: SELF DEFENSE – WOMEN (1 UNIT)
+    Sections: 1
+
+Kinesiology/Physical Education: Fitness: 15 courses
+  - KIN PE 2: ACHIEVING LIFETIME FITNESS (3 UNITS)
+    Sections: 2
+  - KIN PE 10A: FITNESS LAB (1 UNIT)
+    Sections: 4
+  - KIN PE 11A: BEGINNING WEIGHT TRAINING (1 UNIT)
+    Sections: 1
+  - KIN PE 11B: INTERMEDIATE WEIGHT TRAINING (1 UNIT)
+    Sections: 1
+  - KIN PE 11C: ADVANCED WEIGHT TRAINING (1 UNIT)
+    Sections: 2
+  - KIN PE 12: OLYMPIC-STYLE WEIGHTLIFTING (1 UNIT)
+    Sections: 1
+  - KIN PE 17: BOXING FOR FITNESS (1 UNIT)
+    Sections: 2
+  - KIN PE 19C: FITNESS – BODY LEVEL EXERCISES (1 UNIT)
+    Sections: 1
+  - KIN PE 29A: PILATES MAT EXERCISE (1 UNIT)
+    Sections: 5
+  - KIN PE 29B: INTERMEDIATE PILATES (1 UNIT)
+    Sections: 4
+  - KIN PE 29C: ADVANCED PILATES (1 UNIT)
+    Sections: 1
+  - KIN PE 58A: BEGINNING YOGA (1 UNIT)
+    Sections: 5
+  - KIN PE 58B: INTERMEDIATE YOGA (1 UNIT)
+    Sections: 5
+  - KIN PE 58C: ADVANCED YOGA (1 UNIT)
+    Sections: 2
+  - KIN PE 88A: INDEPENDENT STUDIES IN PHYSICAL EDUCATION (1 UNIT)
+    Sections: 1
+
+Kinesiology/Physical Education: Individual Sports: 14 courses
+  - KIN PE 5A: BEGINNING BADMINTON (1 UNIT)
+    Sections: 1
+  - KIN PE 5B: INTERMEDIATE BADMINTON (1 UNIT)
+    Sections: 1
+  - KIN PE 16A: BEGINNING ROCK CLIMBING (1 UNIT)
+    Sections: 2
+  - KIN PE 16B: INTERMEDIATE ROCK CLIMBING (1 UNIT)
+    Sections: 1
+  - KIN PE 52A: BEGINNING PICKLEBALL (1 UNIT)
+    Sections: 1
+  - KIN PE 52B: INTERMEDIATE PICKLEBALL (1 UNIT)
+    Sections: 1
+  - KIN PE 53A: TABLE TENNIS (1 UNIT)
+    Sections: 1
+  - KIN PE 53B: INTERMEDIATE TABLE TENNIS (1 UNIT)
+    Sections: 1
+  - KIN PE 54A: BEGINNING TENNIS, FIRST LEVEL (1 UNIT)
+    Sections: 1
+  - KIN PE 54B: BEGINNING TENNIS, SECOND LEVEL (1 UNIT)
+    Sections: 2
+  - KIN PE 54C: INTERMEDIATE TENNIS (1 UNIT)
+    Sections: 2
+  - KIN PE 54D: ADVANCED TENNIS (1 UNIT)
+    Sections: 1
+  - KIN PE 56A: BEGINNING TRACK AND FIELD (1 UNIT)
+    Sections: 1
+  - KIN PE 56B: INTERMEDIATE TRACK AND FIELD (1 UNIT)
+    Sections: 1
+
+Kinesiology/Physical Education: Team Sports: 12 courses
+  - KIN PE 9A: BEGINNING BASKETBALL (1 UNIT)
+    Sections: 1
+  - KIN PE 9B: INTERMEDIATE BASKETBALL (1 UNIT)
+    Sections: 1
+  - KIN PE 43A: BEGINNING SOCCER (1 UNIT)
+    Sections: 1
+  - KIN PE 43B: INTERMEDIATE SOCCER (1 UNIT)
+    Sections: 2
+  - KIN PE 43C: ADVANCED SOCCER (1 UNIT)
+    Sections: 1
+  - KIN PE 45A: BEGINNING SOFTBALL (1 UNIT)
+    Sections: 1
+  - KIN PE 45C: ADVANCED SOFTBALL (1 UNIT)
+    Sections: 1
+  - KIN PE 57A: BEGINNING VOLLEYBALL (1 UNIT)
+    Sections: 1
+  - KIN PE 57B: INTERMEDIATE VOLLEYBALL (1 UNIT)
+    Sections: 1
+  - KIN PE 57C: ADVANCED VOLLEYBALL (1 UNIT)
+    Sections: 1
+  - KIN PE 59B: INTERMEDIATE BEACH VOLLEYBALL (1 UNIT)
+    Sections: 1
+  - KIN PE 59C: ADVANCED BEACH VOLLEYBALL (1 UNIT)
+    Sections: 1
+
+Korean: 3 courses
+  - KOREAN 1: ELEMENTARY KOREAN I (5 UNITS)
+    Sections: 3
+  - KOREAN 2: ELEMENTARY KOREAN II (5 UNITS)
+    Sections: 1
+  - KOREAN 3: INTERMEDIATE KOREAN I (5 UNITS)
+    Sections: 1
+
+Library Studies: 1 courses
+  - LIBR 1: LIBRARY RESEARCH METHODS (1 UNIT)
+    Sections: 3
+
+Linguistics: 1 courses
+  - LING 1: INTRODUCTION TO LINGUISTICS (3 UNITS)
+    Sections: 2
+
+Mathematics: 18 courses
+  - MATH 54C: CONCURRENT SUPPORT FOR ELEMENTARY STATISTICS (6 UNITS)
+    Sections: 66
+  - MATH 2: PRECALCULUS WITH MATH 2C, CONCURRENT SUPPORT FOR PRECALCULUS (7 UNITS)
+    Sections: 18
+  - MATH 2: PRECALCULUS (5 UNITS)
+    Sections: 9
+  - MATH 3: TRIGONOMETRY WITH APPLICATIONS WITH MATH 3C, CONCURRENT SUPPORT FOR TRIGONOMETRY WITH APPLICATIONS (4 UNITS)
+  - MATH 3C: CONCURRENT SUPPORT FOR TRIGONOMETRY WITH APPLICATIONS (4 UNITS)
+    Sections: 2
+  - MATH 3: TRIGONOMETRY WITH APPLICATIONS (3 UNITS)
+    Sections: 3
+  - WITH MATH 4C: CONCURRENT SUPPORT FOR COLLEGE ALGEBRA FOR STEM MAJORS (5 UNITS)
+    Sections: 8
+  - MATH 4: COLLEGE ALGEBRA FOR STEM MAJORS (4 UNITS)
+    Sections: 1
+  - MATH 7: CALCULUS 1 (5 UNITS)
+    Sections: 25
+  - MATH 8: CALCULUS 2 (5 UNITS)
+    Sections: 10
+  - MATH 10: DISCRETE STRUCTURES (3 UNITS)
+    Sections: 1
+  - MATH 11: MULTIVARIABLE CALCULUS (5 UNITS)
+    Sections: 5
+  - MATH 13: LINEAR ALGEBRA (3 UNITS)
+    Sections: 4
+  - MATH 15: ORDINARY DIFFERENTIAL EQUATIONS (3 UNITS)
+    Sections: 3
+  - MATH 21: FINITE MATHEMATIC WITH MATH 21C, CONCURRENT SUPPORT FOR FINITE MATHEMATICS (4 UNITS)
+    Sections: 16
+  - MATH 21: FINITE MATHEMATICS (3 UNITS)
+    Sections: 3
+  - MATH 28: CALCULUS 1 FOR BUSINESS AND SOCIAL SCIENCE (5 UNITS)
+    Sections: 3
+  - MATH 88A: INDEPENDENT STUDIES IN MATHEMATICS (1 UNIT)
+    Sections: 1
+
+Media Studies: 16 courses
+  - MEDIA 1: SURVEY OF MASS MEDIA COMMUNICATIONS (3 UNITS)
+    Sections: 17
+  - MEDIA 2: MEDIA LITERACY (3 UNITS)
+    Sections: 1
+  - MEDIA 3: GLOBAL MEDIA (3 UNITS)
+    Sections: 2
+  - MEDIA 4: INTRODUCTION TO GAME STUDIES (3 UNITS)
+    Sections: 1
+  - MEDIA 10: MEDIA, GENDER, AND RACE (3 UNITS)
+    Sections: 6
+  - MEDIA 11: INTRODUCTION TO BROADCASTING (3 UNITS)
+    Sections: 1
+  - MEDIA 14: NEWSCASTING AND NEWSWRITING (3 UNITS)
+    Sections: 1
+  - MEDIA 16: SPORTSCASTING FALL SPORTS (3 UNITS)
+    Sections: 1
+  - MEDIA 18: BROADCAST ADVERTISING (3 UNITS)
+    Sections: 1
+  - MEDIA 19: BROADCASTING WORKSHOP (3 UNITS)
+    Sections: 1
+  - MEDIA 20: INTRODUCTION TO MEDIA WRITING AND PRODUCING SHORT-FORM CONTENT (3 UNITS)
+    Sections: 1
+  - MEDIA 21: SHORT FORM VISUAL MEDIA PRODUCTION (3 UNITS)
+    Sections: 1
+  - MEDIA 25: ENGAGING AUDIENCES FOR JOURNALISM AND SOCIAL MEDIA (4 UNITS)
+    Sections: 1
+  - MEDIA 46: TELEVISION PRODUCTION (3 UNITS)
+    Sections: 1
+  - MEDIA 48: TELEVISION FIELD PRODUCTION WORKSHOP (3 UNITS)
+    Sections: 1
+  - MEDIA 88A: INDEPENDENT STUDIES IN MEDIA STUDIES (1 UNIT)
+    Sections: 1
+
+Music: Appreciation and History: 7 courses
+  - MUSIC 27: MUSIC FOR EARLY CHILDHOOD EDUCATION (3 UNITS)
+    Sections: 1
+  - MUSIC 29: A WORLD OF MUSIC (3 UNITS)
+    Sections: 2
+  - MUSIC 30: MUSIC HISTORY I (3 UNITS)
+    Sections: 1
+  - MUSIC 32: APPRECIATION OF MUSIC (3 UNITS)
+    Sections: 3
+  - MUSIC 33: JAZZ IN AMERICAN CULTURE (3 UNITS)
+    Sections: 4
+  - MUSIC 36: HISTORY OF ROCK MUSIC (3 UNITS)
+    Sections: 1
+  - MUSIC 37: MUSIC IN AMERICAN CULTURE (3 UNITS)
+    Sections: 2
+
+Music: Theory, Performance, and Application: 43 courses
+  - MUSIC 1: FUNDAMENTALS OF MUSIC (3 UNITS)
+    Sections: 5
+  - MUSIC 2: MUSICIANSHIP (2 UNITS)
+    Sections: 2
+  - MUSIC 3: MUSICIANSHIP (2 UNITS)
+    Sections: 1
+  - MUSIC 4: MUSICIANSHIP (2 UNITS)
+    Sections: 1
+  - MUSIC 5: FUNDAMENTALS OF MUSICIANSHIP (2 UNITS)
+    Sections: 2
+  - MUSIC 6: DIATONIC HARMONY (3 UNITS)
+    Sections: 2
+  - MUSIC 7: CHROMATIC HARMONY (3 UNITS)
+    Sections: 1
+  - MUSIC 8: MODULATION AND ANALYSIS (3 UNITS)
+    Sections: 1
+  - MUSIC 40: OPERA WORKSHOP (2 UNITS)
+    Sections: 1
+  - MUSIC 44: MARIACHI ENSEMBLE (2 UNITS)
+    Sections: 1
+  - MUSIC 45: MUSICAL THEATRE WORKSHOP (3 UNITS)
+    Sections: 1
+  - MUSIC 49: COMBO AND CHAMBER ENSEMBLE (2 UNITS)
+    Sections: 1
+  - MUSIC 50A: ELEMENTARY VOICE (2 UNITS)
+    Sections: 5
+  - MUSIC 50B: INTERMEDIATE VOICE (2 UNITS)
+    Sections: 5
+  - MUSIC 53: JAZZ VOCAL ENSEMBLE (2 UNITS)
+    Sections: 1
+  - MUSIC 55: CONCERT CHORALE (2 UNITS)
+    Sections: 1
+  - MUSIC 57: ADVANCED VOCAL PERFORMANCE TECHNIQUES (2 UNITS)
+    Sections: 1
+  - MUSIC 59: CHAMBER CHOIR (2 UNITS)
+    Sections: 1
+  - MUSIC 60A: ELEMENTARY PIANO, FIRST LEVEL (2 UNITS)
+    Sections: 4
+  - MUSIC 60B: ELEMENTARY PIANO, SECOND LEVEL (2 UNITS)
+    Sections: 3
+  - MUSIC 60C: ELEMENTARY PIANO, THIRD LEVEL (2 UNITS)
+    Sections: 2
+  - MUSIC 60D: ELEMENTARY PIANO, FOURTH LEVEL (2 UNITS)
+    Sections: 2
+  - MUSIC 61A: INTERMEDIATE PIANO, FIFTH LEVEL (2 UNITS)
+    Sections: 1
+  - MUSIC 64: PIANO ENSEMBLE (2 UNITS)
+    Sections: 1
+  - MUSIC 65A: KEYBOARD IMPROVISATION I (2 UNITS)
+    Sections: 1
+  - MUSIC 65B: KEYBOARD IMPROVISATION II (2 UNITS)
+    Sections: 1
+  - MUSIC 66: FUNDAMENTALS OF MUSIC AND ELEMENTARY PIANO (5 UNITS)
+    Sections: 1
+  - MUSIC 70A: STRING INSTRUMENT TECHNIQUES (2 UNITS)
+    Sections: 1
+  - MUSIC 70B: INTERMEDIATE STRINGS TECHNIQUES (2 UNITS)
+    Sections: 1
+  - MUSIC 70C: INTERMEDIATE STRINGS ORCHESTRA (2 UNITS)
+    Sections: 1
+  - MUSIC 73A: PERCUSSION INSTRUMENT TECHNIQUES (2 UNITS)
+    Sections: 1
+  - MUSIC 73B: INTERMEDIATE PERCUSSION ENSEMBLE (2 UNITS)
+    Sections: 1
+  - MUSIC 74: ORCHESTRA (2 UNITS)
+    Sections: 1
+  - MUSIC 76: INTERMEDIATE BRASS, WOODWINDS, AND PERCUSSION (2 UNITS)
+    Sections: 1
+  - MUSIC 77: WIND ENSEMBLE (2 UNITS)
+    Sections: 1
+  - MUSIC 78: JAZZ ENSEMBLE (2 UNITS)
+    Sections: 1
+  - MUSIC 84A: POPULAR GUITAR, FIRST LEVEL (2 UNITS)
+    Sections: 1
+  - MUSIC 84B: POPULAR GUITAR, SECOND LEVEL (2 UNITS)
+    Sections: 1
+  - MUSIC 84C: POPULAR GUITAR, THIRD LEVEL (2 UNITS)
+    Sections: 1
+  - MUSIC 87A: FINGERSTYLE GUITAR, FIRST LEVEL (2 UNITS)
+    Sections: 1
+  - MUSIC 87B: FINGERSTYLE GUITAR, SECOND LEVEL (2 UNITS)
+    Sections: 1
+  - MUSIC 92: APPLIED MUSIC INSTRUCTION (2 UNITS)
+    Sections: 1
+  - MUSIC 94: CONCERT MUSIC CLASS (1 UNIT)
+    Sections: 2
+
+Noncredit Classes: 0 courses
+
+Nursing: 20 courses
+  - NURSNG 1: FUNDAMENTALS OF NURSING CONCEPTS 1 (2 UNITS)
+    Sections: 1
+  - NURSNG 1L: FUNDAMENTALS OF NURSING CONCEPTS 1 LAB 2. (5 UNITS)
+    Sections: 4
+  - NURSNG 2: FUNDAMENTALS OF NURSING CONCEPTS 2 2. (5 UNITS)
+    Sections: 1
+  - NURSNG 2L: FUNDAMENTALS OF NURSING CONCEPTS 2 LAB 2. (5 UNITS)
+    Sections: 5
+  - NURSNG 3: ADULT HEALTH NURSING CONCEPTS 1 2. (5 UNITS)
+    Sections: 1
+  - NURSNG 3L: ADULT HEALTH NURSING CONCEPTS 1 LAB 2. (5 UNITS)
+    Sections: 5
+  - NURSNG 4: MENTAL HEALTH NURSING CONCEPTS 1. (5 UNITS)
+    Sections: 1
+  - NURSNG 4L: MENTAL HEALTH CONCEPTS LAB 1. (5 UNITS)
+    Sections: 4
+  - NURSNG 5: ADULT HEALTH NURSING CONCEPTS 2 2. (5 UNITS)
+    Sections: 1
+  - NURSNG 5L: ADULT HEALTH NURSING CONCEPTS 2 LAB 2. (5 UNITS)
+    Sections: 4
+  - NURSNG 6: MATERNAL NEWBORN NURSING CONCEPTS 1. (5 UNITS)
+    Sections: 2
+  - NURSNG 6L: MATERNAL NEWBORN NURSING CONCEPTS LAB (1 UNIT)
+    Sections: 6
+  - NURSNG 7: PEDIATRIC NURSING CONCEPTS 1. (5 UNITS)
+    Sections: 2
+  - NURSNG 7L: PEDIATRIC NURSING CONCEPTS LAB (1 UNIT)
+    Sections: 5
+  - NURSNG 8: ADULT HEALTH NURSING CONCEPTS 3 2. (5 UNITS)
+    Sections: 1
+  - NURSNG 8L: ADULT HEALTH NURSING CONCEPTS 3 LAB 2. (5 UNITS)
+    Sections: 5
+  - NURSNG 9: NURSING LEADERSHIP CONCEPTS 1. (5 UNITS)
+    Sections: 1
+  - NURSNG 9L: NURSING LEADERSHIP CONCEPTS LAB (2 UNITS)
+    Sections: 4
+  - NURSNG 17: PHARMACOLOGICAL ASPECTS OF NURSING (3 UNITS)
+    Sections: 2
+  - NURSNG 36: CALCULATIONS IN DRUGS AND SOLUTIONS (1 UNIT)
+    Sections: 5
+
+Nursing – Noncredit: 1 courses
+  - NURSNG 900: SUPERVISED TUTORING (0 UNITS)
+    Sections: 5
+
+Office Technology: 5 courses
+  - OFTECH 20: MEDICAL VOCABULARY (3 UNITS)
+    Sections: 1
+  - OFTECH 21: MEDICAL TERMS AND TRANSCRIPTION 1 (3 UNITS)
+    Sections: 1
+  - OFTECH 23: MEDICAL BILLING (MEDISOFT) (3 UNITS)
+    Sections: 1
+  - OFTECH 24: MEDICAL CODING/BILLING 1 (3 UNITS)
+    Sections: 1
+  - OFTECH 28: ELECTRONIC HEALTH RECORDS (3 UNITS)
+    Sections: 1
+
+Persian: 1 courses
+  - PERSIN 1: ELEMENTARY PERSIAN I (5 UNITS)
+    Sections: 1
+
+Philosophy: 11 courses
+  - PHILOS 1: KNOWLEDGE AND REALITY (3 UNITS)
+    Sections: 12
+  - PHILOS 2: ETHICS (3 UNITS)
+    Sections: 2
+  - PHILOS 3: EARLY PHILOSOPHERS (3 UNITS)
+    Sections: 2
+  - PHILOS 7: LOGIC AND CRITICAL THINKING (3 UNITS)
+    Sections: 3
+  - PHILOS 9: SYMBOLIC LOGIC (3 UNITS)
+    Sections: 2
+  - PHILOS 22: ASIAN PHILOSOPHY (3 UNITS)
+    Sections: 1
+  - PHILOS 23: PHILOSOPHY OF RELIGION (3 UNITS)
+    Sections: 1
+  - PHILOS 51: POLITICAL PHILOSOPHY (3 UNITS)
+    Sections: 3
+  - PHILOS 52: CONTEMPORARY POLITICAL THOUGHT (3 UNITS)
+    Sections: 1
+  - PHILOS 88A: INDEPENDENT STUDIES IN PHILOSOPHY (1 UNIT)
+    Sections: 2
+  - PHILOS 88B: INDEPENDENT STUDIES IN PHILOSOPHY (2 UNITS)
+    Sections: 2
+
+Photography: 17 courses
+  - PHOTO 1: INTRODUCTION TO PHOTOGRAPHY (3 UNITS)
+    Sections: 9
+  - PHOTO 2: BASIC BLACK AND WHITE DARKROOM TECHNIQUES (2 UNITS)
+    Sections: 3
+  - PHOTO 13: NEWS PHOTOGRAPHY (3 UNITS)
+    Sections: 1
+  - PHOTO 14: PHOTOGRAPHY FOR PUBLICATION (3 UNITS)
+    Sections: 1
+  - PHOTO 21: ALTERNATIVE PHOTOGRAPHIC PROCESSES (4 UNITS)
+    Sections: 1
+  - PHOTO 30: TECHNIQUES OF LIGHTING: INTRODUCTION (4 UNITS)
+    Sections: 2
+  - PHOTO 32: LIGHTING FOR PEOPLE 2 (4 UNITS)
+    Sections: 1
+  - PHOTO 33: LIGHTING FOR PRODUCTS (4 UNITS)
+    Sections: 1
+  - PHOTO 34: CAPTURE TO COMPOSITE (4 UNITS)
+    Sections: 1
+  - PHOTO 39: BEGINNING PHOTOSHOP (3 UNITS)
+    Sections: 4
+  - PHOTO 43: PORTFOLIO DEVELOPMENT (3 UNITS)
+    Sections: 1
+  - PHOTO 50: BASIC COLOR PRINTING (4 UNITS)
+    Sections: 1
+  - PHOTO 52: HISTORY OF PHOTOGRAPHY (3 UNITS)
+    Sections: 3
+  - PHOTO 60: BUSINESS PRACTICES IN PHOTOGRAPHY (3 UNITS)
+    Sections: 1
+  - PHOTO 70: INTRO TO VIDEO FOR PHOTOGRAPHERS (3 UNITS)
+    Sections: 1
+  - PHOTO 71: INTRO TO VIDEO EDITING FOR PHOTOGRAPHERS (3 UNITS)
+    Sections: 1
+  - PHOTO 88B: INDEPENDENT STUDIES IN PHOTOGRAPHY (2 UNITS)
+    Sections: 1
+
+Physics: 9 courses
+  - PHYSCS 6: GENERAL PHYSICS 1 WITH LAB (4 UNITS)
+    Sections: 3
+  - PHYSCS 8: CALCULUS-BASED GENERAL PHYSICS 1 WITH LAB (4 UNITS)
+    Sections: 1
+  - PHYSCS 12: INTRODUCTORY PHYSICS NON-LAB (3 UNITS)
+    Sections: 1
+  - PHYSCS 14: INTRODUCTORY PHYSICS WITH LAB (4 UNITS)
+    Sections: 2
+  - PHYSCS 20: PREPARATION FOR CALCULUS-BASED PHYSICS (2 UNITS)
+    Sections: 1
+  - PHYSCS 21: MECHANICS WITH LAB (5 UNITS)
+    Sections: 7
+  - PHYSCS 22: ELECTRICITY AND MAGNETISM WITH LAB (5 UNITS)
+    Sections: 3
+  - PHYSCS 23: FLUIDS, WAVES, THERMODYNAMICS, OPTICS WITH LAB (5 UNITS)
+    Sections: 3
+  - PHYSCS 88A: INDEPENDENT STUDIES IN PHYSICS (1 UNIT)
+    Sections: 1
+
+Political Science: 10 courses
+  - POL SC 2: COMPARATIVE GOVERNMENT AND POLITICS (3 UNITS)
+    Sections: 3
+  - POL SC 5: INTERNATIONAL POLITICAL ECONOMY: INTRODUCTION TO GLOBAL STUDIES (3 UNITS)
+    Sections: 2
+  - POL SC 7: INTERNATIONAL POLITICS (3 UNITS)
+    Sections: 3
+  - POL SC 24: INTRODUCTION TO LAW (3 UNITS)
+    Sections: 3
+  - POL SC 31: INTRODUCTION TO PUBLIC POLICY (3 UNITS)
+    Sections: 1
+  - POL SC 51: POLITICAL PHILOSOPHY (3 UNITS)
+    Sections: 3
+  - POL SC 52: CONTEMPORARY POLITICAL THOUGHT (3 UNITS)
+    Sections: 1
+  - POL SC 88A: INDEPENDENT STUDIES IN POLITICAL SCIENCE (1 UNIT)
+    Sections: 2
+  - POL SC 88B: INDEPENDENT STUDIES IN POLITICAL SCIENCE (2 UNITS)
+    Sections: 2
+  - POL SC 95: PUBLIC POLICY – EXPERIENTIAL LEARNING (1 UNIT)
+    Sections: 1
+
+Professional Courses In Kinesiology/Physical Education: 7 courses
+  - PRO CR 6A: COACHING OF FOOTBALL (3 UNITS)
+    Sections: 1
+  - PRO CR 10: INTRODUCTION TO KINESIOLOGY (3 UNITS)
+    Sections: 3
+  - PRO CR 11: INTRODUCTION TO SPORTS INJURIES (3 UNITS)
+    Sections: 1
+  - PRO CR 12: EMERGENCY CARE AND WATER SAFETY (3 UNITS)
+    Sections: 1
+  - PRO CR 15: SPORTS MANAGEMENT (3 UNITS)
+    Sections: 1
+  - PRO CR 19: FIELD EXPERIENCE (2 UNITS)
+    Sections: 1
+  - PRO CR 25: PERSONAL TRAINER PREPARATION (3 UNITS)
+    Sections: 1
+
+Psychology: 12 courses
+  - PSYCH 2: PHYSIOLOGICAL PSYCHOLOGY (3 UNITS)
+    Sections: 8
+  - PSYCH 3: PERSONALITY: DYNAMICS AND DEVELOPMENT (3 UNITS)
+    Sections: 2
+  - PSYCH 5: THE PSYCHOLOGY OF COMMUNICATION (3 UNITS)
+    Sections: 1
+  - PSYCH 6: MARRIAGE, FAMILY, AND HUMAN INTIMACY (3 UNITS)
+    Sections: 1
+  - PSYCH 7: RESEARCH METHODS IN PSYCHOLOGY (3 UNITS)
+    Sections: 5
+  - PSYCH 11: CHILD GROWTH AND DEVELOPMENT (3 UNITS)
+    Sections: 8
+  - PSYCH 13: SOCIAL PSYCHOLOGY (3 UNITS)
+    Sections: 5
+  - PSYCH 14: ABNORMAL PSYCHOLOGY (3 UNITS)
+    Sections: 2
+  - PSYCH 19: LIFESPAN HUMAN DEVELOPMENT (3 UNITS)
+    Sections: 8
+  - PSYCH 25: HUMAN SEXUALITY (3 UNITS)
+    Sections: 1
+  - PSYCH 40: ENVIRONMENTAL PSYCHOLOGY (3 UNITS)
+    Sections: 1
+  - PSYCH 320: COGNITIVE PSYCHOLOGY (3 UNITS)
+    Sections: 1
+
+Real Estate: 1 courses
+  - REALES 3: REAL ESTATE PRACTICE (3 UNITS)
+    Sections: 1
+
+Religious Studies: 1 courses
+  - REL ST 51: LITERATURE OF THE BIBLE: OLD TESTAMENT (3 UNITS)
+    Sections: 1
+
+Respiratory Care: 14 courses
+  - RC 1: FUNDAMENTALS OF RESPIRATORY CARE (2 UNITS)
+    Sections: 1
+  - RC 2: INTEGRATED RESPIRATORY PHYSIOLOGY AND PATHOPHYSIOLOGY I (2 UNITS)
+    Sections: 1
+  - RC 3: RESPIRATORY CARE THERAPEUTICS (3 UNITS)
+    Sections: 1
+  - RC 4: PHYSICIAN INTERACTION I (1 UNIT)
+    Sections: 1
+  - RC 10: ADVANCED LIFE SUPPORT AND ICU MONITORING (2 UNITS)
+    Sections: 1
+  - RC 11: ADVANCED MECHANICAL VENTILATION (2 UNITS)
+    Sections: 1
+  - RC 12: PHYSICIAN INTERACTION III (1 UNIT)
+    Sections: 1
+  - RC 13: NEONATAL AND PEDIATRIC RESPIRATORY CARE (2 UNITS)
+    Sections: 1
+  - RC 1L: APPLIED FUNDAMENTALS OF RESPIRATORY CARE (2 UNITS)
+    Sections: 3
+  - RC 2L: APPLIED INTEGRATED RESPIRATORY PHYSIOLOGY AND PATHOPHYSIOLOGY I (2 UNITS)
+    Sections: 4
+  - RC 3L: APPLIED RESPIRATORY CARE THERAPEUTICS (3 UNITS)
+    Sections: 3
+  - RC 10L: APPLIED ADVANCED LIFE SUPPORT AND ICU MONITORING (3 UNITS)
+    Sections: 2
+  - RC 11L: APPLIED ADVANCED MECHANICAL VENTILATION 2. (5 UNITS)
+    Sections: 2
+  - RC 13L: APPLIED NEONATAL AND PEDIATRIC RESPIRATORY CARE (2 UNITS)
+    Sections: 2
+
+Russian: 1 courses
+  - RUSS 1: ELEMENTARY RUSSIAN I (5 UNITS)
+    Sections: 1
+
+Science – General Studies: 1 courses
+  - SCI 10: PRINCIPLES AND PRACTICE OF SCIENTIFIC RESEARCH (2 UNITS)
+    Sections: 1
+
+Sociology: 8 courses
+  - SOCIOL 1: INTRODUCTION TO SOCIOLOGY (3 UNITS)
+    Sections: 22
+  - SOCIOL 2: SOCIAL PROBLEMS (3 UNITS)
+    Sections: 2
+  - SOCIOL 4: SOCIOLOGICAL ANALYSIS (3 UNITS)
+    Sections: 1
+  - SOCIOL 30: AFRICAN AMERICANS IN CONTEMPORARY SOCIETY (3 UNITS)
+    Sections: 1
+  - SOCIOL 33: SOCIOLOGY OF SEX AND GENDER (3 UNITS)
+    Sections: 2
+  - SOCIOL 34: RACIAL AND ETHNIC RELATIONS IN AMERICAN SOCIETY (3 UNITS)
+    Sections: 1
+  - SOCIOL 88A: INDEPENDENT STUDIES IN SOCIOLOGY (1 UNIT)
+    Sections: 2
+  - SOCIOL 88B: INDEPENDENT STUDIES IN SOCIOLOGY (2 UNITS)
+    Sections: 2
+
+Spanish: 6 courses
+  - SPAN 1: ELEMENTARY SPANISH I (5 UNITS)
+    Sections: 5
+  - SPAN 2: ELEMENTARY SPANISH II (5 UNITS)
+    Sections: 3
+  - SPAN 3: INTERMEDIATE SPANISH I (5 UNITS)
+    Sections: 1
+  - SPAN 8: CONVERSATIONAL SPANISH (2 UNITS)
+    Sections: 1
+  - SPAN 11: SPANISH FOR HERITAGE SPEAKERS I (5 UNITS)
+    Sections: 2
+  - SPAN 31A: PRACTICAL SPANISH (3 UNITS)
+    Sections: 1
+
+Sustainability Systems and Technology – Noncredit: 1 courses
+  - SST 902: SUSTAINABILITY OUTREACH (0 UNITS)
+    Sections: 1
+
+Sustainable Materials Management: 4 courses
+  - SMM 1: INTRODUCTION TO SUSTAINABLE MATERIALS MANAGEMENT (3 UNITS)
+    Sections: 1
+  - SMM 2: CULTURE AND ZERO WASTE (3 UNITS)
+    Sections: 1
+  - SMM 3: SUSTAINABLE MATERIALS MANAGEMENT AND ZERO WASTE FOR COMMUNITIES (3 UNITS)
+    Sections: 1
+  - SMM 4: SUSTAINABLE MATERIALS MANAGEMENT AND ZERO WASTE IN BUSINESS (3 UNITS)
+    Sections: 1
+
+Theatre Arts: 26 courses
+  - TH ART 2: INTRODUCTION TO THE THEATRE (3 UNITS)
+    Sections: 3
+  - TH ART 5: HISTORY OF WORLD THEATRE (3 UNITS)
+    Sections: 2
+  - TH ART 10A: VOICE DEVELOPMENT FOR THE STAGE (3 UNITS)
+    Sections: 1
+  - TH ART 13: STAGE DIALECTS (2 UNITS)
+    Sections: 2
+  - TH ART 15: STAGE MOVEMENT FOR THE ACTOR (1 UNIT)
+    Sections: 1
+  - TH ART 16: ADVANCED STAGE MOVEMENT FOR THE ACTOR (2 UNITS)
+    Sections: 1
+  - TH ART 18A: TECHNICAL THEATRE PRODUCTION WORKSHOP (1 UNIT)
+    Sections: 1
+  - TH ART 18B: TECHNICAL THEATRE PRODUCTION WORKSHOP (2 UNITS)
+    Sections: 1
+  - TH ART 18C: TECHNICAL THEATRE PRODUCTION WORKSHOP (3 UNITS)
+    Sections: 1
+  - TH ART 20: STAGECRAFT (3 UNITS)
+    Sections: 2
+  - TH ART 21: SCENIC PAINTING TECHNIQUES (3 UNITS)
+    Sections: 1
+  - TH ART 22: STAGE LIGHTING (3 UNITS)
+    Sections: 1
+  - TH ART 23: PROJECTION AND LIGHTING DESIGN (3 UNITS)
+    Sections: 1
+  - TH ART 25: INTRODUCTION TO THEATRICAL SOUND (3 UNITS)
+    Sections: 1
+  - TH ART 26: INTRODUCTION TO STAGE COSTUMING (3 UNITS)
+    Sections: 1
+  - TH ART 28A: BEGINNING STAGE MAKE-UP (2 UNITS)
+    Sections: 1
+  - TH ART 31: INTRODUCTION TO STAGE MANAGEMENT (3 UNITS)
+    Sections: 1
+  - TH ART 41: ACTING I (3 UNITS)
+    Sections: 3
+  - TH ART 42: ACTING II (3 UNITS)
+    Sections: 2
+  - TH ART 45: MUSICAL THEATRE WORKSHOP (3 UNITS)
+    Sections: 1
+  - TH ART 50: ADVANCED PRODUCTION – FULL PLAY (3 UNITS)
+    Sections: 2
+  - TH ART 51: STAGE MAKE-UP WORKSHOP 0. (5 UNIT)
+    Sections: 2
+  - TH ART 55: ADVANCED PRODUCTION – SMALL THEATRE VENUE (3 UNITS)
+    Sections: 1
+  - TH ART 88A: INDEPENDENT STUDIES IN THEATRE ARTS (1 UNIT)
+    Sections: 4
+  - TH ART 88B: INDEPENDENT STUDIES IN THEATRE ARTS (2 UNITS)
+    Sections: 1
+  - TH ART 88C: INDEPENDENT STUDIES IN THEATRE ARTS (3 UNITS)
+    Sections: 1
+
+Urban Studies: 1 courses
+  - URBAN 8: INTRODUCTION TO URBAN STUDIES (3 UNITS)
+    Sections: 1
+
+Varsity Intercollegiate Athletics: 13 courses
+  - VAR PE 9V: VARSITY BASKETBALL FOR MEN (3 UNITS)
+    Sections: 1
+  - VAR PE 9W: VARSITY BASKETBALL FOR WOMEN (3 UNITS)
+    Sections: 1
+  - VAR PE 11A: IN-SEASON INTERCOLLEGIATE STRENGTH AND CONDITIONING (1 UNIT)
+    Sections: 4
+  - VAR PE 11B: OFF-SEASON INTERCOLLEGIATE STRENGTH AND CONDITIONING (1 UNIT)
+    Sections: 2
+  - VAR PE 14V: VARSITY CROSS COUNTRY FOR MEN (3 UNITS)
+    Sections: 1
+  - VAR PE 14W: VARSITY CROSS COUNTRY FOR WOMEN (3 UNITS)
+    Sections: 1
+  - VAR PE 21V: VARSITY FOOTBALL FOR MEN (3 UNITS)
+    Sections: 2
+  - VAR PE 43V: VARSITY SOCCER FOR MEN (3 UNITS)
+    Sections: 1
+  - VAR PE 43W: VARSITY SOCCER FOR WOMEN (3 UNITS)
+    Sections: 1
+  - VAR PE 50V: VARSITY WATER POLO FOR MEN (3 UNITS)
+    Sections: 1
+  - VAR PE 50W: VARSITY WATER POLO FOR WOMEN (3 UNITS)
+    Sections: 1
+  - VAR PE 57W: VARSITY VOLLEYBALL FOR WOMEN (3 UNITS)
+    Sections: 1
+  - VAR PE 60: CONDITIONING FOR INTERCOLLEGIATE SPORT (1 UNIT)
+    Sections: 11
+
+Women’s, Gender, and Sexuality Studies: 5 courses
+  - WGS 10: INTRODUCTION TO WOMEN’S, GENDER, AND SEXUALITY STUDIES (3 UNITS)
+    Sections: 3
+  - WGS 30: WOMEN, GENDER, AND SEXUALITY IN POPULAR CULTURE (3 UNITS)
+    Sections: 3
+  - WGS 40: INTRODUCTION TO LGBTQ STUDIES (3 UNITS)
+    Sections: 1
+  - WGS 88A: INDEPENDENT STUDIES IN WOMEN’S, GENDER, AND SEXUALITY STUDIES (1 UNIT)
+    Sections: 2
+  - WGS 88B: INDEPENDENT STUDIES IN WOMEN’S, GENDER, AND SEXUALITY STUDIES (2 UNITS)
+    Sections: 2

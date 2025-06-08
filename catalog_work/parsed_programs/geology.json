@@ -12,11 +12,15 @@
       ],
       "c_id": "GEOL 100",
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, non-lab)",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum credit allowed for GEOL 1 and GEOL 4 is one course (4 units)."
+      ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum credit allowed for GEOL 1 and GEOL 4 is one course (4 units). This course illustrates the many geologic processes that have shaped our planet. Lecture topics include rocks, minerals, landslides, streams, ground water, glaciers, oceans, earthquakes, and plate tectonics. Upon completion of this course, the student will have a greater awareness and understanding of their constantly changing environment.",
+      "description": "This course illustrates the many geologic processes that have shaped our planet. Lecture topics include rocks, minerals, landslides, streams, ground water, glaciers, oceans, earthquakes, and plate tectonics. Upon completion of this course, the student will have a greater awareness and understanding of their constantly changing environment.",
       "same_as": null,
       "sections": [
         {
@@ -50,7 +54,9 @@
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, non-lab)",
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is an introduction to geologic hazards and resources. The primary focus is geologic settings that produce regions with different types of geologic hazards, the specific hazards and mitigation techniques associated with those regions, and the formation and utilization of geologic resources. Topics include earthquakes, volcanoes, floods and groundwater, fossil fuels, rock and mineral resources, and problems associated with resource use.",
       "same_as": null,
@@ -86,7 +92,9 @@
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course describes the physical and geological aspects of oceanography. Lecture topics include the origin of the oceans, plate tectonics, seafloor topography, waves, beaches, estuaries, lagoons, and lakes. Lab content will reinforce lecture topics giving students an opportunity to apply their knowledge with hands-on experience along with a greater degree of understanding the physical and chemical properties of the oceans and atmosphere.",
       "same_as": null,
@@ -111,7 +119,7 @@
             "Above section 2337 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -134,7 +142,7 @@
             "Above section 2338 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -149,11 +157,15 @@
       ],
       "c_id": "GEOL 101",
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum credit allowed for GEOL 1 and GEOL 4 is one course (4 units)."
+      ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum credit allowed for GEOL 1 and GEOL 4 is one course (4 units). This course presents an introduction to geologic processes that have shaped the Earth. Lecture topics include formation of the Earth, plate tectonics, rocks, minerals, earthquakes, geologic structures, geologic time, coastal processes, and groundwater. Laboratory exercises expand this information by dealing with rock and mineral identification, topographic and geologic map interpretation, and the interpretation aerial photographs. Upon completion of this course, the student will have a good understanding of the processes that form major features on Earth.",
+      "description": "This course presents an introduction to geologic processes that have shaped the Earth. Lecture topics include formation of the Earth, plate tectonics, rocks, minerals, earthquakes, geologic structures, geologic time, coastal processes, and groundwater. Laboratory exercises expand this information by dealing with rock and mineral identification, topographic and geologic map interpretation, and the interpretation aerial photographs. Upon completion of this course, the student will have a good understanding of the processes that form major features on Earth.",
       "same_as": null,
       "sections": [
         {
@@ -173,10 +185,10 @@
             }
           ],
           "notes": [
-            "Above section 2339 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/ scholars for more information."
+            "Above section 2339 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -199,7 +211,7 @@
             "Above section 2340 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -218,7 +230,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is an introduction to the fundamentals of Environmental Geology with laboratory. Topics include the interactions between and impacts of humans with the environment in a geologic context. This course emphasizes the Earth system and connections between the geosphere, biosphere, atmosphere, and hydrosphere.",
       "same_as": null,
@@ -243,7 +257,7 @@
             "Above section 2341 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {

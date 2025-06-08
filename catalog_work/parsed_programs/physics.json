@@ -16,7 +16,9 @@
         "PHYSCS 6, PHYSCS 7 or PHYSCS 8, PHYSCS 9 or PHYSCS 21, PHYSCS 22, PHYSCS 23 combined: maximum UC credit, 1 series."
       ],
       "prerequisites": "MATH 2 or (MATH 3 and 4).",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is an algebraand trigonometry-based study of classical mechanics, including elastic properties of matter and thermodynamics.",
       "same_as": null,
@@ -41,7 +43,7 @@
             "Above section 2906 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -64,7 +66,7 @@
             "Above section 2907 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -87,7 +89,7 @@
             "Above section 2909 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -106,7 +108,9 @@
         "PHYSCS 6, PHYSCS 7 or PHYSCS 8, PHYSCS 9 or PHYSCS 21, PHYSCS 22, PHYSCS 23 combined: maximum UC credit, 1 series."
       ],
       "prerequisites": "MATH 7.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is a calculus-based study of the mechanics of solids and liquids, elastic properties of matter, heat, and wave motion.",
       "same_as": null,
@@ -148,7 +152,9 @@
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, non-lab)",
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "Physics 12 is designed for the student who is interested in a more conceptual and less mathematical approach to physics. It is a survey course introducing the topics of mechanics, heat, sound, electricity and magnetism, light and modern physics. The emphasis will be on developing conceptual understanding of the laws of nature through lectures, demonstrations, and class discussions. High school math recommended.",
       "same_as": null,
@@ -184,7 +190,9 @@
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "Physics 14 is recommended for students who have not had high school physics but are planning to take Physics. This course is similar to Physics 12 in content and difficulty level, but with a laboratory session added to enhance the learning experience. Physics 14 is designed for the student who is interested in a more conceptual and less mathematical approach to physics. It is a one semester survey course introducing the topics of mechanics, heat, sound, electricity and magnetism, light and modern physics. The emphasis will be on developing conceptual understanding of the laws of nature through hands-on experiences, laboratory experiments, and computer interactions, in addition to lectures and demonstrations. Maximum credit for Physics 12 and 14 combined is 4 units. High school math recommended.",
       "same_as": null,
@@ -236,7 +244,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "MATH 2 or (MATH 3 and 4).",
+      "prerequisite_notes": null,
+      "advisory": "MATH 2 or (MATH 3 and 4)",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course serves as a preparation for calculus-based physics. It serves as an introduction to classical mechanics, including concepts and principles pertinent to the mechanics of solids. It also prepares students for handling data and analysis at the level required in Physics 8 and 21.",
       "same_as": null,
@@ -274,7 +284,9 @@
         "PHYSCS 6, PHYSCS 7 or PHYSCS 8, PHYSCS 9 or PHYSCS 21, PHYSCS 22, PHYSCS 23 combined: maximum UC credit, 1 series."
       ],
       "prerequisites": "MATH 7.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is a calculus-based study of the mechanics of rigid bodies, emphasizing Newton’s laws and its applications. This course includes an introduction to fluids. It is designed for engineering, physical science, and computer science majors.",
       "same_as": null,
@@ -296,8 +308,7 @@
             }
           ],
           "notes": [
-            "Above section 2917 is part of the STEM/MAS program and enrollment is temporarily limited to program participants. See",
-            "the Special Programs section of the class schedule or smc.edu/stem for more information. Above section modality is On Ground."
+            "Above section 2917 is part of the STEM/MAS program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/stem for more information. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -346,7 +357,7 @@
             "Above section 2919 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -445,7 +456,9 @@
         "PHYSCS 6, PHYSCS 7 or PHYSCS 8, PHYSCS 9 or PHYSCS 21, PHYSCS 22, PHYSCS 23 combined: maximum UC credit, 1 series."
       ],
       "prerequisites": "MATH 8, PHYSCS 21.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is a calculus-based study of electromagnetism covering aspects of electric and magnetic fields, DC and AC circuits, electromagnetic interactions, light, and relativity. The course is intended for engineering and physical science students.",
       "same_as": null,
@@ -529,7 +542,9 @@
         "PHYSCS 6, PHYSCS 7 or PHYSCS 8, PHYSCS 9 or PHYSCS 21, PHYSCS 22, PHYSCS 23 combined: maximum UC credit, 1 series."
       ],
       "prerequisites": "MATH 8, PHYSCS 21.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is a calculus-based study of fluids, waves, thermodynamics, and light intended for engineering and physical science students.",
       "same_as": null,
@@ -577,7 +592,7 @@
             "Above section 2928 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -610,9 +625,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "",
+      "description": "Please see “Independent Studies” section. Please see listing under “Biological Sciences.”",
       "same_as": null,
       "sections": [
         {
@@ -625,7 +642,9 @@
               "instructor": "Hsieh J M"
             }
           ],
-          "notes": [],
+          "notes": [
+            "Physiology"
+          ],
           "duration": null,
           "modality": null,
           "co_enrollment_with": null

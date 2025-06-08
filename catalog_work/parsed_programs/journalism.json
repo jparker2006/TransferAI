@@ -1,7 +1,80 @@
 {
   "program_name": "Journalism",
-  "program_description": "Journalism offers instructional and career technical training in reporting and nonfiction story production across multiple platforms, including print, photography, video, audio, social media and digital media. Students are trained to develop story ideas, report them, and produce them in suitable formats. Students also learn about news writing, interviewing, reporting, editing, freelancing, photojournalism, multimedia story production, journalism history, media law and journalism ethics. This program prepares students for transfer to upper division courses, as well as offers practical career technical training in the field of journalism. The skills developed in journalism classes help students think critically and develop storytelling techniques in any career they might pursue. Careers in this field include book editor, copywriter, film critic, foreign correspondent, freelance writing, online editor, multimedia story producer, journalist, magazine editor, news anchor, newspaper editor, publicist, sportswriter, and technical writer. JOURN 1, THE NEWS 3 UNITS Transfer: UC, CSU C-ID: JOUR 110. • Advisory: Eligibility for English 1. An introductory course in planning stories, news gathering, organizing and writing news across multiple platforms. Students learn to report and write news stories based on their own reporting, including original interviews and research, and how to use AP style. Stories include both news and features, and may include covering events, public lectures, meetings and other local stories. Students will be made aware of legal and ethical issues related to journalism. 2434 2:15p.m.-3:35p.m. TTh CMD 131 Stambler L S Above section 2434 meets at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground. 2435 Arrange-6.5 Hours ONLINE Stambler L S Above section 2435 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible. 2436 Arrange-6.5 Hours ONLINE Stambler L S Above section 2436 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible.",
+  "program_description": "Journalism offers instructional and career technical training in reporting and nonfiction story production across multiple platforms, including print, photography, video, audio, social media and digital media. Students are trained to develop story ideas, report them, and produce them in suitable formats. Students also learn about news writing, interviewing, reporting, editing, freelancing, photojournalism, multimedia story production, journalism history, media law and journalism ethics. This program prepares students for transfer to upper division courses, as well as offers practical career technical training in the field of journalism. The skills developed in journalism classes help students think critically and develop storytelling techniques in any career they might pursue. Careers in this field include book editor, copywriter, film critic, foreign correspondent, freelance writing, online editor, multimedia story producer, journalist, magazine editor, news anchor, newspaper editor, publicist, sportswriter, and technical writer.",
   "courses": [
+    {
+      "course_code": "JOURN 1",
+      "course_title": "THE NEWS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "JOUR 110",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "An introductory course in planning stories, news gathering, organizing and writing news across multiple platforms. Students learn to report and write news stories based on their own reporting, including original interviews and research, and how to use AP style. Stories include both news and features, and may include covering events, public lectures, meetings and other local stories. Students will be made aware of legal and ethical issues related to journalism.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2434",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "TTh",
+              "location": "CMD 131",
+              "instructor": "Stambler L S"
+            }
+          ],
+          "notes": [
+            "Above section 2434 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2435",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Stambler L S"
+            }
+          ],
+          "notes": [
+            "Above section 2435 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2436",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Stambler L S"
+            }
+          ],
+          "notes": [
+            "Above section 2436 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
     {
       "course_code": "JOURN 4A",
       "course_title": "NEWSCASTING AND NEWSWRITING",
@@ -13,7 +86,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course familiarizes the students with the expectations of journalism by the public and teaches the student the basic news writing guidelines used in broadcast journalism. Through news writing assignments and exercises, the student will become adept in basic broadcast news writing.",
       "same_as": "MEDIA 14",
@@ -35,11 +110,10 @@
             }
           ],
           "notes": [
-            "Above section 2437 meets for 8 weeks, Sep 08 to Oct 20, and is",
-            "a hybrid class taught online via the Internet and at the Center for For additional information, go to smc.edu/OnlineEd."
+            "Above section 2437 meets for 8 weeks, Sep 08 to Oct 20, and is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "8 weeks, Sep 08 to Oct 20",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -55,9 +129,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "SOCIAL MEDIA 4 UNITS Student media practicum and lab where students produce engaging social media journalism content for the campus community. Students learn how to plan, pitch, innovate and execute news content pieces across the social and digital landscape. Students collaborate with student newsroom writers, photojournalists, designers and editors to develop audi- ence engagement strategies following media industry best practices. Students use analytics and metrics to analyze how audiences engage with created content.",
+      "description": "Student media practicum and lab where students produce engaging social media journalism content for the campus community. Students learn how to plan, pitch, innovate and execute news content pieces across the social and digital landscape. Students collaborate with student newsroom writers, photojournalists, designers and editors to develop audi- ence engagement strategies following media industry best practices. Students use analytics and metrics to analyze how audiences engage with created content.",
       "same_as": "MEDIA 25",
       "sections": [
         {
@@ -96,7 +172,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course provides an introduction to multimedia storytelling with a nonfiction focus. Students learn how to produce multimedia content such as digital videos, audio slideshows, blogs, web pages, podcasts and other emerging digital media content. The course trains students to produce multimedia content for an online news site such as The Corsair, but is also useful for students with a more casual interest in multimedia production. Students also learn about ethical and social issues affecting multimedia storytelling.",
       "same_as": null,
@@ -148,7 +226,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "Student media practicum and lab where students produce media content with a journalistic focus that is distributed regularly to the campus community. Students work on regular news and feature assignments to produce content across multiple platforms, including print, online, visual (photography) audio, video and emerging formats. Includes practical experience in design, visual storytelling, digital media production, and multimedia reporting. Student produced media with students as production leaders is central to the class.",
       "same_as": null,
@@ -170,11 +250,10 @@
             }
           ],
           "notes": [
-            "Above section 2441 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+            "Above section 2441 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -190,7 +269,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "JOURN 1.",
+      "prerequisite_notes": null,
+      "advisory": "JOURN 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course provides advanced instruction for student editors of the Corsair newspaper and its online edition. Students assign and copy edit stories and photos, work with writers and photographers on their assignments, design pages, “package” stories with graphics and photos, and solve ethical problems using accepted professional practices. Students will comprise the editing staff of the Corsair, including the editor in chief, page editors, copy editors, graphics editor, photo editor and online coordinator. Journalism 17 students may be concurrently enrolled in either Journalism 16 or Journalism 22/Photography 14. Journalism 17 may be repeated once for credit.",
       "same_as": null,
@@ -212,11 +293,10 @@
             }
           ],
           "notes": [
-            "Above section 4115 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+            "Above section 4115 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -232,7 +312,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "PHOTO 1.",
+      "prerequisite_notes": null,
+      "advisory": "PHOTO 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This survey course in basic news photography is designed for journalism or photography majors and students interested in having work published in magazines and news publications. Students learn basic camera and storytelling techniques through individual assignments and a semester long project, along with photo composition, and picture layout principles. A Digital Single Lens Reflex (DSLR) camera with manual exposure capability is required.",
       "same_as": "PHOTO 13",
@@ -268,7 +350,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "JOURN 21 or PHOTO 13.",
+      "prerequisite_notes": null,
+      "advisory": "JOURN 21 or PHOTO 13",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This advanced course provides an in-depth study of photojournalism with an emphasis on creation of photo story ideas, photo essays, news, sports and feature photos for publication. Photo editing and layout for newspapers, magazines, and online publishing will be covered. Students will comprise the staff of the campus newspaper, The Corsair, and online publications. This course may be repeated once for credit. A Digital Single Lens Reflex (DSLR) camera with manual exposure capability is required.",
       "same_as": "PHOTO 14",
@@ -310,7 +394,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This is a introductory course covering basic principles and objectives of public relations, including publicity and promotion techniques, effective communication strategies, message design and distribution, and modern and emerging public relations practices.",
       "same_as": "BUS 29",

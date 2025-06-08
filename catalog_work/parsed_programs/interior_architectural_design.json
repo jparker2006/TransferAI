@@ -14,7 +14,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "INTARC 34",
       "description": "This course addresses basic color design theory and application. Students utilize tools, materials, and equipment to develop technical skills applicable to interior, architectural and other related fields of design. Students identify cultural heritages, the psychological implications of design and are introduced to Computer Palettes.",
       "same_as": null,
@@ -55,7 +57,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ARC 10, ARC 11.",
+      "prerequisite_notes": null,
+      "advisory": "ARC 10, ARC 11",
+      "advisory_notes": null,
       "formerly": "INTARC 31",
       "description": "A studio course which focuses on the development of context and precedent while designing interior architectural spaces and forms. Simple built environments are developed using design principles in context with spatial relationships, human interaction, and materiality. Emphasis is placed on the design process, human experience, and space planning. Visual and oral presentations are used in the development of a course portfolio.",
       "same_as": null,
@@ -77,11 +81,10 @@
             }
           ],
           "notes": [
-            "Above section 2420 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+            "Above section 2420 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -97,9 +100,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "INTARC 36",
-      "description": "ARCHITECTURAL DESIGN 3 UNITS This course analyzes, applies, and evaluates construction materials, finishes, furnishings, and resources used in Interior Architectural Design through lectures and field trips. Topics of discussion include methods of detailing, fabrication, product innovation, as well as sustainability issues.",
+      "description": "This course analyzes, applies, and evaluates construction materials, finishes, furnishings, and resources used in Interior Architectural Design through lectures and field trips. Topics of discussion include methods of detailing, fabrication, product innovation, as well as sustainability issues.",
       "same_as": null,
       "sections": [
         {
@@ -119,11 +124,10 @@
             }
           ],
           "notes": [
-            "Above section 2421 meets for 12 weeks, Sep 23 to Dec 09, and is",
-            "a hybrid class taught online via the Internet and at the Center for For additional information, go to smc.edu/OnlineEd."
+            "Above section 2421 meets for 12 weeks, Sep 23 to Dec 09, and is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "12 weeks, Sep 23 to Dec 09",
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -139,7 +143,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": "ARC 20 or IARC 20, and ARC 21",
+      "advisory_notes": null,
       "formerly": "INTARC 40",
       "description": "Develop interior projects with an emphasis on concept development. Explore questions of sustainability, culture, and social responsibility within the context of buildings which are responsive to the environment and people utilizing them. Emphasis is placed on research, analysis, and conceptualization of ideas. Visual and oral presentations are used in the development of a course portfolio. It is recommended to take ARC 31 Design Communication 3 at the same time.",
       "same_as": null,
@@ -161,11 +167,10 @@
             }
           ],
           "notes": [
-            "Above section 2422 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+            "Above section 2422 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -181,7 +186,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": "ARC 30 or IARC 30, and ARC 31",
+      "advisory_notes": null,
       "formerly": "INTARC 45",
       "description": "Further design exploration in commercial and mixed-use spaces with more complex programs. Existing building is analyzed in terms of program, building systems, structure, form, and sustainability. Emphasis is placed on research and analysis of social, cultural, and environmental issues while collaborating with industry partners. Visual and oral presentations are used in the development of a course portfolio. It is recommended to take ARC 41 Design Communication 4 at the same time.",
       "same_as": null,
@@ -203,11 +210,10 @@
             }
           ],
           "notes": [
-            "Above section 2423 is a hybrid class taught online via the Internet",
-            "and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+            "Above section 2423 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
@@ -223,7 +229,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ARC 20 or IARC 20.",
+      "prerequisite_notes": null,
+      "advisory": "ARC 20 or IARC 20",
+      "advisory_notes": null,
       "formerly": "INTARC 50",
       "description": "This course explores the components of interior construction and building systems and examines current building requirements including federal, state, and local codes, regulations, and standards.",
       "same_as": null,

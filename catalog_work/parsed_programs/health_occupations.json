@@ -13,7 +13,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is designed to build the student’s medical and professional vocabulary as required for a career in the medical field or allied health sciences. Students undertake a comprehensive study of medical terminology with an emphasis on determining meanings by dividing words into their component parts. An overview of anatomy by each body system, including diagnostic, pathologic, therapeutic, surgical and pharmacologic terminology is completed. Common clinical procedures, laboratory tests and abbreviations are also included.",
       "same_as": null,
@@ -29,8 +31,8 @@
             }
           ],
           "notes": [
-            "Above section 2357 meets at the Bundy Campus, 3171 South",
-            "Bundy Drive, Los Angeles CA 90066. Above section modality is"
+            "Above section 2357 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
           ],
           "duration": null,
           "modality": null,

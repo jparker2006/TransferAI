@@ -16,7 +16,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course provides students with basic vocabulary and fundamental sentence structures in the present and past tenses, using the nominative, locative and accusative and genitive case of nouns and pronouns. Basic listening and reading comprehension is developed, and students engage in conversation, make oral presentations, and write brief compositions. Significant geographic, historical, literary and contemporary political, social and cultural issues are also introduced.",
       "same_as": null,
@@ -41,7 +43,7 @@
             "Above section 4183 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]

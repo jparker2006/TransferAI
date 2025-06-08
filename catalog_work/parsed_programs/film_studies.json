@@ -14,7 +14,9 @@
       "cal_getc_area": "Cal-GETC Area 3A (Arts)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": "CINEMA 9",
       "description": "This course will introduce the art, technology, language, and appreciation of film, exploring the varieties of film experience, film and the other arts, and the ways of viewing. Students will learn about the basic cinematic techniques and structures, including mise-en-scene and montage, use of cinematic time and space, the image, soundtrack, and the script. Consideration will also be given to analyzing the fundamentals of film production, directing, acting, and editing; how the elements of the production process are analyzed separately, then brought together to show how they create the emotional and intellectual impact of the film experience. Film examples will be screened in class. This course is intended as a beginning course to introduce students to cinema.",
       "same_as": null,
@@ -48,10 +50,7 @@
           ],
           "notes": [
             "Above section 2281 meets at the Center for Media and Design,",
-            "1660 Stewart Street, Santa Monica CA 90404. Above section",
-            "is part of the Scholars Program and enrollment is temporarily",
-            "limited to program participants. See the Special Programs section",
-            "of the class schedule or smc.edu/scholars for more information.",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information.",
             "Above section modality is On Ground."
           ],
           "duration": null,
@@ -193,7 +192,9 @@
       "cal_getc_area": "Cal-GETC Area 3A (Arts)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": "CINEMA 1",
       "description": "A broad survey is made of the history, theory, techniques, and development of motion pictures. The history of film as a major art form and its major artists, works, and styles are emphasized. Film examples are screened in class.",
       "same_as": null,
@@ -243,7 +244,8 @@
             }
           ],
           "notes": [
-            "Theme: History of American Cinema. Above section modality is"
+            "Theme: History of American Cinema. Above section modality is",
+            "Scheduled."
           ],
           "duration": null,
           "modality": null,
@@ -263,7 +265,9 @@
       "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": "CINEMA 5",
       "description": "This course presents motion pictures as reflections and influences of American society. Films are often selected from specific decades and analyzed as records of social attitudes shaping the present and past.",
       "same_as": null,
@@ -296,8 +300,7 @@
             }
           ],
           "notes": [
-            "Theme: The 1980s in American Cinema. Above section 2292",
-            "meets at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+            "Theme: The 1980s in American Cinema. Above section 2292 meets at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -314,13 +317,15 @@
         "CSU"
       ],
       "c_id": null,
-      "cal_getc_area": "Cal-GETC Area 3A (Arts)",
+      "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
       "special_notes": [
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
-      "advisory": "FILM 2, Eligibility for English 1.",
-      "formerly": "CINEMA 4",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": "CINEMA 7",
       "description": "This course surveys American motion pictures that have been made by filmmakers representing three United States ethnic groups, including African Americans, Latino Americans, and Asian Americans. Students will also analyze Hollywood’s treatment of those ethnic cultures throughout film history.",
       "same_as": null,
       "sections": [
@@ -336,13 +341,33 @@
           ],
           "notes": [
             "Above section 2293 meets at the Center for Media and Design,",
-            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground.",
-            "gangster film, crime and detective thriller (“film noir”), musical, comedy, or horror film."
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
           "co_enrollment_with": null
-        },
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 8",
+      "course_title": "THE POPULAR FILM GENRES",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 3A (Arts)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": "CINEMA 2",
+      "description": "This introductory course surveys the development and artistic, social, and entertainment ingredients of basic film genres. Emphasis on such types as the science-fiction film, western, gangster film, crime and detective thriller (“film noir”), musical, comedy, or horror film.",
+      "same_as": null,
+      "sections": [
         {
           "section_number": "2294",
           "schedule": [
@@ -371,14 +396,33 @@
             }
           ],
           "notes": [
-            "Theme: The Western. Above section modality is Scheduled.",
-            "producers, and/or actors, examining their work in artistic,",
-            "social, and historical terms. The course content and emphasis changes each term."
+            "Theme: The Western. Above section modality is Scheduled."
           ],
           "duration": null,
           "modality": "Scheduled",
           "co_enrollment_with": null
-        },
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 9",
+      "course_title": "THE GREAT FILM MAKERS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "FILM 2, Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": "CINEMA 4",
+      "description": "This course covers a limited number of film directors, writers, producers, and/or actors, examining their work in artistic, social, and historical terms. The course content and emphasis changes each term.",
+      "same_as": null,
+      "sections": [
         {
           "section_number": "2296",
           "schedule": [
@@ -390,6 +434,7 @@
             }
           ],
           "notes": [
+            "Theme: The Master of Horror and Suspense: Alfred Hitchcock.",
             "Above section modality is Scheduled."
           ],
           "duration": null,
@@ -407,9 +452,7 @@
             }
           ],
           "notes": [
-            "Theme: The Films of David Fincher. Above section 2297 meets",
-            "at the Center for Media and Design, 1660 Stewart Street, Santa",
-            "Monica CA 90404. Above section modality is On Ground."
+            "Theme: The Films of David Fincher. Above section 2297 meets at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
@@ -429,7 +472,9 @@
       "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ENGL C1000 (formerly ENGL 1).",
+      "prerequisite_notes": null,
+      "advisory": "ENGL C1000 (formerly ENGL 1)",
+      "advisory_notes": null,
       "formerly": "same course as ENGL 11",
       "description": "In this course, students will explore literary classics on screen, comparing the narrative dynamics of cinema and literature by comparing the text with the film. In so doing, students will gain an understanding of the text to film adaptation process, the expressive powers of each, and each medium’s unique potentialities and deficiencies. Selected novels, short stories, plays, and nonfiction works will be examined as each evolves into film.",
       "same_as": null,
@@ -465,7 +510,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "ENGL C1000 (formerly ENGL 1).",
+      "prerequisite_notes": null,
+      "advisory": "ENGL C1000 (formerly ENGL 1)",
+      "advisory_notes": null,
       "formerly": "CINEMA 11A",
       "description": "This course is designed to teach the student the basic tools of scriptwriting for film, television, or theater, focusing on the aesthetic and commercial demands of each medium.",
       "same_as": null,
@@ -537,7 +584,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": "FILM 20.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": "CINEMA 11B",
       "description": "This course is designed to provide intermediate level training in skills required to create scripts for film, television, or theatre. Techniques of writing and marketing scripts are explored.",
       "same_as": null,
@@ -608,7 +657,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "FILM 20.",
+      "prerequisite_notes": null,
+      "advisory": "FILM 20",
+      "advisory_notes": null,
       "formerly": "CINEMA 3",
       "description": "This course is designed for students who are interested in transforming a creative concept into a practical production plan. By viewing, discussing, and analyzing scripts, television, and film, students will learn skills necessary to start production of a film or video.",
       "same_as": null,
@@ -662,7 +713,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This is an introductory course covering both the basic techniques of digital filmmaking and of critical appreciation, while emphasizing students’ personal and creative expression. Topics will include the theory and practice of visualization, the grammar of cinematic storytelling, the aesthetics of various film movements, camera technique, lighting, sound recording, directing, and other fundamentals related to learning the craft of digital filmmaking. Students will engage in critical appreciation and individual and group analysis of movies, as well as in filming exercises under the direct and continuous supervision of their instructor.",
       "same_as": null,
@@ -719,7 +772,9 @@
         "Corequisite: FILM 32L."
       ],
       "prerequisites": "FILM 31.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course focuses on intermediate techniques of digital filmmaking and theoretical and critical rubrics, allowing the student to gain proficiency in producing, directing, cinematography, production design, sound recording, grip/electric, and editing. Students learn the roles and responsibilities of various facets of the filmmaking process during pre-production, production and post-production. Working with previously produced scenes written by industry professionals, students learn skills that include the visualization of the screenplay, script breakdown, preparation of shot lists, direction of actors, and the staging of action for the camera.",
       "same_as": null,
@@ -775,9 +830,11 @@
         "Corequisite: FILM 32."
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "LAB 1 UNIT This course focuses on intermediate techniques of digital filmmaking and theoretical and critical rubrics, allowing the student to gain proficiency in producing, directing, cinematography, production design, sound recording, grip/electric, and editing. Students learn the roles and responsibilities of various facets of the filmmaking process during pre-production, production and post-production. Working with previously produced scenes written by industry professionals, students learn skills that include the visualization of the screenplay, script breakdown, preparation of shot lists, direction of actors, and the staging of action for the camera.",
+      "description": "This course focuses on intermediate techniques of digital filmmaking and theoretical and critical rubrics, allowing the student to gain proficiency in producing, directing, cinematography, production design, sound recording, grip/electric, and editing. Students learn the roles and responsibilities of various facets of the filmmaking process during pre-production, production and post-production. Working with previously produced scenes written by industry professionals, students learn skills that include the visualization of the screenplay, script breakdown, preparation of shot lists, direction of actors, and the staging of action for the camera.",
       "same_as": null,
       "sections": [
         {
@@ -832,7 +889,9 @@
         "Corequisite: FILM 33L."
       ],
       "prerequisites": "FILM 32.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "In this course, students go through the process of making a short narrative film together, emulating a professional working environment. Supervised by their instructor, students develop, pre-produce, rehearse, shoot, and edit scenes from an original screenplay that is filmed in its entirety in the lab component course (Film 33L) at the end of the semester.",
       "same_as": null,
@@ -870,7 +929,9 @@
         "Corequisite: FILM 33."
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "In this course students will collectively develop and shoot one narrative short film throughout the semester. This course is the laboratory component for Film 33 and will parallel the lecture topics of that course.",
       "same_as": null,
@@ -915,7 +976,9 @@
         "Corequisite: FILM 34L."
       ],
       "prerequisites": "FILM 32.",
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course focuses on advanced techniques of digital filmmaking and theoretical and critical rubrics, allowing the student to gain increased proficiency in producing, directing, cinematography, production design, sound recording, grip/ electric, and editing, while at the same time producing original content. Students hone their skills in various facets of the filmmaking process during pre-production, production and post-production. Working with original content that has not yet been produced and/or material written by themselves, students advance their skills in the visualization of the screenplay, script breakdown, preparation of shot lists, working with actors, and the staging of action for the camera.",
       "same_as": null,
@@ -953,7 +1016,9 @@
         "Corequisite: FILM 34."
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This is the laboratory component of Film 34. The laboratory projects will parallel the advanced filmmaking lecture topics taught in Film 34. The lab projects will foster advanced skills in producing, directing, cinematography, production design, sound recording, grip/electric, and editing. Students will produce elaborate and well-crafted original content based on narrative film scenes written by themselves or derived from scripts that have not yet been produced. These advanced projects will be filmed in their entirety in class, working in collaboration with all the students enrolled in the course.",
       "same_as": null,
@@ -996,7 +1061,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "In this hands-on course, students will delve into the art and craft of cinematography: the methods and techniques by which motion picture photography and lighting help give a film meaning and aesthetic purpose. Through lectures, demonstrations and exercises in a supervised classroom environment, students will learn to operate state-of-the-art digital and electronic equipment while applying the fundamental principles of lighting, composition, exposure, focus, lens selection, and camera dynamics into purposeful visual storytelling.",
       "same_as": null,
@@ -1032,7 +1099,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "Advanced study of the principles of Cinematography, which includes the technical and aesthetic discussion of film and digital cameras and their corresponding workflows. Film genres, lighting (light and shadows), composition, camera movement, and lens selection (Spherical & Anamorphic) are also discussed. The analysis of Cinematic Film format aspect ratios, their history and most common uses today, and a brief study of art history and painting. The interpretation of the meaning of color-related and applied to art direction, wardrobe, and production design, while carrying the process through color grading and color correction of the visual image (footage) to the ultimate presentation of the actual finished film.",
       "same_as": null,
@@ -1068,7 +1137,9 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course provides a practical in-depth study of the fundamental aspects of recording and mixing production sound for film and television. Subjects include: introduction to production sound equipment, location sound recording and mixing techniques, on-set sound assessment and troubleshooting, digital audio workstation basics, along with dialogue and ADR (automated dialogue replacement) recording and editing.",
       "same_as": null,
@@ -1110,9 +1181,11 @@
       "cal_getc_area": null,
       "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
-      "description": "STUDIES 1 UNIT",
+      "description": "Please see “Independent Studies” section.",
       "same_as": null,
       "sections": [
         {
@@ -1126,7 +1199,9 @@
             }
           ],
           "notes": [
-            "Above section 2315 meets for 12 weeks, Sep 22 to Dec 12."
+            "Above section 2315 meets for 12 weeks, Sep 22 to Dec 12.",
+            "Foreign Languages SMC offers courses in American Sign Language, Arabic, Chinese",
+            "(Mandarin), French, German, Hebrew, Italian, Japanese, Korean, Persian (Farsi), Portuguese, Russian, Spanish, and Turkish. Classes are listed under name of specific language."
           ],
           "duration": "12 weeks, Sep 22 to Dec 12",
           "modality": null,

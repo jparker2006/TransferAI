@@ -7,16 +7,15 @@
       "course_title": "MUSIC FOR EARLY CHILDHOOD EDUCATION",
       "units": "3 UNITS",
       "transfer_info": [
-        "UC",
         "CSU"
       ],
       "c_id": null,
-      "cal_getc_area": "Cal-GETC Area 3A (Arts)",
-      "special_notes": [
-        "Satisfies Global Citizenship"
-      ],
+      "cal_getc_area": null,
+      "special_notes": [],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is an introduction to teaching music classes for children ages infancy through age 6 in a group setting. Various music teaching techniques and teaching materials will be explored.",
       "same_as": "ECE 81",
@@ -32,15 +31,35 @@
             }
           ],
           "notes": [
-            "Above section 2706 meets at the Early Childhood Lab School",
-            "Campus, 1802 4th Street, Santa Monica CA 90404. Above section modality is On Ground.",
-            "music. Students will study musical instruments, musical elements in composition, styles, and performance practices of",
-            "different regions of the world. This course also explores artistic, social and historical contexts that lead to the development of different/cultural forms of music."
+            "Above section 2706 meets at the Early Childhood Lab School Campus, 1802 4th Street, Santa Monica CA 90404. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On Ground",
           "co_enrollment_with": null
-        },
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 29",
+      "course_title": "A WORLD OF MUSIC",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 3A (Arts)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course offers an exploration of Global cultures through music. Students will study musical instruments, musical elements in composition, styles, and performance practices of different regions of the world. This course also explores artistic, social and historical contexts that lead to the development of different/cultural forms of music.",
+      "same_as": null,
+      "sections": [
         {
           "section_number": "2715",
           "schedule": [
@@ -89,7 +108,9 @@
       "cal_getc_area": "Cal-GETC Area 3A (Arts)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is a survey of music in Western Civilization from Antiquity through Baroque (approximately 800 BC to 1750 AD). Emphasis is placed upon the principal composers and their works related to the history and philosophy of each stylistic period and interrelationships with the arts and humanities in general. The stylistic periods covered include GrecoRoman, Romanesque, Gothic, Renaissance and Baroque. The course is designed for the music major, but open to all.",
       "same_as": null,
@@ -126,7 +147,9 @@
       "cal_getc_area": "Cal-GETC Area 3A (Arts)",
       "special_notes": [],
       "prerequisites": null,
-      "advisory": "Eligibility for English 1.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is designed for the non-major. It utilizes a broad approach to musical literature, primarily of the sixteenth through twenty-first centuries, and its place in the cultural development of Western Civilization. It provides the tools for a basic understanding of music, an awareness of the primary musical styles, comprehension of the building blocks of music, and the development of an attentive level of listening.",
       "same_as": null,
@@ -177,8 +200,7 @@
           ],
           "notes": [
             "Above section 2720 meets at the Performing Arts Center, 1310",
-            "11th Street. Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See",
-            "the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On"
+            "11th Street. Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On",
@@ -200,7 +222,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course concentrates on the origin, development, and major musical styles of jazz music in American culture, with significant emphasis placed on the sociopolitical and economic realities that resulted in shaping the musical decisions of the primary innovators. The course will further illustrate how the multicultural intersection of the African-American, European-American, and Chicano/Latino communities has been and continues to be an essential element for the existence and proliferation of this uniquely American art form. Designed for the non-major but recommended for majors.",
       "same_as": null,
@@ -268,8 +292,7 @@
           ],
           "notes": [
             "Above section 2724 meets at the Performing Arts Center, 1310",
-            "11th Street. Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See",
-            "the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On"
+            "11th Street. Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On Ground."
           ],
           "duration": null,
           "modality": "On",
@@ -291,7 +314,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is a musical and cultural survey of popular music widely referred to as Rock & Roll. Musical trends are followed from influential traditions of early blues and jazz at the beginning of the twentieth century and include the emergence of Rock & Roll in the early 1950’s, Motown, the “British Invasion”, Art Rock, Heavy Metal, Punk, Rap and Hip-Hop, Techno, Grunge, Electronica, Garage Rock and Modern Rock.",
       "same_as": null,
@@ -330,7 +355,9 @@
         "Satisfies Global Citizenship"
       ],
       "prerequisites": null,
+      "prerequisite_notes": null,
       "advisory": null,
+      "advisory_notes": null,
       "formerly": null,
       "description": "This course is a survey of the music of Native Americans, European Americans, African Americans, Latino Americans and Asian Americans from their historical roots to the present, including blues, gospel, bluegrass, zydeco, salsa, mariachi, norteno, and taiko, and the impact of traditional music on American pop styles. The course examines musical elements, the role of music in society, and how music reflects culture. Students will develop listening and descriptive skills through a variety of media including recordings, video and live demonstration. The course is open to all regardless of previous musical background or experience.",
       "same_as": null,
@@ -355,7 +382,7 @@
             "Above section 2726 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         },
         {
@@ -378,7 +405,7 @@
             "Above section 2727 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "Hybrid",
           "co_enrollment_with": null
         }
       ]
