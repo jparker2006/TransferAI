@@ -33,6 +33,34 @@
       "year_id": "75",
       "sending_id": "137",
       "receiving_id": "7",
+      "major_key": "0007c6b9-0264-42a2-a7fa-08dca807bc76",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/biology_human_biology_bs.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/biology_human_biology_bs.json",
+      "major_key": "0007c6b9-0264-42a2-a7fa-08dca807bc76"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
+      "major_key": "b38d48c3-21f2-4b61-a7f8-08dca807bc76",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/latin_american_studies_ba.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/latin_american_studies_ba.json",
+      "major_key": "b38d48c3-21f2-4b61-a7f8-08dca807bc76"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
       "major_key": "efc08f00-d575-4ea6-a7f5-08dca807bc76",
       "output_dir": "json"
     },
@@ -83,6 +111,20 @@
       "input_file": "json/santa_monica_college/university_of_california_san_diego/geosciences_bs.json",
       "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/geosciences_bs.json",
       "major_key": "92bd8ed9-960d-4783-6733-08dca807bc66"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
+      "major_key": "d1f77926-7f10-44c0-6732-08dca807bc66",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/political_science_public_policy_ba.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/political_science_public_policy_ba.json",
+      "major_key": "d1f77926-7f10-44c0-6732-08dca807bc66"
     },
     {
       "type": "download",
@@ -153,6 +195,34 @@
       "input_file": "json/santa_monica_college/university_of_california_san_diego/critical_gender_studies_ba.json",
       "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/critical_gender_studies_ba.json",
       "major_key": "408160ff-0f6c-45ba-6764-08dca807bc66"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
+      "major_key": "6e744c7a-402f-40ad-675a-08dca807bc66",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/political_science_comparative_politics_ba.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/political_science_comparative_politics_ba.json",
+      "major_key": "6e744c7a-402f-40ad-675a-08dca807bc66"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
+      "major_key": "42fe6779-b0e5-42f8-6758-08dca807bc66",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/biology_microbiology_bs.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/biology_microbiology_bs.json",
+      "major_key": "42fe6779-b0e5-42f8-6758-08dca807bc66"
     },
     {
       "type": "download",
@@ -243,6 +313,34 @@
       "year_id": "75",
       "sending_id": "137",
       "receiving_id": "7",
+      "major_key": "cf34777e-4718-4edd-a812-08dca807bc76",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/economics_management_science_bs.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/economics_management_science_bs.json",
+      "major_key": "cf34777e-4718-4edd-a812-08dca807bc76"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
+      "major_key": "bcf0bde0-0b82-400b-a80f-08dca807bc76",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/economics_ba.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/economics_ba.json",
+      "major_key": "bcf0bde0-0b82-400b-a80f-08dca807bc76"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
       "major_key": "f975f10b-12ed-4c5c-a7e3-08dca807bc76",
       "output_dir": "json"
     },
@@ -265,6 +363,62 @@
       "input_file": "json/santa_monica_college/university_of_california_san_diego/dance_ba.json",
       "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/dance_ba.json",
       "major_key": "e21661cb-ad42-45a9-a7e2-08dca807bc76"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
+      "major_key": "5c6c840f-24b9-440e-a7e0-08dca807bc76",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/political_science_international_relations_ba.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/political_science_international_relations_ba.json",
+      "major_key": "5c6c840f-24b9-440e-a7e0-08dca807bc76"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
+      "major_key": "3f7c1dda-a712-4e43-a7df-08dca807bc76",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/italian_studies_ba.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/italian_studies_ba.json",
+      "major_key": "3f7c1dda-a712-4e43-a7df-08dca807bc76"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
+      "major_key": "fbfabc29-5bb3-4837-a7dd-08dca807bc76",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/russian_east_european_and_eurasian_studies_ba.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/russian_east_european_and_eurasian_studies_ba.json",
+      "major_key": "fbfabc29-5bb3-4837-a7dd-08dca807bc76"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
+      "major_key": "68c29e1a-266d-4fc9-a7dc-08dca807bc76",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/literatures_in_english_ba.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/literatures_in_english_ba.json",
+      "major_key": "68c29e1a-266d-4fc9-a7dc-08dca807bc76"
     },
     {
       "type": "download",
@@ -397,6 +551,20 @@
       "year_id": "75",
       "sending_id": "137",
       "receiving_id": "7",
+      "major_key": "a5a87a03-f429-43b4-a820-08dca807bc76",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/chemistry_and_biochemistry_molecular_synthesis_bs.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/chemistry_and_biochemistry_molecular_synthesis_bs.json",
+      "major_key": "a5a87a03-f429-43b4-a820-08dca807bc76"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
       "major_key": "a7ceeaed-d5a5-4419-a7f2-08dca807bc76",
       "output_dir": "json"
     },
@@ -425,6 +593,34 @@
       "year_id": "75",
       "sending_id": "137",
       "receiving_id": "7",
+      "major_key": "c4188e46-a34c-443b-a7ef-08dca807bc76",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/mathematics_applied_mathematics_bs.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/mathematics_applied_mathematics_bs.json",
+      "major_key": "c4188e46-a34c-443b-a7ef-08dca807bc76"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
+      "major_key": "5e7e8f40-9e18-451f-a7ed-08dca807bc76",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/mathematics_probability_and_statistics_bs.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/mathematics_probability_and_statistics_bs.json",
+      "major_key": "5e7e8f40-9e18-451f-a7ed-08dca807bc76"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
       "major_key": "f59c9ec7-ec6d-4bda-a7eb-08dca807bc76",
       "output_dir": "json"
     },
@@ -433,6 +629,34 @@
       "input_file": "json/santa_monica_college/university_of_california_san_diego/chemistry_and_biochemistry_chemistry_bs.json",
       "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/chemistry_and_biochemistry_chemistry_bs.json",
       "major_key": "f59c9ec7-ec6d-4bda-a7eb-08dca807bc76"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
+      "major_key": "364b8b47-1fa4-4d3a-a7e8-08dca807bc76",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/chemistry_and_biochemistry_biochemistry_bs.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/chemistry_and_biochemistry_biochemistry_bs.json",
+      "major_key": "364b8b47-1fa4-4d3a-a7e8-08dca807bc76"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
+      "major_key": "cb9f1c61-d0e6-4f51-6757-08dca807bc66",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/chemistry_and_biochemistry_pharmacological_chemistry_bs.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/chemistry_and_biochemistry_pharmacological_chemistry_bs.json",
+      "major_key": "cb9f1c61-d0e6-4f51-6757-08dca807bc66"
     },
     {
       "type": "download",
@@ -495,6 +719,20 @@
       "year_id": "75",
       "sending_id": "137",
       "receiving_id": "7",
+      "major_key": "9a7db071-aa91-4423-6751-08dca807bc66",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/biology_ecology_behavior_and_evolution_bs.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/biology_ecology_behavior_and_evolution_bs.json",
+      "major_key": "9a7db071-aa91-4423-6751-08dca807bc66"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
       "major_key": "6d6c193c-3abc-4498-674e-08dca807bc66",
       "output_dir": "json"
     },
@@ -509,6 +747,20 @@
       "year_id": "75",
       "sending_id": "137",
       "receiving_id": "7",
+      "major_key": "ed1917bc-cd29-4bba-674c-08dca807bc66",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/mathematics_computer_science_bs.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/mathematics_computer_science_bs.json",
+      "major_key": "ed1917bc-cd29-4bba-674c-08dca807bc66"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
       "major_key": "1fc69899-27d4-448e-6748-08dca807bc66",
       "output_dir": "json"
     },
@@ -517,6 +769,20 @@
       "input_file": "json/santa_monica_college/university_of_california_san_diego/sociology_ba.json",
       "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/sociology_ba.json",
       "major_key": "1fc69899-27d4-448e-6748-08dca807bc66"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
+      "major_key": "4b4e11f3-ccc2-4509-a80c-08dca807bc76",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/political_science_ba.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/political_science_ba.json",
+      "major_key": "4b4e11f3-ccc2-4509-a80c-08dca807bc76"
     },
     {
       "type": "download",
@@ -587,6 +853,20 @@
       "input_file": "json/santa_monica_college/university_of_california_san_diego/art_art_history_criticism_ba_visual_arts.json",
       "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/art_art_history_criticism_ba_visual_arts.json",
       "major_key": "0fe55179-90d4-4803-673b-08dca807bc66"
+    },
+    {
+      "type": "download",
+      "year_id": "75",
+      "sending_id": "137",
+      "receiving_id": "7",
+      "major_key": "5b334ef5-cfaf-4dd0-6710-08dca807bc66",
+      "output_dir": "json"
+    },
+    {
+      "type": "convert",
+      "input_file": "json/santa_monica_college/university_of_california_san_diego/jewish_studies_ba.json",
+      "output_file": "rag_output/santa_monica_college/university_of_california_san_diego/jewish_studies_ba.json",
+      "major_key": "5b334ef5-cfaf-4dd0-6710-08dca807bc66"
     },
     {
       "type": "download",

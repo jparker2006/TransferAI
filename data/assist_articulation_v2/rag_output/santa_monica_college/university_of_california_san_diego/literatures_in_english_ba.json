@@ -1,0 +1,290 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/68c29e1a-266d-4fc9-a7dc-08dca807bc76",
+  "agreement_title": "Literatures in English B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. For information about the Department of Literature, including checklists of lower-division and upper-division requirements for all of our majors, descriptions of current courses and current class schedules, please go to: http://literature.ucsd.edu/. Students electing the Literatures in English major can complete the majority of the lower-division requirements at most community colleges in California. As with all of the literature majors offered at UCSD, there is a secondary language and literature requirement (see choices of languages below). This entails required study in a language other than English and the attainment of proficiency in that language through the terminal course in that particular language sequence. For details on the secondary language &amp; literature requirement, please go to: http://literature.ucsd.edu/. Students can prepare for this requirement by taking lower-divisioncourses (enough to reach fluency level, usually one to two years) in American Sign Language, French, German, Greek, Hebrew, Italian, Korean, Latin, Russian, or Spanish. Literatures in English majors are required to complete: 1) Six lower-division courses: LTEN 21, 22, 23, 25 and 26, plus one of the following: LTEN 27, 28, or 29. 2) The secondary language and literature requirement in the chosen language. \ufeffSee appropriate lower-division articulated community college courses below."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LTEN 21: Introduction to the Literature of the British Isles: Pre 1660 (4.00 units)",
+              "sending_course_text": "(ENGL 5: British Literature 1 (3.00 units) AND ENGL 6: British Literature 2 (3.00 units))"
+            },
+            {
+              "receiving_course_text": "LTEN 22: Introduction to the Literature of the British Isles: 1660-1832 (4.00 units)",
+              "sending_course_text": "(ENGL 5: British Literature 1 (3.00 units) AND ENGL 6: British Literature 2 (3.00 units))"
+            },
+            {
+              "receiving_course_text": "LTEN 23: Introduction to the Literature of the British Isles: 1832-Present (4.00 units)",
+              "sending_course_text": "(ENGL 5: British Literature 1 (3.00 units) AND ENGL 6: British Literature 2 (3.00 units))"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LTEN 25: Introduction to the Literature of the United States, Beginnings to 1865 (4.00 units)",
+              "sending_course_text": "ENGL 7: American Literature 1 (3.00 units)"
+            },
+            {
+              "receiving_course_text": "LTEN 26: Introduction to the Literature of the United States, 1865 to the Present (4.00 units)",
+              "sending_course_text": "ENGL 8: American Literature 2 (3.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "C",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LTEN 27: Introduction to African American Literature (4.00 units)",
+              "sending_course_text": "ENGL 34: Afro-American Literature (3.00 units)"
+            },
+            {
+              "receiving_course_text": "LTEN 28: Introduction to Asian-American Literature (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTEN 29: Introduction to Chicano Literature (4.00 units)",
+              "sending_course_text": "ENGL 53: Latino Literature in the United States (3.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "D",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LTLA 1: Beginning Latin (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTLA 2: Intermediate Latin I (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTLA 3: Intermediate Latin II (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "E",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LTGK 1: Beginning Greek (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTGK 2: Intermediate Greek I (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTGK 3: Intermediate Greek II (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "F",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LTFR 2A: Intermediate French I (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTFR 2B: Intermediate French II (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTFR 2C: Intermediate French III: Composition and Cultural Topics (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "G",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LTGM 2A: Intermediate German I (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTGM 2B: Intermediate German II (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTGM 2C: Intermediate German III (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "H",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LTIT 2A: Intermediate Italian I (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTIT 2B: Intermediate Italian II (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTIT 50: Advanced Italian (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "I",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LTSP 2A: Intermediate Spanish I: Foundations (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTSP 2B: Intermediate Spanish II: Readings and Composition (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTSP 2C: Intermediate Spanish III: Cultural Topics and Conversation (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTSP 2D: Intermediate/Advanced Spanish: Spanish for Bilingual Speakers (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTSP 2E: Advanced Readings and Composition for Bilingual Speakers (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "J",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "JWSP 1: Beginning Hebrew (5.00 units)",
+              "sending_course_text": "HEBREW 1: Elementary Hebrew I (5.00 units)"
+            },
+            {
+              "receiving_course_text": "JWSP 2: Intermediate Hebrew (5.00 units)",
+              "sending_course_text": "HEBREW 2: Elementary Hebrew II (5.00 units)"
+            },
+            {
+              "receiving_course_text": "JWSP 3: Intermediate Hebrew, Continued (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "K",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LTRU 1A: First-Year Russian (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTRU 1B: First-Year Russian (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTRU 1C: First-Year Russian (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTRU 2A: Second-Year Russian (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTRU 2B: Second-Year Russian (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "L",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LISL 1A: American Sign Language Conversation (2.50 units) AND LISL 1AX: Analysis of American Sign Language (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LISL 1B: American Sign Language Conversation (2.50 units) AND LISL 1BX: Analysis of American Sign Language (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LISL 1C: American Sign Language Conversation (2.50 units) AND LISL 1CX: Analysis of American Sign Language (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LISL 1D: American Sign Language Conversation (2.50 units) AND LISL 1DX: Analysis of American Sign Language (2.50 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LISL 1E: Intermediate American Sign Language Conversation (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "M",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LTKO 1A: Beginning Korean: First Year I (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTKO 1B: Beginning Korean: First Year II (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTKO 1C: Beginning Korean: First Year III (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTKO 2A: Intermediate Korean: Second Year I (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTKO 2B: Intermediate Korean: Second Year II (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTKO 2C: Intermediate Korean: Second Year III (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/0007c6b9-0264-42a2-a7fa-08dca807bc76",
+  "agreement_title": "Biology: Human Biology B.S.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Effective Fall 2017, transfer major preparation will be required for this major. For details, visit: http://admissions.ucsd.edu/MajorPrep. Please also refer to http://biology.ucsd.edu/education/undergrad/admission/transfer-major-prep.html for additional information. The courses listed below reflect requirements for transfer major preparation for admission consideration, as well as lower-division courses required for the major that may be completed at the community college. Special Advising Notes:** While not all lower division major requirements are required for transfer major preparation, the School of Biological Sciences encourages transfer students to complete all of the lower-division course work required for their desired biology major prior to transfer.**Additionally, students are highly encouraged to complete any sequence (Biology, Math, Physics, General Chemistry and Organic Chemistry) at the institution in which it is begun to allow for continuity in course material.**The articulated community college course(s) listed below have been approved to satisfy the respective UCSD course(s), however the content covered in the community college course(s) may not be identical to the content covered in the UCSD course(s). Any required major course that does not have an articulation will need to be taken at UCSD.**All courses required and used for the biology major must be completed with a letter grade of C- or better. This policy applies to all lower-division, upper-division, and required courses taken in other departments, as well as courses transferred and used toward major requirements.**Equivalency for BILD 1, 2, 3 and 4 is granted based on completion of the major\u2019s Biology course sequence at the community college (as listed below), not on individual community college course completion. No partial credit will be granted.**Agreements listed below are academic-year specific.For more information visit www.biology.ucsd.edu."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "BILD 1: The Cell (4.00 units)",
+              "sending_course_text": "(BIOL 21: Cell Biology and Evolution (4.00 units) AND BIOL 22: Genetics and Molecular Biology (4.00 units) AND BIOL 23: Organismal and Environmental Biology (5.00 units))"
+            },
+            {
+              "receiving_course_text": "BILD 2: Multicellular Life (4.00 units)",
+              "sending_course_text": "(BIOL 21: Cell Biology and Evolution (4.00 units) AND BIOL 22: Genetics and Molecular Biology (4.00 units) AND BIOL 23: Organismal and Environmental Biology (5.00 units))"
+            },
+            {
+              "receiving_course_text": "BILD 3: Organismic and Evolutionary Biology (4.00 units)",
+              "sending_course_text": "(BIOL 21: Cell Biology and Evolution (4.00 units) AND BIOL 22: Genetics and Molecular Biology (4.00 units) AND BIOL 23: Organismal and Environmental Biology (5.00 units))"
+            },
+            {
+              "receiving_course_text": "BILD 4: Introductory Biology Lab (2.00 units)",
+              "sending_course_text": "(BIOL 21: Cell Biology and Evolution (4.00 units) AND BIOL 22: Genetics and Molecular Biology (4.00 units) AND BIOL 23: Organismal and Environmental Biology (5.00 units))"
+            },
+            {
+              "receiving_course_text": "BILD 5: Data Analysis and Design for Biologists (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "CHEM 6A: General Chemistry I (4.00 units)",
+              "sending_course_text": "CHEM 11: General Chemistry I (5.00 units)"
+            },
+            {
+              "receiving_course_text": "CHEM 6B: General Chemistry II (4.00 units)",
+              "sending_course_text": "(CHEM 11: General Chemistry I (5.00 units) AND CHEM 12: General Chemistry II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "CHEM 6C: General Chemistry III (4.00 units)",
+              "sending_course_text": "CHEM 12: General Chemistry II (5.00 units)"
+            },
+            {
+              "receiving_course_text": "CHEM 7L: Introductory Inorganic Chemistry Laboratory (4.00 units)",
+              "sending_course_text": "(CHEM 11: General Chemistry I (5.00 units) AND CHEM 12: General Chemistry II (5.00 units))"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "CHEM 41A: Organic Chemistry I: Structure and Reactivity (4.00 units)",
+              "sending_course_text": "CHEM 21: Organic Chemistry I (5.00 units)"
+            },
+            {
+              "receiving_course_text": "CHEM 41B: Organic Chemistry II: Reactivity and Synthesis (4.00 units)",
+              "sending_course_text": "(CHEM 21: Organic Chemistry I (5.00 units) AND CHEM 22: Organic Chemistry II (4.00 units))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 3,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "Select A or B",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 10A: Calculus I (4.00 units)",
+              "sending_course_text": "MATH 7: Calculus 1 (5.00 units) OR MATH 28: Calculus 1 for Business and Social Science (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 10B: Calculus II (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units) OR (MATH 28: Calculus 1 for Business and Social Science (5.00 units) AND MATH 29: Calculus 2 for Business and Social Science (3.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 11: Calculus Based Elementary Probability and Statistics (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "MATH 20A: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "(MATH 7: Calculus 1 (5.00 units) AND MATH 8: Calculus 2 (5.00 units))"
+            },
+            {
+              "receiving_course_text": "MATH 20B: Calculus for Science and Engineering (4.00 units)",
+              "sending_course_text": "MATH 8: Calculus 2 (5.00 units)"
+            },
+            {
+              "receiving_course_text": "MATH 11: Calculus Based Elementary Probability and Statistics (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": 4,
+      "requirement_area": "LOWER DIVISION MAJOR REQUIREMENTS",
+      "group_instruction": "Select A, B, C, or D",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "PHYS 1A: Mechanics (3.00 units)",
+              "sending_course_text": "PHYSCS 8: Calculus-Based Physics 1 with Lab (4.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 1AL: Mechanics Laboratory (2.00 units)",
+              "sending_course_text": "PHYSCS 8: Calculus-Based Physics 1 with Lab (4.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 1B: Electricity and Magnetism (3.00 units)",
+              "sending_course_text": "PHYSCS 9: Calculus-Based Physics 2 with Lab (4.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 1BL: Electricity and Magnetism Laboratory (2.00 units)",
+              "sending_course_text": "PHYSCS 9: Calculus-Based Physics 2 with Lab (4.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 1C: Waves, Optics, and Modern Physics (3.00 units)",
+              "sending_course_text": "(PHYSCS 8: Calculus-Based Physics 1 with Lab (4.00 units) AND PHYSCS 9: Calculus-Based Physics 2 with Lab (4.00 units))"
+            },
+            {
+              "receiving_course_text": "PHYS 1CL: Waves, Optics, and Modern Physics Laboratory (2.00 units)",
+              "sending_course_text": "(PHYSCS 8: Calculus-Based Physics 1 with Lab (4.00 units) AND PHYSCS 9: Calculus-Based Physics 2 with Lab (4.00 units))"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "PHYS 2A: Physics - Mechanics (4.00 units)",
+              "sending_course_text": "PHYSCS 21: Mechanics with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2B: Physics - Electricity and Magnetism (4.00 units)",
+              "sending_course_text": "PHYSCS 22: Electricity and Magnetism with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2C: Physics - Fluids, Waves, Thermodynamics, and Optics (4.00 units)",
+              "sending_course_text": "PHYSCS 23: Fluids, Waves, Thermodynamics, Optics with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2BL: Physics Laboratory - Mechanics (2.00 units)",
+              "sending_course_text": "PHYSCS 21: Mechanics with Lab (5.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "C",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "PHYS 2A: Physics - Mechanics (4.00 units)",
+              "sending_course_text": "PHYSCS 21: Mechanics with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2B: Physics - Electricity and Magnetism (4.00 units)",
+              "sending_course_text": "PHYSCS 22: Electricity and Magnetism with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2C: Physics - Fluids, Waves, Thermodynamics, and Optics (4.00 units)",
+              "sending_course_text": "PHYSCS 23: Fluids, Waves, Thermodynamics, Optics with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2CL: Physics Laboratory - Electricity and Magnetism (2.00 units)",
+              "sending_course_text": "PHYSCS 22: Electricity and Magnetism with Lab (5.00 units)"
+            }
+          ]
+        },
+        {
+          "section_label": "D",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "PHYS 2A: Physics - Mechanics (4.00 units)",
+              "sending_course_text": "PHYSCS 21: Mechanics with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2B: Physics - Electricity and Magnetism (4.00 units)",
+              "sending_course_text": "PHYSCS 22: Electricity and Magnetism with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2C: Physics - Fluids, Waves, Thermodynamics, and Optics (4.00 units)",
+              "sending_course_text": "PHYSCS 23: Fluids, Waves, Thermodynamics, Optics with Lab (5.00 units)"
+            },
+            {
+              "receiving_course_text": "PHYS 2DL: Physics Laboratory-Modern Physics (2.00 units)",
+              "sending_course_text": "PHYSCS 23: Fluids, Waves, Thermodynamics, Optics with Lab (5.00 units) OR PHYSCS 24: Modern Physics with Lab (3.00 units)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

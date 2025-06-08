@@ -1,0 +1,54 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/3f7c1dda-a712-4e43-a7df-08dca807bc76",
+  "agreement_title": "Italian Studies B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation.Italian Studies is an interdisciplinary program in the language, literature, history, music, theater and art of Italy. Italian Studies coordinates the departments of History, Literature, Music, Visual Arts, and Theater and Dance and offers students the opportunity to design a major, leading to a B.A., around the course offerings of these five departments.For more information please visit http://caesar.ucsd.edu/italian/Required: 2 years lower division Italian language"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LIIT 1A: Italian Conversation (2.50 units) AND LIIT 1AX: Analysis of Italian (2.50 units)",
+              "sending_course_text": "(ITAL 1: Elementary Italian I (5.00 units) AND ITAL 2: Elementary Italian II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "LIIT 1B: Italian Conversation (2.50 units) AND LIIT 1BX: Analysis of Italian (2.50 units)",
+              "sending_course_text": "(ITAL 1: Elementary Italian I (5.00 units) AND ITAL 2: Elementary Italian II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "LIIT 1C: Italian Conversation (2.50 units) AND LIIT 1CX: Analysis of Italian (2.50 units)",
+              "sending_course_text": "(ITAL 1: Elementary Italian I (5.00 units) AND ITAL 2: Elementary Italian II (5.00 units))"
+            },
+            {
+              "receiving_course_text": "LTIT 2A: Intermediate Italian I (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTIT 2B: Intermediate Italian II (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTIT 50: Advanced Italian (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

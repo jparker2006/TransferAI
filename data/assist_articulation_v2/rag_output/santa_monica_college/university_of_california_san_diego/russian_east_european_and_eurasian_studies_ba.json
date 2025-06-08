@@ -1,0 +1,50 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/fbfabc29-5bb3-4837-a7dd-08dca807bc76",
+  "agreement_title": "Russian, East European, and Eurasian Studies B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation.Russian, East European, and Eurasian Studies (REEES) is an interdisciplinary program that provides a broad range of courses in the history, language, literature, and social and political life of Russia, Central and Eastern Europe, and former Soviet Eurasia. This region, which spans half the earth\u2019s time zones, is positioned at the crossroads between East and West. The region has undergone numerous political, social, economic, and cultural changes, especially since the end of the Soviet Union. The program is designed both for students of Russian who do not wish to restrict their Russian studies to literature, and students interested in studying the culture and history of the broad region from the Balkans to the Northern Steppes of Central Asia. The REEES program at UCSD consists of faculty members from across disciplines, and offers majors and minors that include courses in literature, history, communication, film, linguistics, sociology, and political science. Students are encouraged to pursue an independent study project with a faculty mentor in an area that directly interests them, and to take advantage of UCSD\u2019s study abroad program.For more information please visit https://iah.ucsd.edu/academics/reees/index.htmlRequired: 2 years of lower division Russian language"
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LTRU 1A: First-Year Russian (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTRU 1B: First-Year Russian (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTRU 1C: First-Year Russian (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTRU 2A: Second-Year Russian (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTRU 2B: Second-Year Russian (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

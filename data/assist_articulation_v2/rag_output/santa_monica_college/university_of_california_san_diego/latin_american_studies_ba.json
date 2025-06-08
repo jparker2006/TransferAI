@@ -1,0 +1,64 @@
+{
+  "source_url": "https://assist.org/transfer/results?year=75&institution=137&agreement=7&agreementType=to&viewAgreementsOptions=true&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=75/137/to/7/Major/b38d48c3-21f2-4b61-a7f8-08dca807bc76",
+  "agreement_title": "Latin American Studies B.A.",
+  "academic_year": "2024-2025",
+  "sending_institution": "Santa Monica College",
+  "receiving_institution": "University of California, San Diego",
+  "general_information": [
+    {
+      "text": "DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Latin American StudiesThe Bachelor of Arts in Latin American studies blends coverage of methodological and theoretical approaches to the study of Latin America with a broad foundation in the Humanities and Social Sciences through an interdisciplinary approach.This degree prepares students for careers in education, government, business and non-profit agencies. It also equips the student with strong research and writing skills in preparation for graduate school.To prepare for this major students may complete the language requirement at the community college level by taking courses equivalent to UCSD's course LTSP 2A (or above). Students who satisfy this requirement by examination are encouraged, but not required, to study Portuguese. Students are encouraged to enroll in courses that will develop strong reading and writing skills. Students are also strongly encouraged to participate in Education Abroad Programs in Latin America.For more information please visit las.ucsd.edu."
+    },
+    {
+      "text": "UC San Diego Advanced Placement (AP) and International Baccalaureate (IB) credit policies are detailed in the links below:Advanced Placement (AP) https://www.ucsd.edu/catalog/pdf/APC-chart.pdfInternational Baccalaureate (IB) https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart.pdf"
+    }
+  ],
+  "requirement_groups": [
+    {
+      "group_id": 1,
+      "requirement_area": "",
+      "group_instruction": "",
+      "sections": [
+        {
+          "section_label": "A",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LATI 10: Reading North by South: Latin American Studies and the US Liberation Movements (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LATI 50: Introduction to Latin America (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        },
+        {
+          "section_label": "B",
+          "section_rule": "",
+          "requirements": [
+            {
+              "receiving_course_text": "LTSP 2A: Intermediate Spanish I: Foundations (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTSP 2B: Intermediate Spanish II: Readings and Composition (5.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTSP 2C: Intermediate Spanish III: Cultural Topics and Conversation (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTSP 2D: Intermediate/Advanced Spanish: Spanish for Bilingual Speakers (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            },
+            {
+              "receiving_course_text": "LTSP 2E: Advanced Readings and Composition for Bilingual Speakers (4.00 units)",
+              "sending_course_text": "No Course Articulated"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
