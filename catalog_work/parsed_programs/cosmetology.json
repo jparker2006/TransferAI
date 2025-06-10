@@ -1339,254 +1339,6 @@
       "same_as": null,
       "sections": [
         {
-          "section_number": "1607",
-          "schedule": [
-            {
-              "time": "Arrange-4.5 Hours",
-              "days": "N",
-              "location": "ONLINE",
-              "instructor": "Moisan A V"
-            }
-          ],
-          "notes": [
-            "Above section 1607 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
-          ],
-          "duration": "8 weeks, Sep 03 to Oct 24",
-          "modality": "Flexible",
-          "co_enrollment_with": null
-        },
-        {
-          "section_number": "1608",
-          "schedule": [
-            {
-              "time": "Arrange-4.5 Hours",
-              "days": "N",
-              "location": "ONLINE",
-              "instructor": "Moisan A V"
-            }
-          ],
-          "notes": [
-            "Above section 1608 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
-          ],
-          "duration": "8 weeks, Oct 27 to Dec 19",
-          "modality": "Flexible",
-          "co_enrollment_with": null
-        }
-      ]
-    },
-    {
-      "course_code": "COSM 50E",
-      "course_title": "WRITTEN PREPARATION FOR ESTHETICIAN STATE BOARD EXAM",
-      "units": "1 UNIT",
-      "transfer_info": [],
-      "c_id": null,
-      "cal_getc_area": null,
-      "special_notes": [],
-      "prerequisites": null,
-      "prerequisite_notes": null,
-      "corequisites": null,
-      "advisory": "Completion of at least 400 hours of Esthetician coursework",
-      "advisory_notes": null,
-      "formerly": null,
-      "description": "This theory course is designed to successfully prepare the student to take the written portion of the National-Interstate Council of State Boards of Cosmetology (NIC) exam required to obtain an esthetician license. Written testing includes: disinfection, sanitation, health and safety, rules and regulations, bacteriology, anatomy and physiology, manual facials, chemical facials, electrical facials, advanced techniques of skin care, eyebrow tweezing, waxing and makeup procedures.",
-      "same_as": null,
-      "sections": [
-        {
-          "section_number": "1609",
-          "schedule": [
-            {
-              "time": "Arrange-3.5 Hours",
-              "days": "N",
-              "location": "ONLINE",
-              "instructor": "DiCamillo N"
-            }
-          ],
-          "notes": [
-            "Above section 1609 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
-          ],
-          "duration": "8 weeks, Sep 03 to Oct 24",
-          "modality": "Flexible",
-          "co_enrollment_with": null
-        },
-        {
-          "section_number": "1610",
-          "schedule": [
-            {
-              "time": "Arrange-3.5 Hours",
-              "days": "N",
-              "location": "ONLINE",
-              "instructor": "DiCamillo N"
-            }
-          ],
-          "notes": [
-            "Above section 1610 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
-          ],
-          "duration": "8 weeks, Oct 27 to Dec 19",
-          "modality": "Flexible",
-          "co_enrollment_with": null
-        }
-      ]
-    },
-    {
-      "course_code": "COSM 50N",
-      "course_title": "WRITTEN PREPARATION FOR NAIL CARE STATE BOARD EXAM",
-      "units": "1 UNIT",
-      "transfer_info": [],
-      "c_id": null,
-      "cal_getc_area": null,
-      "special_notes": [],
-      "prerequisites": null,
-      "prerequisite_notes": null,
-      "corequisites": null,
-      "advisory": "Completion of at least 300 hours of Nail Care coursework",
-      "advisory_notes": null,
-      "formerly": null,
-      "description": "This theory course is designed to successfully prepare the student to take the written portion of the National-Interstate Council of State Boards of Cosmetology (NIC) exam required to obtain a Manicuring license. Written testing includes: disinfection, sanitation, health and safety, rules and regulations, bacteriology, anatomy and physiology, manicuring, pedicuring, nail tips, acrylic and gel nails.",
-      "same_as": null,
-      "sections": [
-        {
-          "section_number": "1611",
-          "schedule": [
-            {
-              "time": "Arrange-3.5 Hours",
-              "days": "N",
-              "location": "ONLINE",
-              "instructor": "DiCamillo N"
-            }
-          ],
-          "notes": [
-            "Above section 1611 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
-          ],
-          "duration": "8 weeks, Sep 03 to Oct 24",
-          "modality": "Flexible",
-          "co_enrollment_with": null
-        },
-        {
-          "section_number": "1612",
-          "schedule": [
-            {
-              "time": "Arrange-3.5 Hours",
-              "days": "N",
-              "location": "ONLINE",
-              "instructor": "DiCamillo N"
-            }
-          ],
-          "notes": [
-            "Above section 1612 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
-          ],
-          "duration": "8 weeks, Oct 27 to Dec 19",
-          "modality": "Flexible",
-          "co_enrollment_with": null
-        }
-      ]
-    },
-    {
-      "course_code": "COSM 50R",
-      "course_title": "WRITTEN PREPARATION FOR BARBERING STATE BOARD EXAM",
-      "units": "1 UNIT",
-      "transfer_info": [],
-      "c_id": null,
-      "cal_getc_area": null,
-      "special_notes": [],
-      "prerequisites": "•  Possession of a cosmetology license or COSM 31A and COSM 50A and completion of 1,250 hours in barbering coursework.",
-      "prerequisite_notes": null,
-      "corequisites": null,
-      "advisory": null,
-      "advisory_notes": null,
-      "formerly": null,
-      "description": "This course is designed to prepare students for the NationalInterstate Council of State Boards of Cosmetology (NIC) exam required to obtain a barbering license. The course covers all topics in the written exam, including: disinfection, sanitation, health and safety, rules and regulations, bacteriology, anatomy, and physiology, advanced shaving and facial hair design, men’s hair cutting and styling, men’s chemical services and men’s facial massage and treatments.",
-      "same_as": null,
-      "sections": [
-        {
-          "section_number": "1613",
-          "schedule": [
-            {
-              "time": "Arrange-3.5 Hours",
-              "days": "N",
-              "location": "ONLINE",
-              "instructor": "DiCamillo N"
-            }
-          ],
-          "notes": [
-            "Above section 1613 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
-          ],
-          "duration": "8 weeks, Sep 03 to Oct 24",
-          "modality": "Flexible",
-          "co_enrollment_with": null
-        }
-      ]
-    },
-    {
-      "course_code": "COSM 64",
-      "course_title": "SALON MANAGEMENT",
-      "units": "2 UNITS",
-      "transfer_info": [],
-      "c_id": null,
-      "cal_getc_area": null,
-      "special_notes": [],
-      "prerequisites": null,
-      "prerequisite_notes": null,
-      "corequisites": null,
-      "advisory": null,
-      "advisory_notes": null,
-      "formerly": null,
-      "description": "This course presents an opportunity for a student/licensee to learn clientele building, choosing the right salon, types of leases and rent agreements, business permits, how to handle supplies, labor related laws, and key points for operating a salon, as well as how to write a resume. This course provides essential theory carefully formulated to prepare a student to pass the written Barbering, Cosmetology, Esthetics, and/or Nail Care State Board Examinations.",
-      "same_as": null,
-      "sections": [
-        {
-          "section_number": "1614",
-          "schedule": [
-            {
-              "time": "Arrange-4.5 Hours",
-              "days": "N",
-              "location": "ONLINE",
-              "instructor": "Manuel S M"
-            }
-          ],
-          "notes": [
-            "Above section 1614 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
-          ],
-          "duration": "8 weeks, Sep 03 to Oct 24",
-          "modality": "Flexible",
-          "co_enrollment_with": null
-        },
-        {
-          "section_number": "1615",
-          "schedule": [
-            {
-              "time": "Arrange-4.5 Hours",
-              "days": "N",
-              "location": "ONLINE",
-              "instructor": "Manuel S M"
-            }
-          ],
-          "notes": [
-            "Above section 1615 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
-          ],
-          "duration": "8 weeks, Oct 27 to Dec 19",
-          "modality": "Flexible",
-          "co_enrollment_with": null
-        }
-      ]
-    },
-    {
-      "course_code": "COSM 95A",
-      "course_title": "SALON EXPERIENCE",
-      "units": "1 UNIT",
-      "transfer_info": [],
-      "c_id": null,
-      "cal_getc_area": null,
-      "special_notes": [],
-      "prerequisites": "•  Completion of all beginning courses. Cosmetology students must have completed at least 300 classroom hours; Skin Care students must have completed 60 classroom hours; Nail Care students must have completed 40 classroom hours.",
-      "prerequisite_notes": null,
-      "corequisites": null,
-      "advisory": null,
-      "advisory_notes": null,
-      "formerly": null,
-      "description": "",
-      "same_as": null,
-      "sections": [
-        {
           "section_number": "1598",
           "schedule": [
             {
@@ -1831,7 +1583,255 @@
       "advisory": "Completion of at least 650 hours in Cosmetology",
       "advisory_notes": null,
       "formerly": null,
-      "description": "This course provides essential theory carefully formulated to prepare a student to pass the written Barbering and/or Cosmetology State Board Examination. Students are instructed in basic concepts of record keeping, facials, wet styling, scalp treatment, haircutting, perms, relaxing, hair color, thermal treatments, manicuring, and artificial nails. COSM 50A is mandatory for Cosmetology students. Students must have completed 650 hours in Cosmetology. COSM 95 is a variable unit course offered in four modules — A, B, C, or D. Students should sign up for the module that best fits their course schedules to maximize hours earned. This course is a module of a variable unit, variable hour, open-entry/open-exit experience provides the opportunity to obtain practical salon training working on patrons. The practical work is as close to actual beauty salon experience as possible. Students will earn hours toward the required practical hours and operations to be eligible to take the California State Board of Barbering, Cosmetology, Esthetics, and/or Nail Care exam, under the supervision of faculty. The student has fulfilled the salon requirement upon completion of 650-700 hours and has successful demonstration of all required operations.",
+      "description": "This course provides essential theory carefully formulated to prepare a student to pass the written Barbering and/or Cosmetology State Board Examination. Students are instructed in basic concepts of record keeping, facials, wet styling, scalp treatment, haircutting, perms, relaxing, hair color, thermal treatments, manicuring, and artificial nails. COSM 50A is mandatory for Cosmetology students. Students must have completed 650 hours in Cosmetology.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1607",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Moisan A V"
+            }
+          ],
+          "notes": [
+            "Above section 1607 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1608",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Moisan A V"
+            }
+          ],
+          "notes": [
+            "Above section 1608 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 50E",
+      "course_title": "WRITTEN PREPARATION FOR ESTHETICIAN STATE BOARD EXAM",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Completion of at least 400 hours of Esthetician coursework",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This theory course is designed to successfully prepare the student to take the written portion of the National-Interstate Council of State Boards of Cosmetology (NIC) exam required to obtain an esthetician license. Written testing includes: disinfection, sanitation, health and safety, rules and regulations, bacteriology, anatomy and physiology, manual facials, chemical facials, electrical facials, advanced techniques of skin care, eyebrow tweezing, waxing and makeup procedures.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1609",
+          "schedule": [
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "DiCamillo N"
+            }
+          ],
+          "notes": [
+            "Above section 1609 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1610",
+          "schedule": [
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "DiCamillo N"
+            }
+          ],
+          "notes": [
+            "Above section 1610 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 50N",
+      "course_title": "WRITTEN PREPARATION FOR NAIL CARE STATE BOARD EXAM",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Completion of at least 300 hours of Nail Care coursework",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This theory course is designed to successfully prepare the student to take the written portion of the National-Interstate Council of State Boards of Cosmetology (NIC) exam required to obtain a Manicuring license. Written testing includes: disinfection, sanitation, health and safety, rules and regulations, bacteriology, anatomy and physiology, manicuring, pedicuring, nail tips, acrylic and gel nails.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1611",
+          "schedule": [
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "DiCamillo N"
+            }
+          ],
+          "notes": [
+            "Above section 1611 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1612",
+          "schedule": [
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "DiCamillo N"
+            }
+          ],
+          "notes": [
+            "Above section 1612 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 50R",
+      "course_title": "WRITTEN PREPARATION FOR BARBERING STATE BOARD EXAM",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "•  Possession of a cosmetology license or COSM 31A and COSM 50A and completion of 1,250 hours in barbering coursework.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is designed to prepare students for the NationalInterstate Council of State Boards of Cosmetology (NIC) exam required to obtain a barbering license. The course covers all topics in the written exam, including: disinfection, sanitation, health and safety, rules and regulations, bacteriology, anatomy, and physiology, advanced shaving and facial hair design, men’s hair cutting and styling, men’s chemical services and men’s facial massage and treatments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1613",
+          "schedule": [
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "DiCamillo N"
+            }
+          ],
+          "notes": [
+            "Above section 1613 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 64",
+      "course_title": "SALON MANAGEMENT",
+      "units": "2 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course presents an opportunity for a student/licensee to learn clientele building, choosing the right salon, types of leases and rent agreements, business permits, how to handle supplies, labor related laws, and key points for operating a salon, as well as how to write a resume. This course provides essential theory carefully formulated to prepare a student to pass the written Barbering, Cosmetology, Esthetics, and/or Nail Care State Board Examinations.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1614",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Manuel S M"
+            }
+          ],
+          "notes": [
+            "Above section 1614 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1615",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Manuel S M"
+            }
+          ],
+          "notes": [
+            "Above section 1615 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 95A",
+      "course_title": "SALON EXPERIENCE",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "•  Completion of all beginning courses. Cosmetology students must have completed at least 300 classroom hours; Skin Care students must have completed 60 classroom hours; Nail Care students must have completed 40 classroom hours.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "COSM 95 is a variable unit course offered in four modules — A, B, C, or D. Students should sign up for the module that best fits their course schedules to maximize hours earned. This course is a module of a variable unit, variable hour, open-entry/open-exit experience provides the opportunity to obtain practical salon training working on patrons. The practical work is as close to actual beauty salon experience as possible. Students will earn hours toward the required practical hours and operations to be eligible to take the California State Board of Barbering, Cosmetology, Esthetics, and/or Nail Care exam, under the supervision of faculty. The student has fulfilled the salon requirement upon completion of 650-700 hours and has successful demonstration of all required operations.",
       "same_as": null,
       "sections": [
         {
@@ -1895,7 +1895,7 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "•  Completion of all beginning courses. Cosmetology students must have completed at least 300 classroom hours; Skin Care students must have completed 60 classroom hours; Nail Care students must have completed 40 classroom hours. COSM 95 is a variable unit course offered in four modules — A, B, C, or D. Students should sign up for the module that best fits their course schedules to maximize hours earned. This variable unit, variable hour, open-entry/open-exit experience provides the opportunity to obtain practical salon training working on patrons. The practical work is as close to actual beauty salon experience as possible. Students will earn hours toward the required practical hours and operations to be eligible to take the California State Board of Barbering, Cosmetology, Esthetics, and/or Nail Care exam under the",
+      "prerequisites": "•  Completion of all beginning courses. Cosmetology students must have completed at least 300 classroom hours; Skin Care students must have completed 60 classroom hours; Nail Care students must have completed 40 classroom hours.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
@@ -1931,7 +1931,7 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "•  Completion of all beginning courses. Cosmetology students must have completed at least 300 classroom hours; Skin Care students must have completed 60 classroom hours; Nail Care students must have completed 40 classroom hours. COSM 95 is a variable unit course offered in four modules — A, B, C, or D. Students should sign up for the module that best fits their course schedules to maximize hours earned. This variable unit, variable hour, open-entry/open-exit experience provides the opportunity to obtain practical salon training working on patrons. The practical work is as close to actual beauty salon experience as possible. Students will earn hours toward the required practical hours and operations to be eligible to take the California State Board of Barbering, Cosmetology, Esthetics, and/or Nail Care exam under the",
+      "prerequisites": "•  Completion of all beginning courses. Cosmetology students must have completed at least 300 classroom hours; Skin Care students must have completed 60 classroom hours; Nail Care students must have completed 40 classroom hours.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
@@ -1967,7 +1967,7 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "•  Completion of all beginning courses. Cosmetology students must have completed at least 300 classroom hours; Skin Care students must have completed 60 classroom hours; Nail Care students must have completed 40 classroom hours. COSM 95 is a variable unit course offered in four modules — A, B, C, or D. Students should sign up for the module that best fits their course schedules to maximize hours earned. This variable unit, variable hour, open-entry/open-exit experience provides the opportunity to obtain practical salon training working on patrons. The practical work is as close to actual beauty salon experience as possible. Students will earn hours toward the required practical hours and operations to be eligible to take the California State Board of Barbering, Cosmetology, Esthetics, and/or Nail Care exam under the",
+      "prerequisites": "•  Completion of all beginning courses. Cosmetology students must have completed at least 300 classroom hours; Skin Care students must have completed 60 classroom hours; Nail Care students must have completed 40 classroom hours.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,

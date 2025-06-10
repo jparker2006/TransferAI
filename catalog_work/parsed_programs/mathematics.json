@@ -6,25 +6,10 @@
       "course_code": "STAT C1000",
       "course_title": "INTRODUCTION TO STATISTICS WITH MATH 54C, CONCURRENT SUPPORT FOR ELEMENTARY STATISTICS",
       "units": "6 UNITS",
-      "transfer_info": [],
-      "c_id": null,
-      "cal_getc_area": null,
-      "special_notes": [],
-      "prerequisites": null,
-      "prerequisite_notes": null,
-      "corequisites": null,
-      "advisory": null,
-      "advisory_notes": null,
-      "formerly": null,
-      "description": "",
-      "same_as": null,
-      "sections": []
-    },
-    {
-      "course_code": "MATH 54C",
-      "course_title": "CONCURRENT SUPPORT FOR ELEMENTARY STATISTICS",
-      "units": "6 UNITS",
-      "transfer_info": [],
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
@@ -34,7 +19,7 @@
       "advisory": null,
       "advisory_notes": null,
       "formerly": "MATH 54",
-      "description": "STAT C1000 Transfer: UC, CSU; MATH 54C Transfer: None STAT C1000 is an introduction to statistical thinking and processes, including methods and concepts for discovery and decision-making using data. Topics include descriptive statistics; probability and sampling distributions; statistical inference; correlation and linear regression; analysis of variance, chi-squared, and t-tests; and application of technology for statistical analysis including the interpretation of the relevance of the statistical findings. Students apply methods and processes to applications using data from a broad range of disciplines. MATH 54C is a review of the core prerequisite skills, competencies, and concepts needed in statistics. Intended for students who are concurrently enrolled in STAT C1000, Introduction to Statistics. Topics include: concepts from arithmetic, pre-algebra, elementary and intermediate algebra that are needed to understand the basics of collegelevel statistics. Concepts are taught through the context of descriptive data analysis. Pass/No Pass only. CO-ENROLLMENT",
+      "description": "STAT C1000 is an introduction to statistical thinking and processes, including methods and concepts for discovery and decision-making using data. Topics include descriptive statistics; probability and sampling distributions; statistical inference; correlation and linear regression; analysis of variance, chi-squared, and t-tests; and application of technology for statistical analysis including the interpretation of the relevance of the statistical findings. Students apply methods and processes to applications using data from a broad range of disciplines. MATH 54C is a review of the core prerequisite skills, competencies, and concepts needed in statistics. Intended for students who are concurrently enrolled in STAT C1000, Introduction to Statistics. Topics include: concepts from arithmetic, pre-algebra, elementary and intermediate algebra that are needed to understand the basics of collegelevel statistics. Concepts are taught through the context of descriptive data analysis. Pass/No Pass only. CO-ENROLLMENT",
       "same_as": null,
       "sections": [
         {
@@ -1211,17 +1196,22 @@
       "course_code": "MATH 2",
       "course_title": "PRECALCULUS WITH MATH 2C, CONCURRENT SUPPORT FOR PRECALCULUS",
       "units": "7 UNITS",
-      "transfer_info": [],
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum UC credit for Math 2, Math 4, and Math 26 is one course."
+      ],
       "prerequisites": "•  Math 20 and Math 32.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
-      "description": "MATH 2 Transfer: UC*, CSU; MATH 2C Transfer: None *Maximum UC credit for Math 2, Math 4, and Math 26 is one course. Math 2: An intensive preparation for calculus. This course is intended for computer science, engineering, mathematics, and natural science majors. Topics include algebraic, exponential, logarithmic and trigonometric functions and their inverses and identities, conic sections, sequences, series, the binomial theorem and mathematical induction. The corequisite Math 2C: A review of the core prerequisite skills, competencies, and concepts needed in precalculus. Intended for students who are concurrently enrolled in Math 2, Precalculus. Topics include concepts from elementary algebra, geometry, and intermediate algebra that are needed to understand the basics of college-level precalculus. Emphasis is placed on real and complex numbers; fundamental operations on algebraic expressions and functions; algebraic factoring and simplification; introduction to functions, equations and graphs; circles and parabolas; properties of geometric figures, similarity, and special right triangles. Pass/No Pass only. CO-ENROLLMENT",
+      "description": "An intensive preparation for calculus. This course is intended for computer science, engineering, mathematics, and natural science majors. Topics include algebraic, exponential, logarithmic and trigonometric functions and their inverses and identities, conic sections, sequences, series, the binomial theorem and mathematical induction.",
       "same_as": null,
       "sections": [
         {
@@ -1711,25 +1701,9 @@
       "course_code": "MATH 3",
       "course_title": "TRIGONOMETRY WITH APPLICATIONS WITH MATH 3C, CONCURRENT SUPPORT FOR TRIGONOMETRY WITH APPLICATIONS",
       "units": "4 UNITS",
-      "transfer_info": [],
-      "c_id": null,
-      "cal_getc_area": null,
-      "special_notes": [],
-      "prerequisites": null,
-      "prerequisite_notes": null,
-      "corequisites": null,
-      "advisory": null,
-      "advisory_notes": null,
-      "formerly": null,
-      "description": "",
-      "same_as": null,
-      "sections": []
-    },
-    {
-      "course_code": "MATH 3C",
-      "course_title": "CONCURRENT SUPPORT FOR TRIGONOMETRY WITH APPLICATIONS",
-      "units": "4 UNITS",
-      "transfer_info": [],
+      "transfer_info": [
+        "CSU"
+      ],
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
@@ -1739,7 +1713,7 @@
       "advisory": "MATH 4 and eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
-      "description": "Math 3 Transfer: CSU; Math 3C Transfer: None Math 3: This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). Math 3 in combination with Math 4 (College Algebra for STEM Majors) serves as a prerequisite for Math 7 (Calculus 1). The course includes a study of the properties and graphs of trigonometric and inverse trigonometric functions, trigonometric identities, solutions of triangles, trigonometric equations, parametric equations, polar coordinates and polar equations, the algebra of vectors in two and three dimensions and topics from analytic geometry and applications. The co-requisite Math 3C is a review of the core prerequisite skills, competencies, and concepts needed in trigonometry. Intended for students who are concurrently enrolled in Math 3, Trigonometry with Applications. Topics include concepts from elementary and intermediate algebra and analytic geometry that are needed to understand the basics of trigonometry. Emphasis is placed on studying angles and their properties; geometric figures including circles and triangles; factoring and simplifying algebraic expressions; equations and graphs of circles; introduction to functions; fundamental operations on algebraic expressions and functions. Pass/No Pass only. CO-ENROLLMENT",
+      "description": "This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). Math 3 in combination with Math 4 (College Algebra for STEM Majors) serves as a prerequisite for Math 7 (Calculus 1). The course includes a study of the properties and graphs of trigonometric and inverse trigonometric functions, trigonometric identities, solutions of triangles, trigonometric equations, parametric equations, polar coordinates and polar equations, the algebra of vectors in two and three dimensions and topics from analytic geometry and applications. The co-requisite Math 3C is a review of the core prerequisite skills, competencies, and concepts needed in trigonometry. Intended for students who are concurrently enrolled in Math 3, Trigonometry with Applications. Topics include concepts from elementary and intermediate algebra and analytic geometry that are needed to understand the basics of trigonometry. Emphasis is placed on studying angles and their properties; geometric figures including circles and triangles; factoring and simplifying algebraic expressions; equations and graphs of circles; introduction to functions; fundamental operations on algebraic expressions and functions. Pass/No Pass only. CO-ENROLLMENT",
       "same_as": null,
       "sections": [
         {
@@ -1851,20 +1825,25 @@
       ]
     },
     {
-      "course_code": "WITH MATH 4C",
-      "course_title": "CONCURRENT SUPPORT FOR COLLEGE ALGEBRA FOR STEM MAJORS",
+      "course_code": "MATH 4",
+      "course_title": "COLLEGE ALGEBRA FOR STEM MAJORS WITH MATH 4C, CONCURRENT SUPPORT FOR COLLEGE ALGEBRA FOR STEM MAJORS",
       "units": "5 UNITS",
-      "transfer_info": [],
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2: Mathematical Concepts and Quantitative Reasoning",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units."
+      ],
       "prerequisites": "•  MATH 20.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
-      "description": "Math 4 Transfer: UC*, CSU; Math 4C Transfer: None *Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units. MATH 4: This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). MATH 4 in combination with MATH 3 (Trigonometry with applications) serves as a prerequisite for Math 7 (Calculus 1). The topics to be covered include review of the fundamentals of algebra, relations, functions, solutions of first and second degree equations and inequalities, systems of equations, matrices, binomial theorem, mathematical induction, polynomial and rational functions, exponential and logarithmic functions, analytic geometry and conic sections, and geometric and arithmetic sequences and series. The corequisite MATH 4C is a review of the core prerequisite skills, competencies, and concepts needed in College Algebra. Intended for students who are concurrently enrolled in MATH 4, College Algebra for STEM Majors. Topics include concepts from elementary and intermediate algebra and analytic geometry that are needed to understand the basics of college-level algebra. Emphasis is placed on real and complex numbers; fundamental operations on algebraic expressions and functions; factoring and simplifying algebraic expressions; introduction to functions, solving equations and systems of linear equations; graphs of elementary functions and their properties. Pass/No Pass only. CO-ENROLLMENT",
+      "description": "This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). MATH 4 in combination with MATH 3 (Trigonometry with applications) serves as a prerequisite for Math 7 (Calculus 1). The topics to be covered include review of the fundamentals of algebra, relations, functions, solutions of first and second degree equations and inequalities, systems of equations, matrices, binomial theorem, mathematical induction, polynomial and rational functions, exponential and logarithmic functions, analytic geometry and conic sections, and geometric and arithmetic sequences and series. The corequisite MATH 4C is a review of the core prerequisite skills, competencies, and concepts needed in College Algebra. Intended for students who are concurrently enrolled in MATH 4, College Algebra for STEM Majors. Topics include concepts from elementary and intermediate algebra and analytic geometry that are needed to understand the basics of college-level algebra. Emphasis is placed on real and complex numbers; fundamental operations on algebraic expressions and functions; factoring and simplifying algebraic expressions; introduction to functions, solving equations and systems of linear equations; graphs of elementary functions and their properties. Pass/No Pass only. CO-ENROLLMENT",
       "same_as": null,
       "sections": [
         {
@@ -3029,7 +3008,10 @@
       "course_code": "MATH 21",
       "course_title": "FINITE MATHEMATIC WITH MATH 21C, CONCURRENT SUPPORT FOR FINITE MATHEMATICS",
       "units": "4 UNITS",
-      "transfer_info": [],
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
@@ -3039,7 +3021,7 @@
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "21C, CONCURRENT SUPPORT FOR FINITE Math 21 Transfer: UC, CSU; MATH 21C Transfer: None Math 21: This is a terminal mathematics course for liberal arts and social science majors. Topics include sets and counting, probability, linear systems, linear programming, statistics, and mathematics of finance, with emphasis on applications. The corequisite Math 21C provides a review of the core prerequisite skills, competencies, and concepts needed for students who are concurrently enrolled in Finite Mathematics. Topics include theory, procedures, and practices from pre-algebra, beginning algebra, and intermediate algebra. Particular attention is paid to solving and graphing linear equations and inequalities, problem-solving and modeling strategies, translating and interpreting language for the purpose of formulating mathematical phrases and statements, simplifying arithmetic and algebraic expressions, and learning to use the appropriate technology (typically scientific calculators) needed in Math 21. Pass/No Pass only. CO-ENROLLMENT",
+      "description": "This is a terminal mathematics course for liberal arts and social science majors. Topics include sets and counting, probability, linear systems, linear programming, statistics, and mathematics of finance, with emphasis on applications. The corequisite Math 21C provides a review of the core prerequisite skills, competencies, and concepts needed for students who are concurrently enrolled in Finite Mathematics. Topics include theory, procedures, and practices from pre-algebra, beginning algebra, and intermediate algebra. Particular attention is paid to solving and graphing linear equations and inequalities, problem-solving and modeling strategies, translating and interpreting language for the purpose of formulating mathematical phrases and statements, simplifying arithmetic and algebraic expressions, and learning to use the appropriate technology (typically scientific calculators) needed in Math 21. Pass/No Pass only. CO-ENROLLMENT",
       "same_as": null,
       "sections": [
         {

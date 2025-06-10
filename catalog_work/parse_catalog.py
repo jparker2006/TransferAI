@@ -559,7 +559,8 @@ class SMCCatalogParser:
         
         # Additional checks for overly long titles (likely descriptions)
         words = title.split()
-        if len(words) > 15:  # Very long titles are suspicious
+        # Exception for combined courses with "CONCURRENT SUPPORT" - these are legitimately long
+        if len(words) > 15 and 'CONCURRENT SUPPORT' not in title_lower:  # Very long titles are suspicious
             return False
         
         # Check for legitimate course title patterns that start with articles
@@ -599,7 +600,14 @@ class SMCCatalogParser:
         
         # More robust approach: scan line by line looking for course patterns
         i = 0
+        combined_courses_found = set()  # Track combined courses to avoid duplicating their "C" components
+        consumed_lines = set()  # Track lines that are part of multi-line course titles
         while i < len(lines):
+            # Skip lines that were already consumed as part of multi-line titles
+            if i in consumed_lines:
+                i += 1
+                continue
+            
             line = lines[i].strip()
             
             # Look for course code pattern at the start of a line
@@ -608,6 +616,95 @@ class SMCCatalogParser:
             if course_match:
                 course_code = course_match.group(1)
                 title_start = course_match.group(2)
+                
+                # SPECIAL CASE: Handle complex combined course titles that span multiple lines
+                # Pattern 1: "MATH 4, COLLEGE ALGEBRA FOR STEM MAJORS" followed by "WITH MATH 4C, CONCURRENT SUPPORT..."
+                # Pattern 2: "STAT C1000, INTRODUCTION TO STATISTICS WITH" followed by "MATH 54C, CONCURRENT SUPPORT..."
+                # General patterns: 
+                #   - Course title ending with "WITH" + next line containing "CONCURRENT SUPPORT"
+                #   - Course title + next line starting with "WITH" and containing "CONCURRENT SUPPORT"
+                if (i + 1 < len(lines) and 
+                    ('CONCURRENT SUPPORT' in lines[i + 1].strip()) and
+                    (title_start.endswith('WITH') or lines[i + 1].strip().startswith('WITH'))):
+                    
+                    # This is a combined course - combine the title from both lines
+                    next_line = lines[i + 1].strip()
+                    combined_title = title_start + ' ' + next_line
+                    
+                    # Extract the C course code from the next line for tracking
+                    c_course_match = re.match(r'^([A-Z]+\s+\d+[A-Z]),', next_line)
+                    if c_course_match:
+                        c_course_code = c_course_match.group(1)
+                        combined_courses_found.add(c_course_code)
+                        consumed_lines.add(i + 1)  # Mark the next line as consumed
+                    
+                    # Look for units in the combined title or subsequent lines
+                    units_match = re.search(r'(\d+(?:\.\d+)?\s+UNITS?)(?:\s|$)', combined_title)
+                    if units_match:
+                        # Extract title without units
+                        title_only = combined_title[:units_match.start()].strip()
+                        units = units_match.group(1)
+                        
+                        courses.append((i, course_code, title_only, units))
+                        self.add_warning(f"Found combined multi-line course: {course_code} - {title_only}")
+                        
+                        # Skip the next line since we consumed it
+                        i += 2
+                        continue
+                    else:
+                        # Look ahead for units on subsequent lines
+                        j = i + 2
+                        units = None
+                        while j < len(lines) and j < i + 5:
+                            units_line = lines[j].strip()
+                            if not units_line:
+                                j += 1
+                                continue
+                            
+                            units_match = re.search(r'(\d+(?:\.\d+)?\s+UNITS?)(?:\s|$)', units_line)
+                            if units_match:
+                                before_units = units_line[:units_match.start()].strip()
+                                if before_units:
+                                    combined_title += ' ' + before_units
+                                units = units_match.group(1)
+                                consumed_lines.add(j)  # Mark this line as consumed too
+                                break
+                            elif (units_line.startswith(('Transfer:', 'C-ID:', 'Cal-GETC', '•')) or
+                                  re.match(r'^\d{4}\s+', units_line)):
+                                break
+                            else:
+                                combined_title += ' ' + units_line
+                                consumed_lines.add(j)  # Mark continuation lines as consumed
+                                j += 1
+                        
+                        if units:
+                            courses.append((i, course_code, combined_title, units))
+                            self.add_warning(f"Found complex multi-line course: {course_code} - {combined_title}")
+                            i = j + 1
+                            continue
+                
+                # ADDITIONAL CASE: Handle when the current line is a "C" course that's part of a combined title
+                # Example: "MATH 3C, CONCURRENT SUPPORT..." following "MATH 3, TRIGONOMETRY..."
+                # Example: "MATH 54C, CONCURRENT SUPPORT..." following "STAT C1000, INTRODUCTION TO STATISTICS WITH"
+                # Check if this is actually a continuation of a previous combined course
+                if ('CONCURRENT SUPPORT' in title_start and i > 0):
+                    
+                    # Look back to see if the previous line was the start of a combined course
+                    prev_line = lines[i - 1].strip() if i > 0 else ""
+                    
+                    # Check if previous line ended with "WITH" pattern (indicating a combined course)
+                    if prev_line.endswith('WITH'):
+                        # This line is a continuation of the previous combined course - skip it
+                        combined_courses_found.add(course_code)
+                        self.add_warning(f"Skipping {course_code} - continuation of combined course title on previous line")
+                        i += 1
+                        continue
+                
+                # Skip "C" courses if we already found their combined version
+                if course_code in combined_courses_found:
+                    self.add_warning(f"Skipping {course_code} - already included in combined course")
+                    i += 1
+                    continue
                 
                 # Check if the units are already on this line (single-line case)
                 # Updated to handle decimal units like "2.5 UNITS"
@@ -675,7 +772,7 @@ class SMCCatalogParser:
                         
                         courses.append((i, course_code, full_title, units))
                         self.add_warning(f"Found multi-line course: {course_code} - {full_title}")
-                
+            
             i += 1
         
         return courses
@@ -1289,8 +1386,12 @@ class SMCCatalogParser:
         # IMPROVED: Validate parsed sections and remove empty/invalid ones
         course.sections = self.validate_parsed_sections(course)
         
-        # TARGETED FIX: Handle specific English course parsing issues where descriptions got absorbed into prerequisites
-        course = self._fix_english_course_descriptions(course)
+        # TARGETED FIX: Handle specific course parsing issues where descriptions got absorbed into prerequisites
+        # or where transfer information leaked into descriptions.
+        # EXPANDED: Now handles mathematics courses and other complex cases.
+        course = self._fix_course_descriptions(course)
+        
+
         
         # Save remaining description lines
         if description_lines and not course.description:
@@ -1951,11 +2052,225 @@ class SMCCatalogParser:
             if co_enroll_match:
                 section.co_enrollment_with = co_enroll_match.group(1)
     
-    def _fix_english_course_descriptions(self, course: Course) -> Course:
+    def _fix_mathematics_transfer_descriptions(self, course: Course) -> Optional[Course]:
         """
-        Targeted fix for specific courses where descriptions got absorbed into prerequisites.
-        EXPANDED: Now handles all remaining courses with empty descriptions.
+        Fix mathematics courses where transfer information and descriptions got mixed together.
+        
+        Pattern: "COURSE1 Transfer: info; COURSE2 Transfer: info Description text"
         """
+        if not course.description:
+            return None
+        
+        # TARGETED FIX 1: STAT C1000 with transfer info leak (combined course)
+        if course.course_code == 'STAT C1000' and 'Transfer:' in course.description:
+            # Pattern: "STAT C1000 Transfer: UC, CSU; MATH 54C Transfer: None STAT C1000 is an introduction..."
+            pattern = r'STAT C1000 Transfer:\s*([^;]+);\s*MATH 54C Transfer:\s*([^S]+?)\s+(STAT C1000 is an introduction.+?)$'
+            match = re.search(pattern, course.description, re.DOTALL)
+            if match:
+                stat_transfer = match.group(1).strip()
+                math_transfer = match.group(2).strip()
+                description_text = match.group(3).strip()
+                
+                # Set transfer info for STAT C1000
+                if stat_transfer.lower() != 'none':
+                    course.transfer_info = [t.strip() for t in stat_transfer.split(',')]
+                
+                # Set the clean description
+                course.description = description_text
+                
+                # Add transfer limitation note to special_notes if MATH 54C had different transfer rules
+                if math_transfer.strip().lower() != 'none':
+                    if course.special_notes is None:
+                        course.special_notes = []
+                    course.special_notes.append(f"MATH 54C Transfer: {math_transfer.strip()}")
+                
+                self.add_warning(f"Fixed transfer info leak for {course.course_code}: extracted transfer info and description")
+                return course
+        
+        # TARGETED FIX 2: MATH 2 with co-enrollment (first instance)
+        if course.course_code == 'MATH 2' and course.units == '7 UNITS':
+            # Pattern: "MATH 2 Transfer: UC*, CSU; MATH 2C Transfer: None *Maximum UC credit... Math 2: Description..."
+            pattern = r'MATH 2 Transfer:\s*([^;]+);\s*MATH 2C Transfer:\s*([^*]+?)\s*(\*Maximum UC credit[^.]+\.)\s*Math 2:\s*(.+?)(?:\s*The corequisite Math 2C:|$)'
+            match = re.search(pattern, course.description, re.DOTALL)
+            if match:
+                math2_transfer = match.group(1).strip()
+                math2c_transfer = match.group(2).strip()
+                credit_note = match.group(3).strip()
+                description_text = match.group(4).strip()
+                
+                # Set transfer info
+                course.transfer_info = [t.strip().rstrip('*') for t in math2_transfer.split(',')]
+                
+                # Set description
+                course.description = description_text
+                
+                # Add special notes
+                if course.special_notes is None:
+                    course.special_notes = []
+                course.special_notes.append(credit_note)
+                if math2c_transfer.strip().lower() != 'none':
+                    course.special_notes.append(f"MATH 2C Transfer: {math2c_transfer.strip()}")
+                
+                # Extract co-enrollment info if present
+                coreq_match = re.search(r'The corequisite Math 2C:\s*(.+?)(?:\s*Pass/No Pass only\.|$)', course.description, re.DOTALL)
+                if coreq_match:
+                    coreq_description = coreq_match.group(1).strip()
+                    course.description += f" The corequisite Math 2C: {coreq_description}"
+                
+                self.add_warning(f"Fixed transfer info leak for {course.course_code} (7 units): extracted transfer info and description")
+                return course
+        
+        # TARGETED FIX 3: MATH 4 and MATH 4C courses with transfer info leak
+        if course.course_code in ['MATH 4', 'MATH 4C'] and 'Transfer:' in course.description:
+            # Pattern: "Math 4 Transfer: UC*, CSU; Math 4C Transfer: None *Maximum UC credit... MATH 4: Description..."
+            pattern = r'Math 4 Transfer:\s*([^;]+);\s*Math 4C Transfer:\s*([^*]+?)\s*(\*Maximum UC credit[^.]+\.)\s*MATH 4:\s*(.+?)$'
+            match = re.search(pattern, course.description, re.DOTALL)
+            if match:
+                math4_transfer = match.group(1).strip()
+                math4c_transfer = match.group(2).strip()
+                credit_note = match.group(3).strip()
+                description_text = match.group(4).strip()
+                
+                # Set transfer info (for MATH 4, use the Math 4 transfer; for MATH 4C, it gets "None" so don't set transfer_info)
+                if course.course_code == 'MATH 4':
+                    course.transfer_info = [t.strip().rstrip('*') for t in math4_transfer.split(',')]
+                
+                # Set description
+                course.description = description_text
+                
+                # Add special notes
+                if course.special_notes is None:
+                    course.special_notes = []
+                course.special_notes.append(credit_note)
+                if math4c_transfer.strip().lower() != 'none':
+                    course.special_notes.append(f"Math 4C Transfer: {math4c_transfer.strip()}")
+                
+                self.add_warning(f"Fixed transfer info leak for {course.course_code}: extracted transfer info and description")
+                return course
+        
+        # TARGETED FIX 3A: MATH 3 and MATH 3C courses with transfer info leak
+        if course.course_code in ['MATH 3', 'MATH 3C'] and 'Transfer:' in course.description:
+            # Pattern: "Math 3 Transfer: CSU; Math 3C Transfer: None Math 3: Description..."
+            pattern = r'Math 3 Transfer:\s*([^;]+);\s*Math 3C Transfer:\s*([^M]+?)\s*Math 3:\s*(.+?)$'
+            match = re.search(pattern, course.description, re.DOTALL)
+            if match:
+                math3_transfer = match.group(1).strip()
+                math3c_transfer = match.group(2).strip()
+                description_text = match.group(3).strip()
+                
+                # Set transfer info (for MATH 3, use the Math 3 transfer; for MATH 3C, it gets "None" so don't set transfer_info)
+                if course.course_code == 'MATH 3':
+                    course.transfer_info = [t.strip() for t in math3_transfer.split(',')]
+                
+                # Set description
+                course.description = description_text
+                
+                # Add special notes for co-enrollment course if applicable
+                if math3c_transfer.strip().lower() != 'none':
+                    if course.special_notes is None:
+                        course.special_notes = []
+                    course.special_notes.append(f"Math 3C Transfer: {math3c_transfer.strip()}")
+                
+                self.add_warning(f"Fixed transfer info leak for {course.course_code}: extracted transfer info and description")
+                return course
+        
+        # TARGETED FIX 3B: MATH 4C specific pattern (different from MATH 4)
+        if course.course_code in ['MATH 4C'] and course.description.startswith('Math 4 Transfer:'):
+            # Split the description to extract the components for MATH 4C
+            desc_parts = course.description.split('The corequisite MATH 4C is a review')
+            if len(desc_parts) >= 2:
+                # Extract just the MATH 4C description part
+                math4c_description = 'The corequisite MATH 4C is a review' + desc_parts[1]
+                course.description = math4c_description
+                
+                # Extract any credit notes that appear before the description
+                transfer_part = desc_parts[0]
+                credit_match = re.search(r'(\*Maximum UC credit[^.]+\.)', transfer_part)
+                if credit_match:
+                    credit_note = credit_match.group(1)
+                    if course.special_notes is None:
+                        course.special_notes = []
+                    course.special_notes.append(credit_note)
+                
+                self.add_warning(f"Fixed transfer info leak for {course.course_code}: extracted MATH 4C description")
+                return course
+        
+        # TARGETED FIX 4: MATH 21 courses
+        if course.course_code == 'MATH 21' and 'Transfer:' in course.description:
+            # Pattern: "Math 21 Transfer: UC, CSU; MATH 21C Transfer: None Math 21: Description..."
+            pattern = r'Math 21 Transfer:\s*([^;]+);\s*MATH 21C Transfer:\s*([^M]+?)\s*Math 21:\s*(.+?)$'
+            match = re.search(pattern, course.description, re.DOTALL)
+            if match:
+                math21_transfer = match.group(1).strip()
+                math21c_transfer = match.group(2).strip()
+                description_text = match.group(3).strip()
+                
+                # Set transfer info
+                course.transfer_info = [t.strip() for t in math21_transfer.split(',')]
+                
+                # Set description
+                course.description = description_text
+                
+                # Add special notes for co-enrollment course if applicable
+                if math21c_transfer.strip().lower() != 'none':
+                    if course.special_notes is None:
+                        course.special_notes = []
+                    course.special_notes.append(f"MATH 21C Transfer: {math21c_transfer.strip()}")
+                
+                self.add_warning(f"Fixed transfer info leak for {course.course_code}: extracted transfer info and description")
+                return course
+        
+        # TARGETED FIX 5: Handle description that starts with partial course title fragments
+        # This handles cases like "21C, CONCURRENT SUPPORT FOR FINITE Math 21 Transfer:..."
+        if course.description.startswith(('21C, CONCURRENT SUPPORT', 'C, CONCURRENT SUPPORT')):
+            # Extract the meaningful part after the transfer info
+            pattern = r'^[^M]*Math 21 Transfer:\s*([^;]+);\s*MATH 21C Transfer:\s*([^M]+?)\s*Math 21:\s*(.+?)$'
+            match = re.search(pattern, course.description, re.DOTALL)
+            if match:
+                math21_transfer = match.group(1).strip()
+                math21c_transfer = match.group(2).strip()
+                description_text = match.group(3).strip()
+                
+                # Set transfer info
+                course.transfer_info = [t.strip() for t in math21_transfer.split(',')]
+                
+                # Set description
+                course.description = description_text
+                
+                # Add special notes
+                if math21c_transfer.strip().lower() != 'none':
+                    if course.special_notes is None:
+                        course.special_notes = []
+                    course.special_notes.append(f"MATH 21C Transfer: {math21c_transfer.strip()}")
+                
+                self.add_warning(f"Fixed description fragment for {course.course_code}: extracted transfer info and description")
+                return course
+        
+        return None
+    
+    def _fix_course_descriptions(self, course: Course) -> Course:
+        """
+        Targeted fix for specific courses where descriptions got absorbed into prerequisites
+        or where transfer information leaked into descriptions.
+        EXPANDED: Now handles mathematics courses and other complex cases.
+        """
+        # Handle mathematics courses with transfer info leaked into descriptions
+        math_transfer_fixes = self._fix_mathematics_transfer_descriptions(course)
+        if math_transfer_fixes:
+            return math_transfer_fixes
+        
+        # TARGETED FIX: COSM 95 modules (A, B, C, D) - Remove variable unit duplication from prerequisites
+        if course.course_code.startswith('COSM 95') and course.course_code in ['COSM 95A', 'COSM 95B', 'COSM 95C', 'COSM 95D']:
+            if course.prerequisites and 'COSM 95 is a variable unit course' in course.prerequisites:
+                # Pattern: Extract only the actual prerequisite part before the variable unit explanation
+                prereq_pattern = r'(•\s+Completion of all beginning courses\..*?40 classroom hours\.)\s*COSM 95 is a variable unit course.*'
+                match = re.search(prereq_pattern, course.prerequisites, re.DOTALL)
+                if match:
+                    clean_prerequisites = match.group(1).strip()
+                    course.prerequisites = clean_prerequisites
+                    self.add_warning(f"Fixed COSM 95 duplication for {course.course_code}: removed variable unit info from prerequisites")
+                    return course
+        
         # Special handling for CHEM 19 which has wrong description
         if course.course_code == 'CHEM 19':
             pass  # Continue to fix logic below
@@ -2228,6 +2543,8 @@ class SMCCatalogParser:
                 fixed_courses.append(engl_28_course)
         
         return fixed_courses
+    
+
 
 
 # Example usage
