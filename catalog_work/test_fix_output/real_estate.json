@@ -1,0 +1,43 @@
+{
+  "program_name": "Real Estate",
+  "program_description": "",
+  "courses": [
+    {
+      "course_code": "REALES 3",
+      "course_title": "REAL ESTATE PRACTICE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course covers the day-to-day of real estate sales and brokerage practices. Students will learn the fundamentals of representing sellers, buyers, property owners, and tenants, and the associated compensation structures. Essential topics include adhering to California’s regulatory framework for advertising real estate services, handling client funds responsibly, and ensuring proper disclosure as licensed real estate professionals. This course complies with current California Department of Real Estate requirements on implicit, explicit, and systemic biases and an interactive federal fair housing component.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3066",
+          "schedule": [
+            {
+              "time": "3:45p.m.-5:05p.m.",
+              "days": "MW",
+              "location": "BUS 106",
+              "instructor": "Macias J F"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

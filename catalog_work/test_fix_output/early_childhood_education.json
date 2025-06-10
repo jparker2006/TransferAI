@@ -1,0 +1,1092 @@
+{
+  "program_name": "Early Childhood Education",
+  "program_description": "Students taking ECE courses that include field work may be required to pay for Live Scan fingerprinting, TB test, and show proof of current immunization for measles, pertussis, and the flu.",
+  "courses": [
+    {
+      "course_code": "ECE 2",
+      "course_title": "PRINCIPLES AND PRACTICES OF TEACHING YOUNG CHILDREN",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": "ECE 120",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "PSYCH 11",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course examines the historical contexts and theoretical principles of developmentally appropriate and best practices in early care and education for children birth through age eight. It explores the typical roles and expectations of early childhood educators. It identifies professional ethics, career pathways, and professional standards. It introduces best practices for developmentally appropriate learning environments, curriculum, and effective pedagogy for young children including how play contributes to children’s learning, growth, and development. This class is appropriate for students wanting to work with young children in a variety of programs, including infant-toddler, preschool, transitional kindergarten, and kindergarten.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1836",
+          "schedule": [
+            {
+              "time": "10:00a.m.-1:05p.m.",
+              "days": "M",
+              "location": "ECLS 208",
+              "instructor": "Mosley K R"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Mosley K R"
+            }
+          ],
+          "notes": [
+            "Above section 1836 meets for 8 weeks, Sep 08 to Oct 20, and is a hybrid class taught online via the Internet and at the Early Childhood Lab School Campus, 1802 4th Street, Santa Monica CA",
+            "90404. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": "8 weeks, Sep 08 to Oct 20",
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1837",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Huff G F"
+            }
+          ],
+          "notes": [
+            "Above section 1837 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1838",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Richard C"
+            }
+          ],
+          "notes": [
+            "Above section 1838 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1839",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Mosley K R"
+            }
+          ],
+          "notes": [
+            "Above section 1839 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 4",
+      "course_title": "LANGUAGE AND LITERATURE FOR THE YOUNG CHILD",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "PSYCH 11",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course provides a developmental framework for planning and implementing experiences that support and extend children’s abilities to use language as a means of communication, as a medium of creative expression and as a tool in the development of logical thought. It introduces techniques for assessing children’s language skills and for developing a program to meet those needs through individual interactions and group activities. The course reviews the current research pertaining to language acquisition and pre-reading skills development within a culturally sensitive framework. Students will review children’s literature and obtain practice in story selection, reading and storytelling to young children.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1840",
+          "schedule": [
+            {
+              "time": "10:00a.m.-1:05p.m.",
+              "days": "Th",
+              "location": "ECLS 208",
+              "instructor": "Elam E J"
+            },
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Elam E J"
+            }
+          ],
+          "notes": [
+            "Above section 1840 meets for 8 weeks, Oct 30 to Dec 18, and is a hybrid class taught online via the Internet and at the Early Childhood Lab School Campus, 1802 4th Street, Santa Monica CA",
+            "90404. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": "8 weeks, Oct 30 to Dec 18",
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 8",
+      "course_title": "CREATIVE EXPERIENCES – ART, MUSIC, AND MOVEMENT",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "PSYCH 11",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course applies child development principles to planning multicultural art, music, and movement experiences for young children. It covers the role of art, music, and movement in developing children’s physical-motor, social-emotional, and cognitive skills, with emphasis on providing conditions that encourage development of creativity and aesthetic awareness. Class work includes workshops and field experiences in planning and implementing appropriate creative experiences with young children.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1841",
+          "schedule": [
+            {
+              "time": "10:00a.m.-1:05p.m.",
+              "days": "Th",
+              "location": "ECLS 208",
+              "instructor": "Elam E J"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Elam E J"
+            }
+          ],
+          "notes": [
+            "Above section 1841 meets for 8 weeks, Sep 04 to Oct 23, and is a hybrid class taught online via the Internet and at the Early Childhood Lab School Campus, 1802 4th Street, Santa Monica CA",
+            "90404. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": "8 weeks, Sep 04 to Oct 23",
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 11",
+      "course_title": "CHILD, FAMILY AND COMMUNITY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "CDEV 110",
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "PSYCH 11",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is an examination of the developing child in a societal context, focusing on the interrelationship of family, school and community and the influence of multiple societal contexts. It explores the role of collaboration between family, community, and schools in supporting children’s development, birth through adolescence. Studies of family systems in contemporary society as they impact children and their individual heritage, diverse culture, ability and language will be examined, highlighting at least three major American cultures (Latina/o American, African American, Asian American, Native American, and European American). The processes of socialization and identity development will be highlighted, showing the importance of respectful, reciprocal relationships that support and empower families.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1843",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Murray M"
+            }
+          ],
+          "notes": [
+            "Above section 1843 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1844",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Mosley K R"
+            }
+          ],
+          "notes": [
+            "Above section 1844 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1845",
+          "schedule": [
+            {
+              "time": "10:00a.m.-1:05p.m.",
+              "days": "M",
+              "location": "ECLS 208",
+              "instructor": "Mosley K R"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Mosley K R"
+            }
+          ],
+          "notes": [
+            "Above section 1845 meets for 8 weeks, Oct 27 to Dec 15, and is a hybrid class taught online via the Internet and at the Early Childhood Lab School Campus, 1802 4th Street, Santa Monica CA",
+            "90404. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 15",
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1846",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Miller Ca L"
+            }
+          ],
+          "notes": [
+            "Above section 1846 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1847",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Miller Ca L"
+            }
+          ],
+          "notes": [
+            "Above section 1847 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 17",
+      "course_title": "INTRODUCTION TO CURRICULUM",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": "ECE 130",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "PSYCH 11",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course covers developmentally appropriate curriculum and environments for children birth through age eight. Students will use knowledge of children’s development, theories of learning and development, observation and assessment, and examples from various models of developmentally appropriate practice to plan environments and curriculum in all content areas and support children’s development and learning, integrated throughout indoor and outdoor settings. It explores the teacher’s role in supporting development and learning across the curriculum.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1848",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Elam E J"
+            }
+          ],
+          "notes": [
+            "Above section 1848 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1849",
+          "schedule": [
+            {
+              "time": "10:00a.m.-1:05p.m.",
+              "days": "W",
+              "location": "ECLS 208",
+              "instructor": "Perez Li"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Perez Li"
+            }
+          ],
+          "notes": [
+            "Above section 1849 meets for 8 weeks, Oct 29 to Dec 17, and is a hybrid class taught online via the Internet and at the Early Childhood Lab School Campus, 1802 4th Street, Santa Monica CA",
+            "90404. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": "8 weeks, Oct 29 to Dec 17",
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1850",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Elam E J"
+            }
+          ],
+          "notes": [
+            "Above section 1850 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 19",
+      "course_title": "TEACHING IN A DIVERSE SOCIETY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": "ECE 230",
+      "cal_getc_area": null,
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "The course examines the historical and current perspectives on diversity and inclusion and the impact of systemic societal influences on children’s development, learning, and school experiences. Strategies for developmentally, culturally, and linguistically appropriate anti-bias curriculum will be explored, as well as approaches to promote inclusive and anti-racist classroom communities. Students will recognize and contrast the cultural and historical perspectives of at least 3 American cultural groups (Latino American, African American, Asian American, Native American and European American) to promote understanding, knowledge, and skills for educating children in a pluralistic society. Students will self-reflect on the influence of teachers’ own culture and life experiences on teaching and interactions with children and families.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1851",
+          "schedule": [
+            {
+              "time": "10:00a.m.-1:05p.m.",
+              "days": "T",
+              "location": "ECLS 208",
+              "instructor": "Lopez Je"
+            },
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Lopez Je"
+            }
+          ],
+          "notes": [
+            "Above section 1851 meets for 8 weeks, Sep 09 to Oct 21, and is a hybrid class taught online via the Internet and at the Early Childhood Lab School Campus, 1802 4th Street, Santa Monica CA",
+            "90404. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": "8 weeks, Sep 09 to Oct 21",
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1852",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Murray M"
+            }
+          ],
+          "notes": [
+            "Above section 1852 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 21",
+      "course_title": "OBSERVATION AND ASSESSMENT",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": "ECE 200",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "PSYCH 11, ECE 2 and ECE 11, and one of the following: ECE 4, ECE 5, ECE 8, ECE 17.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is a supervised field experience which focuses on the appropriate use of assessment and observation tools and strategies to document young children’s development and learning. The use of findings to inform and plan learning environments and experiences is emphasized. Recording strategies, rating systems, portfolios, and multiple assessment tools will be practiced, along with strategies for collaboration with families and professionals. Students are required to have a current TB test, a Live Scan completed at SMC, and proof of immunizations, including T-Dap, and MMR, for most placement sites, prior to the course start date. Students will also be required to complete 20 days of supervised field experience at the Santa Monica Early Childhood Lab School (1 day equals 3 or more hours). The hours of this course may be applied toward the Experience Requirement of the Child Development Permit Matrix.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4081",
+          "schedule": [
+            {
+              "time": "6:00p.m.-9:05p.m.",
+              "days": "T",
+              "location": "ECLS 208",
+              "instructor": "Grace Y H"
+            },
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Grace Y H"
+            }
+          ],
+          "notes": [
+            "Above section 4081 is a hybrid class taught online via the Internet and at the Early Childhood Lab School Campus, 1802 4th Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. Above section 4081 meets on ground every other Tuesday with the remaining weeks working in the Flexible modality."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 22",
+      "course_title": "PRACTICUM IN EARLY CHILDHOOD EDUCATION",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": "ECE 210",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "ECE 21.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is a demonstration of developmentally appropriate early childhood planning and teaching competencies under the supervision of ECE faculty and other qualified early education professionals. Students will utilize practical classroom experiences to make connections between theory and practice, develop professional behaviors, and build a comprehensive understanding of children and families. Reflective practice will be emphasized as student teachers design, implement, and evaluate approaches, strategies, and techniques that promote development and learning. The course includes exploration of career pathways, professional devel- opment, and teacher responsibilities. Students are required to have a current TB test, Livescan completed at SMC, and proof of immunizations, including T-Dap, MMR, prior to the course start date. Students will be required to complete 30 days in an instructor-approved early childhood setting, (1 day equals 3 or more hours). The hours of this course may be applied toward the Experience Requirement of the Child Development Permit Matrix.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4082",
+          "schedule": [
+            {
+              "time": "6:00p.m.-9:05p.m.",
+              "days": "T",
+              "location": "ECLS 209",
+              "instructor": "Miller Ca L"
+            },
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Miller Ca L"
+            }
+          ],
+          "notes": [
+            "Above section 4082 is a hybrid class taught online via the Internet and at the Early Childhood Lab School Campus, 1802 4th Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. Above section 4082 meets on ground one Tuesday per month (or 4 times total on Sept 2, Oct 7, Nov 14, and Dec",
+            "2) with all the remaining weeks in the Scheduled modality (on Zoom)."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 30",
+      "course_title": "STRATEGIES FOR WORKING WITH CHALLENGING BEHAVIORS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is appropriate for classroom teachers in various settings, students will identify developmentally appropriate behaviors, challenging behaviors and the various influences that effect children’s behavior. Students will analyze children’s behaviors and select strategies to make positive changes. Emphasizes the connection between children’s social and emotional development and their success in the classroom, and how the teachers’ perceptions, experiences, and behavior influence child behaviors.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1853",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Joachim S L"
+            }
+          ],
+          "notes": [
+            "Above section 1853 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1854",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Joachim S L"
+            }
+          ],
+          "notes": [
+            "Above section 1854 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 32",
+      "course_title": "COMMUNICATING WITH FAMILIES",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course will enhance the capacity of early childhood educators to communicate effectively with families about development and developmental concerns. Topics covered will include an overview of typical and atypical child development, parenting and social challenges faced by families of children with special needs, the importance of developmental screening and effective communication strategies for working with families. The ultimate goal of the course is to enhance the relationships between parents and the providers who serve them.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1855",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Grace Y H"
+            }
+          ],
+          "notes": [
+            "Above section 1855 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 45",
+      "course_title": "INTRODUCTION TO CHILDREN WITH SPECIAL NEEDS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "PSYCH 11",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course introduces students to the variations in development of individuals with special needs, with special emphasis on children ages birth through eight and the resulting impact on families. Content includes an overview of historical and societal influences, laws related to children with special needs, and identification and referral processes. The course covers various categories of disability, including learning disabilities, physical disabilities, autism spectrum disorder, intellectual disabilities, emotional and behavioral disorders, communication disorders, visual and hearing impairments, attention deficit hyperactivity disorder and giftedness.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1856",
+          "schedule": [
+            {
+              "time": "10:00a.m.-1:05p.m.",
+              "days": "T",
+              "location": "ECLS 209",
+              "instructor": "Joachim S L"
+            },
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Joachim S L"
+            }
+          ],
+          "notes": [
+            "Above section 1856 meets for 8 weeks, Sep 09 to Oct 21, and is a hybrid class taught online via the Internet and at the Early Childhood Lab School Campus, 1802 4th Street, Santa Monica CA",
+            "90404. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": "8 weeks, Sep 09 to Oct 21",
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 46",
+      "course_title": "INFANT AND TODDLER DEVELOPMENT",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "PSYCH 11",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course provides an in depth analysis of the physical, social, emotional and cognitive development of infants and toddlers in the context of family. Further, it explores the crucial role that parents and family play in the day to day experiences that promote this primary relationship in a child’s life. Content covered will include assessment measures and direct observations of infants and toddlers which assist teachers and parents in the early identification of children with special needs including making appropriate referrals and providing culturally consistent care.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1857",
+          "schedule": [
+            {
+              "time": "10:00a.m.-1:05p.m.",
+              "days": "W",
+              "location": "ECLS 209",
+              "instructor": "Lopez Je"
+            },
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Lopez Je"
+            }
+          ],
+          "notes": [
+            "Above section 1857 meets for 8 weeks, Sep 03 to Oct 22, and is a hybrid class taught online via the Internet and at the Early Childhood Lab School Campus, 1802 4th Street, Santa Monica CA",
+            "90404. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 22",
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1858",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Grace Y H"
+            }
+          ],
+          "notes": [
+            "Above section 1858 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 47",
+      "course_title": "DEVELOPING FAMILY CHILDCARE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is designed to assist with planning and implementing a family childcare business serving children from birth to school-age. Aspects of family childcare from both a caregiving and business perspective will be addressed. Topics covered include the environment, guidance, self-care, curriculum, legal implications, licensing regulations, and business requirements. Another focus will be the development of a culturally sensitive and inclusive child-centered program. Effective communication methods between parents and providers as well as the connection of developmental theory to practice will be emphasized.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1859",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Perez Li"
+            }
+          ],
+          "notes": [
+            "Above section 1859 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 48",
+      "course_title": "ADULT SUPERVISION AND MENTORING IN EARLY EDUCATION",
+      "units": "3 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "ECE 21.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Completing this course is one of the steps required to become a California Mentor Teacher. It does not guarantee automatic selection as a California Mentor Teacher. Methods and principles of supervising student teachers, volunteers, staff, and other adults in early care and education settings. Emphasis is on reflective practice and the roles and development of early childhood professionals as mentors and leaders. California Commission on Teacher Credentialing requires this course for Master Teacher, Site Supervisor and Program Director Permits Option One. California ECE Mentor Teacher program requires this course in order to apply to the Mentor program. As a component of course work, this class requires 4 hours of time to complete an infant/toddler or preschool live observation using a standard assessment tool and creation of a plan for mentoring.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1860",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Mosley K R"
+            }
+          ],
+          "notes": [
+            "Above section 1860 meets for 12 weeks, Sep 03 to Nov 21. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 03 to Nov 21",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 49",
+      "course_title": "CURRICULUM AND STRATEGIES FOR CHILDREN WITH SPECIAL NEEDS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "ECE 45.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course covers curriculum and intervention strategies for working with children with special needs in partnership with families. The course focuses on the use of observation and assessment, accommodations, and curriculum modifications in meeting the individual needs of children in inclusive and natural environments. Content includes cultural awareness and competence, professional partnerships with families, and collaboration with interdisciplinary teams.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1861",
+          "schedule": [
+            {
+              "time": "9:00a.m.-12:05p.m.",
+              "days": "S",
+              "location": "ECLS 209",
+              "instructor": "Joachim S L"
+            },
+            {
+              "time": "Arrange-5.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Joachim S L"
+            }
+          ],
+          "notes": [
+            "Above section 1861 meets for 8 weeks, Nov 01 to Dec 20, and is a hybrid class taught online via the Internet and at the Early Childhood Lab School Campus, 1802 4th Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd.",
+            "Above section 1861 is otherwise held in the flexible modality but has 3 required in-person meetings on 11/1, 11/22, and 12/13 at the time and place listed in the schedule."
+          ],
+          "duration": "8 weeks, Nov 01 to Dec 20",
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 51",
+      "course_title": "THE REGGIO APPROACH",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "In cooperation with the State Commission of Teacher Credentialing, this course will focus on the theories, research, and practical application of the Reggio Emilia Approach as applicable to early childhood education in the U.S. The key concepts of collaboration between parents, teachers and children; observation of how children construct theories; documentation and reflection of the learning process; the expanded role of the teacher as a co-constructor of knowledge, and the examination of the impact of the environment in facilitating children’s learning will be studied.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1862",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Khokha E W"
+            }
+          ],
+          "notes": [
+            "Above section 1862 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 64",
+      "course_title": "HEALTH, SAFETY, AND NUTRITION FOR YOUNG CHILDREN",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": "ECE 220",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "The course provides an introduction to the laws, regulations, standards, policies, and best practices related to health, safety, and nutrition in care and education settings for children birth through middle childhood. The key components that ensure physical health, mental health, and safety for both children and staff will be identified, along with the importance of collaboration with families and health professionals. Course discussion includes the teacher’s role in prevention strategies, nutrition and meal planning, integrating health, safety, and nutrition experiences into daily routines, and overall risk management.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1863",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Elam E J"
+            }
+          ],
+          "notes": [
+            "Above section 1863 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1864",
+          "schedule": [
+            {
+              "time": "10:00a.m.-1:05p.m.",
+              "days": "T",
+              "location": "ECLS 208",
+              "instructor": "Perez Li"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Perez Li"
+            }
+          ],
+          "notes": [
+            "Above section 1864 meets for 8 weeks, Oct 28 to Dec 16, and is a hybrid class taught online via the Internet and at the Early Childhood Lab School Campus, 1802 4th Street, Santa Monica CA",
+            "90404. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": "8 weeks, Oct 28 to Dec 16",
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 71",
+      "course_title": "INFANTS AND TODDLER EDUCATION AND CARE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "ECE 46",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course applies current theory and research to the care and education of infants and toddlers in group settings. It examines essential policies, principles and practices that lead to quality care and developmentally appropriate curriculum for children birth to 36 months. It will include basic principles of care giving, arrangement and equipping the environment; working with other staff, parents and the community; identifying children with special needs and making appropriate referrals, and providing culturally consistent care.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1865",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Grace Y H"
+            }
+          ],
+          "notes": [
+            "Above section 1865 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 75",
+      "course_title": "DANCE FOR CHILDREN: CREATIVE DANCE IN THE PRE-K AND ELEMENTARY CLASSROOM",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course, the study of developmentally appropriate cre- ative movement experiences for children, gives students methods to guide creativity in the pre-K and elementary classroom and to develop dance lessons tied to specific subject areas. Students gain knowledge of the movement aspect of child development and how to use creative dance to research and teach subject matter across the pre- K and elementary curriculum. It covers the role of movement in developing children’s physical, motor, emotional, and cognitive skills, and includes workshops and field experience in planning and implementing appropriate creative experiences with young children. ECE 75 and DANCE 75 are the same course. Students may receive credit for one but not both.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4083",
+          "schedule": [
+            {
+              "time": "6:30p.m.-9:35p.m.",
+              "days": "W",
+              "location": "ONLINE",
+              "instructor": "Wolin-Tupas R L"
+            }
+          ],
+          "notes": [
+            "Above section 4083 is Flexible with Scheduled Meetings."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 76",
+      "course_title": "CHILDREN IN NATURE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "ECE 21 or three years of Early Children program experiences.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course examines contemporary trends and issues that impact children’s healthy development and learning through the lens of environmental education and sustainability. Using a variety of industry resources, students will explore programmatic and system requirements, as well as research-based practices that enhance access to nature, environmental literacy, and healthy development in early childhood. Key topics include environmental awareness in indoor and outdoor learning environments, the relationship between play in nature and environmental behavior as adults, developing a sense of place through curricular activities that promote active learning and emphasize sustainable choice-making, and involving families and communities in the development of the outdoor learning environment. The course includes opportunities to observe a nature-based early childhood education in action. Program visits and observations will be required for successful completion of this course.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1866",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Manson L J"
+            }
+          ],
+          "notes": [
+            "Above section 1866 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 81",
+      "course_title": "MUSIC FOR EARLY CHILDHOOD EDUCATION",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is an introduction to teaching music classes for children ages infancy through age 6 in a group setting. Various music teaching techniques and teaching materials will be explored.",
+      "same_as": "MUSIC 27",
+      "sections": [
+        {
+          "section_number": "1842",
+          "schedule": [
+            {
+              "time": "1:15p.m.-4:20p.m.",
+              "days": "M",
+              "location": "ECLS 208",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 1842 meets at the Early Childhood Lab School Campus, 1802 4th Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

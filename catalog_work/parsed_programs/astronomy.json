@@ -7,7 +7,7 @@
       "course_title": "STELLAR ASTRONOMY",
       "units": "3 UNITS",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -15,6 +15,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -130,7 +131,7 @@
       "course_title": "PLANETARY ASTRONOMY",
       "units": "3 UNITS",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -138,6 +139,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -225,7 +227,7 @@
       "course_title": "STELLAR ASTRONOMY WITH LABORATORY",
       "units": "4 UNITS",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -233,6 +235,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -303,7 +306,7 @@
       "course_title": "PLANETARY ASTRONOMY WITH LABORATORY",
       "units": "4 UNITS",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -311,6 +314,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -378,6 +382,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -418,6 +423,7 @@
       ],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,

@@ -1,0 +1,537 @@
+{
+  "program_name": "Ethnic Studies",
+  "program_description": "Ethnic Studies is the interdisciplinary critical and comparative study of race and ethnicity, focusing on the experiences of African American, Native American/Indigenous, Asian American/Pacific Islander, and Chicana/o/x/Latina/o/x populations. Ethnic Studies provides an intersectional and critical lens for studying racial, ethnic, gender and class identities, and for interrogating structural racism, power, knowledge, and racialization in culture, politics, economy, and law. Drawing from the intellectual traditions of BIPOC (Black, Indigenous, People of Color) communities, students of Ethnic Studies attain an understanding of the historical legacies and contemporary manifestations of racism, discrimination, inequity, and movements for social justice. Through culturally responsive pedagogy, students of Ethnic Studies gain cultural competency and are exposed to perspectives and methods informed by a deep commitment to social justice, cross-cultural collaboration, liberation from systems of oppression, and social and institutional transformation.",
+  "courses": [
+    {
+      "course_code": "ETH ST 1",
+      "course_title": "INTRODUCTION TO ETHNIC STUDIES",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Ethnic Studies is the critical and interdisciplinary study of race, ethnicity, and indigeneity with a focus on the experiences and perspectives of Native Americans, African Americans, Asian Americans, Latina/o/x Americans, and other people of color within and beyond the United States. This course explores key theories, scholarly works, and ideas that have formed the basis of the broad multidisciplinary field of Ethnic Studies. Various perspectives are examined to discover the ways in which race and racism have been, and continue to be, powerful social, cultural and political forces, and their connections to other axes of stratification including gender, class, sexuality and legal status. This course examines the effects of institutional racism, coloniality, marginalization, socio-economic and political discrimination, and ethnocentrism on American ethnic and racial groups.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2231",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "MW",
+              "location": "HSS 103",
+              "instructor": "Flores-Marcial X"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2232",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "MW",
+              "location": "HSS 204",
+              "instructor": "Isaacs Ju"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2233",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "HSS 204",
+              "instructor": "Rodriguez J M"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2234",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "HSS 103",
+              "instructor": "Deleon R B"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2235",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "HSS 205",
+              "instructor": "Shaw T A"
+            }
+          ],
+          "notes": [
+            "Above section 2235 is part of the Black Collegians program though enrollment is open to all students. See the Special Programs section of the class schedule or smc.edu/blackcollegians for more information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2236",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "HSS 204",
+              "instructor": "Isaacs Ju"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2237",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "HSS 205",
+              "instructor": "Shaw T A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2238",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "HSS 103",
+              "instructor": "Flores-Marcial X"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2239",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "HSS 103",
+              "instructor": "Deleon R B"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2240",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Flores-Marcial X"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2241",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Shaw T A"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2242",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Shaw T A"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2243",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Rodriguez J M"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2244",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Rodriguez J M"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2245",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Rodriguez J M"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2246",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Isaacs Ju"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2247",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Deleon R B"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2248",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Deleon R B"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2249",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Flores-Marcial X"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2250",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Flores-Marcial X"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2251",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Herrera"
+            }
+          ],
+          "notes": [
+            "Thomas H T",
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2252",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Lumbreras J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2253",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Lupola G L"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ETH ST 6",
+      "course_title": "INTRODUCTION TO CHICANA/O/X AND LATINA/ O/X STUDIES",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This introductory-level course explores historical and contemporary Chicana/o/x and Latina/o/x political, social, and cultural practices and experiences in the United States. This course examines the foundations and theories of Chicana/o/x and Latina/o/x Studies and contemporary approaches to studying Chicana/o/x/and Latina/o/x communities. Course topics include history, social movements, politics, community, art, spirituality, cultural production, intersectional identity formation, gender, sexuality, class, family, social justice, agency, and self-affirmation. Moreover, the course critically analyzes race and ethnicity, racialization, equity, ethnocentrism, Eurocentrism, and white supremacy.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2256",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "HSS 204",
+              "instructor": "Rodriguez J M"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ETH ST 7",
+      "course_title": "INTRODUCTION TO AFRICAN AMERICAN AND BLACK STUDIES",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course introduces students to the field of African American and Black studies. As a survey course, it traces the historical and current social conditions and contributions of Black and African-descended people in the U.S. It provides broad and interdisciplinary perspectives, examining and exploring significant figures, ideas, issues, and methodologies central to understanding the African American experience. Course topics include history, social movements, politics, community, art, spirituality, cultural production, intersectional identity formation, gender, sexuality, class, family, social justice, agency, and self-affirmation. Moreover, the course critically analyzes race and ethnicity, racialization, equity, ethnocentrism, Eurocentrism, and white supremacy. Students will develop critical tools, frameworks, and vocabulary for further study in the field.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2257",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "HSS 106",
+              "instructor": "Shaw T A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ETH ST 8",
+      "course_title": "INTRODUCTION TO ASIAN AMERICAN STUDIES",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course introduces students to the interdisciplinary field of Asian American Studies. It examines the foundation, theories and methodologies informing the study of APIDA (Asian Pacific Islander Desi American) communities. This course explores the historical and contemporary Asian American political, social, and cultural practices and experiences in the United States. Course topics include history, social movements, politics, community, art, spirituality, cultural production, transnational and transpacific considerations of race, ethnicity, im(migration), gender, sexuality, class, intersectional identity formation, gender, sexuality, class, family, social justice, and agency and self-affirmation. Moreover, the course critically analyzes race and ethnicity, equity, ethnocentrism, Eurocentrism, and white supremacy.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2258",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Deleon R B"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

@@ -7,7 +7,7 @@
       "course_title": "BEGINNING BADMINTON",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -15,6 +15,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -45,7 +46,7 @@
       "course_title": "INTERMEDIATE BADMINTON",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -53,6 +54,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -83,7 +85,7 @@
       "course_title": "BEGINNING ROCK CLIMBING",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -91,6 +93,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -138,7 +141,7 @@
       "course_title": "INTERMEDIATE ROCK CLIMBING",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -146,6 +149,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "KIN PE 16A or instructor’s permission",
       "advisory_notes": null,
       "formerly": null,
@@ -176,7 +180,7 @@
       "course_title": "BEGINNING PICKLEBALL",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -184,6 +188,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -214,7 +219,7 @@
       "course_title": "INTERMEDIATE PICKLEBALL",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -222,6 +227,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -252,7 +258,7 @@
       "course_title": "TABLE TENNIS",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -260,6 +266,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -290,7 +297,7 @@
       "course_title": "INTERMEDIATE TABLE TENNIS",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -298,6 +305,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -328,7 +336,7 @@
       "course_title": "BEGINNING TENNIS, FIRST LEVEL",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -336,6 +344,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -366,7 +375,7 @@
       "course_title": "BEGINNING TENNIS, SECOND LEVEL",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -374,6 +383,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -421,7 +431,7 @@
       "course_title": "INTERMEDIATE TENNIS",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -429,6 +439,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -476,7 +487,7 @@
       "course_title": "ADVANCED TENNIS",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -484,6 +495,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -514,7 +526,7 @@
       "course_title": "BEGINNING TRACK AND FIELD",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -522,6 +534,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -552,7 +565,7 @@
       "course_title": "INTERMEDIATE TRACK AND FIELD",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -560,6 +573,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,

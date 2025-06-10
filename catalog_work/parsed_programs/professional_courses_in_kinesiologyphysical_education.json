@@ -7,7 +7,7 @@
       "course_title": "COACHING OF FOOTBALL",
       "units": "3 UNITS",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -15,6 +15,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -53,6 +54,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -125,6 +127,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -163,6 +166,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "KIN PE 48B",
       "advisory_notes": null,
       "formerly": null,
@@ -200,6 +204,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -237,6 +242,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -258,7 +264,7 @@
             "On Ground."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "On Ground",
           "co_enrollment_with": null
         }
       ]
@@ -275,6 +281,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,

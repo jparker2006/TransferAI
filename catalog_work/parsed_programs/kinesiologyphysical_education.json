@@ -7,7 +7,7 @@
       "course_title": "INTRODUCTION TO EXERCISE PHYSIOLOGY I",
       "units": "3 UNITS",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -15,6 +15,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -52,6 +53,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,

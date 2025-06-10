@@ -15,8 +15,9 @@
       "special_notes": [
         "PHYSCS 6, PHYSCS 7 or PHYSCS 8, PHYSCS 9 or PHYSCS 21, PHYSCS 22, PHYSCS 23 combined: maximum UC credit, 1 series."
       ],
-      "prerequisites": "MATH 2 or (MATH 3 and 4).",
+      "prerequisites": "•  MATH 2 or (MATH 3 and 4).",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -107,8 +108,9 @@
       "special_notes": [
         "PHYSCS 6, PHYSCS 7 or PHYSCS 8, PHYSCS 9 or PHYSCS 21, PHYSCS 22, PHYSCS 23 combined: maximum UC credit, 1 series."
       ],
-      "prerequisites": "MATH 7.",
+      "prerequisites": "•  MATH 7.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -153,6 +155,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -191,6 +194,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -245,6 +249,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MATH 2 or (MATH 3 and 4)",
       "advisory_notes": null,
       "formerly": null,
@@ -283,8 +288,9 @@
       "special_notes": [
         "PHYSCS 6, PHYSCS 7 or PHYSCS 8, PHYSCS 9 or PHYSCS 21, PHYSCS 22, PHYSCS 23 combined: maximum UC credit, 1 series."
       ],
-      "prerequisites": "MATH 7.",
+      "prerequisites": "•  MATH 7.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -455,8 +461,9 @@
       "special_notes": [
         "PHYSCS 6, PHYSCS 7 or PHYSCS 8, PHYSCS 9 or PHYSCS 21, PHYSCS 22, PHYSCS 23 combined: maximum UC credit, 1 series."
       ],
-      "prerequisites": "MATH 8, PHYSCS 21.",
+      "prerequisites": "•  MATH 8, PHYSCS 21.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -541,8 +548,9 @@
       "special_notes": [
         "PHYSCS 6, PHYSCS 7 or PHYSCS 8, PHYSCS 9 or PHYSCS 21, PHYSCS 22, PHYSCS 23 combined: maximum UC credit, 1 series."
       ],
-      "prerequisites": "MATH 8, PHYSCS 21.",
+      "prerequisites": "•  MATH 8, PHYSCS 21.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -626,6 +634,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,

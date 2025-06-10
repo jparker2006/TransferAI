@@ -1,0 +1,1295 @@
+{
+  "program_name": "Dance: Technique and Performance",
+  "program_description": "See also “Dance: Appreciation and History.”",
+  "courses": [
+    {
+      "course_code": "DANCE 10",
+      "course_title": "FUNDAMENTALS OF DANCE TECHNIQUE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course places emphasis on the fundamental training necessary for success in a variety of dance and movement styles for dance students of all levels. Movement principles from sources including anatomy, biomechanics and rehabilitation will be utilized to improve body alignment, core stabilization, breath support and other aspects of technique in key dance movement patterns. Students will demonstrate proper body alignment, learn human anatomy as it pertains to the moving body, analyze different principles of movement emphasizing time, space and effort as well as enhance the mind-body connection through somatic principles. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1779",
+          "schedule": [
+            {
+              "time": "8:00a.m.-10:05a.m.",
+              "days": "MW",
+              "location": "CPC 310",
+              "instructor": "Tomasic M T"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 11",
+      "course_title": "BEGINNING HIP HOP DANCE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This introductory course will explore fundamental techniques of hip hop dance. Attention is placed on basic syncopation, isolations and rhythms with an emphasis on musicality, strength, flexibility and coordination. Improvisation or “freestyling” is introduced to develop the individual expression and style indigenous to the form. Critical analysis of hip hop choreography and an appreciation of hip hop dance including its cultural significance, history and origins as an art form are emphasized. Written assignments and attendance at Dance Department concerts are required. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1780",
+          "schedule": [
+            {
+              "time": "8:00a.m.-10:05a.m.",
+              "days": "MW",
+              "location": "CPC 314",
+              "instructor": "Jordan A N"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1781",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:50p.m.",
+              "days": "TTh",
+              "location": "CPC 314",
+              "instructor": "Moreno M O"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 12",
+      "course_title": "INTERMEDIATE HIP HOP DANCE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "DANCE 11",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course builds on the fundamental techniques of hip hop dance at an intermediate level. Attention is placed on syncopation, isolations and rhythms with an emphasis on musicality, strength, flexibility and coordination. Improvisation or “freestyling” is emphasized to further develop the individual expression and style indigenous to the form. Critical analysis of hip hop choreography and hip hop street dance, along with its cultural significance, history and origins as an art form are also emphasized. Written assignments and attendance at Dance Department concerts are required. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1782",
+          "schedule": [
+            {
+              "time": "10:15a.m.-12:20p.m.",
+              "days": "MW",
+              "location": "CPC 314",
+              "instructor": "Moreno M O"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 13",
+      "course_title": "ADVANCED HIP HOP DANCE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "DANCE 12",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course builds on the fundamental techniques of hip hop dance forms at an advanced level. Attention is placed on dynamic movement qualities, choreography execution, and complex musicality with an emphasis on syncopation, isolations, strength, control, coordination and performance. Improvisation or “freestyling” is emphasized to further develop the individual expression and style indigenous to the form. Critical analysis of hip hop choreography and current trends, along with hip hop dance’s cultural significance, history, and origins as an art form, are also emphasized. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1783",
+          "schedule": [
+            {
+              "time": "10:15a.m.-12:20p.m.",
+              "days": "MW",
+              "location": "CPC 314",
+              "instructor": "Moreno M O"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 14",
+      "course_title": "BEGINNING JAZZ",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This introductory course will explore the fundamental techniques, styles, kinesiological awareness, and history of jazz dance in America. Attention is placed on basic jazz dance steps and vocabulary, with emphasis on musicality, strength and flexibility, expression, coordination, and an appreciation of jazz dance as an art form. The technique studied investigates the use of rhythm, dynamics, space, and energy while disciplining the body and developing motor skills as a tool for creative self expression. The course introduces choreography retention and improvisation techniques for various jazz dance styles at a beginning level, as well as historical studies on topics surrounding American jazz dance pioneers, codified styles, cultural influences, and current trends. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1784",
+          "schedule": [
+            {
+              "time": "10:15a.m.-12:20p.m.",
+              "days": "TTh",
+              "location": "CPC 310",
+              "instructor": "Moreno M O"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 15",
+      "course_title": "INTERMEDIATE JAZZ",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "DANCE 14 or equivalent experience",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is a continuation of Dance 14, building on the intermediate jazz dance techniques, styles, movement vocabulary, kinesiological awareness, and historical knowledge of jazz dance in America. The course introduces new skills and movement variations from various jazz styles. Combinations further explore dance expression in jazz with complex dance sequences, varied musicality, and improvisation. The technique studied investigates the use of rhythm, dynamics, space, and energy while disciplining the body and developing motor skills as a tool for creative self expression at an intermediate level. Historical studies on topics surrounding American jazz dance pioneers, codified styles, cultural influ- ences, and current trends will be included. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1785",
+          "schedule": [
+            {
+              "time": "10:15a.m.-12:20p.m.",
+              "days": "TTh",
+              "location": "CPC 310",
+              "instructor": "Moreno M O"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 16",
+      "course_title": "ADVANCED JAZZ",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "DANCE 15 or equivalent experience",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is a continuation of Dance 15, building on the advanced jazz dance techniques, styles, movement vocabulary, kinesiological awareness, and historical knowledge of jazz dance in America. The course focuses on advanced skills and movement variations from various jazz styles. Longer combinations further explore dance expression in jazz with complex dance sequences, intricate musicality, improvisation, and performance quality. The technique studied investigates the use of rhythm, dynamics, space, and energy while disciplining the body and developing motor skills as a tool for creative self expression at an advanced level. Historical studies on topics surrounding American jazz dance pioneers, codified styles, cultural influences, and current trends are included. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1786",
+          "schedule": [
+            {
+              "time": "10:15a.m.-12:20p.m.",
+              "days": "TTh",
+              "location": "CPC 310",
+              "instructor": "Moreno M O"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 17",
+      "course_title": "BEGINNING TAP",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course introduces a beginning level of tap dance technique and styles (including rhythm tap and Broadway tap), information about the cultural and historical origins of tap, and current trends and applications of tap in concert dance and musical theater. Emphasis will be on fundamental skills and rhythms, time steps, flash footwork, short combinations, and styling. Basic music theory, including notes, bars, phrases, time signatures and song structure, is also covered as it directly relates to tap dance. Historical studies on topics surrounding tap dance pioneers, codified styles, cultural influ- ences, and current trends are included. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1787",
+          "schedule": [
+            {
+              "time": "10:15a.m.-12:20p.m.",
+              "days": "TTh",
+              "location": "CPC 314",
+              "instructor": "Scott C A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 18",
+      "course_title": "INTERMEDIATE TAP",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "DANCE 17 or equivalent experience",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course builds on DANCE 17 and focuses on intermediatelevel tap dance technique, styles (including rhythm tap and Broadway tap), the cultural and historical origins of tap, and current trends and applications of tap in concert dance and musical theater. Students will focus on more complex steps, intricate, syncopated rhythms, tonal clarity, and speed. Different musical styles will be introduced relating rhythms, time signatures, and musical structures to tap styles. Emphasis will be on refining technical skills and executing more complex choreography while exploring elements of improvisation. Historical studies on topics surrounding tap dance pioneers, codified styles, cultural influences, and current trends are included. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1788",
+          "schedule": [
+            {
+              "time": "10:15a.m.-12:20p.m.",
+              "days": "TTh",
+              "location": "CPC 314",
+              "instructor": "Scott C A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 22A",
+      "course_title": "BEGINNING MEXICAN DANCE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": "DANCE 22",
+      "description": "This course is a beginning Mexican dance class which introduces techniques and styles of traditional Mexican dances. Students learn authentic regional dances and study indig- enous and outside influences, historical impact, costumes, and music. Dance techniques learned may serve as preparation for the World Dance Performance Courses (Dance 57A and 57B). Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1789",
+          "schedule": [
+            {
+              "time": "3:30p.m.-5:35p.m.",
+              "days": "MW",
+              "location": "CPC 314",
+              "instructor": "Ramirez Ra V"
+            }
+          ],
+          "notes": [
+            "Above section 1789 meets for 16 weeks, Sep 08 to Dec 22. Above section is part of the Adelante program though enrollment is open to all students. See the Special Programs section of the class schedule or smc.edu/latinocenter for more information. Fully on ground and will be taught in person at the time and location listed in the schedule of classes."
+          ],
+          "duration": "16 weeks, Sep 08 to Dec 22",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 22B",
+      "course_title": "INTERMEDIATE MEXICAN DANCE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "DANCE 22A",
+      "advisory_notes": null,
+      "formerly": "DANCE 23",
+      "description": "This course is an intermediate level of Mexican dance with an emphasis on traditional dance styles not covered in Dance 22 (Beginning Mexican Dance). Students will learn intermediate level body placement, footwork, rhythm patterns, and choreography. The course also provides historical context, including European and African cultural influences on Mexican dance, as well as the influence of religion, music, art, and popular styles on traditional Mexican dance forms. Dance techniques learned may serve as preparation for the World Dance Performance Courses (Dance 57A and 57B). Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1790",
+          "schedule": [
+            {
+              "time": "3:30p.m.-5:35p.m.",
+              "days": "MW",
+              "location": "CPC 314",
+              "instructor": "Ramirez Ra V"
+            }
+          ],
+          "notes": [
+            "Above section 1790 meets for 16 weeks, Sep 08 to Dec 22. Above section is part of the Adelante program though enrollment is open to all students. See the Special Programs section of the class schedule or smc.edu/latinocenter for more information."
+          ],
+          "duration": "16 weeks, Sep 08 to Dec 22",
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 26A",
+      "course_title": "BEGINNING SALSA DANCE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course introduces students to the movement and music of Salsa Dance and its cultural, historic, and geographic origins. The basic dance technique, musical structure, and terminology is studied along with elements of body placement, style, and characteristics of the form including turning techniques and partnering. Additionally, bachata and cha-chacha dance forms will also be studied in this course. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1791",
+          "schedule": [
+            {
+              "time": "12:30p.m.-2:35p.m.",
+              "days": "MW",
+              "location": "CPC 310",
+              "instructor": "Canellias L M"
+            },
+            {
+              "time": "12:30p.m.-2:35p.m.",
+              "days": "MW",
+              "location": "CPC 310",
+              "instructor": "Ceballos Be A"
+            }
+          ],
+          "notes": [
+            "Above section 1791 is part of the Adelante program though enrollment is open to all students. See the Special Programs section of the class schedule or smc.edu/latinocenter for more information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 26B",
+      "course_title": "INTERMEDIATE SALSA DANCE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "DANCE 26A",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This Intermediate Salsa Dance course immerses students in the movement and music of Latin American social dance and its cultural, historic, and geographic origins. Intermediate levels of dance techniques, musical structure, and terminology are studied along with elements of body placement, style, and characteristics of the form including turning techniques, solo work and partnering. Additionally, intermediate levels of Bachata and Cha-cha-cha dance forms will also be studied in this course. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1792",
+          "schedule": [
+            {
+              "time": "12:30p.m.-2:35p.m.",
+              "days": "MW",
+              "location": "CPC 310",
+              "instructor": "Canellias L M"
+            },
+            {
+              "time": "12:30p.m.-2:35p.m.",
+              "days": "MW",
+              "location": "CPC 310",
+              "instructor": "Ceballos Be A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground.Above section 1792 is part of the Adelante program though enrollment is open to all students. See the Special Programs section of the class schedule or smc.edu/latinocenter for more information."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 31A",
+      "course_title": "BALLET 1A",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": "DANCE 31",
+      "description": "This course introduces the fundamental concepts and principles of classical ballet technique with an emphasis on body alignment/placement. The class focuses on foundational level ballet technique and musicality, progressing from barre to center work. Basic movement vocabulary is introduced to implement strength, coordination, and flexibility. This course is intended to prepare students for 31B. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1793",
+          "schedule": [
+            {
+              "time": "10:15a.m.-12:20p.m.",
+              "days": "TTh",
+              "location": "CPC 308",
+              "instructor": "Van Wormer V M"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4061",
+          "schedule": [
+            {
+              "time": "7:30p.m.-9:35p.m.",
+              "days": "TTh",
+              "location": "CPC 308",
+              "instructor": "Richards C R"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 31B",
+      "course_title": "BALLET 1B",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "DANCE 31A",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course develops beginning level concepts and principles of classical ballet technique with an emphasis on body alignment/placement. The class focuses on building consistency in the fundamental concepts of ballet technique and musicality, progressing from barre to center work at the beginning level. Movement vocabulary and phrases further develop strength, coordination, and flexibility. This course is a continuation of Dance 31A, preparing for Dance 32A. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1794",
+          "schedule": [
+            {
+              "time": "10:15a.m.-12:20p.m.",
+              "days": "TTh",
+              "location": "CPC 308",
+              "instructor": "Van Wormer V M"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4062",
+          "schedule": [
+            {
+              "time": "7:30p.m.-9:35p.m.",
+              "days": "TTh",
+              "location": "CPC 308",
+              "instructor": "Richards C R"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 32A",
+      "course_title": "BALLET 2A",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "DANCE 31B or equivalent experience",
+      "advisory_notes": null,
+      "formerly": "DANCE 32",
+      "description": "This course offers a beginning/low-intermediate level of classical ballet technique with an emphasis on developing aesthetic concepts and principles of classical ballet form. Class focuses on improving alignment/placement through barre and center combinations, enhancing coordination and musicality. Movement vocabulary and phrases are designed to improve strength, coordination, flexibility and endurance at a beginning/low-intermediate level. This course prepares students for 32B. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1795",
+          "schedule": [
+            {
+              "time": "10:15a.m.-12:20p.m.",
+              "days": "MW",
+              "location": "CPC 308",
+              "instructor": "Molnar Cy A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4063",
+          "schedule": [
+            {
+              "time": "7:30p.m.-9:35p.m.",
+              "days": "TTh",
+              "location": "CPC 308",
+              "instructor": "Richards C R"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 32B",
+      "course_title": "BALLET 2B",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "DANCE 32A or equivalent experience",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course offers a low-intermediate level of classical ballet technique with an emphasis on refining aesthetic concepts and principles of classical ballet form. The class focuses on maintaining alignment/placement through barre and center combinations, with the goal of performing more intricate steps and movement vocabulary. Course progresses through low-intermediate level ballet steps and phrases designed to enhance strength, flexibility, endurance, and musicality. This course is a continuation of 32A. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1796",
+          "schedule": [
+            {
+              "time": "10:15a.m.-12:20p.m.",
+              "days": "MW",
+              "location": "CPC 308",
+              "instructor": "Molnar Cy A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4064",
+          "schedule": [
+            {
+              "time": "7:30p.m.-9:35p.m.",
+              "days": "TTh",
+              "location": "CPC 308",
+              "instructor": "Richards C R"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 33A",
+      "course_title": "INTERMEDIATE BALLET 3A",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "DANCE 32 or equivalent experience",
+      "advisory_notes": null,
+      "formerly": "DANCE 33",
+      "description": "This course is designed to introduce the concepts and principles of classical ballet technique at the intermediate level. Dance 33A is taught in the classically accepted manner of learning ballet technique. Exercises at the barre and centre will incorporate combinations of movements practiced to various musical rhythms and dynamics. This course facilitates students learning of other dance styles, and prepares the dancer for stage performance experience. This class is intended for dance majors. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1797",
+          "schedule": [
+            {
+              "time": "10:15a.m.-12:20p.m.",
+              "days": "MW",
+              "location": "CPC 304",
+              "instructor": "Lee J Y"
+            },
+            {
+              "time": "10:15a.m.-12:20p.m.",
+              "days": "F",
+              "location": "CPC 304",
+              "instructor": "Gaydos S C"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 34A",
+      "course_title": "ADVANCED BALLET 4A",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "DANCE 33B or equivalent experience",
+      "advisory_notes": null,
+      "formerly": "DANCE 35",
+      "description": "This course is designed for the students with a sound understanding and mastery of ballet technique at an intermediate/ advanced level of ability. Extensive ballet terminology, complex combinations of movements, diverse musical rhythms and dynamics will be introduced throughout the semester. This course will emphasize strengthening the student’s technical ability and preparing the student for study at the advanced level of ballet technique. Study of kinesiology and injury prevention will be included as well as preparation for stage performance experience. This class is intended for dance majors. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1798",
+          "schedule": [
+            {
+              "time": "10:15a.m.-12:20p.m.",
+              "days": "MW",
+              "location": "CPC 304",
+              "instructor": "Lee J Y"
+            },
+            {
+              "time": "10:15a.m.-12:20p.m.",
+              "days": "F",
+              "location": "CPC 304",
+              "instructor": "Gaydos S C"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 41",
+      "course_title": "CONTEMPORARY MODERN DANCE I",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is a beginning level modern dance technique class with an emphasis on body alignment/placement, an introduction to kinesiological awareness, movement in space, modern dance terminology and introduction to historical forms of modern dance in the United States. This course focuses on foundational technique, creative experiences, conditioning and stretching exercises to improve and enhance each dancer’s strength, limberness and flexibility. Historical studies on topics surrounding modern dance pioneers, codified styles, cultural influences, and current trends are included. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1799",
+          "schedule": [
+            {
+              "time": "12:30p.m.-2:35p.m.",
+              "days": "TTh",
+              "location": "CPC 310",
+              "instructor": "McDonald K E"
+            }
+          ],
+          "notes": [
+            "Above section 1799 meets for 16 weeks, Sep 09 to Dec 23. Above section modality is On Ground."
+          ],
+          "duration": "16 weeks, Sep 09 to Dec 23",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4065",
+          "schedule": [
+            {
+              "time": "7:30p.m.-9:35p.m.",
+              "days": "MW",
+              "location": "CPC 304",
+              "instructor": "Jordan A N"
+            },
+            {
+              "time": "7:30p.m.-9:35p.m.",
+              "days": "MW",
+              "location": "CPC 304",
+              "instructor": "Aybay Owens S"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 42",
+      "course_title": "CONTEMPORARY MODERN DANCE 2",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "DANCE 41 or equivalent experience",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course offers a beginning/intermediate level of modern dance technique with an emphasis on further developing aesthetic concepts and principles of movement learned in Dance 41. Correct body alignment and stance will continue to be stressed throughout the semester and technique combinations will be added with the goal of mastering new steps and terminology. More complete use of body parts, complex movement phrasing and vocabularies, and new technical skills will be introduced in class. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1800",
+          "schedule": [
+            {
+              "time": "12:30p.m.-2:35p.m.",
+              "days": "TTh",
+              "location": "CPC 310",
+              "instructor": "McDonald K E"
+            }
+          ],
+          "notes": [
+            "Above section 1800 meets for 16 weeks, Sep 09 to Dec 23. Above section modality is On Ground."
+          ],
+          "duration": "16 weeks, Sep 09 to Dec 23",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4066",
+          "schedule": [
+            {
+              "time": "7:30p.m.-9:35p.m.",
+              "days": "MW",
+              "location": "CPC 304",
+              "instructor": "Jordan A N"
+            },
+            {
+              "time": "7:30p.m.-9:35p.m.",
+              "days": "MW",
+              "location": "CPC 304",
+              "instructor": "Aybay Owens S"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 43A",
+      "course_title": "INTERMEDIATE CONTEMPORARY MODERN DANCE 3A",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "DANCE 42 or equivalent experience",
+      "advisory_notes": null,
+      "formerly": "DANCE 43",
+      "description": "This course is an intermediate level of contemporary modern dance technique with an emphasis on developing technical and compositional skills. Dance 43 will embrace increased range of motion, more complex phrases with various musicality, and more in depth analysis of movement and choreography. This class is intended for dance majors. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1801",
+          "schedule": [
+            {
+              "time": "12:30p.m.-2:35p.m.",
+              "days": "TTh",
+              "location": "CPC 304",
+              "instructor": "Van Wormer V M"
+            },
+            {
+              "time": "12:30p.m.-2:35p.m.",
+              "days": "F",
+              "location": "CPC 304",
+              "instructor": "Moreno M O"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 44A",
+      "course_title": "ADVANCED CONTEMPORARY MODERN DANCE 4A",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "DANCE 43B or equivalent experience",
+      "advisory_notes": null,
+      "formerly": "DANCE 45",
+      "description": "This course is an intermediate-advanced modern dance technique, continuation of Dance 43B. The ability to transfer, invert and do phrases in retrograde, as well as use dynamic physicality (high energy changes in levels and dynamics) is explored. Repertory excerpts are also included in this course. This class is designed to prepare students for stage performance experience.This class is intended for dance majors. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1802",
+          "schedule": [
+            {
+              "time": "12:30p.m.-2:35p.m.",
+              "days": "TTh",
+              "location": "CPC 304",
+              "instructor": "Van Wormer V M"
+            },
+            {
+              "time": "12:30p.m.-2:35p.m.",
+              "days": "F",
+              "location": "CPC 304",
+              "instructor": "Moreno M O"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 55A",
+      "course_title": "DANCE PERFORMANCE – MODERN",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: DANCE 10 or any Ballet, World, or Modern Dance"
+      ],
+      "prerequisites": "Audition required.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Course (DANCE 11-29, 31-38, 41-44B). This course offers performance experience and is organized as a contemporary modern dance company with fully produced concerts and dance productions. Students participate as dancers and choreographers. Students explore artistic expression through learning movement composition and repertory from professional faculty, guest choreographers and student choreographers. Styles may include traditional modern, contemporary, postmodern fusion, contemporary ballet, contemporary jazz, hip-hop, performance art and mixed media. Students develop new vocabulary and creativity from related dance-theatre forms for personal artistic expression. Students will participate in community outreach by performing in local schools, campus wide activities, as well as American College Dance Association and other conferences. Students will also learn how to transfer a dance work from the rehearsal studio to a professional stage, using the elements of staging, lighting, scenery/props, and make-up for various styles of dance productions. The process of touring with a production, site selection and fundamentals of arts management will be introduced. This performance class is intended for dance majors. This performance class is intended for dance majors. Recommended dance experience in Dance 10 or any Ballet, World, or Modern Dance Course (Dance 11-29, 31, 32, 33A, 33B, 34A, 34B, 41, 42, 43A, 43B, 44A, 44B, 60-63). Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1803",
+          "schedule": [
+            {
+              "time": "3:00p.m.-7:20p.m.",
+              "days": "TTh",
+              "location": "CPC 314",
+              "instructor": "Tomasic M T"
+            },
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "CPC 314",
+              "instructor": "Lee J Y"
+            }
+          ],
+          "notes": [
+            "Above section 1803 requires an audition. Student choreographer auditions will be held Tues, Sept 2 at 3:00p.m. (sign in 2:30p.m.) in CPC 310. Be prepared to present two minutes of original choreography. Dancer auditions will be held on Thurs, Sept 4 at 3:00p.m. (sign in 2:30p.m.) in CPC 310. All dancers must be warmed up and wear black on black dancewear. Visit smc.edu/dance for further information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 57A",
+      "course_title": "WORLD DANCE PERFORMANCE",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Satisfies Global Citizenship",
+        "Corequisite: DANCE 10 or any Ballet, World, or Modern Dance"
+      ],
+      "prerequisites": "Audition required.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Course (DANCE 11-29, 31-38, 41-44B). This course offers performance experience in a world dance company. World dance forms are learned, refined, and presented in order to experience cultural identity, preservation, and global citizenship. Students audition as dancers and choreographers. Students rehearse and perform styles of world dances which may include African, Mexican, Asian, European, American, Jazz, Tap, Middle Eastern, and Latin. Students work with faculty choreographers, as well as professional guest choreographers. Students will participate in community outreach by performing in local schools, campus wide activities, as well as American College Dance Association and other conferences. Students will also learn how to transfer a dance work from the rehearsal studios to a professional stage, using the elements of staging, lighting, scenery/props, and makeup for various styles of dance productions. This performance class is intended for dance majors. Recommended dance experience in Dance 11-29, 31, 32, 33A, 33B, 34A, 34B, 41, 42, 43A, 43B, 44A, 44B, 60-63. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4067",
+          "schedule": [
+            {
+              "time": "6:00p.m.-9:30p.m.",
+              "days": "MW",
+              "location": "CPC 314",
+              "instructor": "Ramirez Ra V"
+            },
+            {
+              "time": "6:00p.m.-9:30p.m.",
+              "days": "W",
+              "location": "CPC 314",
+              "instructor": "Susilowati S"
+            },
+            {
+              "time": "3:00p.m.-5:00p.m.",
+              "days": "F",
+              "location": "CPC 314",
+              "instructor": "Susilowati S"
+            },
+            {
+              "time": "Arrange-4 Hours",
+              "days": "N",
+              "location": "CPC 314",
+              "instructor": "Susilowati S"
+            }
+          ],
+          "notes": [
+            "Above section 4067 requires an audition. Student choreographer auditions will be held on Wed, Sept 3 at 6:00p.m. (sign in at 5:30p.m.) in CPC 314. Students must present three minutes of original choreography to be developed along with a description of the dance and its origin. Dancer auditions will be held on Fri, Sept 5 at 3:00p.m. (sign-in at 2:30p.m.) in CPC 310. All dancers auditioning must be warmed up and wear black on black dancewear. Visit smc.edu/dance for further information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 60",
+      "course_title": "FUNDAMENTALS OF CHOREOGRAPHY: DANCE IMPROVISATION",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This experiential movement course provides tools for devel- oping personal artistic expression through movement, in support of composition and performance. Students will develop tools and techniques for creative movement generation through guided improvisational prompts and scores. This course encourages students to explore a range of movement possibilities, and to think broadly about individual expression. Appropriate for all levels, dance majors and non-majors. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1805",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:50p.m.",
+              "days": "MW",
+              "location": "CPC 308",
+              "instructor": "Aybay Owens S"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 75",
+      "course_title": "DANCE FOR CHILDREN: CREATIVE DANCE IN THE PRE-K AND ELEMENTARY CLASSROOM",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course, the study of developmentally appropriate cre- ative movement experiences for children, gives students methods to guide creativity in the pre-K and elementary classroom and to develop dance lessons tied to specific subject areas. Students gain knowledge of the movement aspect of child development and how to use creative dance to research and teach subject matter across the pre- K and elementary curriculum. It covers the role of movement in developing children’s physical, motor, emotional, and cognitive skills, and includes workshops and field experience in planning and implementing appropriate creative experiences with young children. DANCE 75 and ECE 75 are the same course. Students may receive credit for one but not both. Attendance of dance productions for which students must purchase tickets (see smc.edu/dance) is required along with written assignments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4068",
+          "schedule": [
+            {
+              "time": "6:30p.m.-9:35p.m.",
+              "days": "W",
+              "location": "ONLINE",
+              "instructor": "Wolin-Tupas R L"
+            }
+          ],
+          "notes": [
+            "Above section 4068 is Flexible with Scheduled Meetings."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 88A",
+      "course_title": "INDEPENDENT STUDIES IN DANCE",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Independent Studies” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1806",
+          "schedule": [
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Moreno M O"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "DANCE 88B",
+      "course_title": "INDEPENDENT STUDIES IN DANCE",
+      "units": "2 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Independent Studies” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1807",
+          "schedule": [
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Tomasic M T"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

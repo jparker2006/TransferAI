@@ -1,0 +1,114 @@
+{
+  "program_name": "Nursing – Noncredit",
+  "program_description": "The courses below are intended for students enrolled in the Santa Monica College nursing program.",
+  "courses": [
+    {
+      "course_code": "NURSNG 900",
+      "course_title": "SUPERVISED TUTORING",
+      "units": "0 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "The purpose of this course is to provide additional assistance to nursing students, enrolled in Santa Monica College Nursing Program, in order to facilitate understanding the core concepts taught in the courses in the nursing curriculum. The course will assist the student in being able to determine their comprehension of the content taught in the nursing course (s) and facilitate the transfer of nursing concepts. A stimulating learning environment will be created for active communication and interaction among students and instructor. The learning environment will provide an opportunity for students to verbalize their thinking, understanding of underlying pathophysiology and its relevance to the therapeutic regime and therapeutic nursing interventions. Consistent attendance and participation are essential to the effectiveness of the supervised tutoring sessions.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "7075",
+          "schedule": [
+            {
+              "time": "10:45a.m.-12:45p.m.",
+              "days": "M",
+              "location": "BUNDY 328",
+              "instructor": "Poy T"
+            }
+          ],
+          "notes": [
+            "Above section 7075 meets for 8 weeks, Sep 08 to Oct 20, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
+            "Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 08 to Oct 20",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "7076",
+          "schedule": [
+            {
+              "time": "11:00a.m.-1:00p.m.",
+              "days": "T",
+              "location": "BUNDY 335",
+              "instructor": "Flores B B"
+            }
+          ],
+          "notes": [
+            "Above section 7076 meets for 8 weeks, Sep 09 to Oct 21, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
+            "Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 09 to Oct 21",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "7077",
+          "schedule": [
+            {
+              "time": "1:00p.m.-3:00p.m.",
+              "days": "M",
+              "location": "BUNDY 321",
+              "instructor": "Udeozor Va"
+            }
+          ],
+          "notes": [
+            "Above section 7077 meets for 8 weeks, Sep 08 to Oct 20, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
+            "Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 08 to Oct 20",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "7078",
+          "schedule": [
+            {
+              "time": "1:30p.m.-3:30p.m.",
+              "days": "T",
+              "location": "BUNDY 328",
+              "instructor": "Yamada P"
+            }
+          ],
+          "notes": [
+            "Above section 7078 meets for 8 weeks, Sep 09 to Oct 21, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
+            "Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 09 to Oct 21",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "7079",
+          "schedule": [
+            {
+              "time": "11:00a.m.-1:00p.m.",
+              "days": "T",
+              "location": "BUNDY 335",
+              "instructor": "Cohen A H"
+            }
+          ],
+          "notes": [
+            "Above section 7079 meets for 8 weeks, Oct 28 to Dec 16, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
+            "Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 28 to Dec 16",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

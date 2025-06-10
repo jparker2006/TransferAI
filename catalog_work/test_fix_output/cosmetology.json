@@ -1,0 +1,1965 @@
+{
+  "program_name": "Cosmetology",
+  "program_description": "Cosmetology is a career technical all-inclusive program that prepares students for a wide range of careers within the beauty industry. The curriculum offers a theoretical and practical component along with a hands-on approach to learning that includes up-to-date interactive demonstrations and training on clients in a salon setting. This prepares the students to possess the knowledge and skills for career opportunities in the beauty industry such as haircutting, hairstyling, colorist, chemical specialist, skin and nail spas, sales and entrepreneurship. Students are coached in the importance of professionalism and creativity in an experiential learning environment with motivated faculty. Upon completion of the courses, students are prepared to take and pass the California State Board of Barbering and Cosmetology exam to become a licensed cosmetologist, esthetician or manicurist. Courses may lead to an associate degree in cosmetology and/or a certificate of achievement. Students may attend the programs on a full or part time basis. New Student Orientations will be held on Mondays at 5:00p.m. on the following dates: June 30, August 11, October 20, December 8, 2025 on Zoom. More information and the Zoom links are available at smc. edu/cosmetology (select “New Student Orientation”)",
+  "courses": [
+    {
+      "course_code": "COSM 10A",
+      "course_title": "RELATED SCIENCE 1A",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course provides essential theory carefully formulated to prepare a student to pass the written Barbering, Cosmetology, Esthetics, and/or Nail Care State Board Examinations. Basic concepts of bacteriology, sanitation, health and safety, and physiology pertaining to the head, face, hands and arms, are included in this course.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1545",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Perret D M"
+            }
+          ],
+          "notes": [
+            "Above section 1545 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1546",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Monge J V"
+            }
+          ],
+          "notes": [
+            "Above section 1546 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1547",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Perret D M"
+            }
+          ],
+          "notes": [
+            "Above section 1547 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1548",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Monge J V"
+            }
+          ],
+          "notes": [
+            "Above section 1548 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 10B",
+      "course_title": "RELATED SCIENCE 1B",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course provides essential theory carefully formulated to prepare a student to pass the written Barbering, Cosmetology, Esthetics, and/or Nail Care State Board Examinations. Concepts of the State Board of Cosmetology Act and Regulations will be included as well as health and safety.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1549",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Kepler J M"
+            }
+          ],
+          "notes": [
+            "Above section 1549 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1550",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Kepler J M"
+            }
+          ],
+          "notes": [
+            "Above section 1550 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1551",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Kepler J M"
+            }
+          ],
+          "notes": [
+            "Above section 1551 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1552",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Kepler J M"
+            }
+          ],
+          "notes": [
+            "Above section 1552 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 11A",
+      "course_title": "HAIR CUTTING 1",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is the first hair cutting class required for all students who wish to be licensed for Barbering, Cosmetology or Hair Stylist by the State of California. This course is designed to teach beginning students how to effectively and properly describe and demonstrate the basic techniques of hair cutting to create a variety of hair designs which will include a 0-elevationone-length hair cut, a face framing haircut, a 180 degree long layered hair cut and a 90 degree hair cut and how to properly setup and maintain a Sanitary Maintenance Area necessary for all tools used.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1553",
+          "schedule": [
+            {
+              "time": "12:30p.m.-4:35p.m.",
+              "days": "Th",
+              "location": "BUS 143B",
+              "instructor": "Moisan A V"
+            }
+          ],
+          "notes": [
+            "Above section 1553 meets for 8 weeks, Sep 04 to Oct 23. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 04 to Oct 23",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1554",
+          "schedule": [
+            {
+              "time": "12:30p.m.-4:35p.m.",
+              "days": "Th",
+              "location": "BUS 143B",
+              "instructor": "Moisan A V"
+            }
+          ],
+          "notes": [
+            "Above section 1554 meets for 8 weeks, Oct 30 to Dec 18. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 30 to Dec 18",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 11B",
+      "course_title": "HAIR STYLING 1",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is the first hairstyling class required for all entering students who wish to be licensed for Barbering, Cosmetology, and/or Hairstylist by the State of California. The theoretical and practical components of this course include instructions on wet and thermal hairstyling. The students will learn the basics of hairstyling including the techniques of thermal, rollers, pin curls, and finger waving. Students will be able to describe and demonstrate the basic fundamentals of historical hairstyling in accordance to the State Board of Barbering and/or Cosmetology.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1555",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "W",
+              "location": "BUS 143B",
+              "instructor": "Perret D M"
+            }
+          ],
+          "notes": [
+            "Above section 1555 meets for 8 weeks, Sep 03 to Oct 22. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 22",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1556",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "W",
+              "location": "BUS 143B",
+              "instructor": "Perret D M"
+            }
+          ],
+          "notes": [
+            "Above section 1556 meets for 8 weeks, Oct 29 to Dec 17. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 29 to Dec 17",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 11C",
+      "course_title": "HAIR COLORING 1",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is the first hair coloring class required for all entering students who wish to be licensed for Barbering and/or Cosmetology by the State Board of California. This course is an introduction to the theoretical, practical principles, and practice of hair coloring techniques, safety, chemistry as it relates to hair coloring and proper use of tools. Students will learn how to apply a patch test, strand test, temporary, semipermanent, demi permanent, permanent hair coloring, virgin tint, hair retouch, frosting, and weaving techniques.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1557",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "Th",
+              "location": "BUS 143B",
+              "instructor": "Manuel S M"
+            }
+          ],
+          "notes": [
+            "Above section 1557 meets for 8 weeks, Sep 04 to Oct 23. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 04 to Oct 23",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1558",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "Th",
+              "location": "BUS 143B",
+              "instructor": "Manuel S M"
+            }
+          ],
+          "notes": [
+            "Above section 1558 meets for 8 weeks, Oct 30 to Dec 18. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 30 to Dec 18",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 11D",
+      "course_title": "PERMANENT WAVING",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This permanent wave class is required all entering students who wish to be licensed for Barbering and/or Cosmetology by the state of California. This course is designed to educate the students on permanent waving techniques and applications. It will provide a complete foundation for all permanent wave procedures. This class will enable the students to pass the California State Board of Barbering and/or Cosmetology exam.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1559",
+          "schedule": [
+            {
+              "time": "12:30p.m.-4:35p.m.",
+              "days": "F",
+              "location": "BUS 143B",
+              "instructor": "Moisan A V"
+            }
+          ],
+          "notes": [
+            "Above section 1559 meets for 8 weeks, Sep 05 to Oct 24. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 05 to Oct 24",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1560",
+          "schedule": [
+            {
+              "time": "12:30p.m.-4:35p.m.",
+              "days": "F",
+              "location": "BUS 143B",
+              "instructor": "Moisan A V"
+            }
+          ],
+          "notes": [
+            "Above section 1560 meets for 8 weeks, Oct 31 to Dec 19. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 31 to Dec 19",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 16",
+      "course_title": "NAIL CARE 1",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is the first Nail Care class required for all entering students who wish to be licensed for Barbering, Cosmetology, and/or Nail Care by the State of California. This course provides an introduction to the basic manipulations skills in manicuring and pedicuring. The course includes the basic concepts of physiology pertaining to the hand and arm. This course is one of four in a series necessary to qualify a student to take the state Board of Barbering, Cosmetology, and/or Nail Care exam.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1561",
+          "schedule": [
+            {
+              "time": "12:30p.m.-4:35p.m.",
+              "days": "W",
+              "location": "BUS 143E",
+              "instructor": "Ceballos B A"
+            }
+          ],
+          "notes": [
+            "Above section 1561 meets for 8 weeks, Sep 03 to Oct 22. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 22",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1562",
+          "schedule": [
+            {
+              "time": "12:30p.m.-4:35p.m.",
+              "days": "W",
+              "location": "BUS 143E",
+              "instructor": "Ceballos B A"
+            }
+          ],
+          "notes": [
+            "Above section 1562 meets for 8 weeks, Oct 29 to Dec 17. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 29 to Dec 17",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 18",
+      "course_title": "SKIN CARE 1",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is the first skincare/esthetician class required for all entering students who wish to be licensed for Cosmetology and/or Esthetics in the State of California. This course is an introduction to the theory, practical principles, and practice of esthetics (skincare). The course’s theoretical and practical components include health and safety concerns, sanitary practices, and safe use of tools and equipment. An introduction of the basic concepts of anatomy and chemistry related to the skin care profession, facial manipulations, masks, packs, client consultation, skin analysis, conditions, disease, and an introduction to basic eyebrow arching are included.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1563",
+          "schedule": [
+            {
+              "time": "12:30p.m.-4:35p.m.",
+              "days": "T",
+              "location": "BUS 143C",
+              "instructor": "Roze A K"
+            }
+          ],
+          "notes": [
+            "Above section 1563 meets for 8 weeks, Sep 09 to Oct 21. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 09 to Oct 21",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1564",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "W",
+              "location": "BUS 143C",
+              "instructor": "Alexander Broa N"
+            }
+          ],
+          "notes": [
+            "Above section 1564 meets for 8 weeks, Sep 05 to Oct 24. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 05 to Oct 24",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1565",
+          "schedule": [
+            {
+              "time": "12:30p.m.-4:35p.m.",
+              "days": "T",
+              "location": "BUS 143C",
+              "instructor": "Roze A K"
+            }
+          ],
+          "notes": [
+            "Above section 1565 meets for 8 weeks, Oct 28 to Dec 16. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 28 to Dec 16",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1566",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "W",
+              "location": "BUS 143C",
+              "instructor": "Alexander Broa N"
+            }
+          ],
+          "notes": [
+            "Above section 1566 meets for 8 weeks, Oct 31 to Dec 19. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 31 to Dec 19",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 20",
+      "course_title": "RELATED SCIENCE 2",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This class is required for all entering students who wish to be licensed for Barbering, Cosmetology, Esthetics, and/or Nail Care by the state of California. This course provides essential theory carefully formulated to prepare a student to pass the written State Board examination. Students are instructed in the basic concepts of health, safety and related chemistry.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1567",
+          "schedule": [
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Myers A M"
+            }
+          ],
+          "notes": [
+            "Above section 1567 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1568",
+          "schedule": [
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Alexander Broa N"
+            }
+          ],
+          "notes": [
+            "Above section 1568 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1569",
+          "schedule": [
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Myers A M"
+            }
+          ],
+          "notes": [
+            "Above section 1569 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1570",
+          "schedule": [
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Horejsi T C"
+            }
+          ],
+          "notes": [
+            "Above section 1570 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 21A",
+      "course_title": "HAIR CUTTING 2",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "COSM 11A.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is the second hair cutting class required for all entering students who wish to be licensed for Cosmetology, Barbering or Hairstylist by the State of California. This course is the continuation of Cosmetology 11A. The students will learn advanced techniques of haircutting with the use of different types of cutting tools.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1571",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "W",
+              "location": "BUS 143E",
+              "instructor": "Manuel S M"
+            }
+          ],
+          "notes": [
+            "Above section 1571 meets for 8 weeks, Sep 03 to Oct 22. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 22",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1572",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "W",
+              "location": "BUS 143E",
+              "instructor": "Manuel S M"
+            }
+          ],
+          "notes": [
+            "Above section 1572 meets for 8 weeks, Oct 29 to Dec 17. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 29 to Dec 17",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 21B",
+      "course_title": "HAIR STYLING 2",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "COSM 11B.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is the second hair styling class required for all entering students who wish to be licensed for Barbering, Cosmetology and/or Hairstylist by the State board of California. This course is a continuation of Cosmetology 11B. Students will learn advanced hairstyling theoretical and practical techniques, including the proper use of the blow drier and electric curling iron.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1573",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "T",
+              "location": "BUS 143B",
+              "instructor": "Assadi J"
+            }
+          ],
+          "notes": [
+            "Above section 1573 meets for 8 weeks, Sep 09 to Oct 21. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 09 to Oct 21",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1574",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "T",
+              "location": "BUS 143B",
+              "instructor": "Assadi J"
+            }
+          ],
+          "notes": [
+            "Above section 1574 meets for 8 weeks, Oct 28 to Dec 16. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 28 to Dec 16",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 21C",
+      "course_title": "HAIR COLORING 2",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "COSM 11C.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is the second hair coloring class required for students who wish to be licensed for Barbering or Cosmetology in the State of California. The student will learn how color affects our lives. Students will expand their knowledge of hair colors, including henna, tints, and bleaches. The class provides hair color theory and hands-on workshops in hair color applications, including highlighting with foils. This class offers a complete foundation for color and bleaching procedures.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1575",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "Th",
+              "location": "BUS 143E",
+              "instructor": "Ceballos B A"
+            }
+          ],
+          "notes": [
+            "Above section 1575 meets for 8 weeks, Sep 04 to Oct 23. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 04 to Oct 23",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1576",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "Th",
+              "location": "BUS 143E",
+              "instructor": "Ceballos B A"
+            }
+          ],
+          "notes": [
+            "Above section 1576 meets for 8 weeks, Oct 30 to Dec 18. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 30 to Dec 18",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 21E",
+      "course_title": "CURLY HAIR TECHNIQUES 2",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "COSM 11E",
+      "advisory_notes": null,
+      "formerly": "COSM 14B",
+      "description": "This class is required for all students who wish to be licensed for Barbering and/or Cosmetology by the State of California. This course is a class in curly hair care. Students will learn chemical and thermal hair straightening, soft perm techniques using the basic manipulative skills and proper application of thermal hair processing, curling, and chemical relaxing for excessively curly hair.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1577",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "F",
+              "location": "BUS 143B",
+              "instructor": "Myers A M"
+            }
+          ],
+          "notes": [
+            "Above section 1577 meets for 8 weeks, Sep 05 to Oct 24. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 05 to Oct 24",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1578",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "F",
+              "location": "BUS 143B",
+              "instructor": "Myers A M"
+            }
+          ],
+          "notes": [
+            "Above section 1578 meets for 8 weeks, Oct 31 to Dec 19. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 31 to Dec 19",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 26",
+      "course_title": "NAIL CARE 2",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "COSM 16",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is the second nail care class required for all entering students who wish to be licensed for Cosmetology and/or Nail Care by the State of California. The student will learn State Board Rules and regulations, safety techniques and sanitation for Nails Care as well as the application of nail tips, nail wraps, and gel polish manicures.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1579",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "M",
+              "location": "BUS 143E",
+              "instructor": "Horejsi T C"
+            }
+          ],
+          "notes": [
+            "Above section 1579 meets for 8 weeks, Sep 08 to Oct 20. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 08 to Oct 20",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1580",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "M",
+              "location": "BUS 143E",
+              "instructor": "Horejsi T C"
+            }
+          ],
+          "notes": [
+            "Above section 1580 meets for 8 weeks, Oct 27 to Dec 15. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 15",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 28A",
+      "course_title": "SKIN CARE 2A",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Prerequisite/Corequisite: COSM 18."
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is the second course required for Cosmetology and/or Esthetics licensing. The students will demonstrate the application of both individual and strip eyelashes, and the proper method of hair removal, waxing, eyebrow mapping, tinting eyebrows, and lashes, as required by the state of California. This course focuses on the physiology and histology of the skin, including skin disorders and diseases.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1581",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "T",
+              "location": "BUS 143C",
+              "instructor": "Horn S L"
+            }
+          ],
+          "notes": [
+            "Above section 1581 meets for 8 weeks, Sep 09 to Oct 21. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 09 to Oct 21",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1582",
+          "schedule": [
+            {
+              "time": "12:30p.m.-4:35p.m.",
+              "days": "W",
+              "location": "BUS 143C",
+              "instructor": "Van Kallen D"
+            }
+          ],
+          "notes": [
+            "Above section 1582 meets for 8 weeks, Sep 03 to Oct 22. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 22",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1583",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "T",
+              "location": "BUS 143D",
+              "instructor": "Horn S L"
+            }
+          ],
+          "notes": [
+            "Above section 1583 meets for 8 weeks, Oct 28 to Dec 16. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 28 to Dec 16",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 28B",
+      "course_title": "SKIN CARE 2B",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "COSM 18.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is required for Cosmetology or Esthetics licensing. The student will learn to perform electrical and chemical facials and demonstrate the use of electrical facial machines.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1584",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "Th",
+              "location": "BUS 143C",
+              "instructor": "Horn S L"
+            }
+          ],
+          "notes": [
+            "Above section 1584 meets for 8 weeks, Sep 04 to Oct 23. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 04 to Oct 23",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1585",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "Th",
+              "location": "BUS 143C",
+              "instructor": "Horn S L"
+            }
+          ],
+          "notes": [
+            "Above section 1585 meets for 8 weeks, Oct 30 to Dec 18. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 30 to Dec 18",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1586",
+          "schedule": [
+            {
+              "time": "12:30p.m.-4:35p.m.",
+              "days": "W",
+              "location": "BUS 143C",
+              "instructor": "Van Kallen D"
+            }
+          ],
+          "notes": [
+            "Above section 1586 meets for 8 weeks, Oct 29 to Dec 17. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 29 to Dec 17",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 30",
+      "course_title": "RELATED SCIENCE 3",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is the third related science class required for all entering students who wish to be licensed for Barbering, Cosmetology, and/or Esthetics for the state of California. This course provides essential theory carefully formulated to prepare a student to pass the written State Board examination. Students are instructed in basic concepts of electricity (galvanic/sinusoidal), sanitation and disinfectant techniques.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1587",
+          "schedule": [
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Roze A K"
+            }
+          ],
+          "notes": [
+            "Above section 1587 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1588",
+          "schedule": [
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Horejsi T C"
+            }
+          ],
+          "notes": [
+            "Above section 1588 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1589",
+          "schedule": [
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Roze A K"
+            }
+          ],
+          "notes": [
+            "Above section 1589 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 31A",
+      "course_title": "HAIR CUTTING 3",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "COSM 11A.",
+      "prerequisite_notes": null,
+      "advisory": "COSM 21A",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is an advanced course for any student who wishes to be licensed for Barbering, Cosmetology and Hairstylist by the state of California. Students will learn leading edge industry trends as well as advanced techniques for customizing a haircut.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1590",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "M",
+              "location": "BUS 143B",
+              "instructor": "Monge J V"
+            }
+          ],
+          "notes": [
+            "Above section 1590 meets for 8 weeks, Sep 08 to Oct 20. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 08 to Oct 20",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 31E",
+      "course_title": "MULTI TEXTURE STYLING",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "COSM 11B.",
+      "prerequisite_notes": null,
+      "advisory": "COSM 21E",
+      "advisory_notes": null,
+      "formerly": "COSM 24",
+      "description": "This is an advanced curly hair styling class for all entering students who wish to be licensed for Barbering and/or Cosmetology by the state of California. This course is a continuation of Cosmetology 21E. The student will learn wet and thermal styling, pressing and curling, sewing tracks, closures, crochet weave, and other techniques.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1591",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "M",
+              "location": "BUS 143",
+              "instructor": "Alexander Broa N"
+            }
+          ],
+          "notes": [
+            "Above section 1591 meets for 8 weeks, Oct 27 to Dec 15. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 15",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 36",
+      "course_title": "NAIL CARE 3",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "COSM 16.",
+      "prerequisite_notes": null,
+      "advisory": "COSM 26",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is the third nail care class required for all entering students who wish to be licensed for Cosmetology and/or Nail Care by the State of California. The student will learn State Board Rules and regulations, safety techniques and sanitation for Nails Care as well as the application of acrylics, and the use of e-files (nail drill).",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1592",
+          "schedule": [
+            {
+              "time": "12:30p.m.-4:35p.m.",
+              "days": "M",
+              "location": "BUS 143E",
+              "instructor": "Monge J V"
+            }
+          ],
+          "notes": [
+            "Above section 1592 meets for 8 weeks, Sep 08 to Oct 20. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 08 to Oct 20",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1593",
+          "schedule": [
+            {
+              "time": "12:30p.m.-4:35p.m.",
+              "days": "M",
+              "location": "BUS 143E",
+              "instructor": "Monge J V"
+            }
+          ],
+          "notes": [
+            "Above section 1593 meets for 8 weeks, Oct 27 to Dec 15. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 15",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 38",
+      "course_title": "SKIN CARE 3",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "COSM 18.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is the third skin care class required for all entering students who wish to be licensed for Cosmetology or Esthetics by the State of California. This class is designed to provide an understanding of skin care products, ingredients, and their significance to the esthetician and Cosmetologist. This course will focus on understanding many of the ingredients used in cosmetic chemistry and what solutions they provide for the clients. Understanding ingredients and solutions will provide the necessary knowledge for the skin care professional to consider when choosing a professional skin care product line and its uses.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1594",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "F",
+              "location": "BUS 143C",
+              "instructor": "Botma S M"
+            }
+          ],
+          "notes": [
+            "Above section 1594 meets for 8 weeks, Sep 05 to Oct 24. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 05 to Oct 24",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1595",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "F",
+              "location": "BUS 143C",
+              "instructor": "Botma S M"
+            }
+          ],
+          "notes": [
+            "Above section 1595 meets for 8 weeks, Oct 31 to Dec 19. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 31 to Dec 19",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 38B",
+      "course_title": "MECHANICAL EXFOLIATION",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "COSM 18.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is an advanced skin care class for students and licensed estheticians or Cosmetologists. This class is a continuation of COSM 38. This course provides essential theory carefully formulated to prepare a student to pass the written Cosmetology and/or Esthetics State Board Examinations. The students will learn additional advanced techniques for skin analysis, record keeping, advanced anatomy and physiology to determine the protocol for microdermabrasion treatments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1596",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "M",
+              "location": "BUS 143C",
+              "instructor": "Van Kallen D"
+            }
+          ],
+          "notes": [
+            "Above section 1596 meets for 8 weeks, Sep 08 to Oct 20. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 08 to Oct 20",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1597",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "M",
+              "location": "BUS 143C",
+              "instructor": "Van Kallen D"
+            }
+          ],
+          "notes": [
+            "Above section 1597 meets for 8 weeks, Oct 27 to Dec 15. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 15",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 38C",
+      "course_title": "CHEMICAL EXFOLIATION",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "COSM 18.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is an advanced skin care class for students and licensed Estheticians. This class is a continuation of COSM 38B. This course provides essential theory carefully formulated to prepare a student to pass the written Cosmetology and/or Esthetics State Board Examinations. The class will focus on the chemistry of exfoliation products, the pH scale and skin analysis to determine which chemical exfoliate should be used.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1607",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Moisan A V"
+            }
+          ],
+          "notes": [
+            "Above section 1607 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1608",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Moisan A V"
+            }
+          ],
+          "notes": [
+            "Above section 1608 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 50E",
+      "course_title": "WRITTEN PREPARATION FOR ESTHETICIAN STATE BOARD EXAM",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Completion of at least 400 hours of Esthetician coursework",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This theory course is designed to successfully prepare the student to take the written portion of the National-Interstate Council of State Boards of Cosmetology (NIC) exam required to obtain an esthetician license. Written testing includes: disinfection, sanitation, health and safety, rules and regulations, bacteriology, anatomy and physiology, manual facials, chemical facials, electrical facials, advanced techniques of skin care, eyebrow tweezing, waxing and makeup procedures.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1609",
+          "schedule": [
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "DiCamillo N"
+            }
+          ],
+          "notes": [
+            "Above section 1609 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1610",
+          "schedule": [
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "DiCamillo N"
+            }
+          ],
+          "notes": [
+            "Above section 1610 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 50N",
+      "course_title": "WRITTEN PREPARATION FOR NAIL CARE STATE BOARD EXAM",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Completion of at least 300 hours of Nail Care coursework",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This theory course is designed to successfully prepare the student to take the written portion of the National-Interstate Council of State Boards of Cosmetology (NIC) exam required to obtain a Manicuring license. Written testing includes: disinfection, sanitation, health and safety, rules and regulations, bacteriology, anatomy and physiology, manicuring, pedicuring, nail tips, acrylic and gel nails.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1611",
+          "schedule": [
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "DiCamillo N"
+            }
+          ],
+          "notes": [
+            "Above section 1611 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1612",
+          "schedule": [
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "DiCamillo N"
+            }
+          ],
+          "notes": [
+            "Above section 1612 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 50R",
+      "course_title": "WRITTEN PREPARATION FOR BARBERING STATE BOARD EXAM",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Possession of a cosmetology license or COSM 31A",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "and COSM 50A and completion of 1,250 hours in barbering coursework. This course is designed to prepare students for the NationalInterstate Council of State Boards of Cosmetology (NIC) exam required to obtain a barbering license. The course covers all topics in the written exam, including: disinfection, sanitation, health and safety, rules and regulations, bacteriology, anatomy, and physiology, advanced shaving and facial hair design, men’s hair cutting and styling, men’s chemical services and men’s facial massage and treatments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1613",
+          "schedule": [
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "DiCamillo N"
+            }
+          ],
+          "notes": [
+            "Above section 1613 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 64",
+      "course_title": "SALON MANAGEMENT",
+      "units": "2 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course presents an opportunity for a student/licensee to learn clientele building, choosing the right salon, types of leases and rent agreements, business permits, how to handle supplies, labor related laws, and key points for operating a salon, as well as how to write a resume. This course provides essential theory carefully formulated to prepare a student to pass the written Barbering, Cosmetology, Esthetics, and/or Nail Care State Board Examinations.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1614",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Manuel S M"
+            }
+          ],
+          "notes": [
+            "Above section 1614 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1615",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Manuel S M"
+            }
+          ],
+          "notes": [
+            "Above section 1615 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 95A",
+      "course_title": "SALON EXPERIENCE",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Completion of all beginning courses. Cosmetology",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "students must have completed at least 300 classroom hours; Skin Care students must have completed 60 classroom hours; Nail Care students must have completed 40 classroom hours.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1598",
+          "schedule": [
+            {
+              "time": "12:30p.m.-4:35p.m.",
+              "days": "M",
+              "location": "BUS 143C",
+              "instructor": "Van Kallen D"
+            }
+          ],
+          "notes": [
+            "Above section 1598 meets for 8 weeks, Sep 08 to Oct 20. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 08 to Oct 20",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1599",
+          "schedule": [
+            {
+              "time": "12:30p.m.-4:35p.m.",
+              "days": "M",
+              "location": "BUS 143C",
+              "instructor": "Van Kallen D"
+            }
+          ],
+          "notes": [
+            "Above section 1599 meets for 8 weeks, Oct 27 to Dec 15. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 15",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 42",
+      "course_title": "SHORT HAIR CUTTING",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "COSM 11A.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This class is required for all students who wish to be licensed for Barbering, Cosmetology or Hair Styling by the State of California. This class is designed to teach how to effectively and properly describe and demonstrate the many techniques of designing short hair, which will include wet and dry hair cuts, finger cutting techniques, scissors over comb hair cutting, clipper over comb hair cutting, beard trims, mustache and eyebrow shaping, blow drying and how to properly setup and maintain a Sanitary Maintenance Area necessary for all tools used.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1600",
+          "schedule": [
+            {
+              "time": "12:30p.m.-4:35p.m.",
+              "days": "M",
+              "location": "BUS 143B",
+              "instructor": "Harrison H L"
+            }
+          ],
+          "notes": [
+            "Above section 1600 meets for 8 weeks, Sep 08 to Oct 20. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 08 to Oct 20",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1601",
+          "schedule": [
+            {
+              "time": "12:30p.m.-4:35p.m.",
+              "days": "M",
+              "location": "BUS 143B",
+              "instructor": "Harrison H L"
+            }
+          ],
+          "notes": [
+            "Above section 1601 meets for 8 weeks, Oct 27 to Dec 15. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 15",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 46",
+      "course_title": "NAIL CARE 4",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "COSM 16.",
+      "prerequisite_notes": null,
+      "advisory": "COSM 36",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is an advanced nail care class required for all students who wish to be licensed for Nail Care by the State of California and optional for Cosmetology students. The student will learn State Board Rules and regulations, safety techniques and sanitation for Nail Care as well as the application of gel nails, spa manicures/pedicures and 3-D nail art.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1602",
+          "schedule": [
+            {
+              "time": "12:30p.m.-4:35p.m.",
+              "days": "T",
+              "location": "BUS 143E",
+              "instructor": "Monge J V"
+            }
+          ],
+          "notes": [
+            "Above section 1602 meets for 8 weeks, Oct 28 to Dec 16. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 28 to Dec 16",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 48",
+      "course_title": "SKIN CARE 4",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "COSM 18.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is the fourth skin care class required for all continuing students who wish to be licensed for Esthetics by the state of California and an elective for Cosmetologists. This course will combine theoretical applications and current trends and practices in esthetics.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1603",
+          "schedule": [
+            {
+              "time": "12:30p.m.-4:35p.m.",
+              "days": "Th",
+              "location": "BUS 143C",
+              "instructor": "Horn S L"
+            }
+          ],
+          "notes": [
+            "Above section 1603 meets for 8 weeks, Sep 04 to Oct 23. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 04 to Oct 23",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1604",
+          "schedule": [
+            {
+              "time": "12:30p.m.-4:35p.m.",
+              "days": "Th",
+              "location": "BUS 143C",
+              "instructor": "Horn S L"
+            }
+          ],
+          "notes": [
+            "Above section 1604 meets for 8 weeks, Oct 30 to Dec 18. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 30 to Dec 18",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 48B",
+      "course_title": "MAKE-UP",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "COSM 18.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This class is required for all students who wish to be licensed for Cosmetology and/or Esthetics by the state of California. This is an intense class in make-up application. This course will include color theory, blending make-up, the use of concealers, highlighters and contours. The application of blush, powders, lip liners, and lipstick, eye make-up techniques, and the application of new trends will also be covered. Students will learn how to determine face shapes. Students will learn about evening glamour, high fashion make-up, and special bridal looks.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1605",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "T",
+              "location": "BUS 143E",
+              "instructor": "Roze A K"
+            }
+          ],
+          "notes": [
+            "Above section 1605 meets for 8 weeks, Sep 09 to Oct 21. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 09 to Oct 21",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1606",
+          "schedule": [
+            {
+              "time": "7:30a.m.-11:35a.m.",
+              "days": "T",
+              "location": "BUS 143E",
+              "instructor": "Roze A K"
+            }
+          ],
+          "notes": [
+            "Above section 1606 meets for 8 weeks, Oct 28 to Dec 16. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 28 to Dec 16",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 50A",
+      "course_title": "WRITTEN PREPARATION FOR COSMETOLOGY STATE BOARD EXAM",
+      "units": "2 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "COSM 10A and COSM 10B.",
+      "prerequisite_notes": null,
+      "advisory": "Completion of at least 650 hours in Cosmetology",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course provides essential theory carefully formulated to prepare a student to pass the written Barbering and/or Cosmetology State Board Examination. Students are instructed in basic concepts of record keeping, facials, wet styling, scalp treatment, haircutting, perms, relaxing, hair color, thermal treatments, manicuring, and artificial nails. COSM 50A is mandatory for Cosmetology students. Students must have completed 650 hours in Cosmetology. COSM 95 is a variable unit course offered in four modules — A, B, C, or D. Students should sign up for the module that best fits their course schedules to maximize hours earned. This course is a module of a variable unit, variable hour, open-entry/open-exit experience provides the opportunity to obtain practical salon training working on patrons. The practical work is as close to actual beauty salon experience as possible. Students will earn hours toward the required practical hours and operations to be eligible to take the California State Board of Barbering, Cosmetology, Esthetics, and/or Nail Care exam, under the supervision of faculty. The student has fulfilled the salon requirement upon completion of 650-700 hours and has successful demonstration of all required operations.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1616",
+          "schedule": [
+            {
+              "time": "Arrange-6 Hours",
+              "days": "N",
+              "location": "BUS 143F",
+              "instructor": "Perret D M"
+            }
+          ],
+          "notes": [
+            "Above section 1616 meets for 16 weeks, Sep 03 to Dec 19. Above section modality is On Ground."
+          ],
+          "duration": "16 weeks, Sep 03 to Dec 19",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1617",
+          "schedule": [
+            {
+              "time": "Arrange-6 Hours",
+              "days": "N",
+              "location": "BUS 143F",
+              "instructor": "Moisan A V"
+            }
+          ],
+          "notes": [
+            "Above section 1617 meets for 16 weeks, Sep 03 to Dec 19. Above section modality is On Ground."
+          ],
+          "duration": "16 weeks, Sep 03 to Dec 19",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1618",
+          "schedule": [
+            {
+              "time": "Arrange-13.5 Hours",
+              "days": "N",
+              "location": "BUS 143F",
+              "instructor": "Moisan A V"
+            }
+          ],
+          "notes": [
+            "Above section 1618 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 95B",
+      "course_title": "SALON EXPERIENCE",
+      "units": "2 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Completion of all beginning courses. Cosmetology",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "students must have completed at least 300 classroom hours; Skin Care students must have completed 60 classroom hours; Nail Care students must have completed 40 classroom hours. COSM 95 is a variable unit course offered in four modules — A, B, C, or D. Students should sign up for the module that best fits their course schedules to maximize hours earned. This variable unit, variable hour, open-entry/open-exit experience provides the opportunity to obtain practical salon training working on patrons. The practical work is as close to actual beauty salon experience as possible. Students will earn hours toward the required practical hours and operations to be eligible to take the California State Board of Barbering, Cosmetology, Esthetics, and/or Nail Care exam under the supervision of faculty. The student has fulfilled the salon requirement upon completion of 650-700 hours and has successfully demonstrated all required operations.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1619",
+          "schedule": [
+            {
+              "time": "Arrange-12 Hours",
+              "days": "N",
+              "location": "BUS 143F",
+              "instructor": "Manuel S M"
+            }
+          ],
+          "notes": [
+            "Above section 1619 meets for 16 weeks, Sep 03 to Dec 19. Above section modality is On Ground."
+          ],
+          "duration": "16 weeks, Sep 03 to Dec 19",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 95C",
+      "course_title": "SALON EXPERIENCE",
+      "units": "3 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Completion of all beginning courses. Cosmetology",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "students must have completed at least 300 classroom hours; Skin Care students must have completed 60 classroom hours; Nail Care students must have completed 40 classroom hours. COSM 95 is a variable unit course offered in four modules — A, B, C, or D. Students should sign up for the module that best fits their course schedules to maximize hours earned. This variable unit, variable hour, open-entry/open-exit experience provides the opportunity to obtain practical salon training working on patrons. The practical work is as close to actual beauty salon experience as possible. Students will earn hours toward the required practical hours and operations to be eligible to take the California State Board of Barbering, Cosmetology, Esthetics, and/or Nail Care exam under the supervision of faculty. The student has fulfilled the salon requirement upon completion of 650-700 hours and has successfully demonstrated all required operations.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1620",
+          "schedule": [
+            {
+              "time": "Arrange-18 Hours",
+              "days": "N",
+              "location": "BUS 143F",
+              "instructor": "Harrison H L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COSM 95D",
+      "course_title": "SALON EXPERIENCE",
+      "units": "4 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Completion of all beginning courses. Cosmetology",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "students must have completed at least 300 classroom hours; Skin Care students must have completed 60 classroom hours; Nail Care students must have completed 40 classroom hours. COSM 95 is a variable unit course offered in four modules — A, B, C, or D. Students should sign up for the module that best fits their course schedules to maximize hours earned. This variable unit, variable hour, open-entry/open-exit experience provides the opportunity to obtain practical salon training working on patrons. The practical work is as close to actual beauty salon experience as possible. Students will earn hours toward the required practical hours and operations to be eligible to take the California State Board of Barbering, Cosmetology, Esthetics, and/or Nail Care exam under the supervision of faculty. The student has fulfilled the salon requirement upon completion of 650-700 hours and has successfully demonstrated all required operations.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1621",
+          "schedule": [
+            {
+              "time": "Arrange-24 Hours",
+              "days": "N",
+              "location": "BUS 143F",
+              "instructor": "Ceballos B A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

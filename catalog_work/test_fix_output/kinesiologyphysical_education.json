@@ -1,0 +1,81 @@
+{
+  "program_name": "Kinesiology/Physical Education",
+  "program_description": "See also “Professional Courses in Kinesiology/Physical Education” (PRO CR) and “Varsity Intercollegiate Athletics” (VAR/PE). The Kinesiology / Physical Education curriculum is grouped together in the following manner: - General Studies - Aquatics - Combatives - Fitness - Individual Sports - Team Sports",
+  "courses": [
+    {
+      "course_code": "KIN PE 3",
+      "course_title": "INTRODUCTION TO EXERCISE PHYSIOLOGY I",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "*Maximum UC credit for KIN PE 2, 3, PRO CR 3, 4, 6A, 6B, 7, 8, 9, 29A, 29B combined is 8 units. This is an introduction to the principles of Exercise Physiology. The course will explore topics related to exercise and human performance. These topics will include but are not limited to: physiological functions of human body systems at rest and during movement, energy transfer and utilization, nutrition for sport performance, and measurement of human performance as it relates to body composition, exercise training, and adaptation. Students enrolling in this course should have some recent experience in science.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2446",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Metzler K A"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "KIN PE 4",
+      "course_title": "INTRODUCTION TO SPORT PSYCHOLOGY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course examines the connection between the mental and physical aspects of competition and ways to enhance or improve performance. Psychological practices such as: stress reduction, goal-oriented imagery and positive visualization will be implemented with physical training methods to improve overall performance.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2447",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Metzler K A"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,814 @@
+{
+  "program_name": "Anthropology",
+  "program_description": "Anthropology is a diverse discipline involving the humanities, social sciences and natural sciences that examines various aspects of past and present-day humans. It consists of four fields: Archaeology, Cultural Anthropology, Linguistic Anthropology, and Physical Anthropology. Archaeology examines past human cultures through material culture. Cultural Anthropology focuses on sociocultural variation among humans. Linguistic Anthropology examines how language influences society and culture. Physical Anthropology studies the biological and behavioral aspects of humans within an evolutionary framework. Some of the courses listed in this section are accompanied by Supplemental Instruction. Supplemental Instruction (SI) is an academic assistance program that utilizes free peer-assisted weekly study sessions to help students learn the most difficult course content. For more information, please see the SI website at smc.edu/si.",
+  "courses": [
+    {
+      "course_code": "ANTHRO 1",
+      "course_title": "BIOLOGICAL ANTHROPOLOGY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, non-lab)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "*Maximum credit allowed for ANTHRO 1 and ANTHRO 5 is one course (4 units). A survey of human biology, this course focuses on human origins and evolution by investigating the major aspects of biological anthropology including Mendelian and human genetics, primate and hominid evolutionary processes, contemporary human variability and facets of primate ethology and human behavior that make our species unique in the animal kingdom.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1137",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "Th",
+              "location": "MSB 119",
+              "instructor": "Brewster C P"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Brewster C P"
+            }
+          ],
+          "notes": [
+            "Above section 1137 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1138",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "W",
+              "location": "MSB 303",
+              "instructor": "Haradon C M"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Haradon C M"
+            }
+          ],
+          "notes": [
+            "Above section 1138 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1139",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "T",
+              "location": "MSB 117",
+              "instructor": "Rashidi J S"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Rashidi J S"
+            }
+          ],
+          "notes": [
+            "Above section 1139 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1140",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "T",
+              "location": "MSB 117",
+              "instructor": "Rashidi J S"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Rashidi J S"
+            }
+          ],
+          "notes": [
+            "Above section 1140 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1141",
+          "schedule": [
+            {
+              "time": "3:45p.m.-5:05p.m.",
+              "days": "T",
+              "location": "MSB 117",
+              "instructor": "Rashidi J S"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Rashidi J S"
+            }
+          ],
+          "notes": [
+            "Above section 1141 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1142",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Lewis B S"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1143",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Lewis B S"
+            }
+          ],
+          "notes": [
+            "Above section 1143 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1144",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Lewis B S"
+            }
+          ],
+          "notes": [
+            "Above section 1144 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ANTHRO 2",
+      "course_title": "CULTURAL ANTHROPOLOGY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "ANTH 120",
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Cultural Anthropology is the study of human society and culture, analyzing both similarities and differences amongst cultural groups. This course will introduce students to important socio-cultural concepts used by cultural anthropologists including material culture, social organization, religion, kinship, ritual and symbolic systems, race, ethnicity, and language amongst others. Students will examine how cultural anthropologists understand the notion of culture in the study of human behavior in different regions of the world. The ethnographic method as a key methodology will be stressed throughout this course.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1145",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "MW",
+              "location": "MSB 310",
+              "instructor": "Denman J F"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1146",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "W",
+              "location": "MSB 309",
+              "instructor": "Minzenberg E G"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Minzenberg E G"
+            }
+          ],
+          "notes": [
+            "Above section 1146 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1147",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "MSB 310",
+              "instructor": "Denman J F"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1148",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "MW",
+              "location": "MSB 309",
+              "instructor": "Denman J F"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1149",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Minzenberg E G"
+            }
+          ],
+          "notes": [
+            "Above section 1149 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ANTHRO 3",
+      "course_title": "WORLD ARCHAEOLOGY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "*Maximum UC credit allowed for ANTHRO 3 and ANTHRO 4 is one course (3 units). This course is an introduction to the archaeological record documenting the evolution of human culture from the earliest stone tool makers to the primary civilizations of the Old and New Worlds. Topics include hunter-gatherer adaptations, the invention and spread of agriculture, and the development of civilizations. Archaeological techniques and methods are introduced as the means for understanding these developments.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1150",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "W",
+              "location": "MSB 119",
+              "instructor": "Lewis B S"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Lewis B S"
+            }
+          ],
+          "notes": [
+            "Above section 1150 meets for 8 weeks, Sep 03 to Oct 22, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 22",
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ANTHRO 4",
+      "course_title": "METHODS OF ARCHAEOLOGY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "*Maximum UC credit allowed for ANTHRO 3 and ANTHRO 4 is one course (3 units). This is an introductory lecture class on the field and laboratory methods used by archaeologists to understand our past. Topics include the scientific method, archaeological research design, archaeological reconnaissance, excavation, relative and absolute dating techniques, analyses of archaeological remains, and Cultural Resource Management.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1151",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "W",
+              "location": "MSB 119",
+              "instructor": "Lewis B S"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Lewis B S"
+            }
+          ],
+          "notes": [
+            "Above section 1151 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ANTHRO 5",
+      "course_title": "BIOLOGICAL ANTHROPOLOGY WITH LAB",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "*Maximum credit allowed for ANTHRO 1 and ANTHRO 5 is one course (4 units). A survey of human biology, this course focuses on human origins and evolution by investigating the major aspects of biological anthropology including Mendelian and human genetics, population genetics, primate and hominid evolutionary processes, contemporary human variability, and facets of primate ethology and human behavior that make our species unique in the animal kingdom. This course consists of three hours of lecture and three hours of laboratory work weekly. The laboratory projects will parallel the lecture topics hence the lab projects will pertain to genetics, human variation, primate anatomy, human osteology, and analysis of hominid (human) and primate fossils.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1152",
+          "schedule": [
+            {
+              "time": "9:30a.m.-12:35p.m.",
+              "days": "W",
+              "location": "MSB 117",
+              "instructor": "Brewster C P"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Brewster C P"
+            }
+          ],
+          "notes": [
+            "Above section 1152 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1153",
+          "schedule": [
+            {
+              "time": "9:30a.m.-12:35p.m.",
+              "days": "Th",
+              "location": "MSB 117",
+              "instructor": "Haradon C M"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Haradon C M"
+            }
+          ],
+          "notes": [
+            "Above section 1153 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1154",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:50p.m.",
+              "days": "W",
+              "location": "MSB 117",
+              "instructor": "Brewster C P"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Brewster C P"
+            }
+          ],
+          "notes": [
+            "Above section 1154 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1155",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:50p.m.",
+              "days": "Th",
+              "location": "MSB 117",
+              "instructor": "Haradon C M"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Haradon C M"
+            }
+          ],
+          "notes": [
+            "Above section 1155 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ANTHRO 7",
+      "course_title": "INTRODUCTION TO LINGUISTIC ANTHROPOLOGY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course introduces the student to the place of language in society and how it varies in different cultures. The course explores how language changes in different segments of society, the relationship between dialects and social hierarchy, and language variations between genders. Students will learn to analyze linguistic expressions such as oral story-telling, poetry, and narratives from a cross-cultural perspective. Also students will discuss the role of language in issues related to nationalism.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1156",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "T",
+              "location": "MSB 117",
+              "instructor": "Grebler G"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Grebler G"
+            }
+          ],
+          "notes": [
+            "Above section 1156 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ANTHRO 19",
+      "course_title": "THE CULTURE OF FOOD",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Food nourishes not only our bodies, but also our souls, and plays a critical role in the identity formation of individuals and groups of people in society. This course explores how different cultural systems throughout the world shape the production, distribution and consumption of food. This course utilizes a cross-cultural focus to investigate the social, cultural, and ecological aspects of food, food products, and food resources in a global, historical, and comparative perspective.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1157",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "W",
+              "location": "MSB 309",
+              "instructor": "Minzenberg E G"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Grebler G"
+            }
+          ],
+          "notes": [
+            "Above section 1157 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ANTHRO 22",
+      "course_title": "MAGIC, RELIGION, AND WITCHCRAFT",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "The purpose of this course is to explore in a cross-cultural context the nature of religion and the relationships of individuals and societies to supernatural forces and persons. The course will examine general patterns of religious behavior throughout the world, delineate different theories of religion and see how they apply in various cultures. By the end of the course, the student should be able to identify several definitions and theories of religion and to discuss their merits with regard to specific cases.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1158",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Zunner-Keating A"
+            }
+          ],
+          "notes": [
+            "Above section 1158 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ANTHRO 88A",
+      "course_title": "INDEPENDENT STUDIES IN ANTHROPOLOGY",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Independent Studies” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1159",
+          "schedule": [
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Minzenberg E G"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1160",
+          "schedule": [
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Minzenberg E G"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1161",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Minzenberg E G"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ERTHSC 88A",
+      "course_title": "INDEPENDENT STUDIES IN EARTH SCIENCE",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Independent Studies” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2197",
+          "schedule": [
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Minzenberg E G"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ERTHSC 88B",
+      "course_title": "INDEPENDENT STUDIES IN EARTH SCIENCE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Independent Studies” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2198",
+          "schedule": [
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Minzenberg E G"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ANTHRO 300",
+      "course_title": "ETHNOGRAPHIC RESEARCH METHODS FOR DESIGNERS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Admission to the SMC baccalaureate degree program.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course will introduce ethnographic research methods from the field of anthropology to IxD students. Students will learn how to develop ethnographic research to understand users’ needs and issues in the interactive design process. A variety of qualitative and quantitative research methodologies will be explored and practiced by students. The course will also introduce the ethical standards in human subjects research, including the IRB (Institutional Review Board) process and informed consent protocols. This course is open only to students who have been admitted to SMC’s Bachelor of Science program in Interaction Design. See ixd.smc.edu for more information.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "5001",
+          "schedule": [
+            {
+              "time": "10:00a.m.-12:05p.m.",
+              "days": "Th",
+              "location": "CMD 271",
+              "instructor": "Minzenberg E G"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Grebler G"
+            }
+          ],
+          "notes": [
+            "Above section 5001 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

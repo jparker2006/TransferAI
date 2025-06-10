@@ -1,0 +1,738 @@
+{
+  "program_name": "Fashion Design and Merchandising",
+  "program_description": "Fashion design students develop skills in design communication, including preliminary sketching, technical flat sketching, illustration, and usage of Adobe Photoshop, Illustrator and CAD software. Skills in draping, pattern drafting from draping and body measurements, and basic sewing skills to advanced construction are developed in order to create sample garments for production and sales. Fashion merchandisers select, purchase, promote, and sell clothing and accessories. They study fashion trends and visit manufacturers and merchandise markets. They work as part of a team and consult with managers and buyers, advise the advertising and display departments, and organize and coordinate promotional activities such as fashion shows. They may advance to become buyers and purchasing agents, sales representatives, and managers. Clothes designers create new apparel and accessory designs. They may sketch the garment, cut the pattern, select the fabric and materials, and in some cases construct the sample garment. They may arrange for the showing of a line at sales meetings or fashion shows.",
+  "courses": [
+    {
+      "course_code": "FASHN 1",
+      "course_title": "INTRODUCTION TO THE FASHION INDUSTRY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is designed to serve both students of fashion design and fashion merchandising in preparing them to become familiar with the nature of fashion design and its components and to understand how environmental factors influence the style, color, texture, and design of garments. Fashion materials, theories of fashion adoption, sources of design inspiration, and manufacturing a garment will be discussed.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2259",
+          "schedule": [
+            {
+              "time": "8:00a.m.-9:20a.m.",
+              "days": "TTh",
+              "location": "BUS 105",
+              "instructor": "Ivas L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2260",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "MW",
+              "location": "BUS 105",
+              "instructor": "Ivas L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2261",
+          "schedule": [
+            {
+              "time": "2:00p.m.-5:05p.m.",
+              "days": "T",
+              "location": "BUS 105",
+              "instructor": "Armstrong R W"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2262",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Armstrong R W"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FASHN 2",
+      "course_title": "COLOR ANALYSIS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is an exploration of color theory and elements of design with emphasis on the expertise of color mixing and creative color combinations. Theory is applied to textile, fashion design, and fashion merchandising.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2263",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "BUS 105",
+              "instructor": "Lake R G"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4094",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "W",
+              "location": "BUS 105",
+              "instructor": "Armstrong R W"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FASHN 3",
+      "course_title": "APPAREL CONSTRUCTION",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is an introduction to basic sewing techniques of costume and manufacturing apparel and provides familiarization with the tools used in the fashion industry. Development of fundamental skills and terminology of clothing construction. Emphasis is on interrelationship of fabric, fiber, design and construction techniques. This course is required of all Fashion Design and Merchandising majors.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2264",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "M",
+              "location": "BUS 107",
+              "instructor": "Ardell J B"
+            },
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "W",
+              "location": "BUS 107",
+              "instructor": "Khachmanyan S"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2265",
+          "schedule": [
+            {
+              "time": "8:00a.m.-2:10p.m.",
+              "days": "S",
+              "location": "BUS 107",
+              "instructor": "Khachmanyan S"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2266",
+          "schedule": [
+            {
+              "time": "3:00p.m.-6:05p.m.",
+              "days": "MW",
+              "location": "BUS 107",
+              "instructor": "Louis L N"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4095",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "MW",
+              "location": "BUS 107",
+              "instructor": "Shigroff S"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FASHN 5",
+      "course_title": "FASHION BUYING",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is an introductory course in fashion buying to acquaint the students with the life of a buyer that includes considerations and practices of an executive or middle manager. The buyer’s position includes responsibilities such as making evaluations and maintaining standards that are complete and constant. This course will also present an awareness of quality effect of stocking merchandise and knowing and effectively practicing what to buy, when to buy, and how much to buy.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2267",
+          "schedule": [
+            {
+              "time": "2:00p.m.-5:05p.m.",
+              "days": "W",
+              "location": "HSS 254",
+              "instructor": "Kolko S R"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2268",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Kolko S R"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FASHN 6A",
+      "course_title": "PATTERN DRAFTING AND DESIGN",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "FASHN 3",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is a study of the basic pattern drafting techniques of the apparel industry and the transfer of a design to a flat pattern. Students learn to design and make their own patterns.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2269",
+          "schedule": [
+            {
+              "time": "8:00a.m.-12:15p.m.",
+              "days": "F",
+              "location": "BUS 107",
+              "instructor": "Shigroff S"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2270",
+          "schedule": [
+            {
+              "time": "3:00p.m.-5:05p.m.",
+              "days": "TTh",
+              "location": "BUS 107",
+              "instructor": "Louis L N"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FASHN 6B",
+      "course_title": "PATTERN DRAFTING AND DESIGN INTERMEDIATE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "FASHN 6A",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is a continuation of Fashion 6A with emphasis on more advanced and complex design creations in harmony with the current trends.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4096",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "TTh",
+              "location": "BUS 107",
+              "instructor": "Louis L N"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FASHN 7",
+      "course_title": "FASHION TEXTILES",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "A detailed study of textiles from fiber to finished fabric is covered in this course including identifications of fiber types, construction, printing, dyeing, and finishes of natural/man-made fabrics. Emphasis is on fabric design, principles of patterns, and methods of textile decoration.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2271",
+          "schedule": [
+            {
+              "time": "9:30a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "BUS 251",
+              "instructor": "Lake R G"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4097",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "MW",
+              "location": "HSS 151",
+              "instructor": "Reiner H G"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FASHN 8",
+      "course_title": "HISTORY OF FASHION DESIGN",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This survey of fashion of the Western world introduces historic dress as an inspiration and a design resource for students of fashion design and fashion buying and merchandising. The evolution silhouette and the cut and construction of men’s and women’s garments are analyzed using slides of paintings, drawings, sculpture and historic costume. Contemporary examples in fashion are compared to their historic sources.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2272",
+          "schedule": [
+            {
+              "time": "2:20p.m.-5:25p.m.",
+              "days": "M",
+              "location": "BUS 105",
+              "instructor": "Armstrong J I"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FASHN 9A",
+      "course_title": "INTRODUCTION TO FASHION ILLUSTRATION",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course will give students skill in drawing fashion figures and deals with contemporary idealized proportions used for fashion today for both fashion design and fashion merchandising. Students will develop individual style in their presentation, and learn to use their drawing as a means of communicating their ideas and designs.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2273",
+          "schedule": [
+            {
+              "time": "2:00p.m.-5:05p.m.",
+              "days": "Th",
+              "location": "BUS 105",
+              "instructor": "Armstrong J I"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FASHN 10",
+      "course_title": "ADVANCED DESIGN AND CONSTRUCTION",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "FASHN 3",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Emphasis on unique and creative designs with manipulation of appropriate and more difficult fabrics. Students will gain more confidence and speed in their design developments, pattern making and construction.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2274",
+          "schedule": [
+            {
+              "time": "11:15a.m.-2:20p.m.",
+              "days": "TTh",
+              "location": "BUS 107",
+              "instructor": "Ardell J B"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FASHN 14",
+      "course_title": "DRAPING II",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "FASHN 13",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is a continuation of Fashion 13 and deals with more complex and original designs for draping. Students will learn how to analyze and interpret complicated designs by means of draping and gain enough experience and speed to create and develop more advanced designs.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2275",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "TTh",
+              "location": "BUS 107",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FASHN 15",
+      "course_title": "ETHNIC FASHION",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Apparel worn as national dress by people all over the world is surveyed. The origins and functions of clothing in different cultures are examined. Creative designing is inspired by ethnic costumes.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2276",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "BUS 105",
+              "instructor": "Ivas L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FASHN 16",
+      "course_title": "PATTERN GRADING",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "FASHN 6A or FASHN 9",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Grading is the process of proportionally increasing or decreasing the production pieces according to set measurements for each clothing classification (Women’s Junior Petite, Junior, Misses, Half-sizes). This is done without changing or losing the style proportions which are part of the design concept while still retaining the original lines and style of the garment. Students are introduced to and become familiar with a computer program used for grading in the fashion industry, and with the logic and rules that apply to pattern grading.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2277",
+          "schedule": [
+            {
+              "time": "12:00p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "BUS 107",
+              "instructor": "Louis L N"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FASHN 18",
+      "course_title": "COMPUTER AIDED FASHION DESIGN AND MERCHANDISING",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "FASHN 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Computer-assisted applications are used as tools to design and create original and innovative work for fashion marketing or fashion design. This is an introductory course requiring basic computer skills. Students will need access to a computer and the Adobe Creative Suite software.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2278",
+          "schedule": [
+            {
+              "time": "2:15p.m.-6:20p.m.",
+              "days": "W",
+              "location": "BUS 203",
+              "instructor": "Armstrong R W"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FASHN 20",
+      "course_title": "FASHION STYLING AND VISUAL PRESENTATION",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "FASHN 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course involves the study and exploration of styling fashion visual presentations, including editorial, ad campaigns, and digital retail environmental display. Students will research promotion techniques and methodology used for window and catalog display, exhibitions, look books, and graphic collateral used in various market categories in order to create a styling concept portfolio.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2279",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "BUS 105",
+              "instructor": "Ivas L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

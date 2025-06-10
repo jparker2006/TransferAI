@@ -1,0 +1,133 @@
+{
+  "program_name": "Aquaculture",
+  "program_description": "See also “Biological Sciences.”",
+  "courses": [
+    {
+      "course_code": "AQUA 1",
+      "course_title": "INTRODUCTION TO AQUACULTURE: HISTORY, ECOLOGY AND SUSTAINABILITY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is an introductory course to the field of aquaculture. Topics include the history and current trends in the field, a review of Biological and ecological concepts relevant to aquaculture with attention to the impact of climate change and other environmental concerns on the sustainability of the industry. With consideration for environmental change, additionally, this course addresses conservation and restoration practices for endangered species.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1162",
+          "schedule": [
+            {
+              "time": "8:00a.m.-9:20a.m.",
+              "days": "TTh",
+              "location": "SCI 159",
+              "instructor": "Rink L K"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "AQUA 2",
+      "course_title": "APPLICATIONS IN AQUACULTURE – SYSTEM DESIGN, MONITORING AND MAINTENANCE",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This lecture and lab course explores the variety of aquaculture systems, including the design and build phase, monitoring and maintenance, and rearing and husbandry of aquaculture species.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1163",
+          "schedule": [
+            {
+              "time": "1:00p.m.-2:20p.m.",
+              "days": "TTh",
+              "location": "SCI 159",
+              "instructor": "Ryan S H"
+            },
+            {
+              "time": "3:00p.m.-6:05p.m.",
+              "days": "T",
+              "location": "HEALBAY",
+              "instructor": "Ryan S H"
+            }
+          ],
+          "notes": [
+            "Above section 1163 has a component of the course located at Heal the Bay Aquarium located at 1600 Ocean Front Walk, Santa Monica, CA 90401. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "AQUA 3",
+      "course_title": "MICROBIOLOGY AND GENETICS FOR AQUACULTURE",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "AQUA 1 and AQUA 2.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course addresses topics in clinical microbiology and genetics relevant to aquaculture and aquarium sciences. With consideration for environmental change, additionally, this course addresses conservation and restoration practices for endangered species.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1164",
+          "schedule": [
+            {
+              "time": "3:45p.m.-6:50p.m.",
+              "days": "W",
+              "location": "SCI 209",
+              "instructor": "Aguirre E G"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Aguirre E G"
+            }
+          ],
+          "notes": [
+            "Above section 1164 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

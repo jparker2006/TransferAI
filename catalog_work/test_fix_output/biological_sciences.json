@@ -1,0 +1,1504 @@
+{
+  "program_name": "Biological Sciences",
+  "program_description": "See also “Aquaculture.” Coursework and study in the biological sciences provides a foundation for future employment in many of the fastest growing and emerging STEM (Science, Technology, Engineering and Math) fields today. Students of biology are at the front lines of many of the most critical questions our society is facing in the 21st century and beyond, including addressing climate change, the biodiversity crisis, resource management and population growth, emerging/infectious diseases and public health. Students of biology become lab technicians, nurses, genetic counselors, physicians, environmental scientists, landscape architects, state and national park rangers, researchers in agriculture, pharmaceuticals and biotechnology, teachers and college professors. Logic and critical thinking skills developed as a student of biology are applicable to nearly every field and every discipline and provide a foundation for making informed personal, business and public policy decisions. Students must be present for the first session of biological science classes to be assured of admission to limited laboratory spaces. Students who wish to enroll in a Life Sciences course must demonstrate that they have met the prerequisites for the course prior to enrollment. Continuing students must complete prerequisite courses with a C or better. If currently enrolled in a prerequisite course at SMC at the time of enrollment, students will be admitted to subsequent courses based upon midterm placement results, but will be dropped if the prerequisite course is not completed with a C or better. Students who have successfully completed one or more prerequisite courses (earning a grade of C- or better in both the lecture and lab courses and an average of C (2.0) or better overall) at another institution may be able to verify having met the prerequisites by submitting a transcript and course description and course syllabus for the prerequisite courses.",
+  "courses": [
+    {
+      "course_code": "ANATMY 1",
+      "course_title": "GENERAL HUMAN ANATOMY",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "BIOL 110B",
+      "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
+      "special_notes": [],
+      "prerequisites": "ENGL C1000 (formerly ENGL 1).",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is an intensive study of the gross and microscopic structure of the human body including the four major types of tissue and their subgroups, and the following organ systems: integumentary, skeletal, muscular, circulatory, respiratory, digestive, urinary, reproductive, endocrine, nervous, enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1281",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:10a.m.",
+              "days": "W",
+              "location": "SCI 225",
+              "instructor": "Kim-Rajab O S"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Kim-Rajab O S"
+            }
+          ],
+          "notes": [
+            "Above section 1281 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1282",
+          "schedule": [
+            {
+              "time": "12:00p.m.-3:05p.m.",
+              "days": "M",
+              "location": "SCI 227",
+              "instructor": "Lee S I"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Lee S I"
+            }
+          ],
+          "notes": [
+            "Above section 1282 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1283",
+          "schedule": [
+            {
+              "time": "12:00p.m.-3:10p.m.",
+              "days": "M",
+              "location": "SCI 225",
+              "instructor": "Kim-Rajab O S"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Kim-Rajab O S"
+            }
+          ],
+          "notes": [
+            "Above section 1283 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1284",
+          "schedule": [
+            {
+              "time": "12:00p.m.-3:10p.m.",
+              "days": "W",
+              "location": "SCI 227",
+              "instructor": "Baker E H"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Baker E H"
+            }
+          ],
+          "notes": [
+            "Above section 1284 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1285",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:50p.m.",
+              "days": "T",
+              "location": "SCI 225",
+              "instructor": "Bober M A"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Bober M A"
+            }
+          ],
+          "notes": [
+            "Above section 1285 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1286",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:50p.m.",
+              "days": "Th",
+              "location": "SCI 225",
+              "instructor": "Bober M A"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Bober M A"
+            }
+          ],
+          "notes": [
+            "Above section 1286 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1287",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:55p.m.",
+              "days": "T",
+              "location": "SCI 227",
+              "instructor": "Baker E H"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Baker E H"
+            }
+          ],
+          "notes": [
+            "Above section 1287 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1288",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:55p.m.",
+              "days": "Th",
+              "location": "SCI 227",
+              "instructor": "Baker E H"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Baker E H"
+            }
+          ],
+          "notes": [
+            "Above section 1288 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4028",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "TTh",
+              "location": "SCI 227",
+              "instructor": "Kay B W"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4029",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:55p.m.",
+              "days": "M",
+              "location": "SCI 225",
+              "instructor": "Griffis K"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Chen T T"
+            }
+          ],
+          "notes": [
+            "Above section 4029 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4030",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:55p.m.",
+              "days": "W",
+              "location": "SCI 225",
+              "instructor": "Griffis K"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Chen T T"
+            }
+          ],
+          "notes": [
+            "Above section 4030 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "BIOL 9",
+      "course_title": "ENVIRONMENTAL BIOLOGY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, non-lab)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This survey course covers ecological principles including ecosystem structure and function, population dynamics and the interdependence of living organisms. Current environmental issues and controversies such as global warming, biodiversity and species extinction, habitat destruction, food and energy resources and pollution will be explored. Strategies for sustainable living will be emphasized.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1289",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "SCI 151",
+              "instructor": "Raymer P C"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1290",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Raymer P C"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1291",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Sakurai D S"
+            }
+          ],
+          "notes": [
+            "This section is Flexible and will be taught primarily through Canvas and other learning platforms that are flexible for the student’s schedule."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "BIOL 10",
+      "course_title": "APPLIED ECOLOGY AND CONSERVATION BIOLOGY",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course introduces students to basic concepts of environmental biology through the study of evolution, ecology, and conservation biology. The course is designed for both major and non-major environmental science students. It is intended both as preparation for upper division Environmental Science classes, but also as general education for all students interested in a more in-depth understanding of current biological and environmental issues. By the end of the course, students should be able to use scientifically sound information to critically analyze complex environmental issues from around the world. Students will gather and analyze basic research data and apply the scientific method to conservation-related projects. Laboratory and field experiments are integrated and stress scientific methodology and thinking.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1292",
+          "schedule": [
+            {
+              "time": "9:00a.m.-12:05p.m.",
+              "days": "M",
+              "location": "SCI 134",
+              "instructor": "Raymer P C"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Raymer P C"
+            }
+          ],
+          "notes": [
+            "Above section 1292 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1293",
+          "schedule": [
+            {
+              "time": "9:00a.m.-12:05p.m.",
+              "days": "W",
+              "location": "SCI 134",
+              "instructor": "Raymer P C"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Raymer P C"
+            }
+          ],
+          "notes": [
+            "Above section 1293 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "BIOL 15",
+      "course_title": "MARINE BIOLOGY WITH LABORATORY",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "*Total of four units credit for BIOL 15 and BIOL 15N is transferable. This survey course of marine organisms and their relationships to their environment emphasizes intertidal and offshore life forms. Included is an investigation of behavior, ecology, morphological and physiological adaptations and environmental relationship to humans. This course is three hours each of lecture and laboratory work.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1294",
+          "schedule": [
+            {
+              "time": "Arrange-6 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Baghdasarian G"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "BIOL 21",
+      "course_title": "CELL BIOLOGY AND EVOLUTION",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
+      "special_notes": [
+        "*No UC credit for BIOL 3"
+      ],
+      "prerequisites": "CHEM 11.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "BOTANY 1 or ZOOL 5 if taken after BIOL 21, 22 or 23. This is the first course of a three-course lecture and laboratory sequence for Biology majors, including Biology 21, 22, and 23. It describes how scientists approach the scientific method to generate scientific knowledge; studies the history, evidence, and mechanisms of evolution; identifies the chemistry of four classes of macromolecules; elucidates the cell principle including cell structure, function, and physiology; describes general energy metabolism; and illustrates the processes of growth and reproduction through mitosis, meiosis, development, and life cycles. Students are required to perform at least two experiments that require data collection, computerbased data management and graphing, and scientific analysis and interpretation of data. The course is designed to meet the needs of students transferring to upper division biology study.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1295",
+          "schedule": [
+            {
+              "time": "8:15a.m.-11:20a.m.",
+              "days": "MW",
+              "location": "SCI 124",
+              "instructor": "Meyer A E"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1296",
+          "schedule": [
+            {
+              "time": "12:00p.m.-3:05p.m.",
+              "days": "W",
+              "location": "SCI 124",
+              "instructor": "Vagin O"
+            },
+            {
+              "time": "12:00p.m.-3:05p.m.",
+              "days": "T",
+              "location": "ONLINE",
+              "instructor": "Lee S I"
+            }
+          ],
+          "notes": [
+            "Above section 1296 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Tuesday sessions will be held online in the Scheduled modality."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1297",
+          "schedule": [
+            {
+              "time": "4:00p.m.-7:05p.m.",
+              "days": "MW",
+              "location": "SCI 124",
+              "instructor": "Vagin O"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "BIOL 22",
+      "course_title": "GENETICS AND MOLECULAR BIOLOGY",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "*No UC credit for BIOL 3"
+      ],
+      "prerequisites": "BIOL 21 and CHEM 11.",
+      "prerequisite_notes": null,
+      "advisory": "CHEM 21 and Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "BOTANY 1 or ZOOL 5 if taken after BIOL 21, 22 or 23. This is the second course of a three-course lecture and laboratory sequence for Biology Majors, Biology 21, 22 and 23. It focuses on the structure, function and transmission of genes from the perspectives of genetics and molecular biology. A strong foundation in genetics and its relationship to molecular biology is developed through problem solving. Students perform experiments that require data analysis and demonstrate interpretations in laboratory reports. Application of Internet databases for bioinformatics is used to show relationships between DNA and protein sequences. The course is designed to meet the needs of students transferring to upper division biology study. It is strongly recommended that students also enroll in Chemistry 21 which is required for transfer. Any online section of BIOL 22 will be taught as a hybrid with all lab meetings scheduled for in-person learning on the SMC campus.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1298",
+          "schedule": [
+            {
+              "time": "9:00a.m.-12:10p.m.",
+              "days": "F",
+              "location": "SCI 225",
+              "instructor": "Bober M A"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Bober M A"
+            }
+          ],
+          "notes": [
+            "Above section 1298 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1299",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:50p.m.",
+              "days": "W",
+              "location": "ONLINE",
+              "instructor": "Lee S I"
+            },
+            {
+              "time": "12:45p.m.-3:50p.m.",
+              "days": "F",
+              "location": "SCI 225",
+              "instructor": "Lee S I"
+            }
+          ],
+          "notes": [
+            "Above section 1299 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Wednesday sessions will be held online in the Scheduled modality."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "BIOL 23",
+      "course_title": "ORGANISMAL AND ENVIRONMENTAL BIOLOGY",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
+      "special_notes": [
+        "*No UC credit for BIOL 3"
+      ],
+      "prerequisites": "BIOL 22.",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "BOTANY 1 or ZOOL 5 if taken after BIOL 21, 22, or 23. This is the third of a three-course lecture and laboratory sequence for biology majors. Organisms at and above the cellular level of organization are examined, with plants, invertebrates, and vertebrates receiving equal attention. Topics emphasized include morphology, physiology, systematics, ecology, evolution, and behavior. Additionally, each student must complete a term project which includes lab or fieldwork and library research. Transfer credit is limited if students enroll in other overlapping Biology courses or Zoology 5.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1300",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:50p.m.",
+              "days": "TTh",
+              "location": "SCI 124",
+              "instructor": "Salter J"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Salter J"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Tower J A"
+            }
+          ],
+          "notes": [
+            "Above section 1300 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "BIOL 30",
+      "course_title": "FUNDAMENTALS OF BIOTECHNOLOGY 1",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course will introduce students to the broad spectrum of the biotechnology field and workforce, with content that will be accessible and appropriate to students and professionals from diverse disciplines. This course is designed to prepare students to enter the growing biotechnology workforce or to transfer. Students that complete this course will be eligible to take the Los Angeles Regional Bioscience/Biotechnology Industry-Valued Credential. Topics explored in this course include basic molecular and cellular biology, introductory genetics, biomanufacturing, microbiology, agriculture & bioremediation, chemistry, environmental health & safety, quality assurance & regulation, business, ethics, and biotechnology company structure. These concepts are explored by means of class discussions and projects, reading assignments, and lab activities. The course is intended as preparation for the intermediate and advanced biotechnology skills and methods courses as well as internships. By the end of the course, students should be able to describe the general structure and operating practices for a biotechnology company, dem- onstrate knowledge of fundamental biotechnology concepts in a molecular biology context, and express understanding of biotechnology applications and ethical practices.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1301",
+          "schedule": [
+            {
+              "time": "9:00a.m.-11:05a.m.",
+              "days": "TTh",
+              "location": "SCI 333",
+              "instructor": "Denmon A P"
+            },
+            {
+              "time": "1:00p.m.-4:05p.m.",
+              "days": "Th",
+              "location": "SCI 333",
+              "instructor": "Denmon A P"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4031",
+          "schedule": [
+            {
+              "time": "6:00p.m.-9:35p.m.",
+              "days": "TTh",
+              "location": "SCI 333",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "BIOL 33",
+      "course_title": "IMMUNOASSAY METHODS",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "BIOL 31.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This techniques-focused course will provide knowledge and skills in the use of antibody-related reagents and antibodybased assays as a tool in biotechnology, biomedical research, or clinical laboratories. It focuses on the specific properties of antibody reagents for the identification and quantification of various biological or environmental molecules. Students learn basic immunology, the theoretical basis of antigen- antibody reactions, micropipetting techniques, and how to design, perform, analyze, and troubleshoot modern immunoassay-related techniques. The course will prepare students for work-ready skills in a bioscience research and biotechnology industry career.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1302",
+          "schedule": [
+            {
+              "time": "1:00p.m.-4:05p.m.",
+              "days": "MW",
+              "location": "SCI 333",
+              "instructor": "Chen T T"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "BIOL 88A",
+      "course_title": "INDEPENDENT STUDIES IN BIOLOGICAL SCIENCES",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Independent Studies” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1303",
+          "schedule": [
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Baghdasarian G"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "BIOL 90A",
+      "course_title": "LIFE SCIENCE INTERNSHIP",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Internships” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1304",
+          "schedule": [
+            {
+              "time": "Arrange-5.5 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Baghdasarian G"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "BOTANY 1",
+      "course_title": "GENERAL BOTANY",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
+      "special_notes": [
+        "*No UC credit for BOTANY 1 if taken after BIOL 21, 22 or 23 and no credit for BIOL 4 if taken after ZOOL 5 or BOTANY 1"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course provides an overview of photosynthetic organisms (the Plant Kingdom, photosynthetic Monerans and Protistans) and Fungi. Flowering plants are emphasized. Topics covered include a survey of botanical life forms, taxonomy, the structure, development and function of cells, stems, roots leaves, flowers, and seeds; chemistry, photosynthesis, respiration, plant physiology, Mendelian and molecular genetics, genetic engineering, evolution, and ecology. Scientific thinking skills will be developed in laboratory exercises. One or more labs are field trips to local natural areas or Plant society meetings. Credit is allowed for either BIOL 3 or BOTANY 1, but not both.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1305",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "T",
+              "location": "SCI 134",
+              "instructor": "Tower J A"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Tower J A"
+            }
+          ],
+          "notes": [
+            "Above section 1305 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1306",
+          "schedule": [
+            {
+              "time": "1:00p.m.-4:05p.m.",
+              "days": "Th",
+              "location": "SCI 134",
+              "instructor": "Tower J A"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Tower J A"
+            }
+          ],
+          "notes": [
+            "Above section 1306 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MCRBIO 1",
+      "course_title": "FUNDAMENTALS OF MICROBIOLOGY",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
+      "special_notes": [],
+      "prerequisites": "CHEM 19 (preferred) or CHEM 10 or eligibility for",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "CHEM 11; and PHYS 3 or BIOL 3 or BIOL 21. This course involves study of several types of microorganisms with emphasis on bacteria. Principles of microbiology, metabolism, genetics, immunology, and medical and nonmedical applications are considered. The laboratory includes aseptic transfer techniques, cultural characteristics, methods of microscopy, and analytical techniques for identifying microbial organisms. The course content is related to both general and clinical applications including recent molecular biological and serological techniques.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2659",
+          "schedule": [
+            {
+              "time": "9:00a.m.-11:05a.m.",
+              "days": "MWF",
+              "location": "SCI 209",
+              "instructor": "Narey V"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Narey V"
+            }
+          ],
+          "notes": [
+            "Above section 2659 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2660",
+          "schedule": [
+            {
+              "time": "12:00p.m.-2:05p.m.",
+              "days": "MWF",
+              "location": "SCI 209",
+              "instructor": "Narey V"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Narey V"
+            }
+          ],
+          "notes": [
+            "Above section 2660 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2661",
+          "schedule": [
+            {
+              "time": "12:00p.m.-3:05p.m.",
+              "days": "TTh",
+              "location": "SCI 209",
+              "instructor": "Kanjanapangka J"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Kanjanapangka J"
+            }
+          ],
+          "notes": [
+            "Above section 2661 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2662",
+          "schedule": [
+            {
+              "time": "2:30p.m.-5:35p.m.",
+              "days": "F",
+              "location": "SCI 209",
+              "instructor": "Moore J L"
+            },
+            {
+              "time": "5:45p.m.-8:50p.m.",
+              "days": "F",
+              "location": "SCI 209",
+              "instructor": "Moore J L"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Moore J L"
+            }
+          ],
+          "notes": [
+            "Above section 2662 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2663",
+          "schedule": [
+            {
+              "time": "3:20p.m.-6:25p.m.",
+              "days": "TTh",
+              "location": "SCI 209",
+              "instructor": "Gupta R K"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Gupta R K"
+            }
+          ],
+          "notes": [
+            "Above section 2663 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4144",
+          "schedule": [
+            {
+              "time": "7:00p.m.-10:05p.m.",
+              "days": "M",
+              "location": "ONLINE",
+              "instructor": "Pepper E D"
+            },
+            {
+              "time": "7:00p.m.-10:05p.m.",
+              "days": "TTh",
+              "location": "SCI 209",
+              "instructor": "Pepper E D"
+            }
+          ],
+          "notes": [
+            "Above section 4144 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Monday sessions are held online in the Scheduled modality."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "NUTR 1",
+      "course_title": "INTRODUCTION TO NUTRITION SCIENCE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "NUTR 110",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Human nutrition, integrating anatomy, physiology, biochemistry, and psychology, is studied in relation to wellness and degenerative disease prevention. Scientific information and principles provide the foundation for evaluating current concepts in nutrition for practical application in daily living.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2824",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "MW",
+              "location": "SCI 145",
+              "instructor": "Novak D S"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2825",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "W",
+              "location": "SCI 159",
+              "instructor": "Ortega Y"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Ortega Y"
+            }
+          ],
+          "notes": [
+            "Above section 2825 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2826",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "SCI 159",
+              "instructor": "Ortega Y"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Ortega Y"
+            }
+          ],
+          "notes": [
+            "Above section 2826 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2827",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Mercer J E"
+            }
+          ],
+          "notes": [
+            "Above section 2827 meets for 8 weeks, Sep 22 to Nov 14. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 22 to Nov 14",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2828",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Ortega Y"
+            }
+          ],
+          "notes": [
+            "Above section 2828 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2829",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Ortega Y"
+            }
+          ],
+          "notes": [
+            "Above section 2829 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "NUTR 4",
+      "course_title": "HEALTHY LIFESTYLE: FOOD AND FITNESS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course will help individuals to develop knowledge of how to eat healthy for fitness, health and sport. Nutrition and physical assessments will guide the development of these life style skills. The dangers of disordered eating and body dysmorphia will be discussed. Individuals will learn how to evaluate the latest weight loss, fitness and dietary supplement fads.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2831",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "SCI 145",
+              "instructor": "Novak D S"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "NUTR 7",
+      "course_title": "FOOD AND CULTURE IN AMERICA",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "NUTR 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "The evolution of American food culture is examined from a historical, contemporary, economic, political and scientific survey of ethnic groups in America, including Native Americans, European Americans, African Americans, Asian Americans, and Latinos. Immigration, enculturation, acculturation, religion, food availability, food preference, food behavior, food preparation, food beliefs and food-related gender roles are considered. These factors are compared and contrasted across the ethnic groups and regions in America. The impact of “Americanization” on ethnic cuisines and impact of ethnic cuisines on the American economy are explored. Current research on the healthand nutritionrelated implications of ethnic groups’ food choices/practices is reviewed. Engendering cultural sensitivity and competency is at the core of this course.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2832",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Mercer J E"
+            }
+          ],
+          "notes": [
+            "Above section 2832 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS 3",
+      "course_title": "HUMAN PHYSIOLOGY",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "BIOL 120 B",
+      "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
+      "special_notes": [],
+      "prerequisites": "CHEM 19 (preferred) or CHEM 10 or eligibility for",
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "CHEM 11; and ANATMY 1. This rigorous course provides a basic understanding of physiological mechanisms with a focus on the human body. Basic concepts of cellular physiology, including: molecular control; mechanisms of gene expression; ligand-binding site interactions; energy and cellular metabolism; membrane transport; membrane and action potentials; and cellular communication, including signal transduction, will be integrated within the concept of homeostasis involving the following body systems: nervous, sensory, endocrine, muscle, skeletal, cardiovascular, lymphatic, immune, respiratory, renal, digestive, reproductive, and integumentary. The course content includes both general and clinical applications and is intended to prepare students for advanced courses in Allied Health and Medical professions including Nursing, Physical Therapy, Respiratory Therapy, Physician’s Assistant, Pharmacy, and Exercise Science/Kinesiology Training.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2899",
+          "schedule": [
+            {
+              "time": "7:45a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "SCI 201",
+              "instructor": "Grant C"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2900",
+          "schedule": [
+            {
+              "time": "8:00a.m.-9:20a.m.",
+              "days": "MW",
+              "location": "SCI 151",
+              "instructor": "Von Der Ohe C G"
+            },
+            {
+              "time": "11:15a.m.-2:20p.m.",
+              "days": "M",
+              "location": "SCI 201",
+              "instructor": "Von Der Ohe C G"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2901",
+          "schedule": [
+            {
+              "time": "8:00a.m.-9:20a.m.",
+              "days": "MW",
+              "location": "SCI 151",
+              "instructor": "Von Der Ohe C G"
+            },
+            {
+              "time": "11:15a.m.-2:20p.m.",
+              "days": "W",
+              "location": "SCI 201",
+              "instructor": "Von Der Ohe C G"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2902",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:10a.m.",
+              "days": "F",
+              "location": "SCI 201",
+              "instructor": "Johnson Ja J"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Johnson Ja J"
+            }
+          ],
+          "notes": [
+            "Above section 2902 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2903",
+          "schedule": [
+            {
+              "time": "12:00p.m.-3:05p.m.",
+              "days": "F",
+              "location": "SCI 201",
+              "instructor": "Staff"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 2903 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2904",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:50p.m.",
+              "days": "TTh",
+              "location": "SCI 201",
+              "instructor": "Wissmann P B"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2905",
+          "schedule": [
+            {
+              "time": "3:00p.m.-6:05p.m.",
+              "days": "MW",
+              "location": "SCI 201",
+              "instructor": "Wissmann P B"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4173",
+          "schedule": [
+            {
+              "time": "5:00p.m.-8:10p.m.",
+              "days": "Th",
+              "location": "SCI 201",
+              "instructor": "Perkins K K"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Perkins K K"
+            }
+          ],
+          "notes": [
+            "Above section 4173 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ZOOL 5",
+      "course_title": "INTRODUCTORY ZOOLOGY",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
+      "special_notes": [
+        "*No UC credit for ZOOL 5 if taken after BIOL 21, 22 or 23 and no credit for BIOL 4 if taken after ZOOL 5 or BOTANY 1"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This general zoology course deals with the major animal groups from protists through vertebrates. Consideration is given to animal form, function, natural history, and behavior. Comparisons are made between groups and are used to stress the principles of evolution, classification, morphology, cell biology, organ system function, genetics, and ecology. Critical and scientific thinking skills are illustrated and devel- oped.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3226",
+          "schedule": [
+            {
+              "time": "1:00p.m.-4:05p.m.",
+              "days": "W",
+              "location": "SCI 134",
+              "instructor": "Salter J"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Salter J"
+            }
+          ],
+          "notes": [
+            "Above section 3226 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

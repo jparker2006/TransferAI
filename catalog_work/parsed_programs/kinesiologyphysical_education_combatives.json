@@ -7,7 +7,7 @@
       "course_title": "KARATE",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -15,6 +15,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -45,7 +46,7 @@
       "course_title": "INTERMEDIATE KARATE",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -53,6 +54,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "KIN PE 34A or equivalent experience",
       "advisory_notes": null,
       "formerly": null,
@@ -83,7 +85,7 @@
       "course_title": "ADVANCED INTERMEDIATE KARATE",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -91,6 +93,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "KIN PE 34B or equivalent experience",
       "advisory_notes": null,
       "formerly": null,
@@ -128,6 +131,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "KIN PE 34B or equivalent experience",
       "advisory_notes": null,
       "formerly": null,
@@ -158,7 +162,7 @@
       "course_title": "SELF DEFENSE – WOMEN",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -166,6 +170,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,

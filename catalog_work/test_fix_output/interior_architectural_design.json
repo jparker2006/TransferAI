@@ -1,0 +1,265 @@
+{
+  "program_name": "Interior Architectural Design",
+  "program_description": "See also “Architecture.” The Interior Architectural Design program provides a thorough and analytical foundation that enables students to practice professionally and serve their community with safe, functional, and innovative interior spaces. The program is designed to meet the industry’s need for creative professionals who excel in developing ideas and have the technical proficiency to execute them. Our instructors are experienced professionals who bring first-hand knowledge of industry practices to the classroom and work in close collaboration with industry advisors to keep up with trends and changing requirements. In addition, participating companies often provide guest speakers and student internships. We offer day, evening and weekend classes to provide educational opportunities to all students. In addition, selected Interior Architectural Design courses are offered online through SMC’s Distance Education program. Students who are interested in the Interior Architectural Design program are strongly encouraged to schedule an appointment with one of the counselors at the Center for Media and Design campus to develop an Educational Plan. This is to ensure that you are taking the necessary courses to meet your educational goals. To learn more, please visit smc.edu/designtech.",
+  "courses": [
+    {
+      "course_code": "IARC 15",
+      "course_title": "2D COLOR THEORY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": "INTARC 34",
+      "description": "This course addresses basic color design theory and application. Students utilize tools, materials, and equipment to develop technical skills applicable to interior, architectural and other related fields of design. Students identify cultural heritages, the psychological implications of design and are introduced to Computer Palettes.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2419",
+          "schedule": [
+            {
+              "time": "9:00a.m.-12:05p.m.",
+              "days": "T",
+              "location": "ONLINE",
+              "instructor": "Noonan I"
+            },
+            {
+              "time": "Arrange-6 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Noonan I"
+            }
+          ],
+          "notes": [
+            "Above section 2419 meets for 12 weeks, Sep 09 to Nov 18. Above section modality is Scheduled."
+          ],
+          "duration": "12 weeks, Sep 09 to Nov 18",
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "IARC 20",
+      "course_title": "STUDIO 2: INTERIOR ARCHITECTURE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "ARC 10, ARC 11",
+      "advisory_notes": null,
+      "formerly": "INTARC 31",
+      "description": "A studio course which focuses on the development of context and precedent while designing interior architectural spaces and forms. Simple built environments are developed using design principles in context with spatial relationships, human interaction, and materiality. Emphasis is placed on the design process, human experience, and space planning. Visual and oral presentations are used in the development of a course portfolio.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2420",
+          "schedule": [
+            {
+              "time": "2:00p.m.-5:05p.m.",
+              "days": "M",
+              "location": "ONLINE",
+              "instructor": "Hao J Y"
+            },
+            {
+              "time": "2:00p.m.-5:05p.m.",
+              "days": "W",
+              "location": "CMD 272",
+              "instructor": "Hao J Y"
+            }
+          ],
+          "notes": [
+            "Above section 2420 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "IARC 25",
+      "course_title": "MATERIALS AND PRODUCTS FOR INTERIOR ARCHITECTURAL DESIGN",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": "INTARC 36",
+      "description": "This course analyzes, applies, and evaluates construction materials, finishes, furnishings, and resources used in Interior Architectural Design through lectures and field trips. Topics of discussion include methods of detailing, fabrication, product innovation, as well as sustainability issues.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2421",
+          "schedule": [
+            {
+              "time": "1:00p.m.-4:05p.m.",
+              "days": "T",
+              "location": "CMD 286",
+              "instructor": "Gregory D K"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Gregory D K"
+            }
+          ],
+          "notes": [
+            "Above section 2421 meets for 12 weeks, Sep 23 to Dec 09, and is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": "12 weeks, Sep 23 to Dec 09",
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "IARC 30",
+      "course_title": "STUDIO 3: INTERIOR ARCHITECTURE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "ARC 20 or IARC 20, and ARC 21",
+      "advisory_notes": null,
+      "formerly": "INTARC 40",
+      "description": "Develop interior projects with an emphasis on concept development. Explore questions of sustainability, culture, and social responsibility within the context of buildings which are responsive to the environment and people utilizing them. Emphasis is placed on research, analysis, and conceptualization of ideas. Visual and oral presentations are used in the development of a course portfolio. It is recommended to take ARC 31 Design Communication 3 at the same time.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2422",
+          "schedule": [
+            {
+              "time": "9:00a.m.-1:05p.m.",
+              "days": "W",
+              "location": "CMD 131",
+              "instructor": "Hao J Y"
+            },
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Hao J Y"
+            }
+          ],
+          "notes": [
+            "Above section 2422 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "IARC 40",
+      "course_title": "STUDIO 4: INTERIOR ARCHITECTURE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "ARC 30 or IARC 30, and ARC 31",
+      "advisory_notes": null,
+      "formerly": "INTARC 45",
+      "description": "Further design exploration in commercial and mixed-use spaces with more complex programs. Existing building is analyzed in terms of program, building systems, structure, form, and sustainability. Emphasis is placed on research and analysis of social, cultural, and environmental issues while collaborating with industry partners. Visual and oral presentations are used in the development of a course portfolio. It is recommended to take ARC 41 Design Communication 4 at the same time.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2423",
+          "schedule": [
+            {
+              "time": "9:00a.m.-1:05p.m.",
+              "days": "W",
+              "location": "CMD 124",
+              "instructor": "Chen D A"
+            },
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Chen D A"
+            }
+          ],
+          "notes": [
+            "Above section 2423 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "IARC 45",
+      "course_title": "BUILDING SYSTEMS AND CODES",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "ARC 20 or IARC 20",
+      "advisory_notes": null,
+      "formerly": "INTARC 50",
+      "description": "This course explores the components of interior construction and building systems and examines current building requirements including federal, state, and local codes, regulations, and standards.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2424",
+          "schedule": [
+            {
+              "time": "1:15p.m.-3:05p.m.",
+              "days": "T",
+              "location": "ONLINE",
+              "instructor": "Hao J Y"
+            },
+            {
+              "time": "Arrange-2.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Hao J Y"
+            }
+          ],
+          "notes": [
+            "Above section 2424 meets for 12 weeks, Sep 09 to Nov 18. Above section modality is Scheduled."
+          ],
+          "duration": "12 weeks, Sep 09 to Nov 18",
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

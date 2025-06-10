@@ -1,0 +1,464 @@
+{
+  "program_name": "Architecture",
+  "program_description": "See also “Interior Architectural Design” The Architecture program provides an analytical foundation from which you will explore design innovation through functional, cultural, environmental, and socially conscious design. Learn about the impact of the built environment while developing skills in drafting, rendering, presentations, project collaboration, environmental design, building systems, and code compliance. Explore creative careers in digital production or environmental design for a sustainable future. Our instructors are experienced professionals who bring first-hand knowledge of industry practices to the classroom and work in close collaboration with industry advisors to keep up with trends and changing requirements. In addition, participating companies often provide guest speakers and student internships. We offer day, evening and weekend classes to provide educational opportunities to all students. In addition, selected Architecture courses are offered online through SMC’s Distance Education program. Students who are interested in the Architecture program are strongly encouraged to schedule an appointment with one of the counselors at the Center for Media and Design campus to develop an Educational Plan. This is to ensure that you are taking the necessary courses to meet your educational goals. To learn more, please visit smc.edu/designtech.",
+  "courses": [
+    {
+      "course_code": "ARC 10",
+      "course_title": "STUDIO 1",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": "INTARC 34B",
+      "description": "An introduction to studio and design theory through exploration in concepts of space, form, function, materials and creative construction. Emphasis is placed on critical thinking and conceptualization as a basis for designing projects through sketching, model making, and other media.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1166",
+          "schedule": [
+            {
+              "time": "9:00a.m.-12:05p.m.",
+              "days": "MW",
+              "location": "CMD 286",
+              "instructor": "Cordova S A"
+            }
+          ],
+          "notes": [
+            "Above section 1166 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1167",
+          "schedule": [
+            {
+              "time": "9:00a.m.-12:45p.m.",
+              "days": "T",
+              "location": "CMD 286",
+              "instructor": "Cordova S A"
+            },
+            {
+              "time": "Arrange-2.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Cordova S A"
+            }
+          ],
+          "notes": [
+            "Above section 1167 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1168",
+          "schedule": [
+            {
+              "time": "9:00a.m.-12:45p.m.",
+              "days": "Th",
+              "location": "ONLINE",
+              "instructor": "Hsieh L"
+            },
+            {
+              "time": "Arrange-2.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Hsieh L"
+            }
+          ],
+          "notes": [
+            "Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ARC 11",
+      "course_title": "DESIGN COMMUNICATION 1",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": "INTARC 29 and INTARC 28B",
+      "description": "Three dimensional drawing for interior and architectural designers with an emphasis on simplified systems of linear perspective drawing and the fundamentals of quick sketching. Studies include an introduction to perspective and rendering of interior installations using size, scale, and shading to show depth and 3D form. This course uses Rhino software.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1169",
+          "schedule": [
+            {
+              "time": "10:00a.m.-1:05p.m.",
+              "days": "F",
+              "location": "ONLINE",
+              "instructor": "Adair J S"
+            },
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Adair J S"
+            }
+          ],
+          "notes": [
+            "Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1170",
+          "schedule": [
+            {
+              "time": "2:00p.m.-5:05p.m.",
+              "days": "W",
+              "location": "CMD 208",
+              "instructor": "Ghasemi L"
+            },
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Ghasemi L"
+            }
+          ],
+          "notes": [
+            "Above section 1170 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd. Above section 1170s in CMD 208 at the start of the semester and will use CMD 124 starting week 6."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1171",
+          "schedule": [
+            {
+              "time": "Arrange-5.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Cambron J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ARC 20",
+      "course_title": "STUDIO 2: ARCHITECTURE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "ARC 10, ARC 11",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "A studio course which focuses on the development of context and precedent while designing spaces and architectural forms. Simple built environments are developed using design principles in context with spatial relationships, human interaction, and materiality. Emphasis is placed on the design process and human experience. Visual and oral presentations are used in the development of a course portfolio.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1172",
+          "schedule": [
+            {
+              "time": "9:00a.m.-12:45p.m.",
+              "days": "W",
+              "location": "CMD 122",
+              "instructor": "Ellsworth W"
+            },
+            {
+              "time": "Arrange-2.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Ellsworth W"
+            }
+          ],
+          "notes": [
+            "Above section 1172 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ARC 21",
+      "course_title": "DESIGN COMMUNICATION 2",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": "INTARC 28A and INTARC 35",
+      "description": "This course develops the fundamentals of communicating ideas through the integration of computer graphics and traditional drawing. Emphasis is placed on developing skills in 2D drafting and architectural drawings. This course uses AutoCAD software.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1173",
+          "schedule": [
+            {
+              "time": "2:00p.m.-5:05p.m.",
+              "days": "Th",
+              "location": "CMD 208",
+              "instructor": "Jacobs R E"
+            },
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Jacobs R E"
+            }
+          ],
+          "notes": [
+            "Above section 1173 meets for 12 weeks, Sep 04 to Nov 20, and is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA",
+            "90404. For additional information, go to smc.edu/OnlineEd.",
+            "Above section 1173s in CMD 208 at the start of the semester and will use CMD 124 starting week 6."
+          ],
+          "duration": "12 weeks, Sep 04 to Nov 20",
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ARC 30",
+      "course_title": "STUDIO 3: ARCHITECTURE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "ARC 20, ARC 21",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "An architectural studio course which focuses on an understanding of how environment and building systems informs architectural concepts. This course explores questions of concept, sustainability, culture, and social responsibility within the context of buildings which are responsive to the environment and people utilizing them. Students will also give visual and oral presentations which are used in the development of a course portfolio.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1175",
+          "schedule": [
+            {
+              "time": "9:00a.m.-12:45p.m.",
+              "days": "W",
+              "location": "CMD 124",
+              "instructor": "Cambron J"
+            },
+            {
+              "time": "Arrange-2.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Cambron J"
+            }
+          ],
+          "notes": [
+            "Above section 1175 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ARC 31",
+      "course_title": "DESIGN COMMUNICATION 3",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": "INTARC 38",
+      "description": "Develop advanced skills in two-dimensional and threedimensional digital drafting and rendering for Interior and Architectural designers.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1176",
+          "schedule": [
+            {
+              "time": "Arrange-7.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Cambron J"
+            }
+          ],
+          "notes": [
+            "Above section 1176 meets for 12 weeks, Sep 03 to Nov 21. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 03 to Nov 21",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ARC 40",
+      "course_title": "STUDIO 4: ARCHITECTURE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "ARC 30, ARC 31",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "An architectural studio course which provides a creative framework to explore the development of commercial and mixed-use buildings within an urban setting. Urban sites are analyzed in terms of community, culture, economics, and sustainability. Projects balance structural, environmental, social, and programmatic strategies. Visual and oral presentations are used in the development of a course portfolio.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1177",
+          "schedule": [
+            {
+              "time": "9:00a.m.-12:45p.m.",
+              "days": "W",
+              "location": "CMD 272",
+              "instructor": "Lee F"
+            },
+            {
+              "time": "Arrange-2.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Lee F"
+            }
+          ],
+          "notes": [
+            "Above section 1177 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ARC 51",
+      "course_title": "DESIGN COMMUNICATION 5",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": "INTARC 65",
+      "description": "Digitally build and enhance images for professional presentations through the exploration of materials, light, color, texture, and shadows. Emphasis is placed on producing realistic images for professional interior and architectural design work.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1178",
+          "schedule": [
+            {
+              "time": "Arrange-7.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Gonzalez Rojas D"
+            }
+          ],
+          "notes": [
+            "Above section 1178 meets for 12 weeks, Sep 03 to Nov 21. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 03 to Nov 21",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ARC 70",
+      "course_title": "PORTFOLIO",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "ARC 20 or IARC 20 or ARC 31",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "A look at the importance of portfolios in the design field, the different types of portfolios, and how to create visually cohesive project pages. Students design and build a digital portfolio which can be used for transfer to a university, to apply for employment, or to showcase professional work.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1179",
+          "schedule": [
+            {
+              "time": "2:00p.m.-5:05p.m.",
+              "days": "W",
+              "location": "ONLINE",
+              "instructor": "Ellsworth W"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Ellsworth W"
+            }
+          ],
+          "notes": [
+            "Above section 1179 meets for 12 weeks, Sep 24 to Dec 10. Above section modality is Scheduled."
+          ],
+          "duration": "12 weeks, Sep 24 to Dec 10",
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "program_name": "Japanese",
+  "program_description": "Most sections require the use of a computer with Internet access for class resources and/or to complete assignments.",
+  "courses": [
+    {
+      "course_code": "JAPAN 1",
+      "course_title": "ELEMENTARY JAPANESE I",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course, using a communicative approach, introduces the student to Japanese sentence structure, basic vocabulary, and the two Japanese phonetic scripts of Hiragana, Katakana, plus a selected number of Kanji. Students learn to ask and answer basic questions and write about simple actions in the present/ future and past tenses. They also are introduced to important elements of Japanese culture and customs of the Japanese people. This course is taught in Japanese unless in cases of linguistic difficulty as determined by the professor.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2429",
+          "schedule": [
+            {
+              "time": "9:00a.m.-11:25a.m.",
+              "days": "TTh",
+              "location": "DRSCHR 213",
+              "instructor": "Takemori K"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2430",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:10p.m.",
+              "days": "TTh",
+              "location": "DRSCHR 217",
+              "instructor": "Tsuboi Y"
+            },
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Tsuboi Y"
+            }
+          ],
+          "notes": [
+            "Above section 2430 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2431",
+          "schedule": [
+            {
+              "time": "2:30p.m.-4:55p.m.",
+              "days": "MW",
+              "location": "DRSCHR 205",
+              "instructor": "Kato N K"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2432",
+          "schedule": [
+            {
+              "time": "2:30p.m.-4:55p.m.",
+              "days": "TTh",
+              "location": "DRSCHR 213",
+              "instructor": "Johnston S K"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4112",
+          "schedule": [
+            {
+              "time": "6:00p.m.-7:30p.m.",
+              "days": "W",
+              "location": "ONLINE",
+              "instructor": "Tsuboi Y"
+            },
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Tsuboi Y"
+            }
+          ],
+          "notes": [
+            "Above section 4112 requires students to use a camera and microphone for video proctoring during quizzes and exams. Above section modality is Flexible with Scheduled Exams."
+          ],
+          "duration": null,
+          "modality": "Flexible with Scheduled Exams",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "JAPAN 2",
+      "course_title": "ELEMENTARY JAPANESE II",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "JAPAN 1",
+      "advisory_notes": "*The advisory for this course is comparable to two years of high school Japanese",
+      "formerly": null,
+      "description": "This course is the continuation of Japanese 1. This course stresses more advanced vocabulary and more advanced sentence structures emphasizing short forms and te-forms. Students further develop oral and aural skills and reading comprehension skills by reading texts on various topics. They also hold conversations in both formal and informal styles of speech, and write compositions using short forms. This course also advances students’ knowledge of Japanese culture and traditions. This course is taught in Japanese except in cases of linguistic difficulty as determined by the professor. .",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2433",
+          "schedule": [
+            {
+              "time": "2:30p.m.-4:55p.m.",
+              "days": "MW",
+              "location": "DRSCHR 217",
+              "instructor": "Kitazono Y"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4113",
+          "schedule": [
+            {
+              "time": "5:10p.m.-7:35p.m.",
+              "days": "TTh",
+              "location": "ONLINE",
+              "instructor": "Hashimoto Y"
+            }
+          ],
+          "notes": [
+            "Above section 4113 requires students to use a camera and microphone for video proctoring during quizzes and exams. Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "JAPAN 3",
+      "course_title": "INTERMEDIATE JAPANESE I",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "JAPAN 2",
+      "advisory_notes": "*The advisory for this course is comparable to three years of high school Japanese",
+      "formerly": null,
+      "description": "Focusing on four communication skills (listening, speaking, reading and writing), the course builds up a solid foundation for the Intermediate-Low Japanese, to achieve a practical command of language for managing everyday social interactions and routine tasks. The course also familiarizes students of different registers (spoken vs. written) and writing styles (“desu/masu” vs. essay). Reading materials include semiauthentic articles on specific topics and writing focuses on styles as well as multiple paragraph organization. Traditional and current aspects of the Japanese culture are explored throughout the course and studied in reading. This course is taught in Japanese unless in cases of linguistic difficulty as determined by the professor. .",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4114",
+          "schedule": [
+            {
+              "time": "6:00p.m.-7:25p.m.",
+              "days": "TTh",
+              "location": "ONLINE",
+              "instructor": "Tsuboi Y"
+            },
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Tsuboi Y"
+            }
+          ],
+          "notes": [
+            "Above section 4114 requires students to use a camera and microphone for video proctoring during quizzes and exams. Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

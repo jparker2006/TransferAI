@@ -7,7 +7,7 @@
       "course_title": "EVERYDAY CHEMISTRY",
       "units": "5 UNITS",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -19,6 +19,7 @@
       ],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -130,17 +131,18 @@
       "course_title": "INTRODUCTORY GENERAL CHEMISTRY",
       "units": "5 UNITS",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
       "special_notes": [
-        "*UC gives no credit for CHEM 10 if taken after CHEM 11",
+        "*UC gives no credit for CHEM 10 if taken after CHEM 11.",
         "Maximum UC credit for CHEM 9 and 10 combined is one course."
       ],
       "prerequisites": "MATH 31 or MATH 49.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -505,12 +507,13 @@
       "c_id": "CHEM 110.  CHEM 120S; to get C-ID CHEM 120S for CHEM 11,",
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
       "special_notes": [],
-      "prerequisites": "CHEM 10 and MATH 20.",
+      "prerequisites": "•  CHEM 10 and MATH 20. Students seeking waiver of the CHEM 10 prerequisite should take the CHEM 10 Challenge Exam. Students taking CHEM 11 and 12 must have access to the Internet to complete class assignments.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "students must complete both CHEM 11 and CHEM 12. Students seeking waiver of the CHEM 10 prerequisite should take the CHEM 10 Challenge Exam. Students taking CHEM 11 and 12 must have access to the Internet to complete class assignments. This course is the first semester of a two-semester, standard first year college chemistry course (Chemistry 11 and Chemistry 12). It introduces the fields of physical, analytical, inorganic, and organic chemistry. Topics to be discussed include atomic structure, chemical bonding, common types of reactions, stoichiometry, thermochemistry, and the properties of gases, liquids, and solids.",
+      "description": "students must complete both CHEM 11 and CHEM 12. This course is the first semester of a two-semester, standard first year college chemistry course (Chemistry 11 and Chemistry 12). It introduces the fields of physical, analytical, inorganic, and organic chemistry. Topics to be discussed include atomic structure, chemical bonding, common types of reactions, stoichiometry, thermochemistry, and the properties of gases, liquids, and solids.",
       "same_as": null,
       "sections": [
         {
@@ -710,12 +713,13 @@
       "c_id": "CHEM 120S; to get C-ID CHEM 120S for CHEM 12, students must complete both CHEM 11 and CHEM 12",
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
       "special_notes": [],
-      "prerequisites": "MATH 2 or (MATH 3 and MATH 4) and CHEM 11.",
+      "prerequisites": "•  MATH 2 or (MATH 3 and MATH 4) and CHEM 11. Students taking CHEM 11 and 12 must have access to the Internet to complete class assignments.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "Students taking CHEM 11 and 12 must have access to the Internet to complete class assignments. This course is a continuation of Chem 11. Topics covered include kinetics, equilibrium, acid-base chemistry, precipitation reactions, coordination chemistry, thermodynamics, electrochemistry, and nuclear chemistry.",
+      "description": "This course is a continuation of Chem 11. Topics covered include kinetics, equilibrium, acid-base chemistry, precipitation reactions, coordination chemistry, thermodynamics, electrochemistry, and nuclear chemistry.",
       "same_as": null,
       "sections": [
         {
@@ -845,13 +849,16 @@
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
-      "special_notes": [],
-      "prerequisites": "MATH 31 or MATH 50 or eligibility for STAT C1000",
+      "special_notes": [
+        "NOTE: This course is NOT equivalent to CHEM 10 and does NOT meet the prerequisite requirement for CHEM 11."
+      ],
+      "prerequisites": "MATH 31 or MATH 50 or eligibility for STAT C1000 (formerly MATH 54) and MATH 54C.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "(formerly MATH 54) and MATH 54C. This one-semester course is designed for students preparing for studies in nursing or related allied health professions. Topics include measurements, unit conversions, atomic and molecular structure, chemical reactions and equations, gases, solutions and acid/base chemistry. There will be a special emphasis on properties and reactions of organic and biologically relevant compounds. NOTE: This course is NOT equivalent to CHEM 10 and does NOT meet the prerequisite requirement for CHEM 11. This course is NOT equivalent to CHEM 10 and does NOT meet the prerequisite requirement for CHEM 11.",
+      "description": "This one-semester course is designed for students preparing for studies in nursing or related allied health professions. Topics include measurements, unit conversions, atomic and molecular structure, chemical reactions and equations, gases, solutions and acid/base chemistry. There will be a special emphasis on properties and reactions of organic and biologically relevant compounds.",
       "same_as": null,
       "sections": [
         {
@@ -1080,8 +1087,9 @@
       "c_id": "CHEM 150",
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
       "special_notes": [],
-      "prerequisites": "CHEM 12.",
+      "prerequisites": "•  CHEM 12.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -1164,16 +1172,15 @@
       "course_title": "ORGANIC CHEMISTRY II",
       "units": "4 UNITS",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, non-lab)",
-      "special_notes": [
-        "*Maximum UC credit for CHEM 22 and CHEM 24 combined is 5 units"
-      ],
-      "prerequisites": "CHEM 21.",
+      "special_notes": [],
+      "prerequisites": "•  CHEM 21. *Maximum UC credit for CHEM 22 and CHEM 24 combined is 5 units.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -1204,17 +1211,17 @@
       "course_title": "ORGANIC CHEMISTRY II LABORATORY",
       "units": "2 UNITS",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
       "special_notes": [
-        "Prerequisite/Corequisite: CHEM 22.",
         "*Maximum UC credit for CHEM 22 and CHEM 24 combined is 5 units"
       ],
-      "prerequisites": null,
+      "prerequisites": "CHEM 22.",
       "prerequisite_notes": null,
+      "corequisites": "CHEM 22.",
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -1269,6 +1276,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,

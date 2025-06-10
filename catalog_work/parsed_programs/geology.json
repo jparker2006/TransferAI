@@ -7,7 +7,7 @@
       "course_title": "PHYSICAL GEOLOGY WITHOUT LAB",
       "units": "3 UNITS",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": "GEOL 100",
@@ -15,6 +15,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -53,6 +54,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -91,6 +93,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -150,7 +153,7 @@
       "course_title": "PHYSICAL GEOLOGY WITH LAB",
       "units": "4 UNITS",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": "GEOL 101",
@@ -158,6 +161,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -227,6 +231,7 @@
       ],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,

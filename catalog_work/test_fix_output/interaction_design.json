@@ -1,0 +1,260 @@
+{
+  "program_name": "Interaction Design",
+  "program_description": "Interaction Design (IxD) is an innovative new baccalaureate degree program that blends the fields of design, user experience, and technology to create user-friendly interfaces with the platforms people use every day, such as smart appliances, mobile devices, and the web. Interaction designers ensure that products are appealing, effective, and intuitive for users. In this program, students will develop proficiency in the skills necessary to enter this well-paid and exciting field. The following courses are upper division courses that are part of Santa Monica College’s Bachelor of Science degree program in Interaction Design. Enrollment is limited to admitted program participants. For more information, please see ixd.smc.edu. Transferability of these courses will be determined on a case-by-case basis by the transfer institution.",
+  "courses": [
+    {
+      "course_code": "IXD 320",
+      "course_title": "HISTORY AND PRACTICE OF INTERACTION DESIGN",
+      "units": "3 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Admission to the Bachelor of Science in Interaction",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Design. This course serves as an overview of historical methods, approaches and practices of interaction design, including mechanical, electrical, and analog and digital electronic systems. The students will follow the development of modern tendencies in interaction design and formulate opinions about their causes and possible paths for future developments. The students will also examine the current applications of interaction design across industries and disciplines. This course is open only to students who have been admitted to SMC’s Bachelor of Science program in Interaction Design. See ixd.smc.edu for more information.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2428",
+          "schedule": [
+            {
+              "time": "1:00p.m.-4:05p.m.",
+              "days": "Th",
+              "location": "CMD 271",
+              "instructor": "Safioulline M"
+            }
+          ],
+          "notes": [
+            "Above section 2428 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "IXD 310",
+      "course_title": "INTERACTION DESIGN STUDIO 1",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Admission to the Bachelor of Science in Interaction",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Design. The course serves as an introduction to the methods and principles of Interaction Design. It is structured around projectbased learning, emphasizing diverse approaches to tackling design challenges. The primary focus is on leveraging the iterative design process to identify human behaviors and using technology interventions to influence those behaviors. In addition to ideation and problem-solving methods, this class will also use research and rapid prototyping techniques to ensure the proposed interventions resonate with users and project stakeholders. This course is open only to students who have been admitted to SMC’s Bachelor of Science program in Interaction Design. See ixd.smc.edu for more information.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "5002",
+          "schedule": [
+            {
+              "time": "1:00p.m.-4:05p.m.",
+              "days": "T",
+              "location": "CMD 271",
+              "instructor": "Chan N R"
+            },
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Chan N R"
+            }
+          ],
+          "notes": [
+            "Above section 5002 is a hybrid class taught online via the Internet and at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "IXD 370",
+      "course_title": "DESIGN FOR COMMUNITY CHANGE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "IXD 330.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "In this course, students work with a variety of organizations addressing a community need to design and develop a project with social impact. Students apply a variety of user experience and interaction design skill sets to work collaboratively with community stakeholders in identifying and helping to solve a need. Through this experience, students recognize and demonstrate many interaction design practices related to research, analysis, concept, design and prototyping to work on a project designed to serve a community need. This course is open only to students who have been admitted to SMC’s Bachelor of Science program in Interaction Design. See ixd.smc.edu for more information.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "5003",
+          "schedule": [
+            {
+              "time": "1:00p.m.-4:05p.m.",
+              "days": "M",
+              "location": "CMD 271",
+              "instructor": "Johnson L D"
+            },
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Johnson L D"
+            }
+          ],
+          "notes": [
+            "Above section 5003 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "IXD 410",
+      "course_title": "PROJECT MANAGEMENT FOR DESIGN",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Admission to the Bachelor of Science in Interaction",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Design. This course contextualizes project management for interaction designers through three lenses: Time Management, Career Management, and applied Project Management. The first two lenses‚ÄîTime and Career Management‚Äîtake place in the first half of class. These sections make the connection between personal development and project management. During the first half of class, students will also develop a comprehensive overview of current design development processes and tools used to successfully deliver high-quality projects on time. In the second half of the class, students will then apply their evolving skills to a client-based project. Students will learn to clearly communicate with clients and manage the design process while integrating design objectives into the overall development timeline. In all three sections, students will develop leadership skills as well as learn to plan, organize, motivate, and control resources based on defined goals. This course is open only to students who have been admitted to SMC’s Bachelor of Science program in Interaction Design. See ixd.smc.edu for more information.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "5004",
+          "schedule": [
+            {
+              "time": "9:00a.m.-12:05p.m.",
+              "days": "T",
+              "location": "CMD 271",
+              "instructor": "Johnson L D"
+            },
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Johnson L D"
+            }
+          ],
+          "notes": [
+            "Above section 5004 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "IXD 450",
+      "course_title": "INTERACTION DESIGN PORTFOLIO",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "IXD 430.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course provides the interaction design student the opportunity to develop work under the supervision of the instructor on a one-to-one basis and to develop the skill to talk about their body of work in a professional setting. Emphasis is placed on developing a portfolio that displays a comprehensive understanding of industry expectations for a UX/interaction designer. This course is open only to students who have been admitted to SMC’s Bachelor of Science program in Interaction Design. See ixd.smc.edu for more information.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "5005",
+          "schedule": [
+            {
+              "time": "9:00a.m.-12:05p.m.",
+              "days": "M",
+              "location": "ONLINE",
+              "instructor": "Chan N R"
+            },
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Chan N R"
+            }
+          ],
+          "notes": [
+            "Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "IXD 460",
+      "course_title": "TANGIBLE INTERACTION",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "IXD 360.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course allows students to explore the methods and approaches to high-level prototyping of digital systems. Situated on the intersection of computer graphics programming and interactive systems design, this class teaches students to analyze interactive systems, evaluate their components, and strategize their customization and improvement. Students will create their own programmed interactive graphical systems, collect, store and visualize data, and evaluate opportunities for other applications of computer graphics technologies in interactive digital systems. This course is open only to students who have been admitted to SMC’s Bachelor of Science program in Interaction Design. See ixd.smc.edu for more information.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "5006",
+          "schedule": [
+            {
+              "time": "2:00p.m.-5:05p.m.",
+              "days": "W",
+              "location": "CMD 271",
+              "instructor": "Safioulline M"
+            },
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Safioulline M"
+            }
+          ],
+          "notes": [
+            "Above section 5006 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

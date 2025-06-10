@@ -1,0 +1,63 @@
+{
+  "program_name": "Linguistics",
+  "program_description": "",
+  "courses": [
+    {
+      "course_code": "LING 1",
+      "course_title": "INTRODUCTION TO LINGUISTICS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is an introduction to the study of language. It provides an overview of the field of linguistics, its three dimensions of language structure: the sound system (phonetics and phonology), vocabulary (morphology), and grammar (syntax), and the way linguistic structure and context give rise to meaning (semantics and pragmatics). In addition the course considers how social practices are shaped by and shape language use, as well as how language is acquired and learned. The course provides a grounding in linguistics as a field of study, basic analytic skills for viewing and discussing language from a variety of perspectives, and greater awareness of the relevance of language across and within cultures.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2536",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "DRSCHR 208",
+              "instructor": "Al Rifae K"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2537",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Gaines S G"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

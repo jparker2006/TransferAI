@@ -1,0 +1,310 @@
+{
+  "program_name": "Professional Courses In Kinesiology/Physical Education",
+  "program_description": "See also “Kinesiology/Physical Education” (KIN/PE) and “Varsity Intercollegiate Athletics” (VAR/PE).",
+  "courses": [
+    {
+      "course_code": "PRO CR 6A",
+      "course_title": "COACHING OF FOOTBALL",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "*Maximum UC credit for KIN PE 2, 3, PRO CR 3, 4, 6A, 6B, 7, 8, 9, 29A, 29B combined is 8 units. This course offers instruction and practice in the skills of football. The course will also provide experience in teaching and coaching techniques of football at the high school or college level.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2965",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Ledwith K F"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PRO CR 10",
+      "course_title": "INTRODUCTION TO KINESIOLOGY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "KIN 100",
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course provides an overview of the scope, history, and philosophy of the profession of Kinesiology. Included is an indepth look at requirements and preparation for employment opportunities.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2966",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Hank M E"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2967",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Hank M E"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2968",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Hank M E"
+            }
+          ],
+          "notes": [
+            "Above section 2968 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PRO CR 11",
+      "course_title": "INTRODUCTION TO SPORTS INJURIES",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course introduces the student to the anatomy and physiology of sports injuries. The prevention and treatment of injuries as well as techniques of applying supportive materials are included.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2969",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Beckman M"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PRO CR 12",
+      "course_title": "EMERGENCY CARE AND WATER SAFETY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "KIN PE 48B",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Ability to swim 300 consecutive yards using various strokes required. This course deals with preventing accidents, caring for common injuries, and emergency procedures at the scene of accidents or sudden illness and learning fundamental principles behind teaching water safety. The instruction will include the practice of American Red Cross senior life saving, water safety, lifeguard training, first aid, and CPR/AED for the professional rescuer. Successful completion of course requirements ‚Äãcan lead to ARC advanced first aid, blood borne pathogens, and CPR certificates. This class prepares students for the WSI and LG certificates but certification requires either testing in person or detailed filming in the water.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2970",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Shima T H"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PRO CR 15",
+      "course_title": "SPORTS MANAGEMENT",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This introductory leadership course provides foundation for the preparation of future sport managers. The course addresses sport management, sport law, sport marketing, sport finance, sport ethics and sport history. This course also discusses the support systems necessary to sustain the sport industry such as broadcasting, media relations, and facility and event management. Guest lecturers may be arranged and field trips may be required.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2971",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Ledwith K F"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PRO CR 19",
+      "course_title": "FIELD EXPERIENCE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course offers the student an opportunity to plan, organize, and conduct a beginning level activity class of his or her choice as a teaching assistant with a member of the physical education department.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2972",
+          "schedule": [
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Metzler K A"
+            }
+          ],
+          "notes": [
+            "This class is designed for students interested in teaching, coaching, or leading physical activity classes. It is a mix of online work and in-person work with a mentor teacher. Above section modality is",
+            "On Ground."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PRO CR 25",
+      "course_title": "PERSONAL TRAINER PREPARATION",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is designed to give students the knowledge and understanding necessary to prepare for the American Council on Exercise (ACE) Personal Trainer Certification Exam and become effective personal trainers. This course presents the ACE Integrated Fitness Training (ACE IFT) Model as a comprehensive system for designing individualized programs based on each client’s unique health, fitness, and performance goals. The information covered by this course and the ACE IFT Model will help students learn how to facilitate rapport, adherence, self-efficacy, and behavior change in clients, as well as design programs that help clients to improve posture, movement, flexibility, balance, core function, cardiorespiratory fitness, and muscular endurance and strength.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2973",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "CPC 104",
+              "instructor": "Hank M E"
+            },
+            {
+              "time": "11:00a.m.-1:00p.m.",
+              "days": "Th",
+              "location": "CPC 207",
+              "instructor": "Hank M E"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

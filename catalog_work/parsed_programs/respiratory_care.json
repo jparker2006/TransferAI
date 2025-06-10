@@ -12,12 +12,13 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "Formal Admission to the Respiratory Care Program,",
+      "prerequisites": "•  Formal Admission to the Respiratory Care Program, ANATMY 1 and HEALTH 61 and MCRBIO 1 and PHYS 3 and CHEM 10 or CHEM 19.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "ANATMY 1 and HEALTH 61 and MCRBIO 1 and PHYS 3 and CHEM 10 or CHEM 19. This course introduces students to the fundamentals of respiratory care practice, including credential mechanisms, organization of respiratory care services, theory of modalities performed by respiratory care practitioners (RCPs) in various settings, and the various patient populations RCPs work with. Basics of patient assessment and evidence-based practice protocols are introduced.",
+      "description": "This course introduces students to the fundamentals of respiratory care practice, including credential mechanisms, organization of respiratory care services, theory of modalities performed by respiratory care practitioners (RCPs) in various settings, and the various patient populations RCPs work with. Basics of patient assessment and evidence-based practice protocols are introduced.",
       "same_as": null,
       "sections": [
         {
@@ -49,11 +50,10 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [
-        "Corequisite: RC 2L."
-      ],
-      "prerequisites": "Formal Admission to the Respiratory Care Program and RC 1.",
+      "special_notes": [],
+      "prerequisites": "•  Formal Admission to the Respiratory Care Program and RC 1.",
       "prerequisite_notes": null,
+      "corequisites": "RC 2L.",
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -89,11 +89,10 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [
-        "Corequisites: RC 3L and RC 4."
-      ],
-      "prerequisites": "Formal Admission to the Respiratory Care Program and RC 2.",
+      "special_notes": [],
+      "prerequisites": "•  Formal Admission to the Respiratory Care Program and RC 2.",
       "prerequisite_notes": null,
+      "corequisites": "RC 3L and RC 4.",
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -129,11 +128,10 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [
-        "Corequisite: RC 3."
-      ],
-      "prerequisites": "Formal admission to the Respiratory Care Program and RC 2.",
+      "special_notes": [],
+      "prerequisites": "•  Formal admission to the Respiratory Care Program and RC 2.",
       "prerequisite_notes": null,
+      "corequisites": "RC 3.",
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -174,11 +172,10 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [
-        "Corequisites: RC 10L and RC 11 and RC 12."
-      ],
-      "prerequisites": "Formal admission to the Respiratory Care Program and RC 9.",
+      "special_notes": [],
+      "prerequisites": "•  Formal admission to the Respiratory Care Program and RC 9.",
       "prerequisite_notes": null,
+      "corequisites": "RC 10L and RC 11 and RC 12.",
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -214,11 +211,10 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [
-        "Corequisites: RC 10 and RC 11L and RC 12."
-      ],
-      "prerequisites": "Formal Admission to the Respiratory Care Program and RC 9.",
+      "special_notes": [],
+      "prerequisites": "•  Formal Admission to the Respiratory Care Program and RC 9.",
       "prerequisite_notes": null,
+      "corequisites": "RC 10 and RC 11L and RC 12.",
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -260,11 +256,10 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [
-        "Corequisites: RC 10 and RC 11."
-      ],
-      "prerequisites": "Formal Admission to the Respiratory Care Program and RC 9.",
+      "special_notes": [],
+      "prerequisites": "•  Formal Admission to the Respiratory Care Program and RC 9.",
       "prerequisite_notes": null,
+      "corequisites": "RC 10 and RC 11.",
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -306,11 +301,10 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [
-        "Corequisite: RC 13L."
-      ],
-      "prerequisites": "Formal Admission to the SMC RC program and RC 10 and RC 11.",
+      "special_notes": [],
+      "prerequisites": "•  Formal Admission to the SMC RC program and RC 10 and RC 11.",
       "prerequisite_notes": null,
+      "corequisites": "RC 13L.",
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -346,11 +340,10 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [
-        "Corequisite: RC 1."
-      ],
-      "prerequisites": "Formal Admission to the Respiratory Care Program.",
+      "special_notes": [],
+      "prerequisites": "•  Formal Admission to the Respiratory Care Program.",
       "prerequisite_notes": null,
+      "corequisites": "RC 1.",
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -458,11 +451,10 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [
-        "Corequisite: RC 2."
-      ],
-      "prerequisites": "Formal Admission to Respiratory Care Program.",
+      "special_notes": [],
+      "prerequisites": "•  Formal Admission to Respiratory Care Program.",
       "prerequisite_notes": null,
+      "corequisites": "RC 2.",
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -596,11 +588,10 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [
-        "Corequisite: RC 3."
-      ],
-      "prerequisites": "Formal admission to the Respiratory Care Program.",
+      "special_notes": [],
+      "prerequisites": "•  Formal admission to the Respiratory Care Program.",
       "prerequisite_notes": null,
+      "corequisites": "RC 3.",
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -717,11 +708,10 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [
-        "Corequisite: RC 10."
-      ],
-      "prerequisites": "Formal Admission to Respiratory Care Program.",
+      "special_notes": [],
+      "prerequisites": "•  Formal Admission to Respiratory Care Program.",
       "prerequisite_notes": null,
+      "corequisites": "RC 10.",
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -784,18 +774,17 @@
     },
     {
       "course_code": "RC 11L",
-      "course_title": "APPLIED ADVANCED MECHANICAL VENTILATION 2.",
-      "units": "5 UNITS",
+      "course_title": "APPLIED ADVANCED MECHANICAL VENTILATION",
+      "units": "2.5 UNITS",
       "transfer_info": [
         "CSU"
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [
-        "Corequisite: RC 11."
-      ],
-      "prerequisites": "Formal Admission to Respiratory Care Program.",
+      "special_notes": [],
+      "prerequisites": "•  Formal Admission to Respiratory Care Program.",
       "prerequisite_notes": null,
+      "corequisites": "RC 11.",
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -883,11 +872,10 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [
-        "Corequisite: RC 13."
-      ],
-      "prerequisites": "Formal Admission to the Respiratory Care Program.",
+      "special_notes": [],
+      "prerequisites": "•  Formal Admission to the Respiratory Care Program.",
       "prerequisite_notes": null,
+      "corequisites": "RC 13.",
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,

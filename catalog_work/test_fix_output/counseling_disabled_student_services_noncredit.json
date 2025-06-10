@@ -1,0 +1,48 @@
+{
+  "program_name": "Counseling: Disabled Student Services – Noncredit",
+  "program_description": "",
+  "courses": [
+    {
+      "course_code": "COUNS 910",
+      "course_title": "ABI CONNECTIONS",
+      "units": "0 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is taught in both the classroom and community settings for adults with acquired brain injuries. The course instructs students in retraining and increasing cognitive skills. Caregivers are encouraged to participate and will be included in any desired instruction.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "7007",
+          "schedule": [
+            {
+              "time": "1:00p.m.-3:30p.m.",
+              "days": "M",
+              "location": "BUNDY 216",
+              "instructor": "Yslas E"
+            },
+            {
+              "time": "1:00p.m.-3:30p.m.",
+              "days": "W",
+              "location": "BUNDY 216",
+              "instructor": "Nicholls J"
+            }
+          ],
+          "notes": [
+            "Above section 7007 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

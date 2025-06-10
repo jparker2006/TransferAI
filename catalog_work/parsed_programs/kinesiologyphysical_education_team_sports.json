@@ -7,7 +7,7 @@
       "course_title": "BEGINNING BASKETBALL",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -15,6 +15,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -45,7 +46,7 @@
       "course_title": "INTERMEDIATE BASKETBALL",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -53,6 +54,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "KIN PE 9A or equivalent experience",
       "advisory_notes": null,
       "formerly": null,
@@ -83,7 +85,7 @@
       "course_title": "BEGINNING SOCCER",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -91,6 +93,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -127,7 +130,7 @@
       "course_title": "INTERMEDIATE SOCCER",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -135,6 +138,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -194,7 +198,7 @@
       "course_title": "ADVANCED SOCCER",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -202,6 +206,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -238,7 +243,7 @@
       "course_title": "BEGINNING SOFTBALL",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -246,6 +251,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -282,7 +288,7 @@
       "course_title": "ADVANCED SOFTBALL",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -290,6 +296,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -326,7 +333,7 @@
       "course_title": "BEGINNING VOLLEYBALL",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -334,6 +341,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -364,7 +372,7 @@
       "course_title": "INTERMEDIATE VOLLEYBALL",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -372,6 +380,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "KIN PE 57A",
       "advisory_notes": null,
       "formerly": null,
@@ -402,7 +411,7 @@
       "course_title": "ADVANCED VOLLEYBALL",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -410,6 +419,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "KIN PE 57B",
       "advisory_notes": null,
       "formerly": null,
@@ -440,7 +450,7 @@
       "course_title": "INTERMEDIATE BEACH VOLLEYBALL",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -448,6 +458,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -478,7 +489,7 @@
       "course_title": "ADVANCED BEACH VOLLEYBALL",
       "units": "1 UNIT",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
@@ -486,6 +497,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,

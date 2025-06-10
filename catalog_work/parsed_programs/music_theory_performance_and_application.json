@@ -7,20 +7,22 @@
       "course_title": "FUNDAMENTALS OF MUSIC",
       "units": "3 UNITS",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 3A (Arts)",
       "special_notes": [
-        "*No UC transfer credit for MUSIC 1 if taken after MUSIC 2"
+        "*No UC transfer credit for MUSIC 1 if taken after MUSIC 2",
+        "See also MUSIC 66."
       ],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "See also MUSIC 66. This course provides the study of the rudiments of music notation, including scales, intervals, triads and seventh chords. Also included are rhythmic drills, sight singing and exercises using computer-assisted-instruction. This course (or the equivalent) is a prerequisite for all other music theory courses. MUSIC 1 is equivalent to the theory portion of MUSIC 66. Credit may be earned for MUSIC 1 or MUSIC 66 but not both.",
+      "description": "This course provides the study of the rudiments of music notation, including scales, intervals, triads and seventh chords. Also included are rhythmic drills, sight singing and exercises using computer-assisted-instruction. This course (or the equivalent) is a prerequisite for all other music theory courses. MUSIC 1 is equivalent to the theory portion of MUSIC 66. Credit may be earned for MUSIC 1 or MUSIC 66 but not both.",
       "same_as": null,
       "sections": [
         {
@@ -120,17 +122,17 @@
       "course_title": "MUSICIANSHIP",
       "units": "2 UNITS",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [
-        "Corequisite: MUSIC 6.",
         "*No UC transfer credit for MUSIC 1 if taken after MUSIC 2"
       ],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": "MUSIC 6.",
       "advisory": "MUSIC 1 and MUSIC 5",
       "advisory_notes": null,
       "formerly": null,
@@ -185,11 +187,10 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [
-        "Corequisite: MUSIC 7."
-      ],
-      "prerequisites": "MUSIC 2.",
+      "special_notes": [],
+      "prerequisites": "•  MUSIC 2.",
       "prerequisite_notes": null,
+      "corequisites": "MUSIC 7.",
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -226,11 +227,10 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [
-        "Corequisite: MUSIC 8."
-      ],
-      "prerequisites": "MUSIC 3.",
+      "special_notes": [],
+      "prerequisites": "•  MUSIC 3.",
       "prerequisite_notes": null,
+      "corequisites": "MUSIC 8.",
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -270,6 +270,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MUSIC 1 or concurrent enrollment in MUSIC 1",
       "advisory_notes": null,
       "formerly": null,
@@ -324,11 +325,10 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [
-        "Corequisite: MUSIC 2."
-      ],
+      "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": "MUSIC 2.",
       "advisory": "MUSIC 1",
       "advisory_notes": null,
       "formerly": null,
@@ -383,11 +383,10 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [
-        "Corequisite: MUSIC 3."
-      ],
-      "prerequisites": "MUSIC 6.",
+      "special_notes": [],
+      "prerequisites": "•  MUSIC 6.",
       "prerequisite_notes": null,
+      "corequisites": "MUSIC 3.",
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -424,11 +423,10 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [
-        "Corequisite: MUSIC 4."
-      ],
-      "prerequisites": "MUSIC 7.",
+      "special_notes": [],
+      "prerequisites": "•  MUSIC 7.",
       "prerequisite_notes": null,
+      "corequisites": "MUSIC 4.",
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -466,8 +464,9 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "Pre-enrollment audition required.",
+      "prerequisites": "•  Pre-enrollment audition required.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MUSIC 50B",
       "advisory_notes": null,
       "formerly": null,
@@ -486,8 +485,8 @@
             {
               "time": "Arrange-1 Hour",
               "days": "N",
-              "location": "De Stefano J D",
-              "instructor": ""
+              "location": "TBA",
+              "instructor": "De Stefano J D"
             }
           ],
           "notes": [
@@ -513,6 +512,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -556,8 +556,9 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "Audition required.",
+      "prerequisites": "•  Audition required.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -600,8 +601,9 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "Audition Required.",
+      "prerequisites": "•  Audition Required.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -647,6 +649,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -758,6 +761,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MUSIC 50A",
       "advisory_notes": null,
       "formerly": null,
@@ -868,6 +872,7 @@
       "special_notes": [],
       "prerequisites": "Audition required.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -913,6 +918,7 @@
       "special_notes": [],
       "prerequisites": "Audition required.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -931,8 +937,8 @@
             {
               "time": "Arrange-1 Hour",
               "days": "N",
-              "location": "ONLINE",
-              "instructor": "Selvey J D"
+              "location": "TBA",
+              "instructor": "N Selvey J D"
             }
           ],
           "notes": [
@@ -956,8 +962,9 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "Pre-enrollment audition required.",
+      "prerequisites": "•  Pre-enrollment audition required.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MUSIC 1 and MUSIC 50B",
       "advisory_notes": null,
       "formerly": null,
@@ -997,6 +1004,7 @@
       "special_notes": [],
       "prerequisites": "Audition required.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -1039,13 +1047,16 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [],
+      "special_notes": [
+        "See also MUSIC 66."
+      ],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "See also MUSIC 66. Instruction in this course ranges from an introduction to the keyboard to the reading of simple pieces at sight in all major keys. Technical problems, basic music theory, major scales, hand-over-hand arpeggios, simple chording and an introduction to piano literature are stressed. MUSIC 60A is equivalent to the piano portion of MUSIC 66. Credit may be earned for MUSIC 60A or MUSIC 66 but not both. Access to a piano in good playing condition or a digital piano is required. A limited number of loaner digital pianos are available for use while enrolled in this course.",
+      "description": "Instruction in this course ranges from an introduction to the keyboard to the reading of simple pieces at sight in all major keys. Technical problems, basic music theory, major scales, hand-over-hand arpeggios, simple chording and an introduction to piano literature are stressed. MUSIC 60A is equivalent to the piano portion of MUSIC 66. Credit may be earned for MUSIC 60A or MUSIC 66 but not both. Access to a piano in good playing condition or a digital piano is required. A limited number of loaner digital pianos are available for use while enrolled in this course.",
       "same_as": null,
       "sections": [
         {
@@ -1135,6 +1146,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MUSIC 60A",
       "advisory_notes": null,
       "formerly": null,
@@ -1210,6 +1222,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MUSIC 60B",
       "advisory_notes": null,
       "formerly": null,
@@ -1267,6 +1280,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MUSIC 60C",
       "advisory_notes": null,
       "formerly": null,
@@ -1324,6 +1338,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MUSIC 60D",
       "advisory_notes": null,
       "formerly": null,
@@ -1363,6 +1378,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MUSIC 60C or equivalent",
       "advisory_notes": null,
       "formerly": null,
@@ -1408,6 +1424,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MUSIC 60C",
       "advisory_notes": null,
       "formerly": null,
@@ -1447,6 +1464,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MUSIC 65A",
       "advisory_notes": null,
       "formerly": null,
@@ -1483,13 +1501,16 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [],
+      "special_notes": [
+        "See also MUSIC 1 and MUSIC 60A."
+      ],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "See also MUSIC 1 and MUSIC 60A. A limited number of loaner digital pianos are available for use while enrolled in this course. This course combines the study of the rudiments of music theory with an introduction to the keyboard. Included is the knowledge of music notation, scales, intervals, triads and seventh chords, rhythmic drills and sight singing. Piano studies include technical exercises, major scales, hand-over-hand arpeggios, simple chording and an introduction to piano literature. The fundamentals of music component of this course (or the equivalent) is a prerequisite for all other music theory courses. The piano component (or the equivalent) is a prerequisite for all other piano courses. MUSIC 66 is equivalent to taking MUSIC 1 and MUSIC 60A. A student taking MUSIC 66 may not earn credit for MUSIC 1 or MUSIC 60A.",
+      "description": "A limited number of loaner digital pianos are available for use while enrolled in this course. This course combines the study of the rudiments of music theory with an introduction to the keyboard. Included is the knowledge of music notation, scales, intervals, triads and seventh chords, rhythmic drills and sight singing. Piano studies include technical exercises, major scales, hand-over-hand arpeggios, simple chording and an introduction to piano literature. The fundamentals of music component of this course (or the equivalent) is a prerequisite for all other music theory courses. The piano component (or the equivalent) is a prerequisite for all other piano courses. MUSIC 66 is equivalent to taking MUSIC 1 and MUSIC 60A. A student taking MUSIC 66 may not earn credit for MUSIC 1 or MUSIC 60A.",
       "same_as": null,
       "sections": [
         {
@@ -1531,6 +1552,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -1570,6 +1592,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MUSIC 70A",
       "advisory_notes": null,
       "formerly": null,
@@ -1609,6 +1632,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MUSIC 70B or audition",
       "advisory_notes": null,
       "formerly": null,
@@ -1648,6 +1672,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -1687,6 +1712,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MUSIC 73A",
       "advisory_notes": null,
       "formerly": null,
@@ -1705,8 +1731,8 @@
             {
               "time": "Arrange-1 Hour",
               "days": "N",
-              "location": "Smith Me M",
-              "instructor": ""
+              "location": "TBA",
+              "instructor": "Smith Me M"
             }
           ],
           "notes": [
@@ -1730,8 +1756,9 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "Audition required.",
+      "prerequisites": "•  Audition required.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -1750,8 +1777,8 @@
             {
               "time": "Arrange-1 Hour",
               "days": "N",
-              "location": "ONLINE",
-              "instructor": "Juan M R"
+              "location": "TBA",
+              "instructor": "N Juan M R"
             }
           ],
           "notes": [
@@ -1777,6 +1804,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MUSIC 71, 72, 73A, or 73B",
       "advisory_notes": null,
       "formerly": null,
@@ -1814,8 +1842,9 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "Audition required.",
+      "prerequisites": "•  Audition required.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -1834,8 +1863,8 @@
             {
               "time": "Arrange-1 Hour",
               "days": "N",
-              "location": "ONLINE",
-              "instructor": "Mc Keown K O"
+              "location": "TBA",
+              "instructor": "N Mc Keown K O"
             }
           ],
           "notes": [
@@ -1859,8 +1888,9 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "Audition required.",
+      "prerequisites": "•  Audition required.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -1879,8 +1909,8 @@
             {
               "time": "Arrange-1 Hour",
               "days": "N",
-              "location": "ONLINE",
-              "instructor": "Fiddmont F K"
+              "location": "TBA",
+              "instructor": "N Fiddmont F K"
             }
           ],
           "notes": [
@@ -1906,6 +1936,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -1945,6 +1976,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MUSIC 84A",
       "advisory_notes": null,
       "formerly": null,
@@ -1984,6 +2016,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MUSIC 84B",
       "advisory_notes": null,
       "formerly": null,
@@ -2023,6 +2056,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -2062,6 +2096,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MUSIC 87A",
       "advisory_notes": null,
       "formerly": null,
@@ -2098,15 +2133,14 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [
-        "Corequisite: MUSIC 94; and one of the following: MUSIC 40, 42, 45,"
-      ],
-      "prerequisites": "Audition required.",
+      "special_notes": [],
+      "prerequisites": "•  Audition required.",
       "prerequisite_notes": null,
+      "corequisites": "MUSIC 94; and one of the following: MUSIC 40, 42, 45, 52, 53, 55, 59, 64, 73B, 74, 76, 77, 78.",
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "52, 53, 55, 59, 64, 73B, 74, 76, 77, 78. For Applied Music Program participants only. Deadlines to apply to audition for the program are in May for admission the following Fall and in November for admission the following Spring. For information, visit smc.edu/amp or call the SMC Music Department at 310-434-4323. This course is designed to provide students with individual instruction in the applied areas of instrumental performance, vocal performance, and composition. The two units of credit require a weekly one-hour private lesson and five hours of individual practice per week. Students may repeat for credit for a total of four semesters.",
+      "description": "For Applied Music Program participants only. Deadlines to apply to audition for the program are in May for admission the following Fall and in November for admission the following Spring. For information, visit smc.edu/amp or call the SMC Music Department at 310-434-4323. This course is designed to provide students with individual instruction in the applied areas of instrumental performance, vocal performance, and composition. The two units of credit require a weekly one-hour private lesson and five hours of individual practice per week. Students may repeat for credit for a total of four semesters.",
       "same_as": null,
       "sections": [
         {
@@ -2138,15 +2172,14 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [
-        "Corequisite: MUSIC 92; and one of the following: MUSIC 40, 42, 45,"
-      ],
-      "prerequisites": "Audition required.",
+      "special_notes": [],
+      "prerequisites": "•  Audition required.",
       "prerequisite_notes": null,
+      "corequisites": "MUSIC 92; and one of the following: MUSIC 40, 42, 45, 52, 53, 55, 59, 64, 73B, 74, 76, 77, 78.",
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "52, 53, 55, 59, 64, 73B, 74, 76, 77, 78. For Applied Music Program participants only. Deadlines to apply to audition for the program are in May for admission the following Fall and in November for admission the following Spring. For information, visit smc.edu/amp or call the SMC Music Department at 310-434-4323. This course is designed to provide students in the Applied Music Program performance opportunities in a controlled environment in the areas of instrumental performance, vocal performance, and composition. Students may repeat this class for credit for a total of four semesters.",
+      "description": "For Applied Music Program participants only. Deadlines to apply to audition for the program are in May for admission the following Fall and in November for admission the following Spring. For information, visit smc.edu/amp or call the SMC Music Department at 310-434-4323. This course is designed to provide students in the Applied Music Program performance opportunities in a controlled environment in the areas of instrumental performance, vocal performance, and composition. Students may repeat this class for credit for a total of four semesters.",
       "same_as": null,
       "sections": [
         {

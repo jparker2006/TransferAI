@@ -1,0 +1,44 @@
+{
+  "program_name": "Humanities",
+  "program_description": "",
+  "courses": [
+    {
+      "course_code": "HUM 26",
+      "course_title": "INTRODUCTION TO THE HUMANITIES",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
+      "special_notes": [],
+      "prerequisites": "ENGL C1000 (formerly ENGL 1).",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "In this introduction to the humanities students will survey literature in conjunction with great works of art through the ages (painting, sculpture, music, architecture, dance) exploring how, at widely separated points in time, artists and writers have expressed and responded to cultural, political, and intellectual concerns of their day. In doing so, they will see literature in the context of other art forms.",
+      "same_as": "ENGL 26",
+      "sections": [
+        {
+          "section_number": "2418",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Hassman T"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

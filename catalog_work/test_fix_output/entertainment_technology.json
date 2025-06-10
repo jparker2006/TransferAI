@@ -1,0 +1,76 @@
+{
+  "program_name": "Entertainment Technology",
+  "program_description": "The Entertainment Technology programs prepare students for careers in rapidly evolving design and media fields through comprehensive, hands-on training. To learn more, please see the Animation and Digital Media Post-Production sections of the Schedule of Classes or visit smc.edu/designtech.",
+  "courses": [
+    {
+      "course_code": "ET 88B",
+      "course_title": "INDEPENDENT STUDIES IN ENTERTAINMENT TECHNOLOGY",
+      "units": "2 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Independent Studies” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2229",
+          "schedule": [
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Fria C T"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ET 88C",
+      "course_title": "INDEPENDENT STUDIES IN ENTERTAINMENT TECHNOLOGY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Independent Studies” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2230",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Fria C T"
+            }
+          ],
+          "notes": [
+            "Above section 2230 meets for 12 weeks, Sep 22 to Dec 12."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,653 @@
+{
+  "program_name": "Physics",
+  "program_description": "Physicists study matter, energy, and the relationships between them and devise methods to apply laws and theories of physics to industry, medicine, and other fields. Some career titles include acoustic physicist, astrophysicist, engineer, satellite data analyst, and medical or nuclear physicist.",
+  "courses": [
+    {
+      "course_code": "PHYSCS 6",
+      "course_title": "GENERAL PHYSICS 1 WITH LAB",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "PHYS 105",
+      "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
+      "special_notes": [
+        "PHYSCS 6, PHYSCS 7 or PHYSCS 8, PHYSCS 9 or PHYSCS 21, PHYSCS 22, PHYSCS 23 combined: maximum UC credit, 1 series."
+      ],
+      "prerequisites": "MATH 2 or (MATH 3 and 4).",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is an algebraand trigonometry-based study of classical mechanics, including elastic properties of matter and thermodynamics.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2906",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "T",
+              "location": "MSB 316",
+              "instructor": "Paik S T"
+            },
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "F",
+              "location": "ONLINE",
+              "instructor": "Paik S T"
+            }
+          ],
+          "notes": [
+            "Above section 2906 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2907",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "Th",
+              "location": "MSB 316",
+              "instructor": "Paik S T"
+            },
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "F",
+              "location": "ONLINE",
+              "instructor": "Paik S T"
+            }
+          ],
+          "notes": [
+            "Above section 2907 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2909",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:50p.m.",
+              "days": "T",
+              "location": "SCI 106",
+              "instructor": "Paik S T"
+            },
+            {
+              "time": "12:45p.m.-3:50p.m.",
+              "days": "F",
+              "location": "ONLINE",
+              "instructor": "Paik S T"
+            }
+          ],
+          "notes": [
+            "Above section 2909 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHYSCS 8",
+      "course_title": "CALCULUS-BASED GENERAL PHYSICS 1 WITH LAB",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
+      "special_notes": [
+        "PHYSCS 6, PHYSCS 7 or PHYSCS 8, PHYSCS 9 or PHYSCS 21, PHYSCS 22, PHYSCS 23 combined: maximum UC credit, 1 series."
+      ],
+      "prerequisites": "MATH 7.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is a calculus-based study of the mechanics of solids and liquids, elastic properties of matter, heat, and wave motion.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2910",
+          "schedule": [
+            {
+              "time": "8:15a.m.-10:45a.m.",
+              "days": "MW",
+              "location": "SCI 122",
+              "instructor": "Henderson J M"
+            },
+            {
+              "time": "8:15a.m.-10:15a.m.",
+              "days": "F",
+              "location": "MSB 311",
+              "instructor": "Henderson J M"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHYSCS 12",
+      "course_title": "INTRODUCTORY PHYSICS NON-LAB",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, non-lab)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Physics 12 is designed for the student who is interested in a more conceptual and less mathematical approach to physics. It is a survey course introducing the topics of mechanics, heat, sound, electricity and magnetism, light and modern physics. The emphasis will be on developing conceptual understanding of the laws of nature through lectures, demonstrations, and class discussions. High school math recommended.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2913",
+          "schedule": [
+            {
+              "time": "11:00a.m.-12:30p.m.",
+              "days": "MW",
+              "location": "SCI 122",
+              "instructor": "Menachekanian E"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHYSCS 14",
+      "course_title": "INTRODUCTORY PHYSICS WITH LAB",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Physics 14 is recommended for students who have not had high school physics but are planning to take Physics. This course is similar to Physics 12 in content and difficulty level, but with a laboratory session added to enhance the learning experience. Physics 14 is designed for the student who is interested in a more conceptual and less mathematical approach to physics. It is a one semester survey course introducing the topics of mechanics, heat, sound, electricity and magnetism, light and modern physics. The emphasis will be on developing conceptual understanding of the laws of nature through hands-on experiences, laboratory experiments, and computer interactions, in addition to lectures and demonstrations. Maximum credit for Physics 12 and 14 combined is 4 units. High school math recommended.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2914",
+          "schedule": [
+            {
+              "time": "8:30a.m.-10:35a.m.",
+              "days": "TThF",
+              "location": "SCI 122",
+              "instructor": "Kamaga C N"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4174",
+          "schedule": [
+            {
+              "time": "6:00p.m.-9:05p.m.",
+              "days": "MW",
+              "location": "SCI 106",
+              "instructor": "Do M H"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHYSCS 20",
+      "course_title": "PREPARATION FOR CALCULUS-BASED PHYSICS",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "MATH 2 or (MATH 3 and 4)",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course serves as a preparation for calculus-based physics. It serves as an introduction to classical mechanics, including concepts and principles pertinent to the mechanics of solids. It also prepares students for handling data and analysis at the level required in Physics 8 and 21.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2916",
+          "schedule": [
+            {
+              "time": "8:45a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "SCI 101",
+              "instructor": "Strohmaier K D"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHYSCS 21",
+      "course_title": "MECHANICS WITH LAB",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "PHYS 205",
+      "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
+      "special_notes": [
+        "PHYSCS 6, PHYSCS 7 or PHYSCS 8, PHYSCS 9 or PHYSCS 21, PHYSCS 22, PHYSCS 23 combined: maximum UC credit, 1 series."
+      ],
+      "prerequisites": "MATH 7.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is a calculus-based study of the mechanics of rigid bodies, emphasizing Newton’s laws and its applications. This course includes an introduction to fluids. It is designed for engineering, physical science, and computer science majors.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2917",
+          "schedule": [
+            {
+              "time": "8:30a.m.-11:00a.m.",
+              "days": "MW",
+              "location": "SCI 106",
+              "instructor": "Dang T T"
+            },
+            {
+              "time": "8:00a.m.-11:00a.m.",
+              "days": "F",
+              "location": "SCI 106",
+              "instructor": "Dang T T"
+            }
+          ],
+          "notes": [
+            "Above section 2917 is part of the STEM/MAS program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/stem for more information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2918",
+          "schedule": [
+            {
+              "time": "8:30a.m.-11:00a.m.",
+              "days": "MW",
+              "location": "SCI 101",
+              "instructor": "Roberts Ke"
+            },
+            {
+              "time": "8:30a.m.-11:30a.m.",
+              "days": "F",
+              "location": "SCI 101",
+              "instructor": "Roberts Ke"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2919",
+          "schedule": [
+            {
+              "time": "8:45a.m.-11:15a.m.",
+              "days": "TTh",
+              "location": "SCI 106",
+              "instructor": "Faridian F"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Faridian F"
+            }
+          ],
+          "notes": [
+            "Above section 2919 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2921",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:15p.m.",
+              "days": "TTh",
+              "location": "SCI 101",
+              "instructor": "Strohmaier K D"
+            },
+            {
+              "time": "12:15p.m.-3:15p.m.",
+              "days": "F",
+              "location": "SCI 101",
+              "instructor": "Strohmaier K D"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2922",
+          "schedule": [
+            {
+              "time": "3:45p.m.-6:15p.m.",
+              "days": "MW",
+              "location": "MSB 316",
+              "instructor": "Menachekanian E"
+            },
+            {
+              "time": "3:45p.m.-6:45p.m.",
+              "days": "F",
+              "location": "MSB 316",
+              "instructor": "Menachekanian E"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2924",
+          "schedule": [
+            {
+              "time": "1:40p.m.-5:45p.m.",
+              "days": "MW",
+              "location": "SCI 106",
+              "instructor": "Rousta M"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4175",
+          "schedule": [
+            {
+              "time": "5:00p.m.-9:05p.m.",
+              "days": "MW",
+              "location": "SCI 101",
+              "instructor": "Kocharian A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHYSCS 22",
+      "course_title": "ELECTRICITY AND MAGNETISM WITH LAB",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "PHYS 210",
+      "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
+      "special_notes": [
+        "PHYSCS 6, PHYSCS 7 or PHYSCS 8, PHYSCS 9 or PHYSCS 21, PHYSCS 22, PHYSCS 23 combined: maximum UC credit, 1 series."
+      ],
+      "prerequisites": "MATH 8, PHYSCS 21.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is a calculus-based study of electromagnetism covering aspects of electric and magnetic fields, DC and AC circuits, electromagnetic interactions, light, and relativity. The course is intended for engineering and physical science students.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2925",
+          "schedule": [
+            {
+              "time": "8:30a.m.-11:00a.m.",
+              "days": "MW",
+              "location": "MSB 316",
+              "instructor": "Strohmaier K D"
+            },
+            {
+              "time": "8:30a.m.-10:30a.m.",
+              "days": "F",
+              "location": "MSB 316",
+              "instructor": "Strohmaier K D"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2926",
+          "schedule": [
+            {
+              "time": "1:00p.m.-3:05p.m.",
+              "days": "MW",
+              "location": "SCI 122",
+              "instructor": "Menachekanian E"
+            },
+            {
+              "time": "12:00p.m.-3:00p.m.",
+              "days": "F",
+              "location": "SCI 122",
+              "instructor": "Menachekanian E"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4177",
+          "schedule": [
+            {
+              "time": "4:30p.m.-8:00p.m.",
+              "days": "TTh",
+              "location": "SCI 122",
+              "instructor": "Majlessi A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHYSCS 23",
+      "course_title": "FLUIDS, WAVES, THERMODYNAMICS, OPTICS WITH LAB",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "PHYS 215",
+      "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
+      "special_notes": [
+        "PHYSCS 6, PHYSCS 7 or PHYSCS 8, PHYSCS 9 or PHYSCS 21, PHYSCS 22, PHYSCS 23 combined: maximum UC credit, 1 series."
+      ],
+      "prerequisites": "MATH 8, PHYSCS 21.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is a calculus-based study of fluids, waves, thermodynamics, and light intended for engineering and physical science students.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2927",
+          "schedule": [
+            {
+              "time": "12:30p.m.-2:35p.m.",
+              "days": "MW",
+              "location": "MSB 316",
+              "instructor": "Roberts Ke"
+            },
+            {
+              "time": "12:30p.m.-3:30p.m.",
+              "days": "F",
+              "location": "MSB 316",
+              "instructor": "Roberts Ke"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2928",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:15p.m.",
+              "days": "TTh",
+              "location": "MSB 316",
+              "instructor": "Faridian F"
+            },
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Faridian F"
+            }
+          ],
+          "notes": [
+            "Above section 2928 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2929",
+          "schedule": [
+            {
+              "time": "4:00p.m.-7:30p.m.",
+              "days": "TTh",
+              "location": "SCI 106",
+              "instructor": "Rojas R R"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHYSCS 88A",
+      "course_title": "INDEPENDENT STUDIES IN PHYSICS",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Independent Studies” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2930",
+          "schedule": [
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Hsieh J M"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

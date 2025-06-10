@@ -1,0 +1,737 @@
+{
+  "program_name": "Sociology",
+  "program_description": "Sociology is the study of social life. It seeks to understand all aspects of human social behavior, including the behavior of individuals as well as the social dynamics of small groups, large organizations, communities, institutions, and entire societies. Students of sociology study a broad array of topics including social networks, gender roles and relationships, family structure and behavior, interpersonal relationships and processes, urban development, historical societies, social movements, gang violence, current immigration issues, race and ethnic relations, and crime and incarceration. Sociology looks for what is universal as well as what varies across societies and groups and courses explore social change and provide a lens into the complexity of the causes and consequences of human behavior.",
+  "courses": [
+    {
+      "course_code": "SOCIOL 1",
+      "course_title": "INTRODUCTION TO SOCIOLOGY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "SOCI 110",
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course introduces the study of society and human social interaction. Both macro and micro sociological theory are discussed, as well as methods of sociological inquiry, culture, socialization, deviance, social change and social stratification — particularly in the areas of social class, race and ethnicity, and gender. Students are highly encouraged to complete Sociology 1 prior to enrolling in other sociology courses. Students may earn credit for either SOCIOL 1 or 1 S but not both. Only SOCIOL 1 S fulfills the Santa Monica College Global Citizenship requirement.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3070",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "MW",
+              "location": "HSS 150 D",
+              "instructor": "Del Piccolo G L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3071",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "HSS 153",
+              "instructor": "Romo R"
+            }
+          ],
+          "notes": [
+            "Above section 3071 is part of the Black Collegians program though enrollment is open to all students. See the Special Programs section of the class schedule or smc.edu/blackcollegians for more information. Above section is part of the Adelante program though enrollment is open to all students. See the Special Programs section of the class schedule or smc.edu/latinocenter for more information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3072",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "HSS 150 D",
+              "instructor": "Del Piccolo G L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3073",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "HSS 153",
+              "instructor": "Crawford A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3074",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "HSS 150 D",
+              "instructor": "Del Piccolo G L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3075",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "HSS 153",
+              "instructor": "Crawford A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3076",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "MW",
+              "location": "HSS 150",
+              "instructor": "Scaife M L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3077",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "TTh",
+              "location": "HSS 154",
+              "instructor": "Thing J P"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3078",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "TTh",
+              "location": "HSS 153",
+              "instructor": "Crawford A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3079",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Crawford A"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3080",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Romo R"
+            }
+          ],
+          "notes": [
+            "Above section 3080 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3081",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Romo R"
+            }
+          ],
+          "notes": [
+            "Above section 3081 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3082",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Thing J P"
+            }
+          ],
+          "notes": [
+            "Above section 3082 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3083",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Thing J P"
+            }
+          ],
+          "notes": [
+            "Above section 3083 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3084",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Scaife M L"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3085",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Williams Leon T K"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3086",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Romo R"
+            }
+          ],
+          "notes": [
+            "Above section 3086 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3087",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Romo R"
+            }
+          ],
+          "notes": [
+            "Above section 3087 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3088",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Gheytanchi E"
+            }
+          ],
+          "notes": [
+            "Above section 3088 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3089",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Gheytanchi E"
+            }
+          ],
+          "notes": [
+            "Above section 3089 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3090",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Gheytanchi E"
+            }
+          ],
+          "notes": [
+            "Above section 3090 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4188",
+          "schedule": [
+            {
+              "time": "5:15p.m.-6:35p.m.",
+              "days": "TTh",
+              "location": "HSS 154",
+              "instructor": "Thing J P"
+            }
+          ],
+          "notes": [
+            "Above section 4188 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "SOCIOL 2",
+      "course_title": "SOCIAL PROBLEMS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "SOCI 115",
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course involves a sociological analysis of social problems on the local, national, and international level. Critical inquiry and analysis are conducted into issues such as global inequality, environmental destruction, urban deterioration, economic and political power distribution, poverty, racism, sexism, and problems of work, family, education, drugs, and crime. Theoretical perspectives of sociology and current sociological research are explored. Students may earn credit for either SOCIOL 2 or 2 S but not both. Only SOCIOL 2 S fulfills the Santa Monica College Global Citizenship Requirement.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3091",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "HSS 150",
+              "instructor": "Scaife M L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3092",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "HSS 152",
+              "instructor": "Romo R"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "SOCIOL 4",
+      "course_title": "SOCIOLOGICAL ANALYSIS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "SOCI 120",
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "SOCIOL 1 and eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course introduces students to the fundamental principles and methods of sociological research design and implementation. Students examine the key varieties of evidence — including qualitative and quantitative data, data-gathering and sampling methods, logic of comparison, and causal reasoning. The work of several scholars is evaluated and students create their own research project related to a sociological issue.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3093",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "Th",
+              "location": "HSS 150",
+              "instructor": "Williams Leon T K"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Williams Leon T K"
+            }
+          ],
+          "notes": [
+            "Above section 3093 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "SOCIOL 30",
+      "course_title": "AFRICAN AMERICANS IN CONTEMPORARY SOCIETY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course involves a sociological examination of the social, cultural, political, and economic conditions experienced by African Americans in the United States. Current and past institutional practices relating to inequality, institutional discrimination, segregation, cultural pluralism, and assimilation are analyzed. Social movements within African American communities as well as intraand intergroup relations are also considered.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3094",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "HSS 153",
+              "instructor": "Crawford A"
+            }
+          ],
+          "notes": [
+            "Above section 3094 is part of the Black Collegians program though enrollment is open to all students. See the Special Programs section of the class schedule or smc.edu/blackcollegians for more information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "SOCIOL 33",
+      "course_title": "SOCIOLOGY OF SEX AND GENDER",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "SOCI 140",
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course addresses the distinction between biological sex and the social construction of gender. Issues of gender inequality in societal institutions and social structures will be the focus of critical analyses of the consequences of the sex/ gender system in the United States. Incorporating an understanding of the concept of Intersectionality will be critical to a more inclusive approach to gender and sexuality issues. A global perspective, which examines and compares the place of gender in nations of the North with those of the South, is also emphasized.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3095",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "HSS 154",
+              "instructor": "Thing J P"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3096",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Klein M C"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "SOCIOL 34",
+      "course_title": "RACIAL AND ETHNIC RELATIONS IN AMERICAN SOCIETY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "SOCI 150",
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course involves the critical examination of patterns, practices, and relations among racial and ethnic groups in the United States. Particular attention will be given to problems of ongoing discrimination, prejudice, assimilation and cultural pluralism, and power differences between groups. Interconnections between race, ethnicity, social class, gender, and other systems of inequality will be emphasized. Social movements organized within and among racial and ethnic groups that address institutional inequalities in this society will be analyzed.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3097",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Fujiwara M"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "SOCIOL 88A",
+      "course_title": "INDEPENDENT STUDIES IN SOCIOLOGY",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Independent Studies” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3098",
+          "schedule": [
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Oifer E R"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3099",
+          "schedule": [
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Oifer E R"
+            }
+          ],
+          "notes": [
+            "Above section 3099 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "SOCIOL 88B",
+      "course_title": "INDEPENDENT STUDIES IN SOCIOLOGY",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Independent Studies” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3100",
+          "schedule": [
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Oifer E R"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3101",
+          "schedule": [
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Oifer E R"
+            }
+          ],
+          "notes": [
+            "Above section 3101 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

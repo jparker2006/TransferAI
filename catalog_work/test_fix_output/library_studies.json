@@ -1,0 +1,78 @@
+{
+  "program_name": "Library Studies",
+  "program_description": "",
+  "courses": [
+    {
+      "course_code": "LIBR 1",
+      "course_title": "LIBRARY RESEARCH METHODS",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is designed to introduce students to library research and resources available in academic libraries. Through effective use of resources in a variety of formats, students learn to access information to meet their research needs. Topics include: finding, evaluating and citing sources. Recommended for all students.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2533",
+          "schedule": [
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Badillo L"
+            }
+          ],
+          "notes": [
+            "Above section 2533 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2534",
+          "schedule": [
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Romero A C"
+            }
+          ],
+          "notes": [
+            "Above section 2534 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2535",
+          "schedule": [
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "McLaughlin G"
+            }
+          ],
+          "notes": [
+            "Above section 2535 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

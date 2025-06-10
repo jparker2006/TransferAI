@@ -1,0 +1,81 @@
+{
+  "program_name": "Geographic Information Systems",
+  "program_description": "GIS is a computer system for capturing, storing, managing, analyzing and visualizing geospatial information related to locations on Earth’s surface. We use GIS to combine various geospatial information in a digital environment to answer the questions “what is there?” and “why there?” GIS has been widely used in our daily life, government agencies, as well as organizations of sizes in almost every industry. There is a growing interest in and awareness of the economic and strategic values of GIS.",
+  "courses": [
+    {
+      "course_code": "GIS 20",
+      "course_title": "INTRODUCTION TO GEOGRAPHIC INFORMATION SYSTEMS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "GIS are computer-based systems used to collect, store and analyze geographic information. This course will present the concepts of Geographic Information Systems (GIS) science and its applications to spatial data management. Topics include: Identification and acquisition of GIS data; Assessment of vector and raster data, scale, resolution, map projection, coordinate systems, georeferencing and Global Positioning Systems (GPS). Spatial analysis and modeling with GIS will also be presented.",
+      "same_as": "GEOG 20",
+      "sections": [
+        {
+          "section_number": "2343",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Liu J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "GIS 26",
+      "course_title": "INTRODUCTION TO REMOTE SENSING",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course introduces students to the basic concepts of remote sensing, characteristics of remote sensors, and remote sensing applications in academic disciplines and professional industries. Emphases are placed on remote sensing data acquisition; digital image processing and interpretation. The course is designed for students interested in the Earth Observing System, environmental monitoring techniques, and image analysis.",
+      "same_as": "GEOG 26",
+      "sections": [
+        {
+          "section_number": "2344",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Liu J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

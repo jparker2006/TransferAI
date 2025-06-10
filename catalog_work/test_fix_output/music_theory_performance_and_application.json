@@ -1,0 +1,2209 @@
+{
+  "program_name": "Music: Theory, Performance, and Application",
+  "program_description": "See also “Music: Appreciation and History.” Studying music is a multifaceted endeavor that requires students to master various theoretical concepts and practical skills. Our courses focus on giving students an understanding of the elements of music such as melody, harmony, rhythm, timbre, and form, with opportunities to apply that understanding to real-world performance activities. Some performance courses require an audition. A maximum of 12 units is allowed in performance courses.",
+  "courses": [
+    {
+      "course_code": "MUSIC 1",
+      "course_title": "FUNDAMENTALS OF MUSIC",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 3A (Arts)",
+      "special_notes": [
+        "*No UC transfer credit for MUSIC 1 if taken after MUSIC 2"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "See also MUSIC 66. This course provides the study of the rudiments of music notation, including scales, intervals, triads and seventh chords. Also included are rhythmic drills, sight singing and exercises using computer-assisted-instruction. This course (or the equivalent) is a prerequisite for all other music theory courses. MUSIC 1 is equivalent to the theory portion of MUSIC 66. Credit may be earned for MUSIC 1 or MUSIC 66 but not both.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2700",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "PAC 116",
+              "instructor": "Chou L"
+            }
+          ],
+          "notes": [
+            "Above section 2700 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2701",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "PAC 114",
+              "instructor": "Kim J"
+            }
+          ],
+          "notes": [
+            "Above section 2701 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2702",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "PAC 116",
+              "instructor": "Chou L"
+            }
+          ],
+          "notes": [
+            "Above section 2702 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2703",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "MW",
+              "location": "PAC 114",
+              "instructor": "Kim J"
+            }
+          ],
+          "notes": [
+            "Above section 2703 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4148",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "T",
+              "location": "PAC 116",
+              "instructor": "Selvey J D"
+            }
+          ],
+          "notes": [
+            "Above section 4148 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 2",
+      "course_title": "MUSICIANSHIP",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: MUSIC 6.",
+        "*No UC transfer credit for MUSIC 1 if taken after MUSIC 2"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "MUSIC 1 and MUSIC 5",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course covers sight singing with the “movable do” system, keyboard harmony, and in-class dictation of melodic lines, rhythmic patterns, intervals, harmonic progressions. Also included are ear training exercises using computer-assisted-instruction. Correlated with Music 6 (Diatonic Harmony).",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2704",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "MW",
+              "location": "PAC 116",
+              "instructor": "Chou L"
+            }
+          ],
+          "notes": [
+            "Above section 2704 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2705",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "PAC 116",
+              "instructor": "Chou L"
+            }
+          ],
+          "notes": [
+            "Above section 2705 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 3",
+      "course_title": "MUSICIANSHIP",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: MUSIC 7."
+      ],
+      "prerequisites": "MUSIC 2.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course provides a guided study of basic musical phenomena and traditional notation through sight singing, dictation, ear training, and keyboard harmony with the primary aim of developing musical perception, comprehension and fluency. Topics covered include sight singing with the “movable do” system, keyboard harmony, and in-class dictation of melodic lines, rhythmic patterns, intervals, harmonic progressions. Also included are ear training exercises using computer-assisted-instruction. Correlated with Music 7 (Chromatic Harmony).",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2707",
+          "schedule": [
+            {
+              "time": "8:00a.m.-9:20a.m.",
+              "days": "TTh",
+              "location": "PAC 114",
+              "instructor": "Driscoll B S"
+            }
+          ],
+          "notes": [
+            "Above section 2707 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 4",
+      "course_title": "MUSICIANSHIP",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: MUSIC 8."
+      ],
+      "prerequisites": "MUSIC 3.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course provides a guided study of basic musical phenomena and traditional notation through sight singing, dictation, ear training, and keyboard harmony with the primary aim of developing musical perception, comprehension and fluency. Topics covered include sight singing with the “movable do” system, keyboard harmony, and in-class dictation of melodic lines, rhythmic patterns, intervals, harmonic progressions, and take-home transcription projects. Also included are ear training exercises using computer-assisted-instruction. Correlated with Music 8 (Modulation and Analysis).",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2708",
+          "schedule": [
+            {
+              "time": "8:00a.m.-9:20a.m.",
+              "days": "MW",
+              "location": "PAC 114",
+              "instructor": "Driscoll B S"
+            }
+          ],
+          "notes": [
+            "Above section 2708 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 5",
+      "course_title": "FUNDAMENTALS OF MUSICIANSHIP",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "MUSIC 1 or concurrent enrollment in MUSIC 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course covers the rudiments of sight singing with the “movable do” system, keyboard harmony, and in-class dictation of melodic lines, rhythmic patterns, intervals, harmonic progressions. Also included are ear training exercises using computer-assisted instruction.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2709",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "PAC 114",
+              "instructor": "Chou L"
+            }
+          ],
+          "notes": [
+            "Above section 2709 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2710",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "TTh",
+              "location": "PAC 114",
+              "instructor": "Chou L"
+            }
+          ],
+          "notes": [
+            "Above section 2710 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 6",
+      "course_title": "DIATONIC HARMONY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: MUSIC 2."
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "MUSIC 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course provides a study of the diatonic materials of the common practice: triads, seventh chords, root progressions, and the strict discipline of part writing based on the Bach chorale. Also included are cadences, nonchord tones, phrase structure, and modulation to closely related keys. Correlated with Music 2 (Musicianship).",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2711",
+          "schedule": [
+            {
+              "time": "8:00a.m.-9:20a.m.",
+              "days": "MW",
+              "location": "PAC 116",
+              "instructor": "Cheesman J M"
+            }
+          ],
+          "notes": [
+            "Above section 2711 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2712",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "PAC 116",
+              "instructor": "Cheesman J M"
+            }
+          ],
+          "notes": [
+            "Above section 2712 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 7",
+      "course_title": "CHROMATIC HARMONY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: MUSIC 3."
+      ],
+      "prerequisites": "MUSIC 6.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course continues the study of conventional harmony by introducing secondary dominants, diminished seventh chords, dominant ninth chords, and altered chords such as the Neapolitan, augmented sixth chords, and contemporary chord extensions. The discipline of part writing is continued, and the notions of both permanent and transient modulation are explored. Correlated with Music 3 (Musicianship).",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2713",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "PAC 114",
+              "instructor": "Driscoll B S"
+            }
+          ],
+          "notes": [
+            "Above section 2713 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 8",
+      "course_title": "MODULATION AND ANALYSIS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: MUSIC 4."
+      ],
+      "prerequisites": "MUSIC 7.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is designed to integrate the elements of harmonic structure presented in Music 6 and 7 with broader concepts of style so that entire compositions of the common practice period can be analyzed and understood. Emphasis is placed on chord analysis, phrase structure, tonal relationships, and macro-form. As a supplement, an introduction to the melodic and harmonic devices of the 20th Century is given. Correlated with Music 4 (Musicianship).",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2714",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "MW",
+              "location": "PAC 114",
+              "instructor": "Driscoll B S"
+            }
+          ],
+          "notes": [
+            "Above section 2714 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 40",
+      "course_title": "OPERA WORKSHOP",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Pre-enrollment audition required.",
+      "prerequisite_notes": null,
+      "advisory": "MUSIC 50B",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "The philosophy of this course is that everyone who wants to sing opera should have the opportunity to do so. In this workshop, those who are enrolled will be assigned parts commensurate with their experience, vocal technique and enthusiasm for participation.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4149",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "T",
+              "location": "PAC 107",
+              "instructor": "De Stefano J D"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "De Stefano J D"
+            }
+          ],
+          "notes": [
+            "Above section 4149 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 44",
+      "course_title": "MARIACHI ENSEMBLE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course provides rehearsal and performance of literature written for mariachi ensembles with emphasis on methods and materials. Musical materials include published arrangements of mariachi repertoire, special arrangements of mariachi music, and contemporary compositions in the mariachi idiom selected according to the ability of the group. Instructor approval and the ability to play an instrument or sing are required.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2728",
+          "schedule": [
+            {
+              "time": "3:45p.m.-5:05p.m.",
+              "days": "MW",
+              "location": "PAC 107",
+              "instructor": "Alfaro M"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Alfaro M"
+            }
+          ],
+          "notes": [
+            "Above section 2728 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 45",
+      "course_title": "MUSICAL THEATRE WORKSHOP",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Audition required.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course introduces the student to theories, techniques and practices of musical theatre performance. The class concentrates on preparing and performing scenes from musical theatre, culminating in a public performance. Attendance at theatre productions for which students must purchase tickets is required. MUSIC 45 is the same course as TH ART 45. Students may earn credit for one, but not both.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2730",
+          "schedule": [
+            {
+              "time": "12:45p.m.-5:20p.m.",
+              "days": "MW",
+              "location": "TH ART STUDIO",
+              "instructor": "Sawoski P"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "TH ART STUDIO",
+              "instructor": "Gray G L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 49",
+      "course_title": "COMBO AND CHAMBER ENSEMBLE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Audition Required.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course offers the opportunity for students to explore, prepare, rehearse, and perform works for small ensembles in diverse combinations and styles (jazz combos, commercial ensembles, chamber music, art songs, etc.), culminating in a public performance. All interested instrumentalists, vocalists, and composers are encouraged to audition. In musical rehearsal and performance, students will engage with topics such as musical arrangement, interpretation, accuracy in form and performing a part, individual and collaborative musicality, effective and collegial communication in collaboration, and the logistics of equipment, technology, and rehearsal and performance spaces.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2731",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "TTh",
+              "location": "PAC 110",
+              "instructor": "Cheesman J M"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Driscoll B S"
+            }
+          ],
+          "notes": [
+            "Above section 2731 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 50A",
+      "course_title": "ELEMENTARY VOICE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Introduction to the fundamental principles of singing: breath control, tone production, diction and the use of appropriate song material.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2732",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "PAC 309",
+              "instructor": "De Stefano J D"
+            }
+          ],
+          "notes": [
+            "Above section 2732 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2733",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "PAC 309",
+              "instructor": "Selvey J D"
+            }
+          ],
+          "notes": [
+            "Above section 2733 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2734",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "MW",
+              "location": "PAC 309",
+              "instructor": "De Stefano J D"
+            }
+          ],
+          "notes": [
+            "Above section 2734 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4150",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "W",
+              "location": "PAC 309",
+              "instructor": "De Stefano J D"
+            }
+          ],
+          "notes": [
+            "Above section 4150 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4151",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "Th",
+              "location": "PAC 309",
+              "instructor": "Selvey J D"
+            }
+          ],
+          "notes": [
+            "Above section 4151 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 50B",
+      "course_title": "INTERMEDIATE VOICE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "MUSIC 50A",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Continued development of vocal technique, musicianship, style and interpretations and song repertoire.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2735",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "PAC 309",
+              "instructor": "De Stefano J D"
+            }
+          ],
+          "notes": [
+            "Above section 2735 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2736",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "PAC 309",
+              "instructor": "Selvey J D"
+            }
+          ],
+          "notes": [
+            "Above section 2736 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2737",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "MW",
+              "location": "PAC 309",
+              "instructor": "De Stefano J D"
+            }
+          ],
+          "notes": [
+            "Above section 2737 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4152",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "W",
+              "location": "PAC 309",
+              "instructor": "De Stefano J D"
+            }
+          ],
+          "notes": [
+            "Above section 4152 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4153",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "Th",
+              "location": "PAC 309",
+              "instructor": "Selvey J D"
+            }
+          ],
+          "notes": [
+            "Above section 4153 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 53",
+      "course_title": "JAZZ VOCAL ENSEMBLE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Audition required.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "The jazz vocal ensemble is open to all students, subject to audition standards. Selected vocal students function as a musical ensemble. They prepare and perform vocal music in the jazz and popular idiom.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4154",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "Th",
+              "location": "PAC 107",
+              "instructor": "Bradfield M"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Bradfield M"
+            }
+          ],
+          "notes": [
+            "Above section 4154 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 55",
+      "course_title": "CONCERT CHORALE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Audition required.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "The concert chorale is open to all students, subject to audition standards. The course includes study and performance of major choral works, both a cappella and accompanied.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4155",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "W",
+              "location": "PAC 107",
+              "instructor": "Selvey J D"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Selvey J D"
+            }
+          ],
+          "notes": [
+            "Above section 4155 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 57",
+      "course_title": "ADVANCED VOCAL PERFORMANCE TECHNIQUES",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Pre-enrollment audition required.",
+      "prerequisite_notes": null,
+      "advisory": "MUSIC 1 and MUSIC 50B",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is designed for the advanced vocal student. It includes an introduction to the International Phonetic Association sound symbols and their usage in performance preparation; appropriate stylistic exercise and vocalise techniques; song form analysis; in-depth song preparation techniques; professional standards of conduct when working with other musicians; and advanced stage performance and auditioning techniques. Repertoire from the Classical, Jazz, Musical Theater, and Pop genres will be included. The course will include individual in-class performances and culminate in a final public performance of selected material. Acceptance into the course shall be by audition.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4156",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "M",
+              "location": "PAC 309",
+              "instructor": "De Stefano J D"
+            }
+          ],
+          "notes": [
+            "Above section 4156 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 59",
+      "course_title": "CHAMBER CHOIR",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Audition required.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "The chamber choir studies and performs compositions ranging from the madrigal to contemporary works suitable for smaller ensembles.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2739",
+          "schedule": [
+            {
+              "time": "3:45p.m.-5:05p.m.",
+              "days": "TTh",
+              "location": "PAC 107",
+              "instructor": "Selvey J D"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Selvey J D"
+            }
+          ],
+          "notes": [
+            "Above section 2739 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 60A",
+      "course_title": "ELEMENTARY PIANO, FIRST LEVEL",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "See also MUSIC 66. Instruction in this course ranges from an introduction to the keyboard to the reading of simple pieces at sight in all major keys. Technical problems, basic music theory, major scales, hand-over-hand arpeggios, simple chording and an introduction to piano literature are stressed. MUSIC 60A is equivalent to the piano portion of MUSIC 66. Credit may be earned for MUSIC 60A or MUSIC 66 but not both. Access to a piano in good playing condition or a digital piano is required. A limited number of loaner digital pianos are available for use while enrolled in this course.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2740",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "MW",
+              "location": "PAC 310",
+              "instructor": "Kim J"
+            }
+          ],
+          "notes": [
+            "Above section 2740 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2741",
+          "schedule": [
+            {
+              "time": "9:30a.m.-12:35p.m.",
+              "days": "S",
+              "location": "PAC 206",
+              "instructor": "Gliadkovskaya E"
+            }
+          ],
+          "notes": [
+            "Above section 2741 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2742",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "PAC 206",
+              "instructor": "Kozlova Yu V"
+            }
+          ],
+          "notes": [
+            "Above section 2742 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2743",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "PAC 206",
+              "instructor": "Kozlova Yu V"
+            }
+          ],
+          "notes": [
+            "Above section 2743 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 60B",
+      "course_title": "ELEMENTARY PIANO, SECOND LEVEL",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "MUSIC 60A",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "A limited number of loaner digital pianos are available for use while enrolled in this course. Instruction in this course ranges from an introduction to major and harmonic minor scale fingerings, minor key signatures, hand-over-hand arpeggios, triad inversions, primary chord harmonization, sight reading and transposition. Pieces are studied with attention to basic concepts of piano technique and interpretation such as phrasing, tone, touches and dynamics.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2744",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "PAC 206",
+              "instructor": "Kozlova Yu V"
+            }
+          ],
+          "notes": [
+            "Above section 2744 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2745",
+          "schedule": [
+            {
+              "time": "9:30a.m.-12:35p.m.",
+              "days": "S",
+              "location": "PAC 310",
+              "instructor": "Schreiner G"
+            }
+          ],
+          "notes": [
+            "Above section 2745 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2746",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "TTh",
+              "location": "PAC 206",
+              "instructor": "Kozlova Yu V"
+            }
+          ],
+          "notes": [
+            "Above section 2746 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 60C",
+      "course_title": "ELEMENTARY PIANO, THIRD LEVEL",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "MUSIC 60B",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "A limited number of loaner digital pianos are available for use while enrolled in this course. Instruction in this course includes an emphasis on repertoire by master composers with attention to technical approach, interpretation and harmonic analysis. Major and harmonic minor scales, arpeggios and inversions are continued.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2747",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "PAC 206",
+              "instructor": "Kozlova Yu V"
+            }
+          ],
+          "notes": [
+            "Above section 2747 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2748",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:50p.m.",
+              "days": "S",
+              "location": "PAC 310",
+              "instructor": "Schreiner G"
+            }
+          ],
+          "notes": [
+            "Above section 2748 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 60D",
+      "course_title": "ELEMENTARY PIANO, FOURTH LEVEL",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "MUSIC 60C",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "A limited number of loaner digital pianos are available for use while enrolled in this course. In this course elementary pieces from the standard repertoire of all musical periods are studied with an emphasis on technique, interpretation and harmonic analysis. Keyboard musicianship skills, including major and harmonic minor scales, major and minor arpeggios and chord progressions involving seventh chords and secondary triads, are stressed.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2749",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:50p.m.",
+              "days": "S",
+              "location": "PAC 310",
+              "instructor": "Schreiner G"
+            }
+          ],
+          "notes": [
+            "Above section 2749 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2750",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "MW",
+              "location": "PAC 206",
+              "instructor": "Kozlova Yu V"
+            }
+          ],
+          "notes": [
+            "Above section 2750 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 61A",
+      "course_title": "INTERMEDIATE PIANO, FIFTH LEVEL",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "MUSIC 60D",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "A limited number of loaner digital pianos are available for use while enrolled in this course. A study of intermediate level original piano compositions by master composers. Includes technical studies, analysis of lit- erature performed, in-depth instruction on the interpretation of literature performed, major and minor scales (4 octaves, hands together), chord progressions and harmonization.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2751",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "MW",
+              "location": "PAC 206",
+              "instructor": "Kozlova Yu V"
+            }
+          ],
+          "notes": [
+            "Above section 2751 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 64",
+      "course_title": "PIANO ENSEMBLE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "MUSIC 60C or equivalent",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Student must have the ability to sight read adequately. A limited number of loaner digital pianos are available for use while enrolled in this course. This course is designed for students interested in performing standard literature by master composers for duo piano (2 players/2 pianos), piano duet (2 players/2piano), and piano quartet (4 players/2 pianos). It will cover music written for this medium from the 18th century to the present. There may be an opportunity for a public performance. Students should have the ability to sight read.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2752",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "PAC 310",
+              "instructor": "Takesue S A"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Takesue S A"
+            }
+          ],
+          "notes": [
+            "Above section 2752 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 65A",
+      "course_title": "KEYBOARD IMPROVISATION I",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "MUSIC 60C",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "A limited number of loaner digital pianos are available for use while enrolled in this course. Instruction includes 7th, 9th, 11th and 13th chords; their voicing and use in jazz standards. Improvisation techniques for jazz, blues, pop, Latin and gospel style are included.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4157",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "T",
+              "location": "PAC 310",
+              "instructor": "Aguiar J A"
+            }
+          ],
+          "notes": [
+            "Above section 4157 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 65B",
+      "course_title": "KEYBOARD IMPROVISATION II",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "MUSIC 65A",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "A limited number of loaner digital pianos are available for use while enrolled in this course. Continuation and application of material studied in Music 65A, including all 7th, 9th, 11th and 13th chords, their voicing and use in jazz standards. Improvising techniques for jazz, blues, pop, Latin and gospel styles are included.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4158",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "T",
+              "location": "PAC 310",
+              "instructor": "Aguiar J A"
+            }
+          ],
+          "notes": [
+            "Above section 4158 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 66",
+      "course_title": "FUNDAMENTALS OF MUSIC AND ELEMENTARY PIANO",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "See also MUSIC 1 and MUSIC 60A. A limited number of loaner digital pianos are available for use while enrolled in this course. This course combines the study of the rudiments of music theory with an introduction to the keyboard. Included is the knowledge of music notation, scales, intervals, triads and seventh chords, rhythmic drills and sight singing. Piano studies include technical exercises, major scales, hand-over-hand arpeggios, simple chording and an introduction to piano literature. The fundamentals of music component of this course (or the equivalent) is a prerequisite for all other music theory courses. The piano component (or the equivalent) is a prerequisite for all other piano courses. MUSIC 66 is equivalent to taking MUSIC 1 and MUSIC 60A. A student taking MUSIC 66 may not earn credit for MUSIC 1 or MUSIC 60A.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2753",
+          "schedule": [
+            {
+              "time": "8:00a.m.-9:20a.m.",
+              "days": "MW",
+              "location": "PAC 310",
+              "instructor": "Takesue S A"
+            },
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "MW",
+              "location": "PAC 210",
+              "instructor": "Takesue S A"
+            }
+          ],
+          "notes": [
+            "Above section 2753 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 70A",
+      "course_title": "STRING INSTRUMENT TECHNIQUES",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "A limited number of loaner instruments are available for use while enrolled in this course. This course provides instruction in and reinforcement of the basic skills needed to play the instruments of the orchestral string family (violin, viola, cello and bass). Included are hand position, bow hold, fingerings, intonation, and posture.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2754",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "PAC 110",
+              "instructor": "Moerschel J"
+            }
+          ],
+          "notes": [
+            "Above section 2754 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 70B",
+      "course_title": "INTERMEDIATE STRINGS TECHNIQUES",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "MUSIC 70A",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "A limited number of loaner instruments are available for use while enrolled in this course. This course is designed as an intermediate level class to continue development of the skills needed to play bowed string instruments (violin, viola, cello, string bass) and to improve reading skills. This course will offer a first level ensemble experience with emphasis on precision, intonation, balance, and blend. A separate time will be scheduled to help prepare more advanced students for the orchestra.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2755",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "PAC 110",
+              "instructor": "Moerschel J"
+            }
+          ],
+          "notes": [
+            "Above section 2755 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 70C",
+      "course_title": "INTERMEDIATE STRINGS ORCHESTRA",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "MUSIC 70B or audition",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "A limited number of loaner instruments are available for use while enrolled in this course. This course provides study of musical style and rehearsal techniques as they relate to the performance of intermediate level string orchestra literature. Ability to play a string instrument is required. During the course attention also will be given to technical development of the students in relation to the music that is being studied.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2756",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "PAC 110",
+              "instructor": "Moerschel J"
+            }
+          ],
+          "notes": [
+            "Above section 2756 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 73A",
+      "course_title": "PERCUSSION INSTRUMENT TECHNIQUES",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Instruction in the basic techniques of concert percussion for beginners, emphasizing snare drum and orchestra bells. Techniques of other instruments, including bass drum, cymbals, triangle, tambourine and timpani will be demonstrated. Students will play individually and in small ensembles.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2757",
+          "schedule": [
+            {
+              "time": "9:00a.m.-12:05p.m.",
+              "days": "F",
+              "location": "PAC 110",
+              "instructor": "Smith Me M"
+            }
+          ],
+          "notes": [
+            "Above section 2757 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 73B",
+      "course_title": "INTERMEDIATE PERCUSSION ENSEMBLE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "MUSIC 73A",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Instruction in percussion and snare drum at a more advanced level than given in Music 73A. Additional instruction will be given in other percussion instruments, such as bass drum, cymbals, timpani, and tambourine. Class rehearsal as well as outside preparation will lead to public performance.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2758",
+          "schedule": [
+            {
+              "time": "9:00a.m.-12:05p.m.",
+              "days": "F",
+              "location": "PAC 110",
+              "instructor": "Smith Me M"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Smith Me M"
+            }
+          ],
+          "notes": [
+            "Above section 2758 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 74",
+      "course_title": "ORCHESTRA",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Audition required.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course provides study of musical style and rehearsal techniques as they relate to the performance of orchestra literature.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4159",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "T",
+              "location": "PAC 110",
+              "instructor": "Juan M R"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Juan M R"
+            }
+          ],
+          "notes": [
+            "Above section 4159 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 76",
+      "course_title": "INTERMEDIATE BRASS, WOODWINDS, AND PERCUSSION",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "MUSIC 71, 72, 73A, or 73B",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is designed as an intermediate level class to continue skill development of the individual brass, woodwind, and percussion instruments and improve reading skills. The course will offer a first-level ensemble experience with emphasis directed to precision, intonation, balance and blend.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4160",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "W",
+              "location": "PAC 110",
+              "instructor": "Mc Keown K O"
+            }
+          ],
+          "notes": [
+            "Above section 4160 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 77",
+      "course_title": "WIND ENSEMBLE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Audition required.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course provides study and performance of musical literature written for wind ensemble with emphasis on style and rehearsal technique as they relate to the performance of band literature. Ability to play a band instrument is required.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4161",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "W",
+              "location": "PAC 110",
+              "instructor": "Mc Keown K O"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Mc Keown K O"
+            }
+          ],
+          "notes": [
+            "Above section 4161 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 78",
+      "course_title": "JAZZ ENSEMBLE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "Audition required.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course provides rehearsal and performance of literature written for large jazz ensembles with emphasis on methods and materials. Musical materials include published arrangements of standard tunes, special arrangements of standard tunes, and contemporary compositions in the jazz idiom and selected according to the ability of the group. Ability to play an instrument and instructor’s approval are required.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4162",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "M",
+              "location": "PAC 110",
+              "instructor": "Fiddmont F K"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Fiddmont F K"
+            }
+          ],
+          "notes": [
+            "Above section 4162 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 84A",
+      "course_title": "POPULAR GUITAR, FIRST LEVEL",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "The study and performance of popular guitar styles in the range of beginning to intermediate skills of music reading, interpretation and performance. Access to a guitar in good playing condition is required. A limited number of loaner guitars are available for use while enrolled in this course.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2760",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "MW",
+              "location": "PAC 104",
+              "instructor": "Cheesman J M"
+            }
+          ],
+          "notes": [
+            "Above section 2760 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 84B",
+      "course_title": "POPULAR GUITAR, SECOND LEVEL",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "MUSIC 84A",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "The study and performance of popular guitar styles in the range of intermediate difficulty are the goals of this course. The course includes finger styles as found in Folk, Rock, Jazz, and their variations. Access to a guitar in good playing condition is required. A limited number of loaner guitars are available for use while enrolled in this course.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4163",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "T",
+              "location": "PAC 104",
+              "instructor": "Cheesman J M"
+            }
+          ],
+          "notes": [
+            "Above section 4163 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 84C",
+      "course_title": "POPULAR GUITAR, THIRD LEVEL",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "MUSIC 84B",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "The study and performance of popular guitar styles in the range of intermediate difficulty are the goals of this course. The course includes finger styles as found in Folk, Rock, Jazz, and their variations. Access to a guitar in good playing condition is required. A limited number of loaner guitars are available for use while enrolled in this course.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4164",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "T",
+              "location": "PAC 104",
+              "instructor": "Cheesman J M"
+            }
+          ],
+          "notes": [
+            "Above section 4164 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 87A",
+      "course_title": "FINGERSTYLE GUITAR, FIRST LEVEL",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course focuses on music reading in first-position from beginning to intermediate level and on rightand left-hand skills, using repertoire from Classical, Flamenco, Popular, and other traditions. Access to a guitar in good playing condition is required. A limited number of loaner guitars are available for use while enrolled in this course.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4165",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "W",
+              "location": "PAC 104",
+              "instructor": "Cheesman J M"
+            }
+          ],
+          "notes": [
+            "Above section 4165 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 87B",
+      "course_title": "FINGERSTYLE GUITAR, SECOND LEVEL",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": "MUSIC 87A",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course focuses on music reading in first-position at the intermediate level and on rightand left-hand skills, using repertoire from Classical, Flamenco, Popular, and other traditions. Access to a guitar in good playing condition is required. A limited number of loaner guitars are available for use while enrolled in this course.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4166",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "W",
+              "location": "PAC 104",
+              "instructor": "Cheesman J M"
+            }
+          ],
+          "notes": [
+            "Above section 4166 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 92",
+      "course_title": "APPLIED MUSIC INSTRUCTION",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: MUSIC 94; and one of the following: MUSIC 40, 42, 45,"
+      ],
+      "prerequisites": "Audition required.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "52, 53, 55, 59, 64, 73B, 74, 76, 77, 78. For Applied Music Program participants only. Deadlines to apply to audition for the program are in May for admission the following Fall and in November for admission the following Spring. For information, visit smc.edu/amp or call the SMC Music Department at 310-434-4323. This course is designed to provide students with individual instruction in the applied areas of instrumental performance, vocal performance, and composition. The two units of credit require a weekly one-hour private lesson and five hours of individual practice per week. Students may repeat for credit for a total of four semesters.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2761",
+          "schedule": [
+            {
+              "time": "Arrange-6 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Cheesman J M"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MUSIC 94",
+      "course_title": "CONCERT MUSIC CLASS",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: MUSIC 92; and one of the following: MUSIC 40, 42, 45,"
+      ],
+      "prerequisites": "Audition required.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "52, 53, 55, 59, 64, 73B, 74, 76, 77, 78. For Applied Music Program participants only. Deadlines to apply to audition for the program are in May for admission the following Fall and in November for admission the following Spring. For information, visit smc.edu/amp or call the SMC Music Department at 310-434-4323. This course is designed to provide students in the Applied Music Program performance opportunities in a controlled environment in the areas of instrumental performance, vocal performance, and composition. Students may repeat this class for credit for a total of four semesters.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2762",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "PAC 110",
+              "instructor": "Cheesman J M"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Cheesman J M"
+            }
+          ],
+          "notes": [
+            "Above section 2762 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2763",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "PAC 107",
+              "instructor": "De Stefano J D"
+            },
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "PAC 107",
+              "instructor": "Arbury D B"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Cheesman J M"
+            }
+          ],
+          "notes": [
+            "Above section 2763 meets at the Performing Arts Center, 1310",
+            "11th Street. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

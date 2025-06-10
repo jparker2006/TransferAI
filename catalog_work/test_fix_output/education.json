@@ -1,0 +1,93 @@
+{
+  "program_name": "Education",
+  "program_description": "Students taking Education courses that include field work may be required to pay for Live Scan fingerprinting, TB test, Covid-19 vaccination/booster, and show proof of current immunization for measles, pertussis, and the flu.",
+  "courses": [
+    {
+      "course_code": "EDUC 12",
+      "course_title": "INTRODUCTION TO ELEMENTARY CLASSROOM TEACHING & FIELD EXPERIENCES",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course introduces students to the concepts and issues related to teaching diverse learners in elementary school classrooms. Topics include teaching as a profession and career, historical and philosophical foundations of the American education system, contemporary educational issues, California’s content standards and frameworks, and teacher performance standards. In addition to class time, the course requires a minimum of 45 hours of structured fieldwork in public school elementary classrooms that represent California’s diverse student population, and includes cooperation with at least one carefully selected and campus-approved certificated classroom teacher. Field practice: As part of the course, students will complete 45 hours of observation and field practice in a local elementary school classroom. The instructor will support students in identifying acceptable placement sites. Students must have a recent negative TB test result and may be required to complete LiveScan fingerprinting.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1898",
+          "schedule": [
+            {
+              "time": "10:00a.m.-1:05p.m.",
+              "days": "M",
+              "location": "ECLS 209",
+              "instructor": "Murray M"
+            },
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ECLS 209",
+              "instructor": "Murray M"
+            }
+          ],
+          "notes": [
+            "Above section 1898 meets at the Early Childhood Lab School Campus, 1802 4th Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "EDUC 50",
+      "course_title": "TEACHING IN THE AGE OF AI: STRATEGIES FOR EDUCATORS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Designed for secondary and post-secondary instructors, this course introduces educators to the basic knowledge, skills, and practices needed to begin integrating artificial intelligence (AI) into their teaching. Participants will explore the fundamentals of using natural language models and image generators, examine the challenges, limitations, and ethical considerations of AI in Education, develop classroom AI policies and learn to effectively utilize AI tools to enhance course content and collaboration. Special emphasis is placed on guiding students on the appropriate and ethical use of AI tools in multiple contexts.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1899",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Dickinson L M"
+            },
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Huff G F"
+            }
+          ],
+          "notes": [
+            "Above section 1899 meets for 8 weeks, Sep 22 to Nov 14. Please note: This professional development course is designed for current high school teachers and college professors and requires students to have access to their own syllabi, assignments, and assessments in order to complete required coursework. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 22 to Nov 14",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

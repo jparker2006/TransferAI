@@ -1,0 +1,392 @@
+{
+  "program_name": "Health – Noncredit",
+  "program_description": "",
+  "courses": [
+    {
+      "course_code": "HEALTH 905",
+      "course_title": "PROVIDING CARE TO OLDER ADULTS",
+      "units": "0 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course will prepare the student to assist older adults. It provides an overview of the older adult population with respect to demographics and the aging process. The primary focus is on the role of a non-medical caregiver and the basic skills necessary to assist with daily living needs. Students completing this course will meet the State of California requirements for 10 hour Senior Caregiver Training. Completion of Providing Care to Older Adults, Communication with Older Adults, and Wellness in Older Adults leads to a noncredit certificate, Introduction to Working with Older Adults.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "7060",
+          "schedule": [
+            {
+              "time": "9:00a.m.-1:15p.m.",
+              "days": "S",
+              "location": "BUNDY 321",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 7060 meets for 4 weeks, Oct 04 to Oct 25, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
+            "Above section modality is On Ground."
+          ],
+          "duration": "4 weeks, Oct 04 to Oct 25",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "HEALTH 906",
+      "course_title": "COMMUNICATION WITH OLDER ADULTS",
+      "units": "0 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course introduces techniques and skills that can be used to help facilitate communication with older adults. The student will examine age related sensory changes and be able to define and identify barriers to communication. Completion of Providing Care to Older Adults, Communication with Older Adults, and Wellness in Older Adults leads to a noncredit certificate, Introduction to Working with Older Adults.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "7061",
+          "schedule": [
+            {
+              "time": "9:00a.m.-1:15p.m.",
+              "days": "S",
+              "location": "BUNDY 321",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 7061 meets for 4 weeks, Nov 01 to Nov 22, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
+            "Above section modality is On Ground."
+          ],
+          "duration": "4 weeks, Nov 01 to Nov 22",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "HEALTH 907",
+      "course_title": "WELLNESS IN OLDER ADULTS",
+      "units": "0 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course will educate students on how to promote wellness in older adults with an emphasis on nutrition, physical activities and lifestyle choices. The student will learn techniques to promote healthy lifestyles of older adults which is vital in helping them to maintain health and functional independence and lead healthy and independent lives. Completion of Providing Care to Older Adults, Communication with Older Adults, and Wellness in Older Adults leads to a noncredit certificate, Introduction to Working with Older Adults.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "7062",
+          "schedule": [
+            {
+              "time": "9:00a.m.-1:15p.m.",
+              "days": "S",
+              "location": "BUNDY 321",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 7062 meets for 4 weeks, Dec 06 to Dec 20, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
+            "Above section modality is On Ground."
+          ],
+          "duration": "4 weeks, Dec 06 to Dec 20",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "HEALTH 985",
+      "course_title": "NURSE ASSISTANT PRE-CERTIFICATION FOUNDATIONAL TRAINING",
+      "units": "0 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: HEALTH 986 The California Department of Health"
+      ],
+      "prerequisites": "Admission to the Nurse Assistant/Home Health Aide",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "requires students to be concurrently enrolled in HEALTH 985 (theory) and HEALTH 986 (lab) and pass both courses together. They cannot be taken individually for credit. Pre-certification Program. This course is designed for students who have expressed an interest in a healthcare career. This course consists of 72 hours of classroom instruction as required by the California Department of Public Health. The content meets Title 22 Health and Safety Code regulations for nursing assistants taking care of the geriatric population in a long-term care setting. Emphasis is placed on the role of nurse assistant, communication/interpersonal skills, prevention and management of catastrophe and unusual occurrences, body mechanics, medical and surgical asepsis, weights and measures, patient care skill, patient care procedures and emergency procedures vital signs, nutrition, emergency procedures, long term care, rehabilitative nursing, observation and charting, death and dying, and patient/resident abuse.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "7063",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:00a.m.",
+              "days": "WTh",
+              "location": "BUNDY 328",
+              "instructor": "Morrison S"
+            },
+            {
+              "time": "11:30a.m.-12:45p.m.",
+              "days": "WTh",
+              "location": "BUNDY 328",
+              "instructor": "Morrison S"
+            }
+          ],
+          "notes": [
+            "Above section 7063 meets for 8 weeks, Sep 03 to Oct 23, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
+            "Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 23",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "HEALTH 986",
+      "course_title": "NURSE ASSISTANT PRE-CERTIFICATION FOUNDATIONAL CLINICAL TRAINING LAB",
+      "units": "0 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: HEALTH 985 The California Department of Health"
+      ],
+      "prerequisites": "Admission to the Nurse Assistant/Home Health Aide",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "requires students to be concurrently enrolled in HEALTH 985 (theory) and HEALTH 986 (lab) and pass both courses together. They cannot be taken individually for credit. Pre-certification Program. This course is designed for students who have expressed an interest in a healthcare career. This course consists of 108 hours of supervised practice in a simulated patient care setting and direct patient care in a long-term facility and/ or home care setting as required by the California Department of Public Health. The content meets Title 22 Health and Safety Code regulations for nursing assistants taking care of the geriatric population in a long-term care setting. Emphasis is placed on patient care skills related to prevention and management of catastrophe and unusual occurrences, body mechanics, medical and surgical asepsis, weights and measures, patient care skill, patient care procedures, emergency procedures, vital signs, nutrition, long term care, rehabilitative nursing, and observation and charting.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "7064",
+          "schedule": [
+            {
+              "time": "7:00a.m.-12:00p.m.",
+              "days": "MT",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "12:30p.m.-2:00p.m.",
+              "days": "MT",
+              "location": "HOSP",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 7064 meets for 8 weeks, Sep 08 to Oct 21. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 08 to Oct 21",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "7065",
+          "schedule": [
+            {
+              "time": "7:00a.m.-12:00p.m.",
+              "days": "MT",
+              "location": "HOSP",
+              "instructor": "Morrison S"
+            },
+            {
+              "time": "12:30p.m.-2:00p.m.",
+              "days": "MT",
+              "location": "HOSP",
+              "instructor": "Morrison S"
+            }
+          ],
+          "notes": [
+            "Above section 7065 meets for 8 weeks, Sep 08 to Oct 21. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 08 to Oct 21",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "7066",
+          "schedule": [
+            {
+              "time": "7:00a.m.-12:00p.m.",
+              "days": "MT",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "12:30p.m.-2:00p.m.",
+              "days": "MT",
+              "location": "HOSP",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 7066 meets for 8 weeks, Sep 08 to Oct 21. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 08 to Oct 21",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "7067",
+          "schedule": [
+            {
+              "time": "7:00a.m.-12:00p.m.",
+              "days": "MT",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "12:30p.m.-2:00p.m.",
+              "days": "MT",
+              "location": "HOSP",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 7067 meets for 8 weeks, Sep 08 to Oct 21. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 08 to Oct 21",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "HEALTH 987",
+      "course_title": "HOME HEALTH AIDE PRE-CERTIFICATION FOUNDATIONAL TRAINING",
+      "units": "0 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: HEALTH 988 The California Department of Health"
+      ],
+      "prerequisites": "HEALTH 985 and HEALTH 986.",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "requires students to be concurrently enrolled in HEALTH 987 Home Health Aide Precertification Foundational Training (theory) and HEALTH 988 Home Health Aide Precertification Foundational Training (lab) and pass both courses together. They cannot be taken individually for credit. This course is designed for students who have completed Health 985 and 986 or are a Certified Nurse Assistant who have expressed an interest in caring for individuals in the home setting. The training consists of 27 hours of classroom instruction as required by the California Department of Public Health. The content meets Title 22 Health and Safety Code regulations for certified nurse assistants caring for individuals in a home health and/or assisted living healthcare setting. Emphasis is placed on the home health aide and agency role, interpretation of medical and social needs of people being served, personal care services, nutrition and cleaning and care tasks in the home.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "7068",
+          "schedule": [
+            {
+              "time": "9:00a.m.-1:15p.m.",
+              "days": "WTh",
+              "location": "BUNDY 440",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 7068 meets for 3 weeks, Sep 03 to Sep 18, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
+            "Above section modality is On Ground."
+          ],
+          "duration": "3 weeks, Sep 03 to Sep 18",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "7069",
+          "schedule": [
+            {
+              "time": "9:00a.m.-1:15p.m.",
+              "days": "WTh",
+              "location": "BUNDY 414",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 7069 meets for 3 weeks, Oct 29 to Nov 13, at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.",
+            "Above section modality is On Ground."
+          ],
+          "duration": "3 weeks, Oct 29 to Nov 13",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "HEALTH 988",
+      "course_title": "HOME HEALTH AIDE PRE-CERTIFICATION TRAINING CLINICAL LAB",
+      "units": "0 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "Corequisite: HEALTH 987 The California Department of Health"
+      ],
+      "prerequisites": "HEALTH 985 and HEALTH 986. After completion",
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "requires students to be concurrently enrolled in HEALTH 987 (theory) and HEALTH 988 (lab) and pass both courses together. They cannot be taken individually for credit. of HEALTH 985 and HEALTH 986, students are eligible to take the California Department of Public Health Nurse Assistant Certification exam and enroll in HEALTH 987 and HEALTH 988 Home Health Aide courses. This course is designed for students who are Certified Nurse Assistants who have expressed an interest in caring for individuals in the home setting. The training consists of 27 hours of supervised patient care experiences in a long term care or home health setting as required by the California Department of Public Health. The content meets Title 22 Health and Safety Code regulations for certified nurse assistants caring for individuals in home health and assisted living healthcare settings. Emphasis is placed on patient care skills as it relates to the home health aide and agency role, interpretation of medical and social needs of people being served, personal care services, nutrition and cleaning and care tasks in the home.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "7070",
+          "schedule": [
+            {
+              "time": "7:00a.m.-12:00p.m.",
+              "days": "F",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "12:30p.m.-4:30p.m.",
+              "days": "F",
+              "location": "HOSP",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 7070 meets for 3 weeks, Sep 05 to Sep 19. Above section modality is On Ground."
+          ],
+          "duration": "3 weeks, Sep 05 to Sep 19",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "7071",
+          "schedule": [
+            {
+              "time": "7:00a.m.-12:00p.m.",
+              "days": "F",
+              "location": "HOSP",
+              "instructor": "Staff"
+            },
+            {
+              "time": "12:30p.m.-4:30p.m.",
+              "days": "F",
+              "location": "HOSP",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 7071 meets for 3 weeks, Oct 31 to Nov 14. Above section modality is On Ground."
+          ],
+          "duration": "3 weeks, Oct 31 to Nov 14",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

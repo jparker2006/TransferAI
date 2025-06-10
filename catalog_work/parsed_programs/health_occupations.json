@@ -14,6 +14,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -35,7 +36,7 @@
             "On Ground."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "On Ground",
           "co_enrollment_with": null
         },
         {

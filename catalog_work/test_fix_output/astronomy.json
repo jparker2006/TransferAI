@@ -1,0 +1,447 @@
+{
+  "program_name": "Astronomy",
+  "program_description": "Astronomers and astrophysicists study the contents of our universe, including planets, stars, galaxies, and even the universe in its entirety. They are essentially physicists who specialize in using the fundamental laws of nature and the techniques of mathematics to understand our place in the cosmos. Astronomers design and build telescopes and other scientific instruments to collect data from astronomical objects. They then apply the techniques of scientific data reduction and analysis to extract the information from the data collected. While many astronomers and astrophysicists end up in academia, their unique skills are in great demand in many other fields including, aerospace, engineering, computer science, software development, information technology, financial services, education, and public outreach.",
+  "courses": [
+    {
+      "course_code": "ASTRON 1",
+      "course_title": "STELLAR ASTRONOMY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, non-lab)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "*Maximum credit allowed for ASTRON 1 and ASTRON 3 is one course (4 units). This course provides a comprehensive introduction to the fascinating subject of astronomy with an emphasis on the study of the Sun and other stars. Topics covered include the motions of the sky, a survey of the history of astronomy from Kepler to Einstein, gravity, radiation and matter, astronomical instrumentation, the Sun, stars, star formation, stellar evolution, galaxies and cosmology.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1256",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Salama A H"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1257",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Balm S P"
+            }
+          ],
+          "notes": [
+            "Above section 1257 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1258",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Vanden Heuvel A D"
+            }
+          ],
+          "notes": [
+            "Above section 1258 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1259",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Balm S P"
+            }
+          ],
+          "notes": [
+            "Above section 1259 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1260",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Balm S P"
+            }
+          ],
+          "notes": [
+            "Above section 1260 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4023",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "M",
+              "location": "MSB 320",
+              "instructor": "Melchor D A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ASTRON 2",
+      "course_title": "PLANETARY ASTRONOMY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, non-lab)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "*Maximum credit allowed for ASTRON 2 and ASTRON 4 is one course (4 units). This course provides a comprehensive introduction to the fascinating subject of astronomy with an emphasis on the study of the Earth and the other planets in the solar system. Topics covered include the motions of the sky, a survey of the history of astronomy from the Greeks to Einstein, phases of the moon, eclipses, gravity, the formation of the solar system, the Earth, Terrestrial and Jovian planets, their moons, asteroids, meteoroids, comets and a discussion of extrasolar planets around other stars.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1261",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "M",
+              "location": "MSB 320",
+              "instructor": "Salama A H"
+            },
+            {
+              "time": "Arrange-3.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Salama A H"
+            }
+          ],
+          "notes": [
+            "Above section 1261 meets for 8 weeks, Sep 08 to Oct 20, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information."
+          ],
+          "duration": "8 weeks, Sep 08 to Oct 20",
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1262",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Schwartz M J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1263",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Schwartz M J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1264",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Schwartz M J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ASTRON 3",
+      "course_title": "STELLAR ASTRONOMY WITH LABORATORY",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "*Maximum credit allowed for ASTRON 1 and ASTRON 3 is one course (4 units). This survey course covers the same material as Astronomy 1, but includes a laboratory section covering hands-on astronomical activities. The laboratory portion includes observations of the sky, computer simulations, the construction of simple astronomical instruments and analyzing publicly avail- able astronomical data from the internet.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1265",
+          "schedule": [
+            {
+              "time": "Arrange-13.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Vanden Heuvel A D"
+            }
+          ],
+          "notes": [
+            "Above section 1265 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1266",
+          "schedule": [
+            {
+              "time": "Arrange-13.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Balm S P"
+            }
+          ],
+          "notes": [
+            "Above section 1266 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4024",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "TTh",
+              "location": "MSB 320",
+              "instructor": "Balm S P"
+            },
+            {
+              "time": "Arrange-7 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Balm S P"
+            }
+          ],
+          "notes": [
+            "Above section 4024 meets for 8 weeks, Sep 02 to Oct 23, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": "8 weeks, Sep 02 to Oct 23",
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ASTRON 4",
+      "course_title": "PLANETARY ASTRONOMY WITH LABORATORY",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC*",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "*Maximum credit allowed for ASTRON 2 and ASTRON 4 is one course (4 units). This is a 4-unit introductory level lab course with a similar curricular depth and breadth to its comparable 3-unit lecture course Astronomy 2. In the lab component, students begin by re-creating many historical, first-ever human discoveries and measurements that helped to develop the scientific method: the size of Earth, Moon, and Sun, their relative distances, the scale of planetary orbits, phases, diameters, densities, masses, surface features, atmospheres, and rates of rotation. The labs also engage students in basic observations of the sky, computer simulations, and analysis of archival data from public domain sky surveys and surface maps by robotic NASA rovers and orbiting probes. The course material is a single semester survey of the origin and evolution of planetary systems such as our own Solar System including the latest leading theories of planetary topography, atmospheres, interiors, moons, comets, asteroids, and aurorae produced by the interaction of planetary magnetism and particle outflows from the Sun.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1267",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:50p.m.",
+              "days": "Th",
+              "location": "MSB 320",
+              "instructor": "Schwartz M J"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Schwartz M J"
+            }
+          ],
+          "notes": [
+            "Above section 1267 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4025",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "W",
+              "location": "MSB 320",
+              "instructor": "Ferraro N"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Ferraro N"
+            }
+          ],
+          "notes": [
+            "Above section 4025 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ASTRON 5",
+      "course_title": "LIFE IN THE UNIVERSE",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, non-lab)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course surveys the latest ideas concerning the origin and evolution of life on earth and discusses how these ideas are influencing our search for life on other planets in our solar system and elsewhere in the Universe. Topics covered include the chemical and biological basis of life, the search for life on Mars, extrasolar planets and the search for extraterrestrial intelligence (SETI).",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1268",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Salama A H"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "ASTRON 6",
+      "course_title": "ARCHAEOASTRONOMY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course will stress naked-eye astronomy and the historical development of astronomical thought, from the stone age to modern times. Students will learn about celestial motions and how these motions have shaped various cultural views, and how cultural beliefs and values shaped interpretations of the phenomena seen. We will see how eclipses of the sun and moon helped mark important epochs of time, and how solar and lunar motions were used to help create calendars. The class will study the development of astronomy in western European cultures, American cultures (North America, Mesoamerica, and South America), and non-western cultures (Asia, Africa).",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1269",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Fouts G A"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

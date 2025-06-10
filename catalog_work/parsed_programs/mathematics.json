@@ -12,6 +12,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -27,8 +28,9 @@
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
-      "prerequisites": "MATH 18 or MATH 20 or MATH 49 or MATH 50.",
+      "prerequisites": "•  MATH 18 or MATH 20 or MATH 49 or MATH 50.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": "MATH 54",
@@ -572,12 +574,13 @@
       "c_id": "MATH 110",
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
-      "prerequisites": "Placement as determined by the college’s multiple",
+      "prerequisites": "•  Placement as determined by the college’s multiple measures assessment process or completion of a course taught at or above the level of intermediate algebra.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": "MATH 54",
-      "description": "measures assessment process or completion of a course taught at or above the level of intermediate algebra. This course is an introduction to statistical thinking and processes, including methods and concepts for discovery and decision-making using data. Topics include descriptive statistics; probability and sampling distributions; statistical inference; correlation and linear regression; analysis of variance, chi-squared, and t-tests; and application of technology for statistical analysis including the interpretation of the relevance of the statistical findings. Students apply methods and processes to applications using data from a broad range of disciplines.",
+      "description": "This course is an introduction to statistical thinking and processes, including methods and concepts for discovery and decision-making using data. Topics include descriptive statistics; probability and sampling distributions; statistical inference; correlation and linear regression; analysis of variance, chi-squared, and t-tests; and application of technology for statistical analysis including the interpretation of the relevance of the statistical findings. Students apply methods and processes to applications using data from a broad range of disciplines.",
       "same_as": null,
       "sections": [
         {
@@ -595,7 +598,7 @@
             "On Ground."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "On Ground",
           "co_enrollment_with": null
         },
         {
@@ -630,7 +633,7 @@
             "On Ground."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "On Ground",
           "co_enrollment_with": null
         },
         {
@@ -717,7 +720,7 @@
             "On Ground."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "On Ground",
           "co_enrollment_with": null
         },
         {
@@ -735,7 +738,7 @@
             "On Ground."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "On Ground",
           "co_enrollment_with": null
         },
         {
@@ -770,7 +773,7 @@
             "On Ground."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "On Ground",
           "co_enrollment_with": null
         },
         {
@@ -1131,7 +1134,7 @@
             "On Ground."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "On Ground",
           "co_enrollment_with": null
         },
         {
@@ -1212,8 +1215,9 @@
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
-      "prerequisites": "Math 20 and Math 32.",
+      "prerequisites": "•  Math 20 and Math 32.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
@@ -1533,14 +1537,15 @@
       "course_title": "PRECALCULUS",
       "units": "5 UNITS",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
-      "prerequisites": "MATH 20 and MATH 32.",
+      "prerequisites": "•  MATH 20 and MATH 32.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
@@ -1712,6 +1717,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -1727,8 +1733,9 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "MATH 20 and MATH 32.",
+      "prerequisites": "•  MATH 20 and MATH 32.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MATH 4 and eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
@@ -1781,8 +1788,9 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "MATH 20 and MATH 32.",
+      "prerequisites": "•  MATH 20 and MATH 32.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "MATH 4 and eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
@@ -1850,8 +1858,9 @@
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2: Mathematical Concepts and Quantitative Reasoning",
       "special_notes": [],
-      "prerequisites": "MATH 20.",
+      "prerequisites": "•  MATH 20.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
@@ -1890,7 +1899,7 @@
             "On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
-          "modality": null,
+          "modality": "On Ground",
           "co_enrollment_with": "2556"
         },
         {
@@ -1925,7 +1934,7 @@
             "On Ground. CO-ENROLLMENT"
           ],
           "duration": null,
-          "modality": null,
+          "modality": "On Ground",
           "co_enrollment_with": "2557"
         },
         {
@@ -2015,14 +2024,15 @@
       "course_title": "COLLEGE ALGEBRA FOR STEM MAJORS",
       "units": "4 UNITS",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
-      "prerequisites": "MATH 20.",
+      "prerequisites": "•  MATH 20.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
@@ -2053,18 +2063,21 @@
       "course_title": "CALCULUS 1",
       "units": "5 UNITS",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": "MATH 211",
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum UC credit for MATH 7 and MATH 28 is one course."
+      ],
       "prerequisites": "MATH 2 or (MATH 3 and MATH 4).",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum UC credit for MATH 7 and MATH 28 is one course. This first course in calculus is intended primarily for science, technology, engineering and mathematics majors. Topics include limits, continuity, and derivatives and integrals of algebraic and trigonometric functions, with mathematical and physical applications.",
+      "description": "This first course in calculus is intended primarily for science, technology, engineering and mathematics majors. Topics include limits, continuity, and derivatives and integrals of algebraic and trigonometric functions, with mathematical and physical applications.",
       "same_as": null,
       "sections": [
         {
@@ -2379,7 +2392,7 @@
             "On Ground."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "On Ground",
           "co_enrollment_with": null
         },
         {
@@ -2414,7 +2427,7 @@
             "On Ground."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "On Ground",
           "co_enrollment_with": null
         },
         {
@@ -2449,7 +2462,7 @@
             "On Ground."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "On Ground",
           "co_enrollment_with": null
         },
         {
@@ -2510,18 +2523,19 @@
       "course_title": "CALCULUS 2",
       "units": "5 UNITS",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": "MATH 221",
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
-      "prerequisites": "MATH 7.",
+      "prerequisites": "•  MATH 7. *Maximum UC credit for MATH 8 and MATH 29 is one course. This second course in calculus is intended primarily for sci- ence, technology, engineering, and mathematics majors.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum UC credit for MATH 8 and MATH 29 is one course. This second course in calculus is intended primarily for sci- ence, technology, engineering, and mathematics majors. Topics include derivatives and integrals of transcendental functions with mathematical and physical applications, indeterminate forms and improper integrals, infinite sequences and series, and curves, including conic sections, described by parametric equations and polar coordinates.",
+      "description": "Topics include derivatives and integrals of transcendental functions with mathematical and physical applications, indeterminate forms and improper integrals, infinite sequences and series, and curves, including conic sections, described by parametric equations and polar coordinates.",
       "same_as": null,
       "sections": [
         {
@@ -2707,8 +2721,9 @@
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
-      "prerequisites": "MATH 8.",
+      "prerequisites": "•  MATH 8.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": "same course as CS 10",
@@ -2745,8 +2760,9 @@
       "c_id": "MATH 230",
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
-      "prerequisites": "MATH 8.",
+      "prerequisites": "•  MATH 8.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -2857,8 +2873,9 @@
       "c_id": "MATH 250",
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
-      "prerequisites": "MATH 8.",
+      "prerequisites": "•  MATH 8.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
@@ -2946,8 +2963,9 @@
       "c_id": "MATH 240",
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
-      "prerequisites": "MATH 8.",
+      "prerequisites": "•  MATH 8.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -3017,6 +3035,7 @@
       "special_notes": [],
       "prerequisites": "MATH 18 or MATH 20 or MATH 49 or MATH 50.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -3308,8 +3327,9 @@
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
-      "prerequisites": "MATH 18 or MATH 20 or MATH 49 or MATH 50.",
+      "prerequisites": "•  MATH 18 or MATH 20 or MATH 49 or MATH 50.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -3374,18 +3394,19 @@
       "course_title": "CALCULUS 1 FOR BUSINESS AND SOCIAL SCIENCE",
       "units": "5 UNITS",
       "transfer_info": [
-        "UC*",
+        "UC",
         "CSU"
       ],
       "c_id": "MATH 140",
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
       "special_notes": [],
-      "prerequisites": "MATH 26.",
+      "prerequisites": "•  MATH 26. *Maximum UC credit for MATH 7 and MATH 28 is one course.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum UC credit for MATH 7 and MATH 28 is one course. This course is intended for students majoring in business or social sciences. It is a survey of differential and integral calculus with business and social science applications. Topics include limits, differential calculus of one variable, including exponential and logarithmic functions, introduction to integral calculus, and mathematics of finance.",
+      "description": "This course is intended for students majoring in business or social sciences. It is a survey of differential and integral calculus with business and social science applications. Topics include limits, differential calculus of one variable, including exponential and logarithmic functions, introduction to integral calculus, and mathematics of finance.",
       "same_as": null,
       "sections": [
         {
@@ -3420,7 +3441,7 @@
             "On Ground."
           ],
           "duration": null,
-          "modality": null,
+          "modality": "On Ground",
           "co_enrollment_with": null
         },
         {
@@ -3454,6 +3475,7 @@
       "special_notes": [],
       "prerequisites": null,
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
@@ -3466,8 +3488,8 @@
             {
               "time": "Arrange-1 Hour",
               "days": "N",
-              "location": "McGraw C K",
-              "instructor": ""
+              "location": "TBA",
+              "instructor": "McGraw C K"
             }
           ],
           "notes": [],

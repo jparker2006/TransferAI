@@ -9,30 +9,17 @@
       "transfer_info": [],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [],
-      "prerequisites": null,
-      "prerequisite_notes": null,
-      "advisory": null,
-      "advisory_notes": null,
-      "formerly": null,
-      "description": "",
-      "same_as": null,
-      "sections": []
-    },
-    {
-      "course_code": "ENGL 28",
-      "course_title": "INTENSIVE COLLEGE WRITING SKILLS",
-      "units": "5 UNITS",
-      "transfer_info": [],
-      "c_id": null,
-      "cal_getc_area": null,
-      "special_notes": [],
+      "special_notes": [
+        "Students will receive 3 units of transferrable credit for ENGL C1000, and 2 units of non-transferrable, degree applicable credit for ENGL 28. CO-ENROLLMENT",
+        "Students will receive 3 units of transferable credit for ENGL C1000, and 2 units of non-transferable, degree applicable credit for ENGL 28."
+      ],
       "prerequisites": "Placement Group B.",
       "prerequisite_notes": null,
+      "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "In English C1000, students receive instruction in academic reading and writing, including writing processes, effective use of language, analytical thinking, and the foundations of academic research. The co-enrollment English 28 emphasizes clear, effective written communication and preparation of the research paper to prepare students for success in college-level composition and reading. It consists of instruction in composition, comprehension and analysis of college-level readings, and basic research skills. Students will receive 3 units of transferrable credit for ENGL C1000, and 2 units of non-transferrable, degree applicable credit for ENGL 28. CO-ENROLLMENT",
+      "description": "In English C1000, students receive instruction in academic reading and writing, including writing processes, effective use of language, analytical thinking, and the foundations of academic research. The co-enrollment English 28 emphasizes clear, effective written communication and preparation of the research paper to prepare students for success in college-level composition and reading.",
       "same_as": null,
       "sections": [
         {
