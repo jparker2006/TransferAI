@@ -1,0 +1,112 @@
+Intent,Query,Predicted_Intent
+academic_renewal_info,What is academic renewal and will UCSD honor it?,academic_renewal_info
+academic_renewal_info,Does UCSD accept grades that have been cleared by academic renewal?,academic_renewal_info
+academic_renewal_info,Will academic renewal remove old grades from my UCSD transfer GPA?,academic_renewal_info
+add_completed_course,I just finished Math 7 with a B—can you update my record?,add_completed_course
+add_completed_course,Please add Math 7 (grade B) to my completed courses.,schedule_builder
+add_completed_course,Update my profile: Math 7 completed with a B.,add_completed_course
+agent_capabilities,What kinds of things can you help me with?,agent_capabilities
+agent_capabilities,List the main features you provide.,agent_capabilities
+agent_capabilities,How can this chatbot assist my transfer planning?,agent_capabilities
+agent_identity,Who are you?,agent_identity
+agent_identity,Are you a human or an AI assistant?,agent_identity
+agent_identity,What is TransferAI?,agent_identity
+ap_credit_policy,Does a 4 on AP Calc BC satisfy any UCSD math requirements?,ap_credit_policy
+ap_credit_policy,Will UCSD give credit for a 4 on AP Calc BC?,ap_credit_policy
+ap_credit_policy,How does a 4 on AP Calc BC count toward IGETC or UCSD units?,ap_credit_policy
+application_deadline,When is the UC transfer application due?,application_deadline
+application_deadline,What’s the deadline to apply to UCSD as a transfer?,application_deadline
+application_deadline,What is the final date to submit the UC application?,application_deadline
+course_equivalency,What does Math 7 at SMC transfer as at UCSD?,course_equivalency
+course_equivalency,Is SMC Math 7 equivalent to any UCSD course?,course_equivalency
+course_equivalency,How does Math 7 articulate to UCSD?,course_equivalency
+course_plan_for_major,Map out a 4-semester plan to transfer to UCSD for biology.,course_plan_for_major
+course_plan_for_major,Create a term-by-term plan for UCSD biology transfer.,course_plan_for_major
+course_plan_for_major,Give me a two-year course roadmap for UCSD biology.,course_plan_for_major
+course_prerequisite,What do I need before I can take CS 54?,course_prerequisite
+course_prerequisite,Are there any prerequisites for CS 54?,course_prerequisite
+course_prerequisite,Which courses must I complete to enroll in CS 54?,course_prerequisite
+course_schedule_details,When is Math 7 offered this fall?,next_course_recommendation
+course_schedule_details,Show all fall sections of Math 7 with times.,course_schedule_details
+course_schedule_details,Who teaches Math 7 in the upcoming term?,course_schedule_details
+fee_info,How much does the UC application cost?,fee_info
+fee_info,What fees are required for the UCSD transfer application?,fee_info
+fee_info,Is there a cost to apply to UCSD and can I get a waiver?,fee_info
+financial_aid,What financial aid options are available for transfer students?,financial_aid
+financial_aid,Are there scholarships for community-college transfers to UCSD?,financial_aid
+financial_aid,How do I apply for financial aid after I transfer?,financial_aid
+goodbye,Thanks—that’s all!,thanks
+goodbye,Appreciate the help goodbye.,thanks
+goodbye,That’s it for now bye!,goodbye
+gpa_projection,If I get all A’s this semester what will my UC-transfer GPA be?,gpa_projection
+gpa_projection,How will straight A’s this term affect my GPA?,gpa_projection
+gpa_projection,Project my GPA if I earn A’s in every class this semester.,gpa_projection
+gpa_requirement,What GPA do I need to transfer to UCSD?,gpa_requirement
+gpa_requirement,Is a 3.0 GPA enough for UCSD transfer?,gpa_requirement
+gpa_requirement,What’s the minimum competitive GPA for UCSD?,gpa_requirement
+greeting,Hi!,greeting
+greeting,Hello there!,greeting
+greeting,Hey!,greeting
+igetc_certification_info,How do I get my IGETC officially certified?,igetc_certification_info
+igetc_certification_info,What’s the process for requesting IGETC certification?,igetc_certification_info
+igetc_certification_info,Where do I submit the IGETC certification form?,igetc_certification_info
+igetc_course_options,Which classes at SMC fulfill IGETC Area 1?,igetc_course_options
+igetc_course_options,Give me SMC options for IGETC Area 1.,igetc_course_options
+igetc_course_options,What courses can I take at SMC for IGETC Area 1?,igetc_course_options
+major_requirements,What classes do I need to transfer to UCSD for cognitive science?,major_requirements
+major_requirements,List the UCSD major-prep courses for cognitive science.,major_requirements
+major_requirements,Which requirements must I meet for UCSD cognitive science transfer?,major_requirements
+next_course_recommendation,What should I take after finishing Math 2?,next_course_recommendation
+next_course_recommendation,Recommend my next course after Math 2.,schedule_builder
+next_course_recommendation,Which class comes after Math 2 in the sequence?,prerequisite_chain
+out_of_scope,What’s the best ramen spot in LA?,out_of_scope
+out_of_scope,Recommend a ramen place in Los Angeles.,course_plan_for_major
+out_of_scope,Where can I find great ramen in LA?,out_of_scope
+pass_no_pass_policy,Can I take transfer courses Pass/No Pass and still get credit at UCSD?,pass_no_pass_policy
+pass_no_pass_policy,Does UCSD accept Pass/No Pass grades for transferable courses?,pass_no_pass_policy
+pass_no_pass_policy,Will a P/NP class count toward my IGETC?,pass_no_pass_policy
+prerequisite_chain,What’s the full prereq chain to get into CS 83R?,prerequisite_chain
+prerequisite_chain,Show me every prerequisite leading up to CS 83R.,prerequisite_chain
+prerequisite_chain,Map the sequence of courses required before CS 83R.,prerequisite_chain
+professor_comparison,Who’s better Professor Lee or Professor Tran?,professor_comparison
+professor_comparison,Compare Professor Lee and Professor Tran for CS 50.,professor_comparison
+professor_comparison,Which professor has higher ratings—Lee or Tran?,professor_comparison
+professor_rating,What’s Professor Patel’s rating?,professor_rating
+professor_rating,How do students rate Professor Patel?,professor_rating
+professor_rating,Show me reviews for Professor Patel.,professor_rating
+professor_recommendation,Who’s the best professor for CS 50?,professor_recommendation
+professor_recommendation,Recommend a good instructor for CS 50.,professor_recommendation
+professor_recommendation,Which professor should I take for CS 50?,professor_recommendation
+readiness_audit,Can you check if I’m ready to transfer to UCSD for biology?,transfer_application_timeline
+readiness_audit,Am I missing anything to qualify for UCSD biology transfer?,withdrawal_effect
+readiness_audit,Audit my record for UCSD biology requirements.,readiness_audit
+repeat_course_policy,Can I retake a class and have the new grade count for UCSD transfer?,repeat_course_policy
+repeat_course_policy,Will UCSD replace my old grade if I repeat a course?,repeat_course_policy
+repeat_course_policy,How do repeated courses affect my UC transfer GPA?,gpa_projection
+report_issue,The course plan for cognitive science is missing some classes.,report_issue
+report_issue,There’s an error in the cognitive science course list.,report_issue
+report_issue,My cognitive science plan looks incomplete—please check.,report_issue
+schedule_builder,Can you build me a fall schedule with no Friday classes?,schedule_builder
+schedule_builder,Create a conflict-free fall schedule that avoids Fridays.,schedule_builder
+schedule_builder,Build a fall schedule without Friday classes.,schedule_builder
+schedule_conflict_check,Can you check if my current schedule has any time conflicts?,schedule_conflict_check
+schedule_conflict_check,Verify that my classes don’t overlap.,schedule_conflict_check
+schedule_conflict_check,Do any of my selected sections conflict?,schedule_conflict_check
+term_definition,What does IGETC stand for?,term_definition
+term_definition,Define IGETC.,term_definition
+term_definition,What is the meaning of IGETC?,term_definition
+thanks,Thanks!,thanks
+thanks,Thank you so much.,thanks
+thanks,Appreciate it!,thanks
+transfer_application_timeline,Can you give me the full transfer timeline for UCSD?,transfer_application_timeline
+transfer_application_timeline,Outline all transfer milestones for UCSD.,transfer_application_timeline
+transfer_application_timeline,Provide the complete UCSD transfer timeline.,transfer_application_timeline
+unit_requirements_transfer,How many units do I need to transfer to UCSD?,unit_requirements_transfer
+unit_requirements_transfer,What’s the minimum unit requirement for UCSD transfer?,unit_requirements_transfer
+unit_requirements_transfer,How many transferable units does UCSD require?,unit_requirements_transfer
+units_conversion,How do semester units convert to quarter units?,units_conversion
+units_conversion,Convert semester units to UCSD quarter units.,units_conversion
+units_conversion,What’s the semester-to-quarter unit conversion?,units_conversion
+withdrawal_effect,Does a W on my transcript hurt my UCSD transfer chances?,withdrawal_effect
+withdrawal_effect,Will a withdrawal affect my transfer to UCSD?,withdrawal_effect
+withdrawal_effect,How does a W grade impact UCSD admissions?,withdrawal_effect

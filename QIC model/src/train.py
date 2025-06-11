@@ -31,7 +31,13 @@ from transformers import (
     EarlyStoppingCallback,
 )
 
-from .utils import encode_labels, load_dataset, set_seed, stratified_split
+from .utils import (
+    encode_labels,
+    load_dataset,
+    set_seed,
+    stratified_split,
+    compute_class_weights,
+)
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -130,23 +136,58 @@ def main() -> None:  # noqa: C901
 
     data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 
+    # ------------------------------------------------------------------
+    # Class weighting (to address label imbalance)
+    # ------------------------------------------------------------------
+    class_weights = None
+    if cfg.get("use_class_weights", False):
+        class_weights = compute_class_weights(train_df["label"].tolist()).to(
+            torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        )
+
+    # Custom Trainer to inject weighted loss if enabled
+    from torch.nn import CrossEntropyLoss
+
+    class WeightedLossTrainer(Trainer):
+        def compute_loss(self, model, inputs, return_outputs=False):  # type: ignore[override]
+            labels = inputs.get("labels")
+            outputs = model(**inputs)
+            logits = outputs.get("logits")
+
+            if class_weights is not None:
+                weight = class_weights.to(logits.device)
+                loss_fct = CrossEntropyLoss(weight=weight)
+            else:
+                loss_fct = CrossEntropyLoss()
+
+            loss = loss_fct(logits.view(-1, num_labels), labels.view(-1))
+            return (loss, outputs) if return_outputs else loss
+
+    TrainerClass = WeightedLossTrainer if class_weights is not None else Trainer
+
+    # Determine fp16 capability (only valid on CUDA devices)
+    fp16_enabled = bool(cfg.get("fp16", False) and torch.cuda.is_available())
+
     training_args = TrainingArguments(
         output_dir=str(output_dir),
         num_train_epochs=cfg["num_epochs"],
         per_device_train_batch_size=cfg["batch_size"],
         per_device_eval_batch_size=cfg["batch_size"],
+        gradient_accumulation_steps=cfg.get("gradient_accumulation_steps", 1),
         learning_rate=float(cfg["learning_rate"]),
         weight_decay=float(cfg["weight_decay"]),
-        eval_strategy="epoch",
+        eval_strategy=cfg.get("eval_strategy", "epoch"),
         save_strategy="epoch",
         metric_for_best_model="f1",
         load_best_model_at_end=True,
         logging_dir=str(output_dir / "logs"),
         logging_strategy="epoch",
         warmup_ratio=cfg.get("warmup_ratio", 0.1),
+        lr_scheduler_type=cfg.get("scheduler_type", "linear"),
+        fp16=fp16_enabled,
     )
 
-    trainer = Trainer(
+    trainer = TrainerClass(
         model=model,
         args=training_args,
         train_dataset=train_dataset,
@@ -154,8 +195,39 @@ def main() -> None:  # noqa: C901
         data_collator=data_collator,
         compute_metrics=compute_metrics,
         tokenizer=tokenizer,
-        callbacks=[EarlyStoppingCallback(early_stopping_patience=2)],
+        callbacks=[EarlyStoppingCallback(early_stopping_patience=cfg.get("early_stopping_patience", 3))],
     )
+
+    # ------------------------------------------------------------------
+    # Hyperparameter search (Optuna)
+    # ------------------------------------------------------------------
+    if cfg.get("hyperparameter_search", {}).get("enabled", False):
+        def model_init():
+            return AutoModelForSequenceClassification.from_pretrained(
+                cfg["model_name"], num_labels=num_labels
+            )
+
+        def hp_space(trial):
+            return {
+                "learning_rate": trial.suggest_float("learning_rate", 5e-6, 5e-5, log=True),
+                "weight_decay": trial.suggest_float("weight_decay", 0.0, 0.1),
+                "per_device_train_batch_size": trial.suggest_categorical(
+                    "per_device_train_batch_size", [8, 16, 32]
+                ),
+            }
+
+        best_run = trainer.hyperparameter_search(
+            hp_space=hp_space,
+            direction=cfg["hyperparameter_search"].get("direction", "maximize"),
+            n_trials=cfg["hyperparameter_search"].get("n_trials", 10),
+            compute_objective=lambda metrics: metrics["eval_f1"],
+            model_init=model_init,
+        )
+        print("\n[Hyperparameter search completed] Best run:")
+        print(best_run)
+        # Rebuild trainer with best HPs
+        for k, v in best_run.hyperparameters.items():
+            setattr(training_args, k, v)
 
     trainer.train()
 

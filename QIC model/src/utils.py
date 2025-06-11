@@ -19,6 +19,7 @@ import pandas as pd
 import torch
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
+from collections import Counter
 
 
 def load_dataset(csv_path: str | Path) -> pd.DataFrame:
@@ -113,4 +114,25 @@ def set_seed(seed: int) -> None:
 
     # The below settings make CuDNN deterministic but *may* impact performance.
     torch.backends.cudnn.deterministic = True
-    torch.backends.cudnn.benchmark = False 
+    torch.backends.cudnn.benchmark = False
+
+
+def compute_class_weights(labels: list[int]) -> torch.Tensor:
+    """Compute inverse‐frequency class weights for CrossEntropyLoss.
+
+    Parameters
+    ----------
+    labels: list[int]
+        List of integer labels from the training set.
+
+    Returns
+    -------
+    torch.Tensor
+        1D tensor of size ``num_classes`` suitable to pass as ``weight`` to
+        ``torch.nn.CrossEntropyLoss``.
+    """
+    counts = Counter(labels)
+    num_classes = len(counts)
+    total = sum(counts.values())
+    weights = [total / (num_classes * counts[i]) for i in range(num_classes)]
+    return torch.tensor(weights, dtype=torch.float) 

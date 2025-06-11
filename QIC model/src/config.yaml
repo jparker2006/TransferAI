@@ -8,4 +8,18 @@ test_size: 0.15
 random_seed: 42
 output_dir: outputs
 # Number of warmup steps ratio (0.1 => 10% of total)
-warmup_ratio: 0.1 
+warmup_ratio: 0.1
+scheduler_type: linear  # linear or cosine
+num_warmup_steps: null  # if null, warmup_ratio used
+gradient_accumulation_steps: 1
+fp16: true
+early_stopping_patience: 3
+hyperparameter_search:
+  enabled: false
+  n_trials: 10
+  direction: maximize
+  search_space:
+    learning_rate: [5e-6, 5e-5]
+    weight_decay: [0.0, 0.1]
+    per_device_train_batch_size: [8, 16, 32]
+use_class_weights: true 
