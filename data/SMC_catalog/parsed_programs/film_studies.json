@@ -1,0 +1,1220 @@
+{
+  "program_name": "Film Studies",
+  "program_description": "Film consists of two areas of concentration: Film Studies and Film Production. Film Studies introduces students to the history and development of cinema/film as an art, an object of philosophical study, and a cultural and social phenomenon. Students examine the theoretical approaches and trends in filmmaking including the contemporary evolution from film to digital media. Film Production provides practical as well as theoretical training in screenwriting, directing, creative producing, cinematography, sound recording, production design, and below-the-line crafts (gaffers, grips, operators, assistants). Students learn all aspects of film production from an academic discipline to hands-on experience that prepares them to earn an Associate degree and/or certificate of achievement in film production; for upper division study at a four-year college or advanced film school; and/or to apply for jobs and internships in the motion picture and television industries.",
+  "courses": [
+    {
+      "course_code": "FILM 1",
+      "course_title": "FILM APPRECIATION: INTRODUCTION TO CINEMA",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 3A (Arts)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": "CINEMA 9",
+      "description": "This course will introduce the art, technology, language, and appreciation of film, exploring the varieties of film experience, film and the other arts, and the ways of viewing. Students will learn about the basic cinematic techniques and structures, including mise-en-scene and montage, use of cinematic time and space, the image, soundtrack, and the script. Consideration will also be given to analyzing the fundamentals of film production, directing, acting, and editing; how the elements of the production process are analyzed separately, then brought together to show how they create the emotional and intellectual impact of the film experience. Film examples will be screened in class. This course is intended as a beginning course to introduce students to cinema.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2280",
+          "schedule": [
+            {
+              "time": "9:00a.m.-1:05p.m.",
+              "days": "T",
+              "location": "HSS 165",
+              "instructor": "Simmons R D"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2281",
+          "schedule": [
+            {
+              "time": "9:00a.m.-1:05p.m.",
+              "days": "Th",
+              "location": "CMD 180",
+              "instructor": "Simmons R D"
+            }
+          ],
+          "notes": [
+            "Above section 2281 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information.",
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2283",
+          "schedule": [
+            {
+              "time": "1:15p.m.-5:20p.m.",
+              "days": "M",
+              "location": "CMD 180",
+              "instructor": "Poirier N P"
+            }
+          ],
+          "notes": [
+            "Above section 2283 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2285",
+          "schedule": [
+            {
+              "time": "2:15p.m.-6:20p.m.",
+              "days": "Th",
+              "location": "ONLINE",
+              "instructor": "Manojlovic M"
+            }
+          ],
+          "notes": [
+            "Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2286",
+          "schedule": [
+            {
+              "time": "Arrange-4.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Simmons R D"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2287",
+          "schedule": [
+            {
+              "time": "Arrange-4.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Daniels R"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2288",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Coleman D"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4098",
+          "schedule": [
+            {
+              "time": "5:30p.m.-9:35p.m.",
+              "days": "T",
+              "location": "ONLINE",
+              "instructor": "Flood S W"
+            }
+          ],
+          "notes": [
+            "Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4099",
+          "schedule": [
+            {
+              "time": "5:30p.m.-9:35p.m.",
+              "days": "Th",
+              "location": "CMD 203",
+              "instructor": "Bolus M P"
+            }
+          ],
+          "notes": [
+            "Above section 4099 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 2",
+      "course_title": "HISTORY OF MOTION PICTURES",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 3A (Arts)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": "CINEMA 1",
+      "description": "A broad survey is made of the history, theory, techniques, and development of motion pictures. The history of film as a major art form and its major artists, works, and styles are emphasized. Film examples are screened in class.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2290",
+          "schedule": [
+            {
+              "time": "1:00p.m.-5:05p.m.",
+              "days": "T",
+              "location": "ONLINE",
+              "instructor": "Kanin J D"
+            }
+          ],
+          "notes": [
+            "Theme: History of International Cinema. Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2289",
+          "schedule": [
+            {
+              "time": "2:15p.m.-6:20p.m.",
+              "days": "T",
+              "location": "HSS 165",
+              "instructor": "Simmons R D"
+            }
+          ],
+          "notes": [
+            "Theme: History of International Cinema. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4100",
+          "schedule": [
+            {
+              "time": "5:30p.m.-9:35p.m.",
+              "days": "W",
+              "location": "ONLINE",
+              "instructor": "Flood S W"
+            }
+          ],
+          "notes": [
+            "Theme: History of American Cinema. Above section modality is",
+            "Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 5",
+      "course_title": "FILM AND SOCIETY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": "CINEMA 5",
+      "description": "This course presents motion pictures as reflections and influences of American society. Films are often selected from specific decades and analyzed as records of social attitudes shaping the present and past.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2291",
+          "schedule": [
+            {
+              "time": "1:00p.m.-5:05p.m.",
+              "days": "W",
+              "location": "ONLINE",
+              "instructor": "Kanin J D"
+            }
+          ],
+          "notes": [
+            "Theme: The 1950s in American Cinema. Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2292",
+          "schedule": [
+            {
+              "time": "2:15p.m.-6:20p.m.",
+              "days": "Th",
+              "location": "CMD 180",
+              "instructor": "Simmons R D"
+            }
+          ],
+          "notes": [
+            "Theme: The 1980s in American Cinema. Above section 2292 meets at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 7",
+      "course_title": "AMERICAN CINEMA: CROSSING CULTURES",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
+      "special_notes": [
+        "Satisfies Global Citizenship"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": "CINEMA 7",
+      "description": "This course surveys American motion pictures that have been made by filmmakers representing three United States ethnic groups, including African Americans, Latino Americans, and Asian Americans. Students will also analyze Hollywood’s treatment of those ethnic cultures throughout film history.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2293",
+          "schedule": [
+            {
+              "time": "1:15p.m.-5:20p.m.",
+              "days": "T",
+              "location": "CMD 180",
+              "instructor": "Carrasco S"
+            }
+          ],
+          "notes": [
+            "Above section 2293 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 8",
+      "course_title": "THE POPULAR FILM GENRES",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 3A (Arts)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": "CINEMA 2",
+      "description": "This introductory course surveys the development and artistic, social, and entertainment ingredients of basic film genres. Emphasis on such types as the science-fiction film, western, gangster film, crime and detective thriller (“film noir”), musical, comedy, or horror film.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2294",
+          "schedule": [
+            {
+              "time": "1:00p.m.-5:05p.m.",
+              "days": "M",
+              "location": "ONLINE",
+              "instructor": "Kanin J D"
+            }
+          ],
+          "notes": [
+            "Theme: “Film Noir”: Crime & Detective Thrillers. Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2295",
+          "schedule": [
+            {
+              "time": "2:15p.m.-6:20p.m.",
+              "days": "F",
+              "location": "ONLINE",
+              "instructor": "Manojlovic M"
+            }
+          ],
+          "notes": [
+            "Theme: The Western. Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 9",
+      "course_title": "THE GREAT FILM MAKERS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "FILM 2, Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": "CINEMA 4",
+      "description": "This course covers a limited number of film directors, writers, producers, and/or actors, examining their work in artistic, social, and historical terms. The course content and emphasis changes each term.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2296",
+          "schedule": [
+            {
+              "time": "1:00p.m.-5:05p.m.",
+              "days": "Th",
+              "location": "ONLINE",
+              "instructor": "Kanin J D"
+            }
+          ],
+          "notes": [
+            "Theme: The Master of Horror and Suspense: Alfred Hitchcock.",
+            "Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2297",
+          "schedule": [
+            {
+              "time": "2:15p.m.-6:20p.m.",
+              "days": "W",
+              "location": "CMD 180",
+              "instructor": "Lemond J W"
+            }
+          ],
+          "notes": [
+            "Theme: The Films of David Fincher. Above section 2297 meets at the Center for Media and Design, 1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 11",
+      "course_title": "LITERATURE INTO FILM",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "ENGL C1000 (formerly ENGL 1)",
+      "advisory_notes": null,
+      "formerly": "same course as ENGL 11",
+      "description": "In this course, students will explore literary classics on screen, comparing the narrative dynamics of cinema and literature by comparing the text with the film. In so doing, students will gain an understanding of the text to film adaptation process, the expressive powers of each, and each medium’s unique potentialities and deficiencies. Selected novels, short stories, plays, and nonfiction works will be examined as each evolves into film.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2298",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Poirier N P"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 20",
+      "course_title": "BEGINNING SCRIPTWRITING",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "ENGL C1000 (formerly ENGL 1)",
+      "advisory_notes": null,
+      "formerly": "CINEMA 11A",
+      "description": "This course is designed to teach the student the basic tools of scriptwriting for film, television, or theater, focusing on the aesthetic and commercial demands of each medium.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2299",
+          "schedule": [
+            {
+              "time": "2:00p.m.-5:05p.m.",
+              "days": "W",
+              "location": "CMD 131",
+              "instructor": "Bartesaghi S"
+            }
+          ],
+          "notes": [
+            "Above section 2299 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4101",
+          "schedule": [
+            {
+              "time": "5:30p.m.-8:35p.m.",
+              "days": "W",
+              "location": "CMD 203",
+              "instructor": "Bolus M P"
+            }
+          ],
+          "notes": [
+            "Above section 4101 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4102",
+          "schedule": [
+            {
+              "time": "6:00p.m.-9:05p.m.",
+              "days": "W",
+              "location": "CMD 131",
+              "instructor": "Bartesaghi S"
+            }
+          ],
+          "notes": [
+            "Above section 4102 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 21",
+      "course_title": "ADVANCED SCRIPTWRITING",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "•  FILM 20.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": "CINEMA 11B",
+      "description": "This course is designed to provide intermediate level training in skills required to create scripts for film, television, or theatre. Techniques of writing and marketing scripts are explored.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2301",
+          "schedule": [
+            {
+              "time": "3:30p.m.-6:35p.m.",
+              "days": "T",
+              "location": "CMD 202",
+              "instructor": "Petrella R J"
+            }
+          ],
+          "notes": [
+            "Above section 2301 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2302",
+          "schedule": [
+            {
+              "time": "3:30p.m.-6:35p.m.",
+              "days": "Th",
+              "location": "CMD 202",
+              "instructor": "Petrella R J"
+            }
+          ],
+          "notes": [
+            "Above section 2302 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2303",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Birnbaum M J"
+            }
+          ],
+          "notes": [
+            "Above section 2303 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 30",
+      "course_title": "PRODUCTION PLANNING FOR FILM AND VIDEO",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "FILM 20",
+      "advisory_notes": null,
+      "formerly": "CINEMA 3",
+      "description": "This course is designed for students who are interested in transforming a creative concept into a practical production plan. By viewing, discussing, and analyzing scripts, television, and film, students will learn skills necessary to start production of a film or video.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2304",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Daniels R"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4103",
+          "schedule": [
+            {
+              "time": "5:00p.m.-9:05p.m.",
+              "days": "T",
+              "location": "CMD 208",
+              "instructor": "Lubliner N"
+            }
+          ],
+          "notes": [
+            "Above section 4103 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 31",
+      "course_title": "INTRODUCTION TO DIGITAL FILMMAKING",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is an introductory course covering both the basic techniques of digital filmmaking and of critical appreciation, while emphasizing students’ personal and creative expression. Topics will include the theory and practice of visualization, the grammar of cinematic storytelling, the aesthetics of various film movements, camera technique, lighting, sound recording, directing, and other fundamentals related to learning the craft of digital filmmaking. Students will engage in critical appreciation and individual and group analysis of movies, as well as in filming exercises under the direct and continuous supervision of their instructor.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4104",
+          "schedule": [
+            {
+              "time": "5:00p.m.-9:05p.m.",
+              "days": "W",
+              "location": "CMD 182",
+              "instructor": "Tomaric J J"
+            }
+          ],
+          "notes": [
+            "Above section 4104 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4105",
+          "schedule": [
+            {
+              "time": "5:00p.m.-9:05p.m.",
+              "days": "Th",
+              "location": "CMD 182",
+              "instructor": "Tomaric J J"
+            }
+          ],
+          "notes": [
+            "Above section 4105 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 32",
+      "course_title": "INTERMEDIATE DIGITAL FILMMAKING",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "•  FILM 31.",
+      "prerequisite_notes": null,
+      "corequisites": "FILM 32L.",
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course focuses on intermediate techniques of digital filmmaking and theoretical and critical rubrics, allowing the student to gain proficiency in producing, directing, cinematography, production design, sound recording, grip/electric, and editing. Students learn the roles and responsibilities of various facets of the filmmaking process during pre-production, production and post-production. Working with previously produced scenes written by industry professionals, students learn skills that include the visualization of the screenplay, script breakdown, preparation of shot lists, direction of actors, and the staging of action for the camera.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2305",
+          "schedule": [
+            {
+              "time": "9:00a.m.-12:05p.m.",
+              "days": "W",
+              "location": "CMD 182",
+              "instructor": "Carrasco S"
+            }
+          ],
+          "notes": [
+            "Above section 2305 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2306",
+          "schedule": [
+            {
+              "time": "9:00a.m.-12:05p.m.",
+              "days": "F",
+              "location": "CMD 182",
+              "instructor": "Carrasco S"
+            }
+          ],
+          "notes": [
+            "Above section 2306 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 32L",
+      "course_title": "INTERMEDIATE DIGITAL FILMMAKING LAB",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": "FILM 32.",
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course focuses on intermediate techniques of digital filmmaking and theoretical and critical rubrics, allowing the student to gain proficiency in producing, directing, cinematography, production design, sound recording, grip/electric, and editing. Students learn the roles and responsibilities of various facets of the filmmaking process during pre-production, production and post-production. Working with previously produced scenes written by industry professionals, students learn skills that include the visualization of the screenplay, script breakdown, preparation of shot lists, direction of actors, and the staging of action for the camera.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2307",
+          "schedule": [
+            {
+              "time": "12:15p.m.-4:30p.m.",
+              "days": "W",
+              "location": "CMD 182",
+              "instructor": "Carrasco S"
+            }
+          ],
+          "notes": [
+            "Above section 2307 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2308",
+          "schedule": [
+            {
+              "time": "12:15p.m.-4:30p.m.",
+              "days": "F",
+              "location": "CMD 182",
+              "instructor": "Carrasco S"
+            }
+          ],
+          "notes": [
+            "Above section 2308 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 33",
+      "course_title": "MAKING THE SHORT FILM",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "•  FILM 32.",
+      "prerequisite_notes": null,
+      "corequisites": "FILM 33L.",
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "In this course, students go through the process of making a short narrative film together, emulating a professional working environment. Supervised by their instructor, students develop, pre-produce, rehearse, shoot, and edit scenes from an original screenplay that is filmed in its entirety in the lab component course (Film 33L) at the end of the semester.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2309",
+          "schedule": [
+            {
+              "time": "9:00a.m.-12:05p.m.",
+              "days": "Th",
+              "location": "CMD 182",
+              "instructor": "Bartesaghi S"
+            }
+          ],
+          "notes": [
+            "Above section 2309 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 33L",
+      "course_title": "MAKING THE SHORT FILM LAB",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": "FILM 33.",
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "In this course students will collectively develop and shoot one narrative short film throughout the semester. This course is the laboratory component for Film 33 and will parallel the lecture topics of that course.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2310",
+          "schedule": [
+            {
+              "time": "1:00p.m.-4:20p.m.",
+              "days": "Th",
+              "location": "CMD 182",
+              "instructor": "Bartesaghi S"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "CMD 182",
+              "instructor": "Bartesaghi S"
+            }
+          ],
+          "notes": [
+            "Above section 2310 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 34",
+      "course_title": "ADVANCED DIGITAL FILMMAKING",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "•  FILM 32.",
+      "prerequisite_notes": null,
+      "corequisites": "FILM 34L.",
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course focuses on advanced techniques of digital filmmaking and theoretical and critical rubrics, allowing the student to gain increased proficiency in producing, directing, cinematography, production design, sound recording, grip/ electric, and editing, while at the same time producing original content. Students hone their skills in various facets of the filmmaking process during pre-production, production and post-production. Working with original content that has not yet been produced and/or material written by themselves, students advance their skills in the visualization of the screenplay, script breakdown, preparation of shot lists, working with actors, and the staging of action for the camera.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2311",
+          "schedule": [
+            {
+              "time": "3:00p.m.-6:05p.m.",
+              "days": "F",
+              "location": "CMD 131",
+              "instructor": "Dada C"
+            }
+          ],
+          "notes": [
+            "Above section 2311 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 34L",
+      "course_title": "ADVANCED DIGITAL FILMMAKING LAB",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": "FILM 34.",
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is the laboratory component of Film 34. The laboratory projects will parallel the advanced filmmaking lecture topics taught in Film 34. The lab projects will foster advanced skills in producing, directing, cinematography, production design, sound recording, grip/electric, and editing. Students will produce elaborate and well-crafted original content based on narrative film scenes written by themselves or derived from scripts that have not yet been produced. These advanced projects will be filmed in their entirety in class, working in collaboration with all the students enrolled in the course.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4106",
+          "schedule": [
+            {
+              "time": "6:15p.m.-9:20p.m.",
+              "days": "F",
+              "location": "CMD 182",
+              "instructor": "Dada C"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "CMD 182",
+              "instructor": "Dada C"
+            }
+          ],
+          "notes": [
+            "Above section 4106 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 40",
+      "course_title": "CINEMATOGRAPHY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "In this hands-on course, students will delve into the art and craft of cinematography: the methods and techniques by which motion picture photography and lighting help give a film meaning and aesthetic purpose. Through lectures, demonstrations and exercises in a supervised classroom environment, students will learn to operate state-of-the-art digital and electronic equipment while applying the fundamental principles of lighting, composition, exposure, focus, lens selection, and camera dynamics into purposeful visual storytelling.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2312",
+          "schedule": [
+            {
+              "time": "8:00a.m.-12:05p.m.",
+              "days": "S",
+              "location": "CMD 182",
+              "instructor": "Solanki V M"
+            }
+          ],
+          "notes": [
+            "Above section 2312 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 41",
+      "course_title": "ADVANCED CINEMATOGRAPHY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Advanced study of the principles of Cinematography, which includes the technical and aesthetic discussion of film and digital cameras and their corresponding workflows. Film genres, lighting (light and shadows), composition, camera movement, and lens selection (Spherical & Anamorphic) are also discussed. The analysis of Cinematic Film format aspect ratios, their history and most common uses today, and a brief study of art history and painting. The interpretation of the meaning of color-related and applied to art direction, wardrobe, and production design, while carrying the process through color grading and color correction of the visual image (footage) to the ultimate presentation of the actual finished film.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2313",
+          "schedule": [
+            {
+              "time": "12:45p.m.-4:50p.m.",
+              "days": "S",
+              "location": "CMD 182",
+              "instructor": "Solanki V M"
+            }
+          ],
+          "notes": [
+            "Above section 2313 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 50",
+      "course_title": "PRODUCTION SOUND",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course provides a practical in-depth study of the fundamental aspects of recording and mixing production sound for film and television. Subjects include: introduction to production sound equipment, location sound recording and mixing techniques, on-set sound assessment and troubleshooting, digital audio workstation basics, along with dialogue and ADR (automated dialogue replacement) recording and editing.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2314",
+          "schedule": [
+            {
+              "time": "9:00a.m.-1:05p.m.",
+              "days": "S",
+              "location": "CMD 272",
+              "instructor": "Platt H H"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Platt H H"
+            }
+          ],
+          "notes": [
+            "Above section 2314 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "FILM 88A",
+      "course_title": "INDEPENDENT STUDIES IN FILM STUDIES",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Independent Studies” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2315",
+          "schedule": [
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Carrasco S"
+            }
+          ],
+          "notes": [
+            "Above section 2315 meets for 12 weeks, Sep 22 to Dec 12."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

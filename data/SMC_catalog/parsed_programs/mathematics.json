@@ -1,0 +1,3485 @@
+{
+  "program_name": "Mathematics",
+  "program_description": "Mathematicians use symbolic languages to set up and analyze relationships among quantities and qualities of things, events, and places. Pure mathematicians develop the theories to further the science of mathematics. Possible careers include actuary, computer engineer, cryptographer, satellite communications expert, robotics programmer, statistician and teacher. Students new to the Santa Monica College mathematics program who wish to enroll in a course should see the placement tab in their Corsair connect account. Mathematics placement based on high school GPA and highest math class taken in high school, or through Guided Self Placement (GSP). A student who has successfully completed college level math courses (earned a grade of C or better) at another institution may be able to verify having met prerequisites by submitting an official transcript. Continuing students must complete prerequisite courses with a grade of “C” or better.",
+  "courses": [
+    {
+      "course_code": "STAT C1000",
+      "course_title": "INTRODUCTION TO STATISTICS WITH MATH 54C, CONCURRENT SUPPORT FOR ELEMENTARY STATISTICS",
+      "units": "6 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
+      "special_notes": [],
+      "prerequisites": "•  MATH 18 or MATH 20 or MATH 49 or MATH 50.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": "MATH 54",
+      "description": "STAT C1000 is an introduction to statistical thinking and processes, including methods and concepts for discovery and decision-making using data. Topics include descriptive statistics; probability and sampling distributions; statistical inference; correlation and linear regression; analysis of variance, chi-squared, and t-tests; and application of technology for statistical analysis including the interpretation of the relevance of the statistical findings. Students apply methods and processes to applications using data from a broad range of disciplines. MATH 54C is a review of the core prerequisite skills, competencies, and concepts needed in statistics. Intended for students who are concurrently enrolled in STAT C1000, Introduction to Statistics. Topics include: concepts from arithmetic, pre-algebra, elementary and intermediate algebra that are needed to understand the basics of collegelevel statistics. Concepts are taught through the context of descriptive data analysis. Pass/No Pass only. CO-ENROLLMENT",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3115",
+          "schedule": [
+            {
+              "time": "8:00a.m.-10:05a.m.",
+              "days": "TTh",
+              "location": "MSB 212",
+              "instructor": "Kim J J"
+            }
+          ],
+          "notes": [
+            "Above section 3115 requires co-enrollment in MATH 54C section 2636. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2636"
+        },
+        {
+          "section_number": "2636",
+          "schedule": [
+            {
+              "time": "10:15a.m.-11:05a.m.",
+              "days": "TTh",
+              "location": "MSB 212",
+              "instructor": "Kim J J"
+            }
+          ],
+          "notes": [
+            "Above section 2636 requires co-enrollment in STAT C1000 section 3115. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "3115"
+        },
+        {
+          "section_number": "3119",
+          "schedule": [
+            {
+              "time": "9:30a.m.-11:35a.m.",
+              "days": "MW",
+              "location": "MSB 209",
+              "instructor": "Gizaw A"
+            }
+          ],
+          "notes": [
+            "Above section 3119 requires co-enrollment in MATH 54C section 2637. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2637"
+        },
+        {
+          "section_number": "2637",
+          "schedule": [
+            {
+              "time": "11:45a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "MSB 209",
+              "instructor": "Gizaw A"
+            }
+          ],
+          "notes": [
+            "Above section 2637 requires co-enrollment in STAT C1000 section 3119. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "3119"
+        },
+        {
+          "section_number": "3120",
+          "schedule": [
+            {
+              "time": "10:15a.m.-12:20p.m.",
+              "days": "MW",
+              "location": "BUNDY 213",
+              "instructor": "Bayssa B T"
+            }
+          ],
+          "notes": [
+            "Above section 3120 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 3120 requires co-enrollment in MATH 54C section 2638. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2638"
+        },
+        {
+          "section_number": "2638",
+          "schedule": [
+            {
+              "time": "12:30p.m.-1:20p.m.",
+              "days": "MW",
+              "location": "BUNDY 213",
+              "instructor": "Bayssa B T"
+            }
+          ],
+          "notes": [
+            "Above section 2638 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 2638 requires co-enrollment in STAT C1000 section 3120. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "3120"
+        },
+        {
+          "section_number": "3121",
+          "schedule": [
+            {
+              "time": "10:15a.m.-12:20p.m.",
+              "days": "MW",
+              "location": "MSB 212",
+              "instructor": "Foster M"
+            }
+          ],
+          "notes": [
+            "Above section 3121 requires co-enrollment in MATH 54C section 2639. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2639"
+        },
+        {
+          "section_number": "2639",
+          "schedule": [
+            {
+              "time": "12:30p.m.-1:20p.m.",
+              "days": "MW",
+              "location": "MSB 212",
+              "instructor": "Foster M"
+            }
+          ],
+          "notes": [
+            "Above section 2639 requires co-enrollment in STAT C1000 section 3121. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "3121"
+        },
+        {
+          "section_number": "3125",
+          "schedule": [
+            {
+              "time": "11:15a.m.-1:20p.m.",
+              "days": "MW",
+              "location": "BUNDY 217",
+              "instructor": "Foreman N J"
+            }
+          ],
+          "notes": [
+            "Above section 3125 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 3125 requires co-enrollment in MATH 54C section 2640. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2640"
+        },
+        {
+          "section_number": "2640",
+          "schedule": [
+            {
+              "time": "1:30p.m.-2:20p.m.",
+              "days": "MW",
+              "location": "BUNDY 217",
+              "instructor": "Foreman N J"
+            }
+          ],
+          "notes": [
+            "Above section 2640 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 2640 requires co-enrollment in STAT C1000 section 3125. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "3125"
+        },
+        {
+          "section_number": "3126",
+          "schedule": [
+            {
+              "time": "11:45a.m.-1:50p.m.",
+              "days": "MW",
+              "location": "PA 71",
+              "instructor": "Lopez J E"
+            }
+          ],
+          "notes": [
+            "Above section 3126 requires co-enrollment in MATH 54C section 2641. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2641"
+        },
+        {
+          "section_number": "2641",
+          "schedule": [
+            {
+              "time": "2:00p.m.-2:50p.m.",
+              "days": "MW",
+              "location": "PA 71",
+              "instructor": "Lopez J E"
+            }
+          ],
+          "notes": [
+            "Above section 2641 requires co-enrollment in STAT C1000 section 3126. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "3126"
+        },
+        {
+          "section_number": "3127",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:50p.m.",
+              "days": "MW",
+              "location": "MSB 102",
+              "instructor": "Simo A L"
+            }
+          ],
+          "notes": [
+            "Above section 3127 requires co-enrollment in MATH 54C section 2642. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2642"
+        },
+        {
+          "section_number": "2642",
+          "schedule": [
+            {
+              "time": "3:00p.m.-3:50p.m.",
+              "days": "MW",
+              "location": "MSB 102",
+              "instructor": "Simo A L"
+            }
+          ],
+          "notes": [
+            "Above section 2642 requires co-enrollment in STAT C1000 section 3127. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "3127"
+        },
+        {
+          "section_number": "3129",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:50p.m.",
+              "days": "MW",
+              "location": "CMD 107",
+              "instructor": "Lan H"
+            }
+          ],
+          "notes": [
+            "Above section 3129 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section 3129 requires co-enrollment in MATH 54C section 2643. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2643"
+        },
+        {
+          "section_number": "2643",
+          "schedule": [
+            {
+              "time": "3:00p.m.-3:50p.m.",
+              "days": "MW",
+              "location": "CMD 107",
+              "instructor": "Lan H"
+            }
+          ],
+          "notes": [
+            "Above section 2643 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section 2643 requires co-enrollment in STAT C1000 section 3129. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "3129"
+        },
+        {
+          "section_number": "3132",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:50p.m.",
+              "days": "TTh",
+              "location": "MSB 308",
+              "instructor": "Dean C R"
+            }
+          ],
+          "notes": [
+            "Above section 3132 requires co-enrollment in MATH 54C section 2644. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2644"
+        },
+        {
+          "section_number": "2644",
+          "schedule": [
+            {
+              "time": "3:00p.m.-3:50p.m.",
+              "days": "TTh",
+              "location": "MSB 308",
+              "instructor": "Dean C R"
+            }
+          ],
+          "notes": [
+            "Above section 2644 requires co-enrollment in STAT C1000 section 3132. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "3132"
+        },
+        {
+          "section_number": "3133",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:50p.m.",
+              "days": "TTh",
+              "location": "MSB 102",
+              "instructor": "Simo A L"
+            }
+          ],
+          "notes": [
+            "Above section 3133 requires co-enrollment in MATH 54C section 2645. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2645"
+        },
+        {
+          "section_number": "2645",
+          "schedule": [
+            {
+              "time": "3:00p.m.-3:50p.m.",
+              "days": "TTh",
+              "location": "MSB 102",
+              "instructor": "Simo A L"
+            }
+          ],
+          "notes": [
+            "Above section 2645 requires co-enrollment in STAT C1000 section 3133. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "3133"
+        },
+        {
+          "section_number": "3134",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:50p.m.",
+              "days": "TTh",
+              "location": "PA 71",
+              "instructor": "Lopez J E"
+            }
+          ],
+          "notes": [
+            "Above section 3134 requires co-enrollment in MATH 54C section 2646. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2646"
+        },
+        {
+          "section_number": "2646",
+          "schedule": [
+            {
+              "time": "3:00p.m.-3:50p.m.",
+              "days": "TTh",
+              "location": "PA 71",
+              "instructor": "Lopez J E"
+            }
+          ],
+          "notes": [
+            "Above section 2646 requires co-enrollment in STAT C1000 section 3134. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "3134"
+        },
+        {
+          "section_number": "3136",
+          "schedule": [
+            {
+              "time": "2:00p.m.-4:05p.m.",
+              "days": "TTh",
+              "location": "BUNDY 221",
+              "instructor": "Huang C Y"
+            }
+          ],
+          "notes": [
+            "Above section 3136 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 3136 requires co-enrollment in MATH 54C section 2647. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2647"
+        },
+        {
+          "section_number": "2647",
+          "schedule": [
+            {
+              "time": "4:15p.m.-5:05p.m.",
+              "days": "TTh",
+              "location": "BUNDY 221",
+              "instructor": "Huang C Y"
+            }
+          ],
+          "notes": [
+            "Above section 2647 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 2647 requires co-enrollment in STAT C1000 section 3136. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "3136"
+        },
+        {
+          "section_number": "3140",
+          "schedule": [
+            {
+              "time": "4:00p.m.-6:05p.m.",
+              "days": "T",
+              "location": "PA 71",
+              "instructor": "Jahangard E"
+            },
+            {
+              "time": "4:00p.m.-6:05p.m.",
+              "days": "Th",
+              "location": "ONLINE",
+              "instructor": "Jahangard E"
+            }
+          ],
+          "notes": [
+            "Above section 3140 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 3140 requires co-enrollment in MATH 54C section 4142."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": "4142"
+        },
+        {
+          "section_number": "4142",
+          "schedule": [
+            {
+              "time": "6:15p.m.-7:05p.m.",
+              "days": "T",
+              "location": "PA 71",
+              "instructor": "Jahangard E"
+            },
+            {
+              "time": "6:15p.m.-7:05p.m.",
+              "days": "Th",
+              "location": "ONLINE",
+              "instructor": "Jahangard E"
+            }
+          ],
+          "notes": [
+            "Above section 4142 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 4142 requires co-enrollment in STAT C1000 section 3140. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": "3140"
+        },
+        {
+          "section_number": "4191",
+          "schedule": [
+            {
+              "time": "5:00p.m.-7:05p.m.",
+              "days": "MW",
+              "location": "BUNDY 213",
+              "instructor": "Dabagh Sa M"
+            }
+          ],
+          "notes": [
+            "Above section 4191 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 4191 requires co-enrollment in MATH 54C section 4143. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "4143"
+        },
+        {
+          "section_number": "4143",
+          "schedule": [
+            {
+              "time": "7:15p.m.-8:05p.m.",
+              "days": "MW",
+              "location": "BUNDY 213",
+              "instructor": "Dabagh Sa M"
+            }
+          ],
+          "notes": [
+            "Above section 4143 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 4143 requires co-enrollment in STAT C1000 section 4191. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "4191"
+        },
+        {
+          "section_number": "3139",
+          "schedule": [
+            {
+              "time": "4:00p.m.-6:05p.m.",
+              "days": "MW",
+              "location": "MSB 203",
+              "instructor": "He F Y"
+            }
+          ],
+          "notes": [
+            "Above section 3139 requires co-enrollment in MATH 54C section 4141. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "4141"
+        },
+        {
+          "section_number": "4141",
+          "schedule": [
+            {
+              "time": "6:15p.m.-7:05p.m.",
+              "days": "MW",
+              "location": "MSB 203",
+              "instructor": "He F Y"
+            }
+          ],
+          "notes": [
+            "Above section 4141 requires co-enrollment in STAT C1000 section 4195. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "4195"
+        }
+      ]
+    },
+    {
+      "course_code": "STAT C1000",
+      "course_title": "INTRODUCTION TO STATISTICS",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "MATH 110",
+      "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
+      "special_notes": [],
+      "prerequisites": "•  Placement as determined by the college’s multiple measures assessment process or completion of a course taught at or above the level of intermediate algebra.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": "MATH 54",
+      "description": "This course is an introduction to statistical thinking and processes, including methods and concepts for discovery and decision-making using data. Topics include descriptive statistics; probability and sampling distributions; statistical inference; correlation and linear regression; analysis of variance, chi-squared, and t-tests; and application of technology for statistical analysis including the interpretation of the relevance of the statistical findings. Students apply methods and processes to applications using data from a broad range of disciplines.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3113",
+          "schedule": [
+            {
+              "time": "8:00a.m.-10:05a.m.",
+              "days": "MW",
+              "location": "BUNDY 213",
+              "instructor": "Bayssa B T"
+            }
+          ],
+          "notes": [
+            "Above section 3113 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3114",
+          "schedule": [
+            {
+              "time": "8:00a.m.-10:05a.m.",
+              "days": "MW",
+              "location": "MSB 212",
+              "instructor": "Tu W"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3116",
+          "schedule": [
+            {
+              "time": "8:00a.m.-10:05a.m.",
+              "days": "TTh",
+              "location": "BUNDY 213",
+              "instructor": "Gharamanians J"
+            }
+          ],
+          "notes": [
+            "Above section 3116 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3117",
+          "schedule": [
+            {
+              "time": "8:00a.m.-12:05p.m.",
+              "days": "F",
+              "location": "MSB 209",
+              "instructor": "Xie M C"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3141",
+          "schedule": [
+            {
+              "time": "8:15a.m.-10:20a.m.",
+              "days": "TTh",
+              "location": "MSB 203",
+              "instructor": "Foster M"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3118",
+          "schedule": [
+            {
+              "time": "9:00a.m.-11:05a.m.",
+              "days": "TTh",
+              "location": "MSB 205",
+              "instructor": "Vendlinski T P"
+            }
+          ],
+          "notes": [
+            "Above section 3118 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3122",
+          "schedule": [
+            {
+              "time": "10:15a.m.-12:20p.m.",
+              "days": "MW",
+              "location": "CMD 107",
+              "instructor": "Lan H"
+            }
+          ],
+          "notes": [
+            "Above section 3122 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3123",
+          "schedule": [
+            {
+              "time": "10:15a.m.-12:20p.m.",
+              "days": "TTh",
+              "location": "BUNDY 213",
+              "instructor": "Gharamanians J"
+            }
+          ],
+          "notes": [
+            "Above section 3123 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3124",
+          "schedule": [
+            {
+              "time": "10:30a.m.-12:35p.m.",
+              "days": "TTh",
+              "location": "BUNDY 221",
+              "instructor": "Huang C Y"
+            }
+          ],
+          "notes": [
+            "Above section 3124 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3128",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:50p.m.",
+              "days": "MW",
+              "location": "MSB 207",
+              "instructor": "Gizaw A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3130",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:50p.m.",
+              "days": "MW",
+              "location": "BUNDY 221",
+              "instructor": "Dean C R"
+            }
+          ],
+          "notes": [
+            "Above section 3130 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3131",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:50p.m.",
+              "days": "TTh",
+              "location": "MSB 207",
+              "instructor": "Chau E"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3135",
+          "schedule": [
+            {
+              "time": "1:30p.m.-3:35p.m.",
+              "days": "MW",
+              "location": "MSB 212",
+              "instructor": "Tu W"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3137",
+          "schedule": [
+            {
+              "time": "3:00p.m.-5:05p.m.",
+              "days": "MW",
+              "location": "MSB 211",
+              "instructor": "Martinez M G"
+            }
+          ],
+          "notes": [
+            "Above section 3137 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3138",
+          "schedule": [
+            {
+              "time": "3:00p.m.-5:05p.m.",
+              "days": "TTh",
+              "location": "MSB 207",
+              "instructor": "Chau E"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3142",
+          "schedule": [
+            {
+              "time": "Arrange-4.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Edinger G C"
+            }
+          ],
+          "notes": [
+            "Above section 3142 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3143",
+          "schedule": [
+            {
+              "time": "Arrange-4.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Phua N"
+            }
+          ],
+          "notes": [
+            "Above section 3143 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3144",
+          "schedule": [
+            {
+              "time": "Arrange-4.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Nguyen D T"
+            }
+          ],
+          "notes": [
+            "Above section 3144 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3145",
+          "schedule": [
+            {
+              "time": "Arrange-4.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Phua N"
+            }
+          ],
+          "notes": [
+            "Above section 3145 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3146",
+          "schedule": [
+            {
+              "time": "Arrange-4.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Saso M"
+            }
+          ],
+          "notes": [
+            "Above section 3146 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3147",
+          "schedule": [
+            {
+              "time": "Arrange-4.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Saso M"
+            }
+          ],
+          "notes": [
+            "Above section 3147 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3148",
+          "schedule": [
+            {
+              "time": "Arrange-4.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Edinger G C"
+            }
+          ],
+          "notes": [
+            "Above section 3148 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3149",
+          "schedule": [
+            {
+              "time": "Arrange-4.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Forbes J"
+            }
+          ],
+          "notes": [
+            "Above section 3149 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3150",
+          "schedule": [
+            {
+              "time": "Arrange-4.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Hancock M D"
+            }
+          ],
+          "notes": [
+            "Above section 3150 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3151",
+          "schedule": [
+            {
+              "time": "Arrange-4.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "McGraw C K"
+            }
+          ],
+          "notes": [
+            "Above section 3151 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3152",
+          "schedule": [
+            {
+              "time": "Arrange-4.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Edinger G C"
+            }
+          ],
+          "notes": [
+            "Above section 3152 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3153",
+          "schedule": [
+            {
+              "time": "Arrange-4.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Boosheri S G"
+            }
+          ],
+          "notes": [
+            "Above section 3153 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3154",
+          "schedule": [
+            {
+              "time": "Arrange-4.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Boosheri S G"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible. Above section has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3155",
+          "schedule": [
+            {
+              "time": "Arrange-9 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Nguyen D T"
+            }
+          ],
+          "notes": [
+            "Above section 3155 meets for 8 weeks, Oct 27 to Dec 19. Above section 3155 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer.",
+            "Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3156",
+          "schedule": [
+            {
+              "time": "Arrange-9 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Nguyen D T"
+            }
+          ],
+          "notes": [
+            "Above section 3156 meets for 8 weeks, Oct 27 to Dec 19. Above section 3156 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer.",
+            "Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "3157",
+          "schedule": [
+            {
+              "time": "Arrange-9 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Nguyen D T"
+            }
+          ],
+          "notes": [
+            "Above section 3157 meets for 8 weeks, Oct 27 to Dec 19. Above section 3157 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer.",
+            "Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4192",
+          "schedule": [
+            {
+              "time": "5:00p.m.-7:05p.m.",
+              "days": "TTh",
+              "location": "BUNDY 213",
+              "instructor": "Dabagh Sa M"
+            }
+          ],
+          "notes": [
+            "Above section 4192 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4193",
+          "schedule": [
+            {
+              "time": "5:15p.m.-7:20p.m.",
+              "days": "MW",
+              "location": "MSB 211",
+              "instructor": "Martinez M G"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4194",
+          "schedule": [
+            {
+              "time": "5:15p.m.-7:20p.m.",
+              "days": "TTh",
+              "location": "MSB 307",
+              "instructor": "Mardirosian R"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4195",
+          "schedule": [
+            {
+              "time": "7:35p.m.-9:40p.m.",
+              "days": "MW",
+              "location": "MSB 203",
+              "instructor": "Fendi H Y"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4196",
+          "schedule": [
+            {
+              "time": "7:35p.m.-9:40p.m.",
+              "days": "TTh",
+              "location": "MSB 307",
+              "instructor": "Mardirosian R"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MATH 2",
+      "course_title": "PRECALCULUS WITH MATH 2C, CONCURRENT SUPPORT FOR PRECALCULUS",
+      "units": "7 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
+      "special_notes": [
+        "*Maximum UC credit for Math 2, Math 4, and Math 26 is one course."
+      ],
+      "prerequisites": "•  Math 20 and Math 32.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "An intensive preparation for calculus. This course is intended for computer science, engineering, mathematics, and natural science majors. Topics include algebraic, exponential, logarithmic and trigonometric functions and their inverses and identities, conic sections, sequences, series, the binomial theorem and mathematical induction.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2538",
+          "schedule": [
+            {
+              "time": "7:00a.m.-8:05a.m.",
+              "days": "MTWTh",
+              "location": "MSB 203",
+              "instructor": "Quevedo J M"
+            }
+          ],
+          "notes": [
+            "Above section 2538 requires co-enrollment in MATH 2C section 2623. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2623"
+        },
+        {
+          "section_number": "2623",
+          "schedule": [
+            {
+              "time": "8:15a.m.-9:35a.m.",
+              "days": "MW",
+              "location": "MSB 203",
+              "instructor": "Quevedo J M"
+            }
+          ],
+          "notes": [
+            "Above section 2623 requires co-enrollment in MATH 2 section 2538. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2538"
+        },
+        {
+          "section_number": "2540",
+          "schedule": [
+            {
+              "time": "8:15a.m.-9:20a.m.",
+              "days": "MTWTh",
+              "location": "MSB 211",
+              "instructor": "Ross K R"
+            }
+          ],
+          "notes": [
+            "Above section 2540 requires co-enrollment in MATH 2C section 2624. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2624"
+        },
+        {
+          "section_number": "2624",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "MW",
+              "location": "MSB 211",
+              "instructor": "Ross K R"
+            }
+          ],
+          "notes": [
+            "Above section 2624 requires co-enrollment in MATH 2 section 2540. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2540"
+        },
+        {
+          "section_number": "2542",
+          "schedule": [
+            {
+              "time": "8:15a.m.-9:20a.m.",
+              "days": "MTWTh",
+              "location": "MSB 207",
+              "instructor": "Lee P H"
+            }
+          ],
+          "notes": [
+            "Above section 2542 requires co-enrollment in MATH 2C section 2625. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2625"
+        },
+        {
+          "section_number": "2625",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "MSB 207",
+              "instructor": "Lee P H"
+            }
+          ],
+          "notes": [
+            "Above section 2625 requires co-enrollment in MATH 2 section 2542. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2542"
+        },
+        {
+          "section_number": "2543",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:35a.m.",
+              "days": "MTWTh",
+              "location": "MSB 302",
+              "instructor": "Miano I A"
+            }
+          ],
+          "notes": [
+            "Above section 2543 requires co-enrollment in MATH 2C section 2626. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2626"
+        },
+        {
+          "section_number": "2626",
+          "schedule": [
+            {
+              "time": "10:45a.m.-12:05p.m.",
+              "days": "MW",
+              "location": "MSB 302",
+              "instructor": "Miano I A"
+            }
+          ],
+          "notes": [
+            "Above section 2626 requires co-enrollment in MATH 2 section 2543. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2543"
+        },
+        {
+          "section_number": "2544",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:35a.m.",
+              "days": "MTWTh",
+              "location": "MSB 307",
+              "instructor": "London J S"
+            }
+          ],
+          "notes": [
+            "Above section 2544 requires co-enrollment in MATH 2C section 2627. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2627"
+        },
+        {
+          "section_number": "2627",
+          "schedule": [
+            {
+              "time": "10:45a.m.-12:05p.m.",
+              "days": "MW",
+              "location": "MSB 307",
+              "instructor": "London J S"
+            }
+          ],
+          "notes": [
+            "Above section 2627 requires co-enrollment in MATH 2 section 2544. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2544"
+        },
+        {
+          "section_number": "2546",
+          "schedule": [
+            {
+              "time": "10:00a.m.-11:05a.m.",
+              "days": "MTWTh",
+              "location": "MSB 201",
+              "instructor": "Quevedo J M"
+            }
+          ],
+          "notes": [
+            "Above section 2546 requires co-enrollment in MATH 2C section 2628. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2628"
+        },
+        {
+          "section_number": "2628",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "MSB 201",
+              "instructor": "Quevedo J M"
+            }
+          ],
+          "notes": [
+            "Above section 2628 requires co-enrollment in MATH 2 section 2546. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2546"
+        },
+        {
+          "section_number": "4120",
+          "schedule": [
+            {
+              "time": "4:30p.m.-5:35p.m.",
+              "days": "MTWTh",
+              "location": "MSB 212",
+              "instructor": "Chan H J"
+            }
+          ],
+          "notes": [
+            "Above section 4120 requires co-enrollment in MATH 2C section 4138. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "4138"
+        },
+        {
+          "section_number": "4138",
+          "schedule": [
+            {
+              "time": "5:45p.m.-7:05p.m.",
+              "days": "TTh",
+              "location": "MSB 212",
+              "instructor": "Chan H J"
+            }
+          ],
+          "notes": [
+            "Above section 4138 requires co-enrollment in MATH 2 section 4120. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "4120"
+        },
+        {
+          "section_number": "4121",
+          "schedule": [
+            {
+              "time": "4:30p.m.-5:35p.m.",
+              "days": "MTWTh",
+              "location": "MSB 102",
+              "instructor": "Musselman M J"
+            }
+          ],
+          "notes": [
+            "Above section 4121 requires co-enrollment in MATH 2C section 4139. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "4139"
+        },
+        {
+          "section_number": "4139",
+          "schedule": [
+            {
+              "time": "5:45p.m.-7:05p.m.",
+              "days": "TTh",
+              "location": "MSB 102",
+              "instructor": "Musselman M J"
+            }
+          ],
+          "notes": [
+            "Above section 4139 requires co-enrollment in MATH 2 section 4121. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "4121"
+        },
+        {
+          "section_number": "4123",
+          "schedule": [
+            {
+              "time": "5:30p.m.-6:35p.m.",
+              "days": "MTWTh",
+              "location": "MSB 207",
+              "instructor": "Karkafi R H"
+            }
+          ],
+          "notes": [
+            "Above section 4123 requires co-enrollment in MATH 2C section 4140. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "4140"
+        },
+        {
+          "section_number": "4140",
+          "schedule": [
+            {
+              "time": "6:45p.m.-8:05p.m.",
+              "days": "MW",
+              "location": "MSB 207",
+              "instructor": "Karkafi R H"
+            }
+          ],
+          "notes": [
+            "Above section 4140 requires co-enrollment in MATH 2 section 4123. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "4123"
+        }
+      ]
+    },
+    {
+      "course_code": "MATH 2",
+      "course_title": "PRECALCULUS",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
+      "special_notes": [],
+      "prerequisites": "•  MATH 20 and MATH 32.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "*Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units. An intensive preparation for calculus. This course is intended for computer science, engineering, mathematics, and natural science majors. Topics include algebraic, exponential, logarithmic and trigonometric functions and their inverses and identities, conic sections, sequences, series, the binomial theorem and mathematical induction.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2539",
+          "schedule": [
+            {
+              "time": "8:00a.m.-10:25a.m.",
+              "days": "MW",
+              "location": "MSB 306",
+              "instructor": "Lopez Ma"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2541",
+          "schedule": [
+            {
+              "time": "8:15a.m.-9:20a.m.",
+              "days": "MTWTh",
+              "location": "MSB 201",
+              "instructor": "Rodas B G"
+            }
+          ],
+          "notes": [
+            "Above section 2541 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2545",
+          "schedule": [
+            {
+              "time": "9:30a.m.-11:00a.m.",
+              "days": "TThF",
+              "location": "MSB 306",
+              "instructor": "Hong A M"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2549",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:10p.m.",
+              "days": "TTh",
+              "location": "MSB 303",
+              "instructor": "Lopez Ma"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2550",
+          "schedule": [
+            {
+              "time": "Arrange-5.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Phua N"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible. Above section has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2551",
+          "schedule": [
+            {
+              "time": "Arrange-5.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Phung Q T"
+            }
+          ],
+          "notes": [
+            "Above section 2551 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4125",
+          "schedule": [
+            {
+              "time": "4:45p.m.-7:10p.m.",
+              "days": "MW",
+              "location": "MSB 101",
+              "instructor": "Jiang J"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4122",
+          "schedule": [
+            {
+              "time": "5:00p.m.-7:25p.m.",
+              "days": "MW",
+              "location": "MSB 210",
+              "instructor": "Ramsey E D"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4124",
+          "schedule": [
+            {
+              "time": "7:35p.m.-10:00p.m.",
+              "days": "MW",
+              "location": "MSB 205",
+              "instructor": "Chitgar M H"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MATH 3",
+      "course_title": "TRIGONOMETRY WITH APPLICATIONS WITH MATH 3C, CONCURRENT SUPPORT FOR TRIGONOMETRY WITH APPLICATIONS",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "•  MATH 20 and MATH 32.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "MATH 4 and eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). Math 3 in combination with Math 4 (College Algebra for STEM Majors) serves as a prerequisite for Math 7 (Calculus 1). The course includes a study of the properties and graphs of trigonometric and inverse trigonometric functions, trigonometric identities, solutions of triangles, trigonometric equations, parametric equations, polar coordinates and polar equations, the algebra of vectors in two and three dimensions and topics from analytic geometry and applications. The co-requisite Math 3C is a review of the core prerequisite skills, competencies, and concepts needed in trigonometry. Intended for students who are concurrently enrolled in Math 3, Trigonometry with Applications. Topics include concepts from elementary and intermediate algebra and analytic geometry that are needed to understand the basics of trigonometry. Emphasis is placed on studying angles and their properties; geometric figures including circles and triangles; factoring and simplifying algebraic expressions; equations and graphs of circles; introduction to functions; fundamental operations on algebraic expressions and functions. Pass/No Pass only. CO-ENROLLMENT",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2553",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "MSB 306",
+              "instructor": "Hong A M"
+            }
+          ],
+          "notes": [
+            "Above section 2553 requires co-enrollment in MATH 3C section 2631. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2631"
+        },
+        {
+          "section_number": "2631",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:05p.m.",
+              "days": "TTh",
+              "location": "MSB 306",
+              "instructor": "Hong A M"
+            }
+          ],
+          "notes": [
+            "Above section 2631 requires co-enrollment in MATH 3 section 2553. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2553"
+        }
+      ]
+    },
+    {
+      "course_code": "MATH 3",
+      "course_title": "TRIGONOMETRY WITH APPLICATIONS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "•  MATH 20 and MATH 32.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "MATH 4 and eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). Math 3 in combination with Math 4 (College Algebra for STEM Majors) serves as a prerequisite for Math 7 (Calculus 1). The course includes a study of the properties and graphs of trigonometric and inverse trigonometric functions, trigonometric identities, solutions of triangles, trigonometric equations, parametric equations, polar coordinates and polar equations, the algebra of vectors in two and three dimensions and topics from analytic geometry and applications.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2552",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "TTh",
+              "location": "MSB 212",
+              "instructor": "Kim J J"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2554",
+          "schedule": [
+            {
+              "time": "3:00p.m.-4:20p.m.",
+              "days": "MW",
+              "location": "MSB 202",
+              "instructor": "Jiang J"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2555",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Richardson A"
+            }
+          ],
+          "notes": [
+            "Above section 2555 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MATH 4",
+      "course_title": "COLLEGE ALGEBRA FOR STEM MAJORS WITH MATH 4C, CONCURRENT SUPPORT FOR COLLEGE ALGEBRA FOR STEM MAJORS",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 2: Mathematical Concepts and Quantitative Reasoning",
+      "special_notes": [
+        "*Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units."
+      ],
+      "prerequisites": "•  MATH 20.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). MATH 4 in combination with MATH 3 (Trigonometry with applications) serves as a prerequisite for Math 7 (Calculus 1). The topics to be covered include review of the fundamentals of algebra, relations, functions, solutions of first and second degree equations and inequalities, systems of equations, matrices, binomial theorem, mathematical induction, polynomial and rational functions, exponential and logarithmic functions, analytic geometry and conic sections, and geometric and arithmetic sequences and series. The corequisite MATH 4C is a review of the core prerequisite skills, competencies, and concepts needed in College Algebra. Intended for students who are concurrently enrolled in MATH 4, College Algebra for STEM Majors. Topics include concepts from elementary and intermediate algebra and analytic geometry that are needed to understand the basics of college-level algebra. Emphasis is placed on real and complex numbers; fundamental operations on algebraic expressions and functions; factoring and simplifying algebraic expressions; introduction to functions, solving equations and systems of linear equations; graphs of elementary functions and their properties. Pass/No Pass only. CO-ENROLLMENT",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2556",
+          "schedule": [
+            {
+              "time": "8:00a.m.-10:05a.m.",
+              "days": "MW",
+              "location": "BUNDY 217",
+              "instructor": "Tsvikyan A"
+            }
+          ],
+          "notes": [
+            "Above section 2556 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 2556 requires co-enrollment in MATH 4C section 2632. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2632"
+        },
+        {
+          "section_number": "2632",
+          "schedule": [
+            {
+              "time": "10:15a.m.-11:05a.m.",
+              "days": "MW",
+              "location": "BUNDY 217",
+              "instructor": "Tsvikyan A"
+            }
+          ],
+          "notes": [
+            "Above section 2632 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 2632 requires co-enrollment in MATH 4 section 2556. Above section modality is",
+            "On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2556"
+        },
+        {
+          "section_number": "2557",
+          "schedule": [
+            {
+              "time": "9:00a.m.-11:05a.m.",
+              "days": "MW",
+              "location": "BUNDY 221",
+              "instructor": "Evinyan Z"
+            }
+          ],
+          "notes": [
+            "Above section 2557 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 2557 requires co-enrollment in MATH 4C section 2633. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2633"
+        },
+        {
+          "section_number": "2633",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:05p.m.",
+              "days": "MW",
+              "location": "BUNDY 221",
+              "instructor": "Evinyan Z"
+            }
+          ],
+          "notes": [
+            "Above section 2633 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 2633 requires co-enrollment in MATH 4 section 2557. Above section modality is",
+            "On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2557"
+        },
+        {
+          "section_number": "2558",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:50p.m.",
+              "days": "MW",
+              "location": "MSB 308",
+              "instructor": "Lopez Ma"
+            }
+          ],
+          "notes": [
+            "Above section 2558 requires co-enrollment in MATH 4C section 2634. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2634"
+        },
+        {
+          "section_number": "2634",
+          "schedule": [
+            {
+              "time": "3:00p.m.-3:50p.m.",
+              "days": "MW",
+              "location": "MSB 308",
+              "instructor": "Lopez Ma"
+            }
+          ],
+          "notes": [
+            "Above section 2634 requires co-enrollment in MATH 4 section 2558. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2558"
+        },
+        {
+          "section_number": "2559",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:50p.m.",
+              "days": "T",
+              "location": "MSB 212",
+              "instructor": "Bene A J"
+            },
+            {
+              "time": "12:45p.m.-2:50p.m.",
+              "days": "Th",
+              "location": "ONLINE",
+              "instructor": "Bene A J"
+            }
+          ],
+          "notes": [
+            "Above section 2559 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2559 requires co-enrollment in MATH 4C section 2635."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": "2635"
+        },
+        {
+          "section_number": "2635",
+          "schedule": [
+            {
+              "time": "3:00p.m.-3:50p.m.",
+              "days": "T",
+              "location": "MSB 212",
+              "instructor": "Bene A J"
+            },
+            {
+              "time": "3:00p.m.-3:50p.m.",
+              "days": "Th",
+              "location": "ONLINE",
+              "instructor": "Bene A J"
+            }
+          ],
+          "notes": [
+            "Above section 2635 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 2635 requires co-enrollment in MATH 4 section 2559."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": "2559"
+        }
+      ]
+    },
+    {
+      "course_code": "MATH 4",
+      "course_title": "COLLEGE ALGEBRA FOR STEM MAJORS",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
+      "special_notes": [],
+      "prerequisites": "•  MATH 20.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "*Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units. This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). Math 4 in combination with Math 3 (Trigonometry with applications) serves as a prerequisite for Math 7 (Calculus 1). The topics to be covered include review of the fundamentals of algebra, relations, functions, solutions of first and second degree equations and inequalities, systems of equations, matrices, binomial theorem, mathematical induction, polynomial and rational functions, exponential and logarithmic functions, analytic geometry and conic sections, and geometric and arithmetic sequences and series.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2560",
+          "schedule": [
+            {
+              "time": "Arrange-4.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Phung Q T"
+            }
+          ],
+          "notes": [
+            "Above section 2560 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MATH 7",
+      "course_title": "CALCULUS 1",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "MATH 211",
+      "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
+      "special_notes": [
+        "*Maximum UC credit for MATH 7 and MATH 28 is one course."
+      ],
+      "prerequisites": "MATH 2 or (MATH 3 and MATH 4).",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This first course in calculus is intended primarily for science, technology, engineering and mathematics majors. Topics include limits, continuity, and derivatives and integrals of algebraic and trigonometric functions, with mathematical and physical applications.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2561",
+          "schedule": [
+            {
+              "time": "7:00a.m.-8:05a.m.",
+              "days": "MTWTh",
+              "location": "MSB 209",
+              "instructor": "Foster M"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2562",
+          "schedule": [
+            {
+              "time": "7:45a.m.-9:15a.m.",
+              "days": "TThF",
+              "location": "MSB 306",
+              "instructor": "Hong A M"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2563",
+          "schedule": [
+            {
+              "time": "8:00a.m.-10:25a.m.",
+              "days": "MW",
+              "location": "MSB 102",
+              "instructor": "Cho M"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2564",
+          "schedule": [
+            {
+              "time": "8:00a.m.-10:25a.m.",
+              "days": "TTh",
+              "location": "CMD 107",
+              "instructor": "Graves L P"
+            }
+          ],
+          "notes": [
+            "Above section 2564 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2565",
+          "schedule": [
+            {
+              "time": "8:15a.m.-9:20a.m.",
+              "days": "MTWTh",
+              "location": "MSB 209",
+              "instructor": "Konya W"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2566",
+          "schedule": [
+            {
+              "time": "8:15a.m.-9:20a.m.",
+              "days": "MTTh",
+              "location": "ONLINE",
+              "instructor": "Bene A J"
+            },
+            {
+              "time": "8:15a.m.-9:20a.m.",
+              "days": "W",
+              "location": "MSB 208",
+              "instructor": "Bene A J"
+            }
+          ],
+          "notes": [
+            "Above section 2566 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2567",
+          "schedule": [
+            {
+              "time": "9:00a.m.-11:25a.m.",
+              "days": "TTh",
+              "location": "MSB 210",
+              "instructor": "Soleymani S"
+            }
+          ],
+          "notes": [
+            "Above section 2567 is part of the STEM/MAS program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/stem for more information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2568",
+          "schedule": [
+            {
+              "time": "9:30a.m.-11:55a.m.",
+              "days": "TTh",
+              "location": "MSB 209",
+              "instructor": "Harjuno T"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2569",
+          "schedule": [
+            {
+              "time": "10:00a.m.-12:25p.m.",
+              "days": "MW",
+              "location": "MSB 210",
+              "instructor": "Lee P H"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2570",
+          "schedule": [
+            {
+              "time": "11:00a.m.-1:25p.m.",
+              "days": "TTh",
+              "location": "CMD 107",
+              "instructor": "Graves L P"
+            }
+          ],
+          "notes": [
+            "Above section 2570 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2571",
+          "schedule": [
+            {
+              "time": "11:15a.m.-1:40p.m.",
+              "days": "MW",
+              "location": "MSB 306",
+              "instructor": "Baskauskas V A"
+            }
+          ],
+          "notes": [
+            "Above section 2571 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2572",
+          "schedule": [
+            {
+              "time": "11:15a.m.-1:40p.m.",
+              "days": "MW",
+              "location": "MSB 101",
+              "instructor": "Herichi H"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2573",
+          "schedule": [
+            {
+              "time": "12:45p.m.-1:50p.m.",
+              "days": "MTWTh",
+              "location": "MSB 201",
+              "instructor": "Pachas-Flores W"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2574",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:10p.m.",
+              "days": "MW",
+              "location": "MSB 205",
+              "instructor": "Jahangard E"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2575",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:10p.m.",
+              "days": "TTh",
+              "location": "MSB 101",
+              "instructor": "Hancock M D"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2576",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:10p.m.",
+              "days": "TTh",
+              "location": "MSB 211",
+              "instructor": "London J S"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2577",
+          "schedule": [
+            {
+              "time": "1:00p.m.-3:25p.m.",
+              "days": "TTh",
+              "location": "MSB 203",
+              "instructor": "Wang J D"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2578",
+          "schedule": [
+            {
+              "time": "1:30p.m.-3:55p.m.",
+              "days": "MW",
+              "location": "BUNDY 213",
+              "instructor": "Kamin G"
+            }
+          ],
+          "notes": [
+            "Above section 2578 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2579",
+          "schedule": [
+            {
+              "time": "2:00p.m.-3:05p.m.",
+              "days": "MTWTh",
+              "location": "MSB 201",
+              "instructor": "Pachas-Flores W"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2580",
+          "schedule": [
+            {
+              "time": "2:00p.m.-4:25p.m.",
+              "days": "TTh",
+              "location": "BUNDY 213",
+              "instructor": "England A M"
+            }
+          ],
+          "notes": [
+            "Above section 2580 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2581",
+          "schedule": [
+            {
+              "time": "2:15p.m.-4:40p.m.",
+              "days": "MW",
+              "location": "MSB 209",
+              "instructor": "Smith S P"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2582",
+          "schedule": [
+            {
+              "time": "2:30p.m.-4:55p.m.",
+              "days": "MW",
+              "location": "BUNDY 217",
+              "instructor": "England A M"
+            }
+          ],
+          "notes": [
+            "Above section 2582 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2583",
+          "schedule": [
+            {
+              "time": "Arrange-5.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Phung Q T"
+            }
+          ],
+          "notes": [
+            "Above section 2583 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2584",
+          "schedule": [
+            {
+              "time": "Arrange-5.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Phua N"
+            }
+          ],
+          "notes": [
+            "Above section 2584 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4126",
+          "schedule": [
+            {
+              "time": "7:35p.m.-10:00p.m.",
+              "days": "TTh",
+              "location": "MSB 205",
+              "instructor": "Man S"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MATH 8",
+      "course_title": "CALCULUS 2",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "MATH 221",
+      "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
+      "special_notes": [],
+      "prerequisites": "•  MATH 7. *Maximum UC credit for MATH 8 and MATH 29 is one course. This second course in calculus is intended primarily for science, technology, engineering, and mathematics majors.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Topics include derivatives and integrals of transcendental functions with mathematical and physical applications, indeterminate forms and improper integrals, infinite sequences and series, and curves, including conic sections, described by parametric equations and polar coordinates.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2585",
+          "schedule": [
+            {
+              "time": "8:15a.m.-9:20a.m.",
+              "days": "MTWTh",
+              "location": "MSB 206",
+              "instructor": "Ouellette K R"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2586",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:35a.m.",
+              "days": "MTWTh",
+              "location": "MSB 303",
+              "instructor": "Lai I"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground. Above section 2586 is part of the STEM/MAS program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/stem for more information."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2587",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:35a.m.",
+              "days": "MTWTh",
+              "location": "MSB 206",
+              "instructor": "Ouellette K R"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2588",
+          "schedule": [
+            {
+              "time": "12:45p.m.-1:50p.m.",
+              "days": "MTWTh",
+              "location": "MSB 209",
+              "instructor": "Soleymani S"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2589",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:10p.m.",
+              "days": "TTh",
+              "location": "MSB 208",
+              "instructor": "Konya W"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2590",
+          "schedule": [
+            {
+              "time": "1:15p.m.-3:40p.m.",
+              "days": "MW",
+              "location": "MSB 203",
+              "instructor": "Wang J D"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2591",
+          "schedule": [
+            {
+              "time": "2:15p.m.-4:40p.m.",
+              "days": "MW",
+              "location": "MSB 306",
+              "instructor": "Baskauskas V A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2592",
+          "schedule": [
+            {
+              "time": "4:00p.m.-6:25p.m.",
+              "days": "TTh",
+              "location": "MSB 306",
+              "instructor": "Man S"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2593",
+          "schedule": [
+            {
+              "time": "Arrange-5.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Richardson A"
+            }
+          ],
+          "notes": [
+            "Above section 2593 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4128",
+          "schedule": [
+            {
+              "time": "7:35p.m.-10:00p.m.",
+              "days": "TTh",
+              "location": "MSB 209",
+              "instructor": "Askarian S N"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MATH 10",
+      "course_title": "DISCRETE STRUCTURES",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
+      "special_notes": [],
+      "prerequisites": "•  MATH 8.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": "same course as CS 10",
+      "description": "This course is intended for computer science, engineering, and mathematics majors. Topics include proof techniques, cardinality of sets, partial orderings and equivalence relations, symbolic logic and valid arguments, permutations and combinations with repetition, and an introduction to graph theory.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4129",
+          "schedule": [
+            {
+              "time": "5:15p.m.-6:35p.m.",
+              "days": "MW",
+              "location": "MSB 302",
+              "instructor": "Pachas-Flores W"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MATH 11",
+      "course_title": "MULTIVARIABLE CALCULUS",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "MATH 230",
+      "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
+      "special_notes": [],
+      "prerequisites": "•  MATH 8.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Topics include vectors and analytic geometry in two and three dimensions, vector functions with applications, partial derivatives, extrema, Lagrange Multipliers, multiple integrals with applications, vector fields. Green’s Theorem, the Divergence Theorem, and Stokes’ Theorem.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2594",
+          "schedule": [
+            {
+              "time": "8:15a.m.-9:20a.m.",
+              "days": "MTWTh",
+              "location": "MSB 101",
+              "instructor": "Herichi H"
+            }
+          ],
+          "notes": [
+            "Above section 2594 is part of the STEM/MAS program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/stem for more information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2595",
+          "schedule": [
+            {
+              "time": "9:30a.m.-11:55a.m.",
+              "days": "MW",
+              "location": "MSB 205",
+              "instructor": "Soleymani S"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2596",
+          "schedule": [
+            {
+              "time": "9:30a.m.-11:55a.m.",
+              "days": "MW",
+              "location": "MSB 207",
+              "instructor": "Konya W"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2597",
+          "schedule": [
+            {
+              "time": "10:00a.m.-12:25p.m.",
+              "days": "M",
+              "location": "ONLINE",
+              "instructor": "Bene A J"
+            },
+            {
+              "time": "10:00a.m.-12:25p.m.",
+              "days": "W",
+              "location": "MSB 208",
+              "instructor": "Bene A J"
+            }
+          ],
+          "notes": [
+            "Above section 2597 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2598",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:10p.m.",
+              "days": "MW",
+              "location": "MSB 206",
+              "instructor": "Lai I"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MATH 13",
+      "course_title": "LINEAR ALGEBRA",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "MATH 250",
+      "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
+      "special_notes": [],
+      "prerequisites": "•  MATH 8.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Topics include matrices and linear transformations; abstract vector spaces and subspaces; linear independence and bases; determinants; systems of linear equations; eigenvalues and eigenvectors.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2599",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "MW",
+              "location": "MSB 101",
+              "instructor": "Herichi H"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2600",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "MSB 101",
+              "instructor": "Herichi H"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4130",
+          "schedule": [
+            {
+              "time": "5:15p.m.-6:35p.m.",
+              "days": "MW",
+              "location": "MSB 205",
+              "instructor": "Jahangard E"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4131",
+          "schedule": [
+            {
+              "time": "7:35p.m.-8:55p.m.",
+              "days": "MW",
+              "location": "MSB 209",
+              "instructor": "Askarian S N"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MATH 15",
+      "course_title": "ORDINARY DIFFERENTIAL EQUATIONS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "MATH 240",
+      "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
+      "special_notes": [],
+      "prerequisites": "•  MATH 8.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is an introduction to ordinary differential equations. Topics include first order equations, linear equations, reduction of order, variation of parameters, spring motion and other applications, Cauchy-Euler equations, power series solutions, Laplace transform, and systems of linear differential equations.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2601",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "MSB 303",
+              "instructor": "Ouellette K R"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2602",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "MSB 205",
+              "instructor": "Ouellette K R"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4132",
+          "schedule": [
+            {
+              "time": "5:15p.m.-6:35p.m.",
+              "days": "TTh",
+              "location": "MSB 211",
+              "instructor": "Pachas-Flores W"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MATH 21",
+      "course_title": "FINITE MATHEMATIC WITH MATH 21C, CONCURRENT SUPPORT FOR FINITE MATHEMATICS",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
+      "special_notes": [],
+      "prerequisites": "MATH 18 or MATH 20 or MATH 49 or MATH 50.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is a terminal mathematics course for liberal arts and social science majors. Topics include sets and counting, probability, linear systems, linear programming, statistics, and mathematics of finance, with emphasis on applications. The corequisite Math 21C provides a review of the core prerequisite skills, competencies, and concepts needed for students who are concurrently enrolled in Finite Mathematics. Topics include theory, procedures, and practices from pre-algebra, beginning algebra, and intermediate algebra. Particular attention is paid to solving and graphing linear equations and inequalities, problem-solving and modeling strategies, translating and interpreting language for the purpose of formulating mathematical phrases and statements, simplifying arithmetic and algebraic expressions, and learning to use the appropriate technology (typically scientific calculators) needed in Math 21. Pass/No Pass only. CO-ENROLLMENT",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2604",
+          "schedule": [
+            {
+              "time": "10:15a.m.-11:35a.m.",
+              "days": "TTh",
+              "location": "BUNDY 228",
+              "instructor": "Maknouni M"
+            }
+          ],
+          "notes": [
+            "Above section 2604 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 2604 requires co-enrollment in MATH 21C section 2614. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2614"
+        },
+        {
+          "section_number": "2614",
+          "schedule": [
+            {
+              "time": "11:45a.m.-12:35p.m.",
+              "days": "T",
+              "location": "BUNDY 228",
+              "instructor": "Maknouni M"
+            }
+          ],
+          "notes": [
+            "Above section 2614 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 2614 requires co-enrollment in MATH 21 section 2604. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2604"
+        },
+        {
+          "section_number": "2605",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "MSB 211",
+              "instructor": "Ross K R"
+            }
+          ],
+          "notes": [
+            "Above section 2605 requires co-enrollment in MATH 21C section 2615. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2615"
+        },
+        {
+          "section_number": "2615",
+          "schedule": [
+            {
+              "time": "12:45p.m.-1:35p.m.",
+              "days": "M",
+              "location": "MSB 211",
+              "instructor": "Ross K R"
+            }
+          ],
+          "notes": [
+            "Above section 2615 requires co-enrollment in MATH 21 section 2605. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2605"
+        },
+        {
+          "section_number": "2607",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "MSB 307",
+              "instructor": "Miano I A"
+            }
+          ],
+          "notes": [
+            "Above section 2607 requires co-enrollment in MATH 21C section 2617. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2617"
+        },
+        {
+          "section_number": "2617",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:05p.m.",
+              "days": "W",
+              "location": "MSB 307",
+              "instructor": "Miano I A"
+            }
+          ],
+          "notes": [
+            "Above section 2617 requires co-enrollment in MATH 21 section 2607. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2607"
+        },
+        {
+          "section_number": "2608",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "MSB 206",
+              "instructor": "Ross K R"
+            }
+          ],
+          "notes": [
+            "Above section 2608 requires co-enrollment in MATH 21C section 2618. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2618"
+        },
+        {
+          "section_number": "2618",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:05p.m.",
+              "days": "Th",
+              "location": "MSB 206",
+              "instructor": "Ross K R"
+            }
+          ],
+          "notes": [
+            "Above section 2618 requires co-enrollment in MATH 21 section 2608. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2608"
+        },
+        {
+          "section_number": "2609",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "TTh",
+              "location": "MSB 307",
+              "instructor": "Bronie B L"
+            }
+          ],
+          "notes": [
+            "Above section 2609 requires co-enrollment in MATH 21C section 2616. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2616"
+        },
+        {
+          "section_number": "2616",
+          "schedule": [
+            {
+              "time": "3:45p.m.-4:35p.m.",
+              "days": "T",
+              "location": "MSB 307",
+              "instructor": "Bronie B L"
+            }
+          ],
+          "notes": [
+            "Above section 2616 requires co-enrollment in MATH 21 section 2609. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2609"
+        },
+        {
+          "section_number": "2611",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "MW",
+              "location": "MSB 208",
+              "instructor": "Bronie B L"
+            }
+          ],
+          "notes": [
+            "Above section 2611 requires co-enrollment in MATH 21C section 2619. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2619"
+        },
+        {
+          "section_number": "2619",
+          "schedule": [
+            {
+              "time": "3:45p.m.-4:35p.m.",
+              "days": "W",
+              "location": "MSB 208",
+              "instructor": "Bronie B L"
+            }
+          ],
+          "notes": [
+            "Above section 2619 requires co-enrollment in MATH 21 section 2611. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2611"
+        },
+        {
+          "section_number": "2612",
+          "schedule": [
+            {
+              "time": "3:15p.m.-4:35p.m.",
+              "days": "MW",
+              "location": "BUNDY 221",
+              "instructor": "Maknouni M"
+            }
+          ],
+          "notes": [
+            "Above section 2612 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 2612 requires co-enrollment in MATH 21C section 4135. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "4135"
+        },
+        {
+          "section_number": "4135",
+          "schedule": [
+            {
+              "time": "4:45p.m.-5:35p.m.",
+              "days": "M",
+              "location": "BUNDY 221",
+              "instructor": "Maknouni M"
+            }
+          ],
+          "notes": [
+            "Above section 4135 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section 4135 requires co-enrollment in MATH 21 section 2612. Above section modality is On Ground. CO-ENROLLMENT"
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "2612"
+        },
+        {
+          "section_number": "4133",
+          "schedule": [
+            {
+              "time": "6:15p.m.-7:35p.m.",
+              "days": "MW",
+              "location": "MSB 306",
+              "instructor": "Musselman M J"
+            }
+          ],
+          "notes": [
+            "Above section 4133 requires co-enrollment in MATH 21C section 4136. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "4136"
+        },
+        {
+          "section_number": "4136",
+          "schedule": [
+            {
+              "time": "7:45p.m.-8:35p.m.",
+              "days": "W",
+              "location": "MSB 306",
+              "instructor": "Musselman M J"
+            }
+          ],
+          "notes": [
+            "Above section 4136 requires co-enrollment in MATH 21 section 4133. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": "4133"
+        }
+      ]
+    },
+    {
+      "course_code": "MATH 21",
+      "course_title": "FINITE MATHEMATICS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
+      "special_notes": [],
+      "prerequisites": "•  MATH 18 or MATH 20 or MATH 49 or MATH 50.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is a terminal mathematics course for liberal arts and social science majors. Topics include sets and counting, probability, linear systems, linear programming, statistics, and mathematics of finance, with emphasis on applications.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2606",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "MSB 102",
+              "instructor": "Simo A L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2610",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "MSB 307",
+              "instructor": "Miano I A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4134",
+          "schedule": [
+            {
+              "time": "7:35p.m.-8:55p.m.",
+              "days": "TTh",
+              "location": "MSB 306",
+              "instructor": "Musselman M J"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MATH 28",
+      "course_title": "CALCULUS 1 FOR BUSINESS AND SOCIAL SCIENCE",
+      "units": "5 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "MATH 140",
+      "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
+      "special_notes": [],
+      "prerequisites": "•  MATH 26. *Maximum UC credit for MATH 7 and MATH 28 is one course.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is intended for students majoring in business or social sciences. It is a survey of differential and integral calculus with business and social science applications. Topics include limits, differential calculus of one variable, including exponential and logarithmic functions, introduction to integral calculus, and mathematics of finance.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2621",
+          "schedule": [
+            {
+              "time": "9:30a.m.-11:55a.m.",
+              "days": "MW",
+              "location": "MSB 308",
+              "instructor": "Smith S P"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2622",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:10p.m.",
+              "days": "TTh",
+              "location": "BUNDY 217",
+              "instructor": "Kamin G"
+            }
+          ],
+          "notes": [
+            "Above section 2622 meets at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. Above section modality is",
+            "On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4137",
+          "schedule": [
+            {
+              "time": "5:00p.m.-7:25p.m.",
+              "days": "MW",
+              "location": "MSB 206",
+              "instructor": "Chitgar M H"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "MATH 88A",
+      "course_title": "INDEPENDENT STUDIES IN MATHEMATICS",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Independent Studies” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "3236",
+          "schedule": [
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "McGraw C K"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

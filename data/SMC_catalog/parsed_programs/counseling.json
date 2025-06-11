@@ -1,0 +1,1562 @@
+{
+  "program_name": "Counseling",
+  "program_description": "Formerly listed as Human Development. The Counseling Department offers courses which assist students with student success strategies, learning and study skills, AA degree and transfer planning, career development and internships, conflict resolution skills and behavior management. Disabled Student Services offers several such courses and more which provide specialized information for disability-related concerns. Students may apply a maximum of 4 units of Counseling courses to the AA degree. The following courses are exempt from this unit limitation: Counseling 12, 20 and 30.",
+  "courses": [
+    {
+      "course_code": "COUNS 1",
+      "course_title": "DEVELOPING LEARNING SKILLS",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Maximum credit of AA applicable counseling courses may be limited; check with counseling. This course is designed to help students at all academic levels to improve their study skills in time management, goalsetting, lecture and textbook note-taking, textbook reading, exam preparation, and test-taking to increase their academic success. This course is offered on a pass/no pass basis only.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1622",
+          "schedule": [
+            {
+              "time": "Arrange-2.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Finley S F"
+            }
+          ],
+          "notes": [
+            "Above section 1622 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1624",
+          "schedule": [
+            {
+              "time": "Arrange-2.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Finley S F"
+            }
+          ],
+          "notes": [
+            "Above section 1624 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 11",
+      "course_title": "ORIENTATION TO HIGHER EDUCATION",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Maximum credit of AA applicable counseling courses may be limited; check with counseling. This course introduces new students to the master plan of higher education in California, as well as institutions of higher education in other states. Students will be introduced to the requirements for certificates, the Associate in Arts (A.A.) degree and for transferring to a four-year institution. During the course, students will develop an educational plan in order to accomplish their future goals. Campus policies and resources, student success, career and academic planning are also included.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1625",
+          "schedule": [
+            {
+              "time": "8:30a.m.-9:35a.m.",
+              "days": "Th",
+              "location": "MSB 202",
+              "instructor": "Martinez-Areas R"
+            }
+          ],
+          "notes": [
+            "Above section 1625 is mandatory for F-1 visa students. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1626",
+          "schedule": [
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Hamilton K N"
+            }
+          ],
+          "notes": [
+            "Above section 1626 is mandatory for F-1 visa students. This is a hybrid section conducted primarily online with a required on-ground component. Instructor to provide additional instructions. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1627",
+          "schedule": [
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Tran Ni"
+            }
+          ],
+          "notes": [
+            "Above section 1627 is mandatory for F-1 visa students. This is a hybrid section conducted primarily online with a required on-ground component. Instructor to provide additional instructions. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1628",
+          "schedule": [
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Karimian N"
+            }
+          ],
+          "notes": [
+            "Above section 1628 is mandatory for F-1 visa students. This is a hybrid section conducted primarily online with a required on-ground component. Instructor to provide additional instructions. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1629",
+          "schedule": [
+            {
+              "time": "Arrange-2.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Rowland Y T"
+            }
+          ],
+          "notes": [
+            "Above section 1629 meets for 8 weeks, Oct 27 to Dec 19. Above section is mandatory for F-1 visa students. This is a hybrid section conducted primarily online with a required on-ground component. Instructor to provide additional instructions. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1630",
+          "schedule": [
+            {
+              "time": "Arrange-2.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Nou C S"
+            }
+          ],
+          "notes": [
+            "Above section 1630 meets for 8 weeks, Oct 27 to Dec 19. Above section is mandatory for F-1 visa students. This is a hybrid section conducted primarily online with a required on-ground component. Instructor to provide additional instructions. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1632",
+          "schedule": [
+            {
+              "time": "Arrange-2.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Nou C S"
+            }
+          ],
+          "notes": [
+            "Above section 1632 meets for 8 weeks, Oct 27 to Dec 19. Above section is mandatory for F-1 visa students. This is a hybrid section conducted primarily online with a required on-ground component. Instructor to provide additional instructions. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 12",
+      "course_title": "EXPLORING CAREERS AND COLLEGE MAJORS",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "*Maximum UC credit allowed for COUNS 12 and COUNS 20 is 3 units"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This class is designed for students who are either undecided about their educational or career goals, validating their decisions, or seeking to transition into a new career. Students are guided through a process that focuses on their individual interests, skills, personality and values to aid in the selection of a major, determine a career direction and develop career goals. Students will relate their self-assessment information to possible college major and career choices. Decision-making models and goal setting techniques are examined and will be used to develop short and long term education and career plans.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1633",
+          "schedule": [
+            {
+              "time": "8:45a.m.-10:50a.m.",
+              "days": "Th",
+              "location": "BUS 251",
+              "instructor": "Johnson De A"
+            }
+          ],
+          "notes": [
+            "Above section 1633 meets for 8 weeks, Sep 04 to Oct 23. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 04 to Oct 23",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1634",
+          "schedule": [
+            {
+              "time": "8:45a.m.-10:50a.m.",
+              "days": "F",
+              "location": "SSC 290",
+              "instructor": "Munoz A A"
+            }
+          ],
+          "notes": [
+            "Above section 1634 meets for 8 weeks, Sep 05 to Oct 24. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 05 to Oct 24",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1635",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:50p.m.",
+              "days": "M",
+              "location": "SSC 290",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 1635 meets for 8 weeks, Sep 08 to Oct 20. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 08 to Oct 20",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1636",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:50p.m.",
+              "days": "T",
+              "location": "PV 177",
+              "instructor": "Martinez E"
+            }
+          ],
+          "notes": [
+            "Above section 1636 meets for 8 weeks, Sep 09 to Oct 21. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 09 to Oct 21",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1637",
+          "schedule": [
+            {
+              "time": "2:15p.m.-4:20p.m.",
+              "days": "T",
+              "location": "SSC 290",
+              "instructor": "Trachtenberg J M"
+            }
+          ],
+          "notes": [
+            "Above section 1637 meets for 8 weeks, Sep 09 to Oct 21. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 09 to Oct 21",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1638",
+          "schedule": [
+            {
+              "time": "2:15p.m.-4:20p.m.",
+              "days": "W",
+              "location": "SSC 290",
+              "instructor": "Gurrola D M"
+            }
+          ],
+          "notes": [
+            "Above section 1638 meets for 8 weeks, Sep 03 to Oct 22. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 22",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1639",
+          "schedule": [
+            {
+              "time": "3:45p.m.-5:50p.m.",
+              "days": "W",
+              "location": "ONLINE",
+              "instructor": "Rosales L"
+            }
+          ],
+          "notes": [
+            "Above section 1639 meets for 8 weeks, Sep 03 to Oct 22. Above section is part of the STEM/MAS program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/stem for more information. Above section modality is Scheduled."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 22",
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1640",
+          "schedule": [
+            {
+              "time": "Arrange-2.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Yau S"
+            }
+          ],
+          "notes": [
+            "Above section 1640 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1641",
+          "schedule": [
+            {
+              "time": "Arrange-2.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Fox M P"
+            }
+          ],
+          "notes": [
+            "Above section 1641 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1642",
+          "schedule": [
+            {
+              "time": "8:45a.m.-10:50a.m.",
+              "days": "Th",
+              "location": "BUS 251",
+              "instructor": "Johnson De A"
+            }
+          ],
+          "notes": [
+            "Above section 1642 meets for 8 weeks, Oct 30 to Dec 18. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 30 to Dec 18",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1643",
+          "schedule": [
+            {
+              "time": "8:45a.m.-10:50a.m.",
+              "days": "F",
+              "location": "SSC 290",
+              "instructor": "Munoz A A"
+            }
+          ],
+          "notes": [
+            "Above section 1643 meets for 8 weeks, Oct 31 to Dec 19. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 31 to Dec 19",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1644",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:50p.m.",
+              "days": "M",
+              "location": "SSC 290",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 1644 meets for 8 weeks, Oct 27 to Dec 15. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 15",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1645",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:50p.m.",
+              "days": "T",
+              "location": "PV 177",
+              "instructor": "Martinez E"
+            }
+          ],
+          "notes": [
+            "Above section 1645 meets for 8 weeks, Oct 28 to Dec 16. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 28 to Dec 16",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1646",
+          "schedule": [
+            {
+              "time": "2:15p.m.-4:20p.m.",
+              "days": "T",
+              "location": "SSC 291",
+              "instructor": "Trachtenberg J M"
+            }
+          ],
+          "notes": [
+            "Above section 1646 meets for 8 weeks, Oct 28 to Dec 16.",
+            "Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 28 to Dec 16",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1647",
+          "schedule": [
+            {
+              "time": "2:15p.m.-4:20p.m.",
+              "days": "W",
+              "location": "SSC 290",
+              "instructor": "Gurrola D M"
+            }
+          ],
+          "notes": [
+            "Above section 1647 meets for 8 weeks, Oct 29 to Dec 17. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 29 to Dec 17",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1648",
+          "schedule": [
+            {
+              "time": "3:45p.m.-5:50p.m.",
+              "days": "W",
+              "location": "SSC 291",
+              "instructor": "Rosales L"
+            }
+          ],
+          "notes": [
+            "Above section 1648 meets for 8 weeks, Oct 29 to Dec 17. Above section is part of the STEM/MAS program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/stem for more information. Above section modality is On Ground."
+          ],
+          "duration": "8 weeks, Oct 29 to Dec 17",
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1649",
+          "schedule": [
+            {
+              "time": "Arrange-2.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Yau S"
+            }
+          ],
+          "notes": [
+            "Above section 1649 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1650",
+          "schedule": [
+            {
+              "time": "Arrange-2.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 1650 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1651",
+          "schedule": [
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Fox M P"
+            }
+          ],
+          "notes": [
+            "Above section 1651 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 15",
+      "course_title": "JOB SEARCH TECHNIQUES",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Maximum credit of AA applicable counseling courses may be limited; check with Counseling. The objective of this course is to teach skills necessary for successful job searching by students. Skills identification, interviewing techniques, researching the job market, and resume writing are explored.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1653",
+          "schedule": [
+            {
+              "time": "Arrange-2.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Fox M P"
+            }
+          ],
+          "notes": [
+            "Above section 1653 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible. Above section is part of the STEM/MAS program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/stem for more information."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1654",
+          "schedule": [
+            {
+              "time": "Arrange-2.25 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Fox M P"
+            }
+          ],
+          "notes": [
+            "Above section 1654 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible. Above section is part of the STEM/MAS program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/stem for more information."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 20",
+      "course_title": "STUDENT SUCCESS SEMINAR",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "*Maximum UC credit allowed for COUNS 12 and COUNS 20 is 3 units"
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course provides an exploration of intellectual, psychological, social and physical factors that impact lifelong learning, well-being and success. Topics include motivation and selfefficacy; critical thinking, academic integrity and active study strategies; health issues and lifestyle choices; relating to others as a global citizen; written and oral communication; time management; career exploration; and educational planning.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1656",
+          "schedule": [
+            {
+              "time": "8:00a.m.-9:20a.m.",
+              "days": "MW",
+              "location": "SSC 290",
+              "instructor": "Galindo O A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1657",
+          "schedule": [
+            {
+              "time": "8:00a.m.-9:20a.m.",
+              "days": "TTh",
+              "location": "SSC 290",
+              "instructor": "Galindo O A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1658",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "MW",
+              "location": "SSC 290",
+              "instructor": "Cooper D J"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1659",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "MW",
+              "location": "ONLINE",
+              "instructor": "Hickey E E"
+            }
+          ],
+          "notes": [
+            "Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1660",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "PV 177",
+              "instructor": "Trejo A D"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1661",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "SSC 290",
+              "instructor": "Weeks A K"
+            }
+          ],
+          "notes": [
+            "Above section 1661 is part of the Black Collegians program though enrollment is open to all students. See the Special Programs section of the class schedule or smc.edu/blackcollegians for more information. Above section is part of the Adelante program though enrollment is open to all students. See the Special Programs section of the class schedule or smc.edu/latinocenter for more information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1662",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "SSC 291",
+              "instructor": "Cooper D J"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1663",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "ONLINE",
+              "instructor": "Macias Limon C C"
+            }
+          ],
+          "notes": [
+            "Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1664",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "T",
+              "location": "PV 172",
+              "instructor": "Rodriguez Luper I A"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Rodriguez Luper I A"
+            }
+          ],
+          "notes": [
+            "Above section 1664 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1665",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "SSC 290",
+              "instructor": "Cooper D J"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1666",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "ONLINE",
+              "instructor": "Finley S F"
+            }
+          ],
+          "notes": [
+            "Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1668",
+          "schedule": [
+            {
+              "time": "11:30a.m.-2:35p.m.",
+              "days": "F",
+              "location": "SSC 290",
+              "instructor": "Matavao U E"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1669",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "SSC 291",
+              "instructor": "Martin-Tungpala N K"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1670",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "SSC 291",
+              "instructor": "Armendariz E E"
+            }
+          ],
+          "notes": [
+            "Above section 1670 is recommended for, but not limited to,",
+            "MOCAN Students. See smc.edu/student-support/men-of-color/mocan for more information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1671",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "SSC 290",
+              "instructor": "Hackett C D"
+            }
+          ],
+          "notes": [
+            "Above section 1671is recommended for, but not limited to, student athletes. See Special Program section of the Schedule of Classes for more information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1672",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "MW",
+              "location": "ONLINE",
+              "instructor": "Finley S F"
+            }
+          ],
+          "notes": [
+            "Above section modality is Scheduled."
+          ],
+          "duration": null,
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1673",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "TTh",
+              "location": "PV 171",
+              "instructor": "Armendariz E E"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1674",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Nunez-Mason R E"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1675",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Felix J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1676",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Galindo O A"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1677",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Malzone V B"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1678",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Malzone V B"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1679",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Galindo O A"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1680",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Malzone V B"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1681",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Felix J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1682",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Felix J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1683",
+          "schedule": [
+            {
+              "time": "1:00p.m.-4:00p.m.",
+              "days": "W",
+              "location": "PV 177",
+              "instructor": "Samani N"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Samani N"
+            }
+          ],
+          "notes": [
+            "Above section 1683 meets for 12 weeks, Sep 24 to Dec 10, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": "12 weeks, Sep 24 to Dec 10",
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1684",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Tilley Rosilynn E"
+            }
+          ],
+          "notes": [
+            "Above section 1684 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1685",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Tilley Rosilynn E"
+            }
+          ],
+          "notes": [
+            "Above section 1685 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1686",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Tilley Rosilynn E"
+            }
+          ],
+          "notes": [
+            "Above section 1686 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1687",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Malzone V B"
+            }
+          ],
+          "notes": [
+            "Above section 1687 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1688",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Trejo A D"
+            }
+          ],
+          "notes": [
+            "Above section 1688 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1689",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Trejo A D"
+            }
+          ],
+          "notes": [
+            "Above section 1689 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1690",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Jackson A E"
+            }
+          ],
+          "notes": [
+            "Above section 1690 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1691",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Valentine D"
+            }
+          ],
+          "notes": [
+            "Above section 1691 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1692",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Felix J"
+            }
+          ],
+          "notes": [
+            "Above section 1692 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1693",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Valentine D"
+            }
+          ],
+          "notes": [
+            "Above section 1693 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1694",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Tilley Rosilynn E"
+            }
+          ],
+          "notes": [
+            "Above section 1694 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1695",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Valentine D"
+            }
+          ],
+          "notes": [
+            "Above section 1695 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1697",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Ross S A"
+            }
+          ],
+          "notes": [
+            "Above section 1697 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 47",
+      "course_title": "UNDERSTANDING MONEY FOR LIFELONG SUCCESS",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "COUNS 47 is the same course as BUS 47. Students may earn credit for one but not both."
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course provides students with the fundamental tools to make informed decisions that impact their short and intermediate-term finances. Topics covered include money management and the decision processes and behaviors underlying spending, saving, and borrowing.",
+      "same_as": "BUS 47",
+      "sections": [
+        {
+          "section_number": "1700",
+          "schedule": [
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Lopez En"
+            }
+          ],
+          "notes": [
+            "Above section 1700 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1701",
+          "schedule": [
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Resnick W J"
+            }
+          ],
+          "notes": [
+            "Above section 1701 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1702",
+          "schedule": [
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Resnick W J"
+            }
+          ],
+          "notes": [
+            "Above section 1702 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1703",
+          "schedule": [
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Resnick W J"
+            }
+          ],
+          "notes": [
+            "Above section 1703 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 90A",
+      "course_title": "GENERAL INTERNSHIP",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Internships” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1711",
+          "schedule": [
+            {
+              "time": "Arrange-4 Hours",
+              "days": "N",
+              "location": "SSC 125",
+              "instructor": "De Caussin J R"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 90B",
+      "course_title": "GENERAL INTERNSHIP",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Internships” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1712",
+          "schedule": [
+            {
+              "time": "Arrange-8 Hours",
+              "days": "N",
+              "location": "SSC 125",
+              "instructor": "De Caussin J R"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 90C",
+      "course_title": "GENERAL INTERNSHIP",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Internships” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1713",
+          "schedule": [
+            {
+              "time": "Arrange-12 Hours",
+              "days": "N",
+              "location": "SSC 125",
+              "instructor": "De Caussin J R"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 90D",
+      "course_title": "GENERAL INTERNSHIP",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Internships” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1714",
+          "schedule": [
+            {
+              "time": "Arrange-16 Hours",
+              "days": "N",
+              "location": "SSC 125",
+              "instructor": "De Caussin J R"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

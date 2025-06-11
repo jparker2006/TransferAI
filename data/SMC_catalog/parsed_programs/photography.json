@@ -1,0 +1,990 @@
+{
+  "program_name": "Photography",
+  "program_description": "The Photography program teaches the dynamics of visual communication to illustrate ideas, record events, articulate stories, express moods, sell products, and interpret a person’s character. Courses stress technical knowledge, proficiency in camera control, digital and analog capture methods, artificial light control, and image manipulation.",
+  "courses": [
+    {
+      "course_code": "PHOTO 1",
+      "course_title": "INTRODUCTION TO PHOTOGRAPHY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This non-laboratory course is an introduction to digital photography including understanding the use of an interchangeable-lens camera, lenses and basic photographic equipment. The course will address creative considerations and aesthetic principles as they relate to composition, space, exposure, motion, light and color. Technological considerations, digital asset management, and editing software will be introduced.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2870",
+          "schedule": [
+            {
+              "time": "8:00a.m.-9:20a.m.",
+              "days": "MW",
+              "location": "BUS 203",
+              "instructor": "Mangus E P"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2871",
+          "schedule": [
+            {
+              "time": "8:00a.m.-9:20a.m.",
+              "days": "TTh",
+              "location": "BUS 203",
+              "instructor": "Mangus E P"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2873",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "MW",
+              "location": "BUS 203",
+              "instructor": "Withers J J"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2874",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "BUS 203",
+              "instructor": "Mangus E P"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2875",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "BUS 203",
+              "instructor": "Nelson H"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2876",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "BUS 203",
+              "instructor": "Nelson H"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2878",
+          "schedule": [
+            {
+              "time": "2:15p.m.-5:05p.m.",
+              "days": "M",
+              "location": "BUS 203",
+              "instructor": "Anderson Da"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2879",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Withers J J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4167",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "Th",
+              "location": "BUS 203",
+              "instructor": "McDonald S D"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHOTO 2",
+      "course_title": "BASIC BLACK AND WHITE DARKROOM TECHNIQUES",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "PHOTO 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This introductory lab course prepares students for general specialization in photography. Black and white film exposure, development, and printing techniques are examined. Various shooting and printing assignments explore a variety of natural light situations and shooting challenges. Weekly lectures support practical application of assignments. Required for photography majors.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2880",
+          "schedule": [
+            {
+              "time": "10:00a.m.-12:50p.m.",
+              "days": "M",
+              "location": "DRSCHR 127",
+              "instructor": "Mangus E P"
+            },
+            {
+              "time": "1:00p.m.-2:05p.m.",
+              "days": "M",
+              "location": "BUS 133",
+              "instructor": "Mangus E P"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2881",
+          "schedule": [
+            {
+              "time": "10:00a.m.-12:50p.m.",
+              "days": "W",
+              "location": "DRSCHR 127",
+              "instructor": "Mangus E P"
+            },
+            {
+              "time": "1:00p.m.-2:05p.m.",
+              "days": "W",
+              "location": "BUS 133",
+              "instructor": "Mangus E P"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2882",
+          "schedule": [
+            {
+              "time": "2:00p.m.-4:50p.m.",
+              "days": "M",
+              "location": "DRSCHR 127",
+              "instructor": "Mohr C D"
+            },
+            {
+              "time": "5:00p.m.-6:05p.m.",
+              "days": "M",
+              "location": "BUS 133",
+              "instructor": "Mohr C D"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHOTO 13",
+      "course_title": "NEWS PHOTOGRAPHY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "PHOTO 13 is the same course as JOURN 21. Students may earn credit for one, but not both."
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "PHOTO 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This survey course in basic news photography is designed for journalism or photography majors and students interested in having work published in magazines and news publications. Students learn basic camera and storytelling techniques through individual assignments and a semester long project, along with photo composition, and picture layout principles. A Digital Single Lens Reflex (DSLR) camera with manual exposure capability is required.",
+      "same_as": "JOURN 21",
+      "sections": [
+        {
+          "section_number": "2883",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "TTh",
+              "location": "CMD 128",
+              "instructor": "Burkhart G J"
+            }
+          ],
+          "notes": [
+            "Above section 2883 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHOTO 14",
+      "course_title": "PHOTOGRAPHY FOR PUBLICATION",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [
+        "PHOTO 14 is the same course as JOURN 22. Students may receive credit for one, but not both."
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "JOURN 21 or PHOTO 13",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This advanced course provides an in-depth study of photojournalism with an emphasis on creation of photo story ideas, photo essays, news, sports and feature photos for publication. Photo editing and layout for newspapers, magazines, and online publishing will be covered. Students will comprise the staff of the campus newspaper, The Corsair, and online publications. This course may be repeated once for credit. A Digital Single Lens Reflex (DSLR) camera with manual exposure capability is required.",
+      "same_as": "JOURN 22",
+      "sections": [
+        {
+          "section_number": "2884",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "CMD 131",
+              "instructor": "Burkhart G J"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "CMD 131",
+              "instructor": "Burkhart G J"
+            }
+          ],
+          "notes": [
+            "Above section 2884 meets at the Center for Media and Design,",
+            "1660 Stewart Street, Santa Monica CA 90404. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHOTO 21",
+      "course_title": "ALTERNATIVE PHOTOGRAPHIC PROCESSES",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "PHOTO 2",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Introduction into non-traditional and historical photographic processes. Emphasis is placed primarily on non-silver techniques and processes, including the making of enlarged negatives. Processes may include cyanotype, Van Dyke, platinum/ palladium and others",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2885",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "T",
+              "location": "DRSCHR 127",
+              "instructor": "Nelson H"
+            },
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "Th",
+              "location": "BUS 133",
+              "instructor": "Nelson H"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHOTO 30",
+      "course_title": "TECHNIQUES OF LIGHTING: INTRODUCTION",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "PHOTO 5.",
+      "prerequisite_notes": null,
+      "corequisites": "PHOTO 5.",
+      "advisory": "PHOTO 1 (concurrent enrollment allowed)",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "In this class, students will acquire a solid foundation in lighting tools and the practical application of lighting. They will learn the proper selection and effective use of a light source, whether photographing a portrait, a still life, or any type of location photography.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2886",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "MW",
+              "location": "DRSCHR 115",
+              "instructor": "Mohr C D"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4168",
+          "schedule": [
+            {
+              "time": "6:00p.m.-9:05p.m.",
+              "days": "MW",
+              "location": "DRSCHR 115",
+              "instructor": "Anderson Da"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHOTO 32",
+      "course_title": "LIGHTING FOR PEOPLE 2",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "PHOTO 39.",
+      "prerequisite_notes": null,
+      "corequisites": "PHOTO 39.",
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Photo 32 is an advanced course that builds on skills learned in Photo 30 and focuses on techniques for photographing people in commercial settings. Assignments are designed to enhance creativity while utilizing advanced commercial lighting techniques for photographing people. Lectures and demonstrations will cover both studio and location lighting, and are geared toward commercial considerations for photographing people.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2887",
+          "schedule": [
+            {
+              "time": "2:00p.m.-5:05p.m.",
+              "days": "Th",
+              "location": "DRSCHR 115",
+              "instructor": "Staff"
+            },
+            {
+              "time": "2:00p.m.-5:00p.m.",
+              "days": "T",
+              "location": "DRSCHR 115",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHOTO 33",
+      "course_title": "LIGHTING FOR PRODUCTS",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "•  PHOTO 30 and PHOTO 39 (Concurrent enrollment in 39 is permitted).",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "In this course, students are challenged with lighting applications for a broad range of product and still life photography for use in a variety of commercial markets. Students research and apply current photographic styles while creating a portfolio of images that are applicable to a successful career in commercial photography.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4169",
+          "schedule": [
+            {
+              "time": "6:00p.m.-9:00p.m.",
+              "days": "T",
+              "location": "DRSCHR 115",
+              "instructor": "Mohr C D"
+            },
+            {
+              "time": "6:00p.m.-9:05p.m.",
+              "days": "Th",
+              "location": "DRSCHR 115",
+              "instructor": "Mohr C D"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHOTO 34",
+      "course_title": "CAPTURE TO COMPOSITE",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "•  PHOTO 30 and PHOTO 39.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is a Photoshop and studio photography course that trains students on the commercial-level techniques that combine multiple images into one image suitable for commercial publication. Students will learn various lighting techniques while learning to combine multiple images, and work toward final composites comparable to a professional level of output. This course will prepare students for career requirements through development of suitable images for their portfolio, as well as familiarization with currently utilized retouching tests. These skills also apply to photographers who want to take their own images to a professional level without having to hire a digital artist.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2888",
+          "schedule": [
+            {
+              "time": "2:00p.m.-5:05p.m.",
+              "days": "M",
+              "location": "DRSCHR 115",
+              "instructor": "Withers J J"
+            },
+            {
+              "time": "2:00p.m.-5:05p.m.",
+              "days": "W",
+              "location": "BUS 131",
+              "instructor": "Withers J J"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHOTO 39",
+      "course_title": "BEGINNING PHOTOSHOP",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "•  PHOTO 5.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is an introduction to a professional editing workflow for photography majors, using Adobe Photoshop and other digital imaging software. Students will develop the basic digital asset management, digital printing, and color management skills required in the photography industry. Students learn how to enhance, retouch and composite digital images non-destructively through the use of selections, layers and masks, and prepare files for a variety of outputs, including digital prints.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2889",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "MW",
+              "location": "BUS 131",
+              "instructor": "Nelson H"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2890",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "BUS 131",
+              "instructor": "Withers J J"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2891",
+          "schedule": [
+            {
+              "time": "Arrange-11.3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Withers J J"
+            }
+          ],
+          "notes": [
+            "Above section 2891 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4170",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "T",
+              "location": "BUS 131",
+              "instructor": "Calzatti N"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHOTO 43",
+      "course_title": "PORTFOLIO DEVELOPMENT",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": "•  PHOTO 31 or PHOTO 32, PHOTO 33, and PHOTO 39.",
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course addresses the process of building a photographic portfolio that meets current professional industry standards for presenting work to potential employers and clients. Emphasis is placed on developing a personal style that displays a comprehensive understanding of photographic methods, genres, and presentation.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "4171",
+          "schedule": [
+            {
+              "time": "6:45p.m.-9:50p.m.",
+              "days": "W",
+              "location": "BUS 133",
+              "instructor": "Mohr C D"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHOTO 50",
+      "course_title": "BASIC COLOR PRINTING",
+      "units": "4 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "PHOTO 2",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course provides an introduction to color printing from negative materials. Students will produce “C” prints from a variety of color films using Dichromic enlargers, RA-4 chemistry, and a roller transport machine processor. Simple problems, such as color balance, exposure choices, paper surfaces, and enlargement are addressed.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2892",
+          "schedule": [
+            {
+              "time": "2:00p.m.-5:05p.m.",
+              "days": "T",
+              "location": "DRSCHR 126",
+              "instructor": "Nelson H"
+            },
+            {
+              "time": "2:00p.m.-5:05p.m.",
+              "days": "Th",
+              "location": "BUS 133",
+              "instructor": "Nelson H"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHOTO 52",
+      "course_title": "HISTORY OF PHOTOGRAPHY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 3A (Arts)",
+      "special_notes": [
+        "PHOTO 52 is the same course as AHIS 52. Students may earn credit for one, but not both."
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is a historical survey of the evolving nature of photography from the early 1800’s to the present digital age.",
+      "same_as": "AHIS 52",
+      "sections": [
+        {
+          "section_number": "2893",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Hirugami E"
+            }
+          ],
+          "notes": [
+            "Above section 2893 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2894",
+          "schedule": [
+            {
+              "time": "Arrange-4.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Hirugami E"
+            }
+          ],
+          "notes": [
+            "Above section 2894 meets for 12 weeks, Sep 22 to Dec 12. Above section modality is Flexible."
+          ],
+          "duration": "12 weeks, Sep 22 to Dec 12",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4172",
+          "schedule": [
+            {
+              "time": "6:00p.m.-9:00p.m.",
+              "days": "Th",
+              "location": "A 214",
+              "instructor": "Mace J Y"
+            },
+            {
+              "time": "Arrange-1.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Mace J Y"
+            }
+          ],
+          "notes": [
+            "Above section 4172 meets for 12 weeks, Sep 23 to Dec 09, and is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": "12 weeks, Sep 23 to Dec 09",
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHOTO 60",
+      "course_title": "BUSINESS PRACTICES IN PHOTOGRAPHY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This lecture course examines the necessary steps that a photographer must take to start a commercial photography business. Relevant local, state and federal regulatory and taxing agencies and application forms, professional support services, general ledger accounts setup pertinent to photography, photographic business insurance needs, and employer obligations are discussed. Students will learn how to create a simple business plan applicable to photographic ventures. The course also examines issues of sound financial practices specific to profitability in commercial photography, paying particular attention to matters of copyright and image licensing, calculating cost of doing business, strategies for pricing image usage, and negotiating job fees.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2895",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Withers J J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHOTO 70",
+      "course_title": "INTRO TO VIDEO FOR PHOTOGRAPHERS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "PHOTO 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This is a beginning video course that is designed to give students a basic understanding of camera operations towards HD DSLR or mirrorless video capturing techniques. Students will record videos using natural light for specific assignments emphasizing creative storytelling and expression. Beginning assignments will focus on cinematic composition, aspect ratio, camera movement, framing, lighting, camera angles, and introductory audio capture techniques. The assignments then progress into more creative, personal storytelling projects.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2896",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "T",
+              "location": "BUS 131",
+              "instructor": "Malcolm C L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHOTO 71",
+      "course_title": "INTRO TO VIDEO EDITING FOR PHOTOGRAPHERS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "PHOTO 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Through a hands-on approach, this course is designed to give each student a gateway to the art of video editing and postproduction techniques. This course explores the technical and conceptual styles of editing a story together though audio and motion footage. Topics include project approach, pacing, budget, file formats and exports, all while capturing the emotions of the viewer through storytelling.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2897",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "Th",
+              "location": "BUS 131",
+              "instructor": "Malcolm C L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "PHOTO 88B",
+      "course_title": "INDEPENDENT STUDIES IN PHOTOGRAPHY",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Independent Studies” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2898",
+          "schedule": [
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Sanseri J D"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}

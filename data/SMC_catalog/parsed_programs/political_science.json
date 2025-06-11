@@ -1,0 +1,809 @@
+{
+  "program_name": "Political Science",
+  "program_description": "Political science is the academic discipline dedicated to the study of power and justice. Political science has four well-defined subfields: political theory, international relations, comparative politics, and American politics. Courses focus on topics and pressing problems, among them war, law, local, state, and national politics, voting, mass media, public opinion, poverty, human rights, race, gender, ideology, class, international organizations, revolutions, and failed states in all parts of the world. Students in these courses learn to critically analyze not only the behavior of political actors, but also their respective political institutions and political systems. The main objectives are to enable students to use strong analytical skills and critical thinking in their analysis of theories, institutions, and processes.",
+  "courses": [
+    {
+      "course_code": "POLS C1000",
+      "course_title": "AMERICAN GOVERNMENT AND POLITICS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "POLS 110",
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": "POL SC 1",
+      "description": "This course is an introduction to government and politics in the United States and California. Students examine the constitutions, structure, and operation of governing institutions, civil liberties and civil rights, political behaviors, political issues, and public policy using political science theory and methodology.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2953",
+          "schedule": [
+            {
+              "time": "8:00a.m.-9:20a.m.",
+              "days": "MW",
+              "location": "HSS 165",
+              "instructor": "Tahvildaranjess R A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2954",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "MW",
+              "location": "HSS 165",
+              "instructor": "Tahvildaranjess R A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2955",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "HSS 252",
+              "instructor": "Woods V"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2956",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "HSS 154",
+              "instructor": "Oifer E R"
+            }
+          ],
+          "notes": [
+            "Above section 2956 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2957",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "TTh",
+              "location": "HSS 252",
+              "instructor": "Woods V"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2958",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "HSS 165",
+              "instructor": "Tahvildaranjess R A"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2959",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Kurvink S J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2960",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Tahvildaranjess R A"
+            }
+          ],
+          "notes": [
+            "Above section 2960 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2961",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Gorgie F J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2962",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Tahvildaranjess R A"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2963",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Gorgie F J"
+            }
+          ],
+          "notes": [
+            "Above section 2963 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2964",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Gorgie F J"
+            }
+          ],
+          "notes": [
+            "Above section 2964 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "POL SC 2",
+      "course_title": "COMPARATIVE GOVERNMENT AND POLITICS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "POLS 130",
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course surveys the scope and methods of comparative political analysis. It examines democratic, authoritarian, and transitional political systems to illustrate the central theories and ideas in comparative politics. It compares the political structures, processes, and cultures of countries at different levels of economic and social development in several world regions (e.g. Central and Latin America, Africa, the Middle East, Central, South and East Asia, and Western and Central Europe).",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2931",
+          "schedule": [
+            {
+              "time": "12:45p.m.-2:05p.m.",
+              "days": "MW",
+              "location": "HSS 154",
+              "instructor": "Gabler C L"
+            }
+          ],
+          "notes": [
+            "Above section 2931 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2932",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Gabler C L"
+            }
+          ],
+          "notes": [
+            "Above section 2932 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2933",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Gabler C L"
+            }
+          ],
+          "notes": [
+            "Above section 2933 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "POL SC 5",
+      "course_title": "INTERNATIONAL POLITICAL ECONOMY: INTRODUCTION TO GLOBAL STUDIES",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [
+        "Satisfies Global Citizenship",
+        "POL SC 5 is the same course as ECON 5 and GLOBAL 5. Students may earn credit for one course."
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course offers an interdisciplinary introduction to the fields of Global Studies and International Political Economy. Students will analyze critically the role of national governments, international organizations, nongovernmental organizations, and multinational corporations, in regard to phenomena such as, international markets and production regimes, monetary and trade policy, international and global conflict, and environmental degradation. Contending theoretical and ideological perspectives regarding international systems, processes, and trends will be applied and evaluated.",
+      "same_as": "ECON 5",
+      "sections": [
+        {
+          "section_number": "2934",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Berman Dianne R"
+            }
+          ],
+          "notes": [
+            "Above section 2934 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2935",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Berman Dianne R"
+            }
+          ],
+          "notes": [
+            "Above section 2935 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "POL SC 7",
+      "course_title": "INTERNATIONAL POLITICS",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "POLS 140",
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course examines the structure and operation of the international system. Emphasis is placed on the nature and sources of conflict and cooperation and issues of war and peace among states in the international system.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2937",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Berman Dianne R"
+            }
+          ],
+          "notes": [
+            "Above section 2937 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2938",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Berman Dianne R"
+            }
+          ],
+          "notes": [
+            "Above section 2938 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2939",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Berman Dianne R"
+            }
+          ],
+          "notes": [
+            "Above section 2939 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "POL SC 24",
+      "course_title": "INTRODUCTION TO LAW",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is an introduction to the legal concepts and contemporary legal conflicts in the United States, including the philosophical and historical basis for resolution of conflict. Historical and contemporary conflicts in the areas of civil liberties and civil rights, as well as other current legal conflicts and controversies are addressed. This course satisfies a requirement for the Law Pathway program.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2940",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "MW",
+              "location": "HSS 154",
+              "instructor": "Gabler C L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2941",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Gabler C L"
+            }
+          ],
+          "notes": [
+            "Above section 2941 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 24",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2942",
+          "schedule": [
+            {
+              "time": "Arrange-6.5 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Gabler C L"
+            }
+          ],
+          "notes": [
+            "Above section 2942 meets for 8 weeks, Oct 27 to Dec 19. Above section modality is Flexible."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 19",
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "POL SC 31",
+      "course_title": "INTRODUCTION TO PUBLIC POLICY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is an introduction to public policy. The course covers core topics in American public policy and focuses on institutions, policy actors, and major theoretical models. In addition, the course covers the nature and practice of policy analysis in order to demonstrate how to employ evaluative criteria in substantive policy areas.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2943",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "TTh",
+              "location": "HSS 205",
+              "instructor": "Davis Sh L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "POL SC 51",
+      "course_title": "POLITICAL PHILOSOPHY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": "POLS 120",
+      "cal_getc_area": "Cal-GETC Area 3B (Humanities) OR Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [
+        "POL SC 51 is the same course as PHILOS 51. Students may earn credit for one, but not both."
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "In this inter-disciplinary course students examine fundamental ideas about politics in the writings of major Western philosophers from the ancient to the contemporary period, and use those ideas to consider and debate current political issues.",
+      "same_as": "PHILOS 51",
+      "sections": [
+        {
+          "section_number": "2944",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:50a.m.",
+              "days": "MW",
+              "location": "HSS 154",
+              "instructor": "Oifer E R"
+            }
+          ],
+          "notes": [
+            "Above section 2944 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2945",
+          "schedule": [
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "MW",
+              "location": "HSS 154",
+              "instructor": "Oifer E R"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2946",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Kurvink S J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "POL SC 52",
+      "course_title": "CONTEMPORARY POLITICAL THOUGHT",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 3B (Humanities) OR Area 4 (Social & Behavioral Sciences)",
+      "special_notes": [
+        "POL SC 52 is the same course as PHILOS 52. Students may earn credit for one, but not both."
+      ],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This interdisciplinary course in philosophy and political science examines arguments and discourses developed within contemporary political thought. How those discourses critique and/or are rooted in modern ideologies, such as liberalism and socialism will be considered. The theoretical perspectives presented in the course will be used to critically examine important issues in contemporary politics. Students will situate themselves as citizens and political agents in relation to those issues.",
+      "same_as": "PHILOS 52",
+      "sections": [
+        {
+          "section_number": "2947",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Kurvink S J"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "POL SC 88A",
+      "course_title": "INDEPENDENT STUDIES IN POLITICAL SCIENCE",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Independent Studies” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2948",
+          "schedule": [
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Oifer E R"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2949",
+          "schedule": [
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Oifer E R"
+            }
+          ],
+          "notes": [
+            "Above section 2949 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "POL SC 88B",
+      "course_title": "INDEPENDENT STUDIES IN POLITICAL SCIENCE",
+      "units": "2 UNITS",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Please see “Independent Studies” section.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2950",
+          "schedule": [
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Oifer E R"
+            }
+          ],
+          "notes": [],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "2951",
+          "schedule": [
+            {
+              "time": "Arrange-2 Hours",
+              "days": "N",
+              "location": "TBA",
+              "instructor": "Oifer E R"
+            }
+          ],
+          "notes": [
+            "Above section 2951 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information."
+          ],
+          "duration": null,
+          "modality": null,
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "POL SC 95",
+      "course_title": "PUBLIC POLICY – EXPERIENTIAL LEARNING",
+      "units": "1 UNIT",
+      "transfer_info": [
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "POL SC 31 and eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course builds upon the content of Political Science 31, Introduction to Public Policy, to provide the student with field experience in the discipline. This course addresses the theoretical underpinnings of democratic civic engagement and is a practicum in public policy in a local setting. In this handson course, the student will engage in experiential learning through various governmental and nongovernmental agencies which have a role in developing and/or implementing public policy. The student will develop a reading list, customized to the focus of his/her particular agency, and complete a minimum of 30 hours of volunteer work with that agency. The course exposes the student to organized, meaningful public policy research and implementation in substantive policy arenas and will be supervised in his/her off-campus experiential learning project pertaining to the development of public policy. This course is graded on a P/NP basis only.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "2952",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Tahvildaranjess R A"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    }
+  ]
+}
