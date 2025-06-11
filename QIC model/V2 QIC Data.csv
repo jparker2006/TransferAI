@@ -1,0 +1,1096 @@
+Intent,Query
+greeting,hi
+greeting,hey there!
+greeting,hello transfer bot
+greeting,yo what’s up
+greeting,good morning
+greeting,sup advisor
+greeting,hey can you help me?
+greeting,howdy
+greeting,what’s up?
+goodbye,"thanks, that’s all!"
+goodbye,talk to you soon
+goodbye,bye!
+goodbye,closing this now
+goodbye,see you later
+goodbye,laters
+goodbye,I’m done for now
+goodbye,peace out
+goodbye,I’ll be back later
+thanks,thanks!
+thanks,much appreciated
+thanks,thank you so much
+thanks,thx!
+thanks,appreciate it
+thanks,"solid info, thanks again"
+thanks,"really helpful, thanks"
+thanks,that helped a lot
+thanks,you’re the best
+agent_identity,who are you?
+agent_identity,are you human?
+agent_identity,are you a person or a bot?
+agent_identity,what kind of assistant are you?
+agent_identity,what’s your name?
+agent_identity,is this ChatGPT?
+agent_identity,is this TransferAI?
+agent_identity,who made you?
+agent_capabilities,what can you do?
+agent_capabilities,can you check if I’m ready to transfer?
+agent_capabilities,how can you help me?
+agent_capabilities,what are your features?
+agent_capabilities,what kind of questions can I ask?
+agent_capabilities,can you tell me what classes I need?
+agent_capabilities,do you make schedules?
+out_of_scope,what’s the best ramen spot in LA?
+out_of_scope,what’s the weather today?
+out_of_scope,can you help me get into Stanford?
+out_of_scope,when’s my dentist appointment?
+out_of_scope,write my essay for me
+out_of_scope,what’s your opinion on Nietzsche?
+out_of_scope,do aliens exist?
+out_of_scope,"who’s the GOAT, Messi or Ronaldo?"
+out_of_scope,order me a burrito
+out_of_scope,what stocks should I invest in right now?
+out_of_scope,asdf97&& bunny taco meowtime?
+out_of_scope,track my Uber Eats order
+out_of_scope,what’s the capital of Greenland?
+out_of_scope,tell me a joke about ducks
+out_of_scope,schedule my haircut for Tuesday
+out_of_scope,who won the Super Bowl in 2016?
+out_of_scope,I love lamp
+out_of_scope,can you code me a crypto bot
+out_of_scope,blargle snorp trandulator
+out_of_scope,OAHeGIOPUSNegjem[ob4
+professor_comparison,"who’s better, Professor Lee or Professor Tran?"
+professor_comparison,compare Hsu and Ortega for CS 50
+professor_comparison,should I take stats with Dr. Brooks or Prof. Wang?
+professor_comparison,"which professor is easier for econ, Rivas or Costello?"
+professor_comparison,rating comparison between Chen and Kim
+professor_comparison,Ortega vs. Myers — who’s more liked?
+professor_comparison,side-by-side for Lee and Matthews
+professor_comparison,who has better reviews for English 1?
+professor_comparison,can you show me how Patel stacks up against Stein?
+professor_comparison,"who do students prefer, Hernandez or Davis?"
+professor_comparison,Hsu or Myers for discrete math?
+professor_comparison,compare reviews for bio professors
+professor_comparison,who has more 5-star ratings in psych?
+professor_comparison,show me pros/cons of Kim vs. Tran
+professor_comparison,is there a big difference between D. Lee and D. Li?
+professor_rating,what’s Professor Patel’s rating?
+professor_rating,how is Dr. Rivas reviewed?
+professor_rating,is Ortega a good instructor?
+professor_rating,what do students say about Professor Lee?
+professor_rating,can I see reviews for Hsu?
+professor_rating,does Dr. Myers have good ratings?
+professor_rating,show me the RateMyProfessor info for Prof. Brooks
+professor_rating,how hard is Dr. Costello?
+professor_rating,what’s the feedback on Professor Kim?
+professor_rating,find comments for Professor Matthews
+professor_rating,is Wang liked by students?
+professor_rating,how would you rate Professor Tran?
+professor_rating,what do people think of Stein?
+professor_rating,give me a breakdown of Professor Hernandez’s rating
+professor_rating,show me the vibe check on Professor Davis
+professor_recommendation,who’s the best professor for CS 50?
+professor_recommendation,who should I take for calc at SMC?
+professor_recommendation,most recommended instructor for Psych 1?
+professor_recommendation,who’s the easiest teacher for Stats 21?
+professor_recommendation,best bio professor this term?
+professor_recommendation,who do people like for English 1?
+professor_recommendation,who’s the top-rated instructor for Econ 2?
+professor_recommendation,who has the best teaching reviews for philosophy?
+professor_recommendation,who should I take if I want an A in physics?
+professor_recommendation,give me a professor recommendation for chem
+professor_recommendation,who’s the least strict for history classes?
+professor_recommendation,anyone you’d recommend for discrete math?
+professor_recommendation,pick the best instructor for CS this fall
+professor_recommendation,who teaches the most engaging version of Sociology?
+professor_recommendation,who would you personally take for Math 7?
+course_equivalency,what does Math 7 at SMC transfer as at UCSD?
+course_equivalency,is SMC’s CS 50 equivalent to anything at UCSD?
+course_equivalency,does Econ 1 from SMC articulate to UCSD?
+course_equivalency,what’s the UCSD version of Bio 21 from SMC?
+course_equivalency,does Physics 22 count at UCSD?
+course_equivalency,how is English 2 evaluated by UCSD?
+course_equivalency,does UCSD accept SMC’s Phil 20 for any credit?
+course_equivalency,does Psych 1 transfer cleanly to UCSD?
+course_equivalency,what’s the UCSD articulation for History 11?
+course_equivalency,can you show me the UCSD match for Chem 10?
+course_equivalency,is SMC’s Music 1 equivalent to a UCSD course?
+course_equivalency,how is CS 54 treated at UCSD?
+course_equivalency,does SMC’s Math 54 count toward UCSD’s linear algebra requirement?
+course_equivalency,is there an ASSIST match for CS 83R at UCSD?
+course_equivalency,which course at UCSD corresponds to SMC’s PoliSci 1?
+course_equivalency,how does Art 20 from SMC show up at UCSD?
+course_equivalency,is there any articulation for SMC’s Film 2 with UCSD?
+course_equivalency,does UCSD recognize SMC’s Ling 1?
+course_equivalency,is SMC’s Astronomy 1 transferable to UCSD’s GE?
+course_prerequisite,what do I need before I can take CS 54?
+course_prerequisite,is there a prerequisite for Math 7?
+course_prerequisite,can I enroll in Chem 11 without Chem 10?
+course_prerequisite,what classes are required before taking Physics 21?
+course_prerequisite,what’s the prereq for English 2?
+course_prerequisite,do I need any math before taking Econ 1?
+course_prerequisite,is there a prereq for CS 83R?
+course_prerequisite,what comes before Bio 21?
+course_prerequisite,do I need to complete Psych 1 before Psych 2?
+course_prerequisite,what courses do I need to take prior to Math 11?
+course_prerequisite,what’s required before I can take Philosophy 22?
+course_prerequisite,does Art 30 have a prerequisite?
+course_prerequisite,can I jump straight into CS 50 without another course?
+course_prerequisite,do I need to take Music 1 to take Music 2?
+course_prerequisite,is there a placement requirement for Math 20?
+course_prerequisite,what’s the minimum I need to enroll in Astronomy 3?
+prerequisite_chain,what’s the full prereq chain to get into CS 83R?
+prerequisite_chain,what do I need to take before reaching Math 11?
+prerequisite_chain,which classes do I have to pass before taking Physics 22?
+prerequisite_chain,map out all the prerequisites leading to Chem 12
+prerequisite_chain,how many classes come before Bio 22?
+prerequisite_chain,show me the path of prereqs for CS 54
+prerequisite_chain,what’s the course ladder up to Math 10?
+prerequisite_chain,list all courses required before English 2
+prerequisite_chain,"if I want to take Econ 2, what’s the full sequence?"
+prerequisite_chain,give me the entire prerequisite chain for Math 54
+prerequisite_chain,can you outline everything I need before taking Physics 23?
+prerequisite_chain,what do I need to complete before getting to Philosophy 22?
+prerequisite_chain,what’s the chain from Math 1 to Math 8?
+prerequisite_chain,walk me through the prereqs needed for CS 52
+prerequisite_chain,what’s the course pipeline for Engineering 12?
+prerequisite_chain,how far back do I need to start for Chem 11?
+prerequisite_chain,list every class that builds up to Bio 21
+prerequisite_chain,how many courses deep is the sequence to Astronomy 5?
+gpa_requirement,what GPA do I need to transfer to UCSD?
+gpa_requirement,what’s the minimum GPA for UCSD as a transfer student?
+gpa_requirement,is a 3.2 GPA enough to transfer to UCSD?
+gpa_requirement,how competitive is it to get into UCSD with a 3.5?
+gpa_requirement,does UCSD require a specific GPA for Computer Science?
+gpa_requirement,what GPA should I aim for to be safe for UCSD?
+gpa_requirement,can I get into UCSD with a 2.9 GPA?
+gpa_requirement,how does GPA factor into UCSD transfer admission?
+gpa_requirement,is the GPA requirement higher for impacted majors?
+gpa_requirement,do I need a 4.0 to get into UCSD?
+gpa_requirement,what GPA does UCSD expect for engineering transfers?
+gpa_requirement,what’s the average admitted GPA for UCSD transfers?
+gpa_requirement,is 3.6 a competitive GPA for cognitive science at UCSD?
+gpa_requirement,what’s the GPA cutoff for transfer into UCSD bio majors?
+gpa_requirement,does UCSD look at overall GPA or major GPA for transfers?
+unit_requirements_transfer,how many units do I need to transfer to UCSD?
+unit_requirements_transfer,what’s the minimum number of transferable units for UCSD?
+unit_requirements_transfer,is there a maximum number of units I can transfer with?
+unit_requirements_transfer,can I transfer to UCSD with only 50 units?
+unit_requirements_transfer,how many quarter units does UCSD expect from transfer students?
+unit_requirements_transfer,does UCSD require 60 semester units to transfer?
+unit_requirements_transfer,what happens if I go over the unit limit for UCSD?
+unit_requirements_transfer,what’s the unit cap for UC transfer?
+unit_requirements_transfer,is there a unit limit for engineering transfers to UCSD?
+unit_requirements_transfer,can I transfer to UCSD with an ADT and 90 units?
+unit_requirements_transfer,how many units are too many for UCSD transfer?
+unit_requirements_transfer,what's the ideal number of units to apply with?
+unit_requirements_transfer,do AP credits count toward the UCSD transfer unit minimum?
+unit_requirements_transfer,can I combine semester and quarter units to meet the UCSD requirement?
+units_conversion,how do semester units convert to quarter units?
+units_conversion,how many quarter units is 3 semester units?
+units_conversion,what’s the conversion ratio between semester and quarter units?
+units_conversion,does 60 semester units equal 90 quarter units?
+units_conversion,"if I take 15 semester units, how many quarter units is that?"
+units_conversion,how many UCSD quarter units is 4 semester units?
+units_conversion,how do I convert my SMC transcript for UCSD’s quarter system?
+units_conversion,is there a chart to convert semester credits to UCSD quarter credits?
+units_conversion,how many semester units do I need to equal UCSD’s 180 quarter units?
+units_conversion,what’s the math to convert SMC courses into UCSD units?
+units_conversion,how many UC quarter units is 30 SMC semester units?
+units_conversion,what’s the formula for converting my GPA and units to quarter scale?
+repeat_course_policy,Can I retake a class and have the new grade count for UCSD transfer?
+repeat_course_policy,"If I repeat a course at SMC, will UCSD only consider the new grade?"
+repeat_course_policy,How does UCSD view repeated courses when calculating GPA?
+repeat_course_policy,Is there a limit to how many times I can retake a class for transfer?
+repeat_course_policy,Does a repeated class replace the original grade in my UC transfer GPA?
+repeat_course_policy,Will repeating a D grade help my chances at UCSD?
+repeat_course_policy,"If I repeat a class more than once, which grade counts for UC transfer?"
+repeat_course_policy,What’s the UC policy on course repeats and GPA recalculation?
+repeat_course_policy,Will UCSD average my grades if I repeat a course?
+repeat_course_policy,Can I repeat a course I passed with a C to get a higher GPA for UCSD?
+pass_no_pass_policy,Can I take transfer courses Pass/No Pass and still get credit at UCSD?
+pass_no_pass_policy,Does UCSD accept P/NP grades for major prep courses?
+pass_no_pass_policy,Will a Pass grade transfer to UCSD?
+pass_no_pass_policy,Is it okay to take IGETC classes as Pass/No Pass for UCSD?
+pass_no_pass_policy,How many P/NP courses can I take and still be eligible for UCSD?
+pass_no_pass_policy,Do UCSD admissions prefer letter grades over Pass/No Pass?
+pass_no_pass_policy,Is Pass/No Pass allowed for GE classes when transferring to UCSD?
+pass_no_pass_policy,Will Pass/No Pass affect my transfer GPA to UCSD?
+pass_no_pass_policy,Are there any restrictions on P/NP for UCSD transfer students?
+pass_no_pass_policy,Can I take hard classes P/NP and still transfer to UCSD?
+withdrawal_effect,Does a W on my transcript hurt my UCSD transfer chances?
+withdrawal_effect,Is it bad to have multiple Ws when applying to UCSD?
+withdrawal_effect,Can I still get into UCSD with a W on my record?
+withdrawal_effect,Will UCSD ask why I withdrew from a class?
+withdrawal_effect,Do W grades lower my GPA for UC transfer?
+withdrawal_effect,How many Ws is too many for a competitive UCSD applicant?
+withdrawal_effect,Is a withdrawal better than a D when applying to UCSD?
+withdrawal_effect,How are W grades treated in the UCSD admissions review?
+withdrawal_effect,Can I explain my W in the application for UCSD?
+withdrawal_effect,Do I need to retake a class I withdrew from to transfer to UCSD?
+academic_renewal_info,What is academic renewal and will UCSD honor it?
+academic_renewal_info,"If I do academic renewal, will UCSD ignore the old grades?"
+academic_renewal_info,Can I use academic renewal to boost my transfer GPA for UCSD?
+academic_renewal_info,How do I petition for academic renewal and have UCSD accept it?
+academic_renewal_info,Does UCSD recognize academic renewal for transfer applicants?
+academic_renewal_info,Will my renewed courses still appear in UCSD’s GPA calculation?
+academic_renewal_info,"If I get academic renewal at SMC, will UCSD admissions see the original grades?"
+academic_renewal_info,What’s the UC policy on academic renewal and transfer GPA?
+academic_renewal_info,Can academic renewal help me qualify for UCSD if I had bad grades early on?
+academic_renewal_info,How do I make sure academic renewal is included in my UC application for UCSD?
+add_completed_course,"I just finished Math 7 with a B, can you update my record?"
+add_completed_course,Add CS 50 to my profile — I got an A this term.
+add_completed_course,"I completed English 1 last semester, grade was A, mark it done."
+add_completed_course,Update my record to show I passed Chem 11 with a C.
+add_completed_course,Can you add my Psychology 1 class? I got a B+.
+add_completed_course,Mark Philosophy 2 as completed — finished it this spring.
+add_completed_course,"I retook Econ 1 and got a B, please update my transcript."
+add_completed_course,"I earned a C in Bio 21 this term, can you add that?"
+add_completed_course,"I passed Poli Sci 1 with an A-, update my course history."
+add_completed_course,Put down that I took History 10B and got a Pass.
+report_issue,The course plan for Cognitive Science is missing some classes.
+report_issue,There’s an error in the IGETC chart for Area 4.
+report_issue,CS 80 doesn’t show up when I search for it — is that a bug?
+report_issue,I think the transfer units for Math 8 are incorrect.
+report_issue,"This section says it’s offered in Fall, but the schedule says Spring."
+report_issue,I’m getting a 404 error when I click the link for Chemistry.
+report_issue,The schedule builder is not showing my saved courses.
+report_issue,One of the professor ratings looks duplicated — can you check?
+report_issue,The equivalency for ENGL 2 seems wrong based on ASSIST.
+report_issue,The agent gave me outdated info on the UC application deadline.
+term_definition,What does IGETC stand for?
+term_definition,Can you explain what TAG means?
+term_definition,What is an ADT degree?
+term_definition,"What’s the meaning of a ""W"" on a transcript?"
+term_definition,What does articulation mean in the transfer context?
+term_definition,What’s the difference between a major prep course and GE?
+term_definition,What is the TAU and when do I submit it?
+term_definition,What does SIR mean?
+term_definition,Can you define what partial IGETC is?
+term_definition,What does P/NP grading stand for?
+term_definition,What is a transferable unit?
+term_definition,What’s meant by selective majors?
+term_definition,What’s a capped major at UCSD?
+term_definition,Explain what a quarter unit is.
+term_definition,What’s the difference between a CSU GE and IGETC?
+igetc_certification_info,How do I get my IGETC officially certified?
+igetc_certification_info,When do I request IGETC certification from SMC?
+igetc_certification_info,Do I need to do anything special to send IGETC to UCSD?
+igetc_certification_info,Who handles IGETC certification at SMC?
+igetc_certification_info,How do I make sure UCSD sees my completed IGETC?
+igetc_certification_info,Do I get IGETC certified automatically when I finish it?
+igetc_certification_info,Is there a form I need to submit for IGETC certification?
+igetc_certification_info,When should I submit the request for IGETC certification?
+igetc_certification_info,What happens if I forget to certify my IGETC before transfer?
+igetc_certification_info,Can I still certify my IGETC after I’ve applied to UCSD?
+igetc_certification_info,Where do I go on Corsair Connect to request certification?
+igetc_certification_info,Does IGETC get certified when transcripts are sent?
+igetc_certification_info,Is IGETC certification done by my counselor or me?
+igetc_certification_info,Do I need to complete all areas before I can certify?
+igetc_certification_info,What’s the deadline to request IGETC certification?
+application_deadline,When is the UC transfer application due?
+application_deadline,What’s the deadline to apply to UCSD as a transfer student?
+application_deadline,Is the UC application deadline the same for all campuses?
+application_deadline,Can I apply to UCSD in the spring or just fall?
+application_deadline,What’s the last day I can submit my transfer app to UCSD?
+application_deadline,When does the transfer application open and close?
+application_deadline,Is November 30 the final deadline for UC transfer?
+application_deadline,Do I need to submit by midnight on the deadline?
+application_deadline,What happens if I miss the UCSD transfer deadline?
+application_deadline,Does UCSD offer an extension for late applications?
+transfer_application_timeline,Can you give me the full transfer timeline for UCSD?
+transfer_application_timeline,"When do I apply, submit TAU, and hear back from UCSD?"
+transfer_application_timeline,What are all the deadlines I need to track for UCSD transfer?
+transfer_application_timeline,What’s the UC transfer timeline from start to finish?
+transfer_application_timeline,When do I submit grades and when will decisions come?
+transfer_application_timeline,What happens after I apply to UCSD?
+transfer_application_timeline,Can you show me the milestones for UC transfer step-by-step?
+transfer_application_timeline,How long does the UCSD transfer process take?
+transfer_application_timeline,When do I need to send final transcripts after getting admitted?
+transfer_application_timeline,When do I submit the SIR after UCSD admits me?
+fee_info,How much does the UC application cost?
+fee_info,Is there a fee to apply to UCSD as a transfer?
+fee_info,Can I get a fee waiver for my UC application?
+fee_info,What is the cost to send transcripts to UCSD?
+fee_info,Do I have to pay anything when I accept my UCSD offer?
+fee_info,What’s the SIR deposit amount for UCSD?
+fee_info,How do I qualify for a fee waiver for the UC application?
+fee_info,Are there fees for TAU or anything else after applying?
+fee_info,Where do I pay the UC application fee?
+fee_info,Is the transcript fee covered if I have a waiver?
+financial_aid,What financial aid options are available for transfer students?
+financial_aid,Can I still get the FAFSA as a UCSD transfer student?
+financial_aid,Are there scholarships for community college transfers?
+financial_aid,How do I apply for financial aid at UCSD?
+financial_aid,What’s the deadline to apply for aid when transferring?
+financial_aid,Do I need to redo my FAFSA after getting accepted?
+financial_aid,Will my Cal Grant still apply at UCSD?
+financial_aid,Does UCSD offer work-study or grants for transfers?
+financial_aid,How do I check my financial aid offer from UCSD?
+financial_aid,Can I qualify for need-based aid as a transfer student?
+financial_aid,Are there any transfer-specific scholarships I should apply for?
+financial_aid,Does UCSD offer help with tuition for low-income students?
+financial_aid,Can I talk to someone about my aid package after I transfer?
+financial_aid,Is aid different at UCSD compared to SMC?
+financial_aid,What’s the total cost to attend UCSD with financial aid?
+igetc_course_options,What classes at SMC fulfill IGETC Area 1?
+igetc_course_options,Which SMC courses count for the IGETC arts requirement?
+igetc_course_options,Can you list SMC options that satisfy Area 5B?
+igetc_course_options,What should I take for IGETC English communication?
+igetc_course_options,Which SMC classes count for the IGETC math requirement?
+igetc_course_options,Is [Course] eligible for IGETC Area 3A?
+igetc_course_options,Give me a list of courses at SMC that meet Area 4.
+igetc_course_options,What classes meet the IGETC lab science requirement at SMC?
+igetc_course_options,Are there any online classes at SMC that satisfy IGETC areas?
+igetc_course_options,Can you help me fill IGETC Area 6 at SMC?
+igetc_course_options,Which SMC philosophy courses count toward IGETC?
+igetc_course_options,Is there a list of SMC courses that meet each IGETC area?
+igetc_course_options,Does SMC’s [Course] satisfy any IGETC categories?
+igetc_course_options,What’s the easiest class at SMC to fill Area 3B?
+igetc_course_options,Can I double-count a course for IGETC and major prep?
+ap_credit_policy,Does a 4 on AP Calc BC satisfy any UCSD requirements?
+ap_credit_policy,How does AP credit get applied when I transfer to UCSD?
+ap_credit_policy,Which AP scores can be used for IGETC?
+ap_credit_policy,Will my AP Gov score count for anything at UCSD?
+ap_credit_policy,Can AP Biology count toward the science requirement?
+ap_credit_policy,What’s the minimum AP score UCSD accepts for credit?
+ap_credit_policy,Does UCSD accept AP Studio Art for any credit?
+ap_credit_policy,Do I still need to take English at SMC if I got a 5 on AP Lit?
+ap_credit_policy,Can I skip GE classes if I passed AP exams?
+ap_credit_policy,Does AP Psych help at all with UCSD IGETC?
+ap_credit_policy,Which IGETC areas are covered by AP exams?
+ap_credit_policy,How many AP units will UCSD let me transfer?
+ap_credit_policy,"If I took AP exams in high school, do I still need to take those courses at SMC?"
+ap_credit_policy,What’s UCSD’s AP credit chart or policy?
+ap_credit_policy,Will my AP scores help me finish faster after I transfer?
+course_schedule_details,When is MATH 7 offered this fall?
+course_schedule_details,Who’s teaching ENGL 1 next semester at SMC?
+course_schedule_details,What days and times does CS 50 meet in winter?
+course_schedule_details,Can you show me all the available sections for PHYS 21?
+course_schedule_details,Which instructors are teaching ECON 2 this term?
+course_schedule_details,Is there a Tuesday/Thursday section of BIO 22?
+course_schedule_details,Where is ART 20A being held this semester?
+course_schedule_details,What’s the CRN for the evening section of PSYCH 1?
+course_schedule_details,Are there any hybrid sections of PHIL 5 next term?
+course_schedule_details,Can you find an in-person section of CHEM 10?
+course_schedule_details,Who’s the professor for the 9am section of SOCIOL 1?
+course_schedule_details,Is there a section of HIST 11 that doesn’t meet on Fridays?
+course_schedule_details,Which sections of MATH 2 are still open for registration?
+course_schedule_details,Are there any 8-week accelerated versions of COM ST 11?
+course_schedule_details,Can I take ENGR 1 online in the spring?
+next_course_recommendation,What should I take after finishing MATH 2?
+next_course_recommendation,Which course comes next if I just completed CHEM 11?
+next_course_recommendation,I’m done with CS 50—what’s the next logical step?
+next_course_recommendation,What class should I take to keep progressing in economics?
+next_course_recommendation,Can you recommend the next course toward the CS major?
+next_course_recommendation,I finished all my GE courses—what’s next for transfer?
+next_course_recommendation,What’s the next physics course after PHYS 21?
+next_course_recommendation,What’s a good follow-up to PSYCH 11 if I want to major in psych?
+next_course_recommendation,"After taking English 1 and 2, what should I do next for IGETC?"
+next_course_recommendation,Which classes should I prioritize next semester for transfer?
+next_course_recommendation,Can you suggest next courses based on my completed history courses?
+next_course_recommendation,I want to stay on track for a biology major—what’s next?
+next_course_recommendation,"I have one math and one lab science done, what’s my next move?"
+next_course_recommendation,"If I’m done with IGETC Area 1 and 2, what else should I take?"
+next_course_recommendation,What’s a good class to take next if I’m applying to UCSD econ?
+readiness_audit,Can you check if I’m ready to transfer to UCSD for biology?
+readiness_audit,Am I missing any major prep courses for computer science?
+readiness_audit,What GE requirements do I still need for IGETC certification?
+readiness_audit,Can you show me how close I am to being UC transfer eligible?
+readiness_audit,I’ve finished 55 units—what’s still left to do for UCSD psych?
+readiness_audit,Which requirements haven’t I completed yet for transfer?
+readiness_audit,Do I have enough units and GPA to apply to UCSD next fall?
+readiness_audit,Can you audit my courses and tell me what’s missing?
+readiness_audit,How many more classes do I need for IGETC Area 4?
+readiness_audit,Does my coursework meet the minimum to apply to UCSD CS?
+readiness_audit,I want to make sure I’ve satisfied the unit and GPA requirements—can you check?
+readiness_audit,Can you show me a checklist of what I’ve finished and what’s left?
+readiness_audit,Do I qualify to apply this November based on what I’ve completed?
+readiness_audit,How far along am I in fulfilling the UCSD transfer requirements?
+readiness_audit,Am I GE certified yet?
+readiness_audit,What’s left for me to finish the econ major prep for UCSD?
+readiness_audit,Can you compare my courses to the required ones for bio?
+readiness_audit,Check if I’m eligible to transfer as a math major.
+readiness_audit,How many transferable units do I have?
+readiness_audit,Have I finished the minimum UC-transferable English and math courses?
+course_plan_for_major,Can you map out a 4-semester plan to transfer to UCSD for biology?
+course_plan_for_major,What’s a sample course plan for a psychology major?
+course_plan_for_major,I want to major in computer science—what should my term-by-term plan look like?
+course_plan_for_major,Can you build me a plan from now until fall 2026 transfer?
+course_plan_for_major,Help me plan my courses for the next three terms to prep for mechanical engineering.
+course_plan_for_major,I only have two years—what classes should I take each semester for UCSD econ?
+course_plan_for_major,Make me a personalized schedule that covers all the major prep for cognitive science.
+course_plan_for_major,I need a step-by-step plan to finish IGETC and CS prep by next fall.
+course_plan_for_major,Show me the right course path for transferring to UCSD political science.
+course_plan_for_major,"If I want to transfer by Fall 2026, what classes should I take each term?"
+course_plan_for_major,Plan my classes from this spring through next summer to stay on track.
+course_plan_for_major,Can you sequence my courses so I meet all the prereqs on time?
+course_plan_for_major,What’s the optimal schedule to finish engineering prep in two years?
+course_plan_for_major,Give me a roadmap of classes to prep for the UCSD data science major.
+course_plan_for_major,I want to avoid course conflicts—can you make a strategic plan?
+course_plan_for_major,Build me a course timeline that includes summer sessions.
+course_plan_for_major,Can you create a course plan assuming I work part time and can only take 3 classes?
+course_plan_for_major,What’s the recommended order to take the bio major prep courses?
+course_plan_for_major,Plan out the rest of my time at SMC to prep for UCSD neuroscience.
+course_plan_for_major,Give me a quarter-by-quarter breakdown of classes if I want to transfer in 2026.
+schedule_builder,Can you build me a schedule for Fall with no Friday classes?
+schedule_builder,I want to take CS 50 and MATH 7—can you find non-conflicting sections?
+schedule_builder,Help me create a full-time schedule with morning-only classes.
+schedule_builder,I need a 12-unit schedule that avoids Mondays—can you do that?
+schedule_builder,Find me a set of classes that fits work and ends by 2pm.
+schedule_builder,"Can you generate a schedule with PHYS 21, ENGL 1, and an IGETC Area 3 class?"
+schedule_builder,Build a schedule around my current job—I’m free Tues/Thurs after 1pm.
+schedule_builder,I need online-only classes—can you put a plan together?
+schedule_builder,Make me a part-time schedule that still keeps me IGETC-compliant.
+schedule_builder,"Can you create a schedule with CS 50, MATH 2, and no evening classes?"
+schedule_builder,Build a 15-unit schedule with one lab science and one Area 4 course.
+schedule_builder,Schedule something that lets me take PHYS 22 and CHEM 10 with no overlap.
+schedule_builder,Can you find me a schedule that balances GE and major prep?
+schedule_builder,I’m a night owl—can you make a schedule with afternoon/evening classes only?
+schedule_builder,Give me a schedule that works around my caregiving duties from 9-11am daily.
+schedule_builder,Build a schedule that includes at least one hybrid or asynchronous class.
+schedule_builder,Can you give me two schedule options to choose from this spring?
+schedule_builder,Make me a summer schedule that maximizes transferable units.
+schedule_builder,Find a schedule that lets me avoid any section taught by Professor R.
+schedule_builder,Help me squeeze in one extra class this term if there’s room.
+schedule_conflict_check,Can you check if my current schedule has any time conflicts?
+schedule_conflict_check,"Will these three classes overlap: MATH 7, CS 83, and HIST 11?"
+schedule_conflict_check,I want to take ENGL 1 on Mon/Wed—does that conflict with BIO 21?
+schedule_conflict_check,Make sure PHYS 22 and MATH 2 won’t interfere with each other.
+schedule_conflict_check,Are the sections I picked for CS 50 and CHEM 10 compatible?
+schedule_conflict_check,Double-check that none of my courses overlap this term.
+schedule_conflict_check,"Does this schedule violate any time constraints: PHYS 21 at 9am, CS 50 at 10am?"
+schedule_conflict_check,Am I free between 12–2pm every day with these courses?
+schedule_conflict_check,"I need 15 units, but I don’t want overlapping classes—does this schedule work?"
+schedule_conflict_check,Verify that my selected sections fit together without conflicts.
+schedule_conflict_check,I work Tuesdays at 2—will that interfere with this schedule?
+schedule_conflict_check,Can you confirm whether my plan violates any personal availability limits?
+schedule_conflict_check,Let me know if I’m accidentally double-booking a time slot.
+schedule_conflict_check,Will MATH 11 section 2020 overlap with ECON 1 section 3071?
+schedule_conflict_check,"I have this schedule, but I want to be free after 4pm—can you check it?"
+gpa_projection,"If I get all A’s this semester, what will my UC-transfer GPA be?"
+gpa_projection,How will my GPA change if I get a B in PHYS 22?
+gpa_projection,What happens to my GPA if I retake ENGL 1 and get an A?
+gpa_projection,Estimate my GPA assuming 3 A’s and 1 C next term.
+gpa_projection,Will this semester be enough to raise my GPA above 3.2?
+gpa_projection,I currently have a 2.9—what grades do I need to hit 3.4 by application time?
+gpa_projection,Predict my GPA if I take 16 units and get all B’s.
+gpa_projection,How will this upcoming summer session affect my GPA if I do well?
+gpa_projection,Will my GPA improve much if I get an A in MATH 8 but a B in CS 87?
+gpa_projection,What’s my projected GPA after this term if I get 3 A’s and 2 B’s?
+gpa_projection,I’m applying this fall—what GPA will I have if I ace my current classes?
+gpa_projection,What happens to my GPA if I drop one class and ace the rest?
+gpa_projection,Can I reach a 3.5 GPA if I take 4 more classes and get straight A’s?
+gpa_projection,Estimate my new GPA if I replace a C with a repeated A.
+gpa_projection,I need to hit the 3.0 minimum—what grades will get me there?
+major_requirements,What classes do I need to take to transfer to UCSD for cognitive science?
+major_requirements,Can you list all the required courses for the CS major at UCSD?
+major_requirements,What are the lower-division major prep classes for mechanical engineering?
+major_requirements,I’m interested in economics—what are the transfer requirements?
+major_requirements,How do I prepare for a data science major at UCSD from SMC?
+major_requirements,Show me the full set of courses needed for the biology transfer path.
+major_requirements,Which classes fulfill the major prep for UCSD political science?
+major_requirements,What are the requirements for transfer into UCSD’s public health major?
+major_requirements,Do I need to take linear algebra for the computer engineering track?
+major_requirements,Give me a breakdown of what’s needed to transfer into physics at UCSD.
+major_requirements,Does the psych major require statistics before I apply?
+major_requirements,What are the minimum major courses I need for visual arts transfer?
+major_requirements,Tell me the full list of UCSD major prep for environmental systems.
+major_requirements,What are the core classes I need for chemical engineering?
+major_requirements,Do I need both general and organic chemistry for bio transfer?
+major_requirements,Show me the UCSD requirements for transfer into math.
+major_requirements,How many major prep courses are required for the business econ major?
+major_requirements,Is calculus required for a philosophy major at UCSD?
+major_requirements,What’s the required course list to transfer into computer science?
+major_requirements,Are there any options or electives allowed in the CS major prep list?
+greeting,hey bud
+greeting,good afternoon
+greeting,yo bot
+greeting,hiya
+greeting,hello there
+greeting,morning!
+goodbye,"that's it for now, bye"
+goodbye,see ya
+goodbye,peace
+goodbye,"thanks, I'm out"
+goodbye,later gator
+goodbye,catch you later
+thanks,thank you kindly
+thanks,thanks a ton!
+thanks,really appreciate you
+thanks,thanks buddy
+thanks,cheers for the help
+thanks,gracias
+agent_capabilities,what exactly can you help me with?
+agent_capabilities,give me a rundown of your features
+agent_capabilities,show me the kinds of tasks you handle
+agent_capabilities,can you list everything you can do for transfer planning?
+agent_capabilities,tell me your main functions
+agent_capabilities,what services do you provide to SMC students?
+agent_capabilities,how can you assist me beyond course planning?
+agent_capabilities,what problems can you solve for me?
+agent_identity,who built you?
+agent_identity,are you an AI or a real counselor?
+agent_identity,what type of system are you?
+agent_identity,are you part of SMC or UCSD?
+agent_identity,what's your official name and role?
+agent_identity,do you work for the college?
+agent_identity,are you a chatbot or a human assistant?
+term_definition,what does TAU stand for?
+term_definition,define transferable unit
+igetc_certification_info,where do I submit my IGETC certification request?
+igetc_certification_info,is IGETC certification done automatically when my transcript is sent?
+add_completed_course,"I just finished Math 7 with a B, can you add that to my profile?"
+add_completed_course,Please update my records to show I completed Chem 11 last semester.
+add_completed_course,"I got an A in English 1, can you add that?"
+add_completed_course,I want to log my completion of Econ 2 from spring.
+add_completed_course,Can you save that I took Bio 22 and got a C?
+report_issue,The units for CS 83R look wrong in your database.
+report_issue,One of the articulation agreements isn't loading.
+report_issue,There's a typo in the IGETC area 4 course list.
+report_issue,My readiness audit is missing a course I completed.
+report_issue,The schedule builder shows a class that isn’t offered this term.
+professor_comparison,Can you compare the ratings for Dr. Lee and Professor Martinez?
+professor_comparison,Who's rated better: Professor Chen or Professor Gomez for Math 7?
+professor_comparison,How do students feel about Ali vs. O'Neill for English 1?
+professor_comparison,"Between Professor Smith and Professor Cruz, who do students like more?"
+professor_comparison,Compare the reviews for the two Psych 1 instructors this term.
+professor_comparison,I’m choosing between Dr. L and Dr. P — who’s more liked?
+professor_comparison,Can you show me student feedback for Mr. Kaplan and Ms. Santos side by side?
+professor_comparison,"Who’s better rated for Physics 21, Wang or Richardson?"
+professor_comparison,Which teacher is easier for Econ 1 — Lee or Ortega?
+professor_comparison,Check how Gonzalez stacks up against Matthews for Chem 11.
+professor_comparison,I need to pick between Dr. Jung and Dr. Navarro. Who’s better?
+professor_comparison,Show me a comparison of the student scores for Profs Allen and Thomas.
+professor_comparison,I want to know how well-reviewed Thompson and Patel are.
+professor_comparison,Which professor has higher RateMyProfessor scores for CS 50?
+professor_comparison,Give me a comparison between the two CS 83R professors this term.
+professor_rating,What’s the student rating for Professor Nguyen?
+professor_rating,Tell me what people think of Professor Adams.
+professor_rating,How’s Dr. Klein reviewed by students?
+professor_rating,Do you have any info on Professor Hernandez’s teaching style?
+professor_rating,What are the reviews for Professor Sato in Chemistry?
+professor_rating,I want to know what students say about Professor Malik.
+professor_rating,Can I see the rating for the professor who teaches Econ 2?
+professor_rating,Is Professor Ruiz popular with students?
+professor_rating,Give me the professor feedback for Dr. Berman.
+professor_rating,I’ve heard mixed things about Professor Shah — what do the reviews say?
+professor_rating,What’s the word on Professor Torres’s Bio 22 class?
+professor_rating,How well is Professor Yoon rated on RateMyProfessor?
+professor_rating,Do students like Professor Connors?
+professor_rating,Any feedback on Professor Vargas in English?
+professor_rating,Pull up the reviews for the instructor who usually teaches Math 54.
+professor_recommendation,Who’s the best professor for Physics 6?
+professor_recommendation,Which instructor would you recommend for English 2?
+professor_recommendation,Is there a standout teacher for CS 50?
+professor_recommendation,Who should I take for Chem 10?
+professor_recommendation,Any suggestions for a great Stats 1 professor?
+professor_recommendation,Which professor is known for being the most helpful in Poli Sci 1?
+professor_recommendation,Looking for the easiest Econ 1 professor — any ideas?
+professor_recommendation,Who’s the most engaging teacher for History 11?
+professor_recommendation,I need someone chill for Bio 21 — who do students recommend?
+professor_recommendation,What instructor should I pick for a good Math 8 experience?
+professor_recommendation,Anyone known for giving fair grades in Philosophy 1?
+professor_recommendation,Best professor for an online section of Psych 5?
+professor_recommendation,Who do people like most for Art History at SMC?
+professor_recommendation,Any professors I should avoid for CS 83R?
+professor_recommendation,Give me your top recommendation for taking English 1 this fall.
+next_course_recommendation,What class should I take after finishing Math 7?
+next_course_recommendation,"I just completed CS 50, what should I do next?"
+next_course_recommendation,What’s the next recommended course for a CS major?
+next_course_recommendation,"After completing Chem 11, what should I enroll in?"
+next_course_recommendation,What class builds on English 1?
+next_course_recommendation,Can you tell me the next step in the physics series?
+next_course_recommendation,I want to keep progressing in my major prep — what course comes next?
+next_course_recommendation,I’m done with Bio 21 — what’s the logical follow-up?
+next_course_recommendation,What’s a good class to take after finishing Econ 1 and 2?
+next_course_recommendation,Suggest my next course for the IGETC writing requirement.
+next_course_recommendation,What should I register for after passing Math 54?
+next_course_recommendation,"If I’m majoring in psychology, what’s a smart next course?"
+next_course_recommendation,I took Philosophy 1 last term — what’s the next level up?
+next_course_recommendation,What do I take after completing Art 20A?
+next_course_recommendation,"I just wrapped up Math 2, what’s the usual next step?"
+next_course_recommendation,Recommend my next class for the communication major pathway.
+next_course_recommendation,Which course should I do next for transfer to UCSD in Biology?
+next_course_recommendation,What comes after CS 83R in the sequence?
+next_course_recommendation,I just took the GE class for Area A1 — what should I do next?
+next_course_recommendation,Which course should follow up on Poli Sci 1?
+next_course_recommendation,Suggest the next math course for a business major.
+next_course_recommendation,What’s the best class to take after English 2 for IGETC?
+next_course_recommendation,I’ve finished all my major prep — what GE should I knock out now?
+next_course_recommendation,"If I want to transfer in Fall 2026, what class should I take next?"
+next_course_recommendation,Can you recommend a good follow-up to Psych 1?
+next_course_recommendation,I’ve completed CS 87 — what’s the next step before UCSD?
+next_course_recommendation,Help me choose the next course to stay full-time and on track.
+next_course_recommendation,What’s next in the Chemistry series after Chem 12?
+next_course_recommendation,Which class should I take next to strengthen my UCSD application?
+next_course_recommendation,I’m done with my IGETC Area B — what requirement should I tackle next?
+course_equivalency,Does SMC’s CS 54 count for any computer science credit at UCSD?
+application_deadline,What's the deadline to apply to UCSD as a transfer student?
+application_deadline,When does the UC transfer application close?
+application_deadline,Is there a deadline for Fall 2026 transfer to UCSD?
+application_deadline,What’s the cutoff date to submit my UC transfer app?
+application_deadline,When do I need to finish the UC transfer application?
+application_deadline,Can I still apply to UCSD for transfer this year?
+application_deadline,Is the UC transfer deadline the same for all campuses?
+application_deadline,What's the last day I can submit my transfer application to UCSD?
+application_deadline,What’s the UC deadline for community college transfers?
+application_deadline,What is the November deadline for UC applications?
+application_deadline,How late can I submit the UC transfer application?
+application_deadline,"If I apply in November, is that on time for UCSD?"
+application_deadline,When do UC transfer apps open and close?
+application_deadline,Is November 30 the deadline for UCSD transfers?
+application_deadline,What is the exact application deadline for UC transfers?
+application_deadline,Do I need to apply before December to transfer to UCSD?
+application_deadline,What happens if I miss the UC transfer deadline?
+application_deadline,Are UC transfer deadlines different by major?
+application_deadline,What's the latest I can apply to transfer to UCSD?
+transfer_application_timeline,Can you walk me through the UCSD transfer timeline?
+transfer_application_timeline,When do I have to submit each part of the UCSD transfer process?
+transfer_application_timeline,What are all the important dates after I apply to UCSD as a transfer?
+transfer_application_timeline,What comes after submitting the UC application for transfer?
+transfer_application_timeline,When do I do the TAU after applying to UCSD?
+transfer_application_timeline,What’s the full transfer application timeline for UCSD?
+transfer_application_timeline,When do UCSD transfer applicants get decisions?
+transfer_application_timeline,When should I expect to hear back after I apply to transfer?
+transfer_application_timeline,Can you list all the deadlines from application to enrollment at UCSD?
+transfer_application_timeline,When is the SIR due after I’m accepted to UCSD?
+transfer_application_timeline,Is there a month-by-month transfer calendar for UCSD?
+transfer_application_timeline,What are the key UCSD transfer dates I should know?
+transfer_application_timeline,When does the TAU open and close?
+transfer_application_timeline,Can you summarize the whole transfer process for UCSD?
+transfer_application_timeline,When is the deadline to update grades after applying to UCSD?
+transfer_application_timeline,When does UCSD release transfer decisions?
+transfer_application_timeline,What’s the full schedule from application to orientation?
+transfer_application_timeline,Do I need to do anything after submitting the application?
+transfer_application_timeline,What’s the last date to accept an offer from UCSD?
+transfer_application_timeline,What deadlines do I need to hit between now and next fall for transfer?
+fee_info,How much does it cost to apply to UCSD as a transfer student?
+fee_info,What is the SIR deposit amount for UCSD?
+fee_info,Is there a fee to submit the UC application?
+fee_info,Can I get a fee waiver for the UC transfer application?
+fee_info,Do fee waivers apply to all UC campuses or just one?
+fee_info,What happens if I can’t afford the SIR deposit?
+fee_info,Do I have to pay to send my transcript to UCSD?
+fee_info,Are transcript request fees covered by financial aid?
+fee_info,Is there a reduced fee for California community college students?
+fee_info,Does the UC application fee include sending test scores or transcripts?
+fee_info,Are there any costs associated with submitting the TAU?
+fee_info,Can I submit the application now and pay the fee later?
+fee_info,What fees are due after being accepted to UCSD?
+fee_info,Does SMC help with covering any transfer-related fees?
+fee_info,How can I apply for a fee waiver as a low-income student?
+fee_info,Is the SIR deposit refundable if I change my mind?
+fee_info,Do I have to pay a separate fee for each UC campus I apply to?
+fee_info,Are there additional fees besides the application and SIR deposit?
+fee_info,"If I submit my application late, is there a late fee?"
+fee_info,Where do I pay the UCSD application fee?
+financial_aid,What kinds of financial aid are available for UCSD transfer students?
+financial_aid,How do I find private scholarships for transfer students?
+financial_aid,Can I get Cal Grant or Pell Grant after I transfer?
+financial_aid,Does UCSD offer work-study to incoming transfers?
+financial_aid,How do I apply for financial aid as a transfer student?
+financial_aid,Are emergency grants available for new transfer students?
+financial_aid,Are transfer students eligible for scholarships at UCSD?
+financial_aid,What percentage of UCSD transfer students get financial aid?
+financial_aid,What is the deadline to apply for financial aid when transferring?
+financial_aid,Will my SMC GPA affect my financial aid eligibility at UCSD?
+financial_aid,Does financial aid cover housing costs at UCSD?
+financial_aid,Are there specific scholarships for community college transfers?
+financial_aid,Can I keep my aid package if I change majors after transferring?
+financial_aid,Is there a GPA requirement to keep financial aid at UCSD?
+financial_aid,Do I have to reapply for FAFSA after transferring from SMC?
+repeat_course_policy,"If I retake Econ 1 and get a better grade, will UCSD consider the new one?"
+repeat_course_policy,How does UC handle repeated classes in GPA calculations?
+repeat_course_policy,Will repeating a class more than once hurt my transfer chances?
+repeat_course_policy,Can I replace a bad grade by repeating a course before I apply?
+repeat_course_policy,Is it okay to repeat a course if I got a C but want a higher GPA?
+pass_no_pass_policy,Can I take a transfer course P/NP and still have it count?
+pass_no_pass_policy,Does UCSD accept Pass/No Pass for IGETC classes?
+pass_no_pass_policy,What’s the risk of using P/NP grading on transferable courses?
+pass_no_pass_policy,Is there a limit to how many P/NP courses UCSD will accept?
+pass_no_pass_policy,Will taking English 1 as P/NP affect my application?
+withdrawal_effect,Will a W on my transcript affect my transfer to UCSD?
+withdrawal_effect,How many Ws is too many for UC transfer?
+withdrawal_effect,Does a withdrawal look worse than a low grade?
+withdrawal_effect,"Should I drop Chem 11 if I’m failing, or will the W hurt my chances?"
+withdrawal_effect,Will UCSD ask for an explanation if I have a few W grades?
+academic_renewal_info,Does UCSD honor academic renewal when calculating GPA?
+academic_renewal_info,How do I request academic renewal and will UC schools care?
+academic_renewal_info,Can I exclude a bad grade from my transcript through renewal?
+academic_renewal_info,Will academic renewal improve my UC transfer chances?
+academic_renewal_info,Does academic renewal reset my GPA for UC admissions?
+unit_requirements_transfer,How many units do I need to transfer from SMC to UCSD?
+unit_requirements_transfer,What’s the minimum unit requirement for UCSD transfer?
+unit_requirements_transfer,Can I transfer with fewer than 60 units?
+unit_requirements_transfer,What’s the maximum number of units UCSD will accept?
+unit_requirements_transfer,Do AP credits count toward the 60-unit minimum?
+unit_requirements_transfer,Will my summer classes help me hit the unit threshold?
+unit_requirements_transfer,What if I go over the maximum UC transfer units?
+unit_requirements_transfer,Is there a unit cap for transfer students applying to UCSD?
+unit_requirements_transfer,Can I combine SMC and other college units to meet UCSD’s requirements?
+unit_requirements_transfer,How do I check how many transferable units I already have?
+unit_requirements_transfer,Does UCSD count PE classes toward transfer eligibility?
+unit_requirements_transfer,How many upper division units do I need after transferring?
+unit_requirements_transfer,Do remedial classes count in the unit total?
+unit_requirements_transfer,Is it okay if I transfer with exactly 60 units?
+unit_requirements_transfer,Does UCSD prefer transfers with more than the minimum required?
+unit_requirements_transfer,Do I need 60 UC-transferable semester units or quarter units?
+units_conversion,How do semester units convert to UCSD’s quarter system?
+units_conversion,What’s the formula to convert my SMC units to quarter units?
+units_conversion,Are 3 semester units equal to 4.5 quarter units?
+units_conversion,How do I know how many quarter units I’ll have after transferring?
+units_conversion,Is there a unit chart for converting SMC units to UCSD’s system?
+units_conversion,Will my 60 semester units become 90 quarter units at UCSD?
+units_conversion,Can I hit 60 semester units by taking 90 quarter units?
+units_conversion,What happens if I’m a few quarter units short after conversion?
+units_conversion,How do I compare unit totals across community college and UC?
+units_conversion,Do I need to convert my units when filling out the UC application?
+units_conversion,Does Assist.org already show quarter-equivalent units?
+units_conversion,Will UCSD convert my units for me during the evaluation?
+units_conversion,Do I need more classes to make up for the quarter unit difference?
+units_conversion,How many classes should I take per semester to reach 90 quarter units?
+units_conversion,Do lab classes convert differently than lecture classes?
+units_conversion,Can I use an online calculator to convert semester to quarter units?
+units_conversion,What’s the easiest way to estimate unit conversion for UCSD?
+units_conversion,Does conversion affect financial aid eligibility?
+schedule_conflict_check,Can you check if my Tuesday and Thursday classes overlap?
+schedule_conflict_check,Do these sections conflict with each other in the mornings?
+schedule_conflict_check,Will these four courses fit together in my schedule?
+schedule_conflict_check,Is there a conflict between CS 50 section 4512 and Math 7 section 6103?
+schedule_conflict_check,"I want to take Econ 1 and Bio 21, will they overlap?"
+schedule_conflict_check,Does this schedule work with no time conflicts?
+schedule_conflict_check,Can you verify that my classes don’t run into each other?
+schedule_conflict_check,Check if my proposed schedule has any conflicts.
+schedule_conflict_check,Will these classes fit back-to-back with no overlap?
+schedule_conflict_check,Is there a clash between this English class and my physics lab?
+schedule_conflict_check,Do I have enough time between my classes?
+schedule_conflict_check,Can I take these three classes without a timing issue?
+schedule_conflict_check,Check if all my Monday classes are spaced properly.
+schedule_conflict_check,Will these fit into a Tuesday/Thursday only schedule?
+schedule_conflict_check,Do any of these sections run at the same time?
+schedule_conflict_check,Is it possible to take these classes without skipping lunch?
+schedule_conflict_check,Can you verify if this draft schedule has double bookings?
+schedule_conflict_check,Are these evening sections overlapping with each other?
+schedule_conflict_check,Do these hybrid classes have in-person sessions that conflict?
+schedule_conflict_check,Will any of my online courses interfere with live meetings?
+schedule_conflict_check,Can I make it from one class to the next in 10 minutes?
+schedule_conflict_check,Is there enough time between these two sections on Wednesdays?
+schedule_conflict_check,Make sure none of my classes are at the same time.
+schedule_conflict_check,I want to avoid conflicts—can you check this plan?
+schedule_conflict_check,Do these two labs overlap at all?
+schedule_conflict_check,Does this plan have any sections that start before the other ends?
+schedule_conflict_check,Will these lecture and discussion sections work together?
+schedule_conflict_check,Are there any hidden overlaps between these courses?
+schedule_conflict_check,Can you confirm I won’t have to miss part of any class?
+schedule_conflict_check,Make sure my major requirements don’t overlap this semester.
+gpa_projection,What will my GPA be if I get all As next semester?
+gpa_projection,"If I get a B in math and As in the rest, what will my new GPA be?"
+gpa_projection,Can you project my GPA based on these grades?
+gpa_projection,How will a C in Chemistry affect my UC transfer GPA?
+gpa_projection,What happens to my GPA if I retake a course and get an A?
+gpa_projection,Estimate my GPA if I get 2 Bs and 3 As.
+gpa_projection,"If I earn straight As this term, will I reach a 3.5?"
+gpa_projection,How many more As do I need to hit a 3.2 overall GPA?
+gpa_projection,What’s my projected GPA after one more semester of full-time classes?
+gpa_projection,Can I raise my GPA to 3.4 with this upcoming schedule?
+gpa_projection,Does taking more units help raise my GPA faster?
+gpa_projection,I’m currently at 2.9—how can I get above 3.0 by transfer time?
+gpa_projection,How much will a W affect my projected GPA?
+gpa_projection,Will Pass/No Pass grades count in GPA projection?
+gpa_projection,Project my UC-transferable GPA based on these grades.
+gpa_projection,I’m worried a C will tank my GPA—can you show me the impact?
+gpa_projection,How do repeated courses change my projected GPA?
+gpa_projection,I want to simulate different GPA outcomes—can we model that?
+gpa_projection,"If I do well this summer, can I recover from last semester?"
+gpa_projection,Is it possible to get to a 3.7 if I take 15 units per term?
+gpa_projection,Can you estimate my GPA with 60 completed units and a 3.1 average?
+gpa_projection,"If I get mostly Bs from now on, what’s my final GPA likely to be?"
+gpa_projection,Does my GPA calculation include AP credits?
+gpa_projection,How much will my GPA improve if I retake two Cs?
+gpa_projection,Can I still reach the GPA cutoff for UCSD Computer Science?
+gpa_projection,Can you show me how different letter grades affect my GPA?
+gpa_projection,What if I get one B+—how does that change things?
+gpa_projection,Will taking extra units dilute the impact of one bad grade?
+gpa_projection,How sensitive is my GPA to a single class this term?
+gpa_projection,Estimate my GPA after I finish the courses I’m currently enrolled in.
+schedule_builder,Can you build me a class schedule for fall that avoids Fridays?
+schedule_builder,I want a full-time schedule with only morning classes—can you create one?
+schedule_builder,"Help me generate a schedule for spring with CS 50, Math 7, and Chem 11."
+schedule_builder,Can you make a schedule that fits all my required classes and no conflicts?
+schedule_builder,Give me a schedule with all online classes if possible.
+schedule_builder,I need a 12-unit schedule for next semester with no classes before 10am.
+schedule_builder,Make me a schedule that avoids labs on Thursdays.
+schedule_builder,Can you build a plan that includes Math 2 and English 1 but no evening classes?
+schedule_builder,I’m working part-time—build a schedule around afternoons only.
+schedule_builder,Generate a schedule using these 5 course codes for winter.
+schedule_builder,Help me create a schedule with CS 20 and Econ 1 that ends by 3pm daily.
+schedule_builder,I want to avoid classes on Mondays—can you make that work?
+schedule_builder,Design a schedule for 15 units that includes GE and one major course.
+schedule_builder,Build a schedule that avoids overlapping times for my 4 required classes.
+schedule_builder,Give me a Tuesday/Thursday-only schedule using these classes.
+schedule_builder,I want a compact schedule with back-to-back classes in the morning.
+schedule_builder,Please generate a class schedule that includes one IGETC science and one humanities course.
+schedule_builder,Can you make me a balanced schedule that meets GE and major requirements?
+schedule_builder,Generate a part-time schedule that avoids night classes.
+schedule_builder,Create a schedule with only hybrid or asynchronous options.
+schedule_builder,Help me build a schedule for all the remaining classes I need to transfer.
+schedule_builder,Make a schedule with only professors rated 4.0 or higher.
+schedule_builder,Please include English 2 and History 11 in a conflict-free schedule.
+schedule_builder,I need a 4-day schedule with no labs on Friday—can you build that?
+schedule_builder,Make a schedule using only classes with open seats.
+readiness_audit,Can you audit my progress toward UCSD transfer for economics?
+readiness_audit,How many more courses do I need to transfer as a CS major?
+readiness_audit,Am I ready to transfer based on what I’ve taken so far?
+readiness_audit,What’s missing for me to be eligible for UCSD in psychology?
+readiness_audit,Check my completed courses and tell me what’s still required.
+readiness_audit,Can you give me a transfer readiness check for UCSD mechanical engineering?
+readiness_audit,Have I completed all the IGETC requirements yet?
+readiness_audit,"Audit my progress for GE, units, and major prep."
+readiness_audit,Which UCSD requirements have I already met?
+readiness_audit,Can you evaluate my current standing for transfer eligibility?
+readiness_audit,What areas am I still missing for UCSD computer science?
+readiness_audit,Am I done with all my IGETC and major courses?
+readiness_audit,Run a transfer audit based on these completed classes.
+readiness_audit,Tell me if I’m ready to apply to UCSD next fall.
+readiness_audit,"Do I have enough units, GPA, and coursework to be competitive?"
+readiness_audit,"Based on my transcripts, am I eligible to transfer this year?"
+readiness_audit,Show me what GE or major classes I still need.
+readiness_audit,Can you break down my remaining classes by category?
+readiness_audit,Have I met the unit and GPA threshold for transfer?
+readiness_audit,Check my coursework against the UCSD biology major prep.
+readiness_audit,What’s my readiness status for UCSD transfer in spring 2026?
+readiness_audit,Review my progress and flag any missing transfer requirements.
+readiness_audit,Have I taken all the lower-division courses UCSD needs?
+readiness_audit,Audit my schedule and tell me what I still need before I can apply.
+readiness_audit,Can you confirm whether I’ve completed everything for the IGETC certificate?
+course_plan_for_major,Can you give me a course plan to transfer as a CS major?
+course_plan_for_major,Build me a quarter-by-quarter course sequence for economics.
+course_plan_for_major,What classes should I take each term to transfer for biology at UCSD?
+course_plan_for_major,I need a 2-year plan to transfer for political science.
+course_plan_for_major,What’s the ideal course path for cognitive science?
+course_plan_for_major,Can you map out my semesters for mechanical engineering transfer?
+course_plan_for_major,Give me a term-by-term breakdown for psychology major prep.
+course_plan_for_major,Help me plan all my courses for UCSD computer engineering.
+course_plan_for_major,Can you lay out what I should take each semester for sociology?
+course_plan_for_major,I want to transfer as a data science major—what's the optimal sequence?
+course_plan_for_major,Plan my schedule for the next 4 terms to prepare for communications.
+course_plan_for_major,How should I space out my GE and major prep for bioengineering?
+course_plan_for_major,I’m a business major—can you build me a full course plan?
+course_plan_for_major,What’s a recommended schedule for transfer in two years as a physics major?
+course_plan_for_major,Design a class plan for transferring into literature/writing.
+course_plan_for_major,Give me a full-term course roadmap for UCSD international studies.
+course_plan_for_major,I want a balanced plan for art history transfer—can you provide one?
+course_plan_for_major,Suggest what I should take each semester for environmental systems.
+course_plan_for_major,Lay out a transfer plan with IGETC and film major prep.
+course_plan_for_major,Help me build a schedule for transfer in three semesters for neuroscience.
+course_plan_for_major,Plan out courses from now to spring 2026 to transfer for linguistics.
+course_plan_for_major,Make a course plan for me as a prospective math major.
+course_plan_for_major,What’s the right sequence of classes for UCSD structural engineering?
+course_plan_for_major,"Give me a plan that includes GE, major prep, and recommended electives."
+course_plan_for_major,Can you make a course schedule for computer science transfer that includes summers?
+igetc_course_options,Which classes at SMC satisfy Area 1A of IGETC?
+igetc_course_options,Can you list SMC courses that count for IGETC Area 5B?
+igetc_course_options,What fulfills the IGETC Arts requirement at Santa Monica College?
+igetc_course_options,I need a class for IGETC Area 3B—what are my options?
+igetc_course_options,What courses can I take at SMC for the IGETC Critical Thinking area?
+igetc_course_options,Give me a list of SMC courses that fulfill IGETC math.
+igetc_course_options,Which classes meet the IGETC English composition requirement?
+igetc_course_options,What fulfills IGETC Area 4 (social science) at SMC?
+igetc_course_options,Any lab science options for IGETC at SMC?
+igetc_course_options,What are the easiest courses for IGETC humanities at SMC?
+igetc_course_options,Do you know which SMC courses complete IGETC Area 6 for language?
+igetc_course_options,I need one more course for IGETC—can you tell me what qualifies?
+ap_credit_policy,Does a 4 on AP Calc AB count for UCSD credit?
+ap_credit_policy,Will my APUSH exam satisfy IGETC social science?
+ap_credit_policy,What AP scores count toward major prep or GE at UCSD?
+ap_credit_policy,"If I got a 5 on AP Biology, does it waive any UCSD science requirements?"
+ap_credit_policy,Can AP Lit count for the IGETC English requirement?
+ap_credit_policy,Does UCSD give quarter units for AP tests?
+ap_credit_policy,How do AP credits show up in a UCSD transfer evaluation?
+ap_credit_policy,Do IB exams count the same as AP for IGETC?
+ap_credit_policy,Will my AP Spanish score satisfy the language requirement?
+ap_credit_policy,Does AP Environmental Science count as a lab science for IGETC?
+ap_credit_policy,Can AP stats help me skip any math requirements for transfer?
+course_prerequisite,What do I need to take before enrolling in Math 2 at SMC?
+course_prerequisite,Are there any prereqs for Physics 21?
+course_prerequisite,Do I need Chem 10 before I can take Chem 11?
+course_prerequisite,Can I take CS 52 without CS 50?
+course_prerequisite,What’s the prerequisite for English 2?
+course_prerequisite,Does Econ 2 require completion of Econ 1 first?
+course_prerequisite,Is Math 20 a prerequisite for Physics 22?
+course_prerequisite,What classes are required before I can enroll in Biology 21?
+course_prerequisite,Do I need to pass a certain math class before taking CS 20A?
+course_prerequisite,Is there a writing requirement before taking History 12?
+course_prerequisite,What class do I need before I can take Philosophy 6?
+course_prerequisite,Can I go straight into Music 2 or is there a prerequisite?
+course_prerequisite,What’s required before enrolling in CS 83R?
+course_prerequisite,Do I need a placement score or specific course to take Math 7?
+prerequisite_chain,What’s the full path to take CS 84 at SMC?
+prerequisite_chain,Can you show me all the classes I need before reaching Math 8?
+prerequisite_chain,What courses do I need to complete before I can take Chem 12?
+prerequisite_chain,How many steps are there before I can take Physics 22?
+prerequisite_chain,What’s the full prereq ladder for taking CS 55?
+prerequisite_chain,Which classes lead up to taking Biology 22?
+prerequisite_chain,"If I want to take Calculus 3, what’s the entire course path?"
+prerequisite_chain,How do I go from no programming experience to CS 83R?
+prerequisite_chain,Map out the courses leading to Math 10.
+prerequisite_chain,What’s the full sequence of chemistry classes needed for transfer?
+prerequisite_chain,How do I qualify for upper-division math starting from algebra?
+prerequisite_chain,What’s the prerequisite chain from basic English to English 2?
+major_requirements,What classes do I need to transfer into UCSD as a biology major?
+major_requirements,Can you tell me the transfer requirements for UCSD computer science?
+major_requirements,What are the lower-division courses needed for economics at UCSD?
+major_requirements,What SMC courses satisfy the major prep for mechanical engineering at UCSD?
+major_requirements,How do I transfer as a data science major to UCSD?
+major_requirements,What should I take at SMC if I want to major in political science at UCSD?
+major_requirements,Which classes meet the major requirements for cognitive science at UCSD?
+major_requirements,What are the required courses for UCSD psychology transfer?
+major_requirements,How do I fulfill the major prep for sociology at UCSD?
+major_requirements,What are the UCSD major requirements for transfer in biochemistry?
+major_requirements,Which SMC courses align with the UCSD computer engineering major prep?
+major_requirements,Can you list the UCSD transfer courses for electrical engineering?
+major_requirements,What should I take at SMC to prepare for a math degree at UCSD?
+major_requirements,How can I meet the major requirements for philosophy at UCSD as a transfer?
+major_requirements,Which courses count toward the UCSD linguistics major for transfer students?
+major_requirements,What does UCSD require for transfer into the global studies major?
+major_requirements,Do I need to complete a foreign language requirement for international studies at UCSD?
+major_requirements,What are the pre-major classes I need to transfer into structural engineering at UCSD?
+major_requirements,Which courses meet the transfer prep for human biology at UCSD?
+major_requirements,What’s required to transfer into literature/writing at UCSD?
+major_requirements,Is statistics required for the business psychology major at UCSD?
+major_requirements,Can you break down the transfer major prep for visual arts at UCSD?
+major_requirements,Are there any special courses required for music majors transferring to UCSD?
+major_requirements,What’s the course path for transferring into urban studies and planning at UCSD?
+major_requirements,What do I need to study at SMC if I want to major in neuroscience at UCSD?
+course_equivalency,Is SMC CS 50 equivalent to UCSD’s CSE 8A?
+course_equivalency,What does SMC Math 7 transfer as at UCSD?
+course_equivalency,Does Chem 11 at SMC articulate to UCSD chemistry courses?
+course_equivalency,What is the UCSD equivalent of Econ 1 at SMC?
+course_equivalency,How does Physics 21 at SMC transfer to UCSD?
+course_equivalency,Is SMC English 2 accepted for UCSD’s writing requirement?
+course_equivalency,Does SMC’s Bio 21 match any UCSD biology course?
+course_equivalency,Which UCSD course is equivalent to CS 83R from SMC?
+course_equivalency,"Is SMC’s Music 2 transferable and if so, what UCSD class does it match?"
+course_equivalency,How is Philosophy 6 from SMC counted at UCSD?
+course_equivalency,What does SMC Math 10 articulate to in UCSD’s catalog?
+course_equivalency,Is there a UCSD match for SMC's Political Science 1?
+course_equivalency,Does Art History 1 at SMC have a direct equivalent at UCSD?
+course_equivalency,How does SMC History 10 transfer to UCSD?
+course_equivalency,Does SMC’s Statistics class count toward UCSD’s major requirements?
+course_equivalency,Is CS 20A from SMC equivalent to anything at UCSD?
+course_equivalency,What is the articulation agreement for SMC’s Chemistry 12 with UCSD?
+course_equivalency,Does SMC’s Math 2 transfer to UCSD as Math 20A?
+course_equivalency,How does SMC Environmental Science count at UCSD?
+course_equivalency,Does SMC’s Film Studies course have an articulated match at UCSD?
+course_equivalency,Is SMC’s Sociology 1 course equivalent to SOCI 1 at UCSD?
+course_equivalency,How is SMC’s Spanish 3 counted at UCSD?
+course_equivalency,Can you tell me what UCSD calls SMC’s Calculus 1 course?
+course_equivalency,"Is SMC’s Intro to Astronomy class transferable and if so, to what at UCSD?"
+course_equivalency,How does the articulation work for SMC’s Psych 1 at UCSD?
+academic_renewal_info,Does academic renewal remove the old grade from my UC GPA?
+academic_renewal_info,"If my transcript shows “academic renewal,” will UCSD ignore that class?"
+academic_renewal_info,Can I use academic renewal for multiple courses and still transfer?
+academic_renewal_info,Will UCSD consider courses marked for renewal as non-attempts?
+academic_renewal_info,How do I note academic renewal on the UC application?
+academic_renewal_info,Does academic renewal impact unit totals for UC transfer?
+academic_renewal_info,Is there a limit to how many units I can renew and still have UCSD honor it?
+course_schedule_details,Show me every evening section of Chem 12 next term with instructors.
+course_schedule_details,Which room is Math 20B meeting in for the 9 am section this fall?
+course_schedule_details,List all online sections of English 2 with their professors.
+course_schedule_details,Are there any Friday-only sections for History 12 and who teaches them?
+course_schedule_details,Give me the CRNs and times for all open Poli Sci 1 classes this spring.
+course_schedule_details,Who’s teaching the hybrid section of CS 83R and what days does it meet?
+course_schedule_details,What location and time is the Philosophy 3 Monday/Wednesday lecture?
+greeting,hey there transfer bot
+greeting,good evening advisor
+greeting,hello hello
+greeting,hi TransferAI!
+greeting,hey can you assist me today?
+greeting,"yo, anybody home?"
+greeting,"hiya, need some help"
+report_issue,The course plan page isn’t loading my saved schedule.
+report_issue,My audit shows Math 7 twice—pretty sure that’s wrong.
+report_issue,There’s a mismatch between the catalog units and the schedule units.
+report_issue,I found a broken link on the IGETC Area 5 description.
+report_issue,The GPA calculator isn’t updating after I add a repeated course.
+report_issue,Chem 11 shows as 6 units but it should be 5—please fix.
+report_issue,One professor’s name is misspelled on the schedule.
+goodbye,"that’s all for today, bye"
+goodbye,"I’m signing off now, thanks"
+goodbye,catch you next session
+goodbye,got everything I need—bye for now
+goodbye,"logging off, see you later"
+goodbye,"that wraps it up, goodbye"
+goodbye,talk to you tomorrow
+withdrawal_effect,Will two Ws keep me from getting into UCSD?
+withdrawal_effect,Is a W considered better than a failing grade for transfer?
+withdrawal_effect,Do Ws get counted when UCSD calculates GPA?
+withdrawal_effect,"If I have one withdrawal this term, will it hurt my chances?"
+withdrawal_effect,How do admissions view repeated Ws on a transcript?
+withdrawal_effect,Does a late withdrawal look worse than an early one?
+withdrawal_effect,Should I drop with a W or stay and risk a D?
+add_completed_course,Please record that I passed Art 20A with a B this summer.
+add_completed_course,Add my spring grade for Stats 1—got an A-.
+add_completed_course,Log Physics 22 from last term; I earned a B+.
+add_completed_course,"I finished Spanish 3 with a Pass, update my profile."
+add_completed_course,"Mark Music 2 as completed, grade was C."
+add_completed_course,Put down that I retook Chem 10 and got an A.
+add_completed_course,Update my record: Econ 1 finished this fall with a B.
+repeat_course_policy,"If I repeat a C and earn an A, will UCSD replace the grade?"
+repeat_course_policy,Does repeating a course twice look bad to UC admissions?
+repeat_course_policy,How many times can I retake a class before it stops counting?
+repeat_course_policy,Will both attempts show up when UCSD reviews my transcript?
+repeat_course_policy,Does the UC system average the grades or take the most recent?
+repeat_course_policy,Do repeats still count toward my unit limit?
+repeat_course_policy,Is there a special form to note repeated coursework for UCSD?
+gpa_requirement,What GPA is competitive for UCSD engineering majors?
+gpa_requirement,Is a 3.3 good enough for humanities transfer?
+gpa_requirement,Do capped majors need a higher GPA than 3.0?
+gpa_requirement,What average GPA got accepted last cycle for Econ?
+gpa_requirement,Does UCSD look at overall GPA or just transferable GPA?
+gpa_requirement,Is there a separate GPA cutoff for bio majors?
+gpa_requirement,What GPA do admitted CS transfers usually have?
+agent_capabilities,List the top five things you can help me with.
+agent_capabilities,Can you create schedules and audits automatically?
+agent_capabilities,Do you handle deadline reminders too?
+agent_capabilities,What kinds of transfer questions are outside your scope?
+agent_capabilities,Can you track my GPA changes term-by-term?
+agent_capabilities,Are you able to suggest professors based on ratings?
+agent_capabilities,Can you show me articulation for courses other than UCSD?
+term_definition,What does selective major mean?
+term_definition,Define transferable GE.
+term_definition,What is a capped major?
+term_definition,Explain what “assist articulation” stands for.
+term_definition,What does lower-division mean in college?
+term_definition,Define partial certification.
+igetc_certification_info,Where do I submit the IGETC certification form online?
+igetc_certification_info,Do I request certification before or after I’m admitted?
+igetc_certification_info,Is there a fee to certify my IGETC at SMC?
+igetc_certification_info,Can I certify partial IGETC if I’m missing one class?
+igetc_certification_info,Does my counselor handle the IGETC certification paperwork?
+igetc_certification_info,How long does it take to process the certification?
+igetc_certification_info,Can I get IGETC certified during the summer session?
+thanks,thank you so much for clarifying
+thanks,really appreciate your quick help
+thanks,"thanks a bunch, that solved it"
+thanks,appreciate the guidance today
+thanks,"thanks, very informative"
+thanks,big thanks for the assist
+thanks,grateful for your help
+agent_identity,Are you part of Santa Monica College’s counseling team?
+agent_identity,What’s your official title within TransferAI?
+agent_identity,Were you created by OpenAI or by the college?
+agent_identity,Are you a custom GPT or something else?
+agent_identity,Do you store my data locally or in the cloud?
+agent_identity,Who maintains your knowledge base?
+agent_identity,Are you affiliated with UCSD admissions?
+pass_no_pass_policy,Will a Pass in English 1 still satisfy IGETC at UCSD?
+pass_no_pass_policy,Is there a maximum number of P/NP classes I can use?
+pass_no_pass_policy,Does taking math P/NP hurt my engineering application?
+pass_no_pass_policy,Can I switch a class to Pass/No Pass after the deadline?
+pass_no_pass_policy,"If I earn a Pass, does it still count for the 60-unit minimum?"
+pass_no_pass_policy,Do P/NP classes impact my UC-transfer GPA calculation?
+pass_no_pass_policy,Is P/NP allowed for major prep courses?
