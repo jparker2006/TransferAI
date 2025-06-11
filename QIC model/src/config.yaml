@@ -1,0 +1,11 @@
+model_name: bert-base-uncased
+num_epochs: 8
+batch_size: 16
+learning_rate: 2e-5
+weight_decay: 0.01
+max_length: 128
+test_size: 0.15
+random_seed: 42
+output_dir: outputs
+# Number of warmup steps ratio (0.1 => 10% of total)
+warmup_ratio: 0.1 
