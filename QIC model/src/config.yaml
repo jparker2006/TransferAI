@@ -1,25 +1,54 @@
-model_name: bert-base-uncased
-num_epochs: 8
-batch_size: 16
-learning_rate: 2e-5
-weight_decay: 0.01
+# =====================================================================
+#  ⚡️ 10×-ENGINEER CONFIG  –  fits in ≤4 GB RAM, strong F1 on CPU-only
+# =====================================================================
+
+# ▶ Backbone
+model_name: distilroberta-base          # ≈82 M params → 320 MB fp32; CPU-friendly
+
+# ▶ Training schedule
+num_epochs: 8                           # DistilRoBERTa converges fast
+learning_rate: 3e-5                     # well-tuned default
+scheduler_type: cosine                  # smooth decay
+warmup_ratio: 0.06                      # 6 % warm-up
+weight_decay: 0.05
+
+# ▶ Batch & memory control (Mac M-series safe)
+batch_size: 16                          # micro-batch on MPS/CPU
+gradient_accumulation_steps: 2          # effective batch 32
+fp16: false                             # AMP not stable on MPS; keep fp32
+
+# ▶ Early stopping & eval
+early_stopping_patience: 3              # stop after 3 flat epochs
+metric_for_best_model: f1               # trainer picks best F1
+eval_strategy: epoch
+save_strategy: epoch
+
+# ▶ Data / splits
 max_length: 128
 test_size: 0.15
 random_seed: 42
+
+# ▶ Loss balancing (for minority intents)
+use_class_weights: true                 # compute 1/√freq weights
+label_smoothing_factor: 0.1             # softens over-confident logits
+
+# ▶ Output
 output_dir: outputs
-# Number of warmup steps ratio (0.1 => 10% of total)
-warmup_ratio: 0.1
-scheduler_type: linear  # linear or cosine
-num_warmup_steps: null  # if null, warmup_ratio used
-gradient_accumulation_steps: 1
-fp16: true
-early_stopping_patience: 3
+
+# ▶ Hyper-parameter search (opt-in)
 hyperparameter_search:
-  enabled: false
-  n_trials: 10
+  enabled: false                        # flip to true to launch Optuna
+  n_trials: 20
   direction: maximize
   search_space:
-    learning_rate: [5e-6, 5e-5]
+    learning_rate: [5e-6, 3e-5]
     weight_decay: [0.0, 0.1]
-    per_device_train_batch_size: [8, 16, 32]
-use_class_weights: true 
+    batch_size: [8]
+    gradient_accumulation_steps: [4, 8]
+
+# ▶ ONNX export for super-fast CPU inference
+export_onnx: true                        # save int8 model
+
+# ▶ Misc
+logging_steps: 50
+report_to: none                         # set to "wandb" or "tensorboard" if desired

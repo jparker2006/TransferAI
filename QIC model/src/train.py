@@ -37,6 +37,7 @@ from .utils import (
     set_seed,
     stratified_split,
     compute_class_weights,
+    FocalLoss,
 )
 
 # ---------------------------------------------------------------------------
@@ -99,7 +100,14 @@ def main() -> None:  # noqa: C901
     train_df, label_encoder = encode_labels(train_df)
     val_df["label"] = label_encoder.transform(val_df["Intent"].tolist())
 
-    tokenizer = AutoTokenizer.from_pretrained(cfg["model_name"], use_fast=True)
+    # DeBERTa-v3 uses a SentencePiece tokenizer that may not ship with a fast
+    # implementation. Fall back to the slow tokenizer if fast loading fails.
+    try:
+        tokenizer = AutoTokenizer.from_pretrained(cfg["model_name"], use_fast=True)
+    except ValueError:
+        import warnings
+        warnings.warn("Fast tokenizer unavailable – using the slow sentencepiece tokenizer.")
+        tokenizer = AutoTokenizer.from_pretrained(cfg["model_name"], use_fast=False)
 
     def tokenize(batch: Dict[str, str]):  # type: ignore[type-arg]
         return tokenizer(
@@ -139,31 +147,27 @@ def main() -> None:  # noqa: C901
     # ------------------------------------------------------------------
     # Class weighting (to address label imbalance)
     # ------------------------------------------------------------------
-    class_weights = None
+    class_weights: torch.Tensor | None = None
     if cfg.get("use_class_weights", False):
         class_weights = compute_class_weights(train_df["label"].tolist()).to(
             torch.device("cuda" if torch.cuda.is_available() else "cpu")
         )
 
     # Custom Trainer to inject weighted loss if enabled
-    from torch.nn import CrossEntropyLoss
+    from .utils import FocalLoss
 
-    class WeightedLossTrainer(Trainer):
+    class FocalLossTrainer(Trainer):
         def compute_loss(self, model, inputs, return_outputs=False):  # type: ignore[override]
             labels = inputs.get("labels")
             outputs = model(**inputs)
             logits = outputs.get("logits")
 
-            if class_weights is not None:
-                weight = class_weights.to(logits.device)
-                loss_fct = CrossEntropyLoss(weight=weight)
-            else:
-                loss_fct = CrossEntropyLoss()
-
+            weight = class_weights.to(logits.device) if class_weights is not None else None
+            loss_fct = FocalLoss(gamma=2.0, weight=weight)
             loss = loss_fct(logits.view(-1, num_labels), labels.view(-1))
             return (loss, outputs) if return_outputs else loss
 
-    TrainerClass = WeightedLossTrainer if class_weights is not None else Trainer
+    TrainerClass = FocalLossTrainer
 
     # Determine fp16 capability (only valid on CUDA devices)
     fp16_enabled = bool(cfg.get("fp16", False) and torch.cuda.is_available())
@@ -185,6 +189,7 @@ def main() -> None:  # noqa: C901
         warmup_ratio=cfg.get("warmup_ratio", 0.1),
         lr_scheduler_type=cfg.get("scheduler_type", "linear"),
         fp16=fp16_enabled,
+        label_smoothing_factor=cfg.get("label_smoothing_factor", 0.0),
     )
 
     trainer = TrainerClass(
@@ -242,6 +247,40 @@ def main() -> None:  # noqa: C901
     (output_dir / "metrics.json").write_text(json.dumps(metrics, indent=2))
 
     print("\nTraining complete. Best model saved to:", output_dir.resolve())
+
+    # ------------------------------------------------------------------
+    # Optional ONNX export & INT8 quantization for CPU inference
+    # ------------------------------------------------------------------
+    if cfg.get("export_onnx", False):
+        try:
+            from optimum.onnxruntime import (
+                ORTModelForSequenceClassification,
+                ORTOptimizer,
+            )
+            from optimum.onnxruntime.configuration import OptimizationConfig
+
+            onnx_dir = output_dir / "onnx"
+            print("\nExporting and quantizing ONNX model →", onnx_dir)
+            onnx_dir.mkdir(parents=True, exist_ok=True)
+
+            # 1️⃣  Export HF model → ONNX (fp32)
+            ort_model = ORTModelForSequenceClassification.from_pretrained(
+                output_dir, export=True
+            )
+            ort_model.save_pretrained(onnx_dir)
+
+            # 2️⃣  Graph optimisations + dynamic INT-8 quantisation
+            optimizer = ORTOptimizer.from_pretrained(str(onnx_dir))
+            opt_config = OptimizationConfig(optimization_level=99, fp16=False)
+            optimizer.optimize(
+                optimization_config=opt_config,
+                save_dir=str(onnx_dir),
+            )
+        except ImportError:
+            print(
+                "[WARN] optimum not installed. Skipping ONNX export.\n"
+                "Install with `pip install optimum[onnxruntime]` and rerun."
+            )
 
 
 if __name__ == "__main__":  # pragma: no cover

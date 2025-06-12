@@ -20,6 +20,7 @@ import torch
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from collections import Counter
+import re
 
 
 def load_dataset(csv_path: str | Path) -> pd.DataFrame:
@@ -50,6 +51,31 @@ def load_dataset(csv_path: str | Path) -> pd.DataFrame:
 
     # Drop duplicates & reset index for cleaner downstream processing
     df = df.drop_duplicates().reset_index(drop=True)
+
+    # ------------------------------------------------------------------
+    # Oversample minority classes with lightweight augmentation
+    # ------------------------------------------------------------------
+    MIN_SAMPLES = 50
+    augmented_rows = []
+    counts = df["Intent"].value_counts().to_dict()
+
+    for intent, cnt in counts.items():
+        deficit = max(0, MIN_SAMPLES - cnt)
+        if deficit == 0:
+            continue
+        subset = df[df["Intent"] == intent]
+        for _ in range(deficit):
+            row = subset.sample(1, replace=True, random_state=random.randint(0, 1_000_000)).iloc[0]
+            augmented_rows.append({
+                "Intent": intent,
+                "Query": augment_text(row["Query"]),
+                "_aug": True,
+            })
+
+    df["_aug"] = False
+    if augmented_rows:
+        df = pd.concat([df, pd.DataFrame(augmented_rows)], ignore_index=True)
+
     return df
 
 
@@ -72,13 +98,20 @@ def stratified_split(
     Tuple[pd.DataFrame, pd.DataFrame]
         ``train_df``, ``val_df`` (in that order).
     """
-    train_df, val_df = train_test_split(
-        df,
+    # Use only *original* rows for validation to avoid leakage
+    orig_df = df[df["_aug"] == False]  # noqa: E712
+
+    train_orig, val_df = train_test_split(
+        orig_df,
         test_size=test_size,
-        stratify=df["Intent"],
+        stratify=orig_df["Intent"],
         random_state=seed,
         shuffle=True,
     )
+
+    # Training set gets originals + all augmented rows
+    train_df = pd.concat([train_orig, df[df["_aug"] == True]], ignore_index=True)  # noqa: E712
+
     return train_df.reset_index(drop=True), val_df.reset_index(drop=True)
 
 
@@ -118,21 +151,74 @@ def set_seed(seed: int) -> None:
 
 
 def compute_class_weights(labels: list[int]) -> torch.Tensor:
-    """Compute inverse‐frequency class weights for CrossEntropyLoss.
+    """Return weights = 1/sqrt(freq) normalised to mean=1."""
+    counts = Counter(labels)
+    weights = {c: 1.0 / (count ** 0.5) for c, count in counts.items()}
+    w = torch.tensor([weights[i] for i in range(len(counts))], dtype=torch.float)
+    return w / w.mean()
+
+
+# ---------------------------------------------------------------------------
+#  Text augmentation helpers (very light-weight, CPU-only)
+# ---------------------------------------------------------------------------
+
+_SYNONYM_MAP = {
+    "transfer": "move",
+    "course": "class",
+    "gpa": "gradepoint",
+    "units": "credits",
+    "professor": "instructor",
+    "requirement": "req",
+}
+
+
+def augment_text(text: str) -> str:  # noqa: D401
+    """Return a weakly-augmented variant of *text* (synonym swap + tiny typo).
+
+    Designed to increase minority-class support without complex NLP libs.
+    """
+    words = text.split()
+    # 1) synonym replacement (30 % chance per word if in map)
+    for i, word in enumerate(words):
+        key = word.lower()
+        if key in _SYNONYM_MAP and random.random() < 0.3:
+            # Preserve capitalisation roughly
+            repl = _SYNONYM_MAP[key]
+            words[i] = repl.capitalize() if word[0].isupper() else repl
+
+    # 2) Optional trivial typo (swap final char)
+    if len(words) > 0 and random.random() < 0.1:
+        j = random.randrange(len(words))
+        words[j] = re.sub(r"(.)(?!.*.)", r"\\1x", words[j])
+    return " ".join(words)
+
+
+# ---------------------------------------------------------------------------
+#  Focal-loss (multiclass) implementation
+# ---------------------------------------------------------------------------
+
+
+class FocalLoss(torch.nn.Module):
+    """Weighted focal loss for multiclass classification.
 
     Parameters
     ----------
-    labels: list[int]
-        List of integer labels from the training set.
-
-    Returns
-    -------
-    torch.Tensor
-        1D tensor of size ``num_classes`` suitable to pass as ``weight`` to
-        ``torch.nn.CrossEntropyLoss``.
+    gamma: float
+        Focusing parameter γ; 2.0 is standard.
+    weight: torch.Tensor | None
+        Class-wise weights (same semantics as for CrossEntropyLoss).
     """
-    counts = Counter(labels)
-    num_classes = len(counts)
-    total = sum(counts.values())
-    weights = [total / (num_classes * counts[i]) for i in range(num_classes)]
-    return torch.tensor(weights, dtype=torch.float) 
+
+    def __init__(self, gamma: float = 2.0, *, weight: torch.Tensor | None = None):
+        super().__init__()
+        self.gamma = gamma
+        self.register_buffer("weight", weight if weight is not None else None)
+
+    def forward(self, logits: torch.Tensor, targets: torch.Tensor) -> torch.Tensor:  # noqa: D401
+        import torch.nn.functional as F
+
+        log_p = F.log_softmax(logits, dim=-1)
+        p = torch.exp(log_p)
+        focal_factor = (1 - p) ** self.gamma
+        loss = F.nll_loss(focal_factor * log_p, targets, weight=self.weight, reduction="mean")
+        return loss 
