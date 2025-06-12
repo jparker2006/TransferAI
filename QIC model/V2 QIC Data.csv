@@ -1094,3 +1094,645 @@ pass_no_pass_policy,Can I switch a class to Pass/No Pass after the deadline?
 pass_no_pass_policy,"If I earn a Pass, does it still count for the 60-unit minimum?"
 pass_no_pass_policy,Do P/NP classes impact my UC-transfer GPA calculation?
 pass_no_pass_policy,Is P/NP allowed for major prep courses?
+academic_renewal_info,academic renewal?
+academic_renewal_info,does UCSD recognize academic renewal grades?
+academic_renewal_info,will UCSD accept my academic renewal courses?
+academic_renewal_info,"if I improved my grades through academic renewal, does UCSD care?"
+academic_renewal_info,are academic renewal changes counted in my transfer GPA?
+academic_renewal_info,academic renewal effect on UC admission?
+academic_renewal_info,do transfer applicants get credit for academic renewal?
+academic_renewal_info,Asking: do UCs accept academic renewal improvements?
+academic_renewal_info,"I retook classes through academic renewal, is that seen on my UCSD app?"
+academic_renewal_info,will renewing courses change anything for UCSD transfer?
+academic_renewal_info,academic renewal question for UCSD transfer
+academic_renewal_info,"if I retook classes via academic renewal, do they replace original grades?"
+academic_renewal_info,how does UCSD see academic renewal on transcripts?
+academic_renewal_info,"readmission after academic renewal, count towards transfer?"
+academic_renewal_info,is academic renewal allowed for UC GPA calc?
+academic_renewal_info,does applying academic renewal from SMC help my UC transfer eligibility?
+academic_renewal_info,academic renewal and GPA at UCSD
+academic_renewal_info,"🤔 do UCSD cares about academic renewal or not?"
+academic_renewal_info,"hey, i done academic renewal, will it boost my transfer GPA?"
+add_completed_course,add math 7 b
+add_completed_course,"I just finished CS 50 with a B+, can you add that?"
+add_completed_course,please record that I completed math 7A with an A
+add_completed_course,add my econ 1A course (grade B)
+add_completed_course,"I completed history 17 and got a B-, add it"
+add_completed_course,"add Chem 100 at SMC, grade was C+"
+add_completed_course,"Can you add Art 2 (grade A+) to my courses?"
+add_completed_course,"I took Bio 11 and got A-, record it please"
+add_completed_course,"just completed Psychology 1 with a B, record this class"
+add_completed_course,"I finished PHYS 1, got B+ in it, add to profile"
+add_completed_course,recorded my Marine bio 41 with a B
+add_completed_course,Add my COMM 101 course and my A grade
+add_completed_course,"I passed Eng 105 with B+, put in transcript"
+add_completed_course,"add course Astronomy 5, I earned B"
+add_completed_course,Add my Poli Sci 5 (grade A) to my profile
+add_completed_course,included the Economics 2 course with grade C+
+add_completed_course,"I just finished C++ class C++ 50 with B+, can ya add it?"
+add_completed_course,Add Physics 7B (grade A) to my completed classes
+add_completed_course,"I passed Geology 10 with an A-, update profile"
+add_completed_course,"COMPLETED Calc III with A, add that plz"
+add_completed_course,"prof, i finished art 1 with b+, jot it down"
+agent_capabilities,tell me what you do
+agent_capabilities,what are your capabilities?
+agent_capabilities,can you handle course planning or just chat?
+agent_capabilities,what topics can I ask you about?
+agent_capabilities,please explain what services you provide
+agent_capabilities,what are your features and limits?
+agent_capabilities,how can you help with my transfer process?
+agent_capabilities,are you able to do schedule planning or GPA calculation?
+agent_capabilities,what tasks can you do for me?
+agent_capabilities,do you do anything besides transfer info?
+agent_capabilities,what is your function here?
+agent_capabilities,what problems can you assist with?
+agent_capabilities,got any special skills?
+agent_capabilities,"😄 what can u do for me?"
+agent_capabilities,what are u good at?
+agent_capabilities,"yo, what can u do?"
+agent_capabilities,what do u do?
+agent_capabilities,I want to know what you can assist me with?
+agent_capabilities,what service do you provide?
+agent_identity,are you an AI or a person?
+agent_identity,what kind of being are you?
+agent_identity,tell me about yourself
+agent_identity,"hey, who am I talking to?"
+agent_identity,where do you come from?
+agent_identity,what’s your identity?
+agent_identity,introduce yourself
+agent_identity,I want to know who you are
+agent_identity,what is your purpose?
+agent_identity,where were you made?
+agent_identity,do you exist outside this chat?
+agent_identity,am I speaking to a person or a program?
+agent_identity,"hi, what is your origin?"
+agent_identity,what do you do here?
+agent_identity,lol who is this?
+agent_identity,😕 are you real?
+agent_identity,who built you?
+agent_identity,where were you born?
+agent_identity,what makes you tick?
+ap_credit_policy,AP credit?
+ap_credit_policy,IB credit?
+ap_credit_policy,how do AP scores count for UCSD credit?
+ap_credit_policy,does a 5 on AP Bio count for science credit?
+ap_credit_policy,what AP scores give credit at UCSD?
+ap_credit_policy,do 4s on AP classes get college credit?
+ap_credit_policy,can IB HL credit be used for IGETC?
+ap_credit_policy,will AP Calculus score of 4 transfer to UCSD?
+ap_credit_policy,AP exam credit at UCSD
+ap_credit_policy,is my AP English exam accepted for UC transfer?
+ap_credit_policy,"if I got a 5 on AP Chem, do I get credit at UCSD?"
+ap_credit_policy,"clarify AP/IB credit policy for UCSD"
+ap_credit_policy,"does UCSD accept IB credit?"
+ap_credit_policy,"AP Lang credit for IGETC?"
+ap_credit_policy,"I got a 3 on AP stats, does that count?"
+ap_credit_policy,"how do I use AP scores for my UC transfer?"
+ap_credit_policy,"will IB Physics give me transfer units?"
+ap_credit_policy,"✌️ AP credits vs college credit?"
+ap_credit_policy,"UCSD, do you take IB diploma scores?"
+ap_credit_policy,hey can my AP calc score save me class?
+application_deadline,app deadline?
+application_deadline,When is the UCSD transfer application due?
+application_deadline,what is the deadline to apply to UCSD as a transfer?
+application_deadline,transfer application deadline for UCSD this year?
+application_deadline,deadline for UC transfer application?
+application_deadline,When do I need to submit my UC application?
+application_deadline,what's the cutoff date to apply to UCSD?
+application_deadline,UC transfer apply last day?
+application_deadline,can I still apply to UCSD? deadline?
+application_deadline,application due date?
+application_deadline,by what date must I apply to UCSD to transfer?
+application_deadline,is the deadline October 31 for transfers?
+application_deadline,application deadline (fall transfer)?
+application_deadline,tell me the UC application deadline
+application_deadline,"😱 when do I have to apply by?"
+application_deadline,do we have a grace period on application deadline?
+application_deadline,when is winter (or fall) transfer due date?
+application_deadline,deadline to apply for spring 2026 transfer
+application_deadline,"hey, i need to know transfer deadline pls"
+course_schedule_details,who teaches MATH 7?
+course_schedule_details,When is MATH 7 offered this fall quarter?
+course_schedule_details,what times is CS 50 in winter term?
+course_schedule_details,who teaches PHYS 4A next spring?
+course_schedule_details,schedule for ENGL 105 in summer term
+course_schedule_details,sections of CHEM 1A and lecture details
+course_schedule_details,list all sections of PSYCH 1 this semester
+course_schedule_details,location of ECON 2 classes fall 2025
+course_schedule_details,who is teaching Spanish 21 in Fall?
+course_schedule_details,when can I take Astronomy 5?
+course_schedule_details,time and place for BIO 41 course
+course_schedule_details,are there evening slots for Calc 3?
+course_schedule_details,"show schedule for History 17, spring 2026"
+course_schedule_details,"hey, what’s the lecture time for Music 1?"
+course_schedule_details,"give me section info for ART 2 next quarter"
+course_schedule_details,"Prof name for French 3 in fall 24?"
+course_schedule_details,"when do Chemistry 1B sections meet?"
+course_schedule_details,"Could you list all the times, locations, and instructors for PHYS 3A in the upcoming Winter quarter?"
+course_schedule_details,"I'm interested in enrolling in Biology 22 next quarter; can you give me the time slots, locations, and professor information?"
+course_schedule_details,"When exactly is CS 11 offered (lecture and any labs), including which days and instructors, in Fall term?"
+financial_aid,fafsa?
+financial_aid,what financial aid options exist for transfer students?
+financial_aid,can I apply for FAFSA as a transfer applicant?
+financial_aid,are scholarships available to SMC transfers?
+financial_aid,does UCSD provide scholarships or grants to transfers?
+financial_aid,what's the deadline for transfer financial aid?
+financial_aid,how do I apply for transfer financial aid?
+financial_aid,will a Pell Grant help me transfer?
+financial_aid,Cal Grant for community college transfers?
+financial_aid,what types of aid can I get at UCSD?
+financial_aid,loans vs scholarships for transfer students?
+financial_aid,need-based aid info for UC transfers
+financial_aid,grants for students transferring to UCSD
+financial_aid,"💰 how to get money for college when transferring?"
+financial_aid,scholarships for international transfers?
+financial_aid,explain the FA timeline for transfers
+financial_aid,when do I need to submit tax info for FAFSA?
+financial_aid,Do I qualify for state aid as transfer?
+financial_aid,help with budgeting for transfer year
+financial_aid,"hey, give me info on transfer scholarships please!"
+fee_info,is there a fee waiver for low-income students?
+fee_info,any fee for submitting my grades?
+fee_info,what is SIR deposit and how much is it?
+fee_info,are transcripts fee covered?
+fee_info,application fee amount?
+fee_info,any money discounts for applying?
+fee_info,UCSD app cost
+fee_info,transfer orientation fee?
+major_requirements,what courses do I need to transfer as a biology major?
+major_requirements,major prep classes for Computer Science transfer
+major_requirements,list requirements to get into UCSD philosophy program
+major_requirements,courses needed for pre-med transfer
+major_requirements,what do I need to graduate in transfer eligibility for engineering?
+major_requirements,major specific prerequisites for UCSD math
+major_requirements,help me find classes to meet my major requirements
+major_requirements,required courses for art history major transfer
+major_requirements,major requirements for sociology transfer
+major_requirements,list pre-transfer classes for economics major
+next_course_recommendation,what course should I take after finishing Calculus 2?
+next_course_recommendation,recommend my next class for engineering path
+next_course_recommendation,which classes next if I want to major in CS?
+next_course_recommendation,"after completing biology 2, what to take next?"
+next_course_recommendation,"my plan: taken Calc1, Calc2, what's next?"
+next_course_recommendation,"what's the next class after completing psych 1"
+next_course_recommendation,suggest next courses to take for chemistry major
+next_course_recommendation,which SMC class should I enroll in after physics 1?
+next_course_recommendation,what’s my next class after taking CS 20?
+next_course_recommendation,which course to take next for an undecided major?
+prerequisite_chain,prereqs for CS 101?
+prerequisite_chain,what is the full prerequisite chain for CS 101?
+prerequisite_chain,list all prerequisites leading to Chemistry 10
+prerequisite_chain,what classes do I need before taking Physics 3B?
+prerequisite_chain,full chain of prerequisites for Calc 3
+prerequisite_chain,pre-req for Statistics 1 in chain form?
+prerequisite_chain,what do I need to take before Linear Algebra?
+prerequisite_chain,all required classes to eventually take Anatomy 3
+prerequisite_chain,prerequisites up the chain for BIO 210
+prerequisite_chain,what courses come before Econ 100?
+prerequisite_chain,complete sequence of requirements for MATH 8
+prerequisite_chain,can you get me the ladder of prereqs to X?
+prerequisite_chain,ASAP needed prereq chain for Eng 5
+prerequisite_chain,how to get to Bio 50 - prerequisites needed?
+prerequisite_chain,tell me chain of classes for History 100
+prerequisite_chain,what's the chain leading to CS 170?
+prerequisite_chain,what's before art 10?
+prerequisite_chain,"before taking French 5, what do I need?"
+professor_comparison,"who should I take for Econ 2, Prof Lee or Prof Kim?"
+professor_comparison,compare Hsu vs Ortega for CS 50
+professor_comparison,"which instructor is better for Bio 11, Patel or Das?"
+professor_comparison,"Prof Smith vs Prof Jones, who is better?"
+professor_comparison,"rating difference between Dr. Allen and Dr. Baker"
+professor_comparison,"best professor for history, Jones or Smith?"
+professor_comparison,"Dr Wong or Dr Xu, who is easier for Calculus?"
+professor_comparison,"which is a tougher grader, Prof Brown or Prof Green?"
+professor_comparison,"professor A vs B for English class?"
+professor_comparison,"who's a better teacher, Chen or Reed?"
+professor_rating,what's Professor Lee's rating?
+professor_rating,how do students like Professor Nguyen?
+professor_rating,reviews for Dr. Smith in Physics?
+professor_rating,rating for Professor Johnson in CS
+professor_rating,does anyone have feedback on Prof Kwan?
+professor_rating,how is Dr. O'Neill as a teacher?
+professor_rating,how good is Professor Patel?
+professor_rating,Prof Garcia review
+professor_rating,"hey, is Prof Carter a tough professor?"
+professor_rating,rate Professor Parker
+professor_recommendation,"who should I take for CS 50, Prof Lee or Prof Tran?"
+professor_recommendation,which professor is better for Physics 3?
+professor_recommendation,best lecturer for chemistry 1A?
+professor_recommendation,who’s the easiest math professor here?
+professor_recommendation,who should I pick for ENGL 100?
+professor_recommendation,who do you suggest for Calc 2?
+professor_recommendation,who's best for Art 2?
+professor_recommendation,do you have a favorite professor?
+readiness_audit,am I ready to transfer to UCSD?
+readiness_audit,can you check if I meet all requirements for a CS transfer?
+readiness_audit,audit my courses for UC transfer
+readiness_audit,when will I be eligible to apply to UCSD?
+readiness_audit,what do I still need to transfer to UCSD?
+readiness_audit,help me check if I have enough units and GPA to transfer
+readiness_audit,"if I get straight A’s this semester, will I be ready to go to UCSD?"
+readiness_audit,do my current grades and classes meet UCSD transfer reqs?
+readiness_audit,will my completed courses satisfy the UCSD major-prep?
+readiness_audit,"I have finished 60 units; am I good to transfer?"
+readiness_audit,transfer readiness check please
+readiness_audit,check my SMC record against UCSD requirements
+readiness_audit,lol ready to transfer?
+readiness_audit,"😎 do I have all I need for transfer?"
+readiness_audit,"if i get B's this quarter, do I reach 60 units?"
+readiness_audit,tell me if I'm on track for transfer
+readiness_audit,I want to know if I'm transfer-ready now
+readiness_audit,is my academic record ready for a transfer?
+repeat_course_policy,how does repeating a course affect my GPA?
+repeat_course_policy,"if I retake a class, do they average my grades?"
+repeat_course_policy,repeat course policy for transfer
+repeat_course_policy,does retaking a class replace the old grade?
+repeat_course_policy,how many times can I repeat the same class?
+repeat_course_policy,will repeating courses look bad on my transfer application?
+repeat_course_policy,"if I got a D and retook the class for an A, which one counts?"
+repeat_course_policy,policy on repeats at UC transfer
+repeat_course_policy,can I replace a bad grade by retaking the course?
+repeat_course_policy,does UCSD take the highest or latest grade when I repeat a course?
+repeat_course_policy,transcript repeats effect
+repeat_course_policy,limits to repeated courses for transfer
+repeat_course_policy,will UC take multiple attempts into account?
+repeat_course_policy,"😅 planning to retake a class, what happens?"
+repeat_course_policy,repeat class impacting GPA?
+repeat_course_policy,will repeating a class hurt my application?
+repeat_course_policy,"if I fail and retake a class, what happens?"
+repeat_course_policy,effect of multiple attempts on GPA
+report_issue,The course plan for Cognitive Science is missing MATH 8
+report_issue,the TAU application link is broken
+report_issue,your schedule builder gave me a conflict
+report_issue,"SMC updated the curriculum but you didn't"
+report_issue,"I think there's a bug in the audit"
+report_issue,information on courses is incorrect
+report_issue,system shows wrong prerequisite sequence
+report_issue,the chat keeps repeating myself
+report_issue,I found an error in transfer timeline
+report_issue,course database seems outdated
+report_issue,reports card not visible
+report_issue,application deadline is incorrect
+report_issue,transferred courses not showing up
+report_issue,schedule conflict checker not working
+report_issue,"advisor isn't showing up"
+report_issue,the app says I finished courses I haven't
+report_issue,transfer summary is showing wrong units
+report_issue,my saved profile data disappeared
+schedule_builder,make a schedule
+schedule_builder,build me a class schedule for next Fall with my courses
+schedule_builder,please make a schedule with my selected courses
+schedule_builder,put these classes in a schedule with no conflicts
+schedule_builder,I need a schedule for Spring term with morning classes only
+schedule_builder,"give me a conflict-free schedule for Fall including ECON 2, CS 50, and MATH 7"
+schedule_builder,can you find me a schedule that fits my club times?
+schedule_builder,construct a class schedule avoiding Fridays
+schedule_builder,arrange my courses into a schedule for winter
+schedule_builder,plan a schedule including CS 41 and ECON 1A
+schedule_builder,"😅 can you try building me a perfect schedule with all prerequisites?"
+schedule_conflict_check,do these class sections conflict with each other?
+schedule_conflict_check,can you check if my schedule has any conflicts?
+schedule_conflict_check,"I have one class at 10am Monday and another at 10am Monday, is that okay?"
+schedule_conflict_check,make sure these two courses don't overlap
+schedule_conflict_check,check section overlap for me
+schedule_conflict_check,see if any of my classes times collide
+schedule_conflict_check,verify if my chosen sections have a time conflict
+schedule_conflict_check,I want to make sure my classes aren’t on at the same time
+schedule_conflict_check,"My schedule: CS50 MWF 10, Chem 1A, any conflicts?"
+schedule_conflict_check,"two courses at same time, is that a conflict?"
+term_definition,IGETC?
+term_definition,define articulation agreement
+term_definition,explain what GE means
+term_definition,Tell me what articulation means
+term_definition,acronym: AA-T
+term_definition,explain what a TAG is
+term_definition,what is an Associate Degree for Transfer?
+term_definition,define major prep requirements
+term_definition,term: TAG
+term_definition,meaning of GE
+term_definition,explain IGETC in transfer context
+term_definition,what is unit cap at UC?
+term_definition,what is Undecided Major
+term_definition,term: Lower Division transfer reqs
+term_definition,define 'Impaction'
+igetc_certification_info,IGETC certificate?
+igetc_certification_info,how do I get official IGETC certification?
+igetc_certification_info,steps to certify my IGETC courses
+igetc_certification_info,who can sign my IGETC certification form?
+igetc_certification_info,how to submit IGETC to UCSD?
+igetc_certification_info,getting IGETC certified before transfer
+igetc_certification_info,need IGETC paperwork to transfer?
+igetc_certification_info,whom do I talk to for IGETC certification?
+igetc_certification_info,is counselor or registrar certifying IGETC?
+igetc_certification_info,IGETC certification timeline info
+igetc_certification_info,explain how to request IGETC certificate
+igetc_certification_info,when do I apply for IGETC certification?
+igetc_certification_info,who needs to sign my IGETC certification form?
+igetc_certification_info,IGETC approved by who?
+igetc_certification_info,"😎 how to get IGETC stamped official?"
+igetc_certification_info,where to upload IGETC cert docs?
+igetc_certification_info,"IGETC done, what's next?"
+igetc_certification_info,need help with IGETC paperwork
+igetc_certification_info,iGETC certification question
+igetc_certification_info,who finalizes my IGETC?
+igetc_course_options,what SMC courses fulfill IGETC Area 3A?
+igetc_course_options,which courses can I take for IGETC Area 5A?
+igetc_course_options,IGETC Category 1B options at SMC
+igetc_course_options,which IGETC category covers physics?
+igetc_course_options,area 6 options for IGETC?
+igetc_course_options,courses to meet IGETC Area 1C (Lifelong learning)?
+igetc_course_options,do any SMC courses satisfy IGETC Area 4?
+igetc_course_options,IGETC humanities options at SMC
+igetc_course_options,suggest classes for area 5B IGETC
+igetc_course_options,which IGETC area is astronomy under?
+igetc_course_options,SMC courses for natural sciences IGETC
+igetc_course_options,list of arts courses for IGETC area 3
+igetc_course_options,IGETC Social & Behavioral Sciences choices
+igetc_course_options,Area 2 language options at SMC
+igetc_course_options,courses that satisfy IGETC 2B
+igetc_course_options,course options for IGETC Area 3B
+igetc_course_options,what fulfills IGETC Reading & Composition area?
+igetc_course_options,IGETC math/quant reasoning courses
+igetc_course_options,fill IGETC area 5b
+igetc_course_options,IGETC area 1B courses?
+major_requirements,what courses do I need to transfer as a biology major?
+major_requirements,major prep classes for Computer Science transfer
+major_requirements,list requirements to get into UCSD philosophy program
+major_requirements,courses needed for pre-med transfer
+major_requirements,what do I need to graduate in transfer eligibility for engineering?
+major_requirements,major specific prerequisites for UCSD math
+major_requirements,help me find classes to meet my major requirements
+major_requirements,required courses for art history major transfer
+major_requirements,major requirements for sociology transfer
+major_requirements,list pre-transfer classes for economics major
+next_course_recommendation,what course should I take after finishing Calculus 2?
+next_course_recommendation,recommend my next class for engineering path
+next_course_recommendation,which classes next if I want to major in CS?
+next_course_recommendation,"after completing biology 2, what to take next?"
+next_course_recommendation,"my plan: taken Calc1, Calc2, what's next?"
+next_course_recommendation,what's the next class after completing psych 1
+next_course_recommendation,suggest next courses to take for chemistry major
+next_course_recommendation,which SMC class should I enroll in after physics 1?
+next_course_recommendation,what’s my next class after taking CS 20?
+next_course_recommendation,which course to take next for an undecided major?
+prerequisite_chain,prereqs for CS 101?
+prerequisite_chain,what is the full prerequisite chain for CS 101?
+prerequisite_chain,list all prerequisites leading to Chemistry 10
+prerequisite_chain,what classes do I need before taking Physics 3B?
+prerequisite_chain,full chain of prerequisites for Calc 3
+prerequisite_chain,pre-req for Statistics 1 in chain form?
+prerequisite_chain,what do I need to take before Linear Algebra?
+prerequisite_chain,all required classes to eventually take Anatomy 3
+prerequisite_chain,prerequisites up the chain for BIO 210
+prerequisite_chain,what courses come before Econ 100?
+prerequisite_chain,complete sequence of requirements for MATH 8
+prerequisite_chain,can you get me the ladder of prereqs to X?
+prerequisite_chain,ASAP needed prereq chain for Eng 5
+prerequisite_chain,how to get to Bio 50 - prerequisites needed?
+prerequisite_chain,tell me chain of classes for History 100
+prerequisite_chain,what's the chain leading to CS 170?
+prerequisite_chain,what's before art 10?
+prerequisite_chain,"before taking French 5, what do I need?"
+professor_comparison,"who should I take for Econ 2, Prof Lee or Prof Kim?"
+professor_comparison,"compare Hsu vs Ortega for CS 50"
+professor_comparison,"which instructor is better for Bio 11, Patel or Das?"
+professor_comparison,"Prof Smith vs Prof Jones, who is better?"
+professor_comparison,"rating difference between Dr. Allen and Dr. Baker"
+professor_comparison,"best professor for history, Jones or Smith?"
+professor_comparison,"Dr Wong or Dr Xu, who is easier for Calculus?"
+professor_comparison,"which is a tougher grader, Prof Brown or Prof Green?"
+professor_comparison,"professor A vs B for English class?"
+professor_comparison,"who's a better teacher, Chen or Reed?"
+professor_rating,what's Professor Lee's rating?
+professor_rating,how do students like Professor Nguyen?
+professor_rating,reviews for Dr. Smith in Physics?
+professor_rating,rating for Professor Johnson in CS
+professor_rating,does anyone have feedback on Prof Kwan?
+professor_rating,how is Dr. O'Neill as a teacher?
+professor_rating,how good is Professor Patel?
+professor_rating,Prof Garcia review
+professor_rating,"hey, is Prof Carter a tough professor?"
+professor_rating,rate Professor Parker
+professor_recommendation,"who should I take for CS 50, Prof Lee or Prof Tran?"
+professor_recommendation,which professor is better for Physics 3?
+professor_recommendation,best lecturer for chemistry 1A?
+professor_recommendation,who’s the easiest math professor here?
+professor_recommendation,who should I pick for ENGL 100?
+professor_recommendation,who do you suggest for Calc 2?
+professor_recommendation,who's best for Art 2?
+professor_recommendation,do you have a favorite professor?
+readiness_audit,am I ready to transfer to UCSD?
+readiness_audit,can you check if I meet all requirements for a CS transfer?
+readiness_audit,audit my courses for UC transfer
+readiness_audit,when will I be eligible to apply to UCSD?
+readiness_audit,what do I still need to transfer to UCSD?
+readiness_audit,help me check if I have enough units and GPA to transfer
+readiness_audit,"if I get straight A’s this semester, will I be ready to go to UCSD?"
+readiness_audit,do my current grades and classes meet UCSD transfer reqs?
+readiness_audit,will my completed courses satisfy the UCSD major-prep?
+readiness_audit,"I have finished 60 units; am I good to transfer?"
+readiness_audit,transfer readiness check please
+readiness_audit,check my SMC record against UCSD requirements
+readiness_audit,lol ready to transfer?
+readiness_audit,"😎 do I have all I need for transfer?"
+readiness_audit,"if i get B's this quarter, do I reach 60 units?"
+readiness_audit,tell me if I'm on track for transfer
+readiness_audit,I want to know if I'm transfer-ready now
+readiness_audit,is my academic record ready for a transfer?
+repeat_course_policy,how does repeating a course affect my GPA?
+repeat_course_policy,"if I retake a class, do they average my grades?"
+repeat_course_policy,repeat course policy for transfer
+repeat_course_policy,does retaking a class replace the old grade?
+repeat_course_policy,how many times can I repeat the same class?
+repeat_course_policy,will repeating courses look bad on my transfer application?
+repeat_course_policy,"if I got a D and retook the class for an A, which one counts?"
+repeat_course_policy,policy on repeats at UC transfer
+repeat_course_policy,can I replace a bad grade by retaking the course?
+repeat_course_policy,does UCSD take the highest or latest grade when I repeat a course?
+repeat_course_policy,transcript repeats effect
+repeat_course_policy,limits to repeated courses for transfer
+repeat_course_policy,will UC take multiple attempts into account?
+repeat_course_policy,"😅 planning to retake a class, what happens?"
+repeat_course_policy,repeat class impacting GPA?
+repeat_course_policy,will repeating a class hurt my application?
+repeat_course_policy,"if I fail and retake a class, what happens?"
+repeat_course_policy,effect of multiple attempts on GPA
+report_issue,The course plan for Cognitive Science is missing MATH 8
+report_issue,the TAU application link is broken
+report_issue,your schedule builder gave me a conflict
+report_issue,"SMC updated the curriculum but you didn't"
+report_issue,"I think there's a bug in the audit"
+report_issue,information on courses is incorrect
+report_issue,system shows wrong prerequisite sequence
+report_issue,the chat keeps repeating myself
+report_issue,I found an error in transfer timeline
+report_issue,course database seems outdated
+report_issue,reports card not visible
+report_issue,application deadline is incorrect
+report_issue,transferred courses not showing up
+report_issue,schedule conflict checker not working
+report_issue,"advisor isn't showing up"
+report_issue,the app says I finished courses I haven't
+report_issue,transfer summary is showing wrong units
+report_issue,my saved profile data disappeared
+schedule_builder,make a schedule
+schedule_builder,build me a class schedule for next Fall with my courses
+schedule_builder,please make a schedule with my selected courses
+schedule_builder,put these classes in a schedule with no conflicts
+schedule_builder,I need a schedule for Spring term with morning classes only
+schedule_builder,"give me a conflict-free schedule for Fall including ECON 2, CS 50, and MATH 7"
+schedule_builder,can you find me a schedule that fits my club times?
+schedule_builder,construct a class schedule avoiding Fridays
+schedule_builder,arrange my courses into a schedule for winter
+schedule_builder,plan a schedule including CS 41 and ECON 1A
+schedule_builder,"😅 can you try building me a perfect schedule with all prerequisites?"
+schedule_conflict_check,do these class sections conflict with each other?
+schedule_conflict_check,can you check if my schedule has any conflicts?
+schedule_conflict_check,"I have one class at 10am Monday and another at 10am Monday, is that okay?"
+schedule_conflict_check,make sure these two courses don't overlap
+schedule_conflict_check,check section overlap for me
+schedule_conflict_check,see if any of my classes times collide
+schedule_conflict_check,verify if my chosen sections have a time conflict
+schedule_conflict_check,I want to make sure my classes aren’t on at the same time
+schedule_conflict_check,"My schedule: CS50 MWF 10, Chem 1A, any conflicts?"
+schedule_conflict_check,"two courses at same time, is that a conflict?"
+transfer_application_timeline,What are all the steps in the UCSD transfer process?
+transfer_application_timeline,"timeline for UC transfer application (apply, TAU, decision, SIR)"
+transfer_application_timeline,what comes after I submit my transfer app?
+transfer_application_timeline,explain transfer decision timeline
+transfer_application_timeline,"after application, what's next?"
+transfer_application_timeline,when do transfer decisions come out?
+transfer_application_timeline,what is TAU application?
+transfer_application_timeline,steps from application to enrollment
+transfer_application_timeline,application to enrollment timeline
+gpa_projection,"If I get all A's this semester, what will my GPA be?"
+gpa_projection,project my new GPA if I make 3.5 avg next term
+gpa_projection,how will my GPA change if I raise my grades?
+gpa_projection,expected GPA after spring 2025?
+gpa_projection,calculate GPA projection
+gpa_projection,predict transfer GPA with next grades
+gpa_projection,"I'm averaging 3.0; can I reach 3.5 next term?"
+gpa_projection,"if I get Bs and As, new GPA?"
+gpa_projection,"If I get C's this term, where will my GPA stand?"
+gpa_projection,projected GPA if next semester has all As
+gpa_requirement,GPA?
+gpa_requirement,minimum GPA for UCSD transfer
+gpa_requirement,"what's the competitive GPA for engineering transfer?"
+gpa_requirement,do I need a 3.0 or higher for computer science?
+gpa_requirement,GPA required for admission to UCSD?
+gpa_requirement,target GPA for political science transfer
+gpa_requirement,how much GPA is enough for transfer?
+gpa_requirement,asking about GPA threshold
+gpa_requirement,which GPA will get me in?
+gpa_requirement,GPA cutoff for psychology major
+gpa_requirement,tell me about GPA expectation
+gpa_requirement,UCSD transfer GPA advice
+gpa_requirement,score I need to aim for
+gpa_requirement,transfer GPA guidelines
+gpa_requirement,competitive average GPA for transfer applicants
+gpa_requirement,do they have a required GPA minimum?
+gpa_requirement,what gpa is considered safe for transfer?
+gpa_requirement,lol what GPA do i need!
+greeting,hello
+greeting,"yo what's up"
+greeting,good evening
+greeting,"hi! :)"
+greeting,hey
+greeting,whats up?
+greeting,hey buddy
+greeting,hi assistant
+greeting,Greetings
+greeting,yo
+greeting,ellohay
+greeting,bonjour
+greeting,sup?
+greeting,heyaaaaa
+greeting,hola
+greeting,hey you
+greeting,hey!
+greeting,hey yo
+greeting,heyyyy
+goodbye,bye bye
+goodbye,good night
+goodbye,cya
+goodbye,adios
+goodbye,until next time
+goodbye,later!
+goodbye,"🤙 later"
+goodbye,I'm out
+goodbye,bye now
+goodbye,okay bye
+goodbye,im done
+goodbye,"bye 👋"
+goodbye,talk soon
+goodbye,peaceing out
+goodbye,im signing off
+goodbye,adieu
+goodbye,see u
+goodbye,thanks bye
+goodbye,bye-bye
+goodbye,ciao
+thanks,"solid info, thanks"
+thanks,"you're the best"
+thanks,thanks again
+thanks,thank you!
+thanks,tyvm
+thanks,"great, thanks!"
+thanks,thank u
+thanks,woot thanks
+thanks,"❤️ thanks"
+thanks,"awesome, thank you"
+thanks,"🙏 thank you"
+thanks,thank youuu
+thanks,thanks lol
+thanks,thanks a bunch
+thanks,thx man
+thanks,cool thanks
+thanks,ok thanks
+thanks,thanks :)
+thanks,"thx :)"
+thanks,merci
+thanks,thanks <3
+out_of_scope,what is my horoscope for today?
+out_of_scope,what's the capital of Greenland?
+out_of_scope,order me pizza
+out_of_scope,when's the Super Bowl next?
+out_of_scope,how do I hack into my school email?
+out_of_scope,best ramen in LA?
+out_of_scope,can you translate this to Klingon?
+out_of_scope,who is the GOAT?
+out_of_scope,tell me something about unicorns
+out_of_scope,which stock should I buy?
+out_of_scope,what do you think of politics?
+out_of_scope,can you help me cheat on my test?
+out_of_scope,setup a meeting with my mom
+out_of_scope,hey bud find me the hidden treasure
+out_of_scope,3 + 4 * 2?
+out_of_scope,I wonder if cats love cheese
+out_of_scope,where do babies come from?
+out_of_scope,tell me the meaning of life
+out_of_scope,weather?
+out_of_scope,knock knock joke
+out_of_scope,translate my OTP
+out_of_scope,send me a cookie
+out_of_scope,computing the meaning of life
+out_of_scope,free bitcoin please
+out_of_scope,who is going to win the lottery?
+out_of_scope,2+2=5?
+out_of_scope,tell me the best cat video
+out_of_scope,who is the legendary singer of the 90s?
+out_of_scope,knock knock joke
+out_of_scope,translate my OTP
+out_of_scope,send me a cookie
+out_of_scope,computing the meaning of life
+out_of_scope,free bitcoin please
+greeting,hi
+greeting,hey
+greeting,hola
+greeting,yo
+greeting,sup
+greeting,👋
+greeting,hey!!
+greeting,morning!
+greeting,hiya
+greeting,yo!

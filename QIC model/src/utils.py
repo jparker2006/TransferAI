@@ -221,4 +221,46 @@ class FocalLoss(torch.nn.Module):
         p = torch.exp(log_p)
         focal_factor = (1 - p) ** self.gamma
         loss = F.nll_loss(focal_factor * log_p, targets, weight=self.weight, reduction="mean")
-        return loss 
+        return loss
+
+
+def oversample_intents(df: pd.DataFrame, intents: list[str], factor: int = 3) -> pd.DataFrame:
+    """Return a new DataFrame where rows matching *intents* are duplicated *factor* times.
+
+    The original distribution of all other intents is preserved. The returned
+    dataframe is shuffled implicitly by ``pd.concat`` so that boosted samples
+    are not grouped together.
+
+    Parameters
+    ----------
+    df: pd.DataFrame
+        Input dataframe **before** label encoding.
+    intents: list[str]
+        List of intent names to up-sample.
+    factor: int, default ``3``
+        Total replication factor (``factor=3`` → each selected row appears
+        three times in the returned dataframe).
+
+    Returns
+    -------
+    pd.DataFrame
+        A new dataframe containing the over-sampled training examples.
+    """
+    if factor < 1:
+        raise ValueError("factor must be >= 1")
+
+    # Rows to keep as-is
+    keep = df[~df["Intent"].isin(intents)]
+
+    if factor == 1:
+        return keep.copy().reset_index(drop=True)
+
+    # Rows to boost (duplicated to reach the desired factor)
+    boost = df[df["Intent"].isin(intents)]
+    if boost.empty:
+        # No matching intent rows – nothing to oversample.
+        return df.reset_index(drop=True)
+
+    boosted_parts = [boost] * factor  # original + (factor-1) clones
+    df_boosted = pd.concat([keep, *boosted_parts], ignore_index=True)
+    return df_boosted 

@@ -11,6 +11,9 @@ import argparse
 from pathlib import Path
 
 import joblib
+import json
+from typing import Any, Tuple
+
 import torch
 import yaml
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
@@ -32,8 +35,6 @@ def load_artefacts(config_path: Path):
     # ------------------------------------------------------------------
     # Prefer the best checkpoint (highest eval F1) if Trainer artifacts exist
     # ------------------------------------------------------------------
-    import json
-
     ckpt_state_files = list(output_dir.glob("checkpoint-*/trainer_state.json"))
     best_dir: Path | None = None
     if ckpt_state_files:
@@ -60,21 +61,8 @@ def load_artefacts(config_path: Path):
 
         session = ort.InferenceSession(str(onnx_path), providers=["CPUExecutionProvider"])
 
-        def onnx_predict(query: str) -> str:  # noqa: D401
-            tokens = tokenizer(
-                query,
-                return_tensors="np",
-                padding="max_length",
-                truncation=True,
-                max_length=128,
-            )
-            # ort requires numpy arrays
-            inputs = {k: v for k, v in tokens.items()}
-            logits = session.run(None, inputs)[0]
-            pred_id = int(np.argmax(logits, axis=-1))
-            return label_encoder.inverse_transform([pred_id])[0]
-
-        return cfg, tokenizer, onnx_predict, label_encoder, None
+        # Keep the ONNX runtime session to compute logits later
+        return cfg, tokenizer, session, label_encoder, None
 
     # Fallback to PyTorch model
     model = AutoModelForSequenceClassification.from_pretrained(model_dir)
@@ -85,26 +73,87 @@ def load_artefacts(config_path: Path):
     return cfg, tokenizer, model, label_encoder, device
 
 
-def predict_intent(query: str, tokenizer, model_or_fn, label_encoder, device):  # type: ignore[valid-type]
-    """Device-aware prediction that supports ONNX or HF model."""
-    # If we received a callable (ONNX path), delegate directly
-    if callable(model_or_fn) and device is None:
-        return model_or_fn(query)
+def _softmax_np(logits: np.ndarray) -> np.ndarray:
+    """Numerically stable softmax for numpy arrays."""
+    e = np.exp(logits - logits.max())
+    return e / e.sum(axis=-1, keepdims=True)
 
-    # Else use PyTorch model
-    inputs = tokenizer(
-        query,
-        return_tensors="pt",
-        padding=True,
-        truncation=True,
-        max_length=128,
-    ).to(device)
 
-    with torch.no_grad():
-        logits = model_or_fn(**inputs).logits
-        pred_id = logits.argmax(dim=-1).cpu().item()
-    intent = label_encoder.inverse_transform([pred_id])[0]
-    return intent
+def predict_intent(
+    query: str,
+    tokenizer,
+    model_or_session: Any,
+    label_encoder,
+    device,
+    cfg: dict,
+    *,
+    return_probs: bool = False,
+) -> Tuple[str, float, np.ndarray] | str:  # type: ignore[override]
+    """Return predicted intent, optionally with confidence & full distribution.
+
+    Works transparently for both PyTorch *and* ONNX inference sessions.
+    """
+
+    # ------------------------------------------------------------------
+    # 1️⃣  Generate logits
+    # ------------------------------------------------------------------
+    if device is None and hasattr(model_or_session, "run"):
+        # ONNX path
+        tokens = tokenizer(
+            query,
+            return_tensors="np",
+            padding="max_length",
+            truncation=True,
+            max_length=128,
+        )
+        logits = model_or_session.run(None, {k: v for k, v in tokens.items()})[0].squeeze()
+        logits_np = logits.astype(np.float32)
+    else:
+        # PyTorch path
+        inputs = tokenizer(
+            query,
+            return_tensors="pt",
+            padding=True,
+            truncation=True,
+            max_length=128,
+        ).to(device)
+
+        with torch.no_grad():
+            logits_t = model_or_session(**inputs).logits.squeeze()
+        logits_np = logits_t.cpu().numpy()
+
+    # ------------------------------------------------------------------
+    # 2️⃣  Temperature scaling (if calibrated)
+    # ------------------------------------------------------------------
+    temperature = 1.0
+    temp_path = Path(cfg.get("output_dir", "outputs")) / "temperature.txt"
+    if temp_path.exists():
+        try:
+            temperature = float(temp_path.read_text().strip()) or 1.0
+        except Exception:
+            temperature = 1.0
+
+    logits_np /= temperature
+
+    # ------------------------------------------------------------------
+    # 3️⃣  Softmax → probabilities
+    # ------------------------------------------------------------------
+    probs = _softmax_np(logits_np)
+    top_idx = int(probs.argmax())
+    top_prob = float(probs[top_idx])
+
+    predicted_intent = label_encoder.inverse_transform([top_idx])[0]
+
+    # ------------------------------------------------------------------
+    # 4️⃣  Threshold fallback logic
+    # ------------------------------------------------------------------
+    threshold = float(cfg.get("confidence_threshold", 0.65))
+    if top_prob < threshold:
+        predicted_intent = cfg.get("fallback_intent", "clarify")
+
+    if return_probs:
+        return predicted_intent, top_prob, probs  # type: ignore[return-value]
+    return predicted_intent  # type: ignore[return-value]
 
 
 # ---------------------------------------------------------------------------
@@ -121,6 +170,11 @@ def parse_args():  # noqa: D401
         default=str(Path(__file__).parent / "config.yaml"),
         help="Path to the YAML config used during training.",
     )
+    parser.add_argument(
+        "--show-probs",
+        action="store_true",
+        help="Print JSON with confidence & full probability distribution.",
+    )
     return parser.parse_args()
 
 
@@ -131,10 +185,27 @@ def main() -> None:
     if not config_path.exists():
         raise FileNotFoundError(config_path)
 
-    _, tokenizer, model_pt_or_fn, label_encoder, device = load_artefacts(config_path)
+    cfg, tokenizer, model_obj, label_encoder, device = load_artefacts(config_path)
 
-    intent = predict_intent(args.query, tokenizer, model_pt_or_fn, label_encoder, device)
-    print(intent)
+    if args.show_probs:
+        intent, conf, dist = predict_intent(
+            args.query,
+            tokenizer,
+            model_obj,
+            label_encoder,
+            device,
+            cfg,
+            return_probs=True,
+        )
+
+        distribution = {lbl: float(prob) for lbl, prob in zip(label_encoder.classes_, dist)}
+        output = {"intent": intent, "confidence": conf, "distribution": distribution}
+        print(json.dumps(output, indent=2))
+    else:
+        intent = predict_intent(
+            args.query, tokenizer, model_obj, label_encoder, device, cfg, return_probs=False
+        )
+        print(intent)
 
 
 if __name__ == "__main__":  # pragma: no cover

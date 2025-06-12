@@ -42,11 +42,11 @@ def parse_args() -> argparse.Namespace:  # noqa: D401
 
 def run_inference(df: pd.DataFrame, cfg_path: Path) -> pd.DataFrame:
     """Add a *Predicted_Intent* column to *df* by running the model."""
-    _, tokenizer, model, label_encoder, device = load_artefacts(cfg_path)
+    cfg, tokenizer, model, label_encoder, device = load_artefacts(cfg_path)
 
     preds: list[str] = []
     for query in tqdm(df["Query"].tolist(), desc="Predicting", unit="q"):
-        intent = predict_intent(query, tokenizer, model, label_encoder, device)
+        intent = predict_intent(query, tokenizer, model, label_encoder, device, cfg)
         preds.append(intent)
 
     df = df.copy()

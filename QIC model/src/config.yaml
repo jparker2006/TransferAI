@@ -52,3 +52,18 @@ export_onnx: true                        # save int8 model
 # ▶ Misc
 logging_steps: 50
 report_to: none                         # set to "wandb" or "tensorboard" if desired
+
+# ▶ Oversample meta
+oversample_meta:
+  enabled: true
+  intents: [greeting, goodbye, thanks, agent_identity]
+  factor: 3
+
+# ▶ Confidence threshold settings
+confidence_threshold: 0.55   # softmax prob; below → 'fallback_intent'
+fallback_intent: clarify
+
+# ▶ Calibration
+calibration:
+  enabled: true
+  init_temperature: 1.0

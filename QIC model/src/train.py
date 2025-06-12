@@ -38,6 +38,7 @@ from .utils import (
     stratified_split,
     compute_class_weights,
     FocalLoss,
+    oversample_intents,
 )
 
 # ---------------------------------------------------------------------------
@@ -93,9 +94,16 @@ def main() -> None:  # noqa: C901
 
     df = load_dataset(dataset_path)
 
+    # Split ± oversample --------------------------------------------------
     train_df, val_df = stratified_split(
         df, test_size=cfg.get("test_size", 0.15), seed=cfg.get("random_seed", 42)
     )
+
+    # Optional meta-intent upsampling (only affects training set)
+    if cfg.get("oversample_meta", {}).get("enabled", False):
+        meta_intents = cfg["oversample_meta"].get("intents", [])
+        factor = int(cfg["oversample_meta"].get("factor", 3))
+        train_df = oversample_intents(train_df, meta_intents, factor)
 
     train_df, label_encoder = encode_labels(train_df)
     val_df["label"] = label_encoder.transform(val_df["Intent"].tolist())
@@ -247,6 +255,15 @@ def main() -> None:  # noqa: C901
     (output_dir / "metrics.json").write_text(json.dumps(metrics, indent=2))
 
     print("\nTraining complete. Best model saved to:", output_dir.resolve())
+
+    # ------------------------------------------------------------------
+    # Post-training: temperature scaling calibration (optional)
+    # ------------------------------------------------------------------
+    if cfg.get("calibration", {}).get("enabled", False):
+        import subprocess, sys
+
+        print("\n[Calibration] Launching temperature scaling …")
+        subprocess.run([sys.executable, "-m", "src.calibrate"], check=False)
 
     # ------------------------------------------------------------------
     # Optional ONNX export & INT8 quantization for CPU inference
