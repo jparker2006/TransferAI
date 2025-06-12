@@ -1380,7 +1380,7 @@
       "c_id": "BUS 115",
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "•  ENGL C1000 (formerly ENGL 1) or BUS 31.",
+      "prerequisites": "ENGL C1000 (formerly ENGL 1) or BUS 31.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
@@ -1869,7 +1869,7 @@
       "special_notes": [
         "BUS 45 is the same class as ACCTG 45. Students may earn credit for one, but not for both."
       ],
-      "prerequisites": "•  Elementary Algebra.",
+      "prerequisites": "Elementary Algebra.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,

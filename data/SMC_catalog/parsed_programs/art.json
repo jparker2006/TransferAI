@@ -2181,12 +2181,31 @@
             }
           ],
           "notes": [
-            "Above section 1252 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. ART 87 ART MENTOR PORTFOLIO 3 UNITS This course is designed for students who are building an art portfolio for transfer and have taken entry-level art courses. Planning, production, and execution of proposed projects leading to completed artworks for an exhibition at the end of the program will be the main emphasis. Focus will be on creating ambitious and self-guided artwork."
+            "Above section 1252 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": null,
           "modality": "Hybrid",
           "co_enrollment_with": null
-        },
+        }
+      ]
+    },
+    {
+      "course_code": "ART 87",
+      "course_title": "ART MENTOR PORTFOLIO",
+      "units": "3 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This course is designed for students who are building an art portfolio for transfer and have taken entry-level art courses. Planning, production, and execution of proposed projects leading to completed artworks for an exhibition at the end of the program will be the main emphasis. Focus will be on creating ambitious and self-guided artwork.",
+      "same_as": null,
+      "sections": [
         {
           "section_number": "1253",
           "schedule": [

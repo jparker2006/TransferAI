@@ -156,13 +156,31 @@
             }
           ],
           "notes": [
-            "Above section 7013 meets for 4 weeks, Dec 06 to Dec 20, and is a hybrid class taught online via the Internet and at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. For additional information, go to smc.edu/OnlineEd.",
-            "ECE 904 HEALTH AND SAFETY FOR ECE PROVIDERS 0 UNITS Introduction and training on specific topics associated with cardiopulmonary resuscitation, emergency procedures, and first aid, with an emphasis on infants and young children."
+            "Above section 7013 meets for 4 weeks, Dec 06 to Dec 20, and is a hybrid class taught online via the Internet and at the Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066. For additional information, go to smc.edu/OnlineEd."
           ],
           "duration": "4 weeks, Dec 06 to Dec 20",
           "modality": "Hybrid",
           "co_enrollment_with": null
-        },
+        }
+      ]
+    },
+    {
+      "course_code": "ECE 904",
+      "course_title": "HEALTH AND SAFETY FOR ECE PROVIDERS",
+      "units": "0 UNITS",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Introduction and training on specific topics associated with cardiopulmonary resuscitation, emergency procedures, and first aid, with an emphasis on infants and young children.",
+      "same_as": null,
+      "sections": [
         {
           "section_number": "7014",
           "schedule": [

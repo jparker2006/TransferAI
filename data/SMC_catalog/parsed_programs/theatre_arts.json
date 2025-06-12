@@ -943,7 +943,7 @@
       "special_notes": [
         "TH ART 45 is the same course as MUSIC 45. Students may earn credit for one, but not both."
       ],
-      "prerequisites": "•  Audition required.",
+      "prerequisites": "Audition required.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
@@ -988,7 +988,7 @@
       "c_id": "THTR 191",
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "•  Pre-enrollment auditions required.",
+      "prerequisites": "Pre-enrollment auditions required.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
@@ -1117,7 +1117,7 @@
       "c_id": "THTR 191",
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "•  Pre-enrollment audition required.",
+      "prerequisites": "Pre-enrollment audition required.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,

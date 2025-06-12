@@ -111,6 +111,186 @@
       ]
     },
     {
+      "course_code": "COUNS 51",
+      "course_title": "TEST TAKING/MEMORY STRATEGIES",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Maximum credit of AA applicable counseling courses may be limited; check with Counseling. This course is designed to teach specific learning strategies in the areas of test taking and memory. Students will learn to be more successful in taking various types of academic tests by applying specific strategies for test-taking, retaining and recalling information, answering test questions, and learning from mistakes.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1704",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:35a.m.",
+              "days": "MW",
+              "location": "ONLINE",
+              "instructor": "Abadzhyan S"
+            }
+          ],
+          "notes": [
+            "Above section 1704 meets for 8 weeks, Oct 27 to Dec 17. Above section 1704mmended for students enrolled in at least 1 academic class. Above section modality is Scheduled."
+          ],
+          "duration": "8 weeks, Oct 27 to Dec 17",
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 52",
+      "course_title": "TEXTBOOK/MEMORY STRATEGIES",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Maximum credit of AA applicable counseling courses may be limited; check with Counseling. This course is designed to teach specific learning strategies in the areas of textbook reading and memory. Students will learn to improve comprehension of textbooks by reading actively,creating a variety of study tools from textbooks, and applying techniques for remembering what has been read.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1705",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:35a.m.",
+              "days": "MW",
+              "location": "ONLINE",
+              "instructor": "Abadzhyan S"
+            }
+          ],
+          "notes": [
+            "Above section 1705 meets for 8 weeks, Sep 03 to Oct 22. Above section 1705mmended for students enrolled in at least 1 academic class. Above section modality is Scheduled."
+          ],
+          "duration": "8 weeks, Sep 03 to Oct 22",
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 53",
+      "course_title": "PHONICS, SPELLING AND VOCABULARY DEVELOPMENT",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Maximum credit of AA applicable counseling courses may be limited; check with Counseling. This course helps students develop strategies to improve phonetic and rule-based spelling. This course also helps students develop vocabulary through understanding of word morphology. This course is designed for students with learning disabilities.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1706",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:35a.m.",
+              "days": "TTh",
+              "location": "ONLINE",
+              "instructor": "Teruya S"
+            }
+          ],
+          "notes": [
+            "Above section 1706 meets for 8 weeks, Sep 02 to Oct 23. Above section 1706mmended for students enrolled in at least 1 academic class. Above section modality is Scheduled."
+          ],
+          "duration": "8 weeks, Sep 02 to Oct 23",
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 54",
+      "course_title": "ORGANIZING FOR COLLEGE SUCCESS",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Maximum credit of AA applicable counseling courses may be limited; check with Counseling. The primary emphasis of this class is on time management and task analysis. Students are taught how to break academic assignments down into individual steps and how to schedule these and other tasks on daily, weekly, and monthly calendars. Goal setting, career choice, prioritizing, procrastination, and evaluation of study time and environment are part of this planning process. Also covered are organization of materials and information as well as memory. This class is designed for more mature, motivated students with learning disabilities, particularly attention deficit disorders.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1707",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:35a.m.",
+              "days": "TTh",
+              "location": "ONLINE",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 1707 meets for 8 weeks, Sep 02 to Oct 23. Above section 1707mmended for students enrolled in at least 1 academic class. Above section modality is Scheduled."
+          ],
+          "duration": "8 weeks, Sep 02 to Oct 23",
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "COUNS 56",
+      "course_title": "WRITTEN LANGUAGE STRATEGIES",
+      "units": "1 UNIT",
+      "transfer_info": [],
+      "c_id": null,
+      "cal_getc_area": null,
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": null,
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "Maximum credit of AA applicable counseling courses may be limited; check with Counseling. This course incorporates the use of computers and software to implement and support the step-by-step stages of writing strategies. This course is designed for students with learning disabilities.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1708",
+          "schedule": [
+            {
+              "time": "9:30a.m.-10:35a.m.",
+              "days": "TTh",
+              "location": "ONLINE",
+              "instructor": "Staff"
+            }
+          ],
+          "notes": [
+            "Above section 1708 meets for 8 weeks, Oct 28 to Dec 18. Above section 1708mmended for students enrolled in at least 1 academic class. Above section modality is Scheduled."
+          ],
+          "duration": "8 weeks, Oct 28 to Dec 18",
+          "modality": "Scheduled",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
       "course_code": "COUNS 57",
       "course_title": "LISTENING, NOTE TAKING, AND MEMORY",
       "units": "1 UNIT",

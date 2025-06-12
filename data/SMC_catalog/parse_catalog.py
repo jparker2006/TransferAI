@@ -1107,8 +1107,24 @@ class SMCCatalogParser:
                 # When we have a prerequisite bullet followed by corequisite bullet,
                 # we need to collect all text between them as part of the prerequisite
                 if bullet_content.startswith('Prerequisite:'):
+                    # Capture the (potentially multi-line) prerequisite text
                     prereq_text, lines_consumed = self._parse_prerequisite_with_potential_continuation(lines, i)
-                    course.prerequisites = prereq_text.replace('Prerequisite:', '').strip()
+                    # Clean the text (remove label & leading bullet if present)
+                    clean_prereq = prereq_text.replace('Prerequisite:', '').lstrip('•').strip()
+
+                    # If we already have prerequisite text from an earlier bullet, append rather than overwrite
+                    if course.prerequisites:
+                        # Only add if this prerequisite fragment is not already present
+                        if clean_prereq not in course.prerequisites:
+                            # Use comma instead of semicolon if existing text ends with a period to avoid '.;' pattern
+                            if course.prerequisites.rstrip().endswith('.'):
+                                # Replace terminal period with comma and a space
+                                course.prerequisites = course.prerequisites.rstrip().rstrip('.') + ', ' + clean_prereq
+                            else:
+                                course.prerequisites = f"{course.prerequisites}; {clean_prereq}"
+                    else:
+                        course.prerequisites = clean_prereq
+
                     i += lines_consumed
                     continue
                 
@@ -1121,12 +1137,37 @@ class SMCCatalogParser:
                     coreq_text = bullet_content.replace('Corequisite:', '').replace('Corequisites:', '').strip()
                     course.corequisites = coreq_text
                 elif bullet_content.startswith('Prerequisite/Corequisite:'):
-                    # Handle combined prerequisite/corequisite
+                    # Handle combined prerequisite/corequisite bullets which should populate *both*
+                    # fields *without* removing any existing prerequisite content.
                     combined_text = bullet_content.replace('Prerequisite/Corequisite:', '').strip()
-                    # For combined cases, we'll put the full text in both fields with appropriate prefixes
-                    course.prerequisites = combined_text
-                    course.corequisites = combined_text
-                    self.add_warning(f"Found combined Prerequisite/Corequisite for {course.course_code}: {combined_text}")
+
+                    # Merge with prerequisites – append if we already captured other prereqs
+                    if course.prerequisites:
+                        if combined_text not in course.prerequisites:
+                            # Use comma instead of semicolon if existing text ends with a period to avoid '.;' pattern
+                            if course.prerequisites.rstrip().endswith('.'):
+                                # Replace terminal period with comma and a space
+                                course.prerequisites = course.prerequisites.rstrip().rstrip('.') + ', ' + combined_text
+                            else:
+                                course.prerequisites = f"{course.prerequisites}; {combined_text}"
+                    else:
+                        course.prerequisites = combined_text
+
+                    # Always include in corequisites (append if necessary)
+                    if course.corequisites:
+                        if combined_text not in course.corequisites:
+                            # Use comma instead of semicolon if existing text ends with a period to avoid '.;' pattern
+                            if course.corequisites.rstrip().endswith('.'):
+                                # Replace terminal period with comma and a space
+                                course.corequisites = course.corequisites.rstrip().rstrip('.') + ', ' + combined_text
+                            else:
+                                course.corequisites = f"{course.corequisites}; {combined_text}"
+                    else:
+                        course.corequisites = combined_text
+
+                    self.add_warning(
+                        f"Found combined Prerequisite/Corequisite for {course.course_code}: {combined_text} – merged with existing prerequisites/corequisites"
+                    )
                 elif bullet_content.startswith('Advisory:'):
                     course.advisory = bullet_content.replace('Advisory:', '').strip()
                 elif bullet_content.startswith('Satisfies'):
@@ -1143,7 +1184,10 @@ class SMCCatalogParser:
             
             # Parse "Formerly" line
             if line.startswith('Formerly'):
-                course.formerly = line.replace('Formerly', '').strip().rstrip('.')
+                # Only record the first valid 'Formerly' line to avoid later unrelated
+                # occurrences (e.g., in marketing tables) from overwriting the value.
+                if not course.formerly:
+                    course.formerly = line.replace('Formerly', '').strip().rstrip('.')
                 i += 1
                 continue
             

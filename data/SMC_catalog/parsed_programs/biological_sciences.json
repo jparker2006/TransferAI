@@ -13,15 +13,612 @@
       "c_id": "BIOL 110B",
       "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
       "special_notes": [],
-      "prerequisites": "•  ENGL C1000 (formerly ENGL 1).",
+      "prerequisites": "ENGL C1000 (formerly ENGL 1).",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "This course is an intensive study of the gross and microscopic structure of the human body including the four major types of tissue and their subgroups, and the following organ systems: integumentary, skeletal, muscular, circulatory, respiratory, digestive, urinary, reproductive, endocrine, nervous, enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information.",
+      "description": "This course is an intensive study of the gross and microscopic structure of the human body including the four major types of tissue and their subgroups, and the following organ systems: integumentary, skeletal, muscular, circulatory, respiratory, digestive, urinary, reproductive, endocrine, nervous, and sensory. Functions of the organ systems are included at the introductory level to prepare students for a course in Human Physiology. Laboratory assignments develop the skills of observation, investigation, identification, discovery and dissection. The use of actual specimens, including cat dissection and observation of a human cadaver, is emphasized to assure that students learn the relative structure, functions, textures and variations in tissues not incorporated in models. Supplemental materials such as models, photographs, charts, videotapes, and digitized images are also provided. This course is required for students preparing for many Allied Health professions including, but not limited to, Nursing, Respiratory Therapy, Physical Therapy, Physical Education and Kinesiology Training, and Physician’s Assistant and is a prerequisite for Human Physiology 3.",
       "same_as": null,
       "sections": [
+        {
+          "section_number": "1111",
+          "schedule": [
+            {
+              "time": "7:45a.m.-10:55a.m.",
+              "days": "W",
+              "location": "MSB 219",
+              "instructor": "Hutchinson S C"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Hutchinson S C"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "SCI 245",
+              "instructor": "Hutchinson S C"
+            }
+          ],
+          "notes": [
+            "Above section 1111 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1111 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1112",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "TTh",
+              "location": "MSB 219",
+              "instructor": "Wissmann P B"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "SCI 245",
+              "instructor": "Wissmann P B"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1114",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "Th",
+              "location": "MSB 217",
+              "instructor": "Williams R R"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Williams R R"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "SCI 245",
+              "instructor": "Williams R R"
+            }
+          ],
+          "notes": [
+            "Above section 1114 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1115",
+          "schedule": [
+            {
+              "time": "10:30a.m.-1:35p.m.",
+              "days": "F",
+              "location": "MSB 217",
+              "instructor": "Ellis C L"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Ellis C L"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "SCI 245",
+              "instructor": "Ellis C L"
+            }
+          ],
+          "notes": [
+            "Above section 1115 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1115 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1116",
+          "schedule": [
+            {
+              "time": "11:15a.m.-2:20p.m.",
+              "days": "MW",
+              "location": "MSB 217",
+              "instructor": "Grant C"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "SCI 245",
+              "instructor": "Grant C"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1117",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:50p.m.",
+              "days": "T",
+              "location": "MSB 219",
+              "instructor": "Fickbohm D J"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Fickbohm D J"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "SCI 245",
+              "instructor": "Fickbohm D J"
+            }
+          ],
+          "notes": [
+            "Above section 1117 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1117 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1118",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:50p.m.",
+              "days": "Th",
+              "location": "MSB 217",
+              "instructor": "Ellis C L"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Ellis C L"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "SCI 245",
+              "instructor": "Ellis C L"
+            }
+          ],
+          "notes": [
+            "Above section 1118 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1118 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1119",
+          "schedule": [
+            {
+              "time": "12:45p.m.-3:50p.m.",
+              "days": "Th",
+              "location": "MSB 219",
+              "instructor": "Fickbohm D J"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Fickbohm D J"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "SCI 245",
+              "instructor": "Fickbohm D J"
+            }
+          ],
+          "notes": [
+            "Above section 1119 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1119 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1120",
+          "schedule": [
+            {
+              "time": "2:45p.m.-5:50p.m.",
+              "days": "MW",
+              "location": "MSB 217",
+              "instructor": "Grant C"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "SCI 245",
+              "instructor": "Grant C"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1121",
+          "schedule": [
+            {
+              "time": "4:15p.m.-7:20p.m.",
+              "days": "Th",
+              "location": "MSB 217",
+              "instructor": "Ellis C L"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Ellis C L"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "SCI 245",
+              "instructor": "Ellis C L"
+            }
+          ],
+          "notes": [
+            "Above section 1121 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1121 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1122",
+          "schedule": [
+            {
+              "time": "11:15a.m.-2:25p.m.",
+              "days": "W",
+              "location": "MSB 219",
+              "instructor": "Hutchinson S C"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Hutchinson S C"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "SCI 245",
+              "instructor": "Hutchinson S C"
+            }
+          ],
+          "notes": [
+            "Above section 1122 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 1122 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4007",
+          "schedule": [
+            {
+              "time": "6:30p.m.-9:35p.m.",
+              "days": "T",
+              "location": "MSB 217",
+              "instructor": "Le M K"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Le M K"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "SCI 245",
+              "instructor": "Le M K"
+            }
+          ],
+          "notes": [
+            "Above section 4007 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 4007 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "4008",
+          "schedule": [
+            {
+              "time": "6:30p.m.-9:35p.m.",
+              "days": "Th",
+              "location": "MSB 219",
+              "instructor": "Le M K"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Le M K"
+            },
+            {
+              "time": "Arrange-1 Hour",
+              "days": "N",
+              "location": "SCI 245",
+              "instructor": "Le M K"
+            }
+          ],
+          "notes": [
+            "Above section 4008 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section 4008 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "BIOL 2",
+      "course_title": "HUMAN BIOLOGY",
+      "units": "3 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, non-lab)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "This survey course explores the principles of biology using humans as examples. It includes introductions to the scientific method, cell biology, heredity, evolution, human ecology, behavior, and the major concepts of structure, function and pathology of most organ systems. The course may serve as an introduction to the future study of biology, including anatomy and physiology, or stand by itself as a non-lab life science course for general education students.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1270",
+          "schedule": [
+            {
+              "time": "2:15p.m.-3:35p.m.",
+              "days": "TTh",
+              "location": "MSB 214",
+              "instructor": "Qualey K N"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1271",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Chen T T"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1272",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Chen T T"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1273",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Hutchinson S C"
+            }
+          ],
+          "notes": [
+            "Above section 1273 has online exams accessing an online proctoring service. Computer with webcam and microphone is required. The Google Chrome browser must be downloaded to your computer. Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1274",
+          "schedule": [
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Qualey K N"
+            }
+          ],
+          "notes": [
+            "Above section modality is Flexible."
+          ],
+          "duration": null,
+          "modality": "Flexible",
+          "co_enrollment_with": null
+        }
+      ]
+    },
+    {
+      "course_code": "BIOL 3",
+      "course_title": "FUNDAMENTALS OF BIOLOGY",
+      "units": "4 UNITS",
+      "transfer_info": [
+        "UC",
+        "CSU"
+      ],
+      "c_id": null,
+      "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
+      "special_notes": [],
+      "prerequisites": null,
+      "prerequisite_notes": null,
+      "corequisites": null,
+      "advisory": "Eligibility for English 1",
+      "advisory_notes": null,
+      "formerly": null,
+      "description": "*No UC credit given for BIOL 3 if taken after BIOL 21, 22 or 23. This general biology course is for transfer students who are not biology majors. Topics include basic molecular and cellular biology, genetics, the anatomy and physiology of plants, animals and humans, the diversity of life, evolution, and ecology. Current environmental issues and new developments in biological science are discussed. Laboratory experiences are integrated and stress scientific methodology and thinking. Credit is allowed for either BIOL 3 or BOTANY 1, but not both.",
+      "same_as": null,
+      "sections": [
+        {
+          "section_number": "1276",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "TTh",
+              "location": "SCI 225",
+              "instructor": "Von Der Ohe C G"
+            }
+          ],
+          "notes": [
+            "Above section 1276 is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information. Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1277",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "T",
+              "location": "SCI 227",
+              "instructor": "Fennoy S L"
+            },
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "TTh",
+              "location": "SCI 151",
+              "instructor": "Fennoy S L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1278",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "Th",
+              "location": "SCI 227",
+              "instructor": "Fennoy S L"
+            },
+            {
+              "time": "11:15a.m.-12:35p.m.",
+              "days": "TTh",
+              "location": "SCI 151",
+              "instructor": "Fennoy S L"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1279",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:05a.m.",
+              "days": "F",
+              "location": "SCI 227",
+              "instructor": "Jayachandran S"
+            },
+            {
+              "time": "12:00p.m.-3:05p.m.",
+              "days": "F",
+              "location": "SCI 227",
+              "instructor": "Jayachandran S"
+            }
+          ],
+          "notes": [
+            "Above section modality is On Ground."
+          ],
+          "duration": null,
+          "modality": "On Ground",
+          "co_enrollment_with": null
+        },
+        {
+          "section_number": "1280",
+          "schedule": [
+            {
+              "time": "8:00a.m.-11:10a.m.",
+              "days": "M",
+              "location": "SCI 225",
+              "instructor": "Kim-Rajab O S"
+            },
+            {
+              "time": "Arrange-3 Hours",
+              "days": "N",
+              "location": "ONLINE",
+              "instructor": "Kim-Rajab O S"
+            }
+          ],
+          "notes": [
+            "Above section 1280 is a hybrid class taught on campus and online via the Internet. For additional information, go to smc.edu/OnlineEd. Above section is part of the Scholars Program and enrollment is temporarily limited to program participants. See the Special Programs section of the class schedule or smc.edu/scholars for more information."
+          ],
+          "duration": null,
+          "modality": "Hybrid",
+          "co_enrollment_with": null
+        },
         {
           "section_number": "1281",
           "schedule": [
@@ -470,7 +1067,7 @@
       "special_notes": [
         "*No UC credit for BIOL 3"
       ],
-      "prerequisites": "•  CHEM 11.",
+      "prerequisites": "CHEM 11.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": "Eligibility for English 1",
@@ -551,7 +1148,7 @@
       "special_notes": [
         "*No UC credit for BIOL 3"
       ],
-      "prerequisites": "•  BIOL 21 and CHEM 11.",
+      "prerequisites": "BIOL 21 and CHEM 11.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": "CHEM 21 and Eligibility for English 1",
@@ -621,7 +1218,7 @@
       "special_notes": [
         "*No UC credit for BIOL 3"
       ],
-      "prerequisites": "•  BIOL 22.",
+      "prerequisites": "BIOL 22.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": "Eligibility for English 1",
@@ -732,7 +1329,7 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "•  BIOL 31. This techniques-focused course will provide knowledge and skills in the use of antibody-related reagents and antibodybased assays as a tool in biotechnology, biomedical research, or clinical laboratories. It focuses on the specific properties of antibody reagents for the identification and quantification of various biological or environmental molecules. Students learn basic immunology, the theoretical basis of antigen-antibody reactions, micropipetting techniques, and how to design, perform, analyze, and troubleshoot modern immunoassay-related techniques. The course will prepare students for work-ready skills in a bioscience research and biotechnology industry career.",
+      "prerequisites": "BIOL 31. This techniques-focused course will provide knowledge and skills in the use of antibody-related reagents and antibodybased assays as a tool in biotechnology, biomedical research, or clinical laboratories. It focuses on the specific properties of antibody reagents for the identification and quantification of various biological or environmental molecules. Students learn basic immunology, the theoretical basis of antigen-antibody reactions, micropipetting techniques, and how to design, perform, analyze, and troubleshoot modern immunoassay-related techniques. The course will prepare students for work-ready skills in a bioscience research and biotechnology industry career.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
@@ -913,7 +1510,7 @@
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
       "special_notes": [],
-      "prerequisites": "•  CHEM 19 (preferred) or CHEM 10 or eligibility for CHEM 11; and PHYS 3 or BIOL 3 or BIOL 21.",
+      "prerequisites": "CHEM 19 (preferred) or CHEM 10 or eligibility for CHEM 11; and PHYS 3 or BIOL 3 or BIOL 21.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": "Eligibility for English 1",
@@ -1294,7 +1891,7 @@
       "c_id": "BIOL 120 B",
       "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
       "special_notes": [],
-      "prerequisites": "•  CHEM 19 (preferred) or CHEM 10 or eligibility for CHEM 11; and ANATMY 1.",
+      "prerequisites": "CHEM 19 (preferred) or CHEM 10 or eligibility for CHEM 11; and ANATMY 1.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": "Eligibility for English 1",
