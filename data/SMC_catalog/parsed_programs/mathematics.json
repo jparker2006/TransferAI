@@ -1532,14 +1532,16 @@
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units."
+      ],
       "prerequisites": "MATH 20 and MATH 32.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units. An intensive preparation for calculus. This course is intended for computer science, engineering, mathematics, and natural science majors. Topics include algebraic, exponential, logarithmic and trigonometric functions and their inverses and identities, conic sections, sequences, series, the binomial theorem and mathematical induction.",
+      "description": "An intensive preparation for calculus. This course is intended for computer science, engineering, mathematics, and natural science majors. Topics include algebraic, exponential, logarithmic and trigonometric functions and their inverses and identities, conic sections, sequences, series, the binomial theorem and mathematical induction.",
       "same_as": null,
       "sections": [
         {
@@ -2008,14 +2010,16 @@
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units."
+      ],
       "prerequisites": "MATH 20.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum UC credit for MATH 2, MATH 4, and MATH 26 is 5 units. This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). Math 4 in combination with Math 3 (Trigonometry with applications) serves as a prerequisite for Math 7 (Calculus 1). The topics to be covered include review of the fundamentals of algebra, relations, functions, solutions of first and second degree equations and inequalities, systems of equations, matrices, binomial theorem, mathematical induction, polynomial and rational functions, exponential and logarithmic functions, analytic geometry and conic sections, and geometric and arithmetic sequences and series.",
+      "description": "This course is intended for students majoring in Science, Technology, Engineering, or Mathematics (STEM). Math 4 in combination with Math 3 (Trigonometry with applications) serves as a prerequisite for Math 7 (Calculus 1). The topics to be covered include review of the fundamentals of algebra, relations, functions, solutions of first and second degree equations and inequalities, systems of equations, matrices, binomial theorem, mathematical induction, polynomial and rational functions, exponential and logarithmic functions, analytic geometry and conic sections, and geometric and arithmetic sequences and series.",
       "same_as": null,
       "sections": [
         {

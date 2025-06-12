@@ -49,13 +49,13 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "Admission to the Bachelor of Science in Interaction Design. The course serves as an introduction to the methods and principles of Interaction Design. It is structured around projectbased learning, emphasizing diverse approaches to tackling design challenges. The primary focus is on leveraging the iterative design process to identify human behaviors and using technology interventions to influence those behaviors. In addition to ideation and problem-solving methods, this class will also use research and rapid prototyping techniques to ensure the proposed interventions resonate with users and project stakeholders.",
+      "prerequisites": "Admission to the Bachelor of Science in Interaction Design.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "This course is open only to students who have been admitted to SMC’s Bachelor of Science program in Interaction Design. See ixd.smc.edu for more information.",
+      "description": "The course serves as an introduction to the methods and principles of Interaction Design. It is structured around projectbased learning, emphasizing diverse approaches to tackling design challenges. The primary focus is on leveraging the iterative design process to identify human behaviors and using technology interventions to influence those behaviors. In addition to ideation and problem-solving methods, this class will also use research and rapid prototyping techniques to ensure the proposed interventions resonate with users and project stakeholders. This course is open only to students who have been admitted to SMC’s Bachelor of Science program in Interaction Design. See ixd.smc.edu for more information.",
       "same_as": null,
       "sections": [
         {
@@ -93,13 +93,13 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "IXD 330. In this course, students work with a variety of organizations addressing a community need to design and develop a project with social impact. Students apply a variety of user experience and interaction design skill sets to work collaboratively with community stakeholders in identifying and helping to solve a need. Through this experience, students recognize and demonstrate many interaction design practices related to research, analysis, concept, design and prototyping to work on a project designed to serve a community need.",
+      "prerequisites": "IXD 330.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "This course is open only to students who have been admitted to SMC’s Bachelor of Science program in Interaction Design. See ixd.smc.edu for more information.",
+      "description": "In this course, students work with a variety of organizations addressing a community need to design and develop a project with social impact. Students apply a variety of user experience and interaction design skill sets to work collaboratively with community stakeholders in identifying and helping to solve a need. Through this experience, students recognize and demonstrate many interaction design practices related to research, analysis, concept, design and prototyping to work on a project designed to serve a community need. This course is open only to students who have been admitted to SMC’s Bachelor of Science program in Interaction Design. See ixd.smc.edu for more information.",
       "same_as": null,
       "sections": [
         {

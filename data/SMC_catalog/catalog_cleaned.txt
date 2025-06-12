@@ -10361,9 +10361,7 @@ Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.
 Above section modality is On Ground.
 HEALTH 985, NURSE ASSISTANT PRE-CERTIFICATION
 FOUNDATIONAL TRAINING 0 UNITS
-• Corequisite: HEALTH 986 The California Department of Health
-requires students to be concurrently enrolled in HEALTH 985 (the-
-ory) and HEALTH 986 (lab) and pass both courses together. They cannot be taken individually for credit.
+• Corequisite: HEALTH 986 The California Department of Health requires students to be concurrently enrolled in HEALTH 985 (theory) and HEALTH 986 (lab) and pass both courses together. They cannot be taken individually for credit.
 • Prerequisite: Admission to the Nurse Assistant/Home Health Aide
 Pre-certification Program.
 This course is designed for students who have expressed
@@ -10383,9 +10381,7 @@ Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.
 Above section modality is On Ground.
 HEALTH 986, NURSE ASSISTANT PRE-CERTIFICATION
 FOUNDATIONAL CLINICAL TRAINING LAB 0 UNITS
-• Corequisite: HEALTH 985 The California Department of Health
-requires students to be concurrently enrolled in HEALTH 985 (the-
-ory) and HEALTH 986 (lab) and pass both courses together. They cannot be taken individually for credit.
+• Corequisite: HEALTH 985 The California Department of Health requires students to be concurrently enrolled in HEALTH 985 (theory) and HEALTH 986 (lab) and pass both courses together. They cannot be taken individually for credit.
 • Prerequisite: Admission to the Nurse Assistant/Home Health Aide
 Pre-certification Program.
 This course is designed for students who have expressed an
@@ -10414,11 +10410,7 @@ Above section 7066 meets for 8 weeks, Sep 08 to Oct 21. Above section modality i
 Above section 7067 meets for 8 weeks, Sep 08 to Oct 21. Above section modality is On Ground.
 HEALTH 987, HOME HEALTH AIDE PRE-CERTIFICATION
 FOUNDATIONAL TRAINING 0 UNITS
-• Corequisite: HEALTH 988 The California Department of Health
-requires students to be concurrently enrolled in HEALTH 987 Home
-Health Aide Precertification Foundational Training (theory) and
-HEALTH 988 Home Health Aide Precertification Foundational
-Training (lab) and pass both courses together. They cannot be taken individually for credit.
+• Corequisite: HEALTH 988 The California Department of Health requires students to be concurrently enrolled in HEALTH 987 Home Health Aide Precertification Foundational Training (theory) and HEALTH 988 Home Health Aide Precertification Foundational Training (lab) and pass both courses together. They cannot be taken individually for credit.
 • Prerequisite: HEALTH 985 and HEALTH 986.
 This course is designed for students who have completed
 Health 985 and 986 or are a Certified Nurse Assistant who
@@ -10441,9 +10433,7 @@ Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.
 Above section modality is On Ground.
 HEALTH 988, HOME HEALTH AIDE PRE-CERTIFICATION
 TRAINING CLINICAL LAB 0 UNITS
-• Corequisite: HEALTH 987 The California Department of Health
-requires students to be concurrently enrolled in HEALTH 987 (the-
-ory) and HEALTH 988 (lab) and pass both courses together. They cannot be taken individually for credit.
+• Corequisite: HEALTH 987 The California Department of Health requires students to be concurrently enrolled in HEALTH 987 (theory) and HEALTH 988 (lab) and pass both courses together. They cannot be taken individually for credit.
 • Prerequisite: HEALTH 985 and HEALTH 986. After completion
 of HEALTH 985 and HEALTH 986, students are eligible to take
 the California Department of Public Health Nurse Assistant
@@ -12248,8 +12238,7 @@ of disciplines. MATH 54C is a review of the core prerequi-
 site skills, competencies, and concepts needed in statistics.
 Intended for students who are concurrently enrolled in STAT
 C1000, Introduction to Statistics. Topics include: concepts from arithmetic, pre-algebra, elementary and intermediate
-algebra that are needed to understand the basics of college-
-level statistics. Concepts are taught through the context of descriptive data analysis. Pass/No Pass only.
+algebra that are needed to understand the basics of college-level statistics. Concepts are taught through the context of descriptive data analysis. Pass/No Pass only.
 CO-ENROLLMENT
 3115 8:00a.m.-10:05a.m. TTh MSB 212 Kim J J
 Above section 3115 requires co-enrollment in MATH 54C section
@@ -15015,7 +15004,7 @@ Cal-GETC Area 5A (Physical Sciences, + LAB)
 • Prerequisite: MATH 2 or (MATH 3 and 4).
 PHYSCS 6, PHYSCS 7 or PHYSCS 8, PHYSCS 9 or PHYSCS 21, PHYSCS
 22, PHYSCS 23 combined: maximum UC credit, 1 series.
-This course is an algebra- and trigonometry-based study of
+This course is an algebra and trigonometry-based study of
 classical mechanics, including elastic properties of matter and thermodynamics.
 2906 8:00a.m.-11:05a.m. T MSB 316 Paik S T
 8:00a.m.-11:05a.m. F ONLINE Paik S T
@@ -15935,7 +15924,7 @@ newborn and pediatric patient, neonatal and pediatric dis-
 eases and disorders are described with an emphasis on the respiratory care interventions, techniques, and equipment
 used in neonatal and pediatric patient care. The use of non- invasive and invasive mechanical ventilation and strategies
 to reduce the likelihood of ventilator induced lung injury are also discussed.
-3049 8:00a.m.-11:00a.m. MTh BUNDY 416Menchaca-Perez V
+3049 8:00a.m.-11:00a.m. MTh BUNDY 416 Menchaca-Perez V
 Above section 3049 meets for 5 weeks, Nov 17 to Dec 18, at the
 Bundy Campus, 3171 South Bundy Drive, Los Angeles CA 90066.
 Above section modality is On Ground.

@@ -301,14 +301,16 @@
       ],
       "c_id": "BUS 120 and BUS 125",
       "cal_getc_area": null,
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum UC credit allowed for ACCTG 26, BUS 5, BUS 6 is one course (3 units)."
+      ],
       "prerequisites": null,
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum UC credit allowed for ACCTG 26, BUS 5, BUS 6 is one course (3 units). This course provides students with an overview of the fundamental legal principles pertaining to business transactions and related topics. It also encompasses introductory subjects concerning the U.S. legal system such as the court structure, sources of law, legal reasoning and case analysis. To give students a broad perspective on the various laws and areas impacting business, the following topics are also explored: criminal law, torts, civil procedure, administrative processes, contract law, ethics, constitutional law, agency and the legal principles pertaining to business entities.",
+      "description": "This course provides students with an overview of the fundamental legal principles pertaining to business transactions and related topics. It also encompasses introductory subjects concerning the U.S. legal system such as the court structure, sources of law, legal reasoning and case analysis. To give students a broad perspective on the various laws and areas impacting business, the following topics are also explored: criminal law, torts, civil procedure, administrative processes, contract law, ethics, constitutional law, agency and the legal principles pertaining to business entities.",
       "same_as": null,
       "sections": [
         {
@@ -550,14 +552,16 @@
       ],
       "c_id": null,
       "cal_getc_area": null,
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum UC credit allowed for ACCTG 26, BUS 5, BUS 6 is one course (3 units)."
+      ],
       "prerequisites": null,
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum UC credit allowed for ACCTG 26, BUS 5, BUS 6 is one course (3 units). Formerly same course as ACCTG 26. This course covers advanced topics in agency, partnerships, corporations, LLCs, torts, legal procedures, and other advanced topics.",
+      "description": "Formerly same course as ACCTG 26. This course covers advanced topics in agency, partnerships, corporations, LLCs, torts, legal procedures, and other advanced topics.",
       "same_as": null,
       "sections": [
         {

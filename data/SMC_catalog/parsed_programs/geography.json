@@ -12,14 +12,16 @@
       ],
       "c_id": "GEOG 110",
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, non-lab)",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum credit allowed for GEOG 1 and GEOG 5 is one course (4 units)."
+      ],
       "prerequisites": null,
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum credit allowed for GEOG 1 and GEOG 5 is one course (4 units). This course surveys the distribution and relationships of environmental elements in our atmosphere, lithosphere, hydrosphere and biosphere, including weather, climate, water resources, landforms, soils, natural vegetation, and wildlife. Focus is on the systems and cycles of our natural world, including the effects of the sun and moon on environmental processes, and the roles played by humans.",
+      "description": "This course surveys the distribution and relationships of environmental elements in our atmosphere, lithosphere, hydrosphere and biosphere, including weather, climate, water resources, landforms, soils, natural vegetation, and wildlife. Focus is on the systems and cycles of our natural world, including the effects of the sun and moon on environmental processes, and the roles played by humans.",
       "same_as": null,
       "sections": [
         {
@@ -169,14 +171,16 @@
       ],
       "c_id": "GEOG 115",
       "cal_getc_area": "Cal-GETC Area 5A (Physical Sciences, + LAB)",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum credit allowed for GEOG 1 and GEOG 5 is one course (4 units)."
+      ],
       "prerequisites": null,
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum credit allowed for GEOG 1 and GEOG 5 is one course (4 units). This course surveys the distribution and relationships of environmental elements in our atmosphere, lithosphere, hydrosphere and biosphere, including weather, climate, water resources, landforms, soils, natural vegetation, and wildlife. Focus is on the systems and cycles of our natural world, including the effects of the sun and moon on environmental processes, and the roles played by humans. Laboratory work emphasizes the practical application of concepts presented in lecture, introduces the student to some of the tools and methods used in Physical Geography, and may include field study opportunities.",
+      "description": "This course surveys the distribution and relationships of environmental elements in our atmosphere, lithosphere, hydrosphere and biosphere, including weather, climate, water resources, landforms, soils, natural vegetation, and wildlife. Focus is on the systems and cycles of our natural world, including the effects of the sun and moon on environmental processes, and the roles played by humans. Laboratory work emphasizes the practical application of concepts presented in lecture, introduces the student to some of the tools and methods used in Physical Geography, and may include field study opportunities.",
       "same_as": null,
       "sections": [
         {

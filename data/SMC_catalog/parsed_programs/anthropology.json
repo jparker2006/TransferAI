@@ -12,14 +12,16 @@
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, non-lab)",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum credit allowed for ANTHRO 1 and ANTHRO 5 is one course (4 units)."
+      ],
       "prerequisites": null,
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum credit allowed for ANTHRO 1 and ANTHRO 5 is one course (4 units). A survey of human biology, this course focuses on human origins and evolution by investigating the major aspects of biological anthropology including Mendelian and human genetics, primate and hominid evolutionary processes, contemporary human variability and facets of primate ethology and human behavior that make our species unique in the animal kingdom.",
+      "description": "A survey of human biology, this course focuses on human origins and evolution by investigating the major aspects of biological anthropology including Mendelian and human genetics, primate and hominid evolutionary processes, contemporary human variability and facets of primate ethology and human behavior that make our species unique in the animal kingdom.",
       "same_as": null,
       "sections": [
         {
@@ -315,14 +317,16 @@
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum UC credit allowed for ANTHRO 3 and ANTHRO 4 is one course (3 units)."
+      ],
       "prerequisites": null,
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum UC credit allowed for ANTHRO 3 and ANTHRO 4 is one course (3 units). This course is an introduction to the archaeological record documenting the evolution of human culture from the earliest stone tool makers to the primary civilizations of the Old and New Worlds. Topics include hunter-gatherer adaptations, the invention and spread of agriculture, and the development of civilizations. Archaeological techniques and methods are introduced as the means for understanding these developments.",
+      "description": "This course is an introduction to the archaeological record documenting the evolution of human culture from the earliest stone tool makers to the primary civilizations of the Old and New Worlds. Topics include hunter-gatherer adaptations, the invention and spread of agriculture, and the development of civilizations. Archaeological techniques and methods are introduced as the means for understanding these developments.",
       "same_as": null,
       "sections": [
         {
@@ -360,14 +364,16 @@
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 4 (Social & Behavioral Sciences)",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum UC credit allowed for ANTHRO 3 and ANTHRO 4 is one course (3 units)."
+      ],
       "prerequisites": null,
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum UC credit allowed for ANTHRO 3 and ANTHRO 4 is one course (3 units). This is an introductory lecture class on the field and laboratory methods used by archaeologists to understand our past. Topics include the scientific method, archaeological research design, archaeological reconnaissance, excavation, relative and absolute dating techniques, analyses of archaeological remains, and Cultural Resource Management.",
+      "description": "This is an introductory lecture class on the field and laboratory methods used by archaeologists to understand our past. Topics include the scientific method, archaeological research design, archaeological reconnaissance, excavation, relative and absolute dating techniques, analyses of archaeological remains, and Cultural Resource Management.",
       "same_as": null,
       "sections": [
         {
@@ -405,14 +411,16 @@
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
-      "special_notes": [],
+      "special_notes": [
+        "*Maximum credit allowed for ANTHRO 1 and ANTHRO 5 is one course (4 units)."
+      ],
       "prerequisites": null,
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
-      "description": "*Maximum credit allowed for ANTHRO 1 and ANTHRO 5 is one course (4 units). A survey of human biology, this course focuses on human origins and evolution by investigating the major aspects of biological anthropology including Mendelian and human genetics, population genetics, primate and hominid evolutionary processes, contemporary human variability, and facets of primate ethology and human behavior that make our species unique in the animal kingdom. This course consists of three hours of lecture and three hours of laboratory work weekly. The laboratory projects will parallel the lecture topics hence the lab projects will pertain to genetics, human variation, primate anatomy, human osteology, and analysis of hominid (human) and primate fossils.",
+      "description": "A survey of human biology, this course focuses on human origins and evolution by investigating the major aspects of biological anthropology including Mendelian and human genetics, population genetics, primate and hominid evolutionary processes, contemporary human variability, and facets of primate ethology and human behavior that make our species unique in the animal kingdom. This course consists of three hours of lecture and three hours of laboratory work weekly. The laboratory projects will parallel the lecture topics hence the lab projects will pertain to genetics, human variation, primate anatomy, human osteology, and analysis of hominid (human) and primate fossils.",
       "same_as": null,
       "sections": [
         {

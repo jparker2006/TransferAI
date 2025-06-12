@@ -1465,14 +1465,14 @@
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 3B (Humanities)",
       "special_notes": [],
-      "prerequisites": "ENGL C1000 (formerly ENGL 1). In this introduction to the humanities students will survey literature in conjunction with great works of art through the ages (painting, sculpture, music, architecture, dance) exploring how, at widely separated points in time, artists and writers have expressed and responded to cultural, political, and intellectual concerns of their day. In doing so, they will see literature in the context of other art forms. ENGL 26 is the same course as HUM 26. Students may earn credit for one, but not both.",
+      "prerequisites": "ENGL C1000 (formerly ENGL 1).",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "",
-      "same_as": null,
+      "description": "In this introduction to the humanities students will survey literature in conjunction with great works of art through the ages (painting, sculpture, music, architecture, dance) exploring how, at widely separated points in time, artists and writers have expressed and responded to cultural, political, and intellectual concerns of their day. In doing so, they will see literature in the context of other art forms.",
+      "same_as": "HUM 26",
       "sections": [
         {
           "section_number": "1906",
