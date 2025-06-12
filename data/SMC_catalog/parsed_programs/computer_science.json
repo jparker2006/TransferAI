@@ -379,13 +379,13 @@
       "c_id": "COMP 132",
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "CS 52. This advanced programming course will use the C++ language to teach methods of representing and manipulating data within a computer. Topics include stacks, queues, trees, sorting, searching, modeling, and dynamically created storage spaces. Students will learn the problem solving skills necessary to write complex computer programs and to make important software design and maintainability decisions. Software included in course material.",
+      "prerequisites": "CS 52.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "",
+      "description": "This advanced programming course will use the C++ language to teach methods of representing and manipulating data within a computer. Topics include stacks, queues, trees, sorting, searching, modeling, and dynamically created storage spaces. Students will learn the problem solving skills necessary to write complex computer programs and to make important software design and maintainability decisions. Software included in course material.",
       "same_as": null,
       "sections": [
         {

@@ -500,14 +500,16 @@
       ],
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
-      "special_notes": [],
+      "special_notes": [
+        "*No UC credit given for BIOL 3 if taken after BIOL 21, 22 or 23."
+      ],
       "prerequisites": null,
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
-      "description": "*No UC credit given for BIOL 3 if taken after BIOL 21, 22 or 23. This general biology course is for transfer students who are not biology majors. Topics include basic molecular and cellular biology, genetics, the anatomy and physiology of plants, animals and humans, the diversity of life, evolution, and ecology. Current environmental issues and new developments in biological science are discussed. Laboratory experiences are integrated and stress scientific methodology and thinking. Credit is allowed for either BIOL 3 or BOTANY 1, but not both.",
+      "description": "This general biology course is for transfer students who are not biology majors. Topics include basic molecular and cellular biology, genetics, the anatomy and physiology of plants, animals and humans, the diversity of life, evolution, and ecology. Current environmental issues and new developments in biological science are discussed. Laboratory experiences are integrated and stress scientific methodology and thinking. Credit is allowed for either BIOL 3 or BOTANY 1, but not both.",
       "same_as": null,
       "sections": [
         {
@@ -1024,7 +1026,8 @@
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
       "special_notes": [
-        "Satisfies Global Citizenship"
+        "Satisfies Global Citizenship",
+        "*Total of four units credit for BIOL 15 and BIOL 15N is transferable."
       ],
       "prerequisites": null,
       "prerequisite_notes": null,
@@ -1032,7 +1035,7 @@
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
-      "description": "*Total of four units credit for BIOL 15 and BIOL 15N is transferable. This survey course of marine organisms and their relationships to their environment emphasizes intertidal and offshore life forms. Included is an investigation of behavior, ecology, morphological and physiological adaptations and environmental relationship to humans. This course is three hours each of lecture and laboratory work.",
+      "description": "This survey course of marine organisms and their relationships to their environment emphasizes intertidal and offshore life forms. Included is an investigation of behavior, ecology, morphological and physiological adaptations and environmental relationship to humans. This course is three hours each of lecture and laboratory work.",
       "same_as": null,
       "sections": [
         {
@@ -1065,7 +1068,7 @@
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
       "special_notes": [
-        "*No UC credit for BIOL 3"
+        "*No UC credit for BIOL 3, BOTANY 1 or ZOOL 5 if taken after BIOL 21, 22 or 23."
       ],
       "prerequisites": "CHEM 11.",
       "prerequisite_notes": null,
@@ -1073,7 +1076,7 @@
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
-      "description": "BOTANY 1 or ZOOL 5 if taken after BIOL 21, 22 or 23. This is the first course of a three-course lecture and laboratory sequence for Biology majors, including Biology 21, 22, and 23. It describes how scientists approach the scientific method to generate scientific knowledge; studies the history, evidence, and mechanisms of evolution; identifies the chemistry of four classes of macromolecules; elucidates the cell principle including cell structure, function, and physiology; describes general energy metabolism; and illustrates the processes of growth and reproduction through mitosis, meiosis, development, and life cycles. Students are required to perform at least two experiments that require data collection, computerbased data management and graphing, and scientific analysis and interpretation of data. The course is designed to meet the needs of students transferring to upper division biology study.",
+      "description": "This is the first course of a three-course lecture and laboratory sequence for Biology majors, including Biology 21, 22, and 23. It describes how scientists approach the scientific method to generate scientific knowledge; studies the history, evidence, and mechanisms of evolution; identifies the chemistry of four classes of macromolecules; elucidates the cell principle including cell structure, function, and physiology; describes general energy metabolism; and illustrates the processes of growth and reproduction through mitosis, meiosis, development, and life cycles. Students are required to perform at least two experiments that require data collection, computerbased data management and graphing, and scientific analysis and interpretation of data. The course is designed to meet the needs of students transferring to upper division biology study.",
       "same_as": null,
       "sections": [
         {
@@ -1146,7 +1149,7 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [
-        "*No UC credit for BIOL 3"
+        "*No UC credit for BIOL 3, BOTANY 1 or ZOOL 5 if taken after BIOL 21, 22 or 23."
       ],
       "prerequisites": "BIOL 21 and CHEM 11.",
       "prerequisite_notes": null,
@@ -1154,7 +1157,7 @@
       "advisory": "CHEM 21 and Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
-      "description": "BOTANY 1 or ZOOL 5 if taken after BIOL 21, 22 or 23. This is the second course of a three-course lecture and laboratory sequence for Biology Majors, Biology 21, 22 and 23. It focuses on the structure, function and transmission of genes from the perspectives of genetics and molecular biology. A strong foundation in genetics and its relationship to molecular biology is developed through problem solving. Students perform experiments that require data analysis and demonstrate interpretations in laboratory reports. Application of Internet databases for bioinformatics is used to show relationships between DNA and protein sequences. The course is designed to meet the needs of students transferring to upper division biology study. It is strongly recommended that students also enroll in Chemistry 21 which is required for transfer. Any online section of BIOL 22 will be taught as a hybrid with all lab meetings scheduled for in-person learning on the SMC campus.",
+      "description": "This is the second course of a three-course lecture and laboratory sequence for Biology Majors, Biology 21, 22 and 23. It focuses on the structure, function and transmission of genes from the perspectives of genetics and molecular biology. A strong foundation in genetics and its relationship to molecular biology is developed through problem solving. Students perform experiments that require data analysis and demonstrate interpretations in laboratory reports. Application of Internet databases for bioinformatics is used to show relationships between DNA and protein sequences. The course is designed to meet the needs of students transferring to upper division biology study. It is strongly recommended that students also enroll in Chemistry 21 which is required for transfer. Any online section of BIOL 22 will be taught as a hybrid with all lab meetings scheduled for in-person learning on the SMC campus.",
       "same_as": null,
       "sections": [
         {
@@ -1216,7 +1219,7 @@
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
       "special_notes": [
-        "*No UC credit for BIOL 3"
+        "*No UC credit for BIOL 3, BOTANY 1 or ZOOL 5 if taken after BIOL 21, 22, or 23."
       ],
       "prerequisites": "BIOL 22.",
       "prerequisite_notes": null,
@@ -1224,7 +1227,7 @@
       "advisory": "Eligibility for English 1",
       "advisory_notes": null,
       "formerly": null,
-      "description": "BOTANY 1 or ZOOL 5 if taken after BIOL 21, 22, or 23. This is the third of a three-course lecture and laboratory sequence for biology majors. Organisms at and above the cellular level of organization are examined, with plants, invertebrates, and vertebrates receiving equal attention. Topics emphasized include morphology, physiology, systematics, ecology, evolution, and behavior. Additionally, each student must complete a term project which includes lab or fieldwork and library research. Transfer credit is limited if students enroll in other overlapping Biology courses or Zoology 5.",
+      "description": "This is the third of a three-course lecture and laboratory sequence for biology majors. Organisms at and above the cellular level of organization are examined, with plants, invertebrates, and vertebrates receiving equal attention. Topics emphasized include morphology, physiology, systematics, ecology, evolution, and behavior. Additionally, each student must complete a term project which includes lab or fieldwork and library research. Transfer credit is limited if students enroll in other overlapping Biology courses or Zoology 5.",
       "same_as": null,
       "sections": [
         {
@@ -1329,13 +1332,13 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "BIOL 31. This techniques-focused course will provide knowledge and skills in the use of antibody-related reagents and antibodybased assays as a tool in biotechnology, biomedical research, or clinical laboratories. It focuses on the specific properties of antibody reagents for the identification and quantification of various biological or environmental molecules. Students learn basic immunology, the theoretical basis of antigen-antibody reactions, micropipetting techniques, and how to design, perform, analyze, and troubleshoot modern immunoassay-related techniques. The course will prepare students for work-ready skills in a bioscience research and biotechnology industry career.",
+      "prerequisites": "BIOL 31.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "work-ready skills in a bioscience research and biotechnology industry career.",
+      "description": "This techniques-focused course will provide knowledge and skills in the use of antibody-related reagents and antibodybased assays as a tool in biotechnology, biomedical research, or clinical laboratories. It focuses on the specific properties of antibody reagents for the identification and quantification of various biological or environmental molecules. Students learn basic immunology, the theoretical basis of antigen-antibody reactions, micropipetting techniques, and how to design, perform, analyze, and troubleshoot modern immunoassay-related techniques. The course will prepare students for work-ready skills in a bioscience research and biotechnology industry career.",
       "same_as": null,
       "sections": [
         {
@@ -1440,7 +1443,7 @@
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
       "special_notes": [
-        "*No UC credit for BOTANY 1 if taken after BIOL 21, 22 or 23 and no credit for BIOL 4 if taken after ZOOL 5 or BOTANY 1"
+        "*No UC credit for BOTANY 1 if taken after BIOL 21, 22 or 23 and no credit for BIOL 4 if taken after ZOOL 5 or BOTANY 1."
       ],
       "prerequisites": null,
       "prerequisite_notes": null,
@@ -2079,7 +2082,7 @@
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 5B (Biological Sciences, + LAB)",
       "special_notes": [
-        "*No UC credit for ZOOL 5 if taken after BIOL 21, 22 or 23 and no credit for BIOL 4 if taken after ZOOL 5 or BOTANY 1"
+        "*No UC credit for ZOOL 5 if taken after BIOL 21, 22 or 23 and no credit for BIOL 4 if taken after ZOOL 5 or BOTANY 1."
       ],
       "prerequisites": null,
       "prerequisite_notes": null,

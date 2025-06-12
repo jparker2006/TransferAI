@@ -1,4 +1,19 @@
 CLEANED VERSION OF THE CATALOG!
+COMMON COURSE NUMBERING IS HERE!
+Starting fall 2025, Santa Monica College and all California Community Colleges will begin implementing Common
+Course Numbering (also known as AB 1111). Under this new numbering system, many courses will have the
+same standardized course numbers and titles at every community college campus, making it simpler for you to
+transfer credits, plan your degree, and meet transfer requirements.
+In fall 2025, you’ll notice this change in six courses, which appear in the chart below. Additional courses will
+transition each semester until the initiative is complete. Be sure to check the schedule of classes and SMC catalog
+carefully, and reach out to your counselor if you have questions!
+Common Course Number and Name Former Course Number and Name
+COMM C1000, Introduction to Public Speaking COM ST 11, Elements of Public Speaking
+ENGL C1000, Academic Reading and Writing ENGL 1, Reading and Composition 1
+ENGL C1001, Critical Thinking and Writing ENGL 2, Critical Analysis and Intermediate Composition
+STAT C1000, Introduction to Statistics MATH 54, Elementary Statistics
+POLS C1000, American Government and Politics POL SC 1, American and California Politics
+PSYC C1000, General Psychology PSYCH 1, General Psychology
 =Accounting
 General accountants examine financial records of municipal, county,
 state, and federal agencies for compliance with laws. They record
@@ -147,22 +162,6 @@ Transfer: CSU
 Basic pronouncements of the Financial Accounting Standards
 Board and their applications to accounting are covered in this
 course, along with cash, receivables, inventory, time value of money, and financial statements overview.
-COMMON COURSE NUMBERING IS HERE!
-Starting fall 2025, Santa Monica College and all California Community Colleges will begin implementing Common
-Course Numbering (also known as AB 1111). Under this new numbering system, many courses will have the
-same standardized course numbers and titles at every community college campus, making it simpler for you to
-transfer credits, plan your degree, and meet transfer requirements.
-In fall 2025, you’ll notice this change in six courses, which appear in the chart below. Additional courses will
-transition each semester until the initiative is complete. Be sure to check the schedule of classes and SMC catalog
-carefully, and reach out to your counselor if you have questions!
-Common Course Number and Name Former Course Number and Name
-COMM C1000, Introduction to Public Speaking COM ST 11, Elements of Public Speaking
-ENGL C1000, Academic Reading and Writing ENGL 1, Reading and Composition 1
-ENGL C1001, Critical Thinking and Writing ENGL 2, Critical Analysis and Intermediate Composition
-STAT C1000, Introduction to Statistics MATH 54, Elementary Statistics
-POLS C1000, American Government and Politics POL SC 1, American and California Politics
-PSYC C1000, General Psychology PSYCH 1, General Psychology
-
 1036 Arrange-6.5 Hours ONLINE Lu M
 Above section 1036 meets for 8 weeks, Sep 03 to Oct 24. Above section modality is Flexible.
 1037 Arrange-6.5 Hours ONLINE Kim J S
@@ -2446,8 +2445,7 @@ Transfer: UC*, CSU
 Cal-GETC Area 5B (Biological Sciences, + LAB)
 • Prerequisite: CHEM 11.
 • Advisory: Eligibility for English 1.
-*No UC credit for BIOL 3, BOTANY 1 or ZOOL 5 if taken after BIOL
-21, 22 or 23.
+*No UC credit for BIOL 3, BOTANY 1 or ZOOL 5 if taken after BIOL 21, 22 or 23.
 This is the first course of a three-course lecture and laboratory
 sequence for Biology majors, including Biology 21, 22, and 23.
 It describes how scientists approach the scientific method to generate scientific knowledge; studies the history, evidence,
@@ -2589,8 +2587,7 @@ OnlineEd.
 MCRBIO 1, FUNDAMENTALS OF MICROBIOLOGY 5 UNITS
 Transfer: UC, CSU
 Cal-GETC Area 5B (Biological Sciences, + LAB)
-• Prerequisite: CHEM 19 (preferred) or CHEM 10 or eligibility for
-CHEM 11; and PHYS 3 or BIOL 3 or BIOL 21.
+• Prerequisite: CHEM 19 (preferred) or CHEM 10 or eligibility for CHEM 11; and PHYS 3 or BIOL 3 or BIOL 21.
 • Advisory: Eligibility for English 1.
 This course involves study of several types of microorgan-
 isms with emphasis on bacteria. Principles of microbiology, metabolism, genetics, immunology, and medical and non- medical applications are considered. The laboratory includes aseptic transfer techniques, cultural characteristics, methods
@@ -2683,8 +2680,7 @@ PHYS 3, HUMAN PHYSIOLOGY 4 UNITS
 Transfer: UC, CSU
 C-ID: BIOL 120 B.
 Cal-GETC Area 5B (Biological Sciences, + LAB)
-• Prerequisite: CHEM 19 (preferred) or CHEM 10 or eligibility for
-CHEM 11; and ANATMY 1.
+• Prerequisite: CHEM 19 (preferred) or CHEM 10 or eligibility for CHEM 11; and ANATMY 1.
 • Advisory: Eligibility for English 1.
 This rigorous course provides a basic understanding of physi-
 ological mechanisms with a focus on the human body.
@@ -3471,8 +3467,7 @@ CHEM 9, EVERYDAY CHEMISTRY 5 UNITS
 Transfer: UC*, CSU
 Cal-GETC Area 5A (Physical Sciences, + LAB)
 • Satisfies Global Citizenship
-*UC gives no credit for CHEM 9 if taken after CHEM 11. Maximum
-UC credit for CHEM 9 and 10 combined is one course.
+*UC gives no credit for CHEM 9 if taken after CHEM 11. Maximum UC credit for CHEM 9 and 10 combined is one course.
 This course fulfills the general education requirements for a laboratory science course. Students who successfully com-
 plete this course will understand basic chemical principles
 and how these principles relate to the Earth’s natural systems
@@ -3505,8 +3500,7 @@ CHEM 10, INTRODUCTORY GENERAL CHEMISTRY 5 UNITS
 Transfer: UC*, CSU
 Cal-GETC Area 5A (Physical Sciences, + LAB)
 • Prerequisite: MATH 31 or MATH 49.
-*UC gives no credit for CHEM 10 if taken after CHEM 11.
-Maximum UC credit for CHEM 9 and 10 combined is one course.
+*UC gives no credit for CHEM 10 if taken after CHEM 11. Maximum UC credit for CHEM 9 and 10 combined is one course.
 Chemistry 10 is a survey of introductory chemistry topics with
 a laboratory component. It is intended as preparation for
 Chemistry major or those planning to go into a STEM major or
@@ -3563,13 +3557,9 @@ Above section modality is On Ground.
 Above section modality is On Ground.
 CHEM 11, GENERAL CHEMISTRY I 5 UNITS
 Transfer: UC, CSU
-C-ID: CHEM 110. C-ID: CHEM 120S; to get C-ID CHEM 120S for CHEM 11,
-students must complete both CHEM 11 and CHEM 12.
+C-ID: CHEM 110. C-ID: CHEM 120S; to get C-ID CHEM 120S for CHEM 11, students must complete both CHEM 11 and CHEM 12.
 Cal-GETC Area 5A (Physical Sciences, + LAB)
-• Prerequisite: CHEM 10 and MATH 20.
-Students seeking waiver of the CHEM 10 prerequisite should take
-the CHEM 10 Challenge Exam. Students taking CHEM 11 and 12
-must have access to the Internet to complete class assignments.
+• Prerequisite: CHEM 10 and MATH 20. Students seeking waiver of the CHEM 10 prerequisite should take the CHEM 10 Challenge Exam. Students taking CHEM 11 and 12 must have access to the Internet to complete class assignments.
 This course is the first semester of a two-semester, stan-
 dard first year college chemistry course (Chemistry 11 and
 Chemistry 12). It introduces the fields of physical, analyti-
@@ -3600,7 +3590,7 @@ Above section modality is On Ground.
 Above section modality is On Ground.
 CHEM 12, GENERAL CHEMISTRY II 5 UNITS
 Transfer: UC, CSU
-C-ID: CHEM 120S; to get C-ID CHEM 120S for CHEM 12, students must complete both CHEM 11 and CHEM 12.
+C-ID: CHEM 120S; to get C-ID CHEM 120S for CHEM 12, students must complete both CHEM 11 and CHEM 12. 
 Cal-GETC Area 5A (Physical Sciences, + LAB)
 • Prerequisite: MATH 2 or (MATH 3 and MATH 4) and CHEM 11.
 Students taking CHEM 11 and 12 must have access to the Internet to complete class assignments.
@@ -11622,10 +11612,7 @@ Above section modality is On Ground.
 Above section modality is On Ground.
 KIN PE 51A, BEGINNING SURFING 1 UNIT
 Transfer: UC*, CSU
-• Advisory: KIN PE 48C or equivalent experience; required swim test
-on Day 1 of class: student must be able to swim 100 meters/yards
-continuously using a forward-facing swim stroke, and tread water
-for 2 minutes with head always above the water.
+• Advisory: KIN PE 48C or equivalent experience; required swim test on Day 1 of class: student must be able to swim 100 meters/yards continuously using a forward-facing swim stroke, and tread water for 2 minutes with head always above the water.
 This class is designed to cover the fundamentals of various
 techniques for surfing. Emphasis is placed on water safety, skill proficiency, and conditioning for surfing.
 2495 8:00a.m.-11:05a.m. MW BEACH King R L

@@ -13,7 +13,7 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [
-        "*No UC credit for CIS 1"
+        "*No UC credit for CIS 1 or 4 if taken after CS 3."
       ],
       "prerequisites": null,
       "prerequisite_notes": null,
@@ -21,7 +21,7 @@
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "or 4 if taken after CS 3. This beginning course explores the foundations of technology as well as current trends and emerging topics in information technology. Students complete hands-on projects in operating systems, web browsers, and web-based office applications. Students will also be introduced to topics such as understanding programming, computer security and social media. This course uses Windows 11 and various Internet Browsers. This course uses Google Apps (Docs and Sheets) as well as Code.org.",
+      "description": "This beginning course explores the foundations of technology as well as current trends and emerging topics in information technology. Students complete hands-on projects in operating systems, web browsers, and web-based office applications. Students will also be introduced to topics such as understanding programming, computer security and social media. This course uses Windows 11 and various Internet Browsers. This course uses Google Apps (Docs and Sheets) as well as Code.org.",
       "same_as": null,
       "sections": [
         {
@@ -132,7 +132,7 @@
       "c_id": "BUS 140",
       "cal_getc_area": null,
       "special_notes": [
-        "*No UC credit for CIS 1"
+        "*No UC credit for CIS 1 or 4 if taken after CS 3."
       ],
       "prerequisites": null,
       "prerequisite_notes": null,
@@ -140,7 +140,7 @@
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "This is not a beginning computing course. It is recommended that students take CIS 1 prior to CIS 4. Ability to keyboard 25 words per minute is recommended.  or 4 if taken after CS 3. This course introduces students to information systems and their role in business. Topics include information systems, database management systems, networking, e-commerce, ethics and security, computer systems, hardware systems, and application software (word processing, spreadsheet, database, and presentation graphics). In this course, students develop computer-based solutions to a variety of business problems. This course uses Windows 11 and Microsoft Office 365/2021.",
+      "description": "This is not a beginning computing course. It is recommended that students take CIS 1 prior to CIS 4. Ability to keyboard 25 words per minute is recommended.  This course introduces students to information systems and their role in business. Topics include information systems, database management systems, networking, e-commerce, ethics and security, computer systems, hardware systems, and application software (word processing, spreadsheet, database, and presentation graphics). In this course, students develop computer-based solutions to a variety of business problems. This course uses Windows 11 and Microsoft Office 365/2021.",
       "same_as": null,
       "sections": [
         {

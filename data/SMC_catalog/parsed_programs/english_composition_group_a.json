@@ -2010,13 +2010,13 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "ENGL C1000 (formerly ENGL 1). This advanced writing course is intended especially for English majors and other students desiring to develop rhetorical skills beyond those practiced in English 1. It stresses critical analysis and argument, and focuses on style in effectively communicating with various audiences.",
+      "prerequisites": "ENGL C1000 (formerly ENGL 1).",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "",
+      "description": "This advanced writing course is intended especially for English majors and other students desiring to develop rhetorical skills beyond those practiced in English 1. It stresses critical analysis and argument, and focuses on style in effectively communicating with various audiences.",
       "same_as": null,
       "sections": [
         {

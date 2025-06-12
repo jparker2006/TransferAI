@@ -2051,14 +2051,16 @@
       ],
       "c_id": "MATH 211",
       "cal_getc_area": "Cal-GETC Area 2 (Mathematical Concepts)",
-      "special_notes": [],
-      "prerequisites": "MATH 2 or (MATH 3 and MATH 4). *Maximum UC credit for MATH 7 and MATH 28 is one course. This first course in calculus is intended primarily for science, technology, engineering and mathematics majors. Topics include limits, continuity, and derivatives and integrals of algebraic and trigonometric functions, with mathematical and physical applications.",
+      "special_notes": [
+        "*Maximum UC credit for MATH 7 and MATH 28 is one course."
+      ],
+      "prerequisites": "MATH 2 or (MATH 3 and MATH 4).",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "",
+      "description": "This first course in calculus is intended primarily for science, technology, engineering and mathematics majors. Topics include limits, continuity, and derivatives and integrals of algebraic and trigonometric functions, with mathematical and physical applications.",
       "same_as": null,
       "sections": [
         {

@@ -1,0 +1,12 @@
+=== COURSE COVERAGE ===
+Catalog course count : 921
+JSON course count    : 917 (excluding skipped programs)
+Missing in JSON      : 4
+  - ENGL 28
+  - MATH 3C
+  - MATH 54C
+  - WITH MATH 4C
+Extra in JSON        : 0
+
+=== FIELD VALIDATION ERRORS ===
+Total errors: 0

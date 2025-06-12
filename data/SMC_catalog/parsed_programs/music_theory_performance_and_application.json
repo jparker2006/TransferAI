@@ -13,7 +13,7 @@
       "c_id": null,
       "cal_getc_area": "Cal-GETC Area 3A (Arts)",
       "special_notes": [
-        "*No UC transfer credit for MUSIC 1 if taken after MUSIC 2",
+        "*No UC transfer credit for MUSIC 1 if taken after MUSIC 2.",
         "See also MUSIC 66."
       ],
       "prerequisites": null,
@@ -128,7 +128,7 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [
-        "*No UC transfer credit for MUSIC 1 if taken after MUSIC 2"
+        "*No UC transfer credit for MUSIC 1 if taken after MUSIC 2."
       ],
       "prerequisites": null,
       "prerequisite_notes": null,
@@ -872,13 +872,13 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "Audition required. The jazz vocal ensemble is open to all students, subject to audition standards. Selected vocal students function as a musical ensemble. They prepare and perform vocal music in the jazz and popular idiom.",
+      "prerequisites": "Audition required.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "",
+      "description": "The jazz vocal ensemble is open to all students, subject to audition standards. Selected vocal students function as a musical ensemble. They prepare and perform vocal music in the jazz and popular idiom.",
       "same_as": null,
       "sections": [
         {
@@ -918,13 +918,13 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "Audition required. The concert chorale is open to all students, subject to audition standards. The course includes study and performance of major choral works, both a cappella and accompanied.",
+      "prerequisites": "Audition required.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "",
+      "description": "The concert chorale is open to all students, subject to audition standards. The course includes study and performance of major choral works, both a cappella and accompanied.",
       "same_as": null,
       "sections": [
         {
@@ -1004,13 +1004,13 @@
       "c_id": null,
       "cal_getc_area": null,
       "special_notes": [],
-      "prerequisites": "Audition required. The chamber choir studies and performs compositions ranging from the madrigal to contemporary works suitable for smaller ensembles.",
+      "prerequisites": "Audition required.",
       "prerequisite_notes": null,
       "corequisites": null,
       "advisory": null,
       "advisory_notes": null,
       "formerly": null,
-      "description": "",
+      "description": "The chamber choir studies and performs compositions ranging from the madrigal to contemporary works suitable for smaller ensembles.",
       "same_as": null,
       "sections": [
         {
