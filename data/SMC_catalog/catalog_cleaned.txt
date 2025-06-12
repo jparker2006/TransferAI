@@ -1838,7 +1838,7 @@ Cal-GETC Area 3A (Arts)
 • Advisory: Eligibility for English 1.
 Formerly ART 79.
 An introduction to artistic practices by exploring the myriad
-manifestations of visual culture in our world through a cross- cultural thematic approach. This course examines themes
+manifestations of visual culture in our world through a cross-cultural thematic approach. This course examines themes
 in art like Religion, Power, Reproduction and Sexuality, and
 traces them across cultures and time periods. Emphasis will
 be placed on learning the language of visual culture both in
@@ -6087,8 +6087,7 @@ Above section modality is On Ground.
 DANCE 55A, DANCE PERFORMANCE – MODERN 4 UNITS
 Transfer: UC, CSU
 • Prerequisite: Audition required.
-• Corequisite: DANCE 10 or any Ballet, World, or Modern Dance
-Course (DANCE 11-29, 31-38, 41-44B).
+• Corequisite: DANCE 10 or any Ballet, World, or Modern Dance Course (DANCE 11-29, 31-38, 41-44B).
 This course offers performance experience and is organized as
 a contemporary modern dance company with fully produced concerts and dance productions. Students participate as dancers and choreographers. Students explore artistic expres- sion through learning movement composition and repertory from professional faculty, guest choreographers and student choreographers. Styles may include traditional modern, con- temporary, postmodern fusion, contemporary ballet, con-
 temporary jazz, hip-hop, performance art and mixed media.
@@ -16092,8 +16091,7 @@ For other science courses please see specific disciplines such as chem- istry, a
 SCI 10, PRINCIPLES AND PRACTICE OF SCIENTIFIC
 RESEARCH 2 UNITS
 Transfer: UC, CSU
-• Advisory: Successful completion of a UC transferable science class
-with lab and MATH 20 and eligibility for English 1.
+• Advisory: Successful completion of a UC transferable science class with lab and MATH 20 and eligibility for English 1.
 This course explores the modern practice of science. The
 course focuses on the use of the scientific method; the his-
 tory of science; how, why and where research is conducted;
@@ -16226,7 +16224,7 @@ Cal-GETC Area 4 (Social & Behavioral Sciences)
 • Advisory: Eligibility for English 1.
 This course involves a sociological examination of the social, cultural, political, and economic conditions experienced by
 African Americans in the United States. Current and past institutional practices relating to inequality, institutional dis- crimination, segregation, cultural pluralism, and assimilation are analyzed. Social movements within African American
-communities as well as intra- and intergroup relations are also considered.
+communities as well as intra and intergroup relations are also considered.
 3094 12:45p.m.-2:05p.m. TTh HSS 153 Crawford A
 Above section 3094 is part of the Black Collegians program
 though enrollment is open to all students. See the Special
@@ -16259,7 +16257,7 @@ Cal-GETC Area 4 (Social & Behavioral Sciences)
 • Advisory: Eligibility for English 1.
 This course involves the critical examination of patterns,
 practices, and relations among racial and ethnic groups in
-the United States. Particular attention will be given to prob- lems of ongoing discrimination, prejudice, assimilation and cultural pluralism, and power differences between groups.
+the United States. Particular attention will be given to problems of ongoing discrimination, prejudice, assimilation and cultural pluralism, and power differences between groups.
 Interconnections between race, ethnicity, social class, gender,
 and other systems of inequality will be emphasized. Social
 movements organized within and among racial and ethnic
@@ -16988,7 +16986,7 @@ VAR PE 60, CONDITIONING FOR INTERCOLLEGIATE
 SPORT 1 UNIT
 Transfer: UC, CSU
 This conditioning course provides a consistent laboratory
-for sport specific training and conditioning related to inter- collegiate athletics participation. Emphasis is on individual
+for sport specific training and conditioning related to inter-collegiate athletics participation. Emphasis is on individual
 and team activities that contribute to advancement in their designated sport.
 3231 6:30a.m.-7:50a.m. MW POOL Shima T H
 Above section modality is On Ground.

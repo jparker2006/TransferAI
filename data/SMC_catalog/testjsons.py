@@ -431,7 +431,7 @@ class JSONValidator:
         else:
             print("\n✅ All files passed validation!")
     
-    def run_validation(self, directory: str = "parsed_programs") -> int:
+    def run_validation(self, directory: str = "data/SMC_catalog/parsed_programs") -> int:
         """Run validation on all JSON files in the directory."""
         if not os.path.exists(directory):
             print(f"Error: Directory '{directory}' does not exist")

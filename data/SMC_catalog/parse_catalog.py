@@ -404,8 +404,7 @@ class SMCCatalogParser:
                 'the student will',
                 'emphasis is placed',
                 'topics include',
-                'this program',
-                'the course'  # NEW: catches sentences starting with "The course ..." (fixes IXD 320)
+                'this program'
             ]
             
             line_lower = next_line.lower()
@@ -1641,6 +1640,22 @@ class SMCCatalogParser:
                     self.add_warning(f"Extracted 'See also' note from description for {course_code}: {see_also_text}")
                     break  # Only process the first match
             
+            # NEW: Extract "Students will receive credit for ..." advisory sentences at start of description
+            credit_for_pattern = r'^(Students?\s+will\s+receive\s+credit\s+for\s+[^.]+?\.)\s*'
+            credit_for_match = re.match(credit_for_pattern, course.description, re.IGNORECASE)
+            if credit_for_match:
+                advisory_sentence = credit_for_match.group(1).strip()
+                # Initialize advisory_notes list if needed
+                if course.advisory_notes is None:
+                    course.advisory_notes = advisory_sentence
+                else:
+                    # Avoid duplications
+                    if advisory_sentence not in course.advisory_notes:
+                        course.advisory_notes += f"; {advisory_sentence}"
+                # Remove the advisory sentence from the description
+                course.description = re.sub(credit_for_pattern, '', course.description, count=1, flags=re.IGNORECASE).strip()
+                self.add_warning(f"Extracted advisory note from description for {course_code}: {advisory_sentence}")
+
             # Clean up advisory field by removing asterisks and trailing periods
             if course.advisory:
                 course.advisory = course.advisory.rstrip('*. ')
@@ -1677,21 +1692,8 @@ class SMCCatalogParser:
             # Remove redundant course name patterns at the beginning
             course.description = re.sub(r'^PHYSICS\s+\d+\s+UNITS\s+', '', course.description).strip()
             course.description = re.sub(r'^[A-Z]+\s+\d+\s+UNITS\s+', '', course.description).strip()
-+
-+            # GENERIC FIX: merge any advisory continuation fragment that leaked into description
-+            # If advisory exists, lacks a period at the end, and description begins with a lowercase word,
-+            # treat the leading sentence fragment of description as continuation of advisory.
-+            if course.advisory and course.description:
-+                if not course.advisory.rstrip().endswith('.') and re.match(r'^[a-z]', course.description):
-+                    continuation_match = re.match(r'^([^\.]+\.)\s*(.*)$', course.description)
-+                    if continuation_match:
-+                        continuation = continuation_match.group(1).strip()
-+                        remaining_desc = continuation_match.group(2).strip()
-+                        course.advisory = f"{course.advisory.rstrip()} {continuation}".strip()
-+                        course.description = remaining_desc
-+                        self.add_warning(f"Merged advisory continuation back for {course.course_code}")
-         
-         # Apply hyphenation fixes to other text fields
+        
+        # Apply hyphenation fixes to other text fields
         if course.prerequisites:
             course.prerequisites = self.fix_hyphenation(course.prerequisites)
         if course.prerequisite_notes:
@@ -2379,22 +2381,6 @@ class SMCCatalogParser:
         or where transfer information leaked into descriptions.
         EXPANDED: Now handles mathematics courses and other complex cases.
         """
-        # NEW GENERIC FIX: If prerequisites contain an initial prerequisite clause followed by a description sentence (e.g., "IXD 330. In this course, …"), split them.
-        if course.prerequisites:
-            # Look for a capitalized description starter after the first period
-            split_pattern = r'^([^\.]+\.)\s+(In this course|This course|The course|In this class|This class|Students will)\b(.+)$'
-            split_match = re.match(split_pattern, course.prerequisites)
-            if split_match:
-                prereq_only = split_match.group(1).strip()
-                description_intro = split_match.group(2) + split_match.group(3)
-                course.prerequisites = prereq_only
-                if course.description:
-                    course.description = description_intro.strip() + ' ' + course.description
-                else:
-                    course.description = description_intro.strip()
-                self.add_warning(f"Generic prereq/description split applied to {course.course_code}")
-                # Fall through so mathematics fixes can still run if needed
-
         # Handle mathematics courses with transfer info leaked into descriptions
         math_transfer_fixes = self._fix_mathematics_transfer_descriptions(course)
         if math_transfer_fixes:
@@ -2431,8 +2417,7 @@ class SMCCatalogParser:
         
         # TARGETED FIX 2: ENGL 26 - Humanities course description pattern  
         if course.course_code == 'ENGL 26':
-            # Allow an optional leading bullet that may have been stripped
-            prereq_pattern = r'(?:•\s*)?ENGL C1000 \(formerly ENGL 1\)\.\s*(In this introduction to the humanities.+?)(?=ENGL 26 is the same course)'
+            prereq_pattern = r'•\s*ENGL C1000 \(formerly ENGL 1\)\.\s*(In this introduction to the humanities.+?)(?=ENGL 26 is the same course)'
             match = re.search(prereq_pattern, course.prerequisites, re.DOTALL)
             if match:
                 description_text = match.group(1).strip()
@@ -2498,8 +2483,7 @@ class SMCCatalogParser:
         
         # TARGETED FIX 7: HUM 26 - Humanities course (same pattern as ENGL 26)
         if course.course_code == 'HUM 26':
-            # Allow an optional leading bullet that may have been stripped
-            prereq_pattern = r'(?:•\s*)?ENGL C1000 \(formerly ENGL 1\)\.\s*(In this introduction to the humanities.+?)(?=HUM 26 is the same course)'
+            prereq_pattern = r'•\s*ENGL C1000 \(formerly ENGL 1\)\.\s*(In this introduction to the humanities.+?)(?=HUM 26 is the same course)'
             match = re.search(prereq_pattern, course.prerequisites, re.DOTALL)
             if match:
                 description_text = match.group(1).strip()
