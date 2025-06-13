@@ -8,7 +8,7 @@ called from the LLM runtime as:
 ```python
 from llm.tools.course_detail_tool import CourseDetailTool
 
-result = CourseDetailTool().run(course_code="MATH 7")
+detail = CourseDetailTool.invoke({"course_code": "MATH 7"})
 ```
 
 The concrete behaviour (JSON catalogue loading, validation, normalisation, etc.)
@@ -43,6 +43,9 @@ from typing import Any, Dict, List, Optional
 # Pydantic 2.x imports
 from pydantic import BaseModel, Field, field_validator, ConfigDict
 
+# LangChain import (new dependency per refactor)
+from langchain_core.tools import StructuredTool
+
 # ---------------------------------------------------------------------------
 # Public Exceptions
 # ---------------------------------------------------------------------------
@@ -73,7 +76,7 @@ class Section(BaseModel):
 
 
 class CourseDetail(BaseModel):
-    """High-level response model returned by :py:meth:`CourseDetailTool.run`."""
+    """High-level response model returned by :pyattr:`CourseDetailTool`."""
 
     course_code: str
     course_title: str
@@ -102,186 +105,164 @@ class CourseDetail(BaseModel):
 
 
 # ---------------------------------------------------------------------------
-# Tool base-class stub
+# New I/O schemas for LangChain StructuredTool
 # ---------------------------------------------------------------------------
 
 
-# New uniform base
-from tools.base_tool import BaseTool
+class CDIn(BaseModel):  # noqa: D401
+    """Input schema – single required parameter."""
+
+    course_code: str
+
+
+class CDOut(CourseDetail):  # noqa: D401
+    """Alias for output – inherits all CourseDetail fields."""
+
+    pass
+
 
 # ---------------------------------------------------------------------------
-# CourseDetailTool (primary public object)
+# Module-level helpers (moved from legacy class implementation)
 # ---------------------------------------------------------------------------
 
 
-class CourseDetailTool(BaseTool):  # type: ignore[too-few-public-methods]
-    """Return rich metadata for a given ``course_code``.
+_CATALOG_DIR = Path(__file__).resolve().parents[1] / "data" / "SMC_catalog" / "parsed_programs"
+_CATALOG_CACHE: Optional[Dict[str, dict]] = None  # Lazy global cache
 
-    Example
-    -------
-    >>> tool = CourseDetailTool()
-    >>> detail = tool.run(course_code="ARC 10")
-    >>> detail["course_title"]
-    "ARCHITECTURAL HISTORY"
-    """
 
-    # ------------------------------------------------------------------
-    # Pydantic contracts ------------------------------------------------
-    # ------------------------------------------------------------------
+def _normalise_code(code: str) -> str:  # noqa: D401
+    """Return canonical course-code format (e.g., 'ARC10' → 'ARC 10')."""
+    import re  # local import – stdlib
 
-    class Input(BaseModel):  # noqa: D401, WPS430
-        """Single required parameter for lookup."""
+    # Collapse whitespace & upper-case first.
+    cleaned = re.sub(r"\s+", " ", code.strip().upper())
 
-        course_code: str
+    # Split alpha prefix, numeric part, and optional suffix letters.
+    # Examples:
+    #   'MATH31A'  -> groups('MATH', '31', 'A')
+    #   'ARC 10'   -> groups('ARC', '10', '')
+    #   'cs50'     -> groups('CS', '50', '')
+    match = re.match(r"^([A-Z]+)\s*(\d+)([A-Z]?)$", cleaned)
+    if not match:
+        # Fallback: just return collapsed/upper string
+        return cleaned
 
-    class Output(CourseDetail):  # noqa: D401
-        """Alias: we expose CourseDetail directly as Output model."""
+    prefix, number, suffix = match.groups()
+    return f"{prefix} {number}{suffix}"
 
-        pass
 
-    # ---------------------------------------------------------------------
-    # Internal helpers (implementation WIP)
-    # ---------------------------------------------------------------------
+def _load_catalog() -> Dict[str, dict]:  # noqa: D401
+    """Return a {course_code: data} mapping, memoised for process lifetime."""
+    import json
+    import warnings
 
-    _catalog_cache: Optional[Dict[str, dict]] = None  # Lazy global cache
+    global _CATALOG_CACHE  # noqa: PLW0603 – intentional module-level cache
 
-    # NOTE: Implementation intentionally omitted – fill in later.
+    if _CATALOG_CACHE is not None:
+        return _CATALOG_CACHE
 
-    # TODO: PORT path to settings or ENV variable once config management lands.
-    _CATALOG_DIR = Path(__file__).resolve().parents[1] / "data" / "SMC_catalog" / "parsed_programs"
+    if not _CATALOG_DIR.exists():
+        raise RuntimeError(f"Catalog directory not found: {_CATALOG_DIR}")
 
-    # Public API ------------------------------------------------------------
+    mapping: Dict[str, dict] = {}
 
-    def run(self, **inputs: Any) -> Dict[str, Any]:  # noqa: D401
-        """Lookup *course_code* inside the local catalogue and return details.
-
-        Parameters
-        ----------
-        course_code:
-            Alphanumeric code with optional spacing/case, e.g. ``'math7'``,
-            ``'MATH 7'``, ``'Math 7'``, etc.
-
-        Returns
-        -------
-        dict
-            JSON-serialisable dictionary that conforms to
-            :pyattr:`output_schema`.
-        """
-
-        # ------------------------------------------------------------------
-        # TODO: Validate & normalise input
-        # TODO: Load catalogue data (with caching)
-        # TODO: Perform lookup w/ graceful error handling
-        # TODO: Validate raw JSON against :class:`CourseDetail` model
-        # ------------------------------------------------------------------
-
-        if "course_code" not in inputs:
-            raise ValueError("`course_code` parameter required")
-
-        raw_code = inputs["course_code"]
-        if not isinstance(raw_code, str):
-            raise TypeError("`course_code` must be a string")
-
-        normalised = self._normalise_code(raw_code)
-
-        catalog = self._load_catalog()
-
-        if normalised not in catalog:
-            raise CourseNotFoundError(f"Course '{normalised}' not found in catalog")
-
-        raw_data = catalog[normalised]
-
+    for json_file in _CATALOG_DIR.glob("*.json"):
         try:
-            detail = CourseDetail(**raw_data)
+            with json_file.open("r", encoding="utf-8") as fh:
+                program_data = json.load(fh)
         except Exception as exc:  # noqa: BLE001
-            # Wrap any model validation issues so the caller always deals with
-            # CourseNotFoundError for lookup failures/invalid data.
-            raise CourseNotFoundError(
-                f"Course '{normalised}' found but could not be validated: {exc}"
-            ) from exc
+            warnings.warn(f"Failed to load {json_file}: {exc}")
+            continue
 
-        return detail.model_dump(mode="json", exclude_none=True)
-
-    # ------------------------------------------------------------------
-    # Private utility methods (all TODO-stubs)
-    # ------------------------------------------------------------------
-
-    @staticmethod
-    def _normalise_code(code: str) -> str:  # noqa: D401
-        """Return canonical course-code format (e.g., 'ARC10' → 'ARC 10')."""
-        import re  # local import – stdlib
-
-        # Collapse whitespace & upper-case first.
-        cleaned = re.sub(r"\s+", " ", code.strip().upper())
-
-        # Split alpha prefix, numeric part, and optional suffix letters.
-        # Examples:
-        #   'MATH31A'  -> groups('MATH', '31', 'A')
-        #   'ARC 10'   -> groups('ARC', '10', '')
-        #   'cs50'     -> groups('CS', '50', '')
-        match = re.match(r"^([A-Z]+)\s*(\d+)([A-Z]?)$", cleaned)
-        if not match:
-            # Fallback: just return collapsed/upper string
-            return cleaned
-
-        prefix, number, suffix = match.groups()
-        return f"{prefix} {number}{suffix}"
-
-    @classmethod
-    def _load_catalog(cls) -> Dict[str, dict]:  # noqa: D401
-        """Eagerly parse *all* program JSON files into a {course_code: data} map.
-
-        The result is memoised on the class object to prevent repeated disk I/O
-        during the life-time of the Python interpreter.
-        """
-        import json
-        import warnings
-
-        if cls._catalog_cache is not None:
-            return cls._catalog_cache
-
-        catalog_path = cls._CATALOG_DIR
-        if not catalog_path.exists():
-            raise RuntimeError(f"Catalog directory not found: {catalog_path}")
-
-        mapping: Dict[str, dict] = {}
-
-        for json_file in catalog_path.glob("*.json"):
-            try:
-                with json_file.open("r", encoding="utf-8") as fh:
-                    program_data = json.load(fh)
-            except Exception as exc:  # noqa: BLE001
-                warnings.warn(f"Failed to load {json_file}: {exc}")
+        for course in program_data.get("courses", []):
+            raw_code = course.get("course_code")
+            if not raw_code:
                 continue
 
-            for course in program_data.get("courses", []):
-                raw_code = course.get("course_code")
-                if not raw_code:
-                    continue
+            norm_code = _normalise_code(raw_code)
 
-                norm_code = cls._normalise_code(raw_code)
+            if norm_code in mapping:
+                # Silently skip subsequent duplicates; first occurrence wins.
+                continue
 
-                if norm_code in mapping:
-                    # Silently skip subsequent duplicates; first occurrence wins.
-                    continue
+            # Inject department if missing but inferable
+            if "department" not in course and program_data.get("program_name"):
+                course["department"] = program_data["program_name"]
 
-                # Inject department if missing but inferable
-                if "department" not in course and program_data.get("program_name"):
-                    course["department"] = program_data["program_name"]
+            mapping[norm_code] = course
 
-                mapping[norm_code] = course
+    _CATALOG_CACHE = mapping
+    return mapping
 
-        cls._catalog_cache = mapping
-        return mapping
 
-    # ------------------------------------------------------------------
-    # Quick manual test -------------------------------------------------
-    # ------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# LangChain adapter function – replaces former `run` method
+# ---------------------------------------------------------------------------
+
+
+def _lookup_course(*, course_code: str) -> Dict[str, Any]:  # noqa: D401
+    """Lookup *course_code* in local catalogue and return a JSON-serialisable dict."""
+
+    raw_code = course_code
+
+    normalised = _normalise_code(raw_code)
+
+    catalog = _load_catalog()
+
+    if normalised not in catalog:
+        raise CourseNotFoundError(f"Course '{normalised}' not found in catalog")
+
+    raw_data = catalog[normalised]
+
+    try:
+        detail = CourseDetail(**raw_data)
+    except Exception as exc:  # noqa: BLE001
+        # Wrap validation issues so caller always deals with CourseNotFoundError
+        raise CourseNotFoundError(
+            f"Course '{normalised}' found but could not be validated: {exc}"
+        ) from exc
+
+    # Return plain dict for easy JSON serialisation while still satisfying
+    # `return_schema` validation in StructuredTool.
+    return detail.model_dump(mode="json", exclude_none=True)
+
+
+# ---------------------------------------------------------------------------
+# Public StructuredTool instance – *the* module export
+# ---------------------------------------------------------------------------
+
+
+CourseDetailTool: StructuredTool = StructuredTool.from_function(
+    func=_lookup_course,
+    name="course_detail",
+    description=(
+        "Return the catalog record (title, units, prereqs, etc.) for a "
+        "Santa Monica College or UCSD course. Input: course_code."
+    ),
+    args_schema=CDIn,
+    return_schema=CDOut,
+)
+
+object.__setattr__(CourseDetailTool, "return_schema", CDOut)
+
+
+# ---------------------------------------------------------------------------
+# Public exports
+# ---------------------------------------------------------------------------
+
+
+__all__ = ["CourseDetailTool"]
+
+
+# ---------------------------------------------------------------------------
+# Quick manual test ---------------------------------------------------------
+# ---------------------------------------------------------------------------
+
+import json
 
 if __name__ == "__main__":  # pragma: no cover
-    tool = CourseDetailTool()
     try:
-        info = tool.run(course_code="ARC 10")
-        print("ARC 10 Title:", info.get("course_title"))
+        info = CourseDetailTool.invoke({"course_code": "CS 17"})
+        print(json.dumps(info, indent=2))
     except CourseNotFoundError as err:
         print("Error:", err) 
