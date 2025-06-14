@@ -3,6 +3,7 @@
   "program_description": "Independent study is intended for advanced students interested in doing independent research on special study topics. To be eligible, a student must demonstrate to the department chairperson the competence to do independent study. To apply for Independent Studies, the student is required, in a petition that may be obtained from the department chair, to state objectives to be achieved, activities and procedures to accomplish the study project, and the means by which the supervising instructor may assess accomplishment. Please see department listing for details. A maximum of six units of independent studies is allowed. Granting of UC transfer credit for an Independent Studies course is contingent upon an evaluation of the course outline by a UC campus.",
   "courses": [
     {
+      "course_id": "ANTHRO-88A-1UNIT-1",
       "course_code": "ANTHRO 88A",
       "course_title": "INDEPENDENT STUDIES IN ANTHROPOLOGY",
       "units": "1 UNIT",
@@ -69,6 +70,7 @@
       ]
     },
     {
+      "course_id": "ARTS-88A-1UNIT-1",
       "course_code": "ARTS 88A",
       "course_title": "INDEPENDENT STUDIES IN THE ARTS",
       "units": "1 UNIT",
@@ -105,6 +107,7 @@
       ]
     },
     {
+      "course_id": "ARTS-88C-3UNIT-1",
       "course_code": "ARTS 88C",
       "course_title": "INDEPENDENT STUDIES IN THE ARTS",
       "units": "3 UNITS",
@@ -141,6 +144,7 @@
       ]
     },
     {
+      "course_id": "BIOL-88A-1UNIT-1",
       "course_code": "BIOL 88A",
       "course_title": "INDEPENDENT STUDIES IN BIOLOGICAL SCIENCES",
       "units": "1 UNIT",
@@ -177,6 +181,7 @@
       ]
     },
     {
+      "course_id": "CHEM-88B-2UNIT-1",
       "course_code": "CHEM 88B",
       "course_title": "INDEPENDENT STUDIES IN CHEMISTRY",
       "units": "2 UNITS",
@@ -213,6 +218,7 @@
       ]
     },
     {
+      "course_id": "DANCE-88A-1UNIT-1",
       "course_code": "DANCE 88A",
       "course_title": "INDEPENDENT STUDIES IN DANCE",
       "units": "1 UNIT",
@@ -249,6 +255,7 @@
       ]
     },
     {
+      "course_id": "DANCE-88B-2UNIT-1",
       "course_code": "DANCE 88B",
       "course_title": "INDEPENDENT STUDIES IN DANCE",
       "units": "2 UNITS",
@@ -283,6 +290,7 @@
       ]
     },
     {
+      "course_id": "ECON-88A-1UNIT-1",
       "course_code": "ECON 88A",
       "course_title": "INDEPENDENT STUDIES IN ECONOMICS",
       "units": "1 UNIT",
@@ -336,6 +344,7 @@
       ]
     },
     {
+      "course_id": "ECON-88B-2UNIT-1",
       "course_code": "ECON 88B",
       "course_title": "INDEPENDENT STUDIES IN ECONOMICS",
       "units": "2 UNITS",
@@ -389,6 +398,7 @@
       ]
     },
     {
+      "course_id": "ENGR-88B-2UNIT-1",
       "course_code": "ENGR 88B",
       "course_title": "INDEPENDENT STUDIES IN ENGINEERING",
       "units": "2 UNITS",
@@ -425,6 +435,7 @@
       ]
     },
     {
+      "course_id": "ERTHSC-88A-1UNIT-1",
       "course_code": "ERTHSC 88A",
       "course_title": "INDEPENDENT STUDIES IN EARTH SCIENCE",
       "units": "1 UNIT",
@@ -461,6 +472,7 @@
       ]
     },
     {
+      "course_id": "ERTHSC-88B-2UNIT-1",
       "course_code": "ERTHSC 88B",
       "course_title": "INDEPENDENT STUDIES IN EARTH SCIENCE",
       "units": "2 UNITS",
@@ -497,6 +509,7 @@
       ]
     },
     {
+      "course_id": "ET-88B-2UNIT-1",
       "course_code": "ET 88B",
       "course_title": "INDEPENDENT STUDIES IN ENTERTAINMENT TECHNOLOGY",
       "units": "2 UNITS",
@@ -531,6 +544,7 @@
       ]
     },
     {
+      "course_id": "ET-88C-3UNIT-1",
       "course_code": "ET 88C",
       "course_title": "INDEPENDENT STUDIES IN ENTERTAINMENT TECHNOLOGY",
       "units": "3 UNITS",
@@ -569,6 +583,7 @@
       ]
     },
     {
+      "course_id": "FILM-88A-1UNIT-1",
       "course_code": "FILM 88A",
       "course_title": "INDEPENDENT STUDIES IN FILM STUDIES",
       "units": "1 UNIT",
@@ -607,6 +622,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-88A-1UNIT",
       "course_code": "KIN PE 88A",
       "course_title": "INDEPENDENT STUDIES IN PHYSICAL EDUCATION",
       "units": "1 UNIT",
@@ -643,6 +659,7 @@
       ]
     },
     {
+      "course_id": "MATH-88A-1UNIT",
       "course_code": "MATH 88A",
       "course_title": "INDEPENDENT STUDIES IN MATHEMATICS",
       "units": "1 UNIT",
@@ -679,6 +696,7 @@
       ]
     },
     {
+      "course_id": "MEDIA-88A-1UNIT",
       "course_code": "MEDIA 88A",
       "course_title": "INDEPENDENT STUDIES IN MEDIA STUDIES",
       "units": "1 UNIT",
@@ -715,6 +733,7 @@
       ]
     },
     {
+      "course_id": "PHILOS-88A-1UNIT",
       "course_code": "PHILOS 88A",
       "course_title": "INDEPENDENT STUDIES IN PHILOSOPHY",
       "units": "1 UNIT",
@@ -768,6 +787,7 @@
       ]
     },
     {
+      "course_id": "PHILOS-88B-2UNIT",
       "course_code": "PHILOS 88B",
       "course_title": "INDEPENDENT STUDIES IN PHILOSOPHY",
       "units": "2 UNITS",
@@ -821,6 +841,7 @@
       ]
     },
     {
+      "course_id": "PHOTO-88B-2UNIT",
       "course_code": "PHOTO 88B",
       "course_title": "INDEPENDENT STUDIES IN PHOTOGRAPHY",
       "units": "2 UNITS",
@@ -857,6 +878,7 @@
       ]
     },
     {
+      "course_id": "PHYSCS-88A-1UNIT",
       "course_code": "PHYSCS 88A",
       "course_title": "INDEPENDENT STUDIES IN PHYSICS",
       "units": "1 UNIT",
@@ -893,6 +915,7 @@
       ]
     },
     {
+      "course_id": "POL-SC-88A-1UNIT",
       "course_code": "POL SC 88A",
       "course_title": "INDEPENDENT STUDIES IN POLITICAL SCIENCE",
       "units": "1 UNIT",
@@ -946,6 +969,7 @@
       ]
     },
     {
+      "course_id": "POL-SC-88B-2UNIT",
       "course_code": "POL SC 88B",
       "course_title": "INDEPENDENT STUDIES IN POLITICAL SCIENCE",
       "units": "2 UNITS",
@@ -999,6 +1023,7 @@
       ]
     },
     {
+      "course_id": "SOCIOL-88A-1UNIT",
       "course_code": "SOCIOL 88A",
       "course_title": "INDEPENDENT STUDIES IN SOCIOLOGY",
       "units": "1 UNIT",
@@ -1052,6 +1077,7 @@
       ]
     },
     {
+      "course_id": "SOCIOL-88B-2UNIT",
       "course_code": "SOCIOL 88B",
       "course_title": "INDEPENDENT STUDIES IN SOCIOLOGY",
       "units": "2 UNITS",
@@ -1105,6 +1131,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-18A-1UNIT",
       "course_code": "TH ART 18A",
       "course_title": "TECHNICAL THEATRE PRODUCTION WORKSHOP",
       "units": "1 UNIT",
@@ -1144,6 +1171,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-18B-2UNIT",
       "course_code": "TH ART 18B",
       "course_title": "TECHNICAL THEATRE PRODUCTION WORKSHOP",
       "units": "2 UNITS",
@@ -1183,6 +1211,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-18C-3UNIT",
       "course_code": "TH ART 18C",
       "course_title": "TECHNICAL THEATRE PRODUCTION WORKSHOP",
       "units": "3 UNITS",
@@ -1222,6 +1251,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-88A-1UNIT",
       "course_code": "TH ART 88A",
       "course_title": "INDEPENDENT STUDIES IN THEATRE ARTS",
       "units": "1 UNIT",
@@ -1305,6 +1335,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-88B-2UNIT",
       "course_code": "TH ART 88B",
       "course_title": "INDEPENDENT STUDIES IN THEATRE ARTS",
       "units": "2 UNITS",
@@ -1341,6 +1372,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-88C-3UNIT",
       "course_code": "TH ART 88C",
       "course_title": "INDEPENDENT STUDIES IN THEATRE ARTS",
       "units": "3 UNITS",
@@ -1377,6 +1409,7 @@
       ]
     },
     {
+      "course_id": "WGS-88A-1UNIT",
       "course_code": "WGS 88A",
       "course_title": "INDEPENDENT STUDIES IN WOMEN’S, GENDER, AND SEXUALITY STUDIES",
       "units": "1 UNIT",
@@ -1430,6 +1463,7 @@
       ]
     },
     {
+      "course_id": "WGS-88B-2UNIT",
       "course_code": "WGS 88B",
       "course_title": "INDEPENDENT STUDIES IN WOMEN’S, GENDER, AND SEXUALITY STUDIES",
       "units": "2 UNITS",

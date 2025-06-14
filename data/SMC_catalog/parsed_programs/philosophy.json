@@ -3,6 +3,7 @@
   "program_description": "Philosophy is a foundation of education in the liberal arts. Philosophy enriches thought, imagination, understanding, and experience. By studying philosophy, students confront questions and problems both theoretical and practical about themselves and their relation to the world. Philosophy courses rigorously examine the basic assumptions of every human endeavor — from seeking knowledge to deciding what is right or wrong — thereby enriching students’ understanding of what it means to be human and preparing them to think critically for a lifetime.",
   "courses": [
     {
+      "course_id": "PHILOS-1-3UNIT",
       "course_code": "PHILOS 1",
       "course_title": "KNOWLEDGE AND REALITY",
       "units": "3 UNITS",
@@ -229,6 +230,7 @@
       ]
     },
     {
+      "course_id": "PHILOS-2-3UNIT",
       "course_code": "PHILOS 2",
       "course_title": "ETHICS",
       "units": "3 UNITS",
@@ -285,6 +287,7 @@
       ]
     },
     {
+      "course_id": "PHILOS-3-3UNIT",
       "course_code": "PHILOS 3",
       "course_title": "EARLY PHILOSOPHERS",
       "units": "3 UNITS",
@@ -341,6 +344,7 @@
       ]
     },
     {
+      "course_id": "PHILOS-7-3UNIT",
       "course_code": "PHILOS 7",
       "course_title": "LOGIC AND CRITICAL THINKING",
       "units": "3 UNITS",
@@ -414,6 +418,7 @@
       ]
     },
     {
+      "course_id": "PHILOS-9-3UNIT",
       "course_code": "PHILOS 9",
       "course_title": "SYMBOLIC LOGIC",
       "units": "3 UNITS",
@@ -470,6 +475,7 @@
       ]
     },
     {
+      "course_id": "PHILOS-22-3UNIT",
       "course_code": "PHILOS 22",
       "course_title": "ASIAN PHILOSOPHY",
       "units": "3 UNITS",
@@ -509,6 +515,7 @@
       ]
     },
     {
+      "course_id": "PHILOS-23-3UNIT",
       "course_code": "PHILOS 23",
       "course_title": "PHILOSOPHY OF RELIGION",
       "units": "3 UNITS",
@@ -548,6 +555,7 @@
       ]
     },
     {
+      "course_id": "PHILOS-51-3UNIT",
       "course_code": "PHILOS 51",
       "course_title": "POLITICAL PHILOSOPHY",
       "units": "3 UNITS",
@@ -623,6 +631,7 @@
       ]
     },
     {
+      "course_id": "PHILOS-52-3UNIT",
       "course_code": "PHILOS 52",
       "course_title": "CONTEMPORARY POLITICAL THOUGHT",
       "units": "3 UNITS",
@@ -664,6 +673,7 @@
       ]
     },
     {
+      "course_id": "PHILOS-88A-1UNIT-1",
       "course_code": "PHILOS 88A",
       "course_title": "INDEPENDENT STUDIES IN PHILOSOPHY",
       "units": "1 UNIT",
@@ -717,6 +727,7 @@
       ]
     },
     {
+      "course_id": "PHILOS-88B-2UNIT-1",
       "course_code": "PHILOS 88B",
       "course_title": "INDEPENDENT STUDIES IN PHILOSOPHY",
       "units": "2 UNITS",

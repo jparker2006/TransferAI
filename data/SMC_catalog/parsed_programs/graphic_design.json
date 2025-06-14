@@ -3,6 +3,7 @@
   "program_description": "In existence for over 40 years, the Graphic Design Program at Santa Monica College serves both the student who wishes to transfer to a four-year college or art school, as well as the student who wants to obtain the skills necessary for entry into the job market as a production artist in graphic design, illustration, user experience design, or interaction design. The program is designed to meet the industry’s need for creative professionals who excel in developing ideas and have the technical proficiency to execute them. Our instructors are experienced professionals who bring first-hand knowledge of industry practices to the classroom and work in close collaboration with industry advisors to keep up with trends and changing requirements. In addition, participating companies often provide guest speakers and student internships. We offer day, evening and weekend classes to provide educational opportunities to all students. In addition, selected Graphic Design courses are offered online through SMC’s Distance Education program. To learn more about the program, please visit smc.edu/designtech.",
   "courses": [
     {
+      "course_id": "DESIGN-11-3UNIT",
       "course_code": "DESIGN 11",
       "course_title": "DESIGN FOUNDATIONS",
       "units": "3 UNITS",
@@ -70,6 +71,7 @@
       ]
     },
     {
+      "course_id": "DESIGN-12-3UNIT",
       "course_code": "DESIGN 12",
       "course_title": "TYPOGRAPHY 1",
       "units": "3 UNITS",
@@ -132,6 +134,7 @@
       ]
     },
     {
+      "course_id": "DESIGN-13-3UNIT",
       "course_code": "DESIGN 13",
       "course_title": "DIGITAL DESIGN TOOLS",
       "units": "3 UNITS",
@@ -205,6 +208,7 @@
       ]
     },
     {
+      "course_id": "DESIGN-21-3UNIT",
       "course_code": "DESIGN 21",
       "course_title": "DESIGN METHODS",
       "units": "3 UNITS",
@@ -272,6 +276,7 @@
       ]
     },
     {
+      "course_id": "DESIGN-22-3UNIT",
       "course_code": "DESIGN 22",
       "course_title": "TYPOGRAPHY 2",
       "units": "3 UNITS",
@@ -335,6 +340,7 @@
       ]
     },
     {
+      "course_id": "DESIGN-23-3UNIT",
       "course_code": "DESIGN 23",
       "course_title": "USER EXPERIENCE DESIGN 1",
       "units": "3 UNITS",
@@ -397,6 +403,7 @@
       ]
     },
     {
+      "course_id": "DESIGN-24-3UNIT",
       "course_code": "DESIGN 24",
       "course_title": "WEB DESIGN 1",
       "units": "3 UNITS",
@@ -442,6 +449,7 @@
       ]
     },
     {
+      "course_id": "DESIGN-31-3UNIT",
       "course_code": "DESIGN 31",
       "course_title": "INTERACTIVE ADVERTISING",
       "units": "3 UNITS",
@@ -487,6 +495,7 @@
       ]
     },
     {
+      "course_id": "DESIGN-32-3UNIT",
       "course_code": "DESIGN 32",
       "course_title": "COMMUNICATION DESIGN",
       "units": "3 UNITS",
@@ -531,6 +540,7 @@
       ]
     },
     {
+      "course_id": "DESIGN-33-3UNIT",
       "course_code": "DESIGN 33",
       "course_title": "USER EXPERIENCE DESIGN 2",
       "units": "3 UNITS",
@@ -592,6 +602,7 @@
       ]
     },
     {
+      "course_id": "DESIGN-34-3UNIT",
       "course_code": "DESIGN 34",
       "course_title": "WEB DESIGN 2",
       "units": "3 UNITS",
@@ -637,6 +648,7 @@
       ]
     },
     {
+      "course_id": "DESIGN-41-3UNIT",
       "course_code": "DESIGN 41",
       "course_title": "INDUSTRY PROJECT",
       "units": "3 UNITS",
@@ -681,6 +693,7 @@
       ]
     },
     {
+      "course_id": "DESIGN-42-3UNIT",
       "course_code": "DESIGN 42",
       "course_title": "INFORMATION DESIGN",
       "units": "3 UNITS",
@@ -726,6 +739,7 @@
       ]
     },
     {
+      "course_id": "DESIGN-43-3UNIT",
       "course_code": "DESIGN 43",
       "course_title": "DESIGN PORTFOLIO",
       "units": "3 UNITS",
@@ -770,6 +784,7 @@
       ]
     },
     {
+      "course_id": "DESIGN-25-3UNIT",
       "course_code": "DESIGN 25",
       "course_title": "MOBILE DESIGN 1",
       "units": "3 UNITS",
@@ -806,6 +821,7 @@
       ]
     },
     {
+      "course_id": "DESIGN-26-3UNIT",
       "course_code": "DESIGN 26",
       "course_title": "MOTION GRAPHICS 1",
       "units": "3 UNITS",
@@ -850,6 +866,7 @@
       ]
     },
     {
+      "course_id": "DESIGN-35-3UNIT",
       "course_code": "DESIGN 35",
       "course_title": "MOBILE DESIGN 2",
       "units": "3 UNITS",
@@ -888,6 +905,7 @@
       ]
     },
     {
+      "course_id": "DESIGN-36-3UNIT",
       "course_code": "DESIGN 36",
       "course_title": "MOTION GRAPHICS 2",
       "units": "3 UNITS",

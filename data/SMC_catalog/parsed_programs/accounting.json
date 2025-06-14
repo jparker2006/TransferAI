@@ -3,6 +3,7 @@
   "program_description": "General accountants examine financial records of municipal, county, state, and federal agencies for compliance with laws. They record transactions, such as receivable, payable, payroll, property into a general ledger. Corporate accountants set up and design accounting/ bookkeeping systems and procedures, risk management programs, tax law and finance methods, record financial transactions, and analyze and evaluate financial records for businesses. Their duties include interpreting financial information and preparing reports for business executives and government regulatory agencies. Advancement includes senior accountant, controller, treasurer, and chief financial officer positions. Some of the courses listed in this section are accompanied by Supplemental Instruction. Supplemental Instruction (SI) is an academic assistance program that utilizes free peer-assisted weekly study sessions to help students learn the most difficult course content. For more information, please see the SI website at smc.edu/si.",
   "courses": [
     {
+      "course_id": "ACCTG-1-5UNIT",
       "course_code": "ACCTG 1",
       "course_title": "INTRODUCTION TO FINANCIAL ACCOUNTING",
       "units": "5 UNITS",
@@ -286,6 +287,7 @@
       ]
     },
     {
+      "course_id": "ACCTG-2-5UNIT",
       "course_code": "ACCTG 2",
       "course_title": "CORPORATE FINANCIAL AND MANAGERIAL ACCOUNTING",
       "units": "5 UNITS",
@@ -512,6 +514,7 @@
       ]
     },
     {
+      "course_id": "ACCTG-6-3UNIT",
       "course_code": "ACCTG 6",
       "course_title": "ACCOUNTING CONSOLIDATIONS",
       "units": "3 UNITS",
@@ -550,6 +553,7 @@
       ]
     },
     {
+      "course_id": "ACCTG-7-3UNIT",
       "course_code": "ACCTG 7",
       "course_title": "ADVANCED ACCOUNTING: SPECIAL TOPICS",
       "units": "3 UNITS",
@@ -588,6 +592,7 @@
       ]
     },
     {
+      "course_id": "ACCTG-9-3UNIT",
       "course_code": "ACCTG 9",
       "course_title": "ACCOUNTING ETHICS",
       "units": "3 UNITS",
@@ -643,6 +648,7 @@
       ]
     },
     {
+      "course_id": "ACCTG-10A-3UNIT",
       "course_code": "ACCTG 10A",
       "course_title": "INTERMEDIATE ACCOUNTING A",
       "units": "3 UNITS",
@@ -698,6 +704,7 @@
       ]
     },
     {
+      "course_id": "ACCTG-10B-3UNIT",
       "course_code": "ACCTG 10B",
       "course_title": "INTERMEDIATE ACCOUNTING B",
       "units": "3 UNITS",
@@ -736,6 +743,7 @@
       ]
     },
     {
+      "course_id": "ACCTG-10C-4UNIT",
       "course_code": "ACCTG 10C",
       "course_title": "INTERMEDIATE ACCOUNTING C",
       "units": "4 UNITS",
@@ -791,6 +799,7 @@
       ]
     },
     {
+      "course_id": "ACCTG-12-3UNIT",
       "course_code": "ACCTG 12",
       "course_title": "AUDITING",
       "units": "3 UNITS",
@@ -829,6 +838,7 @@
       ]
     },
     {
+      "course_id": "ACCTG-15-3UNIT",
       "course_code": "ACCTG 15",
       "course_title": "INDIVIDUAL INCOME TAXES",
       "units": "3 UNITS",
@@ -884,6 +894,7 @@
       ]
     },
     {
+      "course_id": "ACCTG-16-3UNIT",
       "course_code": "ACCTG 16",
       "course_title": "TAXATION OF CORPORATIONS, PARTNERSHIPS, ESTATES AND TRUSTS",
       "units": "3 UNITS",
@@ -939,6 +950,7 @@
       ]
     },
     {
+      "course_id": "ACCTG-17-4UNIT",
       "course_code": "ACCTG 17",
       "course_title": "INCOME TAX PREPARATION (CTECAPPROVED)",
       "units": "4 UNITS",
@@ -977,6 +989,7 @@
       ]
     },
     {
+      "course_id": "ACCTG-21-3UNIT",
       "course_code": "ACCTG 21",
       "course_title": "BUSINESS BOOKKEEPING",
       "units": "3 UNITS",
@@ -1049,6 +1062,7 @@
       ]
     },
     {
+      "course_id": "ACCTG-22-3UNIT",
       "course_code": "ACCTG 22",
       "course_title": "ADVANCED BOOKKEEPING",
       "units": "3 UNITS",
@@ -1087,6 +1101,7 @@
       ]
     },
     {
+      "course_id": "ACCTG-23-3UNIT",
       "course_code": "ACCTG 23",
       "course_title": "PAYROLL ACCOUNTING",
       "units": "3 UNITS",
@@ -1125,6 +1140,7 @@
       ]
     },
     {
+      "course_id": "ACCTG-31B-3UNIT",
       "course_code": "ACCTG 31B",
       "course_title": "ADVANCED EXCEL FOR ACCOUNTING",
       "units": "3 UNITS",
@@ -1163,6 +1179,7 @@
       ]
     },
     {
+      "course_id": "ACCTG-41-3UNIT",
       "course_code": "ACCTG 41",
       "course_title": "ACCOUNTING FOR ENTREPRENEURS",
       "units": "3 UNITS",
@@ -1230,6 +1247,7 @@
       ]
     },
     {
+      "course_id": "ACCTG-45-3UNIT",
       "course_code": "ACCTG 45",
       "course_title": "INDIVIDUAL FINANCIAL PLANNING",
       "units": "3 UNITS",

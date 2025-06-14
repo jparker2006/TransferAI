@@ -3,6 +3,7 @@
   "program_description": "Mathematicians use symbolic languages to set up and analyze relationships among quantities and qualities of things, events, and places. Pure mathematicians develop the theories to further the science of mathematics. Possible careers include actuary, computer engineer, cryptographer, satellite communications expert, robotics programmer, statistician and teacher. Students new to the Santa Monica College mathematics program who wish to enroll in a course should see the placement tab in their Corsair connect account. Mathematics placement based on high school GPA and highest math class taken in high school, or through Guided Self Placement (GSP). A student who has successfully completed college level math courses (earned a grade of C or better) at another institution may be able to verify having met prerequisites by submitting an official transcript. Continuing students must complete prerequisite courses with a grade of “C” or better.",
   "courses": [
     {
+      "course_id": "STAT-C1000-6UNIT-WITH-MATH54C",
       "course_code": "STAT C1000",
       "course_title": "INTRODUCTION TO STATISTICS WITH MATH 54C, CONCURRENT SUPPORT FOR ELEMENTARY STATISTICS",
       "units": "6 UNITS",
@@ -549,6 +550,7 @@
       ]
     },
     {
+      "course_id": "STAT-C1000-4UNIT",
       "course_code": "STAT C1000",
       "course_title": "INTRODUCTION TO STATISTICS",
       "units": "4 UNITS",
@@ -1193,6 +1195,7 @@
       ]
     },
     {
+      "course_id": "MATH-2-7UNIT-WITH-MATH2C",
       "course_code": "MATH 2",
       "course_title": "PRECALCULUS WITH MATH 2C, CONCURRENT SUPPORT FOR PRECALCULUS",
       "units": "7 UNITS",
@@ -1523,6 +1526,7 @@
       ]
     },
     {
+      "course_id": "MATH-2-5UNIT",
       "course_code": "MATH 2",
       "course_title": "PRECALCULUS",
       "units": "5 UNITS",
@@ -1700,6 +1704,7 @@
       ]
     },
     {
+      "course_id": "MATH-3-4UNIT-WITH-MATH3C",
       "course_code": "MATH 3",
       "course_title": "TRIGONOMETRY WITH APPLICATIONS WITH MATH 3C, CONCURRENT SUPPORT FOR TRIGONOMETRY WITH APPLICATIONS",
       "units": "4 UNITS",
@@ -1755,6 +1760,7 @@
       ]
     },
     {
+      "course_id": "MATH-3-3UNIT",
       "course_code": "MATH 3",
       "course_title": "TRIGONOMETRY WITH APPLICATIONS",
       "units": "3 UNITS",
@@ -1827,6 +1833,7 @@
       ]
     },
     {
+      "course_id": "MATH-4-5UNIT-WITH-MATH4C",
       "course_code": "MATH 4",
       "course_title": "COLLEGE ALGEBRA FOR STEM MAJORS WITH MATH 4C, CONCURRENT SUPPORT FOR COLLEGE ALGEBRA FOR STEM MAJORS",
       "units": "5 UNITS",
@@ -2001,6 +2008,7 @@
       ]
     },
     {
+      "course_id": "MATH-4-4UNIT",
       "course_code": "MATH 4",
       "course_title": "COLLEGE ALGEBRA FOR STEM MAJORS",
       "units": "4 UNITS",
@@ -2042,6 +2050,7 @@
       ]
     },
     {
+      "course_id": "MATH-7-5UNIT",
       "course_code": "MATH 7",
       "course_title": "CALCULUS 1",
       "units": "5 UNITS",
@@ -2502,6 +2511,7 @@
       ]
     },
     {
+      "course_id": "MATH-8-5UNIT",
       "course_code": "MATH 8",
       "course_title": "CALCULUS 2",
       "units": "5 UNITS",
@@ -2694,6 +2704,7 @@
       ]
     },
     {
+      "course_id": "MATH-10-3UNIT",
       "course_code": "MATH 10",
       "course_title": "DISCRETE STRUCTURES",
       "units": "3 UNITS",
@@ -2733,6 +2744,7 @@
       ]
     },
     {
+      "course_id": "MATH-11-5UNIT",
       "course_code": "MATH 11",
       "course_title": "MULTIVARIABLE CALCULUS",
       "units": "5 UNITS",
@@ -2846,6 +2858,7 @@
       ]
     },
     {
+      "course_id": "MATH-13-3UNIT",
       "course_code": "MATH 13",
       "course_title": "LINEAR ALGEBRA",
       "units": "3 UNITS",
@@ -2936,6 +2949,7 @@
       ]
     },
     {
+      "course_id": "MATH-15-3UNIT",
       "course_code": "MATH 15",
       "course_title": "ORDINARY DIFFERENTIAL EQUATIONS",
       "units": "3 UNITS",
@@ -3009,6 +3023,7 @@
       ]
     },
     {
+      "course_id": "MATH-21-4UNIT-WITH-MATH21C",
       "course_code": "MATH 21",
       "course_title": "FINITE MATHEMATIC WITH MATH 21C, CONCURRENT SUPPORT FOR FINITE MATHEMATICS",
       "units": "4 UNITS",
@@ -3303,6 +3318,7 @@
       ]
     },
     {
+      "course_id": "MATH-21-3UNIT",
       "course_code": "MATH 21",
       "course_title": "FINITE MATHEMATICS",
       "units": "3 UNITS",
@@ -3376,6 +3392,7 @@
       ]
     },
     {
+      "course_id": "MATH-28-5UNIT",
       "course_code": "MATH 28",
       "course_title": "CALCULUS 1 FOR BUSINESS AND SOCIAL SCIENCE",
       "units": "5 UNITS",
@@ -3450,6 +3467,7 @@
       ]
     },
     {
+      "course_id": "MATH-88A-1UNIT-1",
       "course_code": "MATH 88A",
       "course_title": "INDEPENDENT STUDIES IN MATHEMATICS",
       "units": "1 UNIT",

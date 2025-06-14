@@ -3,6 +3,7 @@
   "program_description": "",
   "courses": [
     {
+      "course_id": "COUNS-910-0UNIT",
       "course_code": "COUNS 910",
       "course_title": "ABI CONNECTIONS",
       "units": "0 UNITS",

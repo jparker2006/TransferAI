@@ -3,6 +3,7 @@
   "program_description": "The Center for Student with Disabilities is a program designed to ensure that students with disabilities have equal access to all programs and activities on campus. Our primary goal is to encourage and promote independence in students so they may achieve their full potential. We strive to provide the highest quality programs and services to our students with disabilities including a variety of classes to support their academic success.",
   "courses": [
     {
+      "course_id": "COUNS-13H-1UNIT",
       "course_code": "COUNS 13H",
       "course_title": "PERSONAL AND SOCIAL AWARENESS",
       "units": "1 UNIT",
@@ -39,6 +40,7 @@
       ]
     },
     {
+      "course_id": "COUNS-21H-1UNIT",
       "course_code": "COUNS 21H",
       "course_title": "ADAPTED COMPUTER TECHNOLOGY",
       "units": "1 UNIT",
@@ -75,6 +77,7 @@
       ]
     },
     {
+      "course_id": "COUNS-41H-1UNIT",
       "course_code": "COUNS 41H",
       "course_title": "ROADMAP TO COLLEGE READINESS",
       "units": "1 UNIT",
@@ -111,6 +114,7 @@
       ]
     },
     {
+      "course_id": "COUNS-51-1UNIT",
       "course_code": "COUNS 51",
       "course_title": "TEST TAKING/MEMORY STRATEGIES",
       "units": "1 UNIT",
@@ -147,6 +151,7 @@
       ]
     },
     {
+      "course_id": "COUNS-52-1UNIT",
       "course_code": "COUNS 52",
       "course_title": "TEXTBOOK/MEMORY STRATEGIES",
       "units": "1 UNIT",
@@ -183,6 +188,7 @@
       ]
     },
     {
+      "course_id": "COUNS-53-1UNIT",
       "course_code": "COUNS 53",
       "course_title": "PHONICS, SPELLING AND VOCABULARY DEVELOPMENT",
       "units": "1 UNIT",
@@ -219,6 +225,7 @@
       ]
     },
     {
+      "course_id": "COUNS-54-1UNIT",
       "course_code": "COUNS 54",
       "course_title": "ORGANIZING FOR COLLEGE SUCCESS",
       "units": "1 UNIT",
@@ -255,6 +262,7 @@
       ]
     },
     {
+      "course_id": "COUNS-56-1UNIT",
       "course_code": "COUNS 56",
       "course_title": "WRITTEN LANGUAGE STRATEGIES",
       "units": "1 UNIT",
@@ -291,6 +299,7 @@
       ]
     },
     {
+      "course_id": "COUNS-57-1UNIT",
       "course_code": "COUNS 57",
       "course_title": "LISTENING, NOTE TAKING, AND MEMORY",
       "units": "1 UNIT",
@@ -327,6 +336,7 @@
       ]
     },
     {
+      "course_id": "COUNS-59-1UNIT",
       "course_code": "COUNS 59",
       "course_title": "TEXTBOOK STRATEGIES USING TECHNOLOGY",
       "units": "1 UNIT",

@@ -3,6 +3,7 @@
   "program_description": "Astronomers and astrophysicists study the contents of our universe, including planets, stars, galaxies, and even the universe in its entirety. They are essentially physicists who specialize in using the fundamental laws of nature and the techniques of mathematics to understand our place in the cosmos. Astronomers design and build telescopes and other scientific instruments to collect data from astronomical objects. They then apply the techniques of scientific data reduction and analysis to extract the information from the data collected. While many astronomers and astrophysicists end up in academia, their unique skills are in great demand in many other fields including, aerospace, engineering, computer science, software development, information technology, financial services, education, and public outreach.",
   "courses": [
     {
+      "course_id": "ASTRON-1-3UNIT",
       "course_code": "ASTRON 1",
       "course_title": "STELLAR ASTRONOMY",
       "units": "3 UNITS",
@@ -129,6 +130,7 @@
       ]
     },
     {
+      "course_id": "ASTRON-2-3UNIT",
       "course_code": "ASTRON 2",
       "course_title": "PLANETARY ASTRONOMY",
       "units": "3 UNITS",
@@ -227,6 +229,7 @@
       ]
     },
     {
+      "course_id": "ASTRON-3-4UNIT",
       "course_code": "ASTRON 3",
       "course_title": "STELLAR ASTRONOMY WITH LABORATORY",
       "units": "4 UNITS",
@@ -308,6 +311,7 @@
       ]
     },
     {
+      "course_id": "ASTRON-4-4UNIT",
       "course_code": "ASTRON 4",
       "course_title": "PLANETARY ASTRONOMY WITH LABORATORY",
       "units": "4 UNITS",
@@ -378,6 +382,7 @@
       ]
     },
     {
+      "course_id": "ASTRON-5-3UNIT",
       "course_code": "ASTRON 5",
       "course_title": "LIFE IN THE UNIVERSE",
       "units": "3 UNITS",
@@ -417,6 +422,7 @@
       ]
     },
     {
+      "course_id": "ASTRON-6-3UNIT",
       "course_code": "ASTRON 6",
       "course_title": "ARCHAEOASTRONOMY",
       "units": "3 UNITS",

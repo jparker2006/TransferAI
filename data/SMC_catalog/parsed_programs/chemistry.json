@@ -3,6 +3,7 @@
   "program_description": "Chemists study the properties of matter and make qualitative and quantitative analysis of many substances. They conduct a variety of experiments and tests in laboratories to develop new knowledge or maintain control over the quality of existing products and procedures. Chemists may work in research and development, or production and quality control in the chemical manufacturing industry, and in education or government institutions. Students must be present at the first lab session of a chemistry course to be assured of admission to limited lab spaces. Students who wish to enroll in a chemistry course must demonstrate that they have met the prerequisites for the course prior to enrollment. Continuing students must complete prerequisite courses with a C or better. If currently enrolled in a prerequisite course at SMC at the time of enrollment, students will be admitted to subsequent courses based upon midterm placement results, but will be dropped if the prerequisite course is not completed with a C or better. Students who have successfully completed one or more prerequisite courses (earning a grade of C- or better in both the lecture and lab courses and an average of C (2.0) or better overall) at another institution may be able to verify having met the prerequisites by submitting a transcript and course description and course syllabus for the prerequisite courses. Some of the courses listed in this section are accompanied by Supplemental Instruction. Supplemental Instruction (SI) is an academic assistance program that utilizes free peer-assisted weekly study sessions to help students learn the most difficult course content. For more information, please see the SI website at smc.edu/si.",
   "courses": [
     {
+      "course_id": "CHEM-9-5UNIT",
       "course_code": "CHEM 9",
       "course_title": "EVERYDAY CHEMISTRY",
       "units": "5 UNITS",
@@ -127,6 +128,7 @@
       ]
     },
     {
+      "course_id": "CHEM-10-5UNIT",
       "course_code": "CHEM 10",
       "course_title": "INTRODUCTORY GENERAL CHEMISTRY",
       "units": "5 UNITS",
@@ -497,6 +499,7 @@
       ]
     },
     {
+      "course_id": "CHEM-11-5UNIT",
       "course_code": "CHEM 11",
       "course_title": "GENERAL CHEMISTRY I",
       "units": "5 UNITS",
@@ -705,6 +708,7 @@
       ]
     },
     {
+      "course_id": "CHEM-12-5UNIT",
       "course_code": "CHEM 12",
       "course_title": "GENERAL CHEMISTRY II",
       "units": "5 UNITS",
@@ -842,6 +846,7 @@
       ]
     },
     {
+      "course_id": "CHEM-19-5UNIT",
       "course_code": "CHEM 19",
       "course_title": "FUNDAMENTALS OF GENERAL, ORGANIC, AND BIOLOGICAL CHEMISTRY",
       "units": "5 UNITS",
@@ -1079,6 +1084,7 @@
       ]
     },
     {
+      "course_id": "CHEM-21-5UNIT",
       "course_code": "CHEM 21",
       "course_title": "ORGANIC CHEMISTRY I",
       "units": "5 UNITS",
@@ -1170,6 +1176,7 @@
       ]
     },
     {
+      "course_id": "CHEM-22-4UNIT",
       "course_code": "CHEM 22",
       "course_title": "ORGANIC CHEMISTRY II",
       "units": "4 UNITS",
@@ -1209,6 +1216,7 @@
       ]
     },
     {
+      "course_id": "CHEM-24-2UNIT",
       "course_code": "CHEM 24",
       "course_title": "ORGANIC CHEMISTRY II LABORATORY",
       "units": "2 UNITS",
@@ -1267,6 +1275,7 @@
       ]
     },
     {
+      "course_id": "CHEM-88B-2UNIT",
       "course_code": "CHEM 88B",
       "course_title": "INDEPENDENT STUDIES IN CHEMISTRY",
       "units": "2 UNITS",

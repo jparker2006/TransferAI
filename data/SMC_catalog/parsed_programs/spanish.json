@@ -3,6 +3,7 @@
   "program_description": "Most sections require the use of a computer with Internet access for class resources and/or to complete assignments.",
   "courses": [
     {
+      "course_id": "SPAN-1-5UNIT",
       "course_code": "SPAN 1",
       "course_title": "ELEMENTARY SPANISH I",
       "units": "5 UNITS",
@@ -130,6 +131,7 @@
       ]
     },
     {
+      "course_id": "SPAN-2-5UNIT",
       "course_code": "SPAN 2",
       "course_title": "ELEMENTARY SPANISH II",
       "units": "5 UNITS",
@@ -223,6 +225,7 @@
       ]
     },
     {
+      "course_id": "SPAN-3-5UNIT",
       "course_code": "SPAN 3",
       "course_title": "INTERMEDIATE SPANISH I",
       "units": "5 UNITS",
@@ -264,6 +267,7 @@
       ]
     },
     {
+      "course_id": "SPAN-8-2UNIT",
       "course_code": "SPAN 8",
       "course_title": "CONVERSATIONAL SPANISH",
       "units": "2 UNITS",
@@ -309,6 +313,7 @@
       ]
     },
     {
+      "course_id": "SPAN-11-5UNIT",
       "course_code": "SPAN 11",
       "course_title": "SPANISH FOR HERITAGE SPEAKERS I",
       "units": "5 UNITS",
@@ -367,6 +372,7 @@
       ]
     },
     {
+      "course_id": "SPAN-31A-3UNIT",
       "course_code": "SPAN 31A",
       "course_title": "PRACTICAL SPANISH",
       "units": "3 UNITS",

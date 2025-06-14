@@ -3,6 +3,7 @@
   "program_description": "The Digital Media Post-Production program prepares students for careers in the entertainment industry through comprehensive, handson training. The program is designed to meet the industry’s need for creative professionals who excel in developing ideas and have the technical proficiency to execute them. Our instructors are experienced professionals who bring first-hand knowledge of industry practices to the classroom and work in close collaboration with industry advisors to keep up with trends and changing requirements. In addition, participating companies often provide guest speakers and student internships. We offer day, evening and weekend classes to provide educational opportunities to all students. In addition, select courses are offered online through Distance Education. Students who are interested in the Digital Media Post-Production program are strongly encouraged to schedule an appointment with one of the counselors at the Center for Media and Design campus to develop an Educational Plan. This is to ensure that you are taking the necessary courses to meet your educational goals. To learn more, please visit smc.edu/designtech. Students interested in independent studies or internships for the Digital Media Post-Production program may enroll in the Entertainment Technology (ET) 88 or 90 series of courses. Please speak with the Design Technology Department Chair or an Academic Counselor at the CMD for more information.",
   "courses": [
     {
+      "course_id": "DMPOST-1-3UNIT",
       "course_code": "DMPOST 1",
       "course_title": "DIGITAL MEDIA WORKFLOW MANAGEMENT",
       "units": "3 UNITS",
@@ -41,6 +42,7 @@
       ]
     },
     {
+      "course_id": "DMPOST-2-3UNIT",
       "course_code": "DMPOST 2",
       "course_title": "DIGITAL AUDIO FUNDAMENTALS",
       "units": "3 UNITS",
@@ -108,6 +110,7 @@
       ]
     },
     {
+      "course_id": "DMPOST-3-3UNIT",
       "course_code": "DMPOST 3",
       "course_title": "DIGITAL VIDEO FUNDAMENTALS",
       "units": "3 UNITS",
@@ -198,6 +201,7 @@
       ]
     },
     {
+      "course_id": "DMPOST-4-3UNIT",
       "course_code": "DMPOST 4",
       "course_title": "DIGITAL IMAGE FUNDAMENTALS",
       "units": "3 UNITS",
@@ -236,6 +240,7 @@
       ]
     },
     {
+      "course_id": "DMPOST-22-3UNIT",
       "course_code": "DMPOST 22",
       "course_title": "DIGITAL MUSIC PRODUCTION",
       "units": "3 UNITS",
@@ -281,6 +286,7 @@
       ]
     },
     {
+      "course_id": "DMPOST-23-3UNIT",
       "course_code": "DMPOST 23",
       "course_title": "SOUND DESIGN",
       "units": "3 UNITS",
@@ -325,6 +331,7 @@
       ]
     },
     {
+      "course_id": "DMPOST-30-3UNIT",
       "course_code": "DMPOST 30",
       "course_title": "DIGITAL VIDEO EDITING",
       "units": "3 UNITS",
@@ -393,6 +400,7 @@
       ]
     },
     {
+      "course_id": "DMPOST-31-3UNIT",
       "course_code": "DMPOST 31",
       "course_title": "DIGITAL COMPOSITING",
       "units": "3 UNITS",

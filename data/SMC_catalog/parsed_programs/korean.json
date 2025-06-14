@@ -3,6 +3,7 @@
   "program_description": "Most sections require the use of a computer with Internet access for class resources and/or to complete assignments.",
   "courses": [
     {
+      "course_id": "KOREAN-1-5UNIT",
       "course_code": "KOREAN 1",
       "course_title": "ELEMENTARY KOREAN I",
       "units": "5 UNITS",
@@ -84,6 +85,7 @@
       ]
     },
     {
+      "course_id": "KOREAN-2-5UNIT",
       "course_code": "KOREAN 2",
       "course_title": "ELEMENTARY KOREAN II",
       "units": "5 UNITS",
@@ -131,6 +133,7 @@
       ]
     },
     {
+      "course_id": "KOREAN-3-5UNIT",
       "course_code": "KOREAN 3",
       "course_title": "INTERMEDIATE KOREAN I",
       "units": "5 UNITS",

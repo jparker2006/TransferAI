@@ -3,6 +3,7 @@
   "program_description": "See also “Music: Appreciation and History.” Studying music is a multifaceted endeavor that requires students to master various theoretical concepts and practical skills. Our courses focus on giving students an understanding of the elements of music such as melody, harmony, rhythm, timbre, and form, with opportunities to apply that understanding to real-world performance activities. Some performance courses require an audition. A maximum of 12 units is allowed in performance courses.",
   "courses": [
     {
+      "course_id": "MUSIC-1-3UNIT",
       "course_code": "MUSIC 1",
       "course_title": "FUNDAMENTALS OF MUSIC",
       "units": "3 UNITS",
@@ -118,6 +119,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-2-2UNIT",
       "course_code": "MUSIC 2",
       "course_title": "MUSICIANSHIP",
       "units": "2 UNITS",
@@ -178,6 +180,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-3-2UNIT",
       "course_code": "MUSIC 3",
       "course_title": "MUSICIANSHIP",
       "units": "2 UNITS",
@@ -218,6 +221,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-4-2UNIT",
       "course_code": "MUSIC 4",
       "course_title": "MUSICIANSHIP",
       "units": "2 UNITS",
@@ -258,6 +262,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-5-2UNIT",
       "course_code": "MUSIC 5",
       "course_title": "FUNDAMENTALS OF MUSICIANSHIP",
       "units": "2 UNITS",
@@ -316,6 +321,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-6-3UNIT",
       "course_code": "MUSIC 6",
       "course_title": "DIATONIC HARMONY",
       "units": "3 UNITS",
@@ -374,6 +380,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-7-3UNIT",
       "course_code": "MUSIC 7",
       "course_title": "CHROMATIC HARMONY",
       "units": "3 UNITS",
@@ -414,6 +421,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-8-3UNIT",
       "course_code": "MUSIC 8",
       "course_title": "MODULATION AND ANALYSIS",
       "units": "3 UNITS",
@@ -454,6 +462,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-40-2UNIT",
       "course_code": "MUSIC 40",
       "course_title": "OPERA WORKSHOP",
       "units": "2 UNITS",
@@ -500,6 +509,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-44-2UNIT",
       "course_code": "MUSIC 44",
       "course_title": "MARIACHI ENSEMBLE",
       "units": "2 UNITS",
@@ -546,6 +556,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-45-3UNIT",
       "course_code": "MUSIC 45",
       "course_title": "MUSICAL THEATRE WORKSHOP",
       "units": "3 UNITS",
@@ -593,6 +604,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-49-2UNIT",
       "course_code": "MUSIC 49",
       "course_title": "COMBO AND CHAMBER ENSEMBLE",
       "units": "2 UNITS",
@@ -639,6 +651,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-50A-2UNIT",
       "course_code": "MUSIC 50A",
       "course_title": "ELEMENTARY VOICE",
       "units": "2 UNITS",
@@ -751,6 +764,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-50B-2UNIT",
       "course_code": "MUSIC 50B",
       "course_title": "INTERMEDIATE VOICE",
       "units": "2 UNITS",
@@ -863,6 +877,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-53-2UNIT",
       "course_code": "MUSIC 53",
       "course_title": "JAZZ VOCAL ENSEMBLE",
       "units": "2 UNITS",
@@ -908,6 +923,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-55-2UNIT",
       "course_code": "MUSIC 55",
       "course_title": "CONCERT CHORALE",
       "units": "2 UNITS",
@@ -954,6 +970,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-57-2UNIT",
       "course_code": "MUSIC 57",
       "course_title": "ADVANCED VOCAL PERFORMANCE TECHNIQUES",
       "units": "2 UNITS",
@@ -994,6 +1011,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-59-2UNIT",
       "course_code": "MUSIC 59",
       "course_title": "CHAMBER CHOIR",
       "units": "2 UNITS",
@@ -1040,6 +1058,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-60A-2UNIT",
       "course_code": "MUSIC 60A",
       "course_title": "ELEMENTARY PIANO, FIRST LEVEL",
       "units": "2 UNITS",
@@ -1136,6 +1155,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-60B-2UNIT",
       "course_code": "MUSIC 60B",
       "course_title": "ELEMENTARY PIANO, SECOND LEVEL",
       "units": "2 UNITS",
@@ -1212,6 +1232,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-60C-2UNIT",
       "course_code": "MUSIC 60C",
       "course_title": "ELEMENTARY PIANO, THIRD LEVEL",
       "units": "2 UNITS",
@@ -1270,6 +1291,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-60D-2UNIT",
       "course_code": "MUSIC 60D",
       "course_title": "ELEMENTARY PIANO, FOURTH LEVEL",
       "units": "2 UNITS",
@@ -1328,6 +1350,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-61A-2UNIT",
       "course_code": "MUSIC 61A",
       "course_title": "INTERMEDIATE PIANO, FIFTH LEVEL",
       "units": "2 UNITS",
@@ -1368,6 +1391,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-64-2UNIT",
       "course_code": "MUSIC 64",
       "course_title": "PIANO ENSEMBLE",
       "units": "2 UNITS",
@@ -1414,6 +1438,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-65A-2UNIT",
       "course_code": "MUSIC 65A",
       "course_title": "KEYBOARD IMPROVISATION I",
       "units": "2 UNITS",
@@ -1454,6 +1479,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-65B-2UNIT",
       "course_code": "MUSIC 65B",
       "course_title": "KEYBOARD IMPROVISATION II",
       "units": "2 UNITS",
@@ -1494,6 +1520,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-66-5UNIT",
       "course_code": "MUSIC 66",
       "course_title": "FUNDAMENTALS OF MUSIC AND ELEMENTARY PIANO",
       "units": "5 UNITS",
@@ -1542,6 +1569,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-70A-2UNIT",
       "course_code": "MUSIC 70A",
       "course_title": "STRING INSTRUMENT TECHNIQUES",
       "units": "2 UNITS",
@@ -1582,6 +1610,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-70B-2UNIT",
       "course_code": "MUSIC 70B",
       "course_title": "INTERMEDIATE STRINGS TECHNIQUES",
       "units": "2 UNITS",
@@ -1622,6 +1651,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-70C-2UNIT",
       "course_code": "MUSIC 70C",
       "course_title": "INTERMEDIATE STRINGS ORCHESTRA",
       "units": "2 UNITS",
@@ -1662,6 +1692,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-73A-2UNIT",
       "course_code": "MUSIC 73A",
       "course_title": "PERCUSSION INSTRUMENT TECHNIQUES",
       "units": "2 UNITS",
@@ -1702,6 +1733,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-73B-2UNIT",
       "course_code": "MUSIC 73B",
       "course_title": "INTERMEDIATE PERCUSSION ENSEMBLE",
       "units": "2 UNITS",
@@ -1748,6 +1780,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-74-2UNIT",
       "course_code": "MUSIC 74",
       "course_title": "ORCHESTRA",
       "units": "2 UNITS",
@@ -1794,6 +1827,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-76-2UNIT",
       "course_code": "MUSIC 76",
       "course_title": "INTERMEDIATE BRASS, WOODWINDS, AND PERCUSSION",
       "units": "2 UNITS",
@@ -1834,6 +1868,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-77-2UNIT",
       "course_code": "MUSIC 77",
       "course_title": "WIND ENSEMBLE",
       "units": "2 UNITS",
@@ -1880,6 +1915,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-78-2UNIT",
       "course_code": "MUSIC 78",
       "course_title": "JAZZ ENSEMBLE",
       "units": "2 UNITS",
@@ -1926,6 +1962,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-84A-2UNIT",
       "course_code": "MUSIC 84A",
       "course_title": "POPULAR GUITAR, FIRST LEVEL",
       "units": "2 UNITS",
@@ -1966,6 +2003,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-84B-2UNIT",
       "course_code": "MUSIC 84B",
       "course_title": "POPULAR GUITAR, SECOND LEVEL",
       "units": "2 UNITS",
@@ -2006,6 +2044,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-84C-2UNIT",
       "course_code": "MUSIC 84C",
       "course_title": "POPULAR GUITAR, THIRD LEVEL",
       "units": "2 UNITS",
@@ -2046,6 +2085,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-87A-2UNIT",
       "course_code": "MUSIC 87A",
       "course_title": "FINGERSTYLE GUITAR, FIRST LEVEL",
       "units": "2 UNITS",
@@ -2086,6 +2126,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-87B-2UNIT",
       "course_code": "MUSIC 87B",
       "course_title": "FINGERSTYLE GUITAR, SECOND LEVEL",
       "units": "2 UNITS",
@@ -2126,6 +2167,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-92-2UNIT",
       "course_code": "MUSIC 92",
       "course_title": "APPLIED MUSIC INSTRUCTION",
       "units": "2 UNITS",
@@ -2165,6 +2207,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-94-1UNIT",
       "course_code": "MUSIC 94",
       "course_title": "CONCERT MUSIC CLASS",
       "units": "1 UNIT",

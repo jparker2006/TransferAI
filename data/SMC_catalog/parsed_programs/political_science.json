@@ -3,6 +3,7 @@
   "program_description": "Political science is the academic discipline dedicated to the study of power and justice. Political science has four well-defined subfields: political theory, international relations, comparative politics, and American politics. Courses focus on topics and pressing problems, among them war, law, local, state, and national politics, voting, mass media, public opinion, poverty, human rights, race, gender, ideology, class, international organizations, revolutions, and failed states in all parts of the world. Students in these courses learn to critically analyze not only the behavior of political actors, but also their respective political institutions and political systems. The main objectives are to enable students to use strong analytical skills and critical thinking in their analysis of theories, institutions, and processes.",
   "courses": [
     {
+      "course_id": "POLS-C1000-3UNIT",
       "course_code": "POLS C1000",
       "course_title": "AMERICAN GOVERNMENT AND POLITICS",
       "units": "3 UNITS",
@@ -229,6 +230,7 @@
       ]
     },
     {
+      "course_id": "POL-SC-2-3UNIT",
       "course_code": "POL SC 2",
       "course_title": "COMPARATIVE GOVERNMENT AND POLITICS",
       "units": "3 UNITS",
@@ -302,6 +304,7 @@
       ]
     },
     {
+      "course_id": "POL-SC-5-3UNIT",
       "course_code": "POL SC 5",
       "course_title": "INTERNATIONAL POLITICAL ECONOMY: INTRODUCTION TO GLOBAL STUDIES",
       "units": "3 UNITS",
@@ -361,6 +364,7 @@
       ]
     },
     {
+      "course_id": "POL-SC-7-3UNIT",
       "course_code": "POL SC 7",
       "course_title": "INTERNATIONAL POLITICS",
       "units": "3 UNITS",
@@ -434,6 +438,7 @@
       ]
     },
     {
+      "course_id": "POL-SC-24-3UNIT",
       "course_code": "POL SC 24",
       "course_title": "INTRODUCTION TO LAW",
       "units": "3 UNITS",
@@ -507,6 +512,7 @@
       ]
     },
     {
+      "course_id": "POL-SC-31-3UNIT",
       "course_code": "POL SC 31",
       "course_title": "INTRODUCTION TO PUBLIC POLICY",
       "units": "3 UNITS",
@@ -546,6 +552,7 @@
       ]
     },
     {
+      "course_id": "POL-SC-51-3UNIT",
       "course_code": "POL SC 51",
       "course_title": "POLITICAL PHILOSOPHY",
       "units": "3 UNITS",
@@ -621,6 +628,7 @@
       ]
     },
     {
+      "course_id": "POL-SC-52-3UNIT",
       "course_code": "POL SC 52",
       "course_title": "CONTEMPORARY POLITICAL THOUGHT",
       "units": "3 UNITS",
@@ -662,6 +670,7 @@
       ]
     },
     {
+      "course_id": "POL-SC-88A-1UNIT-1",
       "course_code": "POL SC 88A",
       "course_title": "INDEPENDENT STUDIES IN POLITICAL SCIENCE",
       "units": "1 UNIT",
@@ -715,6 +724,7 @@
       ]
     },
     {
+      "course_id": "POL-SC-88B-2UNIT-1",
       "course_code": "POL SC 88B",
       "course_title": "INDEPENDENT STUDIES IN POLITICAL SCIENCE",
       "units": "2 UNITS",
@@ -768,6 +778,7 @@
       ]
     },
     {
+      "course_id": "POL-SC-95-1UNIT",
       "course_code": "POL SC 95",
       "course_title": "PUBLIC POLICY – EXPERIENTIAL LEARNING",
       "units": "1 UNIT",

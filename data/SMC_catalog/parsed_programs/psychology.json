@@ -3,6 +3,7 @@
   "program_description": "Psychologists study the behavior of individuals and groups and try to help people achieve satisfactory personal adjustment. They work with individuals, couples, families or groups. Some engage in teaching or research, while others work with people doing testing, counseling, or treatment in clinics, schools, and industries. Some additional career titles include developmental psychologist, industrial/organizational psychologist, mental health coordinator, and community services worker. See Counseling for courses in educational and vocational planning and personal awareness.",
   "courses": [
     {
+      "course_id": "PSYC-C1000-3UNIT",
       "course_code": "PSYC C1000",
       "course_title": "GENERAL PSYCHOLOGY",
       "units": "3 UNITS",
@@ -498,6 +499,7 @@
       ]
     },
     {
+      "course_id": "PSYCH-2-3UNIT",
       "course_code": "PSYCH 2",
       "course_title": "PHYSIOLOGICAL PSYCHOLOGY",
       "units": "3 UNITS",
@@ -686,6 +688,7 @@
       ]
     },
     {
+      "course_id": "PSYCH-3-3UNIT",
       "course_code": "PSYCH 3",
       "course_title": "PERSONALITY: DYNAMICS AND DEVELOPMENT",
       "units": "3 UNITS",
@@ -742,6 +745,7 @@
       ]
     },
     {
+      "course_id": "PSYCH-5-3UNIT",
       "course_code": "PSYCH 5",
       "course_title": "THE PSYCHOLOGY OF COMMUNICATION",
       "units": "3 UNITS",
@@ -781,6 +785,7 @@
       ]
     },
     {
+      "course_id": "PSYCH-6-3UNIT",
       "course_code": "PSYCH 6",
       "course_title": "MARRIAGE, FAMILY, AND HUMAN INTIMACY",
       "units": "3 UNITS",
@@ -820,6 +825,7 @@
       ]
     },
     {
+      "course_id": "PSYCH-7-3UNIT",
       "course_code": "PSYCH 7",
       "course_title": "RESEARCH METHODS IN PSYCHOLOGY",
       "units": "3 UNITS",
@@ -933,6 +939,7 @@
       ]
     },
     {
+      "course_id": "PSYCH-11-3UNIT",
       "course_code": "PSYCH 11",
       "course_title": "CHILD GROWTH AND DEVELOPMENT",
       "units": "3 UNITS",
@@ -1103,6 +1110,7 @@
       ]
     },
     {
+      "course_id": "PSYCH-13-3UNIT",
       "course_code": "PSYCH 13",
       "course_title": "SOCIAL PSYCHOLOGY",
       "units": "3 UNITS",
@@ -1210,6 +1218,7 @@
       ]
     },
     {
+      "course_id": "PSYCH-14-3UNIT",
       "course_code": "PSYCH 14",
       "course_title": "ABNORMAL PSYCHOLOGY",
       "units": "3 UNITS",
@@ -1266,6 +1275,7 @@
       ]
     },
     {
+      "course_id": "PSYCH-19-3UNIT",
       "course_code": "PSYCH 19",
       "course_title": "LIFESPAN HUMAN DEVELOPMENT",
       "units": "3 UNITS",
@@ -1436,6 +1446,7 @@
       ]
     },
     {
+      "course_id": "PSYCH-25-3UNIT",
       "course_code": "PSYCH 25",
       "course_title": "HUMAN SEXUALITY",
       "units": "3 UNITS",
@@ -1475,6 +1486,7 @@
       ]
     },
     {
+      "course_id": "PSYCH-40-3UNIT",
       "course_code": "PSYCH 40",
       "course_title": "ENVIRONMENTAL PSYCHOLOGY",
       "units": "3 UNITS",
@@ -1523,6 +1535,7 @@
       ]
     },
     {
+      "course_id": "PSYCH-320-3UNIT",
       "course_code": "PSYCH 320",
       "course_title": "COGNITIVE PSYCHOLOGY",
       "units": "3 UNITS",

@@ -3,6 +3,7 @@
   "program_description": "Communication Studies offers students courses that combine theory and application in many areas of the discipline. These courses encourage our students to apply conceptual material to daily interactions in a variety of communication contexts. In addition, our discipline provides a wide range of course offerings in the Communication Studies major. Oral Communication focuses on the skills and knowledge needed for creating effective and appropriate public communication skills. Courses include public speaking, oral interpretation of literature, persuasion, group communication, argumentation, and competitive speech and debate. Students completing courses in oral communication gain practical skills in researching, developing and presenting ideas and arguments in a variety of contexts preparing them for upper division, workplace, and personal presentations. Communication Theory focuses on human communication theory, especially as it relates to the interpersonal and/or group levels of communication. Courses in this area include interpersonal, group communication, intercultural communication, gender and communication, communication theory and research methodologies. Students completing courses in the communication theory area learn theoretical knowledge to prepare them for transfer into communication studies programs at the university and practical communication skills to improve their own interpersonal effectiveness.",
   "courses": [
     {
+      "course_id": "COMM-C1000-3UNIT",
       "course_code": "COMM C1000",
       "course_title": "INTRODUCTION TO PUBLIC SPEAKING",
       "units": "3 UNITS",
@@ -594,6 +595,7 @@
       ]
     },
     {
+      "course_id": "COM-ST-9-3UNIT",
       "course_code": "COM ST 9",
       "course_title": "INTRODUCTION TO COMMUNICATION STUDIES",
       "units": "3 UNITS",
@@ -684,6 +686,7 @@
       ]
     },
     {
+      "course_id": "COM-ST-12-3UNIT",
       "course_code": "COM ST 12",
       "course_title": "PERSUASION",
       "units": "3 UNITS",
@@ -740,6 +743,7 @@
       ]
     },
     {
+      "course_id": "COM-ST-16-3UNIT",
       "course_code": "COM ST 16",
       "course_title": "FUNDAMENTALS OF SMALL GROUP DISCUSSION",
       "units": "3 UNITS",
@@ -830,6 +834,7 @@
       ]
     },
     {
+      "course_id": "COM-ST-20-3UNIT",
       "course_code": "COM ST 20",
       "course_title": "AGITATIONAL AND PROTEST COMMUNICATION",
       "units": "3 UNITS",
@@ -871,6 +876,7 @@
       ]
     },
     {
+      "course_id": "COM-ST-21-3UNIT",
       "course_code": "COM ST 21",
       "course_title": "ARGUMENTATION",
       "units": "3 UNITS",
@@ -985,6 +991,7 @@
       ]
     },
     {
+      "course_id": "COM-ST-30-3UNIT",
       "course_code": "COM ST 30",
       "course_title": "INTRODUCTION TO COMMUNICATION THEORY",
       "units": "3 UNITS",
@@ -1024,6 +1031,7 @@
       ]
     },
     {
+      "course_id": "COM-ST-31-3UNIT",
       "course_code": "COM ST 31",
       "course_title": "RESEARCH METHODS FOR COMMUNICATION STUDIES",
       "units": "3 UNITS",
@@ -1063,6 +1071,7 @@
       ]
     },
     {
+      "course_id": "COM-ST-35-3UNIT",
       "course_code": "COM ST 35",
       "course_title": "INTERPERSONAL COMMUNICATION",
       "units": "3 UNITS",
@@ -1312,6 +1321,7 @@
       ]
     },
     {
+      "course_id": "COM-ST-36-3UNIT",
       "course_code": "COM ST 36",
       "course_title": "GENDER AND COMMUNICATION",
       "units": "3 UNITS",
@@ -1353,6 +1363,7 @@
       ]
     },
     {
+      "course_id": "COM-ST-37-3UNIT",
       "course_code": "COM ST 37",
       "course_title": "INTERCULTURAL COMMUNICATION",
       "units": "3 UNITS",

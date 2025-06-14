@@ -3,6 +3,7 @@
   "program_description": "",
   "courses": [
     {
+      "course_id": "ENGL-71-3UNIT",
       "course_code": "ENGL 71",
       "course_title": "INTRODUCTION TO CREATIVE WRITING",
       "units": "3 UNITS",
@@ -93,6 +94,7 @@
       ]
     },
     {
+      "course_id": "ENGL-72-3UNIT",
       "course_code": "ENGL 72",
       "course_title": "WRITING IN FICTION",
       "units": "3 UNITS",

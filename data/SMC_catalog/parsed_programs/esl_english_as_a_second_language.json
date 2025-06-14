@@ -3,6 +3,7 @@
   "program_description": "English for Second Language Speakers courses are designed specifically for students whose first language is not English. SMC offers three different ESL programs: 1) Credit ESL courses focus on academic skills needed for success in college (reading textbooks, listening and notetaking, writing papers with citations, speaking in class in small groups, and making presentations). Faculty assist students in the development of grammar, vocabulary, paraphrasing, and summarizing skills within the context of themes or academic content. ESL 19A and 19B are CSU and UC transferable (up to 8 units). 2) Noncredit ESL courses focus on college and career readiness and developing the skills needed for life and work in the US. Noncredit ESL courses are free to students, except those studying on an F-1 visa. These courses do not carry any academic credit. 3) Intensive ESL (offered through SMC’s Community Services Program in conjunction with International Education) offers multi-skills courses to prepare international students for entry to Santa Monica College. Student work is graded, but courses in the Intensive ESL Program do not receive academic credit. These courses are offered for a fee. For the following classes, placement is required to determine class placement. See smc.edu/successcenter. Most sections of ESL classes require access to a computer and the Internet. Courses are organized into the following areas: Intensive English: ESL 10G, ESL 10W; ESL Writing: ESL 11A, ESL 19A; Speaking and Listening: ESL 14B, ESL 15; Grammar: ESL 16A, ESL 16B; Vocabulary: ESL 28.",
   "courses": [
     {
+      "course_id": "ESL-10G-6UNIT",
       "course_code": "ESL 10G",
       "course_title": "MULTIPLE SKILLS PREPARATION: LISTENING, SPEAKING, AND GRAMMAR",
       "units": "6 UNITS",
@@ -56,6 +57,7 @@
       ]
     },
     {
+      "course_id": "ESL-10W-6UNIT",
       "course_code": "ESL 10W",
       "course_title": "MULTIPLE SKILLS PREPARATION: READING AND WRITING",
       "units": "6 UNITS",
@@ -162,6 +164,7 @@
       ]
     },
     {
+      "course_id": "ESL-11A-6UNIT",
       "course_code": "ESL 11A",
       "course_title": "BASIC ENGLISH 1",
       "units": "6 UNITS",
@@ -249,6 +252,7 @@
       ]
     },
     {
+      "course_id": "ESL-19A-4UNIT",
       "course_code": "ESL 19A",
       "course_title": "ENGLISH FUNDAMENTALS 1",
       "units": "4 UNITS",
@@ -390,6 +394,7 @@
       ]
     },
     {
+      "course_id": "ESL-19B-4UNIT",
       "course_code": "ESL 19B",
       "course_title": "ENGLISH FUNDAMENTALS 2",
       "units": "4 UNITS",
@@ -548,6 +553,7 @@
       ]
     },
     {
+      "course_id": "ESL-14B-3UNIT",
       "course_code": "ESL 14B",
       "course_title": "PRONUNCIATION: RHYTHM AND INTONATION",
       "units": "3 UNITS",
@@ -584,6 +590,7 @@
       ]
     },
     {
+      "course_id": "ESL-15-3UNIT",
       "course_code": "ESL 15",
       "course_title": "CONVERSATION AND CULTURE IN THE U.S.",
       "units": "3 UNITS",
@@ -620,6 +627,7 @@
       ]
     },
     {
+      "course_id": "ESL-16A-1UNIT",
       "course_code": "ESL 16A",
       "course_title": "THE NOUN SYSTEM AND ARTICLES",
       "units": "1 UNIT",
@@ -656,6 +664,7 @@
       ]
     },
     {
+      "course_id": "ESL-16B-1UNIT",
       "course_code": "ESL 16B",
       "course_title": "USING VERB TENSES",
       "units": "1 UNIT",
@@ -692,6 +701,7 @@
       ]
     },
     {
+      "course_id": "ESL-16C-1UNIT",
       "course_code": "ESL 16C",
       "course_title": "SENTENCE STRUCTURE AND PUNCTUATION",
       "units": "1 UNIT",
@@ -728,6 +738,7 @@
       ]
     },
     {
+      "course_id": "ESL-20A-3UNIT",
       "course_code": "ESL 20A",
       "course_title": "ADVANCED GRAMMAR WORKSHOP",
       "units": "3 UNITS",
@@ -764,6 +775,7 @@
       ]
     },
     {
+      "course_id": "ESL-28-3UNIT",
       "course_code": "ESL 28",
       "course_title": "ACADEMIC VOCABULARY SKILLS",
       "units": "3 UNITS",

@@ -3,6 +3,7 @@
   "program_description": "",
   "courses": [
     {
+      "course_id": "HEALTH-905-0UNIT",
       "course_code": "HEALTH 905",
       "course_title": "PROVIDING CARE TO OLDER ADULTS",
       "units": "0 UNITS",
@@ -40,6 +41,7 @@
       ]
     },
     {
+      "course_id": "HEALTH-906-0UNIT",
       "course_code": "HEALTH 906",
       "course_title": "COMMUNICATION WITH OLDER ADULTS",
       "units": "0 UNITS",
@@ -77,6 +79,7 @@
       ]
     },
     {
+      "course_id": "HEALTH-907-0UNIT",
       "course_code": "HEALTH 907",
       "course_title": "WELLNESS IN OLDER ADULTS",
       "units": "0 UNITS",
@@ -114,6 +117,7 @@
       ]
     },
     {
+      "course_id": "HEALTH-985-0UNIT",
       "course_code": "HEALTH 985",
       "course_title": "NURSE ASSISTANT PRE-CERTIFICATION FOUNDATIONAL TRAINING",
       "units": "0 UNITS",
@@ -157,6 +161,7 @@
       ]
     },
     {
+      "course_id": "HEALTH-986-0UNIT",
       "course_code": "HEALTH 986",
       "course_title": "NURSE ASSISTANT PRE-CERTIFICATION FOUNDATIONAL CLINICAL TRAINING LAB",
       "units": "0 UNITS",
@@ -268,6 +273,7 @@
       ]
     },
     {
+      "course_id": "HEALTH-987-0UNIT",
       "course_code": "HEALTH 987",
       "course_title": "HOME HEALTH AIDE PRE-CERTIFICATION FOUNDATIONAL TRAINING",
       "units": "0 UNITS",
@@ -323,6 +329,7 @@
       ]
     },
     {
+      "course_id": "HEALTH-988-0UNIT",
       "course_code": "HEALTH 988",
       "course_title": "HOME HEALTH AIDE PRE-CERTIFICATION TRAINING CLINICAL LAB",
       "units": "0 UNITS",

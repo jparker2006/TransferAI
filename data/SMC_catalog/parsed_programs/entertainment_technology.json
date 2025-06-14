@@ -3,6 +3,7 @@
   "program_description": "The Entertainment Technology programs prepare students for careers in rapidly evolving design and media fields through comprehensive, hands-on training. To learn more, please see the Animation and Digital Media Post-Production sections of the Schedule of Classes or visit smc.edu/designtech.",
   "courses": [
     {
+      "course_id": "ET-88B-2UNIT",
       "course_code": "ET 88B",
       "course_title": "INDEPENDENT STUDIES IN ENTERTAINMENT TECHNOLOGY",
       "units": "2 UNITS",
@@ -37,6 +38,7 @@
       ]
     },
     {
+      "course_id": "ET-88C-3UNIT",
       "course_code": "ET 88C",
       "course_title": "INDEPENDENT STUDIES IN ENTERTAINMENT TECHNOLOGY",
       "units": "3 UNITS",

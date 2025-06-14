@@ -3,6 +3,7 @@
   "program_description": "Most sections require the use of a computer with Internet access for class resources and/or to complete assignments.",
   "courses": [
     {
+      "course_id": "ARABIC-1-5UNIT",
       "course_code": "ARABIC 1",
       "course_title": "ELEMENTARY ARABIC 1",
       "units": "5 UNITS",

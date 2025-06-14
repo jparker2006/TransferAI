@@ -3,6 +3,7 @@
   "program_description": "Engineers apply the theories and principles of science and mathematics to research and develop economical solutions to practical technical problems. Their work is the link between scientific discoveries and commercial applications. Engineers design products, the machinery to build those products, the factories in which those products are made, and the systems that ensure the quality of the product and efficiency of the workforce and manufacturing process. There are a variety of engineering fields: electrical, mechanical, civil, industrial, aeronautical, chemical, materials, nuclear, petroleum and mining engineering.",
   "courses": [
     {
+      "course_id": "ENGR-1-2UNIT",
       "course_code": "ENGR 1",
       "course_title": "INTRODUCTION TO ENGINEERING",
       "units": "2 UNITS",
@@ -99,6 +100,7 @@
       ]
     },
     {
+      "course_id": "ENGR-11-3UNIT",
       "course_code": "ENGR 11",
       "course_title": "ENGINEERING GRAPHICS AND DESIGN",
       "units": "3 UNITS",
@@ -138,6 +140,7 @@
       ]
     },
     {
+      "course_id": "ENGR-12-3UNIT",
       "course_code": "ENGR 12",
       "course_title": "STATICS",
       "units": "3 UNITS",
@@ -177,6 +180,7 @@
       ]
     },
     {
+      "course_id": "ENGR-21-3UNIT",
       "course_code": "ENGR 21",
       "course_title": "CIRCUIT ANALYSIS",
       "units": "3 UNITS",
@@ -222,6 +226,7 @@
       ]
     },
     {
+      "course_id": "ENGR-22-1UNIT",
       "course_code": "ENGR 22",
       "course_title": "CIRCUIT ANALYSIS LAB",
       "units": "1 UNIT",
@@ -261,6 +266,7 @@
       ]
     },
     {
+      "course_id": "ENGR-88B-2UNIT",
       "course_code": "ENGR 88B",
       "course_title": "INDEPENDENT STUDIES IN ENGINEERING",
       "units": "2 UNITS",

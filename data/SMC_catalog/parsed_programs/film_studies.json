@@ -3,6 +3,7 @@
   "program_description": "Film consists of two areas of concentration: Film Studies and Film Production. Film Studies introduces students to the history and development of cinema/film as an art, an object of philosophical study, and a cultural and social phenomenon. Students examine the theoretical approaches and trends in filmmaking including the contemporary evolution from film to digital media. Film Production provides practical as well as theoretical training in screenwriting, directing, creative producing, cinematography, sound recording, production design, and below-the-line crafts (gaffers, grips, operators, assistants). Students learn all aspects of film production from an academic discipline to hands-on experience that prepares them to earn an Associate degree and/or certificate of achievement in film production; for upper division study at a four-year college or advanced film school; and/or to apply for jobs and internships in the motion picture and television industries.",
   "courses": [
     {
+      "course_id": "FILM-1-3UNIT",
       "course_code": "FILM 1",
       "course_title": "FILM APPRECIATION: INTRODUCTION TO CINEMA",
       "units": "3 UNITS",
@@ -182,6 +183,7 @@
       ]
     },
     {
+      "course_id": "FILM-2-3UNIT",
       "course_code": "FILM 2",
       "course_title": "HISTORY OF MOTION PICTURES",
       "units": "3 UNITS",
@@ -256,6 +258,7 @@
       ]
     },
     {
+      "course_id": "FILM-5-3UNIT",
       "course_code": "FILM 5",
       "course_title": "FILM AND SOCIETY",
       "units": "3 UNITS",
@@ -312,6 +315,7 @@
       ]
     },
     {
+      "course_id": "FILM-7-3UNIT",
       "course_code": "FILM 7",
       "course_title": "AMERICAN CINEMA: CROSSING CULTURES",
       "units": "3 UNITS",
@@ -354,6 +358,7 @@
       ]
     },
     {
+      "course_id": "FILM-8-3UNIT",
       "course_code": "FILM 8",
       "course_title": "THE POPULAR FILM GENRES",
       "units": "3 UNITS",
@@ -410,6 +415,7 @@
       ]
     },
     {
+      "course_id": "FILM-9-3UNIT",
       "course_code": "FILM 9",
       "course_title": "THE GREAT FILM MAKERS",
       "units": "3 UNITS",
@@ -467,6 +473,7 @@
       ]
     },
     {
+      "course_id": "FILM-11-3UNIT",
       "course_code": "FILM 11",
       "course_title": "LITERATURE INTO FILM",
       "units": "3 UNITS",
@@ -506,6 +513,7 @@
       ]
     },
     {
+      "course_id": "FILM-20-3UNIT",
       "course_code": "FILM 20",
       "course_title": "BEGINNING SCRIPTWRITING",
       "units": "3 UNITS",
@@ -582,6 +590,7 @@
       ]
     },
     {
+      "course_id": "FILM-21-3UNIT",
       "course_code": "FILM 21",
       "course_title": "ADVANCED SCRIPTWRITING",
       "units": "3 UNITS",
@@ -656,6 +665,7 @@
       ]
     },
     {
+      "course_id": "FILM-30-3UNIT",
       "course_code": "FILM 30",
       "course_title": "PRODUCTION PLANNING FOR FILM AND VIDEO",
       "units": "3 UNITS",
@@ -712,6 +722,7 @@
       ]
     },
     {
+      "course_id": "FILM-31-3UNIT",
       "course_code": "FILM 31",
       "course_title": "INTRODUCTION TO DIGITAL FILMMAKING",
       "units": "3 UNITS",
@@ -770,6 +781,7 @@
       ]
     },
     {
+      "course_id": "FILM-32-3UNIT",
       "course_code": "FILM 32",
       "course_title": "INTERMEDIATE DIGITAL FILMMAKING",
       "units": "3 UNITS",
@@ -828,6 +840,7 @@
       ]
     },
     {
+      "course_id": "FILM-32L-1UNIT",
       "course_code": "FILM 32L",
       "course_title": "INTERMEDIATE DIGITAL FILMMAKING LAB",
       "units": "1 UNIT",
@@ -885,6 +898,7 @@
       ]
     },
     {
+      "course_id": "FILM-33-3UNIT",
       "course_code": "FILM 33",
       "course_title": "MAKING THE SHORT FILM",
       "units": "3 UNITS",
@@ -925,6 +939,7 @@
       ]
     },
     {
+      "course_id": "FILM-33L-2UNIT",
       "course_code": "FILM 33L",
       "course_title": "MAKING THE SHORT FILM LAB",
       "units": "2 UNITS",
@@ -970,6 +985,7 @@
       ]
     },
     {
+      "course_id": "FILM-34-3UNIT",
       "course_code": "FILM 34",
       "course_title": "ADVANCED DIGITAL FILMMAKING",
       "units": "3 UNITS",
@@ -1010,6 +1026,7 @@
       ]
     },
     {
+      "course_id": "FILM-34L-1UNIT",
       "course_code": "FILM 34L",
       "course_title": "ADVANCED DIGITAL FILMMAKING LAB",
       "units": "1 UNIT",
@@ -1055,6 +1072,7 @@
       ]
     },
     {
+      "course_id": "FILM-40-3UNIT",
       "course_code": "FILM 40",
       "course_title": "CINEMATOGRAPHY",
       "units": "3 UNITS",
@@ -1095,6 +1113,7 @@
       ]
     },
     {
+      "course_id": "FILM-41-3UNIT",
       "course_code": "FILM 41",
       "course_title": "ADVANCED CINEMATOGRAPHY",
       "units": "3 UNITS",
@@ -1134,6 +1153,7 @@
       ]
     },
     {
+      "course_id": "FILM-50-3UNIT",
       "course_code": "FILM 50",
       "course_title": "PRODUCTION SOUND",
       "units": "3 UNITS",
@@ -1179,6 +1199,7 @@
       ]
     },
     {
+      "course_id": "FILM-88A-1UNIT",
       "course_code": "FILM 88A",
       "course_title": "INDEPENDENT STUDIES IN FILM STUDIES",
       "units": "1 UNIT",

@@ -3,6 +3,7 @@
   "program_description": "",
   "courses": [
     {
+      "course_id": "SMM-1-3UNIT",
       "course_code": "SMM 1",
       "course_title": "INTRODUCTION TO SUSTAINABLE MATERIALS MANAGEMENT",
       "units": "3 UNITS",
@@ -49,6 +50,7 @@
       ]
     },
     {
+      "course_id": "SMM-2-3UNIT",
       "course_code": "SMM 2",
       "course_title": "CULTURE AND ZERO WASTE",
       "units": "3 UNITS",
@@ -93,6 +95,7 @@
       ]
     },
     {
+      "course_id": "SMM-3-3UNIT",
       "course_code": "SMM 3",
       "course_title": "SUSTAINABLE MATERIALS MANAGEMENT AND ZERO WASTE FOR COMMUNITIES",
       "units": "3 UNITS",
@@ -137,6 +140,7 @@
       ]
     },
     {
+      "course_id": "SMM-4-3UNIT",
       "course_code": "SMM 4",
       "course_title": "SUSTAINABLE MATERIALS MANAGEMENT AND ZERO WASTE IN BUSINESS",
       "units": "3 UNITS",

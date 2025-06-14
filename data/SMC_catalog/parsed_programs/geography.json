@@ -3,6 +3,7 @@
   "program_description": "Geography is the science of studying human and physical attributes on the surface of the Earth. These attributes may be marks of human occupation, properties of some natural environment, or both. Geographers ask the questions “Where” and “Why there”, with an interest in describing and explaining the various ways in which people have made Earth their home at scales ranging from the local to the global. Geography is an integrative discipline whose interests in space and place and whose perspectives from both environmental and social sciences foster a greater understanding of the interrelationships between the human and physical worlds. The use of Geo-Spatial Technologies, including Geographic Information Science (GIS), Remote Sensing (RS), and Global Positioning Systems (GPS), are now widely used in the visualization, measurement and analysis of Earth’s physical features and human societies, as well as the interaction between them.",
   "courses": [
     {
+      "course_id": "GEOG-1-3UNIT",
       "course_code": "GEOG 1",
       "course_title": "PHYSICAL GEOGRAPHY",
       "units": "3 UNITS",
@@ -44,6 +45,7 @@
       ]
     },
     {
+      "course_id": "GEOG-2-3UNIT",
       "course_code": "GEOG 2",
       "course_title": "INTRODUCTION TO HUMAN GEOGRAPHY",
       "units": "3 UNITS",
@@ -100,6 +102,7 @@
       ]
     },
     {
+      "course_id": "GEOG-3-3UNIT",
       "course_code": "GEOG 3",
       "course_title": "WEATHER AND CLIMATE",
       "units": "3 UNITS",
@@ -162,6 +165,7 @@
       ]
     },
     {
+      "course_id": "GEOG-5-4UNIT",
       "course_code": "GEOG 5",
       "course_title": "PHYSICAL GEOGRAPHY WITH LAB",
       "units": "4 UNITS",
@@ -266,6 +270,7 @@
       ]
     },
     {
+      "course_id": "GEOG-7-3UNIT",
       "course_code": "GEOG 7",
       "course_title": "INTRODUCTION TO ENVIRONMENTAL STUDIES",
       "units": "3 UNITS",
@@ -314,6 +319,7 @@
       ]
     },
     {
+      "course_id": "GEOG-8-3UNIT",
       "course_code": "GEOG 8",
       "course_title": "INTRODUCTION TO URBAN STUDIES",
       "units": "3 UNITS",
@@ -361,6 +367,7 @@
       ]
     },
     {
+      "course_id": "GEOG-11-3UNIT",
       "course_code": "GEOG 11",
       "course_title": "WORLD GEOGRAPHY: INTRODUCTION TO GLOBAL STUDIES",
       "units": "3 UNITS",
@@ -403,6 +410,7 @@
       ]
     },
     {
+      "course_id": "GEOG-14-3UNIT",
       "course_code": "GEOG 14",
       "course_title": "GEOGRAPHY OF CALIFORNIA",
       "units": "3 UNITS",
@@ -444,6 +452,7 @@
       ]
     },
     {
+      "course_id": "GEOG-20-3UNIT",
       "course_code": "GEOG 20",
       "course_title": "INTRODUCTION TO GEOGRAPHIC INFORMATION SYSTEMS",
       "units": "3 UNITS",
@@ -485,6 +494,7 @@
       ]
     },
     {
+      "course_id": "GEOG-26-3UNIT",
       "course_code": "GEOG 26",
       "course_title": "INTRODUCTION TO REMOTE SENSING",
       "units": "3 UNITS",

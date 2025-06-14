@@ -3,6 +3,7 @@
   "program_description": "",
   "courses": [
     {
+      "course_id": "RC-1-2UNIT",
       "course_code": "RC 1",
       "course_title": "FUNDAMENTALS OF RESPIRATORY CARE",
       "units": "2 UNITS",
@@ -42,6 +43,7 @@
       ]
     },
     {
+      "course_id": "RC-2-2UNIT",
       "course_code": "RC 2",
       "course_title": "INTEGRATED RESPIRATORY PHYSIOLOGY AND PATHOPHYSIOLOGY I",
       "units": "2 UNITS",
@@ -81,6 +83,7 @@
       ]
     },
     {
+      "course_id": "RC-3-3UNIT",
       "course_code": "RC 3",
       "course_title": "RESPIRATORY CARE THERAPEUTICS",
       "units": "3 UNITS",
@@ -120,6 +123,7 @@
       ]
     },
     {
+      "course_id": "RC-4-1UNIT",
       "course_code": "RC 4",
       "course_title": "PHYSICIAN INTERACTION I",
       "units": "1 UNIT",
@@ -164,6 +168,7 @@
       ]
     },
     {
+      "course_id": "RC-10-2UNIT",
       "course_code": "RC 10",
       "course_title": "ADVANCED LIFE SUPPORT AND ICU MONITORING",
       "units": "2 UNITS",
@@ -203,6 +208,7 @@
       ]
     },
     {
+      "course_id": "RC-11-2UNIT",
       "course_code": "RC 11",
       "course_title": "ADVANCED MECHANICAL VENTILATION",
       "units": "2 UNITS",
@@ -248,6 +254,7 @@
       ]
     },
     {
+      "course_id": "RC-12-1UNIT",
       "course_code": "RC 12",
       "course_title": "PHYSICIAN INTERACTION III",
       "units": "1 UNIT",
@@ -293,6 +300,7 @@
       ]
     },
     {
+      "course_id": "RC-13-2UNIT",
       "course_code": "RC 13",
       "course_title": "NEONATAL AND PEDIATRIC RESPIRATORY CARE",
       "units": "2 UNITS",
@@ -332,6 +340,7 @@
       ]
     },
     {
+      "course_id": "RC-1L-2UNIT",
       "course_code": "RC 1L",
       "course_title": "APPLIED FUNDAMENTALS OF RESPIRATORY CARE",
       "units": "2 UNITS",
@@ -443,6 +452,7 @@
       ]
     },
     {
+      "course_id": "RC-2L-2UNIT",
       "course_code": "RC 2L",
       "course_title": "APPLIED INTEGRATED RESPIRATORY PHYSIOLOGY AND PATHOPHYSIOLOGY I",
       "units": "2 UNITS",
@@ -580,6 +590,7 @@
       ]
     },
     {
+      "course_id": "RC-3L-3UNIT",
       "course_code": "RC 3L",
       "course_title": "APPLIED RESPIRATORY CARE THERAPEUTICS",
       "units": "3 UNITS",
@@ -700,6 +711,7 @@
       ]
     },
     {
+      "course_id": "RC-10L-3UNIT",
       "course_code": "RC 10L",
       "course_title": "APPLIED ADVANCED LIFE SUPPORT AND ICU MONITORING",
       "units": "3 UNITS",
@@ -773,6 +785,7 @@
       ]
     },
     {
+      "course_id": "RC-11L-2.5UNIT",
       "course_code": "RC 11L",
       "course_title": "APPLIED ADVANCED MECHANICAL VENTILATION",
       "units": "2.5 UNITS",
@@ -864,6 +877,7 @@
       ]
     },
     {
+      "course_id": "RC-13L-2UNIT",
       "course_code": "RC 13L",
       "course_title": "APPLIED NEONATAL AND PEDIATRIC RESPIRATORY CARE",
       "units": "2 UNITS",

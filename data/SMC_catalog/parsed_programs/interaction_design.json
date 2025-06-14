@@ -3,6 +3,7 @@
   "program_description": "Interaction Design (IxD) is an innovative new baccalaureate degree program that blends the fields of design, user experience, and technology to create user-friendly interfaces with the platforms people use every day, such as smart appliances, mobile devices, and the web. Interaction designers ensure that products are appealing, effective, and intuitive for users. In this program, students will develop proficiency in the skills necessary to enter this well-paid and exciting field. The following courses are upper division courses that are part of Santa Monica College’s Bachelor of Science degree program in Interaction Design. Enrollment is limited to admitted program participants. For more information, please see ixd.smc.edu. Transferability of these courses will be determined on a case-by-case basis by the transfer institution.",
   "courses": [
     {
+      "course_id": "IXD-320-3UNIT",
       "course_code": "IXD 320",
       "course_title": "HISTORY AND PRACTICE OF INTERACTION DESIGN",
       "units": "3 UNITS",
@@ -40,6 +41,7 @@
       ]
     },
     {
+      "course_id": "IXD-310-3UNIT",
       "course_code": "IXD 310",
       "course_title": "INTERACTION DESIGN STUDIO 1",
       "units": "3 UNITS",
@@ -84,6 +86,7 @@
       ]
     },
     {
+      "course_id": "IXD-370-3UNIT",
       "course_code": "IXD 370",
       "course_title": "DESIGN FOR COMMUNITY CHANGE",
       "units": "3 UNITS",
@@ -129,6 +132,7 @@
       ]
     },
     {
+      "course_id": "IXD-410-3UNIT",
       "course_code": "IXD 410",
       "course_title": "PROJECT MANAGEMENT FOR DESIGN",
       "units": "3 UNITS",
@@ -174,6 +178,7 @@
       ]
     },
     {
+      "course_id": "IXD-450-2UNIT",
       "course_code": "IXD 450",
       "course_title": "INTERACTION DESIGN PORTFOLIO",
       "units": "2 UNITS",
@@ -218,6 +223,7 @@
       ]
     },
     {
+      "course_id": "IXD-460-3UNIT",
       "course_code": "IXD 460",
       "course_title": "TANGIBLE INTERACTION",
       "units": "3 UNITS",

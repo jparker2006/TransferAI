@@ -3,6 +3,7 @@
   "program_description": "See also “Professional Courses in Kinesiology/Physical Education” (PRO CR) and “Varsity Intercollegiate Athletics” (VAR/PE). *Maximum UC transfer credit for any or all KIN PE courses combined is four units unless otherwise noted.",
   "courses": [
     {
+      "course_id": "KIN-PE-48A-1UNIT",
       "course_code": "KIN PE 48A",
       "course_title": "BEGINNING SWIMMING",
       "units": "1 UNIT",
@@ -59,6 +60,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-48B-1UNIT",
       "course_code": "KIN PE 48B",
       "course_title": "ELEMENTARY SWIMMING",
       "units": "1 UNIT",
@@ -98,6 +100,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-48C-1UNIT",
       "course_code": "KIN PE 48C",
       "course_title": "INTERMEDIATE SWIMMING",
       "units": "1 UNIT",
@@ -188,6 +191,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-48D-1UNIT",
       "course_code": "KIN PE 48D",
       "course_title": "ADVANCED SWIMMING",
       "units": "1 UNIT",
@@ -261,6 +265,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-51A-1UNIT",
       "course_code": "KIN PE 51A",
       "course_title": "BEGINNING SURFING",
       "units": "1 UNIT",
@@ -317,6 +322,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-51B-1UNIT",
       "course_code": "KIN PE 51B",
       "course_title": "INTERMEDIATE SURFING",
       "units": "1 UNIT",

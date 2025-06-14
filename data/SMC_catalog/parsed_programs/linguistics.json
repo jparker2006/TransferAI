@@ -3,6 +3,7 @@
   "program_description": "",
   "courses": [
     {
+      "course_id": "LING-1-3UNIT",
       "course_code": "LING 1",
       "course_title": "INTRODUCTION TO LINGUISTICS",
       "units": "3 UNITS",

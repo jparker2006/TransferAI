@@ -3,6 +3,7 @@
   "program_description": "See also “Dance: Appreciation and History.”",
   "courses": [
     {
+      "course_id": "DANCE-10-2UNIT",
       "course_code": "DANCE 10",
       "course_title": "FUNDAMENTALS OF DANCE TECHNIQUE",
       "units": "2 UNITS",
@@ -42,6 +43,7 @@
       ]
     },
     {
+      "course_id": "DANCE-11-2UNIT",
       "course_code": "DANCE 11",
       "course_title": "BEGINNING HIP HOP DANCE",
       "units": "2 UNITS",
@@ -98,6 +100,7 @@
       ]
     },
     {
+      "course_id": "DANCE-12-2UNIT",
       "course_code": "DANCE 12",
       "course_title": "INTERMEDIATE HIP HOP DANCE",
       "units": "2 UNITS",
@@ -137,6 +140,7 @@
       ]
     },
     {
+      "course_id": "DANCE-13-2UNIT",
       "course_code": "DANCE 13",
       "course_title": "ADVANCED HIP HOP DANCE",
       "units": "2 UNITS",
@@ -176,6 +180,7 @@
       ]
     },
     {
+      "course_id": "DANCE-14-2UNIT",
       "course_code": "DANCE 14",
       "course_title": "BEGINNING JAZZ",
       "units": "2 UNITS",
@@ -215,6 +220,7 @@
       ]
     },
     {
+      "course_id": "DANCE-15-2UNIT",
       "course_code": "DANCE 15",
       "course_title": "INTERMEDIATE JAZZ",
       "units": "2 UNITS",
@@ -254,6 +260,7 @@
       ]
     },
     {
+      "course_id": "DANCE-16-2UNIT",
       "course_code": "DANCE 16",
       "course_title": "ADVANCED JAZZ",
       "units": "2 UNITS",
@@ -293,6 +300,7 @@
       ]
     },
     {
+      "course_id": "DANCE-17-2UNIT",
       "course_code": "DANCE 17",
       "course_title": "BEGINNING TAP",
       "units": "2 UNITS",
@@ -332,6 +340,7 @@
       ]
     },
     {
+      "course_id": "DANCE-18-2UNIT",
       "course_code": "DANCE 18",
       "course_title": "INTERMEDIATE TAP",
       "units": "2 UNITS",
@@ -371,6 +380,7 @@
       ]
     },
     {
+      "course_id": "DANCE-22A-2UNIT",
       "course_code": "DANCE 22A",
       "course_title": "BEGINNING MEXICAN DANCE",
       "units": "2 UNITS",
@@ -410,6 +420,7 @@
       ]
     },
     {
+      "course_id": "DANCE-22B-2UNIT",
       "course_code": "DANCE 22B",
       "course_title": "INTERMEDIATE MEXICAN DANCE",
       "units": "2 UNITS",
@@ -449,6 +460,7 @@
       ]
     },
     {
+      "course_id": "DANCE-26A-2UNIT",
       "course_code": "DANCE 26A",
       "course_title": "BEGINNING SALSA DANCE",
       "units": "2 UNITS",
@@ -494,6 +506,7 @@
       ]
     },
     {
+      "course_id": "DANCE-26B-2UNIT",
       "course_code": "DANCE 26B",
       "course_title": "INTERMEDIATE SALSA DANCE",
       "units": "2 UNITS",
@@ -539,6 +552,7 @@
       ]
     },
     {
+      "course_id": "DANCE-31A-2UNIT",
       "course_code": "DANCE 31A",
       "course_title": "BALLET 1A",
       "units": "2 UNITS",
@@ -595,6 +609,7 @@
       ]
     },
     {
+      "course_id": "DANCE-31B-2UNIT",
       "course_code": "DANCE 31B",
       "course_title": "BALLET 1B",
       "units": "2 UNITS",
@@ -651,6 +666,7 @@
       ]
     },
     {
+      "course_id": "DANCE-32A-2UNIT",
       "course_code": "DANCE 32A",
       "course_title": "BALLET 2A",
       "units": "2 UNITS",
@@ -707,6 +723,7 @@
       ]
     },
     {
+      "course_id": "DANCE-32B-2UNIT",
       "course_code": "DANCE 32B",
       "course_title": "BALLET 2B",
       "units": "2 UNITS",
@@ -763,6 +780,7 @@
       ]
     },
     {
+      "course_id": "DANCE-33A-2UNIT",
       "course_code": "DANCE 33A",
       "course_title": "INTERMEDIATE BALLET 3A",
       "units": "2 UNITS",
@@ -808,6 +826,7 @@
       ]
     },
     {
+      "course_id": "DANCE-34A-2UNIT",
       "course_code": "DANCE 34A",
       "course_title": "ADVANCED BALLET 4A",
       "units": "2 UNITS",
@@ -853,6 +872,7 @@
       ]
     },
     {
+      "course_id": "DANCE-41-2UNIT",
       "course_code": "DANCE 41",
       "course_title": "CONTEMPORARY MODERN DANCE I",
       "units": "2 UNITS",
@@ -915,6 +935,7 @@
       ]
     },
     {
+      "course_id": "DANCE-42-2UNIT",
       "course_code": "DANCE 42",
       "course_title": "CONTEMPORARY MODERN DANCE 2",
       "units": "2 UNITS",
@@ -977,6 +998,7 @@
       ]
     },
     {
+      "course_id": "DANCE-43A-2UNIT",
       "course_code": "DANCE 43A",
       "course_title": "INTERMEDIATE CONTEMPORARY MODERN DANCE 3A",
       "units": "2 UNITS",
@@ -1022,6 +1044,7 @@
       ]
     },
     {
+      "course_id": "DANCE-44A-2UNIT",
       "course_code": "DANCE 44A",
       "course_title": "ADVANCED CONTEMPORARY MODERN DANCE 4A",
       "units": "2 UNITS",
@@ -1067,6 +1090,7 @@
       ]
     },
     {
+      "course_id": "DANCE-55A-4UNIT",
       "course_code": "DANCE 55A",
       "course_title": "DANCE PERFORMANCE – MODERN",
       "units": "4 UNITS",
@@ -1112,6 +1136,7 @@
       ]
     },
     {
+      "course_id": "DANCE-57A-4UNIT",
       "course_code": "DANCE 57A",
       "course_title": "WORLD DANCE PERFORMANCE",
       "units": "4 UNITS",
@@ -1171,6 +1196,7 @@
       ]
     },
     {
+      "course_id": "DANCE-60-2UNIT",
       "course_code": "DANCE 60",
       "course_title": "FUNDAMENTALS OF CHOREOGRAPHY: DANCE IMPROVISATION",
       "units": "2 UNITS",
@@ -1210,6 +1236,7 @@
       ]
     },
     {
+      "course_id": "DANCE-75-3UNIT",
       "course_code": "DANCE 75",
       "course_title": "DANCE FOR CHILDREN: CREATIVE DANCE IN THE PRE-K AND ELEMENTARY CLASSROOM",
       "units": "3 UNITS",
@@ -1248,6 +1275,7 @@
       ]
     },
     {
+      "course_id": "DANCE-88A-1UNIT",
       "course_code": "DANCE 88A",
       "course_title": "INDEPENDENT STUDIES IN DANCE",
       "units": "1 UNIT",
@@ -1284,6 +1312,7 @@
       ]
     },
     {
+      "course_id": "DANCE-88B-2UNIT",
       "course_code": "DANCE 88B",
       "course_title": "INDEPENDENT STUDIES IN DANCE",
       "units": "2 UNITS",

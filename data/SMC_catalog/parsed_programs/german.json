@@ -3,6 +3,7 @@
   "program_description": "Most sections require the use of a computer with Internet access for class resources and/or to complete assignments.",
   "courses": [
     {
+      "course_id": "GERMAN-1-5UNIT",
       "course_code": "GERMAN 1",
       "course_title": "ELEMENTARY GERMAN I",
       "units": "5 UNITS",

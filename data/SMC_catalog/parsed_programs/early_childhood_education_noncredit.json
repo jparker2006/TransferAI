@@ -3,6 +3,7 @@
   "program_description": "",
   "courses": [
     {
+      "course_id": "ECE-900-0UNIT",
       "course_code": "ECE 900",
       "course_title": "EARLY CHILDHOOD EDUCATION COMMUNICATION SKILLS",
       "units": "0 UNITS",
@@ -39,6 +40,7 @@
       ]
     },
     {
+      "course_id": "ECE-901-0UNIT",
       "course_code": "ECE 901",
       "course_title": "INTRODUCTION TO EARLY CARE AND EDUCATION",
       "units": "0 UNITS",
@@ -81,6 +83,7 @@
       ]
     },
     {
+      "course_id": "ECE-902-0UNIT",
       "course_code": "ECE 902",
       "course_title": "CULTURALLY RELEVANT CURRICULUM",
       "units": "0 UNITS",
@@ -123,6 +126,7 @@
       ]
     },
     {
+      "course_id": "ECE-903-0UNIT",
       "course_code": "ECE 903",
       "course_title": "EARLY CARE LICENSING AND WORKFORCE READINESS",
       "units": "0 UNITS",
@@ -165,6 +169,7 @@
       ]
     },
     {
+      "course_id": "ECE-904-0UNIT",
       "course_code": "ECE 904",
       "course_title": "HEALTH AND SAFETY FOR ECE PROVIDERS",
       "units": "0 UNITS",
@@ -208,6 +213,7 @@
       ]
     },
     {
+      "course_id": "ECE-930-0UNIT",
       "course_code": "ECE 930",
       "course_title": "GENDER AND EQUITY IN EARLY CHILDHOOD",
       "units": "0 UNITS",

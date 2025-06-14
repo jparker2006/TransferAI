@@ -3,6 +3,7 @@
   "program_description": "See also “Music: Theory, Performance, and Application.” This curriculum teaches students how to understand what they hear in different genres of music such as Western European Art Music (Classical Music), Jazz, World Music, Rock, and Popular. In this context, “Appreciation” means understanding the value, characteristics, components, cultural meanings, and historical contexts of various styles of music. Many of the courses are designed for non-music majors. Attendance at one Music department concert for which students may have to purchase a ticket is required. Online classes are exempt.",
   "courses": [
     {
+      "course_id": "MUSIC-27-3UNIT",
       "course_code": "MUSIC 27",
       "course_title": "MUSIC FOR EARLY CHILDHOOD EDUCATION",
       "units": "3 UNITS",
@@ -43,6 +44,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-29-3UNIT",
       "course_code": "MUSIC 29",
       "course_title": "A WORLD OF MUSIC",
       "units": "3 UNITS",
@@ -101,6 +103,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-30-3UNIT",
       "course_code": "MUSIC 30",
       "course_title": "MUSIC HISTORY I",
       "units": "3 UNITS",
@@ -141,6 +144,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-32-3UNIT",
       "course_code": "MUSIC 32",
       "course_title": "APPRECIATION OF MUSIC",
       "units": "3 UNITS",
@@ -215,6 +219,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-33-3UNIT",
       "course_code": "MUSIC 33",
       "course_title": "JAZZ IN AMERICAN CULTURE",
       "units": "3 UNITS",
@@ -308,6 +313,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-36-3UNIT",
       "course_code": "MUSIC 36",
       "course_title": "HISTORY OF ROCK MUSIC",
       "units": "3 UNITS",
@@ -350,6 +356,7 @@
       ]
     },
     {
+      "course_id": "MUSIC-37-3UNIT",
       "course_code": "MUSIC 37",
       "course_title": "MUSIC IN AMERICAN CULTURE",
       "units": "3 UNITS",

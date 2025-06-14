@@ -3,6 +3,7 @@
   "program_description": "Sociology is the study of social life. It seeks to understand all aspects of human social behavior, including the behavior of individuals as well as the social dynamics of small groups, large organizations, communities, institutions, and entire societies. Students of sociology study a broad array of topics including social networks, gender roles and relationships, family structure and behavior, interpersonal relationships and processes, urban development, historical societies, social movements, gang violence, current immigration issues, race and ethnic relations, and crime and incarceration. Sociology looks for what is universal as well as what varies across societies and groups and courses explore social change and provide a lens into the complexity of the causes and consequences of human behavior.",
   "courses": [
     {
+      "course_id": "SOCIOL-1-3UNIT",
       "course_code": "SOCIOL 1",
       "course_title": "INTRODUCTION TO SOCIOLOGY",
       "units": "3 UNITS",
@@ -399,6 +400,7 @@
       ]
     },
     {
+      "course_id": "SOCIOL-2-3UNIT",
       "course_code": "SOCIOL 2",
       "course_title": "SOCIAL PROBLEMS",
       "units": "3 UNITS",
@@ -455,6 +457,7 @@
       ]
     },
     {
+      "course_id": "SOCIOL-4-3UNIT",
       "course_code": "SOCIOL 4",
       "course_title": "SOCIOLOGICAL ANALYSIS",
       "units": "3 UNITS",
@@ -500,6 +503,7 @@
       ]
     },
     {
+      "course_id": "SOCIOL-30-3UNIT",
       "course_code": "SOCIOL 30",
       "course_title": "AFRICAN AMERICANS IN CONTEMPORARY SOCIETY",
       "units": "3 UNITS",
@@ -539,6 +543,7 @@
       ]
     },
     {
+      "course_id": "SOCIOL-33-3UNIT",
       "course_code": "SOCIOL 33",
       "course_title": "SOCIOLOGY OF SEX AND GENDER",
       "units": "3 UNITS",
@@ -595,6 +600,7 @@
       ]
     },
     {
+      "course_id": "SOCIOL-34-3UNIT",
       "course_code": "SOCIOL 34",
       "course_title": "RACIAL AND ETHNIC RELATIONS IN AMERICAN SOCIETY",
       "units": "3 UNITS",
@@ -636,6 +642,7 @@
       ]
     },
     {
+      "course_id": "SOCIOL-88A-1UNIT-1",
       "course_code": "SOCIOL 88A",
       "course_title": "INDEPENDENT STUDIES IN SOCIOLOGY",
       "units": "1 UNIT",
@@ -689,6 +696,7 @@
       ]
     },
     {
+      "course_id": "SOCIOL-88B-2UNIT-1",
       "course_code": "SOCIOL 88B",
       "course_title": "INDEPENDENT STUDIES IN SOCIOLOGY",
       "units": "2 UNITS",

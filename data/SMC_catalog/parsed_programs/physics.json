@@ -3,6 +3,7 @@
   "program_description": "Physicists study matter, energy, and the relationships between them and devise methods to apply laws and theories of physics to industry, medicine, and other fields. Some career titles include acoustic physicist, astrophysicist, engineer, satellite data analyst, and medical or nuclear physicist.",
   "courses": [
     {
+      "course_id": "PHYSCS-6-4UNIT",
       "course_code": "PHYSCS 6",
       "course_title": "GENERAL PHYSICS 1 WITH LAB",
       "units": "4 UNITS",
@@ -96,6 +97,7 @@
       ]
     },
     {
+      "course_id": "PHYSCS-8-4UNIT",
       "course_code": "PHYSCS 8",
       "course_title": "CALCULUS-BASED GENERAL PHYSICS 1 WITH LAB",
       "units": "4 UNITS",
@@ -143,6 +145,7 @@
       ]
     },
     {
+      "course_id": "PHYSCS-12-3UNIT",
       "course_code": "PHYSCS 12",
       "course_title": "INTRODUCTORY PHYSICS NON-LAB",
       "units": "3 UNITS",
@@ -182,6 +185,7 @@
       ]
     },
     {
+      "course_id": "PHYSCS-14-4UNIT",
       "course_code": "PHYSCS 14",
       "course_title": "INTRODUCTORY PHYSICS WITH LAB",
       "units": "4 UNITS",
@@ -238,6 +242,7 @@
       ]
     },
     {
+      "course_id": "PHYSCS-20-2UNIT",
       "course_code": "PHYSCS 20",
       "course_title": "PREPARATION FOR CALCULUS-BASED PHYSICS",
       "units": "2 UNITS",
@@ -276,6 +281,7 @@
       ]
     },
     {
+      "course_id": "PHYSCS-21-5UNIT",
       "course_code": "PHYSCS 21",
       "course_title": "MECHANICS WITH LAB",
       "units": "5 UNITS",
@@ -449,6 +455,7 @@
       ]
     },
     {
+      "course_id": "PHYSCS-22-5UNIT",
       "course_code": "PHYSCS 22",
       "course_title": "ELECTRICITY AND MAGNETISM WITH LAB",
       "units": "5 UNITS",
@@ -536,6 +543,7 @@
       ]
     },
     {
+      "course_id": "PHYSCS-23-5UNIT",
       "course_code": "PHYSCS 23",
       "course_title": "FLUIDS, WAVES, THERMODYNAMICS, OPTICS WITH LAB",
       "units": "5 UNITS",
@@ -623,6 +631,7 @@
       ]
     },
     {
+      "course_id": "PHYSCS-88A-1UNIT-1",
       "course_code": "PHYSCS 88A",
       "course_title": "INDEPENDENT STUDIES IN PHYSICS",
       "units": "1 UNIT",

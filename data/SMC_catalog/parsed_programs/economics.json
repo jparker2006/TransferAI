@@ -3,6 +3,7 @@
   "program_description": "Economics is the study of how society allocates scarce resources. The goal is to understand the decisions of businesses and consumers as well as the implications and causes of contemporary economic issues by developing a systematic and thorough understanding of precisely how economic systems operate. Courses in the discipline of economics study the structure of markets and economies, the relationship between regions within the global economy, and strive to convey how economists reason and how they analyze models and compare model implications to observations. Some of the courses listed in this section are accompanied by Supplemental Instruction. Supplemental Instruction (SI) is an academic assistance program that utilizes free peer-assisted weekly study sessions to help students learn the most difficult course content. For more information, please see the SI website at smc.edu/si.",
   "courses": [
     {
+      "course_id": "ECON-1-3UNIT",
       "course_code": "ECON 1",
       "course_title": "PRINCIPLES OF MICROECONOMICS",
       "units": "3 UNITS",
@@ -252,6 +253,7 @@
       ]
     },
     {
+      "course_id": "ECON-2-3UNIT",
       "course_code": "ECON 2",
       "course_title": "PRINCIPLES OF MACROECONOMICS",
       "units": "3 UNITS",
@@ -484,6 +486,7 @@
       ]
     },
     {
+      "course_id": "ECON-4-3UNIT",
       "course_code": "ECON 4",
       "course_title": "ENVIRONMENTAL ECONOMICS",
       "units": "3 UNITS",
@@ -526,6 +529,7 @@
       ]
     },
     {
+      "course_id": "ECON-5-3UNIT",
       "course_code": "ECON 5",
       "course_title": "INTERNATIONAL POLITICAL ECONOMY: INTRODUCTION TO GLOBAL STUDIES",
       "units": "3 UNITS",
@@ -585,6 +589,7 @@
       ]
     },
     {
+      "course_id": "ECON-15-3UNIT",
       "course_code": "ECON 15",
       "course_title": "ECONOMIC HISTORY OF THE U.S.",
       "units": "3 UNITS",
@@ -626,6 +631,7 @@
       ]
     },
     {
+      "course_id": "ECON-88A-1UNIT",
       "course_code": "ECON 88A",
       "course_title": "INDEPENDENT STUDIES IN ECONOMICS",
       "units": "1 UNIT",
@@ -679,6 +685,7 @@
       ]
     },
     {
+      "course_id": "ECON-88B-2UNIT",
       "course_code": "ECON 88B",
       "course_title": "INDEPENDENT STUDIES IN ECONOMICS",
       "units": "2 UNITS",

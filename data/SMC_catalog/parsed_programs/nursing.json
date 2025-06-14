@@ -3,6 +3,7 @@
   "program_description": "",
   "courses": [
     {
+      "course_id": "NURSNG-1-2UNIT",
       "course_code": "NURSNG 1",
       "course_title": "FUNDAMENTALS OF NURSING CONCEPTS 1",
       "units": "2 UNITS",
@@ -42,6 +43,7 @@
       ]
     },
     {
+      "course_id": "NURSNG-1L-2.5UNIT",
       "course_code": "NURSNG 1L",
       "course_title": "FUNDAMENTALS OF NURSING CONCEPTS 1 LAB",
       "units": "2.5 UNITS",
@@ -159,6 +161,7 @@
       ]
     },
     {
+      "course_id": "NURSNG-2-2.5UNIT",
       "course_code": "NURSNG 2",
       "course_title": "FUNDAMENTALS OF NURSING CONCEPTS 2",
       "units": "2.5 UNITS",
@@ -198,6 +201,7 @@
       ]
     },
     {
+      "course_id": "NURSNG-2L-2.5UNIT",
       "course_code": "NURSNG 2L",
       "course_title": "FUNDAMENTALS OF NURSING CONCEPTS 2 LAB",
       "units": "2.5 UNITS",
@@ -364,6 +368,7 @@
       ]
     },
     {
+      "course_id": "NURSNG-3-2.5UNIT",
       "course_code": "NURSNG 3",
       "course_title": "ADULT HEALTH NURSING CONCEPTS 1",
       "units": "2.5 UNITS",
@@ -403,6 +408,7 @@
       ]
     },
     {
+      "course_id": "NURSNG-3L-2.5UNIT",
       "course_code": "NURSNG 3L",
       "course_title": "ADULT HEALTH NURSING CONCEPTS 1 LAB",
       "units": "2.5 UNITS",
@@ -539,6 +545,7 @@
       ]
     },
     {
+      "course_id": "NURSNG-4-1.5UNIT",
       "course_code": "NURSNG 4",
       "course_title": "MENTAL HEALTH NURSING CONCEPTS",
       "units": "1.5 UNITS",
@@ -578,6 +585,7 @@
       ]
     },
     {
+      "course_id": "NURSNG-4L-1.5UNIT",
       "course_code": "NURSNG 4L",
       "course_title": "MENTAL HEALTH CONCEPTS LAB",
       "units": "1.5 UNITS",
@@ -691,6 +699,7 @@
       ]
     },
     {
+      "course_id": "NURSNG-5-2.5UNIT",
       "course_code": "NURSNG 5",
       "course_title": "ADULT HEALTH NURSING CONCEPTS 2",
       "units": "2.5 UNITS",
@@ -730,6 +739,7 @@
       ]
     },
     {
+      "course_id": "NURSNG-5L-2.5UNIT",
       "course_code": "NURSNG 5L",
       "course_title": "ADULT HEALTH NURSING CONCEPTS 2 LAB",
       "units": "2.5 UNITS",
@@ -849,6 +859,7 @@
       ]
     },
     {
+      "course_id": "NURSNG-6-1.5UNIT",
       "course_code": "NURSNG 6",
       "course_title": "MATERNAL NEWBORN NURSING CONCEPTS",
       "units": "1.5 UNITS",
@@ -906,6 +917,7 @@
       ]
     },
     {
+      "course_id": "NURSNG-6L-1UNIT",
       "course_code": "NURSNG 6L",
       "course_title": "MATERNAL NEWBORN NURSING CONCEPTS LAB",
       "units": "1 UNIT",
@@ -1065,6 +1077,7 @@
       ]
     },
     {
+      "course_id": "NURSNG-7-1.5UNIT",
       "course_code": "NURSNG 7",
       "course_title": "PEDIATRIC NURSING CONCEPTS",
       "units": "1.5 UNITS",
@@ -1122,6 +1135,7 @@
       ]
     },
     {
+      "course_id": "NURSNG-7L-1UNIT",
       "course_code": "NURSNG 7L",
       "course_title": "PEDIATRIC NURSING CONCEPTS LAB",
       "units": "1 UNIT",
@@ -1277,6 +1291,7 @@
       ]
     },
     {
+      "course_id": "NURSNG-8-2.5UNIT",
       "course_code": "NURSNG 8",
       "course_title": "ADULT HEALTH NURSING CONCEPTS 3",
       "units": "2.5 UNITS",
@@ -1316,6 +1331,7 @@
       ]
     },
     {
+      "course_id": "NURSNG-8L-2.5UNIT",
       "course_code": "NURSNG 8L",
       "course_title": "ADULT HEALTH NURSING CONCEPTS 3 LAB",
       "units": "2.5 UNITS",
@@ -1464,6 +1480,7 @@
       ]
     },
     {
+      "course_id": "NURSNG-9-1.5UNIT",
       "course_code": "NURSNG 9",
       "course_title": "NURSING LEADERSHIP CONCEPTS",
       "units": "1.5 UNITS",
@@ -1503,6 +1520,7 @@
       ]
     },
     {
+      "course_id": "NURSNG-9L-2UNIT",
       "course_code": "NURSNG 9L",
       "course_title": "NURSING LEADERSHIP CONCEPTS LAB",
       "units": "2 UNITS",
@@ -1632,6 +1650,7 @@
       ]
     },
     {
+      "course_id": "NURSNG-17-3UNIT",
       "course_code": "NURSNG 17",
       "course_title": "PHARMACOLOGICAL ASPECTS OF NURSING",
       "units": "3 UNITS",
@@ -1688,6 +1707,7 @@
       ]
     },
     {
+      "course_id": "NURSNG-36-1UNIT",
       "course_code": "NURSNG 36",
       "course_title": "CALCULATIONS IN DRUGS AND SOLUTIONS",
       "units": "1 UNIT",

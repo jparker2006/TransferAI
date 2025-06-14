@@ -3,6 +3,7 @@
   "program_description": "The Computer Information Systems (CIS) program includes courses in web authoring, desktop publishing, social media, Microsoft Office and Adobe applications. Students focusing on web applications attain the skills to professionally design, develop, and manage websites. The department also offers courses that lead to careers in social media. The office application courses prepare students for positions such as office managers who oversee a variety of administrative, clerical, and accounting functions necessary to efficiently run and maintain business information systems. The CIS program manages industry certification programs for Microsoft, QuickBooks, and Adobe products for students. Keyboarding skills of 25 words per minute or enrollment in OFTECH 1A or 9 are recommended for computer applications classes.",
   "courses": [
     {
+      "course_id": "CIS-1-3UNIT",
       "course_code": "CIS 1",
       "course_title": "INTRODUCTION TO COMPUTER INFORMATION SYSTEMS",
       "units": "3 UNITS",
@@ -84,6 +85,7 @@
       ]
     },
     {
+      "course_id": "CIS-2-3UNIT",
       "course_code": "CIS 2",
       "course_title": "COMPUTER SKILLS FOR VIRTUAL ASSISTANTS",
       "units": "3 UNITS",
@@ -122,6 +124,7 @@
       ]
     },
     {
+      "course_id": "CIS-4-3UNIT",
       "course_code": "CIS 4",
       "course_title": "BUSINESS INFORMATION SYSTEMS WITH APPLICATIONS",
       "units": "3 UNITS",
@@ -237,6 +240,7 @@
       ]
     },
     {
+      "course_id": "CIS-9A-3UNIT",
       "course_code": "CIS 9A",
       "course_title": "TECHNOLOGY PROJECT MANAGEMENT I",
       "units": "3 UNITS",
@@ -277,6 +281,7 @@
       ]
     },
     {
+      "course_id": "CIS-9B-3UNIT",
       "course_code": "CIS 9B",
       "course_title": "TECHNOLOGY PROJECT MANAGEMENT II",
       "units": "3 UNITS",
@@ -317,6 +322,7 @@
       ]
     },
     {
+      "course_id": "CIS-30-3UNIT",
       "course_code": "CIS 30",
       "course_title": "MICROSOFT EXCEL",
       "units": "3 UNITS",
@@ -372,6 +378,7 @@
       ]
     },
     {
+      "course_id": "CIS-30T-3UNIT",
       "course_code": "CIS 30T",
       "course_title": "TABLEAU DESKTOP ESSENTIALS",
       "units": "3 UNITS",
@@ -427,6 +434,7 @@
       ]
     },
     {
+      "course_id": "CIS-35B-3UNIT",
       "course_code": "CIS 35B",
       "course_title": "QUICKBOOKS ONLINE",
       "units": "3 UNITS",
@@ -465,6 +473,7 @@
       ]
     },
     {
+      "course_id": "CIS-37-3UNIT",
       "course_code": "CIS 37",
       "course_title": "MICROSOFT WORD",
       "units": "3 UNITS",
@@ -503,6 +512,7 @@
       ]
     },
     {
+      "course_id": "CIS-39-3UNIT",
       "course_code": "CIS 39",
       "course_title": "MS OUTLOOK – COMPREHENSIVE COURSE",
       "units": "3 UNITS",
@@ -541,6 +551,7 @@
       ]
     },
     {
+      "course_id": "CIS-60A-3UNIT",
       "course_code": "CIS 60A",
       "course_title": "PHOTOSHOP I",
       "units": "3 UNITS",
@@ -579,6 +590,7 @@
       ]
     },
     {
+      "course_id": "CIS-64-3UNIT",
       "course_code": "CIS 64",
       "course_title": "ILLUSTRATOR",
       "units": "3 UNITS",
@@ -617,6 +629,7 @@
       ]
     },
     {
+      "course_id": "CIS-70-3UNIT",
       "course_code": "CIS 70",
       "course_title": "DIGITAL MARKETING APPLICATIONS",
       "units": "3 UNITS",

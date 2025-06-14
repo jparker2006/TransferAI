@@ -3,6 +3,7 @@
   "program_description": "See also “Kinesiology/Physical Education” (KIN/PE) and “Professional Courses in Kinesiology/Physical Education” (PRO CR). Athletic courses provide an opportunity for inter-conference, invitational, sectional or state involvement at a high level of mental and physical competition. Athletic excellence is stressed throughout. One repeat of each varsity sport is allowed. Maximum credit for UC transfer for any or all of these courses combined is four units.",
   "courses": [
     {
+      "course_id": "VAR-PE-9V-3UNIT",
       "course_code": "VAR PE 9V",
       "course_title": "VARSITY BASKETBALL FOR MEN",
       "units": "3 UNITS",
@@ -48,6 +49,7 @@
       ]
     },
     {
+      "course_id": "VAR-PE-9W-3UNIT",
       "course_code": "VAR PE 9W",
       "course_title": "VARSITY BASKETBALL FOR WOMEN",
       "units": "3 UNITS",
@@ -93,6 +95,7 @@
       ]
     },
     {
+      "course_id": "VAR-PE-11A-1UNIT",
       "course_code": "VAR PE 11A",
       "course_title": "IN-SEASON INTERCOLLEGIATE STRENGTH AND CONDITIONING",
       "units": "1 UNIT",
@@ -183,6 +186,7 @@
       ]
     },
     {
+      "course_id": "VAR-PE-11B-1UNIT",
       "course_code": "VAR PE 11B",
       "course_title": "OFF-SEASON INTERCOLLEGIATE STRENGTH AND CONDITIONING",
       "units": "1 UNIT",
@@ -245,6 +249,7 @@
       ]
     },
     {
+      "course_id": "VAR-PE-14V-3UNIT",
       "course_code": "VAR PE 14V",
       "course_title": "VARSITY CROSS COUNTRY FOR MEN",
       "units": "3 UNITS",
@@ -291,6 +296,7 @@
       ]
     },
     {
+      "course_id": "VAR-PE-14W-3UNIT",
       "course_code": "VAR PE 14W",
       "course_title": "VARSITY CROSS COUNTRY FOR WOMEN",
       "units": "3 UNITS",
@@ -337,6 +343,7 @@
       ]
     },
     {
+      "course_id": "VAR-PE-21V-3UNIT",
       "course_code": "VAR PE 21V",
       "course_title": "VARSITY FOOTBALL FOR MEN",
       "units": "3 UNITS",
@@ -405,6 +412,7 @@
       ]
     },
     {
+      "course_id": "VAR-PE-43V-3UNIT",
       "course_code": "VAR PE 43V",
       "course_title": "VARSITY SOCCER FOR MEN",
       "units": "3 UNITS",
@@ -450,6 +458,7 @@
       ]
     },
     {
+      "course_id": "VAR-PE-43W-3UNIT",
       "course_code": "VAR PE 43W",
       "course_title": "VARSITY SOCCER FOR WOMEN",
       "units": "3 UNITS",
@@ -495,6 +504,7 @@
       ]
     },
     {
+      "course_id": "VAR-PE-50V-3UNIT",
       "course_code": "VAR PE 50V",
       "course_title": "VARSITY WATER POLO FOR MEN",
       "units": "3 UNITS",
@@ -540,6 +550,7 @@
       ]
     },
     {
+      "course_id": "VAR-PE-50W-3UNIT",
       "course_code": "VAR PE 50W",
       "course_title": "VARSITY WATER POLO FOR WOMEN",
       "units": "3 UNITS",
@@ -579,6 +590,7 @@
       ]
     },
     {
+      "course_id": "VAR-PE-57W-3UNIT",
       "course_code": "VAR PE 57W",
       "course_title": "VARSITY VOLLEYBALL FOR WOMEN",
       "units": "3 UNITS",
@@ -624,6 +636,7 @@
       ]
     },
     {
+      "course_id": "VAR-PE-60-1UNIT",
       "course_code": "VAR PE 60",
       "course_title": "CONDITIONING FOR INTERCOLLEGIATE SPORT",
       "units": "1 UNIT",

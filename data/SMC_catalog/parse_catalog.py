@@ -36,6 +36,9 @@ class Course:
     course_title: str
     units: str
     transfer_info: List[str]
+    # Unique identifier automatically assigned by the parser. Populated after the full
+    # catalog is parsed so that duplicates can be accurately disambiguated.
+    course_id: Optional[str] = None
     c_id: Optional[str] = None
     cal_getc_area: Optional[str] = None
     special_notes: List[str] = None
@@ -507,7 +510,6 @@ class SMCCatalogParser:
                     if section_content.strip():
                         program = self.parse_program(header_name, section_content)
                         self.programs.append(program)
-                        self.save_program_json(program)
                 elif marker == '~':
                     # Small header - extract just the description (usually one line)
                     description_lines = []
@@ -544,6 +546,14 @@ class SMCCatalogParser:
             else:
                 i += 1
         
+        # After all programs have been parsed, generate unique course IDs and then
+        # persist each program to disk.  Generating IDs *after* all courses are known
+        # allows us to reliably detect duplicates across different programs.
+        self.assign_course_ids()
+
+        for program in self.programs:
+            self.save_program_json(program)
+
         # Save small headers to separate JSON file
         if self.small_headers:
             self.save_small_headers_json()
@@ -2243,6 +2253,7 @@ class SMCCatalogParser:
         
         for course in program.courses:
             course_dict = {
+                "course_id": course.course_id,
                 "course_code": course.course_code,
                 "course_title": course.course_title,
                 "units": course.units,
@@ -2963,6 +2974,67 @@ class SMCCatalogParser:
         
         return fixed_courses
     
+    def assign_course_ids(self):
+        """
+        Generate and assign a unique ``course_id`` for every :class:`Course` instance
+        across *all* programs in the catalog.
+
+        Strategy:
+        1.  Normalise the ``course_code`` by replacing whitespace with hyphens and
+            stripping non-alphanumeric characters – e.g. "STAT C1000" → "STAT-C1000".
+        2.  If a given ``course_code`` occurs more than once, append distinguishing
+            tokens in the following order until uniqueness is reached:
+            • the numeric portion of the *units* field (e.g. "4unit", "6unit").
+            • a co-enrolment token extracted from the title of the form
+              "WITH-{OTHERCOURSE}" (e.g. "WITH-MATH54C").
+            • an incrementing integer suffix ("-1", "-2", …) as a last resort.
+
+        All detected duplicate ``course_code`` values are logged via ``add_warning``
+        so that they can be reviewed later.
+        """
+        code_to_courses: Dict[str, List[Course]] = {}
+
+        # Build an index of course_code → list[Course]
+        for program in self.programs:
+            for course in program.courses:
+                code_to_courses.setdefault(course.course_code, []).append(course)
+
+        assigned_ids = set()
+
+        for code, course_list in code_to_courses.items():
+            base_id = re.sub(r'\s+', '-', code.strip())            # spaces → dash
+            base_id = re.sub(r'[^A-Za-z0-9\-]', '', base_id).upper()  # keep A-Z,0-9 and '-'
+
+            if len(course_list) > 1:
+                self.add_warning(f"Duplicate course_code detected: '{code}' appears {len(course_list)} times.")
+
+            for course in course_list:
+                components = [base_id]
+
+                # Append units token if present (e.g. 4unit, 6unit, 2.5unit)
+                if course.units:
+                    m = re.match(r'(\d+(?:\.\d+)?)', course.units)
+                    if m:
+                        num_units = m.group(1).rstrip('0').rstrip('.') if '.' in m.group(1) else m.group(1)
+                        components.append(f"{num_units}UNIT")
+
+                # Append co-enrolment token if title contains "WITH XXX"
+                with_match = re.search(r'WITH\s+([A-Z]+\s+\d+[A-Z]*)', course.course_title, re.IGNORECASE)
+                if with_match:
+                    with_code = with_match.group(1).replace(' ', '')
+                    components.append(f"WITH-{with_code}")
+
+                candidate = '-'.join(components).upper()
+
+                # Guarantee uniqueness in the unlikely event collisions remain
+                unique_candidate = candidate
+                counter = 1
+                while unique_candidate in assigned_ids:
+                    unique_candidate = f"{candidate}-{counter}"
+                    counter += 1
+
+                course.course_id = unique_candidate
+                assigned_ids.add(unique_candidate)
 
 
 

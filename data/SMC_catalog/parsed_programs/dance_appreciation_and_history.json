@@ -3,6 +3,7 @@
   "program_description": "See also “Dance: Technique and Performance.”",
   "courses": [
     {
+      "course_id": "DANCE-2-3UNIT",
       "course_code": "DANCE 2",
       "course_title": "DANCE IN AMERICAN CULTURE",
       "units": "3 UNITS",
@@ -95,6 +96,7 @@
       ]
     },
     {
+      "course_id": "DANCE-5-3UNIT",
       "course_code": "DANCE 5",
       "course_title": "DANCE HISTORY",
       "units": "3 UNITS",
@@ -153,6 +155,7 @@
       ]
     },
     {
+      "course_id": "DANCE-77-3UNIT",
       "course_code": "DANCE 77",
       "course_title": "NAVIGATING CAREERS IN DANCE",
       "units": "3 UNITS",

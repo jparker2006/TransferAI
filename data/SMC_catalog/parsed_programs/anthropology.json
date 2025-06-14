@@ -3,6 +3,7 @@
   "program_description": "Anthropology is a diverse discipline involving the humanities, social sciences and natural sciences that examines various aspects of past and present-day humans. It consists of four fields: Archaeology, Cultural Anthropology, Linguistic Anthropology, and Physical Anthropology. Archaeology examines past human cultures through material culture. Cultural Anthropology focuses on sociocultural variation among humans. Linguistic Anthropology examines how language influences society and culture. Physical Anthropology studies the biological and behavioral aspects of humans within an evolutionary framework. Some of the courses listed in this section are accompanied by Supplemental Instruction. Supplemental Instruction (SI) is an academic assistance program that utilizes free peer-assisted weekly study sessions to help students learn the most difficult course content. For more information, please see the SI website at smc.edu/si.",
   "courses": [
     {
+      "course_id": "ANTHRO-1-3UNIT",
       "course_code": "ANTHRO 1",
       "course_title": "BIOLOGICAL ANTHROPOLOGY",
       "units": "3 UNITS",
@@ -193,6 +194,7 @@
       ]
     },
     {
+      "course_id": "ANTHRO-2-3UNIT",
       "course_code": "ANTHRO 2",
       "course_title": "CULTURAL ANTHROPOLOGY",
       "units": "3 UNITS",
@@ -308,6 +310,7 @@
       ]
     },
     {
+      "course_id": "ANTHRO-3-3UNIT",
       "course_code": "ANTHRO 3",
       "course_title": "WORLD ARCHAEOLOGY",
       "units": "3 UNITS",
@@ -355,6 +358,7 @@
       ]
     },
     {
+      "course_id": "ANTHRO-4-3UNIT",
       "course_code": "ANTHRO 4",
       "course_title": "METHODS OF ARCHAEOLOGY",
       "units": "3 UNITS",
@@ -402,6 +406,7 @@
       ]
     },
     {
+      "course_id": "ANTHRO-5-4UNIT",
       "course_code": "ANTHRO 5",
       "course_title": "BIOLOGICAL ANTHROPOLOGY WITH LAB",
       "units": "4 UNITS",
@@ -518,6 +523,7 @@
       ]
     },
     {
+      "course_id": "ANTHRO-7-3UNIT",
       "course_code": "ANTHRO 7",
       "course_title": "INTRODUCTION TO LINGUISTIC ANTHROPOLOGY",
       "units": "3 UNITS",
@@ -563,6 +569,7 @@
       ]
     },
     {
+      "course_id": "ANTHRO-19-3UNIT",
       "course_code": "ANTHRO 19",
       "course_title": "THE CULTURE OF FOOD",
       "units": "3 UNITS",
@@ -610,6 +617,7 @@
       ]
     },
     {
+      "course_id": "ANTHRO-22-3UNIT",
       "course_code": "ANTHRO 22",
       "course_title": "MAGIC, RELIGION, AND WITCHCRAFT",
       "units": "3 UNITS",
@@ -649,6 +657,7 @@
       ]
     },
     {
+      "course_id": "ANTHRO-88A-1UNIT",
       "course_code": "ANTHRO 88A",
       "course_title": "INDEPENDENT STUDIES IN ANTHROPOLOGY",
       "units": "1 UNIT",
@@ -715,6 +724,7 @@
       ]
     },
     {
+      "course_id": "ERTHSC-88A-1UNIT",
       "course_code": "ERTHSC 88A",
       "course_title": "INDEPENDENT STUDIES IN EARTH SCIENCE",
       "units": "1 UNIT",
@@ -751,6 +761,7 @@
       ]
     },
     {
+      "course_id": "ERTHSC-88B-2UNIT",
       "course_code": "ERTHSC 88B",
       "course_title": "INDEPENDENT STUDIES IN EARTH SCIENCE",
       "units": "2 UNITS",
@@ -787,6 +798,7 @@
       ]
     },
     {
+      "course_id": "ANTHRO-300-3UNIT",
       "course_code": "ANTHRO 300",
       "course_title": "ETHNOGRAPHIC RESEARCH METHODS FOR DESIGNERS",
       "units": "3 UNITS",

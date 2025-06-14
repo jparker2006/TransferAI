@@ -3,6 +3,7 @@
   "program_description": "Urban Studies is an interdisciplinary investigation of our dynamic world of cities and their suburbs. From points of view ranging from the local to the global, students in this field examine cities as complex social groupings of people and institutions, as well as cultural landscapes of buildings, pathways, and public and private spaces. Urban Studies is concerned with what cities are and have been, as well as with ever-changing ideas about what cities could and should be. Urban Studies prepares students for careers in fields such as urban planning, architecture, public policy, and real-estate development, and it informs discussions of issues such as housing, transportation, urban renewal, segregation, sustainability, and suburban sprawl.",
   "courses": [
     {
+      "course_id": "URBAN-8-3UNIT",
       "course_code": "URBAN 8",
       "course_title": "INTRODUCTION TO URBAN STUDIES",
       "units": "3 UNITS",

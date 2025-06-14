@@ -3,6 +3,7 @@
   "program_description": "See also “Biological Sciences.”",
   "courses": [
     {
+      "course_id": "AQUA-1-3UNIT",
       "course_code": "AQUA 1",
       "course_title": "INTRODUCTION TO AQUACULTURE: HISTORY, ECOLOGY AND SUSTAINABILITY",
       "units": "3 UNITS",
@@ -44,6 +45,7 @@
       ]
     },
     {
+      "course_id": "AQUA-2-4UNIT",
       "course_code": "AQUA 2",
       "course_title": "APPLICATIONS IN AQUACULTURE – SYSTEM DESIGN, MONITORING AND MAINTENANCE",
       "units": "4 UNITS",
@@ -88,6 +90,7 @@
       ]
     },
     {
+      "course_id": "AQUA-3-4UNIT",
       "course_code": "AQUA 3",
       "course_title": "MICROBIOLOGY AND GENETICS FOR AQUACULTURE",
       "units": "4 UNITS",

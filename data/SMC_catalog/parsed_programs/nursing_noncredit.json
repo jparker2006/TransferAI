@@ -3,6 +3,7 @@
   "program_description": "The courses below are intended for students enrolled in the Santa Monica College nursing program.",
   "courses": [
     {
+      "course_id": "NURSNG-900-0UNIT",
       "course_code": "NURSNG 900",
       "course_title": "SUPERVISED TUTORING",
       "units": "0 UNITS",

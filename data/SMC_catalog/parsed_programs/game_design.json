@@ -3,6 +3,7 @@
   "program_description": "Students interested in independent studies or internships for the Game Design program may enroll in the Entertainment Technology (ET) 88 or 90 series of courses. Please speak with the Design Technology Department Chair or an Academic Counselor at the CMD for more information.",
   "courses": [
     {
+      "course_id": "GAME-1-3UNIT",
       "course_code": "GAME 1",
       "course_title": "GAME DESIGN FUNDAMENTALS",
       "units": "3 UNITS",
@@ -41,6 +42,7 @@
       ]
     },
     {
+      "course_id": "GAME-2-3UNIT",
       "course_code": "GAME 2",
       "course_title": "GAME MECHANICS",
       "units": "3 UNITS",

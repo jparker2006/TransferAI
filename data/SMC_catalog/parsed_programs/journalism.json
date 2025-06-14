@@ -3,6 +3,7 @@
   "program_description": "Journalism offers instructional and career technical training in reporting and nonfiction story production across multiple platforms, including print, photography, video, audio, social media and digital media. Students are trained to develop story ideas, report them, and produce them in suitable formats. Students also learn about news writing, interviewing, reporting, editing, freelancing, photojournalism, multimedia story production, journalism history, media law and journalism ethics. This program prepares students for transfer to upper division courses, as well as offers practical career technical training in the field of journalism. The skills developed in journalism classes help students think critically and develop storytelling techniques in any career they might pursue. Careers in this field include book editor, copywriter, film critic, foreign correspondent, freelance writing, online editor, multimedia story producer, journalist, magazine editor, news anchor, newspaper editor, publicist, sportswriter, and technical writer.",
   "courses": [
     {
+      "course_id": "JOURN-1-3UNIT",
       "course_code": "JOURN 1",
       "course_title": "THE NEWS",
       "units": "3 UNITS",
@@ -77,6 +78,7 @@
       ]
     },
     {
+      "course_id": "JOURN-4A-3UNIT",
       "course_code": "JOURN 4A",
       "course_title": "NEWSCASTING AND NEWSWRITING",
       "units": "3 UNITS",
@@ -123,6 +125,7 @@
       ]
     },
     {
+      "course_id": "JOURN-7-4UNIT",
       "course_code": "JOURN 7",
       "course_title": "ENGAGING AUDIENCES FOR JOURNALISM AND SOCIAL MEDIA",
       "units": "4 UNITS",
@@ -169,6 +172,7 @@
       ]
     },
     {
+      "course_id": "JOURN-15-3UNIT",
       "course_code": "JOURN 15",
       "course_title": "INTRODUCTION TO MULTIMEDIA STORYTELLING",
       "units": "3 UNITS",
@@ -224,6 +228,7 @@
       ]
     },
     {
+      "course_id": "JOURN-16-4UNIT",
       "course_code": "JOURN 16",
       "course_title": "PRODUCING THE CAMPUS NEWSPAPER",
       "units": "4 UNITS",
@@ -268,6 +273,7 @@
       ]
     },
     {
+      "course_id": "JOURN-17-2UNIT",
       "course_code": "JOURN 17",
       "course_title": "EDITING THE CAMPUS NEWSPAPER",
       "units": "2 UNITS",
@@ -312,6 +318,7 @@
       ]
     },
     {
+      "course_id": "JOURN-21-3UNIT",
       "course_code": "JOURN 21",
       "course_title": "NEWS PHOTOGRAPHY",
       "units": "3 UNITS",
@@ -353,6 +360,7 @@
       ]
     },
     {
+      "course_id": "JOURN-22-3UNIT",
       "course_code": "JOURN 22",
       "course_title": "PHOTOGRAPHY FOR PUBLICATION",
       "units": "3 UNITS",
@@ -400,6 +408,7 @@
       ]
     },
     {
+      "course_id": "JOURN-43-3UNIT",
       "course_code": "JOURN 43",
       "course_title": "PUBLIC RELATIONS AND PUBLICITY",
       "units": "3 UNITS",

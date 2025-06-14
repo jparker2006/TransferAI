@@ -3,6 +3,7 @@
   "program_description": "Pre-enrollment auditions are required for Theatre Arts production classes (Th Art 45, 50, 52, 53, 54, 55 and 56). Theatre Arts majors enroll in Theatre Arts 5. All sections require attendance of theatre productions for which students must purchase tickets.",
   "courses": [
     {
+      "course_id": "TH-ART-2-3UNIT",
       "course_code": "TH ART 2",
       "course_title": "INTRODUCTION TO THE THEATRE",
       "units": "3 UNITS",
@@ -82,6 +83,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-5-3UNIT",
       "course_code": "TH ART 5",
       "course_title": "HISTORY OF WORLD THEATRE",
       "units": "3 UNITS",
@@ -138,6 +140,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-10A-3UNIT",
       "course_code": "TH ART 10A",
       "course_title": "VOICE DEVELOPMENT FOR THE STAGE",
       "units": "3 UNITS",
@@ -177,6 +180,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-13-2UNIT",
       "course_code": "TH ART 13",
       "course_title": "STAGE DIALECTS",
       "units": "2 UNITS",
@@ -215,6 +219,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-14-2UNIT",
       "course_code": "TH ART 14",
       "course_title": "BEGINNING STAGE COMBAT",
       "units": "2 UNITS",
@@ -254,6 +259,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-15-1UNIT",
       "course_code": "TH ART 15",
       "course_title": "STAGE MOVEMENT FOR THE ACTOR",
       "units": "1 UNIT",
@@ -293,6 +299,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-16-2UNIT",
       "course_code": "TH ART 16",
       "course_title": "ADVANCED STAGE MOVEMENT FOR THE ACTOR",
       "units": "2 UNITS",
@@ -338,6 +345,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-18A-1UNIT-1",
       "course_code": "TH ART 18A",
       "course_title": "TECHNICAL THEATRE PRODUCTION WORKSHOP",
       "units": "1 UNIT",
@@ -377,6 +385,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-18B-2UNIT-1",
       "course_code": "TH ART 18B",
       "course_title": "TECHNICAL THEATRE PRODUCTION WORKSHOP",
       "units": "2 UNITS",
@@ -416,6 +425,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-18C-3UNIT-1",
       "course_code": "TH ART 18C",
       "course_title": "TECHNICAL THEATRE PRODUCTION WORKSHOP",
       "units": "3 UNITS",
@@ -455,6 +465,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-20-3UNIT",
       "course_code": "TH ART 20",
       "course_title": "STAGECRAFT",
       "units": "3 UNITS",
@@ -511,6 +522,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-21-3UNIT",
       "course_code": "TH ART 21",
       "course_title": "SCENIC PAINTING TECHNIQUES",
       "units": "3 UNITS",
@@ -556,6 +568,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-22-3UNIT",
       "course_code": "TH ART 22",
       "course_title": "STAGE LIGHTING",
       "units": "3 UNITS",
@@ -595,6 +608,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-23-3UNIT",
       "course_code": "TH ART 23",
       "course_title": "PROJECTION AND LIGHTING DESIGN",
       "units": "3 UNITS",
@@ -634,6 +648,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-25-3UNIT",
       "course_code": "TH ART 25",
       "course_title": "INTRODUCTION TO THEATRICAL SOUND",
       "units": "3 UNITS",
@@ -673,6 +688,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-26-3UNIT",
       "course_code": "TH ART 26",
       "course_title": "INTRODUCTION TO STAGE COSTUMING",
       "units": "3 UNITS",
@@ -718,6 +734,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-28A-2UNIT",
       "course_code": "TH ART 28A",
       "course_title": "BEGINNING STAGE MAKE-UP",
       "units": "2 UNITS",
@@ -763,6 +780,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-31-3UNIT",
       "course_code": "TH ART 31",
       "course_title": "INTRODUCTION TO STAGE MANAGEMENT",
       "units": "3 UNITS",
@@ -802,6 +820,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-41-3UNIT",
       "course_code": "TH ART 41",
       "course_title": "ACTING I",
       "units": "3 UNITS",
@@ -875,6 +894,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-42-3UNIT",
       "course_code": "TH ART 42",
       "course_title": "ACTING II",
       "units": "3 UNITS",
@@ -931,6 +951,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-45-3UNIT",
       "course_code": "TH ART 45",
       "course_title": "MUSICAL THEATRE WORKSHOP",
       "units": "3 UNITS",
@@ -978,6 +999,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-50-3UNIT",
       "course_code": "TH ART 50",
       "course_title": "ADVANCED PRODUCTION – FULL PLAY",
       "units": "3 UNITS",
@@ -1052,6 +1074,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-51-0.5UNIT",
       "course_code": "TH ART 51",
       "course_title": "STAGE MAKE-UP WORKSHOP",
       "units": "0.5 UNIT",
@@ -1108,6 +1131,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-55-3UNIT",
       "course_code": "TH ART 55",
       "course_title": "ADVANCED PRODUCTION – SMALL THEATRE VENUE",
       "units": "3 UNITS",
@@ -1146,6 +1170,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-88A-1UNIT-1",
       "course_code": "TH ART 88A",
       "course_title": "INDEPENDENT STUDIES IN THEATRE ARTS",
       "units": "1 UNIT",
@@ -1229,6 +1254,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-88B-2UNIT-1",
       "course_code": "TH ART 88B",
       "course_title": "INDEPENDENT STUDIES IN THEATRE ARTS",
       "units": "2 UNITS",
@@ -1265,6 +1291,7 @@
       ]
     },
     {
+      "course_id": "TH-ART-88C-3UNIT-1",
       "course_code": "TH ART 88C",
       "course_title": "INDEPENDENT STUDIES IN THEATRE ARTS",
       "units": "3 UNITS",

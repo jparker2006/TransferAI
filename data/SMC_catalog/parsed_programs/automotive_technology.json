@@ -3,6 +3,7 @@
   "program_description": "Provides students with hands-on training on vehicle technologies. Students apply basic diagnostic techniques, maintenance procedures, and repair skills to automotive, electrical, braking and suspension, and steering systems. Prepares students for essential positions in today’s automotive maintenance shop operations.",
   "courses": [
     {
+      "course_id": "AUTO-40-3UNIT",
       "course_code": "AUTO 40",
       "course_title": "AUTOMOTIVE MAINTENANCE AND OPERATION",
       "units": "3 UNITS",
@@ -40,6 +41,7 @@
       ]
     },
     {
+      "course_id": "AUTO-45-3UNIT",
       "course_code": "AUTO 45",
       "course_title": "AUTOMOTIVE BRAKING SYSTEMS",
       "units": "3 UNITS",

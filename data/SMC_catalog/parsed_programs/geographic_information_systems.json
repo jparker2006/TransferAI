@@ -3,6 +3,7 @@
   "program_description": "GIS is a computer system for capturing, storing, managing, analyzing and visualizing geospatial information related to locations on Earth’s surface. We use GIS to combine various geospatial information in a digital environment to answer the questions “what is there?” and “why there?” GIS has been widely used in our daily life, government agencies, as well as organizations of sizes in almost every industry. There is a growing interest in and awareness of the economic and strategic values of GIS.",
   "courses": [
     {
+      "course_id": "GIS-20-3UNIT",
       "course_code": "GIS 20",
       "course_title": "INTRODUCTION TO GEOGRAPHIC INFORMATION SYSTEMS",
       "units": "3 UNITS",
@@ -44,6 +45,7 @@
       ]
     },
     {
+      "course_id": "GIS-26-3UNIT",
       "course_code": "GIS 26",
       "course_title": "INTRODUCTION TO REMOTE SENSING",
       "units": "3 UNITS",

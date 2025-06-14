@@ -3,6 +3,7 @@
   "program_description": "See also Occupational Therapy, Respiratory Therapy, and Nursing. For Inhalation Therapy see Respiratory Therapy. RN Nurses who take Continuing Education courses at SMC use BRN provider #01050.",
   "courses": [
     {
+      "course_id": "HEALTH-61-3UNIT",
       "course_code": "HEALTH 61",
       "course_title": "MEDICAL TERMINOLOGY",
       "units": "3 UNITS",

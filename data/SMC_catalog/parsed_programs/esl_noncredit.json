@@ -3,6 +3,7 @@
   "program_description": "The following courses are noncredit and free. They do NOT carry academic credit.",
   "courses": [
     {
+      "course_id": "ESL-902-0UNIT",
       "course_code": "ESL 902",
       "course_title": "ENGLISH AS A SECOND LANGUAGE LEVEL 2",
       "units": "0 UNITS",
@@ -45,6 +46,7 @@
       ]
     },
     {
+      "course_id": "ESL-903-0UNIT",
       "course_code": "ESL 903",
       "course_title": "ENGLISH AS A SECOND LANGUAGE LEVEL 3",
       "units": "0 UNITS",
@@ -110,6 +112,7 @@
       ]
     },
     {
+      "course_id": "ESL-904-0UNIT",
       "course_code": "ESL 904",
       "course_title": "ENGLISH AS A SECOND LANGUAGE LEVEL 4",
       "units": "0 UNITS",
@@ -152,6 +155,7 @@
       ]
     },
     {
+      "course_id": "ESL-905-0UNIT",
       "course_code": "ESL 905",
       "course_title": "ENGLISH AS A SECOND LANGUAGE LEVEL 5",
       "units": "0 UNITS",
@@ -240,6 +244,7 @@
       ]
     },
     {
+      "course_id": "ESL-906-0UNIT",
       "course_code": "ESL 906",
       "course_title": "ENGLISH AS A SECOND LANGUAGE LEVEL 6",
       "units": "0 UNITS",
@@ -282,6 +287,7 @@
       ]
     },
     {
+      "course_id": "ESL-911-0UNIT",
       "course_code": "ESL 911",
       "course_title": "BEGINNING LISTENING AND SPEAKING",
       "units": "0 UNITS",
@@ -337,6 +343,7 @@
       ]
     },
     {
+      "course_id": "ESL-913-0UNIT",
       "course_code": "ESL 913",
       "course_title": "INTERMEDIATE LISTENING AND SPEAKING",
       "units": "0 UNITS",
@@ -456,6 +463,7 @@
       ]
     },
     {
+      "course_id": "ESL-915-0UNIT",
       "course_code": "ESL 915",
       "course_title": "ADVANCED LISTENING AND SPEAKING",
       "units": "0 UNITS",
@@ -552,6 +560,7 @@
       ]
     },
     {
+      "course_id": "ESL-922-0UNIT",
       "course_code": "ESL 922",
       "course_title": "CONVERSATION AND CULTURE IN THE U.S.",
       "units": "0 UNITS",
@@ -589,6 +598,7 @@
       ]
     },
     {
+      "course_id": "ESL-926-0UNIT",
       "course_code": "ESL 926",
       "course_title": "ADVANCED GRAMMAR WORKSHOP",
       "units": "0 UNITS",
@@ -627,6 +637,7 @@
       ]
     },
     {
+      "course_id": "ESL-961-0UNIT",
       "course_code": "ESL 961",
       "course_title": "BEGINNING READING AND WRITING",
       "units": "0 UNITS",
@@ -664,6 +675,7 @@
       ]
     },
     {
+      "course_id": "ESL-963-0UNIT",
       "course_code": "ESL 963",
       "course_title": "INTERMEDIATE READING AND WRITING",
       "units": "0 UNITS",
@@ -783,6 +795,7 @@
       ]
     },
     {
+      "course_id": "ESL-965-0UNIT",
       "course_code": "ESL 965",
       "course_title": "ADVANCED READING AND WRITING",
       "units": "0 UNITS",
@@ -861,6 +874,7 @@
       ]
     },
     {
+      "course_id": "ESL-971-0UNIT",
       "course_code": "ESL 971",
       "course_title": "BEGINNING ESL VOCABULARY",
       "units": "0 UNITS",
@@ -916,6 +930,7 @@
       ]
     },
     {
+      "course_id": "ESL-973-0UNIT",
       "course_code": "ESL 973",
       "course_title": "INTERMEDIATE ESL VOCABULARY",
       "units": "0 UNITS",
@@ -994,6 +1009,7 @@
       ]
     },
     {
+      "course_id": "ESL-975-0UNIT",
       "course_code": "ESL 975",
       "course_title": "ADVANCED ESL VOCABULARY",
       "units": "0 UNITS",
@@ -1072,6 +1088,7 @@
       ]
     },
     {
+      "course_id": "ESL-976-0UNIT",
       "course_code": "ESL 976",
       "course_title": "ACADEMIC VOCABULARY SKILLS",
       "units": "0 UNITS",
@@ -1110,6 +1127,7 @@
       ]
     },
     {
+      "course_id": "ESL-980-0UNIT",
       "course_code": "ESL 980",
       "course_title": "ESL US CITIZENSHIP TEST PREPARATION",
       "units": "0 UNITS",
@@ -1152,6 +1170,7 @@
       ]
     },
     {
+      "course_id": "ESL-994-0UNIT",
       "course_code": "ESL 994",
       "course_title": "ESL FOR COLLEGE AND CAREER PATHWAYS – INTRODUCTION",
       "units": "0 UNITS",
@@ -1212,6 +1231,7 @@
       ]
     },
     {
+      "course_id": "ESL-995-0UNIT",
       "course_code": "ESL 995",
       "course_title": "ESL FOR COLLEGE AND CAREER PATHWAYS – EFFECTIVE COMMUNICATION",
       "units": "0 UNITS",

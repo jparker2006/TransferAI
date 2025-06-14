@@ -3,6 +3,7 @@
   "program_description": "See also “Professional Courses in Kinesiology/Physical Education” (PRO CR) and “Varsity Intercollegiate Athletics” (VAR/PE). The Kinesiology / Physical Education curriculum is grouped together in the following manner: - General Studies - Aquatics - Combatives - Fitness - Individual Sports - Team Sports",
   "courses": [
     {
+      "course_id": "KIN-PE-3-3UNIT",
       "course_code": "KIN PE 3",
       "course_title": "INTRODUCTION TO EXERCISE PHYSIOLOGY I",
       "units": "3 UNITS",
@@ -44,6 +45,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-4-3UNIT",
       "course_code": "KIN PE 4",
       "course_title": "INTRODUCTION TO SPORT PSYCHOLOGY",
       "units": "3 UNITS",

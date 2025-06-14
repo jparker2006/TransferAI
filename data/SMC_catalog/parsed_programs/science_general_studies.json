@@ -3,6 +3,7 @@
   "program_description": "For other science courses please see specific disciplines such as chemistry, anatomy, biology, etc.",
   "courses": [
     {
+      "course_id": "SCI-10-2UNIT",
       "course_code": "SCI 10",
       "course_title": "PRINCIPLES AND PRACTICE OF SCIENTIFIC RESEARCH",
       "units": "2 UNITS",

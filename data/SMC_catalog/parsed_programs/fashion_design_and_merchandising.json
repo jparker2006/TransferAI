@@ -3,6 +3,7 @@
   "program_description": "Fashion design students develop skills in design communication, including preliminary sketching, technical flat sketching, illustration, and usage of Adobe Photoshop, Illustrator and CAD software. Skills in draping, pattern drafting from draping and body measurements, and basic sewing skills to advanced construction are developed in order to create sample garments for production and sales. Fashion merchandisers select, purchase, promote, and sell clothing and accessories. They study fashion trends and visit manufacturers and merchandise markets. They work as part of a team and consult with managers and buyers, advise the advertising and display departments, and organize and coordinate promotional activities such as fashion shows. They may advance to become buyers and purchasing agents, sales representatives, and managers. Clothes designers create new apparel and accessory designs. They may sketch the garment, cut the pattern, select the fabric and materials, and in some cases construct the sample garment. They may arrange for the showing of a line at sales meetings or fashion shows.",
   "courses": [
     {
+      "course_id": "FASHN-1-3UNIT",
       "course_code": "FASHN 1",
       "course_title": "INTRODUCTION TO THE FASHION INDUSTRY",
       "units": "3 UNITS",
@@ -92,6 +93,7 @@
       ]
     },
     {
+      "course_id": "FASHN-2-3UNIT",
       "course_code": "FASHN 2",
       "course_title": "COLOR ANALYSIS",
       "units": "3 UNITS",
@@ -147,6 +149,7 @@
       ]
     },
     {
+      "course_id": "FASHN-3-3UNIT",
       "course_code": "FASHN 3",
       "course_title": "APPAREL CONSTRUCTION",
       "units": "3 UNITS",
@@ -242,6 +245,7 @@
       ]
     },
     {
+      "course_id": "FASHN-5-3UNIT",
       "course_code": "FASHN 5",
       "course_title": "FASHION BUYING",
       "units": "3 UNITS",
@@ -297,6 +301,7 @@
       ]
     },
     {
+      "course_id": "FASHN-6A-2UNIT",
       "course_code": "FASHN 6A",
       "course_title": "PATTERN DRAFTING AND DESIGN",
       "units": "2 UNITS",
@@ -352,6 +357,7 @@
       ]
     },
     {
+      "course_id": "FASHN-6B-3UNIT",
       "course_code": "FASHN 6B",
       "course_title": "PATTERN DRAFTING AND DESIGN INTERMEDIATE",
       "units": "3 UNITS",
@@ -390,6 +396,7 @@
       ]
     },
     {
+      "course_id": "FASHN-7-3UNIT",
       "course_code": "FASHN 7",
       "course_title": "FASHION TEXTILES",
       "units": "3 UNITS",
@@ -446,6 +453,7 @@
       ]
     },
     {
+      "course_id": "FASHN-8-3UNIT",
       "course_code": "FASHN 8",
       "course_title": "HISTORY OF FASHION DESIGN",
       "units": "3 UNITS",
@@ -484,6 +492,7 @@
       ]
     },
     {
+      "course_id": "FASHN-9A-3UNIT",
       "course_code": "FASHN 9A",
       "course_title": "INTRODUCTION TO FASHION ILLUSTRATION",
       "units": "3 UNITS",
@@ -522,6 +531,7 @@
       ]
     },
     {
+      "course_id": "FASHN-10-3UNIT",
       "course_code": "FASHN 10",
       "course_title": "ADVANCED DESIGN AND CONSTRUCTION",
       "units": "3 UNITS",
@@ -560,6 +570,7 @@
       ]
     },
     {
+      "course_id": "FASHN-14-3UNIT",
       "course_code": "FASHN 14",
       "course_title": "DRAPING II",
       "units": "3 UNITS",
@@ -598,6 +609,7 @@
       ]
     },
     {
+      "course_id": "FASHN-15-3UNIT",
       "course_code": "FASHN 15",
       "course_title": "ETHNIC FASHION",
       "units": "3 UNITS",
@@ -636,6 +648,7 @@
       ]
     },
     {
+      "course_id": "FASHN-16-2UNIT",
       "course_code": "FASHN 16",
       "course_title": "PATTERN GRADING",
       "units": "2 UNITS",
@@ -674,6 +687,7 @@
       ]
     },
     {
+      "course_id": "FASHN-18-2UNIT",
       "course_code": "FASHN 18",
       "course_title": "COMPUTER AIDED FASHION DESIGN AND MERCHANDISING",
       "units": "2 UNITS",
@@ -712,6 +726,7 @@
       ]
     },
     {
+      "course_id": "FASHN-20-3UNIT",
       "course_code": "FASHN 20",
       "course_title": "FASHION STYLING AND VISUAL PRESENTATION",
       "units": "3 UNITS",

@@ -3,6 +3,7 @@
   "program_description": "The Environmental Studies Program is an interdisciplinary and multidisciplinary course of study that presents a broad overview of ecological issues from a variety of perspectives. The coursework examines the interplay between natural and social systems, and the ideological foundations of humankind’s attitudes and behaviors with respect to their ever-changing environments. This program is designed to prepare students to research, analyze, and propose solutions to the myriad environmental challenges facing the world today.",
   "courses": [
     {
+      "course_id": "ENVRN-4-3UNIT",
       "course_code": "ENVRN 4",
       "course_title": "ENVIRONMENTAL ECONOMICS",
       "units": "3 UNITS",
@@ -45,6 +46,7 @@
       ]
     },
     {
+      "course_id": "ENVRN-7-3UNIT",
       "course_code": "ENVRN 7",
       "course_title": "INTRODUCTION TO ENVIRONMENTAL STUDIES",
       "units": "3 UNITS",
@@ -93,6 +95,7 @@
       ]
     },
     {
+      "course_id": "ENVRN-14-3UNIT",
       "course_code": "ENVRN 14",
       "course_title": "U.S. ENVIRONMENTAL HISTORY",
       "units": "3 UNITS",
@@ -135,6 +138,7 @@
       ]
     },
     {
+      "course_id": "ENVRN-32-3UNIT",
       "course_code": "ENVRN 32",
       "course_title": "GLOBAL ENVIRONMENTAL HISTORY",
       "units": "3 UNITS",
@@ -177,6 +181,7 @@
       ]
     },
     {
+      "course_id": "ENVRN-40-3UNIT",
       "course_code": "ENVRN 40",
       "course_title": "ENVIRONMENTAL PSYCHOLOGY",
       "units": "3 UNITS",

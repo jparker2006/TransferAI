@@ -3,6 +3,7 @@
   "program_description": "Students prepare for careers in local, state and federal law enforcement; security; and courtroom operations. Our courses familiarize students with the American justice system, crime causes, the role of administration of justice practitioners, the role of law enforcement, evidence procedures, juvenile procedures, and criminal law. Students apply principles of the justice system; constitutional and procedural considerations affecting an arrest, and search and seizure; human relations; and concepts of criminal law.",
   "courses": [
     {
+      "course_id": "AD-JUS-1-3UNIT",
       "course_code": "AD JUS 1",
       "course_title": "INTRODUCTION TO ADMINISTRATION OF JUSTICE",
       "units": "3 UNITS",
@@ -76,6 +77,7 @@
       ]
     },
     {
+      "course_id": "AD-JUS-2-3UNIT",
       "course_code": "AD JUS 2",
       "course_title": "CONCEPTS OF CRIMINAL LAW",
       "units": "3 UNITS",
@@ -132,6 +134,7 @@
       ]
     },
     {
+      "course_id": "AD-JUS-3-3UNIT",
       "course_code": "AD JUS 3",
       "course_title": "LEGAL ASPECTS OF EVIDENCE",
       "units": "3 UNITS",
@@ -170,6 +173,7 @@
       ]
     },
     {
+      "course_id": "AD-JUS-5-3UNIT",
       "course_code": "AD JUS 5",
       "course_title": "CRIMINAL INVESTIGATION",
       "units": "3 UNITS",
@@ -208,6 +212,7 @@
       ]
     },
     {
+      "course_id": "AD-JUS-8-3UNIT",
       "course_code": "AD JUS 8",
       "course_title": "JUVENILE PROCEDURES",
       "units": "3 UNITS",
@@ -246,6 +251,7 @@
       ]
     },
     {
+      "course_id": "AD-JUS-11-3UNIT",
       "course_code": "AD JUS 11",
       "course_title": "INTRODUCTION TO FORENSICS",
       "units": "3 UNITS",
@@ -284,6 +290,7 @@
       ]
     },
     {
+      "course_id": "AD-JUS-67-3UNIT",
       "course_code": "AD JUS 67",
       "course_title": "COMMUNITY AND THE JUSTICE SYSTEM",
       "units": "3 UNITS",

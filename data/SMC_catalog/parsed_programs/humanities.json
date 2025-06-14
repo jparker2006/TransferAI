@@ -3,6 +3,7 @@
   "program_description": "",
   "courses": [
     {
+      "course_id": "HUM-26-3UNIT",
       "course_code": "HUM 26",
       "course_title": "INTRODUCTION TO THE HUMANITIES",
       "units": "3 UNITS",

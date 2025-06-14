@@ -3,6 +3,7 @@
   "program_description": "",
   "courses": [
     {
+      "course_id": "BCYCLE-901-0UNIT",
       "course_code": "BCYCLE 901",
       "course_title": "BICYCLE MAINTENANCE LEVEL 1",
       "units": "0 UNITS",
@@ -39,6 +40,7 @@
       ]
     },
     {
+      "course_id": "BCYCLE-902-0UNIT",
       "course_code": "BCYCLE 902",
       "course_title": "BICYCLE MAINTENANCE LEVEL 2",
       "units": "0 UNITS",

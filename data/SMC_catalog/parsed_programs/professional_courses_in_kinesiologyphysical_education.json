@@ -3,6 +3,7 @@
   "program_description": "See also “Kinesiology/Physical Education” (KIN/PE) and “Varsity Intercollegiate Athletics” (VAR/PE).",
   "courses": [
     {
+      "course_id": "PRO-CR-6A-3UNIT",
       "course_code": "PRO CR 6A",
       "course_title": "COACHING OF FOOTBALL",
       "units": "3 UNITS",
@@ -44,6 +45,7 @@
       ]
     },
     {
+      "course_id": "PRO-CR-10-3UNIT",
       "course_code": "PRO CR 10",
       "course_title": "INTRODUCTION TO KINESIOLOGY",
       "units": "3 UNITS",
@@ -117,6 +119,7 @@
       ]
     },
     {
+      "course_id": "PRO-CR-11-3UNIT",
       "course_code": "PRO CR 11",
       "course_title": "INTRODUCTION TO SPORTS INJURIES",
       "units": "3 UNITS",
@@ -156,6 +159,7 @@
       ]
     },
     {
+      "course_id": "PRO-CR-12-3UNIT",
       "course_code": "PRO CR 12",
       "course_title": "EMERGENCY CARE AND WATER SAFETY",
       "units": "3 UNITS",
@@ -195,6 +199,7 @@
       ]
     },
     {
+      "course_id": "PRO-CR-15-3UNIT",
       "course_code": "PRO CR 15",
       "course_title": "SPORTS MANAGEMENT",
       "units": "3 UNITS",
@@ -233,6 +238,7 @@
       ]
     },
     {
+      "course_id": "PRO-CR-19-2UNIT",
       "course_code": "PRO CR 19",
       "course_title": "FIELD EXPERIENCE",
       "units": "2 UNITS",
@@ -272,6 +278,7 @@
       ]
     },
     {
+      "course_id": "PRO-CR-25-3UNIT",
       "course_code": "PRO CR 25",
       "course_title": "PERSONAL TRAINER PREPARATION",
       "units": "3 UNITS",

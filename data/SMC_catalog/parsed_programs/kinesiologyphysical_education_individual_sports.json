@@ -3,6 +3,7 @@
   "program_description": "See also “Professional Courses in Kinesiology/Physical Education” (PRO CR) and “Varsity Intercollegiate Athletics” (VAR/PE). *Maximum UC transfer credit for any or all KIN PE courses combined is four units unless otherwise noted.",
   "courses": [
     {
+      "course_id": "KIN-PE-5A-1UNIT",
       "course_code": "KIN PE 5A",
       "course_title": "BEGINNING BADMINTON",
       "units": "1 UNIT",
@@ -42,6 +43,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-5B-1UNIT",
       "course_code": "KIN PE 5B",
       "course_title": "INTERMEDIATE BADMINTON",
       "units": "1 UNIT",
@@ -81,6 +83,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-16A-1UNIT",
       "course_code": "KIN PE 16A",
       "course_title": "BEGINNING ROCK CLIMBING",
       "units": "1 UNIT",
@@ -137,6 +140,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-16B-1UNIT",
       "course_code": "KIN PE 16B",
       "course_title": "INTERMEDIATE ROCK CLIMBING",
       "units": "1 UNIT",
@@ -176,6 +180,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-52A-1UNIT",
       "course_code": "KIN PE 52A",
       "course_title": "BEGINNING PICKLEBALL",
       "units": "1 UNIT",
@@ -215,6 +220,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-52B-1UNIT",
       "course_code": "KIN PE 52B",
       "course_title": "INTERMEDIATE PICKLEBALL",
       "units": "1 UNIT",
@@ -254,6 +260,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-53A-1UNIT",
       "course_code": "KIN PE 53A",
       "course_title": "TABLE TENNIS",
       "units": "1 UNIT",
@@ -293,6 +300,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-53B-1UNIT",
       "course_code": "KIN PE 53B",
       "course_title": "INTERMEDIATE TABLE TENNIS",
       "units": "1 UNIT",
@@ -332,6 +340,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-54A-1UNIT",
       "course_code": "KIN PE 54A",
       "course_title": "BEGINNING TENNIS, FIRST LEVEL",
       "units": "1 UNIT",
@@ -371,6 +380,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-54B-1UNIT",
       "course_code": "KIN PE 54B",
       "course_title": "BEGINNING TENNIS, SECOND LEVEL",
       "units": "1 UNIT",
@@ -427,6 +437,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-54C-1UNIT",
       "course_code": "KIN PE 54C",
       "course_title": "INTERMEDIATE TENNIS",
       "units": "1 UNIT",
@@ -483,6 +494,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-54D-1UNIT",
       "course_code": "KIN PE 54D",
       "course_title": "ADVANCED TENNIS",
       "units": "1 UNIT",
@@ -522,6 +534,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-56A-1UNIT",
       "course_code": "KIN PE 56A",
       "course_title": "BEGINNING TRACK AND FIELD",
       "units": "1 UNIT",
@@ -561,6 +574,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-56B-1UNIT",
       "course_code": "KIN PE 56B",
       "course_title": "INTERMEDIATE TRACK AND FIELD",
       "units": "1 UNIT",

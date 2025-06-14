@@ -3,6 +3,7 @@
   "program_description": "The study of computer science leads to a variety of careers that require core skills such as programming, and data structures. In today’s world, cloud computing, security, and web development are key areas of interest in all industries. Additional areas of study include computer architecture, databases and networks. Computer science careers titles include programmer, software developer, systems analyst, database administrator, systems administrator among many others. Keyboarding skills of 25 words per minute or enrollment in OFTECH 1A or 9A are recommended for computer programming classes.",
   "courses": [
     {
+      "course_id": "CS-3-3UNIT",
       "course_code": "CS 3",
       "course_title": "INTRODUCTION TO COMPUTER SYSTEMS",
       "units": "3 UNITS",
@@ -178,6 +179,7 @@
       ]
     },
     {
+      "course_id": "CS-7-3UNIT",
       "course_code": "CS 7",
       "course_title": "PROGRAMMING FOR NON-COMPUTER SCIENCE MAJORS",
       "units": "3 UNITS",
@@ -216,6 +218,7 @@
       ]
     },
     {
+      "course_id": "CS-9A-3UNIT",
       "course_code": "CS 9A",
       "course_title": "TECHNOLOGY PROJECT MANAGEMENT I",
       "units": "3 UNITS",
@@ -256,6 +259,7 @@
       ]
     },
     {
+      "course_id": "CS-9B-3UNIT",
       "course_code": "CS 9B",
       "course_title": "TECHNOLOGY PROJECT MANAGEMENT II",
       "units": "3 UNITS",
@@ -296,6 +300,7 @@
       ]
     },
     {
+      "course_id": "CS-17-3UNIT",
       "course_code": "CS 17",
       "course_title": "ASSEMBLY LANGUAGE PROGRAMMING",
       "units": "3 UNITS",
@@ -369,6 +374,7 @@
       ]
     },
     {
+      "course_id": "CS-20A-3UNIT",
       "course_code": "CS 20A",
       "course_title": "DATA STRUCTURES WITH C++",
       "units": "3 UNITS",
@@ -459,6 +465,7 @@
       ]
     },
     {
+      "course_id": "CS-20B-3UNIT",
       "course_code": "CS 20B",
       "course_title": "DATA STRUCTURES WITH JAVA",
       "units": "3 UNITS",
@@ -515,6 +522,7 @@
       ]
     },
     {
+      "course_id": "CS-30-3UNIT",
       "course_code": "CS 30",
       "course_title": "MATLAB PROGRAMMING",
       "units": "3 UNITS",
@@ -554,6 +562,7 @@
       ]
     },
     {
+      "course_id": "CS-40-3UNIT",
       "course_code": "CS 40",
       "course_title": "OPERATING SYSTEMS",
       "units": "3 UNITS",
@@ -593,6 +602,7 @@
       ]
     },
     {
+      "course_id": "CS-42-3UNIT",
       "course_code": "CS 42",
       "course_title": "DIGITAL LOGIC",
       "units": "3 UNITS",
@@ -684,6 +694,7 @@
       ]
     },
     {
+      "course_id": "CS-50-3UNIT",
       "course_code": "CS 50",
       "course_title": "C PROGRAMMING",
       "units": "3 UNITS",
@@ -797,6 +808,7 @@
       ]
     },
     {
+      "course_id": "CS-52-3UNIT",
       "course_code": "CS 52",
       "course_title": "C++ PROGRAMMING",
       "units": "3 UNITS",
@@ -905,6 +917,7 @@
       ]
     },
     {
+      "course_id": "CS-55-3UNIT",
       "course_code": "CS 55",
       "course_title": "JAVA PROGRAMMING",
       "units": "3 UNITS",
@@ -961,6 +974,7 @@
       ]
     },
     {
+      "course_id": "CS-56-3UNIT",
       "course_code": "CS 56",
       "course_title": "ADVANCED JAVA PROGRAMMING",
       "units": "3 UNITS",
@@ -1000,6 +1014,7 @@
       ]
     },
     {
+      "course_id": "CS-60-3UNIT",
       "course_code": "CS 60",
       "course_title": "DATABASE CONCEPTS AND APPLICATIONS",
       "units": "3 UNITS",
@@ -1055,6 +1070,7 @@
       ]
     },
     {
+      "course_id": "CS-70-3UNIT",
       "course_code": "CS 70",
       "course_title": "NETWORK FUNDAMENTALS AND ARCHITECTURE",
       "units": "3 UNITS",
@@ -1093,6 +1109,7 @@
       ]
     },
     {
+      "course_id": "CS-73A-3UNIT",
       "course_code": "CS 73A",
       "course_title": "FUNDAMENTALS OF COMPUTER SECURITY",
       "units": "3 UNITS",
@@ -1131,6 +1148,7 @@
       ]
     },
     {
+      "course_id": "CS-73B-3UNIT",
       "course_code": "CS 73B",
       "course_title": "COMPUTER FORENSICS FUNDAMENTALS",
       "units": "3 UNITS",
@@ -1169,6 +1187,7 @@
       ]
     },
     {
+      "course_id": "CS-73C-3UNIT",
       "course_code": "CS 73C",
       "course_title": "CYBERSECURITY AND ETHICAL HACKING",
       "units": "3 UNITS",
@@ -1207,6 +1226,7 @@
       ]
     },
     {
+      "course_id": "CS-73L-3UNIT",
       "course_code": "CS 73L",
       "course_title": "CYBERSECURITY LITERACY",
       "units": "3 UNITS",
@@ -1245,6 +1265,7 @@
       ]
     },
     {
+      "course_id": "CS-79A-3UNIT",
       "course_code": "CS 79A",
       "course_title": "INTRODUCTION TO CLOUD COMPUTING",
       "units": "3 UNITS",
@@ -1306,6 +1327,7 @@
       ]
     },
     {
+      "course_id": "CS-79B-3UNIT",
       "course_code": "CS 79B",
       "course_title": "DATABASE ESSENTIALS IN AMAZON WEB SERVICES",
       "units": "3 UNITS",
@@ -1344,6 +1366,7 @@
       ]
     },
     {
+      "course_id": "CS-79C-3UNIT",
       "course_code": "CS 79C",
       "course_title": "COMPUTE ENGINES IN AMAZON WEB SERVICES",
       "units": "3 UNITS",
@@ -1382,6 +1405,7 @@
       ]
     },
     {
+      "course_id": "CS-79D-3UNIT",
       "course_code": "CS 79D",
       "course_title": "SECURITY IN AMAZON WEB SERVICES",
       "units": "3 UNITS",
@@ -1420,6 +1444,7 @@
       ]
     },
     {
+      "course_id": "CS-79F-3UNIT",
       "course_code": "CS 79F",
       "course_title": "MACHINE LEARNING ON AWS",
       "units": "3 UNITS",
@@ -1458,6 +1483,7 @@
       ]
     },
     {
+      "course_id": "CS-80-3UNIT",
       "course_code": "CS 80",
       "course_title": "INTERNET PROGRAMMING",
       "units": "3 UNITS",
@@ -1496,6 +1522,7 @@
       ]
     },
     {
+      "course_id": "CS-81-3UNIT",
       "course_code": "CS 81",
       "course_title": "JAVASCRIPT PROGRAMMING",
       "units": "3 UNITS",
@@ -1534,6 +1561,7 @@
       ]
     },
     {
+      "course_id": "CS-82A-3UNIT",
       "course_code": "CS 82A",
       "course_title": "INTRODUCTION TO DATA SCIENCE",
       "units": "3 UNITS",
@@ -1590,6 +1618,7 @@
       ]
     },
     {
+      "course_id": "CS-82B-3UNIT",
       "course_code": "CS 82B",
       "course_title": "PRINCIPLES OF DATA SCIENCE",
       "units": "3 UNITS",
@@ -1629,6 +1658,7 @@
       ]
     },
     {
+      "course_id": "CS-82C-3UNIT",
       "course_code": "CS 82C",
       "course_title": "R PROGRAMMING",
       "units": "3 UNITS",
@@ -1668,6 +1698,7 @@
       ]
     },
     {
+      "course_id": "CS-87A-3UNIT",
       "course_code": "CS 87A",
       "course_title": "PYTHON PROGRAMMING",
       "units": "3 UNITS",
@@ -1758,6 +1789,7 @@
       ]
     },
     {
+      "course_id": "CS-87B-3UNIT",
       "course_code": "CS 87B",
       "course_title": "ADVANCED PYTHON PROGRAMMING",
       "units": "3 UNITS",

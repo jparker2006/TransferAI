@@ -3,6 +3,7 @@
   "program_description": "Formerly listed as Human Development. The Counseling Department offers courses which assist students with student success strategies, learning and study skills, AA degree and transfer planning, career development and internships, conflict resolution skills and behavior management. Disabled Student Services offers several such courses and more which provide specialized information for disability-related concerns. Students may apply a maximum of 4 units of Counseling courses to the AA degree. The following courses are exempt from this unit limitation: Counseling 12, 20 and 30.",
   "courses": [
     {
+      "course_id": "COUNS-1-1UNIT",
       "course_code": "COUNS 1",
       "course_title": "DEVELOPING LEARNING SKILLS",
       "units": "1 UNIT",
@@ -56,6 +57,7 @@
       ]
     },
     {
+      "course_id": "COUNS-11-1UNIT",
       "course_code": "COUNS 11",
       "course_title": "ORIENTATION TO HIGHER EDUCATION",
       "units": "1 UNIT",
@@ -196,6 +198,7 @@
       ]
     },
     {
+      "course_id": "COUNS-12-1UNIT",
       "course_code": "COUNS 12",
       "course_title": "EXPLORING CAREERS AND COLLEGE MAJORS",
       "units": "1 UNIT",
@@ -544,6 +547,7 @@
       ]
     },
     {
+      "course_id": "COUNS-15-1UNIT",
       "course_code": "COUNS 15",
       "course_title": "JOB SEARCH TECHNIQUES",
       "units": "1 UNIT",
@@ -599,6 +603,7 @@
       ]
     },
     {
+      "course_id": "COUNS-20-3UNIT",
       "course_code": "COUNS 20",
       "course_title": "STUDENT SUCCESS SEMINAR",
       "units": "3 UNITS",
@@ -1316,6 +1321,7 @@
       ]
     },
     {
+      "course_id": "COUNS-47-1UNIT",
       "course_code": "COUNS 47",
       "course_title": "UNDERSTANDING MONEY FOR LIFELONG SUCCESS",
       "units": "1 UNIT",
@@ -1407,6 +1413,7 @@
       ]
     },
     {
+      "course_id": "COUNS-90A-1UNIT",
       "course_code": "COUNS 90A",
       "course_title": "GENERAL INTERNSHIP",
       "units": "1 UNIT",
@@ -1445,6 +1452,7 @@
       ]
     },
     {
+      "course_id": "COUNS-90B-2UNIT",
       "course_code": "COUNS 90B",
       "course_title": "GENERAL INTERNSHIP",
       "units": "2 UNITS",
@@ -1483,6 +1491,7 @@
       ]
     },
     {
+      "course_id": "COUNS-90C-3UNIT",
       "course_code": "COUNS 90C",
       "course_title": "GENERAL INTERNSHIP",
       "units": "3 UNITS",
@@ -1521,6 +1530,7 @@
       ]
     },
     {
+      "course_id": "COUNS-90D-4UNIT",
       "course_code": "COUNS 90D",
       "course_title": "GENERAL INTERNSHIP",
       "units": "4 UNITS",

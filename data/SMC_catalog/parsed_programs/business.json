@@ -3,6 +3,7 @@
   "program_description": "Business Managers coordinate business activities in both private industry and public agencies. They are responsible for operations, maintenance, purchasing, planning, organizing, budgeting, and directing the work of the employees. Business executives are the higher-level management staff, directing the activities of the firm. They develop and administer policies to maximize profits. They also direct financial programs and develop policies aimed at maintaining good relations with the public, stockholders, employees, and customers.",
   "courses": [
     {
+      "course_id": "BUS-1-3UNIT",
       "course_code": "BUS 1",
       "course_title": "INTRODUCTION TO BUSINESS",
       "units": "3 UNITS",
@@ -292,6 +293,7 @@
       ]
     },
     {
+      "course_id": "BUS-5-3UNIT",
       "course_code": "BUS 5",
       "course_title": "BUSINESS LAW AND THE LEGAL ENVIRONMENT",
       "units": "3 UNITS",
@@ -543,6 +545,7 @@
       ]
     },
     {
+      "course_id": "BUS-6-3UNIT",
       "course_code": "BUS 6",
       "course_title": "ADVANCED BUSINESS LAW",
       "units": "3 UNITS",
@@ -584,6 +587,7 @@
       ]
     },
     {
+      "course_id": "BUS-7B-3UNIT",
       "course_code": "BUS 7B",
       "course_title": "SUSTAINABILITY REPORTING IN BUSINESS",
       "units": "3 UNITS",
@@ -622,6 +626,7 @@
       ]
     },
     {
+      "course_id": "BUS-7C-3UNIT",
       "course_code": "BUS 7C",
       "course_title": "CORPORATE SUSTAINABILITY STRATEGIES IN BUSINESS",
       "units": "3 UNITS",
@@ -660,6 +665,7 @@
       ]
     },
     {
+      "course_id": "BUS-7D-3UNIT",
       "course_code": "BUS 7D",
       "course_title": "BUSINESS STRATEGIES AND SOCIAL SUSTAINABILITY",
       "units": "3 UNITS",
@@ -698,6 +704,7 @@
       ]
     },
     {
+      "course_id": "BUS-8-3UNIT",
       "course_code": "BUS 8",
       "course_title": "LAW FOR THE ENTREPRENEUR",
       "units": "3 UNITS",
@@ -742,6 +749,7 @@
       ]
     },
     {
+      "course_id": "BUS-86-3UNIT",
       "course_code": "BUS 86",
       "course_title": "EARNED VALUE MANAGEMENT SYSTEMS",
       "units": "3 UNITS",
@@ -786,6 +794,7 @@
       ]
     },
     {
+      "course_id": "BUS-9-3UNIT",
       "course_code": "BUS 9",
       "course_title": "INTELLECTUAL PROPERTY FOR THE ENTREPRENEUR",
       "units": "3 UNITS",
@@ -830,6 +839,7 @@
       ]
     },
     {
+      "course_id": "BUS-11-3UNIT",
       "course_code": "BUS 11",
       "course_title": "INTRODUCTION TO THE HOSPITALITY INDUSTRY",
       "units": "3 UNITS",
@@ -868,6 +878,7 @@
       ]
     },
     {
+      "course_id": "BUS-16-3UNIT",
       "course_code": "BUS 16",
       "course_title": "PERSONAL INSURANCE",
       "units": "3 UNITS",
@@ -906,6 +917,7 @@
       ]
     },
     {
+      "course_id": "BUS-17-3UNIT",
       "course_code": "BUS 17",
       "course_title": "PROPERTY AND LIABILITY INSURANCE",
       "units": "3 UNITS",
@@ -944,6 +956,7 @@
       ]
     },
     {
+      "course_id": "BUS-20-3UNIT",
       "course_code": "BUS 20",
       "course_title": "PRINCIPLES OF MARKETING",
       "units": "3 UNITS",
@@ -1022,6 +1035,7 @@
       ]
     },
     {
+      "course_id": "BUS-21-3UNIT",
       "course_code": "BUS 21",
       "course_title": "MERCHANDISING PRINCIPLES",
       "units": "3 UNITS",
@@ -1060,6 +1074,7 @@
       ]
     },
     {
+      "course_id": "BUS-22-3UNIT",
       "course_code": "BUS 22",
       "course_title": "INTRODUCTION TO ADVERTISING",
       "units": "3 UNITS",
@@ -1098,6 +1113,7 @@
       ]
     },
     {
+      "course_id": "BUS-23-3UNIT",
       "course_code": "BUS 23",
       "course_title": "PRINCIPLES OF SELLING",
       "units": "3 UNITS",
@@ -1165,6 +1181,7 @@
       ]
     },
     {
+      "course_id": "BUS-26-3UNIT",
       "course_code": "BUS 26",
       "course_title": "MARKETING RESEARCH AND CONSUMER BEHAVIOR",
       "units": "3 UNITS",
@@ -1203,6 +1220,7 @@
       ]
     },
     {
+      "course_id": "BUS-27-3UNIT",
       "course_code": "BUS 27",
       "course_title": "INTRODUCTION TO E-COMMERCE",
       "units": "3 UNITS",
@@ -1241,6 +1259,7 @@
       ]
     },
     {
+      "course_id": "BUS-28-3UNIT",
       "course_code": "BUS 28",
       "course_title": "MARKETING PROMOTION",
       "units": "3 UNITS",
@@ -1296,6 +1315,7 @@
       ]
     },
     {
+      "course_id": "BUS-29-3UNIT",
       "course_code": "BUS 29",
       "course_title": "PUBLIC RELATIONS AND PUBLICITY",
       "units": "3 UNITS",
@@ -1337,6 +1357,7 @@
       ]
     },
     {
+      "course_id": "BUS-31-3UNIT",
       "course_code": "BUS 31",
       "course_title": "BUSINESS ENGLISH FUNDAMENTALS",
       "units": "3 UNITS",
@@ -1375,6 +1396,7 @@
       ]
     },
     {
+      "course_id": "BUS-32-3UNIT",
       "course_code": "BUS 32",
       "course_title": "BUSINESS COMMUNICATIONS",
       "units": "3 UNITS",
@@ -1515,6 +1537,7 @@
       ]
     },
     {
+      "course_id": "BUS-33-3UNIT",
       "course_code": "BUS 33",
       "course_title": "BROADCAST ADVERTISING",
       "units": "3 UNITS",
@@ -1555,6 +1578,7 @@
       ]
     },
     {
+      "course_id": "BUS-34A-3UNIT",
       "course_code": "BUS 34A",
       "course_title": "INTRODUCTION TO DIGITAL MARKETING",
       "units": "3 UNITS",
@@ -1633,6 +1657,7 @@
       ]
     },
     {
+      "course_id": "BUS-34B-3UNIT",
       "course_code": "BUS 34B",
       "course_title": "DIGITAL MARKETING APPLICATIONS",
       "units": "3 UNITS",
@@ -1671,6 +1696,7 @@
       ]
     },
     {
+      "course_id": "BUS-34C-3UNIT",
       "course_code": "BUS 34C",
       "course_title": "DIGITAL MARKETING ANALYTICS",
       "units": "3 UNITS",
@@ -1709,6 +1735,7 @@
       ]
     },
     {
+      "course_id": "BUS-35-3UNIT",
       "course_code": "BUS 35",
       "course_title": "CUSTOMER RELATIONSHIP MANAGEMENT",
       "units": "3 UNITS",
@@ -1747,6 +1774,7 @@
       ]
     },
     {
+      "course_id": "BUS-36-3UNIT",
       "course_code": "BUS 36",
       "course_title": "SALESFORCE FOR YOUR BUSINESS",
       "units": "3 UNITS",
@@ -1785,6 +1813,7 @@
       ]
     },
     {
+      "course_id": "BUS-36B-3UNIT",
       "course_code": "BUS 36B",
       "course_title": "INTRODUCTION TO SALESFORCE MARKETING CLOUD",
       "units": "3 UNITS",
@@ -1823,6 +1852,7 @@
       ]
     },
     {
+      "course_id": "BUS-37-3UNIT",
       "course_code": "BUS 37",
       "course_title": "BUSINESS OF HIP-HOP INDUSTRY",
       "units": "3 UNITS",
@@ -1861,6 +1891,7 @@
       ]
     },
     {
+      "course_id": "BUS-45-3UNIT",
       "course_code": "BUS 45",
       "course_title": "INDIVIDUAL FINANCIAL PLANNING",
       "units": "3 UNITS",
@@ -1976,6 +2007,7 @@
       ]
     },
     {
+      "course_id": "BUS-46-3UNIT",
       "course_code": "BUS 46",
       "course_title": "INTRODUCTION TO INVESTMENTS",
       "units": "3 UNITS",
@@ -2031,6 +2063,7 @@
       ]
     },
     {
+      "course_id": "BUS-47-1UNIT",
       "course_code": "BUS 47",
       "course_title": "UNDERSTANDING MONEY FOR LIFELONG SUCCESS",
       "units": "1 UNIT",
@@ -2122,6 +2155,7 @@
       ]
     },
     {
+      "course_id": "BUS-50-3UNIT",
       "course_code": "BUS 50",
       "course_title": "INTRODUCTION TO INTERNATIONAL BUSINESS",
       "units": "3 UNITS",
@@ -2166,6 +2200,7 @@
       ]
     },
     {
+      "course_id": "BUS-51-3UNIT",
       "course_code": "BUS 51",
       "course_title": "INTERCULTURAL BUSINESS COMMUNICATION",
       "units": "3 UNITS",
@@ -2206,6 +2241,7 @@
       ]
     },
     {
+      "course_id": "BUS-53-3UNIT",
       "course_code": "BUS 53",
       "course_title": "IMPORTING AND EXPORTING",
       "units": "3 UNITS",
@@ -2244,6 +2280,7 @@
       ]
     },
     {
+      "course_id": "BUS-55-3UNIT",
       "course_code": "BUS 55",
       "course_title": "SOUTHERN CALIFORNIA’S INTERNATIONAL CONNECTIONS AND BLUE/OCEAN ECONOMY",
       "units": "3 UNITS",
@@ -2282,6 +2319,7 @@
       ]
     },
     {
+      "course_id": "BUS-56-3UNIT",
       "course_code": "BUS 56",
       "course_title": "UNDERSTANDING THE BUSINESS OF ENTERTAINMENT",
       "units": "3 UNITS",
@@ -2320,6 +2358,7 @@
       ]
     },
     {
+      "course_id": "BUS-57-3UNIT",
       "course_code": "BUS 57",
       "course_title": "INTRODUCTION TO LEAN SIX SIGMA",
       "units": "3 UNITS",
@@ -2364,6 +2403,7 @@
       ]
     },
     {
+      "course_id": "BUS-62-3UNIT",
       "course_code": "BUS 62",
       "course_title": "HUMAN RELATIONS AND ETHICAL ISSUES IN BUSINESS",
       "units": "3 UNITS",
@@ -2408,6 +2448,7 @@
       ]
     },
     {
+      "course_id": "BUS-63-3UNIT",
       "course_code": "BUS 63",
       "course_title": "PRINCIPLES OF ENTREPRENEURSHIP",
       "units": "3 UNITS",
@@ -2498,6 +2539,7 @@
       ]
     },
     {
+      "course_id": "BUS-65-3UNIT",
       "course_code": "BUS 65",
       "course_title": "MANAGEMENT PRINCIPLES",
       "units": "3 UNITS",
@@ -2542,6 +2584,7 @@
       ]
     },
     {
+      "course_id": "BUS-76-3UNIT",
       "course_code": "BUS 76",
       "course_title": "HUMAN RESOURCES MANAGEMENT",
       "units": "3 UNITS",
@@ -2586,6 +2629,7 @@
       ]
     },
     {
+      "course_id": "BUS-79-3UNIT",
       "course_code": "BUS 79",
       "course_title": "BARGAINING AND NEGOTIATIONS",
       "units": "3 UNITS",
@@ -2624,6 +2668,7 @@
       ]
     },
     {
+      "course_id": "BUS-80-3UNIT",
       "course_code": "BUS 80",
       "course_title": "PRINCIPLES OF LOGISTICS",
       "units": "3 UNITS",
@@ -2662,6 +2707,7 @@
       ]
     },
     {
+      "course_id": "BUS-82-3UNIT",
       "course_code": "BUS 82",
       "course_title": "SUPPLY CHAIN MANAGEMENT",
       "units": "3 UNITS",
@@ -2700,6 +2746,7 @@
       ]
     },
     {
+      "course_id": "BUS-84-3UNIT",
       "course_code": "BUS 84",
       "course_title": "INTRODUCTION TO PROCUREMENT",
       "units": "3 UNITS",
@@ -2738,6 +2785,7 @@
       ]
     },
     {
+      "course_id": "BUS-87-4UNIT",
       "course_code": "BUS 87",
       "course_title": "ERP SYSTEM: PROCUREMENT",
       "units": "4 UNITS",

@@ -3,6 +3,7 @@
   "program_description": "Art History is the study of art created in the past by individuals from various cultures and parts of the world. It is the study of the historical development of art as social and intellectual phenomenon, the analysis of works of art and art conservation. Students study specific periods, cultures, styles and themes. The art historian seeks to interpret and understand works of art of many types, ranging from the monumental to small scale, by learning about artists’ lives and their societies. Students are prepared for a wide range of professional careers — in museums, galleries, auction houses or publishing, including antique dealer, art appraiser, art dealer, art restorer and museum curator.",
   "courses": [
     {
+      "course_id": "AHIS-1-3UNIT",
       "course_code": "AHIS 1",
       "course_title": "WESTERN ART HISTORY I",
       "units": "3 UNITS",
@@ -334,6 +335,7 @@
       ]
     },
     {
+      "course_id": "AHIS-2-3UNIT",
       "course_code": "AHIS 2",
       "course_title": "WESTERN ART HISTORY II",
       "units": "3 UNITS",
@@ -489,6 +491,7 @@
       ]
     },
     {
+      "course_id": "AHIS-3-3UNIT",
       "course_code": "AHIS 3",
       "course_title": "GLOBAL ART HISTORY SINCE 1860",
       "units": "3 UNITS",
@@ -547,6 +550,7 @@
       ]
     },
     {
+      "course_id": "AHIS-5-3UNIT",
       "course_code": "AHIS 5",
       "course_title": "LATIN AMERICAN ART HISTORY 1",
       "units": "3 UNITS",
@@ -628,6 +632,7 @@
       ]
     },
     {
+      "course_id": "AHIS-6-3UNIT",
       "course_code": "AHIS 6",
       "course_title": "LATIN AMERICAN ART HISTORY 2",
       "units": "3 UNITS",
@@ -675,6 +680,7 @@
       ]
     },
     {
+      "course_id": "AHIS-11-3UNIT",
       "course_code": "AHIS 11",
       "course_title": "ART APPRECIATION: INTRODUCTION TO GLOBAL VISUAL CULTURE",
       "units": "3 UNITS",
@@ -767,6 +773,7 @@
       ]
     },
     {
+      "course_id": "AHIS-17-3UNIT",
       "course_code": "AHIS 17",
       "course_title": "ARTS OF ASIA",
       "units": "3 UNITS",
@@ -808,6 +815,7 @@
       ]
     },
     {
+      "course_id": "AHIS-18-3UNIT",
       "course_code": "AHIS 18",
       "course_title": "INTRODUCTION TO AFRICAN ART HISTORY",
       "units": "3 UNITS",
@@ -889,6 +897,7 @@
       ]
     },
     {
+      "course_id": "AHIS-21-3UNIT",
       "course_code": "AHIS 21",
       "course_title": "ARCHITECTURAL HISTORY: ANCIENT TO 1850",
       "units": "3 UNITS",
@@ -953,6 +962,7 @@
       ]
     },
     {
+      "course_id": "AHIS-22-3UNIT",
       "course_code": "AHIS 22",
       "course_title": "ARCHITECTURAL HISTORY AND THEORY: 1850 TO PRESENT",
       "units": "3 UNITS",
@@ -1017,6 +1027,7 @@
       ]
     },
     {
+      "course_id": "AHIS-52-3UNIT",
       "course_code": "AHIS 52",
       "course_title": "HISTORY OF PHOTOGRAPHY",
       "units": "3 UNITS",
@@ -1098,6 +1109,7 @@
       ]
     },
     {
+      "course_id": "AHIS-71-3UNIT",
       "course_code": "AHIS 71",
       "course_title": "AFRICAN AMERICAN ART HISTORY",
       "units": "3 UNITS",

@@ -3,6 +3,7 @@
   "program_description": "Media is a versatile discipline consisting of two areas of study: media studies and media production. Our media studies area focuses on the analysis of the mass media. Media Studies courses use an analytical and historical approach, and students develop skills to assess the role and impact of mass media on society. Students examine the history, values, and structure of media in the US and internationally. Media literacy skills are another fundamental component of Media Studies Courses. Upon successful completion of our Media Studies courses, each student should leave as a media literate individual — a more aware, critical audience member with a well-developed sense of mass media’s role in society. There is a wide range of employment possibilities for students trained in Media Studies, including positions in public relations, business, sales, public and personnel relations, and advertising. Our Media Production courses provide hands-on training in the areas of Television, Radio and Internet Broadcasting, including broadcast news, sports, promotional videos, podcasting, short form and emerging media (360/virtual and augmented reality). Students completing the Broadcasting degrees and/or certificates are prepared for both employment opportunities in the broadcasting industry and transfer into four-year degree programs. The Promo Pathways program provides intensive training and internships for students pursuing promo advertising careers opportunities in the broadcasting industry and transfer into four-year degree programs.",
   "courses": [
     {
+      "course_id": "MEDIA-1-3UNIT",
       "course_code": "MEDIA 1",
       "course_title": "SURVEY OF MASS MEDIA COMMUNICATIONS",
       "units": "3 UNITS",
@@ -315,6 +316,7 @@
       ]
     },
     {
+      "course_id": "MEDIA-2-3UNIT",
       "course_code": "MEDIA 2",
       "course_title": "MEDIA LITERACY",
       "units": "3 UNITS",
@@ -353,6 +355,7 @@
       ]
     },
     {
+      "course_id": "MEDIA-3-3UNIT",
       "course_code": "MEDIA 3",
       "course_title": "GLOBAL MEDIA",
       "units": "3 UNITS",
@@ -412,6 +415,7 @@
       ]
     },
     {
+      "course_id": "MEDIA-4-3UNIT",
       "course_code": "MEDIA 4",
       "course_title": "INTRODUCTION TO GAME STUDIES",
       "units": "3 UNITS",
@@ -451,6 +455,7 @@
       ]
     },
     {
+      "course_id": "MEDIA-10-3UNIT",
       "course_code": "MEDIA 10",
       "course_title": "MEDIA, GENDER, AND RACE",
       "units": "3 UNITS",
@@ -582,6 +587,7 @@
       ]
     },
     {
+      "course_id": "MEDIA-11-3UNIT",
       "course_code": "MEDIA 11",
       "course_title": "INTRODUCTION TO BROADCASTING",
       "units": "3 UNITS",
@@ -626,6 +632,7 @@
       ]
     },
     {
+      "course_id": "MEDIA-14-3UNIT",
       "course_code": "MEDIA 14",
       "course_title": "NEWSCASTING AND NEWSWRITING",
       "units": "3 UNITS",
@@ -672,6 +679,7 @@
       ]
     },
     {
+      "course_id": "MEDIA-16-3UNIT",
       "course_code": "MEDIA 16",
       "course_title": "SPORTSCASTING FALL SPORTS",
       "units": "3 UNITS",
@@ -723,6 +731,7 @@
       ]
     },
     {
+      "course_id": "MEDIA-18-3UNIT",
       "course_code": "MEDIA 18",
       "course_title": "BROADCAST ADVERTISING",
       "units": "3 UNITS",
@@ -763,6 +772,7 @@
       ]
     },
     {
+      "course_id": "MEDIA-19-3UNIT",
       "course_code": "MEDIA 19",
       "course_title": "BROADCASTING WORKSHOP",
       "units": "3 UNITS",
@@ -807,6 +817,7 @@
       ]
     },
     {
+      "course_id": "MEDIA-20-3UNIT",
       "course_code": "MEDIA 20",
       "course_title": "INTRODUCTION TO MEDIA WRITING AND PRODUCING SHORT-FORM CONTENT",
       "units": "3 UNITS",
@@ -845,6 +856,7 @@
       ]
     },
     {
+      "course_id": "MEDIA-21-3UNIT",
       "course_code": "MEDIA 21",
       "course_title": "SHORT FORM VISUAL MEDIA PRODUCTION",
       "units": "3 UNITS",
@@ -889,6 +901,7 @@
       ]
     },
     {
+      "course_id": "MEDIA-25-4UNIT",
       "course_code": "MEDIA 25",
       "course_title": "ENGAGING AUDIENCES FOR JOURNALISM AND SOCIAL MEDIA",
       "units": "4 UNITS",
@@ -935,6 +948,7 @@
       ]
     },
     {
+      "course_id": "MEDIA-46-3UNIT",
       "course_code": "MEDIA 46",
       "course_title": "TELEVISION PRODUCTION",
       "units": "3 UNITS",
@@ -986,6 +1000,7 @@
       ]
     },
     {
+      "course_id": "MEDIA-48-3UNIT",
       "course_code": "MEDIA 48",
       "course_title": "TELEVISION FIELD PRODUCTION WORKSHOP",
       "units": "3 UNITS",
@@ -1031,6 +1046,7 @@
       ]
     },
     {
+      "course_id": "MEDIA-88A-1UNIT-1",
       "course_code": "MEDIA 88A",
       "course_title": "INDEPENDENT STUDIES IN MEDIA STUDIES",
       "units": "1 UNIT",

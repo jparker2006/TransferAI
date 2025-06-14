@@ -3,6 +3,7 @@
   "program_description": "Most sections require the use of a computer with Internet access for class resources and/or to complete assignments.",
   "courses": [
     {
+      "course_id": "CHNESE-2-5UNIT",
       "course_code": "CHNESE 2",
       "course_title": "ELEMENTARY CHINESE 2",
       "units": "5 UNITS",

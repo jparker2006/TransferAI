@@ -3,6 +3,7 @@
   "program_description": "The Internship Program at Santa Monica College makes it possible for students to enhance their classroom learning and earn college credit by working in on and off campus jobs. Students must arrange an approved internship with an employer prior to enrolling in this class. Each unit of credit requires the student to work a minimum of 60 hour of unpaid (volunteer) work or 75 hours of paid work throughout the semester. F-1 international students must see an International Student Services Specialist at the International Education Center for pre-approval before securing an internship and enrolling in internship courses. Students may enroll in a maximum of 4 units of internship credits per semester, and a total of 8 internship units may be applied toward the Associate degree. See an academic counselor for transfer credit limitations. Internships are graded on a pass/no pass basis only. Please see smc.edu/internship for additional information and for the internship orientation schedule. Go to smc.edu/hiresmc to find jobs and internships or visit the Career Services Center for assistance.",
   "courses": [
     {
+      "course_id": "BIOL-90A-1UNIT-1",
       "course_code": "BIOL 90A",
       "course_title": "LIFE SCIENCE INTERNSHIP",
       "units": "1 UNIT",
@@ -39,6 +40,7 @@
       ]
     },
     {
+      "course_id": "COUNS-90A-1UNIT-1",
       "course_code": "COUNS 90A",
       "course_title": "GENERAL INTERNSHIP",
       "units": "1 UNIT",
@@ -77,6 +79,7 @@
       ]
     },
     {
+      "course_id": "COUNS-90B-2UNIT-1",
       "course_code": "COUNS 90B",
       "course_title": "GENERAL INTERNSHIP",
       "units": "2 UNITS",
@@ -115,6 +118,7 @@
       ]
     },
     {
+      "course_id": "COUNS-90C-3UNIT-1",
       "course_code": "COUNS 90C",
       "course_title": "GENERAL INTERNSHIP",
       "units": "3 UNITS",
@@ -153,6 +157,7 @@
       ]
     },
     {
+      "course_id": "COUNS-90D-4UNIT-1",
       "course_code": "COUNS 90D",
       "course_title": "GENERAL INTERNSHIP",
       "units": "4 UNITS",

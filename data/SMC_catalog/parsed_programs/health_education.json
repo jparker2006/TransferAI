@@ -3,6 +3,7 @@
   "program_description": "See also Nursing, Occupational Therapy, Professional Courses in Kinesiology/Physical Education, and Respiratory Therapy.",
   "courses": [
     {
+      "course_id": "HEALTH-10-3UNIT",
       "course_code": "HEALTH 10",
       "course_title": "FUNDAMENTALS OF HEALTHFUL LIVING",
       "units": "3 UNITS",
@@ -110,6 +111,7 @@
       ]
     },
     {
+      "course_id": "HEALTH-11-3UNIT",
       "course_code": "HEALTH 11",
       "course_title": "FIRST AID AND CARDIO-PULMONARY RESUSCITATION",
       "units": "3 UNITS",

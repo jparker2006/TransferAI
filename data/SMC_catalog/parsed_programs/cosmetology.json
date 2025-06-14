@@ -3,6 +3,7 @@
   "program_description": "Cosmetology is a career technical all-inclusive program that prepares students for a wide range of careers within the beauty industry. The curriculum offers a theoretical and practical component along with a hands-on approach to learning that includes up-to-date interactive demonstrations and training on clients in a salon setting. This prepares the students to possess the knowledge and skills for career opportunities in the beauty industry such as haircutting, hairstyling, colorist, chemical specialist, skin and nail spas, sales and entrepreneurship. Students are coached in the importance of professionalism and creativity in an experiential learning environment with motivated faculty. Upon completion of the courses, students are prepared to take and pass the California State Board of Barbering and Cosmetology exam to become a licensed cosmetologist, esthetician or manicurist. Courses may lead to an associate degree in cosmetology and/or a certificate of achievement. Students may attend the programs on a full or part time basis. New Student Orientations will be held on Mondays at 5:00p.m. on the following dates: June 30, August 11, October 20, December 8, 2025 on Zoom. More information and the Zoom links are available at smc. edu/cosmetology (select “New Student Orientation”)",
   "courses": [
     {
+      "course_id": "COSM-10A-1UNIT",
       "course_code": "COSM 10A",
       "course_title": "RELATED SCIENCE 1A",
       "units": "1 UNIT",
@@ -90,6 +91,7 @@
       ]
     },
     {
+      "course_id": "COSM-10B-1UNIT",
       "course_code": "COSM 10B",
       "course_title": "RELATED SCIENCE 1B",
       "units": "1 UNIT",
@@ -177,6 +179,7 @@
       ]
     },
     {
+      "course_id": "COSM-11A-1UNIT",
       "course_code": "COSM 11A",
       "course_title": "HAIR CUTTING 1",
       "units": "1 UNIT",
@@ -230,6 +233,7 @@
       ]
     },
     {
+      "course_id": "COSM-11B-1UNIT",
       "course_code": "COSM 11B",
       "course_title": "HAIR STYLING 1",
       "units": "1 UNIT",
@@ -283,6 +287,7 @@
       ]
     },
     {
+      "course_id": "COSM-11C-1UNIT",
       "course_code": "COSM 11C",
       "course_title": "HAIR COLORING 1",
       "units": "1 UNIT",
@@ -336,6 +341,7 @@
       ]
     },
     {
+      "course_id": "COSM-11D-1UNIT",
       "course_code": "COSM 11D",
       "course_title": "PERMANENT WAVING",
       "units": "1 UNIT",
@@ -389,6 +395,7 @@
       ]
     },
     {
+      "course_id": "COSM-16-1UNIT",
       "course_code": "COSM 16",
       "course_title": "NAIL CARE 1",
       "units": "1 UNIT",
@@ -442,6 +449,7 @@
       ]
     },
     {
+      "course_id": "COSM-18-1UNIT",
       "course_code": "COSM 18",
       "course_title": "SKIN CARE 1",
       "units": "1 UNIT",
@@ -529,6 +537,7 @@
       ]
     },
     {
+      "course_id": "COSM-20-1UNIT",
       "course_code": "COSM 20",
       "course_title": "RELATED SCIENCE 2",
       "units": "1 UNIT",
@@ -616,6 +625,7 @@
       ]
     },
     {
+      "course_id": "COSM-21A-1UNIT",
       "course_code": "COSM 21A",
       "course_title": "HAIR CUTTING 2",
       "units": "1 UNIT",
@@ -669,6 +679,7 @@
       ]
     },
     {
+      "course_id": "COSM-21B-1UNIT",
       "course_code": "COSM 21B",
       "course_title": "HAIR STYLING 2",
       "units": "1 UNIT",
@@ -722,6 +733,7 @@
       ]
     },
     {
+      "course_id": "COSM-21C-1UNIT",
       "course_code": "COSM 21C",
       "course_title": "HAIR COLORING 2",
       "units": "1 UNIT",
@@ -775,6 +787,7 @@
       ]
     },
     {
+      "course_id": "COSM-21E-1UNIT",
       "course_code": "COSM 21E",
       "course_title": "CURLY HAIR TECHNIQUES 2",
       "units": "1 UNIT",
@@ -828,6 +841,7 @@
       ]
     },
     {
+      "course_id": "COSM-26-1UNIT",
       "course_code": "COSM 26",
       "course_title": "NAIL CARE 2",
       "units": "1 UNIT",
@@ -881,6 +895,7 @@
       ]
     },
     {
+      "course_id": "COSM-28A-1UNIT",
       "course_code": "COSM 28A",
       "course_title": "SKIN CARE 2A",
       "units": "1 UNIT",
@@ -951,6 +966,7 @@
       ]
     },
     {
+      "course_id": "COSM-28B-1UNIT",
       "course_code": "COSM 28B",
       "course_title": "SKIN CARE 2B",
       "units": "1 UNIT",
@@ -1021,6 +1037,7 @@
       ]
     },
     {
+      "course_id": "COSM-30-1UNIT",
       "course_code": "COSM 30",
       "course_title": "RELATED SCIENCE 3",
       "units": "1 UNIT",
@@ -1091,6 +1108,7 @@
       ]
     },
     {
+      "course_id": "COSM-31A-1UNIT",
       "course_code": "COSM 31A",
       "course_title": "HAIR CUTTING 3",
       "units": "1 UNIT",
@@ -1127,6 +1145,7 @@
       ]
     },
     {
+      "course_id": "COSM-31E-1UNIT",
       "course_code": "COSM 31E",
       "course_title": "MULTI TEXTURE STYLING",
       "units": "1 UNIT",
@@ -1163,6 +1182,7 @@
       ]
     },
     {
+      "course_id": "COSM-36-1UNIT",
       "course_code": "COSM 36",
       "course_title": "NAIL CARE 3",
       "units": "1 UNIT",
@@ -1216,6 +1236,7 @@
       ]
     },
     {
+      "course_id": "COSM-38-1UNIT",
       "course_code": "COSM 38",
       "course_title": "SKIN CARE 3",
       "units": "1 UNIT",
@@ -1269,6 +1290,7 @@
       ]
     },
     {
+      "course_id": "COSM-38B-1UNIT",
       "course_code": "COSM 38B",
       "course_title": "MECHANICAL EXFOLIATION",
       "units": "1 UNIT",
@@ -1322,6 +1344,7 @@
       ]
     },
     {
+      "course_id": "COSM-38C-1UNIT",
       "course_code": "COSM 38C",
       "course_title": "CHEMICAL EXFOLIATION",
       "units": "1 UNIT",
@@ -1375,6 +1398,7 @@
       ]
     },
     {
+      "course_id": "COSM-42-1UNIT",
       "course_code": "COSM 42",
       "course_title": "SHORT HAIR CUTTING",
       "units": "1 UNIT",
@@ -1428,6 +1452,7 @@
       ]
     },
     {
+      "course_id": "COSM-46-1UNIT",
       "course_code": "COSM 46",
       "course_title": "NAIL CARE 4",
       "units": "1 UNIT",
@@ -1464,6 +1489,7 @@
       ]
     },
     {
+      "course_id": "COSM-48-1UNIT",
       "course_code": "COSM 48",
       "course_title": "SKIN CARE 4",
       "units": "1 UNIT",
@@ -1517,6 +1543,7 @@
       ]
     },
     {
+      "course_id": "COSM-48B-1UNIT",
       "course_code": "COSM 48B",
       "course_title": "MAKE-UP",
       "units": "1 UNIT",
@@ -1570,6 +1597,7 @@
       ]
     },
     {
+      "course_id": "COSM-50A-2UNIT",
       "course_code": "COSM 50A",
       "course_title": "WRITTEN PREPARATION FOR COSMETOLOGY STATE BOARD EXAM",
       "units": "2 UNITS",
@@ -1623,6 +1651,7 @@
       ]
     },
     {
+      "course_id": "COSM-50E-1UNIT",
       "course_code": "COSM 50E",
       "course_title": "WRITTEN PREPARATION FOR ESTHETICIAN STATE BOARD EXAM",
       "units": "1 UNIT",
@@ -1676,6 +1705,7 @@
       ]
     },
     {
+      "course_id": "COSM-50N-1UNIT",
       "course_code": "COSM 50N",
       "course_title": "WRITTEN PREPARATION FOR NAIL CARE STATE BOARD EXAM",
       "units": "1 UNIT",
@@ -1729,6 +1759,7 @@
       ]
     },
     {
+      "course_id": "COSM-50R-1UNIT",
       "course_code": "COSM 50R",
       "course_title": "WRITTEN PREPARATION FOR BARBERING STATE BOARD EXAM",
       "units": "1 UNIT",
@@ -1765,6 +1796,7 @@
       ]
     },
     {
+      "course_id": "COSM-64-2UNIT",
       "course_code": "COSM 64",
       "course_title": "SALON MANAGEMENT",
       "units": "2 UNITS",
@@ -1818,6 +1850,7 @@
       ]
     },
     {
+      "course_id": "COSM-95A-1UNIT",
       "course_code": "COSM 95A",
       "course_title": "SALON EXPERIENCE",
       "units": "1 UNIT",
@@ -1890,6 +1923,7 @@
       ]
     },
     {
+      "course_id": "COSM-95B-2UNIT",
       "course_code": "COSM 95B",
       "course_title": "SALON EXPERIENCE",
       "units": "2 UNITS",
@@ -1928,6 +1962,7 @@
       ]
     },
     {
+      "course_id": "COSM-95C-3UNIT",
       "course_code": "COSM 95C",
       "course_title": "SALON EXPERIENCE",
       "units": "3 UNITS",
@@ -1966,6 +2001,7 @@
       ]
     },
     {
+      "course_id": "COSM-95D-4UNIT",
       "course_code": "COSM 95D",
       "course_title": "SALON EXPERIENCE",
       "units": "4 UNITS",

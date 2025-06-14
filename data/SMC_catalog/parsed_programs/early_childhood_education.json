@@ -3,6 +3,7 @@
   "program_description": "Students taking ECE courses that include field work may be required to pay for Live Scan fingerprinting, TB test, and show proof of current immunization for measles, pertussis, and the flu.",
   "courses": [
     {
+      "course_id": "ECE-2-3UNIT",
       "course_code": "ECE 2",
       "course_title": "PRINCIPLES AND PRACTICES OF TEACHING YOUNG CHILDREN",
       "units": "3 UNITS",
@@ -99,6 +100,7 @@
       ]
     },
     {
+      "course_id": "ECE-4-3UNIT",
       "course_code": "ECE 4",
       "course_title": "LANGUAGE AND LITERATURE FOR THE YOUNG CHILD",
       "units": "3 UNITS",
@@ -144,6 +146,7 @@
       ]
     },
     {
+      "course_id": "ECE-8-3UNIT",
       "course_code": "ECE 8",
       "course_title": "CREATIVE EXPERIENCES – ART, MUSIC, AND MOVEMENT",
       "units": "3 UNITS",
@@ -189,6 +192,7 @@
       ]
     },
     {
+      "course_id": "ECE-11-3UNIT",
       "course_code": "ECE 11",
       "course_title": "CHILD, FAMILY AND COMMUNITY",
       "units": "3 UNITS",
@@ -305,6 +309,7 @@
       ]
     },
     {
+      "course_id": "ECE-17-3UNIT",
       "course_code": "ECE 17",
       "course_title": "INTRODUCTION TO CURRICULUM",
       "units": "3 UNITS",
@@ -384,6 +389,7 @@
       ]
     },
     {
+      "course_id": "ECE-19-3UNIT",
       "course_code": "ECE 19",
       "course_title": "TEACHING IN A DIVERSE SOCIETY",
       "units": "3 UNITS",
@@ -448,6 +454,7 @@
       ]
     },
     {
+      "course_id": "ECE-21-4UNIT",
       "course_code": "ECE 21",
       "course_title": "OBSERVATION AND ASSESSMENT",
       "units": "4 UNITS",
@@ -492,6 +499,7 @@
       ]
     },
     {
+      "course_id": "ECE-22-5UNIT",
       "course_code": "ECE 22",
       "course_title": "PRACTICUM IN EARLY CHILDHOOD EDUCATION",
       "units": "5 UNITS",
@@ -537,6 +545,7 @@
       ]
     },
     {
+      "course_id": "ECE-30-3UNIT",
       "course_code": "ECE 30",
       "course_title": "STRATEGIES FOR WORKING WITH CHALLENGING BEHAVIORS",
       "units": "3 UNITS",
@@ -593,6 +602,7 @@
       ]
     },
     {
+      "course_id": "ECE-32-3UNIT",
       "course_code": "ECE 32",
       "course_title": "COMMUNICATING WITH FAMILIES",
       "units": "3 UNITS",
@@ -631,6 +641,7 @@
       ]
     },
     {
+      "course_id": "ECE-45-3UNIT",
       "course_code": "ECE 45",
       "course_title": "INTRODUCTION TO CHILDREN WITH SPECIAL NEEDS",
       "units": "3 UNITS",
@@ -677,6 +688,7 @@
       ]
     },
     {
+      "course_id": "ECE-46-3UNIT",
       "course_code": "ECE 46",
       "course_title": "INFANT AND TODDLER DEVELOPMENT",
       "units": "3 UNITS",
@@ -739,6 +751,7 @@
       ]
     },
     {
+      "course_id": "ECE-47-3UNIT",
       "course_code": "ECE 47",
       "course_title": "DEVELOPING FAMILY CHILDCARE",
       "units": "3 UNITS",
@@ -777,6 +790,7 @@
       ]
     },
     {
+      "course_id": "ECE-48-3UNIT",
       "course_code": "ECE 48",
       "course_title": "ADULT SUPERVISION AND MENTORING IN EARLY EDUCATION",
       "units": "3 UNITS",
@@ -813,6 +827,7 @@
       ]
     },
     {
+      "course_id": "ECE-49-3UNIT",
       "course_code": "ECE 49",
       "course_title": "CURRICULUM AND STRATEGIES FOR CHILDREN WITH SPECIAL NEEDS",
       "units": "3 UNITS",
@@ -858,6 +873,7 @@
       ]
     },
     {
+      "course_id": "ECE-51-3UNIT",
       "course_code": "ECE 51",
       "course_title": "THE REGGIO APPROACH",
       "units": "3 UNITS",
@@ -896,6 +912,7 @@
       ]
     },
     {
+      "course_id": "ECE-64-3UNIT",
       "course_code": "ECE 64",
       "course_title": "HEALTH, SAFETY, AND NUTRITION FOR YOUNG CHILDREN",
       "units": "3 UNITS",
@@ -958,6 +975,7 @@
       ]
     },
     {
+      "course_id": "ECE-71-3UNIT",
       "course_code": "ECE 71",
       "course_title": "INFANTS AND TODDLER EDUCATION AND CARE",
       "units": "3 UNITS",
@@ -996,6 +1014,7 @@
       ]
     },
     {
+      "course_id": "ECE-75-3UNIT",
       "course_code": "ECE 75",
       "course_title": "DANCE FOR CHILDREN: CREATIVE DANCE IN THE PRE-K AND ELEMENTARY CLASSROOM",
       "units": "3 UNITS",
@@ -1034,6 +1053,7 @@
       ]
     },
     {
+      "course_id": "ECE-76-3UNIT",
       "course_code": "ECE 76",
       "course_title": "CHILDREN IN NATURE",
       "units": "3 UNITS",
@@ -1072,6 +1092,7 @@
       ]
     },
     {
+      "course_id": "ECE-81-3UNIT",
       "course_code": "ECE 81",
       "course_title": "MUSIC FOR EARLY CHILDHOOD EDUCATION",
       "units": "3 UNITS",

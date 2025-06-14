@@ -3,6 +3,7 @@
   "program_description": "See also “Architecture.” The Interior Architectural Design program provides a thorough and analytical foundation that enables students to practice professionally and serve their community with safe, functional, and innovative interior spaces. The program is designed to meet the industry’s need for creative professionals who excel in developing ideas and have the technical proficiency to execute them. Our instructors are experienced professionals who bring first-hand knowledge of industry practices to the classroom and work in close collaboration with industry advisors to keep up with trends and changing requirements. In addition, participating companies often provide guest speakers and student internships. We offer day, evening and weekend classes to provide educational opportunities to all students. In addition, selected Interior Architectural Design courses are offered online through SMC’s Distance Education program. Students who are interested in the Interior Architectural Design program are strongly encouraged to schedule an appointment with one of the counselors at the Center for Media and Design campus to develop an Educational Plan. This is to ensure that you are taking the necessary courses to meet your educational goals. To learn more, please visit smc.edu/designtech.",
   "courses": [
     {
+      "course_id": "IARC-15-3UNIT",
       "course_code": "IARC 15",
       "course_title": "2D COLOR THEORY",
       "units": "3 UNITS",
@@ -48,6 +49,7 @@
       ]
     },
     {
+      "course_id": "IARC-20-3UNIT",
       "course_code": "IARC 20",
       "course_title": "STUDIO 2: INTERIOR ARCHITECTURE",
       "units": "3 UNITS",
@@ -92,6 +94,7 @@
       ]
     },
     {
+      "course_id": "IARC-25-3UNIT",
       "course_code": "IARC 25",
       "course_title": "MATERIALS AND PRODUCTS FOR INTERIOR ARCHITECTURAL DESIGN",
       "units": "3 UNITS",
@@ -136,6 +139,7 @@
       ]
     },
     {
+      "course_id": "IARC-30-3UNIT",
       "course_code": "IARC 30",
       "course_title": "STUDIO 3: INTERIOR ARCHITECTURE",
       "units": "3 UNITS",
@@ -180,6 +184,7 @@
       ]
     },
     {
+      "course_id": "IARC-40-3UNIT",
       "course_code": "IARC 40",
       "course_title": "STUDIO 4: INTERIOR ARCHITECTURE",
       "units": "3 UNITS",
@@ -224,6 +229,7 @@
       ]
     },
     {
+      "course_id": "IARC-45-3UNIT",
       "course_code": "IARC 45",
       "course_title": "BUILDING SYSTEMS AND CODES",
       "units": "3 UNITS",

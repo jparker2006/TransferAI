@@ -3,6 +3,7 @@
   "program_description": "The Office Technology Department offers training in general, medical, and legal office skills. Office workers are responsible for a variety of administrative and clerical duties necessary to run and maintain organizations efficiently. They use a variety of software programs, produce correspondence, maintain databases, manage projects — as well as organize meetings, manage records, and perform receptionist duties. Office workers find employment in many settings, such as corporations, government agencies, schools, law offices, hospitals, and clinics. Some related job titles include office assistant, administrative medical assistant, medical billing and coding specialist, electronic health records specialist, and administrative secretary.",
   "courses": [
     {
+      "course_id": "OFTECH-20-3UNIT",
       "course_code": "OFTECH 20",
       "course_title": "MEDICAL VOCABULARY",
       "units": "3 UNITS",
@@ -41,6 +42,7 @@
       ]
     },
     {
+      "course_id": "OFTECH-21-3UNIT",
       "course_code": "OFTECH 21",
       "course_title": "MEDICAL TERMS AND TRANSCRIPTION 1",
       "units": "3 UNITS",
@@ -79,6 +81,7 @@
       ]
     },
     {
+      "course_id": "OFTECH-23-3UNIT",
       "course_code": "OFTECH 23",
       "course_title": "MEDICAL BILLING (MEDISOFT)",
       "units": "3 UNITS",
@@ -117,6 +120,7 @@
       ]
     },
     {
+      "course_id": "OFTECH-24-3UNIT",
       "course_code": "OFTECH 24",
       "course_title": "MEDICAL CODING/BILLING 1",
       "units": "3 UNITS",
@@ -155,6 +159,7 @@
       ]
     },
     {
+      "course_id": "OFTECH-28-3UNIT",
       "course_code": "OFTECH 28",
       "course_title": "ELECTRONIC HEALTH RECORDS",
       "units": "3 UNITS",

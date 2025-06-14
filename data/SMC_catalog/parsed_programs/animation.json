@@ -3,6 +3,7 @@
   "program_description": "The Animation program prepares students for careers in the entertainment industry through comprehensive, hands-on training. The program is designed to meet the industry’s need for creative professionals who excel in developing ideas and have the technical proficiency to execute them. Our instructors are experienced professionals who bring first-hand knowledge of industry practices to the classroom and work in close collaboration with industry advisors to keep up with trends and changing requirements. In addition, participating companies often provide guest speakers and student internships. We offer day, evening and weekend classes to provide educational opportunities to all students. In addition, select courses are offered online through Distance Education. Students who are interested in the Animation program are strongly encouraged to schedule an appointment with one of the counselors at the Center for Media and Design campus to develop an Educational Plan. This is to ensure that you are taking the necessary courses to meet your educational goals. To learn more, please visit smc.edu/designtech. Students interested in independent studies or internships for the Animation program may enroll in the Entertainment Technology (ET) 88 or 90 series of courses. Please speak with the Design Technology Department Chair or an Academic Counselor at the CMD for more information.",
   "courses": [
     {
+      "course_id": "ANIM-1-3UNIT",
       "course_code": "ANIM 1",
       "course_title": "STORYTELLING",
       "units": "3 UNITS",
@@ -60,6 +61,7 @@
       ]
     },
     {
+      "course_id": "ANIM-2-3UNIT",
       "course_code": "ANIM 2",
       "course_title": "2D ANIMATION FUNDAMENTALS",
       "units": "3 UNITS",
@@ -127,6 +129,7 @@
       ]
     },
     {
+      "course_id": "ANIM-3-3UNIT",
       "course_code": "ANIM 3",
       "course_title": "3D FUNDAMENTALS",
       "units": "3 UNITS",
@@ -188,6 +191,7 @@
       ]
     },
     {
+      "course_id": "ANIM-4-3UNIT",
       "course_code": "ANIM 4",
       "course_title": "DIGITAL STORYBOARDING",
       "units": "3 UNITS",
@@ -227,6 +231,7 @@
       ]
     },
     {
+      "course_id": "ANIM-5-3UNIT",
       "course_code": "ANIM 5",
       "course_title": "HISTORY OF ANIMATION",
       "units": "3 UNITS",
@@ -266,6 +271,7 @@
       ]
     },
     {
+      "course_id": "ANIM-18-2UNIT",
       "course_code": "ANIM 18",
       "course_title": "PERSPECTIVE DRAWING",
       "units": "2 UNITS",
@@ -305,6 +311,7 @@
       ]
     },
     {
+      "course_id": "ANIM-19-2UNIT",
       "course_code": "ANIM 19",
       "course_title": "COLOR THEORY AND APPLICATION",
       "units": "2 UNITS",
@@ -343,6 +350,7 @@
       ]
     },
     {
+      "course_id": "ANIM-20-3UNIT",
       "course_code": "ANIM 20",
       "course_title": "INTERMEDIATE 2D ANIMATION",
       "units": "3 UNITS",
@@ -387,6 +395,7 @@
       ]
     },
     {
+      "course_id": "ANIM-21-3UNIT",
       "course_code": "ANIM 21",
       "course_title": "ADVANCED 2D ANIMATION",
       "units": "3 UNITS",
@@ -431,6 +440,7 @@
       ]
     },
     {
+      "course_id": "ANIM-22-3UNIT",
       "course_code": "ANIM 22",
       "course_title": "2D DIGITAL PRODUCTION",
       "units": "3 UNITS",
@@ -475,6 +485,7 @@
       ]
     },
     {
+      "course_id": "ANIM-31-3UNIT",
       "course_code": "ANIM 31",
       "course_title": "ADVANCED 3D ANIMATION",
       "units": "3 UNITS",
@@ -519,6 +530,7 @@
       ]
     },
     {
+      "course_id": "ANIM-32-3UNIT",
       "course_code": "ANIM 32",
       "course_title": "DIGITAL PREVISUALIZATION",
       "units": "3 UNITS",
@@ -564,6 +576,7 @@
       ]
     },
     {
+      "course_id": "ANIM-35-3UNIT",
       "course_code": "ANIM 35",
       "course_title": "3D MODELING",
       "units": "3 UNITS",
@@ -608,6 +621,7 @@
       ]
     },
     {
+      "course_id": "ANIM-37-3UNIT",
       "course_code": "ANIM 37",
       "course_title": "3D CHARACTER CREATION",
       "units": "3 UNITS",
@@ -652,6 +666,7 @@
       ]
     },
     {
+      "course_id": "ANIM-38-3UNIT",
       "course_code": "ANIM 38",
       "course_title": "3D CHARACTER RIGGING",
       "units": "3 UNITS",
@@ -690,6 +705,7 @@
       ]
     },
     {
+      "course_id": "ANIM-41-3UNIT",
       "course_code": "ANIM 41",
       "course_title": "ENVIRONMENT DESIGN",
       "units": "3 UNITS",
@@ -735,6 +751,7 @@
       ]
     },
     {
+      "course_id": "ANIM-42-3UNIT",
       "course_code": "ANIM 42",
       "course_title": "PROP AND VEHICLE DESIGN",
       "units": "3 UNITS",
@@ -779,6 +796,7 @@
       ]
     },
     {
+      "course_id": "ANIM-75-2UNIT",
       "course_code": "ANIM 75",
       "course_title": "CAREER DEVELOPMENT",
       "units": "2 UNITS",

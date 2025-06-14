@@ -3,6 +3,7 @@
   "program_description": "",
   "courses": [
     {
+      "course_id": "ENGL-C1001-3UNIT",
       "course_code": "ENGL C1001",
       "course_title": "CRITICAL THINKING AND WRITING",
       "units": "3 UNITS",
@@ -1241,6 +1242,7 @@
       ]
     },
     {
+      "course_id": "ENGL-5-3UNIT",
       "course_code": "ENGL 5",
       "course_title": "BRITISH LITERATURE 1",
       "units": "3 UNITS",
@@ -1297,6 +1299,7 @@
       ]
     },
     {
+      "course_id": "ENGL-7-3UNIT",
       "course_code": "ENGL 7",
       "course_title": "AMERICAN LITERATURE 1",
       "units": "3 UNITS",
@@ -1336,6 +1339,7 @@
       ]
     },
     {
+      "course_id": "ENGL-8-3UNIT",
       "course_code": "ENGL 8",
       "course_title": "AMERICAN LITERATURE 2",
       "units": "3 UNITS",
@@ -1375,6 +1379,7 @@
       ]
     },
     {
+      "course_id": "ENGL-10-3UNIT",
       "course_code": "ENGL 10",
       "course_title": "RACE AND ETHNICITY IN LITERATURE OF THE U.S.",
       "units": "3 UNITS",
@@ -1416,6 +1421,7 @@
       ]
     },
     {
+      "course_id": "ENGL-15-3UNIT",
       "course_code": "ENGL 15",
       "course_title": "SHAKESPEARE",
       "units": "3 UNITS",
@@ -1455,6 +1461,7 @@
       ]
     },
     {
+      "course_id": "ENGL-26-3UNIT",
       "course_code": "ENGL 26",
       "course_title": "INTRODUCTION TO THE HUMANITIES",
       "units": "3 UNITS",
@@ -1494,6 +1501,7 @@
       ]
     },
     {
+      "course_id": "ENGL-40-3UNIT",
       "course_code": "ENGL 40",
       "course_title": "ASIAN LITERATURE",
       "units": "3 UNITS",
@@ -1533,6 +1541,7 @@
       ]
     },
     {
+      "course_id": "ENGL-50-3UNIT",
       "course_code": "ENGL 50",
       "course_title": "MYTHOLOGY",
       "units": "3 UNITS",
@@ -1572,6 +1581,7 @@
       ]
     },
     {
+      "course_id": "ENGL-51-3UNIT",
       "course_code": "ENGL 51",
       "course_title": "LITERATURE OF THE BIBLE: OLD TESTAMENT",
       "units": "3 UNITS",
@@ -1613,6 +1623,7 @@
       ]
     },
     {
+      "course_id": "ENGL-61-3UNIT",
       "course_code": "ENGL 61",
       "course_title": "INTRODUCTION TO THE FAIRY TALE",
       "units": "3 UNITS",

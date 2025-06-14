@@ -3,6 +3,7 @@
   "program_description": "Students taking Education courses that include field work may be required to pay for Live Scan fingerprinting, TB test, Covid-19 vaccination/booster, and show proof of current immunization for measles, pertussis, and the flu.",
   "courses": [
     {
+      "course_id": "EDUC-12-3UNIT",
       "course_code": "EDUC 12",
       "course_title": "INTRODUCTION TO ELEMENTARY CLASSROOM TEACHING & FIELD EXPERIENCES",
       "units": "3 UNITS",
@@ -48,6 +49,7 @@
       ]
     },
     {
+      "course_id": "EDUC-50-3UNIT",
       "course_code": "EDUC 50",
       "course_title": "TEACHING IN THE AGE OF AI: STRATEGIES FOR EDUCATORS",
       "units": "3 UNITS",

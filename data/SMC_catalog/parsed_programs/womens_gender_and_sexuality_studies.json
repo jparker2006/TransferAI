@@ -3,6 +3,7 @@
   "program_description": "Women’s, Gender, and Sexuality Studies is an interdisciplinary field of inquiry analyzing structures of power, especially as they are grounded in gender, race, sexuality, ethnicity, nationality, ability, and other sources of inequalities. The students who enroll in these courses gain the opportunity to understand how social forces, organized around the central concept of gender, shape both themselves as individuals and the world around them. Students have the opportunity to attain a fuller understanding of human behavior, culture, and society made possible by investigating women’s lives, as well as the lives of other marginalized groups, and acquaint themselves with the experience of subordinate genders of various economic, ethnic, and racial backgrounds.",
   "courses": [
     {
+      "course_id": "WGS-10-3UNIT",
       "course_code": "WGS 10",
       "course_title": "INTRODUCTION TO WOMEN’S, GENDER, AND SEXUALITY STUDIES",
       "units": "3 UNITS",
@@ -78,6 +79,7 @@
       ]
     },
     {
+      "course_id": "WGS-30-3UNIT",
       "course_code": "WGS 30",
       "course_title": "WOMEN, GENDER, AND SEXUALITY IN POPULAR CULTURE",
       "units": "3 UNITS",
@@ -153,6 +155,7 @@
       ]
     },
     {
+      "course_id": "WGS-40-3UNIT",
       "course_code": "WGS 40",
       "course_title": "INTRODUCTION TO LGBTQ STUDIES",
       "units": "3 UNITS",
@@ -194,6 +197,7 @@
       ]
     },
     {
+      "course_id": "WGS-88A-1UNIT-1",
       "course_code": "WGS 88A",
       "course_title": "INDEPENDENT STUDIES IN WOMEN’S, GENDER, AND SEXUALITY STUDIES",
       "units": "1 UNIT",
@@ -247,6 +251,7 @@
       ]
     },
     {
+      "course_id": "WGS-88B-2UNIT-1",
       "course_code": "WGS 88B",
       "course_title": "INDEPENDENT STUDIES IN WOMEN’S, GENDER, AND SEXUALITY STUDIES",
       "units": "2 UNITS",

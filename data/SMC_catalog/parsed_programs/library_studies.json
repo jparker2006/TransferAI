@@ -3,6 +3,7 @@
   "program_description": "",
   "courses": [
     {
+      "course_id": "LIBR-1-1UNIT",
       "course_code": "LIBR 1",
       "course_title": "LIBRARY RESEARCH METHODS",
       "units": "1 UNIT",

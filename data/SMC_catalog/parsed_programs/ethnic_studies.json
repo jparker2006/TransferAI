@@ -3,6 +3,7 @@
   "program_description": "Ethnic Studies is the interdisciplinary critical and comparative study of race and ethnicity, focusing on the experiences of African American, Native American/Indigenous, Asian American/Pacific Islander, and Chicana/o/x/Latina/o/x populations. Ethnic Studies provides an intersectional and critical lens for studying racial, ethnic, gender and class identities, and for interrogating structural racism, power, knowledge, and racialization in culture, politics, economy, and law. Drawing from the intellectual traditions of BIPOC (Black, Indigenous, People of Color) communities, students of Ethnic Studies attain an understanding of the historical legacies and contemporary manifestations of racism, discrimination, inequity, and movements for social justice. Through culturally responsive pedagogy, students of Ethnic Studies gain cultural competency and are exposed to perspectives and methods informed by a deep commitment to social justice, cross-cultural collaboration, liberation from systems of oppression, and social and institutional transformation.",
   "courses": [
     {
+      "course_id": "ETH-ST-1-3UNIT",
       "course_code": "ETH ST 1",
       "course_title": "INTRODUCTION TO ETHNIC STUDIES",
       "units": "3 UNITS",
@@ -416,6 +417,7 @@
       ]
     },
     {
+      "course_id": "ETH-ST-6-3UNIT",
       "course_code": "ETH ST 6",
       "course_title": "INTRODUCTION TO CHICANA/O/X AND LATINA/ O/X STUDIES",
       "units": "3 UNITS",
@@ -457,6 +459,7 @@
       ]
     },
     {
+      "course_id": "ETH-ST-7-3UNIT",
       "course_code": "ETH ST 7",
       "course_title": "INTRODUCTION TO AFRICAN AMERICAN AND BLACK STUDIES",
       "units": "3 UNITS",
@@ -496,6 +499,7 @@
       ]
     },
     {
+      "course_id": "ETH-ST-8-3UNIT",
       "course_code": "ETH ST 8",
       "course_title": "INTRODUCTION TO ASIAN AMERICAN STUDIES",
       "units": "3 UNITS",

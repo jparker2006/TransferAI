@@ -3,6 +3,7 @@
   "program_description": "See also “Aquaculture.” Coursework and study in the biological sciences provides a foundation for future employment in many of the fastest growing and emerging STEM (Science, Technology, Engineering and Math) fields today. Students of biology are at the front lines of many of the most critical questions our society is facing in the 21st century and beyond, including addressing climate change, the biodiversity crisis, resource management and population growth, emerging/infectious diseases and public health. Students of biology become lab technicians, nurses, genetic counselors, physicians, environmental scientists, landscape architects, state and national park rangers, researchers in agriculture, pharmaceuticals and biotechnology, teachers and college professors. Logic and critical thinking skills developed as a student of biology are applicable to nearly every field and every discipline and provide a foundation for making informed personal, business and public policy decisions. Students must be present for the first session of biological science classes to be assured of admission to limited laboratory spaces. Students who wish to enroll in a Life Sciences course must demonstrate that they have met the prerequisites for the course prior to enrollment. Continuing students must complete prerequisite courses with a C or better. If currently enrolled in a prerequisite course at SMC at the time of enrollment, students will be admitted to subsequent courses based upon midterm placement results, but will be dropped if the prerequisite course is not completed with a C or better. Students who have successfully completed one or more prerequisite courses (earning a grade of C- or better in both the lecture and lab courses and an average of C (2.0) or better overall) at another institution may be able to verify having met the prerequisites by submitting a transcript and course description and course syllabus for the prerequisite courses.",
   "courses": [
     {
+      "course_id": "ANATMY-1-4UNIT",
       "course_code": "ANATMY 1",
       "course_title": "GENERAL HUMAN ANATOMY",
       "units": "4 UNITS",
@@ -384,6 +385,7 @@
       ]
     },
     {
+      "course_id": "BIOL-2-3UNIT",
       "course_code": "BIOL 2",
       "course_title": "HUMAN BIOLOGY",
       "units": "3 UNITS",
@@ -491,6 +493,7 @@
       ]
     },
     {
+      "course_id": "BIOL-3-4UNIT",
       "course_code": "BIOL 3",
       "course_title": "FUNDAMENTALS OF BIOLOGY",
       "units": "4 UNITS",
@@ -871,6 +874,7 @@
       ]
     },
     {
+      "course_id": "BIOL-9-3UNIT",
       "course_code": "BIOL 9",
       "course_title": "ENVIRONMENTAL BIOLOGY",
       "units": "3 UNITS",
@@ -946,6 +950,7 @@
       ]
     },
     {
+      "course_id": "BIOL-10-4UNIT",
       "course_code": "BIOL 10",
       "course_title": "APPLIED ECOLOGY AND CONSERVATION BIOLOGY",
       "units": "4 UNITS",
@@ -1016,6 +1021,7 @@
       ]
     },
     {
+      "course_id": "BIOL-15-4UNIT",
       "course_code": "BIOL 15",
       "course_title": "MARINE BIOLOGY WITH LABORATORY",
       "units": "4 UNITS",
@@ -1058,6 +1064,7 @@
       ]
     },
     {
+      "course_id": "BIOL-21-4UNIT",
       "course_code": "BIOL 21",
       "course_title": "CELL BIOLOGY AND EVOLUTION",
       "units": "4 UNITS",
@@ -1139,6 +1146,7 @@
       ]
     },
     {
+      "course_id": "BIOL-22-4UNIT",
       "course_code": "BIOL 22",
       "course_title": "GENETICS AND MOLECULAR BIOLOGY",
       "units": "4 UNITS",
@@ -1209,6 +1217,7 @@
       ]
     },
     {
+      "course_id": "BIOL-23-5UNIT",
       "course_code": "BIOL 23",
       "course_title": "ORGANISMAL AND ENVIRONMENTAL BIOLOGY",
       "units": "5 UNITS",
@@ -1262,6 +1271,7 @@
       ]
     },
     {
+      "course_id": "BIOL-30-5UNIT",
       "course_code": "BIOL 30",
       "course_title": "FUNDAMENTALS OF BIOTECHNOLOGY 1",
       "units": "5 UNITS",
@@ -1323,6 +1333,7 @@
       ]
     },
     {
+      "course_id": "BIOL-33-4UNIT",
       "course_code": "BIOL 33",
       "course_title": "IMMUNOASSAY METHODS",
       "units": "4 UNITS",
@@ -1361,6 +1372,7 @@
       ]
     },
     {
+      "course_id": "BIOL-88A-1UNIT",
       "course_code": "BIOL 88A",
       "course_title": "INDEPENDENT STUDIES IN BIOLOGICAL SCIENCES",
       "units": "1 UNIT",
@@ -1397,6 +1409,7 @@
       ]
     },
     {
+      "course_id": "BIOL-90A-1UNIT",
       "course_code": "BIOL 90A",
       "course_title": "LIFE SCIENCE INTERNSHIP",
       "units": "1 UNIT",
@@ -1433,6 +1446,7 @@
       ]
     },
     {
+      "course_id": "BOTANY-1-4UNIT",
       "course_code": "BOTANY 1",
       "course_title": "GENERAL BOTANY",
       "units": "4 UNITS",
@@ -1503,6 +1517,7 @@
       ]
     },
     {
+      "course_id": "MCRBIO-1-5UNIT",
       "course_code": "MCRBIO 1",
       "course_title": "FUNDAMENTALS OF MICROBIOLOGY",
       "units": "5 UNITS",
@@ -1669,6 +1684,7 @@
       ]
     },
     {
+      "course_id": "NUTR-1-3UNIT",
       "course_code": "NUTR 1",
       "course_title": "INTRODUCTION TO NUTRITION SCIENCE",
       "units": "3 UNITS",
@@ -1805,6 +1821,7 @@
       ]
     },
     {
+      "course_id": "NUTR-4-3UNIT",
       "course_code": "NUTR 4",
       "course_title": "HEALTHY LIFESTYLE: FOOD AND FITNESS",
       "units": "3 UNITS",
@@ -1843,6 +1860,7 @@
       ]
     },
     {
+      "course_id": "NUTR-7-3UNIT",
       "course_code": "NUTR 7",
       "course_title": "FOOD AND CULTURE IN AMERICA",
       "units": "3 UNITS",
@@ -1884,6 +1902,7 @@
       ]
     },
     {
+      "course_id": "PHYS-3-4UNIT",
       "course_code": "PHYS 3",
       "course_title": "HUMAN PHYSIOLOGY",
       "units": "4 UNITS",
@@ -2072,6 +2091,7 @@
       ]
     },
     {
+      "course_id": "ZOOL-5-4UNIT",
       "course_code": "ZOOL 5",
       "course_title": "INTRODUCTORY ZOOLOGY",
       "units": "4 UNITS",

@@ -3,6 +3,7 @@
   "program_description": "See also “Professional Courses in Kinesiology/Physical Education” (PRO CR) and “Varsity Intercollegiate Athletics” (VAR/PE). *Maximum UC transfer credit for any or all KIN PE courses combined is four units unless otherwise noted. For Water Aerobics, please see Kinesiology Physical Education Aquatics course listings.",
   "courses": [
     {
+      "course_id": "KIN-PE-2-3UNIT",
       "course_code": "KIN PE 2",
       "course_title": "ACHIEVING LIFETIME FITNESS",
       "units": "3 UNITS",
@@ -73,6 +74,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-10A-1UNIT",
       "course_code": "KIN PE 10A",
       "course_title": "FITNESS LAB",
       "units": "1 UNIT",
@@ -169,6 +171,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-11A-1UNIT",
       "course_code": "KIN PE 11A",
       "course_title": "BEGINNING WEIGHT TRAINING",
       "units": "1 UNIT",
@@ -208,6 +211,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-11B-1UNIT",
       "course_code": "KIN PE 11B",
       "course_title": "INTERMEDIATE WEIGHT TRAINING",
       "units": "1 UNIT",
@@ -247,6 +251,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-11C-1UNIT",
       "course_code": "KIN PE 11C",
       "course_title": "ADVANCED WEIGHT TRAINING",
       "units": "1 UNIT",
@@ -303,6 +308,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-12-1UNIT",
       "course_code": "KIN PE 12",
       "course_title": "OLYMPIC-STYLE WEIGHTLIFTING",
       "units": "1 UNIT",
@@ -342,6 +348,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-17-1UNIT",
       "course_code": "KIN PE 17",
       "course_title": "BOXING FOR FITNESS",
       "units": "1 UNIT",
@@ -398,6 +405,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-19C-1UNIT",
       "course_code": "KIN PE 19C",
       "course_title": "FITNESS – BODY LEVEL EXERCISES",
       "units": "1 UNIT",
@@ -437,6 +445,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-29A-1UNIT",
       "course_code": "KIN PE 29A",
       "course_title": "PILATES MAT EXERCISE",
       "units": "1 UNIT",
@@ -545,6 +554,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-29B-1UNIT",
       "course_code": "KIN PE 29B",
       "course_title": "INTERMEDIATE PILATES",
       "units": "1 UNIT",
@@ -636,6 +646,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-29C-1UNIT",
       "course_code": "KIN PE 29C",
       "course_title": "ADVANCED PILATES",
       "units": "1 UNIT",
@@ -675,6 +686,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-58A-1UNIT",
       "course_code": "KIN PE 58A",
       "course_title": "BEGINNING YOGA",
       "units": "1 UNIT",
@@ -788,6 +800,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-58B-1UNIT",
       "course_code": "KIN PE 58B",
       "course_title": "INTERMEDIATE YOGA",
       "units": "1 UNIT",
@@ -895,6 +908,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-58C-1UNIT",
       "course_code": "KIN PE 58C",
       "course_title": "ADVANCED YOGA",
       "units": "1 UNIT",
@@ -951,6 +965,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-88A-1UNIT-1",
       "course_code": "KIN PE 88A",
       "course_title": "INDEPENDENT STUDIES IN PHYSICAL EDUCATION",
       "units": "1 UNIT",

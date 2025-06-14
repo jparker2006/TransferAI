@@ -3,6 +3,7 @@
   "program_description": "Most sections require the use of a computer with Internet access for class resources and/or to complete assignments.",
   "courses": [
     {
+      "course_id": "JAPAN-1-5UNIT",
       "course_code": "JAPAN 1",
       "course_title": "ELEMENTARY JAPANESE I",
       "units": "5 UNITS",
@@ -124,6 +125,7 @@
       ]
     },
     {
+      "course_id": "JAPAN-2-5UNIT",
       "course_code": "JAPAN 2",
       "course_title": "ELEMENTARY JAPANESE II",
       "units": "5 UNITS",
@@ -182,6 +184,7 @@
       ]
     },
     {
+      "course_id": "JAPAN-3-5UNIT",
       "course_code": "JAPAN 3",
       "course_title": "INTERMEDIATE JAPANESE I",
       "units": "5 UNITS",

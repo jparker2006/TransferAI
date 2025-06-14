@@ -3,6 +3,7 @@
   "program_description": "Courses below are open to students in English Placement Group A. Placement is required to determine class placement. See smc.edu/successcenter. Some of the courses listed in this section are accompanied by Supplemental Instruction. Supplemental Instruction (SI) is an academic assistance program that utilizes free peer-assisted weekly study sessions to help students learn the most difficult course content. For more information, please see the SI website at smc.edu/si.",
   "courses": [
     {
+      "course_id": "ENGL-C1000-3UNIT",
       "course_code": "ENGL C1000",
       "course_title": "ACADEMIC READING AND WRITING",
       "units": "3 UNITS",
@@ -2000,6 +2001,7 @@
       ]
     },
     {
+      "course_id": "ENGL-31-3UNIT",
       "course_code": "ENGL 31",
       "course_title": "ADVANCED COMPOSITION",
       "units": "3 UNITS",

@@ -3,6 +3,7 @@
   "program_description": "See also “Professional Courses in Kinesiology/Physical Education” (PRO CR) and “Varsity Intercollegiate Athletics” (VAR/PE). *Maximum UC transfer credit for any or all KIN PE courses combined is four units unless otherwise noted.",
   "courses": [
     {
+      "course_id": "KIN-PE-9A-1UNIT",
       "course_code": "KIN PE 9A",
       "course_title": "BEGINNING BASKETBALL",
       "units": "1 UNIT",
@@ -42,6 +43,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-9B-1UNIT",
       "course_code": "KIN PE 9B",
       "course_title": "INTERMEDIATE BASKETBALL",
       "units": "1 UNIT",
@@ -81,6 +83,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-43A-1UNIT",
       "course_code": "KIN PE 43A",
       "course_title": "BEGINNING SOCCER",
       "units": "1 UNIT",
@@ -126,6 +129,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-43B-1UNIT",
       "course_code": "KIN PE 43B",
       "course_title": "INTERMEDIATE SOCCER",
       "units": "1 UNIT",
@@ -194,6 +198,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-43C-1UNIT",
       "course_code": "KIN PE 43C",
       "course_title": "ADVANCED SOCCER",
       "units": "1 UNIT",
@@ -239,6 +244,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-45A-1UNIT",
       "course_code": "KIN PE 45A",
       "course_title": "BEGINNING SOFTBALL",
       "units": "1 UNIT",
@@ -284,6 +290,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-45C-1UNIT",
       "course_code": "KIN PE 45C",
       "course_title": "ADVANCED SOFTBALL",
       "units": "1 UNIT",
@@ -329,6 +336,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-57A-1UNIT",
       "course_code": "KIN PE 57A",
       "course_title": "BEGINNING VOLLEYBALL",
       "units": "1 UNIT",
@@ -368,6 +376,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-57B-1UNIT",
       "course_code": "KIN PE 57B",
       "course_title": "INTERMEDIATE VOLLEYBALL",
       "units": "1 UNIT",
@@ -407,6 +416,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-57C-1UNIT",
       "course_code": "KIN PE 57C",
       "course_title": "ADVANCED VOLLEYBALL",
       "units": "1 UNIT",
@@ -446,6 +456,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-59B-1UNIT",
       "course_code": "KIN PE 59B",
       "course_title": "INTERMEDIATE BEACH VOLLEYBALL",
       "units": "1 UNIT",
@@ -485,6 +496,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-59C-1UNIT",
       "course_code": "KIN PE 59C",
       "course_title": "ADVANCED BEACH VOLLEYBALL",
       "units": "1 UNIT",

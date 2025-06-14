@@ -3,6 +3,7 @@
   "program_description": "Historians study, assess, and interpret the past to determine what happened and why. They examine court documents, diaries, letters, and newspaper accounts; they conduct research, write, teach, evaluate and make recommendations. Schools, universities, libraries, museums, government offices, and private enterprise are some of the job settings for history majors. Some related career titles include archivist, biographer, congressional aide, Foreign Service officer, FBI/CIA agent, lobbyist, and genealogist agent.",
   "courses": [
     {
+      "course_id": "HIST-1-3UNIT",
       "course_code": "HIST 1",
       "course_title": "HISTORY OF WESTERN CIVILIZATION I",
       "units": "3 UNITS",
@@ -191,6 +192,7 @@
       ]
     },
     {
+      "course_id": "HIST-2-3UNIT",
       "course_code": "HIST 2",
       "course_title": "HISTORY OF WESTERN CIVILIZATION II",
       "units": "3 UNITS",
@@ -332,6 +334,7 @@
       ]
     },
     {
+      "course_id": "HIST-3-3UNIT",
       "course_code": "HIST 3",
       "course_title": "BRITISH CIVILIZATION I",
       "units": "3 UNITS",
@@ -371,6 +374,7 @@
       ]
     },
     {
+      "course_id": "HIST-6-3UNIT",
       "course_code": "HIST 6",
       "course_title": "HISTORY OF LATIN AMERICA 2",
       "units": "3 UNITS",
@@ -412,6 +416,7 @@
       ]
     },
     {
+      "course_id": "HIST-10-3UNIT",
       "course_code": "HIST 10",
       "course_title": "ETHNICITY AND AMERICAN CULTURE",
       "units": "3 UNITS",
@@ -623,6 +628,7 @@
       ]
     },
     {
+      "course_id": "HIST-11-3UNIT",
       "course_code": "HIST 11",
       "course_title": "UNITED STATES HISTORY THROUGH RECONSTRUCTION",
       "units": "3 UNITS",
@@ -788,6 +794,7 @@
       ]
     },
     {
+      "course_id": "HIST-12-3UNIT",
       "course_code": "HIST 12",
       "course_title": "THE UNITED STATES HISTORY SINCE RECONSTRUCTION",
       "units": "3 UNITS",
@@ -946,6 +953,7 @@
       ]
     },
     {
+      "course_id": "HIST-14-3UNIT",
       "course_code": "HIST 14",
       "course_title": "U.S. ENVIRONMENTAL HISTORY",
       "units": "3 UNITS",
@@ -988,6 +996,7 @@
       ]
     },
     {
+      "course_id": "HIST-15-3UNIT",
       "course_code": "HIST 15",
       "course_title": "ECONOMIC HISTORY OF THE U.S.",
       "units": "3 UNITS",
@@ -1029,6 +1038,7 @@
       ]
     },
     {
+      "course_id": "HIST-16-3UNIT",
       "course_code": "HIST 16",
       "course_title": "AFRICAN-AMERICAN HISTORY",
       "units": "3 UNITS",
@@ -1068,6 +1078,7 @@
       ]
     },
     {
+      "course_id": "HIST-22-3UNIT",
       "course_code": "HIST 22",
       "course_title": "HISTORY OF THE MIDDLE EAST",
       "units": "3 UNITS",
@@ -1107,6 +1118,7 @@
       ]
     },
     {
+      "course_id": "HIST-24-3UNIT",
       "course_code": "HIST 24",
       "course_title": "HISTORY OF EAST ASIA TO 1600",
       "units": "3 UNITS",
@@ -1146,6 +1158,7 @@
       ]
     },
     {
+      "course_id": "HIST-28-3UNIT",
       "course_code": "HIST 28",
       "course_title": "MODERN EUROPE: 1914 TO THE PRESENT",
       "units": "3 UNITS",
@@ -1185,6 +1198,7 @@
       ]
     },
     {
+      "course_id": "HIST-32-3UNIT",
       "course_code": "HIST 32",
       "course_title": "GLOBAL ENVIRONMENTAL HISTORY",
       "units": "3 UNITS",
@@ -1227,6 +1241,7 @@
       ]
     },
     {
+      "course_id": "HIST-33-3UNIT",
       "course_code": "HIST 33",
       "course_title": "WORLD CIVILIZATIONS I",
       "units": "3 UNITS",
@@ -1266,6 +1281,7 @@
       ]
     },
     {
+      "course_id": "HIST-34-3UNIT",
       "course_code": "HIST 34",
       "course_title": "WORLD CIVILIZATIONS II",
       "units": "3 UNITS",
@@ -1307,6 +1323,7 @@
       ]
     },
     {
+      "course_id": "HIST-41-3UNIT",
       "course_code": "HIST 41",
       "course_title": "NATIVE-AMERICAN HISTORY",
       "units": "3 UNITS",
@@ -1346,6 +1363,7 @@
       ]
     },
     {
+      "course_id": "HIST-43-3UNIT",
       "course_code": "HIST 43",
       "course_title": "MEXICAN-AMERICAN HISTORY",
       "units": "3 UNITS",
@@ -1385,6 +1403,7 @@
       ]
     },
     {
+      "course_id": "HIST-51-3UNIT",
       "course_code": "HIST 51",
       "course_title": "LGBTQ U.S. HISTORY",
       "units": "3 UNITS",
@@ -1424,6 +1443,7 @@
       ]
     },
     {
+      "course_id": "HIST-53-3UNIT",
       "course_code": "HIST 53",
       "course_title": "THE HISTORY OF RELIGION",
       "units": "3 UNITS",

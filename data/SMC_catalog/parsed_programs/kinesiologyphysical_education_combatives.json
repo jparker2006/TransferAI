@@ -3,6 +3,7 @@
   "program_description": "See also “Professional Courses in Kinesiology/Physical Education” (PRO CR) and “Varsity Intercollegiate Athletics” (VAR/PE). *Maximum UC transfer credit for any or all KIN PE courses combined is four units unless otherwise noted.",
   "courses": [
     {
+      "course_id": "KIN-PE-34A-1UNIT",
       "course_code": "KIN PE 34A",
       "course_title": "KARATE",
       "units": "1 UNIT",
@@ -42,6 +43,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-34B-1UNIT",
       "course_code": "KIN PE 34B",
       "course_title": "INTERMEDIATE KARATE",
       "units": "1 UNIT",
@@ -81,6 +83,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-34C-1UNIT",
       "course_code": "KIN PE 34C",
       "course_title": "ADVANCED INTERMEDIATE KARATE",
       "units": "1 UNIT",
@@ -120,6 +123,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-34D-1UNIT",
       "course_code": "KIN PE 34D",
       "course_title": "ADVANCED KARATE",
       "units": "1 UNIT",
@@ -158,6 +162,7 @@
       ]
     },
     {
+      "course_id": "KIN-PE-41W-1UNIT",
       "course_code": "KIN PE 41W",
       "course_title": "SELF DEFENSE – WOMEN",
       "units": "1 UNIT",

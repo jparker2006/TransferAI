@@ -3,6 +3,7 @@
   "program_description": "The Photography program teaches the dynamics of visual communication to illustrate ideas, record events, articulate stories, express moods, sell products, and interpret a person’s character. Courses stress technical knowledge, proficiency in camera control, digital and analog capture methods, artificial light control, and image manipulation.",
   "courses": [
     {
+      "course_id": "PHOTO-1-3UNIT",
       "course_code": "PHOTO 1",
       "course_title": "INTRODUCTION TO PHOTOGRAPHY",
       "units": "3 UNITS",
@@ -178,6 +179,7 @@
       ]
     },
     {
+      "course_id": "PHOTO-2-2UNIT",
       "course_code": "PHOTO 2",
       "course_title": "BASIC BLACK AND WHITE DARKROOM TECHNIQUES",
       "units": "2 UNITS",
@@ -268,6 +270,7 @@
       ]
     },
     {
+      "course_id": "PHOTO-13-3UNIT",
       "course_code": "PHOTO 13",
       "course_title": "NEWS PHOTOGRAPHY",
       "units": "3 UNITS",
@@ -309,6 +312,7 @@
       ]
     },
     {
+      "course_id": "PHOTO-14-3UNIT",
       "course_code": "PHOTO 14",
       "course_title": "PHOTOGRAPHY FOR PUBLICATION",
       "units": "3 UNITS",
@@ -356,6 +360,7 @@
       ]
     },
     {
+      "course_id": "PHOTO-21-4UNIT",
       "course_code": "PHOTO 21",
       "course_title": "ALTERNATIVE PHOTOGRAPHIC PROCESSES",
       "units": "4 UNITS",
@@ -400,6 +405,7 @@
       ]
     },
     {
+      "course_id": "PHOTO-30-4UNIT",
       "course_code": "PHOTO 30",
       "course_title": "TECHNIQUES OF LIGHTING: INTRODUCTION",
       "units": "4 UNITS",
@@ -455,6 +461,7 @@
       ]
     },
     {
+      "course_id": "PHOTO-32-4UNIT",
       "course_code": "PHOTO 32",
       "course_title": "LIGHTING FOR PEOPLE 2",
       "units": "4 UNITS",
@@ -499,6 +506,7 @@
       ]
     },
     {
+      "course_id": "PHOTO-33-4UNIT",
       "course_code": "PHOTO 33",
       "course_title": "LIGHTING FOR PRODUCTS",
       "units": "4 UNITS",
@@ -543,6 +551,7 @@
       ]
     },
     {
+      "course_id": "PHOTO-34-4UNIT",
       "course_code": "PHOTO 34",
       "course_title": "CAPTURE TO COMPOSITE",
       "units": "4 UNITS",
@@ -587,6 +596,7 @@
       ]
     },
     {
+      "course_id": "PHOTO-39-3UNIT",
       "course_code": "PHOTO 39",
       "course_title": "BEGINNING PHOTOSHOP",
       "units": "3 UNITS",
@@ -676,6 +686,7 @@
       ]
     },
     {
+      "course_id": "PHOTO-43-3UNIT",
       "course_code": "PHOTO 43",
       "course_title": "PORTFOLIO DEVELOPMENT",
       "units": "3 UNITS",
@@ -714,6 +725,7 @@
       ]
     },
     {
+      "course_id": "PHOTO-50-4UNIT",
       "course_code": "PHOTO 50",
       "course_title": "BASIC COLOR PRINTING",
       "units": "4 UNITS",
@@ -756,6 +768,7 @@
       ]
     },
     {
+      "course_id": "PHOTO-52-3UNIT",
       "course_code": "PHOTO 52",
       "course_title": "HISTORY OF PHOTOGRAPHY",
       "units": "3 UNITS",
@@ -837,6 +850,7 @@
       ]
     },
     {
+      "course_id": "PHOTO-60-3UNIT",
       "course_code": "PHOTO 60",
       "course_title": "BUSINESS PRACTICES IN PHOTOGRAPHY",
       "units": "3 UNITS",
@@ -875,6 +889,7 @@
       ]
     },
     {
+      "course_id": "PHOTO-70-3UNIT",
       "course_code": "PHOTO 70",
       "course_title": "INTRO TO VIDEO FOR PHOTOGRAPHERS",
       "units": "3 UNITS",
@@ -913,6 +928,7 @@
       ]
     },
     {
+      "course_id": "PHOTO-71-3UNIT",
       "course_code": "PHOTO 71",
       "course_title": "INTRO TO VIDEO EDITING FOR PHOTOGRAPHERS",
       "units": "3 UNITS",
@@ -951,6 +967,7 @@
       ]
     },
     {
+      "course_id": "PHOTO-88B-2UNIT-1",
       "course_code": "PHOTO 88B",
       "course_title": "INDEPENDENT STUDIES IN PHOTOGRAPHY",
       "units": "2 UNITS",
