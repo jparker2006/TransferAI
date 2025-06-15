@@ -68,8 +68,9 @@ class SMCCatalogParser:
         self.small_headers = []  # Track smaller program headers marked with ~
         self.parsing_warnings = []  # Track potential parsing issues
         
-        # Create output directory if it doesn't exist
-        os.makedirs(output_dir, exist_ok=True)
+        # Directory to hold rarely-used or archived reference JSON files (e.g. Independent Studies)
+        self.archived_dir = os.path.join(output_dir, "extra_refs")
+        os.makedirs(self.archived_dir, exist_ok=True)
     
     def add_warning(self, warning: str):
         """Add a parsing warning for later review"""
@@ -550,6 +551,9 @@ class SMCCatalogParser:
         # persist each program to disk.  Generating IDs *after* all courses are known
         # allows us to reliably detect duplicates across different programs.
         self.assign_course_ids()
+
+        # NEW: Replace placeholder "Independent Studies" references in course descriptions
+        self._replace_independent_studies_descriptions()
 
         for program in self.programs:
             self.save_program_json(program)
@@ -2242,7 +2246,12 @@ class SMCCatalogParser:
         # Create filename from program name
         filename = re.sub(r'[^\w\s-]', '', program.program_name)
         filename = re.sub(r'[-\s]+', '_', filename).lower()
-        filepath = os.path.join(self.output_dir, f"{filename}.json")
+
+        # Independent Studies, Internships, and similar reference programs are written to the extra_refs folder
+        if program.program_name.strip().lower().startswith(("independent studies", "internships")):
+            filepath = os.path.join(self.archived_dir, f"{filename}.json")
+        else:
+            filepath = os.path.join(self.output_dir, f"{filename}.json")
         
         # Convert to dict for JSON serialization
         program_dict = {
@@ -2300,29 +2309,32 @@ class SMCCatalogParser:
     
     def save_small_headers_json(self):
         """Save all small headers to a separate JSON file"""
-        # Create cross_references subfolder if it doesn't exist
-        cross_ref_dir = os.path.join(self.output_dir, "cross_references")
-        os.makedirs(cross_ref_dir, exist_ok=True)
-        
-        filepath = os.path.join(cross_ref_dir, "cross_references.json")
-        
-        # Convert to dict for JSON serialization
-        small_headers_data = {
-            "small_headers": [
-                {
-                    "header_name": header.header_name,
-                    "description": header.description
-                }
-                for header in self.small_headers
-            ],
-            "count": len(self.small_headers)
-        }
-        
-        # Save to JSON file
+        # Use the archived_refs sub-folder for these rarely accessed references
+        filepath = os.path.join(self.archived_dir, "cross_references.json")
+
+        # Build a simple lookup table: header_name -> canonical program reference
+        cross_ref_map: Dict[str, str] = {}
+
+        for header in self.small_headers:
+            desc = header.description.strip()
+
+            # Attempt to extract the referenced program from patterns like:
+            # "Please see listing under "Biological Sciences."" or
+            # "Please see listing under \"Kinesiology/Physical Education.\""
+            target_match = re.search(r'under\s+["\"\']?([^.]+?)\.', desc, re.IGNORECASE)
+            if target_match:
+                target_program = target_match.group(1).strip()
+                cross_ref_map[header.header_name] = target_program
+            else:
+                # If we cannot parse a target, fall back to storing the full description
+                # so the information is not lost (client code can decide whether to use it)
+                cross_ref_map[header.header_name] = desc
+
+        # Save mapping to JSON
         with open(filepath, 'w', encoding='utf-8') as f:
-            json.dump(small_headers_data, f, indent=2, ensure_ascii=False)
-        
-        print(f"Saved {len(self.small_headers)} cross-references to {filepath}")
+            json.dump(cross_ref_map, f, indent=2, ensure_ascii=False)
+
+        print(f"Saved {len(cross_ref_map)} cross-reference entries to {filepath}")
     
     def establish_co_enrollment_relationships(self, course: Course):
         """Establish co-enrollment relationships between sections based on notes"""
@@ -3035,6 +3047,85 @@ class SMCCatalogParser:
 
                 course.course_id = unique_candidate
                 assigned_ids.add(unique_candidate)
+
+    def _replace_independent_studies_descriptions(self):
+        """
+        Replace placeholder descriptions that instruct the reader to "see Independent Studies section"
+        with the full Independent Studies program description.  This ensures that every course has
+        a self-contained, meaningful description rather than an external reference.
+        """
+        # Attempt to locate the Independent Studies program description that already exists in
+        # the parsed data.  Fall back to a hard-coded default if, for some reason, it is missing.
+        independent_desc = None
+        for prog in self.programs:
+            if prog.program_name.strip().lower().startswith("independent studies"):
+                independent_desc = prog.program_description.strip()
+                break
+
+        # Hard-coded fallback (matches the verbiage provided by the user).
+        if not independent_desc:
+            independent_desc = (
+                "Independent study is intended for advanced students interested in doing independent "
+                "research on special study topics. To be eligible, a student must demonstrate to the "
+                "department chairperson the competence to do independent study. To apply for Independent "
+                "Studies, the student is required, in a petition that may be obtained from the department "
+                "chair, to state objectives to be achieved, activities and procedures to accomplish the "
+                "study project, and the means by which the supervising instructor may assess accomplishment. "
+                "Please see department listing for details. A maximum of six units of independent studies is "
+                "allowed. Granting of UC transfer credit for an Independent Studies course is contingent "
+                "upon an evaluation of the course outline by a UC campus."
+            )
+
+        placeholder_re = re.compile(r'^Please\s+see.+Independent\s+Studies.+section\.?.*$', re.IGNORECASE)
+
+        for prog in self.programs:
+            for course in prog.courses:
+                if course.description and placeholder_re.match(course.description.strip()):
+                    course.description = independent_desc
+                    self.add_warning(
+                        f"Replaced Independent Studies placeholder description for {course.course_code} in {prog.program_name}")
+
+        # Build list of (regex, replacement_text) tuples for each placeholder type we support
+        internship_desc = None
+        for prog in self.programs:
+            if prog.program_name.strip().lower().startswith("internships"):
+                internship_desc = prog.program_description.strip()
+                break
+
+        # Hard-coded fallback (mirrors catalog wording) if internships program not found
+        if not internship_desc:
+            internship_desc = (
+                "The Internship Program at Santa Monica College makes it possible for students to enhance "
+                "their classroom learning and earn college credit by working in on and off campus jobs. "
+                "Students must arrange an approved internship with an employer prior to enrolling in this "
+                "class. Each unit of credit requires the student to work a minimum of 60 hour of unpaid "
+                "(volunteer) work or 75 hours of paid work throughout the semester. F-1 international "
+                "students must see an International Student Services Specialist at the International "
+                "Education Center for pre-approval before securing an internship and enrolling in internship "
+                "courses. Students may enroll in a maximum of 4 units of internship credits per semester, "
+                "and a total of 8 internship units may be applied toward the Associate degree. See an "
+                "academic counselor for transfer credit limitations. Internships are graded on a pass/no "
+                "pass basis only. Please see smc.edu/internship for additional information and for the "
+                "internship orientation schedule. Go to smc.edu/hiresmc to find jobs and internships or "
+                "visit the Career Services Center for assistance."
+            )
+
+        replacement_rules = [
+            (re.compile(r'^Please\s+see.+Independent\s+Studies.+section\.?.*$', re.IGNORECASE), independent_desc),
+            (re.compile(r'^Please\s+see.+Internships.+section\.?.*$', re.IGNORECASE), internship_desc),
+        ]
+
+        for prog in self.programs:
+            for course in prog.courses:
+                if not course.description:
+                    continue
+                desc_stripped = course.description.strip()
+                for regex, replacement in replacement_rules:
+                    if regex.match(desc_stripped):
+                        course.description = replacement
+                        self.add_warning(
+                            f"Replaced placeholder description for {course.course_code} in {prog.program_name} using '{regex.pattern.split('+')[2].strip()}'.")
+                        break
 
 
 

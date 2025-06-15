@@ -1,0 +1,424 @@
+{
+  "test_results": {
+    "semantic_equivalence": {
+      "passed": 8,
+      "failed": 2,
+      "details": [
+        {
+          "query1": "Calculus I",
+          "query2": "Differential Calculus",
+          "overlap_ratio": 0.9,
+          "threshold": 0.6,
+          "passed": true,
+          "common_courses": 9
+        },
+        {
+          "query1": "Computer Science",
+          "query2": "Programming",
+          "overlap_ratio": 0.5,
+          "threshold": 0.4,
+          "passed": true,
+          "common_courses": 5
+        },
+        {
+          "query1": "English Composition",
+          "query2": "Writing",
+          "overlap_ratio": 0.1,
+          "threshold": 0.5,
+          "passed": false,
+          "common_courses": 1
+        },
+        {
+          "query1": "General Chemistry",
+          "query2": "Chemistry I",
+          "overlap_ratio": 0.9,
+          "threshold": 0.7,
+          "passed": true,
+          "common_courses": 9
+        },
+        {
+          "query1": "Introduction to Psychology",
+          "query2": "Psychology",
+          "overlap_ratio": 0.9,
+          "threshold": 0.6,
+          "passed": true,
+          "common_courses": 9
+        },
+        {
+          "query1": "Statistics",
+          "query2": "Statistical Analysis",
+          "overlap_ratio": 0.6,
+          "threshold": 0.5,
+          "passed": true,
+          "common_courses": 6
+        },
+        {
+          "query1": "Linear Algebra",
+          "query2": "Matrix Theory",
+          "overlap_ratio": 0.2,
+          "threshold": 0.4,
+          "passed": false,
+          "common_courses": 2
+        },
+        {
+          "query1": "Organic Chemistry",
+          "query2": "Chemistry II",
+          "overlap_ratio": 1.0,
+          "threshold": 0.3,
+          "passed": true,
+          "common_courses": 10
+        },
+        {
+          "query1": "Data Structures",
+          "query2": "Algorithms",
+          "overlap_ratio": 0.6,
+          "threshold": 0.3,
+          "passed": true,
+          "common_courses": 6
+        },
+        {
+          "query1": "American History",
+          "query2": "US History",
+          "overlap_ratio": 0.9,
+          "threshold": 0.8,
+          "passed": true,
+          "common_courses": 9
+        }
+      ]
+    },
+    "transfer_articulation": {
+      "passed": 7,
+      "failed": 1,
+      "details": [
+        {
+          "query": "calculus for engineering students",
+          "results_count": 10,
+          "min_results": 3,
+          "keyword_relevance": 1.0,
+          "passed": true,
+          "top_courses": [
+            "MATH 7",
+            "MATH 28",
+            "PHYSCS 8"
+          ]
+        },
+        {
+          "query": "general education biology with lab",
+          "results_count": 10,
+          "min_results": 2,
+          "keyword_relevance": 1.0,
+          "passed": true,
+          "top_courses": [
+            "BIOL 3",
+            "BIOL 21",
+            "BIOL 22"
+          ]
+        },
+        {
+          "query": "introductory computer science programming",
+          "results_count": 10,
+          "min_results": 3,
+          "keyword_relevance": 1.0,
+          "passed": true,
+          "top_courses": [
+            "CS 7",
+            "CS 3",
+            "CS 50"
+          ]
+        },
+        {
+          "query": "english composition transfer requirement",
+          "results_count": 10,
+          "min_results": 2,
+          "keyword_relevance": 1.0,
+          "passed": true,
+          "top_courses": [
+            "SPAN 3",
+            "ESL 906",
+            "ESL 905"
+          ]
+        },
+        {
+          "query": "statistics for social sciences",
+          "results_count": 10,
+          "min_results": 2,
+          "keyword_relevance": 0.4,
+          "passed": false,
+          "top_courses": [
+            "STAT C1000",
+            "STAT C1000",
+            "SOCIOL 4"
+          ]
+        },
+        {
+          "query": "organic chemistry prerequisite",
+          "results_count": 10,
+          "min_results": 1,
+          "keyword_relevance": 1.0,
+          "passed": true,
+          "top_courses": [
+            "CHEM 21",
+            "CHEM 19",
+            "CHEM 22"
+          ]
+        },
+        {
+          "query": "art history general education",
+          "results_count": 10,
+          "min_results": 1,
+          "keyword_relevance": 1.0,
+          "passed": true,
+          "top_courses": [
+            "AHIS 3",
+            "AHIS 71",
+            "AHIS 18"
+          ]
+        },
+        {
+          "query": "microeconomics principles",
+          "results_count": 10,
+          "min_results": 1,
+          "keyword_relevance": 0.8,
+          "passed": true,
+          "top_courses": [
+            "ECON 1",
+            "ECON 2",
+            "ECON 88A"
+          ]
+        }
+      ]
+    },
+    "precision_recall_quality": {
+      "passed": 3,
+      "failed": 0,
+      "details": [
+        {
+          "query": "MATH 150 calculus",
+          "precision": 1.0,
+          "recall_proxy": 1.0,
+          "relevant_count": 10,
+          "irrelevant_count": 0,
+          "total_results": 10,
+          "passed": true
+        },
+        {
+          "query": "CS 101 programming",
+          "precision": 1.0,
+          "recall_proxy": 1.0,
+          "relevant_count": 10,
+          "irrelevant_count": 0,
+          "total_results": 10,
+          "passed": true
+        },
+        {
+          "query": "ENGL 1A composition",
+          "precision": 0.9,
+          "recall_proxy": 0.9,
+          "relevant_count": 9,
+          "irrelevant_count": 0,
+          "total_results": 10,
+          "passed": true
+        }
+      ],
+      "avg_precision": 0.9666666666666667,
+      "avg_recall_proxy": 0.9666666666666667
+    },
+    "robustness_edge_cases": {
+      "passed": 9,
+      "failed": 4,
+      "details": [
+        {
+          "query": "calculas",
+          "expected_similar": "calculus",
+          "results_count": 5,
+          "passed": true,
+          "avg_score": "1.1382502"
+        },
+        {
+          "query": "chemisty",
+          "expected_similar": "chemistry",
+          "results_count": 5,
+          "passed": true,
+          "avg_score": "1.1480151"
+        },
+        {
+          "query": "programing",
+          "expected_similar": "programming",
+          "results_count": 5,
+          "passed": true,
+          "avg_score": "1.019481"
+        },
+        {
+          "query": "calc",
+          "expected_similar": "calculus",
+          "results_count": 5,
+          "passed": true,
+          "avg_score": "1.3191909"
+        },
+        {
+          "query": "comp sci",
+          "expected_similar": "computer science",
+          "results_count": 5,
+          "passed": false,
+          "avg_score": "1.392675"
+        },
+        {
+          "query": "psych",
+          "expected_similar": "psychology",
+          "results_count": 5,
+          "passed": true,
+          "avg_score": "1.2573195"
+        },
+        {
+          "query": "math",
+          "expected_similar": null,
+          "results_count": 5,
+          "passed": false,
+          "avg_score": "1.0509409"
+        },
+        {
+          "query": "cs",
+          "expected_similar": null,
+          "results_count": 5,
+          "passed": false,
+          "avg_score": "1.2237473"
+        },
+        {
+          "query": "eng",
+          "expected_similar": null,
+          "results_count": 5,
+          "passed": false,
+          "avg_score": "1.3832271"
+        },
+        {
+          "query": "advanced calculus based physics with laboratory component for engineering majors",
+          "expected_similar": null,
+          "results_count": 5,
+          "passed": true,
+          "avg_score": "0.73680574"
+        },
+        {
+          "query": "",
+          "expected_similar": null,
+          "results_count": 5,
+          "passed": true,
+          "avg_score": "1.5325079"
+        },
+        {
+          "query": "123456789",
+          "expected_similar": null,
+          "results_count": 5,
+          "passed": true,
+          "avg_score": "1.7179697"
+        },
+        {
+          "query": "!@#$%^&*()",
+          "expected_similar": null,
+          "results_count": 5,
+          "passed": true,
+          "avg_score": "1.657617"
+        }
+      ]
+    },
+    "metadata_consistency": {
+      "total_docs": 98,
+      "complete_docs": 0,
+      "missing_required": {
+        "course_title": 98,
+        "units": 5
+      },
+      "missing_optional": {
+        "description": 98,
+        "prerequisites": 73
+      },
+      "field_stats": {
+        "course_id": 100.0,
+        "course_code": 100.0,
+        "course_title": 0.0,
+        "units": 94.89795918367348,
+        "program_name": 100.0,
+        "description": 0.0,
+        "prerequisites": 25.510204081632654
+      }
+    },
+    "course_level_understanding": {
+      "passed": 2,
+      "failed": 2,
+      "details": [
+        {
+          "intro_query": "introduction to psychology",
+          "advanced_query": "advanced psychology research methods",
+          "overlap_ratio": 0.4,
+          "expect_different": true,
+          "passed": true
+        },
+        {
+          "intro_query": "calculus I",
+          "advanced_query": "calculus III multivariable",
+          "overlap_ratio": 0.8,
+          "expect_different": true,
+          "passed": false
+        },
+        {
+          "intro_query": "general chemistry",
+          "advanced_query": "physical chemistry",
+          "overlap_ratio": 0.8,
+          "expect_different": true,
+          "passed": false
+        },
+        {
+          "intro_query": "computer science 101",
+          "advanced_query": "advanced algorithms",
+          "overlap_ratio": 0.4,
+          "expect_different": true,
+          "passed": true
+        }
+      ]
+    }
+  },
+  "report": {
+    "overall_success_rate": 76.31578947368422,
+    "total_tests": 38,
+    "total_passed": 29,
+    "category_performance": {
+      "semantic_equivalence": {
+        "success_rate": 80.0,
+        "passed": 8,
+        "total": 10
+      },
+      "transfer_articulation": {
+        "success_rate": 87.5,
+        "passed": 7,
+        "total": 8
+      },
+      "precision_recall_quality": {
+        "success_rate": 100.0,
+        "passed": 3,
+        "total": 3
+      },
+      "robustness_edge_cases": {
+        "success_rate": 69.23076923076923,
+        "passed": 9,
+        "total": 13
+      },
+      "course_level_understanding": {
+        "success_rate": 50.0,
+        "passed": 2,
+        "total": 4
+      }
+    },
+    "recommendations": [
+      "Focus on areas scoring below 70%",
+      "Implement query preprocessing",
+      "Enhance course level detection"
+    ],
+    "strengths": [
+      "transfer_articulation",
+      "precision_recall_quality"
+    ],
+    "weaknesses": [
+      "robustness_edge_cases",
+      "course_level_understanding"
+    ]
+  }
+}
