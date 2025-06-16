@@ -367,5 +367,5 @@ __all__ = [
 if __name__ == "__main__":  # pragma: no cover – manual debug run
     import json as _json
 
-    res = CourseSearchTool.invoke({"query": "Spanish", "top_k": 5})
+    res = CourseSearchTool.invoke({"query": "Introductory chemistry", "top_k": 5})
     print(_json.dumps(res, indent=2, ensure_ascii=False))

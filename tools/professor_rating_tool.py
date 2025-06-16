@@ -190,10 +190,13 @@ def _query_professors(
 
         # Step 2: Convert catalog names (e.g., "supat w") to (last, initial) keys.
         instructor_keys = set()
+        last_names = set()
         for name in instructors_from_catalog:
             parts = name.split()
             if len(parts) >= 2:
-                instructor_keys.add((parts[0], parts[1][0]))  # ('supat', 'w')
+                last, first_initial = parts[0], parts[1][0]
+                instructor_keys.add((last, first_initial))
+                last_names.add(last)
 
         # Step 3: Filter RMP data by matching on the (last, initial) key.
         filtered_rmp = []
@@ -202,8 +205,10 @@ def _query_professors(
             prof_parts = prof_name_norm.split()
             if len(prof_parts) >= 2:
                 # RMP name is "first last", so key is (last, first_initial)
-                rmp_key = (prof_parts[-1], prof_parts[0][0])
-                if rmp_key in instructor_keys:
+                last = prof_parts[-1]
+                first_initial = prof_parts[0][0]
+                rmp_key = (last, first_initial)
+                if rmp_key in instructor_keys or last in last_names:
                     filtered_rmp.append(prof)
         rmp_data = filtered_rmp
 
