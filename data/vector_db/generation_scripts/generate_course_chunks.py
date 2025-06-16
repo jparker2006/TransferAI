@@ -242,4 +242,28 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main() 
+    main()
+
+# ---------------------------------------------------------------------------
+# Content builders
+# ---------------------------------------------------------------------------
+
+
+def build_page_content(course: Dict[str, Any]) -> str:
+    """Return a human-readable string representing the *course* for embedding.
+
+    Format: "COURSE_CODE – COURSE_TITLE. DESCRIPTION" (description optional).
+    """
+
+    code = course.get("course_code") or ""
+    title = course.get("course_title") or course.get("title") or ""
+    pieces = []
+    if code:
+        pieces.append(str(code).strip())
+    if title:
+        pieces.append(str(title).strip())
+
+    header = " – ".join(pieces)
+    description = (course.get("description") or "").strip()
+
+    return f"{header}. {description}".strip().rstrip(".") 
