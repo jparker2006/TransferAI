@@ -20,7 +20,7 @@ simple keyword / natural-language search interface.
 from pathlib import Path
 import logging
 from functools import lru_cache
-from typing import List, Optional, Dict, Any
+from typing import List, Optional, Dict
 import sys
 
 from langchain_core.tools import StructuredTool
@@ -41,6 +41,10 @@ except Exception:  # noqa: BLE001
     HuggingFaceEmbeddings = None  # type: ignore
 
 from langchain_community.vectorstores import FAISS
+
+# Hybrid lexical → semantic retrieval
+from rank_bm25 import BM25Okapi
+import numpy as np
 
 # ---------------------------------------------------------------------------
 # Ensure project root importable when executed directly ----------------------
@@ -71,6 +75,9 @@ _RAW_K = 10
 # Publicly exposed maximum results
 _TOP_K = 5
 
+# How many BM25 docs to re-rank via embeddings
+_BM25_CANDIDATES = 20
+
 # ---------------------------------------------------------------------------
 # Pydantic I/O Schemas -------------------------------------------------------
 # ---------------------------------------------------------------------------
@@ -80,10 +87,6 @@ class FAQIn(BaseModel):  # noqa: D401
     """Input parameters for :pyattr:`FAQSearchTool`."""
 
     query: str = Field(..., description="Keyword, phrase, or natural-language question to search.")
-    category: Optional[str] = Field(
-        None,
-        description="(Deprecated) Category hint – currently ignored by the search logic.",
-    )
 
 
 class FAQMatch(BaseModel):  # noqa: D401
@@ -154,48 +157,72 @@ def _load_vectorstore() -> FAISS:  # noqa: D401
 
 
 # ---------------------------------------------------------------------------
-# Core search helper --------------------------------------------------------
+# BM25 loader ---------------------------------------------------------------
 # ---------------------------------------------------------------------------
 
-def _similarity_search(query: str, category: Optional[str] | None = None) -> List[FAQMatch]:  # noqa: D401
-    """Return the top similarity-based FAQ matches (category hint is ignored)."""
+
+@lru_cache(maxsize=1)
+def _load_bm25() -> tuple[List[Document], BM25Okapi]:  # noqa: D401
+    """Build and cache a BM25 index over the entire FAQ corpus (tiny)."""
 
     vect = _load_vectorstore()
+    docs: List[Document] = list(vect.docstore._dict.values())  # type: ignore[attr-defined]
+    corpus_tokens = [d.page_content.lower().split() for d in docs]
+    bm25 = BM25Okapi(corpus_tokens)
+    return docs, bm25
 
-    # ------------------------------------------------------------------
-    # 1. Raw semantic search -------------------------------------------
-    # ------------------------------------------------------------------
 
-    try:
-        docs_and_scores = vect.similarity_search_with_score(query, k=_RAW_K)
-    except Exception as exc:  # noqa: BLE001
-        logger.error("Vectorstore search failed: %s", exc)
+# ---------------------------------------------------------------------------
+# Hybrid search helper ------------------------------------------------------
+# ---------------------------------------------------------------------------
+
+
+def _hybrid_search(query: str) -> List[FAQMatch]:  # noqa: D401
+    """BM25 lexical pre-filter followed by semantic re-ranking."""
+
+    # ------------------------- 1) BM25 filter -------------------------
+    docs, bm25 = _load_bm25()
+    tokens = query.lower().split()
+    bm25_scores = bm25.get_scores(tokens)  # ndarray[float]
+
+    # Indices of top-N BM25 docs (descending score)
+    top_idx = np.argsort(bm25_scores)[::-1][: _BM25_CANDIDATES]
+
+    if len(top_idx) == 0:
         return []
 
+    cand_docs = [docs[i] for i in top_idx]
+
+    # ------------------------- 2) Semantic rank ------------------------
+    embedder = _load_embedder()
+    q_vec = np.asarray(embedder.embed_query(query), dtype=np.float32)
+    cand_vecs = np.asarray(
+        embedder.embed_documents([d.page_content for d in cand_docs]), dtype=np.float32
+    )
+
+    # Cosine similarities
+    q_vec /= np.linalg.norm(q_vec) + 1e-10
+    cand_vecs /= np.linalg.norm(cand_vecs, axis=1, keepdims=True) + 1e-10
+    sims = cand_vecs @ q_vec  # shape (num_cand,)
+
+    # ------------------------- 3) Assemble results --------------------
+    ranked_idx = np.argsort(sims)[::-1][: _TOP_K]
+
     matches: List[FAQMatch] = []
-
-    for doc, dist in docs_and_scores:
+    for idx in ranked_idx:
+        doc = cand_docs[idx]
+        sim = sims[idx]
         meta = doc.metadata or {}
-
-        doc_cat = (meta.get("category") or "").strip()
-
-        # Convert FAISS L2 distance into cosine similarity estimate if the
-        # index was built with normalised vectors (common).  When in doubt,
-        # provide 1-distance so that higher is better.
-        similarity = 1.0 - float(dist) if dist is not None else None
 
         matches.append(
             FAQMatch(
                 question=meta.get("question", ""),
                 answer=meta.get("answer", doc.page_content),
-                category=doc_cat or None,
+                category=(meta.get("category") or "").strip() or None,
                 source=meta.get("source", meta.get("url")),
-                score=round(similarity, 4) if similarity is not None else None,
+                score=round(float(sim), 4),
             )
         )
-
-        if len(matches) >= _TOP_K:
-            break  # Stop once we have enough
 
     return matches
 
@@ -204,12 +231,12 @@ def _similarity_search(query: str, category: Optional[str] | None = None) -> Lis
 # Tool entry point ----------------------------------------------------------
 # ---------------------------------------------------------------------------
 
-def _search_faq(*, query: str, category: Optional[str] = None):  # type: ignore[override]
+def _search_faq(*, query: str):  # type: ignore[override]
     """Public function exposed via :class:`StructuredTool`."""
 
-    logger.info("FAQ search invoked | query='%s' | category='%s'", query, category)
+    logger.info("FAQ search invoked | query='%s'", query)
 
-    hits = _similarity_search(query=query, category=category)
+    hits = _hybrid_search(query=query)
     logger.info("FAQ search returned %d hit(s)", len(hits))
 
     return FAQOut(matches=hits).model_dump(mode="json")
@@ -218,7 +245,7 @@ def _search_faq(*, query: str, category: Optional[str] = None):  # type: ignore[
 FAQSearchTool: StructuredTool = StructuredTool.from_function(
     func=_search_faq,
     name="faq_search",
-    description="Search across all SMC FAQ sources using semantic similarity only.",
+    description="Hybrid BM25 + embedding search across SMC FAQ corpus.",
     args_schema=FAQIn,
     return_schema=FAQOut,
 )
@@ -233,6 +260,6 @@ if __name__ == "__main__":  # pragma: no cover – manual debug run
     import json as _json
 
     tool = FAQSearchTool
-    sample = {"query": "What happens if I miss a class?"}
+    sample = {"query": "academic probation"}
     res = tool.invoke(sample)
     print(_json.dumps(res, indent=2, ensure_ascii=False))
