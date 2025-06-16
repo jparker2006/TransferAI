@@ -1,0 +1,293 @@
+/* Base styles for TransferAI Chat UI */
+
+:root {
+    --bg-dark: #0e0f11;
+    --sidebar-bg: #111214;
+    --card-bg: #1b1d21;
+    --accent-green: #8DAC50;
+    --accent-purple: #613B6F;
+    --text-primary: #e5e7eb;
+    --text-secondary: #9ca3af;
+    --blur-bg: rgba(20,20,20,0.4);
+    --sidebar-width: 260px;
+}
+
+/* Global reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: var(--text-primary);
+    background: var(--bg-dark);
+}
+
+#Body {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Sidebar */
+.SidebarWrapper {
+    width: 260px;
+    background: var(--sidebar-bg);
+    display: flex;
+    flex-direction: column;
+    padding: 24px 16px 32px 16px;
+    border-right: 1px solid #2a2a2a;
+}
+
+/* Sidebar header (logo + collapse) */
+.SidebarHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.CollapseBtn {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.CollapseBtn:hover {
+    color: var(--accent-green);
+}
+
+/* logo inside header */
+.LogoImage {
+    width: 32px;
+    height: 32px;
+}
+
+.NavList {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 0;
+}
+
+.NavItem {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: var(--text-primary);
+    font-weight: 500;
+    transition: background 0.2s, color 0.2s;
+}
+
+.NavItem:hover {
+    background: rgba(255,255,255,0.05);
+    color: var(--accent-green);
+}
+
+.NavLabel {
+    flex: 1;
+}
+
+.SidebarFooter {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: auto;
+}
+
+.ProfileCircle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--accent-purple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+.PlanLabel {
+    font-size: 0.85rem;
+    color: #374151;
+}
+
+/* Main Content */
+.MainContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    padding: 24px 32px 0 32px; /* remove bottom padding, chat area handles it */
+}
+
+.ChatHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ChatArea {
+    flex: 1;
+    overflow-y: auto;
+    padding-right: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 200px; /* space for fixed bar */
+}
+
+/* Chat Bubbles */
+.ChatBubble {
+    max-width: 70%;
+    padding: 12px 16px;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.ChatBubble.user {
+    background: var(--accent-purple);
+    align-self: flex-end;
+    color: #fff;
+}
+
+.ChatBubble.agent {
+    background: var(--card-bg);
+    align-self: flex-start;
+}
+
+/* Tool Cards */
+.ToolCard {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 16px 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    border-left: 4px solid var(--accent-purple);
+}
+
+.ToolCardHeader {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.ToolName {
+    color: var(--accent-green);
+    margin-left: auto;
+    font-size: 0.8rem;
+}
+
+/* Input Bar */
+.ChatInputContainer {
+    position: fixed;
+    left: calc(var(--sidebar-width) + 16px); /* 16px gutter after sidebar */
+    right: 32px;
+    bottom: 24px;
+    display: flex;
+    justify-content: center;
+    pointer-events: none; /* allow internal elements handle events */
+}
+
+/* Pill wrapper inside to constrain width */
+.ChatInputContainer::before { content: ""; }
+
+.ChatInputInner {
+    position: relative;
+    width: calc(100% - 64px); /* keep internal padding */
+    max-width: 700px;
+    pointer-events: auto;
+    padding: 12px 56px 12px 56px; /* icon paddings */
+    border-radius: 9999px;
+    background: var(--blur-bg);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.6);
+    flex-shrink: 0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.MicIcon, .SendIcon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: color 0.2s, transform 0.2s;
+}
+
+.MicIcon { left: 20px; }
+.SendIcon { right: 20px; }
+
+.SendIcon:hover, .MicIcon:hover { color: var(--accent-green); transform: translateY(-50%) scale(1.15); }
+
+.ChatInput {
+    width: 100%;
+    min-height: 24px;
+    max-height: 160px;
+    overflow-y: auto;
+    resize: none;
+    border: none;
+    background: transparent;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    line-height: 1.4;
+    outline: none;
+}
+
+.ChatInputContainer:focus-within .ChatInputInner {
+    box-shadow: 0 0 0 2px var(--accent-purple), 0 4px 16px rgba(0,0,0,0.6);
+}
+
+/* send icon disabled */
+#SendIcon.sendDisabled { opacity:0.35; cursor:default; pointer-events:none; }
+#SendIcon:not(.sendDisabled) { color: var(--accent-green); }
+
+/* typing cursor pulse */
+@keyframes caretBlink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.ChatInput::placeholder {
+    color: var(--text-secondary);
+}
+
+.sendDisabled {
+    color: var(--text-secondary);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .SidebarWrapper {
+        width: 60px;
+        padding: 16px 8px;
+    }
+    .NavLabel {
+        display: none;
+    }
+    .PlanLabel {
+        display: none;
+    }
+    .LogoImage {
+        width: 36px;
+    }
+}
+
+/* Responsive adjustment for very narrow screens */
+@media (max-width: 900px) {
+    .ChatInputInner {
+        width: calc(100% - 64px);
+        max-width: none;
+    }
+}
+
+/* override sidebar width when collapsed */
+body.sidebar-collapsed {
+    --sidebar-width: 64px;
+} 
