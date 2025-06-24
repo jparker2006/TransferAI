@@ -1,0 +1,16 @@
+[
+    {
+        "id": "n1",
+        "tool": "course_search_tool",
+        "args": {
+            "query": "CS 31"
+        },
+        "depends_on": []
+    },
+    {
+        "id": "n2",
+        "tool": "llm_step",
+        "args": {},
+        "depends_on": ["n1"]
+    }
+] 

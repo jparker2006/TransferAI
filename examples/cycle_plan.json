@@ -1,0 +1,14 @@
+[
+  {
+    "id": "n1",
+    "tool": "llm_step",
+    "args": {},
+    "depends_on": ["n2"]
+  },
+  {
+    "id": "n2",
+    "tool": "llm_step",
+    "args": {},
+    "depends_on": ["n1"]
+  }
+] 
