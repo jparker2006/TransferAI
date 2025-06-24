@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GlossaryTool Input",
+  "description": "Input parameters for GlossaryTool – term or phrase to look up in glossary.",
+  "type": "object",
+  "properties": {
+    "query": {
+      "type": "string",
+      "description": "Word, phrase, or question to look up in the glossary."
+    }
+  },
+  "required": ["query"],
+  "additionalProperties": false
+} 

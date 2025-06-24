@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UnitCalculatorTool Input",
+  "description": "Input parameters for UnitCalculatorTool – list of course codes to sum units.",
+  "type": "object",
+  "properties": {
+    "course_codes": {
+      "type": "array",
+      "description": "List of course codes (at least one) whose credit units will be summed.",
+      "items": { "type": "string" },
+      "minItems": 1
+    }
+  },
+  "required": ["course_codes"],
+  "additionalProperties": false
+} 

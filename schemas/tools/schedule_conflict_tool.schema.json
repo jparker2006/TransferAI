@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ScheduleConflictTool Input",
+  "description": "Input parameters for ScheduleConflictTool – list of section schedule blocks as arrays of meeting objects containing 'days' and 'time'.",
+  "type": "object",
+  "properties": {
+    "sections": {
+      "type": "array",
+      "description": "Array of section schedule lists; each schedule list is an array of meeting dictionaries.",
+      "minItems": 1,
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "days": {
+              "type": "string",
+              "description": "Meeting days code (e.g., 'MW', 'TTh', 'N')."
+            },
+            "time": {
+              "type": "string",
+              "description": "Meeting time range, e.g., '9:30a.m.-11:55a.m.' or 'Arrange'."
+            }
+          },
+          "required": ["days", "time"],
+          "additionalProperties": true
+        }
+      }
+    }
+  },
+  "required": ["sections"],
+  "additionalProperties": false
+} 

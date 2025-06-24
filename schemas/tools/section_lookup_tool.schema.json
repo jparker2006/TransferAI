@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SectionLookupTool Input",
+  "description": "Input parameters for SectionLookupTool – course code whose sections should be returned.",
+  "type": "object",
+  "properties": {
+    "course_code": {
+      "type": "string",
+      "description": "Canonical or raw course code, e.g., 'MATH 7'."
+    }
+  },
+  "required": ["course_code"],
+  "additionalProperties": false
+} 

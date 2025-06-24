@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BreadthCoverageTool Input",
+  "description": "Input parameters for BreadthCoverageTool – list of student courses.",
+  "type": "object",
+  "properties": {
+    "student_courses": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of completed SMC course codes (e.g., ['ENGL 1', 'MATH 7'])."
+    }
+  },
+  "required": ["student_courses"],
+  "additionalProperties": false
+} 

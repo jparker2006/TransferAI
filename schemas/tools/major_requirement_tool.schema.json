@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MajorRequirementTool Input",
+  "description": "Input parameters for MajorRequirementTool – UCSD major name.",
+  "type": "object",
+  "properties": {
+    "major_name": {
+      "type": "string",
+      "description": "UC San Diego major name to look up (e.g., 'Computer Science B.S.')."
+    }
+  },
+  "required": ["major_name"],
+  "additionalProperties": false
+} 

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Directed Acyclic Graph Node",
+  "description": "Schema describing a single node within an execution DAG for Admitr tooling.",
+  "type": "object",
+  "required": ["id", "tool", "args", "depends_on"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "A unique identifier for this node."
+    },
+    "tool": {
+      "type": "string",
+      "description": "The name of the tool this node invokes."
+    },
+    "args": {
+      "type": "object",
+      "description": "Arguments to pass to the specified tool."
+    },
+    "depends_on": {
+      "type": "array",
+      "description": "List of node IDs that this node depends on.",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false,
+  "examples": [
+    {
+      "id": "node_1",
+      "tool": "course_search_tool",
+      "args": {
+        "query": "CS 31"
+      },
+      "depends_on": []
+    }
+  ]
+}

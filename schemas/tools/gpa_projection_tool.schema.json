@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GPAProjectionTool Input",
+  "description": "Input parameters for GPAProjectionTool – calculate projected GPA after planned courses.",
+  "type": "object",
+  "properties": {
+    "current_gpa": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 4,
+      "description": "Current cumulative GPA on a 4.0 scale (0–4)."
+    },
+    "units_completed": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "description": "Total graded units already completed (must be > 0)."
+    },
+    "planned_courses": {
+      "type": "array",
+      "minItems": 0,
+      "description": "List of planned courses (may be empty).",
+      "items": {
+        "type": "object",
+        "properties": {
+          "course_code": {
+            "type": "string",
+            "description": "SMC course code, e.g., 'MATH 8'."
+          },
+          "units": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Semester credit units (non-negative; zero-unit courses are ignored in GPA)."
+          },
+          "letter_grade": {
+            "type": "string",
+            "description": "Expected letter grade (e.g., 'A', 'B+', 'P')."
+          }
+        },
+        "required": ["course_code", "units", "letter_grade"],
+        "additionalProperties": false
+      }
+    },
+    "gpa_type": {
+      "type": "string",
+      "enum": ["smc", "uc"],
+      "description": "Which GPA scale to use: 'smc' (simple 4-point) or 'uc' (plus/minus scale)."
+    }
+  },
+  "required": ["current_gpa", "units_completed", "planned_courses", "gpa_type"],
+  "additionalProperties": false
+} 

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ProfessorRatingTool Input",
+  "description": "Input parameters for ProfessorRatingTool – instructor name, department, or course code to filter professors. At least one parameter should be provided.",
+  "type": "object",
+  "properties": {
+    "instructor_name": {
+      "type": "string",
+      "description": "Full or partial instructor name to search."
+    },
+    "department": {
+      "type": "string",
+      "description": "Department name, e.g., 'Mathematics'."
+    },
+    "course_code": {
+      "type": "string",
+      "description": "SMC course code (e.g., 'ACCTG 1') to list instructors teaching it."
+    }
+  },
+  "required": [],
+  "additionalProperties": false,
+  "anyOf": [
+    {"required": ["instructor_name"]},
+    {"required": ["department"]},
+    {"required": ["course_code"]}
+  ]
+} 

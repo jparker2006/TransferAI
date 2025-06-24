@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ArticulationMatchTool Input",
+  "description": "Input parameters required by the ArticulationMatchTool.",
+  "type": "object",
+  "properties": {
+    "smc_courses": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of completed SMC course codes (e.g., ['CS 55', 'MATH 7', 'MATH 8'])."
+    },
+    "target_major": {
+      "type": "string",
+      "description": "Target UCSD major name (e.g., 'Computer Science B.S.')."
+    }
+  },
+  "required": ["smc_courses", "target_major"],
+  "additionalProperties": false
+} 

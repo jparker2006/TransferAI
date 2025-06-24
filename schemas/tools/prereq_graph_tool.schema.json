@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PrereqGraphTool Input",
+  "description": "Input parameters for PrereqGraphTool – course code to analyze prerequisite graph.",
+  "type": "object",
+  "properties": {
+    "course_code": {
+      "type": "string",
+      "description": "Course code to inspect (e.g., 'MATH 7')."
+    }
+  },
+  "required": ["course_code"],
+  "additionalProperties": false
+} 

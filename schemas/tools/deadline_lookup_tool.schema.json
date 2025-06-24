@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DeadlineLookupTool Input",
+  "description": "Input parameters for DeadlineLookupTool – natural-language search query for deadlines.",
+  "type": "object",
+  "properties": {
+    "query": {
+      "type": "string",
+      "description": "Natural-language search query (e.g., 'July 15 deadlines', 'fafsa due')."
+    }
+  },
+  "required": ["query"],
+  "additionalProperties": false
+} 
