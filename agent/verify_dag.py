@@ -30,10 +30,57 @@ class DAGValidationError(ValueError):
 # Load schemas at module level for efficiency
 _SCHEMA_ROOT = Path(__file__).parent.parent / "schemas"
 DAG_SCHEMA = json.loads((_SCHEMA_ROOT / "dag_node.schema.json").read_text())
-TOOL_SCHEMAS = {
+
+# Load tool schemas with flexible name mapping
+_RAW_TOOL_SCHEMAS = {
     p.stem.replace(".schema", ""): json.loads(p.read_text())
     for p in (_SCHEMA_ROOT / "tools").glob("*.schema.json")
 }
+
+# Create a mapping that handles both naming patterns
+TOOL_SCHEMAS = {}
+for schema_name, schema_data in _RAW_TOOL_SCHEMAS.items():
+    # Add the original schema name (e.g., "course_search_tool")
+    TOOL_SCHEMAS[schema_name] = schema_data
+    
+    # Also add without _tool suffix if it has one (e.g., "course_search")
+    if schema_name.endswith("_tool"):
+        base_name = schema_name[:-5]  # Remove "_tool" suffix
+        TOOL_SCHEMAS[base_name] = schema_data
+
+
+def _find_tool_schema(tool_name: str) -> Dict:
+    """Find schema for a tool name, handling naming variations.
+    
+    Args:
+        tool_name: Tool name from DAG node
+        
+    Returns:
+        Schema dictionary
+        
+    Raises:
+        DAGValidationError: If no schema found for the tool
+    """
+    # Try direct lookup first
+    if tool_name in TOOL_SCHEMAS:
+        return TOOL_SCHEMAS[tool_name]
+    
+    # Try with _tool suffix
+    tool_with_suffix = f"{tool_name}_tool"
+    if tool_with_suffix in TOOL_SCHEMAS:
+        return TOOL_SCHEMAS[tool_with_suffix]
+    
+    # Try without _tool suffix
+    if tool_name.endswith("_tool"):
+        base_name = tool_name[:-5]
+        if base_name in TOOL_SCHEMAS:
+            return TOOL_SCHEMAS[base_name]
+    
+    # If nothing found, raise error with available options
+    available_tools = sorted(set(TOOL_SCHEMAS.keys()))
+    raise DAGValidationError(
+        f"Unknown tool '{tool_name}'. Available: {available_tools}"
+    )
 
 
 def validate_node(node: Dict) -> None:
@@ -61,15 +108,13 @@ def validate_node(node: Dict) -> None:
     if tool_name == "llm_step":
         return
 
-    # Validate tool exists
-    if tool_name not in TOOL_SCHEMAS:
-        available_tools = sorted(TOOL_SCHEMAS.keys())
-        raise DAGValidationError(
-            f"Unknown tool '{tool_name}'. Available: {available_tools}", node_id
-        )
+    # Find and validate against tool schema
+    try:
+        tool_schema = _find_tool_schema(tool_name)
+    except DAGValidationError as e:
+        raise DAGValidationError(e.reason, node_id)
 
     # Validate args against tool schema
-    tool_schema = TOOL_SCHEMAS[tool_name]
     args = node.get("args", {})
 
     try:
@@ -193,6 +238,6 @@ if __name__ == "__main__":
         except DAGValidationError as e:
             print(f"✗ Sample DAG validation failed: {e.reason}")
 
-    print(f"\nLoaded {len(TOOL_SCHEMAS)} tool schemas:")
-    for tool_name in sorted(TOOL_SCHEMAS.keys()):
+    print(f"\nLoaded {len(set(TOOL_SCHEMAS.keys()))} unique tool schemas:")
+    for tool_name in sorted(set(TOOL_SCHEMAS.keys())):
         print(f"  - {tool_name}")

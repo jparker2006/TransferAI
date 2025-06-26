@@ -36,3 +36,7 @@ rapidfuzz>=3.5.0
 rank_bm25>=0.2.2
 dateparser>=1.1.8
 python-dateutil>=2.9.0
+
+# LLM integration
+openai>=1.14
+python-dotenv>=1.0

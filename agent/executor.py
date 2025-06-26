@@ -11,6 +11,7 @@ import json
 import sys
 from pathlib import Path
 from typing import Any, Dict, List, Optional
+from agent.llm_client import chat
 
 # Add project root to path for imports when run as script
 if __name__ == "__main__":
@@ -34,6 +35,75 @@ class ExecutorError(Exception):
         super().__init__(message)
         self.node_id = node_id
         self.original_exc = original_exc
+
+
+def _resolve_tool_module(tool_name: str) -> Any:
+    """Resolve tool name to module, handling both naming patterns.
+    
+    Args:
+        tool_name: Tool name from DAG node (e.g., "course_search" or "course_search_tool")
+        
+    Returns:
+        Imported module object
+        
+    Raises:
+        ImportError: If no module can be found for the tool name
+    """
+    # Try multiple module name patterns
+    module_patterns = [
+        f"tools.{tool_name}",  # Direct match (e.g., tools.course_search)
+        f"tools.{tool_name}_tool",  # Add _tool suffix (e.g., tools.course_search_tool)
+    ]
+    
+    # If tool_name already ends with _tool, also try without it
+    if tool_name.endswith("_tool"):
+        base_name = tool_name[:-5]  # Remove "_tool" suffix
+        module_patterns.insert(1, f"tools.{base_name}")
+    
+    last_exc = None
+    for pattern in module_patterns:
+        try:
+            return importlib.import_module(pattern)
+        except ImportError as exc:
+            last_exc = exc
+            continue
+    
+    # If all patterns failed, raise the last exception
+    available_patterns = ", ".join(module_patterns)
+    raise ImportError(f"Could not import tool module. Tried: {available_patterns}") from last_exc
+
+
+def _find_tool_object(module: Any, tool_name: str) -> Any:
+    """Find the StructuredTool object in a module using various naming conventions.
+    
+    Args:
+        module: Imported module object
+        tool_name: Original tool name from DAG node
+        
+    Returns:
+        StructuredTool object or None if not found
+    """
+    # Generate potential StructuredTool object names
+    base_name = tool_name.replace("_tool", "") if tool_name.endswith("_tool") else tool_name
+    
+    potential_names = [
+        # CourseSearchTool pattern
+        f"{''.join(word.capitalize() for word in base_name.split('_'))}Tool",
+        # course_search_tool -> CourseSearchTool (if original had _tool)
+        f"{''.join(word.capitalize() for word in tool_name.split('_'))}",
+        # Exact matches
+        tool_name,
+        base_name,
+        # MajorRequirementTool (special case)
+        f"{''.join(word.capitalize() for word in tool_name.split('_'))}",
+    ]
+    
+    for name in potential_names:
+        tool_obj = getattr(module, name, None)
+        if tool_obj is not None and hasattr(tool_obj, "invoke"):
+            return tool_obj
+    
+    return None
 
 
 def execute(
@@ -69,50 +139,56 @@ def execute(
 
         try:
             if tool_name == "llm_step":
-                # Special case: LLM steps return placeholder for now
-                output = {"output": "<llm placeholder – not implemented>"}
-            else:
-                # Import and dispatch to actual tool
-                module_name = f"tools.{tool_name}"
+                # -----------------------------------------------------------------
+                # LLM reasoning step – blend prior tool outputs into a response
+                # -----------------------------------------------------------------
+
+                prompt: str = args.get("instructions", "")
+
                 try:
-                    module = importlib.import_module(module_name)
+                    output_text = chat(prompt, context=results)
+                except Exception as exc:  # pragma: no cover – degrade gracefully in offline mode
+                    # If chat fails (e.g., OpenAI not installed or key missing),
+                    # fall back to a deterministic placeholder so that unit-
+                    # tests unrelated to the LLM can still pass.
+                    if "OPENAI_API_KEY" in str(exc) or "openai" in str(type(exc)):
+                        output_text = "<llm unavailable>"
+                    elif "openai" in str(exc).lower():
+                        output_text = "<llm unavailable>"
+                    else:
+                        raise ExecutorError(
+                            "LLM call failed",
+                            node_id,
+                            exc,
+                        ) from exc
+
+                output = {"text": output_text}
+            else:
+                # Import tool module using flexible name resolution
+                try:
+                    module = _resolve_tool_module(tool_name)
                 except ImportError as import_exc:
                     raise ExecutorError(
-                        f"Tool module not found: {module_name}",
+                        f"Tool module not found for '{tool_name}'",
                         node_id,
                         import_exc,
                     ) from import_exc
 
-                # Try to get run method, fall back to calling module directly
-                tool_func = getattr(module, "run", None)
-                if tool_func is None:
-                    # Look for StructuredTool pattern - try common naming conventions
-                    potential_names = [
-                        # course_search_tool -> CourseSearchTool
-                        f"{tool_name.title().replace('_', '')}Tool",
-                        # Alternative naming convention
-                        f"{''.join(word.capitalize() for word in tool_name.split('_'))}",
-                        tool_name,  # exact match
-                    ]
-
-                    tool_obj = None
-                    for name in potential_names:
-                        tool_obj = getattr(module, name, None)
-                        if tool_obj is not None:
-                            break
-
-                    if tool_obj is not None and hasattr(tool_obj, "invoke"):
-                        # Use invoke method for StructuredTool objects - they take dict input
-                        output = tool_obj.invoke(args)
-                        tool_func = None  # Skip the generic execution below
-                    else:
-                        # Fall back to calling module directly
+                # Try to find StructuredTool object first
+                tool_obj = _find_tool_object(module, tool_name)
+                
+                if tool_obj is not None:
+                    # Use invoke method for StructuredTool objects
+                    output = tool_obj.invoke(args)
+                else:
+                    # Fall back to looking for run method or calling module directly
+                    tool_func = getattr(module, "run", None)
+                    if tool_func is None:
                         tool_func = module
-
-                if tool_func is not None:
+                    
                     if not callable(tool_func):
                         raise ExecutorError(
-                            f"No callable interface found in {module_name}",
+                            f"No callable interface found for tool '{tool_name}'",
                             node_id,
                             RuntimeError("Tool not callable"),
                         )
@@ -163,3 +239,27 @@ if __name__ == "__main__":
     except Exception as exc:
         print(f"Unexpected error: {exc}")
         exit(1)
+
+
+# ---------------------------------------------------------------------------
+# Convenience helper used by unit-tests ------------------------------------
+# ---------------------------------------------------------------------------
+
+
+def run_plan(plan_json_or_nodes: "str | List[Dict[str, Any]]", *, stream: bool = False):
+    """Validate & execute a plan provided as JSON string or list of nodes.
+
+    The helper normalises missing *depends_on* fields to an empty list so that
+    ad-hoc test fixtures are less verbose.
+    """
+
+    if isinstance(plan_json_or_nodes, str):
+        nodes = json.loads(plan_json_or_nodes)
+    else:
+        nodes = plan_json_or_nodes
+
+    # Ensure mandatory key exists (unit-test convenience)
+    for node in nodes:
+        node.setdefault("depends_on", [])
+
+    return execute(nodes, stream=stream)

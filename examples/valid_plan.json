@@ -1,9 +1,9 @@
 [
     {
         "id": "n1",
-        "tool": "course_search_tool",
+        "tool": "course_search",
         "args": {
-            "query": "CS 31"
+            "query": "Derivatives and integrals"
         },
         "depends_on": []
     },
