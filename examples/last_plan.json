@@ -1,0 +1,33 @@
+[
+  {
+    "id": "node1",
+    "tool": "major_requirement",
+    "args": {
+      "major_name": "Computer Science"
+    },
+    "depends_on": []
+  },
+  {
+    "id": "node2",
+    "tool": "articulation_match",
+    "args": {
+      "smc_courses": [
+        "ENGL 1",
+        "MATH 31"
+      ],
+      "target_major": "Computer Science B.S."
+    },
+    "depends_on": []
+  },
+  {
+    "id": "node3",
+    "tool": "llm_step",
+    "args": {
+      "instructions": "Using the major requirements for Computer Science at UCSD and the articulation match results, determine which courses the student should take next semester to progress towards transfer."
+    },
+    "depends_on": [
+      "node1",
+      "node2"
+    ]
+  }
+]

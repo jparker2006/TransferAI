@@ -214,9 +214,20 @@ def execute(
 
 
 if __name__ == "__main__":
-    """Demo execution with examples/valid_plan.json if present."""
-
-    plan_path = Path("examples/valid_plan.json")
+    """Execute a plan from a JSON file.
+    
+    Usage:
+        python -m agent.executor [plan_file.json]
+        
+    If no file is specified, defaults to examples/valid_plan.json
+    """
+    import sys
+    
+    # Get plan file from command line argument or use default
+    if len(sys.argv) > 1:
+        plan_path = Path(sys.argv[1])
+    else:
+        plan_path = Path("examples/valid_plan.json")
 
     if not plan_path.exists():
         print(f"No plan file found at {plan_path}")
