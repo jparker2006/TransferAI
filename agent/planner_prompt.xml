@@ -28,11 +28,6 @@ The following tools are auto-generated from the codebase. Each tool shows its na
     <Example>{ "student_courses": [] }</Example>
     <!-- Allowed keys: student_courses -->
   </Tool>
-  <Tool name="compose_answer">
-    <Description>Generate a polished Markdown answer from structured summary data. Takes JSON summary of findings (sections, ratings, etc.) and optional instructions to produce a student-facing response.</Description>
-    <Example>{ "summary_json": "<string>", "instructions": "<string>", "tone": "<string>" }</Example>
-    <!-- Allowed keys: summary_json, instructions, tone -->
-  </Tool>
   <Tool name="course_detail">
     <Description>Return the catalog record (title, units, prereqs, etc.) for a Santa Monica College or UCSD course. Input: course_code.</Description>
     <Example>{ "course_code": "<string>" }</Example>

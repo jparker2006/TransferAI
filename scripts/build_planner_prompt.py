@@ -70,20 +70,18 @@ def _json_placeholder(json_type: str | List[str]) -> str:  # noqa: D401, C901
     # If ``type`` is a list, take the first entry for placeholder purposes.
     if isinstance(json_type, list):
         json_type = json_type[0]
-
-    match json_type:  # noqa: WPS523 – modern Python match-case
-        case "string":
-            return '"<string>"'
-        case "integer" | "number":
-            return "0"
-        case "boolean":
-            return "false"
-        case "array":
-            return "[]"
-        case "object":
-            return "{}"
-        case _:
-            return "null"  # Fallback for unknown/complex types
+    if json_type == "string":
+        return '"<string>"'
+    elif json_type in ("integer", "number"):
+        return "0"
+    elif json_type == "boolean":
+        return "false"
+    elif json_type == "array":
+        return "[]"
+    elif json_type == "object":
+        return "{}"
+    else:
+        return "null"  # Fallback for unknown/complex types
 
 
 def _generate_example(args_schema: Dict) -> str:  # noqa: D401
