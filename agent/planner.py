@@ -61,12 +61,12 @@ def _get_openai_client():
         return None  # Use global openai module
 
 
-def get_plan(question: str, *, model: str = "gpt-4o", temperature: float = 0.1) -> List[Dict[str, Any]]:
+def get_plan(question: str, *, model: str = "o3") -> List[Dict[str, Any]]:
     """Generate a DAG plan from a user question using OpenAI.
     
     Args:
         question: User's question about course planning/transfer
-        model: OpenAI model to use (default: gpt-4o)
+        model: OpenAI model to use (default: o3)
         temperature: Sampling temperature (default: 0.1 for consistency)
         
     Returns:
@@ -97,8 +97,6 @@ def get_plan(question: str, *, model: str = "gpt-4o", temperature: float = 0.1) 
             response = client.chat.completions.create(
                 model=model,
                 messages=messages,
-                response_format={"type": "json_object"},
-                temperature=temperature,
             )
             content = response.choices[0].message.content
         else:
@@ -106,14 +104,31 @@ def get_plan(question: str, *, model: str = "gpt-4o", temperature: float = 0.1) 
             response = openai.ChatCompletion.create(
                 model=model,
                 messages=messages,
-                response_format={"type": "json_object"},
-                temperature=temperature,
             )
             content = response.choices[0].message.content
             
     except Exception as exc:
         raise RuntimeError(f"OpenAI API call failed: {exc}") from exc
     
+    # Extract JSON content – handle <start_json> token and any prefix/suffix
+    if "<start_json>" in content:
+        # Keep everything after the token
+        content = content.split("<start_json>", 1)[1].lstrip()
+
+    # Sometimes the model wraps the array in markdown fences; strip them
+    if content.startswith("```"):
+        content = content.strip("`\n ")
+
+    # Find first '[' or '{'
+    first_brace_idx = None
+    for ch in ("[", "{"):
+        idx = content.find(ch)
+        if idx != -1 and (first_brace_idx is None or idx < first_brace_idx):
+            first_brace_idx = idx
+
+    if first_brace_idx is not None:
+        content = content[first_brace_idx:]
+
     # Parse JSON response
     try:
         plan_data = json.loads(content)

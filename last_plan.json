@@ -1,0 +1,45 @@
+[
+  {
+    "id": "sec_lookup_math8",
+    "tool": "section_lookup",
+    "args": {
+      "course_code": "MATH 8"
+    },
+    "depends_on": []
+  },
+  {
+    "id": "prof_ratings_math8",
+    "tool": "professor_rating",
+    "args": {
+      "course_code": "MATH 8"
+    },
+    "depends_on": []
+  },
+  {
+    "id": "analysis",
+    "tool": "llm_step",
+    "args": {
+      "instructions": "1) From sec_lookup_math8, list all MATH 8 sections with their section numbers, meeting days/times, and instructor names. 2) From prof_ratings_math8, identify the instructor(s) with the highest average rating (use difficulty and would-take-again as tie-breakers if needed). 3) Filter the sections to those that DO NOT overlap with the student’s existing class time: Monday and Wednesday 9:00–10:25 AM. A conflict exists if any part of a MATH 8 meeting falls within that MW 9:00-10:25 window. 4) Produce a concise JSON summary with keys: \"top_instructors\" (array of instructor names), \"non_conflicting_sections\" (array of objects with section_number, days, time_range, instructor), and \"rationale\" (one-sentence explanation)."
+    },
+    "depends_on": [
+      "sec_lookup_math8",
+      "prof_ratings_math8"
+    ]
+  },
+  {
+    "id": "final_answer",
+    "tool": "compose_answer",
+    "args": {
+      "tool_outputs": {
+        "sections": "...",
+        "ratings": "...",
+        "analysis": "..."
+      },
+      "instructions": "Present the highest-rated MATH 8 instructors and list the available sections that avoid conflicts with the student’s CS 50 class (MW 9:00-10:25 AM). Use a friendly, concise tone with markdown bullet points and a brief recommendation to enroll early.",
+      "tone": "friendly_markdown"
+    },
+    "depends_on": [
+      "analysis"
+    ]
+  }
+]
