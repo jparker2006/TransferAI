@@ -221,13 +221,28 @@ if __name__ == "__main__":
         
     If no file is specified, defaults to examples/valid_plan.json
     """
-    import sys
-    
-    # Get plan file from command line argument or use default
-    if len(sys.argv) > 1:
-        plan_path = Path(sys.argv[1])
-    else:
-        plan_path = Path("examples/valid_plan.json")
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        prog="agent.executor",
+        description="Validate and execute a plan, optionally saving results.",
+    )
+    parser.add_argument(
+        "plan_file",
+        nargs="?",
+        default="examples/valid_plan.json",
+        help="Path to plan JSON file (default: examples/valid_plan.json)",
+    )
+    parser.add_argument(
+        "-o",
+        "--output",
+        metavar="PATH",
+        help="If provided, write execution results to this JSON file instead of stdout.",
+    )
+
+    args = parser.parse_args()
+
+    plan_path = Path(args.plan_file)
 
     if not plan_path.exists():
         print(f"No plan file found at {plan_path}")
@@ -240,8 +255,19 @@ if __name__ == "__main__":
         print("Executing plan with streaming enabled...")
         results = execute(plan_nodes, stream=True)
 
-        print("\nFinal results:")
-        print(json.dumps(results, indent=2, ensure_ascii=False, default=str))
+        if args.output:
+            try:
+                Path(args.output).write_text(
+                    json.dumps(results, indent=2, ensure_ascii=False, default=str),
+                    encoding="utf-8",
+                )
+                print(f"\nResults written to {args.output}")
+            except OSError as exc:
+                print(f"Failed to write results to {args.output}: {exc}")
+                exit(1)
+        else:
+            print("\nFinal results:")
+            print(json.dumps(results, indent=2, ensure_ascii=False, default=str))
 
     except ExecutorError as exc:
         print(f"Execution failed on node {exc.node_id}: {exc}")

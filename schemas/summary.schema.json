@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://transferai.dev/schemas/summary.schema.json",
+  "title": "TransferAI Tool Summary",
+  "description": "Canonical schema for merged tool outputs produced by agent.helper.merge_results.",
+  "type": "object",
+  "required": ["merged_results", "metadata"],
+  "properties": {
+    "merged_results": {
+      "type": "object",
+      "description": "Merged, tool-agnostic view of all node outputs. Keys are tool names; values are tool-specific JSON-serialisable objects."
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["tool_count", "generated_at", "schema_version"],
+      "properties": {
+        "tool_count": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Distinct number of tools represented in merged_results."
+        },
+        "generated_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "UTC timestamp when summary was generated in ISO-8601 format."
+        },
+        "schema_version": {
+          "type": "string",
+          "description": "Version of this summary schema."
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+} 

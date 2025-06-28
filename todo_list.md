@@ -1,14 +1,14 @@
 ## TransferAI LLM Compiler Roadmap → Evals v1
 
 ### 1. Helper & Composer Layers (v1)
-- [ ] `agent/helper.py` – merge **≥2** tool outputs into a single summary JSON (canonical schema)
+- [x] `agent/helper.py` – merge **≥2** tool outputs into a single summary JSON (canonical schema)
   - Input: `results: Dict[node_id, output]`
   - Output: `summary_json: str`
   - Keep tool-specific merger functions in `agent/helpers/<tool>.py` for clarity
-- [ ] `agent/composer.py` (extend)
-  - [ ] Add `compose_from_execution(question, results)` convenience wrapper
-  - [ ] CLI: `python -m agent.composer results.json --question "..."`
-  - [ ] Unit test with monkey-patched `llm_client.chat`
+- [x] `agent/composer.py` (extend)
+  - [x] Add `compose_from_execution(question, results)` convenience wrapper
+  - [x] CLI: `python -m agent.composer results.json --question "..."`
+  - [x] Unit test with monkey-patched `llm_client.chat`
 
 ---
 

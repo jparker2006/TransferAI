@@ -1,21 +1,29 @@
 [
   {
-    "id": "rating_fetch",
-    "tool": "professor_rating",
+    "id": "sections_physics8",
+    "tool": "section_lookup",
     "args": {
-      "instructor_name": "Rishab Gupta",
-      "course_code": "MCRBIO 1"
+      "course_code": "PHYSCS 8"
     },
     "depends_on": []
   },
   {
-    "id": "summary",
+    "id": "ratings_physics8",
+    "tool": "professor_rating",
+    "args": {
+      "course_code": "PHYSCS 8"
+    },
+    "depends_on": []
+  },
+  {
+    "id": "select_section",
     "tool": "llm_step",
     "args": {
-      "instructions": "Using the retrieved professor rating data, provide an overall assessment of Rishab Gupta for MCRBIO 1, covering teaching effectiveness, course difficulty, student satisfaction, and whether you would recommend taking this instructor."
+      "instructions": "You have the following information: (1) The output from sections_physics8 listing all scheduled sections for PHYSCS 8, including meeting days, times, and instructor names. (2) The output from ratings_physics8 listing ratings, difficulty, and comments for instructors teaching PHYSCS 8. (3) The student's existing course HIST 1 meets Tuesdays and Thursdays from 9:30 AM to 10:55 AM. Task: (a) Identify all PHYSCS 8 sections whose scheduled meeting times do NOT overlap with the Tuesday/Thursday 9:30–10:55 AM slot. Ignore sections with \"Arrange\" or online only meetings when checking conflicts. (b) Among the non-conflicting sections, determine which instructor has the highest overall rating (use overall rating first, then would-take-again % as a tiebreaker). (c) Produce a concise recommendation specifying the section number(s) that avoid the conflict and highlighting the instructor with the best ratings, including their key rating metrics."
     },
     "depends_on": [
-      "rating_fetch"
+      "sections_physics8",
+      "ratings_physics8"
     ]
   }
 ]
