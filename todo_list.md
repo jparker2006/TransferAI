@@ -13,10 +13,10 @@
 ---
 
 ### 2. Critic + Retry (v1)
-- [ ] `agent/critic.py` – GPT-3.5 model that scores composer output 0-1
-  - Prompt with quality checklist from `composer_prompt.xml`
-- [ ] Executor wrapper: if score < 0.8 → increment `state["retries"]` and re-invoke composer once
-- [ ] Unit tests: low-score mock triggers retry path
+- [x] `agent/critic.py` – GPT-3.5 model that scores composer output 0-1
+  - Prompt with quality checklist (see `agent/checker_prompt.xml`)
+- [x] Retry wrapper: re-compose when score < 0.8 (see `agent/retry_composer.py`)
+- [x] Unit tests: low-score mock triggers retry path
 
 ---
 
