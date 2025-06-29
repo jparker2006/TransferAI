@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UserProfileTool Input",
+  "description": "Input parameters for UserProfileTool – single user ID parameter.",
+  "type": "object",
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "description": "User ID to look up (e.g., 'U01', 'U02', 'U10')."
+    }
+  },
+  "required": ["user_id"],
+  "additionalProperties": false
+} 

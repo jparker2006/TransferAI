@@ -1,0 +1,55 @@
+{
+  "id": "U10",
+  "courses": [
+    {
+      "code": "ENGL C1000",
+      "grade": "B"
+    },
+    {
+      "code": "MATH 7",
+      "grade": "C"
+    },
+    {
+      "code": "CHEM 10",
+      "grade": "W"
+    },
+    {
+      "code": "BIOL 3",
+      "grade": "A"
+    },
+    {
+      "code": "BIOL 21",
+      "grade": "B"
+    },
+    {
+      "code": "MATH 11",
+      "grade": "W"
+    },
+    {
+      "code": "PSYCH 2",
+      "grade": "B"
+    },
+    {
+      "code": "KIN PE 10A",
+      "grade": "P"
+    },
+    {
+      "code": "ANTHRO 1",
+      "grade": "A"
+    },
+    {
+      "code": "CHEM 11",
+      "grade": "C"
+    }
+  ],
+  "units_completed": 37,
+  "gpa": 2.88,
+  "current_schedule": [
+    {
+      "code": "BIOL 22",
+      "days": "MWF",
+      "time": "11:00-12:50"
+    }
+  ],
+  "major_interest": "marine_biology_bs"
+}

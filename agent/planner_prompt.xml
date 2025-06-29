@@ -93,6 +93,11 @@ The following tools are auto-generated from the codebase. Each tool shows its na
     <Example>{ "course_codes": [] }</Example>
     <!-- Allowed keys: course_codes -->
   </Tool>
+  <Tool name="user_profile">
+    <Description>Retrieve complete user profile data including courses, GPA, units completed, current schedule, and major interest. Input: user_id (e.g., &apos;U01&apos;).</Description>
+    <Example>{ "user_id": "<string>" }</Example>
+    <!-- Allowed keys: user_id -->
+  </Tool>
 </AvailableTools>
 
   <NodeSchema>
