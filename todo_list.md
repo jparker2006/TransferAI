@@ -33,10 +33,10 @@
 ---
 
 ### 4. Parallel Task Fetching Unit (v1.5)
-- [ ] Refactor `agent.executor` → async scheduler with `asyncio.gather`
+- [x] Refactor `agent.executor` → async scheduler with `asyncio.gather`
   - Publish `TaskStarted` / `TaskFinished` events to in-proc bus
   - Guarantee DAG order w/ topological ready-queue
-- [ ] Add unit test proving nodes A/B/C run concurrently when deps satisfied
+- [x] Add unit test proving nodes A/B/C run concurrently when deps satisfied
 
 ---
 

@@ -9,8 +9,11 @@ from __future__ import annotations
 import importlib
 import json
 import sys
+import asyncio
+import os
+from collections import defaultdict
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, NamedTuple
 from agent.llm_client import chat
 
 # Add project root to path for imports when run as script
@@ -19,6 +22,27 @@ if __name__ == "__main__":
     from agent.verify_dag import verify_dag
 else:
     from .verify_dag import verify_dag
+
+
+# ---------------------------------------------------------------------------
+# Event bus for parallel execution tracking ----------------------------------
+# ---------------------------------------------------------------------------
+
+
+class TaskEvent(NamedTuple):
+    type: str  # "started" or "finished"
+    node_id: str
+
+
+_EVENT_BUS: Optional[asyncio.Queue[TaskEvent]] = None
+
+
+def get_event_bus() -> asyncio.Queue[TaskEvent]:
+    """Return the shared event bus for parallel execution tracking."""
+    global _EVENT_BUS
+    if _EVENT_BUS is None:
+        _EVENT_BUS = asyncio.Queue()
+    return _EVENT_BUS
 
 
 class ExecutorError(Exception):
@@ -106,17 +130,19 @@ def _find_tool_object(module: Any, tool_name: str) -> Any:
     return None
 
 
-def execute(
+async def async_execute(
     nodes: List[Dict[str, Any]],
     initial_context: Optional[Dict[str, Any]] = None,
     stream: bool = False,
+    max_concurrency: Optional[int] = None,
 ) -> Dict[str, Any]:
-    """Execute a DAG of tool nodes topologically.
+    """Execute a DAG of tool nodes with async parallelism.
 
     Args:
         nodes: List of DAG nodes (may be unsorted)
         initial_context: Future context injection (currently unused)
-        stream: If True, prints progress as "RUN node_id ... ✅"
+        stream: If True, emits TaskStarted/TaskFinished events
+        max_concurrency: Max concurrent tasks (default from MAX_CONCURRENCY env or 4)
 
     Returns:
         Dictionary mapping node_id -> tool output
@@ -130,86 +156,156 @@ def execute(
     except Exception as exc:
         raise ExecutorError("DAG validation failed", "validation", exc) from exc
 
-    results: Dict[str, Any] = {}
+    if max_concurrency is None:
+        max_concurrency = int(os.getenv("MAX_CONCURRENCY", "4"))
 
+    # Build dependency tracking
+    node_map = {node["id"]: node for node in sorted_nodes}
+    dep_count = {node["id"]: len(node.get("depends_on", [])) for node in sorted_nodes}
+    children = defaultdict(list)
     for node in sorted_nodes:
-        node_id = node["id"]
-        tool_name = node["tool"]
-        args = node.get("args", {})
+        for dep in node.get("depends_on", []):
+            children[dep].append(node["id"])
 
-        try:
-            if tool_name == "llm_step":
-                # -----------------------------------------------------------------
-                # LLM reasoning step – blend prior tool outputs into a response
-                # -----------------------------------------------------------------
+    results: Dict[str, Any] = {}
+    ready = {node_id for node_id, count in dep_count.items() if count == 0}
+    running = set()
+    event_bus = get_event_bus() if stream else None
 
-                prompt: str = args.get("instructions", "")
+    semaphore = asyncio.Semaphore(max_concurrency)
 
-                try:
-                    output_text = chat(prompt, context=results)
-                except Exception as exc:  # pragma: no cover – degrade gracefully in offline mode
-                    # If chat fails (e.g., OpenAI not installed or key missing),
-                    # fall back to a deterministic placeholder so that unit-
-                    # tests unrelated to the LLM can still pass.
-                    if "OPENAI_API_KEY" in str(exc) or "openai" in str(type(exc)):
-                        output_text = "<llm unavailable>"
-                    elif "openai" in str(exc).lower():
-                        output_text = "<llm unavailable>"
-                    else:
-                        raise ExecutorError(
-                            "LLM call failed",
-                            node_id,
-                            exc,
-                        ) from exc
+    async def _execute_node(node_id: str) -> None:
+        async with semaphore:
+            if event_bus:
+                await event_bus.put(TaskEvent("started", node_id))
 
-                output = {"text": output_text}
-            else:
-                # Import tool module using flexible name resolution
-                try:
-                    module = _resolve_tool_module(tool_name)
-                except ImportError as import_exc:
-                    raise ExecutorError(
-                        f"Tool module not found for '{tool_name}'",
-                        node_id,
-                        import_exc,
-                    ) from import_exc
+            try:
+                node = node_map[node_id]
+                tool_name = node["tool"]
+                args = node.get("args", {})
 
-                # Try to find StructuredTool object first
-                tool_obj = _find_tool_object(module, tool_name)
-                
-                if tool_obj is not None:
-                    # Use invoke method for StructuredTool objects
-                    output = tool_obj.invoke(args)
+                if tool_name == "llm_step":
+                    # LLM reasoning step
+                    prompt: str = args.get("instructions", "")
+                    try:
+                        output_text = chat(prompt, context=results)
+                    except Exception as exc:
+                        if "OPENAI_API_KEY" in str(exc) or "openai" in str(type(exc)):
+                            output_text = "<llm unavailable>"
+                        elif "openai" in str(exc).lower():
+                            output_text = "<llm unavailable>"
+                        else:
+                            raise ExecutorError("LLM call failed", node_id, exc) from exc
+                    output = {"text": output_text}
                 else:
-                    # Fall back to looking for run method or calling module directly
-                    tool_func = getattr(module, "run", None)
-                    if tool_func is None:
-                        tool_func = module
-                    
-                    if not callable(tool_func):
+                    # Tool execution
+                    try:
+                        module = _resolve_tool_module(tool_name)
+                    except ImportError as import_exc:
                         raise ExecutorError(
-                            f"No callable interface found for tool '{tool_name}'",
-                            node_id,
-                            RuntimeError("Tool not callable"),
-                        )
+                            f"Tool module not found for '{tool_name}'", node_id, import_exc
+                        ) from import_exc
 
-                    # Execute the tool with its arguments
-                    output = tool_func(**args)
+                    tool_obj = _find_tool_object(module, tool_name)
+                    if tool_obj is not None:
+                        result = tool_obj.invoke(args)
+                        if asyncio.iscoroutine(result):
+                            output = await result
+                        else:
+                            output = result
+                    else:
+                        tool_func = getattr(module, "run", None)
+                        if tool_func is None:
+                            tool_func = module
+                        if not callable(tool_func):
+                            raise ExecutorError(
+                                f"No callable interface found for tool '{tool_name}'",
+                                node_id,
+                                RuntimeError("Tool not callable"),
+                            )
+                        result = tool_func(**args)
+                        if asyncio.iscoroutine(result):
+                            output = await result
+                        else:
+                            output = result
 
-            results[node_id] = output
+                results[node_id] = output
 
-            if stream:
-                print(f"RUN {node_id:<8} ✅")
+            except Exception as exc:
+                if isinstance(exc, ExecutorError):
+                    raise
+                raise ExecutorError(f"Execution failed for node {node_id}", node_id, exc) from exc
+            finally:
+                if event_bus:
+                    await event_bus.put(TaskEvent("finished", node_id))
 
-        except Exception as exc:
-            if isinstance(exc, ExecutorError):
+    # Main execution loop
+    while ready or running:
+        # Start all ready tasks
+        tasks = []
+        for node_id in list(ready):
+            ready.remove(node_id)
+            running.add(node_id)
+            task = asyncio.create_task(_execute_node(node_id))
+            tasks.append((node_id, task))
+
+        if not tasks:
+            # Wait for at least one running task to complete
+            if running:
+                await asyncio.sleep(0.01)
+                continue
+            else:
+                break
+
+        # Wait for tasks to complete
+        for node_id, task in tasks:
+            try:
+                await task
+                running.remove(node_id)
+
+                # Release children
+                for child_id in children[node_id]:
+                    dep_count[child_id] -= 1
+                    if dep_count[child_id] == 0:
+                        ready.add(child_id)
+
+            except Exception:
+                # Cancel all running tasks and re-raise
+                for _, t in tasks:
+                    if not t.done():
+                        t.cancel()
                 raise
-            raise ExecutorError(
-                f"Execution failed for node {node_id}",
-                node_id,
-                exc,
-            ) from exc
 
+    return results
+
+
+def execute(
+    nodes: List[Dict[str, Any]],
+    initial_context: Optional[Dict[str, Any]] = None,
+    stream: bool = False,
+    max_concurrency: Optional[int] = None,
+) -> Dict[str, Any]:
+    """Execute a DAG of tool nodes (sync wrapper for async_execute).
+
+    Args:
+        nodes: List of DAG nodes (may be unsorted)
+        initial_context: Future context injection (currently unused)
+        stream: If True, prints progress as "RUN node_id ... ✅"
+        max_concurrency: Max concurrent tasks (default from env or 4)
+
+    Returns:
+        Dictionary mapping node_id -> tool output
+
+    Raises:
+        ExecutorError: If any node fails to execute
+    """
+    results = asyncio.run(async_execute(nodes, initial_context, stream, max_concurrency))
+    
+    if stream:
+        # Print legacy progress messages for compatibility
+        for node_id in results:
+            print(f"RUN {node_id:<8} ✅")
+    
     return results
 
 
@@ -239,6 +335,12 @@ if __name__ == "__main__":
         metavar="PATH",
         help="If provided, write execution results to this JSON file instead of stdout.",
     )
+    parser.add_argument(
+        "--max-concurrency",
+        type=int,
+        metavar="N",
+        help="Maximum number of concurrent tasks (default: env MAX_CONCURRENCY or 4)",
+    )
 
     args = parser.parse_args()
 
@@ -253,7 +355,7 @@ if __name__ == "__main__":
             plan_nodes = json.load(f)
 
         print("Executing plan with streaming enabled...")
-        results = execute(plan_nodes, stream=True)
+        results = execute(plan_nodes, stream=True, max_concurrency=args.max_concurrency)
 
         if args.output:
             try:
