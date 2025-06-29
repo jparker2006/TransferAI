@@ -41,10 +41,9 @@
 ---
 
 ### 5. Iterative Re-Planner Loop (v2)
-- [ ] `agent/joiner.py` – incremental aggregator (same logic as helper) but streaming
-- [ ] `agent/replanner.py` – invoke planner again when joiner sets `needs_more_tasks`
-- [ ] Extend graph to include Joiner→Planner feedback loop; exit when `more_tasks == false` **or** retry budget exhausted
-
+- [x] `agent/joiner.py` – incremental aggregator (same logic as helper) but streaming
+- [x] `agent/replanner.py` – invoke planner again when joiner sets `needs_more_tasks`
+- [x] Extend graph to include Joiner→Planner feedback loop; exit when `more_tasks == false` **or** retry budget exhausted
 
 ---
 

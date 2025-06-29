@@ -71,11 +71,16 @@ def _stub_pipeline(monkeypatch):
 
     # Stub composer returns different drafts depending on call sequence
     drafts = ["DRAFT", "FINAL"]
+    draft_index = [0]  # Use list to make it mutable in closure
 
     def _fake_compose(*_args: Any, **_kwargs: Any):
-        return drafts.pop(0)
+        result = drafts[draft_index[0] % len(drafts)]
+        draft_index[0] += 1
+        return result
 
     monkeypatch.setattr("agent.composer.compose_from_execution", _fake_compose)
+    # Also stub the regular compose function
+    monkeypatch.setattr("agent.composer.compose", _fake_compose)
 
     # Critic first low then high
     scores = [

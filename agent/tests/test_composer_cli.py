@@ -50,6 +50,7 @@ def test_cli_roundtrip(tmp_path: Path):
     results_json_path.write_text('{"search_tool#1": {"foo": "bar"}}', encoding="utf-8")
 
     # Invoke module via subprocess so that __main__ path is taken
+    # Run from parent directory so agent module can be found
     proc = subprocess.run(
         [
             sys.executable,
@@ -61,6 +62,7 @@ def test_cli_roundtrip(tmp_path: Path):
         ],
         capture_output=True,
         text=True,
+        cwd=Path(__file__).parent.parent.parent,  # Go up to TransferAI root
     )
 
     assert proc.returncode == 0, proc.stderr
