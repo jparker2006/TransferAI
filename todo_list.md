@@ -21,14 +21,14 @@
 ---
 
 ### 3. LangGraph Pipeline (v1)
-- [ ] Add `agent/graph_runner.py` using LangGraph (or own mini framework) with 5 nodes:
+- [x] Add `agent/graph_runner.py` using LangGraph (or own mini framework) with 5 nodes:
   1. planner
   2. executor (parallel disabled initially)
   3. helper
   4. composer
   5. critic
-- [ ] Conditional edge Planner→Critic (retry) based on score
-- [ ] Helper function `run_full(question)` returning markdown
+- [x] Conditional edge Planner→Critic (retry) based on score
+- [x] Helper function `run_full(question)` returning markdown
 
 ---
 

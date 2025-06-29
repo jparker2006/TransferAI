@@ -43,3 +43,5 @@ python-dotenv>=1.0
 
 # Schema validation
 jsonschema>=4.22
+
+langgraph>=0.0.24
