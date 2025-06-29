@@ -1,0 +1,45 @@
+{
+  "id": "U02",
+  "courses": [
+    {
+      "code": "MATH 28",
+      "grade": "B"
+    },
+    {
+      "code": "MATH 7",
+      "grade": "B"
+    },
+    {
+      "code": "MATH 8",
+      "grade": "B"
+    },
+    {
+      "code": "ECON 1",
+      "grade": "A"
+    },
+    {
+      "code": "ECON 2",
+      "grade": "A"
+    },
+    {
+      "code": "ENGL C1000",
+      "grade": "A"
+    },
+    {
+      "code": "BUS 1",
+      "grade": "A"
+    },
+    {
+      "code": "ACCTG 1",
+      "grade": "B"
+    },
+    {
+      "code": "COM ST 20",
+      "grade": "A"
+    }
+  ],
+  "units_completed": 35,
+  "gpa": 3.42,
+  "current_schedule": [],
+  "major_interest": "economics_bs"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "U04",
+  "courses": [
+    {
+      "code": "BIOL 21",
+      "grade": "A"
+    },
+    {
+      "code": "BIOL 22",
+      "grade": "A"
+    },
+    {
+      "code": "BIOL 23",
+      "grade": "A"
+    },
+    {
+      "code": "CHEM 11",
+      "grade": "B"
+    },
+    {
+      "code": "CHEM 12",
+      "grade": "B"
+    },
+    {
+      "code": "MATH 7",
+      "grade": "A"
+    },
+    {
+      "code": "MATH 8",
+      "grade": "B"
+    },
+    {
+      "code": "PHYSCS 21",
+      "grade": "B"
+    },
+    {
+      "code": "ENGL C1000",
+      "grade": "A"
+    }
+  ],
+  "units_completed": 41,
+  "gpa": 3.51,
+  "current_schedule": [
+    {
+      "code": "PHYSCS 22",
+      "days": "MW",
+      "time": "1:00-4:00"
+    },
+    {
+      "code": "MATH 11",
+      "days": "TTh",
+      "time": "11:00-12:15"
+    }
+  ],
+  "major_interest": "biology_general_biology_bs"
+}

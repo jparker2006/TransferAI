@@ -1,0 +1,19 @@
+{
+  "id": "U08",
+  "courses": [],
+  "units_completed": 0,
+  "gpa": 0.0,
+  "current_schedule": [
+    {
+      "code": "ENGL C1000",
+      "days": "MW",
+      "time": "10:30-11:45"
+    },
+    {
+      "code": "MATH 7",
+      "days": "TTh",
+      "time": "1:00-3:05"
+    }
+  ],
+  "major_interest": "cse_computer_engineering_bs"
+}

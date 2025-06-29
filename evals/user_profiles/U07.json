@@ -1,0 +1,51 @@
+{
+  "id": "U07",
+  "courses": [
+    {
+      "code": "MATH 7",
+      "grade": "A"
+    },
+    {
+      "code": "MATH 8",
+      "grade": "A"
+    },
+    {
+      "code": "MATH 11",
+      "grade": "B"
+    },
+    {
+      "code": "PHYSCS 21",
+      "grade": "B"
+    },
+    {
+      "code": "PHYSCS 22",
+      "grade": "C"
+    },
+    {
+      "code": "CHEM 11",
+      "grade": "B"
+    },
+    {
+      "code": "ENGR 1",
+      "grade": "A"
+    },
+    {
+      "code": "CS 55",
+      "grade": "B"
+    },
+    {
+      "code": "ENGL C1000",
+      "grade": "B"
+    }
+  ],
+  "units_completed": 38,
+  "gpa": 3.18,
+  "current_schedule": [
+    {
+      "code": "PHYSCS 23",
+      "days": "MWF",
+      "time": "8:00-10:50"
+    }
+  ],
+  "major_interest": "mae_mechanical_engineering_bs"
+}

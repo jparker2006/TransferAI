@@ -1,0 +1,43 @@
+{
+  "id": "U05",
+  "courses": [
+    {
+      "code": "ENGL C1000",
+      "grade": "B"
+    },
+    {
+      "code": "ART 10A",
+      "grade": "A"
+    },
+    {
+      "code": "DMPOST 1",
+      "grade": "A"
+    },
+    {
+      "code": "ANIM 1",
+      "grade": "A"
+    },
+    {
+      "code": "COM ST 20",
+      "grade": "B"
+    },
+    {
+      "code": "MATH 11",
+      "grade": "C"
+    },
+    {
+      "code": "BIOL 3",
+      "grade": "C"
+    }
+  ],
+  "units_completed": 24,
+  "gpa": 2.99,
+  "current_schedule": [
+    {
+      "code": "DANCE 10",
+      "days": "MW",
+      "time": "3:00-4:30"
+    }
+  ],
+  "major_interest": "cinematic_arts_and_film_studies_cinematic_arts_ba"
+}

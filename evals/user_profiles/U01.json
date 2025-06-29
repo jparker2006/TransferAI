@@ -1,0 +1,48 @@
+{
+  "id": "U01",
+  "courses": [
+    {
+      "code": "MATH 7",
+      "grade": "A"
+    },
+    {
+      "code": "MATH 8",
+      "grade": "B"
+    },
+    {
+      "code": "CS 55",
+      "grade": "A"
+    },
+    {
+      "code": "CS 20A",
+      "grade": "B"
+    },
+    {
+      "code": "PHYSCS 21",
+      "grade": "B"
+    },
+    {
+      "code": "ENGL C1000",
+      "grade": "A"
+    },
+    {
+      "code": "CHEM 11",
+      "grade": "B"
+    }
+  ],
+  "units_completed": 29,
+  "gpa": 3.37,
+  "current_schedule": [
+    {
+      "code": "MATH 13",
+      "days": "MW",
+      "time": "10:00-11:15"
+    },
+    {
+      "code": "CS 20B",
+      "days": "TTh",
+      "time": "2:00-3:50"
+    }
+  ],
+  "major_interest": "cse_computer_science_bs"
+}

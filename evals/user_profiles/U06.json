@@ -1,0 +1,45 @@
+{
+  "id": "U06",
+  "courses": [
+    {
+      "code": "ENGL C1000",
+      "grade": "A"
+    },
+    {
+      "code": "ENGL 31",
+      "grade": "A"
+    },
+    {
+      "code": "AHIS 1",
+      "grade": "A"
+    },
+    {
+      "code": "ECON 1",
+      "grade": "A"
+    },
+    {
+      "code": "MATH 28",
+      "grade": "B"
+    },
+    {
+      "code": "MATH 11",
+      "grade": "A"
+    },
+    {
+      "code": "COM ST 20",
+      "grade": "A"
+    },
+    {
+      "code": "ANTHRO 1",
+      "grade": "A"
+    },
+    {
+      "code": "CHNESE 2",
+      "grade": "B"
+    }
+  ],
+  "units_completed": 33,
+  "gpa": 3.69,
+  "current_schedule": [],
+  "major_interest": "political_science_ba"
+}

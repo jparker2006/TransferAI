@@ -1,0 +1,47 @@
+{
+  "id": "U03",
+  "courses": [
+    {
+      "code": "PSYCH 2",
+      "grade": "A"
+    },
+    {
+      "code": "PSYCH 7",
+      "grade": "A"
+    },
+    {
+      "code": "MATH 11",
+      "grade": "B"
+    },
+    {
+      "code": "BIOL 21",
+      "grade": "B"
+    },
+    {
+      "code": "BIOL 22",
+      "grade": "B"
+    },
+    {
+      "code": "CHEM 10",
+      "grade": "C"
+    },
+    {
+      "code": "ENGL C1000",
+      "grade": "A"
+    },
+    {
+      "code": "ANTHRO 1",
+      "grade": "A"
+    }
+  ],
+  "units_completed": 30,
+  "gpa": 3.23,
+  "current_schedule": [
+    {
+      "code": "MATH 7",
+      "days": "MWF",
+      "time": "9:00-9:50"
+    }
+  ],
+  "major_interest": "psychology_bs"
+}
