@@ -1133,26 +1133,36 @@ const LandingPage: React.FC = () => {
       </section>
 
       {/* Transfer Outcomes Section */}
-      <section className="py-24 px-8 max-w-7xl mx-auto" aria-label="Student success statistics and outcomes">
-        <motion.div
-          className="text-center mb-16"
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-        >
-          <h2 className="text-4xl md:text-6xl font-semibold text-white leading-tight mb-6">
-            Built to Get You{' '}
-            <span className="bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent">
-              Admitted
-            </span>
-          </h2>
-          <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-            Join hundreds of CCC students who've successfully transferred to their dream UC schools with Advisity's guidance
-          </p>
-        </motion.div>
+      <section className="py-24 px-8 relative overflow-hidden" aria-label="Student success statistics and outcomes">
+        {/* Gradient Background */}
+        <div className="absolute inset-0 bg-gradient-to-br from-emerald-900/10 via-transparent to-blue-900/10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-transparent via-emerald-950/5 to-transparent" />
         
-        <StatsGrid />
+        {/* Floating background elements */}
+        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-gradient-to-br from-emerald-500/5 to-blue-500/5 rounded-full blur-3xl" />
+        <div className="absolute bottom-1/4 right-1/4 w-48 h-48 bg-gradient-to-br from-blue-500/5 to-emerald-500/5 rounded-full blur-3xl" />
+        
+        <div className="max-w-7xl mx-auto relative">
+          <motion.div
+            className="text-center mb-16"
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+          >
+            <h2 className="text-4xl md:text-6xl font-semibold text-white leading-tight mb-6">
+              Built to Get You{' '}
+              <span className="bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent">
+                Admitted
+              </span>
+            </h2>
+            <p className="text-slate-400 text-lg max-w-2xl mx-auto">
+              Join hundreds of CCC students who've successfully transferred to their dream UC schools with Advisity's guidance
+            </p>
+          </motion.div>
+          
+          <StatsGrid />
+        </div>
       </section>
 
       {/* Live Advisor Chat Preview Section */}
@@ -1175,8 +1185,7 @@ const LandingPage: React.FC = () => {
               </span>
             </h2>
             <p className="text-slate-400 text-lg leading-relaxed">
-              Get instant, accurate answers to your transfer questions. From IGETC requirements to major prerequisites, 
-              Advisity has the knowledge of a counselor available 24/7.
+              Get instant, accurate answers to your transfer questions. Always up-to-date with official requirements.
             </p>
             
             <div className="space-y-4">
@@ -1184,19 +1193,19 @@ const LandingPage: React.FC = () => {
                 <svg className="w-5 h-5 text-emerald-400" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                 </svg>
-                <span>Instant answers backed by ASSIST data</span>
+                <span>ASSIST data-backed answers</span>
               </div>
               <div className="flex items-center space-x-3 text-white/80">
                 <svg className="w-5 h-5 text-emerald-400" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                 </svg>
-                <span>Personalized to your transcript</span>
+                <span>Personalized to your courses</span>
               </div>
               <div className="flex items-center space-x-3 text-white/80">
                 <svg className="w-5 h-5 text-emerald-400" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                 </svg>
-                <span>Available whenever you need help</span>
+                <span>Available 24/7</span>
               </div>
             </div>
 
@@ -1522,26 +1531,26 @@ const LandingPage: React.FC = () => {
           {/* Simplified Data Sources */}
           <div className="grid md:grid-cols-2 gap-8 mb-16 relative">
 
-            <motion.div
+              <motion.div
               className="relative p-8 rounded-3xl bg-gradient-to-br from-white/5 to-white/10 border border-white/20 text-center group"
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
+                viewport={{ once: true }}
               transition={{ duration: 0.8 }}
               whileHover={{ scale: 1.02, borderColor: "rgba(16, 185, 129, 0.3)" }}
-            >
+              >
               {/* Animated border glow */}
-              <motion.div
+                    <motion.div
                 className="absolute inset-0 rounded-3xl bg-gradient-to-r from-emerald-500/20 via-transparent to-emerald-500/20"
-                animate={{
+                      animate={{ 
                   opacity: [0, 0.5, 0]
-                }}
-                transition={{
+                      }}
+                      transition={{
                   duration: 3,
-                  repeat: Infinity,
-                  ease: "easeInOut"
-                }}
-              />
+                        repeat: Infinity,
+                        ease: "easeInOut"
+                      }}
+                    />
               
               {/* Data particles */}
               {[...Array(4)].map((_, i) => (
