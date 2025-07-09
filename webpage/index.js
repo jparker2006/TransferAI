@@ -392,11 +392,18 @@ const DashboardPage = () => {
   sPage += "<button class='DashboardHeroButton' onClick='AIChatPage()'>Open AI Chat</button>";
   sPage += "</div>";
 
-  // Core Feature Grid (Only 3)
+  // Progress Section
+  sPage += "<div class='ProgressSection'>";
+  sPage += "<h3 class='ProgressSectionTitle'>Your Transfer Progress</h3>";
+  sPage += ProgressCard();
+  sPage += "</div>";
+
+  // Core Feature Grid (4 cards now)
   sPage += "<div class='DashboardFeatureGrid'>";
   sPage += FeatureCard("Check Class Transferability", "See if your classes transfer to UCs", "ClassCheckerPage()");
   sPage += FeatureCard("Build Your Roadmap", "Create a semester-by-semester transfer plan", "RoadmapBuilderPage()");
-//   sPage += FeatureCard("Saved Plans", "Access your saved class plans", "SavedPlansPage()");
+  sPage += FeatureCard("Track Progress", "Monitor your completion across UC requirements", "ProgressTrackerPage()");
+  sPage += FeatureCard("Compare UCs", "Side-by-side requirement comparison", "UCComparisonPage()");
   sPage += "</div>";
 
   sPage += "</div>"; // DashboardBody
@@ -417,6 +424,57 @@ const FeatureCard = (title, desc, onClick, isPro = false) => {
   `;
 };
 
+const ProgressCard = () => {
+  return `
+    <div class='ProgressCard'>
+      <div class='ProgressCardHeader'>
+        <div class='ProgressCardInfo'>
+          <h4 class='ProgressCardTitle'>UC San Diego - Computer Science</h4>
+          <p class='ProgressCardSubtitle'>Your target transfer goal</p>
+        </div>
+        <div class='ProgressBadge'>68% Complete</div>
+      </div>
+      
+      <div class='ProgressBars'>
+        <div class='ProgressBarGroup'>
+          <div class='ProgressBarHeader'>
+            <span class='ProgressBarLabel'>IGETC Requirements</span>
+            <span class='ProgressBarValue'>12/15 completed</span>
+          </div>
+          <div class='ProgressBarTrack'>
+            <div class='ProgressBarFill' style='width: 80%'></div>
+          </div>
+        </div>
+        
+        <div class='ProgressBarGroup'>
+          <div class='ProgressBarHeader'>
+            <span class='ProgressBarLabel'>Major Prerequisites</span>
+            <span class='ProgressBarValue'>6/10 completed</span>
+          </div>
+          <div class='ProgressBarTrack'>
+            <div class='ProgressBarFill' style='width: 60%'></div>
+          </div>
+        </div>
+        
+        <div class='ProgressBarGroup'>
+          <div class='ProgressBarHeader'>
+            <span class='ProgressBarLabel'>UC Transferable Units</span>
+            <span class='ProgressBarValue'>58/60 completed</span>
+          </div>
+          <div class='ProgressBarTrack'>
+            <div class='ProgressBarFill' style='width: 97%'></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class='ProgressCardActions'>
+        <button class='ProgressActionBtn' onclick='ProgressTrackerPage()'>View Details</button>
+        <button class='ProgressActionBtn secondary' onclick='AIChatPage()'>Ask AI</button>
+      </div>
+    </div>
+  `;
+};
+
 
 // End Dashboard Page Stuff
 
@@ -425,6 +483,51 @@ const ClassCheckerPage = () => {
     let s = "<div class='MainContainer'>";
     s += NavBar(Page.DASHBOARD);
     s += "<div class='SimplePage'><h2>Class Checker Page</h2><p>Coming soon...</p></div>";
+    s += "</div>";
+    document.getElementById("Body").innerHTML = s;
+};
+
+const RoadmapBuilderPage = () => {
+    let s = "<div class='MainContainer'>";
+    s += NavBar(Page.DASHBOARD);
+    s += "<div class='SimplePage'><h2>Roadmap Builder</h2><p>Coming soon...</p></div>";
+    s += "</div>";
+    document.getElementById("Body").innerHTML = s;
+};
+
+const ProgressTrackerPage = () => {
+    let s = "<div class='MainContainer'>";
+    s += NavBar(Page.DASHBOARD);
+    s += "<div class='ProgressTrackerPage'>";
+    s += "<div class='PageHeader'>";
+    s += "<h1 class='PageTitle'>Transfer Progress Tracker</h1>";
+    s += "<p class='PageSubtitle'>Monitor your completion across UC requirements</p>";
+    s += "</div>";
+    
+    s += "<div class='ProgressOverview'>";
+    s += "<div class='OverviewCard overall'>";
+    s += "<div class='OverviewHeader'>";
+    s += "<h3>Overall Progress</h3>";
+    s += "<div class='OverviewPercentage'>68%</div>";
+    s += "</div>";
+    s += "<div class='CircularProgress'>";
+    s += "<svg class='CircularProgressSvg' viewBox='0 0 120 120'>";
+    s += "<circle class='CircularProgressTrack' cx='60' cy='60' r='54' fill='none' stroke='#e5e7eb' stroke-width='12'></circle>";
+    s += "<circle class='CircularProgressFill' cx='60' cy='60' r='54' fill='none' stroke='#8DAC50' stroke-width='12' stroke-dasharray='339.292' stroke-dashoffset='108.573'></circle>";
+    s += "</svg>";
+    s += "</div>";
+    s += "</div>";
+    s += "</div>";
+    
+    s += "</div>";
+    s += "</div>";
+    document.getElementById("Body").innerHTML = s;
+};
+
+const UCComparisonPage = () => {
+    let s = "<div class='MainContainer'>";
+    s += NavBar(Page.DASHBOARD);
+    s += "<div class='SimplePage'><h2>UC Comparison Tool</h2><p>Coming soon...</p></div>";
     s += "</div>";
     document.getElementById("Body").innerHTML = s;
 };

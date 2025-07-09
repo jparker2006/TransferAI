@@ -217,13 +217,26 @@ input:focus, textarea:focus {
 
 /* Full hero section container */
 .HeroContainer {
-    min-height: 240px; /* Fixed height */
-    background-color: #FBFBFB; /* Matches body background */
+    min-height: 320px; /* Increased height */
+    background: linear-gradient(135deg, #FBFBFB 0%, #F3F4F6 100%); /* Subtle gradient */
     display: flex; /* Center content horizontally and vertically */
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 16px 24px 12px 24px; /* Padding for smaller screens */
+    padding: 32px 24px 24px 24px; /* Increased padding */
+    position: relative;
+    overflow: hidden;
+}
+
+.HeroContainer::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 60%;
+    height: 200%;
+    background: radial-gradient(ellipse, rgba(141, 172, 80, 0.05) 0%, transparent 70%);
+    animation: float 8s ease-in-out infinite;
 }
 
 /* Wrapper for headline, subtext, and CTA */
@@ -231,7 +244,9 @@ input:focus, textarea:focus {
     max-width: 720px; /* Keeps content narrow and readable */
     display: flex;
     flex-direction: column;
-    gap: 14px; /* Spacing between elements */
+    gap: 20px; /* Increased spacing between elements */
+    position: relative;
+    z-index: 1; /* Ensure content appears above background animation */
 }
 
 /* Headline styling */
@@ -252,19 +267,38 @@ input:focus, textarea:focus {
 /* Call-to-action button */
 .HeroCTA {
     font-size: 18px;
-    font-weight: 500;
-    padding: 14px 32px;
+    font-weight: 600;
+    padding: 16px 40px;
     border: none;
-    border-radius: 8px;
-    background-color: #8DAC50; /* Your primary green */
+    border-radius: 12px;
+    background: linear-gradient(135deg, #8DAC50 0%, #7DA444 100%);
     color: #ffffff;
     cursor: pointer;
-    transition: background-color 0.2s ease;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(141, 172, 80, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.HeroCTA::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s ease;
 }
 
 /* CTA hover state */
 .HeroCTA:hover {
-    background-color: #7DA444;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(141, 172, 80, 0.4);
+}
+
+.HeroCTA:hover::before {
+    left: 100%;
 }
 
 .HeroTitle,
@@ -1920,4 +1954,302 @@ body.sidebar-collapsed .SidebarHeader {
   min-height: 0;
   padding: 0;
   overflow: hidden;
+}
+
+/* ========== NEW FEATURES STYLES ========== */
+
+/* Progress Section */
+.ProgressSection {
+  margin: 32px 0;
+  width: 100%;
+}
+
+.ProgressSectionTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+/* Progress Card */
+.ProgressCard {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.ProgressCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.ProgressCardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.ProgressCardInfo {
+  flex: 1;
+}
+
+.ProgressCardTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+  margin: 0 0 4px 0;
+}
+
+.ProgressCardSubtitle {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 0;
+}
+
+.ProgressBadge {
+  background: linear-gradient(135deg, #8DAC50 0%, #7DA444 100%);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(141, 172, 80, 0.3);
+}
+
+/* Progress Bars */
+.ProgressBars {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.ProgressBarGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ProgressBarHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ProgressBarLabel {
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.ProgressBarValue {
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.ProgressBarTrack {
+  width: 100%;
+  height: 8px;
+  background-color: #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.ProgressBarFill {
+  height: 100%;
+  background: linear-gradient(90deg, #8DAC50 0%, #7DA444 100%);
+  border-radius: 4px;
+  transition: width 0.8s ease;
+}
+
+/* Progress Card Actions */
+.ProgressCardActions {
+  display: flex;
+  gap: 12px;
+}
+
+.ProgressActionBtn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex: 1;
+}
+
+.ProgressActionBtn:not(.secondary) {
+  background: linear-gradient(135deg, #8DAC50 0%, #7DA444 100%);
+  color: white;
+}
+
+.ProgressActionBtn:not(.secondary):hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(141, 172, 80, 0.3);
+}
+
+.ProgressActionBtn.secondary {
+  background: transparent;
+  color: #6b7280;
+  border: 1px solid #d1d5db;
+}
+
+.ProgressActionBtn.secondary:hover {
+  background-color: #f9fafb;
+  border-color: #8DAC50;
+  color: #8DAC50;
+}
+
+/* Progress Tracker Page */
+.ProgressTrackerPage {
+  padding: 24px 0;
+  width: 100%;
+  max-width: 1080px;
+}
+
+.PageHeader {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.PageTitle {
+  font-size: 36px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0 0 8px 0;
+}
+
+.PageSubtitle {
+  font-size: 18px;
+  color: #6b7280;
+  margin: 0;
+}
+
+.ProgressOverview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.OverviewCard {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+.OverviewCard.overall {
+  background: linear-gradient(135deg, #8DAC50 0%, #7DA444 100%);
+  color: white;
+}
+
+.OverviewHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.OverviewHeader h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.OverviewPercentage {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.CircularProgress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CircularProgressSvg {
+  width: 120px;
+  height: 120px;
+  transform: rotate(-90deg);
+}
+
+.CircularProgressTrack {
+  opacity: 0.3;
+}
+
+.CircularProgressFill {
+  transition: stroke-dashoffset 1s ease;
+}
+
+/* Enhanced Feature Card Styling */
+.FeatureCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #8DAC50 0%, #7DA444 100%);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.FeatureCard:hover::before {
+  transform: scaleX(1);
+}
+
+/* Enhanced Hero Section Styling */
+.DashboardHeroCard::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(180deg); }
+}
+
+/* Enhanced Mobile Responsiveness */
+@media (max-width: 768px) {
+  .ProgressCard {
+    padding: 20px;
+  }
+  
+  .ProgressCardActions {
+    flex-direction: column;
+  }
+  
+  .DashboardFeatureGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .ProgressBars {
+    gap: 16px;
+  }
+  
+  .PageTitle {
+    font-size: 28px;
+  }
+  
+  .PageSubtitle {
+    font-size: 16px;
+  }
 }
